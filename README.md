@@ -2,7 +2,7 @@
 
 A personal tech blog and portfolio site for **Veeresh Bikkaneti** — Principal QA Architect | AI Test Architect | Product Owner | Scrum Master with 20+ years in enterprise quality engineering.
 
-🌐 **Live Site:** [techtalknotdev.dev](https://techtalknotdev.dev)
+🌐 **Live Site:** [veeresh.is-a.dev](https://veeresh.is-a.dev)
 
 ---
 
@@ -178,11 +178,13 @@ The site auto-deploys on every push to `main` via GitHub Actions.
 
 1. Push to `main` branch
 2. GitHub Actions builds the Jekyll site
-3. Deploys to GitHub Pages at `techtalknotdev.dev`
-4. Enable GitHub Pages in repository Settings → Pages → Source: GitHub Actions
+3. Deploys to GitHub Pages at `veeresh.is-a.dev`
+4. *(One-time setup)* Enable GitHub Pages in repository Settings → Pages → Source: **GitHub Actions**
+5. The custom domain (`veeresh.is-a.dev`) is wired up automatically via the `CNAME` file at the repo root — no DNS changes needed in the GitHub UI
 
 ---
 
+---
 ## Content Categories
 
 | Category | Description | Example Tags |
