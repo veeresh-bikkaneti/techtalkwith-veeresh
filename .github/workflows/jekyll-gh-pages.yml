@@ -30,6 +30,9 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Fix platform mismatch
+        run: bundle lock --add-platform x86_64-linux
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
