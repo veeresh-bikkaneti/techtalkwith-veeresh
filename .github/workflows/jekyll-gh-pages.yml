@@ -28,10 +28,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true
 
-      - name: Fix platform mismatch
-        run: bundle lock --add-platform x86_64-linux
+      - name: Fix platform and install dependencies
+        run: |
+          bundle lock --add-platform x86_64-linux
+          bundle install
 
       - name: Setup Pages
         id: pages
