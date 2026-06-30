@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#08090d"/>
+      <stop offset="100%" style="stop-color:#0e1017"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="50%" style="stop-color:#34d399"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#34d399;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Ambient glow -->
+  <circle cx="200" cy="150" r="300" fill="url(#glow)" opacity="0.5"/>
+  <circle cx="1000" cy="500" r="250" fill="#a78bfa" opacity="0.05"/>
+  
+  <!-- Accent line -->
+  <rect x="80" y="180" width="120" height="4" rx="2" fill="url(#accent)"/>
+  
+  <!-- Title -->
+  <text x="80" y="250" font-family="Inter, -apple-system, sans-serif" font-size="52" font-weight="800" fill="#edf0f7" letter-spacing="-1">Tech Talk with Veeresh</text>
+  
+  <!-- Subtitle -->
+  <text x="80" y="310" font-family="Inter, -apple-system, sans-serif" font-size="24" fill="#b8c2d0">Principal QA Architect · AI Test Architect</text>
+  
+  <!-- Description -->
+  <text x="80" y="360" font-family="Inter, -apple-system, sans-serif" font-size="20" fill="#8b95a8">20+ Years in Enterprise Quality Engineering</text>
+  
+  <!-- Bottom accent line -->
+  <rect x="80" y="550" width="1040" height="1" fill="#22d3ee" opacity="0.3"/>
+  
+  <!-- Domain -->
+  <text x="80" y="580" font-family="JetBrains Mono, monospace" font-size="16" fill="#22d3ee" opacity="0.8">techtalknotdev.dev</text>
+  
+  <!-- Terminal prompt decoration -->
+  <text x="80" y="155" font-family="JetBrains Mono, monospace" font-size="18" fill="#34d399" font-weight="700">&gt;</text>
+</svg>

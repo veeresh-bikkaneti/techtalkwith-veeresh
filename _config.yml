@@ -1,0 +1,72 @@
+# Site Settings
+title: "Tech Talk with Veeresh"
+description: "Principal QA Architect · AI Test Architect · 20+ Years in Enterprise Quality Engineering. AI-driven test strategy, automation frameworks, and software quality insights."
+url: "https://techtalknotdev.dev"
+baseurl: ""
+author: "Veeresh Bikkaneti"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Site Navigation
+header_pages:
+  - about.md
+  - blog/index.html
+
+# SEO & Open Graph
+locale: en_US
+twitter:
+  username: "sdetbaveer"
+  card: "summary_large_image"
+
+social:
+  name: Veeresh Bikkaneti
+  links:
+    - https://www.linkedin.com/in/sdetbaveer/
+    - https://github.com/veeresh-bikkaneti
+    - https://medium.com/@veeresh.esh
+
+# Open Graph defaults
+image: /assets/images/og-image.svg
+theme_color: "#06b6d4"
+
+# Footer
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github-square
+      url: https://github.com/veeresh-bikkaneti
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/sdetbaveer/
+    - label: Medium
+      icon: fab fa-fw fa-medium
+      url: https://medium.com/@veeresh.esh
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:resume.qasdet@gmail.com
+    - label: RSS Feed
+      icon: fas fa-fw fa-rss
+      url: /feed.xml
