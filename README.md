@@ -2,7 +2,7 @@
 
 A personal tech blog and portfolio site for **Veeresh Bikkaneti** — Principal QA Architect | AI Test Architect | Product Owner | Scrum Master with 20+ years in enterprise quality engineering.
 
-🌐 **Live Site:** [veeresh.is-a.dev](https://veeresh.is-a.dev)
+🌐 **Live Site:** [veeresh-bikkaneti.github.io/knowledgeshare](https://veeresh-bikkaneti.github.io/knowledgeshare/)
 
 ---
 
@@ -178,9 +178,9 @@ The site auto-deploys on every push to `main` via GitHub Actions.
 
 1. Push to `main` branch
 2. GitHub Actions builds the Jekyll site
-3. Deploys to GitHub Pages at `veeresh.is-a.dev`
+3. Deploys to GitHub Pages at `veeresh-bikkaneti.github.io/knowledgeshare/` (canonical right now; `veeresh.is-a.dev` is the planned primary custom domain once `is-a-dev/register` merge is approved)
 4. *(One-time setup)* Enable GitHub Pages in repository Settings → Pages → Source: **GitHub Actions**
-5. The custom domain (`veeresh.is-a.dev`) is wired up automatically via the `CNAME` file at the repo root — no DNS changes needed in the GitHub UI
+5. The custom domain (`veeresh.is-a.dev`) is wired via the `CNAME` file. While the `is-a-dev/register` upstream PR is pending, the project-path URL above is the canonical production URL. When `is-a-dev/register` merges, flip `url` back in `_config.yml` and re-enable Pages → Custom domain in the repo UI.
 
 ---
 

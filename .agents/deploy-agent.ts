@@ -21,8 +21,9 @@ const definition: AgentDefinition = {
 
     Deployment Target:
     - GitHub Pages (primary)
-    - Custom domain: techtalknotdev.dev
-    - CNAME file configured
+    - Canonical URL (current): https://veeresh-bikkaneti.github.io/knowledgeshare/
+    - Planned custom domain: veeresh.is-a.dev (pending is-a-dev/register upstream PR merge)
+    - CNAME file present at repo root
 
     Pre-deployment Steps:
     1. Verify review-agent has passed
@@ -34,11 +35,11 @@ const definition: AgentDefinition = {
     Deployment Flow:
     1. Push to main branch triggers GitHub Actions
     2. GitHub Actions builds Jekyll site
-    3. Deploys to GitHub Pages at techtalknotdev.dev
+    3. Deploys to GitHub Pages at veeresh-bikkaneti.github.io/knowledgeshare/
     4. Verify deployment health after push
 
     Post-deployment:
-    1. Verify site responds at techtalknotdev.dev
+    1. Verify site responds at veeresh-bikkaneti.github.io/knowledgeshare/
     2. Check all pages load correctly
     3. Verify contact form works (if applicable)
     4. Report deployment status

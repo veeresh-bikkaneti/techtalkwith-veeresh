@@ -20,7 +20,7 @@ A Jekyll-based developer portfolio and technical blog showcasing QA engineering 
 - Styling: Custom CSS (dark theme with glassmorphism, gradient accents)
 - Syntax Highlighting: Rouge (Monokai theme)
 - Deployment: GitHub Pages
-- Custom Domain: techtalknotdev.dev
+- Custom Domain: veeresh.is-a.dev (planned); current canonical URL: veeresh-bikkaneti.github.io/knowledgeshare
 - Fonts: Inter (sans), JetBrains Mono (mono)
 - Icons: Font Awesome 6.5
 
@@ -37,11 +37,11 @@ A Jekyll-based developer portfolio and technical blog showcasing QA engineering 
 - Docker serve: docker run -d --name jekyll-preview -v "C:/path/to/knowledgeshare:/srv/jekyll" -p 4000:4000 jekyll/jekyll sh -c 'bundle install && bundle exec jekyll serve --host 0.0.0.0'
 
 ## Key Files
-- _config.yml — Jekyll configuration (url: https://techtalknotdev.dev)
+- _config.yml — Jekyll configuration (url: https://veeresh-bikkaneti.github.io/knowledgeshare; previously veeresh.is-a.dev while upstream PR was pending)
 - index.md — Homepage with hero, latest posts, open source projects
 - about.md — Full portfolio with resume, skills, experience, certifications
 - blog/index.html — Blog listing page (must use .html, not .md)
-- CNAME — Custom domain configuration (techtalknotdev.dev)
+- CNAME — Custom domain configuration (veeresh.is-a.dev — kept pending upstream PR merge; not currently active because Pages custom-domain field is unconfigured)
 - Gemfile — Ruby dependencies (github-pages, webrick, jekyll-feed, jekyll-seo-tag)
 
 ## Conventions
