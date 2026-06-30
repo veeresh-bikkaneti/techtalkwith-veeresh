@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Browser Automation Trap: Why Your Tests Flake and Which Framework Actually Fixes It"
-date: 2026-07-14
+date: 2026-06-14
 categories: [automation, frameworks]
 tags: [playwright, cypress, selenium, browser-automation, flaky-tests, distributed-systems]
 excerpt: "I've used this analogy in interviews and it usually lands. Picture you're testing whether a restaurant can deliver a meal correctly:"

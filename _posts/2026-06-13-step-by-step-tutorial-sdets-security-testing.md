@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step-by-Step Tutorial for SDETs to Learn Security Testing"
-date: 2026-07-13
+date: 2026-06-13
 categories: [best-practices]
 tags: [security-testing, sdet, owasp, penetration-testing, learning-path]
 excerpt: "Below is a UML flowchart illustrating the application development and testing cycle, highlighting where security testing fits in: ***"

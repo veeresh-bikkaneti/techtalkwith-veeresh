@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mock Servers vs Contract Testing"
-date: 2026-07-09
+date: 2026-06-09
 categories: [automation, best-practices]
 tags: [contract-testing, mock-testing, pact, api, microservices]
 excerpt: "In the context of contract testing, a **contract** is a formal agreement that specifies how two services (a consumer and a provider) will interact. This contract includes details like:"

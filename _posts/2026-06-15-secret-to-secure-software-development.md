@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Secret to Secure Software Development: An SDET's Comprehensive Guide"
-date: 2026-07-15
+date: 2026-06-15
 categories: [best-practices]
 tags: [security-testing, sdet, secret-management, secure-coding, csharp, java]
 excerpt: "As a seasoned SDET with extensive experience in Java and C#, I've learned that the cornerstone of secure software development lies in robust secret management. Today, I'm sharing a comprehensive guide on best practices and strategies to secure your sensitive information and..."

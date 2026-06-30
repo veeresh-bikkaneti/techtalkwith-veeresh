@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modernizing Your Skills: Embracing GraphQL for Efficient Data Management"
-date: 2026-07-10
+date: 2026-06-10
 categories: [career, best-practices]
 tags: [graphql, api-modernization, skills, learning-path, data-management]
 excerpt: "In today's fast-paced tech landscape, staying relevant requires continuous learning and adaptation. As a software tester with experience in Quality Assurance, Scrum Management, and Business Analysis, I realized the need to modernize my skill set to keep up with evolving..."

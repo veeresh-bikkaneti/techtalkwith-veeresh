@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shift Left Using a Regression Suite: A Practical Approach"
-date: 2026-07-12
+date: 2026-06-12
 categories: [best-practices, devops]
 tags: [shift-left, regression-testing, test-strategy, devops, agile]
 excerpt: "Incorporate the **regression suite** developed for **Quality Control** (QC) to ensure **Quality Assurance** (QA) by embedding it early in the development cycle when creating or adding new features to an existing product."

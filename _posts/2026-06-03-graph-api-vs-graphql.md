@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Graph API vs GraphQL: Choosing the Right API for Your Data"
-date: 2026-07-03
+date: 2026-06-03
 categories: [best-practices]
 tags: [api, graphql, rest, microsoft-graph]
 excerpt: "To connect Graph API to REST or WCF using an ACL:"

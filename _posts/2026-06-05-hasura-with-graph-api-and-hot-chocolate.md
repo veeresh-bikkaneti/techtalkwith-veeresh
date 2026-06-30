@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why and When to Use Hasura with Graph API and Hot Chocolate"
-date: 2026-07-05
+date: 2026-06-05
 categories: [automation, frameworks]
 tags: [graphql, hasura, dotnet, hot-chocolate, api]
 excerpt: "Imagine you are building a movie database application. You want to query data from multiple sources, such as a SQL database for movie details and a REST API for actor biographies. Here's how you can use Hasura and Hot Chocolate together:"

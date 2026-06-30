@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Framework Development Guide for Selenium C#"
-date: 2026-07-11
+date: 2026-06-11
 categories: [automation, frameworks]
 tags: [selenium, dotnet, csharp, framework-design, page-object-model, bdd]
 excerpt: "This comprehensive guide provides an excellent roadmap for developing a robust Selenium C# framework. It covers all the essential aspects of building a modern, scalable, and maintainable test automation solution. Here's a summary of the key points and some additional insights:"

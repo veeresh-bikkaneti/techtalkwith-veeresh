@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mastering .NET 8.0 with Playwright: A Comprehensive Framework Building Guide"
-date: 2026-07-08
+date: 2026-06-08
 categories: [automation, frameworks]
 tags: [playwright, dotnet, csharp, framework-design, dependency-injection, nunit]
 excerpt: "Open your terminal or command prompt and run the following commands to create a new class library project:"

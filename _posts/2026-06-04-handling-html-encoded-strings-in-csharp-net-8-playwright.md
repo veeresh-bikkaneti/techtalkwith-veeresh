@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handling HTML Encoded Strings in C# .NET 8.0 with Microsoft Playwright"
-date: 2026-07-04
+date: 2026-06-04
 categories: [automation, frameworks]
 tags: [playwright, dotnet, csharp, html-encoding, test-utilities]
 excerpt: "When working with web applications, it's common to encounter HTML encoded text in the UI that needs to be decoded and processed. For example, you might have a list of product descriptions displayed on a webpage and a corresponding list of descriptions in a JSON file. The task is..."

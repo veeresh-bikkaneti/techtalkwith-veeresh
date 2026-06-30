@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comprehensive Guide to Testing in SDLC"
-date: 2026-07-02
+date: 2026-06-02
 categories: [best-practices, frameworks]
 tags: [sdlc, test-strategy, performance-testing, security-testing, regression-testing, load-testing]
 excerpt: "## Stages in SDLC ### Requirement Analysis - Acceptance Criteria: Conditions that a software product must satisfy to be accepted by a user or customer. - Use Case: A description of how users will interact with the system. ### Design - Test Plan: A document describing the scope..."

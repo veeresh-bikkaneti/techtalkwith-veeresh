@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Software Testing Pyramid: A Developer's Secret Weapon"
-date: 2026-07-16
+date: 2026-06-16
 categories: [best-practices]
 tags: [test-pyramid, test-strategy, unit-testing, integration-testing, e2e-testing]
 excerpt: "Ever felt overwhelmed by the sheer complexity of software testing? 😵‍💫 You're not alone. As developers, we often struggle to balance thorough testing with tight deadlines and limited resources. ⏳ Traditional approaches often lead to a chaotic mix of unit tests and manual checks..."
