@@ -1,5 +1,6 @@
 # Build and deploy Jekyll site to GitHub Pages
-# Site: https://veeresh-bikkaneti.github.io/knowledgeshare  (canonical); veeresh.is-a.dev planned custom domain (pending upstream PR)
+# Site: https://veeresh-bikkaneti.github.io/knowledgeshare
+# Canonical production URL (no custom domain in use).
 name: Deploy Jekyll Site
 
 on:

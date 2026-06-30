@@ -1,6 +1,10 @@
 # Site Settings
 title: "Tech Talk with Veeresh"
 description: "Principal QA Architect · AI Test Architect · 20+ Years in Enterprise Quality Engineering. AI-driven test strategy, automation frameworks, and software quality insights."
+
+# Production URL: served from the GitHub Pages project path (no custom domain).
+# url + baseurl together form https://veeresh-bikkaneti.github.io/knowledgeshare/.
+# An earlier veeresh.is-a.dev custom-domain plan was abandoned because the DNS server setup was not successful (the upstream is-a-dev/register PR was never filed).
 url: "https://veeresh-bikkaneti.github.io"
 baseurl: "/knowledgeshare"
 author: "Veeresh Bikkaneti"
@@ -10,7 +14,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
 include:
-  - CNAME
   - .nojekyll
 
 kramdown:

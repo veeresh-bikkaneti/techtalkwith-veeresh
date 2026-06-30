@@ -21,16 +21,14 @@ const definition: AgentDefinition = {
 
     Deployment Target:
     - GitHub Pages (primary)
-    - Canonical URL (current): https://veeresh-bikkaneti.github.io/knowledgeshare/
-    - Planned custom domain: veeresh.is-a.dev (pending is-a-dev/register upstream PR merge)
-    - CNAME file present at repo root
+    - Canonical URL: https://veeresh-bikkaneti.github.io/knowledgeshare/
+    - No custom domain — site is served from the project path.
 
     Pre-deployment Steps:
     1. Verify review-agent has passed
     2. Run: cd knowledgeshare && bundle exec jekyll build
     3. Check _site/ directory was generated
     4. Verify no build errors or warnings
-    5. Check CNAME file is present and correct
 
     Deployment Flow:
     1. Push to main branch triggers GitHub Actions
@@ -49,9 +47,8 @@ const definition: AgentDefinition = {
     1. Verify review-agent has passed (read its output)
     2. Run Jekyll build and check for errors
     3. If build fails, report the error and stop
-    4. Verify CNAME file is correct
-    5. Report deployment readiness status
-    6. Provide instructions for pushing to GitHub
+    4. Report deployment readiness status
+    5. Provide instructions for pushing to GitHub
   `,
 }
 

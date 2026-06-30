@@ -174,13 +174,13 @@ await page.GotoAsync("https://example.com");
 
 The site auto-deploys on every push to `main` via GitHub Actions.
 
-### Deployment Flow
+**One-time setup.** Enable GitHub Pages in repository Settings → Pages → Source: **GitHub Actions**.
+
+Then, on every push to `main`:
 
 1. Push to `main` branch
 2. GitHub Actions builds the Jekyll site
-3. Deploys to GitHub Pages at `veeresh-bikkaneti.github.io/knowledgeshare/` (canonical right now; `veeresh.is-a.dev` is the planned primary custom domain once `is-a-dev/register` merge is approved)
-4. *(One-time setup)* Enable GitHub Pages in repository Settings → Pages → Source: **GitHub Actions**
-5. The custom domain (`veeresh.is-a.dev`) is wired via the `CNAME` file. While the `is-a-dev/register` upstream PR is pending, the project-path URL above is the canonical production URL. When `is-a-dev/register` merges, flip `url` back in `_config.yml` and re-enable Pages → Custom domain in the repo UI.
+3. Deploys to GitHub Pages at `https://veeresh-bikkaneti.github.io/knowledgeshare/` — canonical production URL (project path; no custom domain)
 
 ---
 
