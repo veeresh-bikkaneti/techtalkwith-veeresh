@@ -154,6 +154,15 @@
     }
   });
 
+  // Pause animation when tab is hidden to prevent memory leak
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+      if (animFrame) cancelAnimationFrame(animFrame);
+    } else {
+      animate();
+    }
+  });
+
   // Respect reduced motion
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     resize();
