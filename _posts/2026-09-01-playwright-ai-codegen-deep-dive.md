@@ -382,6 +382,13 @@ flowchart TD
     REVIEW --> CI["🧪 Commit to CI/CD"]
 ```
 
+## Sources & Further Reading
+
+1. [Playwright Codegen Documentation](https://playwright.dev/docs/codegen) — official guide to the test generator, including `--ai` mode
+2. [Playwright .NET API Reference](https://playwright.dev/dotnet/docs/intro) — C# API docs for the locator and assertion patterns used throughout
+3. [Model Context Protocol Specification](https://modelcontextprotocol.io/) — the MCP standard that enables the combined AI codegen + MCP debugging workflow in Step 4
+4. [Angie Jones / mcp-selenium](https://github.com/angiejones/mcp-selenium) — the original Selenium MCP server for comparison with Playwright's native `@playwright/mcp`
+
 ## What to Do Next
 
 1. **Try basic AI codegen right now.** Run `npx playwright codegen --ai` against any public website and type "Log in, verify the page title contains Dashboard, then click the first item in the list." Watch the semantic locators appear in real time.

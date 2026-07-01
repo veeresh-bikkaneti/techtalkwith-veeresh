@@ -470,6 +470,13 @@ This post is the 2026 Playwright refresh that connects to four earlier articles 
 | [Playwright .NET Framework Guide (Sep 2024)]({% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) | NUnit + DI + Page Objects + Allure reporting | Page Objects become optional when MCP agents resolve interactable elements dynamically; add `@playwright/mcp` as a parallel testing mode |
 | [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Speed, reliability, multi-browser comparison | Playwright now has MCP + multi-agent orchestration — capabilities Selenium's ecosystem is still building toward |
 
+## Sources & Further Reading
+
+1. [Playwright Documentation](https://playwright.dev/docs/intro) — official guides, API references, and best practices for all languages
+2. [Playwright for .NET](https://playwright.dev/dotnet/docs/intro) — C#-specific API reference used in this post's code examples
+3. [@playwright/mcp on npm](https://www.npmjs.com/package/@playwright/mcp) — the official Playwright MCP server package
+4. [Model Context Protocol Specification](https://modelcontextprotocol.io/) — the open protocol that enables AI agents to control browsers and other tools
+
 ## What to Do Next
 
 1. **Run Step 1–2 right now.** Install Playwright and write the Hello World test. It takes under 3 minutes, and the auto-wait behavior will immediately click — you'll never want to write `Thread.Sleep` again.

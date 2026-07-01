@@ -409,6 +409,13 @@ This guide used C# examples. Here's the equivalent syntax in **Java**, **TypeScr
 
 > **BiDi and network interception** APIs vary by language binding. The C# examples in Step 4 use `driver.Manage().Network` — Java bindings use `devTools` session, while Python/JS use CDP directly. See the [official BiDi docs](https://www.selenium.dev/documentation/webdriver/bidi/) for your language.
 
+## Sources & Further Reading
+
+1. [Selenium WebDriver Documentation](https://www.selenium.dev/documentation/webdriver/) — official guides for all language bindings
+2. [WebDriver BiDi Specification](https://www.selenium.dev/documentation/webdriver/bidi/) — bidirectional WebSocket protocol for real-time browser events
+3. [Selenium Manager](https://www.selenium.dev/documentation/selenium_manager/) — automatic driver binary resolution (no more `chromedriver.exe` hunting)
+4. [Angie Jones / mcp-selenium](https://github.com/angiejones/mcp-selenium) — the original Selenium MCP server, runs via `npx`, exposes 15+ browser automation tools
+
 ## What to Do Next
 
 1. **Run Step 1–2 right now.** Install Selenium on your machine and run the Hello World test. It takes under 2 minutes.

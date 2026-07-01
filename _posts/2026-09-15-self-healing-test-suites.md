@@ -595,6 +595,13 @@ This post used Java examples. Here's the equivalent syntax across **C#**, **Type
 | [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) | Phase 4: self-healing Cypress system (TypeScript) | Phase 4 implemented in Java for Selenium — the pattern is universal across languages and frameworks |
 | [Playwright AI Codegen (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) | Generating tests from natural language | Codegen creates the tests; self-healing keeps them alive — two halves of the autonomous testing pipeline |
 
+## Sources & Further Reading
+
+1. [Selenium Relative Locators](https://www.selenium.dev/documentation/webdriver/elements/locators/#relative-locators) — official docs for the `above()`, `below()`, `near()` API used in Strategy 1
+2. [Chrome DevTools Protocol — Accessibility Domain](https://chromedevtools.github.io/devtools-protocol/tot/Accessibility/) — the CDP API (`Accessibility.getFullAXTree`) that powers the semantic healer in Strategy 2
+3. [Selenium CDP (Chrome DevTools Protocol)](https://www.selenium.dev/documentation/webdriver/bidi/cdp/) — official guide to using CDP sessions from Selenium, the bridge between BiDi and Chrome's native protocol
+4. [Angie Jones / mcp-selenium](https://github.com/angiejones/mcp-selenium) — the MCP server whose accessibility tree query inspired the semantic healing approach
+
 ## What to Do Next
 
 1. **Add Relative Locators today.** It's a zero-dependency change — replace your 5 most brittle CSS selectors with `RelativeLocator.with().below()` / `.near()`. You'll see immediate stability improvement in the next CI run.

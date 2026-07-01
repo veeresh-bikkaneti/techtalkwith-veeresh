@@ -459,6 +459,13 @@ This post used C# examples. Here's the equivalent syntax in **Java**, **TypeScri
 
 > **TypeScript vs JavaScript:** Playwright's TypeScript API uses the same syntax as JavaScript for most operations — the difference is type safety (`const browser: Browser`). Both benefit from Playwright's auto-complete in VS Code.
 
+## Sources & Further Reading
+
+1. [WebDriver BiDi W3C Specification](https://w3c.github.io/webdriver-bidi/) — the W3C standard for bidirectional browser automation
+2. [Chrome DevTools Protocol Documentation](https://chromedevtools.github.io/devtools-protocol/) — the CDP surface Playwright accesses natively and Selenium accesses via BiDi translation
+3. [Playwright CDP Session API](https://playwright.dev/docs/api/class-cdpsession) — official docs for the CDP session used in drag-and-drop and network interception examples
+4. [Selenium WebDriver BiDi Guide](https://www.selenium.dev/documentation/webdriver/bidi/) — official BiDi documentation including network and input domains
+
 ## What to Do Next
 
 1. **Try the drag-and-drop examples.** Take any drag-based UI (Kanban, file upload, sortable list) and test both the BiDi pointer-event approach and Playwright's `DragAndDropAsync()`. See which one handles your app's custom drag handlers.
