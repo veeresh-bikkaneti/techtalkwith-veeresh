@@ -203,3 +203,5 @@ If you're ready to move beyond Copilot autocomplete:
 AI in testing isn't about writing fewer tests — it's about writing **smarter tests**. The teams that figure this out will ship faster with higher confidence. The ones that don't will keep drowning in manual regression suites while their competitors deploy 10x per day.
 
 The future of QA isn't AI versus humans. It's **AI-augmented humans** building quality systems that neither could create alone.
+
+*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice: how `npx playwright codegen --ai` turns requirements documents into runnable test suites.
