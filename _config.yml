@@ -10,6 +10,7 @@ baseurl: "/techtalkwith-veeresh"
 author: "Veeresh Bikkaneti"
 
 # Build Settings
+future: true  # publish posts dated in the future (allows scheduling)
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
