@@ -204,4 +204,4 @@ AI in testing isn't about writing fewer tests — it's about writing **smarter t
 
 The future of QA isn't AI versus humans. It's **AI-augmented humans** building quality systems that neither could create alone.
 
-*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice: how `npx playwright codegen --ai` turns requirements documents into runnable test suites.
+*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice: how `npx playwright codegen --ai` turns requirements documents into runnable test suites. · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — Phase 4 implemented in Java: AI-powered locator healing in CI/CD.
