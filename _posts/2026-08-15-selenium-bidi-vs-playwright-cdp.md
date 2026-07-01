@@ -3,7 +3,7 @@ layout: post
 title: "Automating Complex Interactions in 2026: Selenium BiDi vs. Playwright CDP"
 date: 2026-08-15
 categories: [automation, tools]
-tags: [selenium, playwright, bidi, cdp, drag-and-drop, network-interception, ai-testing, beginners]
+tags: [selenium, playwright, bidi, cdp, drag-and-drop, network-interception, ai-testing, beginners, csharp, java, typescript, javascript, python]
 excerpt: "Head-to-head comparison of Selenium WebDriver BiDi and Playwright's native CDP — drag-and-drop, network interception, and AI-powered interaction replay for beginners."
 reading_time: 9
 ---
@@ -402,6 +402,62 @@ flowchart TD
 | [Selenium 2026 Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | WebDriver BiDi basics, MCP setup, Relative Locators | This post goes deeper into BiDi's input and network domains |
 | [Playwright MCP + Multi-Agent (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) | MCP server, multi-agent pattern, Web-First Assertions | CDP gives the Explorer agent network-level visibility; the Validator agent uses CDP route interception |
 | [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Speed, reliability, multi-browser comparison | Now with protocol-level comparison: BiDi vs CDP for complex interactions |
+
+## Multi-Language Quick Reference
+
+This post used C# examples. Here's the equivalent syntax in **Java**, **TypeScript**, **JavaScript**, and **Python** for key BiDi and CDP operations:
+
+### Selenium BiDi — Drag-and-Drop
+
+| Language | Pointer event dispatch |
+|---|---|
+| **C#** | `browsingContext.DispatchPointerEventAsync(new() { Type = PointerEventType.PointerDown, X = 100, Y = 200 })` |
+| **Java** | `browsingContext.dispatchPointerEvent(new PointerEvent(PointerEventType.POINTER_DOWN, 100, 200))` |
+| **TypeScript** | `await browsingContext.dispatchPointerEvent({ type: 'pointerDown', x: 100, y: 200 })` |
+| **JavaScript** | `await browsingContext.dispatchPointerEvent({ type: 'pointerDown', x: 100, y: 200 })` |
+| **Python** | `await browsing_context.dispatch_pointer_event(type="pointerDown", x=100, y=200)` |
+
+### Selenium BiDi — Network Monitoring
+
+| Language | Event subscription pattern |
+|---|---|
+| **C#** | `network.NetworkResponseReceived += (_, e) => { if (e.ResponseStatusCode >= 400) ... }` |
+| **Java** | `network.onNetworkResponseReceived(response -> { if (response.getResponseStatusCode() >= 400) ... })` |
+| **TypeScript** | `network.on('networkResponseReceived', (response) => { if (response.statusCode >= 400) ... })` |
+| **JavaScript** | `network.on('networkResponseReceived', (response) => { if (response.statusCode >= 400) ... })` |
+| **Python** | `network.on_network_response_received(lambda response: ... if response.status_code >= 400)` |
+
+### Playwright CDP — Drag-and-Drop
+
+| Language | One-line drag-and-drop |
+|---|---|
+| **C#** | `await page.DragAndDropAsync(".source", ".target");` |
+| **Java** | `page.dragAndDrop(".source", ".target");` |
+| **TypeScript** | `await page.dragAndDrop('.source', '.target');` |
+| **JavaScript** | `await page.dragAndDrop('.source', '.target');` |
+| **Python** | `await page.drag_and_drop(".source", ".target")` |
+
+### Playwright CDP — Route Interception
+
+| Language | Route mock pattern |
+|---|---|
+| **C#** | `await page.RouteAsync("**/api/**", async route => { await route.FulfillAsync(new() { Status = 200, Body = mockJson }); })` |
+| **Java** | `page.route("**/api/**", route -> route.fulfill(new Route.FulfillOptions().setStatus(200).setBody(mockJson)))` |
+| **TypeScript** | `await page.route('**/api/**', async route => { await route.fulfill({ status: 200, body: mockJson }) })` |
+| **JavaScript** | `await page.route('**/api/**', async route => { await route.fulfill({ status: 200, body: mockJson }) })` |
+| **Python** | `await page.route("**/api/**", lambda route: route.fulfill(status=200, body=mock_json))` |
+
+### Playwright — Browser Launch
+
+| Language | Launch pattern |
+|---|---|
+| **C#** | `var browser = await playwright.Chromium.LaunchAsync(new() { Headless = false })` |
+| **Java** | `Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false))` |
+| **TypeScript** | `const browser = await playwright.chromium.launch({ headless: false })` |
+| **JavaScript** | `const browser = await playwright.chromium.launch({ headless: false })` |
+| **Python** | `browser = await playwright.chromium.launch(headless=False)` |
+
+> **TypeScript vs JavaScript:** Playwright's TypeScript API uses the same syntax as JavaScript for most operations — the difference is type safety (`const browser: Browser`). Both benefit from Playwright's auto-complete in VS Code.
 
 ## What to Do Next
 

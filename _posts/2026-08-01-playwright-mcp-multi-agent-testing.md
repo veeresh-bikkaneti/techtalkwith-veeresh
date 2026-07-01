@@ -3,7 +3,7 @@ layout: post
 title: "Playwright MCP + Multi-Agent Testing in 2026: A Beginner's Guide"
 date: 2026-08-01
 categories: [automation, tools]
-tags: [playwright, mcp, multi-agent, ai-testing, beginners, csharp, python, javascript, dotnet]
+tags: [playwright, mcp, multi-agent, ai-testing, beginners, csharp, java, typescript, javascript, python, dotnet]
 excerpt: "From installing Playwright to running multi-agent AI test orchestrators — everything a beginner needs to automate browsers with Playwright, MCP, and collaborative AI agents in 2026."
 reading_time: 10
 ---

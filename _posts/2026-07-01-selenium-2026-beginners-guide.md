@@ -3,7 +3,7 @@ layout: post
 title: "Selenium in 2026: A Beginner's Guide to WebDriver BiDi, MCP Server & AI-Assisted Automation"
 date: 2026-07-01
 categories: [automation, tools]
-tags: [selenium, webdriver-bidi, mcp, ai-testing, beginners, csharp, python, javascript]
+tags: [selenium, webdriver-bidi, mcp, ai-testing, beginners, csharp, java, typescript, javascript, python]
 excerpt: "Everything a beginner needs to start browser automation with Selenium in 2026 — from zero-code setup to running an AI agent that controls your browser for you."
 reading_time: 11
 ---
@@ -60,6 +60,16 @@ dotnet add package Selenium.Support
 
 ```bash
 pip install selenium
+```
+
+**Java / Maven:**
+
+```xml
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-java</artifactId>
+  <version>4.29.0</version>
+</dependency>
 ```
 
 **JavaScript / Node.js:**
@@ -332,6 +342,72 @@ This post is the 2026 refresh that connects to four earlier Selenium articles on
 | [Drag-and-Drop in C# Selenium (Aug 2024)]({% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}) | 8 methods for drag-and-drop using `Actions` class and JavaScript fallback | CDP integration lets you simulate drag events at the protocol level — no JS hacks needed |
 | [Selenium C# Framework Guide (Sep 2024)]({% link _posts/2024-09-09-selenium-net-framework-development-guide.md %}) | xUnit + SpecFlow + DI framework architecture | Add MCP server as a new project dependency; Page Objects become optional when AI agents resolve locators dynamically |
 | [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Head-to-head comparison | Selenium now has BiDi + MCP, closing the event-driven gap with Playwright |
+
+## Multi-Language Quick Reference
+
+This guide used C# examples. Here's the equivalent syntax in **Java**, **TypeScript**, **JavaScript**, and **Python** for every operation covered:
+
+### Creating a Driver
+
+| Language | Code |
+|---|---|
+| **C#** | `using IWebDriver driver = new ChromeDriver();` |
+| **Java** | `WebDriver driver = new ChromeDriver();` |
+| **TypeScript** | `const driver = new Builder().forBrowser('chrome').build();` |
+| **JavaScript** | `const driver = new Builder().forBrowser('chrome').build();` |
+| **Python** | `driver = webdriver.Chrome()` |
+
+### Finding Elements
+
+| Language | Code |
+|---|---|
+| **C#** | `driver.FindElement(By.Name("q"))` |
+| **Java** | `driver.findElement(By.name("q"))` |
+| **TypeScript** | `driver.findElement(By.name('q'))` |
+| **JavaScript** | `driver.findElement(By.name('q'))` |
+| **Python** | `driver.find_element(By.NAME, "q")` |
+
+### Relative Locators
+
+| Language | Above / Below / Near |
+|---|---|
+| **C#** | `RelativeBy.WithLocator(By.TagName("input")).Above(By.Id("submit"))` |
+| **Java** | `RelativeLocator.with(By.tagName("input")).above(By.id("submit"))` |
+| **TypeScript** | `driver.findElement(locateWith(By.tagName('input')).above(By.id('submit')))` |
+| **JavaScript** | `driver.findElement(locateWith(By.tagName('input')).above(By.id('submit')))` |
+| **Python** | `driver.find_element(locate_with(By.TAG_NAME, "input").above({By.ID: "submit"}))` |
+
+### WebDriver Wait
+
+| Language | Code |
+|---|---|
+| **C#** | `new WebDriverWait(driver, TimeSpan.FromSeconds(10)).Until(d => d.FindElement(By.ClassName("dashboard")).Displayed);` |
+| **Java** | `new WebDriverWait(driver, Duration.ofSeconds(10)).until(d -> d.findElement(By.className("dashboard")).isDisplayed());` |
+| **TypeScript** | `await driver.wait(until.elementLocated(By.className('dashboard')), 10000);` |
+| **JavaScript** | `await driver.wait(until.elementLocated(By.className('dashboard')), 10000);` |
+| **Python** | `WebDriverWait(driver, 10).until(lambda d: d.find_element(By.CLASS_NAME, "dashboard").is_displayed())` |
+
+### Navigation
+
+| Language | Code |
+|---|---|
+| **C#** | `driver.Navigate().GoToUrl("https://example.com");` |
+| **Java** | `driver.navigate().to("https://example.com");` |
+| **TypeScript** | `await driver.get('https://example.com');` |
+| **JavaScript** | `await driver.get('https://example.com');` |
+| **Python** | `driver.get("https://example.com")` |
+
+### Test Framework + Assertion
+
+| Language | Framework | Example assertion |
+|---|---|---|
+| **C#** | xUnit / NUnit | `Assert.Contains("Selenium", driver.Title);` |
+| **Java** | JUnit / TestNG | `assertTrue(driver.getTitle().contains("Selenium"));` |
+| **TypeScript** | Jest / Mocha | `expect(await driver.getTitle()).toContain('Selenium');` |
+| **JavaScript** | Jest / Mocha | `expect(await driver.getTitle()).toContain('Selenium');` |
+| **Python** | pytest | `assert "Selenium" in driver.title` |
+
+> **BiDi and network interception** APIs vary by language binding. The C# examples in Step 4 use `driver.Manage().Network` — Java bindings use `devTools` session, while Python/JS use CDP directly. See the [official BiDi docs](https://www.selenium.dev/documentation/webdriver/bidi/) for your language.
 
 ## What to Do Next
 
