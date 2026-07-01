@@ -185,3 +185,5 @@ dataObject.Items.ForEach(item =>
 ## Summary
 
 This example demonstrates how to use `WaitForResponseAsync` effectively in a Playwright script to ensure that your automation waits for the necessary network responses before proceeding. This approach helps in creating reliable and robust automated tests and scripts.
+
+*See also:* [Playwright MCP + Multi-Agent Testing in 2026 (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) — the 2026 refresh with Web-First Assertions and multi-agent orchestration.

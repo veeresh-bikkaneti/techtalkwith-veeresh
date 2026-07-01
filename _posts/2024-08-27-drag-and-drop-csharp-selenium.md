@@ -168,3 +168,5 @@ actions.DragAndDrop(sourceElement, targetElement).Perform();
 When it comes to automating drag-and-drop in C# Selenium, `OpenQA.Selenium.Interactions` may not always be enough. By leveraging alternative methods like JavaScript execution, HTML5 APIs, offsets, and explicit waits, you can handle even the most stubborn drag-and-drop scenarios with confidence. Experiment with these methods and choose the one that best suits your application's needs.
 
 By mastering these techniques, you'll ensure that your Selenium tests are robust, reliable, and ready to handle complex user interactions across different browsers and platforms.
+
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with WebDriver BiDi native pointer events replacing JavaScript drag-and-drop hacks.

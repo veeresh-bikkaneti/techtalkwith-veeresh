@@ -310,4 +310,6 @@ classDiagram
     TestService --> BrowserFactory
 ```
 
-This guide should now provide a complete and clear setup for your .NET 8.0 project with Microsoft Playwright, including Dependency Injection, parallel testing, publishing reports, XHR handling, full-screen video recording, and cross-browser testing. 
+This guide should now provide a complete and clear setup for your .NET 8.0 project with Microsoft Playwright, including Dependency Injection, parallel testing, publishing reports, XHR handling, full-screen video recording, and cross-browser testing.
+
+*See also:* [Playwright MCP + Multi-Agent Testing in 2026 (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) — the 2026 refresh with MCP server integration and multi-agent testing patterns.

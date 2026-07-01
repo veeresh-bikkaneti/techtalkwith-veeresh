@@ -325,3 +325,5 @@ await browser.CloseAsync();
 ## Final Thought
 
 The testing power of Microsoft Playwright in C# lets you orchestrate UI, API, and database calls inside a single test — and capture trace + video evidence only on failure, so the suite stays fast. Combine that with cross-browser matrix execution and you have a high-fidelity E2E layer that runs alongside your unit and API tiers.
+
+*See also:* [Playwright MCP + Multi-Agent Testing in 2026 (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) — the 2026 refresh with MCP server setup and multi-agent orchestration.

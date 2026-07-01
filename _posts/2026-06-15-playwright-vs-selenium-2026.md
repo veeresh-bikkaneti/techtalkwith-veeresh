@@ -56,3 +56,5 @@ For **new projects**: Start with Playwright. The developer experience, speed, an
 For **existing projects**: Evaluate migration cost vs. long-term benefit. Playwright's `@playwright/test` can coexist with Selenium in many setups.
 
 The future is Playwright, but the present still has room for both.
+
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) and [Playwright MCP + Multi-Agent Testing (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) — deep-dive beginner's guides for both ecosystems.

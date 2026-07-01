@@ -753,3 +753,5 @@ This enhanced Selenium C# framework guide provides a comprehensive approach to b
 7. Integrated reporting with Allure
 
 By following this guide, you can create a powerful test automation framework that supports a wide range of testing scenarios, from UI testing to API and database testing, all while maintaining a clean and extensible codebase.
+
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with MCP server integration as a new project dependency.

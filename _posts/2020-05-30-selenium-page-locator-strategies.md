@@ -148,3 +148,5 @@ The CSS variant (`nth-of-type`) is generally faster and more readable; the XPath
 ## Final Word
 
 Locator choice and synchronization strategy determine whether a Selenium suite is reliable or riddled with false negatives. Make these decisions once, encode them as page-object helpers, and revisit only when the underlying framework changes.
+
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with Relative Locators, WebDriver BiDi, and MCP server setup.
