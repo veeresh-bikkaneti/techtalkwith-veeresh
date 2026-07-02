@@ -3,7 +3,7 @@ layout: post
 title: "CI/CD Pipelines for Test Automation: A Practical Guide"
 date: 2026-06-25
 categories: [devops, automation]
-tags: [ci-cd, azure-devops, github-actions, jenkins, pipelines]
+tags: [ci-cd, azure-devops, github-actions, jenkins, pipelines, java, typescript, javascript]
 excerpt: "How to structure your test automation pipelines for fast feedback, reliable deployments, and meaningful quality gates."
 reading_time: 10
 ---
@@ -141,3 +141,12 @@ Track these to improve your pipeline:
 ## Final Thought
 
 The best pipeline is one that developers trust. If it's slow, flaky, or unclear, developers will work around it instead of with it. Invest in your pipeline like you invest in your code.
+
+## Sources & Further Reading
+
+1. [GitHub Actions — workflow syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
+2. [Azure Pipelines — test glossary](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/test-glossary)
+3. [Jenkins — pipeline syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
+4. [DORA metrics — deployment frequency](https://dora.dev/guides/dora-metrics-four-keys/)
+
+*See also:* [Shift Left Using a Regression Suite (Sep 2024)]({% link _posts/2024-09-23-shift-left-using-regression-suite.md %}) — run regression early, not as a going-away present before release.

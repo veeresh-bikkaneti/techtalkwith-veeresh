@@ -4,7 +4,7 @@ title: "The Software Testing Pyramid: A Developer's Secret Weapon"
 date: 2024-09-09
 categories: [best-practices]
 tags: [test-pyramid, test-strategy, unit-testing, integration-testing, e2e-testing]
-excerpt: "Ever felt overwhelmed by the sheer complexity of software testing? 😵‍💫 You're not alone. As developers, we often struggle to balance thorough testing with tight deadlines and limited resources. ⏳ Traditional approaches often lead to a chaotic mix of unit tests and manual checks..."
+excerpt: "The testing pyramid isn't magic — but it stopped me from writing 400 E2E tests that all broke on one CSS change. Here's how I actually use it."
 reading_time: 3
 ---
 
@@ -59,4 +59,13 @@ The **Testing Pyramid** reminds us that creative problem-solving is crucial in o
 
 **What unconventional testing approaches have you found effective in your projects? Share your experiences below – let's learn from each other!** 👇
 
-#SoftwareTesting #DeveloperProductivity #QualityAssurance #teststrategy 
+## Sources & Further Reading
+
+1. [The Practical Test Pyramid — Ham Vocke](https://martinfowler.com/articles/practical-test-pyramid.html)
+2. [Google Testing Blog — Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+3. [Test Pyramid — Microsoft testing guidance](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/test-aspnet-core-services-web-apps)
+4. [Playwright — testing best practices](https://playwright.dev/docs/best-practices)
+
+*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) · [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — fast feedback at the base of the pyramid, slow E2E at the top.
+
+#SoftwareTesting #DeveloperProductivity #QualityAssurance #teststrategy

@@ -604,3 +604,12 @@ To ensure our code is maintainable and scalable, we follow SOLID principles:
 ## Conclusion
 
 By following this guide, you should now have a solid understanding of how to perform CRUD operations in Azure Cosmos DB using C#. We've extended the CosmosClient class with custom methods and ensured our code adheres to SOLID principles for better maintainability and scalability.
+
+## Sources & Further Reading
+
+1. [Azure Cosmos DB — .NET SDK quickstart](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-dotnet)
+2. [Cosmos DB CRUD with .NET](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/how-to-dotnet-get-started)
+3. [SOLID principles — Microsoft architecture guidance](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles)
+4. [Partition keys — Cosmos DB design](https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning-overview)
+
+*See also:* [Mastering E2E Testing with C# Playwright (Jul 2024)]({% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) — UI + API + database assertions in one test; this post covers the Cosmos side of that triangle.

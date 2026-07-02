@@ -4,16 +4,17 @@ title: "Mock Servers vs Contract Testing"
 date: 2024-09-18
 categories: [automation, best-practices]
 tags: [contract-testing, mock-testing, pact, api, microservices]
-excerpt: "In the context of contract testing, a **contract** is a formal agreement that specifies how two services (a consumer and a provider) will interact. This contract includes details like:"
+excerpt: "Mocks get you moving fast. Contracts keep you honest when the real service finally shows up. Here's when to use which — and when you need both."
 reading_time: 3
 ---
 
 ### Contract in Contract Testing
-<div style="float: left; margin-right: 10px;">
-    <a href="https://docs.pact.io/">
-        <img src="https://github.com/user-attachments/assets/13a272a2-4b28-40fb-bf43-bbe760ee4120" alt="image" width="1000"/>
-    </a>
-</div>
+
+<figure class="post-figure">
+  <a href="https://docs.pact.io/">
+    <img src="https://github.com/user-attachments/assets/13a272a2-4b28-40fb-bf43-bbe760ee4120" alt="Pact contract testing consumer-provider diagram" width="1000"/>
+  </a>
+</figure>
 
 
 
@@ -74,14 +75,23 @@ sequenceDiagram
 1. The **Contract** provides details to both **Service A** and **Service B**.
 
 
-<div style="float: left; margin-right: 10px;">
-    <a href="https://docs.pact.io/">
-        <img src="https://github.com/user-attachments/assets/1650a47d-2448-472f-999f-965a1987385c" alt="image" width="1000"/>
-    </a>
-</div>
+<figure class="post-figure">
+  <a href="https://docs.pact.io/">
+    <img src="https://github.com/user-attachments/assets/1650a47d-2448-472f-999f-965a1987385c" alt="Pact mock server vs contract testing flow" width="1000"/>
+  </a>
+</figure>
 
 
 ### Summary
 - **Mock Servers**: Simulate the provider for the consumer's benefit.
 - **Contract Testing**: Ensures both consumer and provider adhere to the contract, covering the entire interaction.
+
+## Sources & Further Reading
+
+1. [Pact — contract testing docs](https://docs.pact.io/)
+2. [Pact Broker — publishing and verifying contracts](https://docs.pact.io/pact_broker)
+3. [Martin Fowler — Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html)
+4. [Testing ASP.NET Core services — Microsoft](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/test-aspnet-core-services-web-apps)
+
+*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) — different flavors of test-first thinking, same "agree before you code" energy.
 

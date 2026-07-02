@@ -99,20 +99,17 @@ Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient 
 4. **Leverage Real-time Capabilities**: Use Hasura's subscriptions to enable real-time updates in your application³.
 
 
-Source: 
-* [Getting Started with Hot Chocolate .NET GraphQL Server - Hasura](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema)
-* [GraphQL Server with .NET (dotnet) | Backend Tutorial - Hasura](https://hasura.io/learn/graphql/backend-stack/languages/dotnet/)
-* [Hasura: Open-Source Real-Time GraphQL API Engine for Developers](https://byuroscope.com/hasura/)
-* (https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema)4/2024
-* Hasura: Open-Source Real-Time GraphQL API Engine for Developers. https://byuroscope.com/hasura/.
-* Getting Started with Hot Chocolate .NET GraphQL Server - Hasura. https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema.
-* GraphQL Server with .NET (dotnet) | Backend Tutorial - Hasura. https://hasura.io/learn/graphql/backend-stack/languages/dotnet/.
-* Hasura use cases overview | Hasura GraphQL Docs. https://hasura.io/docs/[2](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema).0/getting-started/use-case/overview/.
-* (https://www.codedaily.io/tutorials/Why-You-Should-Use-Hasura)) Why You Should Use Hasura - Code Daily. https://www.codedaily.io/tutorials/Why-You-Should-Use-Hasura.
-* (https://www.restack.io/docs/hasura-knowledge-hasura-explained)) Hasura explained - Instant GraphQL APIs — Restack. https://www.restack.io/docs/hasura-knowledge-hasura-explained.
-* (https://hasura.io/learn/graphql/hasura-v3/introduction/)) Course Introduction | Hasura v3 Tutorial. https://hasura.io/learn/graphql/hasura-v3/introduction/.
-* Hasura: Building Scalable and Real-Time Applications - An Extensive .... https://dev.to/sebiweise/hasura-building-scalable-and-real-time-applications-an-extensive-guide-7b5.
-* Prisma [2](https://www.restack.io/docs/hasura-knowledge-hasura-explained) vs Hasura vs something else? : r/graphql - Reddit. https://www.reddit.com/r/graphql/comments/nc7nh8/prisma_2_vs_hasura_vs_something_else/.
-* https://github.com/dosco/graphjin/wiki/Guide-to-GraphQL.
-* https://github.com/dosco/graphjin.
+## Sources & Further Reading
+
+* [Getting Started with Hot Chocolate .NET GraphQL Server — Hasura](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema)
+* [GraphQL Server with .NET — Hasura Tutorial](https://hasura.io/learn/graphql/backend-stack/languages/dotnet/)
+* [Hasura use cases overview](https://hasura.io/docs/latest/getting-started/use-case/overview/)
+* [Hasura use cases overview](https://hasura.io/docs/latest/getting-started/use-case/overview/)
+* [Hasura explained — Restack](https://www.restack.io/docs/hasura-knowledge-hasura-explained)
+* [Hasura v3 Course Introduction](https://hasura.io/learn/graphql/hasura-v3/introduction/)
+* [Building Scalable Real-Time Apps with Hasura — dev.to](https://dev.to/sebiweise/hasura-building-scalable-and-real-time-applications-an-extensive-guide-7b5)
+* [Prisma vs Hasura — r/graphql](https://www.reddit.com/r/graphql/comments/nc7nh8/prisma_2_vs_hasura_vs_something_else/)
+* [Guide to GraphQL — graphjin wiki](https://github.com/dosco/graphjin/wiki/Guide-to-GraphQL)
+
+*See also:* [Hasura with Graph API and Hot Chocolate (Sep 2024)]({% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %}) · [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %})
 

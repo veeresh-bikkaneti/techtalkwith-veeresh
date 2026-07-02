@@ -3,7 +3,7 @@ layout: post
 title: "Building BDD Frameworks That Actually Work"
 date: 2026-06-20
 categories: [best-practices, frameworks]
-tags: [bdd, cucumber, specflow, tdd, agile]
+tags: [bdd, cucumber, specflow, tdd, agile, java, typescript, csharp]
 excerpt: "BDD frameworks fail when they become documentation graveyards. Here's how to build ones that developers and QA engineers actually use."
 reading_time: 8
 ---
@@ -99,3 +99,12 @@ tests/
 5. **Review scenarios in grooming sessions** — they're living documentation
 
 When BDD works, it bridges the gap between business and engineering. When it doesn't, it's just another layer of abstraction that nobody maintains.
+
+## Sources & Further Reading
+
+1. [Cucumber — BDD basics](https://cucumber.io/docs/bdd/)
+2. [SpecFlow — documentation](https://specflow.org/docs/)
+3. [Gherkin reference](https://cucumber.io/docs/gherkin/reference/)
+4. [Living documentation — Cucumber docs](https://cucumber.io/docs/bdd/)
+
+*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) — pick your flavor before you buy the Cucumber license.

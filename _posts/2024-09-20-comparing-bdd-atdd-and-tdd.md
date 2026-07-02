@@ -4,7 +4,7 @@ title: "Comparing **BDD**, **ATDD**, and **TDD**: Key Differences and Complement
 date: 2024-09-20
 categories: [best-practices, frameworks]
 tags: [bdd, atdd, tdd, test-methodology, agile, specflow]
-excerpt: "Understanding the differences between **Behavior-Driven Development (BDD)**, **Acceptance Test-Driven Development (ATDD)**, and **Test-Driven Development (TDD)** can help you choose the right approach for your project. Here's a detailed comparison: | **Aspect** | **BDD..."
+excerpt: "BDD, ATDD, and TDD all sound like alphabet soup until your team has to pick one. Here's the honest diff — no buzzword bingo, I promise."
 reading_time: 3
 ---
 
@@ -120,7 +120,7 @@ classDiagram
     Developer --> Developer : refactor code
 ```
 
-***
+
 
 UML Sequence diagrams using Mermaid syntax to illustrate the workflows for BDD, ATDD, and TDD.
 
@@ -188,5 +188,14 @@ sequenceDiagram
     Tester->>Developer: Execute unit tests
 ```
 
+
+## Sources & Further Reading
+
+1. [Cucumber — BDD introduction](https://cucumber.io/docs/bdd/)
+2. [SpecFlow — documentation](https://specflow.org/docs/)
+3. [Kent Beck — Test-Driven Development](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) *(the book that started it)*
+4. [Cucumber — living documentation pattern](https://cucumber.io/docs/bdd/)
+
+*See also:* [Building BDD Frameworks That Actually Work (Jun 2026)]({% link _posts/2026-06-20-building-bdd-frameworks-that-work.md %}) — what happens after you pick BDD and have to make it survive a real sprint. · [The Software Testing Pyramid (Sep 2024)]({% link _posts/2024-09-09-the-software-testing-pyramid.md %}) — where unit vs integration vs E2E tests actually belong.
 
 #AgileDevelopment #SoftwareTesting #BDD #ATDD #TDD #DevOps 🚀✨

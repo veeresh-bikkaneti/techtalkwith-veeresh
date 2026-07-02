@@ -4,7 +4,7 @@ title: "Step-by-Step Tutorial for SDETs to Learn Security Testing"
 date: 2024-09-22
 categories: [best-practices]
 tags: [security-testing, sdet, owasp, penetration-testing, learning-path]
-excerpt: "Below is a UML flowchart illustrating the application development and testing cycle, highlighting where security testing fits in: ***"
+excerpt: "Security testing isn't a checkbox at the end — it's a habit. A step-by-step walkthrough for SDETs who'd rather find vulns before prod does."
 reading_time: 6
 ---
 
@@ -75,7 +75,7 @@ reading_time: 6
   - [SQL Injection Explained](https://www.youtube.com/watch?v=ciNHn38EyRc)
 
 
-***
+
 ### Application Development and Testing Cycle
 Below is a UML flowchart illustrating the application development and testing cycle, highlighting where security testing fits in:
 
@@ -93,7 +93,7 @@ graph TD
     J --> K[Maintenance]
     K --> L[Continuous Scanning]
 ```
-***
+
 ```mermaid
 graph TD
     A[Start] --> B[Requirement Analysis]
@@ -113,7 +113,7 @@ graph TD
     L --> O[Security Code Review]
 ```
 
-***
+
 
 ### Explanation of Each Testing Level
 
@@ -189,13 +189,11 @@ graph TD
 
 This diagram and explanation provide a comprehensive view of how security testing and functional testing are integrated into the software development lifecycle.
 
-Source: Conversation with Copilot, 9/22/2024
-(1) [Security Testing - What is Security Testing?](https://www.youtube.com/watch?v=5ZGo_eR46To). https://www.youtube.com/watch?v=5ZGo_eR46To.
-(2) Security Testing - Importance of Security Testing with Examples (Session#3). https://www.youtube.com/watch?v=Z0VjWxES-5M.
-(3) Security Testing - Training Contents. https://www.youtube.com/watch?v=k4J8ZdP5ihU.
-(4) Why Security Testing is an important skill for a QEs with Boris Arapovic. https://testguild.com/podcast/automation/a514-boris/.
-(5) What Is Security Testing: With Examples And Best Practices - LambdaTest. https://www.lambdatest.com/learning-hub/security-testing.
-(6) Understanding the Technology Behind Qualified Electronic Signatures (QES). https://www.certinal.com/blog/technology-behind-qualified-electronic-signatures-qes.
-(7) Why Security Testing is an important skill for a QEs - YouTube. https://www.youtube.com/watch?v=cedLMe5HQoU.
-(8) undefined. http://www.evernote.com/l/AbG8LQ9P6-RGoJTiiDtSo7QMnC_Sph7jpmY/.
-(9) undefined. https://testguild.com/podcast/automation/a514-boris/In.
+## Sources & Further Reading
+
+1. [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+3. [LambdaTest — Security Testing Learning Hub](https://www.lambdatest.com/learning-hub/security-testing)
+4. [TestGuild — Why Security Testing Matters for QEs (Boris Arapovic)](https://testguild.com/podcast/automation/a514-boris/)
+
+*See also:* [Functional Testers in the Secure SDLC (Mar 2025)]({% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) · [The Secret to Secure Software Development (Sep 2024)]({% link _posts/2024-09-26-secret-to-secure-software-development.md %})

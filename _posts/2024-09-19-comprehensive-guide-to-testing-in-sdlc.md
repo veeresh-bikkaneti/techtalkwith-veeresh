@@ -4,7 +4,7 @@ title: "Comprehensive Guide to Testing in SDLC"
 date: 2024-09-19
 categories: [best-practices, frameworks]
 tags: [sdlc, test-strategy, performance-testing, security-testing, regression-testing, load-testing]
-excerpt: "## Stages in SDLC ### Requirement Analysis - Acceptance Criteria: Conditions that a software product must satisfy to be accepted by a user or customer. - Use Case: A description of how users will interact with the system. ### Design - Test Plan: A document describing the scope..."
+excerpt: "Testing isn't one phase in the SDLC — it's the thread running through all of them. A map of what to test, when, and why it matters."
 reading_time: 6
 ---
 
@@ -40,7 +40,7 @@ reading_time: 6
 - **Regression Testing**: Testing existing software applications to ensure that a change or addition hasn't broken any existing functionality.
 - **Security Testing**: Ensuring that the application is secure from external threats.
 - **Application Monitoring**: Continuous monitoring of the application to ensure it is performing as expected and to detect any issues.
-***
+
 
 ## Importance and Relationship
 
@@ -92,7 +92,7 @@ reading_time: 6
   - **Burp Suite**
   - **Nessus**
 
-***
+
 
 ### Requirement Analysis Phase
 ```mermaid
@@ -102,7 +102,7 @@ sequenceDiagram
     Analyst->>Requirement_Doc: Define acceptance criteria and use cases
 ```
 
-***
+
 
 ### Design Phase
 ```mermaid
@@ -114,7 +114,7 @@ sequenceDiagram
     Tester->>Test_Case: Create test cases
 ```
 
-***
+
 ### Development Phase
 ```mermaid
 sequenceDiagram
@@ -130,7 +130,7 @@ sequenceDiagram
     Developer->>Mock_Tool: Use mocks for testing
     Mock_Tool-->>Developer: Simulate real objects
 ```
-***
+
 ### Testing Phase
 ```mermaid
 sequenceDiagram
@@ -157,7 +157,7 @@ sequenceDiagram
     OWASP_Tool->>Application: Conduct OWASP testing
     OWASP_Tool-->>Tester: Report security issues
 ```
-***
+
 ### Deployment Phase
 ```mermaid
 sequenceDiagram
@@ -172,7 +172,7 @@ sequenceDiagram
     Health_Check_Tool->>Application: Perform health checks
     Health_Check_Tool-->>Tester: Report health status
 ```
-***
+
 ### Maintenance Phase
 ```mermaid
 sequenceDiagram
@@ -191,7 +191,7 @@ sequenceDiagram
     Monitoring_Tool->>Application: Monitor application
     Monitoring_Tool-->>Tester: Report performance and issues
 ```
-***
+
 ### Consolidated Diagram
 ```mermaid
 sequenceDiagram
@@ -252,7 +252,7 @@ sequenceDiagram
     Monitoring_Tool-->>Tester: Report performance and issues
 
 ```
-***
+
 # Glossary of Testing Terms in SDLC
 
 ## Requirement Analysis
@@ -294,5 +294,14 @@ sequenceDiagram
 - **Microservice**: An architectural style that structures an application as a collection of loosely coupled services.
 - **Health Check**: A process to verify that a system is operating as expected.
 - **Application Monitoring**: The process of continuously observing the performance and health of an application.
+
+## Sources & Further Reading
+
+1. [ISTQB — Software Testing Fundamentals](https://istqb.org/certifications/certified-tester-foundation-level)
+2. [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+3. [Microsoft — Performance testing guidance](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/performance-test)
+4. [Shift-left testing — Wikipedia (solid overview)](https://en.wikipedia.org/wiki/Shift-left_testing)
+
+*See also:* [Shift Left Using a Regression Suite (Sep 2024)]({% link _posts/2024-09-23-shift-left-using-regression-suite.md %}) — run that regression pack earlier, not after the release train leaves. · [Functional Testers in the Secure SDLC (Mar 2025)]({% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) — where security testing actually slots in.
 
 

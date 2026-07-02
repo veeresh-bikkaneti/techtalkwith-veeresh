@@ -4,7 +4,7 @@ title: "The Secret to Secure Software Development: An SDET's Comprehensive Guide
 date: 2024-09-26
 categories: [best-practices]
 tags: [security-testing, sdet, secret-management, secure-coding, csharp, java]
-excerpt: "As a seasoned SDET with extensive experience in Java and C#, I've learned that the cornerstone of secure software development lies in robust secret management. Today, I'm sharing a comprehensive guide on best practices and strategies to secure your sensitive information and..."
+excerpt: "Secrets in code have burned every SDET eventually. Java, C#, whatever — here's how I manage them without cosplaying as DevSecOps."
 reading_time: 2
 ---
 
@@ -211,6 +211,15 @@ As a seasoned SDET with extensive experience in Java and C#, I've learned that t
 As SDETs, we play a crucial role in ensuring not just the functionality, but the security of our software. By implementing these practices and continuously educating ourselves, we can significantly reduce the risk of vulnerabilities in our applications.
 
 What strategies have you found most effective in your SDET role for managing secrets and preventing vulnerabilities? How do you balance comprehensive testing with robust security? Let's discuss in the comments!
+
+## Sources & Further Reading
+
+1. [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+2. [Azure Key Vault — secrets management](https://learn.microsoft.com/en-us/azure/key-vault/general/overview)
+3. [HashiCorp Vault — what it is](https://developer.hashicorp.com/vault/docs/what-is-vault)
+4. [GitHub — secret scanning](https://docs.github.com/en/code-security/secret-scanning)
+
+*See also:* [Functional Testers in the Secure SDLC (Mar 2025)]({% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) · [Security Testing for SDETs (Sep 2024)]({% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %})
 
 #SecureSDLC #SDET #SecretManagement #SoftwareTesting #DevSecOps #Cybersecurity
 

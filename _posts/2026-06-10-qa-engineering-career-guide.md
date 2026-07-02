@@ -157,3 +157,12 @@ Beyond technical skills, these differentiate good QA engineers from great ones:
 The QA field is evolving rapidly. AI-assisted testing, visual regression tools, and shift-left practices are changing the landscape. But the fundamentals — **thinking critically about quality** — will always be valuable.
 
 Start where you are. Use what you have. Build one skill at a time.
+
+## Sources & Further Reading
+
+1. [ISTQB — certification paths](https://istqb.org/certifications)
+2. [Ministry of Testing — community resources](https://www.ministryoftesting.com/)
+3. [Test Automation University — free courses](https://testautomationu.applitools.com/)
+4. [Google Testing Blog](https://testing.googleblog.com/)
+
+*See also:* [The Browser Automation Trap (Jun 2026)]({% link _posts/2026-06-10-the-browser-automation-trap.md %}) — read this before you pick a framework on hype alone. · [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — where the career path is heading.

@@ -4,11 +4,11 @@ title: "Framework Development Guide for Selenium C#"
 date: 2024-09-09
 categories: [automation, frameworks]
 tags: [selenium, dotnet, csharp, framework-design, page-object-model, bdd]
-excerpt: "This comprehensive guide provides an excellent roadmap for developing a robust Selenium C# framework. It covers all the essential aspects of building a modern, scalable, and maintainable test automation solution. Here's a summary of the key points and some additional insights:"
+excerpt: "I've rebuilt Selenium C# frameworks more times than I'd like to admit. Here's the xUnit + SpecFlow + DI setup that actually survives production."
 reading_time: 11
 ---
 
-<img src="https://github.com/user-attachments/assets/3de0636d-322a-4ad1-a0c7-8f674d35a7c8" alt="Description of image" style="float: right; margin: 0 0 10px 10px;" width="300">
+<img src="https://github.com/user-attachments/assets/3de0636d-322a-4ad1-a0c7-8f674d35a7c8" alt="Selenium C# framework layered architecture diagram" class="float-right" width="300">
 
 - [Framework Development Guide for Selenium C#](#framework-development-guide-for-selenium-c)
   - [1. Introduction](#1-introduction)
@@ -58,7 +58,8 @@ reading_time: 11
 
 
 # Framework Development Guide for Selenium C#
-This comprehensive guide provides an excellent roadmap for developing a robust Selenium C# framework. It covers all the essential aspects of building a modern, scalable, and maintainable test automation solution. Here's a summary of the key points and some additional insights:
+
+I've torn down and rebuilt more Selenium C# frameworks than I care to count. This is the architecture that finally stuck — layered, boring on purpose, and maintainable when the team turns over:
 
 1. Framework Architecture and Design:
 The layered architecture approach is crucial for maintaining separation of concerns. The implementation of design patterns like Page Object Model and Factory Pattern will significantly improve code reusability and maintainability.
@@ -753,5 +754,12 @@ This enhanced Selenium C# framework guide provides a comprehensive approach to b
 7. Integrated reporting with Allure
 
 By following this guide, you can create a powerful test automation framework that supports a wide range of testing scenarios, from UI testing to API and database testing, all while maintaining a clean and extensible codebase.
+
+## Sources & Further Reading
+
+1. [Selenium with C# — official docs](https://www.selenium.dev/documentation/webdriver/getting_started/install_library/#c)
+2. [SpecFlow documentation](https://specflow.org/docs/)
+3. [xUnit.net — getting started](https://xunit.net/docs/getting-started/v2/getting-started)
+4. [Page Object Model — Selenium design pattern](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
 
 *See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with MCP server integration as a new project dependency.

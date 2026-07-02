@@ -4,7 +4,7 @@ title: "Shift Left Using a Regression Suite: A Practical Approach"
 date: 2024-09-23
 categories: [best-practices, devops]
 tags: [shift-left, regression-testing, test-strategy, devops, agile, java, javascript]
-excerpt: "Incorporate the **regression suite** developed for **Quality Control** (QC) to ensure **Quality Assurance** (QA) by embedding it early in the development cycle when creating or adding new features to an existing product."
+excerpt: "Your regression suite shouldn't wait for QA sign-off. Run it in dev — catch the 'works on my machine' lie before it ships."
 reading_time: 4
 ---
 
@@ -117,7 +117,7 @@ To automatically start the Express.js server as a precondition in your C# `Start
 ### Summary
 This setup ensures that your Express.js server is automatically started as a precondition when running your C# application in the development environment. This allows you to seamlessly integrate your Node.js server with your C# services.
 
-***
+
 ### Step-by-Step Guide to Configure Express.js
 
 1. **Install Node.js and Express.js**:
@@ -185,10 +185,13 @@ This setup ensures that your Express.js server is automatically started as a pre
 
 This configuration allows your Express.js server to start automatically when your C# application runs, making it easy to integrate both environments.
 
-Source: 
-* github.com. https://github.com/BioBoost/docker-course-for-linux/tree/4763fea0f8316ffc4199e8ce937d4c6a16ee3cae/05_building_images%2Freadme.md.
-* github.com. https://github.com/madhur-jajoo/node_examples/tree/e25662a1738bd38a19ecd05ba0868b7e30c1cc2d/basic_express_app%2Findex.js.
-* github.com. https://github.com/aws-containers/apprunnerworkshop/tree/033cef31f37577671783495f5ff23005db064e8c/content%2Fgetting-started%2Fgithub%2Frepo%2F_index.md.
-* github.com. https://github.com/roman-g/test-runner/tree/84d8cd532c5265afea7084dbe46c086151fc0e61/TestSolution%2FTestAgent%2FTestAgentActor.cs.
+## Sources & Further Reading
 
-***
+1. [Shift-left testing — Wikipedia](https://en.wikipedia.org/wiki/Shift-left_testing)
+2. [Microsoft — DevOps test strategy](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/test-glossary?view=azure-devops)
+3. [Test Agent Actor — roman-g/test-runner](https://github.com/roman-g/test-runner/tree/84d8cd532c5265afea7084dbe46c086151fc0e61/TestSolution/TestAgent/TestAgentActor.cs)
+4. [DORA — Four Key Metrics](https://dora.dev/guides/dora-metrics-four-keys/)
+
+*See also:* [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — where that early regression suite actually lives in the pipeline.
+
+

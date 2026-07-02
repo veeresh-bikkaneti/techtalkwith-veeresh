@@ -92,20 +92,11 @@ classDiagram
 | Graph                 | Unified endpoint for accessing Microsoft services                           | Interact with various Microsoft services through a single API endpoint                  |
 
 
-Source: 
-([1](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)) Anti-corruption Layer pattern - Azure Architecture Center. https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer.
-(2) schema resource type - Microsoft Graph v1.0 | Microsoft Learn. https://learn.microsoft.com/en-us/graph/api/resources/externalconnectors-schema?view=graph-rest-[1](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer).0.
-(3) Wrapping your business logic with anti-corruption layers – NET Core. https://www.thereformedprogrammer.net/wrapping-your-business-logic-with-anti-corruption-layers-net-core/.
-(4) The Anti-Corruption Layer Pattern - DEV Community. https://dev.to/asarnaout/the-anti-corruption-layer-pattern-pcd.
-(5) GraphQL vs REST APIs: What's the difference?. https://graphapi.com/learn/graphql/vs-rest/.
-(6) GraphQL vs REST API - Difference Between API Design Architectures - AWS. https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/.
-(7) GraphQL Vs. REST APIs: A comprehensive comparison for developers. https://hygraph.com/blog/graphql-vs-rest-apis.
-(8) GraphQL vs. REST - Postman Blog. https://blog.postman.com/graphql-vs-rest/.
-(9) GraphQL vs REST APIs - Built In. https://builtin.com/software-engineering-perspectives/graphql-vs-rest.
-(10) Anti-corruption layer pattern - AWS Prescriptive Guidance. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/acl.html.
-(11) Anti-Corruption Layer | Cloud Patterns | Learn | CodeWithStu's Blog. https://im5tu.io/learn/cloud-patterns/anti-corruption-layer/.
-(1[2](https://learn.microsoft.com/en-us/graph/api/resources/externalconnectors-schema?view=graph-rest-1.0)) Anti-Corruption Layer | Dremio. https://www.dremio.com/wiki/anti-corruption-layer/.
-(13) Anti-Corruption Layer : Transforming Legacy Applications into Modern .... https://blogit.michelin.io/anti-corruption-layer/.
-(14) Use query parameters to customize responses - Microsoft Graph. https://learn.microsoft.com/en-us/graph/query-parameters.
-(15) GitHub GraphQL API documentation - GitHub Docs. https://docs.github.com/en/graphql.
-(16) Best practices for working with Microsoft Graph. https://learn.microsoft.com/en-us/graph/best-practices-concept.
+## Sources & Further Reading
+
+1. [Microsoft Graph overview](https://learn.microsoft.com/en-us/graph/overview)
+2. [Microsoft Graph best practices](https://learn.microsoft.com/en-us/graph/best-practices-concept)
+3. [Anti-Corruption Layer — Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
+4. [GraphQL vs REST — AWS comparison](https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/)
+
+*See also:* [Mastering GraphQL (Sep 2024)]({% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %}) · [Hasura with Graph API and Hot Chocolate (Sep 2024)]({% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %})

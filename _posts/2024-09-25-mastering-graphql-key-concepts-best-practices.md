@@ -4,7 +4,7 @@ title: "Mastering GraphQL: Key Concepts and Best Practices for Modern APIs"
 date: 2024-09-25
 categories: [best-practices, frameworks]
 tags: [graphql, api, schema, resolvers, mutations, subscriptions, jwt, java, javascript]
-excerpt: "GraphQL is a query language for APIs and a runtime for executing those queries. It allows clients to request exactly the data they need, making it more efficient than traditional REST APIs. An API (Application Programming Interface) is a set of rules that allows different..."
+excerpt: "GraphQL: ask for exactly what you need, skip the rest. Key concepts, best practices, and the mistakes I made so you don't have to."
 reading_time: 8
 ---
 
@@ -232,19 +232,11 @@ In GraphQL, there is typically a single endpoint (e.g., `/graphql`) that handles
 In summary, while REST APIs use multiple endpoints for different operations, GraphQL consolidates all operations into a single endpoint and uses a schema to define the available queries and mutations¹²³.
 
 
-Source: 
-(1) GraphQL vs REST APIs: What's the difference?. https://graphapi.com/learn/graphql/vs-rest/.
-(2) GraphQL vs. REST | Apollo GraphQL Blog. https://www.apollographql.com/blog/graphql-vs-rest.
-(3) GraphQL Vs. REST APIs: A Comprehensive Comparison. https://dev.to/leoneloliver/graphql-vs-rest-apis-a-comprehensive-comparison-5eb7.
-(4) GraphQL vs. REST: A GraphQL Tutorial - Toptal. https://www.toptal.com/graphql/graphql-vs-rest-tutorial.
-(5) GraphQL Tutorial #18 - Mutations. https://www.youtube.com/watch?v=DU77lbBPfBI.
-(6) Implementing Mutations in a GraphQL Server Tutorial. https://www.howtographql.com/graphql-js/3-a-simple-mutation/.
-(7) GraphQL Crash Course #8 - Mutations (Adding & Deleting Data). https://www.youtube.com/watch?v=MnDbZK6B8uE.
-(8) Learn GraphQL: Mutations. https://graphql.com/learn/mutations/.
-(9) Implementing Mutations in a GraphQL Server Tutorial. https://www.howtographql.com/typescript-apollo/3-a-simple-mutation/.
-(10) How to Implement a GraphQL Mutation - StepZen. https://stepzen.com/docs/using-graphql/graphql-mutation-basics.
-(11) An intro to mutations in GraphQL: what they are and how to use them. https://www.freecodecamp.org/news/an-intro-to-mutations-in-graphql-what-they-are-and-how-to-use-them-e959735abd8d/.
-(12) GraphQL Mutations to insert data | GraphQL Tutorial - Hasura. https://hasura.io/learn/graphql/intro-graphql/graphql-mutations/.
-(13) undefined. https://netninja.dev/p/graphql-crash-course.
-(14) undefined. https://github.com/iamshaunjp/graphql-crash-course.
-(15) undefined. https://netninja.dev/p/node-js-crash-course.
+## Sources & Further Reading
+
+1. [GraphQL — official specification](https://graphql.org/learn/)
+2. [How to GraphQL — fullstack tutorial](https://www.howtographql.com/)
+3. [GraphQL vs REST — Apollo blog](https://www.apollographql.com/blog/graphql-vs-rest)
+4. [GraphQL mutations — Hasura tutorial](https://hasura.io/learn/graphql/intro-graphql/graphql-mutations/)
+
+*See also:* [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %}) · [Graph API vs GraphQL (Sep 2024)]({% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, Microsoft Graph and GraphQL are different beasts.

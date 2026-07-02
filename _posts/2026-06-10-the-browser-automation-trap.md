@@ -1891,8 +1891,10 @@ test.describe('Orders', () => {
 
 ### Recommended Reading
 - **Testing Library:** [https://testing-library.com/docs/guiding-principles](https://testing-library.com/docs/guiding-principles)
-- **Playwright vs Cypress (official):** [https://playwright.dev/docs/why-playwright](https://playwright.dev/docs/why-playwright)
+- **Playwright getting started (official):** [https://playwright.dev/docs/intro](https://playwright.dev/docs/intro)
 
 ---
+
+*See also:* [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — the TL;DR if you don't have time for 1,800 lines. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) · [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %})
 
 *This guide is what I wish someone had handed me when I was first evaluating browser automation tools — especially the parts about distributed systems. Share it, argue about it, adapt it. Just don't use `cy.wait(3000)`.*

@@ -4,7 +4,7 @@ title: "Self-Healing Test Suites: AI-Powered Locator Healing in CI/CD"
 date: 2026-07-01
 categories: [automation, best-practices]
 tags: [selenium, playwright, self-healing, ai-testing, locators, ci-cd, java, csharp, typescript, javascript, python]
-excerpt: "How AI-powered self-healing locators eliminate flaky tests by finding elements by their semantic role when CSS selectors break — with Java code examples and multi-language reference tables."
+excerpt: "Frontend renamed a button and your suite went red at 2am? Self-healing locators find it by what it does, not what it's called."
 reading_time: 10
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Lessons from Automating Healthcare QA at Scale"
 date: 2026-06-28
 categories: [healthcare, case-studies]
-tags: [healthcare, qa-transformation, playwright, azure-devops, compliance]
+tags: [healthcare, qa-transformation, playwright, azure-devops, compliance, java, typescript]
 excerpt: "What I learned leading QA automation for healthcare services — from compliance requirements to building reliable test suites for critical systems."
 reading_time: 7
 ---
@@ -106,5 +106,14 @@ The biggest lesson? **Automation is a tool, not a strategy.** The real transform
 2. **Involve clinicians** in test scenario design — they catch edge cases you'd miss
 3. **Automate incrementally** — don't try to automate everything at once
 4. **Measure business impact** — "We reduced regression testing from 3 days to 4 hours" speaks louder than "We wrote 500 test cases"
+
+## Sources & Further Reading
+
+1. [HIPAA — CDC public health law overview](https://www.cdc.gov/phlp/publications/topic/hipaa.html)
+2. [FERPA — student privacy (official)](https://studentprivacy.ed.gov/)
+3. [Playwright — best practices](https://playwright.dev/docs/best-practices)
+4. [Azure DevOps — test planning](https://learn.microsoft.com/en-us/azure/devops/test/)
+
+*See also:* [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — the pipeline patterns that made that 4-hour number possible.
 
 Healthcare QA automation isn't glamorous, but when done right, it directly improves patient outcomes by catching defects before they reach production.

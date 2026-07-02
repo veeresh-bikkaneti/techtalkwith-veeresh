@@ -169,4 +169,11 @@ When it comes to automating drag-and-drop in C# Selenium, `OpenQA.Selenium.Inter
 
 By mastering these techniques, you'll ensure that your Selenium tests are robust, reliable, and ready to handle complex user interactions across different browsers and platforms.
 
-*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with WebDriver BiDi native pointer events replacing JavaScript drag-and-drop hacks.
+## Sources & Further Reading
+
+1. [Selenium Actions API — drag and drop](https://www.selenium.dev/documentation/webdriver/actions_api/mouse/)
+2. [HTML5 Drag and Drop API — MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+3. [Executing JavaScript — Selenium docs](https://www.selenium.dev/documentation/legacy/json_wire_protocol/#executing-javascript)
+4. [WebDriver BiDi — input domain](https://www.selenium.dev/documentation/webdriver/bidi/)
+
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — BiDi native pointer events replacing these JavaScript hacks. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %})

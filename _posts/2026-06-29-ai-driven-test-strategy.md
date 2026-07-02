@@ -3,7 +3,7 @@ layout: post
 title: "AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration"
 date: 2026-06-29
 categories: [best-practices, frameworks]
-tags: [ai-testing, copilot, multi-agent, test-generation, playwright, cypress, typescript]
+tags: [ai-testing, copilot, multi-agent, test-generation, playwright, cypress, typescript, java, javascript]
 excerpt: "How I evolved from GitHub Copilot autocomplete to building multi-agent AI systems that generate, execute, and self-heal test suites autonomously."
 reading_time: 6
 ---
@@ -204,4 +204,11 @@ AI in testing isn't about writing fewer tests — it's about writing **smarter t
 
 The future of QA isn't AI versus humans. It's **AI-augmented humans** building quality systems that neither could create alone.
 
-*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice: how `npx playwright codegen --ai` turns requirements documents into runnable test suites. · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — Phase 4 implemented in Java: AI-powered locator healing in CI/CD.
+## Sources & Further Reading
+
+1. [GitHub Copilot — documentation](https://docs.github.com/en/copilot)
+2. [Model Context Protocol — specification](https://modelcontextprotocol.io/)
+3. [LLMcouncil — multi-agent test strategy framework](https://github.com/veeresh-bikkaneti/LLMcouncil)
+4. [Playwright codegen — test generation](https://playwright.dev/docs/codegen)
+
+*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice. · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — Phase 4 in Java.

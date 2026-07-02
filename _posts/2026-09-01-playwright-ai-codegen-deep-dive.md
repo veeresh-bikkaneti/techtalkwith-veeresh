@@ -4,7 +4,7 @@ title: "Playwright AI Codegen in 2026: Generating Test Suites from Natural Langu
 date: 2026-07-01
 categories: [automation, tools]
 tags: [playwright, ai-codegen, test-generation, natural-language, beginners, csharp, java, typescript, javascript, python, ci-cd]
-excerpt: "How `npx playwright codegen --ai` turns plain English into working Playwright scripts — from recording clicks to generating full test suites from requirements documents."
+excerpt: "Playwright's codegen --ai writes tests from plain English. I still review everything — but I type about 80% less than I used to."
 reading_time: 9
 ---
 

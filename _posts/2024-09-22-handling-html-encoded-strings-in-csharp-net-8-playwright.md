@@ -4,7 +4,7 @@ title: "Handling HTML Encoded Strings in C# .NET 8.0 with Microsoft Playwright"
 date: 2024-09-22
 categories: [automation, frameworks]
 tags: [playwright, dotnet, csharp, html-encoding, test-utilities]
-excerpt: "When working with web applications, it's common to encounter HTML encoded text in the UI that needs to be decoded and processed. For example, you might have a list of product descriptions displayed on a webpage and a corresponding list of descriptions in a JSON file. The task is..."
+excerpt: "Playwright found the text but Assert.AreEqual failed anyway? HTML encoding. Here's how I decode it in .NET 8 without losing my sanity."
 reading_time: 3
 ---
 
@@ -128,7 +128,7 @@ public class ProductDescription
 
 This approach ensures that the code is clean, readable, and follows best practices for naming conventions and structure.
 
-***
+
 ### Using the Code in a Real-World Scenario
 
 #### Scenario
@@ -199,4 +199,13 @@ public class Program
 6. **Encoding Variations**:
    - Different sources might use different encoding schemes. Ensure consistency in encoding across all data sources.
 
-By being aware of these pitfalls and following best practices, you can effectively handle HTML encoded strings in your applications. 
+By being aware of these pitfalls and following best practices, you can effectively handle HTML encoded strings in your applications.
+
+## Sources & Further Reading
+
+1. [Playwright .NET — intro](https://playwright.dev/dotnet/docs/intro)
+2. [System.Net.WebUtility.HtmlDecode — Microsoft docs](https://learn.microsoft.com/en-us/dotnet/api/system.net.webutility.htmldecode)
+3. [HtmlAgilityPack — HTML parsing for .NET](https://html-agility-pack.net/)
+4. [Playwright locators — text matching](https://playwright.dev/docs/locators#locate-by-text)
+
+*See also:* [Mastering Playwright .NET (Sep 2024)]({% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) — the full DI + Page Object setup this decoding logic plugs into.

@@ -8,7 +8,7 @@ excerpt: "How functional testers contribute to application security across every
 reading_time: 3
 ---
 
-In today's fast-paced software development environment, ensuring the security of web applications is paramount. As a functional tester, you play a crucial role in the secure development lifecycle (SDLC), helping to identify and mitigate security vulnerabilities early in the process. This comprehensive guide outlines how functional testers contribute to application security throughout each phase of the SDLC.
+Security isn't someone else's job in QA — it's yours too, whether or not your title says "security." As a functional tester, you're already poking at edge cases; this is how I slot security thinking into every SDLC phase without pretending I'm a pentester.
 
 ## 1. Requirements Phase
 
@@ -193,3 +193,12 @@ jobs:
 ## Conclusion
 
 By integrating security activities into each phase of the SDLC, functional testers help create more secure web applications, protecting both the organization and its users. The combination of automated tools, manual testing, and continuous monitoring ensures comprehensive security coverage while maintaining development efficiency.
+
+## Sources & Further Reading
+
+1. [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+2. [OWASP SAMM — Software Assurance Maturity Model](https://owaspsamm.org/)
+3. [NIST SSDF — secure software development](https://csrc.nist.gov/Projects/ssdf)
+4. [Microsoft SDL — security development lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
+
+*See also:* [Step-by-Step Security Testing for SDETs (Sep 2024)]({% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %}) · [The Secret to Secure Software Development (Sep 2024)]({% link _posts/2024-09-26-secret-to-secure-software-development.md %}) — secret management, the thing that bites you at 3am.

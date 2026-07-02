@@ -149,4 +149,11 @@ The CSS variant (`nth-of-type`) is generally faster and more readable; the XPath
 
 Locator choice and synchronization strategy determine whether a Selenium suite is reliable or riddled with false negatives. Make these decisions once, encode them as page-object helpers, and revisit only when the underlying framework changes.
 
-*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with Relative Locators, WebDriver BiDi, and MCP server setup.
+## Sources & Further Reading
+
+1. [Selenium locators — official guide](https://www.selenium.dev/documentation/webdriver/elements/locators/)
+2. [Relative locators — Selenium 4](https://www.selenium.dev/documentation/webdriver/elements/locators/#relative-locators)
+3. [Waits and synchronization](https://www.selenium.dev/documentation/webdriver/waits/)
+4. [NoSuchElementException — troubleshooting](https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception)
+
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — when every locator in this post fails at once.

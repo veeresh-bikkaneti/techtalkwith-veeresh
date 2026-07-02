@@ -3,7 +3,7 @@ layout: post
 title: "Playwright vs Selenium in 2026: Which Should You Choose?"
 date: 2026-06-15
 categories: [automation, tools]
-tags: [playwright, selenium, browser-automation, testing]
+tags: [playwright, selenium, browser-automation, testing, java, typescript, javascript, csharp]
 excerpt: "A practical comparison of Playwright and Selenium for modern test automation — covering speed, reliability, multi-browser support, and developer experience."
 reading_time: 6
 ---
@@ -57,4 +57,11 @@ For **existing projects**: Evaluate migration cost vs. long-term benefit. Playwr
 
 The future is Playwright, but the present still has room for both.
 
-*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) and [Playwright MCP + Multi-Agent Testing (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) — deep-dive beginner's guides for both ecosystems.
+## Sources & Further Reading
+
+1. [Playwright — getting started](https://playwright.dev/docs/intro)
+2. [Selenium — WebDriver documentation](https://www.selenium.dev/documentation/webdriver/)
+3. [Playwright vs Selenium — BrowserStack comparison](https://www.browserstack.com/guide/playwright-vs-selenium)
+4. [WebDriver BiDi specification](https://w3c.github.io/webdriver-bidi/)
+
+*See also:* [The Browser Automation Trap (Jun 2026)]({% link _posts/2026-06-10-the-browser-automation-trap.md %}) — the long-form rant this post summarizes. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %})

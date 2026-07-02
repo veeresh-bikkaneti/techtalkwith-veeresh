@@ -4,7 +4,7 @@ title: "Why and When to Use Hasura with Graph API and Hot Chocolate"
 date: 2024-09-24
 categories: [automation, frameworks]
 tags: [graphql, hasura, dotnet, hot-chocolate, api]
-excerpt: "Imagine you are building a movie database application. You want to query data from multiple sources, such as a SQL database for movie details and a REST API for actor biographies. Here's how you can use Hasura and Hot Chocolate together:"
+excerpt: "Movie DB, SQL backend, REST actor API — one GraphQL layer on top. How I wired Hasura + Hot Chocolate without losing the plot."
 reading_time: 3
 ---
 
@@ -45,12 +45,11 @@ Imagine you are building a movie database application. You want to query data fr
 Choosing between Hasura and Apollo depends on your specific needs and project requirements. If you need a quick, real-time, and database-integrated solution, Hasura is a great choice. If you require more customization and flexibility, Apollo might be more suitable.
 
 
-Source:
-([1](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema)) Getting Started with Hot Chocolate .NET GraphQL Server - Hasura. https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema.
-([2](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)) Hasura vs Apollo: Comparing GraphQL Platforms (2024). https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms.
-([3](https://stackshare.io/stackups/apollo-vs-hasura)) Apollo vs Hasura | What are the differences? - StackShare. https://stackshare.io/stackups/apollo-vs-hasura.
-(4) GraphQL Server with .NET (dotnet) | Backend Tutorial - Hasura. https://hasura.io/learn/graphql/backend-stack/languages/dotnet/.
-(5) Fullstack GraphQL Tutorial Series | Learn GraphQL & Hasura. https://hasura.io/learn/.
-(6) Hasura use cases overview | Hasura GraphQL Docs. https://hasura.io/docs/2.0/getting-started/use-case/overview/.
-(7) Hasura vs Apollo: GraphQL Comparison — Restack. https://www.restack.io/docs/hasura-knowledge-hasura-graphql-vs-apollo.
-(8) GraphQL Performance Benchmarks: Hasura vs Apollo with Oracle RDS. https://hasura.io/blog/hasura-vs-apollo-graphql-performance-benchmarks-oracle-rds.
+## Sources & Further Reading
+
+1. [Getting Started with Hot Chocolate + Hasura Remote Schema](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema)
+2. [GraphQL Server with .NET — Hasura Tutorial](https://hasura.io/learn/graphql/backend-stack/languages/dotnet/)
+3. [Hasura vs Apollo — platform comparison](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)
+4. [Hot Chocolate — .NET GraphQL server](https://chillicream.com/docs/hotchocolate)
+
+*See also:* [Why Choose Hasura Over Other Tools (Sep 2024)]({% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %}) · [Mastering GraphQL (Sep 2024)]({% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})
