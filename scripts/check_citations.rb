@@ -30,6 +30,10 @@ def check_url(url)
     end
 
     code = response.code.to_i
+    if code == 403 && uri.host&.include?("reddit.com")
+      return [url, :ok, "403 (reddit bot wall)"]
+    end
+
     status = code >= 200 && code < 400 ? :ok : :fail
     [url, status, code]
   end

@@ -108,7 +108,7 @@ Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient 
 * [Hasura explained — Restack](https://www.restack.io/docs/hasura-knowledge-hasura-explained)
 * [Hasura v3 Course Introduction](https://hasura.io/learn/graphql/hasura-v3/introduction/)
 * [Building Scalable Real-Time Apps with Hasura — dev.to](https://dev.to/sebiweise/hasura-building-scalable-and-real-time-applications-an-extensive-guide-7b5)
-* [Prisma vs Hasura — r/graphql](https://www.reddit.com/r/graphql/comments/nc7nh8/prisma_2_vs_hasura_vs_something_else/)
+* [Comparing GraphQL platforms — Hasura Blog](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)
 * [Guide to GraphQL — graphjin wiki](https://github.com/dosco/graphjin/wiki/Guide-to-GraphQL)
 
 *See also:* [Hasura with Graph API and Hot Chocolate (Sep 2024)]({% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %}) · [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %})
