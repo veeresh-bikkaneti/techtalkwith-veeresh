@@ -41,7 +41,7 @@ This site is built with [Jekyll](https://jekyllrb.com/) and deployed via [GitHub
 
 ## Agent Orchestrator
 
-This repo uses an **agent orchestrator pattern** for managing workflows. See [AGENTS.md](AGENTS.md) for full details.
+This repo uses an **agent orchestrator pattern** for managing workflows. See local `AGENTS.md` (gitignored, not published) for full details.
 
 ### Quick Overview
 
@@ -195,7 +195,7 @@ await page.GotoAsync("https://example.com");
 
 1. **Target 5-10 minute reading time** (~1000-2000 words)
 2. **Include code examples** — practical, runnable snippets
-3. **Use proper tags** — see taxonomy in AGENTS.md
+3. **Use proper tags** — see taxonomy in local `AGENTS.md`
 4. **Write descriptive excerpts** — 120-160 characters
 5. **Add alt text** to any images
 
@@ -203,15 +203,17 @@ await page.GotoAsync("https://example.com");
 
 ## Deployment
 
-The site auto-deploys on every push to `main` via GitHub Actions.
+The site auto-deploys when changes are **merged to `main`** via GitHub Actions.
+Contributors do not push directly to `main`; all changes go through a pull
+request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
 
 **One-time setup.** Enable GitHub Pages in repository Settings → Pages → Source: **GitHub Actions**.
 
-Then, on every push to `main`:
+**Typical release flow:**
 
-1. Push to `main` branch
-2. GitHub Actions builds the Jekyll site and runs html-proofer + bundler-audit
-3. Deploys to GitHub Pages at `https://veeresh-bikkaneti.github.io/techtalkwith-veeresh/` — canonical production URL (project path; no custom domain)
+1. Create a branch from `main`, commit changes, and push the branch
+2. Open a pull request targeting `main` and wait for CI (Jekyll build, html-proofer, bundler-audit, citation checks)
+3. After human review and merge to `main`, GitHub Actions deploys to GitHub Pages at `https://veeresh-bikkaneti.github.io/techtalkwith-veeresh/` — canonical production URL (project path; no custom domain)
 
 ---
 ## Content Categories
