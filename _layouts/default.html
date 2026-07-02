@@ -56,11 +56,13 @@
         <span class="terminal-prompt">&gt;</span> {{ site.title }}
       </a>
       <nav class="site-nav">
-        {% for page in site.header_pages %}
-          {% assign page_obj = site.pages | where: 'name', page | first %}
+        {% for header_page in site.header_pages %}
+          {% assign page_obj = site.pages | where: 'path', header_page | first %}
+          {% if page_obj %}
           <a href="{{ page_obj.url | relative_url }}" {% if page.url == page_obj.url %}class="active"{% endif %}>
             {{ page_obj.title }}
           </a>
+          {% endif %}
         {% endfor %}
         <a href="{{ '/feed.xml' | relative_url }}" class="rss-link" title="RSS Feed">
           <i class="fas fa-rss"></i>

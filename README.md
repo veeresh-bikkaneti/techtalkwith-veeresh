@@ -99,30 +99,61 @@ Visit [http://localhost:4000](http://localhost:4000) to preview the site.
 JEKYLL_ENV=production bundle exec jekyll build
 ```
 
+### Link Check (CI runs this automatically)
+
+```bash
+bundle exec jekyll build
+bundle exec htmlproofer ./_site --checks Links,Images --disable-external --allow-hash-href --ignore-empty-alt --swap-urls '^/techtalkwith-veeresh:'
+ruby scripts/check_citations.rb
+```
+
+Internal links are checked with html-proofer; citation URLs in `## Sources & Further Reading` are verified separately.
+
 ---
 
 ## Project Structure
 
 ```
-knowledgeshare/
-├── AGENTS.md                # Agent orchestrator documentation
+techtalkwith-veeresh/
 ├── _config.yml              # Jekyll configuration
 ├── _layouts/
 │   ├── default.html         # Base layout (dark tech theme)
 │   └── post.html            # Blog post layout
-├── _posts/                  # Blog posts (Markdown)
-│   ├── 2026-06-10-qa-engineering-career-guide.md
-│   ├── 2026-06-15-playwright-vs-selenium-2026.md
-│   ├── 2026-06-20-building-bdd-frameworks-that-work.md
-│   ├── 2026-06-25-ci-cd-pipelines-for-test-automation.md
-│   └── 2026-06-28-healthcare-qa-automation.md
+├── _posts/                  # 33 blog posts (Markdown + front matter)
 ├── assets/css/main.css      # Custom dark theme styles
 ├── index.md                 # Home page
 ├── about.md                 # Portfolio / About page
-├── blog/index.html         # Blog listing page
-└── .github/workflows/       # GitHub Actions deployment
-    └── jekyll-gh-pages.yml
+├── blog/index.html          # Blog listing page
+└── .github/workflows/
+    └── jekyll-gh-pages.yml  # Build, link-check, deploy
 ```
+
+## Blog Posts (33)
+
+All posts include human-voice excerpts, `## Sources & Further Reading` (4 verified URLs each), and internal cross-links.
+
+### 2026 — Flagship automation series
+| Date | Post |
+|------|------|
+| 2026-07-01 | Selenium 2026 Beginner's Guide (WebDriver BiDi, MCP, AI-assisted automation) |
+| 2026-08-01 | Playwright MCP + Multi-Agent Testing |
+| 2026-08-15 | Selenium BiDi vs Playwright CDP |
+| 2026-09-01 | Playwright AI Codegen Deep Dive |
+| 2026-09-15 | Self-Healing Test Suites |
+| 2026-06-10 | The Browser Automation Trap (long-form anchor) |
+
+### 2026 — Strategy, leadership & domain QA
+| Date | Post |
+|------|------|
+| 2026-06-10 | QA Engineer's Roadmap: Manual Tester → Automation Lead |
+| 2026-06-15 | Playwright vs Selenium in 2026 |
+| 2026-06-20 | Building BDD Frameworks That Actually Work |
+| 2026-06-25 | CI/CD Pipelines for Test Automation |
+| 2026-06-28 | Lessons from Automating Healthcare QA at Scale |
+| 2026-06-29 | AI-Driven Test Strategy: Copilot to Multi-Agent |
+
+### 2024–2025 — Migrated guides (Playwright, Selenium, GraphQL, security)
+21 posts from Medium and GitHub Wiki — Playwright .NET tutorials, Selenium C# patterns, GraphQL/Hasura deep dives, BDD/TDD comparisons, security testing, Azure Cosmos DB, and SDLC testing guides. See `_posts/` for the full dated archive (2020–2025).
 
 ---
 
@@ -179,10 +210,8 @@ The site auto-deploys on every push to `main` via GitHub Actions.
 Then, on every push to `main`:
 
 1. Push to `main` branch
-2. GitHub Actions builds the Jekyll site
+2. GitHub Actions builds the Jekyll site and runs html-proofer + bundler-audit
 3. Deploys to GitHub Pages at `https://veeresh-bikkaneti.github.io/techtalkwith-veeresh/` — canonical production URL (project path; no custom domain)
-
----
 
 ---
 ## Content Categories

@@ -53,6 +53,23 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Audit gem dependencies
+        run: |
+          bundle exec bundler-audit update
+          bundle exec bundler-audit check
+
+      - name: Check internal links and images
+        run: >
+          bundle exec htmlproofer ./_site
+          --checks Links,Images
+          --disable-external
+          --allow-hash-href
+          --ignore-empty-alt
+          --swap-urls ^/techtalkwith-veeresh:
+
+      - name: Check citation URLs in blog posts
+        run: ruby scripts/check_citations.rb
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

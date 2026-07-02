@@ -11,4 +11,5 @@ end
 
 group :development do
   gem "html-proofer"
+  gem "bundler-audit"
 end

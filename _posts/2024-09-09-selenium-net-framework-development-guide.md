@@ -53,7 +53,6 @@ reading_time: 11
   - [10. Reporting Integration](#10-reporting-integration)
     - [10.1 Allure Reporting](#101-allure-reporting)
   - [11. Best Practices and CLEAN Architecture](#11-best-practices-and-clean-architecture)
-  - [11. Best Practices and CLEAN Architecture](#11-best-practices-and-clean-architecture-1)
   - [12. Conclusion](#12-conclusion)
 
 

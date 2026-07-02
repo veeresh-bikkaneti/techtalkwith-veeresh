@@ -22,7 +22,7 @@ reading_time: 6
 
 ### **When to Use Hasura, GraphQL, and Hot Chocolate Together**
 
-**[1](https://www.codedaily.io/tutorials/Why-You-Should-Use-Hasura). Building a Unified API**: Use Hasura to quickly generate a GraphQL API from your database and unify it with other data sources. Then, use Hot Chocolate to build custom GraphQL APIs in .NET and integrate them with Hasura using Remote Schemas⁴.
+**[1](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema). Building a Unified API**: Use Hasura to quickly generate a GraphQL API from your database and unify it with other data sources. Then, use Hot Chocolate to build custom GraphQL APIs in .NET and integrate them with Hasura using Remote Schemas⁴.
 
 **2. Leveraging Real-time Data**: If your application requires real-time updates, Hasura's subscription feature can handle this efficiently. Combine this with Hot Chocolate's flexibility to manage complex, custom logic¹.
 
@@ -104,7 +104,7 @@ Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient 
 * [Getting Started with Hot Chocolate .NET GraphQL Server — Hasura](https://hasura.io/blog/getting-started-with-hot-chocolate-dot-net-graphql-server-and-hasura-remote-schema)
 * [GraphQL Server with .NET — Hasura Tutorial](https://hasura.io/learn/graphql/backend-stack/languages/dotnet/)
 * [Hasura use cases overview](https://hasura.io/docs/latest/getting-started/use-case/overview/)
-* [Hasura use cases overview](https://hasura.io/docs/latest/getting-started/use-case/overview/)
+* [Why You Should Use Hasura — Hasura Blog](https://hasura.io/blog/why-you-should-use-hasura/)
 * [Hasura explained — Restack](https://www.restack.io/docs/hasura-knowledge-hasura-explained)
 * [Hasura v3 Course Introduction](https://hasura.io/learn/graphql/hasura-v3/introduction/)
 * [Building Scalable Real-Time Apps with Hasura — dev.to](https://dev.to/sebiweise/hasura-building-scalable-and-real-time-applications-an-extensive-guide-7b5)
