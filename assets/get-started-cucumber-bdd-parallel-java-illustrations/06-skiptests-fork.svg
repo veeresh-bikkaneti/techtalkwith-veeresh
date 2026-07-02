@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="The -DskipTests flag vs Failsafe integration-test">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="68" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#111">-DskipTests does NOT mean skip all testing</text>
+  <!-- road fork -->
+  <path d="M200 750 Q500 750, 700 500 Q900 300, 1100 280" fill="none" stroke="#111" stroke-width="8"/>
+  <path d="M700 500 Q500 400, 350 300" fill="none" stroke="#111" stroke-width="8"/>
+  <!-- wrong sign -->
+  <rect x="280" y="160" width="340" height="100" rx="6" fill="#fff" stroke="#c0392b" stroke-width="5"/>
+  <text x="450" y="210" text-anchor="middle" font-family="monospace" font-size="26" fill="#111">-DskipTests</text>
+  <text x="450" y="245" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#c0392b">skip ALL tests ✗</text>
+  <line x1="300" y1="170" x2="600" y2="250" stroke="#c0392b" stroke-width="5"/>
+  <text x="350" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#c0392b">duplicate runners</text>
+  <!-- right path -->
+  <text x="1150" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#e67e22">Failsafe</text>
+  <text x="1150" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111">integration-test phase</text>
+  <text x="1150" y="320" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#27ae60">true parallel ✓</text>
+  <!-- Xiaohei pointing right -->
+  <ellipse cx="780" cy="580" rx="42" ry="52" fill="#111"/>
+  <circle cx="768" cy="568" r="7" fill="#fff"/>
+  <circle cx="792" cy="568" r="7" fill="#fff"/>
+  <path d="M820 560 L980 340" fill="none" stroke="#111" stroke-width="5" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#111"/></marker></defs>
+</svg>

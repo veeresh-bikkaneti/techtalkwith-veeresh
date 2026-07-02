@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Cucable splits scenarios, Failsafe forks JVMs, ThreadLocal isolates browsers">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="68" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600" fill="#111">Parallel is three mechanisms holding hands</text>
+  <!-- splitter box -->
+  <rect x="120" y="280" width="320" height="260" rx="12" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="280" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#c0392b">CUCABLE</text>
+  <text x="280" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#555">split scenarios</text>
+  <text x="280" y="460" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#111">.feature → many *IT</text>
+  <!-- big cucumber in -->
+  <ellipse cx="80" cy="410" rx="50" ry="18" fill="#27ae60" stroke="#111" stroke-width="3"/>
+  <!-- three lanes out -->
+  <path d="M440 360 L620 300" fill="none" stroke="#e67e22" stroke-width="6"/>
+  <path d="M440 410 L620 410" fill="none" stroke="#e67e22" stroke-width="6"/>
+  <path d="M440 460 L620 520" fill="none" stroke="#e67e22" stroke-width="6"/>
+  <text x="720" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#e67e22">Failsafe</text>
+  <text x="720" y="325" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#555">forkCount=2</text>
+  <!-- JVM boxes -->
+  <rect x="900" y="240" width="200" height="120" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="1000" y="310" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#111">JVM 1</text>
+  <rect x="900" y="400" width="200" height="120" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="1000" y="470" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#111">JVM 2</text>
+  <!-- browsers -->
+  <rect x="1180" y="250" width="140" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="1180" y="410" width="140" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="1340" y="250" width="140" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="1340" y="410" width="140" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="1260" y="560" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#2980b9">ThreadLocal</text>
+  <text x="1260" y="595" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#555">one driver per thread</text>
+  <!-- Xiaohei cranking -->
+  <ellipse cx="300" cy="620" rx="38" ry="48" fill="#111"/>
+  <circle cx="290" cy="610" r="6" fill="#fff"/>
+  <circle cx="310" cy="610" r="6" fill="#fff"/>
+</svg>
