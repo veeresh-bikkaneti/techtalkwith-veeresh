@@ -14,11 +14,19 @@ def extract_source_urls(content)
   section.scan(%r{https?://[^\s)\]"'>]+})
 end
 
-def check_url(url)
+TRANSIENT_ERRORS = [
+  Net::OpenTimeout,
+  Net::ReadTimeout,
+  Errno::ETIMEDOUT,
+  SocketError,
+  EOFError
+].freeze
+
+def fetch_url(url)
   uri = URI.parse(url)
   return [url, :skip, "non-http"] unless uri.is_a?(URI::HTTP)
 
-  Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", open_timeout: 15, read_timeout: 15) do |http|
+  Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", open_timeout: 20, read_timeout: 20) do |http|
     request = Net::HTTP::Head.new(uri)
     request["User-Agent"] = USER_AGENT
     response = http.request(request)
@@ -37,6 +45,17 @@ def check_url(url)
     status = code >= 200 && code < 400 ? :ok : :fail
     [url, status, code]
   end
+end
+
+def check_url(url, attempts: 3)
+  fetch_url(url)
+rescue *TRANSIENT_ERRORS => e
+  if attempts > 1
+    sleep 2
+    return check_url(url, attempts: attempts - 1)
+  end
+
+  [url, :fail, e.message]
 rescue StandardError => e
   [url, :fail, e.message]
 end
