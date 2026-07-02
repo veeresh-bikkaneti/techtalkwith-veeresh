@@ -340,7 +340,7 @@ For production, point tests at your AUT and pin browser versions in `Setup` if y
 
 - [cucumberBDDParallel on GitHub](https://github.com/veeresh-bikkaneti/cucumberBDDParallel) — README, CI, AI healing diagram
 - `PLAYBOOK.md` — SOLID notes, cost model, extension points
-- [Building BDD Frameworks That Actually Work]({{ site.baseurl }}/best-practices/building-bdd-frameworks-that-actually-work/) — Gherkin habits that won't embarrass you in refinement
+- [Building BDD Frameworks That Actually Work]({% link _posts/2026-06-20-building-bdd-frameworks-that-work.md %}) — Gherkin habits that won't embarrass you in refinement
 
 Parallel BDD doesn't have to be a senior-engineer-only club. Clone it. Run one feature file end to end. Swap Google for your app.
 
