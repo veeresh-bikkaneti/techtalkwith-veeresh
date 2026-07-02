@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="BDD three layers: Gherkin, step definitions, page objects">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" fill="#111">Three layers. Don't put Selenium in the feature file.</text>
+  <!-- platforms -->
+  <path d="M180 580 L480 520 L480 600 L180 660 Z" fill="#f5f5f5" stroke="#111" stroke-width="4"/>
+  <path d="M560 500 L860 440 L860 520 L560 580 Z" fill="#f0f0f0" stroke="#111" stroke-width="4"/>
+  <path d="M940 420 L1240 360 L1240 440 L940 500 Z" fill="#ebebeb" stroke="#111" stroke-width="4"/>
+  <text x="330" y="555" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#e67e22">Gherkin</text>
+  <text x="330" y="630" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#c0392b">readable</text>
+  <text x="710" y="475" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#e67e22">Step defs</text>
+  <text x="710" y="545" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#555">thin glue</text>
+  <text x="1090" y="395" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#e67e22">Page objects</text>
+  <text x="1090" y="465" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#2980b9">maintainable</text>
+  <!-- scroll on layer 1 -->
+  <rect x="250" y="470" width="120" height="50" rx="4" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="310" y="503" text-anchor="middle" font-family="monospace" font-size="16" fill="#111">Feature:</text>
+  <!-- browser at bottom -->
+  <rect x="680" y="700" width="240" height="140" rx="8" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="800" y="760" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#555">browser DOM</text>
+  <path d="M1090 500 L920 700" fill="none" stroke="#e67e22" stroke-width="5" marker-end="url(#a)"/>
+  <path d="M710 520 L780 700" fill="none" stroke="#e67e22" stroke-width="5"/>
+  <path d="M330 580 L720 700" fill="none" stroke="#e67e22" stroke-width="5"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#e67e22"/></marker></defs>
+</svg>

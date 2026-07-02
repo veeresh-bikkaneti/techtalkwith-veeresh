@@ -25,8 +25,8 @@ Two Maven modules. That's the whole magic trick.
 | `framework/` | Reusable JAR: browser hooks, waits, `BasePage`, optional AI locator healing |
 | `example-tests/` | Working Cucumber + Selenium demo you can copy like a shameless chef |
 
-![Two-module split: reusable framework core and working example tests]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/01-two-module-split.png)
-*Ian Xiaohei illustration: steal the recipe, not the restaurant.*
+![Two-module split: reusable framework core and working example tests]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/01-two-module-split.svg)
+*Hand-drawn style illustration — steal the recipe, not the restaurant.*
 
 Under the hood: [Cucumber 7.34.4](https://github.com/veeresh-bikkaneti/cucumberBDDParallel/blob/main/pom.xml), [Selenium 4.45.0](https://www.selenium.dev/documentation/webdriver/), [TestNG 7.12.0](https://testng.org/#_parallelism_and_time_outs), and the [Cucable plugin](https://github.com/trivago/cucable-plugin) to split scenarios so they can run side by side instead of forming a polite queue.
 
@@ -92,7 +92,7 @@ It tells Maven Surefire to leave alone the hand-written `HomePageTest` and `Sear
 
 The real show is Cucable-generated runners executed by the [Maven Failsafe Plugin](https://maven.apache.org/surefire/maven-failsafe-plugin/) during `integration-test`. There is no spoon — only phases ([*The Matrix*](https://www.warnerbros.com/movies/matrix)).
 
-![The -DskipTests flag routes you away from Surefire double-runs, not away from testing]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/06-skiptests-fork.png)
+![The -DskipTests flag routes you away from Surefire double-runs, not away from testing]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/06-skiptests-fork.svg)
 
 ```mermaid
 flowchart TD
@@ -126,7 +126,7 @@ Three layers. Memorize these and you'll survive most BDD conversations:
 2. **Step definitions** — thin glue
 3. **Page objects** — where Selenium actually touches the DOM
 
-![BDD three layers: Gherkin, step glue, and page objects]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/02-bdd-three-layers.png)
+![BDD three layers: Gherkin, step glue, and page objects]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/02-bdd-three-layers.svg)
 
 [Cucumber's step definition model](https://cucumber.io/docs/cucumber/step-definitions/) exists for exactly this split. Readable scenarios. Maintainable automation. Revolutionary concept, somehow.
 
@@ -192,7 +192,7 @@ Drop `Setup` and `TearDown` into your runner's `glue` array and every scenario g
 
 "Cucumber parallel" sounds like one checkbox. It isn't. Three mechanisms hold hands:
 
-![Serial vs parallel — one browser at a time is a tragedy in three acts]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/04-serial-vs-parallel.png)
+![Serial vs parallel — one browser at a time is a tragedy in three acts]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/04-serial-vs-parallel.svg)
 
 ### 1. Cucable splits your features
 
@@ -214,7 +214,7 @@ private static final ThreadLocal<WebDriver> DRIVER = new ThreadLocal<>();
 
 `DriverManagerTest` proves two threads get two drivers. That's the safety net you want before trusting parallel BDD in CI. I can do this all day — but I'd rather the tests do it for me ([*Captain America: Civil War*](https://www.marvel.com/movies/captain-america-civil-war)).
 
-![Cucable splits scenarios, Failsafe forks JVMs, ThreadLocal isolates browsers]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/03-parallel-split-flow.png)
+![Cucable splits scenarios, Failsafe forks JVMs, ThreadLocal isolates browsers]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/03-parallel-split-flow.svg)
 
 ```mermaid
 flowchart TD
@@ -282,7 +282,7 @@ flowchart LR
 
 Locator breaks after a CSS rename? The framework can send page HTML to Claude, get a new selector, retry once. These aren't the droids you're looking for — until the second try ([*Star Wars*](https://www.starwars.com/films/star-wars-episode-iv-a-new-hope)).
 
-![Optional AI healing: broken locator, one retry, then move on or fail loud]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/05-ai-healing-optional.png)
+![Optional AI healing: broken locator, one retry, then move on or fail loud]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/05-ai-healing-optional.svg)
 
 Off unless `ANTHROPIC_API_KEY` is set:
 

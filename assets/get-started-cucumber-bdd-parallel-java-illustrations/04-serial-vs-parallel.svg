@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Serial vs parallel browser execution">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <line x1="800" y1="120" x2="800" y2="820" stroke="#ccc" stroke-width="4" stroke-dasharray="16 12"/>
+  <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#111">Serial</text>
+  <text x="1200" y="90" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#111">Parallel</text>
+  <!-- serial side -->
+  <rect x="220" y="280" width="360" height="220" rx="10" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="400" y="400" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#555">one browser</text>
+  <ellipse cx="400" cy="560" rx="55" ry="30" fill="#bdc3c7" stroke="#111" stroke-width="3"/>
+  <text x="400" y="568" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#111">snail pace</text>
+  <text x="400" y="650" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#c0392b">SLOW</text>
+  <!-- parallel side -->
+  <rect x="920" y="260" width="200" height="150" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="1160" y="260" width="200" height="150" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="920" y="440" width="200" height="150" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+  <rect x="1160" y="440" width="200" height="150" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="1140" y="640" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#e67e22">FAST</text>
+  <!-- stressed Xiaohei -->
+  <ellipse cx="1140" cy="720" rx="40" ry="50" fill="#111"/>
+  <circle cx="1128" cy="710" r="7" fill="#fff"/>
+  <circle cx="1152" cy="710" r="7" fill="#fff"/>
+  <text x="1140" y="800" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#555">more RAM, less waiting</text>
+</svg>
