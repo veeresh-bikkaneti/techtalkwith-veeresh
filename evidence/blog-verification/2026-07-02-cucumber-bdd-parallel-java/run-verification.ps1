@@ -42,6 +42,23 @@ function Resolve-UpstreamRepo {
     throw "Upstream cucumberBDDParallel not found. Clone it or pass -UpstreamRepo."
 }
 
+function Resolve-Maven {
+    $cmd = Get-Command mvn -ErrorAction SilentlyContinue
+    if ($cmd) { return $cmd.Source }
+    $candidates = @(
+        "C:\Program Files\Apache\maven\bin\mvn.cmd",
+        "$env:USERPROFILE\apache-maven\bin\mvn.cmd"
+    )
+    $ideaMaven = Get-ChildItem "C:\Program Files\JetBrains" -Recurse -Filter "mvn.cmd" -ErrorAction SilentlyContinue |
+        Where-Object { $_.FullName -match '\\plugins\\maven\\lib\\maven3\\bin\\mvn\.cmd$' } |
+        Select-Object -First 1
+    if ($ideaMaven) { $candidates += $ideaMaven.FullName }
+    foreach ($path in $candidates) {
+        if ($path -and (Test-Path $path)) { return $path }
+    }
+    throw "Maven (mvn) not found on PATH. Install Maven or add it to PATH."
+}
+
 Write-Log "Blog verification: 2026-07-02-get-started-cucumber-bdd-parallel-java"
 
 # --- Live pom.xml from GitHub ---
@@ -126,10 +143,14 @@ $env:JAVA_HOME = $java
 $env:PATH = "$java\bin;$env:PATH"
 $demoDir = Join-Path $here "threadlocal-driver-demo"
 
-Write-Log "Running threadlocal-driver-demo tests (mvn test)"
+$mvn = Resolve-Maven
+Write-Log "Running threadlocal-driver-demo tests ($mvn test)"
 Push-Location $demoDir
 try {
-    & mvn -q test 2>&1 | Tee-Object -FilePath (Join-Path $reportDir "threadlocal-driver-demo-test.log")
+    $prevEap = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    & $mvn -q test 2>&1 | Tee-Object -FilePath (Join-Path $reportDir "threadlocal-driver-demo-test.log")
+    $ErrorActionPreference = $prevEap
     if ($LASTEXITCODE -ne 0) { throw "threadlocal-driver-demo tests failed with exit $LASTEXITCODE" }
     Write-Log "threadlocal-driver-demo: PASS (3 tests)"
 } finally {
@@ -140,11 +161,14 @@ try {
 Write-Log "Running upstream DriverManagerTest"
 Push-Location $upstream
 try {
+    $prevEap = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
     if (Test-Path ".\mvnw.cmd") {
         & .\mvnw.cmd -q -pl framework test -Dtest=DriverManagerTest 2>&1 | Tee-Object -FilePath (Join-Path $reportDir "upstream-driver-manager-test.log")
     } else {
-        & mvn -q -pl framework test -Dtest=DriverManagerTest 2>&1 | Tee-Object -FilePath (Join-Path $reportDir "upstream-driver-manager-test.log")
+        & $mvn -q -pl framework test -Dtest=DriverManagerTest 2>&1 | Tee-Object -FilePath (Join-Path $reportDir "upstream-driver-manager-test.log")
     }
+    $ErrorActionPreference = $prevEap
     if ($LASTEXITCODE -ne 0) { throw "upstream DriverManagerTest failed with exit $LASTEXITCODE" }
     Write-Log "upstream DriverManagerTest: PASS"
 } finally {
@@ -155,6 +179,6 @@ $allPass = ($versionResults | Where-Object { -not $_.Pass }).Count -eq 0 `
     -and ($checks | Where-Object { -not $_.Pass }).Count -eq 0 `
     -and ($urlResults | Where-Object { -not $_.Pass }).Count -eq 0
 
-Write-Log ("OVERALL: {0}" -f ($(if ($allPass) { "PASS" } else { "FAIL — see log" })))
+Write-Log ("OVERALL: {0}" -f ($(if ($allPass) { "PASS" } else { "FAIL - see log" })))
 Write-Log "Log written to $logFile"
 exit $(if ($allPass) { 0 } else { 1 })
