@@ -30,7 +30,7 @@ Two Maven modules. That's the whole magic trick.
 
 Under the hood: [Cucumber 7.34.4](https://github.com/veeresh-bikkaneti/cucumberBDDParallel/blob/main/pom.xml), [Selenium 4.45.0](https://www.selenium.dev/documentation/webdriver/), [TestNG 7.12.0](https://testng.org/#_parallelism_and_time_outs), and the [Cucable plugin](https://github.com/trivago/cucable-plugin) to split scenarios so they can run side by side instead of forming a polite queue.
 
-Optional AI healing calls the [Anthropic Messages API](https://platform.claude.com/docs/en/api/messages) when a `@FindBy` locator dies after a markup change. It's off by default. You don't need an API key to learn the framework — save that plot twist for later.
+Optional AI healing calls **your chosen LLM** when a `@FindBy` locator dies after a markup change — Anthropic BYOK, OpenAI-compatible BYOK, or local [Ollama](https://ollama.com/). It's off by default. You don't need any API key to learn the framework — save that plot twist for later.
 
 ```mermaid
 flowchart LR
@@ -280,16 +280,29 @@ flowchart LR
 
 ## Optional: AI self-healing locators
 
-Locator breaks after a CSS rename? The framework can send page HTML to Claude, get a new selector, retry once. These aren't the droids you're looking for — until the second try ([*Star Wars*](https://www.starwars.com/films/star-wars-episode-iv-a-new-hope)).
+Locator breaks after a CSS rename? The framework can send page HTML to an LLM, get a new selector, retry once. These aren't the droids you're looking for — until the second try ([*Star Wars*](https://www.starwars.com/films/star-wars-episode-iv-a-new-hope)).
 
 ![Optional AI healing: broken locator, one retry, then move on or fail loud]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/05-ai-healing-optional.png){:.post-illustration}
 
-Off unless `ANTHROPIC_API_KEY` is set:
+**You pick the provider** — nothing is locked to Anthropic. Set `AI_HEALING_PROVIDER` and your credentials:
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+# Anthropic BYOK
+export AI_HEALING_PROVIDER=anthropic
+export AI_HEALING_API_KEY=sk-ant-...
+
+# OpenAI-compatible BYOK (OpenAI, Azure, gateways)
+export AI_HEALING_PROVIDER=openai
+export AI_HEALING_API_KEY=sk-...
+
+# Local Ollama (no cloud key)
+export AI_HEALING_PROVIDER=ollama
+export AI_HEALING_MODEL=llama3.2
+
 ./mvnw clean verify -Pintegration-test -DskipTests -pl example-tests -am
 ```
+
+Legacy `ANTHROPIC_API_KEY` still works for Anthropic. Full reference: [docs/AI_HEALING.md](https://github.com/veeresh-bikkaneti/cucumberBDDParallel/blob/main/docs/AI_HEALING.md).
 
 Force off:
 
@@ -304,7 +317,7 @@ flowchart TD
     A["@FindBy lookup"] --> B{Found?}
     B -->|Yes| C[Continue]
     B -->|No, healing off| D[Fail]
-    B -->|No, healing on| E[Claude suggests selector]
+    B -->|No, healing on| E[LLM suggests selector]
     E --> F{Retry works?}
     F -->|Yes| C
     F -->|No| D
