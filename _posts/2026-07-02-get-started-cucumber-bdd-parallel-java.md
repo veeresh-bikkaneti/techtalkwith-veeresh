@@ -2,10 +2,11 @@
 layout: post
 title: "Parallel Cucumber BDD in Java: Clone It, Docker It, Ship It"
 date: 2026-07-02
+last_modified_at: 2026-07-03
 categories: [frameworks, automation]
-tags: [cucumber, bdd, selenium, testng, parallel, java, maven, docker, webdriver, beginner]
-excerpt: "A beginner-friendly, slightly unhinged tour of cucumberBDDParallel — run it locally or in Docker, understand parallel BDD without crying, and steal the framework for your own app."
-reading_time: 14
+tags: [cucumber, bdd, selenium, testng, parallel, java, maven, docker, webdriver, mcp, beginner]
+excerpt: "A beginner-friendly, slightly unhinged tour of cucumberBDDParallel — parallel BDD, web-pattern examples, MCP exploration, Docker one-liner, and enough structure to steal for your own app."
+reading_time: 18
 ---
 
 Your Cucumber suite is running scenarios one at a time. Chrome opens. Chrome closes. Chrome opens again. Somewhere, a CI meter spins like a slot machine nobody asked for.
@@ -18,12 +19,14 @@ Pop quiz, hotshot ([*Speed*](https://en.wikipedia.org/wiki/Speed_(1994_film))): 
 
 ## What you're actually getting
 
-Two Maven modules. That's the whole magic trick.
+Two core Maven modules — plus example cookbooks you can run without touching google.com.
 
 | Module | What it does |
 |--------|--------------|
-| `framework/` | Reusable JAR: browser hooks, waits, `BasePage`, optional AI locator healing |
-| `example-tests/` | Working Cucumber + Selenium demo you can copy like a shameless chef |
+| `framework/` | Reusable JAR: browser hooks, waits, `BasePage`, interaction helpers, optional AI locator healing |
+| `example-tests/` | Working Cucumber + Selenium demo against google.com — copy the structure |
+| `examples/ai-healing-demo/` | Deterministic broken-locator demo (mock LLM in CI) |
+| `examples/web-patterns-demo/` | Tables, drag-drop, upload/download, PDF, QR, OCR — local fixtures only |
 
 ![Two-module split: reusable framework core and working example tests]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/01-two-module-split.png){:.post-illustration}
 *Hand-drawn style illustration — steal the recipe, not the restaurant.*
@@ -323,6 +326,94 @@ flowchart TD
     F -->|No| D
 ```
 
+## Step 8: Web patterns cookbook (local fixtures)
+
+Not every lesson needs live google.com. The `examples/web-patterns-demo` module spins up a tiny HTTP server on localhost and exercises the UI patterns that show up in almost every enterprise app — without the "works on my machine, cries in CI" energy.
+
+| Demo test | What it proves | Framework helper |
+|-----------|----------------|------------------|
+| `TablePatternsTest` | Read grid headers and rows | `TableHelper` |
+| `DragDropTest` | Move cards between lanes | `DragDropHelper` |
+| `FileUploadDownloadTest` | Upload via hidden input + download to a configured folder | `FileUploadHelper` |
+| `PdfValidationTest` | Pull text from a PDF with [PDFBox](https://pdfbox.apache.org/) | — |
+| `QrCodeTest` | Decode a QR payload from a screenshot with [ZXing](https://github.com/zxing/zxing) | — |
+| `OcrValidationTest` | OCR invoice text (Tesseract — Docker profile) | — |
+
+![Web patterns cookbook: tables, drag-drop, upload, PDF, QR on local fixtures]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/07-web-patterns-cookbook.png){:.post-illustration}
+*Local fixtures. No API keys. No praying to the CDN gods.*
+
+Run the whole module:
+
+```bash
+./mvnw -pl examples/web-patterns-demo -am test
+```
+
+**Windows:**
+
+```powershell
+.\mvnw.cmd -pl examples/web-patterns-demo -am test
+```
+
+OCR needs Tesseract on the PATH (the Docker image installs it):
+
+```bash
+./mvnw -pl examples/web-patterns-demo -am test -Pocr-demo
+```
+
+Copy the pattern into your own Cucumber module: keep Gherkin readable, put Selenium in page objects, and lean on the helpers in `framework.interaction` instead of reinventing table-parsing XPath from 2014.
+
+## Step 9: MCP Selenium — let an agent explore, you commit the BDD
+
+[MCP](https://modelcontextprotocol.io/) is how IDE agents get tools. [Angie Jones' mcp-selenium](https://github.com/angiejones/mcp-selenium) gives an agent a real browser — navigate, click, read DOM — while **your repo** stays the source of truth for step definitions and CI.
+
+Workflow I actually use:
+
+1. Point MCP at the local fixture routes from `web-patterns-demo` (see [`docs/MCP_PLAYBOOK.md`](https://github.com/veeresh-bikkaneti/cucumberBDDParallel/blob/main/docs/MCP_PLAYBOOK.md)).
+2. Let the agent poke at `/tables.html`, `/drag-drop.html`, `/upload.html` and propose selectors.
+3. Translate the good ideas into Gherkin + page objects — **never** leave raw MCP calls in CI.
+
+Example Cursor / Claude Desktop config (template also in the repo):
+
+```json
+{
+  "mcpServers": {
+    "selenium": {
+      "command": "npx",
+      "args": ["-y", "@angiejones/mcp-selenium"]
+    }
+  }
+}
+```
+
+![MCP Selenium: agent explores fixtures, you commit Cucumber tests]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/08-mcp-selenium-workflow.png){:.post-illustration}
+
+Agents are great at discovery. They're terrible at owning your regression suite. MCP is the reconnaissance drone; Cucumber is the army.
+
+## Step 10: Docker — one command, all demos
+
+Don't want Chrome and Maven on your laptop today? Fair. The repo ships a `Dockerfile` and `docker-compose.yml` that run the example modules headlessly:
+
+```bash
+docker compose build
+docker compose run --rm cucumber-examples
+```
+
+That runs `ai-healing-demo` (mock) and `web-patterns-demo` inside a container with Chrome baked in. OCR optional profile:
+
+```bash
+docker compose --profile ocr run --rm cucumber-examples-ocr
+```
+
+Full google.com integration (network required):
+
+```bash
+docker compose --profile integration run --rm cucumber-integration
+```
+
+![Docker compose runs all example modules in one container]({{ site.baseurl }}/assets/get-started-cucumber-bdd-parallel-java-illustrations/09-docker-run-all-demos.png){:.post-illustration}
+
+Bump `shm_size` in compose if Chrome throws a tantrum — same fix as the troubleshooting table below.
+
 ## What to expect
 
 **Good fit:**
@@ -330,6 +421,9 @@ flowchart TD
 - Clone-and-run Java BDD with real structure
 - Parallel scenarios without hand-rolling threads
 - A `mvnw` wrapper so you don't need a global Maven install
+- Local web-pattern examples (tables, files, PDF, QR) without flaky external sites
+- MCP playbook for agent-driven exploration + committed Cucumber tests
+- Docker path when local Chrome isn't happening
 - A path from Google demo → your application
 
 **Not a fit:**
@@ -351,7 +445,9 @@ For production, point tests at your AUT and pin browser versions in `Setup` if y
 
 ## Where to go next
 
-- [cucumberBDDParallel on GitHub](https://github.com/veeresh-bikkaneti/cucumberBDDParallel) — README, CI, AI healing diagram
+- [cucumberBDDParallel on GitHub](https://github.com/veeresh-bikkaneti/cucumberBDDParallel) — README, CI, examples, Docker
+- [`docs/MCP_PLAYBOOK.md`](https://github.com/veeresh-bikkaneti/cucumberBDDParallel/blob/main/docs/MCP_PLAYBOOK.md) — wire mcp-selenium to these fixtures
+- [`examples/web-patterns-demo/README.md`](https://github.com/veeresh-bikkaneti/cucumberBDDParallel/blob/main/examples/web-patterns-demo/README.md) — pattern matrix and commands
 - `PLAYBOOK.md` — SOLID notes, cost model, extension points
 - [Building BDD Frameworks That Actually Work]({{ site.baseurl }}{% link _posts/2026-06-20-building-bdd-frameworks-that-work.md %}) — Gherkin habits that won't embarrass you in refinement
 
