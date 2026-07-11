@@ -46,6 +46,20 @@ Keep branch names short and descriptive (e.g. `content/rust-async-guide`, `fix/b
 
 8. **Merge to `main`** — after approval and green CI, the PR is merged. **GitHub Pages deploy runs only after merge to `main`**, not on branch pushes alone.
 
+9. **Delete the branch after merge** — merged topic branches are removed from the remote. GitHub is configured to delete the head branch automatically when a PR merges. Maintainers should not leave stale `feature/`, `content/`, `fix/`, or `policy/` branches on `origin`. Delete your local copy too:
+
+   ```bash
+   git checkout main
+   git pull origin main
+   git branch -d content/my-post-title
+   ```
+
+   If GitHub did not auto-delete (e.g. a manual merge), delete the remote branch explicitly:
+
+   ```bash
+   git push origin --delete content/my-post-title
+   ```
+
 ---
 
 ## Agent and AI contributors
