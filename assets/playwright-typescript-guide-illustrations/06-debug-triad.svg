@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="Playwright debugging triad UI Inspector Trace">
+  <rect width="960" height="400" fill="#ffffff"/>
+  <text x="40" y="42" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Debugging triad</text>
+  <text x="40" y="72" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="15">Three tools — pick by when you need the answer</text>
+  <rect x="40" y="110" width="280" height="190" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="180" y="155" text-anchor="middle" fill="#1d4ed8" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">UI Mode</text>
+  <text x="180" y="195" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">npx playwright test --ui</text>
+  <text x="180" y="230" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Watch, filter, time-travel</text>
+  <text x="180" y="265" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Daily local driver</text>
+  <rect x="340" y="110" width="280" height="190" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="480" y="155" text-anchor="middle" fill="#c2410c" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Inspector</text>
+  <text x="480" y="195" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">npx playwright test --debug</text>
+  <text x="480" y="230" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Step before each action</text>
+  <text x="480" y="265" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">See the live locator</text>
+  <rect x="640" y="110" width="280" height="190" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="780" y="155" text-anchor="middle" fill="#15803d" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Trace Viewer</text>
+  <text x="780" y="195" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">show-trace trace.zip</text>
+  <text x="780" y="230" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Post-mortem filmstrip</text>
+  <text x="780" y="265" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">DOM + network + console</text>
+  <text x="40" y="345" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">Tip: set trace: 'on-first-retry' so CI failures leave a flight recorder.</text>
+  <text x="40" y="380" fill="#9ca3af" font-family="Segoe UI, Arial, sans-serif" font-size="12">English illustration — Playwright TypeScript guide</text>
+</svg>
