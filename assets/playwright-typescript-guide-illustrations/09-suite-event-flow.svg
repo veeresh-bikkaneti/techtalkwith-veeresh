@@ -20,5 +20,4 @@
   <text x="60" y="245" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Hooks slot into the same story</text>
   <text x="60" y="280" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="14">beforeEach → runs before each test body (after fixtures start setup)</text>
   <text x="60" y="310" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="14">afterEach → after body (teardown still shares its own timeout budget)</text>
-  <text x="40" y="385" fill="#9ca3af" font-family="Segoe UI, Arial, sans-serif" font-size="12">English illustration — Playwright TypeScript guide</text>
 </svg>

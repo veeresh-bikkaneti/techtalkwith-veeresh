@@ -17,5 +17,4 @@
   <text x="760" y="205" text-anchor="middle" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">after use() returns</text>
   <text x="40" y="290" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">Setup + test body share the test timeout. Teardown / afterEach get a separate budget of the same size.</text>
   <text x="40" y="320" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">Slow fixture? Prefer: [async ({}, use) =&gt; { ... }, { timeout: 60_000 }]</text>
-  <text x="40" y="370" fill="#9ca3af" font-family="Segoe UI, Arial, sans-serif" font-size="12">English illustration — Playwright TypeScript guide</text>
 </svg>

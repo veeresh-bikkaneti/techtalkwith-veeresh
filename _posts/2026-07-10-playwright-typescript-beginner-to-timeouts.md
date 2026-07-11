@@ -1,62 +1,58 @@
 ---
 layout: post
-title: "Playwright + TypeScript: async, fixtures, and timeouts without the myths"
+title: "Playwright and TypeScript: async/await, fixtures, and timeouts"
 date: 2026-07-10
 last_modified_at: 2026-07-10
 categories: [automation, tools]
 tags: [playwright, typescript, async, await, fixtures, timeouts, locators, beginner, intermediate, suite]
-excerpt: "Mission-style guide: TOC, async/await, the wait zoo (sleep vs real waits), how to build a suite with test/describe/fixtures, timeout clocks, cheatsheet, and best practices."
+excerpt: "A practical guide to Playwright Test in TypeScript: async/await, condition-based waits versus fixed sleeps, suite structure with test/describe and fixtures, timeout configuration, plus a cheatsheet and best practices."
 reading_time: 28
 ---
 
-The job is simple on the briefing slide: "open the page, click the button, prove it worked."
+Opening a page, clicking a control, and asserting the result sounds simple until the first suite hits CI. Then you are juggling `async`/`await`, several different clocks, two styles of `expect`, and a stack of `*.spec.ts` files. The hard part is rarely TypeScript syntax. It is knowing **which wait**, **which structure**, and **which timeout** actually apply.
 
-Then someone hands you the earpiece and you hear three different clocks, two kinds of `expect`, a folder full of `*.spec.ts`, and a senior engineer muttering *just await it*. You are not failing at TypeScript. You are missing the mission map.
+This guide walks those pieces in order: **async/await**, **sleep versus real waits**, **how to grow a suite** (Playwright’s `test` / `test.describe` API—not Jest’s free-standing `describe`/`it`), **hooks**, **fixtures**, and **timeout configuration**—with a cheatsheet and best practices at the end.
 
-> *"Why do we fall, sir?"* — *Batman Begins*. So we can read the timeout error, name which clock fired, and stop bribing the suite with `waitForTimeout(2000)`.
+Examples use [playwright.dev](https://playwright.dev). Relative URLs assume `use.baseURL` where noted.
 
-This post is that map: **async/await**, the **wait zoo** (sleep cousins vs real waits), how you **build a suite** (`test` / `describe` / `it` / fixtures), and **timeouts** you can configure without guessing.
-
-**Demo surface:** [playwright.dev](https://playwright.dev). Relative URLs assume `use.baseURL` when noted.
-
-Related: {% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}.
+Related reading: [Playwright vs Selenium in 2026]({{ site.baseurl }}{% link _posts/2026-06-15-playwright-vs-selenium-2026.md %})
 
 ## Table of contents {#toc}
 
-1. [If you only have 20 minutes](#if-you-only-have-20-minutes)
+1. [Reading paths](#reading-paths)
 2. [Prerequisites](#prerequisites)
-3. [Act 1 — Async is the first boss](#act-1-async)
+3. [Part I — Async and waiting](#part-i-async)
    - [Your first real test](#your-first-real-test)
    - [async and await](#async-and-await)
    - [Promise.all vs sequential await](#promiseall-vs-sequential-await)
-   - [The wait zoo](#the-wait-zoo)
-4. [Act 2 — Building the suite](#act-2-suite)
-   - [Folder shape](#folder-shape)
-   - [test vs describe vs it](#test-vs-describe-vs-it)
+   - [Sleep vs real waits](#sleep-vs-real-waits)
+4. [Part II — Building a test suite](#part-ii-suite)
+   - [Project layout](#project-layout)
+   - [Playwright `test` (default) vs Jest/Jasmine `describe`/`it`](#playwright-test-vs-jest-jasmine)
    - [How a suite grows](#how-a-suite-grows)
    - [Hooks](#hooks)
    - [Fixtures](#fixtures)
-5. [Act 3 — Timeout mission control](#act-3-timeouts)
-6. [Locators and assertions (support gear)](#locators-and-assertions)
-7. [Config, debug, API, page objects](#config-debug-api-pos)
+5. [Part III — Timeouts](#part-iii-timeouts)
+6. [Locators and assertions](#locators-and-assertions)
+7. [Config, debugging, API tests, page objects](#config-debug-api-pos)
 8. [Cheatsheet](#cheatsheet)
 9. [Best practices](#best-practices)
 10. [Sources](#sources)
 
-### If you only have 20 minutes {#if-you-only-have-20-minutes}
+### Reading paths {#reading-paths}
 
-| Track | Jump | Stop when |
-|-------|------|-----------|
-| **Beginner** | [First test](#your-first-real-test) → [async](#async-and-await) → [wait zoo](#the-wait-zoo) | You can explain `await` and why sleep is a trap |
-| **Builder** | [Folder shape](#folder-shape) → [suite growth](#how-a-suite-grows) → [fixtures](#fixtures) | You know when to reach for fixtures |
-| **Timeout hunter** | [Wait zoo](#the-wait-zoo) → [Act 3](#act-3-timeouts) → [Cheatsheet](#cheatsheet) | You can name which clock failed from the error text |
+| Audience | Start here | Goal |
+|----------|------------|------|
+| **New to Playwright** | [First test](#your-first-real-test) → [async](#async-and-await) → [Sleep vs real waits](#sleep-vs-real-waits) | Explain `await` and why fixed sleeps are unreliable |
+| **Organizing a suite** | [Project layout](#project-layout) → [How a suite grows](#how-a-suite-grows) → [Fixtures](#fixtures) | Know when to use describe, hooks, and fixtures |
+| **Debugging timeouts** | [Sleep vs real waits](#sleep-vs-real-waits) → [Part III](#part-iii-timeouts) → [Cheatsheet](#cheatsheet) | Identify which timeout failed from the error text |
 
 ```mermaid
 flowchart LR
-  B[Beginner] --> W[Wait zoo]
-  W --> S[Suite + fixtures]
+  B[Basics] --> W[Waits]
+  W --> S[Suite and fixtures]
   S --> T[Timeouts]
-  B -.->|20 min stop| C[Cheatsheet]
+  B -.->|short path| C[Cheatsheet]
   T --> C
 ```
 
@@ -82,14 +78,28 @@ npx playwright test --ui
 
 ---
 
-# Act 1 — Async is the first boss {#act-1-async}
+# Part I — Async and waiting {#part-i-async}
 
 ## Your first real test {#your-first-real-test}
 
-A test without an assertion is a script wearing a badge. Start with something that can fail.
+A test without an assertion is only a script. Start with something that can fail for a clear reason.
 
 ```typescript
 import { test, expect } from '@playwright/test';
+
+// Think of it like: "Hey Playwright, when this test runs, give me a browser page
+// and let me use await inside this function."
+//
+// ANALOGY: the shape of a Playwright test
+// ┌──────────────────────────┬────────────────────────────────────────────────┐
+// │ Piece                    │ Plain English                                  │
+// ├──────────────────────────┼────────────────────────────────────────────────┤
+// │ test('name', ...)        │ Register one case in the suite                 │
+// │ async (...) => { }       │ This recipe may pause mid-step                 │
+// │ { page }                 │ Built-in fixture: a fresh browser tab          │
+// │ await ...                │ Pause THIS line until that step finishes       │
+// │ expect(...)              │ Prove something — don't only log it            │
+// └──────────────────────────┴────────────────────────────────────────────────┘
 
 test('playwright.dev shows the get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
@@ -101,38 +111,63 @@ test('playwright.dev shows the get started link', async ({ page }) => {
 | Line | Plain English |
 |------|----------------|
 | `import { test, expect }` | Pull in the runner and assertions |
-| `async ({ page }) =>` | This mission may pause; `page` is a fresh tab fixture |
+| `async ({ page }) =>` | Allow pauses; inject a fresh `page` tab |
 | `await page.goto(...)` | Navigate and wait for the load state |
 | `await expect(...).toBeVisible()` | Poll until true or the **expect** timeout fires |
 
 ![async/await sequential flow versus unfinished Promises]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/01-async-await-flow.svg){:.post-illustration}
-*English illustration: with `await`, each step finishes before the next.*
+*With `await`, each step finishes before the next.*
 
 ## async and await {#async-and-await}
 
-Think of packing a kit bag. Each piece has to *exist* before you zip the bag.
+Browser automation is asynchronous: navigation, clicks, and network work finish later. `async`/`await` is how TypeScript expresses that without nested callbacks.
 
-```typescript
-async function packMissionKit() {
-  const map = await printMap();
-  const radio = await chargeRadio();
-  await stowInBag(map, radio);
-  return 'ready';
-}
-```
+### Analogy: what each keyword does
 
 | Keyword | Job |
 |---------|-----|
-| `async` on a function | "This function may pause." It returns a Promise. |
-| `await` on an expression | Pause **this** async function until that Promise settles. |
+| `async` on a function | “Allow `await` inside this function” (and return a `Promise`) |
+| `await` on a line | “Pause **this line** until the Promise resolves, then continue” |
 
-**Rule:** if a function body uses `await`, that function must be `async`. JavaScript enforces it.
+```typescript
+// Think of it like: "Hey Playwright, when this test runs, give me a browser page
+// and let me use await inside this function."
+//
+// ANALOGY: async vs await
+// ┌─────────────────────┬────────────────────────────────────────────────┐
+// │ Keyword             │ Job                                            │
+// ├─────────────────────┼────────────────────────────────────────────────┤
+// │ async on function   │ "Hey JS, allow await inside this function"     │
+// │ await on line       │ "Pause THIS LINE until the Promise resolves"   │
+// └─────────────────────┴────────────────────────────────────────────────┘
+// You need BOTH.
+//   async = "I'm allowing pauses in this recipe."
+//   await = "Pause here until this step finishes."
 
-**Beginner trap:** without `await`, you do not get finished values. You get `Promise` objects. Playwright APIs almost always want sequential `await` so each browser action completes before the next.
+import type { Page } from '@playwright/test';
+
+async function preparePage(page: Page) {
+  await page.goto('https://playwright.dev/');                    // pause until navigation finishes
+  await page.getByRole('link', { name: 'Docs' }).click();       // pause until click + actionability done
+  return page;
+}
+```
+
+**Rule:** if a function body uses `await`, that function must be marked `async`. JavaScript enforces it. You need **both**: `async` opens the door; `await` actually pauses.
+
+**Common mistake:** omitting `await` does not give you the finished value. You get a `Promise`. Playwright tests almost always use sequential `await` so each browser action completes before the next.
 
 ### Prefer `await` over `.then()` chains
 
 ```typescript
+// ANALOGY: .then vs await
+// ┌──────────────────┬──────────────────────────────────────────────────┐
+// │ Style            │ Feels like                                       │
+// ├──────────────────┼──────────────────────────────────────────────────┤
+// │ .then(callback)  │ "When it finishes, run this nested note"         │
+// │ await value      │ "Stay on this line until done, then keep going"  │
+// └──────────────────┴──────────────────────────────────────────────────┘
+
 // Works, harder to debug
 await page.title().then((title) => console.log(title));
 
@@ -156,6 +191,14 @@ flowchart LR
 Default to `const`. Use `let` only when you will reassign.
 
 ```typescript
+// ANALOGY: const vs let
+// ┌────────┬────────────────────────────────────────────┐
+// │ Keyword│ Job                                        │
+// ├────────┼────────────────────────────────────────────┤
+// │ const  │ "This name stays put" (no reassignment)    │
+// │ let    │ "I may reassign this later"                │
+// └────────┴────────────────────────────────────────────┘
+
 const title = await page.title();
 let attempts = 0;
 attempts += 1;
@@ -163,14 +206,23 @@ attempts += 1;
 
 ## Promise.all vs sequential await {#promiseall-vs-sequential-await}
 
-Sequential `await` is the default mission:
+Sequential `await` is the default for most steps:
 
 ```typescript
+// ANALOGY: sequential vs Promise.all
+// ┌─────────────────────┬──────────────────────────────────────────────────┐
+// │ Pattern             │ Kitchen analogy                                  │
+// ├─────────────────────┼──────────────────────────────────────────────────┤
+// │ await a; await b;   │ Boil water, THEN cook pasta (one after another)  │
+// │ Promise.all([a,b])  │ Start oven AND timer together; wait for both     │
+// └─────────────────────┴──────────────────────────────────────────────────┘
+// Promise.all is NOT a sleep. It is "start these jobs together."
+
 await page.getByRole('button', { name: 'Save' }).click();
 await expect(page.getByText('Saved')).toBeVisible();
 ```
 
-`Promise.all` is for **starting two promises together** so you do not miss a fast event:
+Use `Promise.all` when you must **register a waiter before** (or at the same time as) the action that triggers it, so a fast response is not missed:
 
 ```typescript
 const [response] = await Promise.all([
@@ -179,36 +231,80 @@ const [response] = await Promise.all([
 ]);
 ```
 
-| Pattern | Means | Use when |
-|---------|-------|----------|
-| `await a; await b;` | Do a, then b | Most Playwright steps |
-| `Promise.all([a, b])` | Start a and b, wait for both | Click + waitForResponse race |
-| `Promise.all` without await | You only started work | Almost always a bug in a test |
+| Pattern | Meaning | Typical use |
+|---------|---------|-------------|
+| `await a; await b;` | Run a, then b | Most Playwright steps |
+| `Promise.all([a, b])` | Start a and b, wait for both | Click + `waitForResponse` |
+| `Promise.all` without `await` | Work started but not joined | Almost always a test bug |
 
-`Promise.all` is **not** a sleep. It is not a timeout setting. It is JavaScript concurrency.
+`Promise.all` is not a sleep and not a timeout setting. It is concurrent promise coordination in JavaScript.
 
-## The wait zoo {#the-wait-zoo}
+## Sleep vs real waits {#sleep-vs-real-waits}
 
-Here is where most flaky suites are born: people mix **fixed sleeps**, **condition waits**, **concurrent promises**, and **config clocks** as if they were the same animal.
+Flaky suites often treat **fixed sleeps**, **condition-based waits**, **concurrent promises**, and **config timeouts** as if they were the same tool. They are not.
 
-![Wait zoo: sleep vs real waits vs concurrency vs config clocks]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/07-wait-zoo.svg){:.post-illustration}
-*English illustration: four families of "waiting" that are not interchangeable.*
+```text
+// ANALOGY: families of "waiting"
+// ┌────────────────────────────┬──────────────────────────────────────────────┐
+// │ Family                     │ Plain English                                │
+// ├────────────────────────────┼──────────────────────────────────────────────┤
+// │ Fixed sleep                │ "Wait N ms no matter what" (guessing)        │
+// │ Condition wait             │ "Wait until the page is actually ready"      │
+// │ Promise.all                │ "Start two jobs together" (not a delay)      │
+// │ Config timeout             │ "How long am I allowed to wait before fail?" │
+// └────────────────────────────┴──────────────────────────────────────────────┘
+// Sleep = close your eyes and hope. Condition wait = watch the door until it opens.
+```
 
-### Side-by-side
+![Sleep versus condition waits, concurrency, and config timeouts]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/07-wait-zoo.svg){:.post-illustration}
+*Comparison of fixed sleeps, condition-based waits, concurrency, and config clocks.*
 
-| Tool | Ecosystem | What it does | When to use |
-|------|-----------|--------------|-------------|
-| `browser.sleep(ms)` / `Thread.sleep` | **Selenium / Java / WebDriver cousins** | Freeze the thread for N ms | **Not Playwright.** Migration footgun only. |
-| `page.waitForTimeout(ms)` | Playwright | Fixed sleep in the page timeline | Almost **never** for stability |
-| `await expect(locator).toBeVisible()` | Playwright Test | Poll until true or expect timeout | Default for UI truth |
-| `locator.waitFor({ state })` | Playwright | Wait for attached/visible/hidden/detached | Before a non-assert action |
-| `page.waitForResponse(...)` | Playwright | Wait for a network call you caused | Click that triggers API |
-| `Promise.all([...])` | JavaScript | Run promises concurrently | Pair event + action |
-| `timeout` in config | Playwright Test | Whole-test ceiling (default 30s) | Long flows |
-| `expect.timeout` | Playwright Test | Assertion poll window (default 5s) | Slow UI, not first fix for flakes |
-| `actionTimeout` / `navigationTimeout` | Playwright `use` | Cap actions / navigations (default **none**) | Policy across the suite |
+### Comparison
 
-> *"Are you not entertained?"* — *Gladiator*. Fixed sleeps entertain nobody in CI. They either pass by luck or fail by calendar.
+| Mechanism | Ecosystem | Behavior (simple English) | Simple analogy | Recommended process |
+|-----------|-----------|---------------------------|----------------|---------------------|
+| `browser.sleep(ms)` / `Thread.sleep` | Selenium / WebDriver (**not** Playwright) | Stop everything for a fixed number of ms | Close your eyes and count to three | **Do not use in Playwright.** Map old Selenium sleeps to `await expect(...)` or a real wait. |
+| `page.waitForTimeout(ms)` | Playwright | Same idea: fixed sleep | Close your eyes and count | **Almost never.** Name what “ready” means, then wait for that condition. |
+| `await expect(locator).toBeVisible()` | Playwright Test | Keep checking until true, or fail after the expect time (default 5s) | Watch the door until it opens (or give up) | **Default for UI truth.** Prefer this over sleeps. |
+| `locator.waitFor({ state })` | Playwright | Wait until attached / visible / hidden / gone | Wait for a light to turn green before you move | Use when you need to wait **before** a step that is not an assert (e.g. screenshot). |
+| `page.waitForResponse(...)` | Playwright | Wait for a network call **you** caused | Wait for the receipt after you pay | Register the waiter with the click via `Promise.all` so you don’t miss a fast response. |
+| `Promise.all([...])` | JavaScript | Start two jobs together; wait until both finish | Start oven and timer at the same time | **Not a sleep.** Use for click + waitForResponse pairs. |
+| `timeout` in config | Playwright Test | Max time for the **whole test** (default 30s) | End time for one full recipe | Keep default; for one long test use `test.setTimeout` / `test.slow()`, not a huge global. |
+| `expect.timeout` | Playwright Test | Max time **one check** keeps re-looking (default 5s) | How long you re-check the oven light | Fix selector/condition first; raise only if the UI is truly slow. |
+| `actionTimeout` / `navigationTimeout` | Playwright `use` | Max wait for clicks/fills or page loads (default: no separate limit) | How long you wait for the kettle / delivery | Set suite policy if hangs last forever; or `{ timeout }` on one call. |
+
+**How to choose (short process):**
+
+1. Need the **page** to show something? → `await expect(locator)…`  
+2. Need a **network** result you triggered? → `waitForResponse` (+ often `Promise.all`)  
+3. Need a wait that is **not** an assert? → `locator.waitFor`  
+4. One step slow? → `{ timeout }` on that step  
+5. Whole test long? → `test.setTimeout` / `test.slow()`  
+6. Never “fix” flaky CI with sleep  
+
+### Role-plays (one per family)
+
+**Fixed sleep (`waitForTimeout` / Selenium `sleep`)**
+
+- **Junior:** “CI is slow. I added `await page.waitForTimeout(3000)`.”  
+- **Lead:** “You’re guessing. What means success—the Saved toast?”  
+- **Junior:** “Yes.”  
+- **Lead:** “Then `await expect(page.getByText('Saved')).toBeVisible()`. It finishes early when ready and fails with a clear message when not.”
+
+**Condition wait (`expect` / `waitFor`)**
+
+- **Junior:** “I’ll check `isVisible()` once right after click.”  
+- **Lead:** “One check can race the UI. Use `await expect(...).toBeVisible()` so Playwright **keeps looking** until the expect time runs out.”
+
+**Network wait (`waitForResponse` + `Promise.all`)**
+
+- **Junior:** “I click Save, then wait for the response. Sometimes it already finished.”  
+- **Lead:** “You started listening too late. Start the waiter and the click **together** with `Promise.all`.”
+
+**Config timers (`timeout` / `expect.timeout` / action / navigation)**
+
+- **Junior:** “One click is slow. I’ll set whole-suite `timeout: 120_000`.”  
+- **Lead:** “That’s every test paying two minutes. Give **that click** more time, or fix why the button isn’t ready. Raise the whole-test time only for one long flow.”
 
 ### Event flow: sleep vs expect
 
@@ -227,21 +323,26 @@ sequenceDiagram
   D-->>T: visible — pass early
 ```
 
-**Role-play (two minutes):**
-
-- **Junior:** "It fails on CI. I added `await page.waitForTimeout(3000)`."
-- **Lead:** "You paid three seconds every run and still guess. What condition means success?"
-- **Junior:** "The Save toast."
-- **Lead:** "`await expect(page.getByText('Saved')).toBeVisible()` — it returns early when ready, fails with a real message when not."
-
 ---
 
-# Act 2 — Building the suite {#act-2-suite}
+# Part II — Building a test suite {#part-ii-suite}
 
-## Folder shape {#folder-shape}
+## Project layout {#project-layout}
 
-![Playwright suite folder structure]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/08-suite-structure.svg){:.post-illustration}
-*English illustration: config, tests, fixtures, optional page objects.*
+```text
+// ANALOGY: rooms in a house
+// ┌────────────────────┬────────────────────────────────────────────┐
+// │ Path               │ Job                                        │
+// ├────────────────────┼────────────────────────────────────────────┤
+// │ playwright.config  │ House rules (timeouts, browsers, baseURL)  │
+// │ tests/             │ The actual missions (spec files)           │
+// │ fixtures/          │ Shared kit you hand into each test         │
+// │ pages/             │ Optional maps of UI (page objects)         │
+// └────────────────────┴────────────────────────────────────────────┘
+```
+
+![Playwright project folder layout]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/08-suite-structure.svg){:.post-illustration}
+*Typical layout: config, tests, fixtures, optional page objects.*
 
 ```text
 my-app/
@@ -257,24 +358,56 @@ my-app/
 
 You do not need every folder on day one. Start with `tests/example.spec.ts`. Grow when pain appears.
 
-## test vs describe vs it {#test-vs-describe-vs-it}
+## Playwright `test` (default) vs Jest/Jasmine `describe` / `it` {#playwright-test-vs-jest-jasmine}
 
-### Flat style
+**Wrong way to document this:** “`test` vs `describe` vs `it` as three equal Playwright keywords.”
+
+**Right way:** they come from **different runners**.
+
+| | Playwright Test (out of the box) | Jest / Jasmine (unit-test runners) |
+|--|----------------------------------|-------------------------------------|
+| **Primary import** | `import { test, expect } from '@playwright/test'` | `describe` / `it` / `test` as free-standing APIs (globals or `@jest/globals`) |
+| **One case** | `test('…', async ({ page }) => { … })` | `it('…', …)` or `test('…', …)` |
+| **Group cases** | **`test.describe(...)`** — a **method on `test`** | **`describe(...)`** — top-level suite function |
+| **Hooks** | **`test.beforeEach` / `test.afterEach` / …** | **`beforeEach` / `afterEach` / …** (free-standing) |
+| **Browser** | Built-in fixtures (`page`, `context`, …) | None unless you bolt on a driver |
+
+Playwright’s default public surface is the **`test` object**. Grouping and hooks are not separate first-class imports next to `test`; they hang off it: `test.describe`, `test.beforeEach`, `test.afterAll`, `test.describe.configure`. Official docs teach that shape ([Writing tests](https://playwright.dev/docs/writing-tests), [Test API](https://playwright.dev/docs/api/class-test)).
+
+Jest/Jasmine popularized free-standing **`describe` / `it`**. If you learned unit tests first, your fingers still type those names. That is fine—as long as you **translate** them into Playwright’s API (`test` / `test.describe`), not invent:
+
+```ts
+// Wrong for Playwright — these are not the default @playwright/test exports
+import { test, describe, it, beforeEach } from '@playwright/test';
+```
+
+```text
+// ANALOGY: same words, different toolboxes
+// ┌────────────────────────────┬──────────────────────────────────────────────────┐
+// │ What you type              │ Correct mental model                             │
+// ├────────────────────────────┼──────────────────────────────────────────────────┤
+// │ test('...', async () =>{}) │ Playwright default: one test case                │
+// │ test.describe('...', ()=>) │ Playwright: group on the test object             │
+// │ test.beforeEach(...)       │ Playwright: hook on the test object              │
+// │ describe(...) / it(...)    │ Jest/Jasmine vocabulary (unit tests)             │
+// └────────────────────────────┴──────────────────────────────────────────────────┘
+// Do NOT teach: import { test, describe, it, beforeEach } from '@playwright/test'
+// Do teach:     import { test, expect } from '@playwright/test'
+//               then test.describe / test.beforeEach
+```
+
+### Playwright default (what you should write)
 
 ```typescript
 import { test, expect } from '@playwright/test';
 
+// Flat: one case — no grouping required
 test('user can open docs', async ({ page }) => {
   await page.goto('https://playwright.dev/docs/intro');
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
-```
 
-### Grouped style
-
-```typescript
-import { test, expect } from '@playwright/test';
-
+// Grouped: describe is a METHOD of test (Playwright), not a free Jasmine global
 test.describe('Documentation', () => {
   test('installation heading is visible', async ({ page }) => {
     await page.goto('https://playwright.dev/docs/intro');
@@ -288,45 +421,202 @@ test.describe('Documentation', () => {
 });
 ```
 
-**The `it` myth:** some teams write `const it = test` for Jest muscle memory. Official docs teach **`test`** and **`test.describe`**. Do not import free-standing `describe` / `beforeEach` from `@playwright/test` as if this were Jasmine globals.
+### If you are migrating from Jest/Jasmine
+
+| Jest / Jasmine | Playwright Test (prefer) | Notes |
+|----------------|--------------------------|--------|
+| `describe('…', fn)` | `test.describe('…', fn)` | Grouping only; not a parallel switch by itself |
+| `it('…', fn)` or `test('…', fn)` | `test('…', fn)` | Playwright’s primary case API is `test` |
+| `beforeEach(fn)` | `test.beforeEach(fn)` | Same idea, different attachment point |
+| `afterEach` / `beforeAll` / `afterAll` | `test.afterEach` / `test.beforeAll` / `test.afterAll` | Always via `test.*` |
+
+Some teams keep the name `it` by aliasing (`const it = test`) for familiarity. That is a **local alias**, not “Playwright ships free-standing `it` as the default import.” Prefer what the docs show: **`test`**.
+
+### Hooks and shared setup: the key difference
+
+Your intuition is mostly right for **day-to-day suite code**: in Jest/Jasmine, setup is usually **declared again in each spec file** (or each `describe`). There is no built-in equivalent of Playwright’s typed **fixtures** that inject a prepared `page` / `loggedInPage` into every test across files.
+
+Nuance (so we stay accurate):
+
+| Concern | Jest / Jasmine | Playwright Test |
+|---------|----------------|-----------------|
+| Hooks in a **file** | `beforeEach` at top of file applies to tests in that file ([Jest setup/teardown](https://jestjs.io/docs/setup-teardown)) | `test.beforeEach` same idea, via `test.*` |
+| Hooks in a **describe** | Scoped to that block only | `test.describe` + hooks inside it |
+| Same login in **10 files** | You typically **copy** hooks/helpers into each file, or invent your own shared module | Prefer **`base.extend` fixtures** — import once, type-safe, setup/teardown around `use()` |
+| “Global” setup for whole run | Config-level: `setupFiles` / `setupFilesAfterEnv` (and sometimes `globalSetup`) — **not** a browser-aware fixture system | Config `globalSetup` / project dependencies **plus** first-class fixtures for browser state |
+| Fresh browser tab per test | You wire that yourself (if at all) | Built-in `page` (and `context`) fixtures |
+
+So: Jest is not “zero global setup forever”—it has config hooks. What it lacks for E2E is Playwright’s **default harness**: browser lifecycle + per-test isolation + reusable fixtures without re-pasting hooks in every spec.
+
+#### Example: Jest/Jasmine-style — hooks repeated per file
+
+```typescript
+// login.spec.ts  (Jest + something that drives a browser, illustrative)
+import { describe, it, beforeEach, afterEach, expect } from '@jest/globals';
+
+describe('login', () => {
+  beforeEach(async () => {
+    // paste or call helper — every file that needs a browser repeats this pattern
+    await openBrowser();
+    await gotoLogin();
+  });
+
+  afterEach(async () => {
+    await closeBrowser();
+  });
+
+  it('shows error on bad password', async () => {
+    // ...
+    expect(true).toBe(true);
+  });
+});
+```
+
+```typescript
+// cart.spec.ts  — same setup story, written again
+import { describe, it, beforeEach, afterEach, expect } from '@jest/globals';
+
+describe('cart', () => {
+  beforeEach(async () => {
+    await openBrowser();
+    await loginAs('user@example.com'); // repeated in many files
+  });
+
+  afterEach(async () => {
+    await closeBrowser();
+  });
+
+  it('adds an item', async () => {
+    // ...
+  });
+});
+```
+
+#### Example: Playwright default — hooks when file-local is enough
+
+```typescript
+// tests/docs.spec.ts
+import { test, expect } from '@playwright/test';
+
+// Applies to every test in THIS file only
+test.beforeEach(async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+});
+
+test('has Docs link', async ({ page }) => {
+  await expect(page.getByRole('link', { name: 'Docs' })).toBeVisible();
+});
+```
+
+#### Example: Playwright — shared setup across files without re-pasting hooks
+
+```typescript
+// fixtures/auth.ts
+import { test as base, expect, type Page } from '@playwright/test';
+
+export const test = base.extend<{ docsPage: Page }>({
+  docsPage: async ({ page }, use) => {
+    await page.goto('https://playwright.dev/docs/intro');
+    await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+    await use(page);
+  },
+});
+export { expect };
+
+// tests/a.spec.ts  and  tests/b.spec.ts
+import { test, expect } from '../fixtures/auth';
+
+test('uses prepared docs page', async ({ docsPage }) => {
+  await expect(docsPage.getByRole('link', { name: 'Writing tests' })).toBeVisible();
+});
+```
+
+```text
+// ANALOGY: repeating hooks vs fixtures
+// ┌────────────────────────────┬────────────────────────────────────────────────┐
+// │ Pattern                    │ Feels like                                     │
+// ├────────────────────────────┼────────────────────────────────────────────────┤
+// │ beforeEach in every file   │ Rewriting the same stage-setup script N times  │
+// │ setupFilesAfterEnv (Jest)  │ One house rule file — still not "give me page" │
+// │ Playwright fixture         │ Shared kit: prep → hand over → clean up        │
+// └────────────────────────────┴────────────────────────────────────────────────┘
+```
+
+### When Jest/Jasmine is the better harness (advantages over Playwright Test)
+
+Playwright Test is the right default **out of the box for browser E2E**. Jest/Jasmine still win for other jobs:
+
+| Advantage of Jest/Jasmine | Why it matters |
+|---------------------------|----------------|
+| **Unit-test speed** | No browser launch; milliseconds for pure functions and modules |
+| **Mocking ecosystem** | `jest.mock`, spies, module isolation are first-class |
+| **Node / API unit tests** | Natural fit for services, reducers, validators without UI |
+| **Frontend component unit tests** | Often paired with Testing Library + jsdom (not a real browser) |
+| **Familiarity** | Huge community, snippets, and hiring muscle memory for unit layers |
+| **Coverage tooling habits** | Mature unit-coverage workflows many teams already run in CI |
+
+**Rule of thumb:** use **Jest (or similar) for the unit/integration layer**; use **Playwright Test for real-browser E2E**. Running full UI flows under Jest + a bolted-on browser driver is usually worse DX than `@playwright/test` defaults (fixtures, traces, multi-browser projects, UI Mode).
 
 | Situation | Prefer |
 |-----------|--------|
-| Starting fresh | Flat `test` |
-| Report folders / shared file hooks | `test.describe` |
-| Reuse login across files | **Fixtures** |
-| In-file parallel | `fullyParallel: true` or `test.describe.configure({ mode: 'parallel' })` |
+| Starting browser E2E on Playwright | Flat `test(...)` |
+| Grouped reports or file-local hooks | `test.describe` + `test.beforeEach` |
+| Same browser setup in many E2E files | **Fixtures** (`base.extend`) |
+| Pure function / module unit tests | **Jest/Jasmine** (or Vitest), not Playwright |
+| Parallel tests inside one Playwright file | `fullyParallel: true` or `test.describe.configure({ mode: 'parallel' })` |
 
-### Parallelism (do not invert this)
+### Parallelism (correct model)
+
+```text
+// ANALOGY: workers and files
+// ┌────────────────────────────┬────────────────────────────────────────────┐
+// │ Reality                    │ Analogy                                    │
+// ├────────────────────────────┼────────────────────────────────────────────┤
+// │ Separate .spec.ts files    │ Different rooms — can work at once         │
+// │ Tests inside one file      │ Queue in one room (by default)             │
+// │ fullyParallel / configure  │ Explicitly allow parallel in that room     │
+// │ Fixtures                   │ Fresh tools per person — not more rooms    │
+// └────────────────────────────┴────────────────────────────────────────────┘
+```
 
 ![Playwright parallelism model]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/02-parallelism-model.svg){:.post-illustration}
 
-1. **Files** can run on different workers at once.
-2. **Tests in one file** run **in order** by default.
-3. `describe` groups reports; it is not a parallel switch by itself.
+1. **Files** can run on different workers at the same time.
+2. **Tests in one file** run **sequentially** by default.
+3. `test.describe` groups reporting; it is not itself a parallel switch.
 4. Fixtures **isolate state**. They do not create workers.
 
 ## How a suite grows {#how-a-suite-grows}
 
-Story time. Week one you have one test. Week two you have forty copies of login. Week three someone invents a shared `beforeAll` that stores a cookie in a global. Week four CI is a mystery novel.
+A common failure mode: one good test becomes dozens of copy-pasted logins, then a shared `beforeAll` that mutates global state, then unexplained CI failures.
 
-**Healthier growth path:**
+**A more stable growth path:**
 
-1. One flat test with real `expect`
-2. Split files by feature (`auth/`, `shop/`)
-3. `test.describe` when reports need folders or file-local hooks
-4. **Fixtures** when setup is reused across files
-5. Projects for browsers / CI shape
-6. Page objects when selectors repeat (optional)
+1. One focused test with real assertions  
+2. Split files by feature (`auth/`, `shop/`)  
+3. Use `test.describe` when you need report structure or file-local hooks  
+4. Move repeated setup into **fixtures**  
+5. Configure **projects** for browsers and CI  
+6. Introduce page objects when selectors and flows repeat (optional)  
 
 ![Suite event flow: worker, fixture, test, teardown]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/09-suite-event-flow.svg){:.post-illustration}
-*English illustration: what runs when you launch the suite.*
+*What runs when you execute `npx playwright test`.*
 
 ## Hooks {#hooks}
 
 Hooks are methods on **`test`**. They work at **file scope** or inside `test.describe`.
 
 ```typescript
+// ANALOGY: hooks as stage crew
+// ┌──────────────────┬────────────────────────────────────────────────┐
+// │ Hook             │ Job                                            │
+// ├──────────────────┼────────────────────────────────────────────────┤
+// │ beforeAll        │ Set the stage once (shared props — careful)    │
+// │ beforeEach       │ Reset props before every scene                 │
+// │ afterEach        │ Clean the stage after every scene              │
+// │ afterAll         │ Strike the set once at the end                 │
+// └──────────────────┴────────────────────────────────────────────────┘
+
 import { test, expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
@@ -356,16 +646,30 @@ test.describe('API docs', () => {
 | `test.afterEach` | After each test | Attachments, cleanup |
 | `test.afterAll` | Once after group | Shared teardown |
 
-**Warning:** `beforeAll` shares state. If test 1 mutates what test 2 needs, you get a civil war inside one worker. Prefer fixtures for per-test isolation.
+**Caution:** `beforeAll` shares state within a worker. If one test mutates data another test depends on, failures become order-dependent. Prefer fixtures when each test needs isolated setup.
 
 ## Fixtures {#fixtures}
 
-> *"I never leave home without the essentials."* — Q energy, *Skyfall* era. Fixtures are the kit that survives from mission to mission without leaking state between agents.
+Fixtures are Playwright’s mechanism for reusable setup and teardown. You declare dependencies once, TypeScript types them on the test signature, and each test receives a clean instance by default—unlike a shared `beforeAll` bag of state.
 
 ### Custom fixture
 
 ```typescript
 // fixtures/auth.ts
+//
+// Think of it like: "Build a prepared page, hand it to the test, clean up after."
+//
+// ANALOGY: fixture lifecycle
+// ┌──────────────┬──────────────────────────────────────────────────────┐
+// │ Phase        │ Plain English                                        │
+// ├──────────────┼──────────────────────────────────────────────────────┤
+// │ setup        │ Prep the kit (login, seed data, open a page)         │
+// │ await use(x) │ Hand kit to the test body — test runs here           │
+// │ after use()  │ Teardown / cleanup                                   │
+// └──────────────┴──────────────────────────────────────────────────────┘
+// Hooks = stage directions in one file.
+// Fixtures = reusable kit you can import across many files.
+
 import { test as base, expect, type Page } from '@playwright/test';
 
 type MyFixtures = {
@@ -374,10 +678,11 @@ type MyFixtures = {
 
 export const test = base.extend<MyFixtures>({
   docsPage: async ({ page }, use) => {
+    // setup
     await page.goto('https://playwright.dev/docs/intro');
     await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-    await use(page);
-    // teardown after the test finishes with this fixture
+    await use(page); // test body runs with docsPage
+    // teardown after use() returns
   },
 });
 
@@ -398,15 +703,12 @@ test('writing tests nav exists', async ({ docsPage }) => {
 
 | Concern | Hooks in a file | Fixtures |
 |---------|-----------------|----------|
-| Reuse across files | Copy-paste | Import extended `test` |
-| Per-test isolation | Easy to leak in `beforeAll` | Fresh setup per test by default |
-| TypeScript autocomplete | Manual | Fixture names type-check |
-| Parallel safety | Shared state footgun | Designed for isolation |
+| Reuse across files | Copy-paste or helpers | Import an extended `test` |
+| Per-test isolation | Easy to leak via `beforeAll` | Fresh setup per test by default |
+| TypeScript autocomplete | Manual | Fixture names are typed |
+| Parallel safety | Shared state is risky | Designed for isolation |
 
-**Role-play:**
-
-- **Agent:** "I need logged-in state in five files."
-- **Q:** "Do not paste login. Extend `test` with `loggedInPage`. Each mission gets its own kit. Teardown after `use()`."
+When the same login (or role) is needed in many files, extend `test` with a fixture such as `loggedInPage` instead of pasting the login steps. Teardown runs after `use()` returns.
 
 ### Filtering runs
 
@@ -421,70 +723,155 @@ npx playwright test --ui
 
 ---
 
-# Act 3 — Timeout mission control {#act-3-timeouts}
+# Part III — Timeouts {#part-iii-timeouts}
 
-A timeout is a promise: "I will wait this long for reality to match expectation." Too short: flakes. Too long: slow feedback that hides real bugs.
+A **timeout** is simply: “How long will Playwright wait before it gives up?”
+
+- Too short → tests fail on slow CI even when the app is fine.
+- Too long → real bugs hide while the suite crawls.
+
+Sleep says “wait N ms no matter what.”  
+A timeout says “if it is not ready by then, **fail**.”
+
+### Timeout comparison (plain English)
+
+| Setting | Simple meaning | Everyday analogy | What to do (recommended) |
+|---------|----------------|------------------|---------------------------|
+| `timeout` (config) | Max time for the **whole test** (default **30s**). Includes setup + the test body. Cleanup after the test gets its **own** similar budget. | A **meeting end time** for one scenario | Keep default for most tests. For one slow flow: `test.setTimeout(...)` or `test.slow()`, not a huge global default. |
+| `expect.timeout` | How long one **check** keeps looking (default **5s**). Example: “is the button visible yet?” | How long you keep **re-checking a status board** | Prefer fixing the selector or wait condition. Raise only for known-slow UI. |
+| `actionTimeout` | Max wait for **clicks, fills, presses** to become ready (default: **no separate limit** — still limited by the whole-test time) | How long you wait for a **button to become clickable** | Set a suite policy if actions hang forever. Or pass `{ timeout }` on one call. |
+| `navigationTimeout` | Max wait for **goto / reload / waitForURL** (default: **no separate limit**) | How long you wait for a **page to load** | Prefer a sensible `waitUntil` + locator assert. Raise only for known-slow apps. |
+| Inline `{ timeout: N }` on one call | “Only this line waits up to N ms” | A **sticky note on one step** | Best first fix when **one** action is slow. More specific beats a global change. |
+| Fixture `{ timeout: N }` | Extra time for slow **setup** (login, seed data) | Extra time to **prep the tools** before the real work | Use when login is slow; don’t force every test’s body to share that cost blindly. |
+| `page.waitForTimeout(ms)` | Fixed sleep — **not** a smart timeout | Closing your eyes and counting | Almost never. Wait for a real condition instead. |
+
+```text
+// ANALOGY: kitchen timers (not fancy "ceilings")
+// ┌────────────────────┬──────────────────────────────────────────────────┐
+// │ Setting            │ Think of it as                                   │
+// ├────────────────────┼──────────────────────────────────────────────────┤
+// │ timeout            │ Timer for the whole recipe                       │
+// │ expect.timeout     │ How long you stare at the oven light per check   │
+// │ actionTimeout      │ How long you wait for the kettle to be ready     │
+// │ navigationTimeout  │ How long you wait for the delivery driver        │
+// │ { timeout } inline │ A sticky note: "only this step, max N seconds"   │
+// └────────────────────┴──────────────────────────────────────────────────┘
+// Narrowest rule wins: sticky note on one step beats house rules.
+```
 
 ![Timeout layers]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/05-timeout-layers.svg){:.post-illustration}
+*Different timeout settings control different waits — start with the smallest fix.*
 
-## The two big numbers
+### Recommended process (when something times out)
+
+1. **Read the full error** — it usually names which wait failed.  
+2. **Fix the condition first** — wrong selector? missing assert? use `await expect(locator)…` instead of sleep.  
+3. **If only one step is slow** — add `{ timeout: … }` on that call.  
+4. **If one whole test is long** — `test.setTimeout` / `test.slow()` for that test only.  
+5. **If many tests need the same policy** — then change config (`timeout`, `expect.timeout`, `actionTimeout`, …).  
+6. **Last resort** — raise numbers globally; never “fix” flakes with `waitForTimeout`.
+
+**Role-play — picking the right timer**
+
+- **Junior:** “Everything times out. I’ll set `timeout: 120_000` for the whole suite.”  
+- **Lead:** “What does the error say? One slow click, or the whole test?”  
+- **Junior:** “Only `click` on Checkout.”  
+- **Lead:** “Then give **that click** more time, or fix why the button isn’t ready. Don’t make every test wait two minutes.”
+
+---
+
+## The two big numbers (config)
 
 ```typescript
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  timeout: 30 * 1000,              // whole-test ceiling
-  expect: { timeout: 5_000 },      // assertion polling window
+  timeout: 30 * 1000,              // whole test: give up after 30s
+  expect: { timeout: 5_000 },      // each auto-retry check: re-look up to 5s
 });
 ```
 
-1. **`timeout`** — test ceiling. Includes fixture **setup**, `beforeEach`, and the body. After the body, **teardown + afterEach share a separate budget of the same length** ([docs](https://playwright.dev/docs/test-timeouts)).
-2. **`expect.timeout`** — how long auto-retrying assertions poll.
+1. **`timeout`** — time budget for **one full test** (setup + body). After the body finishes, cleanup hooks get a **separate** similar budget ([docs](https://playwright.dev/docs/test-timeouts)).  
+2. **`expect.timeout`** — how long **one** `await expect(...)` keeps re-checking.
 
 ```typescript
 test('slow checkout', async ({ page }) => {
-  test.setTimeout(120_000);
-  // or: test.slow(); // triples the default test timeout
+  test.setTimeout(120_000); // this test only: allow 2 minutes
+  // or: test.slow(); // allow about 3× the default for this test
 });
 ```
 
-## Action and navigation
+**Role-play — whole test vs one check**
 
-Default **action** and **navigation** timeouts are **none** (still bounded by the test timeout).
+- **Junior:** “`toBeVisible` fails. I’ll raise the whole-test `timeout`.”  
+- **Lead:** “That error is the **expect** timer (keeps re-looking), not the whole-test timer. Fix the locator, or raise `expect.timeout` / pass `{ timeout }` on that expect.”
+
+---
+
+## Action and navigation timeouts
+
+By default there is **no separate** limit just for clicks or navigations (they still stop when the **whole test** time runs out).
 
 ```typescript
+// Sticky note on ONE step: wait up to 10s for this click to be ready, then fail.
 await page.getByRole('link', { name: 'Get started' }).click({ timeout: 10_000 });
 
-// config-wide
+// House rule for all actions / navigations (optional):
 // use: { actionTimeout: 10_000, navigationTimeout: 30_000 }
 ```
 
-There is **no** `use.clickTimeout` or `use.fillTimeout`.
+There is **no** `use.clickTimeout` or `use.fillTimeout` — use `actionTimeout` or per-call `{ timeout }`.
 
-### Actionability (accurate)
+**Role-play — one slow click**
+
+- **Junior:** “Checkout click dies on CI. I added `waitForTimeout(5000)` before it.”  
+- **Lead:** “That’s a blind wait. Prefer `click({ timeout: 10_000 })` or assert the button is visible first. Don’t pay five seconds on every run forever.”
+
+### What “ready to click” means (actionability)
 
 Before `click()`, Playwright waits until the target is, among other checks ([actionability](https://playwright.dev/docs/actionability)):
 
-1. **Visible**
-2. **Stable** — two consecutive animation frames (not a fixed 500 ms sleep)
-3. **Enabled** — not disabled (not "no overlay")
-4. **Receives events** — not obscured
-5. Often **exactly one** match
+1. **Visible** on the page  
+2. **Stable** — not mid-animation (two frames in a row, not a fixed sleep)  
+3. **Enabled** — not disabled  
+4. **Can receive the click** — not covered by a modal or banner  
+5. Often **exactly one** match  
+
+**Role-play — “it works on my machine”**
+
+- **Junior:** “Button is there. Why timeout?”  
+- **Lead:** “Cookie banner covers it, or two buttons match. Read the error: ‘intercepts pointer’ or strict mode. Fix the page state or the locator — more sleep won’t help.”
+
+---
 
 ## Navigation load states
 
-| `waitUntil` | Meaning |
-|-------------|---------|
-| `commit` | Navigation committed |
-| `domcontentloaded` | DOM parsed |
-| `load` | Default for `goto` |
-| `networkidle` | No network for 500 ms — fragile on modern apps |
+When you `goto`, you can choose **how finished** the page must be:
 
-Prefer: navigate, then assert a **locator**.
+| `waitUntil` | Simple meaning |
+|-------------|----------------|
+| `commit` | Server answered; page started |
+| `domcontentloaded` | HTML structure ready |
+| `load` | Default — main load finished |
+| `networkidle` | No network for 500 ms — **often never settles** on modern apps |
+
+**Recommended process:** navigate with a sensible `waitUntil`, then assert what you care about with a **locator** (`await expect(...).toBeVisible()`).
+
+**Role-play — networkidle**
+
+- **Junior:** “I’ll wait for `networkidle` so the SPA is ‘fully loaded’.”  
+- **Lead:** “Analytics never stop. Prefer `domcontentloaded` + expect the heading you need.”
+
+---
 
 ## Retries
 
 ```typescript
+// ANALOGY: retries
+// "If the first take fails, try the whole test again N more times."
+// retries is a NUMBER — not an object with fancy modes.
+// "Flaky" (official) = failed first, then passed on a later try.
+
 export default defineConfig({
   retries: process.env.CI ? 2 : 0, // number only
 });
@@ -493,45 +880,74 @@ export default defineConfig({
 **Flaky (official):** failed first run, passed on a retry.  
 There is **no** `retries: { mode: 'rewriteEach' }` API.
 
+**Role-play — retries as a band-aid**
+
+- **Junior:** “It’s flaky. `retries: 5`.”  
+- **Lead:** “Retries hide the bug. Find the real wait or shared state. Keep retries low on CI (0–2).”
+
+---
+
 ## Fixture timeouts
+
+If login setup is slow, give **that setup** more time — not every assertion:
 
 ```typescript
 heavy: [
   async ({}, use) => {
     await use('ready');
   },
-  { timeout: 60_000 },
+  { timeout: 60_000 }, // up to 60s for this fixture’s setup/teardown budget
 ],
 ```
 
-## Triage
+**Role-play — slow login fixture**
 
-```mermaid
-flowchart TD
-  Q([Something timed out]) --> A{Single call?}
-  A -->|yes| B["Pass { timeout } on that call"]
-  A -->|no| C{One slow test?}
-  C -->|yes| D[test.setTimeout / test.slow]
-  C -->|no| E{All clicks or navigations?}
-  E -->|yes| F[use.actionTimeout / navigationTimeout]
-  E -->|no| G{Whole suite?}
-  G -->|yes| H[config timeout / expect.timeout]
-  G -->|no| I[Flake: locator, race, shared state]
-```
-
-| Error shape | Likely clock |
-|-------------|--------------|
-| `Test timeout of 30000ms exceeded` | Test ceiling |
-| `expect… timeout 5000ms` | Expect window |
-| `locator.click: Timeout` | Action / actionability |
-| `page.goto: Timeout` | Navigation |
-| Passed on retry | **Flaky** — fix root cause |
+- **Junior:** “Login fixture is slow, so I raised every test’s expect timeout.”  
+- **Lead:** “Give the **fixture** more time. Keep assertion checks tight so real UI bugs still fail fast.”
 
 ---
 
-# Locators and assertions (support gear) {#locators-and-assertions}
+## Triage flowchart
+
+```mermaid
+flowchart TD
+  Q([Something timed out]) --> A{One specific call?}
+  A -->|yes| B["Add timeout only on that call"]
+  A -->|no| C{One whole test is slow?}
+  C -->|yes| D["test.setTimeout or test.slow for that test"]
+  C -->|no| E{All clicks or all page loads?}
+  E -->|yes| F["actionTimeout or navigationTimeout in config"]
+  E -->|no| G{Many tests need more time?}
+  G -->|yes| H["timeout or expect.timeout in config"]
+  G -->|no| I["Not a timer problem: fix locator, race, or shared state"]
+```
+
+| Error text looks like… | What it usually means | First move |
+|------------------------|----------------------|------------|
+| `Test timeout of 30000ms exceeded` | Whole test ran out of time | Speed up steps, or raise time for **that** test |
+| `expect… timeout 5000ms` | One check never became true | Fix selector/condition; then maybe more expect time |
+| `locator.click: Timeout` | Click never became ready | Fix overlay/locator; optional click `{ timeout }` |
+| `page.goto: Timeout` | Navigation never finished | Check URL/network; avoid `networkidle` on chatty apps |
+| Passed only on retry | **Flaky** | Fix root cause; don’t only raise retries |
+
+---
+
+# Locators and assertions {#locators-and-assertions}
 
 A **locator** re-resolves when you act. That is different from grabbing a DOM node once.
+
+```text
+// ANALOGY: locator vs element handle
+// ┌────────────────────┬────────────────────────────────────────────────┐
+// │ Idea               │ Plain English                                  │
+// ├────────────────────┼────────────────────────────────────────────────┤
+// │ Locator            │ Address / recipe — find it again each time     │
+// │ Old element handle │ Photo of a seat — may be stale after the train │
+// │ getByRole          │ "The Sign in button a user would hear/see"     │
+// │ await expect(loc)  │ Keep checking until true (or expect timeout)   │
+// │ expect(value)      │ Check a plain JS value once (no auto-retry)    │
+// └────────────────────┴────────────────────────────────────────────────┘
+```
 
 ![Locator preference ladder]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/04-locator-ladder.svg){:.post-illustration}
 
@@ -547,13 +963,14 @@ A **locator** re-resolves when you act. That is different from grabbing a DOM no
 Locator `expect` **polls**. Plain value `expect` does not.
 
 ```typescript
+// Think of it like: "Keep checking this address until the sign is visible."
 await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 await expect(page.getByText('Slow')).toBeVisible({ timeout: 10_000 });
 ```
 
 ---
 
-# Config, debug, API, page objects {#config-debug-api-pos}
+# Config, debugging, API tests, page objects {#config-debug-api-pos}
 
 ## Config sketch
 
@@ -585,6 +1002,17 @@ export default defineConfig({
 
 ## Debugging triad
 
+```text
+// ANALOGY: three tools, three moments
+// ┌────────────┬────────────────────────────────────────────────────────┐
+// │ Tool       │ When                                                   │
+// ├────────────┼────────────────────────────────────────────────────────┤
+// │ UI Mode    │ Daily development — watch, filter, re-run              │
+// │ Inspector  │ Step live — see the click about to happen              │
+// │ Trace      │ After CI failure — flight recorder of the run          │
+// └────────────┴────────────────────────────────────────────────────────┘
+```
+
 ![Debugging triad]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/06-debug-triad.svg){:.post-illustration}
 
 | Tool | Command |
@@ -596,6 +1024,9 @@ export default defineConfig({
 ## API fixture
 
 ```typescript
+// ANALOGY: request fixture
+// "Skip the UI stage crew — call the API directly."
+
 test('docs site responds', async ({ request }) => {
   const response = await request.get('https://playwright.dev/');
   expect(response.ok()).toBeTruthy();
@@ -606,6 +1037,17 @@ Strong pattern: seed via API, assert via UI.
 
 ## Page objects (opinion)
 
+```text
+// ANALOGY: page object vs fixture
+// ┌──────────────┬──────────────────────────────────────────────────────┐
+// │ Tool         │ Job                                                  │
+// ├──────────────┼──────────────────────────────────────────────────────┤
+// │ Page object  │ Map of one page's controls and flows                 │
+// │ Fixture      │ Prep state (logged in, seeded data) for the test     │
+// │ Combo        │ Fixture hands you a ready page object                │
+// └──────────────┴──────────────────────────────────────────────────────┘
+```
+
 Encapsulate selectors and flows. Prefer fixtures for auth. Combine: fixture yields a page object.
 
 ---
@@ -613,9 +1055,11 @@ Encapsulate selectors and flows. Prefer fixtures for auth. Combine: fixture yiel
 # Cheatsheet {#cheatsheet}
 
 ```text
+// One-line reminders (same analogies as the sections above)
+
 ASYNC
-  async fn  → may pause, returns Promise
-  await x   → pause until x settles
+  async fn  → "allow pauses in this recipe"
+  await x   → "pause THIS line until x finishes"
   Promise.all([a,b]) → start both, wait both (not a sleep)
 
 WAITS
@@ -625,21 +1069,24 @@ WAITS
   ✅ waitForResponse        → network you caused
   ✅ Promise.all(click+wait)→ avoid missing fast events
 
-SUITE
+SUITE (Playwright API — not free-standing Jest describe/it)
+  import { test, expect } from '@playwright/test'
   test('name', async ({ page }) => {})
-  test.describe('group', () => { ... })
+  test.describe('group', () => { ... })   // method on test
   test.beforeEach / afterEach / beforeAll / afterAll
   fixtures: base.extend + await use(value)
+  // Jest/Jasmine: describe(...) + it(...) are a different runner's style
 
-TIMEOUTS
-  (1) test ceiling     timeout: 30_000
-  (2) assert window    expect: { timeout: 5_000 }
-  (3) actions          use.actionTimeout (default none)
-  (4) navigations      use.navigationTimeout (default none)
-  (5) one test         test.setTimeout / test.slow()
-  (6) one call         click({ timeout })
-  (7) one expect       expect(loc).toBeVisible({ timeout })
-  (8) one fixture      [fn, { timeout: 60_000 }]
+TIMEOUTS (simple English)
+  (1) whole test time     timeout: 30_000
+  (2) one check re-look   expect: { timeout: 5_000 }
+  (3) all clicks/fills    use.actionTimeout (default: no separate limit)
+  (4) all page loads      use.navigationTimeout (default: no separate limit)
+  (5) one slow test       test.setTimeout / test.slow()
+  (6) one call            click({ timeout })
+  (7) one expect          expect(loc).toBeVisible({ timeout })
+  (8) slow setup only     [fn, { timeout: 60_000 }]
+  Process: read error → fix condition → sticky note on one step → one test → config last
 
 PARALLEL
   files parallel by default
@@ -653,27 +1100,27 @@ PARALLEL
 
 **Do**
 
-1. Assert with `await expect(locator)...` as your default wait.
-2. Prefer `getByRole` / `getByLabel` / `getByTestId`.
-3. Grow suite folders by feature, not by "misc".
-4. Use fixtures for shared setup that must not leak.
-5. Read the full timeout error before raising numbers.
-6. Pair `waitForResponse` with the click via `Promise.all` when needed.
-7. Keep `retries` low and treat "flaky" as a bug report, not a feature.
-8. Use `--ui` and traces before adding sleeps.
+1. Prefer `await expect(locator)…` as the default wait for UI state.
+2. Prefer `getByRole` / `getByLabel` / `getByTestId` over brittle CSS.
+3. Organize tests by feature, not a single growing “misc” file.
+4. Use fixtures for shared setup that must stay isolated per test.
+5. Read the full timeout error before increasing limits.
+6. Pair `waitForResponse` with the triggering action via `Promise.all` when needed.
+7. Keep `retries` modest; treat “flaky” as a defect signal, not a feature.
+8. Use UI Mode and traces before introducing sleeps.
 
-**Don't**
+**Don’t**
 
-1. Do not use `browser.sleep` thinking it is Playwright.
-2. Do not stabilize tests with `waitForTimeout`.
-3. Do not import free `describe` / `beforeEach` as if globals always exist.
-4. Do not treat flat vs nested as "parallel vs serial".
-5. Do not invent `clickTimeout` / retry `mode` objects in config.
+1. Do not assume `browser.sleep` exists in Playwright (Selenium/WebDriver API).
+2. Do not rely on `waitForTimeout` for stability.
+3. Do not import free-standing Jest/Jasmine-style `describe` / `it` / `beforeEach` from `@playwright/test`; use `test.describe` / `test` / `test.beforeEach`.
+4. Do not equate flat vs nested style with parallel vs serial execution.
+5. Do not invent config keys such as `clickTimeout` or object-shaped `retries` modes.
 6. Do not share mutable `beforeAll` state across independent tests.
-7. Do not bump `expect.timeout` to paper over a wrong selector.
-8. Do not ship a first test with only `console.log`.
+7. Do not raise `expect.timeout` to hide a bad selector.
+8. Do not treat `console.log` alone as a completed test.
 
-> *"The clock is a liar; the DOM is the truth."* Keep that line taped above the CI badge.
+Prefer condition-based waits over wall-clock sleeps: the DOM (or the network response you caused) is the reliable signal, not an arbitrary delay.
 
 ---
 
