@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-label="Wait zoo comparison sleep versus real waits">
+  <rect width="960" height="520" fill="#ffffff"/>
+  <text x="40" y="40" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">The wait zoo: sleep vs real waits</text>
+  <text x="40" y="68" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="14">Guessing with a clock vs waiting for a condition</text>
+  <rect x="40" y="95" width="280" height="120" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="180" y="130" text-anchor="middle" fill="#991b1b" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Fixed sleep</text>
+  <text x="180" y="158" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">browser.sleep (Selenium)</text>
+  <text x="180" y="180" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">page.waitForTimeout(ms)</text>
+  <text x="180" y="202" text-anchor="middle" fill="#6b7280" font-family="Segoe UI, Arial, sans-serif" font-size="12">Wall clock. Flaky or slow.</text>
+  <rect x="340" y="95" width="280" height="120" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="480" y="130" text-anchor="middle" fill="#166534" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Condition wait</text>
+  <text x="480" y="158" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">await expect(loc).toBe…()</text>
+  <text x="480" y="180" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">waitForResponse / waitFor</text>
+  <text x="480" y="202" text-anchor="middle" fill="#6b7280" font-family="Segoe UI, Arial, sans-serif" font-size="12">Stops when truth arrives.</text>
+  <rect x="640" y="95" width="280" height="120" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="780" y="130" text-anchor="middle" fill="#1d4ed8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Concurrency</text>
+  <text x="780" y="158" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">Promise.all([...])</text>
+  <text x="780" y="180" text-anchor="middle" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13">Start click + wait together</text>
+  <text x="780" y="202" text-anchor="middle" fill="#6b7280" font-family="Segoe UI, Arial, sans-serif" font-size="12">Not a sleep. Not a timeout knob.</text>
+  <rect x="40" y="240" width="880" height="200" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="60" y="275" fill="#9a3412" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Config clocks (different animals)</text>
+  <text x="60" y="310" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">test timeout — whole mission ceiling (default 30s)</text>
+  <text x="60" y="340" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">expect.timeout — how long assertions poll (default 5s)</text>
+  <text x="60" y="370" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">actionTimeout / navigationTimeout — per action kind (default: none)</text>
+  <text x="60" y="410" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Playwright has no browser.sleep. That name is a Selenium / WebDriver cousin.</text>
+</svg>
