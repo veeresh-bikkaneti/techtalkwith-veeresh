@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-label="Playwright parallelism model files parallel tests in file serial">
+  <rect width="960" height="500" fill="#ffffff"/>
+  <text x="40" y="42" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Playwright parallelism (the real model)</text>
+  <text x="40" y="72" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="15">Files run across workers. Tests in one file run in order unless you opt in.</text>
+  <rect x="40" y="100" width="420" height="230" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="60" y="135" fill="#1d4ed8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Default</text>
+  <text x="60" y="175" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">login.spec.ts  → Worker A</text>
+  <text x="80" y="200" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">test1 → test2 → test3 (order)</text>
+  <text x="60" y="240" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">cart.spec.ts   → Worker B (parallel with A)</text>
+  <text x="60" y="280" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">checkout.spec.ts → Worker C</text>
+  <text x="60" y="310" fill="#6b7280" font-family="Segoe UI, Arial, sans-serif" font-size="13">describe() groups reports; it is not a parallel switch</text>
+  <rect x="500" y="100" width="420" height="230" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="520" y="135" fill="#15803d" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Opt-in full parallel</text>
+  <text x="520" y="180" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">fullyParallel: true  (config)</text>
+  <text x="520" y="215" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">or test.describe.configure({ mode: 'parallel' })</text>
+  <text x="520" y="260" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Fixtures isolate state so parallel is safer.</text>
+  <text x="520" y="290" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Fixtures do not create workers by themselves.</text>
+  <rect x="40" y="360" width="880" height="80" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="60" y="395" fill="#9a3412" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Takeaway</text>
+  <text x="60" y="420" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="14">Flat vs nested is organization. Parallelism is workers + fullyParallel / describe.configure.</text>
+  <text x="40" y="475" fill="#9ca3af" font-family="Segoe UI, Arial, sans-serif" font-size="12">English illustration — Playwright TypeScript guide</text>
+</svg>
