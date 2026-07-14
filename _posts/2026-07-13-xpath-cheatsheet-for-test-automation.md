@@ -8,7 +8,9 @@ excerpt: "The SDET-flavored XPath pocket reference for Selenium, Playwright, and
 reading_time: 11
 ---
 
-Keep this page in your second monitor. The companion to [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}), this cheatsheet skips the storytelling and goes straight to **patterns you can copy-paste**.
+**Bookmark this. Seriously.** When you have 2 hours before a release and need to find that one stubborn element that broke your test, you'll be back here.
+
+This is the cheatsheet version of [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}). No stories, no philosophy — just copy-paste patterns that work. Every expression here was born from "why doesn't this *#$%* element select?" moments at 11pm.
 
 ## Table of Contents
 
@@ -28,7 +30,9 @@ Keep this page in your second monitor. The companion to [XPath for Test Automati
 
 ## 1. Locator priority pyramid
 
-Reach for the top first. Descend only when you must.
+**Story:** I once wrote a beautiful XPath based on CSS class selectors. Worked for 6 months. Then CSS classes changed in a refactor, and 80 tests exploded the same day. I learned: **priority matters.**
+
+Reach for the top first. Descend only when you must. This pyramid exists so your selectors survive refactors.
 
 ```text
 🏆  data-testid              //*[@data-testid='checkout']
@@ -143,7 +147,7 @@ XPath ships with 120+ functions. You'll touch these 10 in most work:
 //ul/li[position() <= 3]
 ```
 
-> **XPath 2.0+ shortcuts that look tempting but won't work in browsers:** `lower-case()`, `upper-case()`, regex matching, FLWOR expressions (`for $i in ... return ...`), string join/parse functions. WebDriver, Playwright, and Cypress all evaluate **XPath 1.0** for `By.xpath`/`xpath=…`/`cy.xpath()`. These 2.0 functions return empty with **no error**, which is the worst kind of silent failure. If you genuinely need them, switch to a Saxon pipeline or server-side XPath 2.0 eval. For case-insensitive work, use the `translate()` idiom above.
+> **War story:** I debugged for 3 hours why my XPath to select case-insensitive elements wasn't working. I'd written: `//a[lower-case(@href)='/help']`. Looked right. Returned nothing. Silent failure — no error message, just empty results. Turns out, `lower-case()` is XPath 2.0, and browsers only support 1.0. I had to switch to `translate()` instead. Now I know: if you see 2.0 features in the docs, they're silently broken in the browser. **Use only XPath 1.0 or go server-side.** WebDriver, Playwright, and Cypress all evaluate 1.0 for `By.xpath`/`xpath=…`/`cy.xpath()`.
 
 ---
 

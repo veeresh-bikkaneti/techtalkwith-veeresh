@@ -8,31 +8,32 @@ excerpt: "Playwright found the text but Assert.AreEqual failed anyway? HTML enco
 reading_time: 3
 ---
 
-### Handling HTML Encoded Strings in C# .NET 8.0 with Microsoft Playwright
+### The Bug That Wasted My Day
 
-#### Problem Statement
-When working with web applications, it's common to encounter HTML encoded text in the UI that needs to be decoded and processed. For example, you might have a list of product descriptions displayed on a webpage and a corresponding list of descriptions in a JSON file. The task is to decode these strings, remove any HTML tags, and compare them to ensure they match.
+You're debugging a test. Playwright finds the text you're looking for. You assert it matches a JSON baseline. The assertion fails. You look at the HTML in DevTools — the text is *right there*, character for character.
 
-#### [Learn more on HTML Encloded strings](https://www.geeksforgeeks.org/html-url-encoding/)
+You're not losing your mind. It's HTML encoding.
 
-#### Use Cases
-1. **Web Scraping**: Extracting and processing text from web pages.
-2. **Data Cleaning**: Removing HTML tags and decoding strings from various data sources.
-3. **Text Comparison**: Comparing user input or extracted text with stored data.
+The browser renders `&lt;p&gt;Hello&lt;/p&gt;` as `<p>Hello</p>` on screen. Playwright reads the DOM and hands you the literal string `&lt;p&gt;Hello&lt;/p&gt;`. Your JSON has `<p>Hello</p>`. They look the same to a human. To an `Assert.AreEqual()`, they're night and day.
 
-#### Step-by-Step Guidance
+This is the post I wish I'd found at 2am instead of learning it the hard way.
 
-1. **Extract Text from Web Page**:
-   - Use Microsoft Playwright to locate and extract text from specific elements on a webpage.
+---
 
-2. **Decode HTML Encoded Strings**:
-   - Use `HttpUtility.HtmlDecode` to decode HTML encoded strings.
+### The Real-World Scenarios (Why This Matters)
 
-3. **Remove HTML Tags**:
-   - Use regular expressions to remove HTML tags from the decoded strings.
+**1. E-commerce product comparison** — You're testing that product descriptions on the website match the database. The DB has `"High-quality widget &trade;"`. Playwright reads `"High-quality widget ™"` from the DOM. Without decoding, the test fails even though the user sees the exact same text.
 
-4. **Compare Strings**:
-   - Compare the cleaned strings to check for matches.
+**2. Content management systems** — A CMS editor stores `"<p>Hello</p>"` in the DB. The HTML rendered on screen looks perfect. Your test extracts the text and gets `"<p>Hello</p>"` literally. Without decoding and stripping tags, you're comparing metadata, not content.
+
+**3. API vs. UI validation** — The API returns `{ description: "<p>Widget <strong>on sale</strong></p>" }`. The UI displays this as `"Widget on sale"`. If you naively compare the API payload with what Playwright reads from the DOM, they'll never match.
+
+#### The Solution Pattern
+
+1. Extract text from the page with Playwright
+2. Decode HTML entities (`&lt;` → `<`, `&amp;` → `&`, etc.) using `HttpUtility.HtmlDecode`
+3. Strip remaining HTML tags with regex
+4. Compare clean text to your baseline
 
 #### Code
 
@@ -119,14 +120,19 @@ public class ProductDescription
 }
 ```
 
-#### Explanation
-- **HtmlStringProcessor Class**: Handles the extraction, decoding, cleaning, and comparison of HTML encoded strings.
-- **ExtractDescriptionsFromPageAsync Method**: Extracts text from the webpage using Microsoft Playwright.
-- **DecodeHtmlString Method**: Decodes HTML encoded strings.
-- **RemoveHtmlTags Method**: Removes HTML tags using a regular expression.
-- **ProcessProductDescriptionsAsync Method**: Main method that processes and compares the product descriptions, including a fake modal for validation.
+#### What Each Part Does
 
-This approach ensures that the code is clean, readable, and follows best practices for naming conventions and structure.
+**HtmlStringProcessor** — The wrapper class that orchestrates the whole flow. Think of it as a decoder that knows how to compare apples to apples (cleaned text, not raw HTML).
+
+**ExtractDescriptionsFromPageAsync** — Grabs the text from the DOM using Playwright's locators. This is where you get the encoded strings.
+
+**DecodeHtmlString** — Uses `HttpUtility.HtmlDecode` with a StringWriter. This converts `&lt;` back to `<`, `&amp;` back to `&`, etc. It's the bridge between what Playwright reads and what the JSON file contains.
+
+**RemoveHtmlTags** — The regex pattern `@"<[^>]+>|&[^;]+;"` strips both actual tags (`<p>`, `</span>`) and leftover entities that didn't decode. Belt and suspenders.
+
+**ProcessProductDescriptionsAsync** — The orchestrator. Extract → Decode → Clean → Compare. If the cleaned text from the page matches the cleaned text from the JSON, you've caught a data sync bug (or confirmed everything is fine).
+
+This is the pattern that saved me from 404 failures that night.
 
 
 ### Using the Code in a Real-World Scenario
