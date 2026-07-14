@@ -198,7 +198,6 @@ By integrating security activities into each phase of the SDLC, functional teste
 
 1. [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 2. [OWASP SAMM — Software Assurance Maturity Model](https://owaspsamm.org/)
-3. [NIST SSDF — secure software development](https://csrc.nist.gov/Projects/ssdf)
-4. [Microsoft SDL — security development lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
+3. [Microsoft SDL — security development lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
 
 *See also:* [Step-by-Step Security Testing for SDETs (Sep 2024)]({% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %}) · [The Secret to Secure Software Development (Sep 2024)]({% link _posts/2024-09-26-secret-to-secure-software-development.md %}) — secret management, the thing that bites you at 3am.
