@@ -732,7 +732,7 @@ When the goal is *"make this XPath safer / more portable"*, follow this order �
 ## Cross-references
 
 - **For the broader XPath reference** (every pattern in this card is documented there): [XPath Cheatsheet §1–§11 (Sep 2026)]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %}).
-- **For the mental-model + narrative explanation** of why XPath/CSS/engine selectors separate the way they do: [XPath for Test Automation (Sep 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — §3 axes, §5 functions, §12.5 `:has()`/`:is()`, §12.8 decision flowchart.
+- **For the mental-model + narrative explanation** of why XPath/CSS/engine selectors separate the way they do: [XPath for Test Automation (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — §3 axes, §5 functions, §12.5 `:has()`/`:is()`, §12.8 decision flowchart.
 - **For boundary-crossing patterns** (X1–X3 above): §12.4 of the article + §11.3 of the cheatsheet.
 - **For the broader migration thesis** (BiDi replacing WebDriver): [Selenium BiDi vs Playwright CDP (Aug 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}).
 - **For worked-through DOM → POM → spec chains** that exercise the rows in tables A–F (Scenario 1 login, Scenario 2 striped table, Scenario 3 reverse-tree ARIA, plus a migration-step-3 snapshot): see the [Worked-through usage examples](#worked-through-usage-examples) section above — that block converts the tables into runnable Playwright TypeScript + Selenium Java.
@@ -745,4 +745,4 @@ When the goal is *"make this XPath safer / more portable"*, follow this order �
 4. [devhints — XPath](https://devhints.io/xpath) — the inspiration pattern this card follows
 5. [caniuse — CSS `:has()`](https://caniuse.com/css-has) — browser availability (Safari 15.4+, FF 121+, Chrome 105+)
 
-*See also:* [XPath Cheatsheet for Test Automation Engineers (Sep 2026)]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %}) · [XPath for Test Automation (Sep 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the cards this appendix sits beside.
+*See also:* [XPath Cheatsheet for Test Automation Engineers (Jul 2026)]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %}) · [XPath for Test Automation (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the cards this appendix sits beside.
