@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "XPath Cheatsheet for Test Automation Engineers"
-date: 2026-09-22
+date: 2026-07-13
 categories: [automation, tools, reference]
 tags: [xpath, locators, cheatsheet, reference, selenium, playwright, cypress, css-selectors, sdet, ci-cd, page-object-model, complex-xpath, complex-css, svg, shadow-dom, iframe, aria, java, python, typescript, javascript]
 excerpt: "The SDET-flavored XPath pocket reference for Selenium, Playwright, and Cypress engineers. Locator priority pyramid, the 13 axes, the 10 functions you'll actually use, predicate recipes, multi-language code samples, framework gotchas, headless/CI failure modes, POM placement, observability hooks, **and an advanced section covering complex XPath (SVG, computed indices, ARIA chains, iframe/shadow DOM) and complex CSS (`:has()`, `:is()`/`:where()`, `:nth-child()`, attribute flags, sibling combinators)** — all in one bookmark-able page."
 reading_time: 11
 ---
 
-Keep this page in your second monitor. The companion to [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({% link _posts/2026-09-20-xpath-for-test-automation.md %}), this cheatsheet skips the storytelling and goes straight to **patterns you can copy-paste**.
+Keep this page in your second monitor. The companion to [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({% link _posts/2026-07-12-xpath-for-test-automation.md %}), this cheatsheet skips the storytelling and goes straight to **patterns you can copy-paste**.
 
 ## Table of Contents
 
@@ -21,8 +21,8 @@ Keep this page in your second monitor. The companion to [XPath for Test Automati
 7. [Multi-language code samples](#7-multi-language-code-samples)
 8. [Gotchas per framework](#8-gotchas-per-framework)
 9. [When NOT to use XPath](#9-when-not-to-use-xpath)
-10. [SDET playbook — POM, waits, CI, observability](#10-sdet-playbook--pom-waits-ci-observability)
-11. [Advanced & complex patterns — SVG, shadow DOM, modern CSS](#11-advanced--complex-patterns--svg-shadow-dom-modern-css)
+10. [SDET playbook — POM, waits, CI, observability](#10-sdet-playbook-pom-waits-ci-observability)
+11. [Advanced & complex patterns — SVG, shadow DOM, modern CSS](#11-advanced-complex-patterns-svg-shadow-dom-modern-css)
 
 ---
 
@@ -409,7 +409,7 @@ Some signals that you should reach for a different tool:
 
 ---
 
-## 10. SDET playbook — POM, waits, CI, observability {#10-sdet-playbook--pom-waits-ci-observability}
+<h2 id="10-sdet-playbook-pom-waits-ci-observability">10. SDET playbook — POM, waits, CI, observability</h2>
 
 This section is for SDETs shipping production test suites in **Selenium, Playwright, or Cypress**. The XPaths above are correct; this section makes them *survive*.
 
@@ -611,7 +611,7 @@ When the same XPath runs across Chrome/Firefox/Safari/Edge, three things break f
 
 ---
 
-## 11. Advanced & complex patterns — SVG, shadow DOM, modern CSS {#11-advanced--complex-patterns--svg-shadow-dom-modern-css}
+<h2 id="11-advanced-complex-patterns-svg-shadow-dom-modern-css">11. Advanced & complex patterns — SVG, shadow DOM, modern CSS</h2>
 
 Use this section when the basic patterns from §§1–10 don't reach the element. The four "complex" categories here are **SVG namespace**, **computed indices without `li[3]`**, **iframe + shadow DOM piercing**, and **modern CSS Level 4 selectors** (`:has()`, `:is()`, `:where()`, `:nth-child()` formulas, sibling combinators, case-insensitive attribute flags).
 
@@ -849,8 +849,8 @@ input:invalid ~ .error-icon:visible
 - [Multi-language samples](#7-multi-language-code-samples) — Java · Python · TS/JS · C# · Cypress
 - [Gotchas per framework](#8-gotchas-per-framework) — Selenium · Playwright · Cypress
 - [When NOT to use XPath](#9-when-not-to-use-xpath) — better alternatives
-- [SDET playbook](#10-sdet-playbook--pom-waits-ci-observability) — POM, waits, CI, observability
-- [Advanced & complex patterns](#11-advanced--complex-patterns--svg-shadow-dom-modern-css) — SVG, shadow DOM, modern CSS
+- [SDET playbook](#10-sdet-playbook-pom-waits-ci-observability) — POM, waits, CI, observability
+- [Advanced & complex patterns](#11-advanced-complex-patterns-svg-shadow-dom-modern-css) — SVG, shadow DOM, modern CSS
 
 ## Sources & Further Reading
 
@@ -862,12 +862,11 @@ input:invalid ~ .error-icon:visible
 
 ## Cross-links from this blog
 
-- [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Sep 2026)]({% link _posts/2026-09-20-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
-- [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — when even stable XPath breaks
+- [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
 - [Selenium in 2026: Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — Selenium Manager, BiDi, MCP server
 - [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath guide
 - [Playwright Typescript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locators and assertions in TypeScript
 - [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI
 - [Selenium BiDi vs Playwright CDP (Aug 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
 
-*See also:* [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [Playwright AI Codegen Deep Dive (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — when AI agents generate locators from screenshots spanning all three categories. · [XPath ↔ CSS Translation Appendix (Sep 2026)]({% link _posts/2026-09-25-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.
+*See also:* [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.

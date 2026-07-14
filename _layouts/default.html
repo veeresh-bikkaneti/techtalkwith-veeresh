@@ -151,23 +151,51 @@
         var config = getMermaidTheme();
 
         if (!initialized) {
-          // First run: convert kramdown code blocks to Mermaid divs,
-          // saving original source in a data attribute for re-renders
+          // First run: convert kramdown code blocks into a .mermaid-container
+          // wrapper that holds both the .mermaid div and a hover-reveal expand button.
+          // Original source is saved in a data attribute for re-renders.
           var blocks = document.querySelectorAll('code.language-mermaid');
           blocks.forEach(function(code) {
             var pre = code.parentElement;
+
+            // 1. Structural wrapper
+            var wrapper = document.createElement('div');
+            wrapper.className = 'mermaid-container';
+
+            // 2. Accessible expand/collapse button
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'mermaid-expand-btn';
+            btn.setAttribute('aria-label', 'Expand diagram');
+            btn.setAttribute('aria-expanded', 'false');
+            btn.setAttribute('title', 'View full diagram');
+            btn.innerHTML = '<i class="fas fa-expand" aria-hidden="true"></i>';
+            btn.addEventListener('click', function() {
+              var isExpanded = wrapper.classList.toggle('expanded');
+              btn.setAttribute('aria-expanded', isExpanded);
+              btn.innerHTML = isExpanded
+                ? '<i class="fas fa-compress" aria-hidden="true"></i>'
+                : '<i class="fas fa-expand" aria-hidden="true"></i>';
+              btn.setAttribute('title', isExpanded ? 'Collapse diagram' : 'View full diagram');
+              btn.setAttribute('aria-label', isExpanded ? 'Collapse diagram' : 'Expand diagram');
+            });
+
+            // 3. Diagram injection zone
             var div = document.createElement('div');
             div.className = 'mermaid';
             div.setAttribute('data-mermaid-source', code.textContent);
             div.textContent = code.textContent;
-            pre.replaceWith(div);
+
+            wrapper.appendChild(btn);
+            wrapper.appendChild(div);
+            pre.replaceWith(wrapper);
           });
 
-          mermaid.initialize(Object.assign({ startOnLoad: false }, config));
+          mermaid.initialize(Object.assign({ startOnLoad: false, useMaxWidth: false }, config));
           initialized = true;
         } else {
           // Theme toggle: re-initialize and re-populate source text
-          mermaid.initialize(Object.assign({ startOnLoad: false }, config));
+          mermaid.initialize(Object.assign({ startOnLoad: false, useMaxWidth: false }, config));
           var diagrams = document.querySelectorAll('.mermaid[data-mermaid-source]');
           diagrams.forEach(function(div) {
             div.innerHTML = '';

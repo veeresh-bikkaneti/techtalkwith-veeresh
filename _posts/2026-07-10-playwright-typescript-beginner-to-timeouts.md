@@ -33,10 +33,20 @@ Related reading: [Playwright vs Selenium in 2026]({{ site.baseurl }}{% link _pos
    - [Hooks](#hooks)
    - [Fixtures](#fixtures)
 5. [Part III — Timeouts](#part-iii-timeouts)
+   - [The timeout confusion (why seniors get tripped up)](#timeout-confusion)
+   - [Timeout comparison (plain English)](#timeout-comparison)
+   - [Timeout strategy: where to start](#timeout-strategy)
+   - [Recommended process](#recommended-process)
+   - [The two big numbers (config)](#two-big-numbers)
+   - [Action and navigation timeouts](#action-navigation)
+   - [Triage flowchart](#triage-flowchart)
+   - [Timeout checklist](#timeout-checklist)
 6. [Locators and assertions](#locators-and-assertions)
 7. [Config, debugging, API tests, page objects](#config-debug-api-pos)
 8. [Cheatsheet](#cheatsheet)
 9. [Best practices](#best-practices)
+   - [Timeout antipatterns (from the field)](#antipatterns)
+   - [Timeout decision matrix](#decision-matrix)
 10. [Sources](#sources)
 
 ### Reading paths {#reading-paths}
@@ -45,7 +55,9 @@ Related reading: [Playwright vs Selenium in 2026]({{ site.baseurl }}{% link _pos
 |----------|------------|------|
 | **New to Playwright** | [First test](#your-first-real-test) → [async](#async-and-await) → [Sleep vs real waits](#sleep-vs-real-waits) | Explain `await` and why fixed sleeps are unreliable |
 | **Organizing a suite** | [Project layout](#project-layout) → [How a suite grows](#how-a-suite-grows) → [Fixtures](#fixtures) | Know when to use describe, hooks, and fixtures |
-| **Debugging timeouts** | [Sleep vs real waits](#sleep-vs-real-waits) → [Part III](#part-iii-timeouts) → [Cheatsheet](#cheatsheet) | Identify which timeout failed from the error text |
+| **Timeout confusion** (all levels) | [Timeout confusion](#timeout-confusion) → [Timeout strategy](#timeout-strategy) → [Checklist](#timeout-checklist) | Pick the right timer for your slow test; understand why seniors get tripped up |
+| **Debugging timeouts** | [Sleep vs real waits](#sleep-vs-real-waits) → [Triage flowchart](#triage-flowchart) → [Decision matrix](#decision-matrix) | Read the error, identify which timer failed, and fix it |
+| **Copy-paste ready** | [Timeout quick reference](#quick-reference) → [Antipatterns](#antipatterns) | See what to do (and not do) with code examples |
 
 ```mermaid
 flowchart LR
@@ -423,6 +435,8 @@ test.describe('Documentation', () => {
 
 ### If you are migrating from Jest/Jasmine
 
+See: [Jest setup/teardown](https://jestjs.io/docs/setup-teardown), [Playwright Test API](https://playwright.dev/docs/api/class-test).
+
 | Jest / Jasmine | Playwright Test (prefer) | Notes |
 |----------------|--------------------------|--------|
 | `describe('…', fn)` | `test.describe('…', fn)` | Grouping only; not a parallel switch by itself |
@@ -440,11 +454,11 @@ Nuance (so we stay accurate):
 
 | Concern | Jest / Jasmine | Playwright Test |
 |---------|----------------|-----------------|
-| Hooks in a **file** | `beforeEach` at top of file applies to tests in that file ([Jest setup/teardown](https://jestjs.io/docs/setup-teardown)) | `test.beforeEach` same idea, via `test.*` |
-| Hooks in a **describe** | Scoped to that block only | `test.describe` + hooks inside it |
-| Same login in **10 files** | You typically **copy** hooks/helpers into each file, or invent your own shared module | Prefer **`base.extend` fixtures** — import once, type-safe, setup/teardown around `use()` |
-| “Global” setup for whole run | Config-level: `setupFiles` / `setupFilesAfterEnv` (and sometimes `globalSetup`) — **not** a browser-aware fixture system | Config `globalSetup` / project dependencies **plus** first-class fixtures for browser state |
-| Fresh browser tab per test | You wire that yourself (if at all) | Built-in `page` (and `context`) fixtures |
+| Hooks in a **file** | `beforeEach` at top of file applies to tests in that file ([Jest setup/teardown](https://jestjs.io/docs/setup-teardown)) | `test.beforeEach` same idea, via `test.*` ([Playwright hooks](https://playwright.dev/docs/test-hooks)) |
+| Hooks in a **describe** | Scoped to that block only | `test.describe` + hooks inside it ([Playwright describe](https://playwright.dev/docs/api/class-test#test-describe)) |
+| Same login in **10 files** | You typically **copy** hooks/helpers into each file, or invent your own shared module | Prefer **`base.extend` fixtures** — import once, type-safe, setup/teardown around `use()` ([Playwright fixtures](https://playwright.dev/docs/test-fixtures)) |
+| “Global” setup for whole run | Config-level: `setupFiles` / `setupFilesAfterEnv` (and sometimes `globalSetup`) — **not** a browser-aware fixture system | Config `globalSetup` / project dependencies **plus** first-class fixtures for browser state ([Playwright globalSetup](https://playwright.dev/docs/test-configuration#global-setup-and-teardown)) |
+| Fresh browser tab per test | You wire that yourself (if at all) | Built-in `page` (and `context`) fixtures ([Playwright built-in fixtures](https://playwright.dev/docs/test-fixtures#built-in-fixtures)) |
 
 So: Jest is not “zero global setup forever”—it has config hooks. What it lacks for E2E is Playwright’s **default harness**: browser lifecycle + per-test isolation + reusable fixtures without re-pasting hooks in every spec.
 
@@ -544,7 +558,7 @@ test('uses prepared docs page', async ({ docsPage }) => {
 
 ### When Jest/Jasmine is the better harness (advantages over Playwright Test)
 
-Playwright Test is the right default **out of the box for browser E2E**. Jest/Jasmine still win for other jobs:
+Playwright Test is the right default **out of the box for browser E2E** ([Playwright vs other tools](https://playwright.dev/docs/why-playwright)). Jest/Jasmine still win for other jobs ([Jest documentation](https://jestjs.io/docs/getting-started)):
 
 | Advantage of Jest/Jasmine | Why it matters |
 |---------------------------|----------------|
@@ -725,62 +739,115 @@ npx playwright test --ui
 
 # Part III — Timeouts {#part-iii-timeouts}
 
-A **timeout** is simply: “How long will Playwright wait before it gives up?”
+## The timeout confusion (why seniors get tripped up) {#timeout-confusion}
 
-- Too short → tests fail on slow CI even when the app is fine.
-- Too long → real bugs hide while the suite crawls.
+You’ve probably built test suites in other tools—Selenium, JUnit, Jest, Cypress. Each has its own clock model. Playwright’s is **different**, and that’s where the confusion lives.
 
-Sleep says “wait N ms no matter what.”  
-A timeout says “if it is not ready by then, **fail**.”
+**The question that catches everyone:**
+> “My test is slow. Which timer do I turn up?”
 
-### Timeout comparison (plain English)
+Is it the whole-test timer? The expect timer? A click-specific timer? A fixture setup timer? There’s no single answer, and guessing wrong either hides real bugs or makes your CI crawl.
 
-| Setting | Simple meaning | Everyday analogy | What to do (recommended) |
-|---------|----------------|------------------|---------------------------|
-| `timeout` (config) | Max time for the **whole test** (default **30s**). Includes setup + the test body. Cleanup after the test gets its **own** similar budget. | A **meeting end time** for one scenario | Keep default for most tests. For one slow flow: `test.setTimeout(...)` or `test.slow()`, not a huge global default. |
-| `expect.timeout` | How long one **check** keeps looking (default **5s**). Example: “is the button visible yet?” | How long you keep **re-checking a status board** | Prefer fixing the selector or wait condition. Raise only for known-slow UI. |
-| `actionTimeout` | Max wait for **clicks, fills, presses** to become ready (default: **no separate limit** — still limited by the whole-test time) | How long you wait for a **button to become clickable** | Set a suite policy if actions hang forever. Or pass `{ timeout }` on one call. |
-| `navigationTimeout` | Max wait for **goto / reload / waitForURL** (default: **no separate limit**) | How long you wait for a **page to load** | Prefer a sensible `waitUntil` + locator assert. Raise only for known-slow apps. |
-| Inline `{ timeout: N }` on one call | “Only this line waits up to N ms” | A **sticky note on one step** | Best first fix when **one** action is slow. More specific beats a global change. |
-| Fixture `{ timeout: N }` | Extra time for slow **setup** (login, seed data) | Extra time to **prep the tools** before the real work | Use when login is slow; don’t force every test’s body to share that cost blindly. |
-| `page.waitForTimeout(ms)` | Fixed sleep — **not** a smart timeout | Closing your eyes and counting | Almost never. Wait for a real condition instead. |
+**What makes Playwright’s model different:**
+- There is **no default** `clickTimeout` or `fillTimeout`. You set one timer (or don’t) and it covers **all** actions.
+- `expect.timeout` works on **individual assertions**, not the test as a whole.
+- **Fixtures get their own budget**, separate from the test body. Slow login doesn’t have to slow every assertion.
+- `test.slow()` exists to raise time for **one test** without bloating your config.
+
+This section cuts through that. By the end, you’ll know **exactly which timer to turn** and why—and when to leave them alone.
+
+### Timeout comparison (plain English) {#timeout-comparison}
+
+| Setting | Scope | Default | Everyday analogy | When to use |
+|---------|-------|---------|------------------|------------|
+| `timeout` (config) | Whole test (body only) | **30s** | Meeting end time for one scenario | Keep default. Raise only for one long flow via `test.setTimeout()` or `test.slow()`. |
+| `expect.timeout` | One assertion’s auto-retry loop | **5s** | How long you re-check a status board | Prefer fixing the selector first. Raise only if the UI is genuinely slow. |
+| `actionTimeout` | All clicks, fills, presses | **None** (falls through to test time) | How long you wait for button to become clickable | Set globally only if **all** actions hang. Usually unnecessary. Use `click({ timeout })` per call instead. |
+| `navigationTimeout` | goto / reload / waitForURL | **None** (falls through to test time) | How long you wait for page load | Use sensible `waitUntil` + a locator assert. Almost never raise this globally. |
+| `{ timeout: N }` (inline) | One method call only | Inherits config | Sticky note on one step | **Best first move** when one action is slow. More specific beats global. |
+| Fixture `{ timeout: N }` | Fixture setup + teardown | Inherits test timeout | Extra time to prep tools before test | Use when login is slow; don’t let setup time bleed into test body. |
+| `page.waitForTimeout(ms)` | Fixed sleep (not a timer) | N/A | Closing eyes and counting to N | Almost never. Playwright sees it as a dumb wait. Use `await expect(...)` instead. |
+
+### Timeout strategy: where to start (decision tree) {#timeout-strategy}
+
+You have a slow test. Follow this **in order**:
+
+1. **Is it one specific step** (one click, one nav, one assertion)?  
+   → Add `{ timeout }` to that call only. Fixes 80% of cases.
+
+2. **Is it one whole test** (a long flow, checkout, complex wizard)?  
+   → Use `test.setTimeout(...)` or `test.slow()` on that test. Keeps other tests fast.
+
+3. **Is it a fixture setup** (login is slow, data seed is slow)?  
+   → Put `{ timeout }` on the fixture function, not the test body.
+
+4. **Do many tests have the same slow step** (all click the Save button, all navigate)?  
+   → Then **maybe** set `actionTimeout` or `navigationTimeout` in config. But first ask: why is it slow? A selector issue? Missing an actionability wait?
+
+5. **None of the above fixes it**?  
+   → The problem is not a timer. It's a flaky selector, a race condition, or missing `Promise.all` for `waitForResponse`. Read the error closely ([Debugging section](#config-debug-api-pos)).
 
 ```text
-// ANALOGY: kitchen timers (not fancy "ceilings")
+// ANALOGY: kitchen timers (scope matters)
 // ┌────────────────────┬──────────────────────────────────────────────────┐
-// │ Setting            │ Think of it as                                   │
+// │ Setting            │ Affects                                          │
 // ├────────────────────┼──────────────────────────────────────────────────┤
-// │ timeout            │ Timer for the whole recipe                       │
-// │ expect.timeout     │ How long you stare at the oven light per check   │
-// │ actionTimeout      │ How long you wait for the kettle to be ready     │
-// │ navigationTimeout  │ How long you wait for the delivery driver        │
-// │ { timeout } inline │ A sticky note: "only this step, max N seconds"   │
+// │ timeout (config)   │ Every test (wide net, expensive)                 │
+// │ test.setTimeout    │ One test only (surgical)                         │
+// │ expect.timeout     │ One assertion's re-check loop                    │
+// │ { timeout } inline │ One method call (most specific, best first)      │
 // └────────────────────┴──────────────────────────────────────────────────┘
-// Narrowest rule wins: sticky note on one step beats house rules.
+// Principle: **specificity wins**. Fix the narrowest problem first.
 ```
 
 ![Timeout layers]({{ site.baseurl }}/assets/playwright-typescript-guide-illustrations/05-timeout-layers.svg){:.post-illustration}
 *Different timeout settings control different waits — start with the smallest fix.*
 
-### Recommended process (when something times out)
+### Recommended process (when something times out) {#recommended-process}
 
-1. **Read the full error** — it usually names which wait failed.  
-2. **Fix the condition first** — wrong selector? missing assert? use `await expect(locator)…` instead of sleep.  
-3. **If only one step is slow** — add `{ timeout: … }` on that call.  
-4. **If one whole test is long** — `test.setTimeout` / `test.slow()` for that test only.  
-5. **If many tests need the same policy** — then change config (`timeout`, `expect.timeout`, `actionTimeout`, …).  
-6. **Last resort** — raise numbers globally; never “fix” flakes with `waitForTimeout`.
+**Order matters. Skip steps only when earlier ones fix it.**
+
+1. **Read the full error message closely**  
+   → It names the method (`click`, `goto`, `expect`, `waitForResponse`) and the timeout value.  
+   → Example: `Timeout 5000ms exceeded while waiting for expect(…).toBeVisible()` means the **expect** timer, not the whole test.  
+   → [Playwright Test — Timeouts](https://playwright.dev/docs/test-timeouts) docs explain each timer.
+
+2. **Fix the condition, not the timer**  
+   → Wrong selector? Missing `await expect(...)`? Locator race?  
+   → Add `{ timeout: 10_000 }` to that one call and **move on**. The real fix is often selector precision or the right waiter (see [Sleep vs real waits](#sleep-vs-real-waits)).
+
+3. **If only one action is slow**  
+   → `click({ timeout: 10_000 })` or `page.goto(url, { timeout: 10_000 })`.  
+   → This is surgical. Other tests stay fast.
+
+4. **If one whole test is slow**  
+   → `test.setTimeout(60_000)` or `test.slow()` at the top of the test.  
+   → See [The two big numbers](#the-two-big-numbers-config) below.
+
+5. **If a fixture’s setup is slow (login, seed data)**  
+   → Apply `{ timeout }` **to the fixture function**, not the test body.  
+   → See [Fixture timeouts](#fixture-timeouts) below.
+
+6. **If many unrelated tests are slow**  
+   → The problem is not the timer—it’s the environment (slow CI, slow app, or bad test design).  
+   → Profile one slow test with UI Mode (`npx playwright test --ui`) and traces.
+
+7. **Never “fix” flakes with `waitForTimeout`**  
+   → A flaky test that passes on retry is a **root-cause problem**: race condition, stale element, or missing `Promise.all`.  
+   → Raising `retries` or adding sleeps is debt that grows.
 
 **Role-play — picking the right timer**
 
 - **Junior:** “Everything times out. I’ll set `timeout: 120_000` for the whole suite.”  
 - **Lead:** “What does the error say? One slow click, or the whole test?”  
 - **Junior:** “Only `click` on Checkout.”  
-- **Lead:** “Then give **that click** more time, or fix why the button isn’t ready. Don’t make every test wait two minutes.”
+- **Lead:** “Then give **that click** more time: `click({ timeout: 15_000 })`, or fix why the button isn’t ready. Don’t make every test wait two minutes.”  
+- **Senior:** “Our Selenium tests run fine with `wait_for_element(30s)` global. Why is Playwright different?”  
+- **Lead:** “Selenium’s global waiter applies to **every step**. Playwright’s model is: config sets a **policy**, but specific actions override it. You’re used to raising the waiter once; here, you raise it **surgically** per step so other tests stay fast.”
 
 ---
 
-## The two big numbers (config)
+## The two big numbers (config) {#two-big-numbers}
 
 ```typescript
 import { defineConfig } from '@playwright/test';
@@ -808,7 +875,7 @@ test('slow checkout', async ({ page }) => {
 
 ---
 
-## Action and navigation timeouts
+## Action and navigation timeouts {#action-navigation}
 
 By default there is **no separate** limit just for clicks or navigations (they still stop when the **whole test** time runs out).
 
@@ -907,7 +974,7 @@ heavy: [
 
 ---
 
-## Triage flowchart
+## Triage flowchart {#triage-flowchart}
 
 ```mermaid
 flowchart TD
@@ -929,6 +996,56 @@ flowchart TD
 | `locator.click: Timeout` | Click never became ready | Fix overlay/locator; optional click `{ timeout }` |
 | `page.goto: Timeout` | Navigation never finished | Check URL/network; avoid `networkidle` on chatty apps |
 | Passed only on retry | **Flaky** | Fix root cause; don’t only raise retries |
+
+### Timeout checklist (for the next slow test) {#timeout-checklist}
+
+Use this when a test times out:
+
+**□ Step 1: Read the full error message**
+- It names the exact method that timed out (`click`, `goto`, `expect`).
+- Search the [Playwright docs](https://playwright.dev/docs/test-timeouts) for that timeout’s name.
+- Don’t guess—the error message tells you which timer fired.
+
+**□ Step 2: Is the condition wrong?**
+- Is the selector finding the right element? Use `locator.count()` to verify.
+- Is the wait condition checking the right thing? (`toBeVisible` vs `toBeEnabled` vs `toHaveValue`)?
+- **Fix the condition first.** Adding time won’t help if you’re checking the wrong thing.
+
+**□ Step 3: Is this one slow action?**
+- One click? One nav? One assertion? → Add `{ timeout: 10_000 }` on that call.
+- Example: `await page.click(selector, { timeout: 10_000 })`.
+- **This is your first move.** 80% of cases are fixed here.
+
+**□ Step 4: Is the whole test long?**
+- A multi-step flow (login → add item → checkout)?
+- Add `test.setTimeout(60_000)` at the top of the test, or `test.slow()` to triple the default.
+- This only affects **that** test, not the whole suite.
+
+**□ Step 5: Is it a fixture setup that’s slow?**
+- Login fixture taking forever? → Add `{ timeout: 60_000 }` **on the fixture function**, not the test.
+- Example:
+  ```typescript
+  loggedInPage: async ({ page }, use) => {
+    await login(page); // might take time
+    await use(page);
+  }, { timeout: 60_000 }
+  ```
+
+**□ Step 6: Do many tests fail on the same step?**
+- All clicks time out? All navigations?
+- **Maybe** set `actionTimeout` or `navigationTimeout` in config.
+- But first: is this a selector problem? An overlay? Missing actionability wait?
+- Config changes affect every test—fix the root cause first.
+
+**□ Step 7: Did raising the timer fix it permanently?**
+- If it’s still flaky after raising time, the problem is not timing.
+- It’s a race condition, a stale element, shared state, or bad luck with `Promise.all`.
+- Read the trace ([UI Mode](https://playwright.dev/docs/debug#ui-mode) or `playwright show-trace`), don’t just raise numbers again.
+
+**□ Step 8: Document the decision**
+- Add a one-line comment explaining **why** the timeout exists.
+- Example: `click({ timeout: 15_000 }) // analytics dashboard takes 12–14s to respond`
+- Future maintainers (including you) will thank you.
 
 ---
 
@@ -1077,21 +1194,75 @@ SUITE (Playwright API — not free-standing Jest describe/it)
   fixtures: base.extend + await use(value)
   // Jest/Jasmine: describe(...) + it(...) are a different runner's style
 
-TIMEOUTS (simple English)
-  (1) whole test time     timeout: 30_000
-  (2) one check re-look   expect: { timeout: 5_000 }
-  (3) all clicks/fills    use.actionTimeout (default: no separate limit)
-  (4) all page loads      use.navigationTimeout (default: no separate limit)
-  (5) one slow test       test.setTimeout / test.slow()
-  (6) one call            click({ timeout })
-  (7) one expect          expect(loc).toBeVisible({ timeout })
-  (8) slow setup only     [fn, { timeout: 60_000 }]
-  Process: read error → fix condition → sticky note on one step → one test → config last
+TIMEOUTS (when to use each one)
+  Error: "Test timeout" (whole test 30s)        → test.setTimeout / test.slow() for that test
+  Error: "expect timeout" (5s re-check)         → fix selector, or expect({timeout}) on this line
+  Error: "click/goto: Timeout" (action/nav)     → click({timeout}), or check why not ready (overlay? disabled?)
+  Slow fixture (login, setup)                    → [fixtureFunc, { timeout: 60_000 }]
+  Every test slow (avoid)                        → Don't raise config.timeout globally; fix root cause
+  Config defaults (rarely change)                → timeout: 30_000, expect.timeout: 5_000
+  
+  Process: read error → fix condition → inline timeout on one step → test.setTimeout/slow → config last
 
 PARALLEL
   files parallel by default
   tests in a file serial unless fullyParallel / describe.configure
   fixtures isolate; they do not create workers
+```
+
+### Timeout quick reference (copy-paste ready) {#quick-reference}
+
+Slow click? Add this:
+```typescript
+await page.getByRole('button', { name: 'Save' }).click({ timeout: 15_000 });
+```
+
+Slow navigation? Add this:
+```typescript
+await page.goto('https://app.example.com', { timeout: 20_000 });
+```
+
+Slow assertion? Add this:
+```typescript
+await expect(page.getByText('Success')).toBeVisible({ timeout: 10_000 });
+```
+
+Whole test is long (checkout flow, multi-page wizard):
+```typescript
+test('complete checkout', async ({ page }) => {
+  test.setTimeout(90_000); // 90 seconds for this test only
+  // ... rest of test
+});
+
+// OR: triple the default without specifying exact time
+test('complete checkout', async ({ page }) => {
+  test.slow(); // default 30s → ~90s
+  // ... rest of test
+});
+```
+
+Fixture setup is slow (login takes 10s, seed data takes 5s):
+```typescript
+export const test = base.extend<MyFixtures>({
+  loggedIn: async ({ page }, use) => {
+    await login(page);
+    await use(page);
+  }, { timeout: 30_000 }, // setup + teardown combined
+});
+```
+
+**Never do this:**
+```typescript
+// ❌ Whole suite waiting 2 minutes
+export default defineConfig({
+  timeout: 120_000, // DON'T — every test pays this cost
+});
+
+// ❌ Blind sleep (Selenium habit)
+await page.waitForTimeout(5000); // DON'T — guessing, not waiting for reality
+
+// ❌ Raising expect.timeout to hide a bad selector
+await expect(page.locator('very.wrong.selector')).toBeVisible({ timeout: 30_000 }); // DON'T
 ```
 
 ---
@@ -1100,37 +1271,158 @@ PARALLEL
 
 **Do**
 
-1. Prefer `await expect(locator)…` as the default wait for UI state.
-2. Prefer `getByRole` / `getByLabel` / `getByTestId` over brittle CSS.
-3. Organize tests by feature, not a single growing “misc” file.
-4. Use fixtures for shared setup that must stay isolated per test.
-5. Read the full timeout error before increasing limits.
-6. Pair `waitForResponse` with the triggering action via `Promise.all` when needed.
-7. Keep `retries` modest; treat “flaky” as a defect signal, not a feature.
-8. Use UI Mode and traces before introducing sleeps.
+1. **Prefer `await expect(locator)…` as the default wait** for UI state.
+2. **Read the full timeout error message before raising numbers.** It names the exact timer that fired.
+3. **Fix the condition (selector, wait strategy) before raising a timeout.** A bad selector won’t suddenly work with more time.
+4. **Use inline `{ timeout }` on slow steps.** It’s surgical and keeps other tests fast.
+5. **Use `test.setTimeout()` or `test.slow()` for one long test.** Don’t make the whole suite wait.
+6. **Use fixtures for shared setup (login, seeding).** Give the fixture its own `{ timeout }`, not the test body.
+7. **Prefer `getByRole` / `getByLabel` / `getByTestId` over brittle CSS.** Resilient selectors = fewer waits.
+8. **Pair `waitForResponse` with the triggering action via `Promise.all`** so you don’t miss fast responses.
+9. **Keep `retries` modest** (0–2 on CI). Treat “flaky” as a defect signal, not a feature.
+10. **Use UI Mode and traces before sleeps.** See what’s actually happening: `npx playwright test --ui` or `playwright show-trace trace.zip`.
+11. **Document why the timeout exists.** A one-line comment saves the next maintainer’s debug time.
 
 **Don’t**
 
-1. Do not assume `browser.sleep` exists in Playwright (Selenium/WebDriver API).
-2. Do not rely on `waitForTimeout` for stability.
-3. Do not import free-standing Jest/Jasmine-style `describe` / `it` / `beforeEach` from `@playwright/test`; use `test.describe` / `test` / `test.beforeEach`.
-4. Do not equate flat vs nested style with parallel vs serial execution.
-5. Do not invent config keys such as `clickTimeout` or object-shaped `retries` modes.
-6. Do not share mutable `beforeAll` state across independent tests.
-7. Do not raise `expect.timeout` to hide a bad selector.
-8. Do not treat `console.log` alone as a completed test.
+1. **Do not assume `browser.sleep` exists** in Playwright (that’s Selenium/WebDriver).
+2. **Do not use `page.waitForTimeout(ms)` for stability.** It’s a dumb sleep—use `await expect(...)` instead.
+3. **Do not raise `timeout` globally** to hide flakes. That makes **every test** slower.
+4. **Do not raise `expect.timeout` to 30s to hide a bad selector.** Fix the selector.
+5. **Do not set `actionTimeout` or `navigationTimeout` unless you’ve measured that all actions/navigations are slow.** Usually unnecessary.
+6. **Do not import free-standing Jest `describe` / `it` from `@playwright/test`.** Use `test` / `test.describe`.
+7. **Do not share mutable `beforeAll` state** across independent tests (causes order-dependent failures).
+8. **Do not copy-paste timeouts from other tests** without understanding why they exist.
+9. **Do not treat retries as a fix.** Flaky tests that pass on retry have a real bug; retries only hide it.
 
-Prefer condition-based waits over wall-clock sleeps: the DOM (or the network response you caused) is the reliable signal, not an arbitrary delay.
+### Timeout antipatterns (from the field) {#antipatterns}
+
+**Antipattern: “The global 120-second timeout”**
+```typescript
+// ❌ DON’T: Every test waits up to 2 minutes now (slow CI)
+export default defineConfig({
+  timeout: 120_000,
+});
+```
+**Why it hurts:** One slow test doesn’t mean all tests should wait. You’re paying 120s on every test, even the 500ms ones.
+
+**Fix:** Use `test.setTimeout()` on the slow test only:
+```typescript
+test(‘slow checkout’, async ({ page }) => {
+  test.setTimeout(120_000);
+  // ... test body
+});
+```
+
+**Antipattern: “I’ll just add more retries”**
+```typescript
+// ❌ DON’T: Flaky test, so 5 retries
+export default defineConfig({
+  retries: 5, // hiding a real bug
+});
+```
+**Why it hurts:** A flaky test that passes on retry has a root cause (race, stale element, missing `Promise.all`). Retries hide it. On your next release, the bug surfaces in production.
+
+**Fix:** Use UI Mode to watch the failure, then fix the actual cause:
+```bash
+npx playwright test --ui --headed
+# Watch where it fails, pause, inspect the DOM
+```
+
+**Antipattern: “Different timeouts for different browsers”**
+```typescript
+// ❌ DON’T: Chromium gets 5s, Firefox gets 10s, Safari gets 15s (why?)
+projects: [
+  { name: ‘chromium’, use: { ...devices.chrome }, timeout: 5_000 },
+  { name: ‘firefox’, use: { ...devices.firefox }, timeout: 10_000 },
+  { name: ‘webkit’, use: { ...devices.webkit }, timeout: 15_000 },
+],
+```
+**Why it hurts:** If Firefox needs 10s and Safari needs 15s, **every test in those projects** waits that long. You’re hiding the actual problem: why is this step slow in those browsers?
+
+**Fix:** Measure with traces (`trace: ‘on-first-retry’`), then add `{ timeout }` to the slow **step**, not the browser:
+```typescript
+await page.getByRole(‘button’).click({ timeout: 15_000 }); // just this click
+```
+
+**Antipattern: “I’ll use `expect.timeout: 30_000` for everything”**
+```typescript
+// ❌ DON’T: Every assertion re-checks for 30 seconds
+export default defineConfig({
+  expect: { timeout: 30_000 }, // slow, slow feedback
+});
+```
+**Why it hurts:** A failed assertion takes up to 30s to report. Slow feedback = slow development.
+
+**Fix:** Keep the default (5s) and raise it per assertion if needed:
+```typescript
+// Default: 5s per assertion
+await expect(page.getByText(‘Quick’)).toBeVisible();
+
+// This one is slow: 15s just for this assertion
+await expect(page.getByText(‘Analytics dashboard’)).toBeVisible({ timeout: 15_000 });
+```
+
+---
+
+## Timeout decision matrix (for the uncertain) {#decision-matrix}
+
+| Symptom | Root cause | First fix | Second fix (if first didn’t work) |
+|---------|-----------|-----------|-----------------------------------|
+| One click times out | Button not ready (overlay, disabled, animation) | Fix selector or add `waitFor` before click | `click({ timeout: 15_000 })` if the UI is genuinely slow |
+| All clicks timeout | Config issue or app is generally slow | Check `actionTimeout`; more likely: profile with UI Mode | Add `{ timeout }` per call, not globally |
+| Navigation hangs | Network slow, or bad `waitUntil` | Use `waitUntil: ‘domcontentloaded’` + a locator assert | `goto({ timeout: 20_000 })` on just this nav |
+| Assertion times out | Selector wrong, or UI genuinely slow to update | Fix selector first; then expect `{ timeout }` | Check for race conditions (async state updates) |
+| Whole test is slow | Multi-step flow, or steps are individually slow | Use `test.slow()` or `test.setTimeout()` | Profile with traces to find the slow steps |
+| Fixture is slow | Login, seed data, or setup is expensive | `[fixtureFunc, { timeout: 60_000 }]` | Optimize the fixture (cache login, batch seed calls) |
+| Test passes sometimes | Flaky, not slow | Root cause is a race or shared state | Use UI Mode to watch both passes and failures |
+
+---
 
 ---
 
 ## Sources & Further Reading {#sources}
 
-1. [Playwright Test — Timeouts](https://playwright.dev/docs/test-timeouts)
-2. [Playwright Test — Parallelism](https://playwright.dev/docs/test-parallel)
-3. [Playwright Test — Fixtures](https://playwright.dev/docs/test-fixtures)
-4. [Playwright — Locators](https://playwright.dev/docs/locators)
-5. [Playwright — Actionability](https://playwright.dev/docs/actionability)
-6. [Playwright Test — Retries](https://playwright.dev/docs/test-retries)
-7. [Playwright Test — Configuration](https://playwright.dev/docs/test-configuration)
-8. [Playwright — Writing tests](https://playwright.dev/docs/writing-tests)
+### Official Playwright documentation (cited in this post)
+
+1. [**Playwright Test — Timeouts**](https://playwright.dev/docs/test-timeouts) — Core reference for all timeout types, examples, and defaults. Start here for `timeout`, `expect.timeout`, `actionTimeout`, `navigationTimeout`, and how they layer.
+
+2. [**Playwright Test — Configuration**](https://playwright.dev/docs/test-configuration) — Config syntax for `timeout`, `expect`, `use`, and how to set defaults globally. Lists all available options.
+
+3. [**Playwright Test — Fixtures**](https://playwright.dev/docs/test-fixtures) — Fixture lifecycle (`setup` → `await use()` → `teardown`), how to extend fixtures, and fixture-level `{ timeout }`.
+
+4. [**Playwright — Actionability**](https://playwright.dev/docs/actionability) — What Playwright checks before a `click()` (visible, stable, enabled, unobstructed). Explains why clicks fail before you raise `actionTimeout`.
+
+5. [**Playwright — Locators**](https://playwright.dev/docs/locators) — Locator re-resolution, how `await expect(locator)...` polls, and the preference ladder (getByRole first).
+
+6. [**Playwright Test — Writing tests**](https://playwright.dev/docs/writing-tests) — API reference for `test`, `test.describe`, `test.beforeEach`, `test.setTimeout`, `test.slow`.
+
+7. [**Playwright Test — Retries**](https://playwright.dev/docs/test-retries) — How `retries` works, what "flaky" means officially, and why retries are a band-aid, not a fix.
+
+8. [**Playwright Test — Debug**](https://playwright.dev/docs/debug) — UI Mode, Inspector, and Trace Viewer. Essential for watching a slow test and finding the real bottleneck.
+
+9. [**Playwright — Wait for navigation**](https://playwright.dev/docs/navigations) — `waitUntil` modes (`commit`, `domcontentloaded`, `load`, `networkidle`) and why `networkidle` often doesn't settle on modern apps.
+
+### Jest/Jasmine documentation (for comparison)
+
+10. [**Jest — Setup and Teardown**](https://jestjs.io/docs/setup-teardown) — Jest's `beforeEach`, `afterEach`, `beforeAll`, `afterAll` hooks and `setupFiles`/`setupFilesAfterEnv` patterns.
+
+11. [**Jest — Getting Started**](https://jestjs.io/docs/getting-started) — Jest test runner, mocking, and module isolation for unit tests.
+
+12. [**Playwright Test API**](https://playwright.dev/docs/api/class-test) — Complete API reference: `test`, `test.describe`, `test.beforeEach`, `test.afterEach`, hooks, and fixture extension (`base.extend`).
+
+### Lived experience (patterns from shipping Playwright suites)
+
+- **"Why does my Selenium timeout logic fail in Playwright?"** Selenium's `wait_for_element(30s)` is a global waiter that applies to every step. Playwright's model is: config sets policy, specific calls override it. You're used to one knob; Playwright has many, so you can be surgical instead of sledgehammer.
+
+- **"Everything times out on CI but not locally."** CI is usually slow, but the culprit is often a misconfigured selector (finds 3 elements instead of 1), a missing `Promise.all` on a network wait, or a race with dynamic state updates. Add `trace: 'on-first-retry'` and read the trace, don't just raise time.
+
+- **"I set `retries: 5` and now everything passes."** You're not fixing the bug; you're hiding it. That 5th-attempt pass will bite you in production. Use UI Mode to watch the failure sequence, then fix the actual cause (usually: selector race, stale element, or missing `await`).
+
+- **"One test is slow, so I raised `timeout` globally."** Now **every test** waits longer. Use `test.setTimeout()` or `test.slow()` on just the slow test.
+
+---
+
+## Related articles
+
+[**XPath for Test Automation**]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — Once your timeouts are stable, resilient selectors are your next step to reliability. This article covers XPath & CSS patterns for SDETs: SVG namespace, ARIA predicates, iframe/shadow-DOM piercing, modern CSS (`:has()`, `:is()`, `:where()`). Locator resilience = fewer waits = faster, more reliable suites.
