@@ -208,4 +208,4 @@ By being aware of these pitfalls and following best practices, you can effective
 3. [HtmlAgilityPack — HTML parsing for .NET](https://html-agility-pack.net/)
 4. [Playwright locators — text matching](https://playwright.dev/docs/locators#locate-by-text)
 
-*See also:* [Mastering Playwright .NET (Sep 2024)]({% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) — the full DI + Page Object setup this decoding logic plugs into.
+*See also:* [Mastering Playwright .NET (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) — the full DI + Page Object setup this decoding logic plugs into.

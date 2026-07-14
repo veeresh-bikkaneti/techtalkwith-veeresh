@@ -196,6 +196,6 @@ sequenceDiagram
 3. [Kent Beck — Test-Driven Development](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) *(the book that started it)*
 4. [Cucumber — living documentation pattern](https://cucumber.io/docs/bdd/)
 
-*See also:* [Building BDD Frameworks That Actually Work (Jun 2026)]({% link _posts/2026-06-20-building-bdd-frameworks-that-work.md %}) — what happens after you pick BDD and have to make it survive a real sprint. · [The Software Testing Pyramid (Sep 2024)]({% link _posts/2024-09-09-the-software-testing-pyramid.md %}) — where unit vs integration vs E2E tests actually belong.
+*See also:* [Building BDD Frameworks That Actually Work (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-20-building-bdd-frameworks-that-work.md %}) — what happens after you pick BDD and have to make it survive a real sprint. · [The Software Testing Pyramid (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-09-the-software-testing-pyramid.md %}) — where unit vs integration vs E2E tests actually belong.
 
 #AgileDevelopment #SoftwareTesting #BDD #ATDD #TDD #DevOps 🚀✨

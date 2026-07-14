@@ -93,5 +93,5 @@ sequenceDiagram
 3. [Martin Fowler — Consumer-Driven Contracts](https://martinfowler.com/articles/consumerDrivenContracts.html)
 4. [Testing ASP.NET Core services — Microsoft](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/test-aspnet-core-services-web-apps)
 
-*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) — different flavors of test-first thinking, same "agree before you code" energy.
+*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) — different flavors of test-first thinking, same "agree before you code" energy.
 

@@ -219,7 +219,7 @@ What strategies have you found most effective in your SDET role for managing sec
 3. [HashiCorp Vault — what it is](https://developer.hashicorp.com/vault/docs/what-is-vault)
 4. [GitHub — secret scanning](https://docs.github.com/en/code-security/secret-scanning)
 
-*See also:* [Functional Testers in the Secure SDLC (Mar 2025)]({% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) · [Security Testing for SDETs (Sep 2024)]({% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %})
+*See also:* [Functional Testers in the Secure SDLC (Mar 2025)]({{ site.baseurl }}{% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) · [Security Testing for SDETs (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %})
 
 #SecureSDLC #SDET #SecretManagement #SoftwareTesting #DevSecOps #Cybersecurity
 

@@ -192,6 +192,6 @@ This configuration allows your Express.js server to start automatically when you
 3. [Test Agent Actor — roman-g/test-runner](https://github.com/roman-g/test-runner/tree/84d8cd532c5265afea7084dbe46c086151fc0e61/TestSolution/TestAgent/TestAgentActor.cs)
 4. [DORA — Four Key Metrics](https://dora.dev/guides/dora-metrics-four-keys/)
 
-*See also:* [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — where that early regression suite actually lives in the pipeline.
+*See also:* [CI/CD Pipelines for Test Automation (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — where that early regression suite actually lives in the pipeline.
 
 

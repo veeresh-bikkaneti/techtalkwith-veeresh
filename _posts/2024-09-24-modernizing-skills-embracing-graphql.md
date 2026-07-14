@@ -166,8 +166,8 @@ Pick the tool that matches the problem. GraphQL when you're tired of over-fetchi
 ## Sources & Further Reading
 
 - [Michael Staib — GraphQL in .NET with Hot Chocolate (YouTube)](https://youtu.be/qrh97hToWpM?si=_6BLSFqo7SYKeHjW)
-- [Mastering GraphQL: Key Concepts & Best Practices (Sep 2024)]({% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})
-- [Why Choose Hasura Over Other Tools (Sep 2024)]({% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %})
+- [Mastering GraphQL: Key Concepts & Best Practices (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})
+- [Why Choose Hasura Over Other Tools (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %})
 
-*See also:* [Graph API vs GraphQL (Sep 2024)]({% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, those are different things, and yes, I confused them once too.
+*See also:* [Graph API vs GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, those are different things, and yes, I confused them once too.
 

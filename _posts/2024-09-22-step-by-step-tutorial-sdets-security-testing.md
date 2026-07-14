@@ -196,4 +196,4 @@ This diagram and explanation provide a comprehensive view of how security testin
 3. [LambdaTest — Security Testing Learning Hub](https://www.lambdatest.com/learning-hub/security-testing)
 4. [TestGuild — Why Security Testing Matters for QEs (Boris Arapovic)](https://testguild.com/podcast/automation/a514-boris/)
 
-*See also:* [Functional Testers in the Secure SDLC (Mar 2025)]({% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) · [The Secret to Secure Software Development (Sep 2024)]({% link _posts/2024-09-26-secret-to-secure-software-development.md %})
+*See also:* [Functional Testers in the Secure SDLC (Mar 2025)]({{ site.baseurl }}{% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) · [The Secret to Secure Software Development (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-26-secret-to-secure-software-development.md %})

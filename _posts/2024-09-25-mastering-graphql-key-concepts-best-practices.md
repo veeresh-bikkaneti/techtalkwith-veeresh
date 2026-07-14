@@ -239,4 +239,4 @@ In summary, while REST APIs use multiple endpoints for different operations, Gra
 3. [GraphQL vs REST — Apollo blog](https://www.apollographql.com/blog/graphql-vs-rest)
 4. [GraphQL mutations — Hasura tutorial](https://hasura.io/learn/graphql/intro-graphql/graphql-mutations/)
 
-*See also:* [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %}) · [Graph API vs GraphQL (Sep 2024)]({% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, Microsoft Graph and GraphQL are different beasts.
+*See also:* [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %}) · [Graph API vs GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, Microsoft Graph and GraphQL are different beasts.

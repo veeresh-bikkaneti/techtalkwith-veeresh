@@ -66,6 +66,6 @@ The **Testing Pyramid** reminds us that creative problem-solving is crucial in o
 3. [Test Pyramid — Microsoft testing guidance](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/test-aspnet-core-services-web-apps)
 4. [Playwright — testing best practices](https://playwright.dev/docs/best-practices)
 
-*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) · [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — fast feedback at the base of the pyramid, slow E2E at the top.
+*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) · [CI/CD Pipelines for Test Automation (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — fast feedback at the base of the pyramid, slow E2E at the top.
 
 #SoftwareTesting #DeveloperProductivity #QualityAssurance #teststrategy

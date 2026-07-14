@@ -99,4 +99,4 @@ classDiagram
 3. [Anti-Corruption Layer — Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
 4. [GraphQL vs REST — AWS comparison](https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/)
 
-*See also:* [Mastering GraphQL (Sep 2024)]({% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %}) · [Hasura with Graph API and Hot Chocolate (Sep 2024)]({% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %})
+*See also:* [Mastering GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %}) · [Hasura with Graph API and Hot Chocolate (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %})

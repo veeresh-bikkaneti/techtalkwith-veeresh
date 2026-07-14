@@ -107,4 +107,4 @@ When BDD works, it bridges the gap between business and engineering. When it doe
 3. [Gherkin reference](https://cucumber.io/docs/gherkin/reference/)
 4. [Living documentation — Cucumber docs](https://cucumber.io/docs/bdd/)
 
-*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) — pick your flavor before you buy the Cucumber license.
+*See also:* [Comparing BDD, ATDD, and TDD (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-20-comparing-bdd-atdd-and-tdd.md %}) — pick your flavor before you buy the Cucumber license.

@@ -149,4 +149,4 @@ The best pipeline is one that developers trust. If it's slow, flaky, or unclear,
 3. [Jenkins — pipeline syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
 4. [DORA metrics — deployment frequency](https://dora.dev/guides/dora-metrics-four-keys/)
 
-*See also:* [Shift Left Using a Regression Suite (Sep 2024)]({% link _posts/2024-09-23-shift-left-using-regression-suite.md %}) — run regression early, not as a going-away present before release.
+*See also:* [Shift Left Using a Regression Suite (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-23-shift-left-using-regression-suite.md %}) — run regression early, not as a going-away present before release.

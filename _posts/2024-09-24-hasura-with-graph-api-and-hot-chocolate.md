@@ -52,4 +52,4 @@ Choosing between Hasura and Apollo depends on your specific needs and project re
 3. [Hasura vs Apollo — platform comparison](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)
 4. [Hot Chocolate — .NET GraphQL server](https://chillicream.com/docs/hotchocolate)
 
-*See also:* [Why Choose Hasura Over Other Tools (Sep 2024)]({% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %}) · [Mastering GraphQL (Sep 2024)]({% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})
+*See also:* [Why Choose Hasura Over Other Tools (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %}) · [Mastering GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})

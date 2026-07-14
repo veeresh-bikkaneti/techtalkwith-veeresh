@@ -302,6 +302,6 @@ sequenceDiagram
 3. [Microsoft — Performance testing guidance](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/performance-test)
 4. [Shift-left testing — Wikipedia (solid overview)](https://en.wikipedia.org/wiki/Shift-left_testing)
 
-*See also:* [Shift Left Using a Regression Suite (Sep 2024)]({% link _posts/2024-09-23-shift-left-using-regression-suite.md %}) — run that regression pack earlier, not after the release train leaves. · [Functional Testers in the Secure SDLC (Mar 2025)]({% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) — where security testing actually slots in.
+*See also:* [Shift Left Using a Regression Suite (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-23-shift-left-using-regression-suite.md %}) — run that regression pack earlier, not after the release train leaves. · [Functional Testers in the Secure SDLC (Mar 2025)]({{ site.baseurl }}{% link _posts/2025-03-05-functional-tester-secure-development-lifecycle.md %}) — where security testing actually slots in.
 
 

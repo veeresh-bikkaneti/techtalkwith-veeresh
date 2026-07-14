@@ -338,10 +338,10 @@ This post is the 2026 refresh that connects to four earlier Selenium articles on
 
 | Earlier post | What it covered | What changed by 2026 |
 |---|---|---|
-| [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) | `By.Id()`, `By.XPath()`, CSS selectors, implicit/explicit waits | Relative Locators replace brittle XPath; BiDi replaces polled waits |
-| [Drag-and-Drop in C# Selenium (Aug 2024)]({% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}) | 8 methods for drag-and-drop using `Actions` class and JavaScript fallback | CDP integration lets you simulate drag events at the protocol level — no JS hacks needed |
-| [Selenium C# Framework Guide (Sep 2024)]({% link _posts/2024-09-09-selenium-net-framework-development-guide.md %}) | xUnit + SpecFlow + DI framework architecture | Add MCP server as a new project dependency; Page Objects become optional when AI agents resolve locators dynamically |
-| [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Head-to-head comparison | Selenium now has BiDi + MCP, closing the event-driven gap with Playwright |
+| [Selenium Page Locator Strategies (May 2020)]({{ site.baseurl }}{% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) | `By.Id()`, `By.XPath()`, CSS selectors, implicit/explicit waits | Relative Locators replace brittle XPath; BiDi replaces polled waits |
+| [Drag-and-Drop in C# Selenium (Aug 2024)]({{ site.baseurl }}{% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}) | 8 methods for drag-and-drop using `Actions` class and JavaScript fallback | CDP integration lets you simulate drag events at the protocol level — no JS hacks needed |
+| [Selenium C# Framework Guide (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-09-selenium-net-framework-development-guide.md %}) | xUnit + SpecFlow + DI framework architecture | Add MCP server as a new project dependency; Page Objects become optional when AI agents resolve locators dynamically |
+| [Playwright vs Selenium in 2026 (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Head-to-head comparison | Selenium now has BiDi + MCP, closing the event-driven gap with Playwright |
 
 ## Multi-Language Quick Reference
 
@@ -424,4 +424,4 @@ This guide used C# examples. Here's the equivalent syntax in **Java**, **TypeScr
 4. **For CI/CD pipelines:** stick with raw Selenium code (Step 2–4). MCP is for exploratory work; deterministic test suites need explicit waits and assertions.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — followup posts on Playwright MCP, BiDi-vs-CDP deep-dives, and AI-assisted test generation are coming next.
 
-*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-07-18-self-healing-test-suites.md %}) — AI-powered locator healing in CI/CD, building on the Relative Locators and BiDi from this guide.
+*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) · [Self-Healing Test Suites (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-18-self-healing-test-suites.md %}) — AI-powered locator healing in CI/CD, building on the Relative Locators and BiDi from this guide.

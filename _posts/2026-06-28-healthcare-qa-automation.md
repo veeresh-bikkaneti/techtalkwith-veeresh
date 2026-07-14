@@ -114,6 +114,6 @@ The biggest lesson? **Automation is a tool, not a strategy.** The real transform
 3. [Playwright — best practices](https://playwright.dev/docs/best-practices)
 4. [Azure DevOps — test planning](https://learn.microsoft.com/en-us/azure/devops/test/)
 
-*See also:* [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — the pipeline patterns that made that 4-hour number possible.
+*See also:* [CI/CD Pipelines for Test Automation (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — the pipeline patterns that made that 4-hour number possible.
 
 Healthcare QA automation isn't glamorous, but when done right, it directly improves patient outcomes by catching defects before they reach production.

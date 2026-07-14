@@ -761,4 +761,4 @@ By following this guide, you can create a powerful test automation framework tha
 3. [xUnit.net — getting started](https://xunit.net/docs/getting-started/v2/getting-started)
 4. [Page Object Model — Selenium design pattern](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
 
-*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with MCP server integration as a new project dependency.
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — the 2026 refresh with MCP server integration as a new project dependency.

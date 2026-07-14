@@ -1425,4 +1425,4 @@ await expect(page.getByText(‘Analytics dashboard’)).toBeVisible({ timeout: 1
 
 ## Related articles
 
-[**XPath for Test Automation**]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — Once your timeouts are stable, resilient selectors are your next step to reliability. This article covers XPath & CSS patterns for SDETs: SVG namespace, ARIA predicates, iframe/shadow-DOM piercing, modern CSS (`:has()`, `:is()`, `:where()`). Locator resilience = fewer waits = faster, more reliable suites.
+[**XPath for Test Automation**]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}) — Once your timeouts are stable, resilient selectors are your next step to reliability. This article covers XPath & CSS patterns for SDETs: SVG namespace, ARIA predicates, iframe/shadow-DOM piercing, modern CSS (`:has()`, `:is()`, `:where()`). Locator resilience = fewer waits = faster, more reliable suites.

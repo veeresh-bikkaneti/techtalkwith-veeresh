@@ -8,7 +8,7 @@ excerpt: "Playwright + MCP + multiple AI agents on one test run. The beginner gu
 reading_time: 10
 ---
 
-In the [previous guide]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}), you learned how to set up Selenium with MCP and let an AI agent drive your browser. Now we go a step further: **Playwright** — the browser automation engine that was built for the modern web — plus **multi-agent orchestration**, where two or more AI agents collaborate on the same test run.
+In the [previous guide]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}), you learned how to set up Selenium with MCP and let an AI agent drive your browser. Now we go a step further: **Playwright** — the browser automation engine that was built for the modern web — plus **multi-agent orchestration**, where two or more AI agents collaborate on the same test run.
 
 If Selenium + MCP is like handing one expert a remote control, Playwright + multi-agent is like giving a **team** of experts simultaneous access to the same browser session, each watching a different layer of your app from network calls to visual snapshots to accessibility violations.
 
@@ -183,7 +183,7 @@ This is the step that makes Playwright feel like the future. **MCP (Model Contex
 
 ### How Playwright MCP Differs from Selenium MCP
 
-In the [Selenium 2026 guide]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}), you set up `selenium-mcp` — a Python package that translates AI commands into WebDriver calls. Playwright MCP is **simpler and faster**:
+In the [Selenium 2026 guide]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}), you set up `selenium-mcp` — a Python package that translates AI commands into WebDriver calls. Playwright MCP is **simpler and faster**:
 
 - **Zero-config install** — one npm package, no Python dependency
 - **Native CDP** — no WebDriver protocol overhead
@@ -465,10 +465,10 @@ This post is the 2026 Playwright refresh that connects to four earlier articles 
 
 | Earlier post | What it covered | What changed by 2026 |
 |---|---|---|
-| [Mastering E2E Testing with C# Playwright (Jul 2024)]({% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) | Playwright setup, cross-browser, API calls, SQL Server, tracing | Web-First Assertions replace manual `Assert.AreEqual`; MCP replaces manual script-writing for exploratory work |
-| [Mastering Async Ops in C# Playwright (Aug 2024)]({% link _posts/2024-08-30-mastering-async-operations-csharp-playwright.md %}) | `WaitForResponseAsync`, manual deserialization, explicit waits | Web-First Assertions handle wait-and-assert in one call; multi-agent Validator watches all responses automatically |
-| [Playwright .NET Framework Guide (Sep 2024)]({% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) | NUnit + DI + Page Objects + Allure reporting | Page Objects become optional when MCP agents resolve interactable elements dynamically; add `@playwright/mcp` as a parallel testing mode |
-| [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Speed, reliability, multi-browser comparison | Playwright now has MCP + multi-agent orchestration — capabilities Selenium's ecosystem is still building toward |
+| [Mastering E2E Testing with C# Playwright (Jul 2024)]({{ site.baseurl }}{% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) | Playwright setup, cross-browser, API calls, SQL Server, tracing | Web-First Assertions replace manual `Assert.AreEqual`; MCP replaces manual script-writing for exploratory work |
+| [Mastering Async Ops in C# Playwright (Aug 2024)]({{ site.baseurl }}{% link _posts/2024-08-30-mastering-async-operations-csharp-playwright.md %}) | `WaitForResponseAsync`, manual deserialization, explicit waits | Web-First Assertions handle wait-and-assert in one call; multi-agent Validator watches all responses automatically |
+| [Playwright .NET Framework Guide (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) | NUnit + DI + Page Objects + Allure reporting | Page Objects become optional when MCP agents resolve interactable elements dynamically; add `@playwright/mcp` as a parallel testing mode |
+| [Playwright vs Selenium in 2026 (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Speed, reliability, multi-browser comparison | Playwright now has MCP + multi-agent orchestration — capabilities Selenium's ecosystem is still building toward |
 
 ## Sources & Further Reading
 
@@ -480,9 +480,9 @@ This post is the 2026 Playwright refresh that connects to four earlier articles 
 ## What to Do Next
 
 1. **Run Step 1–2 right now.** Install Playwright and write the Hello World test. It takes under 3 minutes, and the auto-wait behavior will immediately click — you'll never want to write `Thread.Sleep` again.
-2. **Try Playwright MCP.** If you have Claude Desktop, add the `@playwright/mcp` config and ask it to navigate to any site. Compare the experience to the [Selenium MCP setup]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — you'll notice the speed difference immediately.
+2. **Try Playwright MCP.** If you have Claude Desktop, add the `@playwright/mcp` config and ask it to navigate to any site. Compare the experience to the [Selenium MCP setup]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — you'll notice the speed difference immediately.
 3. **Experiment with multi-agent.** Take any existing Playwright test, add HAR recording, and write a 15-line Validator that checks for non-2xx responses. You'll probably find a bug your UI test was silently ignoring.
 4. **For CI/CD pipelines:** stick with raw Playwright + Web-First Assertions. MCP and multi-agent add AI variability — fine for exploration, not ideal for deterministic pass/fail gates.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: a deep-dive on Playwright's AI codegen (`npx playwright codegen --ai`) and how to generate an entire test suite from a requirements document.
 
-*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on how multi-agent systems are reshaping QA, from test generation to self-healing suites. · [Playwright AI Codegen in 2026 (Jul 2026)]({% link _posts/2026-07-17-playwright-ai-codegen-deep-dive.md %}) — the deep-dive teased above: generating test suites from natural language.
+*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on how multi-agent systems are reshaping QA, from test generation to self-healing suites. · [Playwright AI Codegen in 2026 (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-17-playwright-ai-codegen-deep-dive.md %}) — the deep-dive teased above: generating test suites from natural language.

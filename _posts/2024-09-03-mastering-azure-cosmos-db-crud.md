@@ -612,4 +612,4 @@ By following this guide, you should now have a solid understanding of how to per
 3. [SOLID principles — Microsoft architecture guidance](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles)
 4. [Partition keys — Cosmos DB design](https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning-overview)
 
-*See also:* [Mastering E2E Testing with C# Playwright (Jul 2024)]({% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) — UI + API + database assertions in one test; this post covers the Cosmos side of that triangle.
+*See also:* [Mastering E2E Testing with C# Playwright (Jul 2024)]({{ site.baseurl }}{% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) — UI + API + database assertions in one test; this post covers the Cosmos side of that triangle.
