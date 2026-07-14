@@ -8,6 +8,14 @@ excerpt: "Movie DB, SQL backend, REST actor API — one GraphQL layer on top. Ho
 reading_time: 3
 ---
 
+## When You Have Too Many Data Sources
+
+You've got a SQL database (movie details), a REST API (actor bios), and a second REST API (showtimes). Your frontend wants a single endpoint that talks to all three. REST layering gets ugly fast. **GraphQL** fixes this — one query language, one endpoint, but you need to wire it right.
+
+**Hasura** auto-generates GraphQL from databases. **Hot Chocolate** lets you build custom GraphQL resolvers in .NET. Use them together and you get the speed of auto-generation plus the flexibility to call external APIs. Here's when and how.
+
+---
+
 **Hasura** is a powerful tool for generating GraphQL APIs from your existing databases. It automates much of the boilerplate code and provides real-time capabilities, making it an excellent choice for quickly building scalable and maintainable GraphQL backends.
 
 **Hot Chocolate** is an open-source GraphQL server for the .NET platform. It simplifies the process of building GraphQL APIs by providing built-in features for queries, mutations, and subscriptions.
@@ -44,6 +52,13 @@ Imagine you are building a movie database application. You want to query data fr
 
 Choosing between Hasura and Apollo depends on your specific needs and project requirements. If you need a quick, real-time, and database-integrated solution, Hasura is a great choice. If you require more customization and flexibility, Apollo might be more suitable.
 
+---
+
+## The Real Win: Stop Rebuilding the Same Plumbing
+
+The moment I used Hasura + Hot Chocolate together, I stopped writing boilerplate resolver code. Hasura handled the database queries. Hot Chocolate handled the external API calls. The result was a clean, unified GraphQL API in hours, not weeks. If your architecture has multiple data sources, this pattern is worth its weight.
+
+---
 
 ## Sources & Further Reading
 
