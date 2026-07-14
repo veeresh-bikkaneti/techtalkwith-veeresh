@@ -107,7 +107,6 @@ Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient 
 * [Why You Should Use Hasura — Hasura Blog](https://hasura.io/blog/why-you-should-use-hasura/)
 * [Hasura explained — Restack](https://www.restack.io/docs/hasura-knowledge-hasura-explained)
 * [Hasura v3 Course Introduction](https://hasura.io/learn/graphql/hasura-v3/introduction/)
-* [Building Scalable Real-Time Apps with Hasura — dev.to](https://dev.to/sebiweise/hasura-building-scalable-and-real-time-applications-an-extensive-guide-7b5)
 * [Comparing GraphQL platforms — Hasura Blog](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)
 * [Guide to GraphQL — graphjin wiki](https://github.com/dosco/graphjin/wiki/Guide-to-GraphQL)
 

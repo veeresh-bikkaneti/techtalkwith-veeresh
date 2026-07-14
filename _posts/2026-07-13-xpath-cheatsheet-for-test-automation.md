@@ -857,7 +857,7 @@ input:invalid ~ .error-icon:visible
 1. [XPath — devhints.io](https://devhints.io/xpath) — the inspiration for this page
 2. [Playwright locators](https://playwright.dev/docs/locators) — when to graduate from XPath
 3. [Selenium By API reference](https://www.selenium.dev/documentation/webdriver/elements/locators/) — official locator docs
-4. [MDN — Introduction to XPath in JavaScript](https://developer.mozilla.org/en-US/docs/Web/XML/XPath/Introduction_to_using_XPath_in_JavaScript) — friendly spec
+4. [MDN — Comparison of CSS Selectors with XPath](https://developer.mozilla.org/en-US/docs/Web/XPath/Comparison_with_CSS_selectors) — XPath vs CSS comparison
 5. [MDN — CSS Selectors Level 4](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors) — `:has()`, `:is()`, `:where()`, `:nth-child()` formulas
 
 ## Cross-links from this blog
