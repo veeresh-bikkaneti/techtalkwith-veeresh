@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Striped table fixture — Appendix Scenario 2</title>
+  <style>
+    /* Light styling so odd-row striping is visible in screenshots */
+    table { border-collapse: collapse; margin-top: 1rem; }
+    tr:nth-child(odd) { background: #f0f2f7; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem 1rem; text-align: left; }
+    th { background: #1e293b; color: #f0f2f7; }
+    body { font-family: system-ui, sans-serif; padding: 1.5rem; }
+    h1 { font-size: 1.1rem; color: #1e293b; }
+  </style>
+</head>
+<body>
+  <h1>Striped table fixture</h1>
+  <p>
+    Mirrors the appendix's Scenario 2 DOM exactly: 4 body rows whose 4th
+    column is Status with mixed-case data and a <code>class</code> attribute
+    that encodes the state (<code>status status-open</code> or
+    <code>status status-closed</code>). The status-open class is the
+    substring that <code>[class*='open' i]</code> matches against; the
+    status-closed class is what proves the negative case (Conway).
+  </p>
+
+  <table id="orders">
+    <thead>
+      <tr>
+        <th>Last Name</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Smith</td>
+        <td>John</td>
+        <td>jsmith@example.com</td>
+        <td class="status status-open">OPEN</td>
+      </tr>
+      <tr>
+        <td>Bach</td>
+        <td>Frank</td>
+        <td>fbach@example.com</td>
+        <td class="status status-closed">Closed</td>
+      </tr>
+      <tr>
+        <td>Doe</td>
+        <td>Jason</td>
+        <td>jdoe@example.com</td>
+        <td class="status status-open">Open</td>
+      </tr>
+      <tr>
+        <td>Conway</td>
+        <td>Tim</td>
+        <td>tconway@example.com</td>
+        <td class="status status-closed">Closed</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

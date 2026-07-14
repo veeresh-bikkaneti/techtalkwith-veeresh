@@ -375,7 +375,7 @@ This guide used C# examples. Here's the equivalent syntax in **Java**, **TypeScr
 | **Java** | `RelativeLocator.with(By.tagName("input")).above(By.id("submit"))` |
 | **TypeScript** | `driver.findElement(locateWith(By.tagName('input')).above(By.id('submit')))` |
 | **JavaScript** | `driver.findElement(locateWith(By.tagName('input')).above(By.id('submit')))` |
-| **Python** | `driver.find_element(locate_with(By.TAG_NAME, "input").above({By.ID: "submit"}))` |
+| **Python** | `driver.find_element(locate_with(By.TAG_NAME, "input").above((By.ID, "submit")))` |
 
 ### WebDriver Wait
 
@@ -424,4 +424,4 @@ This guide used C# examples. Here's the equivalent syntax in **Java**, **TypeScr
 4. **For CI/CD pipelines:** stick with raw Selenium code (Step 2–4). MCP is for exploratory work; deterministic test suites need explicit waits and assertions.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — followup posts on Playwright MCP, BiDi-vs-CDP deep-dives, and AI-assisted test generation are coming next.
 
-*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — AI-powered locator healing in CI/CD, building on the Relative Locators and BiDi from this guide.
+*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) · [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — AI-powered locator healing in CI/CD, building on the Relative Locators and BiDi from this guide.

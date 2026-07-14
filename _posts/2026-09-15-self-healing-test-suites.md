@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Self-Healing Test Suites: AI-Powered Locator Healing in CI/CD"
-date: 2026-07-01
+date: 2026-09-15
 categories: [automation, best-practices]
 tags: [selenium, playwright, self-healing, ai-testing, locators, ci-cd, java, csharp, typescript, javascript, python]
 excerpt: "Frontend renamed a button and your suite went red at 2am? Self-healing locators find it by what it does, not what it's called."
@@ -113,9 +113,15 @@ When both CSS selectors and Relative Locators fail, the AI healer asks a differe
 Instead of hunting for `.btn-submit` or even a `<button>` below the email field, it looks for an element whose **semantic role** matches the intent of the test step:
 
 ```java
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.time.Instant;
 
 /**
  * AI-powered semantic locator healer.
@@ -193,12 +199,11 @@ public class SemanticHealer {
 
     // --- Implementation details ---
 
-    @SuppressWarnings("unchecked")
     private List<Map<String, String>> queryAccessibilityTree() {
         // In production, use the CDP session directly:
         //   var cdp = ((ChromeDriver) driver).getDevTools();
-        //   var axTree = cdp.send(Accessibility.getFullAXTree(Optional.of(5)));
-        //   return parseAxTree(axTree);
+        //   var axTree = cdp.send(Accessibility.getFullAXTree(Optional.of(5), Optional.empty()));
+        //   return parseAxTree(axTree.getNodes());
         //
         // For this illustration, we return a mock accessibility tree
         // with a "Sign In" button that the healer can find:
@@ -250,8 +255,19 @@ public class SemanticHealer {
 Here's how a test wraps every `findElement` call with healing fallback:
 
 ```java
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
+import java.util.Optional;
 
 public class LoginTest {
 
@@ -382,6 +398,18 @@ public class DomDiffHealer {
 Wrap all three strategies into a single `findElement` replacement:
 
 ```java
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.time.Instant;
+
 /**
  * SelfHealingDriver: a WebDriver wrapper that automatically heals
  * broken locators using the three-layer strategy.
@@ -525,6 +553,8 @@ After the run, your PR gets a summary like:
 
 The healing log doubles as a **change notification for the frontend team** — they can see exactly which selectors broke and why.
 
+> **Wiring it up:** The `SemanticHealer` and `SelfHealingDriver` in this post store healing records in an in-memory `ArrayList`. To bridge to the CI/CD workflow above, add a `writeHealingLog()` method to your healer that serializes `getHealingLog()` to `target/healing-log.json` (Jackson or Gson), and call it from your `@AfterAll` / `@AfterSuite` teardown hook. That's the last mile — everything else in the workflow is ready to go.
+
 ## When to Use Each Strategy
 
 ```mermaid
@@ -559,7 +589,7 @@ This post used Java examples. Here's the equivalent syntax across **C#**, **Type
 
 | Language | Accessing the full AX tree |
 |---|---|
-| **Java** | `devTools.send(Accessibility.getFullAXTree(Optional.empty()))` |
+| **Java** | `devTools.send(Accessibility.getFullAXTree(Optional.of(5), Optional.empty()))` |
 | **C#** | `var axTree = await session.SendAsync(Accessibility.GetFullAXTree());` |
 | **TypeScript** | `const axTree = await cdp.send('Accessibility.getFullAXTree');` |
 | **JavaScript** | `const axTree = await cdp.send('Accessibility.getFullAXTree');` |
@@ -610,4 +640,4 @@ This post used Java examples. Here's the equivalent syntax across **C#**, **Type
 4. **For Playwright users:** The same pattern works — replace `driver.findElement()` with `page.locator()` and the CDP accessibility query is identical. The [Playwright AI Codegen post]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) covers the TypeScript/JS equivalent.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: a practical guide to building an AI test oracle that judges "did the test actually pass?" by looking at screenshots, not assertions.
 
-*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the Phase 4 Cypress self-healing implementation that inspired the Java Selenium version in this post.
+*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the Phase 4 Cypress self-healing implementation that inspired the Java Selenium version in this post. · [XPath for Test Automation (Sep 2026)]({% link _posts/2026-09-20-xpath-for-test-automation.md %}) — the story-mode article with §12 complex XPath & CSS for SDETs (SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS `:has()`/`:is()`/`:where()`, decision flowchart).

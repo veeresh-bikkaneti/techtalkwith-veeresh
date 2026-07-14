@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Playwright AI Codegen in 2026: Generating Test Suites from Natural Language"
-date: 2026-07-01
+date: 2026-09-01
 categories: [automation, tools]
 tags: [playwright, ai-codegen, test-generation, natural-language, beginners, csharp, java, typescript, javascript, python, ci-cd]
 excerpt: "Playwright's codegen --ai writes tests from plain English. I still review everything — but I type about 80% less than I used to."
@@ -397,4 +397,4 @@ flowchart TD
 4. **Compare to Selenium.** Read the [BiDi vs CDP comparison]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) to understand why Playwright's native CDP architecture enables AI codegen while Selenium's WebDriver layer makes it harder.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: self-healing test suites that automatically fix broken locators in CI/CD using the same intent-based AI that powers codegen.
 
-*See also:* [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — the speed, reliability, and ecosystem comparison that explains why Playwright leads on AI-native features like codegen.
+*See also:* [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — the speed, reliability, and ecosystem comparison that explains why Playwright leads on AI-native features like codegen. · [XPath for Test Automation (Sep 2026)]({% link _posts/2026-09-20-xpath-for-test-automation.md %}) — the story-mode article with §12 complex XPath & CSS for SDETs (the locator patterns AI codegen generates that you should review before merging — SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS `:has()/`:is()/`:where()`)..
