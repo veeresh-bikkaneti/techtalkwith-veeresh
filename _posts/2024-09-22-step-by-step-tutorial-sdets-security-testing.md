@@ -8,9 +8,21 @@ excerpt: "Security testing isn't a checkbox at the end — it's a habit. A step-
 reading_time: 6
 ---
 
-### Step-by-Step Tutorial for SDETs to Learn Security Testing
+## From "I Just Test Clicks" to "I Find Vulnerabilities Before Hackers Do"
 
-#### Step 1: Understand the Basics
+> *"The database got dumped last night. Someone found an SQL injection we should've caught in code review."*
+
+You've been testing features — "Does the button work?" "Does the form submit?" That's functional testing, and it's good. But what about security? **Does the form accept `' OR '1'='1` and log in without a password?** That's SQL injection, and if you miss it, hackers don't.
+
+Security testing isn't a checkbox at the end. It's a habit you build into your test routine, starting now.
+
+This walkthrough takes you from zero (security-testing newcomer) to useful (finding real vulns). You'll learn the concepts, get hands-on with tools, practice on intentionally broken apps, then integrate security into your daily test flow.
+
+---
+
+## The Learning Path
+
+### Step 1: Understand the Basics
 - **Learn Security Fundamentals**: Start with basic security concepts such as authentication, authorization, encryption, and common vulnerabilities (e.g., SQL injection, XSS).
   - **Example**: Understanding how SQL injection works can help you prevent attacks that exploit vulnerabilities in your database queries.
   - **Resources**: 
@@ -188,6 +200,18 @@ graph TD
       - [Continuous Security](https://www.redhat.com/en/topics/devops/what-is-continuous-security)
 
 This diagram and explanation provide a comprehensive view of how security testing and functional testing are integrated into the software development lifecycle.
+
+---
+
+## You're Not a Security Expert Yet, But You're Not Helpless Either
+
+Start with the OWASP Top 10. Learn what SQL injection looks like. Download Burp Suite Community and poke at an intentionally vulnerable app like DVWA. The first time you find a real vuln in a test app, something clicks. You realize you're not just testing — you're hunting.
+
+The jump from "Does the UI work?" to "Can I break this?" is smaller than you think. Most bugs are boring. But security bugs? Those are personal. Someone's trying to steal data. You're the person who catches them.
+
+Start this week. Spend an hour with OWASP ZAP. Pick one OWASP Top 10 vuln and master it. Next week, pick another. By month three, you'll be the person who finds the problems nobody else thinks to look for.
+
+---
 
 ## Sources & Further Reading
 
