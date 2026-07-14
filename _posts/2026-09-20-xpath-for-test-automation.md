@@ -130,7 +130,7 @@ flowchart TD
 
 ---
 
-## 3. Axes — The 13 Directions on Your DOM Map
+<h2 id="3-axes-the-13-directions-on-your-dom-map">3. Axes — The 13 Directions on Your DOM Map</h2>
 
 Axes are XPath's superpower and also the source of 90% of "XPath is unreadable" complaints. Read them as **relationships**, not syntax.
 
@@ -256,7 +256,7 @@ Because XPath 1.0 (the version every browser & WebDriver binding supports out of
 
 ---
 
-## 6. Predicates — The Real Power
+<h2 id="6-predicates-the-real-power">6. Predicates — The Real Power</h2>
 
 A predicate is anything inside square brackets `[...]` that filters nodes. Chains of predicates are how XPath turns "any button" into "the third enabled button inside the second form on this page."
 
@@ -752,7 +752,7 @@ Before you bookmark this page, answer these in your head. If any stumps you, scr
 
 ---
 
-## 12. Beyond the Basics: Complex XPath & CSS for SDETs
+<h2 id="12-beyond-the-basics-complex-xpath-css-for-sdets">12. Beyond the Basics: Complex XPath & CSS for SDETs</h2>
 
 Section 7 showed locators that work in the happy path. Real AUTs hand you **SVG icons with namespace prefixes**, **dynamic tables that re-order on every refresh**, **components nested three iframes deep**, and **accessibility trees that diverge from the DOM**. This section is precisely the patterns those scenarios demand.
 

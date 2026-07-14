@@ -409,7 +409,7 @@ Some signals that you should reach for a different tool:
 
 ---
 
-## 10. SDET playbook — POM, waits, CI, observability
+<h2 id="10-sdet-playbook-pom-waits-ci-observability">10. SDET playbook — POM, waits, CI, observability</h2>
 
 This section is for SDETs shipping production test suites in **Selenium, Playwright, or Cypress**. The XPaths above are correct; this section makes them *survive*.
 
@@ -611,7 +611,7 @@ When the same XPath runs across Chrome/Firefox/Safari/Edge, three things break f
 
 ---
 
-## 11. Advanced & complex patterns — SVG, shadow DOM, modern CSS
+<h2 id="11-advanced-complex-patterns-svg-shadow-dom-modern-css">11. Advanced & complex patterns — SVG, shadow DOM, modern CSS</h2>
 
 Use this section when the basic patterns from §§1–10 don't reach the element. The four "complex" categories here are **SVG namespace**, **computed indices without `li[3]`**, **iframe + shadow DOM piercing**, and **modern CSS Level 4 selectors** (`:has()`, `:is()`, `:where()`, `:nth-child()` formulas, sibling combinators, case-insensitive attribute flags).
 
