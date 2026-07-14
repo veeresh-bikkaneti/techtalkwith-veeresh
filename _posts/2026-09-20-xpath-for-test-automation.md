@@ -29,17 +29,17 @@ Bookmark it for your first six months of automation work. When you're ready to g
 
 1. **[The Mental Model: Your DOM Is a Map](#1-the-mental-model-your-dom-is-a-map).** The city-map metaphor and the four base templates that unlock every XPath you'll write. *Read first.*
 2. **[The Locator Priority Pyramid](#2-the-locator-priority-pyramid).** `data-testid` → ARIA role → ID → CSS → XPath. The decision tree you reach for before writing any locator.
-3. **[Axes — The 13 Directions on Your DOM Map](#3-axes--the-13-directions-on-your-dom-map).** All 13 navigation axes plus which five you'll reach for in day-to-day work.
+3. **[Axes — The 13 Directions on Your DOM Map](#3-axes-the-13-directions-on-your-dom-map).** All 13 navigation axes plus which five you'll reach for in day-to-day work.
 4. **[Your First Three Locators](#4-your-first-three-locators).** Copy-paste templates: By ID, By stable attribute, By relationship to a known anchor.
 5. **[Functions You'll Actually Use (Out of ~120)](#5-functions-youll-actually-use-out-of-120).** The 10 XPath 1.0 functions covering ~90% of work, plus which XPath 2.0+ versions silently fail.
-6. **[Predicates — The Real Power](#6-predicates--the-real-power).** The progressive-narrowing chain rule plus the *"row containing X"* idiom.
+6. **[Predicates — The Real Power](#6-predicates-the-real-power).** The progressive-narrowing chain rule plus the *"row containing X"* idiom.
 7. **[Seven Locator Recipes, Fired Up Against Real Sites](#7-seven-locator-recipes-fired-up-against-real-sites).** 7 copy-paste-ready XPaths against [the-internet.herokuapp.com](https://the-internet.herokuapp.com/) — login, dynamic button, table row, dropdown, checkout, current-nav, upload widget.
 8. **[The 5 XPath Mistakes I See in Every Code Review](#8-the-5-xpath-mistakes-i-see-in-every-code-review).** Absolute paths, indexed XPath, `contains(@class, "btn")` over-match, missing `normalize-space()`, missing iframe/shadow context.
 9. **[XPath Across Tools (Selenium, Playwright, Cypress)](#9-xpath-across-tools-selenium-playwright-cypress).** Same syntax, three APIs, plus the 2026 codegen macro-shift (`getByRole`, AI-generated locators).
    1. **9.5. [The SDET Playbook — POM, Waits, CI, and Observability](#sdet-playbook).** Locators as properties (not methods), wait contracts per framework, headless/CI pitfalls, failure-side observability. *The pivot from sandbox to production page-object code.*
 10. **[Self-Healing: When XPath Stops Behaving](#10-self-healing-when-xpath-stops-behaving).** Layered healing: XPath → ARIA semantic role → BiDi DOM diff.
 11. **[The 12-Question Refresher](#11-the-12-question-refresher).** Self-test before you bookmark, with expandable quick-answers folded.
-12. **[Beyond the Basics: Complex XPath & CSS for SDETs](#12-beyond-the-basics-complex-xpath--css-for-sdets).** SVG namespace, computed indices, ARIA chains, iframe and shadow DOM piercing, modern CSS L4 (`:has()` / `:is()` / `:where()` / `:nth-child` formulas / sibling combinators / case-insensitive flag), the XPath-vs-CSS-vs-Playwright decision flowchart.
+12. **[Beyond the Basics: Complex XPath & CSS for SDETs](#12-beyond-the-basics-complex-xpath-css-for-sdets).** SVG namespace, computed indices, ARIA chains, iframe and shadow DOM piercing, modern CSS L4 (`:has()` / `:is()` / `:where()` / `:nth-child` formulas / sibling combinators / case-insensitive flag), the XPath-vs-CSS-vs-Playwright decision flowchart.
 
 > **One-screen TL;DR:** [§2](#2-the-locator-priority-pyramid) (priority pyramid) + [§5](#5-functions-youll-actually-use-out-of-120) (10 functions) + [§7](#7-seven-locator-recipes-fired-up-against-real-sites) (7 recipes) + [§8](#8-the-5-xpath-mistakes-i-see-in-every-code-review) (5 mistakes) is the 80/20 — read those four and you can write 80% of the locators you will ever need.
 
@@ -130,7 +130,7 @@ flowchart TD
 
 ---
 
-## 3. Axes — The 13 Directions on Your DOM Map {#3-axes--the-13-directions-on-your-dom-map}
+## 3. Axes — The 13 Directions on Your DOM Map
 
 Axes are XPath's superpower and also the source of 90% of "XPath is unreadable" complaints. Read them as **relationships**, not syntax.
 
@@ -256,7 +256,7 @@ Because XPath 1.0 (the version every browser & WebDriver binding supports out of
 
 ---
 
-## 6. Predicates — The Real Power {#6-predicates--the-real-power}
+## 6. Predicates — The Real Power
 
 A predicate is anything inside square brackets `[...]` that filters nodes. Chains of predicates are how XPath turns "any button" into "the third enabled button inside the second form on this page."
 
@@ -752,7 +752,7 @@ Before you bookmark this page, answer these in your head. If any stumps you, scr
 
 ---
 
-## 12. Beyond the Basics: Complex XPath & CSS for SDETs {#12-beyond-the-basics-complex-xpath--css-for-sdets}
+## 12. Beyond the Basics: Complex XPath & CSS for SDETs
 
 Section 7 showed locators that work in the happy path. Real AUTs hand you **SVG icons with namespace prefixes**, **dynamic tables that re-order on every refresh**, **components nested three iframes deep**, and **accessibility trees that diverge from the DOM**. This section is precisely the patterns those scenarios demand.
 

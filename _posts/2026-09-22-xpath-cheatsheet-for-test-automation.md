@@ -21,8 +21,8 @@ Keep this page in your second monitor. The companion to [XPath for Test Automati
 7. [Multi-language code samples](#7-multi-language-code-samples)
 8. [Gotchas per framework](#8-gotchas-per-framework)
 9. [When NOT to use XPath](#9-when-not-to-use-xpath)
-10. [SDET playbook — POM, waits, CI, observability](#10-sdet-playbook--pom-waits-ci-observability)
-11. [Advanced & complex patterns — SVG, shadow DOM, modern CSS](#11-advanced--complex-patterns--svg-shadow-dom-modern-css)
+10. [SDET playbook — POM, waits, CI, observability](#10-sdet-playbook-pom-waits-ci-observability)
+11. [Advanced & complex patterns — SVG, shadow DOM, modern CSS](#11-advanced-complex-patterns-svg-shadow-dom-modern-css)
 
 ---
 
@@ -409,7 +409,7 @@ Some signals that you should reach for a different tool:
 
 ---
 
-## 10. SDET playbook — POM, waits, CI, observability {#10-sdet-playbook--pom-waits-ci-observability}
+## 10. SDET playbook — POM, waits, CI, observability
 
 This section is for SDETs shipping production test suites in **Selenium, Playwright, or Cypress**. The XPaths above are correct; this section makes them *survive*.
 
@@ -611,7 +611,7 @@ When the same XPath runs across Chrome/Firefox/Safari/Edge, three things break f
 
 ---
 
-## 11. Advanced & complex patterns — SVG, shadow DOM, modern CSS {#11-advanced--complex-patterns--svg-shadow-dom-modern-css}
+## 11. Advanced & complex patterns — SVG, shadow DOM, modern CSS
 
 Use this section when the basic patterns from §§1–10 don't reach the element. The four "complex" categories here are **SVG namespace**, **computed indices without `li[3]`**, **iframe + shadow DOM piercing**, and **modern CSS Level 4 selectors** (`:has()`, `:is()`, `:where()`, `:nth-child()` formulas, sibling combinators, case-insensitive attribute flags).
 
@@ -849,8 +849,8 @@ input:invalid ~ .error-icon:visible
 - [Multi-language samples](#7-multi-language-code-samples) — Java · Python · TS/JS · C# · Cypress
 - [Gotchas per framework](#8-gotchas-per-framework) — Selenium · Playwright · Cypress
 - [When NOT to use XPath](#9-when-not-to-use-xpath) — better alternatives
-- [SDET playbook](#10-sdet-playbook--pom-waits-ci-observability) — POM, waits, CI, observability
-- [Advanced & complex patterns](#11-advanced--complex-patterns--svg-shadow-dom-modern-css) — SVG, shadow DOM, modern CSS
+- [SDET playbook](#10-sdet-playbook-pom-waits-ci-observability) — POM, waits, CI, observability
+- [Advanced & complex patterns](#11-advanced-complex-patterns-svg-shadow-dom-modern-css) — SVG, shadow DOM, modern CSS
 
 ## Sources & Further Reading
 
