@@ -21,11 +21,11 @@ This post walks the whole arc. You'll learn:
 - The **5 XPath mistakes** I see in every code review (so you can be the one who catches them)
 - How XPath **fits into Playwright, Selenium, and Cypress** — including the 2026 shortcut that changes the game
 
-Bookmark it for your first six months of automation work. When you're ready to graduate from article to pocket reference, jump to the companion **[XPath Cheatsheet]({% link _posts/2026-09-22-xpath-cheatsheet-for-test-automation.md %})** — dense, scannable, built to sit in your second monitor.
+Bookmark it for your first six months of automation work. When you're ready to graduate from article to pocket reference, jump to the companion **[XPath Cheatsheet]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %})** — dense, scannable, built to sit in your second monitor.
 
 ## In this post
 
-13 sections (one is a `9.5` interlude between §9 and §10). Story mode first, reference mode last. If you only need a desk reference, jump to the [cheatsheet]({% link _posts/2026-09-22-xpath-cheatsheet-for-test-automation.md %}) or the [translation appendix]({% link _posts/2026-09-25-xpath-to-css-translation-appendix.md %}) instead.
+13 sections (one is a `9.5` interlude between §9 and §10). Story mode first, reference mode last. If you only need a desk reference, jump to the [cheatsheet]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %}) or the [translation appendix]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) instead.
 
 1. **[The Mental Model: Your DOM Is a Map](#1-the-mental-model-your-dom-is-a-map).** The city-map metaphor and the four base templates that unlock every XPath you'll write. *Read first.*
 2. **[The Locator Priority Pyramid](#2-the-locator-priority-pyramid).** `data-testid` → ARIA role → ID → CSS → XPath. The decision tree you reach for before writing any locator.
@@ -126,7 +126,7 @@ flowchart TD
 - **Absolute XPath** is documentation, not testing. If you find yourself writing `/html/body/div[1]`, stop and write a Page Object or a `data-testid` request instead.
 - **Indexed XPath** (the kind that breaks when you add a column to a table) is the silent killer of test suites. Extract a helper or use a relative position function (`following-sibling::td[2]`).
 
-> The 2020 Selenium guide in this blog called ID/class/CSS/XPath the strategy ladder. Six years later, **`data-testid` and ARIA replaced them at the top**, and **relative XPath replaced absolute XPath at the bottom**. Same ladder, healthier defaults. See [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) for what happens when even stable locators break.
+> The 2020 Selenium guide in this blog called ID/class/CSS/XPath the strategy ladder. Six years later, **`data-testid` and ARIA replaced them at the top**, and **relative XPath replaced absolute XPath at the bottom**. Same ladder, healthier defaults.
 
 ---
 
@@ -692,7 +692,7 @@ XPath becomes the **fallback** you reach for when the frontend team can't or won
 
 Even the best XPath breaks eventually. Frontend rename. Class merge. Element moves into a modal. **That's normal — that's the frontend doing its job.**
 
-The 2026 answer is layered healing (full implementation in [Self-Healing Test Suites]({% link _posts/2026-09-15-self-healing-test-suites.md %})):
+The 2026 answer is layered healing:
 
 ```mermaid
 flowchart TD
@@ -1020,7 +1020,7 @@ await page.locator('my-app >>> //button:has-text("Pay")').click();   // shadow+t
 
 For Selenium/Cypress projects (no Playwright engine), fall back to the XPath/CSS patterns from §12.5/§12.6. For multi-engine projects, **learn all three categories** so you can review generated locators confidently and reject the ones that won't survive.
 
-> When AI agents generate these locators from screenshots — see [Playwright AI Codegen Deep Dive (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — the output mixes all three. Knowing the **boundaries between XPath, CSS, and Playwright engine selectors** lets you triage generated selectors fast and keep only the ones that survive CI.
+> When AI agents generate these locators from screenshots, the output mixes all three. Knowing the **boundaries between XPath, CSS, and Playwright engine selectors** lets you triage generated selectors fast and keep only the ones that survive CI.
 
 ---
 
@@ -1028,7 +1028,7 @@ For Selenium/Cypress projects (no Playwright engine), fall back to the XPath/CSS
 
 This article is the **story mode**. It contains interactive try-it-yourself boxes, diagrams, recipes against real test sites, and mistakes to avoid. Open it the first six times you face a tricky locator.
 
-After that, you'll want the **[XPath Cheatsheet for Test Automation Engineers]({% link _posts/2026-09-22-xpath-cheatsheet-for-test-automation.md %})** — dense, scannable, anchored TOC, code samples in five languages. It's the pocket reference. The two posts are designed to live side by side in your bookmarks bar.
+After that, you'll want the **[XPath Cheatsheet for Test Automation Engineers]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %})** — dense, scannable, anchored TOC, code samples in five languages. It's the pocket reference. The two posts are designed to live side by side in your bookmarks bar.
 
 ```mermaid
 flowchart LR
@@ -1051,12 +1051,12 @@ flowchart LR
 ## What to Do Next
 
 1. **Run the Try-It-Yourself box** in Section 1 right now. Open DevTools on this very page, run `$x("//h2")`, see the headings in your console. Cost: 30 seconds.
-2. **Bookmark the [companion cheatsheet]({% link _posts/2026-09-22-xpath-cheatsheet-for-test-automation.md %})**. The cheatsheet is your desk reference; this article is your training wheel.
+2. **Bookmark the [companion cheatsheet]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %})**. The cheatsheet is your desk reference; this article is your training wheel.
 3. **Pick 3 brittle locators** in your current suite. Translate them into the space-padded `concat`/`normalize-space`/`following-sibling` patterns from Section 7. Run your suite. Watch the false-negatives drop.
 4. **Add a `data-testid` request** to your dev team's frontend story. Show them the Locator Priority Pyramid from Section 2 and the SDET ↔ Frontend contract from Section 9.5. They'll thank you in three months.
 5. **Audit your POM placement** — pull every inline `By.xpath(...)` literal out of your test specs into a page object as a `By`/`Locator` property. One rename should fix 200 specs.
 6. **Wire failure-side observability** using the patterns from §9.5 — HTML + screenshot + the failed XPath in the report. Cost: ~30 min of config, saves weeks of triage later.
-7. **For the next level of stability**, layer semantic healing on top using [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}).
+7. **For the next level of stability**, layer semantic healing on top using self-healing locators and fallback strategies.
 8. **For pipeline-side stability** (parallel sharding, BiDi/CDP, screenshot-on-failure in CI), read [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}).
 
-*See also:* [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath strategy guide. · [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — what to do when even your well-written XPath breaks. · [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on AI finding your locators when no string can. · [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI. · [Playwright TypeScript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locator discipline in TypeScript. · [XPath ↔ CSS Translation Appendix (Sep 2026)]({% link _posts/2026-09-25-xpath-to-css-translation-appendix.md %}) — a compact one-page map from XPath 1.0 to CSS 2/3/4 and Playwright engine selectors, with a Selenium→Playwright migration playbook (the natural next step after this article).
+*See also:* [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath strategy guide. · [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on AI finding your locators when no string can. · [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI. · [Playwright TypeScript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locator discipline in TypeScript. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — a compact one-page map from XPath 1.0 to CSS 2/3/4 and Playwright engine selectors, with a Selenium→Playwright migration playbook (the natural next step after this article).

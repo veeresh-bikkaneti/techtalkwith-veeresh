@@ -8,7 +8,7 @@ excerpt: "The SDET-flavored XPath pocket reference for Selenium, Playwright, and
 reading_time: 11
 ---
 
-Keep this page in your second monitor. The companion to [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({% link _posts/2026-09-20-xpath-for-test-automation.md %}), this cheatsheet skips the storytelling and goes straight to **patterns you can copy-paste**.
+Keep this page in your second monitor. The companion to [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({% link _posts/2026-07-12-xpath-for-test-automation.md %}), this cheatsheet skips the storytelling and goes straight to **patterns you can copy-paste**.
 
 ## Table of Contents
 
@@ -862,12 +862,11 @@ input:invalid ~ .error-icon:visible
 
 ## Cross-links from this blog
 
-- [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Sep 2026)]({% link _posts/2026-09-20-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
-- [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — when even stable XPath breaks
+- [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
 - [Selenium in 2026: Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — Selenium Manager, BiDi, MCP server
 - [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath guide
 - [Playwright Typescript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locators and assertions in TypeScript
 - [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI
 - [Selenium BiDi vs Playwright CDP (Aug 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
 
-*See also:* [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [Playwright AI Codegen Deep Dive (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — when AI agents generate locators from screenshots spanning all three categories. · [XPath ↔ CSS Translation Appendix (Sep 2026)]({% link _posts/2026-09-25-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.
+*See also:* [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.
