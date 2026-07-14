@@ -822,7 +822,7 @@ You have a slow test. Follow this **in order**:
 
 4. **If one whole test is slow**  
    → `test.setTimeout(60_000)` or `test.slow()` at the top of the test.  
-   → See [The two big numbers](#the-two-big-numbers-config) below.
+   → See [The two big numbers](#two-big-numbers) below.
 
 5. **If a fixture’s setup is slow (login, seed data)**  
    → Apply `{ timeout }` **to the fixture function**, not the test body.  
