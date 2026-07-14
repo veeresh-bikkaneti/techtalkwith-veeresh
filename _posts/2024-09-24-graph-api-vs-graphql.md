@@ -4,92 +4,98 @@ title: "Graph API vs GraphQL: Choosing the Right API for Your Data"
 date: 2024-09-24
 categories: [best-practices]
 tags: [api, graphql, rest, microsoft-graph]
-excerpt: "To connect Graph API to REST or WCF using an ACL:"
+excerpt: "When to use Microsoft Graph (REST) vs GraphQL — and why the choice matters more than you think."
 reading_time: 5
 ---
 
-# 1. Graph API vs GraphQL
+I get asked this once a month: "Should I use Graph API or GraphQL?" The answer is *neither*, until you know what problem you're solving.
 
-**Graph API**:
-- **Definition**: A RESTful API that allows developers to access and interact with data from various Microsoft services like Office 365, Azure AD, and more.
-- **Usage**: Uses standard HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources.
-- **Example**: Fetching user data from Azure AD using a GET request.
+**Microsoft Graph** is Microsoft's REST API for their services (Office 365, Azure AD, Teams, etc.). It's opinionated, stable, and *Microsoft-maintained*.
 
-**GraphQL**:
-- **Definition**: A query language for APIs and a runtime for executing those queries by using a type system you define for your data.
-- **Usage**: Allows clients to request exactly the data they need, reducing over-fetching and under-fetching of data.
-- **Example**: Fetching specific fields of user data in a single query.
+**GraphQL** is a *query language* for any API. It's flexible, efficient, and *you* maintain it.
 
-### Connecting Graph API to REST or WCF on an Anti-Corruption Layer
+These aren't competing products. They solve different problems. Here's when to pick each.
 
-**Anti-Corruption Layer (ACL)**:
-- **Definition**: A design pattern used to isolate different subsystems by translating requests and responses between them, ensuring that the core system remains unaffected by external systems[^1^].
-- **Usage**: Acts as a mediator to prevent the &quot;corruption&quot; of the core system by external systems with different semantics or data models[^1^].
+## When to Use Microsoft Graph
 
-To connect Graph API to REST or WCF using an ACL:
-1. **Implement the ACL**: Create a façade or adapter that translates Graph API requests to REST or WCF calls.
-2. **Translate Requests**: Ensure that the ACL translates the data models and protocols between Graph API and the target system.
-3. **Maintain Isolation**: Keep the core system's design clean and unaffected by external dependencies[^1^].
+**You're building against Microsoft services.** Teams, Outlook, Azure AD, SharePoint — Microsoft Graph is the official, maintained API. It's your best choice if:
 
-### 2. Graph API - Remote Schema, Whitelist of Queries, and Graph
+- Your app *primarily* integrates with Microsoft 365
+- You need Azure AD as your auth source
+- You're building Outlook plugins, Teams bots, or SharePoint extensions
+- You want Microsoft to handle API versioning and security patches
 
-**Remote Schema**:
-- **Definition**: A schema that defines how external content will be used in various Microsoft Graph experiences[^14^].
-- **Usage**: Register the schema before adding items to the connection.
+**Example:** A corporate app that reads a user's Teams calendar, pulls their Outlook meetings, and syncs them to your dashboard. Graph API handles all three with consistent auth.
 
-**Whitelist of Queries**:
-- **Definition**: A list of pre-approved queries that can be executed against the API.
-- **Usage**: Enhances security by restricting the queries that can be run.
+### The Trade-off
 
-**Graph**:
-- **Definition**: Refers to the Microsoft Graph API, which provides a unified endpoint to access data from various Microsoft services.
-- **Usage**: Allows developers to interact with a wide range of Microsoft services through a single API endpoint.
+Microsoft Graph is opinionated. You get what Microsoft designed. If you need exactly `users/{id}/calendar/events`, it's perfect. If you need a custom shape (user's email + manager's team + direct reports' availability), you might over-fetch or make multiple requests.
 
-### Relationship and UML Diagram
+## When to Use GraphQL
 
-These terms are related through their use in API design and data access. Here's a UML diagram in Mermaid to illustrate their relationships:
+**You're building an API for your own users.** You control both sides — the server and the clients using it. GraphQL shines when:
 
-```mermaid
-classDiagram
-    class GraphAPI {
-        +getUserData()
-        +updateUserData()
-    }
-    class GraphQL {
-        +queryData()
-        +mutateData()
-    }
-    class AntiCorruptionLayer {
-        +translateRequest()
-        +translateResponse()
-    }
-    class RemoteSchema {
-        +defineSchema()
-    }
-    class WhitelistOfQueries {
-        +approveQuery()
-    }
-    class Graph {
-        +accessData()
-    }
+- You have diverse clients (web, mobile, third-party) with different data needs
+- Clients need to request *only* the fields they use (reduce bandwidth)
+- You want to evolve your API without breaking old clients
+- You're aggregating data from multiple backends (databases, third-party APIs)
 
-    GraphAPI --> AntiCorruptionLayer : uses
-    GraphQL --> AntiCorruptionLayer : uses
-    AntiCorruptionLayer --> Graph : interacts
-    Graph --> RemoteSchema : uses
-    Graph --> WhitelistOfQueries : uses
+**Example:** A dashboard app where the mobile client needs only user name + status, but the admin panel needs name + status + last login + permission groups. GraphQL lets each request exactly what it needs in one round-trip.
+
+### The Trade-off
+
+You maintain the GraphQL server. You version the schema. You handle deprecations. Clients gain flexibility; you take on maintenance.
+
+## When You Have Both: Anti-Corruption Layers
+
+Sometimes you're integrating Graph API *into* an existing system that already has a REST or GraphQL interface. You don't want Graph API bleeding into your core code. Enter the **Anti-Corruption Layer (ACL)** — a façade that translates between Graph API and your internal interfaces.
+
+```
+Your App  →  [ACL Layer]  →  Microsoft Graph
+          ←  (translate)  ←
 ```
 
-### Comparison Table
+The ACL:
+- Takes your internal request shape (your domain model)
+- Translates it to Graph API calls
+- Translates Graph responses back to your shape
+- Keeps your core logic free of Graph API specifics
 
-| Term                  | Definition                                                                 | Usage                                                                                   |
-|-----------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| Graph API             | RESTful API for Microsoft services                                          | CRUD operations on resources using HTTP methods                                         |
-| GraphQL               | Query language for APIs                                                     | Request specific data fields, reducing over-fetching and under-fetching                 |
-| Anti-Corruption Layer | Design pattern to isolate subsystems                                        | Translates requests and responses between different systems                             |
-| Remote Schema         | Schema defining external content usage                                      | Register schema before adding items to the connection                                   |
-| Whitelist of Queries  | Pre-approved list of queries                                                | Enhances security by restricting executable queries                                     |
-| Graph                 | Unified endpoint for accessing Microsoft services                           | Interact with various Microsoft services through a single API endpoint                  |
+This matters when you might migrate away from Microsoft 365. The ACL lets you swap backends without rewriting everything.
+
+## The Real Trade-off: Control vs. Consistency
+
+Think of it this way:
+
+**Microsoft Graph** = staying in the Microsoft ecosystem. You get stability and official support, but you bend to Microsoft's data model.
+
+**GraphQL** = full control. You define the schema, you version it, you own the maintenance.
+
+Neither is universally "better." Graph API is better for Microsoft-heavy shops. GraphQL is better for shops with diverse backends or strict client requirements.
+
+### Visual: The Architecture Difference
+
+```mermaid
+graph LR
+    A["Your App"] -->|requests| B["Microsoft Graph API"]
+    B -->|O365, Azure AD,<br/> Teams, etc.| C["Microsoft Services"]
+    
+    D["Your App"] -->|GraphQL query| E["Your GraphQL Server"]
+    E -->|queries| F["Your DBs & APIs"]
+```
+
+Graph API is direct — you talk to Microsoft's servers. GraphQL requires you to run a server in the middle, translating client needs into backend calls.
+
+## Decision Matrix
+
+| Scenario | Pick | Why |
+|----------|------|-----|
+| Building a Microsoft 365 integration | **Graph API** | Official, maintained, handles Azure AD auth natively |
+| Mobile app with strict bandwidth constraints | **GraphQL** | Clients request only what they need |
+| Dashboard pulling data from 5 different services | **GraphQL** | One query shape for diverse backends |
+| Internal tool for Exchange calendar sync | **Graph API** | Proven, stable, built for this exact job |
+| Third-party developers building on your platform | **GraphQL** | Flexibility attracts integrators |
+| Monolith with one web client | Either | Graph API if Microsoft-heavy; GraphQL if you own the backend |
 
 
 ## Sources & Further Reading
