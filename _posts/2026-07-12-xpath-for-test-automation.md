@@ -1046,7 +1046,7 @@ flowchart LR
 2. [Selenium locators — official docs](https://www.selenium.dev/documentation/webdriver/elements/locators/) — the canonical WebDriver locator reference
 3. [Playwright locators](https://playwright.dev/docs/locators) — when you're ready to graduate from XPath to semantic selectors
 4. [Chrome DevTools Console API](https://developer.chrome.com/docs/devtools/console/) — `$x(path)` returns a JS array of matched elements from the active document; `$x('.//button', node)` scopes to any subtree you pass in
-5. [MDN XPath introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XPath/Introduction_to_using_XPath_in_JavaScript) — the formal spec, friendly version
+5. [MDN — Comparison of CSS Selectors with XPath](https://developer.mozilla.org/en-US/docs/Web/XPath/Comparison_with_CSS_selectors) — XPath spec explained alongside CSS selectors
 
 ## What to Do Next
 
