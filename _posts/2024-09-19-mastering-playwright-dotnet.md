@@ -4,30 +4,54 @@ title: "Mastering .NET 8.0 with Playwright: A Comprehensive Framework Building G
 date: 2024-09-19
 categories: [automation, frameworks]
 tags: [playwright, dotnet, csharp, framework-design, dependency-injection, nunit]
-excerpt: "Open your terminal or command prompt and run the following commands to create a new class library project:"
+excerpt: "Building a reusable Playwright framework in .NET 8.0 with dependency injection, so you're not copy-pasting test code across projects."
 reading_time: 2
 ---
 
-## Project Setup
+## Building a Reusable Test Framework with Dependency Injection
 
-### Project Name:
-- **Project Name**: `DotNetPlaywrightFramework`
+> *"The first test is free. The hundredth test costs you your sanity if you haven't built it right."*
 
-### .NET Version:
-- **.NET Version**: .NET 8.0
+You've written a Playwright test. It works. Then you write another. Then another. Before long, you've copy-pasted browser setup, context creation, and cleanup code 50 times across files. When you need to change how video recording works, you edit 50 places. **That's not scaling. That's snowballing.**
 
-## Step-by-Step Guide
+The fix is to build a **framework** — a reusable scaffolding that handles browser setup, dependency injection, and teardown for you. Each test then just grabs what it needs, runs its assertions, and the framework handles the rest.
 
-### 1. Create a New .NET Project
-Open your terminal or command prompt and run the following commands to create a new class library project:
+This post walks you through building exactly that in .NET 8.0 with Playwright, using dependency injection to wire everything together cleanly.
+
+---
+
+## What We're Building
+
+Think of it like building with LEGO. You don't want to glue individual bricks to each test. You want a **frame** (the framework) that holds the pieces (services), and each test just snaps into place.
+
+Here's the structure:
+
+- **BrowserFactory**: Launches and manages browser instances
+- **TestService**: Orchestrates the test actions (navigate, click, assert)
+- **Dependency Injection**: Wires the pieces together automatically
+- **NUnit + Allure**: Runs the tests and generates beautiful reports
+- **Parallel Testing**: Multiple tests run at once without conflicts
+
+Let's build it.
+
+---
+
+## Step 1: Create the .NET Project
+
+Open your terminal and run these commands to scaffold a new class library:
 
 ```bash
 dotnet new classlib -n DotNetPlaywrightFramework
 cd DotNetPlaywrightFramework
 ```
 
-### 2. Add Necessary NuGet Packages
-Add the required NuGet packages for Playwright, Dependency Injection, NUnit, and other dependencies:
+This creates a class library — the foundation for your reusable framework.
+
+## Step 2: Add the Dependencies
+
+Now install the packages you'll need: Playwright, dependency injection, NUnit for testing, and Allure for pretty reports.
+
+
 
 ```bash
 dotnet add package Microsoft.Playwright
@@ -41,8 +65,11 @@ dotnet add package Allure.Commons
 dotnet add package Allure.NUnit
 ```
 
-### 3. Configure Dependency Injection
-Create a `Startup` class to configure services for Dependency Injection.
+## Step 3: Wire Everything Together with Dependency Injection
+
+Create a `Startup` class that tells the DI container how to build the pieces. When a test asks for a browser, the container knows to use `BrowserFactory`. When a test asks for a test service, the container wires in the factory automatically. This is where the "framework" magic happens.
+
+
 
 ```csharp
 using Microsoft.Extensions.DependencyInjection;
@@ -61,8 +88,11 @@ public class Startup
 }
 ```
 
-### 4. Implement BrowserFactory
-Create a class to manage the Playwright browser instance.
+## Step 4: Build the BrowserFactory
+
+This class is your browser machine. Every time a test needs a browser, it asks the factory, and the factory launches one. Playwright initialization, launch options, headless settings — all live here. Change it once, and every test benefits.
+
+
 
 ```csharp
 using Microsoft.Playwright;
@@ -92,8 +122,11 @@ public class BrowserFactory : IBrowserFactory
 }
 ```
 
-### 5. Create a Test Service
-Implement a service to handle test logic, including full-screen video recording.
+## Step 5: Create the TestService
+
+This is where your actual test logic runs. It doesn't worry about launching browsers or managing contexts — the factory handles that. It just orchestrates the actions: "Go to the URL, click this, assert that." Clean separation of concerns.
+
+
 
 ```csharp
 using Microsoft.Playwright;
@@ -133,8 +166,11 @@ public class TestService : ITestService
 }
 ```
 
-### 6. Write Test Cases
-Create test cases using NUnit and integrate Allure for detailed HTML reports.
+## Step 6: Write Your First Test
+
+Now the fun part. You use NUnit to write actual test methods. Each test method is simple: grab the services you need from the DI container, run your test, and NUnit + Allure handle the reporting automatically.
+
+
 
 ```csharp
 using NUnit.Framework;
@@ -182,10 +218,15 @@ public class PlaywrightTests
 }
 ```
 
-### Additional Configurations
+---
 
-#### Parallel Testing
-Configure NUnit to run tests in parallel by adding a `Parallelizable` attribute to your test classes or methods.
+## Extra Features: You Get All This Too
+
+### Run Tests in Parallel
+
+By default, NUnit runs tests one after another. If you have 50 tests and each takes 3 seconds, that's 150 seconds. With parallel testing, multiple tests run simultaneously (each with its own browser context), and the total time drops to ~15 seconds. Add the `Parallelizable` attribute to your test classes:
+
+
 
 ```csharp
 [TestFixture, Parallelizable(ParallelScope.All)]
@@ -195,16 +236,22 @@ public class PlaywrightTests
 }
 ```
 
-#### Publishing Reports
-Use ReportUnit to generate HTML reports from NUnit XML results. Ensure the results are saved under `[bin\Debug\net8.0]`.
+### Generate Beautiful Reports
+
+After tests run, you want to know what passed, what failed, and why. ReportUnit turns NUnit XML results into HTML reports you can open in a browser.
+
+
 
 ```bash
 dotnet test --logger "nunit;LogFilePath=bin\Debug\net8.0\TestResults.xml"
 ReportUnit bin\Debug\net8.0\TestResults.xml
 ```
 
-#### XHR Handling
-Playwright can intercept and handle XHR requests.
+### Intercept Network Requests (XHR Handling)
+
+Some tests need to mock API responses or verify that a specific API call was made. Playwright can intercept requests before they reach the network and modify them.
+
+
 
 ```csharp
 await page.RouteAsync("**/*", async route =>
@@ -218,8 +265,11 @@ await page.RouteAsync("**/*", async route =>
 });
 ```
 
-#### Screen Recording
-Playwright supports screen recording.
+### Record Video of Test Runs
+
+When a test fails, a video is worth a thousand screenshots. You can see exactly where it broke, what the UI looked like, and what the user saw.
+
+
 
 ```csharp
 await page.StartVideoRecordingAsync(new PageStartVideoRecordingOptions
@@ -232,8 +282,11 @@ await page.StartVideoRecordingAsync(new PageStartVideoRecordingOptions
 await page.StopVideoRecordingAsync();
 ```
 
-#### Cross-Browser Testing
-Launch different browsers using Playwright.
+### Test Multiple Browsers at Once
+
+Your app needs to work in Chrome, Firefox, and Safari. Instead of writing three separate test suites, you write once and tell Playwright to run it against every browser.
+
+
 
 ```csharp
 var chromium = await _playwright.Chromium.LaunchAsync();
@@ -241,12 +294,23 @@ var firefox = await _playwright.Firefox.LaunchAsync();
 var webkit = await _playwright.Webkit.LaunchAsync();
 ```
 
-### Critical Considerations
-- **Service Interception**: Ensure that your services are properly intercepted and managed by the DI container.
-- **Autowaiting**: Playwright has built-in autowaiting mechanisms, but you can customize wait conditions as needed.
-- **Error Handling**: Implement robust error handling and logging mechanisms to capture and manage test failures.
+---
 
-### Diagrams
+## Things to Watch Out For
+
+**Dependency Injection is your friend, not your enemy.** Make sure every service is registered in the `Startup` class. If you forget to register something, the DI container throws an error immediately — that's a feature. You catch the mistake in dev, not in production.
+
+**Playwright has auto-waiting built in.** Before you click something, Playwright verifies the element is actually clickable. You rarely need manual sleeps. Trust it.
+
+**Log and capture errors aggressively.** When a test fails on CI but passes locally, the log is your lifeline. Capture network requests, screenshots, videos, console output — everything. Use Allure to tie it all together.
+
+---
+
+## How the Pieces Fit Together
+
+Here are the architecture diagrams that show how everything connects:
+
+### Sequence Diagram
 
 #### Sequence Diagram
 ```mermaid
@@ -310,7 +374,13 @@ classDiagram
     TestService --> BrowserFactory
 ```
 
-This guide should now provide a complete and clear setup for your .NET 8.0 project with Microsoft Playwright, including Dependency Injection, parallel testing, publishing reports, XHR handling, full-screen video recording, and cross-browser testing.
+---
+
+## You're Not Gluing Bricks Anymore
+
+What you've built is a reusable framework. The first test takes an hour (setup, wiring, learning curves). The second test takes 10 minutes. The hundredth test still takes 10 minutes because you've got structure. When you need to add video recording, change the browser to Firefox, or enable parallel testing, you update the framework once. Every test instantly gets the benefit.
+
+I learned this the hard way by copy-pasting test code across 20 files, then spending a day updating all of them when the team decided we needed video recordings. Build the framework once. Build the tests many times. The ratio pays for itself by test five.
 
 ## Sources & Further Reading
 
