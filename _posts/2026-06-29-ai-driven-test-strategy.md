@@ -211,4 +211,4 @@ The future of QA isn't AI versus humans. It's **AI-augmented humans** building q
 3. [LLMcouncil — multi-agent test strategy framework](https://github.com/veeresh-bikkaneti/LLMcouncil)
 4. [Playwright codegen — test generation](https://playwright.dev/docs/codegen)
 
-*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice. · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — Phase 4 in Java.
+*See also:* [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — Phase 2 in practice. · [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — Phase 4 in Java.

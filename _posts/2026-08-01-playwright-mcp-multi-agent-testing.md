@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Playwright MCP + Multi-Agent Testing in 2026: A Beginner's Guide"
-date: 2026-07-01
+date: 2026-08-01
 categories: [automation, tools]
 tags: [playwright, mcp, multi-agent, ai-testing, beginners, csharp, java, typescript, javascript, python, dotnet]
 excerpt: "Playwright + MCP + multiple AI agents on one test run. The beginner guide — because one agent driving the browser felt a bit lonely."
@@ -255,8 +255,8 @@ The AI agent can call these tools directly — you don't write the code:
 | `browser_navigate` | Navigate to a URL | "Go to example.com" |
 | `browser_click` | Click an element | "Click the Submit button" |
 | `browser_type` | Type into a field | "Enter 'test@example.com' into the email field" |
-| `browser_snapshot` | Capture full-page screenshot | "Take a screenshot" |
-| `browser_take_screenshot` | Accessibility tree snapshot | "What's on the page right now?" |
+| `browser_snapshot` | Accessibility tree snapshot | "What's on the page right now?" |
+| `browser_take_screenshot` | Capture full-page screenshot | "Take a screenshot" |
 | `browser_network_requests` | List all network requests | "Show me every API call the page made" |
 | `browser_console_messages` | Read console logs | "Are there any JavaScript errors?" |
 | `browser_evaluate` | Run arbitrary JS in the page | "What's the value of `window.__STATE__`?" |

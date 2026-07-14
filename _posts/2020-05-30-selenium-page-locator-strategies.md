@@ -156,4 +156,4 @@ Locator choice and synchronization strategy determine whether a Selenium suite i
 3. [Waits and synchronization](https://www.selenium.dev/documentation/webdriver/waits/)
 4. [NoSuchElementException — troubleshooting](https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception)
 
-*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — when every locator in this post fails at once.
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) · [Self-Healing Test Suites (Sep 2026)]({% link _posts/2026-09-15-self-healing-test-suites.md %}) — when every locator in this post fails at once. · [XPath for Test Automation (Sep 2026)]({% link _posts/2026-09-20-xpath-for-test-automation.md %}) — the story-mode article with §12 complex XPath & CSS for SDETs (SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS); the natural next read after this 2020 strategy-ladder introduction.
