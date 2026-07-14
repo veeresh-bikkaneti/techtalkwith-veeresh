@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XPath Cheatsheet for Test Automation Engineers"
-date: 2026-09-22
+date: 2026-07-13
 categories: [automation, tools, reference]
 tags: [xpath, locators, cheatsheet, reference, selenium, playwright, cypress, css-selectors, sdet, ci-cd, page-object-model, complex-xpath, complex-css, svg, shadow-dom, iframe, aria, java, python, typescript, javascript]
 excerpt: "The SDET-flavored XPath pocket reference for Selenium, Playwright, and Cypress engineers. Locator priority pyramid, the 13 axes, the 10 functions you'll actually use, predicate recipes, multi-language code samples, framework gotchas, headless/CI failure modes, POM placement, observability hooks, **and an advanced section covering complex XPath (SVG, computed indices, ARIA chains, iframe/shadow DOM) and complex CSS (`:has()`, `:is()`/`:where()`, `:nth-child()`, attribute flags, sibling combinators)** — all in one bookmark-able page."

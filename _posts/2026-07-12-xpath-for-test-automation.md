@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\""
-date: 2026-09-20
+date: 2026-07-12
 categories: [automation, best-practices, tools]
 tags: [xpath, locators, selenium, playwright, cypress, css-selectors, sdet, ci-cd, page-object-model, complex-xpath, complex-css, svg, shadow-dom, iframe, aria, debug, beginner, intermediate, advanced, java, python, javascript, typescript, interactive]
 excerpt: "Built for SDETs who automate with Selenium, Playwright, and Cypress. Mental models, the 13 axes, the 10 functions, 7 locator recipes, the 5 mistakes to avoid, multi-framework API mapping, **complex XPath (SVG, computed indices, ARIA chains, iframe/shadow DOM)**, **complex CSS (`:has()`, `:is()`/`:where()`, `:nth-child()`, attribute flags, sibling combinators)**, Page Object placement, headless/CI pitfalls, and observability hooks — all in one interactive read."

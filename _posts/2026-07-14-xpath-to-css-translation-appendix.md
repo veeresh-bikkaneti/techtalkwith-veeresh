@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XPath ↔ CSS Translation Appendix for SDETs"
-date: 2026-09-25
+date: 2026-07-14
 categories: [automation, tools, reference]
 tags: [xpath, css-selectors, translation, migration, selenium, playwright, cypress, sdet, page-object-model, complex-xpath, complex-css, xpath-2-css, css-2-xpath, intermediate, advanced]
 excerpt: "A compact, one-page XPath 1.0 ↔ CSS 2/3/4 translation reference for SDETs migrating Selenium suites to Playwright engine selectors. Text match, structural nth, ancestor reverse, attribute predicates, boolean combinations, sibling combinators — with a 'no clean translation exists' catalog and a 5-step migration playbook."
