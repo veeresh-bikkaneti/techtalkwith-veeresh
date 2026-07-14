@@ -33,7 +33,17 @@ reading_time: 8
 - [19. Equivalent of a REST Endpoint in GraphQL](#19-equivalent-of-a-rest-endpoint-in-graphql)
 - [20. Example Comparison](#20-example-comparison)
 
+---
 
+## Know These or You'll Make Every Mistake I Did
+
+> *"Resolvers that don't batch? N+1 queries every time. JWT tokens without proper expiry? Passwords in production logs."*
+
+GraphQL isn't hard. But there are 10-15 concepts that *matter* — everything else is noise. Master these, and you'll build fast, efficient APIs. Skip them, and you'll spend your life firefighting performance issues.
+
+This isn't a tutorial. It's a reference guide to the mental models that make GraphQL work. Read it once, bookmark it, refer back when you're stuck.
+
+---
 
 ### 1. GraphQL APIs
 GraphQL is a query language for APIs and a runtime for executing those queries. It allows clients to request exactly the data they need, making it more efficient than traditional REST APIs. An API (Application Programming Interface) is a set of rules that allows different software entities to communicate with each other.
@@ -231,6 +241,13 @@ In GraphQL, there is typically a single endpoint (e.g., `/graphql`) that handles
 
 In summary, while REST APIs use multiple endpoints for different operations, GraphQL consolidates all operations into a single endpoint and uses a schema to define the available queries and mutations¹²³.
 
+---
+
+## Use This Reference When You're Stuck
+
+Understand **Schema** and **Resolvers**, fix the **N+1 problem**, and use **JWT** properly. Those four things alone put you in the top 20% of GraphQL devs. Everything else is optimization.
+
+---
 
 ## Sources & Further Reading
 
