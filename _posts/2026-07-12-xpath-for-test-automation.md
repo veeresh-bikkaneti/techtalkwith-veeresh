@@ -134,34 +134,43 @@ flowchart TD
 
 Axes are XPath's superpower and also the source of 90% of "XPath is unreadable" complaints. Read them as **relationships**, not syntax.
 
-```mermaid
-flowchart LR
-    CTC["context node<br/>(current)"] -->|"child::"| CHILD[child]
-    CTC -->|"descendant::"| DESC[descendant<br/>all the way down]
-    CTC -->|"parent::"| PARENT[parent<br/>up one level]
-    CTC -->|"ancestor::"| ANC[ancestor<br/>all the way up]
-    CTC -->|"following-sibling::"| FS[following-sibling<br/>same level, after]
-    CTC -->|"preceding-sibling::"| PS[preceding-sibling<br/>same level, before]
-    CTC -->|"following::"| F[following<br/>after, any depth]
-    CTC -->|"preceding::"| P[preceding<br/>before, any depth]
-    CTC -->|"self::"| SELF[self<br/>the node itself]
-    CTC -->|"attribute::"| ATTR[attribute<br/>]
-    CTC -->|"namespace::"| NS[namespace]
-    CTC -->|"descendant-or-self::"| DOS[descendant-or-self<br/>// shortcut]
-    CTC -->|"ancestor-or-self::"| AOS[ancestor-or-self]
-```
+#### The 5 You'll Actually Use (90% of work)
 
-The shortcuts you already know:
+| Axis | Shortcut | Meaning | Real example |
+|---|---|---|---|
+| `child::` | `tag` or `./tag` | Direct children only | `div/button` = buttons inside div |
+| `descendant::` | `//tag` or `.//tag` | Any depth below (greedy) | `//button` = any button on page |
+| `parent::` | `..` | One level up | `input/..` = input's parent |
+| `ancestor::` | `ancestor::tag` | Up any number of levels | `//button/ancestor::form` = form containing button |
+| `following-sibling::` | `/following-sibling::tag` | Same parent, after this node | `label/following-sibling::input` = next input |
 
-| Long form | Shortcut | Meaning |
+#### The 8 You'll Rarely Touch
+
+<details>
+<summary><strong>Expand if you need them (you probably don't yet)</strong></summary>
+
+| Axis | When | Example |
 |---|---|---|
-| `child::div` | `div` or `./div` | Direct children named `div` |
-| `descendant-or-self::node()` | `//` or `.//` | The node + everything below it |
-| `parent::node()` | `..` | One level up |
-| `self::node()` | `.` | The current node |
-| `attribute::href` | `@href` | An attribute named `href` |
+| `preceding-sibling::` | Find **before** on same level | `input/preceding-sibling::label` |
+| `preceding::` | Find **anywhere before** (any depth) | Opposite of `following::` |
+| `following::` | Find **anywhere after** (any depth) | Debugging breadcrumbs |
+| `ancestor-or-self::` | Up **or the node itself** | `//input/ancestor-or-self::form` finds form or input itself |
+| `descendant-or-self::` | Shorthand: `//` is this axis | `descendant-or-self::div` = `//div` |
+| `self::` | The current node (`.`) | Rarely written; mostly used in complex expressions |
+| `attribute::` | Attributes (shorthand: `@`) | `attribute::href` = `@href` |
+| `namespace::` | XML namespaces | Skip unless you're in SVG/XML territory |
 
-**Day-to-day you use 5 of the 13 axes: child, descendant, parent, following-sibling, and ancestor.** The other 8 sit in the back of your mind for the rare "how do I get to this from that?" puzzle.
+</details>
+
+**The shortcuts** you already know (even if you didn't know the names):
+
+```
+//tag                → descendant-or-self::tag
+./tag                → child::tag
+../                  → parent::node()
+.                    → self::node()
+@attr                → attribute::attr
+```
 
 ### A story-mode example
 
