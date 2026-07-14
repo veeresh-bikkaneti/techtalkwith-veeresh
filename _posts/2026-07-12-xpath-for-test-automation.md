@@ -132,75 +132,29 @@ flowchart TD
 
 <h2 id="3-axes-the-13-directions-on-your-dom-map">3. Axes — The 13 Directions on Your DOM Map</h2>
 
-Axes are XPath's superpower and also the source of 90% of "XPath is unreadable" complaints. Read them as **relationships**, not syntax.
+Axes are XPath's superpower. Read them as **relationships**, not syntax.
 
-#### The 5 You'll Actually Use (90% of work)
+**The 5 you use 90% of the time:**
 
-| Axis | Shortcut | Meaning | Real example |
-|---|---|---|---|
-| `child::` | `tag` or `./tag` | Direct children only | `div/button` = buttons inside div |
-| `descendant::` | `//tag` or `.//tag` | Any depth below (greedy) | `//button` = any button on page |
-| `parent::` | `..` | One level up | `input/..` = input's parent |
-| `ancestor::` | `ancestor::tag` | Up any number of levels | `//button/ancestor::form` = form containing button |
-| `following-sibling::` | `/following-sibling::tag` | Same parent, after this node | `label/following-sibling::input` = next input |
+- `//tag` (descendant) — any depth below
+- `tag` (child) — direct children only  
+- `..` (parent) — one level up
+- `ancestor::tag` — up any levels
+- `/following-sibling::tag` — same parent, after this node
 
-#### The 8 You'll Rarely Touch
+**The 8 rare ones:** `preceding-sibling::` (before on same level), `preceding::` (anywhere before), `following::` (anywhere after), `ancestor-or-self::` (up or self), `descendant-or-self::` (`//` is this), `self::` (`.`), `attribute::` (`@`), `namespace::` (SVG/XML only).
 
-<details>
-<summary><strong>Expand if you need them (you probably don't yet)</strong></summary>
-
-| Axis | When | Example |
-|---|---|---|
-| `preceding-sibling::` | Find **before** on same level | `input/preceding-sibling::label` |
-| `preceding::` | Find **anywhere before** (any depth) | Opposite of `following::` |
-| `following::` | Find **anywhere after** (any depth) | Debugging breadcrumbs |
-| `ancestor-or-self::` | Up **or the node itself** | `//input/ancestor-or-self::form` finds form or input itself |
-| `descendant-or-self::` | Shorthand: `//` is this axis | `descendant-or-self::div` = `//div` |
-| `self::` | The current node (`.`) | Rarely written; mostly used in complex expressions |
-| `attribute::` | Attributes (shorthand: `@`) | `attribute::href` = `@href` |
-| `namespace::` | XML namespaces | Skip unless you're in SVG/XML territory |
-
-</details>
-
-**The shortcuts** you already know (even if you didn't know the names):
+**Shortcuts you already use:**
 
 ```
-//tag                → descendant-or-self::tag
-./tag                → child::tag
-../                  → parent::node()
-.                    → self::node()
-@attr                → attribute::attr
+//tag    = anywhere    |    /tag    = direct child    |    ..    = parent
+.        = self        |    @attr   = attribute
 ```
 
-### A story-mode example
-
-You're on a page with:
-
-```html
-<form id="checkout">
-  <label for="card">Card number</label>
-  <input id="card" name="card" type="text"/>
-  <label for="expiry">Expiry</label>
-  <input id="expiry" name="expiry" type="text"/>
-  <button>Pay now</button>
-</form>
-```
-
-You want the **expiry** input from a known anchor (the form). Each axis gives you a different route:
-
-| Goal | XPath |
-|---|---|
-| All inputs in the form | `//form[@id='checkout']//input` |
-| The expiry only | `//form[@id='checkout']//input[@name='expiry']` |
-| Sibling of card | `//input[@name='card']/following-sibling::input` |
-| Button below last input | `(//form[@id='checkout']//input)[last()]/following-sibling::button` |
-| Form containing the expiry (reverse trip) | `//input[@name='expiry']/ancestor::form` |
-
-<details>
-<summary><strong>🤔 When would I use "reverse trip"?</strong></summary>
-
-When the test fails deep in a flow and your Page Object only knows the input, not the form. *"What form am I inside?"* is a debugging breadcrumb — `ancestor::form[@id]` answers it in one call. CSS can't. That's the day XPath earns its keep.
-</details>
+Example: Find expiry input in checkout form:
+- `//form[@id='checkout']//input[@name='expiry']` (descendant axis)
+- `//input[@name='card']/following-sibling::input` (sibling axis)
+- `//input[@name='expiry']/ancestor::form` (find parent form — CSS can't do this)
 
 ---
 
@@ -1068,4 +1022,4 @@ flowchart LR
 7. **For the next level of stability**, layer semantic healing on top using self-healing locators and fallback strategies.
 8. **For pipeline-side stability** (parallel sharding, BiDi/CDP, screenshot-on-failure in CI), read [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}).
 
-*See also:* [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath strategy guide. · [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on AI finding your locators when no string can. · [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI. · [Playwright TypeScript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locator discipline in TypeScript. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — a compact one-page map from XPath 1.0 to CSS 2/3/4 and Playwright engine selectors, with a Selenium→Playwright migration playbook (the natural next step after this article).
+**Related:** [XPath ↔ CSS Translation Appendix]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — XPath 1.0 to CSS 2/3/4 and Playwright locators. [XPath Cheatsheet]({% link _posts/2026-07-13-xpath-cheatsheet-for-test-automation.md %}) — pocket reference with code in 5 languages.
