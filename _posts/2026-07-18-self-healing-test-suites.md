@@ -623,7 +623,7 @@ This post used Java examples. Here's the equivalent syntax across **C#**, **Type
 | [Selenium 2026 Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | Relative Locators, WebDriver BiDi, MCP server | BiDi's accessibility tree + DOM snapshot become the inputs to the healing engine |
 | [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) | Drag-and-drop, network interception, AI replay | DOM diff healing uses the same BiDi snapshot APIs introduced in that post |
 | [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) | Phase 4: self-healing Cypress system (TypeScript) | Phase 4 implemented in Java for Selenium — the pattern is universal across languages and frameworks |
-| [Playwright AI Codegen (Jul 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) | Generating tests from natural language | Codegen creates the tests; self-healing keeps them alive — two halves of the autonomous testing pipeline |
+| [Playwright AI Codegen (Jul 2026)]({% link _posts/2026-07-17-playwright-ai-codegen-deep-dive.md %}) | Generating tests from natural language | Codegen creates the tests; self-healing keeps them alive — two halves of the autonomous testing pipeline |
 
 ## Sources & Further Reading
 
@@ -637,7 +637,7 @@ This post used Java examples. Here's the equivalent syntax across **C#**, **Type
 1. **Add Relative Locators today.** It's a zero-dependency change — replace your 5 most brittle CSS selectors with `RelativeLocator.with().below()` / `.near()`. You'll see immediate stability improvement in the next CI run.
 2. **Prototype the SemanticHealer.** Take the Java class from this post, wire it up to your existing test suite's `findElement` calls, and run it against a page where you've deliberately broken a CSS class. Watch the accessibility tree heal it in real time.
 3. **Set up the healing log in CI/CD.** Even without the full three-layer healing engine, logging every `NoSuchElementException` with the page's accessibility snapshot gives you data to build the healer with.
-4. **For Playwright users:** The same pattern works — replace `driver.findElement()` with `page.locator()` and the CDP accessibility query is identical. The [Playwright AI Codegen post]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) covers the TypeScript/JS equivalent.
+4. **For Playwright users:** The same pattern works — replace `driver.findElement()` with `page.locator()` and the CDP accessibility query is identical. The [Playwright AI Codegen post]({% link _posts/2026-07-17-playwright-ai-codegen-deep-dive.md %}) covers the TypeScript/JS equivalent.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: a practical guide to building an AI test oracle that judges "did the test actually pass?" by looking at screenshots, not assertions.
 
 *See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the Phase 4 Cypress self-healing implementation that inspired the Java Selenium version in this post. · [XPath for Test Automation (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article with §12 complex XPath & CSS for SDETs (SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS `:has()`/`:is()`/`:where()`, decision flowchart).
