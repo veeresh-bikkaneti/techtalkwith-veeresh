@@ -684,7 +684,7 @@ readonly removeBtn = page.getByTestId("cart-remove-button");
 
 XPath becomes the **fallback** you reach for when the frontend team can't or won't add a `data-testid` (third-party widgets, embedded `<iframe>`s, legacy modals). §7's recipes show those escape hatches. §9.5 shows the path-of-least-resistance for the 90%.
 
-> For the full setup pipeline — when AI finds your locators by looking at screenshots, when BiDi/CDP replaces WebDriver, when you shard parallel runs across CI stages — see the [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) and the [Selenium BiDi vs Playwright CDP deep dive (Aug 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) posts.
+> For the full setup pipeline — when AI finds your locators by looking at screenshots, when BiDi/CDP replaces WebDriver, when you shard parallel runs across CI stages — see the [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) and the [Selenium BiDi vs Playwright CDP deep dive (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) posts.
 
 ---
 

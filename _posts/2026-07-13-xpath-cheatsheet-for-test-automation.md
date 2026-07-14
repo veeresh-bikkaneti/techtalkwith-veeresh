@@ -867,6 +867,6 @@ input:invalid ~ .error-icon:visible
 - [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath guide
 - [Playwright Typescript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locators and assertions in TypeScript
 - [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI
-- [Selenium BiDi vs Playwright CDP (Aug 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
+- [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
 
 *See also:* [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.

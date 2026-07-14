@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Playwright MCP + Multi-Agent Testing in 2026: A Beginner's Guide"
-date: 2026-08-01
+date: 2026-07-15
 categories: [automation, tools]
 tags: [playwright, mcp, multi-agent, ai-testing, beginners, csharp, java, typescript, javascript, python, dotnet]
 excerpt: "Playwright + MCP + multiple AI agents on one test run. The beginner guide — because one agent driving the browser felt a bit lonely."
@@ -485,4 +485,4 @@ This post is the 2026 Playwright refresh that connects to four earlier articles 
 4. **For CI/CD pipelines:** stick with raw Playwright + Web-First Assertions. MCP and multi-agent add AI variability — fine for exploration, not ideal for deterministic pass/fail gates.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: a deep-dive on Playwright's AI codegen (`npx playwright codegen --ai`) and how to generate an entire test suite from a requirements document.
 
-*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on how multi-agent systems are reshaping QA, from test generation to self-healing suites. · [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — the deep-dive teased above: generating test suites from natural language.
+*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on how multi-agent systems are reshaping QA, from test generation to self-healing suites. · [Playwright AI Codegen in 2026 (Jul 2026)]({% link _posts/2026-07-17-playwright-ai-codegen-deep-dive.md %}) — the deep-dive teased above: generating test suites from natural language.

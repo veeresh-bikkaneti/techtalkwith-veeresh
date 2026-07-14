@@ -193,4 +193,4 @@ This example demonstrates how to use `WaitForResponseAsync` effectively in a Pla
 3. [Web-first assertions — Playwright](https://playwright.dev/docs/test-assertions)
 4. [Auto-waiting — why explicit sleeps die here](https://playwright.dev/docs/actionability)
 
-*See also:* [Mastering E2E Testing with C# Playwright (Jul 2024)]({% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) · [Playwright MCP + Multi-Agent Testing (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %})
+*See also:* [Mastering E2E Testing with C# Playwright (Jul 2024)]({% link _posts/2024-07-23-mastering-e2e-testing-csharp-playwright.md %}) · [Playwright MCP + Multi-Agent Testing (Jul 2026)]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %})

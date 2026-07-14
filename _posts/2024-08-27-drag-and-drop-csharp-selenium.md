@@ -176,4 +176,4 @@ By mastering these techniques, you'll ensure that your Selenium tests are robust
 3. [Executing JavaScript — Selenium docs](https://www.selenium.dev/documentation/legacy/json_wire_protocol/#executing-javascript)
 4. [WebDriver BiDi — input domain](https://www.selenium.dev/documentation/webdriver/bidi/)
 
-*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — BiDi native pointer events replacing these JavaScript hacks. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %})
+*See also:* [Selenium in 2026: A Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — BiDi native pointer events replacing these JavaScript hacks. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %})

@@ -333,4 +333,4 @@ The testing power of Microsoft Playwright in C# lets you orchestrate UI, API, an
 3. [API testing with Playwright](https://playwright.dev/docs/api-testing)
 4. [Cross-browser testing — Playwright](https://playwright.dev/docs/browsers)
 
-*See also:* [Mastering Async Operations in C# Playwright (Aug 2024)]({% link _posts/2024-08-30-mastering-async-operations-csharp-playwright.md %}) · [Playwright MCP + Multi-Agent Testing (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %})
+*See also:* [Mastering Async Operations in C# Playwright (Aug 2024)]({% link _posts/2024-08-30-mastering-async-operations-csharp-playwright.md %}) · [Playwright MCP + Multi-Agent Testing (Jul 2026)]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %})

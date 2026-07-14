@@ -64,4 +64,4 @@ The future is Playwright, but the present still has room for both.
 3. [Playwright vs Selenium — BrowserStack comparison](https://www.browserstack.com/guide/playwright-vs-selenium)
 4. [WebDriver BiDi specification](https://w3c.github.io/webdriver-bidi/)
 
-*See also:* [The Browser Automation Trap (Jun 2026)]({% link _posts/2026-06-10-the-browser-automation-trap.md %}) — the long-form rant this post summarizes. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %})
+*See also:* [The Browser Automation Trap (Jun 2026)]({% link _posts/2026-06-10-the-browser-automation-trap.md %}) — the long-form rant this post summarizes. · [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %})

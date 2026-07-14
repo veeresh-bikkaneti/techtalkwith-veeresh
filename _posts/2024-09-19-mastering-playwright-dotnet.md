@@ -319,4 +319,4 @@ This guide should now provide a complete and clear setup for your .NET 8.0 proje
 3. [Allure Report — Playwright integration](https://allurereport.org/docs/playwright/)
 4. [NUnit — documentation](https://docs.nunit.org/)
 
-*See also:* [Playwright MCP + Multi-Agent Testing in 2026 (Aug 2026)]({% link _posts/2026-08-01-playwright-mcp-multi-agent-testing.md %}) — the 2026 refresh with MCP server integration and multi-agent testing patterns. · [Playwright AI Codegen in 2026 (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) — AI-generated Page Objects and test classes from natural language.
+*See also:* [Playwright MCP + Multi-Agent Testing in 2026 (Jul 2026)]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) — the 2026 refresh with MCP server integration and multi-agent testing patterns. · [Playwright AI Codegen in 2026 (Jul 2026)]({% link _posts/2026-07-17-playwright-ai-codegen-deep-dive.md %}) — AI-generated Page Objects and test classes from natural language.

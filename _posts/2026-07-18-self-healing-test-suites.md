@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Self-Healing Test Suites: AI-Powered Locator Healing in CI/CD"
-date: 2026-09-15
+date: 2026-07-18
 categories: [automation, best-practices]
 tags: [selenium, playwright, self-healing, ai-testing, locators, ci-cd, java, csharp, typescript, javascript, python]
 excerpt: "Frontend renamed a button and your suite went red at 2am? Self-healing locators find it by what it does, not what it's called."
@@ -621,9 +621,9 @@ This post used Java examples. Here's the equivalent syntax across **C#**, **Type
 |---|---|---|
 | [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) | `By.id()`, `By.xpath()`, CSS selectors, implicit/explicit waits | Six years later: AI finds elements by semantic role when every traditional locator fails |
 | [Selenium 2026 Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | Relative Locators, WebDriver BiDi, MCP server | BiDi's accessibility tree + DOM snapshot become the inputs to the healing engine |
-| [Selenium BiDi vs Playwright CDP (Aug 2026)]({% link _posts/2026-08-15-selenium-bidi-vs-playwright-cdp.md %}) | Drag-and-drop, network interception, AI replay | DOM diff healing uses the same BiDi snapshot APIs introduced in that post |
+| [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) | Drag-and-drop, network interception, AI replay | DOM diff healing uses the same BiDi snapshot APIs introduced in that post |
 | [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) | Phase 4: self-healing Cypress system (TypeScript) | Phase 4 implemented in Java for Selenium — the pattern is universal across languages and frameworks |
-| [Playwright AI Codegen (Sep 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) | Generating tests from natural language | Codegen creates the tests; self-healing keeps them alive — two halves of the autonomous testing pipeline |
+| [Playwright AI Codegen (Jul 2026)]({% link _posts/2026-09-01-playwright-ai-codegen-deep-dive.md %}) | Generating tests from natural language | Codegen creates the tests; self-healing keeps them alive — two halves of the autonomous testing pipeline |
 
 ## Sources & Further Reading
 
