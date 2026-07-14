@@ -24,8 +24,13 @@ reading_time: 4
 Incorporate the **regression suite** developed for **Quality Control** (QC) to ensure **Quality Assurance** (QA) by embedding it early in the development cycle when creating or adding new features to an existing product.
 
 
-## Introduction 
-To improve our software quality and streamline our development process, we propose adopting the “Shift Left” approach. This involves integrating our regression suite, initially developed for Quality Control (QC), into the early stages of the development cycle to ensure Quality Assurance (QA).
+## Introduction
+
+> *”It works on my machine.”* (It doesn't work in QA. QA found it Thursday. The fix ships Monday. That's four days of delay, plus you look bad.)
+
+**Shift Left** is the idea of running tests *earlier*, when it's cheaper and faster to fix problems. Instead of waiting for QA to sign off, developers run the regression suite themselves — *while developing*. The moment you add a feature and break something, you see it in seconds. You fix it immediately. QA gets stable code instead of a pile of surprises.
+
+This isn't theory. Teams that shift left ship 10× faster because they spend less time in QA triage. Here's how to wire it up.
 ## Benefits of Shift Left with Early Regression Testing
 1. **Early Detection of Issues**: By embedding regression tests early, we can identify and address defects as new features are developed, reducing the risk of issues in later stages.
 2. **Continuous Quality Assurance**: Integrating the regression suite from the start ensures continuous QA, maintaining high standards throughout the development process.
@@ -184,6 +189,14 @@ This setup ensures that your Express.js server is automatically started as a pre
 - **C# Configuration**: Update the `WorkingDirectory` in your C# `Startup` class to point to your Express.js project directory.
 
 This configuration allows your Express.js server to start automatically when your C# application runs, making it easy to integrate both environments.
+
+---
+
+## The Payoff: Faster Shipping, Fewer 2 AM Pages
+
+Running regression tests while you're developing is not a nice-to-have. It's table stakes for teams that ship fast. The moment you have tests, wire them into dev. Don't wait for QA infrastructure. Don't wait for "the right time." Do it now. Your deploy frequency will thank you.
+
+---
 
 ## Sources & Further Reading
 
