@@ -865,7 +865,7 @@ input:invalid ~ .error-icon:visible
 - [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
 - [Selenium in 2026: Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — Selenium Manager, BiDi, MCP server
 - [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath guide
-- [Playwright Typescript Beginner to Timeouts (Jul 2026)]({% link _posts/2026-07-10-playwright-typescript-beginner-to-timeouts.md %}) — locators and assertions in TypeScript
+- [Playwright vs Selenium 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — when to use Playwright vs Selenium
 - [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI
 - [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
 
