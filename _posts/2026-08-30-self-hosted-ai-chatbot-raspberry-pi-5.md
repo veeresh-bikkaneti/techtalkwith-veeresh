@@ -59,7 +59,7 @@ A React single-page app, pre-built into static HTML/JS. React gives a responsive
 A lightweight REST API handling chatbot requests and database reads/writes. Node's non-blocking I/O means one small process can hold thousands of concurrent connections, which matters on hardware this size. Express stays minimal and battle-tested, no magic. PM2 manages the process at runtime.
 
 ### Process manager: PM2
-Keeps the Node server running around the clock, restarts it on crash, and rotates logs. We picked PM2 over raw systemd because it hands you process monitoring, environment variables, and graceful restarts without shell-script gymnastics, and `pm2 logs runtech-backend` gets you the logs in one line.
+Keeps the Node server running around the clock, restarts it on crash, and rotates logs. We picked PM2 over raw systemd because it hands you process monitoring, environment variables, and graceful restarts without shell-script gymnastics, and `pm2 logs webapp-backend` gets you the logs in one line.
 
 ### Web server: Nginx
 The public-facing gateway: routes static files to React, proxies API calls to the Node backend, and handles HTTPS. It's ultra-lightweight (~5MB RAM) and handles thousands of concurrent connections on a single event loop. Apache can burn 50MB per request; on an 8GB Pi, every megabyte counts.
@@ -132,7 +132,7 @@ All told: about $5K in Claude API credits against $15K+ in developer salary, plu
    # Then: ssh piuser@192.168.1.X (replace X with the IP shown in your router)
    ```
 5. Enter the password from Step 1
-6. You're in. You'll see a bash prompt: `piuser@runtech-pi:~ $`
+6. You're in. You'll see a bash prompt: `piuser@my-pi:~ $`
 
 ## Part 2: Install Software (10 minutes)
 
@@ -226,7 +226,7 @@ npm run build
 
 ### Start the backend with PM2
 ```bash
-pm2 start server.js --name runtech-backend
+pm2 start server.js --name webapp-backend
 pm2 save
 pm2 startup
 # Copy the output from 'pm2 startup' and run it (one-time setup)
@@ -236,7 +236,7 @@ pm2 startup
 
 ```bash
 # Create the Nginx config
-sudo nano /etc/nginx/sites-available/runtech
+sudo nano /etc/nginx/sites-available/webapp
 ```
 
 Paste this in, swapping `192.168.1.X` for your Pi's IP:
@@ -272,7 +272,7 @@ server {
 Enable it:
 ```bash
 sudo rm /etc/nginx/sites-enabled/default  # Remove default config
-sudo ln -s /etc/nginx/sites-available/runtech /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/webapp /etc/nginx/sites-enabled/
 
 # Fix file permissions (CRITICAL!)
 chmod o+x /home/piuser
@@ -316,7 +316,7 @@ See `docs/RASPBERRY_PI_GUIDE.md` for the detailed Cloudflare walkthrough.
 
 **Backend logs:**
 ```bash
-pm2 logs runtech-backend
+pm2 logs webapp-backend
 ```
 
 **Web traffic:**
@@ -331,7 +331,7 @@ cd ~/web-run
 # Copy new code from your computer with scp
 # Then:
 npm run build  # if frontend changed
-pm2 restart runtech-backend  # if backend changed
+pm2 restart webapp-backend  # if backend changed
 ```
 
 **Resource monitoring:**
