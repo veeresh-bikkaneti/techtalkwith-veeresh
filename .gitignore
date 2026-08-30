@@ -23,6 +23,10 @@ knowledge.md
 terminals/
 logs/
 *.log
+.ai-context/
+.claude-flow/
+.claude/
+.superpowers/
 
 # Node (not a Node project)
 package-lock.json
