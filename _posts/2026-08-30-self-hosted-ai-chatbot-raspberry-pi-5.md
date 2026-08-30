@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Self-Hosting an AI Chatbot on a $60 Raspberry Pi 5"
+title: "Self-Hosting an AI Chatbot on a $150 Raspberry Pi 5"
 date: 2026-08-30
 categories: [devops, automation]
 tags: [raspberry-pi, self-hosted, ollama, llm, nginx, pm2, sqlite, ai-agents, devops]
@@ -10,7 +10,7 @@ reading_time: 18
 
 Running an AI chatbot usually means a cloud bill that never stops. AWS, Azure, GCP — pick one, and it's $40-100/month for a workload that, honestly, isn't doing that much. So we asked the obvious question: what if we just didn't pay it?
 
-This post walks through deploying a production AI chatbot and website entirely on a Raspberry Pi 5, a $60 computer about the size of a deck of cards. Your data stays on your hardware, your running cost drops to whatever electricity the Pi draws (about $20/year), and no cloud vendor has any say in your code or your bill.
+This post walks through deploying a production AI chatbot and website entirely on a Raspberry Pi 5, a $150 computer about the size of a deck of cards. Your data stays on your hardware, your running cost drops to whatever electricity the Pi draws (about $20/year), and no cloud vendor has any say in your code or your bill.
 
 We built it with AI-assisted coding agents doing most of the legwork — Claude Code writing the backend and frontend, a review pass catching security issues, a deployment pass generating the Nginx config and PM2 scripts. More on that further down. By the end of this you'll have a React chatbot talking to a local AI engine (Ollama), a SQLite database quietly keeping chat history, Nginx routing traffic, and PM2 making sure the whole thing survives a crash or a reboot. No DevOps background required — just copy-paste and about 90 minutes.
 
@@ -38,14 +38,14 @@ graph TB
     SQLite -->|"Persist"| Filesystem
     React -->|"Show answer"| User
 
-    style User fill:#e1f5ff
-    style Nginx fill:#fff3e0
-    style Backend fill:#f3e5f5
-    style React fill:#e8f5e9
-    style Ollama fill:#fce4ec
-    style Model fill:#fce4ec
-    style SQLite fill:#ede7f6
-    style Filesystem fill:#e0f2f1
+    style User fill:#e1f5ff,color:#000
+    style Nginx fill:#fff3e0,color:#000
+    style Backend fill:#f3e5f5,color:#000
+    style React fill:#e8f5e9,color:#000
+    style Ollama fill:#fce4ec,color:#000
+    style Model fill:#fce4ec,color:#000
+    style SQLite fill:#ede7f6,color:#000
+    style Filesystem fill:#e0f2f1,color:#000
 ```
 
 Trace it left to right: you open your browser and hit the Pi's address. Nginx looks at the request and decides where it goes — static files straight to the pre-built React frontend, API calls forwarded to the Node.js backend. Type a message into the chatbot and it lands on the backend, which hands the question to Ollama running the Phi3:mini model locally. That takes 5-10 seconds on the Pi's own CPU, no cloud involved. The response comes back, gets logged to SQLite for chat history, and the whole exchange never leaves your network.
@@ -71,7 +71,7 @@ Runs open-source language models natively on the Pi's own CPU. No cloud dependen
 Chat history in a single self-contained file. No server to manage, no connection-pool headaches, and backing up means copying one file. It lives at `./data/chat_logs.db` on the Pi's filesystem.
 
 ### Hardware: Raspberry Pi 5 (8GB)
-The quad-core ARM Cortex-A76 handles Node and local inference without strain, and 8GB RAM comfortably covers Ollama (~3GB) + Node (~300MB) + Nginx (~5MB) + the OS (~1GB) with room to spare. All in: about $60 in hardware and roughly $20/year in electricity at 15W, against something like $40/month on AWS for equivalent compute, which works out to $480/year. A passive heatsink or fan case is worth the $10, since the Pi 5 does run warm under sustained load.
+The quad-core ARM Cortex-A76 handles Node and local inference without strain, and 8GB RAM comfortably covers Ollama (~3GB) + Node (~300MB) + Nginx (~5MB) + the OS (~1GB) with room to spare. All in: about $150 in hardware and roughly $20/year in electricity at 15W, against something like $40/month on AWS for equivalent compute, which works out to $480/year. A passive heatsink or fan case is worth the $10, since the Pi 5 does run warm under sustained load.
 
 ## Built with AI Coding Agents
 
@@ -382,7 +382,7 @@ If those three come back clean, you're solid for another week.
 
 ## Key Takeaways
 
-1. **Self-hosting is genuinely cheap.** $60 in hardware plus ~$20/year in electricity beats $480+/year in equivalent cloud hosting.
+1. **Self-hosting is genuinely cheap.** $150 in hardware plus ~$20/year in electricity beats $480+/year in equivalent cloud hosting.
 2. **Ollama does the heavy lifting.** Any open-source LLM, running locally, no API keys, no rate limits.
 3. **The boring parts matter.** PM2 keeps the app alive, Nginx keeps it fast, SQLite keeps it simple.
 4. **AI agents compressed the timeline**, not just the code. Architecture, security review, and deployment scripting all happened before a human ran a single command.
