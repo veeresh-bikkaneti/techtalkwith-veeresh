@@ -12,10 +12,10 @@ Pick a rail — both share the same content, separated by how much you want to r
 New to e2e, want green tests inside an hour.
 
 1. [Chapter 1 — Your first test](#-chapter-1-your-first-test--the-hello-world-that-actually-does-something) — `test`, `await`, `expect`
-2. [Chapter 4 — `test` vs `describe`](#-chapter-4-the-great-debate--test-vs-describeit) — pick a style
+2. [Chapter 4 — `test` vs `describe`](#chapter-4) — pick a style
 3. [Chapter 11 — Locators](#-chapter-11-locators--finding-page-elements-with-x-ray-vision) — `getByRole` first
 4. [Chapter 12 — Assertions](#-chapter-12-assertions--expect-with-superpowers) — auto-retry magic
-5. [Chapter 13 — `playwright.config.ts`](#-chapter-13-the-playwrightconfigts--mission-control) — browsers, retries, parallel
+5. [Chapter 13 — `playwright.config.ts`](#chapter-13) — browsers, retries, parallel
 6. [Bonus Cheat Sheet](#-bonus-cheat-sheet-for-your-wall) — print, stick to monitor
 
 ### 🛤️ Rail B — Deep Path (understand every clock)
@@ -26,7 +26,7 @@ Tests work, but flakes are eating CI. You want root-cause literacy.
 3. [Chapter 7 — Fixtures](#-chapter-7-fixtures--the-playwright-superpower) — isolation, not free parallelism
 4. [Chapter 14 — Debugging](#-chapter-14-debugging--when-the-test-goes-rogue) — UI Mode, Inspector, Trace Viewer
 5. [Chapter 15 — API testing](#-chapter-15-api-testing--the-backstage-pass) — seed via API, assert via UI
-6. [Chapter 16 — Page Objects](#-chapter-16-page-objects--because-copy-paste-is-not-a-design-pattern) — one class per page
+6. [Chapter 16 — Page Objects](#chapter-16) — one class per page
 7. [Part III — Timeouts Deep Dive (Appendix A–K)](#part-iii--the-timeouts-deep-dive) — every clock, traced
 
 ```text
@@ -296,7 +296,7 @@ flowchart TD
 
 ---
 
-## 🏗️ Chapter 4: The Great Debate — `test` vs `describe`/`it`
+## 🏗️ Chapter 4: The Great Debate — `test` vs `describe`/`it` {: #chapter-4}
 
 ### Style 1: Flat (Playwright's Way) — *Lone Wolf Style*
 
@@ -1203,7 +1203,7 @@ Great for "smoke" checks where you want a full triage list, not whack-a-mole deb
 
 ---
 
-## ⚙️ Chapter 13: The `playwright.config.ts` — Mission Control
+## ⚙️ Chapter 13: The `playwright.config.ts` — Mission Control {: #chapter-13}
 
 > The config file is where you decide *everything* about how your tests run: browsers, timeouts, retries, parallelism. It's your mission brief before tests run.
 
@@ -1428,7 +1428,7 @@ All return a `response` with `.ok()`, `.status()`, `.json()`, `.text()`, `.heade
 
 ---
 
-## 🏛️ Chapter 16: Page Objects — Because Copy-Paste Is Not a Design Pattern
+## 🏛️ Chapter 16: Page Objects — Because Copy-Paste Is Not a Design Pattern {: #chapter-16}
 
 > Page Objects (PO) are how you keep your tests from rotting. When the button "Sign in" becomes "Continue", you change **one** line in the PO, not thirty lines across thirty tests.
 
