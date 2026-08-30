@@ -4,9 +4,21 @@ title: "Why Choose Hasura Over Other GraphQL Tools?"
 date: 2024-09-24
 categories: [automation, best-practices]
 tags: [graphql, hasura, dotnet, api, sql, real-time]
-excerpt: "Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient solutions for various applications. Here are some notable use cases:"
+excerpt: "I stopped hand-writing resolvers. Hasura generates a GraphQL API from your database in minutes. Here's when you reach for it vs. Apollo or building from scratch."
 reading_time: 6
 ---
+
+## The "Why" Matters More Than The Tool
+
+> *"Why rewrite what Hasura already generated for free?"*
+
+I learned this the hard way: I spent a week writing boilerplate GraphQL resolvers that Hasura would have generated in five minutes. The lesson stuck. Choosing between Hasura, Apollo, and building from scratch depends on what problem you're actually solving.
+
+**Hasura** when you have a database and need a GraphQL API yesterday.
+**Apollo** when you need fine-grained control and don't mind the complexity.
+**Custom code** when neither fits and you enjoy suffering.
+
+Here's how to pick:
 
 ### **Why Choose Hasura Over Other Tools?**
 
@@ -98,6 +110,15 @@ Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient 
 3. **Integrate with Hasura**: Use Hasura's Remote Schema feature to integrate Hot Chocolate endpoints into the unified API¹.
 4. **Leverage Real-time Capabilities**: Use Hasura's subscriptions to enable real-time updates in your application³.
 
+---
+
+## The Real Question: How Much Infrastructure Do You Want to Maintain?
+
+Hasura wins when you have a database and zero desire to rewrite CRUD resolvers. Apollo wins when you're building a federated system and can afford the complexity. Custom code wins... basically never, unless you enjoy debugging GraphQL middleware at 2 AM.
+
+For most people, most of the time: **reach for Hasura first**. Write the basic schema, wire in Hot Chocolate for custom logic, ship it. You'll spend your time on features that matter, not boilerplate that doesn't.
+
+---
 
 ## Sources & Further Reading
 
@@ -110,5 +131,5 @@ Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient 
 * [Comparing GraphQL platforms — Hasura Blog](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)
 * [Guide to GraphQL — graphjin wiki](https://github.com/dosco/graphjin/wiki/Guide-to-GraphQL)
 
-*See also:* [Hasura with Graph API and Hot Chocolate (Sep 2024)]({% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %}) · [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %})
+*See also:* [Hasura with Graph API and Hot Chocolate (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-hasura-with-graph-api-and-hot-chocolate.md %}) · [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %})
 

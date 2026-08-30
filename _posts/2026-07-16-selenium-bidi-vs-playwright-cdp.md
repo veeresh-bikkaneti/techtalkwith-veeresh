@@ -10,7 +10,7 @@ reading_time: 9
 
 Two years ago, automating drag-and-drop meant writing JavaScript fallbacks because Selenium's `Actions` class couldn't keep up with custom web components. Today, both Selenium and Playwright have low-level browser protocol access — **BiDi** and **CDP** — that let you simulate interactions at the engine level, intercept network traffic, and even replay sessions with AI assistance.
 
-This post compares the two approaches side-by-side for the three hardest interaction types: drag-and-drop, network interception, and AI-powered replay. If you read the [Selenium 2026 guide]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) and the [Playwright MCP guide]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}), this is the next step — going deeper into the protocol layer.
+This post compares the two approaches side-by-side for the three hardest interaction types: drag-and-drop, network interception, and AI-powered replay. If you read the [Selenium 2026 guide]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) and the [Playwright MCP guide]({{ site.baseurl }}{% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}), this is the next step — going deeper into the protocol layer.
 
 ## How BiDi and CDP Actually Work
 
@@ -47,7 +47,7 @@ The tradeoff: BiDi is simpler but less powerful. CDP is deeper but Chromium-only
 
 ## Drag-and-Drop: From JavaScript Hacks to Protocol-Level Events
 
-In the [2024 drag-and-drop guide]({% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}), most methods relied on JavaScript fallbacks because Selenium's `Actions` class couldn't reliably trigger custom drag handlers. In 2026, both BiDi and CDP let you fire the raw `dragstart`, `dragover`, and `drop` events that the application is actually listening for.
+In the [2024 drag-and-drop guide]({{ site.baseurl }}{% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}), most methods relied on JavaScript fallbacks because Selenium's `Actions` class couldn't reliably trigger custom drag handlers. In 2026, both BiDi and CDP let you fire the raw `dragstart`, `dragover`, and `drop` events that the application is actually listening for.
 
 ### Selenium BiDi: Dispatch Input Events
 
@@ -398,10 +398,10 @@ flowchart TD
 
 | Earlier post | What it covered | What changed by 2026 |
 |---|---|---|
-| [Drag-and-Drop in C# Selenium (Aug 2024)]({% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}) | 8 methods using `Actions` + JavaScript fallbacks | BiDi fires native pointer events — no JS injection, no `DataTransfer` hacks |
-| [Selenium 2026 Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | WebDriver BiDi basics, MCP setup, Relative Locators | This post goes deeper into BiDi's input and network domains |
-| [Playwright MCP + Multi-Agent (Jul 2026)]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) | MCP server, multi-agent pattern, Web-First Assertions | CDP gives the Explorer agent network-level visibility; the Validator agent uses CDP route interception |
-| [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Speed, reliability, multi-browser comparison | Now with protocol-level comparison: BiDi vs CDP for complex interactions |
+| [Drag-and-Drop in C# Selenium (Aug 2024)]({{ site.baseurl }}{% link _posts/2024-08-27-drag-and-drop-csharp-selenium.md %}) | 8 methods using `Actions` + JavaScript fallbacks | BiDi fires native pointer events — no JS injection, no `DataTransfer` hacks |
+| [Selenium 2026 Beginner's Guide (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | WebDriver BiDi basics, MCP setup, Relative Locators | This post goes deeper into BiDi's input and network domains |
+| [Playwright MCP + Multi-Agent (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) | MCP server, multi-agent pattern, Web-First Assertions | CDP gives the Explorer agent network-level visibility; the Validator agent uses CDP route interception |
+| [Playwright vs Selenium in 2026 (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) | Speed, reliability, multi-browser comparison | Now with protocol-level comparison: BiDi vs CDP for complex interactions |
 
 ## Multi-Language Quick Reference
 
@@ -473,4 +473,4 @@ This post used C# examples. Here's the equivalent syntax in **Java**, **TypeScri
 3. **Experiment with AI replay.** Record a manual drag-and-drop session in Playwright (HAR recording is built-in), then ask an LLM to describe what happened in natural language. You've just built a self-documenting test.
 4. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: a deep-dive on self-healing locators and how AI can find elements by their semantic role when CSS selectors break.
 
-*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on multi-agent QA systems, including the self-healing locator pattern referenced above. · [Self-Healing Test Suites (Jul 2026)]({% link _posts/2026-07-18-self-healing-test-suites.md %}) — full implementation: Java SemanticHealer, CDP accessibility tree, DOM diff, CI/CD healing log. · [XPath for Test Automation (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article whose §12 maps the complex XPath & CSS patterns you ship selectors around (SVG namespace handling, computed indices, role/state ARIA chains, iframe/shadow-DOM piercing matrix, modern CSS Level 4 selectors, decision flowchart).
+*See also:* [AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — the overarching thesis on multi-agent QA systems, including the self-healing locator pattern referenced above. · [Self-Healing Test Suites (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-18-self-healing-test-suites.md %}) — full implementation: Java SemanticHealer, CDP accessibility tree, DOM diff, CI/CD healing log. · [XPath for Test Automation (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article whose §12 maps the complex XPath & CSS patterns you ship selectors around (SVG namespace handling, computed indices, role/state ARIA chains, iframe/shadow-DOM piercing matrix, modern CSS Level 4 selectors, decision flowchart).

@@ -194,10 +194,20 @@ jobs:
 
 By integrating security activities into each phase of the SDLC, functional testers help create more secure web applications, protecting both the organization and its users. The combination of automated tools, manual testing, and continuous monitoring ensures comprehensive security coverage while maintaining development efficiency.
 
+---
+
+## You're Already Half-Way There
+
+You know how to find edge cases. You know how to break features. You know what "sorry, I can't reproduce that" sounds like. Security testing is just applying those same instincts to the attackers' playbook instead of the happy path. Start with OWASP Top 10, learn to recognize SQL injection and XSS when you see them, and integrate security checks into your test runs today.
+
+Your job isn't to become a pentester. It's to be the person who catches the obvious vulnerabilities before they ship. That's security testing, and you're already qualified.
+
+---
+
 ## Sources & Further Reading
 
 1. [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 2. [OWASP SAMM — Software Assurance Maturity Model](https://owaspsamm.org/)
 3. [Microsoft SDL — security development lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl)
 
-*See also:* [Step-by-Step Security Testing for SDETs (Sep 2024)]({% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %}) · [The Secret to Secure Software Development (Sep 2024)]({% link _posts/2024-09-26-secret-to-secure-software-development.md %}) — secret management, the thing that bites you at 3am.
+*See also:* [Step-by-Step Security Testing for SDETs (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-22-step-by-step-tutorial-sdets-security-testing.md %}) · [The Secret to Secure Software Development (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-26-secret-to-secure-software-development.md %}) — secret management, the thing that bites you at 3am.

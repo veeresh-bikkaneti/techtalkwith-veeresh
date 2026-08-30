@@ -8,7 +8,9 @@ excerpt: "The SDET-flavored XPath pocket reference for Selenium, Playwright, and
 reading_time: 11
 ---
 
-Keep this page in your second monitor. The companion to [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({% link _posts/2026-07-12-xpath-for-test-automation.md %}), this cheatsheet skips the storytelling and goes straight to **patterns you can copy-paste**.
+**Bookmark this. Seriously.** When you have 2 hours before a release and need to find that one stubborn element that broke your test, you'll be back here.
+
+This is the cheatsheet version of [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\"]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}). No stories, no philosophy — just copy-paste patterns that work. Every expression here was born from "why doesn't this *#$%* element select?" moments at 11pm.
 
 ## Table of Contents
 
@@ -28,7 +30,9 @@ Keep this page in your second monitor. The companion to [XPath for Test Automati
 
 ## 1. Locator priority pyramid
 
-Reach for the top first. Descend only when you must.
+**Story:** I once wrote a beautiful XPath based on CSS class selectors. Worked for 6 months. Then CSS classes changed in a refactor, and 80 tests exploded the same day. I learned: **priority matters.**
+
+Reach for the top first. Descend only when you must. This pyramid exists so your selectors survive refactors.
 
 ```text
 🏆  data-testid              //*[@data-testid='checkout']
@@ -143,7 +147,7 @@ XPath ships with 120+ functions. You'll touch these 10 in most work:
 //ul/li[position() <= 3]
 ```
 
-> **XPath 2.0+ shortcuts that look tempting but won't work in browsers:** `lower-case()`, `upper-case()`, regex matching, FLWOR expressions (`for $i in ... return ...`), string join/parse functions. WebDriver, Playwright, and Cypress all evaluate **XPath 1.0** for `By.xpath`/`xpath=…`/`cy.xpath()`. These 2.0 functions return empty with **no error**, which is the worst kind of silent failure. If you genuinely need them, switch to a Saxon pipeline or server-side XPath 2.0 eval. For case-insensitive work, use the `translate()` idiom above.
+> **War story:** I debugged for 3 hours why my XPath to select case-insensitive elements wasn't working. I'd written: `//a[lower-case(@href)='/help']`. Looked right. Returned nothing. Silent failure — no error message, just empty results. Turns out, `lower-case()` is XPath 2.0, and browsers only support 1.0. I had to switch to `translate()` instead. Now I know: if you see 2.0 features in the docs, they're silently broken in the browser. **Use only XPath 1.0 or go server-side.** WebDriver, Playwright, and Cypress all evaluate 1.0 for `By.xpath`/`xpath=…`/`cy.xpath()`.
 
 ---
 
@@ -862,11 +866,12 @@ input:invalid ~ .error-icon:visible
 
 ## Cross-links from this blog
 
-- [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
-- [Selenium in 2026: Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — Selenium Manager, BiDi, MCP server
-- [Selenium Page Locator Strategies (May 2020)]({% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath guide
-- [Playwright vs Selenium 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — when to use Playwright vs Selenium
-- [CI/CD Pipelines for Test Automation (Jun 2026)]({% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI
-- [Selenium BiDi vs Playwright CDP (Jul 2026)]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
+- [XPath for Test Automation: From \"I Hate This\" to \"I Write It in My Sleep\" (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article that teaches the mental model behind this cheatsheet
+- [Selenium in 2026: Beginner's Guide (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) — Selenium Manager, BiDi, MCP server
+- [Selenium Page Locator Strategies (May 2020)]({{ site.baseurl }}{% link _posts/2020-05-30-selenium-page-locator-strategies.md %}) — the foundational ID/class/CSS/XPath guide
+- [The Playwright Guide]({{ site.baseurl }}/PLAYWRIGHT_GUIDE.md) — locators and assertions in TypeScript, consolidated timeouts deep dive
+- [Playwright vs Selenium 2026 (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — when to use Playwright vs Selenium
+- [CI/CD Pipelines for Test Automation (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-25-ci-cd-pipelines-for-test-automation.md %}) — sharding, parallel runs, observability in CI
+- [Selenium BiDi vs Playwright CDP (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) — when BiDi/CDP replaces WebDriver
 
-*See also:* [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.
+*See also:* [AI-Driven Test Strategy (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — when AI finds your locators by looking at the page. · [XPath ↔ CSS Translation Appendix (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-14-xpath-to-css-translation-appendix.md %}) — the compact one-page translation map and Selenium→Playwright migration playbook this cheatsheet complements.

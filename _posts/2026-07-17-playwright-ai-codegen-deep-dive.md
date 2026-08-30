@@ -8,7 +8,7 @@ excerpt: "Playwright's codegen --ai writes tests from plain English. I still rev
 reading_time: 9
 ---
 
-In the [Playwright MCP guide]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}), you learned how to let an AI agent drive your browser through natural language. Now we go one step deeper: **AI codegen** — where Playwright *writes the test script for you*, not just executes your commands. You describe what you want in plain English, and Playwright generates idiomatic, maintainable code in your language of choice (C#, Python, TypeScript, or Java).
+In the [Playwright MCP guide]({{ site.baseurl }}{% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}), you learned how to let an AI agent drive your browser through natural language. Now we go one step deeper: **AI codegen** — where Playwright *writes the test script for you*, not just executes your commands. You describe what you want in plain English, and Playwright generates idiomatic, maintainable code in your language of choice (C#, Python, TypeScript, or Java).
 
 If Playwright MCP is like having an AI chauffeur drive your car, AI codegen is like the chauffeur writing you the driver's manual — so you can replay the journey anytime, tweak the route, and commit it to CI/CD.
 
@@ -139,7 +139,7 @@ AI codegen supports all Playwright languages. The same natural-language input ge
 
 ## Step 2: From Requirements Document to Full Test Suite
 
-The real power of AI codegen emerges when you feed it a **requirements document** instead of one-off instructions. This is the workflow teased in the [AI-Driven Test Strategy]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) post — Phase 2 in practice.
+The real power of AI codegen emerges when you feed it a **requirements document** instead of one-off instructions. This is the workflow teased in the [AI-Driven Test Strategy]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) post — Phase 2 in practice.
 
 ### The Requirements-to-Tests Pipeline
 
@@ -285,7 +285,7 @@ await Expect(Page).ToHaveScreenshotAsync("checkout-confirmation.png", new()
 
 ## Step 4: AI Codegen + MCP — Two Sides of the Same Coin
 
-AI codegen and Playwright MCP (from the [previous guide]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %})) solve different problems:
+AI codegen and Playwright MCP (from the [previous guide]({{ site.baseurl }}{% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %})) solve different problems:
 
 | | AI Codegen | Playwright MCP |
 |---|---|---|
@@ -311,7 +311,7 @@ flowchart TD
     E -->|No| H["✅ PR Approved"]
 ```
 
-AI codegen creates the tests, MCP debugs them when they fail. Together, they form a **self-improving test pipeline** — the Phase 4 vision from the [AI-Driven Test Strategy]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) post.
+AI codegen creates the tests, MCP debugs them when they fail. Together, they form a **self-improving test pipeline** — the Phase 4 vision from the [AI-Driven Test Strategy]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) post.
 
 ## Step 5: CI/CD Integration — Generated Tests in Your Pipeline
 
@@ -356,10 +356,10 @@ This post completes the 2026 Playwright trilogy:
 
 | Earlier post | What it covered | What this post adds |
 |---|---|---|
-| [Playwright MCP + Multi-Agent (Jul 2026)]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) | Letting AI drive the browser via MCP, multi-agent orchestration | AI *writing* the test scripts you commit to version control |
-| [Playwright .NET Framework (Sep 2024)]({% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) | Manual Playwright setup: DI, Page Objects, Allure reports | AI-generated Page Objects and test classes replace manual wiring |
-| [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) | Phase 2: AI-assisted test generation with structured prompts | Phase 2 in practice: `codegen --ai` as the implementation |
-| [Selenium 2026 Beginner's Guide (Jul 2026)]({% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | Selenium setup, BiDi, MCP server | Playwright's AI codegen is the capability Selenium doesn't yet match — see [BiDi vs CDP]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) for the architectural reasons why |
+| [Playwright MCP + Multi-Agent (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) | Letting AI drive the browser via MCP, multi-agent orchestration | AI *writing* the test scripts you commit to version control |
+| [Playwright .NET Framework (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-19-mastering-playwright-dotnet.md %}) | Manual Playwright setup: DI, Page Objects, Allure reports | AI-generated Page Objects and test classes replace manual wiring |
+| [AI-Driven Test Strategy (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) | Phase 2: AI-assisted test generation with structured prompts | Phase 2 in practice: `codegen --ai` as the implementation |
+| [Selenium 2026 Beginner's Guide (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-01-selenium-2026-beginners-guide.md %}) | Selenium setup, BiDi, MCP server | Playwright's AI codegen is the capability Selenium doesn't yet match — see [BiDi vs CDP]({{ site.baseurl }}{% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) for the architectural reasons why |
 
 ## When to Use AI Codegen vs. Alternatives
 
@@ -393,8 +393,8 @@ flowchart TD
 
 1. **Try basic AI codegen right now.** Run `npx playwright codegen --ai` against any public website and type "Log in, verify the page title contains Dashboard, then click the first item in the list." Watch the semantic locators appear in real time.
 2. **Feed a real requirements doc.** Take a Confluence page or PRD you already have, split it into scenarios, and feed each section to `codegen --ai`. You'll have a test suite in under 30 minutes.
-3. **Combine with MCP for debugging.** When an AI-generated test fails in CI, spin up [Playwright MCP]({% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) to investigate the failure interactively instead of staring at a trace file.
-4. **Compare to Selenium.** Read the [BiDi vs CDP comparison]({% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) to understand why Playwright's native CDP architecture enables AI codegen while Selenium's WebDriver layer makes it harder.
+3. **Combine with MCP for debugging.** When an AI-generated test fails in CI, spin up [Playwright MCP]({{ site.baseurl }}{% link _posts/2026-07-15-playwright-mcp-multi-agent-testing.md %}) to investigate the failure interactively instead of staring at a trace file.
+4. **Compare to Selenium.** Read the [BiDi vs CDP comparison]({{ site.baseurl }}{% link _posts/2026-07-16-selenium-bidi-vs-playwright-cdp.md %}) to understand why Playwright's native CDP architecture enables AI codegen while Selenium's WebDriver layer makes it harder.
 5. **Subscribe to this blog's [feed.xml]({% link feed.xml %})** — next up: self-healing test suites that automatically fix broken locators in CI/CD using the same intent-based AI that powers codegen.
 
-*See also:* [Playwright vs Selenium in 2026 (Jun 2026)]({% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — the speed, reliability, and ecosystem comparison that explains why Playwright leads on AI-native features like codegen. · [XPath for Test Automation (Jul 2026)]({% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article with §12 complex XPath & CSS for SDETs (the locator patterns AI codegen generates that you should review before merging — SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS `:has()/`:is()/`:where()`)..
+*See also:* [Playwright vs Selenium in 2026 (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-15-playwright-vs-selenium-2026.md %}) — the speed, reliability, and ecosystem comparison that explains why Playwright leads on AI-native features like codegen. · [XPath for Test Automation (Jul 2026)]({{ site.baseurl }}{% link _posts/2026-07-12-xpath-for-test-automation.md %}) — the story-mode article with §12 complex XPath & CSS for SDETs (the locator patterns AI codegen generates that you should review before merging — SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS `:has()/`:is()/`:where()`)..

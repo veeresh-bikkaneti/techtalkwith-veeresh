@@ -18,8 +18,15 @@ reading_time: 7
 
 # Modernizing Your Skills: Embracing GraphQL for Efficient Data Management
 
-**Problem Statement:**
-REST was fine until it wasn't. I'd fetch an entire user object — 40 fields — when the test only needed an email address. As a tester who's worn the QA, Scrum, and BA hats, I needed something that let me ask for exactly what I wanted. That's how I ended up on GraphQL.
+> *"Ask for exactly what you need."* — GraphQL's core philosophy
+
+## The Wake-Up Call
+
+REST was fine until it wasn't. I'd fetch an entire user object — 40 fields — when the test only needed an email address. Bandwidth wasted. Tests slower than they needed to be. Debugging harder because the API response was bloated noise.
+
+As a tester who's worn the QA, Scrum, and BA hats, I realized: **REST is server-centric**. The server decides what you get. GraphQL is **client-centric**. *You* decide what you get. Ask for three fields, get three fields. No fluff, no surprises.
+
+This isn't hype. It's a genuine shift in how APIs work. And if you're doing test automation, understanding GraphQL makes your tests faster, your payloads smaller, and your assertions more precise.
 
 **Quote to Inspire:**
 _&quot;The only way to make sense out of change is to plunge into it, move with it, and join the dance.&quot; - Alan Watts_
@@ -166,8 +173,8 @@ Pick the tool that matches the problem. GraphQL when you're tired of over-fetchi
 ## Sources & Further Reading
 
 - [Michael Staib — GraphQL in .NET with Hot Chocolate (YouTube)](https://youtu.be/qrh97hToWpM?si=_6BLSFqo7SYKeHjW)
-- [Mastering GraphQL: Key Concepts & Best Practices (Sep 2024)]({% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})
-- [Why Choose Hasura Over Other Tools (Sep 2024)]({% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %})
+- [Mastering GraphQL: Key Concepts & Best Practices (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-25-mastering-graphql-key-concepts-best-practices.md %})
+- [Why Choose Hasura Over Other Tools (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-why-choose-hasura-over-other-tools.md %})
 
-*See also:* [Graph API vs GraphQL (Sep 2024)]({% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, those are different things, and yes, I confused them once too.
+*See also:* [Graph API vs GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, those are different things, and yes, I confused them once too.
 

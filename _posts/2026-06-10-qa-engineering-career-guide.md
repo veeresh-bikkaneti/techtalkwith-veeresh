@@ -165,4 +165,4 @@ Start where you are. Use what you have. Build one skill at a time.
 3. [Test Automation University — free courses](https://testautomationu.applitools.com/)
 4. [Google Testing Blog](https://testing.googleblog.com/)
 
-*See also:* [The Browser Automation Trap (Jun 2026)]({% link _posts/2026-06-10-the-browser-automation-trap.md %}) — read this before you pick a framework on hype alone. · [AI-Driven Test Strategy (Jun 2026)]({% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — where the career path is heading.
+*See also:* [The Browser Automation Trap (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-10-the-browser-automation-trap.md %}) — read this before you pick a framework on hype alone. · [AI-Driven Test Strategy (Jun 2026)]({{ site.baseurl }}{% link _posts/2026-06-29-ai-driven-test-strategy.md %}) — where the career path is heading.
