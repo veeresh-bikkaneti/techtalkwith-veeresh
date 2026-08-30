@@ -296,7 +296,7 @@ flowchart TD
 
 ---
 
-## <a id="chapter-4"></a>🏗️ Chapter 4: The Great Debate — `test` vs `describe`/`it`
+## <a id="chapter-4" href="#chapter-4"></a>🏗️ Chapter 4: The Great Debate — `test` vs `describe`/`it`
 
 ### Style 1: Flat (Playwright's Way) — *Lone Wolf Style*
 
@@ -1203,7 +1203,7 @@ Great for "smoke" checks where you want a full triage list, not whack-a-mole deb
 
 ---
 
-## <a id="chapter-13"></a>⚙️ Chapter 13: The `playwright.config.ts` — Mission Control
+## <a id="chapter-13" href="#chapter-13"></a>⚙️ Chapter 13: The `playwright.config.ts` — Mission Control
 
 > The config file is where you decide *everything* about how your tests run: browsers, timeouts, retries, parallelism. It's your mission brief before tests run.
 
@@ -1428,7 +1428,7 @@ All return a `response` with `.ok()`, `.status()`, `.json()`, `.text()`, `.heade
 
 ---
 
-## <a id="chapter-16"></a>🏛️ Chapter 16: Page Objects — Because Copy-Paste Is Not a Design Pattern
+## <a id="chapter-16" href="#chapter-16"></a>🏛️ Chapter 16: Page Objects — Because Copy-Paste Is Not a Design Pattern
 
 > Page Objects (PO) are how you keep your tests from rotting. When the button "Sign in" becomes "Continue", you change **one** line in the PO, not thirty lines across thirty tests.
 
