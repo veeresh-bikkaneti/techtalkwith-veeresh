@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#06b6d4">
+  <meta name="theme-color" content="#0a0b10" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+  <meta name="color-scheme" content="dark light">
   <meta name="author" content="{{ site.author }}">
   <meta name="robots" content="index, follow">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title | remove: "**" }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
   <link rel="canonical" href="{{ page.url | replace: '/index.html', '/' | absolute_url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
@@ -17,10 +19,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script>
+    /* Theme before first paint: saved choice, else the visitor's system setting. */
     (function() {
-      var saved = localStorage.getItem('theme');
-      var theme = saved || 'dark';
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (e) {}
+      var system = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      var theme = (saved === 'light' || saved === 'dark') ? saved : system;
       document.documentElement.setAttribute('data-theme', theme);
+      var m = document.querySelector('meta[name="color-scheme"]');
+      if (m) m.content = theme;
     })();
   </script>
   <!-- Microsoft Clarity — heatmaps, session recordings, click tracking -->
@@ -41,8 +48,10 @@
   </script>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/theme-toggle.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/enhancements.css' | relative_url }}">
   <script src="{{ '/assets/js/network.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/scroll-reveal.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/enhance.js' | relative_url }}" defer></script>
   {% assign has_mermaid = content | split: 'language-mermaid' | size %}
   {% if has_mermaid > 1 %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
@@ -50,32 +59,35 @@
   {% feed_meta %}
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="read-progress" aria-hidden="true"><span></span></div>
   <header class="site-header">
     <div class="header-inner">
       <a class="site-title" href="{{ '/' | relative_url }}">
-        <span class="terminal-prompt">&gt;</span> {{ site.title }}
+        <span class="terminal-prompt" aria-hidden="true">&gt;</span> {{ site.title }}
       </a>
-      <nav class="site-nav">
+      <nav class="site-nav" aria-label="Primary">
         {% for header_page in site.header_pages %}
           {% assign page_obj = site.pages | where: 'path', header_page | first %}
           {% if page_obj %}
-          <a href="{{ page_obj.url | relative_url }}" {% if page.url == page_obj.url %}class="active"{% endif %}>
+          <a href="{{ page_obj.url | relative_url }}" {% if page.url == page_obj.url or page_obj.url == '/blog/' and page.layout == 'post' %}class="active" aria-current="page"{% endif %}>
             {{ page_obj.title }}
           </a>
           {% endif %}
         {% endfor %}
-        <a href="{{ '/feed.xml' | relative_url }}" class="rss-link" title="RSS Feed">
-          <i class="fas fa-rss"></i>
+        <a href="https://veeresh-bikkaneti.github.io/" class="nav-projects">Projects</a>
+        <a href="{{ '/feed.xml' | relative_url }}" class="rss-link" title="RSS feed" aria-label="RSS feed">
+          <i class="fas fa-rss" aria-hidden="true"></i>
         </a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
-          <i class="fas fa-sun icon-sun"></i>
-          <i class="fas fa-moon icon-moon"></i>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" title="Toggle theme">
+          <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
+          <i class="fas fa-moon icon-moon" aria-hidden="true"></i>
         </button>
       </nav>
     </div>
   </header>
 
-  <main class="site-content">
+  <main class="site-content" id="main" tabindex="-1">
     <div class="content-inner">
       {{ content }}
     </div>
@@ -85,10 +97,20 @@
     <div class="footer-inner">
       <div class="footer-links">
         {% for link in site.footer.links %}
-          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
-            <i class="{{ link.icon }}"></i> {{ link.label }}
+          {% assign first_char = link.url | slice: 0 %}
+          {% if first_char == '/' %}
+          <a href="{{ link.url | relative_url }}">
+            <i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}
           </a>
+          {% else %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+            <i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}
+          </a>
+          {% endif %}
         {% endfor %}
+          <a href="https://veeresh-bikkaneti.github.io/">
+            <i class="fas fa-fw fa-layer-group" aria-hidden="true"></i> All projects
+          </a>
       </div>
       <p class="footer-text">
         &copy; {{ site.time | date: '%Y' }} {{ site.author }} · Built with Jekyll & GitHub Pages
@@ -104,25 +126,40 @@
         return document.documentElement.getAttribute('data-theme') || 'dark';
       }
 
-      function setTheme(theme) {
+      var mq = window.matchMedia('(prefers-color-scheme: light)');
+      var meta = document.querySelector('meta[name="color-scheme"]');
+
+      function updateLabel() {
+        toggle.setAttribute('aria-label', 'Switch to ' + (getTheme() === 'dark' ? 'light' : 'dark') + ' theme');
+      }
+
+      function setTheme(theme, remember) {
         document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
+        if (meta) meta.content = theme;
+        try {
+          // Picking the system's own theme means "follow the system" again.
+          var system = mq.matches ? 'light' : 'dark';
+          if (remember && theme !== system) localStorage.setItem('theme', theme);
+          else localStorage.removeItem('theme');
+        } catch (e) {}
+        updateLabel();
         // Re-render Mermaid diagrams with new theme (if present)
         if (typeof renderMermaid === 'function') renderMermaid();
       }
 
       toggle.addEventListener('click', function() {
-        setTheme(getTheme() === 'dark' ? 'light' : 'dark');
+        setTheme(getTheme() === 'dark' ? 'light' : 'dark', true);
       });
+      updateLabel();
 
       // Show toggle after JS loads
       toggle.classList.add('loaded');
 
       // Listen for system preference changes
-      window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function(e) {
-        if (!localStorage.getItem('theme')) {
-          setTheme(e.matches ? 'light' : 'dark');
-        }
+      mq.addEventListener('change', function(e) {
+        var saved = null;
+        try { saved = localStorage.getItem('theme'); } catch (err) {}
+        if (!saved) setTheme(e.matches ? 'light' : 'dark', false);
       });
     })();
   </script>
