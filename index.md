@@ -4,65 +4,60 @@ title: Home
 ---
 
 <section class="hero">
-  <canvas id="network-canvas"></canvas>
+  <canvas id="network-canvas" aria-hidden="true"></canvas>
   <div class="hero-badge">Open to opportunities</div>
   <h1 class="hero-title">Tech Talk with Veeresh</h1>
   <p class="hero-subtitle">
     Principal QA Architect · AI Test Architect · 20+ years driving enterprise software quality. Writing about AI-driven test strategy, automation frameworks, and building quality engineering teams.
   </p>
   <div class="hero-links">
-    <a href="{{ '/about/' | relative_url }}" class="btn-primary"><i class="fas fa-user"></i> About Me</a>
-    <a href="{{ '/blog/' | relative_url }}" class="btn-secondary"><i class="fas fa-rss"></i> Read the Blog</a>
-    <a href="https://github.com/veeresh-bikkaneti" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> GitHub</a>
-    <a href="https://www.linkedin.com/in/sdetbaveer/" target="_blank" class="btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="{{ '/about/' | relative_url }}" class="btn-primary"><i class="fas fa-user" aria-hidden="true"></i> About Me</a>
+    <a href="{{ '/blog/' | relative_url }}" class="btn-secondary"><i class="fas fa-rss" aria-hidden="true"></i> Read the Blog</a>
+    <a href="https://github.com/veeresh-bikkaneti" target="_blank" rel="noopener" class="btn-secondary"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/sdetbaveer/" target="_blank" rel="noopener" class="btn-secondary"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
   </div>
 </section>
 
-<section class="section">
+<section class="section" aria-labelledby="latest-title">
   <div class="section-header">
-    <i class="fas fa-fire"></i>
-    <span>Latest Posts</span>
-    <span class="section-number">01</span>
+    <i class="fas fa-fire" aria-hidden="true"></i>
+    <h2 id="latest-title">Latest Posts</h2>
     <div class="section-divider"></div>
+    <a class="section-link" href="{{ '/blog/' | relative_url }}">All {{ site.posts.size }} posts <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
   </div>
-  <div class="posts-grid">
-    {% assign posts = site.posts | limit: 6 %}
-    {% for post in posts %}
-    <article class="post-card" data-reveal>
-      <div class="post-card-meta">
-        <span><i class="fas fa-calendar-alt"></i> {{ post.date | date: "%b %d, %Y" }}</span>
-        {% if post.reading_time %}
-          <span><i class="fas fa-clock"></i> {{ post.reading_time }} min read</span>
-        {% endif %}
-      </div>
-      <h3 class="post-card-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {% if post.tags.size > 0 %}
-      <div class="post-card-tags">
-        {% for tag in post.tags limit:3 %}
-          <span class="tag">#{{ tag }}</span>
-        {% endfor %}
-      </div>
+  <div class="posts-grid posts-grid--home">
+    {% for post in site.posts limit: 5 %}
+      {% if forloop.first %}
+        {% include post-card.html post=post featured=true words=45 %}
+      {% else %}
+        {% include post-card.html post=post %}
       {% endif %}
-    </article>
+    {% endfor %}
+  </div>
+
+  {% capture tag_str %}{% for t in site.tags %}{{ t[1].size | plus: 1000 }}#{{ t[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+  {% assign top_tags = tag_str | split: ',' | sort | reverse %}
+  <div class="topic-row">
+    <span class="topic-label">Popular topics</span>
+    {% for item in top_tags limit: 10 %}
+      {% assign parts = item | split: '#' %}
+      <a class="chip" href="{{ '/blog/' | relative_url }}?tag={{ parts[1] | uri_escape }}">{{ parts[1] }}</a>
     {% endfor %}
   </div>
 </section>
 
-<section class="section">
+<section class="section" aria-labelledby="oss-title">
   <div class="section-header">
-    <i class="fab fa-github"></i>
-    <span>Open Source</span>
-    <span class="section-number">02</span>
+    <i class="fab fa-github" aria-hidden="true"></i>
+    <h2 id="oss-title">Open Source</h2>
     <div class="section-divider"></div>
+    <a class="section-link" href="https://veeresh-bikkaneti.github.io/">All projects <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
   </div>
   <div class="bento-grid">
     <article class="bento-card bento-card--featured" data-reveal>
       <div class="bento-header">
         <div class="bento-icon"><i class="fas fa-robot"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/cypress-qa-ai-workforce" target="_blank">cypress-qa-ai-workforce</a></h3>
+        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/cypress-qa-ai-workforce" target="_blank" rel="noopener">cypress-qa-ai-workforce</a></h3>
       </div>
       <p class="bento-desc">AI-powered Cypress QA system with agent orchestration, self-healing locators, and security gates. Built for enterprise test automation with multi-agent collaboration.</p>
       <div class="bento-tags">
@@ -76,18 +71,10 @@ title: Home
         <span><i class="fas fa-code-branch"></i> Active</span>
       </div>
     </article>
-    <article class="bento-card bento-card--stat" data-reveal>
-      <div class="bento-stat-value">4</div>
-      <div class="bento-stat-label">Repos</div>
-    </article>
-    <article class="bento-card bento-card--stat" data-reveal>
-      <div class="bento-stat-value">AI</div>
-      <div class="bento-stat-label">Focus</div>
-    </article>
     <article class="bento-card" data-reveal>
       <div class="bento-header">
         <div class="bento-icon"><i class="fas fa-brain"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/LLMcouncil" target="_blank">LLMcouncil</a></h3>
+        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/LLMcouncil" target="_blank" rel="noopener">LLMcouncil</a></h3>
       </div>
       <p class="bento-desc">Multi-agent AI orchestration framework: 3 parallel analysis agents + Chairperson synthesizer.</p>
       <div class="bento-tags">
@@ -99,7 +86,7 @@ title: Home
     <article class="bento-card" data-reveal>
       <div class="bento-header">
         <div class="bento-icon"><i class="fas fa-plug"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/azdo-ai-toolkit" target="_blank">azdo-ai-toolkit</a></h3>
+        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/azdo-ai-toolkit" target="_blank" rel="noopener">azdo-ai-toolkit</a></h3>
       </div>
       <p class="bento-desc">Azure DevOps AI integration: automated test case generation from work items.</p>
       <div class="bento-tags">
@@ -111,7 +98,7 @@ title: Home
     <article class="bento-card bento-card--wide" data-reveal>
       <div class="bento-header">
         <div class="bento-icon"><i class="fas fa-exchange-alt"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/cypress-playwright" target="_blank">cypress-playwright</a></h3>
+        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/cypress-playwright" target="_blank" rel="noopener">cypress-playwright</a></h3>
       </div>
       <p class="bento-desc">Migration framework bridging Cypress and Playwright ecosystems. Smooth transition path for teams moving between frameworks.</p>
       <div class="bento-tags">
@@ -121,5 +108,10 @@ title: Home
         <span class="bento-tag">Migration</span>
       </div>
     </article>
+    <a class="bento-card bento-card--cta" href="https://veeresh-bikkaneti.github.io/" data-reveal>
+      <span class="bento-cta-kicker">Live sites &amp; tools</span>
+      <span class="bento-cta-title">System Design Mastery, TicketRouter, testing guides and more</span>
+      <span class="bento-cta-link">Browse everything <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
   </div>
 </section>
