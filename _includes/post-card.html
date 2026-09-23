@@ -1,0 +1,22 @@
+{% assign p = include.post %}
+{% assign words = include.words | default: 30 %}
+{% capture search_text %}{{ p.title | remove: '**' }} {{ p.excerpt | strip_html }} {{ p.tags | join: ' ' }}{% endcapture %}
+<article class="post-card{% if include.featured %} post-card--featured{% endif %}" data-reveal data-tags="|{{ p.tags | join: '|' | downcase }}|" data-search="{{ search_text | strip_newlines | downcase | escape }}">
+  <div class="post-card-meta">
+    <span><i class="fas fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %d, %Y" }}</time></span>
+    {% if p.reading_time %}
+      <span><i class="fas fa-clock" aria-hidden="true"></i> {{ p.reading_time }} min read</span>
+    {% endif %}
+  </div>
+  <h3 class="post-card-title">
+    <a href="{{ p.url | relative_url }}">{{ p.title | remove: "**" }}</a>
+  </h3>
+  <p class="post-card-excerpt">{{ p.excerpt | strip_html | truncatewords: words }}</p>
+  {% if p.tags.size > 0 %}
+  <div class="post-card-tags">
+    {% for tag in p.tags limit:3 %}
+      <span class="tag">#{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
