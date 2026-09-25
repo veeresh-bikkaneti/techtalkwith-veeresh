@@ -69,8 +69,8 @@
 [data-theme="light"] .post-content pre code {
   color: #e2e8f0;
 }
-[data-theme="light"] .highlight { background: #0f172a; }
-[data-theme="light"] .highlight pre { background: #0f172a; }
+[data-theme="light"] .highlight { background: #0f172a; color: #e2e8f0; }
+[data-theme="light"] .highlight pre { background: #0f172a; color: #e2e8f0; }
 
 /* Light theme: link hover color for contrast */
 [data-theme="light"] a:hover { color: #0e7490; }
