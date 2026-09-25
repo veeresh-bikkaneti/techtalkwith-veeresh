@@ -50,6 +50,32 @@ graph TB
 
 Trace it left to right: you open your browser and hit the Pi's address. Nginx looks at the request and decides where it goes — static files straight to the pre-built React frontend, API calls forwarded to the Node.js backend. Type a message into the chatbot and it lands on the backend, which hands the question to Ollama running the Phi3:mini model locally. That takes 5-10 seconds on the Pi's own CPU, no cloud involved. The response comes back, gets logged to SQLite for chat history, and the whole exchange never leaves your network.
 
+One thing that diagram doesn't show: your very first message behaves nothing like every message after it, because Ollama has to load the model into RAM before it can answer anything.
+
+```mermaid
+sequenceDiagram
+    participant U as You (Browser)
+    participant N as Nginx
+    participant B as Backend (Node)
+    participant O as Ollama
+    Note over U,O: First message since boot/restart — cold start
+    U->>N: POST /api/chat
+    N->>B: proxy request
+    B->>O: run inference
+    Note right of O: Loading Phi3:mini into RAM<br/>30-45s, only happens once
+    O-->>B: response
+    B-->>U: chat reply
+    Note over U,O: Every message after that — warm
+    U->>N: POST /api/chat
+    N->>B: proxy request
+    B->>O: run inference
+    Note right of O: Model already in RAM<br/>5-10s
+    O-->>B: response
+    B-->>U: chat reply
+```
+
+That first 30-45 second wait (covered again in Part 4) is the single most common "is this broken?" moment for people trying this for the first time. It isn't broken — it only happens once per reboot.
+
 ## The Tech Stack
 
 ### Frontend: React + Vite
@@ -170,6 +196,19 @@ Five version numbers back, and you're set. If one install fails, re-run that ste
 
 ## Part 3: Copy Your Code & Configure (15 minutes)
 
+**A note on the code:** this part assumes you already have a working React + Node app on your laptop to copy over — this guide covers *deploying* one, not writing one from scratch. If you're starting from zero, scaffold a minimal version first and get it talking to Ollama on your own laptop before you touch the Pi (much easier to debug there than over SSH):
+
+```bash
+# Frontend: a bare React app
+npm create vite@latest web-run -- --template react
+cd web-run && npm install
+
+# Backend: a bare Express app with one route
+npm install express
+```
+
+A minimal `server.js` just needs one route that forwards a prompt to Ollama's local HTTP API and returns the reply — `POST http://127.0.0.1:11434/api/generate` with `{ "model": "phi3:mini", "prompt": "...", "stream": false }` is the whole contract. Once that round-trips on your laptop, the rest of this post is about getting that same app running reliably on the Pi.
+
 ### From your laptop
 
 ```bash
@@ -208,8 +247,9 @@ AI_CTX_WINDOW=8192
 # Database (auto-created)
 DB_PATH=./data/chat_logs.db
 
-# Optional: notifications
+# Optional: push notifications via ntfy.sh — see Part 4
 PUSH_NOTIFICATIONS=false
+NTFY_TOPIC=
 ```
 
 Save with `Ctrl+X` → `Y` → `Enter`. (Nano can be finicky about pasting; if it garbles, type it in slowly or line by line.)
@@ -296,6 +336,30 @@ You should see the React app load. Click the chatbot and say hello.
 The first message takes 30-45 seconds while Ollama loads the model into RAM. That's normal, not a bug. After that, responses land in 5-10 seconds. If the delay doesn't clear up after the first message, check `pm2 logs my-app` for errors around Ollama or model loading.
 
 Your self-hosted AI chatbot is live.
+
+### Optional: Push Notifications with ntfy.sh
+
+The `.env` file above has a `PUSH_NOTIFICATIONS` flag but nothing wires it up yet — here's the missing piece. [ntfy.sh](https://ntfy.sh/) is a free, open-source pub-sub notification service: your backend POSTs a message to a topic URL, and anyone subscribed (the ntfy phone app, or just a browser tab) gets it instantly. No account, no API key, and no extra service to host — it's a plain HTTPS POST.
+
+Pick a topic name only you know — topic names are the entire access control on the free tier, so treat one like a lightweight secret — and set it in `.env`:
+```ini
+PUSH_NOTIFICATIONS=true
+NTFY_TOPIC=your-unique-topic-name-here
+```
+
+Then in the Express route that handles chat messages, fire a notification alongside the existing SQLite write:
+```javascript
+// After saving the chat exchange to SQLite
+if (process.env.PUSH_NOTIFICATIONS === "true" && process.env.NTFY_TOPIC) {
+  fetch(`https://ntfy.sh/${process.env.NTFY_TOPIC}`, {
+    method: "POST",
+    body: `New chat message: "${userMessage.slice(0, 100)}"`,
+    headers: { Title: "Chatbot activity", Tags: "speech_balloon" }
+  }).catch(err => console.error("ntfy notify failed:", err));
+}
+```
+
+Subscribe to your topic in the ntfy app (iOS/Android) or by opening `https://ntfy.sh/your-unique-topic-name-here` in a browser, and you'll get a push the moment someone talks to your chatbot — a handy "is anyone actually using this" pulse check. The `.catch()` matters: if ntfy.sh is ever unreachable, that should never be the reason a visitor's chat response fails to come back.
 
 ## Part 5: Public Domain via Cloudflare Tunnel (Optional)
 
