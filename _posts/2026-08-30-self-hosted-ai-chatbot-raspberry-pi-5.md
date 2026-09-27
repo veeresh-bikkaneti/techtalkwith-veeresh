@@ -344,7 +344,7 @@ The `.env` file above has a `PUSH_NOTIFICATIONS` flag but nothing wires it up ye
 Pick a topic name only you know — topic names are the entire access control on the free tier, so treat one like a lightweight secret — and set it in `.env`:
 ```ini
 PUSH_NOTIFICATIONS=true
-NTFY_TOPIC=your-unique-topic-name-here
+NTFY_TOPIC=veer-portfolio
 ```
 
 Then in the Express route that handles chat messages, fire a notification alongside the existing SQLite write:
@@ -359,7 +359,7 @@ if (process.env.PUSH_NOTIFICATIONS === "true" && process.env.NTFY_TOPIC) {
 }
 ```
 
-Subscribe to your topic in the ntfy app (iOS/Android) or by opening `https://ntfy.sh/your-unique-topic-name-here` in a browser, and you'll get a push the moment someone talks to your chatbot — a handy "is anyone actually using this" pulse check. The `.catch()` matters: if ntfy.sh is ever unreachable, that should never be the reason a visitor's chat response fails to come back.
+Subscribe to your topic in the ntfy app (iOS/Android) or by opening `https://ntfy.sh/veer-portfolio` in a browser, and you'll get a push the moment someone talks to your chatbot — a handy "is anyone actually using this" pulse check. The `.catch()` matters: if ntfy.sh is ever unreachable, that should never be the reason a visitor's chat response fails to come back.
 
 ## Part 5: Public Domain via Cloudflare Tunnel (Optional)
 
