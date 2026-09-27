@@ -1,0 +1,33 @@
+<!-- Veer: site-wide chat widget. Deterministic full-text search over every
+     post (plus the About page) runs in every browser; where Chrome's
+     built-in on-device AI (window.LanguageModel) is available, the top
+     matches are additionally synthesized into a short written answer.
+     No backend, no API key, no data leaves the visitor's machine. -->
+<div class="veer-panel" id="veer-panel" role="dialog" aria-modal="false" aria-labelledby="veer-title" hidden>
+  <div class="veer-header">
+    <div class="veer-avatar" aria-hidden="true"><i class="fas fa-robot"></i></div>
+    <div class="veer-header-text">
+      <h2 id="veer-title">Veer</h2>
+      <p>Ask about anything on this blog</p>
+    </div>
+    <button type="button" class="veer-close" id="veer-close" aria-label="Close chat">
+      <i class="fas fa-xmark" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="veer-messages" id="veer-messages" aria-live="polite"></div>
+  <div class="veer-suggestions" id="veer-suggestions">
+    <button type="button" class="veer-suggestion" data-q="When should I use Playwright vs Selenium?">Playwright vs Selenium?</button>
+    <button type="button" class="veer-suggestion" data-q="How do I fix flaky tests in CI?">Fixing flaky tests</button>
+    <button type="button" class="veer-suggestion" data-q="What's Veeresh's background?">Who's Veeresh?</button>
+  </div>
+  <form class="veer-form" id="veer-form">
+    <input type="text" class="veer-input" id="veer-input" placeholder="Ask Veer something…" autocomplete="off" maxlength="300" aria-label="Your question">
+    <button type="submit" class="veer-send" id="veer-send" aria-label="Send">
+      <i class="fas fa-paper-plane" aria-hidden="true"></i>
+    </button>
+  </form>
+</div>
+<button type="button" class="veer-launcher" id="veer-launcher" aria-expanded="false" aria-controls="veer-panel" aria-label="Open Veer chat" data-index-url="{{ '/assets/data/veer-index.json' | relative_url }}">
+  <i class="fas fa-comment-dots" aria-hidden="true"></i>
+  <i class="fas fa-xmark" aria-hidden="true"></i>
+</button>

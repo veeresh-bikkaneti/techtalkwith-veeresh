@@ -1,0 +1,283 @@
+/* ============================================
+   VEER — site-wide chat widget
+   Floating launcher + slide-up panel. Uses the same
+   design tokens as the rest of the site (main.css),
+   so it re-themes automatically with light/dark mode.
+   ============================================ */
+
+.veer-launcher {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 400;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-btn);
+  color: #fff;
+  font-size: 1.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-card-hover);
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+}
+.veer-launcher:hover { transform: scale(1.06); background: var(--gradient-btn-hover); }
+.veer-launcher:active { transform: scale(0.97); }
+.veer-launcher .fa-xmark { display: none; }
+.veer-launcher.is-open .fa-comment-dots { display: none; }
+.veer-launcher.is-open .fa-xmark { display: inline; }
+
+/* Unread/attention pulse, shown once until the visitor opens the panel */
+.veer-launcher.has-pulse::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 0 var(--accent-glow);
+  animation: veer-pulse 2.2s ease-out 1.2s 3;
+}
+@keyframes veer-pulse {
+  0%   { box-shadow: 0 0 0 0 var(--accent-glow); }
+  70%  { box-shadow: 0 0 0 14px rgba(14, 165, 199, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(14, 165, 199, 0); }
+}
+
+.veer-panel {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 5.5rem;
+  z-index: 401;
+  width: 380px;
+  max-width: calc(100vw - 2rem);
+  height: 560px;
+  max-height: calc(100vh - 8rem);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-elevated);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card-hover);
+  opacity: 0;
+  transform: translateY(16px) scale(0.98);
+  pointer-events: none;
+  transition: opacity 0.22s var(--ease-out), transform 0.22s var(--ease-out);
+}
+.veer-panel.is-open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.veer-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.veer-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-btn);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+.veer-header-text { flex: 1; min-width: 0; }
+.veer-header-text h2 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.veer-header-text p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+.veer-close {
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-xs);
+  flex-shrink: 0;
+}
+.veer-close:hover { color: var(--text); background: var(--accent-dim); }
+
+.veer-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  scroll-behavior: smooth;
+}
+.veer-msg {
+  max-width: 88%;
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+.veer-msg a { color: var(--accent-light); text-decoration: underline; text-underline-offset: 2px; }
+.veer-msg p { margin: 0 0 0.5rem; }
+.veer-msg p:last-child { margin-bottom: 0; }
+.veer-msg--bot {
+  align-self: flex-start;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-bottom-left-radius: 4px;
+}
+.veer-msg--user {
+  align-self: flex-end;
+  background: var(--gradient-btn);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+.veer-msg--error {
+  border-color: var(--red);
+  color: var(--text);
+}
+
+.veer-sources {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.veer-sources-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.veer-source-link {
+  font-size: 0.8rem;
+  display: block;
+  color: var(--accent-light);
+  text-decoration: none;
+}
+.veer-source-link:hover { text-decoration: underline; }
+
+.veer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.veer-typing {
+  align-self: flex-start;
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  border-bottom-left-radius: 4px;
+}
+.veer-typing span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  animation: veer-bounce 1.1s infinite ease-in-out;
+}
+.veer-typing span:nth-child(2) { animation-delay: 0.15s; }
+.veer-typing span:nth-child(3) { animation-delay: 0.3s; }
+@keyframes veer-bounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+
+.veer-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0 1rem 0.75rem;
+  flex-shrink: 0;
+}
+.veer-suggestion {
+  border: 1px solid var(--border);
+  background: var(--bg-glass);
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: all 0.2s var(--ease-out);
+}
+.veer-suggestion:hover { border-color: var(--border-hover); color: var(--accent-light); }
+
+.veer-form {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.veer-input {
+  flex: 1;
+  min-width: 0;
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 0.55rem 0.95rem;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+}
+.veer-input:focus { outline: none; border-color: var(--border-hover); }
+.veer-send {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-btn);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s var(--ease-out);
+}
+.veer-send:hover { background: var(--gradient-btn-hover); }
+.veer-send:disabled { opacity: 0.5; cursor: not-allowed; }
+
+@media (max-width: 480px) {
+  .veer-panel {
+    right: 0.75rem;
+    left: 0.75rem;
+    width: auto;
+    bottom: 5rem;
+    height: min(70vh, 560px);
+  }
+  .veer-launcher { right: 1rem; bottom: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .veer-panel, .veer-launcher, .veer-typing span { transition: none; animation: none; }
+}
