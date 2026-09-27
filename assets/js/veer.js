@@ -230,7 +230,7 @@
   function addSearchResults(entries) {
     var html = '<p>Here’s what I found on the blog:</p><div class="veer-sources">' +
       entries.slice(0, 4).map(function (e) {
-        return '<a class="veer-source-link" href="' + e.url + '">' + escapeHtml(e.title) + '</a>';
+        return '<a class="veer-source-link" href="' + escapeHtml(e.url) + '">' + escapeHtml(e.title) + '</a>';
       }).join('') + '</div>';
     appendMessage(html, 'bot');
   }
@@ -240,7 +240,7 @@
     if (entries && entries.length) {
       html += '<div class="veer-sources"><div class="veer-sources-label">Sources</div>' +
         entries.map(function (e) {
-          return '<a class="veer-source-link" href="' + e.url + '">' + escapeHtml(e.title) + '</a>';
+          return '<a class="veer-source-link" href="' + escapeHtml(e.url) + '">' + escapeHtml(e.title) + '</a>';
         }).join('') + '</div>';
     }
     if (aiUsed) {
