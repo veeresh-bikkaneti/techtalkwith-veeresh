@@ -5,7 +5,7 @@ date: 2026-09-25
 categories: [ai, architecture]
 tags: [chrome-ai, gemini-nano, prompt-api, tool-calling, rag, on-device-ai, security]
 excerpt: "A portfolio chatbot needed to answer questions outside its own knowledge base without shipping a search API key to every visitor. Scoping that feature surfaces a real architectural lesson about where secrets are allowed to live, even before a single line of it goes to production."
-reading_time: 9
+reading_time: 10
 ---
 
 Here's a question that sounds simple until you actually try to ship it: a chatbot on a static site answers questions from a fixed knowledge base (resume, GitHub repos, blog posts). What happens when a visitor asks something that isn't in there?
@@ -21,6 +21,18 @@ Chrome ships a built-in, on-device language model (Gemini Nano, exposed to the p
 What people hear when they read that: "the browser can search the web for me."
 
 What it actually says: **the model can decide to call a tool you provide.** It does not come with a tool. It has no network access of its own, no search index, no idea what's happened since its training cutoff. If you want it to search the web, you write the `searchWeb` tool yourself and hand it over. The on-device model is the reasoning engine — deciding *whether* to search, and turning raw results into a readable answer — not the search engine itself.
+
+### How the Handoff Actually Works
+
+Here's the mechanism, end to end, for a question the knowledge base can't answer:
+
+1. **You define the tool.** A name (`searchWeb`), a description, and a JSON schema for its input. Chrome's model reads this the way you'd read an API contract, per the [Prompt API](https://developer.chrome.com/docs/ai/prompt-api)'s tool-calling spec.
+2. **The model decides.** It reads the question, checks that against what it actually knows, and decides for itself whether calling `searchWeb` would help. That decision is the model's, not an `if` statement you wrote.
+3. **The model calls the tool.** It doesn't fetch anything itself. It emits a structured call: run `searchWeb` with `query: "..."`. Your JavaScript is what turns that into an actual HTTP request.
+4. **Execution is the bottleneck.** This is exactly where the credential problem below shows up. Client-side code with no backend has no safe way to call a real search API on its own.
+5. **The model reads the result and answers.** Whatever your tool's `execute` function returns, the model reads as plain text and writes the final answer from it. It never sees a credential — only whatever your tool handed back.
+
+Step 3 is free. Step 4 is the entire feature, and it's why the rest of this post exists.
 
 That distinction is the entire architecture of this feature. Get it right and the client-side piece is maybe 40 lines of code. Get it wrong and you end up trying to smuggle a paid search API's credentials into a static HTML file, which brings us to the next problem.
 
@@ -130,6 +142,19 @@ That's not a bug to fix later. It's the actual shape of the constraint. On-devic
 ## Why It's Scoped, Not Shipped
 
 If you go looking for this in a live chatbot today, you won't find it wired in. It was scaffolded, then deliberately left unfinished rather than half-deployed. That's a legitimate outcome, not an abandoned one: merging something inert and hoping to finish it later under different pressure isn't the same as shipping a feature, and pretending unverified deployment steps are lessons learned would misrepresent work that didn't happen. The client-side half is complete and sitting in version control as a real starting point: reasoning logic, gating, tool-calling pattern, all of it, for whoever picks it up next.
+
+## What's Verified, What's Documented, What's Just Scoped
+
+Not every claim in this post rests on the same footing, so here's the breakdown rather than letting it all read as equally certain:
+
+| Claim | Confidence |
+|---|---|
+| Tool calling lets the on-device model decide when to call a function you define | **Documented** — Chrome's [Prompt API](https://developer.chrome.com/docs/ai/prompt-api) and [built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis) reference |
+| The gating logic and tool-calling code shown in this post | **Verified** — syntax-checked, and exercised in headless Chromium against a stubbed `LanguageModel` to confirm the code path itself is reachable |
+| The search-proxy backend's architecture (single relay endpoint, no LLM call, no state) | **Scoped only** — a first pass was written but never deployed with real credentials or exercised end-to-end |
+| Real on-device model behavior (actual tool invocation, answer quality, latency) | **Unverified here** — this sandboxed environment has no access to Chrome's real on-device model, only a stub |
+
+The gap between "verified" and "unverified" isn't a footnote. It's the entire reason this post reports what got scoped instead of writing up deployment steps for a backend that never ran.
 
 ## Key Takeaways
 
