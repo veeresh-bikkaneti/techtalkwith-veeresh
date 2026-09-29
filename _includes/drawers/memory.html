@@ -1,0 +1,37 @@
+<figure class="drawer-fig" data-drawers="cycle" data-interval="2600">
+  <div class="drawer-top">
+    <div>
+      <p class="drawer-kicker">Flow · memory</p>
+      <p class="drawer-heading">Read the label before you open the folder</p>
+    </div>
+    <button type="button" class="drawer-btn" data-play>Play</button>
+  </div>
+  <div class="drawer-stage">
+    <div class="drawer-steps">
+      <button type="button" class="drawer-btn" data-go="0">L0 · Abstract</button>
+      <button type="button" class="drawer-btn" data-go="1">L1 · Overview</button>
+      <button type="button" class="drawer-btn" data-go="2">L2 · Source</button>
+    </div>
+    <div class="drawer-split">
+      <div>
+        <p class="drawer-path">viking://</p>
+        <div class="drawer-card is-on">
+          <span class="drawer-path">resources/decisions/web-search</span>
+          <div class="drawer-panel" data-panel="0"><p class="drawer-copy">Proxy scoped, not shipped. One line, enough to skip the other files.</p></div>
+          <div class="drawer-panel" data-panel="1" hidden><p class="drawer-copy">Architecture decision. Client may call searchWeb. The key stays in a proxy. Related write-up: 25 Sep 2026. Still not a deploy.</p></div>
+          <div class="drawer-panel" data-panel="2" hidden><p class="drawer-copy">Full file. Status, the reason a static page cannot hold the key, and the line that says the proxy was never put in production. Load this only if L1 was not enough.</p></div>
+        </div>
+        <div class="drawer-card"><span class="drawer-path">memories/preferences/tone</span><p>Name the gap. Don't smooth it.</p></div>
+        <div class="drawer-card"><span class="drawer-path">memories/events/2026-09-25</span><p>Scoping session. Proxy left unfinished.</p></div>
+        <div class="drawer-card"><span class="drawer-path">agent/skills/cite-the-file</span><p>Quote the decision file before the blog.</p></div>
+      </div>
+      <div class="drawer-col is-choice">
+        <p class="drawer-k">What the agent should load</p>
+        <div class="drawer-panel" data-panel="0"><p class="drawer-copy"><strong>Ten labels, one line each.</strong> Stop here if the abstract already answers the question.</p></div>
+        <div class="drawer-panel" data-panel="1" hidden><p class="drawer-copy"><strong>One overview.</strong> Enough shape to know this file is the decision, and that it is not a deploy.</p></div>
+        <div class="drawer-panel" data-panel="2" hidden><p class="drawer-copy"><strong>One source file.</strong> The argument, the status, the date. Not the rest of the tree.</p></div>
+      </div>
+    </div>
+  </div>
+  <p class="drawer-caption">OpenViking keeps content in a filesystem and a vector index beside it. L0, L1, and L2 are how you avoid stuffing the whole tree into the prompt.</p>
+</figure>
