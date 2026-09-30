@@ -296,6 +296,7 @@ def synthesize_post(post: dict, voice: str, accent: str, dest: Path, lang: str) 
                 check=False,
                 capture_output=True,
                 text=True,
+                stdin=subprocess.DEVNULL,
             )
             if proc.returncode != 0:
                 opus_path.unlink(missing_ok=True)
