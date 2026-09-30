@@ -1,0 +1,3285 @@
+{
+  "slug": "playwright-vs-selenium-2026",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 229.745,
+  "contentHash": "6eaa4099fb1009fdecf91a935f6068c75c6dd1bd9d2efc50de3d4652d45a069e",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Playwright vs Selenium in 2026: Which Should You Choose?",
+      "start": 0.0,
+      "end": 4.4,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 0.25,
+          "end": 0.675
+        },
+        {
+          "text": "vs",
+          "start": 0.675,
+          "end": 1.025
+        },
+        {
+          "text": "Selenium",
+          "start": 1.025,
+          "end": 1.575
+        },
+        {
+          "text": "in",
+          "start": 1.575,
+          "end": 1.725
+        },
+        {
+          "text": "2026",
+          "start": 1.725,
+          "end": 2.925
+        },
+        {
+          "text": ":",
+          "start": 2.925,
+          "end": 3.05
+        },
+        {
+          "text": "Which",
+          "start": 3.05,
+          "end": 3.275
+        },
+        {
+          "text": "Should",
+          "start": 3.275,
+          "end": 3.413
+        },
+        {
+          "text": "You",
+          "start": 3.413,
+          "end": 3.562
+        },
+        {
+          "text": "Choose",
+          "start": 3.562,
+          "end": 4.25
+        },
+        {
+          "text": "?",
+          "start": 4.25,
+          "end": 4.4
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "After spending years with Selenium and more recently adopting Playwright in production, I've formed strong opinions on when to use each. Here's my honest take.",
+      "start": 4.72,
+      "end": 14.42,
+      "words": [
+        {
+          "text": "After",
+          "start": 4.995,
+          "end": 5.27
+        },
+        {
+          "text": "spending",
+          "start": 5.27,
+          "end": 5.645
+        },
+        {
+          "text": "years",
+          "start": 5.645,
+          "end": 5.982
+        },
+        {
+          "text": "with",
+          "start": 5.982,
+          "end": 6.145
+        },
+        {
+          "text": "Selenium",
+          "start": 6.145,
+          "end": 6.807
+        },
+        {
+          "text": "and",
+          "start": 6.807,
+          "end": 6.945
+        },
+        {
+          "text": "more",
+          "start": 6.945,
+          "end": 7.182
+        },
+        {
+          "text": "recently",
+          "start": 7.182,
+          "end": 7.645
+        },
+        {
+          "text": "adopting",
+          "start": 7.645,
+          "end": 8.145
+        },
+        {
+          "text": "Playwright",
+          "start": 8.145,
+          "end": 8.557
+        },
+        {
+          "text": "in",
+          "start": 8.557,
+          "end": 8.645
+        },
+        {
+          "text": "production",
+          "start": 8.645,
+          "end": 9.52
+        },
+        {
+          "text": ",",
+          "start": 9.52,
+          "end": 9.62
+        },
+        {
+          "text": "I've",
+          "start": 9.62,
+          "end": 9.82
+        },
+        {
+          "text": "formed",
+          "start": 9.82,
+          "end": 10.17
+        },
+        {
+          "text": "strong",
+          "start": 10.17,
+          "end": 10.545
+        },
+        {
+          "text": "opinions",
+          "start": 10.545,
+          "end": 11.195
+        },
+        {
+          "text": "on",
+          "start": 11.195,
+          "end": 11.37
+        },
+        {
+          "text": "when",
+          "start": 11.37,
+          "end": 11.52
+        },
+        {
+          "text": "to",
+          "start": 11.52,
+          "end": 11.645
+        },
+        {
+          "text": "use",
+          "start": 11.645,
+          "end": 11.895
+        },
+        {
+          "text": "each",
+          "start": 11.895,
+          "end": 12.57
+        },
+        {
+          "text": ".",
+          "start": 12.57,
+          "end": 12.745
+        },
+        {
+          "text": "Here's",
+          "start": 12.745,
+          "end": 13.07
+        },
+        {
+          "text": "my",
+          "start": 13.07,
+          "end": 13.282
+        },
+        {
+          "text": "honest",
+          "start": 13.282,
+          "end": 13.67
+        },
+        {
+          "text": "take",
+          "start": 13.67,
+          "end": 14.27
+        },
+        {
+          "text": ".",
+          "start": 14.27,
+          "end": 14.42
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "h2",
+      "text": "The Speed Difference (I Measured It)",
+      "start": 14.74,
+      "end": 17.115,
+      "words": [
+        {
+          "text": "The",
+          "start": 14.99,
+          "end": 15.09
+        },
+        {
+          "text": "Speed",
+          "start": 15.09,
+          "end": 15.44
+        },
+        {
+          "text": "Difference",
+          "start": 15.44,
+          "end": 15.99
+        },
+        {
+          "text": "(",
+          "start": 15.99,
+          "end": 16.04
+        },
+        {
+          "text": "I",
+          "start": 16.04,
+          "end": 16.165
+        },
+        {
+          "text": "Measured",
+          "start": 16.165,
+          "end": 16.527
+        },
+        {
+          "text": "It",
+          "start": 16.527,
+          "end": 16.965
+        },
+        {
+          "text": ")",
+          "start": 16.965,
+          "end": 17.115
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "Playwright's fundamentally different. Selenium sends HTTP requests (WebDriver protocol) to a remote browser. Playwright opens a direct connection via Chrome DevTools Protocol. That's like sending emails vs. picking up the phone.",
+      "start": 17.435,
+      "end": 33.535,
+      "words": [
+        {
+          "text": "Playwright's",
+          "start": 17.685,
+          "end": 18.197
+        },
+        {
+          "text": "fundamentally",
+          "start": 18.197,
+          "end": 18.973
+        },
+        {
+          "text": "different",
+          "start": 18.973,
+          "end": 19.785
+        },
+        {
+          "text": ".",
+          "start": 19.785,
+          "end": 19.935
+        },
+        {
+          "text": "Selenium",
+          "start": 19.935,
+          "end": 20.572
+        },
+        {
+          "text": "sends",
+          "start": 20.572,
+          "end": 20.947
+        },
+        {
+          "text": "HTTP",
+          "start": 20.947,
+          "end": 21.86
+        },
+        {
+          "text": "requests",
+          "start": 21.86,
+          "end": 22.722
+        },
+        {
+          "text": "(",
+          "start": 22.722,
+          "end": 22.81
+        },
+        {
+          "text": "WebDriver",
+          "start": 22.81,
+          "end": 23.36
+        },
+        {
+          "text": "protocol",
+          "start": 23.36,
+          "end": 24.16
+        },
+        {
+          "text": ")",
+          "start": 24.16,
+          "end": 24.273
+        },
+        {
+          "text": "to",
+          "start": 24.273,
+          "end": 24.435
+        },
+        {
+          "text": "a",
+          "start": 24.435,
+          "end": 24.535
+        },
+        {
+          "text": "remote",
+          "start": 24.535,
+          "end": 24.91
+        },
+        {
+          "text": "browser",
+          "start": 24.91,
+          "end": 25.76
+        },
+        {
+          "text": ".",
+          "start": 25.76,
+          "end": 25.935
+        },
+        {
+          "text": "Playwright",
+          "start": 25.935,
+          "end": 26.422
+        },
+        {
+          "text": "opens",
+          "start": 26.422,
+          "end": 26.86
+        },
+        {
+          "text": "a",
+          "start": 26.86,
+          "end": 26.935
+        },
+        {
+          "text": "direct",
+          "start": 26.935,
+          "end": 27.385
+        },
+        {
+          "text": "connection",
+          "start": 27.385,
+          "end": 28.023
+        },
+        {
+          "text": "via",
+          "start": 28.023,
+          "end": 28.347
+        },
+        {
+          "text": "Chrome",
+          "start": 28.347,
+          "end": 28.71
+        },
+        {
+          "text": "DevTools",
+          "start": 28.71,
+          "end": 29.285
+        },
+        {
+          "text": "Protocol",
+          "start": 29.285,
+          "end": 30.21
+        },
+        {
+          "text": ".",
+          "start": 30.21,
+          "end": 30.347
+        },
+        {
+          "text": "That's",
+          "start": 30.347,
+          "end": 30.622
+        },
+        {
+          "text": "like",
+          "start": 30.622,
+          "end": 30.835
+        },
+        {
+          "text": "sending",
+          "start": 30.835,
+          "end": 31.235
+        },
+        {
+          "text": "emails",
+          "start": 31.235,
+          "end": 31.747
+        },
+        {
+          "text": "vs.",
+          "start": 31.747,
+          "end": 32.21
+        },
+        {
+          "text": "picking",
+          "start": 32.21,
+          "end": 32.498
+        },
+        {
+          "text": "up",
+          "start": 32.498,
+          "end": 32.623
+        },
+        {
+          "text": "the",
+          "start": 32.623,
+          "end": 32.722
+        },
+        {
+          "text": "phone",
+          "start": 32.722,
+          "end": 33.385
+        },
+        {
+          "text": ".",
+          "start": 33.385,
+          "end": 33.535
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "When I migrated a test suite from Selenium to Playwright, test runtime dropped from 45 minutes to 12. Same tests, same server, just faster by wiring. Here's why:",
+      "start": 33.855,
+      "end": 45.555,
+      "words": [
+        {
+          "text": "When",
+          "start": 34.105,
+          "end": 34.217
+        },
+        {
+          "text": "I",
+          "start": 34.217,
+          "end": 34.355
+        },
+        {
+          "text": "migrated",
+          "start": 34.355,
+          "end": 34.818
+        },
+        {
+          "text": "a",
+          "start": 34.818,
+          "end": 34.893
+        },
+        {
+          "text": "test",
+          "start": 34.893,
+          "end": 35.317
+        },
+        {
+          "text": "suite",
+          "start": 35.317,
+          "end": 35.63
+        },
+        {
+          "text": "from",
+          "start": 35.63,
+          "end": 35.83
+        },
+        {
+          "text": "Selenium",
+          "start": 35.83,
+          "end": 36.405
+        },
+        {
+          "text": "to",
+          "start": 36.405,
+          "end": 36.505
+        },
+        {
+          "text": "Playwright",
+          "start": 36.505,
+          "end": 37.23
+        },
+        {
+          "text": ",",
+          "start": 37.23,
+          "end": 37.342
+        },
+        {
+          "text": "test",
+          "start": 37.342,
+          "end": 37.68
+        },
+        {
+          "text": "runtime",
+          "start": 37.68,
+          "end": 38.18
+        },
+        {
+          "text": "dropped",
+          "start": 38.18,
+          "end": 38.505
+        },
+        {
+          "text": "from",
+          "start": 38.505,
+          "end": 38.73
+        },
+        {
+          "text": "45",
+          "start": 38.73,
+          "end": 39.368
+        },
+        {
+          "text": "minutes",
+          "start": 39.368,
+          "end": 39.68
+        },
+        {
+          "text": "to",
+          "start": 39.68,
+          "end": 39.78
+        },
+        {
+          "text": "12",
+          "start": 39.78,
+          "end": 40.58
+        },
+        {
+          "text": ".",
+          "start": 40.58,
+          "end": 40.755
+        },
+        {
+          "text": "Same",
+          "start": 40.755,
+          "end": 41.08
+        },
+        {
+          "text": "tests",
+          "start": 41.08,
+          "end": 41.655
+        },
+        {
+          "text": ",",
+          "start": 41.655,
+          "end": 41.767
+        },
+        {
+          "text": "same",
+          "start": 41.767,
+          "end": 42.093
+        },
+        {
+          "text": "server",
+          "start": 42.093,
+          "end": 42.455
+        },
+        {
+          "text": ",",
+          "start": 42.455,
+          "end": 42.505
+        },
+        {
+          "text": "just",
+          "start": 42.505,
+          "end": 42.767
+        },
+        {
+          "text": "faster",
+          "start": 42.767,
+          "end": 43.255
+        },
+        {
+          "text": "by",
+          "start": 43.255,
+          "end": 43.468
+        },
+        {
+          "text": "wiring",
+          "start": 43.468,
+          "end": 44.33
+        },
+        {
+          "text": ".",
+          "start": 44.33,
+          "end": 44.468
+        },
+        {
+          "text": "Here's",
+          "start": 44.468,
+          "end": 44.805
+        },
+        {
+          "text": "why",
+          "start": 44.805,
+          "end": 45.405
+        },
+        {
+          "text": ":",
+          "start": 45.405,
+          "end": 45.555
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "li",
+      "text": "No HTTP round-trips , Playwright talks directly to the browser's internals",
+      "start": 45.875,
+      "end": 51.05,
+      "words": [
+        {
+          "text": "No",
+          "start": 46.2,
+          "end": 46.488
+        },
+        {
+          "text": "HTTP",
+          "start": 46.488,
+          "end": 47.325
+        },
+        {
+          "text": "round-trips",
+          "start": 47.325,
+          "end": 48.163
+        },
+        {
+          "text": ",",
+          "start": 48.163,
+          "end": 48.25
+        },
+        {
+          "text": "Playwright",
+          "start": 48.25,
+          "end": 48.65
+        },
+        {
+          "text": "talks",
+          "start": 48.65,
+          "end": 48.975
+        },
+        {
+          "text": "directly",
+          "start": 48.975,
+          "end": 49.5
+        },
+        {
+          "text": "to",
+          "start": 49.5,
+          "end": 49.588
+        },
+        {
+          "text": "the",
+          "start": 49.588,
+          "end": 49.675
+        },
+        {
+          "text": "browser's",
+          "start": 49.675,
+          "end": 50.15
+        },
+        {
+          "text": "internals",
+          "start": 50.15,
+          "end": 51.05
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "Auto-waiting , Playwright waits before you interact. Selenium makes you wait manually, usually with brittle sleeps",
+      "start": 51.495,
+      "end": 58.47,
+      "words": [
+        {
+          "text": "Auto-waiting",
+          "start": 51.77,
+          "end": 52.495
+        },
+        {
+          "text": ",",
+          "start": 52.495,
+          "end": 52.57
+        },
+        {
+          "text": "Playwright",
+          "start": 52.57,
+          "end": 52.97
+        },
+        {
+          "text": "waits",
+          "start": 52.97,
+          "end": 53.295
+        },
+        {
+          "text": "before",
+          "start": 53.295,
+          "end": 53.595
+        },
+        {
+          "text": "you",
+          "start": 53.595,
+          "end": 53.733
+        },
+        {
+          "text": "interact",
+          "start": 53.733,
+          "end": 54.645
+        },
+        {
+          "text": ".",
+          "start": 54.645,
+          "end": 54.795
+        },
+        {
+          "text": "Selenium",
+          "start": 54.795,
+          "end": 55.37
+        },
+        {
+          "text": "makes",
+          "start": 55.37,
+          "end": 55.608
+        },
+        {
+          "text": "you",
+          "start": 55.608,
+          "end": 55.72
+        },
+        {
+          "text": "wait",
+          "start": 55.72,
+          "end": 55.945
+        },
+        {
+          "text": "manually",
+          "start": 55.945,
+          "end": 56.67
+        },
+        {
+          "text": ",",
+          "start": 56.67,
+          "end": 56.808
+        },
+        {
+          "text": "usually",
+          "start": 56.808,
+          "end": 57.27
+        },
+        {
+          "text": "with",
+          "start": 57.27,
+          "end": 57.445
+        },
+        {
+          "text": "brittle",
+          "start": 57.445,
+          "end": 57.757
+        },
+        {
+          "text": "sleeps",
+          "start": 57.757,
+          "end": 58.47
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Parallel contexts , Playwright can spawn 10 browser windows from one browser instance. Selenium needs 10 separate browsers",
+      "start": 58.89,
+      "end": 67.04,
+      "words": [
+        {
+          "text": "Parallel",
+          "start": 59.14,
+          "end": 59.615
+        },
+        {
+          "text": "contexts",
+          "start": 59.615,
+          "end": 60.527
+        },
+        {
+          "text": ",",
+          "start": 60.527,
+          "end": 60.652
+        },
+        {
+          "text": "Playwright",
+          "start": 60.652,
+          "end": 61.09
+        },
+        {
+          "text": "can",
+          "start": 61.09,
+          "end": 61.24
+        },
+        {
+          "text": "spawn",
+          "start": 61.24,
+          "end": 61.602
+        },
+        {
+          "text": "10",
+          "start": 61.602,
+          "end": 61.865
+        },
+        {
+          "text": "browser",
+          "start": 61.865,
+          "end": 62.265
+        },
+        {
+          "text": "windows",
+          "start": 62.265,
+          "end": 62.715
+        },
+        {
+          "text": "from",
+          "start": 62.715,
+          "end": 62.915
+        },
+        {
+          "text": "one",
+          "start": 62.915,
+          "end": 63.14
+        },
+        {
+          "text": "browser",
+          "start": 63.14,
+          "end": 63.478
+        },
+        {
+          "text": "instance",
+          "start": 63.478,
+          "end": 64.34
+        },
+        {
+          "text": ".",
+          "start": 64.34,
+          "end": 64.515
+        },
+        {
+          "text": "Selenium",
+          "start": 64.515,
+          "end": 65.14
+        },
+        {
+          "text": "needs",
+          "start": 65.14,
+          "end": 65.427
+        },
+        {
+          "text": "10",
+          "start": 65.427,
+          "end": 65.802
+        },
+        {
+          "text": "separate",
+          "start": 65.802,
+          "end": 66.165
+        },
+        {
+          "text": "browsers",
+          "start": 66.165,
+          "end": 67.04
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "h2",
+      "text": "Multi-Browser Support",
+      "start": 67.46,
+      "end": 69.26,
+      "words": [
+        {
+          "text": "Multi-Browser",
+          "start": 67.785,
+          "end": 68.56
+        },
+        {
+          "text": "Support",
+          "start": 68.56,
+          "end": 69.26
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "Both tools support Chrome, Firefox, and Edge, but Playwright also bundles browser binaries , no more managing WebDriver versions.",
+      "start": 69.73,
+      "end": 78.58,
+      "words": [
+        {
+          "text": "Both",
+          "start": 70.005,
+          "end": 70.28
+        },
+        {
+          "text": "tools",
+          "start": 70.28,
+          "end": 70.63
+        },
+        {
+          "text": "support",
+          "start": 70.63,
+          "end": 71.067
+        },
+        {
+          "text": "Chrome",
+          "start": 71.067,
+          "end": 71.58
+        },
+        {
+          "text": ",",
+          "start": 71.58,
+          "end": 71.692
+        },
+        {
+          "text": "Firefox",
+          "start": 71.692,
+          "end": 72.38
+        },
+        {
+          "text": ",",
+          "start": 72.38,
+          "end": 72.43
+        },
+        {
+          "text": "and",
+          "start": 72.43,
+          "end": 72.555
+        },
+        {
+          "text": "Edge",
+          "start": 72.555,
+          "end": 73.205
+        },
+        {
+          "text": ",",
+          "start": 73.205,
+          "end": 73.33
+        },
+        {
+          "text": "but",
+          "start": 73.33,
+          "end": 73.48
+        },
+        {
+          "text": "Playwright",
+          "start": 73.48,
+          "end": 73.93
+        },
+        {
+          "text": "also",
+          "start": 73.93,
+          "end": 74.28
+        },
+        {
+          "text": "bundles",
+          "start": 74.28,
+          "end": 74.718
+        },
+        {
+          "text": "browser",
+          "start": 74.718,
+          "end": 75.155
+        },
+        {
+          "text": "binaries",
+          "start": 75.155,
+          "end": 76.042
+        },
+        {
+          "text": ",",
+          "start": 76.042,
+          "end": 76.167
+        },
+        {
+          "text": "no",
+          "start": 76.167,
+          "end": 76.355
+        },
+        {
+          "text": "more",
+          "start": 76.355,
+          "end": 76.58
+        },
+        {
+          "text": "managing",
+          "start": 76.58,
+          "end": 77.08
+        },
+        {
+          "text": "WebDriver",
+          "start": 77.08,
+          "end": 77.605
+        },
+        {
+          "text": "versions",
+          "start": 77.605,
+          "end": 78.43
+        },
+        {
+          "text": ".",
+          "start": 78.43,
+          "end": 78.58
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h2",
+      "text": "When Selenium Still Wins (The Hard Truth)",
+      "start": 78.9,
+      "end": 81.775,
+      "words": [
+        {
+          "text": "When",
+          "start": 79.15,
+          "end": 79.3
+        },
+        {
+          "text": "Selenium",
+          "start": 79.3,
+          "end": 79.85
+        },
+        {
+          "text": "Still",
+          "start": 79.85,
+          "end": 80.125
+        },
+        {
+          "text": "Wins",
+          "start": 80.125,
+          "end": 80.625
+        },
+        {
+          "text": "(",
+          "start": 80.625,
+          "end": 80.675
+        },
+        {
+          "text": "The",
+          "start": 80.675,
+          "end": 80.75
+        },
+        {
+          "text": "Hard",
+          "start": 80.75,
+          "end": 81.025
+        },
+        {
+          "text": "Truth",
+          "start": 81.025,
+          "end": 81.6
+        },
+        {
+          "text": ")",
+          "start": 81.6,
+          "end": 81.775
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "I wish Playwright won everywhere. But here's where Selenium still has the edge:",
+      "start": 82.095,
+      "end": 86.77,
+      "words": [
+        {
+          "text": "I",
+          "start": 82.345,
+          "end": 82.495
+        },
+        {
+          "text": "wish",
+          "start": 82.495,
+          "end": 82.72
+        },
+        {
+          "text": "Playwright",
+          "start": 82.72,
+          "end": 83.145
+        },
+        {
+          "text": "won",
+          "start": 83.145,
+          "end": 83.345
+        },
+        {
+          "text": "everywhere",
+          "start": 83.345,
+          "end": 84.12
+        },
+        {
+          "text": ".",
+          "start": 84.12,
+          "end": 84.245
+        },
+        {
+          "text": "But",
+          "start": 84.245,
+          "end": 84.395
+        },
+        {
+          "text": "here's",
+          "start": 84.395,
+          "end": 84.657
+        },
+        {
+          "text": "where",
+          "start": 84.657,
+          "end": 84.82
+        },
+        {
+          "text": "Selenium",
+          "start": 84.82,
+          "end": 85.382
+        },
+        {
+          "text": "still",
+          "start": 85.382,
+          "end": 85.67
+        },
+        {
+          "text": "has",
+          "start": 85.67,
+          "end": 85.882
+        },
+        {
+          "text": "the",
+          "start": 85.882,
+          "end": 86.02
+        },
+        {
+          "text": "edge",
+          "start": 86.02,
+          "end": 86.595
+        },
+        {
+          "text": ":",
+          "start": 86.595,
+          "end": 86.77
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "Legacy codebases , You've got 500 Selenium tests, 3 years of edge cases baked in. Rewriting that is a 6-month project. The math doesn't pencil out for most teams. Selenium still works , stick with it unless you're rebuilding.",
+      "start": 87.09,
+      "end": 102.115,
+      "words": [
+        {
+          "text": "Legacy",
+          "start": 87.39,
+          "end": 87.765
+        },
+        {
+          "text": "codebases",
+          "start": 87.765,
+          "end": 88.552
+        },
+        {
+          "text": ",",
+          "start": 88.552,
+          "end": 88.615
+        },
+        {
+          "text": "You've",
+          "start": 88.615,
+          "end": 88.79
+        },
+        {
+          "text": "got",
+          "start": 88.79,
+          "end": 89.052
+        },
+        {
+          "text": "500",
+          "start": 89.052,
+          "end": 89.715
+        },
+        {
+          "text": "Selenium",
+          "start": 89.715,
+          "end": 90.265
+        },
+        {
+          "text": "tests",
+          "start": 90.265,
+          "end": 90.915
+        },
+        {
+          "text": ",",
+          "start": 90.915,
+          "end": 91.028
+        },
+        {
+          "text": "3",
+          "start": 91.028,
+          "end": 91.265
+        },
+        {
+          "text": "years",
+          "start": 91.265,
+          "end": 91.528
+        },
+        {
+          "text": "of",
+          "start": 91.528,
+          "end": 91.615
+        },
+        {
+          "text": "edge",
+          "start": 91.615,
+          "end": 91.84
+        },
+        {
+          "text": "cases",
+          "start": 91.84,
+          "end": 92.29
+        },
+        {
+          "text": "baked",
+          "start": 92.29,
+          "end": 92.553
+        },
+        {
+          "text": "in",
+          "start": 92.553,
+          "end": 93.09
+        },
+        {
+          "text": ".",
+          "start": 93.09,
+          "end": 93.228
+        },
+        {
+          "text": "Rewriting",
+          "start": 93.228,
+          "end": 93.765
+        },
+        {
+          "text": "that",
+          "start": 93.765,
+          "end": 93.94
+        },
+        {
+          "text": "is",
+          "start": 93.94,
+          "end": 94.053
+        },
+        {
+          "text": "a",
+          "start": 94.053,
+          "end": 94.152
+        },
+        {
+          "text": "6-month",
+          "start": 94.152,
+          "end": 94.64
+        },
+        {
+          "text": "project",
+          "start": 94.64,
+          "end": 95.54
+        },
+        {
+          "text": ".",
+          "start": 95.54,
+          "end": 95.652
+        },
+        {
+          "text": "The",
+          "start": 95.652,
+          "end": 95.79
+        },
+        {
+          "text": "math",
+          "start": 95.79,
+          "end": 96.14
+        },
+        {
+          "text": "doesn't",
+          "start": 96.14,
+          "end": 96.415
+        },
+        {
+          "text": "pencil",
+          "start": 96.415,
+          "end": 96.79
+        },
+        {
+          "text": "out",
+          "start": 96.79,
+          "end": 97.015
+        },
+        {
+          "text": "for",
+          "start": 97.015,
+          "end": 97.14
+        },
+        {
+          "text": "most",
+          "start": 97.14,
+          "end": 97.44
+        },
+        {
+          "text": "teams",
+          "start": 97.44,
+          "end": 98.265
+        },
+        {
+          "text": ".",
+          "start": 98.265,
+          "end": 98.415
+        },
+        {
+          "text": "Selenium",
+          "start": 98.415,
+          "end": 99.053
+        },
+        {
+          "text": "still",
+          "start": 99.053,
+          "end": 99.34
+        },
+        {
+          "text": "works",
+          "start": 99.34,
+          "end": 99.902
+        },
+        {
+          "text": ",",
+          "start": 99.902,
+          "end": 100.002
+        },
+        {
+          "text": "stick",
+          "start": 100.002,
+          "end": 100.278
+        },
+        {
+          "text": "with",
+          "start": 100.278,
+          "end": 100.49
+        },
+        {
+          "text": "it",
+          "start": 100.49,
+          "end": 100.652
+        },
+        {
+          "text": "unless",
+          "start": 100.652,
+          "end": 100.99
+        },
+        {
+          "text": "you're",
+          "start": 100.99,
+          "end": 101.115
+        },
+        {
+          "text": "rebuilding",
+          "start": 101.115,
+          "end": 101.965
+        },
+        {
+          "text": ".",
+          "start": 101.965,
+          "end": 102.115
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Language support , Selenium has Ruby, Kotlin, PHP. Playwright is JavaScript-focused (TS/JS natives, with .NET and Python coming along). If your team codes in a minority language, Selenium's your pick.",
+      "start": 102.435,
+      "end": 116.585,
+      "words": [
+        {
+          "text": "Language",
+          "start": 102.76,
+          "end": 103.11
+        },
+        {
+          "text": "support",
+          "start": 103.11,
+          "end": 103.735
+        },
+        {
+          "text": ",",
+          "start": 103.735,
+          "end": 103.81
+        },
+        {
+          "text": "Selenium",
+          "start": 103.81,
+          "end": 104.385
+        },
+        {
+          "text": "has",
+          "start": 104.385,
+          "end": 104.598
+        },
+        {
+          "text": "Ruby",
+          "start": 104.598,
+          "end": 105.01
+        },
+        {
+          "text": ",",
+          "start": 105.01,
+          "end": 105.098
+        },
+        {
+          "text": "Kotlin",
+          "start": 105.098,
+          "end": 105.56
+        },
+        {
+          "text": ",",
+          "start": 105.56,
+          "end": 105.61
+        },
+        {
+          "text": "PHP",
+          "start": 105.61,
+          "end": 106.685
+        },
+        {
+          "text": ".",
+          "start": 106.685,
+          "end": 106.848
+        },
+        {
+          "text": "Playwright",
+          "start": 106.848,
+          "end": 107.31
+        },
+        {
+          "text": "is",
+          "start": 107.31,
+          "end": 107.473
+        },
+        {
+          "text": "JavaScript-focused",
+          "start": 107.473,
+          "end": 108.723
+        },
+        {
+          "text": "(",
+          "start": 108.723,
+          "end": 108.81
+        },
+        {
+          "text": "TS/JS",
+          "start": 108.81,
+          "end": 109.685
+        },
+        {
+          "text": "natives",
+          "start": 109.685,
+          "end": 110.285
+        },
+        {
+          "text": ",",
+          "start": 110.285,
+          "end": 110.36
+        },
+        {
+          "text": "with",
+          "start": 110.36,
+          "end": 110.573
+        },
+        {
+          "text": ".NET",
+          "start": 110.573,
+          "end": 110.898
+        },
+        {
+          "text": "and",
+          "start": 110.898,
+          "end": 111.035
+        },
+        {
+          "text": "Python",
+          "start": 111.035,
+          "end": 111.535
+        },
+        {
+          "text": "coming",
+          "start": 111.535,
+          "end": 111.81
+        },
+        {
+          "text": "along",
+          "start": 111.81,
+          "end": 112.485
+        },
+        {
+          "text": ")",
+          "start": 112.485,
+          "end": 112.685
+        },
+        {
+          "text": ".",
+          "start": 112.685,
+          "end": 112.76
+        },
+        {
+          "text": "If",
+          "start": 112.76,
+          "end": 112.923
+        },
+        {
+          "text": "your",
+          "start": 112.923,
+          "end": 113.073
+        },
+        {
+          "text": "team",
+          "start": 113.073,
+          "end": 113.448
+        },
+        {
+          "text": "codes",
+          "start": 113.448,
+          "end": 113.823
+        },
+        {
+          "text": "in",
+          "start": 113.823,
+          "end": 113.898
+        },
+        {
+          "text": "a",
+          "start": 113.898,
+          "end": 113.948
+        },
+        {
+          "text": "minority",
+          "start": 113.948,
+          "end": 114.435
+        },
+        {
+          "text": "language",
+          "start": 114.435,
+          "end": 115.01
+        },
+        {
+          "text": ",",
+          "start": 115.01,
+          "end": 115.122
+        },
+        {
+          "text": "Selenium's",
+          "start": 115.122,
+          "end": 115.747
+        },
+        {
+          "text": "your",
+          "start": 115.747,
+          "end": 115.86
+        },
+        {
+          "text": "pick",
+          "start": 115.86,
+          "end": 116.435
+        },
+        {
+          "text": ".",
+          "start": 116.435,
+          "end": 116.585
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Community , Selenium's been around since 2004. The talent pool is bigger. If you need to hire someone next month, \"Selenium experience\" is a wider net than \"Playwright.\" Unfair but true.",
+      "start": 116.905,
+      "end": 129.455,
+      "words": [
+        {
+          "text": "Community",
+          "start": 117.18,
+          "end": 117.73
+        },
+        {
+          "text": ",",
+          "start": 117.73,
+          "end": 117.805
+        },
+        {
+          "text": "Selenium's",
+          "start": 117.805,
+          "end": 118.455
+        },
+        {
+          "text": "been",
+          "start": 118.455,
+          "end": 118.605
+        },
+        {
+          "text": "around",
+          "start": 118.605,
+          "end": 119.03
+        },
+        {
+          "text": "since",
+          "start": 119.03,
+          "end": 119.255
+        },
+        {
+          "text": "2004",
+          "start": 119.255,
+          "end": 120.33
+        },
+        {
+          "text": ".",
+          "start": 120.33,
+          "end": 120.455
+        },
+        {
+          "text": "The",
+          "start": 120.455,
+          "end": 120.555
+        },
+        {
+          "text": "talent",
+          "start": 120.555,
+          "end": 120.93
+        },
+        {
+          "text": "pool",
+          "start": 120.93,
+          "end": 121.255
+        },
+        {
+          "text": "is",
+          "start": 121.255,
+          "end": 121.405
+        },
+        {
+          "text": "bigger",
+          "start": 121.405,
+          "end": 122.03
+        },
+        {
+          "text": ".",
+          "start": 122.03,
+          "end": 122.155
+        },
+        {
+          "text": "If",
+          "start": 122.155,
+          "end": 122.33
+        },
+        {
+          "text": "you",
+          "start": 122.33,
+          "end": 122.43
+        },
+        {
+          "text": "need",
+          "start": 122.43,
+          "end": 122.63
+        },
+        {
+          "text": "to",
+          "start": 122.63,
+          "end": 122.755
+        },
+        {
+          "text": "hire",
+          "start": 122.755,
+          "end": 123.08
+        },
+        {
+          "text": "someone",
+          "start": 123.08,
+          "end": 123.342
+        },
+        {
+          "text": "next",
+          "start": 123.342,
+          "end": 123.605
+        },
+        {
+          "text": "month",
+          "start": 123.605,
+          "end": 124.08
+        },
+        {
+          "text": ",",
+          "start": 124.08,
+          "end": 124.18
+        },
+        {
+          "text": "\"",
+          "start": 124.18,
+          "end": 124.255
+        },
+        {
+          "text": "Selenium",
+          "start": 124.255,
+          "end": 124.73
+        },
+        {
+          "text": "experience",
+          "start": 124.73,
+          "end": 125.53
+        },
+        {
+          "text": "\"",
+          "start": 125.53,
+          "end": 125.605
+        },
+        {
+          "text": "is",
+          "start": 125.605,
+          "end": 125.73
+        },
+        {
+          "text": "a",
+          "start": 125.73,
+          "end": 125.855
+        },
+        {
+          "text": "wider",
+          "start": 125.855,
+          "end": 126.255
+        },
+        {
+          "text": "net",
+          "start": 126.255,
+          "end": 126.53
+        },
+        {
+          "text": "than",
+          "start": 126.53,
+          "end": 126.705
+        },
+        {
+          "text": "\"",
+          "start": 126.705,
+          "end": 126.78
+        },
+        {
+          "text": "Playwright",
+          "start": 126.78,
+          "end": 127.68
+        },
+        {
+          "text": ".",
+          "start": 127.68,
+          "end": 127.805
+        },
+        {
+          "text": "\"",
+          "start": 127.805,
+          "end": 127.867
+        },
+        {
+          "text": "Unfair",
+          "start": 127.867,
+          "end": 128.43
+        },
+        {
+          "text": "but",
+          "start": 128.43,
+          "end": 128.617
+        },
+        {
+          "text": "true",
+          "start": 128.617,
+          "end": 129.28
+        },
+        {
+          "text": ".",
+          "start": 129.28,
+          "end": 129.455
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "Grid infrastructure , Selenium Grid is battle-tested at scale. You can run thousands of tests across a grid of machines. Playwright's parallel approach is newer (and faster per-machine, but different architecture).",
+      "start": 129.775,
+      "end": 143.425,
+      "words": [
+        {
+          "text": "Grid",
+          "start": 130.05,
+          "end": 130.3
+        },
+        {
+          "text": "infrastructure",
+          "start": 130.3,
+          "end": 131.25
+        },
+        {
+          "text": ",",
+          "start": 131.25,
+          "end": 131.362
+        },
+        {
+          "text": "Selenium",
+          "start": 131.362,
+          "end": 131.95
+        },
+        {
+          "text": "Grid",
+          "start": 131.95,
+          "end": 132.275
+        },
+        {
+          "text": "is",
+          "start": 132.275,
+          "end": 132.425
+        },
+        {
+          "text": "battle-tested",
+          "start": 132.425,
+          "end": 133.175
+        },
+        {
+          "text": "at",
+          "start": 133.175,
+          "end": 133.3
+        },
+        {
+          "text": "scale",
+          "start": 133.3,
+          "end": 134.1
+        },
+        {
+          "text": ".",
+          "start": 134.1,
+          "end": 134.237
+        },
+        {
+          "text": "You",
+          "start": 134.237,
+          "end": 134.375
+        },
+        {
+          "text": "can",
+          "start": 134.375,
+          "end": 134.575
+        },
+        {
+          "text": "run",
+          "start": 134.575,
+          "end": 134.837
+        },
+        {
+          "text": "thousands",
+          "start": 134.837,
+          "end": 135.287
+        },
+        {
+          "text": "of",
+          "start": 135.287,
+          "end": 135.387
+        },
+        {
+          "text": "tests",
+          "start": 135.387,
+          "end": 135.85
+        },
+        {
+          "text": "across",
+          "start": 135.85,
+          "end": 136.225
+        },
+        {
+          "text": "a",
+          "start": 136.225,
+          "end": 136.337
+        },
+        {
+          "text": "grid",
+          "start": 136.337,
+          "end": 136.587
+        },
+        {
+          "text": "of",
+          "start": 136.587,
+          "end": 136.662
+        },
+        {
+          "text": "machines",
+          "start": 136.662,
+          "end": 137.625
+        },
+        {
+          "text": ".",
+          "start": 137.625,
+          "end": 137.787
+        },
+        {
+          "text": "Playwright's",
+          "start": 137.787,
+          "end": 138.312
+        },
+        {
+          "text": "parallel",
+          "start": 138.312,
+          "end": 138.825
+        },
+        {
+          "text": "approach",
+          "start": 138.825,
+          "end": 139.375
+        },
+        {
+          "text": "is",
+          "start": 139.375,
+          "end": 139.6
+        },
+        {
+          "text": "newer",
+          "start": 139.6,
+          "end": 140.175
+        },
+        {
+          "text": "(",
+          "start": 140.175,
+          "end": 140.25
+        },
+        {
+          "text": "and",
+          "start": 140.25,
+          "end": 140.425
+        },
+        {
+          "text": "faster",
+          "start": 140.425,
+          "end": 140.875
+        },
+        {
+          "text": "per-machine",
+          "start": 140.875,
+          "end": 141.7
+        },
+        {
+          "text": ",",
+          "start": 141.7,
+          "end": 141.8
+        },
+        {
+          "text": "but",
+          "start": 141.8,
+          "end": 141.962
+        },
+        {
+          "text": "different",
+          "start": 141.962,
+          "end": 142.275
+        },
+        {
+          "text": "architecture",
+          "start": 142.275,
+          "end": 142.925
+        },
+        {
+          "text": ")",
+          "start": 142.925,
+          "end": 143.275
+        },
+        {
+          "text": ".",
+          "start": 143.275,
+          "end": 143.425
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h2",
+      "text": "My Recommendation (After Living Both)",
+      "start": 143.745,
+      "end": 146.595,
+      "words": [
+        {
+          "text": "My",
+          "start": 144.045,
+          "end": 144.22
+        },
+        {
+          "text": "Recommendation",
+          "start": 144.22,
+          "end": 145.207
+        },
+        {
+          "text": "(",
+          "start": 145.207,
+          "end": 145.295
+        },
+        {
+          "text": "After",
+          "start": 145.295,
+          "end": 145.545
+        },
+        {
+          "text": "Living",
+          "start": 145.545,
+          "end": 145.845
+        },
+        {
+          "text": "Both",
+          "start": 145.845,
+          "end": 146.42
+        },
+        {
+          "text": ")",
+          "start": 146.42,
+          "end": 146.595
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "New project? Playwright. No question. Speed, reliability, developer experience , all superior. You'll write faster, debug easier, sleep better at night.",
+      "start": 146.915,
+      "end": 157.39,
+      "words": [
+        {
+          "text": "New",
+          "start": 147.215,
+          "end": 147.365
+        },
+        {
+          "text": "project",
+          "start": 147.365,
+          "end": 147.965
+        },
+        {
+          "text": "?",
+          "start": 147.965,
+          "end": 148.053
+        },
+        {
+          "text": "Playwright",
+          "start": 148.053,
+          "end": 148.765
+        },
+        {
+          "text": ".",
+          "start": 148.765,
+          "end": 148.878
+        },
+        {
+          "text": "No",
+          "start": 148.878,
+          "end": 149.065
+        },
+        {
+          "text": "question",
+          "start": 149.065,
+          "end": 149.915
+        },
+        {
+          "text": ".",
+          "start": 149.915,
+          "end": 150.065
+        },
+        {
+          "text": "Speed",
+          "start": 150.065,
+          "end": 150.54
+        },
+        {
+          "text": ",",
+          "start": 150.54,
+          "end": 150.59
+        },
+        {
+          "text": "reliability",
+          "start": 150.59,
+          "end": 151.365
+        },
+        {
+          "text": ",",
+          "start": 151.365,
+          "end": 151.415
+        },
+        {
+          "text": "developer",
+          "start": 151.415,
+          "end": 151.965
+        },
+        {
+          "text": "experience",
+          "start": 151.965,
+          "end": 152.628
+        },
+        {
+          "text": ",",
+          "start": 152.628,
+          "end": 152.69
+        },
+        {
+          "text": "all",
+          "start": 152.69,
+          "end": 152.94
+        },
+        {
+          "text": "superior",
+          "start": 152.94,
+          "end": 153.815
+        },
+        {
+          "text": ".",
+          "start": 153.815,
+          "end": 153.915
+        },
+        {
+          "text": "You'll",
+          "start": 153.915,
+          "end": 154.065
+        },
+        {
+          "text": "write",
+          "start": 154.065,
+          "end": 154.303
+        },
+        {
+          "text": "faster",
+          "start": 154.303,
+          "end": 154.84
+        },
+        {
+          "text": ",",
+          "start": 154.84,
+          "end": 154.903
+        },
+        {
+          "text": "debug",
+          "start": 154.903,
+          "end": 155.315
+        },
+        {
+          "text": "easier",
+          "start": 155.315,
+          "end": 155.84
+        },
+        {
+          "text": ",",
+          "start": 155.84,
+          "end": 155.952
+        },
+        {
+          "text": "sleep",
+          "start": 155.952,
+          "end": 156.29
+        },
+        {
+          "text": "better",
+          "start": 156.29,
+          "end": 156.577
+        },
+        {
+          "text": "at",
+          "start": 156.577,
+          "end": 156.665
+        },
+        {
+          "text": "night",
+          "start": 156.665,
+          "end": 157.24
+        },
+        {
+          "text": ".",
+          "start": 157.24,
+          "end": 157.39
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Existing Selenium suite? Don't migrate for migration's sake. But when you touch that code next, ask: \"Does this need to be Selenium?\" If you're rewriting a module, consider Playwright for the new stuff. Gradual migration is less painful than a rip-and-replace.",
+      "start": 157.71,
+      "end": 173.56,
+      "words": [
+        {
+          "text": "Existing",
+          "start": 157.985,
+          "end": 158.485
+        },
+        {
+          "text": "Selenium",
+          "start": 158.485,
+          "end": 159.073
+        },
+        {
+          "text": "suite",
+          "start": 159.073,
+          "end": 159.635
+        },
+        {
+          "text": "?",
+          "start": 159.635,
+          "end": 159.748
+        },
+        {
+          "text": "Don't",
+          "start": 159.748,
+          "end": 160.01
+        },
+        {
+          "text": "migrate",
+          "start": 160.01,
+          "end": 160.51
+        },
+        {
+          "text": "for",
+          "start": 160.51,
+          "end": 160.635
+        },
+        {
+          "text": "migration's",
+          "start": 160.635,
+          "end": 161.272
+        },
+        {
+          "text": "sake",
+          "start": 161.272,
+          "end": 161.885
+        },
+        {
+          "text": ".",
+          "start": 161.885,
+          "end": 161.96
+        },
+        {
+          "text": "But",
+          "start": 161.96,
+          "end": 162.097
+        },
+        {
+          "text": "when",
+          "start": 162.097,
+          "end": 162.222
+        },
+        {
+          "text": "you",
+          "start": 162.222,
+          "end": 162.347
+        },
+        {
+          "text": "touch",
+          "start": 162.347,
+          "end": 162.685
+        },
+        {
+          "text": "that",
+          "start": 162.685,
+          "end": 162.885
+        },
+        {
+          "text": "code",
+          "start": 162.885,
+          "end": 163.185
+        },
+        {
+          "text": "next",
+          "start": 163.185,
+          "end": 163.56
+        },
+        {
+          "text": ",",
+          "start": 163.56,
+          "end": 163.647
+        },
+        {
+          "text": "ask",
+          "start": 163.647,
+          "end": 164.285
+        },
+        {
+          "text": ":",
+          "start": 164.285,
+          "end": 164.385
+        },
+        {
+          "text": "\"",
+          "start": 164.385,
+          "end": 164.46
+        },
+        {
+          "text": "Does",
+          "start": 164.46,
+          "end": 164.635
+        },
+        {
+          "text": "this",
+          "start": 164.635,
+          "end": 164.86
+        },
+        {
+          "text": "need",
+          "start": 164.86,
+          "end": 165.06
+        },
+        {
+          "text": "to",
+          "start": 165.06,
+          "end": 165.147
+        },
+        {
+          "text": "be",
+          "start": 165.147,
+          "end": 165.298
+        },
+        {
+          "text": "Selenium",
+          "start": 165.298,
+          "end": 166.285
+        },
+        {
+          "text": "?",
+          "start": 166.285,
+          "end": 166.36
+        },
+        {
+          "text": "\"",
+          "start": 166.36,
+          "end": 166.41
+        },
+        {
+          "text": "If",
+          "start": 166.41,
+          "end": 166.573
+        },
+        {
+          "text": "you're",
+          "start": 166.573,
+          "end": 166.685
+        },
+        {
+          "text": "rewriting",
+          "start": 166.685,
+          "end": 167.16
+        },
+        {
+          "text": "a",
+          "start": 167.16,
+          "end": 167.235
+        },
+        {
+          "text": "module",
+          "start": 167.235,
+          "end": 167.835
+        },
+        {
+          "text": ",",
+          "start": 167.835,
+          "end": 167.91
+        },
+        {
+          "text": "consider",
+          "start": 167.91,
+          "end": 168.31
+        },
+        {
+          "text": "Playwright",
+          "start": 168.31,
+          "end": 168.76
+        },
+        {
+          "text": "for",
+          "start": 168.76,
+          "end": 168.872
+        },
+        {
+          "text": "the",
+          "start": 168.872,
+          "end": 168.96
+        },
+        {
+          "text": "new",
+          "start": 168.96,
+          "end": 169.135
+        },
+        {
+          "text": "stuff",
+          "start": 169.135,
+          "end": 169.91
+        },
+        {
+          "text": ".",
+          "start": 169.91,
+          "end": 170.06
+        },
+        {
+          "text": "Gradual",
+          "start": 170.06,
+          "end": 170.535
+        },
+        {
+          "text": "migration",
+          "start": 170.535,
+          "end": 171.185
+        },
+        {
+          "text": "is",
+          "start": 171.185,
+          "end": 171.347
+        },
+        {
+          "text": "less",
+          "start": 171.347,
+          "end": 171.622
+        },
+        {
+          "text": "painful",
+          "start": 171.622,
+          "end": 172.11
+        },
+        {
+          "text": "than",
+          "start": 172.11,
+          "end": 172.235
+        },
+        {
+          "text": "a",
+          "start": 172.235,
+          "end": 172.335
+        },
+        {
+          "text": "rip-and-replace",
+          "start": 172.335,
+          "end": 173.41
+        },
+        {
+          "text": ".",
+          "start": 173.41,
+          "end": 173.56
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "The hard part isn't the tool switch , it's the mental switch. Selenium teaches you to wait explicitly (sleep, WebDriverWait). Playwright teaches you auto-wait. Both are valid. The cognitive load is real, but it's worth it for new projects.",
+      "start": 173.88,
+      "end": 188.83,
+      "words": [
+        {
+          "text": "The",
+          "start": 174.13,
+          "end": 174.205
+        },
+        {
+          "text": "hard",
+          "start": 174.205,
+          "end": 174.48
+        },
+        {
+          "text": "part",
+          "start": 174.48,
+          "end": 174.755
+        },
+        {
+          "text": "isn't",
+          "start": 174.755,
+          "end": 174.992
+        },
+        {
+          "text": "the",
+          "start": 174.992,
+          "end": 175.092
+        },
+        {
+          "text": "tool",
+          "start": 175.092,
+          "end": 175.392
+        },
+        {
+          "text": "switch",
+          "start": 175.392,
+          "end": 175.955
+        },
+        {
+          "text": ",",
+          "start": 175.955,
+          "end": 176.03
+        },
+        {
+          "text": "it's",
+          "start": 176.03,
+          "end": 176.23
+        },
+        {
+          "text": "the",
+          "start": 176.23,
+          "end": 176.355
+        },
+        {
+          "text": "mental",
+          "start": 176.355,
+          "end": 176.742
+        },
+        {
+          "text": "switch",
+          "start": 176.742,
+          "end": 177.48
+        },
+        {
+          "text": ".",
+          "start": 177.48,
+          "end": 177.655
+        },
+        {
+          "text": "Selenium",
+          "start": 177.655,
+          "end": 178.255
+        },
+        {
+          "text": "teaches",
+          "start": 178.255,
+          "end": 178.63
+        },
+        {
+          "text": "you",
+          "start": 178.63,
+          "end": 178.78
+        },
+        {
+          "text": "to",
+          "start": 178.78,
+          "end": 178.905
+        },
+        {
+          "text": "wait",
+          "start": 178.905,
+          "end": 179.155
+        },
+        {
+          "text": "explicitly",
+          "start": 179.155,
+          "end": 179.967
+        },
+        {
+          "text": "(",
+          "start": 179.967,
+          "end": 180.08
+        },
+        {
+          "text": "sleep",
+          "start": 180.08,
+          "end": 180.48
+        },
+        {
+          "text": ",",
+          "start": 180.48,
+          "end": 180.592
+        },
+        {
+          "text": "WebDriverWait",
+          "start": 180.592,
+          "end": 181.755
+        },
+        {
+          "text": ")",
+          "start": 181.755,
+          "end": 181.93
+        },
+        {
+          "text": ".",
+          "start": 181.93,
+          "end": 182.017
+        },
+        {
+          "text": "Playwright",
+          "start": 182.017,
+          "end": 182.467
+        },
+        {
+          "text": "teaches",
+          "start": 182.467,
+          "end": 182.855
+        },
+        {
+          "text": "you",
+          "start": 182.855,
+          "end": 183.017
+        },
+        {
+          "text": "auto-wait",
+          "start": 183.017,
+          "end": 183.73
+        },
+        {
+          "text": ".",
+          "start": 183.73,
+          "end": 183.842
+        },
+        {
+          "text": "Both",
+          "start": 183.842,
+          "end": 184.18
+        },
+        {
+          "text": "are",
+          "start": 184.18,
+          "end": 184.305
+        },
+        {
+          "text": "valid",
+          "start": 184.305,
+          "end": 184.98
+        },
+        {
+          "text": ".",
+          "start": 184.98,
+          "end": 185.08
+        },
+        {
+          "text": "The",
+          "start": 185.08,
+          "end": 185.217
+        },
+        {
+          "text": "cognitive",
+          "start": 185.217,
+          "end": 185.755
+        },
+        {
+          "text": "load",
+          "start": 185.755,
+          "end": 186.08
+        },
+        {
+          "text": "is",
+          "start": 186.08,
+          "end": 186.243
+        },
+        {
+          "text": "real",
+          "start": 186.243,
+          "end": 186.705
+        },
+        {
+          "text": ",",
+          "start": 186.705,
+          "end": 186.78
+        },
+        {
+          "text": "but",
+          "start": 186.78,
+          "end": 186.917
+        },
+        {
+          "text": "it's",
+          "start": 186.917,
+          "end": 187.08
+        },
+        {
+          "text": "worth",
+          "start": 187.08,
+          "end": 187.355
+        },
+        {
+          "text": "it",
+          "start": 187.355,
+          "end": 187.48
+        },
+        {
+          "text": "for",
+          "start": 187.48,
+          "end": 187.605
+        },
+        {
+          "text": "new",
+          "start": 187.605,
+          "end": 187.78
+        },
+        {
+          "text": "projects",
+          "start": 187.78,
+          "end": 188.68
+        },
+        {
+          "text": ".",
+          "start": 188.68,
+          "end": 188.83
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "I spent 10 years as a Selenium guy. I'm not the type to chase shiny tools. But Playwright is the rare case where \"newer\" actually means \"better\" across the board. That's my honest take after shipping both to production.",
+      "start": 189.15,
+      "end": 202.675,
+      "words": [
+        {
+          "text": "I",
+          "start": 189.4,
+          "end": 189.525
+        },
+        {
+          "text": "spent",
+          "start": 189.525,
+          "end": 189.787
+        },
+        {
+          "text": "10",
+          "start": 189.787,
+          "end": 190.05
+        },
+        {
+          "text": "years",
+          "start": 190.05,
+          "end": 190.4
+        },
+        {
+          "text": "as",
+          "start": 190.4,
+          "end": 190.513
+        },
+        {
+          "text": "a",
+          "start": 190.513,
+          "end": 190.575
+        },
+        {
+          "text": "Selenium",
+          "start": 190.575,
+          "end": 191.125
+        },
+        {
+          "text": "guy",
+          "start": 191.125,
+          "end": 191.75
+        },
+        {
+          "text": ".",
+          "start": 191.75,
+          "end": 191.875
+        },
+        {
+          "text": "I'm",
+          "start": 191.875,
+          "end": 192.038
+        },
+        {
+          "text": "not",
+          "start": 192.038,
+          "end": 192.212
+        },
+        {
+          "text": "the",
+          "start": 192.212,
+          "end": 192.3
+        },
+        {
+          "text": "type",
+          "start": 192.3,
+          "end": 192.6
+        },
+        {
+          "text": "to",
+          "start": 192.6,
+          "end": 192.725
+        },
+        {
+          "text": "chase",
+          "start": 192.725,
+          "end": 193.05
+        },
+        {
+          "text": "shiny",
+          "start": 193.05,
+          "end": 193.425
+        },
+        {
+          "text": "tools",
+          "start": 193.425,
+          "end": 194.275
+        },
+        {
+          "text": ".",
+          "start": 194.275,
+          "end": 194.375
+        },
+        {
+          "text": "But",
+          "start": 194.375,
+          "end": 194.538
+        },
+        {
+          "text": "Playwright",
+          "start": 194.538,
+          "end": 195.0
+        },
+        {
+          "text": "is",
+          "start": 195.0,
+          "end": 195.15
+        },
+        {
+          "text": "the",
+          "start": 195.15,
+          "end": 195.288
+        },
+        {
+          "text": "rare",
+          "start": 195.288,
+          "end": 195.525
+        },
+        {
+          "text": "case",
+          "start": 195.525,
+          "end": 195.925
+        },
+        {
+          "text": "where",
+          "start": 195.925,
+          "end": 196.125
+        },
+        {
+          "text": "\"",
+          "start": 196.125,
+          "end": 196.2
+        },
+        {
+          "text": "newer",
+          "start": 196.2,
+          "end": 196.7
+        },
+        {
+          "text": "\"",
+          "start": 196.7,
+          "end": 196.838
+        },
+        {
+          "text": "actually",
+          "start": 196.838,
+          "end": 197.275
+        },
+        {
+          "text": "means",
+          "start": 197.275,
+          "end": 197.65
+        },
+        {
+          "text": "\"",
+          "start": 197.65,
+          "end": 197.725
+        },
+        {
+          "text": "better",
+          "start": 197.725,
+          "end": 198.05
+        },
+        {
+          "text": "\"",
+          "start": 198.05,
+          "end": 198.125
+        },
+        {
+          "text": "across",
+          "start": 198.125,
+          "end": 198.5
+        },
+        {
+          "text": "the",
+          "start": 198.5,
+          "end": 198.6
+        },
+        {
+          "text": "board",
+          "start": 198.6,
+          "end": 199.325
+        },
+        {
+          "text": ".",
+          "start": 199.325,
+          "end": 199.488
+        },
+        {
+          "text": "That's",
+          "start": 199.488,
+          "end": 199.787
+        },
+        {
+          "text": "my",
+          "start": 199.787,
+          "end": 199.988
+        },
+        {
+          "text": "honest",
+          "start": 199.988,
+          "end": 200.375
+        },
+        {
+          "text": "take",
+          "start": 200.375,
+          "end": 200.625
+        },
+        {
+          "text": "after",
+          "start": 200.625,
+          "end": 200.937
+        },
+        {
+          "text": "shipping",
+          "start": 200.937,
+          "end": 201.3
+        },
+        {
+          "text": "both",
+          "start": 201.3,
+          "end": 201.575
+        },
+        {
+          "text": "to",
+          "start": 201.575,
+          "end": 201.675
+        },
+        {
+          "text": "production",
+          "start": 201.675,
+          "end": 202.525
+        },
+        {
+          "text": ".",
+          "start": 202.525,
+          "end": 202.675
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 202.995,
+      "end": 204.82,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 203.295,
+          "end": 203.795
+        },
+        {
+          "text": "and",
+          "start": 203.795,
+          "end": 203.92
+        },
+        {
+          "text": "Further",
+          "start": 203.92,
+          "end": 204.195
+        },
+        {
+          "text": "Reading",
+          "start": 204.195,
+          "end": 204.82
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Playwright , getting started",
+      "start": 205.265,
+      "end": 207.065,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 205.515,
+          "end": 205.977
+        },
+        {
+          "text": ",",
+          "start": 205.977,
+          "end": 206.04
+        },
+        {
+          "text": "getting",
+          "start": 206.04,
+          "end": 206.365
+        },
+        {
+          "text": "started",
+          "start": 206.365,
+          "end": 207.065
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "li",
+      "text": "Selenium , WebDriver documentation",
+      "start": 207.535,
+      "end": 210.235,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 207.835,
+          "end": 208.485
+        },
+        {
+          "text": ",",
+          "start": 208.485,
+          "end": 208.56
+        },
+        {
+          "text": "WebDriver",
+          "start": 208.56,
+          "end": 209.16
+        },
+        {
+          "text": "documentation",
+          "start": 209.16,
+          "end": 210.235
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Playwright vs Selenium , BrowserStack comparison",
+      "start": 210.655,
+      "end": 214.105,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 210.905,
+          "end": 211.28
+        },
+        {
+          "text": "vs",
+          "start": 211.28,
+          "end": 211.605
+        },
+        {
+          "text": "Selenium",
+          "start": 211.605,
+          "end": 212.367
+        },
+        {
+          "text": ",",
+          "start": 212.367,
+          "end": 212.455
+        },
+        {
+          "text": "BrowserStack",
+          "start": 212.455,
+          "end": 213.18
+        },
+        {
+          "text": "comparison",
+          "start": 213.18,
+          "end": 214.105
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "WebDriver BiDi specification",
+      "start": 214.525,
+      "end": 217.025,
+      "words": [
+        {
+          "text": "WebDriver",
+          "start": 214.825,
+          "end": 215.4
+        },
+        {
+          "text": "BiDi",
+          "start": 215.4,
+          "end": 215.9
+        },
+        {
+          "text": "specification",
+          "start": 215.9,
+          "end": 217.025
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "See also: The Browser Automation Trap (Jun 2026) , the long-form rant this post summarizes. · Selenium BiDi vs Playwright CDP (Jul 2026)",
+      "start": 217.445,
+      "end": 229.57,
+      "words": [
+        {
+          "text": "See",
+          "start": 217.72,
+          "end": 217.895
+        },
+        {
+          "text": "also",
+          "start": 217.895,
+          "end": 218.47
+        },
+        {
+          "text": ":",
+          "start": 218.47,
+          "end": 218.595
+        },
+        {
+          "text": "The",
+          "start": 218.595,
+          "end": 218.695
+        },
+        {
+          "text": "Browser",
+          "start": 218.695,
+          "end": 219.145
+        },
+        {
+          "text": "Automation",
+          "start": 219.145,
+          "end": 219.77
+        },
+        {
+          "text": "Trap",
+          "start": 219.77,
+          "end": 220.307
+        },
+        {
+          "text": "(",
+          "start": 220.307,
+          "end": 220.395
+        },
+        {
+          "text": "Jun",
+          "start": 220.395,
+          "end": 220.645
+        },
+        {
+          "text": "2026",
+          "start": 220.645,
+          "end": 221.77
+        },
+        {
+          "text": ")",
+          "start": 221.77,
+          "end": 221.858
+        },
+        {
+          "text": ",",
+          "start": 221.858,
+          "end": 221.92
+        },
+        {
+          "text": "the",
+          "start": 221.92,
+          "end": 222.045
+        },
+        {
+          "text": "long-form",
+          "start": 222.045,
+          "end": 222.62
+        },
+        {
+          "text": "rant",
+          "start": 222.62,
+          "end": 222.92
+        },
+        {
+          "text": "this",
+          "start": 222.92,
+          "end": 223.095
+        },
+        {
+          "text": "post",
+          "start": 223.095,
+          "end": 223.507
+        },
+        {
+          "text": "summarizes",
+          "start": 223.507,
+          "end": 224.67
+        },
+        {
+          "text": ".",
+          "start": 224.67,
+          "end": 224.833
+        },
+        {
+          "text": "Selenium",
+          "start": 224.895,
+          "end": 225.47
+        },
+        {
+          "text": "BiDi",
+          "start": 225.47,
+          "end": 225.932
+        },
+        {
+          "text": "vs",
+          "start": 225.932,
+          "end": 226.445
+        },
+        {
+          "text": "Playwright",
+          "start": 226.445,
+          "end": 226.92
+        },
+        {
+          "text": "CDP",
+          "start": 226.92,
+          "end": 227.882
+        },
+        {
+          "text": "(",
+          "start": 227.882,
+          "end": 227.97
+        },
+        {
+          "text": "Jul",
+          "start": 227.97,
+          "end": 228.245
+        },
+        {
+          "text": "2026",
+          "start": 228.245,
+          "end": 229.57
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
