@@ -57,7 +57,7 @@ html { scroll-padding-top: calc(var(--header-h) + 1rem); }
   .site-nav a { padding: 0.4rem 0.6rem; }
 }
 @media (max-width: 560px) {
-  .site-nav .rss-link, .site-nav .nav-projects { display: none; }   /* both stay in the footer */
+  .site-nav .rss-link, .site-nav .nav-portfolio--more { display: none; }   /* these stay in the footer */
   .site-title { font-size: 0.92rem; white-space: nowrap; }
 }
 @media (max-width: 360px) {

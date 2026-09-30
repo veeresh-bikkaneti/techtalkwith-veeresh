@@ -76,15 +76,9 @@
         <span class="terminal-prompt" aria-hidden="true">&gt;</span> {{ site.title }}
       </a>
       <nav class="site-nav" aria-label="Primary">
-        {% for header_page in site.header_pages %}
-          {% assign page_obj = site.pages | where: 'path', header_page | first %}
-          {% if page_obj %}
-          <a href="{{ page_obj.url | relative_url }}" {% if page.url == page_obj.url or page_obj.url == '/blog/' and page.layout == 'post' %}class="active" aria-current="page"{% endif %}>
-            {{ page_obj.title }}
-          </a>
-          {% endif %}
-        {% endfor %}
-        <a href="https://veeresh-bikkaneti.github.io/" class="nav-projects">Projects</a>
+        <a href="https://veeresh-bikkaneti.github.io/" class="nav-portfolio">Home</a>
+        <a href="https://veeresh-bikkaneti.github.io/#projects" class="nav-portfolio nav-portfolio--more">Projects</a>
+        <a href="https://veeresh-bikkaneti.github.io/#sites" class="nav-portfolio nav-portfolio--more">Live sites</a>
         <a href="{{ '/feed.xml' | relative_url }}" class="rss-link" title="RSS feed" aria-label="RSS feed">
           <i class="fas fa-rss" aria-hidden="true"></i>
         </a>
@@ -117,8 +111,11 @@
           </a>
           {% endif %}
         {% endfor %}
-          <a href="https://veeresh-bikkaneti.github.io/">
-            <i class="fas fa-fw fa-layer-group" aria-hidden="true"></i> All projects
+          <a href="https://veeresh-bikkaneti.github.io/#projects">
+            <i class="fas fa-fw fa-layer-group" aria-hidden="true"></i> Projects
+          </a>
+          <a href="https://veeresh-bikkaneti.github.io/#sites">
+            <i class="fas fa-fw fa-globe" aria-hidden="true"></i> Live sites
           </a>
       </div>
       <p class="footer-text">
