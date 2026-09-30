@@ -4,7 +4,7 @@ title: Home
 ---
 
 <section class="hero">
-  <canvas id="network-canvas" aria-hidden="true"></canvas>
+  <canvas id="network-canvas" class="network-canvas" aria-hidden="true"></canvas>
   <h1 class="hero-title">Tech Talk with Veeresh</h1>
   <p class="hero-subtitle">
     Principal QA Architect · AI Test Architect · 20+ years driving enterprise software quality. Writing about AI-driven test strategy, automation frameworks, and building quality engineering teams.

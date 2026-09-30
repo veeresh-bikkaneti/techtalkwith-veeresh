@@ -178,6 +178,7 @@ body::before {
 /* ============================================
    NETWORK CANVAS — Interconnected strings
    ============================================ */
+.network-canvas,
 #network-canvas {
   position: absolute;
   top: 0; left: 0;
@@ -391,10 +392,16 @@ body::before {
    POST PAGE — Clean, readable
    ============================================ */
 .post-header {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border);
 }
+.article-map { pointer-events: none; }
+.post-header .post-meta,
+.post-header .post-title,
+.post-header .post-excerpt { position: relative; z-index: 1; }
 
 .post-meta {
   display: flex;
@@ -1193,7 +1200,7 @@ body::before {
   .bento-card:hover { transform: none; }
   .btn-primary:hover { transform: none; }
   .mermaid-expand-btn:hover { transform: none; }
-  #network-canvas { display: none; }
+  #network-canvas, .network-canvas, .article-map { display: none; }
 }
 
 /* ============================================

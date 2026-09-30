@@ -1,14 +1,9 @@
-<section class="thoughts" id="thoughts" data-thoughts data-email="{{ site.comments_email }}" data-title="{{ page.title | strip_html | escape }}" data-page="{{ page.url | absolute_url }}">
+<section class="thoughts" id="thoughts" data-thoughts data-title="{{ page.title | strip_html | escape }}" data-page="{{ page.url | absolute_url }}">
   <h2>Add a thought</h2>
-  <p class="thoughts-lead">A note about this article. It comes to me by email. It does not show up under the post. The writing box stays shut until the code matches, and a second check runs before the message can reach the inbox.</p>
-  <p class="thoughts-sent" data-thoughts-sent hidden>Sent. Thank you. If a second check appeared, that is what keeps a script out of the inbox.</p>
-  <form class="thoughts-form" method="POST" action="" data-thoughts-form novalidate>
+  <p class="thoughts-lead">The writing box stays shut until the code matches. A note you save shows up under this article on this browser. It is not emailed. Posting it for everyone opens GitHub, which asks you to sign in.</p>
+  <ul class="thoughts-list" data-thoughts-list></ul>
+  <form class="thoughts-form" method="post" action="" data-thoughts-form novalidate>
     <input class="thoughts-honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
-    <input type="hidden" name="_captcha" value="true">
-    <input type="hidden" name="_template" value="box">
-    <input type="hidden" name="_subject" value="">
-    <input type="hidden" name="_next" value="">
-    <input type="hidden" name="article" value="">
     <div class="thoughts-gate" data-thoughts-gate>
       <canvas class="thoughts-canvas" data-thoughts-canvas width="240" height="76" aria-hidden="true"></canvas>
       <label class="thoughts-label">
@@ -30,7 +25,7 @@
         Thought
         <textarea class="thoughts-input" name="message" required maxlength="2000" rows="5"></textarea>
       </label>
-      <button type="submit" class="thoughts-primary">Send the thought</button>
+      <button type="submit" class="thoughts-primary">Save on this browser</button>
     </div>
   </form>
 </section>

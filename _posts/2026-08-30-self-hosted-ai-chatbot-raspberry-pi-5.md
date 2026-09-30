@@ -463,3 +463,15 @@ If those three come back clean, you're solid for another week.
 ---
 
 Built with AI-assisted coding agents: Claude Code (Anthropic) handled architecture, code generation, and testing, with multi-agent orchestration patterns inspired by Google's Antigravity framework. Enjoy your self-hosted AI webapp.
+
+## Sources & Further Reading
+
+The dollar figures in this post ($150 hardware, about $20 a year of electricity) are my estimate from the build, not a price printed by the vendors.
+
+- [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) — the board this build uses. The vendor site blocks the link checker, so this is the stable reference.
+- [Ollama](https://ollama.com/) — the local model runner.
+- [Nginx](https://nginx.org/en/docs/) — the reverse proxy in front of the app.
+- [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/) — what keeps the Node process up.
+- [SQLite](https://www.sqlite.org/docs.html) — the chat log.
+- [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/) — how the Pi is reached without opening a port.
+

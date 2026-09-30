@@ -5,6 +5,7 @@ layout: default
   <article class="post">
     <a class="post-back" href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left" aria-hidden="true"></i> All posts</a>
     <header class="post-header">
+      <canvas class="network-canvas article-map" data-particles="28" aria-hidden="true"></canvas>
       <div class="post-meta">
         <span><i class="fas fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.reading_time %}

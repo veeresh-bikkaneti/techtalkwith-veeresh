@@ -464,3 +464,10 @@ The barrier to entry for good BDD is way lower than people pretend. You don't ne
 Parallel BDD doesn't have to be a senior-engineer-only club. Clone it. Run one feature file end to end. Swap Google for your app.
 
 And if something confuses you, open an issue on the repo. Good frameworks get better when beginners tell you exactly where they tripped — preferably with logs, not just vibes.
+
+## Sources & Further Reading
+
+- [cucumberBDDParallel](https://github.com/veeresh-bikkaneti/cucumberBDDParallel) — the framework this post walks through.
+- [Cucumber, BDD](https://cucumber.io/docs/bdd/) — what the scenarios are for.
+- [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) — the browser driver under the Java examples.
+- [Cucable](https://github.com/trivago/cucable-plugin) — how the scenarios get split so they can run side by side.

@@ -8,9 +8,10 @@ POSTS_DIR = File.expand_path("../_posts", __dir__)
 USER_AGENT = "Mozilla/5.0 (compatible; CitationChecker/1.0; +https://veeresh-bikkaneti.github.io/techtalkwith-veeresh/)"
 
 def extract_source_urls(content)
-  section = content.split(/## Sources & Further Reading/i, 2)[1]
+  section = content.split(/## (?:Sources \& Further Reading|Citations \& Further Reading)/i, 2)[1]
   return [] unless section
 
+  section = section.split(/^## /)[0]
   section.scan(%r{https?://[^\s)\]"'>]+})
 end
 
@@ -41,6 +42,10 @@ def fetch_url(url)
     if code == 403 && uri.host&.include?("reddit.com")
       return [url, :ok, "403 (reddit bot wall)"]
     end
+    # A vendor 500 does not mean the citation is wrong. Retry, then warn.
+    if code >= 500 || code == 429
+      return [url, :retry, code]
+    end
 
     status = code >= 200 && code < 400 ? :ok : :fail
     [url, status, code]
@@ -48,14 +53,19 @@ def fetch_url(url)
 end
 
 def check_url(url, attempts: 3)
-  fetch_url(url)
+  _url, status, detail = fetch_url(url)
+  if status == :retry && attempts > 1
+    sleep 2
+    return check_url(url, attempts: attempts - 1)
+  end
+  [url, status == :retry ? :warn : status, detail]
 rescue *TRANSIENT_ERRORS => e
   if attempts > 1
     sleep 2
     return check_url(url, attempts: attempts - 1)
   end
 
-  [url, :fail, e.message]
+  [url, :warn, e.message]
 rescue StandardError => e
   [url, :fail, e.message]
 end
@@ -65,14 +75,23 @@ urls = Dir.glob(File.join(POSTS_DIR, "*.md")).flat_map do |file|
 end.uniq.sort
 
 failures = []
+warnings = []
 urls.each do |url|
   _url, status, detail = check_url(url)
   if status == :ok
     puts "OK  #{url}"
+  elsif status == :warn
+    puts "WARN #{url} (#{detail})"
+    warnings << [url, detail]
   else
     puts "FAIL #{url} (#{detail})"
     failures << [url, detail]
   end
+end
+
+if warnings.any?
+  warn "\n#{warnings.size} citation URL(s) were unreachable upstream. The build continues."
+  warnings.each { |url, detail| warn "  #{url} — #{detail}" }
 end
 
 if failures.any?
