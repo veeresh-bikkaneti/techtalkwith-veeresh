@@ -1,0 +1,101 @@
+.thoughts {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.thoughts h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  margin: 0 0 0.4rem;
+}
+
+.thoughts-lead,
+.thoughts-sent {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  max-width: 42rem;
+}
+
+.thoughts-form {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  display: grid;
+  gap: 0.85rem;
+}
+
+.thoughts-honey {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.thoughts-canvas {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-xs, 8px);
+  border: 1px solid var(--border);
+}
+
+.thoughts-label {
+  display: grid;
+  gap: 0.35rem;
+  font: 600 0.82rem/1.2 var(--font-sans);
+  color: var(--text-secondary);
+}
+
+.thoughts-input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs, 8px);
+  background: var(--bg);
+  color: var(--text);
+  font: 500 1rem/1.4 var(--font-sans);
+}
+
+.thoughts-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.thoughts-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.thoughts-primary,
+.thoughts-secondary {
+  border: 0;
+  cursor: pointer;
+  border-radius: var(--radius-pill);
+  font: 600 0.9rem/1 var(--font-sans);
+  padding: 0.6rem 0.95rem;
+}
+
+.thoughts-primary {
+  color: #fff;
+  background: var(--gradient-btn);
+}
+
+.thoughts-secondary {
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--border);
+}
+
+.thoughts-msg { margin: 0; color: var(--text-secondary); font-size: 0.88rem; min-height: 1.2em; }
+
+.thoughts-fields { display: grid; gap: 0.85rem; }
+.thoughts-fields[hidden],
+.thoughts-gate[hidden],
+.thoughts-sent[hidden],
+.thoughts-form[hidden] { display: none; }

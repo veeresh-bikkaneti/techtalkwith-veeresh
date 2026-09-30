@@ -1,0 +1,36 @@
+<section class="thoughts" id="thoughts" data-thoughts data-email="{{ site.comments_email }}" data-title="{{ page.title | strip_html | escape }}" data-page="{{ page.url | absolute_url }}">
+  <h2>Add a thought</h2>
+  <p class="thoughts-lead">A note about this article. It comes to me by email. It does not show up under the post. The writing box stays shut until the code matches, and a second check runs before the message can reach the inbox.</p>
+  <p class="thoughts-sent" data-thoughts-sent hidden>Sent. Thank you. If a second check appeared, that is what keeps a script out of the inbox.</p>
+  <form class="thoughts-form" method="POST" action="" data-thoughts-form novalidate>
+    <input class="thoughts-honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="hidden" name="_captcha" value="true">
+    <input type="hidden" name="_template" value="box">
+    <input type="hidden" name="_subject" value="">
+    <input type="hidden" name="_next" value="">
+    <input type="hidden" name="article" value="">
+    <div class="thoughts-gate" data-thoughts-gate>
+      <canvas class="thoughts-canvas" data-thoughts-canvas width="240" height="76" aria-hidden="true"></canvas>
+      <label class="thoughts-label">
+        Type the code
+        <input class="thoughts-input" data-thoughts-code autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="8" inputmode="text">
+      </label>
+      <div class="thoughts-actions">
+        <button type="button" class="thoughts-secondary" data-thoughts-refresh>New code</button>
+        <button type="button" class="thoughts-primary" data-thoughts-unlock>Unlock the box</button>
+      </div>
+      <p class="thoughts-msg" data-thoughts-msg role="status"></p>
+    </div>
+    <div class="thoughts-fields" data-thoughts-fields hidden>
+      <label class="thoughts-label">
+        Name
+        <input class="thoughts-input" name="name" required maxlength="80" autocomplete="name">
+      </label>
+      <label class="thoughts-label">
+        Thought
+        <textarea class="thoughts-input" name="message" required maxlength="2000" rows="5"></textarea>
+      </label>
+      <button type="submit" class="thoughts-primary">Send the thought</button>
+    </div>
+  </form>
+</section>
