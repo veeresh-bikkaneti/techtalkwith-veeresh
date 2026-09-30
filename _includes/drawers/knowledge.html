@@ -1,0 +1,42 @@
+<figure class="drawer-fig" data-drawers="cycle" data-interval="2400">
+  <div class="drawer-top">
+    <div>
+      <p class="drawer-kicker">Flow · knowledge</p>
+      <p class="drawer-heading">Search the pile, or open the file</p>
+    </div>
+    <button type="button" class="drawer-btn" data-play>Play</button>
+  </div>
+  <div class="drawer-stage">
+    <div class="drawer-steps">
+      <button type="button" class="drawer-btn drawer-btn-icon" data-go="0" aria-label="Step 1">1</button>
+      <button type="button" class="drawer-btn drawer-btn-icon" data-go="1" aria-label="Step 2">2</button>
+      <button type="button" class="drawer-btn drawer-btn-icon" data-go="2" aria-label="Step 3">3</button>
+      <button type="button" class="drawer-btn drawer-btn-icon" data-go="3" aria-label="Step 4">4</button>
+    </div>
+    <div class="drawer-panel" data-panel="0">
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col"><p class="drawer-k">RAG · vector search</p><strong>A pile of writing</strong><p>The Sept 25 post, old tickets, a Slack export.</p></div>
+        <div class="drawer-col is-choice"><p class="drawer-k">OKF · linked markdown</p><strong>A directory you can open</strong><p>decisions/index.md lists the files that count.</p></div>
+      </div>
+    </div>
+    <div class="drawer-panel" data-panel="1" hidden>
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col"><p class="drawer-k">RAG · vector search</p><strong>Cut into chunks</strong><p>Paragraphs become vectors. The decision's status may split in half.</p></div>
+        <div class="drawer-col is-choice"><p class="drawer-k">OKF · linked markdown</p><strong>Follow the link</strong><p>index.md links to web-search.md. The link is the relationship.</p></div>
+      </div>
+    </div>
+    <div class="drawer-panel" data-panel="2" hidden>
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col"><p class="drawer-k">RAG · vector search</p><strong>Nearest neighbor</strong><p>You get a paragraph that sounds like the decision.</p></div>
+        <div class="drawer-col is-choice"><p class="drawer-k">OKF · linked markdown</p><strong>The file itself</strong><p>You get the file someone reviewed. Status is a field, not a vibe.</p></div>
+      </div>
+    </div>
+    <div class="drawer-panel" data-panel="3" hidden>
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col"><p class="drawer-k">Evidence</p><strong>A paragraph</strong><p>The model can decide to call a tool. It does not come with one.</p></div>
+        <div class="drawer-col is-choice"><p class="drawer-k">The decision</p><strong>A status</strong><p>status: scoped. The key lives in a proxy. Not shipped.</p></div>
+      </div>
+    </div>
+  </div>
+  <p class="drawer-caption">Same question, two retrieval styles. The left side can quote you. The right side can tell you what was decided.</p>
+</figure>

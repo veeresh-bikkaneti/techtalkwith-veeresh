@@ -1,0 +1,60 @@
+<figure class="drawer-fig" data-drawers="cycle" data-interval="3400">
+  <div class="drawer-top">
+    <div>
+      <p class="drawer-kicker">Flow · rulebooks</p>
+      <p class="drawer-heading">Who actually reads which file</p>
+    </div>
+    <button type="button" class="drawer-btn" data-play>Play</button>
+  </div>
+  <div class="drawer-stage">
+    <div class="drawer-steps">
+      <button type="button" class="drawer-btn" data-go="0">Only AGENTS.md</button>
+      <button type="button" class="drawer-btn" data-go="1">Both files exist</button>
+      <button type="button" class="drawer-btn" data-go="2">CLAUDE.md imports</button>
+    </div>
+    <div class="drawer-panel" data-panel="0" data-note="Claude Code 2.1.277 reads AGENTS.md, because CLAUDE.md is absent. Codex, Cursor, and Gemini CLI were already reading it.">
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col is-choice">
+          <p class="drawer-k">Shared file</p>
+          <strong>AGENTS.md</strong>
+          <p>Plain markdown. No schema. The README for agents. CLAUDE.md is not in the repo.</p>
+        </div>
+        <div class="drawer-col is-choice">
+          <p class="drawer-k">Readers</p>
+          <strong>Everyone, including Claude Code</strong>
+          <p>One body of rules. The absence of CLAUDE.md is the feature.</p>
+        </div>
+      </div>
+    </div>
+    <div class="drawer-panel" data-panel="1" hidden data-note="If both files exist, Claude Code reads CLAUDE.md and ignores AGENTS.md. The other tools still read AGENTS.md. Two files means two sources of truth.">
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col">
+          <p class="drawer-k">Shared file, ignored by Claude</p>
+          <strong>AGENTS.md</strong>
+          <p>Still the file Codex, Cursor, and Gemini CLI open.</p>
+        </div>
+        <div class="drawer-col is-choice">
+          <p class="drawer-k">Wins for Claude Code</p>
+          <strong>CLAUDE.md</strong>
+          <p>Anthropic's file. Present, so it wins, and the shared rules are skipped.</p>
+        </div>
+      </div>
+    </div>
+    <div class="drawer-panel" data-panel="2" hidden data-note="A one-line @AGENTS.md import. Claude-only notes can sit under that line. Everyone else keeps reading AGENTS.md directly.">
+      <div class="drawer-split drawer-copy">
+        <div class="drawer-col is-choice">
+          <p class="drawer-k">The real rulebook</p>
+          <strong>AGENTS.md</strong>
+          <p>One body of rules. This is the file you edit.</p>
+        </div>
+        <div class="drawer-col is-choice">
+          <p class="drawer-k">Thin shim</p>
+          <strong>CLAUDE.md → @AGENTS.md</strong>
+          <p>Claude reads the import, then any Claude-only lines under it.</p>
+        </div>
+      </div>
+    </div>
+    <p class="drawer-note" data-note-slot></p>
+  </div>
+  <p class="drawer-caption">Play walks the three setups. The useful one is the third: AGENTS.md holds the rules, and CLAUDE.md only adds Claude-specific notes.</p>
+</figure>
