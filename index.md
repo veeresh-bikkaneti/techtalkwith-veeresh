@@ -8,7 +8,7 @@ title: Home
   <h1 class="hero-title">Tech Talk with Veeresh</h1>
   <p class="hero-subtitle">
     Principal QA Architect · AI Test Architect · writing on AI-driven test strategy, automation frameworks, and quality engineering teams.
-    <a href="https://veeresh-bikkaneti.github.io/#about">About Veeresh</a> lives on the portfolio.
+    <a href="https://veeresh-bikkaneti.github.io/about.html">About Veeresh</a> lives on the portfolio.
   </p>
   <div class="hero-links">
     <a href="{{ '/blog/' | relative_url }}" class="btn-primary"><i class="fas fa-rss" aria-hidden="true"></i> Latest posts</a>
@@ -108,7 +108,7 @@ title: Home
       </div>
     </article>
     <a class="bento-card bento-card--cta" href="https://veeresh-bikkaneti.github.io/" data-reveal>
-      <span class="bento-cta-kicker">Live sites &amp; tools</span>
+      <span class="bento-cta-kicker">Live sites & tools</span>
       <span class="bento-cta-title">System Design Mastery, TicketRouter, testing guides and more</span>
       <span class="bento-cta-link">Browse everything <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
     </a>
