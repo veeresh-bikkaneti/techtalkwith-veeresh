@@ -28,7 +28,7 @@ Go to `https://github.com/veeresh-bikkaneti/<repo>/settings/rules/new?target=bra
 Go to `https://github.com/veeresh-bikkaneti/<repo>/settings`, scroll to **Pull Requests**, and UNCHECK **Allow auto-merge** (leave the other boxes as they are). Click Save if a button appears. This stops anyone or any bot from auto-merging.
 
 ## Before creating, for each repo
-- If a ruleset or classic branch protection rule already exists for the default branch, DO NOT overwrite or delete it. Skip that repo and report what is already there.
+- If a ruleset or classic branch protection rule already exists for the default branch, DO NOT create a second one and DO NOT edit or delete the existing one. Open it, read it, and record: type (ruleset or classic), name, required approvals, code-owner review on/off, and who can bypass. Still do the auto-merge step for that repo. Then move on.
 - If the page says rulesets are unavailable (private repos on a free plan), skip it and mark it "needs GitHub Pro or make public". Do not try to upgrade or pay for anything.
 - If the repo has no commits / no default branch yet, skip it.
 
@@ -38,7 +38,7 @@ Go to `https://github.com/veeresh-bikkaneti/<repo>/settings`, scroll to **Pull R
 - If a page looks different from what I described, stop and tell me instead of guessing.
 
 ## Report at the end
-A table with columns: repo | result (created / already protected / skipped) | reason. Then list anything I need to do by hand.
+A table with columns: repo | result (created / already protected / skipped) | required approvals | code-owner review | bypass | auto-merge now off (yes/no) | reason. Then list anything I need to do by hand.
 
 ## Start with one repo
-Do `techtalkwith-veeresh` first, show me the final ruleset page, and wait for me to say "continue" before doing the rest.
+Do `techtalkwith-veeresh` first. That repo is known to already have a rule that requires 1 approving review, so do NOT create a new ruleset there. Read the existing rule, tell me exactly what it is and whether "Allow auto-merge" was on, do the auto-merge step, and wait for me to say "continue" before doing the rest.
