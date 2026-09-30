@@ -1,0 +1,3641 @@
+{
+  "slug": "functional-tester-secure-development-lifecycle",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 300.975,
+  "contentHash": "9ffb4263f129746b1454687a1808829c7207500fbd9752920a097ac93a9276a4",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "The Role of a Functional Tester in the Secure Development Lifecycle",
+      "start": 0.0,
+      "end": 4.275,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.275,
+          "end": 0.388
+        },
+        {
+          "text": "Role",
+          "start": 0.388,
+          "end": 0.8
+        },
+        {
+          "text": "of",
+          "start": 0.8,
+          "end": 0.887
+        },
+        {
+          "text": "a",
+          "start": 0.887,
+          "end": 1.0
+        },
+        {
+          "text": "Functional",
+          "start": 1.0,
+          "end": 1.55
+        },
+        {
+          "text": "Tester",
+          "start": 1.55,
+          "end": 2.275
+        },
+        {
+          "text": "in",
+          "start": 2.275,
+          "end": 2.388
+        },
+        {
+          "text": "the",
+          "start": 2.388,
+          "end": 2.475
+        },
+        {
+          "text": "Secure",
+          "start": 2.475,
+          "end": 2.837
+        },
+        {
+          "text": "Development",
+          "start": 2.837,
+          "end": 3.325
+        },
+        {
+          "text": "Lifecycle",
+          "start": 3.325,
+          "end": 4.275
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "Security isn't someone else's job in QA , it's yours too, whether or not your title says \"security.\" As a functional tester, you're already poking at edge cases; this is how I slot security thinking into every SDLC phase without pretending I'm a pentester.",
+      "start": 4.67,
+      "end": 22.02,
+      "words": [
+        {
+          "text": "Security",
+          "start": 4.945,
+          "end": 5.495
+        },
+        {
+          "text": "isn't",
+          "start": 5.495,
+          "end": 5.77
+        },
+        {
+          "text": "someone",
+          "start": 5.77,
+          "end": 6.008
+        },
+        {
+          "text": "else's",
+          "start": 6.008,
+          "end": 6.407
+        },
+        {
+          "text": "job",
+          "start": 6.407,
+          "end": 6.77
+        },
+        {
+          "text": "in",
+          "start": 6.77,
+          "end": 6.92
+        },
+        {
+          "text": "QA",
+          "start": 6.92,
+          "end": 7.72
+        },
+        {
+          "text": ",",
+          "start": 7.72,
+          "end": 7.82
+        },
+        {
+          "text": "it's",
+          "start": 7.82,
+          "end": 7.995
+        },
+        {
+          "text": "yours",
+          "start": 7.995,
+          "end": 8.308
+        },
+        {
+          "text": "too",
+          "start": 8.308,
+          "end": 8.795
+        },
+        {
+          "text": ",",
+          "start": 8.795,
+          "end": 8.933
+        },
+        {
+          "text": "whether",
+          "start": 8.933,
+          "end": 9.27
+        },
+        {
+          "text": "or",
+          "start": 9.27,
+          "end": 9.37
+        },
+        {
+          "text": "not",
+          "start": 9.37,
+          "end": 9.582
+        },
+        {
+          "text": "your",
+          "start": 9.582,
+          "end": 9.695
+        },
+        {
+          "text": "title",
+          "start": 9.695,
+          "end": 10.07
+        },
+        {
+          "text": "says",
+          "start": 10.07,
+          "end": 10.495
+        },
+        {
+          "text": "\"",
+          "start": 10.495,
+          "end": 10.57
+        },
+        {
+          "text": "security",
+          "start": 10.57,
+          "end": 11.67
+        },
+        {
+          "text": ".",
+          "start": 11.67,
+          "end": 11.795
+        },
+        {
+          "text": "\"",
+          "start": 11.795,
+          "end": 11.845
+        },
+        {
+          "text": "As",
+          "start": 11.845,
+          "end": 12.008
+        },
+        {
+          "text": "a",
+          "start": 12.008,
+          "end": 12.082
+        },
+        {
+          "text": "functional",
+          "start": 12.082,
+          "end": 12.595
+        },
+        {
+          "text": "tester",
+          "start": 12.595,
+          "end": 13.245
+        },
+        {
+          "text": ",",
+          "start": 13.245,
+          "end": 13.345
+        },
+        {
+          "text": "you're",
+          "start": 13.345,
+          "end": 13.533
+        },
+        {
+          "text": "already",
+          "start": 13.533,
+          "end": 13.92
+        },
+        {
+          "text": "poking",
+          "start": 13.92,
+          "end": 14.295
+        },
+        {
+          "text": "at",
+          "start": 14.295,
+          "end": 14.395
+        },
+        {
+          "text": "edge",
+          "start": 14.395,
+          "end": 14.62
+        },
+        {
+          "text": "cases",
+          "start": 14.62,
+          "end": 15.545
+        },
+        {
+          "text": ";",
+          "start": 15.545,
+          "end": 15.658
+        },
+        {
+          "text": "this",
+          "start": 15.658,
+          "end": 15.932
+        },
+        {
+          "text": "is",
+          "start": 15.932,
+          "end": 16.095
+        },
+        {
+          "text": "how",
+          "start": 16.095,
+          "end": 16.295
+        },
+        {
+          "text": "I",
+          "start": 16.295,
+          "end": 16.47
+        },
+        {
+          "text": "slot",
+          "start": 16.47,
+          "end": 16.82
+        },
+        {
+          "text": "security",
+          "start": 16.82,
+          "end": 17.407
+        },
+        {
+          "text": "thinking",
+          "start": 17.407,
+          "end": 17.733
+        },
+        {
+          "text": "into",
+          "start": 17.733,
+          "end": 18.02
+        },
+        {
+          "text": "every",
+          "start": 18.02,
+          "end": 18.407
+        },
+        {
+          "text": "SDLC",
+          "start": 18.407,
+          "end": 19.207
+        },
+        {
+          "text": "phase",
+          "start": 19.207,
+          "end": 19.832
+        },
+        {
+          "text": "without",
+          "start": 19.832,
+          "end": 20.17
+        },
+        {
+          "text": "pretending",
+          "start": 20.17,
+          "end": 20.682
+        },
+        {
+          "text": "I'm",
+          "start": 20.682,
+          "end": 20.833
+        },
+        {
+          "text": "a",
+          "start": 20.833,
+          "end": 20.895
+        },
+        {
+          "text": "pentester",
+          "start": 20.895,
+          "end": 21.87
+        },
+        {
+          "text": ".",
+          "start": 21.87,
+          "end": 22.02
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "h2",
+      "text": "1. Requirements Phase",
+      "start": 22.34,
+      "end": 24.115,
+      "words": [
+        {
+          "text": "1",
+          "start": 22.665,
+          "end": 22.89
+        },
+        {
+          "text": ".",
+          "start": 22.89,
+          "end": 22.94
+        },
+        {
+          "text": "Requirements",
+          "start": 22.94,
+          "end": 23.465
+        },
+        {
+          "text": "Phase",
+          "start": 23.465,
+          "end": 24.115
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "During this phase, functional testers collaborate with security experts to understand potential security risks. By applying misuse and abuse thinking, they help identify features that could introduce security flaws.",
+      "start": 24.585,
+      "end": 38.285,
+      "words": [
+        {
+          "text": "During",
+          "start": 24.885,
+          "end": 25.16
+        },
+        {
+          "text": "this",
+          "start": 25.16,
+          "end": 25.385
+        },
+        {
+          "text": "phase",
+          "start": 25.385,
+          "end": 25.985
+        },
+        {
+          "text": ",",
+          "start": 25.985,
+          "end": 26.097
+        },
+        {
+          "text": "functional",
+          "start": 26.097,
+          "end": 26.61
+        },
+        {
+          "text": "testers",
+          "start": 26.61,
+          "end": 27.122
+        },
+        {
+          "text": "collaborate",
+          "start": 27.122,
+          "end": 27.722
+        },
+        {
+          "text": "with",
+          "start": 27.722,
+          "end": 27.885
+        },
+        {
+          "text": "security",
+          "start": 27.885,
+          "end": 28.435
+        },
+        {
+          "text": "experts",
+          "start": 28.435,
+          "end": 29.247
+        },
+        {
+          "text": "to",
+          "start": 29.247,
+          "end": 29.385
+        },
+        {
+          "text": "understand",
+          "start": 29.385,
+          "end": 30.035
+        },
+        {
+          "text": "potential",
+          "start": 30.035,
+          "end": 30.535
+        },
+        {
+          "text": "security",
+          "start": 30.535,
+          "end": 31.035
+        },
+        {
+          "text": "risks",
+          "start": 31.035,
+          "end": 31.935
+        },
+        {
+          "text": ".",
+          "start": 31.935,
+          "end": 32.072
+        },
+        {
+          "text": "By",
+          "start": 32.072,
+          "end": 32.285
+        },
+        {
+          "text": "applying",
+          "start": 32.285,
+          "end": 32.735
+        },
+        {
+          "text": "misuse",
+          "start": 32.735,
+          "end": 33.285
+        },
+        {
+          "text": "and",
+          "start": 33.285,
+          "end": 33.397
+        },
+        {
+          "text": "abuse",
+          "start": 33.397,
+          "end": 33.735
+        },
+        {
+          "text": "thinking",
+          "start": 33.735,
+          "end": 34.335
+        },
+        {
+          "text": ",",
+          "start": 34.335,
+          "end": 34.435
+        },
+        {
+          "text": "they",
+          "start": 34.435,
+          "end": 34.585
+        },
+        {
+          "text": "help",
+          "start": 34.585,
+          "end": 34.872
+        },
+        {
+          "text": "identify",
+          "start": 34.872,
+          "end": 35.472
+        },
+        {
+          "text": "features",
+          "start": 35.472,
+          "end": 36.06
+        },
+        {
+          "text": "that",
+          "start": 36.06,
+          "end": 36.21
+        },
+        {
+          "text": "could",
+          "start": 36.21,
+          "end": 36.385
+        },
+        {
+          "text": "introduce",
+          "start": 36.385,
+          "end": 36.935
+        },
+        {
+          "text": "security",
+          "start": 36.935,
+          "end": 37.385
+        },
+        {
+          "text": "flaws",
+          "start": 37.385,
+          "end": 38.135
+        },
+        {
+          "text": ".",
+          "start": 38.135,
+          "end": 38.285
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Key Activities:",
+      "start": 38.605,
+      "end": 40.205,
+      "words": [
+        {
+          "text": "Key",
+          "start": 38.93,
+          "end": 39.105
+        },
+        {
+          "text": "Activities",
+          "start": 39.105,
+          "end": 40.03
+        },
+        {
+          "text": ":",
+          "start": 40.03,
+          "end": 40.205
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "li",
+      "text": "Define security requirements and acceptance criteria",
+      "start": 40.525,
+      "end": 44.1,
+      "words": [
+        {
+          "text": "Define",
+          "start": 40.8,
+          "end": 41.275
+        },
+        {
+          "text": "security",
+          "start": 41.275,
+          "end": 41.712
+        },
+        {
+          "text": "requirements",
+          "start": 41.712,
+          "end": 42.525
+        },
+        {
+          "text": "and",
+          "start": 42.525,
+          "end": 42.662
+        },
+        {
+          "text": "acceptance",
+          "start": 42.662,
+          "end": 43.225
+        },
+        {
+          "text": "criteria",
+          "start": 43.225,
+          "end": 44.1
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "Identify potential security risks and vulnerabilities",
+      "start": 44.57,
+      "end": 48.42,
+      "words": [
+        {
+          "text": "Identify",
+          "start": 44.87,
+          "end": 45.52
+        },
+        {
+          "text": "potential",
+          "start": 45.52,
+          "end": 45.995
+        },
+        {
+          "text": "security",
+          "start": 45.995,
+          "end": 46.445
+        },
+        {
+          "text": "risks",
+          "start": 46.445,
+          "end": 47.095
+        },
+        {
+          "text": "and",
+          "start": 47.095,
+          "end": 47.245
+        },
+        {
+          "text": "vulnerabilities",
+          "start": 47.245,
+          "end": 48.42
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Create test scenarios for security requirements",
+      "start": 48.84,
+      "end": 51.865,
+      "words": [
+        {
+          "text": "Create",
+          "start": 49.115,
+          "end": 49.415
+        },
+        {
+          "text": "test",
+          "start": 49.415,
+          "end": 49.665
+        },
+        {
+          "text": "scenarios",
+          "start": 49.665,
+          "end": 50.44
+        },
+        {
+          "text": "for",
+          "start": 50.44,
+          "end": 50.565
+        },
+        {
+          "text": "security",
+          "start": 50.565,
+          "end": 50.977
+        },
+        {
+          "text": "requirements",
+          "start": 50.977,
+          "end": 51.865
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "Example Test Case:",
+      "start": 52.31,
+      "end": 54.16,
+      "words": [
+        {
+          "text": "Example",
+          "start": 52.61,
+          "end": 53.085
+        },
+        {
+          "text": "Test",
+          "start": 53.085,
+          "end": 53.385
+        },
+        {
+          "text": "Case",
+          "start": 53.385,
+          "end": 53.985
+        },
+        {
+          "text": ":",
+          "start": 53.985,
+          "end": 54.16
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h2",
+      "text": "2. Design Phase",
+      "start": 54.48,
+      "end": 56.08,
+      "words": [
+        {
+          "text": "2.",
+          "start": 54.83,
+          "end": 55.005
+        },
+        {
+          "text": "Design",
+          "start": 55.005,
+          "end": 55.38
+        },
+        {
+          "text": "Phase",
+          "start": 55.38,
+          "end": 56.08
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "Functional testers participate in threat modeling sessions, analyzing designs to identify security flaws. Their insights are valuable in architecture review boards, where key design decisions are made.",
+      "start": 56.575,
+      "end": 70.05,
+      "words": [
+        {
+          "text": "Functional",
+          "start": 56.85,
+          "end": 57.325
+        },
+        {
+          "text": "testers",
+          "start": 57.325,
+          "end": 57.962
+        },
+        {
+          "text": "participate",
+          "start": 57.962,
+          "end": 58.725
+        },
+        {
+          "text": "in",
+          "start": 58.725,
+          "end": 58.925
+        },
+        {
+          "text": "threat",
+          "start": 58.925,
+          "end": 59.237
+        },
+        {
+          "text": "modeling",
+          "start": 59.237,
+          "end": 59.7
+        },
+        {
+          "text": "sessions",
+          "start": 59.7,
+          "end": 60.525
+        },
+        {
+          "text": ",",
+          "start": 60.525,
+          "end": 60.662
+        },
+        {
+          "text": "analyzing",
+          "start": 60.662,
+          "end": 61.325
+        },
+        {
+          "text": "designs",
+          "start": 61.325,
+          "end": 61.95
+        },
+        {
+          "text": "to",
+          "start": 61.95,
+          "end": 62.112
+        },
+        {
+          "text": "identify",
+          "start": 62.112,
+          "end": 62.8
+        },
+        {
+          "text": "security",
+          "start": 62.8,
+          "end": 63.25
+        },
+        {
+          "text": "flaws",
+          "start": 63.25,
+          "end": 64.175
+        },
+        {
+          "text": ".",
+          "start": 64.175,
+          "end": 64.337
+        },
+        {
+          "text": "Their",
+          "start": 64.337,
+          "end": 64.575
+        },
+        {
+          "text": "insights",
+          "start": 64.575,
+          "end": 65.1
+        },
+        {
+          "text": "are",
+          "start": 65.1,
+          "end": 65.262
+        },
+        {
+          "text": "valuable",
+          "start": 65.262,
+          "end": 65.862
+        },
+        {
+          "text": "in",
+          "start": 65.862,
+          "end": 66.037
+        },
+        {
+          "text": "architecture",
+          "start": 66.037,
+          "end": 66.675
+        },
+        {
+          "text": "review",
+          "start": 66.675,
+          "end": 67.025
+        },
+        {
+          "text": "boards",
+          "start": 67.025,
+          "end": 67.65
+        },
+        {
+          "text": ",",
+          "start": 67.65,
+          "end": 67.75
+        },
+        {
+          "text": "where",
+          "start": 67.75,
+          "end": 67.937
+        },
+        {
+          "text": "key",
+          "start": 67.937,
+          "end": 68.2
+        },
+        {
+          "text": "design",
+          "start": 68.2,
+          "end": 68.6
+        },
+        {
+          "text": "decisions",
+          "start": 68.6,
+          "end": 69.175
+        },
+        {
+          "text": "are",
+          "start": 69.175,
+          "end": 69.275
+        },
+        {
+          "text": "made",
+          "start": 69.275,
+          "end": 69.875
+        },
+        {
+          "text": ".",
+          "start": 69.875,
+          "end": 70.05
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Security Design Considerations:",
+      "start": 70.37,
+      "end": 72.945,
+      "words": [
+        {
+          "text": "Security",
+          "start": 70.645,
+          "end": 71.245
+        },
+        {
+          "text": "Design",
+          "start": 71.245,
+          "end": 71.645
+        },
+        {
+          "text": "Considerations",
+          "start": 71.645,
+          "end": 72.795
+        },
+        {
+          "text": ":",
+          "start": 72.795,
+          "end": 72.945
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "Authentication and authorization flows",
+      "start": 73.265,
+      "end": 75.915,
+      "words": [
+        {
+          "text": "Authentication",
+          "start": 73.54,
+          "end": 74.365
+        },
+        {
+          "text": "and",
+          "start": 74.365,
+          "end": 74.49
+        },
+        {
+          "text": "authorization",
+          "start": 74.49,
+          "end": 75.215
+        },
+        {
+          "text": "flows",
+          "start": 75.215,
+          "end": 75.915
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Data encryption and protection methods",
+      "start": 76.36,
+      "end": 78.935,
+      "words": [
+        {
+          "text": "Data",
+          "start": 76.66,
+          "end": 76.985
+        },
+        {
+          "text": "encryption",
+          "start": 76.985,
+          "end": 77.585
+        },
+        {
+          "text": "and",
+          "start": 77.585,
+          "end": 77.71
+        },
+        {
+          "text": "protection",
+          "start": 77.71,
+          "end": 78.21
+        },
+        {
+          "text": "methods",
+          "start": 78.21,
+          "end": 78.935
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "API security design patterns",
+      "start": 79.38,
+      "end": 81.805,
+      "words": [
+        {
+          "text": "API",
+          "start": 79.68,
+          "end": 80.155
+        },
+        {
+          "text": "security",
+          "start": 80.155,
+          "end": 80.655
+        },
+        {
+          "text": "design",
+          "start": 80.655,
+          "end": 81.03
+        },
+        {
+          "text": "patterns",
+          "start": 81.03,
+          "end": 81.805
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Example Security Test:",
+      "start": 82.25,
+      "end": 84.275,
+      "words": [
+        {
+          "text": "Example",
+          "start": 82.525,
+          "end": 83.075
+        },
+        {
+          "text": "Security",
+          "start": 83.075,
+          "end": 83.5
+        },
+        {
+          "text": "Test",
+          "start": 83.5,
+          "end": 84.1
+        },
+        {
+          "text": ":",
+          "start": 84.1,
+          "end": 84.275
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h2",
+      "text": "3. Development Phase",
+      "start": 84.595,
+      "end": 86.295,
+      "words": [
+        {
+          "text": "3.",
+          "start": 84.92,
+          "end": 85.132
+        },
+        {
+          "text": "Development",
+          "start": 85.132,
+          "end": 85.62
+        },
+        {
+          "text": "Phase",
+          "start": 85.62,
+          "end": 86.295
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "Testers conduct code reviews alongside developers. While their primary focus is on functionality, they also look for security bugs, ensuring that coding errors do not introduce vulnerabilities.",
+      "start": 86.765,
+      "end": 99.415,
+      "words": [
+        {
+          "text": "Testers",
+          "start": 87.015,
+          "end": 87.49
+        },
+        {
+          "text": "conduct",
+          "start": 87.49,
+          "end": 88.002
+        },
+        {
+          "text": "code",
+          "start": 88.002,
+          "end": 88.34
+        },
+        {
+          "text": "reviews",
+          "start": 88.34,
+          "end": 88.902
+        },
+        {
+          "text": "alongside",
+          "start": 88.902,
+          "end": 89.54
+        },
+        {
+          "text": "developers",
+          "start": 89.54,
+          "end": 90.615
+        },
+        {
+          "text": ".",
+          "start": 90.615,
+          "end": 90.74
+        },
+        {
+          "text": "While",
+          "start": 90.74,
+          "end": 90.927
+        },
+        {
+          "text": "their",
+          "start": 90.927,
+          "end": 91.102
+        },
+        {
+          "text": "primary",
+          "start": 91.102,
+          "end": 91.602
+        },
+        {
+          "text": "focus",
+          "start": 91.602,
+          "end": 92.065
+        },
+        {
+          "text": "is",
+          "start": 92.065,
+          "end": 92.177
+        },
+        {
+          "text": "on",
+          "start": 92.177,
+          "end": 92.34
+        },
+        {
+          "text": "functionality",
+          "start": 92.34,
+          "end": 93.315
+        },
+        {
+          "text": ",",
+          "start": 93.315,
+          "end": 93.44
+        },
+        {
+          "text": "they",
+          "start": 93.44,
+          "end": 93.602
+        },
+        {
+          "text": "also",
+          "start": 93.602,
+          "end": 93.99
+        },
+        {
+          "text": "look",
+          "start": 93.99,
+          "end": 94.215
+        },
+        {
+          "text": "for",
+          "start": 94.215,
+          "end": 94.365
+        },
+        {
+          "text": "security",
+          "start": 94.365,
+          "end": 94.865
+        },
+        {
+          "text": "bugs",
+          "start": 94.865,
+          "end": 95.515
+        },
+        {
+          "text": ",",
+          "start": 95.515,
+          "end": 95.615
+        },
+        {
+          "text": "ensuring",
+          "start": 95.615,
+          "end": 96.165
+        },
+        {
+          "text": "that",
+          "start": 96.165,
+          "end": 96.327
+        },
+        {
+          "text": "coding",
+          "start": 96.327,
+          "end": 96.715
+        },
+        {
+          "text": "errors",
+          "start": 96.715,
+          "end": 97.165
+        },
+        {
+          "text": "do",
+          "start": 97.165,
+          "end": 97.315
+        },
+        {
+          "text": "not",
+          "start": 97.315,
+          "end": 97.565
+        },
+        {
+          "text": "introduce",
+          "start": 97.565,
+          "end": 98.09
+        },
+        {
+          "text": "vulnerabilities",
+          "start": 98.09,
+          "end": 99.265
+        },
+        {
+          "text": ".",
+          "start": 99.265,
+          "end": 99.415
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Security Testing Activities:",
+      "start": 99.735,
+      "end": 101.985,
+      "words": [
+        {
+          "text": "Security",
+          "start": 100.01,
+          "end": 100.56
+        },
+        {
+          "text": "Testing",
+          "start": 100.56,
+          "end": 100.935
+        },
+        {
+          "text": "Activities",
+          "start": 100.935,
+          "end": 101.835
+        },
+        {
+          "text": ":",
+          "start": 101.835,
+          "end": 101.985
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Code review for security vulnerabilities",
+      "start": 102.305,
+      "end": 105.03,
+      "words": [
+        {
+          "text": "Code",
+          "start": 102.58,
+          "end": 102.88
+        },
+        {
+          "text": "review",
+          "start": 102.88,
+          "end": 103.355
+        },
+        {
+          "text": "for",
+          "start": 103.355,
+          "end": 103.48
+        },
+        {
+          "text": "security",
+          "start": 103.48,
+          "end": 103.93
+        },
+        {
+          "text": "vulnerabilities",
+          "start": 103.93,
+          "end": 105.03
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Implementation of security test cases",
+      "start": 105.45,
+      "end": 108.15,
+      "words": [
+        {
+          "text": "Implementation",
+          "start": 105.725,
+          "end": 106.525
+        },
+        {
+          "text": "of",
+          "start": 106.525,
+          "end": 106.625
+        },
+        {
+          "text": "security",
+          "start": 106.625,
+          "end": 107.05
+        },
+        {
+          "text": "test",
+          "start": 107.05,
+          "end": 107.325
+        },
+        {
+          "text": "cases",
+          "start": 107.325,
+          "end": 108.15
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "Integration of security testing in CI/CD pipeline",
+      "start": 108.57,
+      "end": 112.52,
+      "words": [
+        {
+          "text": "Integration",
+          "start": 108.845,
+          "end": 109.457
+        },
+        {
+          "text": "of",
+          "start": 109.457,
+          "end": 109.545
+        },
+        {
+          "text": "security",
+          "start": 109.545,
+          "end": 109.97
+        },
+        {
+          "text": "testing",
+          "start": 109.97,
+          "end": 110.695
+        },
+        {
+          "text": "in",
+          "start": 110.695,
+          "end": 110.882
+        },
+        {
+          "text": "CI/CD",
+          "start": 110.882,
+          "end": 111.695
+        },
+        {
+          "text": "pipeline",
+          "start": 111.695,
+          "end": 112.52
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "Example Implementation:",
+      "start": 112.965,
+      "end": 115.14,
+      "words": [
+        {
+          "text": "Example",
+          "start": 113.24,
+          "end": 113.815
+        },
+        {
+          "text": "Implementation",
+          "start": 113.815,
+          "end": 114.99
+        },
+        {
+          "text": ":",
+          "start": 114.99,
+          "end": 115.14
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h2",
+      "text": "4. Testing Phase",
+      "start": 115.46,
+      "end": 117.11,
+      "words": [
+        {
+          "text": "4.",
+          "start": 115.81,
+          "end": 116.035
+        },
+        {
+          "text": "Testing",
+          "start": 116.035,
+          "end": 116.435
+        },
+        {
+          "text": "Phase",
+          "start": 116.435,
+          "end": 117.11
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "p",
+      "text": "This is where functional testers shine. They go beyond positive path testing to evaluate the security of the entire system. Manual penetration testing is a critical activity during this phase, as it helps uncover design flaws that automated tests might miss.",
+      "start": 117.605,
+      "end": 134.73,
+      "words": [
+        {
+          "text": "This",
+          "start": 117.88,
+          "end": 118.117
+        },
+        {
+          "text": "is",
+          "start": 118.117,
+          "end": 118.28
+        },
+        {
+          "text": "where",
+          "start": 118.28,
+          "end": 118.53
+        },
+        {
+          "text": "functional",
+          "start": 118.53,
+          "end": 119.055
+        },
+        {
+          "text": "testers",
+          "start": 119.055,
+          "end": 119.517
+        },
+        {
+          "text": "shine",
+          "start": 119.517,
+          "end": 120.28
+        },
+        {
+          "text": ".",
+          "start": 120.28,
+          "end": 120.38
+        },
+        {
+          "text": "They",
+          "start": 120.38,
+          "end": 120.53
+        },
+        {
+          "text": "go",
+          "start": 120.53,
+          "end": 120.705
+        },
+        {
+          "text": "beyond",
+          "start": 120.705,
+          "end": 121.217
+        },
+        {
+          "text": "positive",
+          "start": 121.217,
+          "end": 121.767
+        },
+        {
+          "text": "path",
+          "start": 121.767,
+          "end": 122.08
+        },
+        {
+          "text": "testing",
+          "start": 122.08,
+          "end": 122.855
+        },
+        {
+          "text": "to",
+          "start": 122.855,
+          "end": 123.03
+        },
+        {
+          "text": "evaluate",
+          "start": 123.03,
+          "end": 123.617
+        },
+        {
+          "text": "the",
+          "start": 123.617,
+          "end": 123.705
+        },
+        {
+          "text": "security",
+          "start": 123.705,
+          "end": 124.305
+        },
+        {
+          "text": "of",
+          "start": 124.305,
+          "end": 124.392
+        },
+        {
+          "text": "the",
+          "start": 124.392,
+          "end": 124.53
+        },
+        {
+          "text": "entire",
+          "start": 124.53,
+          "end": 125.055
+        },
+        {
+          "text": "system",
+          "start": 125.055,
+          "end": 125.955
+        },
+        {
+          "text": ".",
+          "start": 125.955,
+          "end": 126.13
+        },
+        {
+          "text": "Manual",
+          "start": 126.13,
+          "end": 126.58
+        },
+        {
+          "text": "penetration",
+          "start": 126.58,
+          "end": 127.205
+        },
+        {
+          "text": "testing",
+          "start": 127.205,
+          "end": 127.855
+        },
+        {
+          "text": "is",
+          "start": 127.855,
+          "end": 128.005
+        },
+        {
+          "text": "a",
+          "start": 128.005,
+          "end": 128.117
+        },
+        {
+          "text": "critical",
+          "start": 128.117,
+          "end": 128.592
+        },
+        {
+          "text": "activity",
+          "start": 128.592,
+          "end": 129.18
+        },
+        {
+          "text": "during",
+          "start": 129.18,
+          "end": 129.417
+        },
+        {
+          "text": "this",
+          "start": 129.417,
+          "end": 129.58
+        },
+        {
+          "text": "phase",
+          "start": 129.58,
+          "end": 130.305
+        },
+        {
+          "text": ",",
+          "start": 130.305,
+          "end": 130.417
+        },
+        {
+          "text": "as",
+          "start": 130.417,
+          "end": 130.542
+        },
+        {
+          "text": "it",
+          "start": 130.542,
+          "end": 130.63
+        },
+        {
+          "text": "helps",
+          "start": 130.63,
+          "end": 130.967
+        },
+        {
+          "text": "uncover",
+          "start": 130.967,
+          "end": 131.53
+        },
+        {
+          "text": "design",
+          "start": 131.53,
+          "end": 132.005
+        },
+        {
+          "text": "flaws",
+          "start": 132.005,
+          "end": 132.53
+        },
+        {
+          "text": "that",
+          "start": 132.53,
+          "end": 132.717
+        },
+        {
+          "text": "automated",
+          "start": 132.717,
+          "end": 133.317
+        },
+        {
+          "text": "tests",
+          "start": 133.317,
+          "end": 133.755
+        },
+        {
+          "text": "might",
+          "start": 133.755,
+          "end": 133.955
+        },
+        {
+          "text": "miss",
+          "start": 133.955,
+          "end": 134.58
+        },
+        {
+          "text": ".",
+          "start": 134.58,
+          "end": 134.73
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "Comprehensive Testing Approach:",
+      "start": 135.05,
+      "end": 137.325,
+      "words": [
+        {
+          "text": "Comprehensive",
+          "start": 135.325,
+          "end": 136.0
+        },
+        {
+          "text": "Testing",
+          "start": 136.0,
+          "end": 136.45
+        },
+        {
+          "text": "Approach",
+          "start": 136.45,
+          "end": 137.15
+        },
+        {
+          "text": ":",
+          "start": 137.15,
+          "end": 137.325
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Automated security testing",
+      "start": 137.645,
+      "end": 139.67,
+      "words": [
+        {
+          "text": "Automated",
+          "start": 137.945,
+          "end": 138.495
+        },
+        {
+          "text": "security",
+          "start": 138.495,
+          "end": 138.945
+        },
+        {
+          "text": "testing",
+          "start": 138.945,
+          "end": 139.67
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Manual penetration testing",
+      "start": 140.115,
+      "end": 142.115,
+      "words": [
+        {
+          "text": "Manual",
+          "start": 140.415,
+          "end": 140.79
+        },
+        {
+          "text": "penetration",
+          "start": 140.79,
+          "end": 141.39
+        },
+        {
+          "text": "testing",
+          "start": 141.39,
+          "end": 142.115
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Security regression testing",
+      "start": 142.56,
+      "end": 144.585,
+      "words": [
+        {
+          "text": "Security",
+          "start": 142.835,
+          "end": 143.31
+        },
+        {
+          "text": "regression",
+          "start": 143.31,
+          "end": 143.835
+        },
+        {
+          "text": "testing",
+          "start": 143.835,
+          "end": 144.585
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "Example Test Suite:",
+      "start": 145.03,
+      "end": 146.93,
+      "words": [
+        {
+          "text": "Example",
+          "start": 145.33,
+          "end": 145.805
+        },
+        {
+          "text": "Test",
+          "start": 145.805,
+          "end": 146.142
+        },
+        {
+          "text": "Suite",
+          "start": 146.142,
+          "end": 146.78
+        },
+        {
+          "text": ":",
+          "start": 146.78,
+          "end": 146.93
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h2",
+      "text": "5. Operations and Maintenance Phase",
+      "start": 147.25,
+      "end": 149.9,
+      "words": [
+        {
+          "text": "5",
+          "start": 147.55,
+          "end": 147.95
+        },
+        {
+          "text": ".",
+          "start": 147.95,
+          "end": 148.025
+        },
+        {
+          "text": "Operations",
+          "start": 148.025,
+          "end": 148.725
+        },
+        {
+          "text": "and",
+          "start": 148.725,
+          "end": 148.837
+        },
+        {
+          "text": "Maintenance",
+          "start": 148.837,
+          "end": 149.25
+        },
+        {
+          "text": "Phase",
+          "start": 149.25,
+          "end": 149.9
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "Functional testers continue to play a role by conducting periodic security testing. This ensures that new vulnerabilities are not introduced as the web application evolves.",
+      "start": 150.345,
+      "end": 161.795,
+      "words": [
+        {
+          "text": "Functional",
+          "start": 150.62,
+          "end": 151.12
+        },
+        {
+          "text": "testers",
+          "start": 151.12,
+          "end": 151.807
+        },
+        {
+          "text": "continue",
+          "start": 151.807,
+          "end": 152.32
+        },
+        {
+          "text": "to",
+          "start": 152.32,
+          "end": 152.42
+        },
+        {
+          "text": "play",
+          "start": 152.42,
+          "end": 152.67
+        },
+        {
+          "text": "a",
+          "start": 152.67,
+          "end": 152.77
+        },
+        {
+          "text": "role",
+          "start": 152.77,
+          "end": 153.307
+        },
+        {
+          "text": "by",
+          "start": 153.307,
+          "end": 153.495
+        },
+        {
+          "text": "conducting",
+          "start": 153.495,
+          "end": 154.132
+        },
+        {
+          "text": "periodic",
+          "start": 154.132,
+          "end": 154.77
+        },
+        {
+          "text": "security",
+          "start": 154.77,
+          "end": 155.245
+        },
+        {
+          "text": "testing",
+          "start": 155.245,
+          "end": 156.145
+        },
+        {
+          "text": ".",
+          "start": 156.145,
+          "end": 156.282
+        },
+        {
+          "text": "This",
+          "start": 156.282,
+          "end": 156.52
+        },
+        {
+          "text": "ensures",
+          "start": 156.52,
+          "end": 157.07
+        },
+        {
+          "text": "that",
+          "start": 157.07,
+          "end": 157.282
+        },
+        {
+          "text": "new",
+          "start": 157.282,
+          "end": 157.495
+        },
+        {
+          "text": "vulnerabilities",
+          "start": 157.495,
+          "end": 158.382
+        },
+        {
+          "text": "are",
+          "start": 158.382,
+          "end": 158.545
+        },
+        {
+          "text": "not",
+          "start": 158.545,
+          "end": 158.757
+        },
+        {
+          "text": "introduced",
+          "start": 158.757,
+          "end": 159.57
+        },
+        {
+          "text": "as",
+          "start": 159.57,
+          "end": 159.745
+        },
+        {
+          "text": "the",
+          "start": 159.745,
+          "end": 159.882
+        },
+        {
+          "text": "web",
+          "start": 159.882,
+          "end": 160.12
+        },
+        {
+          "text": "application",
+          "start": 160.12,
+          "end": 160.795
+        },
+        {
+          "text": "evolves",
+          "start": 160.795,
+          "end": 161.645
+        },
+        {
+          "text": ".",
+          "start": 161.645,
+          "end": 161.795
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "Continuous Security Activities:",
+      "start": 162.115,
+      "end": 164.49,
+      "words": [
+        {
+          "text": "Continuous",
+          "start": 162.39,
+          "end": 163.04
+        },
+        {
+          "text": "Security",
+          "start": 163.04,
+          "end": 163.465
+        },
+        {
+          "text": "Activities",
+          "start": 163.465,
+          "end": 164.34
+        },
+        {
+          "text": ":",
+          "start": 164.34,
+          "end": 164.49
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "li",
+      "text": "Regular security assessments",
+      "start": 164.81,
+      "end": 166.935,
+      "words": [
+        {
+          "text": "Regular",
+          "start": 165.11,
+          "end": 165.56
+        },
+        {
+          "text": "security",
+          "start": 165.56,
+          "end": 166.085
+        },
+        {
+          "text": "assessments",
+          "start": 166.085,
+          "end": 166.935
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "Vulnerability scanning",
+      "start": 167.38,
+      "end": 169.13,
+      "words": [
+        {
+          "text": "Vulnerability",
+          "start": 167.68,
+          "end": 168.442
+        },
+        {
+          "text": "scanning",
+          "start": 168.442,
+          "end": 169.13
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "Security patch testing",
+      "start": 169.575,
+      "end": 171.25,
+      "words": [
+        {
+          "text": "Security",
+          "start": 169.85,
+          "end": 170.25
+        },
+        {
+          "text": "patch",
+          "start": 170.25,
+          "end": 170.525
+        },
+        {
+          "text": "testing",
+          "start": 170.525,
+          "end": 171.25
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "Monitoring Implementation:",
+      "start": 171.695,
+      "end": 173.87,
+      "words": [
+        {
+          "text": "Monitoring",
+          "start": 171.995,
+          "end": 172.545
+        },
+        {
+          "text": "Implementation",
+          "start": 172.545,
+          "end": 173.72
+        },
+        {
+          "text": ":",
+          "start": 173.72,
+          "end": 173.87
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h2",
+      "text": "Best Practices for Security Testing",
+      "start": 174.19,
+      "end": 176.665,
+      "words": [
+        {
+          "text": "Best",
+          "start": 174.465,
+          "end": 174.715
+        },
+        {
+          "text": "Practices",
+          "start": 174.715,
+          "end": 175.39
+        },
+        {
+          "text": "for",
+          "start": 175.39,
+          "end": 175.515
+        },
+        {
+          "text": "Security",
+          "start": 175.515,
+          "end": 175.94
+        },
+        {
+          "text": "Testing",
+          "start": 175.94,
+          "end": 176.665
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h3",
+      "text": "Shift-Left Approach",
+      "start": 177.11,
+      "end": 178.61,
+      "words": [
+        {
+          "text": "Shift-Left",
+          "start": 177.46,
+          "end": 177.922
+        },
+        {
+          "text": "Approach",
+          "start": 177.922,
+          "end": 178.61
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "Integrate security testing early in the SDLC",
+      "start": 179.13,
+      "end": 182.63,
+      "words": [
+        {
+          "text": "Integrate",
+          "start": 179.405,
+          "end": 179.83
+        },
+        {
+          "text": "security",
+          "start": 179.83,
+          "end": 180.592
+        },
+        {
+          "text": "testing",
+          "start": 180.592,
+          "end": 181.005
+        },
+        {
+          "text": "early",
+          "start": 181.005,
+          "end": 181.317
+        },
+        {
+          "text": "in",
+          "start": 181.317,
+          "end": 181.392
+        },
+        {
+          "text": "the",
+          "start": 181.392,
+          "end": 181.505
+        },
+        {
+          "text": "SDLC",
+          "start": 181.505,
+          "end": 182.63
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Automate security checks in the CI/CD pipeline",
+      "start": 183.025,
+      "end": 186.4,
+      "words": [
+        {
+          "text": "Automate",
+          "start": 183.325,
+          "end": 183.75
+        },
+        {
+          "text": "security",
+          "start": 183.75,
+          "end": 184.175
+        },
+        {
+          "text": "checks",
+          "start": 184.175,
+          "end": 184.662
+        },
+        {
+          "text": "in",
+          "start": 184.662,
+          "end": 184.762
+        },
+        {
+          "text": "the",
+          "start": 184.762,
+          "end": 184.862
+        },
+        {
+          "text": "CI/CD",
+          "start": 184.862,
+          "end": 185.625
+        },
+        {
+          "text": "pipeline",
+          "start": 185.625,
+          "end": 186.4
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "Implement pre-commit security hooks",
+      "start": 186.845,
+      "end": 189.095,
+      "words": [
+        {
+          "text": "Implement",
+          "start": 187.12,
+          "end": 187.595
+        },
+        {
+          "text": "pre-commit",
+          "start": 187.595,
+          "end": 188.045
+        },
+        {
+          "text": "security",
+          "start": 188.045,
+          "end": 188.495
+        },
+        {
+          "text": "hooks",
+          "start": 188.495,
+          "end": 189.095
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "h3",
+      "text": "Continuous Testing",
+      "start": 189.54,
+      "end": 191.165,
+      "words": [
+        {
+          "text": "Continuous",
+          "start": 189.84,
+          "end": 190.39
+        },
+        {
+          "text": "Testing",
+          "start": 190.39,
+          "end": 191.165
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Regular security assessments",
+      "start": 191.635,
+      "end": 193.76,
+      "words": [
+        {
+          "text": "Regular",
+          "start": 191.935,
+          "end": 192.385
+        },
+        {
+          "text": "security",
+          "start": 192.385,
+          "end": 192.91
+        },
+        {
+          "text": "assessments",
+          "start": 192.91,
+          "end": 193.76
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Automated vulnerability scanning",
+      "start": 194.205,
+      "end": 196.555,
+      "words": [
+        {
+          "text": "Automated",
+          "start": 194.505,
+          "end": 195.03
+        },
+        {
+          "text": "vulnerability",
+          "start": 195.03,
+          "end": 195.83
+        },
+        {
+          "text": "scanning",
+          "start": 195.83,
+          "end": 196.555
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "Periodic penetration testing",
+      "start": 197.0,
+      "end": 199.175,
+      "words": [
+        {
+          "text": "Periodic",
+          "start": 197.275,
+          "end": 197.85
+        },
+        {
+          "text": "penetration",
+          "start": 197.85,
+          "end": 198.45
+        },
+        {
+          "text": "testing",
+          "start": 198.45,
+          "end": 199.175
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "h3",
+      "text": "Documentation and Reporting",
+      "start": 199.62,
+      "end": 201.745,
+      "words": [
+        {
+          "text": "Documentation",
+          "start": 199.895,
+          "end": 200.845
+        },
+        {
+          "text": "and",
+          "start": 200.845,
+          "end": 200.957
+        },
+        {
+          "text": "Reporting",
+          "start": 200.957,
+          "end": 201.745
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Maintain security test cases",
+      "start": 202.19,
+      "end": 204.465,
+      "words": [
+        {
+          "text": "Maintain",
+          "start": 202.465,
+          "end": 202.94
+        },
+        {
+          "text": "security",
+          "start": 202.94,
+          "end": 203.365
+        },
+        {
+          "text": "test",
+          "start": 203.365,
+          "end": 203.64
+        },
+        {
+          "text": "cases",
+          "start": 203.64,
+          "end": 204.465
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Document vulnerabilities and fixes",
+      "start": 204.91,
+      "end": 207.41,
+      "words": [
+        {
+          "text": "Document",
+          "start": 205.21,
+          "end": 205.66
+        },
+        {
+          "text": "vulnerabilities",
+          "start": 205.66,
+          "end": 206.485
+        },
+        {
+          "text": "and",
+          "start": 206.485,
+          "end": 206.61
+        },
+        {
+          "text": "fixes",
+          "start": 206.61,
+          "end": 207.41
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "Track security metrics",
+      "start": 207.855,
+      "end": 209.63,
+      "words": [
+        {
+          "text": "Track",
+          "start": 208.13,
+          "end": 208.43
+        },
+        {
+          "text": "security",
+          "start": 208.43,
+          "end": 208.88
+        },
+        {
+          "text": "metrics",
+          "start": 208.88,
+          "end": 209.63
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "h3",
+      "text": "Integration with CI/CD",
+      "start": 210.075,
+      "end": 212.15,
+      "words": [
+        {
+          "text": "Integration",
+          "start": 210.35,
+          "end": 210.962
+        },
+        {
+          "text": "with",
+          "start": 210.962,
+          "end": 211.125
+        },
+        {
+          "text": "CI/CD",
+          "start": 211.125,
+          "end": 212.15
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "h2",
+      "text": "Conclusion",
+      "start": 212.595,
+      "end": 213.845,
+      "words": [
+        {
+          "text": "Conclusion",
+          "start": 212.945,
+          "end": 213.845
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "p",
+      "text": "By integrating security activities into each phase of the SDLC, functional testers help create more secure web applications, protecting both the organization and its users. The combination of automated tools, manual testing, and continuous monitoring ensures comprehensive security coverage while maintaining development efficiency.",
+      "start": 214.365,
+      "end": 236.765,
+      "words": [
+        {
+          "text": "By",
+          "start": 214.615,
+          "end": 214.777
+        },
+        {
+          "text": "integrating",
+          "start": 214.777,
+          "end": 215.34
+        },
+        {
+          "text": "security",
+          "start": 215.34,
+          "end": 215.802
+        },
+        {
+          "text": "activities",
+          "start": 215.802,
+          "end": 216.44
+        },
+        {
+          "text": "into",
+          "start": 216.44,
+          "end": 216.727
+        },
+        {
+          "text": "each",
+          "start": 216.727,
+          "end": 217.052
+        },
+        {
+          "text": "phase",
+          "start": 217.052,
+          "end": 217.452
+        },
+        {
+          "text": "of",
+          "start": 217.452,
+          "end": 217.527
+        },
+        {
+          "text": "the",
+          "start": 217.527,
+          "end": 217.677
+        },
+        {
+          "text": "SDLC",
+          "start": 217.677,
+          "end": 218.865
+        },
+        {
+          "text": ",",
+          "start": 218.865,
+          "end": 219.027
+        },
+        {
+          "text": "functional",
+          "start": 219.027,
+          "end": 219.49
+        },
+        {
+          "text": "testers",
+          "start": 219.49,
+          "end": 219.977
+        },
+        {
+          "text": "help",
+          "start": 219.977,
+          "end": 220.265
+        },
+        {
+          "text": "create",
+          "start": 220.265,
+          "end": 220.652
+        },
+        {
+          "text": "more",
+          "start": 220.652,
+          "end": 220.902
+        },
+        {
+          "text": "secure",
+          "start": 220.902,
+          "end": 221.39
+        },
+        {
+          "text": "web",
+          "start": 221.39,
+          "end": 221.59
+        },
+        {
+          "text": "applications",
+          "start": 221.59,
+          "end": 222.69
+        },
+        {
+          "text": ",",
+          "start": 222.69,
+          "end": 222.79
+        },
+        {
+          "text": "protecting",
+          "start": 222.79,
+          "end": 223.365
+        },
+        {
+          "text": "both",
+          "start": 223.365,
+          "end": 223.602
+        },
+        {
+          "text": "the",
+          "start": 223.602,
+          "end": 223.715
+        },
+        {
+          "text": "organization",
+          "start": 223.715,
+          "end": 224.752
+        },
+        {
+          "text": "and",
+          "start": 224.752,
+          "end": 224.977
+        },
+        {
+          "text": "its",
+          "start": 224.977,
+          "end": 225.14
+        },
+        {
+          "text": "users",
+          "start": 225.14,
+          "end": 226.14
+        },
+        {
+          "text": ".",
+          "start": 226.14,
+          "end": 226.302
+        },
+        {
+          "text": "The",
+          "start": 226.302,
+          "end": 226.415
+        },
+        {
+          "text": "combination",
+          "start": 226.415,
+          "end": 227.165
+        },
+        {
+          "text": "of",
+          "start": 227.165,
+          "end": 227.315
+        },
+        {
+          "text": "automated",
+          "start": 227.315,
+          "end": 227.927
+        },
+        {
+          "text": "tools",
+          "start": 227.927,
+          "end": 228.615
+        },
+        {
+          "text": ",",
+          "start": 228.615,
+          "end": 228.752
+        },
+        {
+          "text": "manual",
+          "start": 228.752,
+          "end": 229.215
+        },
+        {
+          "text": "testing",
+          "start": 229.215,
+          "end": 229.94
+        },
+        {
+          "text": ",",
+          "start": 229.94,
+          "end": 230.04
+        },
+        {
+          "text": "and",
+          "start": 230.04,
+          "end": 230.165
+        },
+        {
+          "text": "continuous",
+          "start": 230.165,
+          "end": 230.765
+        },
+        {
+          "text": "monitoring",
+          "start": 230.765,
+          "end": 231.59
+        },
+        {
+          "text": "ensures",
+          "start": 231.59,
+          "end": 232.177
+        },
+        {
+          "text": "comprehensive",
+          "start": 232.177,
+          "end": 232.965
+        },
+        {
+          "text": "security",
+          "start": 232.965,
+          "end": 233.415
+        },
+        {
+          "text": "coverage",
+          "start": 233.415,
+          "end": 234.202
+        },
+        {
+          "text": "while",
+          "start": 234.202,
+          "end": 234.44
+        },
+        {
+          "text": "maintaining",
+          "start": 234.44,
+          "end": 235.165
+        },
+        {
+          "text": "development",
+          "start": 235.165,
+          "end": 235.677
+        },
+        {
+          "text": "efficiency",
+          "start": 235.677,
+          "end": 236.64
+        },
+        {
+          "text": ".",
+          "start": 236.64,
+          "end": 236.765
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "h2",
+      "text": "You're Already Half-Way There",
+      "start": 237.085,
+      "end": 238.735,
+      "words": [
+        {
+          "text": "You're",
+          "start": 237.36,
+          "end": 237.472
+        },
+        {
+          "text": "Already",
+          "start": 237.472,
+          "end": 237.81
+        },
+        {
+          "text": "Half-Way",
+          "start": 237.81,
+          "end": 238.235
+        },
+        {
+          "text": "There",
+          "start": 238.235,
+          "end": 238.735
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "p",
+      "text": "You know how to find edge cases. You know how to break features. You know what \"sorry, I can't reproduce that\" sounds like. Security testing is just applying those same instincts to the attackers' playbook instead of the happy path. Start with OWASP Top 10, learn to recognize SQL injection and XSS when you see them, and integrate security checks into your test runs today.",
+      "start": 239.205,
+      "end": 262.23,
+      "words": [
+        {
+          "text": "You",
+          "start": 239.48,
+          "end": 239.567
+        },
+        {
+          "text": "know",
+          "start": 239.567,
+          "end": 239.73
+        },
+        {
+          "text": "how",
+          "start": 239.73,
+          "end": 239.867
+        },
+        {
+          "text": "to",
+          "start": 239.867,
+          "end": 239.955
+        },
+        {
+          "text": "find",
+          "start": 239.955,
+          "end": 240.217
+        },
+        {
+          "text": "edge",
+          "start": 240.217,
+          "end": 240.405
+        },
+        {
+          "text": "cases",
+          "start": 240.405,
+          "end": 241.18
+        },
+        {
+          "text": ".",
+          "start": 241.18,
+          "end": 241.28
+        },
+        {
+          "text": "You",
+          "start": 241.28,
+          "end": 241.392
+        },
+        {
+          "text": "know",
+          "start": 241.392,
+          "end": 241.555
+        },
+        {
+          "text": "how",
+          "start": 241.555,
+          "end": 241.692
+        },
+        {
+          "text": "to",
+          "start": 241.692,
+          "end": 241.767
+        },
+        {
+          "text": "break",
+          "start": 241.767,
+          "end": 242.005
+        },
+        {
+          "text": "features",
+          "start": 242.005,
+          "end": 242.83
+        },
+        {
+          "text": ".",
+          "start": 242.83,
+          "end": 242.93
+        },
+        {
+          "text": "You",
+          "start": 242.93,
+          "end": 243.042
+        },
+        {
+          "text": "know",
+          "start": 243.042,
+          "end": 243.205
+        },
+        {
+          "text": "what",
+          "start": 243.205,
+          "end": 243.43
+        },
+        {
+          "text": "\"",
+          "start": 243.43,
+          "end": 243.505
+        },
+        {
+          "text": "sorry",
+          "start": 243.505,
+          "end": 244.005
+        },
+        {
+          "text": ",",
+          "start": 244.005,
+          "end": 244.105
+        },
+        {
+          "text": "I",
+          "start": 244.105,
+          "end": 244.255
+        },
+        {
+          "text": "can't",
+          "start": 244.255,
+          "end": 244.53
+        },
+        {
+          "text": "reproduce",
+          "start": 244.53,
+          "end": 245.03
+        },
+        {
+          "text": "that",
+          "start": 245.03,
+          "end": 245.255
+        },
+        {
+          "text": "\"",
+          "start": 245.255,
+          "end": 245.305
+        },
+        {
+          "text": "sounds",
+          "start": 245.305,
+          "end": 245.617
+        },
+        {
+          "text": "like",
+          "start": 245.617,
+          "end": 246.28
+        },
+        {
+          "text": ".",
+          "start": 246.28,
+          "end": 246.442
+        },
+        {
+          "text": "Security",
+          "start": 246.442,
+          "end": 246.905
+        },
+        {
+          "text": "testing",
+          "start": 246.905,
+          "end": 247.355
+        },
+        {
+          "text": "is",
+          "start": 247.355,
+          "end": 247.505
+        },
+        {
+          "text": "just",
+          "start": 247.505,
+          "end": 247.705
+        },
+        {
+          "text": "applying",
+          "start": 247.705,
+          "end": 248.155
+        },
+        {
+          "text": "those",
+          "start": 248.155,
+          "end": 248.392
+        },
+        {
+          "text": "same",
+          "start": 248.392,
+          "end": 248.73
+        },
+        {
+          "text": "instincts",
+          "start": 248.73,
+          "end": 249.255
+        },
+        {
+          "text": "to",
+          "start": 249.255,
+          "end": 249.342
+        },
+        {
+          "text": "the",
+          "start": 249.342,
+          "end": 249.48
+        },
+        {
+          "text": "attackers'",
+          "start": 249.48,
+          "end": 250.005
+        },
+        {
+          "text": "playbook",
+          "start": 250.005,
+          "end": 250.655
+        },
+        {
+          "text": "instead",
+          "start": 250.655,
+          "end": 251.017
+        },
+        {
+          "text": "of",
+          "start": 251.017,
+          "end": 251.092
+        },
+        {
+          "text": "the",
+          "start": 251.092,
+          "end": 251.18
+        },
+        {
+          "text": "happy",
+          "start": 251.18,
+          "end": 251.48
+        },
+        {
+          "text": "path",
+          "start": 251.48,
+          "end": 252.28
+        },
+        {
+          "text": ".",
+          "start": 252.28,
+          "end": 252.48
+        },
+        {
+          "text": "Start",
+          "start": 252.48,
+          "end": 252.817
+        },
+        {
+          "text": "with",
+          "start": 252.817,
+          "end": 252.992
+        },
+        {
+          "text": "OWASP",
+          "start": 252.992,
+          "end": 254.105
+        },
+        {
+          "text": "Top",
+          "start": 254.105,
+          "end": 254.392
+        },
+        {
+          "text": "10",
+          "start": 254.392,
+          "end": 254.98
+        },
+        {
+          "text": ",",
+          "start": 254.98,
+          "end": 255.117
+        },
+        {
+          "text": "learn",
+          "start": 255.117,
+          "end": 255.38
+        },
+        {
+          "text": "to",
+          "start": 255.38,
+          "end": 255.505
+        },
+        {
+          "text": "recognize",
+          "start": 255.505,
+          "end": 256.13
+        },
+        {
+          "text": "SQL",
+          "start": 256.13,
+          "end": 256.492
+        },
+        {
+          "text": "injection",
+          "start": 256.492,
+          "end": 257.142
+        },
+        {
+          "text": "and",
+          "start": 257.142,
+          "end": 257.28
+        },
+        {
+          "text": "XSS",
+          "start": 257.28,
+          "end": 257.992
+        },
+        {
+          "text": "when",
+          "start": 257.992,
+          "end": 258.117
+        },
+        {
+          "text": "you",
+          "start": 258.117,
+          "end": 258.242
+        },
+        {
+          "text": "see",
+          "start": 258.242,
+          "end": 258.455
+        },
+        {
+          "text": "them",
+          "start": 258.455,
+          "end": 258.93
+        },
+        {
+          "text": ",",
+          "start": 258.93,
+          "end": 259.03
+        },
+        {
+          "text": "and",
+          "start": 259.03,
+          "end": 259.192
+        },
+        {
+          "text": "integrate",
+          "start": 259.192,
+          "end": 259.655
+        },
+        {
+          "text": "security",
+          "start": 259.655,
+          "end": 260.167
+        },
+        {
+          "text": "checks",
+          "start": 260.167,
+          "end": 260.492
+        },
+        {
+          "text": "into",
+          "start": 260.492,
+          "end": 260.667
+        },
+        {
+          "text": "your",
+          "start": 260.667,
+          "end": 260.805
+        },
+        {
+          "text": "test",
+          "start": 260.805,
+          "end": 261.13
+        },
+        {
+          "text": "runs",
+          "start": 261.13,
+          "end": 261.43
+        },
+        {
+          "text": "today",
+          "start": 261.43,
+          "end": 262.08
+        },
+        {
+          "text": ".",
+          "start": 262.08,
+          "end": 262.23
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "p",
+      "text": "Your job isn't to become a pentester. It's to be the person who catches the obvious vulnerabilities before they ship. That's security testing, and you're already qualified.",
+      "start": 262.55,
+      "end": 273.15,
+      "words": [
+        {
+          "text": "Your",
+          "start": 262.825,
+          "end": 263.012
+        },
+        {
+          "text": "job",
+          "start": 263.012,
+          "end": 263.425
+        },
+        {
+          "text": "isn't",
+          "start": 263.425,
+          "end": 263.675
+        },
+        {
+          "text": "to",
+          "start": 263.675,
+          "end": 263.762
+        },
+        {
+          "text": "become",
+          "start": 263.762,
+          "end": 264.1
+        },
+        {
+          "text": "a",
+          "start": 264.1,
+          "end": 264.175
+        },
+        {
+          "text": "pentester",
+          "start": 264.175,
+          "end": 265.2
+        },
+        {
+          "text": ".",
+          "start": 265.2,
+          "end": 265.325
+        },
+        {
+          "text": "It's",
+          "start": 265.325,
+          "end": 265.55
+        },
+        {
+          "text": "to",
+          "start": 265.55,
+          "end": 265.637
+        },
+        {
+          "text": "be",
+          "start": 265.637,
+          "end": 265.775
+        },
+        {
+          "text": "the",
+          "start": 265.775,
+          "end": 265.875
+        },
+        {
+          "text": "person",
+          "start": 265.875,
+          "end": 266.35
+        },
+        {
+          "text": "who",
+          "start": 266.35,
+          "end": 266.512
+        },
+        {
+          "text": "catches",
+          "start": 266.512,
+          "end": 266.95
+        },
+        {
+          "text": "the",
+          "start": 266.95,
+          "end": 267.125
+        },
+        {
+          "text": "obvious",
+          "start": 267.125,
+          "end": 267.625
+        },
+        {
+          "text": "vulnerabilities",
+          "start": 267.625,
+          "end": 268.5
+        },
+        {
+          "text": "before",
+          "start": 268.5,
+          "end": 268.85
+        },
+        {
+          "text": "they",
+          "start": 268.85,
+          "end": 269.025
+        },
+        {
+          "text": "ship",
+          "start": 269.025,
+          "end": 269.725
+        },
+        {
+          "text": ".",
+          "start": 269.725,
+          "end": 269.887
+        },
+        {
+          "text": "That's",
+          "start": 269.887,
+          "end": 270.175
+        },
+        {
+          "text": "security",
+          "start": 270.175,
+          "end": 270.65
+        },
+        {
+          "text": "testing",
+          "start": 270.65,
+          "end": 271.325
+        },
+        {
+          "text": ",",
+          "start": 271.325,
+          "end": 271.425
+        },
+        {
+          "text": "and",
+          "start": 271.425,
+          "end": 271.537
+        },
+        {
+          "text": "you're",
+          "start": 271.537,
+          "end": 271.7
+        },
+        {
+          "text": "already",
+          "start": 271.7,
+          "end": 272.075
+        },
+        {
+          "text": "qualified",
+          "start": 272.075,
+          "end": 273.0
+        },
+        {
+          "text": ".",
+          "start": 273.0,
+          "end": 273.15
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 273.47,
+      "end": 275.295,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 273.77,
+          "end": 274.27
+        },
+        {
+          "text": "and",
+          "start": 274.27,
+          "end": 274.395
+        },
+        {
+          "text": "Further",
+          "start": 274.395,
+          "end": 274.67
+        },
+        {
+          "text": "Reading",
+          "start": 274.67,
+          "end": 275.295
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "li",
+      "text": "OWASP Testing Guide",
+      "start": 275.74,
+      "end": 277.765,
+      "words": [
+        {
+          "text": "OWASP",
+          "start": 276.015,
+          "end": 276.765
+        },
+        {
+          "text": "Testing",
+          "start": 276.765,
+          "end": 277.165
+        },
+        {
+          "text": "Guide",
+          "start": 277.165,
+          "end": 277.765
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "li",
+      "text": "OWASP SAMM , Software Assurance Maturity Model",
+      "start": 278.235,
+      "end": 282.885,
+      "words": [
+        {
+          "text": "OWASP",
+          "start": 278.51,
+          "end": 279.585
+        },
+        {
+          "text": "SAMM",
+          "start": 279.585,
+          "end": 280.685
+        },
+        {
+          "text": ",",
+          "start": 280.685,
+          "end": 280.822
+        },
+        {
+          "text": "Software",
+          "start": 280.822,
+          "end": 281.31
+        },
+        {
+          "text": "Assurance",
+          "start": 281.31,
+          "end": 281.798
+        },
+        {
+          "text": "Maturity",
+          "start": 281.798,
+          "end": 282.26
+        },
+        {
+          "text": "Model",
+          "start": 282.26,
+          "end": 282.885
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "li",
+      "text": "Microsoft SDL , security development lifecycle",
+      "start": 283.33,
+      "end": 287.055,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 283.63,
+          "end": 284.318
+        },
+        {
+          "text": "SDL",
+          "start": 284.318,
+          "end": 285.118
+        },
+        {
+          "text": ",",
+          "start": 285.118,
+          "end": 285.205
+        },
+        {
+          "text": "security",
+          "start": 285.205,
+          "end": 285.643
+        },
+        {
+          "text": "development",
+          "start": 285.643,
+          "end": 286.118
+        },
+        {
+          "text": "lifecycle",
+          "start": 286.118,
+          "end": 287.055
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "p",
+      "text": "See also: Step-by-Step Security Testing for SDETs (Sep 2024) · The Secret to Secure Software Development (Sep 2024) , secret management, the thing that bites you at 3am.",
+      "start": 287.425,
+      "end": 300.825,
+      "words": [
+        {
+          "text": "See",
+          "start": 287.725,
+          "end": 287.9
+        },
+        {
+          "text": "also",
+          "start": 287.9,
+          "end": 288.55
+        },
+        {
+          "text": ":",
+          "start": 288.55,
+          "end": 288.688
+        },
+        {
+          "text": "Step-by-Step",
+          "start": 288.688,
+          "end": 289.4
+        },
+        {
+          "text": "Security",
+          "start": 289.4,
+          "end": 289.875
+        },
+        {
+          "text": "Testing",
+          "start": 289.875,
+          "end": 290.325
+        },
+        {
+          "text": "for",
+          "start": 290.325,
+          "end": 290.488
+        },
+        {
+          "text": "SDETs",
+          "start": 290.488,
+          "end": 291.663
+        },
+        {
+          "text": "(",
+          "start": 291.663,
+          "end": 291.75
+        },
+        {
+          "text": "Sep",
+          "start": 291.75,
+          "end": 291.975
+        },
+        {
+          "text": "2024",
+          "start": 291.975,
+          "end": 293.15
+        },
+        {
+          "text": ")",
+          "start": 293.15,
+          "end": 293.25
+        },
+        {
+          "text": "The",
+          "start": 293.288,
+          "end": 293.45
+        },
+        {
+          "text": "Secret",
+          "start": 293.45,
+          "end": 293.838
+        },
+        {
+          "text": "to",
+          "start": 293.838,
+          "end": 293.975
+        },
+        {
+          "text": "Secure",
+          "start": 293.975,
+          "end": 294.4
+        },
+        {
+          "text": "Software",
+          "start": 294.4,
+          "end": 294.788
+        },
+        {
+          "text": "Development",
+          "start": 294.788,
+          "end": 295.588
+        },
+        {
+          "text": "(",
+          "start": 295.588,
+          "end": 295.675
+        },
+        {
+          "text": "Sep",
+          "start": 295.675,
+          "end": 295.925
+        },
+        {
+          "text": "2024",
+          "start": 295.925,
+          "end": 297.1
+        },
+        {
+          "text": ")",
+          "start": 297.1,
+          "end": 297.163
+        },
+        {
+          "text": ",",
+          "start": 297.163,
+          "end": 297.263
+        },
+        {
+          "text": "secret",
+          "start": 297.263,
+          "end": 297.588
+        },
+        {
+          "text": "management",
+          "start": 297.588,
+          "end": 298.325
+        },
+        {
+          "text": ",",
+          "start": 298.325,
+          "end": 298.388
+        },
+        {
+          "text": "the",
+          "start": 298.388,
+          "end": 298.513
+        },
+        {
+          "text": "thing",
+          "start": 298.513,
+          "end": 298.725
+        },
+        {
+          "text": "that",
+          "start": 298.725,
+          "end": 298.9
+        },
+        {
+          "text": "bites",
+          "start": 298.9,
+          "end": 299.25
+        },
+        {
+          "text": "you",
+          "start": 299.25,
+          "end": 299.425
+        },
+        {
+          "text": "at",
+          "start": 299.425,
+          "end": 299.613
+        },
+        {
+          "text": "3am",
+          "start": 299.613,
+          "end": 300.825
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
