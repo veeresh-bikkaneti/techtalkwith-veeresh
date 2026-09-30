@@ -1,0 +1,2812 @@
+{
+  "slug": "qa-engineering-career-guide",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 206.53,
+  "contentHash": "1070448d1eecc1cbbd18edb538b9e8ade06a52ddd7ff416a9b198cab3bd820e9",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "The QA Engineer's Roadmap: From Manual Tester to Automation Lead",
+      "start": 0.0,
+      "end": 4.7,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.25,
+          "end": 0.35
+        },
+        {
+          "text": "QA",
+          "start": 0.35,
+          "end": 0.75
+        },
+        {
+          "text": "Engineer's",
+          "start": 0.75,
+          "end": 1.3
+        },
+        {
+          "text": "Roadmap",
+          "start": 1.3,
+          "end": 2.05
+        },
+        {
+          "text": ":",
+          "start": 2.05,
+          "end": 2.175
+        },
+        {
+          "text": "From",
+          "start": 2.175,
+          "end": 2.35
+        },
+        {
+          "text": "Manual",
+          "start": 2.35,
+          "end": 2.75
+        },
+        {
+          "text": "Tester",
+          "start": 2.75,
+          "end": 3.263
+        },
+        {
+          "text": "to",
+          "start": 3.263,
+          "end": 3.438
+        },
+        {
+          "text": "Automation",
+          "start": 3.438,
+          "end": 4.125
+        },
+        {
+          "text": "Lead",
+          "start": 4.125,
+          "end": 4.7
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "When I started my QA career, \"manual testing\" was the norm. Today, automation is table stakes. Here's the roadmap I wish someone had given me.",
+      "start": 5.17,
+      "end": 14.92,
+      "words": [
+        {
+          "text": "When",
+          "start": 5.42,
+          "end": 5.532
+        },
+        {
+          "text": "I",
+          "start": 5.532,
+          "end": 5.67
+        },
+        {
+          "text": "started",
+          "start": 5.67,
+          "end": 6.058
+        },
+        {
+          "text": "my",
+          "start": 6.058,
+          "end": 6.232
+        },
+        {
+          "text": "QA",
+          "start": 6.232,
+          "end": 6.62
+        },
+        {
+          "text": "career",
+          "start": 6.62,
+          "end": 7.245
+        },
+        {
+          "text": ",",
+          "start": 7.245,
+          "end": 7.37
+        },
+        {
+          "text": "\"",
+          "start": 7.37,
+          "end": 7.445
+        },
+        {
+          "text": "manual",
+          "start": 7.445,
+          "end": 7.845
+        },
+        {
+          "text": "testing",
+          "start": 7.845,
+          "end": 8.37
+        },
+        {
+          "text": "\"",
+          "start": 8.37,
+          "end": 8.42
+        },
+        {
+          "text": "was",
+          "start": 8.42,
+          "end": 8.62
+        },
+        {
+          "text": "the",
+          "start": 8.62,
+          "end": 8.72
+        },
+        {
+          "text": "norm",
+          "start": 8.72,
+          "end": 9.445
+        },
+        {
+          "text": ".",
+          "start": 9.445,
+          "end": 9.582
+        },
+        {
+          "text": "Today",
+          "start": 9.582,
+          "end": 10.07
+        },
+        {
+          "text": ",",
+          "start": 10.07,
+          "end": 10.183
+        },
+        {
+          "text": "automation",
+          "start": 10.183,
+          "end": 10.907
+        },
+        {
+          "text": "is",
+          "start": 10.907,
+          "end": 11.082
+        },
+        {
+          "text": "table",
+          "start": 11.082,
+          "end": 11.495
+        },
+        {
+          "text": "stakes",
+          "start": 11.495,
+          "end": 12.195
+        },
+        {
+          "text": ".",
+          "start": 12.195,
+          "end": 12.332
+        },
+        {
+          "text": "Here's",
+          "start": 12.332,
+          "end": 12.645
+        },
+        {
+          "text": "the",
+          "start": 12.645,
+          "end": 12.745
+        },
+        {
+          "text": "roadmap",
+          "start": 12.745,
+          "end": 13.295
+        },
+        {
+          "text": "I",
+          "start": 13.295,
+          "end": 13.445
+        },
+        {
+          "text": "wish",
+          "start": 13.445,
+          "end": 13.67
+        },
+        {
+          "text": "someone",
+          "start": 13.67,
+          "end": 13.932
+        },
+        {
+          "text": "had",
+          "start": 13.932,
+          "end": 14.045
+        },
+        {
+          "text": "given",
+          "start": 14.045,
+          "end": 14.307
+        },
+        {
+          "text": "me",
+          "start": 14.307,
+          "end": 14.77
+        },
+        {
+          "text": ".",
+          "start": 14.77,
+          "end": 14.92
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "h2",
+      "text": "Phase 1: Foundation (Months 1-6)",
+      "start": 15.24,
+      "end": 18.34,
+      "words": [
+        {
+          "text": "Phase",
+          "start": 15.54,
+          "end": 15.84
+        },
+        {
+          "text": "1",
+          "start": 15.84,
+          "end": 16.265
+        },
+        {
+          "text": ":",
+          "start": 16.265,
+          "end": 16.365
+        },
+        {
+          "text": "Foundation",
+          "start": 16.365,
+          "end": 16.99
+        },
+        {
+          "text": "(",
+          "start": 16.99,
+          "end": 17.065
+        },
+        {
+          "text": "Months",
+          "start": 17.065,
+          "end": 17.34
+        },
+        {
+          "text": "1-6",
+          "start": 17.34,
+          "end": 18.19
+        },
+        {
+          "text": ")",
+          "start": 18.19,
+          "end": 18.34
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "Learn one programming language deeply.",
+      "start": 18.66,
+      "end": 21.26,
+      "words": [
+        {
+          "text": "Learn",
+          "start": 18.985,
+          "end": 19.235
+        },
+        {
+          "text": "one",
+          "start": 19.235,
+          "end": 19.485
+        },
+        {
+          "text": "programming",
+          "start": 19.485,
+          "end": 20.01
+        },
+        {
+          "text": "language",
+          "start": 20.01,
+          "end": 20.435
+        },
+        {
+          "text": "deeply",
+          "start": 20.435,
+          "end": 21.11
+        },
+        {
+          "text": ".",
+          "start": 21.11,
+          "end": 21.26
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "I recommend C# or Java , both have mature testing ecosystems.",
+      "start": 21.58,
+      "end": 26.505,
+      "words": [
+        {
+          "text": "I",
+          "start": 21.855,
+          "end": 22.005
+        },
+        {
+          "text": "recommend",
+          "start": 22.005,
+          "end": 22.467
+        },
+        {
+          "text": "C#",
+          "start": 22.467,
+          "end": 23.08
+        },
+        {
+          "text": "or",
+          "start": 23.08,
+          "end": 23.23
+        },
+        {
+          "text": "Java",
+          "start": 23.23,
+          "end": 23.892
+        },
+        {
+          "text": ",",
+          "start": 23.892,
+          "end": 24.03
+        },
+        {
+          "text": "both",
+          "start": 24.03,
+          "end": 24.33
+        },
+        {
+          "text": "have",
+          "start": 24.33,
+          "end": 24.517
+        },
+        {
+          "text": "mature",
+          "start": 24.517,
+          "end": 24.88
+        },
+        {
+          "text": "testing",
+          "start": 24.88,
+          "end": 25.33
+        },
+        {
+          "text": "ecosystems",
+          "start": 25.33,
+          "end": 26.355
+        },
+        {
+          "text": ".",
+          "start": 26.355,
+          "end": 26.505
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "Key skills to build:",
+      "start": 26.825,
+      "end": 28.525,
+      "words": [
+        {
+          "text": "Key",
+          "start": 27.125,
+          "end": 27.3
+        },
+        {
+          "text": "skills",
+          "start": 27.3,
+          "end": 27.65
+        },
+        {
+          "text": "to",
+          "start": 27.65,
+          "end": 27.75
+        },
+        {
+          "text": "build",
+          "start": 27.75,
+          "end": 28.35
+        },
+        {
+          "text": ":",
+          "start": 28.35,
+          "end": 28.525
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "Version control (Git) , non-negotiable",
+      "start": 28.845,
+      "end": 31.87,
+      "words": [
+        {
+          "text": "Version",
+          "start": 29.17,
+          "end": 29.545
+        },
+        {
+          "text": "control",
+          "start": 29.545,
+          "end": 29.97
+        },
+        {
+          "text": "(",
+          "start": 29.97,
+          "end": 30.045
+        },
+        {
+          "text": "Git",
+          "start": 30.045,
+          "end": 30.445
+        },
+        {
+          "text": ")",
+          "start": 30.445,
+          "end": 30.545
+        },
+        {
+          "text": ",",
+          "start": 30.545,
+          "end": 30.632
+        },
+        {
+          "text": "non-negotiable",
+          "start": 30.632,
+          "end": 31.87
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Basic SQL , you'll query databases constantly",
+      "start": 32.29,
+      "end": 35.79,
+      "words": [
+        {
+          "text": "Basic",
+          "start": 32.565,
+          "end": 32.94
+        },
+        {
+          "text": "SQL",
+          "start": 32.94,
+          "end": 33.49
+        },
+        {
+          "text": ",",
+          "start": 33.49,
+          "end": 33.565
+        },
+        {
+          "text": "you'll",
+          "start": 33.565,
+          "end": 33.765
+        },
+        {
+          "text": "query",
+          "start": 33.765,
+          "end": 34.09
+        },
+        {
+          "text": "databases",
+          "start": 34.09,
+          "end": 34.815
+        },
+        {
+          "text": "constantly",
+          "start": 34.815,
+          "end": 35.79
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "HTTP fundamentals , for API testing",
+      "start": 36.235,
+      "end": 39.61,
+      "words": [
+        {
+          "text": "HTTP",
+          "start": 36.535,
+          "end": 37.285
+        },
+        {
+          "text": "fundamentals",
+          "start": 37.285,
+          "end": 38.085
+        },
+        {
+          "text": ",",
+          "start": 38.085,
+          "end": 38.16
+        },
+        {
+          "text": "for",
+          "start": 38.16,
+          "end": 38.322
+        },
+        {
+          "text": "API",
+          "start": 38.322,
+          "end": 38.885
+        },
+        {
+          "text": "testing",
+          "start": 38.885,
+          "end": 39.61
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Linux command line , for server-side debugging",
+      "start": 40.03,
+      "end": 43.23,
+      "words": [
+        {
+          "text": "Linux",
+          "start": 40.33,
+          "end": 40.63
+        },
+        {
+          "text": "command",
+          "start": 40.63,
+          "end": 41.005
+        },
+        {
+          "text": "line",
+          "start": 41.005,
+          "end": 41.567
+        },
+        {
+          "text": ",",
+          "start": 41.567,
+          "end": 41.655
+        },
+        {
+          "text": "for",
+          "start": 41.655,
+          "end": 41.817
+        },
+        {
+          "text": "server-side",
+          "start": 41.817,
+          "end": 42.43
+        },
+        {
+          "text": "debugging",
+          "start": 42.43,
+          "end": 43.23
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h2",
+      "text": "Phase 2: Automation Basics (Months 6-12)",
+      "start": 43.7,
+      "end": 47.275,
+      "words": [
+        {
+          "text": "Phase",
+          "start": 44.0,
+          "end": 44.275
+        },
+        {
+          "text": "2",
+          "start": 44.275,
+          "end": 44.6
+        },
+        {
+          "text": ":",
+          "start": 44.6,
+          "end": 44.7
+        },
+        {
+          "text": "Automation",
+          "start": 44.7,
+          "end": 45.275
+        },
+        {
+          "text": "Basics",
+          "start": 45.275,
+          "end": 45.937
+        },
+        {
+          "text": "(",
+          "start": 45.937,
+          "end": 46.025
+        },
+        {
+          "text": "Months",
+          "start": 46.025,
+          "end": 46.3
+        },
+        {
+          "text": "6-12",
+          "start": 46.3,
+          "end": 47.125
+        },
+        {
+          "text": ")",
+          "start": 47.125,
+          "end": 47.275
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Choose your first automation tool wisely.",
+      "start": 47.595,
+      "end": 50.32,
+      "words": [
+        {
+          "text": "Choose",
+          "start": 47.895,
+          "end": 48.132
+        },
+        {
+          "text": "your",
+          "start": 48.132,
+          "end": 48.282
+        },
+        {
+          "text": "first",
+          "start": 48.282,
+          "end": 48.57
+        },
+        {
+          "text": "automation",
+          "start": 48.57,
+          "end": 49.145
+        },
+        {
+          "text": "tool",
+          "start": 49.145,
+          "end": 49.42
+        },
+        {
+          "text": "wisely",
+          "start": 49.42,
+          "end": 50.17
+        },
+        {
+          "text": ".",
+          "start": 50.17,
+          "end": 50.32
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "Your First Automation Framework",
+      "start": 50.64,
+      "end": 52.715,
+      "words": [
+        {
+          "text": "Your",
+          "start": 50.915,
+          "end": 51.077
+        },
+        {
+          "text": "First",
+          "start": 51.077,
+          "end": 51.415
+        },
+        {
+          "text": "Automation",
+          "start": 51.415,
+          "end": 52.015
+        },
+        {
+          "text": "Framework",
+          "start": 52.015,
+          "end": 52.715
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h2",
+      "text": "Phase 3: Framework Architecture (Months 12-24)",
+      "start": 53.16,
+      "end": 57.185,
+      "words": [
+        {
+          "text": "Phase",
+          "start": 53.46,
+          "end": 53.797
+        },
+        {
+          "text": "3",
+          "start": 53.797,
+          "end": 54.235
+        },
+        {
+          "text": ":",
+          "start": 54.235,
+          "end": 54.372
+        },
+        {
+          "text": "Framework",
+          "start": 54.372,
+          "end": 54.835
+        },
+        {
+          "text": "Architecture",
+          "start": 54.835,
+          "end": 55.56
+        },
+        {
+          "text": "(",
+          "start": 55.56,
+          "end": 55.635
+        },
+        {
+          "text": "Months",
+          "start": 55.635,
+          "end": 55.935
+        },
+        {
+          "text": "12-24",
+          "start": 55.935,
+          "end": 57.01
+        },
+        {
+          "text": ")",
+          "start": 57.01,
+          "end": 57.185
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "Now you're writing tests. Time to think about structure.",
+      "start": 57.505,
+      "end": 61.08,
+      "words": [
+        {
+          "text": "Now",
+          "start": 57.83,
+          "end": 58.03
+        },
+        {
+          "text": "you're",
+          "start": 58.03,
+          "end": 58.18
+        },
+        {
+          "text": "writing",
+          "start": 58.18,
+          "end": 58.53
+        },
+        {
+          "text": "tests",
+          "start": 58.53,
+          "end": 59.155
+        },
+        {
+          "text": ".",
+          "start": 59.155,
+          "end": 59.267
+        },
+        {
+          "text": "Time",
+          "start": 59.267,
+          "end": 59.58
+        },
+        {
+          "text": "to",
+          "start": 59.58,
+          "end": 59.705
+        },
+        {
+          "text": "think",
+          "start": 59.705,
+          "end": 59.867
+        },
+        {
+          "text": "about",
+          "start": 59.867,
+          "end": 60.105
+        },
+        {
+          "text": "structure",
+          "start": 60.105,
+          "end": 60.905
+        },
+        {
+          "text": ".",
+          "start": 60.905,
+          "end": 61.08
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Learn these patterns:",
+      "start": 61.4,
+      "end": 63.15,
+      "words": [
+        {
+          "text": "Learn",
+          "start": 61.75,
+          "end": 61.987
+        },
+        {
+          "text": "these",
+          "start": 61.987,
+          "end": 62.2
+        },
+        {
+          "text": "patterns",
+          "start": 62.2,
+          "end": 62.975
+        },
+        {
+          "text": ":",
+          "start": 62.975,
+          "end": 63.15
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "Page Object Model (POM) , Essential for maintainability",
+      "start": 63.47,
+      "end": 67.47,
+      "words": [
+        {
+          "text": "Page",
+          "start": 63.745,
+          "end": 64.107
+        },
+        {
+          "text": "Object",
+          "start": 64.107,
+          "end": 64.52
+        },
+        {
+          "text": "Model",
+          "start": 64.52,
+          "end": 64.882
+        },
+        {
+          "text": "(",
+          "start": 64.882,
+          "end": 64.945
+        },
+        {
+          "text": "POM",
+          "start": 64.945,
+          "end": 65.445
+        },
+        {
+          "text": ")",
+          "start": 65.445,
+          "end": 65.57
+        },
+        {
+          "text": ",",
+          "start": 65.57,
+          "end": 65.645
+        },
+        {
+          "text": "Essential",
+          "start": 65.645,
+          "end": 66.12
+        },
+        {
+          "text": "for",
+          "start": 66.12,
+          "end": 66.245
+        },
+        {
+          "text": "maintainability",
+          "start": 66.245,
+          "end": 67.47
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Builder Pattern , For test data creation",
+      "start": 67.89,
+      "end": 70.69,
+      "words": [
+        {
+          "text": "Builder",
+          "start": 68.165,
+          "end": 68.515
+        },
+        {
+          "text": "Pattern",
+          "start": 68.515,
+          "end": 69.065
+        },
+        {
+          "text": ",",
+          "start": 69.065,
+          "end": 69.14
+        },
+        {
+          "text": "For",
+          "start": 69.14,
+          "end": 69.29
+        },
+        {
+          "text": "test",
+          "start": 69.29,
+          "end": 69.59
+        },
+        {
+          "text": "data",
+          "start": 69.59,
+          "end": 69.865
+        },
+        {
+          "text": "creation",
+          "start": 69.865,
+          "end": 70.69
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Strategy Pattern , For multiple browser/environment support",
+      "start": 71.11,
+      "end": 74.985,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 71.385,
+          "end": 71.885
+        },
+        {
+          "text": "Pattern",
+          "start": 71.885,
+          "end": 72.522
+        },
+        {
+          "text": ",",
+          "start": 72.522,
+          "end": 72.61
+        },
+        {
+          "text": "For",
+          "start": 72.61,
+          "end": 72.797
+        },
+        {
+          "text": "multiple",
+          "start": 72.797,
+          "end": 73.285
+        },
+        {
+          "text": "browser/environment",
+          "start": 73.285,
+          "end": 74.285
+        },
+        {
+          "text": "support",
+          "start": 74.285,
+          "end": 74.985
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Dependency Injection , For clean test setup",
+      "start": 75.43,
+      "end": 78.28,
+      "words": [
+        {
+          "text": "Dependency",
+          "start": 75.705,
+          "end": 76.305
+        },
+        {
+          "text": "Injection",
+          "start": 76.305,
+          "end": 77.092
+        },
+        {
+          "text": ",",
+          "start": 77.092,
+          "end": 77.18
+        },
+        {
+          "text": "For",
+          "start": 77.18,
+          "end": 77.33
+        },
+        {
+          "text": "clean",
+          "start": 77.33,
+          "end": 77.605
+        },
+        {
+          "text": "test",
+          "start": 77.605,
+          "end": 77.88
+        },
+        {
+          "text": "setup",
+          "start": 77.88,
+          "end": 78.28
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h3",
+      "text": "Framework Structure",
+      "start": 78.7,
+      "end": 80.2,
+      "words": [
+        {
+          "text": "Framework",
+          "start": 79.025,
+          "end": 79.45
+        },
+        {
+          "text": "Structure",
+          "start": 79.45,
+          "end": 80.2
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "h2",
+      "text": "Phase 4: CI/CD and DevOps (Months 18-30)",
+      "start": 80.695,
+      "end": 85.02,
+      "words": [
+        {
+          "text": "Phase",
+          "start": 80.995,
+          "end": 81.32
+        },
+        {
+          "text": "4",
+          "start": 81.32,
+          "end": 81.695
+        },
+        {
+          "text": ":",
+          "start": 81.695,
+          "end": 81.807
+        },
+        {
+          "text": "CI/CD",
+          "start": 81.807,
+          "end": 82.545
+        },
+        {
+          "text": "and",
+          "start": 82.545,
+          "end": 82.67
+        },
+        {
+          "text": "DevOps",
+          "start": 82.67,
+          "end": 83.457
+        },
+        {
+          "text": "(",
+          "start": 83.457,
+          "end": 83.545
+        },
+        {
+          "text": "Months",
+          "start": 83.545,
+          "end": 83.845
+        },
+        {
+          "text": "18-30",
+          "start": 83.845,
+          "end": 84.87
+        },
+        {
+          "text": ")",
+          "start": 84.87,
+          "end": 85.02
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "This is where you become indispensable.",
+      "start": 85.34,
+      "end": 87.99,
+      "words": [
+        {
+          "text": "This",
+          "start": 85.615,
+          "end": 85.84
+        },
+        {
+          "text": "is",
+          "start": 85.84,
+          "end": 85.99
+        },
+        {
+          "text": "where",
+          "start": 85.99,
+          "end": 86.14
+        },
+        {
+          "text": "you",
+          "start": 86.14,
+          "end": 86.265
+        },
+        {
+          "text": "become",
+          "start": 86.265,
+          "end": 86.752
+        },
+        {
+          "text": "indispensable",
+          "start": 86.752,
+          "end": 87.84
+        },
+        {
+          "text": ".",
+          "start": 87.84,
+          "end": 87.99
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "Learn:",
+      "start": 88.31,
+      "end": 89.56,
+      "words": [
+        {
+          "text": "Learn",
+          "start": 88.735,
+          "end": 89.36
+        },
+        {
+          "text": ":",
+          "start": 89.36,
+          "end": 89.56
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Azure DevOps Pipelines or GitHub Actions",
+      "start": 89.88,
+      "end": 92.88,
+      "words": [
+        {
+          "text": "Azure",
+          "start": 90.18,
+          "end": 90.48
+        },
+        {
+          "text": "DevOps",
+          "start": 90.48,
+          "end": 90.93
+        },
+        {
+          "text": "Pipelines",
+          "start": 90.93,
+          "end": 91.617
+        },
+        {
+          "text": "or",
+          "start": 91.617,
+          "end": 91.78
+        },
+        {
+          "text": "GitHub",
+          "start": 91.78,
+          "end": 92.08
+        },
+        {
+          "text": "Actions",
+          "start": 92.08,
+          "end": 92.88
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "Docker basics (for consistent test environments)",
+      "start": 93.325,
+      "end": 96.725,
+      "words": [
+        {
+          "text": "Docker",
+          "start": 93.625,
+          "end": 93.95
+        },
+        {
+          "text": "basics",
+          "start": 93.95,
+          "end": 94.65
+        },
+        {
+          "text": "(",
+          "start": 94.65,
+          "end": 94.725
+        },
+        {
+          "text": "for",
+          "start": 94.725,
+          "end": 94.825
+        },
+        {
+          "text": "consistent",
+          "start": 94.825,
+          "end": 95.4
+        },
+        {
+          "text": "test",
+          "start": 95.4,
+          "end": 95.662
+        },
+        {
+          "text": "environments",
+          "start": 95.662,
+          "end": 96.575
+        },
+        {
+          "text": ")",
+          "start": 96.575,
+          "end": 96.725
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Cloud testing (Sauce Labs, BrowserStack, or Azure Test Plans)",
+      "start": 97.045,
+      "end": 101.445,
+      "words": [
+        {
+          "text": "Cloud",
+          "start": 97.32,
+          "end": 97.57
+        },
+        {
+          "text": "testing",
+          "start": 97.57,
+          "end": 98.257
+        },
+        {
+          "text": "(",
+          "start": 98.257,
+          "end": 98.345
+        },
+        {
+          "text": "Sauce",
+          "start": 98.345,
+          "end": 98.595
+        },
+        {
+          "text": "Labs",
+          "start": 98.595,
+          "end": 99.045
+        },
+        {
+          "text": ",",
+          "start": 99.045,
+          "end": 99.12
+        },
+        {
+          "text": "BrowserStack",
+          "start": 99.12,
+          "end": 99.82
+        },
+        {
+          "text": ",",
+          "start": 99.82,
+          "end": 99.857
+        },
+        {
+          "text": "or",
+          "start": 99.857,
+          "end": 100.007
+        },
+        {
+          "text": "Azure",
+          "start": 100.007,
+          "end": 100.32
+        },
+        {
+          "text": "Test",
+          "start": 100.32,
+          "end": 100.595
+        },
+        {
+          "text": "Plans",
+          "start": 100.595,
+          "end": 101.295
+        },
+        {
+          "text": ")",
+          "start": 101.295,
+          "end": 101.445
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h2",
+      "text": "Phase 5: Leadership (Years 2-5)",
+      "start": 101.765,
+      "end": 104.715,
+      "words": [
+        {
+          "text": "Phase",
+          "start": 102.065,
+          "end": 102.365
+        },
+        {
+          "text": "5",
+          "start": 102.365,
+          "end": 102.815
+        },
+        {
+          "text": ":",
+          "start": 102.815,
+          "end": 102.915
+        },
+        {
+          "text": "Leadership",
+          "start": 102.915,
+          "end": 103.44
+        },
+        {
+          "text": "(",
+          "start": 103.44,
+          "end": 103.49
+        },
+        {
+          "text": "Years",
+          "start": 103.49,
+          "end": 103.74
+        },
+        {
+          "text": "2-5",
+          "start": 103.74,
+          "end": 104.54
+        },
+        {
+          "text": ")",
+          "start": 104.54,
+          "end": 104.715
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "Shift from \"writing tests\" to \"improving quality\".",
+      "start": 105.035,
+      "end": 108.46,
+      "words": [
+        {
+          "text": "Shift",
+          "start": 105.385,
+          "end": 105.635
+        },
+        {
+          "text": "from",
+          "start": 105.635,
+          "end": 105.835
+        },
+        {
+          "text": "\"",
+          "start": 105.835,
+          "end": 105.91
+        },
+        {
+          "text": "writing",
+          "start": 105.91,
+          "end": 106.21
+        },
+        {
+          "text": "tests",
+          "start": 106.21,
+          "end": 106.785
+        },
+        {
+          "text": "\"",
+          "start": 106.785,
+          "end": 106.86
+        },
+        {
+          "text": "to",
+          "start": 106.86,
+          "end": 106.997
+        },
+        {
+          "text": "\"",
+          "start": 106.997,
+          "end": 107.035
+        },
+        {
+          "text": "improving",
+          "start": 107.035,
+          "end": 107.51
+        },
+        {
+          "text": "quality",
+          "start": 107.51,
+          "end": 108.26
+        },
+        {
+          "text": "\"",
+          "start": 108.26,
+          "end": 108.41
+        },
+        {
+          "text": ".",
+          "start": 108.41,
+          "end": 108.46
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Quality metrics , Coverage, defect escape rate, test execution time",
+      "start": 108.78,
+      "end": 113.53,
+      "words": [
+        {
+          "text": "Quality",
+          "start": 109.03,
+          "end": 109.43
+        },
+        {
+          "text": "metrics",
+          "start": 109.43,
+          "end": 110.055
+        },
+        {
+          "text": ",",
+          "start": 110.055,
+          "end": 110.13
+        },
+        {
+          "text": "Coverage",
+          "start": 110.13,
+          "end": 110.63
+        },
+        {
+          "text": ",",
+          "start": 110.63,
+          "end": 110.68
+        },
+        {
+          "text": "defect",
+          "start": 110.68,
+          "end": 111.067
+        },
+        {
+          "text": "escape",
+          "start": 111.067,
+          "end": 111.43
+        },
+        {
+          "text": "rate",
+          "start": 111.43,
+          "end": 111.905
+        },
+        {
+          "text": ",",
+          "start": 111.905,
+          "end": 112.017
+        },
+        {
+          "text": "test",
+          "start": 112.017,
+          "end": 112.292
+        },
+        {
+          "text": "execution",
+          "start": 112.292,
+          "end": 112.905
+        },
+        {
+          "text": "time",
+          "start": 112.905,
+          "end": 113.53
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "Test strategy , What to automate, what to leave manual, what to skip",
+      "start": 113.975,
+      "end": 117.975,
+      "words": [
+        {
+          "text": "Test",
+          "start": 114.25,
+          "end": 114.462
+        },
+        {
+          "text": "strategy",
+          "start": 114.462,
+          "end": 115.162
+        },
+        {
+          "text": ",",
+          "start": 115.162,
+          "end": 115.25
+        },
+        {
+          "text": "What",
+          "start": 115.25,
+          "end": 115.387
+        },
+        {
+          "text": "to",
+          "start": 115.387,
+          "end": 115.5
+        },
+        {
+          "text": "automate",
+          "start": 115.5,
+          "end": 116.0
+        },
+        {
+          "text": ",",
+          "start": 116.0,
+          "end": 116.05
+        },
+        {
+          "text": "what",
+          "start": 116.05,
+          "end": 116.2
+        },
+        {
+          "text": "to",
+          "start": 116.2,
+          "end": 116.3
+        },
+        {
+          "text": "leave",
+          "start": 116.3,
+          "end": 116.525
+        },
+        {
+          "text": "manual",
+          "start": 116.525,
+          "end": 117.05
+        },
+        {
+          "text": ",",
+          "start": 117.05,
+          "end": 117.125
+        },
+        {
+          "text": "what",
+          "start": 117.125,
+          "end": 117.275
+        },
+        {
+          "text": "to",
+          "start": 117.275,
+          "end": 117.412
+        },
+        {
+          "text": "skip",
+          "start": 117.412,
+          "end": 117.975
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "Team mentoring , Train others, build automation culture",
+      "start": 118.42,
+      "end": 122.17,
+      "words": [
+        {
+          "text": "Team",
+          "start": 118.695,
+          "end": 118.97
+        },
+        {
+          "text": "mentoring",
+          "start": 118.97,
+          "end": 119.557
+        },
+        {
+          "text": ",",
+          "start": 119.557,
+          "end": 119.62
+        },
+        {
+          "text": "Train",
+          "start": 119.62,
+          "end": 119.882
+        },
+        {
+          "text": "others",
+          "start": 119.882,
+          "end": 120.42
+        },
+        {
+          "text": ",",
+          "start": 120.42,
+          "end": 120.52
+        },
+        {
+          "text": "build",
+          "start": 120.52,
+          "end": 120.807
+        },
+        {
+          "text": "automation",
+          "start": 120.807,
+          "end": 121.445
+        },
+        {
+          "text": "culture",
+          "start": 121.445,
+          "end": 122.17
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "li",
+      "text": "Stakeholder communication , Translate quality data into business insights",
+      "start": 122.615,
+      "end": 127.465,
+      "words": [
+        {
+          "text": "Stakeholder",
+          "start": 122.89,
+          "end": 123.415
+        },
+        {
+          "text": "communication",
+          "start": 123.415,
+          "end": 124.527
+        },
+        {
+          "text": ",",
+          "start": 124.527,
+          "end": 124.627
+        },
+        {
+          "text": "Translate",
+          "start": 124.627,
+          "end": 125.24
+        },
+        {
+          "text": "quality",
+          "start": 125.24,
+          "end": 125.665
+        },
+        {
+          "text": "data",
+          "start": 125.665,
+          "end": 126.015
+        },
+        {
+          "text": "into",
+          "start": 126.015,
+          "end": 126.265
+        },
+        {
+          "text": "business",
+          "start": 126.265,
+          "end": 126.64
+        },
+        {
+          "text": "insights",
+          "start": 126.64,
+          "end": 127.465
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h3",
+      "text": "The Communication Framework",
+      "start": 127.885,
+      "end": 129.71,
+      "words": [
+        {
+          "text": "The",
+          "start": 128.16,
+          "end": 128.235
+        },
+        {
+          "text": "Communication",
+          "start": 128.235,
+          "end": 129.035
+        },
+        {
+          "text": "Framework",
+          "start": 129.035,
+          "end": 129.71
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h2",
+      "text": "The Skills That Matter Most",
+      "start": 130.18,
+      "end": 132.005,
+      "words": [
+        {
+          "text": "The",
+          "start": 130.43,
+          "end": 130.542
+        },
+        {
+          "text": "Skills",
+          "start": 130.542,
+          "end": 130.942
+        },
+        {
+          "text": "That",
+          "start": 130.942,
+          "end": 131.08
+        },
+        {
+          "text": "Matter",
+          "start": 131.08,
+          "end": 131.405
+        },
+        {
+          "text": "Most",
+          "start": 131.405,
+          "end": 132.005
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "Beyond technical skills, these differentiate good QA engineers from great ones:",
+      "start": 132.475,
+      "end": 137.9,
+      "words": [
+        {
+          "text": "Beyond",
+          "start": 132.75,
+          "end": 133.237
+        },
+        {
+          "text": "technical",
+          "start": 133.237,
+          "end": 133.75
+        },
+        {
+          "text": "skills",
+          "start": 133.75,
+          "end": 134.475
+        },
+        {
+          "text": ",",
+          "start": 134.475,
+          "end": 134.575
+        },
+        {
+          "text": "these",
+          "start": 134.575,
+          "end": 134.825
+        },
+        {
+          "text": "differentiate",
+          "start": 134.825,
+          "end": 135.537
+        },
+        {
+          "text": "good",
+          "start": 135.537,
+          "end": 135.787
+        },
+        {
+          "text": "QA",
+          "start": 135.787,
+          "end": 136.175
+        },
+        {
+          "text": "engineers",
+          "start": 136.175,
+          "end": 136.75
+        },
+        {
+          "text": "from",
+          "start": 136.75,
+          "end": 136.9
+        },
+        {
+          "text": "great",
+          "start": 136.9,
+          "end": 137.137
+        },
+        {
+          "text": "ones",
+          "start": 137.137,
+          "end": 137.75
+        },
+        {
+          "text": ":",
+          "start": 137.75,
+          "end": 137.9
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "li",
+      "text": "Curiosity , Always ask \"what if?\"",
+      "start": 138.22,
+      "end": 140.995,
+      "words": [
+        {
+          "text": "Curiosity",
+          "start": 138.495,
+          "end": 139.32
+        },
+        {
+          "text": ",",
+          "start": 139.32,
+          "end": 139.395
+        },
+        {
+          "text": "Always",
+          "start": 139.395,
+          "end": 139.77
+        },
+        {
+          "text": "ask",
+          "start": 139.77,
+          "end": 140.145
+        },
+        {
+          "text": "\"",
+          "start": 140.145,
+          "end": 140.22
+        },
+        {
+          "text": "what",
+          "start": 140.22,
+          "end": 140.382
+        },
+        {
+          "text": "if",
+          "start": 140.382,
+          "end": 140.845
+        },
+        {
+          "text": "?",
+          "start": 140.845,
+          "end": 140.97
+        },
+        {
+          "text": "\"",
+          "start": 140.97,
+          "end": 140.995
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Empathy , Think like the user, not the developer",
+      "start": 141.315,
+      "end": 144.34,
+      "words": [
+        {
+          "text": "Empathy",
+          "start": 141.615,
+          "end": 142.177
+        },
+        {
+          "text": ",",
+          "start": 142.177,
+          "end": 142.265
+        },
+        {
+          "text": "Think",
+          "start": 142.265,
+          "end": 142.427
+        },
+        {
+          "text": "like",
+          "start": 142.427,
+          "end": 142.577
+        },
+        {
+          "text": "the",
+          "start": 142.577,
+          "end": 142.665
+        },
+        {
+          "text": "user",
+          "start": 142.665,
+          "end": 143.215
+        },
+        {
+          "text": ",",
+          "start": 143.215,
+          "end": 143.315
+        },
+        {
+          "text": "not",
+          "start": 143.315,
+          "end": 143.502
+        },
+        {
+          "text": "the",
+          "start": 143.502,
+          "end": 143.577
+        },
+        {
+          "text": "developer",
+          "start": 143.577,
+          "end": 144.34
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Communication , Write clear bug reports and test documentation",
+      "start": 144.86,
+      "end": 149.035,
+      "words": [
+        {
+          "text": "Communication",
+          "start": 145.135,
+          "end": 146.197
+        },
+        {
+          "text": ",",
+          "start": 146.197,
+          "end": 146.285
+        },
+        {
+          "text": "Write",
+          "start": 146.285,
+          "end": 146.535
+        },
+        {
+          "text": "clear",
+          "start": 146.535,
+          "end": 146.81
+        },
+        {
+          "text": "bug",
+          "start": 146.81,
+          "end": 147.022
+        },
+        {
+          "text": "reports",
+          "start": 147.022,
+          "end": 147.485
+        },
+        {
+          "text": "and",
+          "start": 147.485,
+          "end": 147.622
+        },
+        {
+          "text": "test",
+          "start": 147.622,
+          "end": 147.935
+        },
+        {
+          "text": "documentation",
+          "start": 147.935,
+          "end": 149.035
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "Systems thinking , Understand how components interact",
+      "start": 149.455,
+      "end": 152.98,
+      "words": [
+        {
+          "text": "Systems",
+          "start": 149.755,
+          "end": 150.18
+        },
+        {
+          "text": "thinking",
+          "start": 150.18,
+          "end": 150.817
+        },
+        {
+          "text": ",",
+          "start": 150.817,
+          "end": 150.905
+        },
+        {
+          "text": "Understand",
+          "start": 150.905,
+          "end": 151.48
+        },
+        {
+          "text": "how",
+          "start": 151.48,
+          "end": 151.655
+        },
+        {
+          "text": "components",
+          "start": 151.655,
+          "end": 152.18
+        },
+        {
+          "text": "interact",
+          "start": 152.18,
+          "end": 152.98
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Business awareness , Know which features matter most to users",
+      "start": 153.425,
+      "end": 157.275,
+      "words": [
+        {
+          "text": "Business",
+          "start": 153.7,
+          "end": 154.075
+        },
+        {
+          "text": "awareness",
+          "start": 154.075,
+          "end": 154.812
+        },
+        {
+          "text": ",",
+          "start": 154.812,
+          "end": 154.9
+        },
+        {
+          "text": "Know",
+          "start": 154.9,
+          "end": 155.112
+        },
+        {
+          "text": "which",
+          "start": 155.112,
+          "end": 155.3
+        },
+        {
+          "text": "features",
+          "start": 155.3,
+          "end": 155.7
+        },
+        {
+          "text": "matter",
+          "start": 155.7,
+          "end": 156.075
+        },
+        {
+          "text": "most",
+          "start": 156.075,
+          "end": 156.4
+        },
+        {
+          "text": "to",
+          "start": 156.4,
+          "end": 156.525
+        },
+        {
+          "text": "users",
+          "start": 156.525,
+          "end": 157.275
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "h2",
+      "text": "Final Advice",
+      "start": 157.72,
+      "end": 159.12,
+      "words": [
+        {
+          "text": "Final",
+          "start": 158.095,
+          "end": 158.407
+        },
+        {
+          "text": "Advice",
+          "start": 158.407,
+          "end": 159.12
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "The QA field is evolving rapidly. AI-assisted testing, visual regression tools, and shift-left practices are changing the landscape. But the fundamentals , thinking critically about quality , will always be valuable.",
+      "start": 159.615,
+      "end": 173.94,
+      "words": [
+        {
+          "text": "The",
+          "start": 159.865,
+          "end": 159.977
+        },
+        {
+          "text": "QA",
+          "start": 159.977,
+          "end": 160.452
+        },
+        {
+          "text": "field",
+          "start": 160.452,
+          "end": 160.865
+        },
+        {
+          "text": "is",
+          "start": 160.865,
+          "end": 161.015
+        },
+        {
+          "text": "evolving",
+          "start": 161.015,
+          "end": 161.54
+        },
+        {
+          "text": "rapidly",
+          "start": 161.54,
+          "end": 162.515
+        },
+        {
+          "text": ".",
+          "start": 162.515,
+          "end": 162.677
+        },
+        {
+          "text": "AI-assisted",
+          "start": 162.677,
+          "end": 163.377
+        },
+        {
+          "text": "testing",
+          "start": 163.377,
+          "end": 164.09
+        },
+        {
+          "text": ",",
+          "start": 164.09,
+          "end": 164.202
+        },
+        {
+          "text": "visual",
+          "start": 164.202,
+          "end": 164.59
+        },
+        {
+          "text": "regression",
+          "start": 164.59,
+          "end": 165.14
+        },
+        {
+          "text": "tools",
+          "start": 165.14,
+          "end": 165.69
+        },
+        {
+          "text": ",",
+          "start": 165.69,
+          "end": 165.765
+        },
+        {
+          "text": "and",
+          "start": 165.765,
+          "end": 165.915
+        },
+        {
+          "text": "shift-left",
+          "start": 165.915,
+          "end": 166.44
+        },
+        {
+          "text": "practices",
+          "start": 166.44,
+          "end": 167.152
+        },
+        {
+          "text": "are",
+          "start": 167.152,
+          "end": 167.34
+        },
+        {
+          "text": "changing",
+          "start": 167.34,
+          "end": 167.802
+        },
+        {
+          "text": "the",
+          "start": 167.802,
+          "end": 167.89
+        },
+        {
+          "text": "landscape",
+          "start": 167.89,
+          "end": 168.94
+        },
+        {
+          "text": ".",
+          "start": 168.94,
+          "end": 169.04
+        },
+        {
+          "text": "But",
+          "start": 169.04,
+          "end": 169.177
+        },
+        {
+          "text": "the",
+          "start": 169.177,
+          "end": 169.277
+        },
+        {
+          "text": "fundamentals",
+          "start": 169.277,
+          "end": 170.202
+        },
+        {
+          "text": ",",
+          "start": 170.202,
+          "end": 170.29
+        },
+        {
+          "text": "thinking",
+          "start": 170.29,
+          "end": 170.64
+        },
+        {
+          "text": "critically",
+          "start": 170.64,
+          "end": 171.065
+        },
+        {
+          "text": "about",
+          "start": 171.065,
+          "end": 171.34
+        },
+        {
+          "text": "quality",
+          "start": 171.34,
+          "end": 172.027
+        },
+        {
+          "text": ",",
+          "start": 172.027,
+          "end": 172.115
+        },
+        {
+          "text": "will",
+          "start": 172.115,
+          "end": 172.302
+        },
+        {
+          "text": "always",
+          "start": 172.302,
+          "end": 172.79
+        },
+        {
+          "text": "be",
+          "start": 172.79,
+          "end": 172.94
+        },
+        {
+          "text": "valuable",
+          "start": 172.94,
+          "end": 173.79
+        },
+        {
+          "text": ".",
+          "start": 173.79,
+          "end": 173.94
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "p",
+      "text": "Start where you are. Use what you have. Build one skill at a time.",
+      "start": 174.26,
+      "end": 178.335,
+      "words": [
+        {
+          "text": "Start",
+          "start": 174.535,
+          "end": 174.747
+        },
+        {
+          "text": "where",
+          "start": 174.747,
+          "end": 174.885
+        },
+        {
+          "text": "you",
+          "start": 174.885,
+          "end": 175.022
+        },
+        {
+          "text": "are",
+          "start": 175.022,
+          "end": 175.285
+        },
+        {
+          "text": ".",
+          "start": 175.285,
+          "end": 175.372
+        },
+        {
+          "text": "Use",
+          "start": 175.372,
+          "end": 175.597
+        },
+        {
+          "text": "what",
+          "start": 175.597,
+          "end": 175.735
+        },
+        {
+          "text": "you",
+          "start": 175.735,
+          "end": 175.835
+        },
+        {
+          "text": "have",
+          "start": 175.835,
+          "end": 176.41
+        },
+        {
+          "text": ".",
+          "start": 176.41,
+          "end": 176.572
+        },
+        {
+          "text": "Build",
+          "start": 176.572,
+          "end": 176.86
+        },
+        {
+          "text": "one",
+          "start": 176.86,
+          "end": 177.085
+        },
+        {
+          "text": "skill",
+          "start": 177.085,
+          "end": 177.372
+        },
+        {
+          "text": "at",
+          "start": 177.372,
+          "end": 177.447
+        },
+        {
+          "text": "a",
+          "start": 177.447,
+          "end": 177.51
+        },
+        {
+          "text": "time",
+          "start": 177.51,
+          "end": 178.185
+        },
+        {
+          "text": ".",
+          "start": 178.185,
+          "end": 178.335
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 178.655,
+      "end": 180.48,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 178.955,
+          "end": 179.455
+        },
+        {
+          "text": "and",
+          "start": 179.455,
+          "end": 179.58
+        },
+        {
+          "text": "Further",
+          "start": 179.58,
+          "end": 179.855
+        },
+        {
+          "text": "Reading",
+          "start": 179.855,
+          "end": 180.48
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "ISTQB , certification paths",
+      "start": 180.925,
+      "end": 183.725,
+      "words": [
+        {
+          "text": "ISTQB",
+          "start": 181.225,
+          "end": 182.2
+        },
+        {
+          "text": ",",
+          "start": 182.2,
+          "end": 182.3
+        },
+        {
+          "text": "certification",
+          "start": 182.3,
+          "end": 183.0
+        },
+        {
+          "text": "paths",
+          "start": 183.0,
+          "end": 183.725
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Ministry of Testing , community resources",
+      "start": 184.195,
+      "end": 187.17,
+      "words": [
+        {
+          "text": "Ministry",
+          "start": 184.495,
+          "end": 184.882
+        },
+        {
+          "text": "of",
+          "start": 184.882,
+          "end": 184.97
+        },
+        {
+          "text": "Testing",
+          "start": 184.97,
+          "end": 185.632
+        },
+        {
+          "text": ",",
+          "start": 185.632,
+          "end": 185.72
+        },
+        {
+          "text": "community",
+          "start": 185.72,
+          "end": 186.195
+        },
+        {
+          "text": "resources",
+          "start": 186.195,
+          "end": 187.17
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Test Automation University , free courses",
+      "start": 187.59,
+      "end": 190.69,
+      "words": [
+        {
+          "text": "Test",
+          "start": 187.865,
+          "end": 188.115
+        },
+        {
+          "text": "Automation",
+          "start": 188.115,
+          "end": 188.652
+        },
+        {
+          "text": "University",
+          "start": 188.652,
+          "end": 189.49
+        },
+        {
+          "text": ",",
+          "start": 189.49,
+          "end": 189.602
+        },
+        {
+          "text": "free",
+          "start": 189.602,
+          "end": 189.84
+        },
+        {
+          "text": "courses",
+          "start": 189.84,
+          "end": 190.69
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Google Testing Blog",
+      "start": 191.11,
+      "end": 192.785,
+      "words": [
+        {
+          "text": "Google",
+          "start": 191.435,
+          "end": 191.76
+        },
+        {
+          "text": "Testing",
+          "start": 191.76,
+          "end": 192.16
+        },
+        {
+          "text": "Blog",
+          "start": 192.16,
+          "end": 192.785
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "p",
+      "text": "See also: The Browser Automation Trap (Jun 2026) , read this before you pick a framework on hype alone. · AI-Driven Test Strategy (Jun 2026) , where the career path is heading.",
+      "start": 193.305,
+      "end": 206.355,
+      "words": [
+        {
+          "text": "See",
+          "start": 193.605,
+          "end": 193.78
+        },
+        {
+          "text": "also",
+          "start": 193.78,
+          "end": 194.38
+        },
+        {
+          "text": ":",
+          "start": 194.38,
+          "end": 194.48
+        },
+        {
+          "text": "The",
+          "start": 194.48,
+          "end": 194.58
+        },
+        {
+          "text": "Browser",
+          "start": 194.58,
+          "end": 195.03
+        },
+        {
+          "text": "Automation",
+          "start": 195.03,
+          "end": 195.692
+        },
+        {
+          "text": "Trap",
+          "start": 195.692,
+          "end": 196.242
+        },
+        {
+          "text": "(",
+          "start": 196.242,
+          "end": 196.33
+        },
+        {
+          "text": "Jun",
+          "start": 196.33,
+          "end": 196.58
+        },
+        {
+          "text": "2026",
+          "start": 196.58,
+          "end": 197.705
+        },
+        {
+          "text": ")",
+          "start": 197.705,
+          "end": 197.805
+        },
+        {
+          "text": ",",
+          "start": 197.805,
+          "end": 197.892
+        },
+        {
+          "text": "read",
+          "start": 197.892,
+          "end": 198.155
+        },
+        {
+          "text": "this",
+          "start": 198.155,
+          "end": 198.38
+        },
+        {
+          "text": "before",
+          "start": 198.38,
+          "end": 198.705
+        },
+        {
+          "text": "you",
+          "start": 198.705,
+          "end": 198.83
+        },
+        {
+          "text": "pick",
+          "start": 198.83,
+          "end": 198.992
+        },
+        {
+          "text": "a",
+          "start": 198.992,
+          "end": 199.092
+        },
+        {
+          "text": "framework",
+          "start": 199.092,
+          "end": 199.567
+        },
+        {
+          "text": "on",
+          "start": 199.567,
+          "end": 199.742
+        },
+        {
+          "text": "hype",
+          "start": 199.742,
+          "end": 200.03
+        },
+        {
+          "text": "alone",
+          "start": 200.03,
+          "end": 200.93
+        },
+        {
+          "text": ".",
+          "start": 200.93,
+          "end": 201.117
+        },
+        {
+          "text": "AI-Driven",
+          "start": 201.192,
+          "end": 201.78
+        },
+        {
+          "text": "Test",
+          "start": 201.78,
+          "end": 202.005
+        },
+        {
+          "text": "Strategy",
+          "start": 202.005,
+          "end": 202.805
+        },
+        {
+          "text": "(",
+          "start": 202.805,
+          "end": 202.88
+        },
+        {
+          "text": "Jun",
+          "start": 202.88,
+          "end": 203.155
+        },
+        {
+          "text": "2026",
+          "start": 203.155,
+          "end": 204.38
+        },
+        {
+          "text": ")",
+          "start": 204.38,
+          "end": 204.417
+        },
+        {
+          "text": ",",
+          "start": 204.417,
+          "end": 204.467
+        },
+        {
+          "text": "where",
+          "start": 204.467,
+          "end": 204.592
+        },
+        {
+          "text": "the",
+          "start": 204.592,
+          "end": 204.73
+        },
+        {
+          "text": "career",
+          "start": 204.73,
+          "end": 205.155
+        },
+        {
+          "text": "path",
+          "start": 205.155,
+          "end": 205.48
+        },
+        {
+          "text": "is",
+          "start": 205.48,
+          "end": 205.592
+        },
+        {
+          "text": "heading",
+          "start": 205.592,
+          "end": 206.355
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

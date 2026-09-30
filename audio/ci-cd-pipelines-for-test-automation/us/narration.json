@@ -1,0 +1,1849 @@
+{
+  "slug": "ci-cd-pipelines-for-test-automation",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 133.09,
+  "contentHash": "f70790016290cb5217d5b517b4af3d570949d4eab81392c729b311bd46e2a7a1",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "CI/CD Pipelines for Test Automation: A Practical Guide",
+      "start": 0.0,
+      "end": 4.25,
+      "words": [
+        {
+          "text": "CI/CD",
+          "start": 0.325,
+          "end": 1.075
+        },
+        {
+          "text": "Pipelines",
+          "start": 1.075,
+          "end": 1.625
+        },
+        {
+          "text": "for",
+          "start": 1.625,
+          "end": 1.75
+        },
+        {
+          "text": "Test",
+          "start": 1.75,
+          "end": 2.013
+        },
+        {
+          "text": "Automation",
+          "start": 2.013,
+          "end": 2.85
+        },
+        {
+          "text": ":",
+          "start": 2.85,
+          "end": 2.987
+        },
+        {
+          "text": "A",
+          "start": 2.987,
+          "end": 3.1
+        },
+        {
+          "text": "Practical",
+          "start": 3.1,
+          "end": 3.65
+        },
+        {
+          "text": "Guide",
+          "start": 3.65,
+          "end": 4.25
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "A well-designed test pipeline is the backbone of quality engineering. Here's what I've learned building pipelines across multiple organizations.",
+      "start": 4.72,
+      "end": 13.795,
+      "words": [
+        {
+          "text": "A",
+          "start": 4.995,
+          "end": 5.082
+        },
+        {
+          "text": "well-designed",
+          "start": 5.082,
+          "end": 5.782
+        },
+        {
+          "text": "test",
+          "start": 5.782,
+          "end": 6.07
+        },
+        {
+          "text": "pipeline",
+          "start": 6.07,
+          "end": 6.845
+        },
+        {
+          "text": "is",
+          "start": 6.845,
+          "end": 7.02
+        },
+        {
+          "text": "the",
+          "start": 7.02,
+          "end": 7.12
+        },
+        {
+          "text": "backbone",
+          "start": 7.12,
+          "end": 7.645
+        },
+        {
+          "text": "of",
+          "start": 7.645,
+          "end": 7.782
+        },
+        {
+          "text": "quality",
+          "start": 7.782,
+          "end": 8.27
+        },
+        {
+          "text": "engineering",
+          "start": 8.27,
+          "end": 9.27
+        },
+        {
+          "text": ".",
+          "start": 9.27,
+          "end": 9.407
+        },
+        {
+          "text": "Here's",
+          "start": 9.407,
+          "end": 9.707
+        },
+        {
+          "text": "what",
+          "start": 9.707,
+          "end": 9.832
+        },
+        {
+          "text": "I've",
+          "start": 9.832,
+          "end": 10.02
+        },
+        {
+          "text": "learned",
+          "start": 10.02,
+          "end": 10.357
+        },
+        {
+          "text": "building",
+          "start": 10.357,
+          "end": 10.745
+        },
+        {
+          "text": "pipelines",
+          "start": 10.745,
+          "end": 11.558
+        },
+        {
+          "text": "across",
+          "start": 11.558,
+          "end": 11.995
+        },
+        {
+          "text": "multiple",
+          "start": 11.995,
+          "end": 12.495
+        },
+        {
+          "text": "organizations",
+          "start": 12.495,
+          "end": 13.645
+        },
+        {
+          "text": ".",
+          "start": 13.645,
+          "end": 13.795
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "h2",
+      "text": "Pipeline Architecture",
+      "start": 14.115,
+      "end": 15.765,
+      "words": [
+        {
+          "text": "Pipeline",
+          "start": 14.39,
+          "end": 14.865
+        },
+        {
+          "text": "Architecture",
+          "start": 14.865,
+          "end": 15.765
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "Stage 1: Unit Tests (Fast Feedback)",
+      "start": 16.26,
+      "end": 19.36,
+      "words": [
+        {
+          "text": "Stage",
+          "start": 16.535,
+          "end": 16.86
+        },
+        {
+          "text": "1",
+          "start": 16.86,
+          "end": 17.26
+        },
+        {
+          "text": ":",
+          "start": 17.26,
+          "end": 17.36
+        },
+        {
+          "text": "Unit",
+          "start": 17.36,
+          "end": 17.61
+        },
+        {
+          "text": "Tests",
+          "start": 17.61,
+          "end": 18.097
+        },
+        {
+          "text": "(",
+          "start": 18.097,
+          "end": 18.135
+        },
+        {
+          "text": "Fast",
+          "start": 18.135,
+          "end": 18.46
+        },
+        {
+          "text": "Feedback",
+          "start": 18.46,
+          "end": 19.185
+        },
+        {
+          "text": ")",
+          "start": 19.185,
+          "end": 19.36
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Run on every commit. These should take < 2 minutes.",
+      "start": 19.68,
+      "end": 22.955,
+      "words": [
+        {
+          "text": "Run",
+          "start": 20.005,
+          "end": 20.242
+        },
+        {
+          "text": "on",
+          "start": 20.242,
+          "end": 20.405
+        },
+        {
+          "text": "every",
+          "start": 20.405,
+          "end": 20.705
+        },
+        {
+          "text": "commit",
+          "start": 20.705,
+          "end": 21.255
+        },
+        {
+          "text": ".",
+          "start": 21.255,
+          "end": 21.355
+        },
+        {
+          "text": "These",
+          "start": 21.355,
+          "end": 21.58
+        },
+        {
+          "text": "should",
+          "start": 21.58,
+          "end": 21.73
+        },
+        {
+          "text": "take",
+          "start": 21.73,
+          "end": 21.98
+        },
+        {
+          "text": "2",
+          "start": 22.03,
+          "end": 22.217
+        },
+        {
+          "text": "minutes",
+          "start": 22.217,
+          "end": 22.955
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h2",
+      "text": "Stage 2: API Tests (Contract Validation)",
+      "start": 23.35,
+      "end": 27.2,
+      "words": [
+        {
+          "text": "Stage",
+          "start": 23.625,
+          "end": 23.962
+        },
+        {
+          "text": "2",
+          "start": 23.962,
+          "end": 24.25
+        },
+        {
+          "text": ":",
+          "start": 24.25,
+          "end": 24.35
+        },
+        {
+          "text": "API",
+          "start": 24.35,
+          "end": 24.85
+        },
+        {
+          "text": "Tests",
+          "start": 24.85,
+          "end": 25.462
+        },
+        {
+          "text": "(",
+          "start": 25.462,
+          "end": 25.55
+        },
+        {
+          "text": "Contract",
+          "start": 25.55,
+          "end": 26.062
+        },
+        {
+          "text": "Validation",
+          "start": 26.062,
+          "end": 27.05
+        },
+        {
+          "text": ")",
+          "start": 27.05,
+          "end": 27.2
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "Run after unit tests. Target < 5 minutes.",
+      "start": 27.52,
+      "end": 30.895,
+      "words": [
+        {
+          "text": "Run",
+          "start": 27.845,
+          "end": 28.095
+        },
+        {
+          "text": "after",
+          "start": 28.095,
+          "end": 28.37
+        },
+        {
+          "text": "unit",
+          "start": 28.37,
+          "end": 28.62
+        },
+        {
+          "text": "tests",
+          "start": 28.62,
+          "end": 29.27
+        },
+        {
+          "text": ".",
+          "start": 29.27,
+          "end": 29.37
+        },
+        {
+          "text": "Target",
+          "start": 29.37,
+          "end": 29.795
+        },
+        {
+          "text": "5",
+          "start": 29.845,
+          "end": 30.132
+        },
+        {
+          "text": "minutes",
+          "start": 30.132,
+          "end": 30.895
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "h2",
+      "text": "Stage 3: E2E Tests (Full Coverage)",
+      "start": 31.265,
+      "end": 34.39,
+      "words": [
+        {
+          "text": "Stage",
+          "start": 31.54,
+          "end": 31.865
+        },
+        {
+          "text": "3",
+          "start": 31.865,
+          "end": 32.215
+        },
+        {
+          "text": ":",
+          "start": 32.215,
+          "end": 32.315
+        },
+        {
+          "text": "E",
+          "start": 32.315,
+          "end": 32.44
+        },
+        {
+          "text": "2",
+          "start": 32.44,
+          "end": 32.54
+        },
+        {
+          "text": "E",
+          "start": 32.54,
+          "end": 32.665
+        },
+        {
+          "text": "Tests",
+          "start": 32.665,
+          "end": 33.19
+        },
+        {
+          "text": "(",
+          "start": 33.19,
+          "end": 33.265
+        },
+        {
+          "text": "Full",
+          "start": 33.265,
+          "end": 33.465
+        },
+        {
+          "text": "Coverage",
+          "start": 33.465,
+          "end": 34.215
+        },
+        {
+          "text": ")",
+          "start": 34.215,
+          "end": 34.39
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "Run on slower cadence (nightly or pre-deploy). These are your quality gates.",
+      "start": 34.71,
+      "end": 39.61,
+      "words": [
+        {
+          "text": "Run",
+          "start": 35.035,
+          "end": 35.222
+        },
+        {
+          "text": "on",
+          "start": 35.222,
+          "end": 35.422
+        },
+        {
+          "text": "slower",
+          "start": 35.422,
+          "end": 35.76
+        },
+        {
+          "text": "cadence",
+          "start": 35.76,
+          "end": 36.322
+        },
+        {
+          "text": "(",
+          "start": 36.322,
+          "end": 36.41
+        },
+        {
+          "text": "nightly",
+          "start": 36.41,
+          "end": 36.81
+        },
+        {
+          "text": "or",
+          "start": 36.81,
+          "end": 36.935
+        },
+        {
+          "text": "pre-deploy",
+          "start": 36.935,
+          "end": 37.635
+        },
+        {
+          "text": ")",
+          "start": 37.635,
+          "end": 37.835
+        },
+        {
+          "text": ".",
+          "start": 37.835,
+          "end": 37.922
+        },
+        {
+          "text": "These",
+          "start": 37.922,
+          "end": 38.222
+        },
+        {
+          "text": "are",
+          "start": 38.222,
+          "end": 38.297
+        },
+        {
+          "text": "your",
+          "start": 38.297,
+          "end": 38.41
+        },
+        {
+          "text": "quality",
+          "start": 38.41,
+          "end": 38.835
+        },
+        {
+          "text": "gates",
+          "start": 38.835,
+          "end": 39.46
+        },
+        {
+          "text": ".",
+          "start": 39.46,
+          "end": 39.61
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h2",
+      "text": "Quality Gates",
+      "start": 39.93,
+      "end": 41.305,
+      "words": [
+        {
+          "text": "Quality",
+          "start": 40.255,
+          "end": 40.655
+        },
+        {
+          "text": "Gates",
+          "start": 40.655,
+          "end": 41.305
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "Your pipeline should enforce quality standards:",
+      "start": 41.775,
+      "end": 44.725,
+      "words": [
+        {
+          "text": "Your",
+          "start": 42.05,
+          "end": 42.175
+        },
+        {
+          "text": "pipeline",
+          "start": 42.175,
+          "end": 42.725
+        },
+        {
+          "text": "should",
+          "start": 42.725,
+          "end": 42.862
+        },
+        {
+          "text": "enforce",
+          "start": 42.862,
+          "end": 43.3
+        },
+        {
+          "text": "quality",
+          "start": 43.3,
+          "end": 43.725
+        },
+        {
+          "text": "standards",
+          "start": 43.725,
+          "end": 44.575
+        },
+        {
+          "text": ":",
+          "start": 44.575,
+          "end": 44.725
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "h2",
+      "text": "Anti-Patterns to Avoid",
+      "start": 45.045,
+      "end": 46.57,
+      "words": [
+        {
+          "text": "Anti-Patterns",
+          "start": 45.345,
+          "end": 46.095
+        },
+        {
+          "text": "to",
+          "start": 46.095,
+          "end": 46.22
+        },
+        {
+          "text": "Avoid",
+          "start": 46.22,
+          "end": 46.57
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "Flaky Tests Block Deploys",
+      "start": 47.015,
+      "end": 49.065,
+      "words": [
+        {
+          "text": "Flaky",
+          "start": 47.29,
+          "end": 47.615
+        },
+        {
+          "text": "Tests",
+          "start": 47.615,
+          "end": 47.965
+        },
+        {
+          "text": "Block",
+          "start": 47.965,
+          "end": 48.29
+        },
+        {
+          "text": "Deploys",
+          "start": 48.29,
+          "end": 49.065
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h3",
+      "text": "Running Everything on Every Commit",
+      "start": 49.51,
+      "end": 51.885,
+      "words": [
+        {
+          "text": "Running",
+          "start": 49.81,
+          "end": 50.172
+        },
+        {
+          "text": "Everything",
+          "start": 50.172,
+          "end": 50.71
+        },
+        {
+          "text": "on",
+          "start": 50.71,
+          "end": 50.922
+        },
+        {
+          "text": "Every",
+          "start": 50.922,
+          "end": 51.26
+        },
+        {
+          "text": "Commit",
+          "start": 51.26,
+          "end": 51.885
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Unit tests to every commit",
+      "start": 52.33,
+      "end": 54.33,
+      "words": [
+        {
+          "text": "Unit",
+          "start": 52.63,
+          "end": 52.88
+        },
+        {
+          "text": "tests",
+          "start": 52.88,
+          "end": 53.255
+        },
+        {
+          "text": "to",
+          "start": 53.255,
+          "end": 53.392
+        },
+        {
+          "text": "every",
+          "start": 53.392,
+          "end": 53.705
+        },
+        {
+          "text": "commit",
+          "start": 53.705,
+          "end": 54.33
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "API tests to every PR",
+      "start": 54.775,
+      "end": 56.95,
+      "words": [
+        {
+          "text": "API",
+          "start": 55.075,
+          "end": 55.525
+        },
+        {
+          "text": "tests",
+          "start": 55.525,
+          "end": 55.875
+        },
+        {
+          "text": "to",
+          "start": 55.875,
+          "end": 56.0
+        },
+        {
+          "text": "every",
+          "start": 56.0,
+          "end": 56.3
+        },
+        {
+          "text": "PR",
+          "start": 56.3,
+          "end": 56.95
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "E2E tests to nightly + pre-deploy",
+      "start": 57.47,
+      "end": 60.12,
+      "words": [
+        {
+          "text": "E",
+          "start": 57.745,
+          "end": 57.87
+        },
+        {
+          "text": "2",
+          "start": 57.87,
+          "end": 57.97
+        },
+        {
+          "text": "E",
+          "start": 57.97,
+          "end": 58.095
+        },
+        {
+          "text": "tests",
+          "start": 58.095,
+          "end": 58.57
+        },
+        {
+          "text": "to",
+          "start": 58.57,
+          "end": 58.695
+        },
+        {
+          "text": "nightly",
+          "start": 58.695,
+          "end": 59.02
+        },
+        {
+          "text": "+",
+          "start": 59.02,
+          "end": 59.295
+        },
+        {
+          "text": "pre-deploy",
+          "start": 59.295,
+          "end": 60.12
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "h3",
+      "text": "No Test Reporting",
+      "start": 60.64,
+      "end": 62.29,
+      "words": [
+        {
+          "text": "No",
+          "start": 60.99,
+          "end": 61.19
+        },
+        {
+          "text": "Test",
+          "start": 61.19,
+          "end": 61.465
+        },
+        {
+          "text": "Reporting",
+          "start": 61.465,
+          "end": 62.29
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Always publish test results. Azure DevOps, GitHub Actions, and Jenkins all have test result publishing tasks. Use them.",
+      "start": 62.76,
+      "end": 71.61,
+      "words": [
+        {
+          "text": "Always",
+          "start": 63.06,
+          "end": 63.41
+        },
+        {
+          "text": "publish",
+          "start": 63.41,
+          "end": 63.81
+        },
+        {
+          "text": "test",
+          "start": 63.81,
+          "end": 64.072
+        },
+        {
+          "text": "results",
+          "start": 64.072,
+          "end": 64.835
+        },
+        {
+          "text": ".",
+          "start": 64.835,
+          "end": 64.972
+        },
+        {
+          "text": "Azure",
+          "start": 64.972,
+          "end": 65.31
+        },
+        {
+          "text": "DevOps",
+          "start": 65.31,
+          "end": 65.985
+        },
+        {
+          "text": ",",
+          "start": 65.985,
+          "end": 66.06
+        },
+        {
+          "text": "GitHub",
+          "start": 66.06,
+          "end": 66.41
+        },
+        {
+          "text": "Actions",
+          "start": 66.41,
+          "end": 67.035
+        },
+        {
+          "text": ",",
+          "start": 67.035,
+          "end": 67.11
+        },
+        {
+          "text": "and",
+          "start": 67.11,
+          "end": 67.247
+        },
+        {
+          "text": "Jenkins",
+          "start": 67.247,
+          "end": 67.872
+        },
+        {
+          "text": "all",
+          "start": 67.872,
+          "end": 68.135
+        },
+        {
+          "text": "have",
+          "start": 68.135,
+          "end": 68.347
+        },
+        {
+          "text": "test",
+          "start": 68.347,
+          "end": 68.71
+        },
+        {
+          "text": "result",
+          "start": 68.71,
+          "end": 69.135
+        },
+        {
+          "text": "publishing",
+          "start": 69.135,
+          "end": 69.61
+        },
+        {
+          "text": "tasks",
+          "start": 69.61,
+          "end": 70.46
+        },
+        {
+          "text": ".",
+          "start": 70.46,
+          "end": 70.61
+        },
+        {
+          "text": "Use",
+          "start": 70.61,
+          "end": 70.935
+        },
+        {
+          "text": "them",
+          "start": 70.935,
+          "end": 71.46
+        },
+        {
+          "text": ".",
+          "start": 71.46,
+          "end": 71.61
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h2",
+      "text": "Metrics That Matter",
+      "start": 71.93,
+      "end": 73.405,
+      "words": [
+        {
+          "text": "Metrics",
+          "start": 72.255,
+          "end": 72.692
+        },
+        {
+          "text": "That",
+          "start": 72.692,
+          "end": 72.83
+        },
+        {
+          "text": "Matter",
+          "start": 72.83,
+          "end": 73.405
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "Track these to improve your pipeline:",
+      "start": 73.9,
+      "end": 76.25,
+      "words": [
+        {
+          "text": "Track",
+          "start": 74.175,
+          "end": 74.475
+        },
+        {
+          "text": "these",
+          "start": 74.475,
+          "end": 74.725
+        },
+        {
+          "text": "to",
+          "start": 74.725,
+          "end": 74.812
+        },
+        {
+          "text": "improve",
+          "start": 74.812,
+          "end": 75.162
+        },
+        {
+          "text": "your",
+          "start": 75.162,
+          "end": 75.275
+        },
+        {
+          "text": "pipeline",
+          "start": 75.275,
+          "end": 76.1
+        },
+        {
+          "text": ":",
+          "start": 76.1,
+          "end": 76.25
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "Mean Time to Feedback , How fast do developers know if their change broke something?",
+      "start": 76.57,
+      "end": 81.745,
+      "words": [
+        {
+          "text": "Mean",
+          "start": 76.87,
+          "end": 77.095
+        },
+        {
+          "text": "Time",
+          "start": 77.095,
+          "end": 77.395
+        },
+        {
+          "text": "to",
+          "start": 77.395,
+          "end": 77.52
+        },
+        {
+          "text": "Feedback",
+          "start": 77.52,
+          "end": 78.257
+        },
+        {
+          "text": ",",
+          "start": 78.257,
+          "end": 78.345
+        },
+        {
+          "text": "How",
+          "start": 78.345,
+          "end": 78.557
+        },
+        {
+          "text": "fast",
+          "start": 78.557,
+          "end": 78.92
+        },
+        {
+          "text": "do",
+          "start": 78.92,
+          "end": 79.095
+        },
+        {
+          "text": "developers",
+          "start": 79.095,
+          "end": 79.67
+        },
+        {
+          "text": "know",
+          "start": 79.67,
+          "end": 79.945
+        },
+        {
+          "text": "if",
+          "start": 79.945,
+          "end": 80.057
+        },
+        {
+          "text": "their",
+          "start": 80.057,
+          "end": 80.232
+        },
+        {
+          "text": "change",
+          "start": 80.232,
+          "end": 80.62
+        },
+        {
+          "text": "broke",
+          "start": 80.62,
+          "end": 80.87
+        },
+        {
+          "text": "something",
+          "start": 80.87,
+          "end": 81.595
+        },
+        {
+          "text": "?",
+          "start": 81.595,
+          "end": 81.745
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Flaky Test Rate , What percentage of test failures are environment-related?",
+      "start": 82.065,
+      "end": 86.865,
+      "words": [
+        {
+          "text": "Flaky",
+          "start": 82.365,
+          "end": 82.715
+        },
+        {
+          "text": "Test",
+          "start": 82.715,
+          "end": 82.99
+        },
+        {
+          "text": "Rate",
+          "start": 82.99,
+          "end": 83.527
+        },
+        {
+          "text": ",",
+          "start": 83.527,
+          "end": 83.615
+        },
+        {
+          "text": "What",
+          "start": 83.615,
+          "end": 83.79
+        },
+        {
+          "text": "percentage",
+          "start": 83.79,
+          "end": 84.302
+        },
+        {
+          "text": "of",
+          "start": 84.302,
+          "end": 84.39
+        },
+        {
+          "text": "test",
+          "start": 84.39,
+          "end": 84.69
+        },
+        {
+          "text": "failures",
+          "start": 84.69,
+          "end": 85.202
+        },
+        {
+          "text": "are",
+          "start": 85.202,
+          "end": 85.365
+        },
+        {
+          "text": "environment-related",
+          "start": 85.365,
+          "end": 86.715
+        },
+        {
+          "text": "?",
+          "start": 86.715,
+          "end": 86.865
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "li",
+      "text": "Test Coverage Trend , Is coverage increasing or decreasing?",
+      "start": 87.185,
+      "end": 91.11,
+      "words": [
+        {
+          "text": "Test",
+          "start": 87.46,
+          "end": 87.71
+        },
+        {
+          "text": "Coverage",
+          "start": 87.71,
+          "end": 88.06
+        },
+        {
+          "text": "Trend",
+          "start": 88.06,
+          "end": 88.697
+        },
+        {
+          "text": ",",
+          "start": 88.697,
+          "end": 88.785
+        },
+        {
+          "text": "Is",
+          "start": 88.785,
+          "end": 88.985
+        },
+        {
+          "text": "coverage",
+          "start": 88.985,
+          "end": 89.36
+        },
+        {
+          "text": "increasing",
+          "start": 89.36,
+          "end": 89.96
+        },
+        {
+          "text": "or",
+          "start": 89.96,
+          "end": 90.085
+        },
+        {
+          "text": "decreasing",
+          "start": 90.085,
+          "end": 90.96
+        },
+        {
+          "text": "?",
+          "start": 90.96,
+          "end": 91.11
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Pipeline Duration , Are you optimizing the right stages?",
+      "start": 91.43,
+      "end": 95.28,
+      "words": [
+        {
+          "text": "Pipeline",
+          "start": 91.68,
+          "end": 92.13
+        },
+        {
+          "text": "Duration",
+          "start": 92.13,
+          "end": 92.967
+        },
+        {
+          "text": ",",
+          "start": 92.967,
+          "end": 93.08
+        },
+        {
+          "text": "Are",
+          "start": 93.08,
+          "end": 93.205
+        },
+        {
+          "text": "you",
+          "start": 93.205,
+          "end": 93.367
+        },
+        {
+          "text": "optimizing",
+          "start": 93.367,
+          "end": 93.967
+        },
+        {
+          "text": "the",
+          "start": 93.967,
+          "end": 94.055
+        },
+        {
+          "text": "right",
+          "start": 94.055,
+          "end": 94.305
+        },
+        {
+          "text": "stages",
+          "start": 94.305,
+          "end": 95.13
+        },
+        {
+          "text": "?",
+          "start": 95.13,
+          "end": 95.28
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "h2",
+      "text": "Final Thought",
+      "start": 95.6,
+      "end": 96.925,
+      "words": [
+        {
+          "text": "Final",
+          "start": 95.975,
+          "end": 96.312
+        },
+        {
+          "text": "Thought",
+          "start": 96.312,
+          "end": 96.925
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "The best pipeline is one that developers trust. If it's slow, flaky, or unclear, developers will work around it instead of with it. Invest in your pipeline like you invest in your code.",
+      "start": 97.42,
+      "end": 109.37,
+      "words": [
+        {
+          "text": "The",
+          "start": 97.67,
+          "end": 97.77
+        },
+        {
+          "text": "best",
+          "start": 97.77,
+          "end": 98.07
+        },
+        {
+          "text": "pipeline",
+          "start": 98.07,
+          "end": 98.682
+        },
+        {
+          "text": "is",
+          "start": 98.682,
+          "end": 98.845
+        },
+        {
+          "text": "one",
+          "start": 98.845,
+          "end": 99.095
+        },
+        {
+          "text": "that",
+          "start": 99.095,
+          "end": 99.245
+        },
+        {
+          "text": "developers",
+          "start": 99.245,
+          "end": 99.857
+        },
+        {
+          "text": "trust",
+          "start": 99.857,
+          "end": 100.67
+        },
+        {
+          "text": ".",
+          "start": 100.67,
+          "end": 100.795
+        },
+        {
+          "text": "If",
+          "start": 100.795,
+          "end": 100.957
+        },
+        {
+          "text": "it's",
+          "start": 100.957,
+          "end": 101.145
+        },
+        {
+          "text": "slow",
+          "start": 101.145,
+          "end": 101.695
+        },
+        {
+          "text": ",",
+          "start": 101.695,
+          "end": 101.832
+        },
+        {
+          "text": "flaky",
+          "start": 101.832,
+          "end": 102.37
+        },
+        {
+          "text": ",",
+          "start": 102.37,
+          "end": 102.47
+        },
+        {
+          "text": "or",
+          "start": 102.47,
+          "end": 102.62
+        },
+        {
+          "text": "unclear",
+          "start": 102.62,
+          "end": 103.37
+        },
+        {
+          "text": ",",
+          "start": 103.37,
+          "end": 103.47
+        },
+        {
+          "text": "developers",
+          "start": 103.47,
+          "end": 104.045
+        },
+        {
+          "text": "will",
+          "start": 104.045,
+          "end": 104.22
+        },
+        {
+          "text": "work",
+          "start": 104.22,
+          "end": 104.42
+        },
+        {
+          "text": "around",
+          "start": 104.42,
+          "end": 104.82
+        },
+        {
+          "text": "it",
+          "start": 104.82,
+          "end": 104.97
+        },
+        {
+          "text": "instead",
+          "start": 104.97,
+          "end": 105.307
+        },
+        {
+          "text": "of",
+          "start": 105.307,
+          "end": 105.382
+        },
+        {
+          "text": "with",
+          "start": 105.382,
+          "end": 105.532
+        },
+        {
+          "text": "it",
+          "start": 105.532,
+          "end": 106.095
+        },
+        {
+          "text": ".",
+          "start": 106.095,
+          "end": 106.232
+        },
+        {
+          "text": "Invest",
+          "start": 106.232,
+          "end": 106.732
+        },
+        {
+          "text": "in",
+          "start": 106.732,
+          "end": 106.807
+        },
+        {
+          "text": "your",
+          "start": 106.807,
+          "end": 106.92
+        },
+        {
+          "text": "pipeline",
+          "start": 106.92,
+          "end": 107.495
+        },
+        {
+          "text": "like",
+          "start": 107.495,
+          "end": 107.72
+        },
+        {
+          "text": "you",
+          "start": 107.72,
+          "end": 107.87
+        },
+        {
+          "text": "invest",
+          "start": 107.87,
+          "end": 108.357
+        },
+        {
+          "text": "in",
+          "start": 108.357,
+          "end": 108.432
+        },
+        {
+          "text": "your",
+          "start": 108.432,
+          "end": 108.545
+        },
+        {
+          "text": "code",
+          "start": 108.545,
+          "end": 109.195
+        },
+        {
+          "text": ".",
+          "start": 109.195,
+          "end": 109.37
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 109.69,
+      "end": 111.515,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 109.99,
+          "end": 110.49
+        },
+        {
+          "text": "and",
+          "start": 110.49,
+          "end": 110.615
+        },
+        {
+          "text": "Further",
+          "start": 110.615,
+          "end": 110.89
+        },
+        {
+          "text": "Reading",
+          "start": 110.89,
+          "end": 111.515
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "GitHub Actions , workflow syntax",
+      "start": 111.96,
+      "end": 114.535,
+      "words": [
+        {
+          "text": "GitHub",
+          "start": 112.235,
+          "end": 112.56
+        },
+        {
+          "text": "Actions",
+          "start": 112.56,
+          "end": 113.197
+        },
+        {
+          "text": ",",
+          "start": 113.197,
+          "end": 113.285
+        },
+        {
+          "text": "workflow",
+          "start": 113.285,
+          "end": 113.71
+        },
+        {
+          "text": "syntax",
+          "start": 113.71,
+          "end": 114.535
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Azure Pipelines , test glossary",
+      "start": 114.955,
+      "end": 117.43,
+      "words": [
+        {
+          "text": "Azure",
+          "start": 115.255,
+          "end": 115.53
+        },
+        {
+          "text": "Pipelines",
+          "start": 115.53,
+          "end": 116.255
+        },
+        {
+          "text": ",",
+          "start": 116.255,
+          "end": 116.33
+        },
+        {
+          "text": "test",
+          "start": 116.33,
+          "end": 116.605
+        },
+        {
+          "text": "glossary",
+          "start": 116.605,
+          "end": 117.43
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "Jenkins , pipeline syntax",
+      "start": 117.875,
+      "end": 120.125,
+      "words": [
+        {
+          "text": "Jenkins",
+          "start": 118.2,
+          "end": 118.825
+        },
+        {
+          "text": ",",
+          "start": 118.825,
+          "end": 118.9
+        },
+        {
+          "text": "pipeline",
+          "start": 118.9,
+          "end": 119.325
+        },
+        {
+          "text": "syntax",
+          "start": 119.325,
+          "end": 120.125
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "DORA metrics , deployment frequency",
+      "start": 120.545,
+      "end": 123.12,
+      "words": [
+        {
+          "text": "DORA",
+          "start": 120.845,
+          "end": 121.12
+        },
+        {
+          "text": "metrics",
+          "start": 121.12,
+          "end": 121.72
+        },
+        {
+          "text": ",",
+          "start": 121.72,
+          "end": 121.795
+        },
+        {
+          "text": "deployment",
+          "start": 121.795,
+          "end": 122.27
+        },
+        {
+          "text": "frequency",
+          "start": 122.27,
+          "end": 123.12
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "See also: Shift Left Using a Regression Suite (Sep 2024) , run regression early, not as a going-away present before release.",
+      "start": 123.59,
+      "end": 132.99,
+      "words": [
+        {
+          "text": "See",
+          "start": 123.89,
+          "end": 124.065
+        },
+        {
+          "text": "also",
+          "start": 124.065,
+          "end": 124.69
+        },
+        {
+          "text": ":",
+          "start": 124.69,
+          "end": 124.865
+        },
+        {
+          "text": "Shift",
+          "start": 124.865,
+          "end": 125.19
+        },
+        {
+          "text": "Left",
+          "start": 125.19,
+          "end": 125.49
+        },
+        {
+          "text": "Using",
+          "start": 125.49,
+          "end": 125.777
+        },
+        {
+          "text": "a",
+          "start": 125.777,
+          "end": 125.84
+        },
+        {
+          "text": "Regression",
+          "start": 125.84,
+          "end": 126.402
+        },
+        {
+          "text": "Suite",
+          "start": 126.402,
+          "end": 127.002
+        },
+        {
+          "text": "(",
+          "start": 127.002,
+          "end": 127.09
+        },
+        {
+          "text": "Sep",
+          "start": 127.09,
+          "end": 127.315
+        },
+        {
+          "text": "2024",
+          "start": 127.315,
+          "end": 128.49
+        },
+        {
+          "text": ")",
+          "start": 128.49,
+          "end": 128.665
+        },
+        {
+          "text": ",",
+          "start": 128.665,
+          "end": 128.777
+        },
+        {
+          "text": "run",
+          "start": 128.777,
+          "end": 129.04
+        },
+        {
+          "text": "regression",
+          "start": 129.04,
+          "end": 129.59
+        },
+        {
+          "text": "early",
+          "start": 129.59,
+          "end": 130.165
+        },
+        {
+          "text": ",",
+          "start": 130.165,
+          "end": 130.29
+        },
+        {
+          "text": "not",
+          "start": 130.29,
+          "end": 130.515
+        },
+        {
+          "text": "as",
+          "start": 130.515,
+          "end": 130.627
+        },
+        {
+          "text": "a",
+          "start": 130.627,
+          "end": 130.727
+        },
+        {
+          "text": "going-away",
+          "start": 130.727,
+          "end": 131.315
+        },
+        {
+          "text": "present",
+          "start": 131.315,
+          "end": 131.74
+        },
+        {
+          "text": "before",
+          "start": 131.74,
+          "end": 132.09
+        },
+        {
+          "text": "release",
+          "start": 132.09,
+          "end": 132.84
+        },
+        {
+          "text": ".",
+          "start": 132.84,
+          "end": 132.99
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

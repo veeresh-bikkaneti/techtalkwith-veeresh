@@ -1,0 +1,1512 @@
+{
+  "slug": "building-bdd-frameworks-that-work",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 113.93,
+  "contentHash": "2e509b2e7b7e2859f7c0853a6a018a939eec1a34b4d86c981b453259847f6ba3",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Building BDD Frameworks That Actually Work",
+      "start": 0.0,
+      "end": 3.125,
+      "words": [
+        {
+          "text": "Building",
+          "start": 0.25,
+          "end": 0.625
+        },
+        {
+          "text": "BDD",
+          "start": 0.625,
+          "end": 1.175
+        },
+        {
+          "text": "Frameworks",
+          "start": 1.175,
+          "end": 1.712
+        },
+        {
+          "text": "That",
+          "start": 1.712,
+          "end": 1.875
+        },
+        {
+          "text": "Actually",
+          "start": 1.875,
+          "end": 2.3
+        },
+        {
+          "text": "Work",
+          "start": 2.3,
+          "end": 3.125
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "I've seen dozens of BDD implementations fail. Not because the tooling is bad, but because teams treat BDD as a documentation exercise rather than a living testing practice.",
+      "start": 3.645,
+      "end": 15.02,
+      "words": [
+        {
+          "text": "I've",
+          "start": 3.895,
+          "end": 4.095
+        },
+        {
+          "text": "seen",
+          "start": 4.095,
+          "end": 4.345
+        },
+        {
+          "text": "dozens",
+          "start": 4.345,
+          "end": 4.758
+        },
+        {
+          "text": "of",
+          "start": 4.758,
+          "end": 4.845
+        },
+        {
+          "text": "BDD",
+          "start": 4.845,
+          "end": 5.357
+        },
+        {
+          "text": "implementations",
+          "start": 5.357,
+          "end": 6.195
+        },
+        {
+          "text": "fail",
+          "start": 6.195,
+          "end": 7.02
+        },
+        {
+          "text": ".",
+          "start": 7.02,
+          "end": 7.158
+        },
+        {
+          "text": "Not",
+          "start": 7.158,
+          "end": 7.37
+        },
+        {
+          "text": "because",
+          "start": 7.37,
+          "end": 7.695
+        },
+        {
+          "text": "the",
+          "start": 7.695,
+          "end": 7.795
+        },
+        {
+          "text": "tooling",
+          "start": 7.795,
+          "end": 8.145
+        },
+        {
+          "text": "is",
+          "start": 8.145,
+          "end": 8.295
+        },
+        {
+          "text": "bad",
+          "start": 8.295,
+          "end": 8.995
+        },
+        {
+          "text": ",",
+          "start": 8.995,
+          "end": 9.095
+        },
+        {
+          "text": "but",
+          "start": 9.095,
+          "end": 9.232
+        },
+        {
+          "text": "because",
+          "start": 9.232,
+          "end": 9.557
+        },
+        {
+          "text": "teams",
+          "start": 9.557,
+          "end": 9.97
+        },
+        {
+          "text": "treat",
+          "start": 9.97,
+          "end": 10.245
+        },
+        {
+          "text": "BDD",
+          "start": 10.245,
+          "end": 10.845
+        },
+        {
+          "text": "as",
+          "start": 10.845,
+          "end": 10.957
+        },
+        {
+          "text": "a",
+          "start": 10.957,
+          "end": 11.02
+        },
+        {
+          "text": "documentation",
+          "start": 11.02,
+          "end": 11.82
+        },
+        {
+          "text": "exercise",
+          "start": 11.82,
+          "end": 12.557
+        },
+        {
+          "text": "rather",
+          "start": 12.557,
+          "end": 12.945
+        },
+        {
+          "text": "than",
+          "start": 12.945,
+          "end": 13.057
+        },
+        {
+          "text": "a",
+          "start": 13.057,
+          "end": 13.12
+        },
+        {
+          "text": "living",
+          "start": 13.12,
+          "end": 13.42
+        },
+        {
+          "text": "testing",
+          "start": 13.42,
+          "end": 13.795
+        },
+        {
+          "text": "practice",
+          "start": 13.795,
+          "end": 14.845
+        },
+        {
+          "text": ".",
+          "start": 14.845,
+          "end": 15.02
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "h2",
+      "text": "The Core Problem",
+      "start": 15.34,
+      "end": 16.79,
+      "words": [
+        {
+          "text": "The",
+          "start": 15.565,
+          "end": 15.665
+        },
+        {
+          "text": "Core",
+          "start": 15.665,
+          "end": 15.94
+        },
+        {
+          "text": "Problem",
+          "start": 15.94,
+          "end": 16.79
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "Most teams write Gherkin scenarios like this:",
+      "start": 17.285,
+      "end": 20.66,
+      "words": [
+        {
+          "text": "Most",
+          "start": 17.535,
+          "end": 17.81
+        },
+        {
+          "text": "teams",
+          "start": 17.81,
+          "end": 18.185
+        },
+        {
+          "text": "write",
+          "start": 18.185,
+          "end": 18.435
+        },
+        {
+          "text": "Gherkin",
+          "start": 18.435,
+          "end": 18.86
+        },
+        {
+          "text": "scenarios",
+          "start": 18.86,
+          "end": 19.485
+        },
+        {
+          "text": "like",
+          "start": 19.485,
+          "end": 19.71
+        },
+        {
+          "text": "this",
+          "start": 19.71,
+          "end": 20.46
+        },
+        {
+          "text": ":",
+          "start": 20.46,
+          "end": 20.66
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "This tells you what the feature does, but says nothing about how to verify it. The step definitions become a dumping ground for Selenium code, and suddenly your \"readable\" tests are just poorly structured automation scripts.",
+      "start": 20.98,
+      "end": 33.655,
+      "words": [
+        {
+          "text": "This",
+          "start": 21.23,
+          "end": 21.405
+        },
+        {
+          "text": "tells",
+          "start": 21.405,
+          "end": 21.668
+        },
+        {
+          "text": "you",
+          "start": 21.668,
+          "end": 21.768
+        },
+        {
+          "text": "what",
+          "start": 21.768,
+          "end": 21.893
+        },
+        {
+          "text": "the",
+          "start": 21.893,
+          "end": 21.98
+        },
+        {
+          "text": "feature",
+          "start": 21.98,
+          "end": 22.305
+        },
+        {
+          "text": "does",
+          "start": 22.305,
+          "end": 22.755
+        },
+        {
+          "text": ",",
+          "start": 22.755,
+          "end": 22.83
+        },
+        {
+          "text": "but",
+          "start": 22.83,
+          "end": 22.98
+        },
+        {
+          "text": "says",
+          "start": 22.98,
+          "end": 23.205
+        },
+        {
+          "text": "nothing",
+          "start": 23.205,
+          "end": 23.543
+        },
+        {
+          "text": "about",
+          "start": 23.543,
+          "end": 23.83
+        },
+        {
+          "text": "how",
+          "start": 23.83,
+          "end": 24.005
+        },
+        {
+          "text": "to",
+          "start": 24.005,
+          "end": 24.105
+        },
+        {
+          "text": "verify",
+          "start": 24.105,
+          "end": 24.617
+        },
+        {
+          "text": "it",
+          "start": 24.617,
+          "end": 25.33
+        },
+        {
+          "text": ".",
+          "start": 25.33,
+          "end": 25.43
+        },
+        {
+          "text": "The",
+          "start": 25.43,
+          "end": 25.53
+        },
+        {
+          "text": "step",
+          "start": 25.53,
+          "end": 25.805
+        },
+        {
+          "text": "definitions",
+          "start": 25.805,
+          "end": 26.455
+        },
+        {
+          "text": "become",
+          "start": 26.455,
+          "end": 26.767
+        },
+        {
+          "text": "a",
+          "start": 26.767,
+          "end": 26.83
+        },
+        {
+          "text": "dumping",
+          "start": 26.83,
+          "end": 27.23
+        },
+        {
+          "text": "ground",
+          "start": 27.23,
+          "end": 27.605
+        },
+        {
+          "text": "for",
+          "start": 27.605,
+          "end": 27.73
+        },
+        {
+          "text": "Selenium",
+          "start": 27.73,
+          "end": 28.23
+        },
+        {
+          "text": "code",
+          "start": 28.23,
+          "end": 28.93
+        },
+        {
+          "text": ",",
+          "start": 28.93,
+          "end": 29.03
+        },
+        {
+          "text": "and",
+          "start": 29.03,
+          "end": 29.168
+        },
+        {
+          "text": "suddenly",
+          "start": 29.168,
+          "end": 29.58
+        },
+        {
+          "text": "your",
+          "start": 29.58,
+          "end": 29.855
+        },
+        {
+          "text": "\"",
+          "start": 29.855,
+          "end": 29.93
+        },
+        {
+          "text": "readable",
+          "start": 29.93,
+          "end": 30.405
+        },
+        {
+          "text": "\"",
+          "start": 30.405,
+          "end": 30.492
+        },
+        {
+          "text": "tests",
+          "start": 30.492,
+          "end": 30.892
+        },
+        {
+          "text": "are",
+          "start": 30.892,
+          "end": 30.98
+        },
+        {
+          "text": "just",
+          "start": 30.98,
+          "end": 31.242
+        },
+        {
+          "text": "poorly",
+          "start": 31.242,
+          "end": 31.58
+        },
+        {
+          "text": "structured",
+          "start": 31.58,
+          "end": 31.992
+        },
+        {
+          "text": "automation",
+          "start": 31.992,
+          "end": 32.555
+        },
+        {
+          "text": "scripts",
+          "start": 32.555,
+          "end": 33.48
+        },
+        {
+          "text": ".",
+          "start": 33.48,
+          "end": 33.655
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h2",
+      "text": "A Better Approach",
+      "start": 33.975,
+      "end": 35.45,
+      "words": [
+        {
+          "text": "A",
+          "start": 34.225,
+          "end": 34.3
+        },
+        {
+          "text": "Better",
+          "start": 34.3,
+          "end": 34.65
+        },
+        {
+          "text": "Approach",
+          "start": 34.65,
+          "end": 35.45
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "h3",
+      "text": "1. Focus on Business Outcomes",
+      "start": 36.07,
+      "end": 38.645,
+      "words": [
+        {
+          "text": "1.",
+          "start": 36.32,
+          "end": 36.557
+        },
+        {
+          "text": "Focus",
+          "start": 36.557,
+          "end": 37.008
+        },
+        {
+          "text": "on",
+          "start": 37.008,
+          "end": 37.17
+        },
+        {
+          "text": "Business",
+          "start": 37.17,
+          "end": 37.57
+        },
+        {
+          "text": "Outcomes",
+          "start": 37.57,
+          "end": 38.645
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "This is specific, testable, and meaningful to non-technical stakeholders.",
+      "start": 39.14,
+      "end": 43.865,
+      "words": [
+        {
+          "text": "This",
+          "start": 39.39,
+          "end": 39.565
+        },
+        {
+          "text": "is",
+          "start": 39.565,
+          "end": 39.69
+        },
+        {
+          "text": "specific",
+          "start": 39.69,
+          "end": 40.39
+        },
+        {
+          "text": ",",
+          "start": 40.39,
+          "end": 40.465
+        },
+        {
+          "text": "testable",
+          "start": 40.465,
+          "end": 40.965
+        },
+        {
+          "text": ",",
+          "start": 40.965,
+          "end": 41.002
+        },
+        {
+          "text": "and",
+          "start": 41.002,
+          "end": 41.115
+        },
+        {
+          "text": "meaningful",
+          "start": 41.115,
+          "end": 41.665
+        },
+        {
+          "text": "to",
+          "start": 41.665,
+          "end": 41.765
+        },
+        {
+          "text": "non-technical",
+          "start": 41.765,
+          "end": 42.44
+        },
+        {
+          "text": "stakeholders",
+          "start": 42.44,
+          "end": 43.69
+        },
+        {
+          "text": ".",
+          "start": 43.69,
+          "end": 43.865
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "h3",
+      "text": "2. Keep Steps Thin",
+      "start": 44.185,
+      "end": 46.085,
+      "words": [
+        {
+          "text": "2",
+          "start": 44.435,
+          "end": 44.685
+        },
+        {
+          "text": ".",
+          "start": 44.685,
+          "end": 44.735
+        },
+        {
+          "text": "Keep",
+          "start": 44.735,
+          "end": 45.035
+        },
+        {
+          "text": "Steps",
+          "start": 45.035,
+          "end": 45.385
+        },
+        {
+          "text": "Thin",
+          "start": 45.385,
+          "end": 46.085
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h3",
+      "text": "3. Use Tags Strategically",
+      "start": 46.605,
+      "end": 48.955,
+      "words": [
+        {
+          "text": "3.",
+          "start": 46.88,
+          "end": 47.155
+        },
+        {
+          "text": "Use",
+          "start": 47.155,
+          "end": 47.455
+        },
+        {
+          "text": "Tags",
+          "start": 47.455,
+          "end": 47.793
+        },
+        {
+          "text": "Strategically",
+          "start": 47.793,
+          "end": 48.955
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "This lets you run subsets of tests , @smoke for CI, @regression for nightly builds.",
+      "start": 49.45,
+      "end": 55.4,
+      "words": [
+        {
+          "text": "This",
+          "start": 49.7,
+          "end": 49.9
+        },
+        {
+          "text": "lets",
+          "start": 49.9,
+          "end": 50.138
+        },
+        {
+          "text": "you",
+          "start": 50.138,
+          "end": 50.25
+        },
+        {
+          "text": "run",
+          "start": 50.25,
+          "end": 50.5
+        },
+        {
+          "text": "subsets",
+          "start": 50.5,
+          "end": 50.963
+        },
+        {
+          "text": "of",
+          "start": 50.963,
+          "end": 51.05
+        },
+        {
+          "text": "tests",
+          "start": 51.05,
+          "end": 51.6
+        },
+        {
+          "text": ",",
+          "start": 51.6,
+          "end": 51.675
+        },
+        {
+          "text": "@smoke",
+          "start": 51.675,
+          "end": 52.15
+        },
+        {
+          "text": "for",
+          "start": 52.15,
+          "end": 52.288
+        },
+        {
+          "text": "CI",
+          "start": 52.288,
+          "end": 52.975
+        },
+        {
+          "text": ",",
+          "start": 52.975,
+          "end": 53.113
+        },
+        {
+          "text": "@regression",
+          "start": 53.113,
+          "end": 53.775
+        },
+        {
+          "text": "for",
+          "start": 53.775,
+          "end": 53.9
+        },
+        {
+          "text": "nightly",
+          "start": 53.9,
+          "end": 54.25
+        },
+        {
+          "text": "builds",
+          "start": 54.25,
+          "end": 55.225
+        },
+        {
+          "text": ".",
+          "start": 55.225,
+          "end": 55.4
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "h2",
+      "text": "Framework Structure",
+      "start": 55.72,
+      "end": 57.295,
+      "words": [
+        {
+          "text": "Framework",
+          "start": 55.97,
+          "end": 56.42
+        },
+        {
+          "text": "Structure",
+          "start": 56.42,
+          "end": 57.295
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h2",
+      "text": "Key Takeaways",
+      "start": 57.94,
+      "end": 59.365,
+      "words": [
+        {
+          "text": "Key",
+          "start": 58.19,
+          "end": 58.415
+        },
+        {
+          "text": "Takeaways",
+          "start": 58.415,
+          "end": 59.365
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "BDD is for collaboration, not just test automation",
+      "start": 59.885,
+      "end": 64.06,
+      "words": [
+        {
+          "text": "BDD",
+          "start": 60.135,
+          "end": 60.785
+        },
+        {
+          "text": "is",
+          "start": 60.785,
+          "end": 60.935
+        },
+        {
+          "text": "for",
+          "start": 60.935,
+          "end": 61.06
+        },
+        {
+          "text": "collaboration",
+          "start": 61.06,
+          "end": 61.96
+        },
+        {
+          "text": ",",
+          "start": 61.96,
+          "end": 62.035
+        },
+        {
+          "text": "not",
+          "start": 62.035,
+          "end": 62.235
+        },
+        {
+          "text": "just",
+          "start": 62.235,
+          "end": 62.435
+        },
+        {
+          "text": "test",
+          "start": 62.435,
+          "end": 62.735
+        },
+        {
+          "text": "automation",
+          "start": 62.735,
+          "end": 64.06
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Write scenarios from the user's perspective, not the system's",
+      "start": 64.48,
+      "end": 68.33,
+      "words": [
+        {
+          "text": "Write",
+          "start": 64.755,
+          "end": 65.005
+        },
+        {
+          "text": "scenarios",
+          "start": 65.005,
+          "end": 65.605
+        },
+        {
+          "text": "from",
+          "start": 65.605,
+          "end": 65.742
+        },
+        {
+          "text": "the",
+          "start": 65.742,
+          "end": 65.83
+        },
+        {
+          "text": "user's",
+          "start": 65.83,
+          "end": 66.18
+        },
+        {
+          "text": "perspective",
+          "start": 66.18,
+          "end": 66.905
+        },
+        {
+          "text": ",",
+          "start": 66.905,
+          "end": 66.98
+        },
+        {
+          "text": "not",
+          "start": 66.98,
+          "end": 67.167
+        },
+        {
+          "text": "the",
+          "start": 67.167,
+          "end": 67.255
+        },
+        {
+          "text": "system's",
+          "start": 67.255,
+          "end": 68.33
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "Keep step definitions simple , one action per step",
+      "start": 68.8,
+      "end": 72.3,
+      "words": [
+        {
+          "text": "Keep",
+          "start": 69.05,
+          "end": 69.287
+        },
+        {
+          "text": "step",
+          "start": 69.287,
+          "end": 69.55
+        },
+        {
+          "text": "definitions",
+          "start": 69.55,
+          "end": 70.162
+        },
+        {
+          "text": "simple",
+          "start": 70.162,
+          "end": 70.675
+        },
+        {
+          "text": ",",
+          "start": 70.675,
+          "end": 70.75
+        },
+        {
+          "text": "one",
+          "start": 70.75,
+          "end": 70.975
+        },
+        {
+          "text": "action",
+          "start": 70.975,
+          "end": 71.35
+        },
+        {
+          "text": "per",
+          "start": 71.35,
+          "end": 71.525
+        },
+        {
+          "text": "step",
+          "start": 71.525,
+          "end": 72.3
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "Use tags to organize and selectively run tests",
+      "start": 72.82,
+      "end": 76.22,
+      "words": [
+        {
+          "text": "Use",
+          "start": 73.07,
+          "end": 73.295
+        },
+        {
+          "text": "tags",
+          "start": 73.295,
+          "end": 73.645
+        },
+        {
+          "text": "to",
+          "start": 73.645,
+          "end": 73.77
+        },
+        {
+          "text": "organize",
+          "start": 73.77,
+          "end": 74.345
+        },
+        {
+          "text": "and",
+          "start": 74.345,
+          "end": 74.47
+        },
+        {
+          "text": "selectively",
+          "start": 74.47,
+          "end": 75.07
+        },
+        {
+          "text": "run",
+          "start": 75.07,
+          "end": 75.295
+        },
+        {
+          "text": "tests",
+          "start": 75.295,
+          "end": 76.22
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Review scenarios in grooming sessions , they're living documentation",
+      "start": 76.69,
+      "end": 81.19,
+      "words": [
+        {
+          "text": "Review",
+          "start": 76.94,
+          "end": 77.215
+        },
+        {
+          "text": "scenarios",
+          "start": 77.215,
+          "end": 77.865
+        },
+        {
+          "text": "in",
+          "start": 77.865,
+          "end": 78.015
+        },
+        {
+          "text": "grooming",
+          "start": 78.015,
+          "end": 78.365
+        },
+        {
+          "text": "sessions",
+          "start": 78.365,
+          "end": 79.115
+        },
+        {
+          "text": ",",
+          "start": 79.115,
+          "end": 79.19
+        },
+        {
+          "text": "they're",
+          "start": 79.19,
+          "end": 79.39
+        },
+        {
+          "text": "living",
+          "start": 79.39,
+          "end": 79.715
+        },
+        {
+          "text": "documentation",
+          "start": 79.715,
+          "end": 81.19
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "When BDD works, it bridges the gap between business and engineering. When it doesn't, it's just another layer of abstraction that nobody maintains.",
+      "start": 81.585,
+      "end": 90.835,
+      "words": [
+        {
+          "text": "When",
+          "start": 81.835,
+          "end": 81.985
+        },
+        {
+          "text": "BDD",
+          "start": 81.985,
+          "end": 82.535
+        },
+        {
+          "text": "works",
+          "start": 82.535,
+          "end": 82.985
+        },
+        {
+          "text": ",",
+          "start": 82.985,
+          "end": 83.06
+        },
+        {
+          "text": "it",
+          "start": 83.06,
+          "end": 83.185
+        },
+        {
+          "text": "bridges",
+          "start": 83.185,
+          "end": 83.56
+        },
+        {
+          "text": "the",
+          "start": 83.56,
+          "end": 83.66
+        },
+        {
+          "text": "gap",
+          "start": 83.66,
+          "end": 83.96
+        },
+        {
+          "text": "between",
+          "start": 83.96,
+          "end": 84.335
+        },
+        {
+          "text": "business",
+          "start": 84.335,
+          "end": 84.785
+        },
+        {
+          "text": "and",
+          "start": 84.785,
+          "end": 84.897
+        },
+        {
+          "text": "engineering",
+          "start": 84.897,
+          "end": 86.085
+        },
+        {
+          "text": ".",
+          "start": 86.085,
+          "end": 86.185
+        },
+        {
+          "text": "When",
+          "start": 86.185,
+          "end": 86.322
+        },
+        {
+          "text": "it",
+          "start": 86.322,
+          "end": 86.41
+        },
+        {
+          "text": "doesn't",
+          "start": 86.41,
+          "end": 87.06
+        },
+        {
+          "text": ",",
+          "start": 87.06,
+          "end": 87.16
+        },
+        {
+          "text": "it's",
+          "start": 87.16,
+          "end": 87.36
+        },
+        {
+          "text": "just",
+          "start": 87.36,
+          "end": 87.585
+        },
+        {
+          "text": "another",
+          "start": 87.585,
+          "end": 87.935
+        },
+        {
+          "text": "layer",
+          "start": 87.935,
+          "end": 88.247
+        },
+        {
+          "text": "of",
+          "start": 88.247,
+          "end": 88.322
+        },
+        {
+          "text": "abstraction",
+          "start": 88.322,
+          "end": 88.96
+        },
+        {
+          "text": "that",
+          "start": 88.96,
+          "end": 89.085
+        },
+        {
+          "text": "nobody",
+          "start": 89.085,
+          "end": 89.46
+        },
+        {
+          "text": "maintains",
+          "start": 89.46,
+          "end": 90.635
+        },
+        {
+          "text": ".",
+          "start": 90.635,
+          "end": 90.835
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 91.155,
+      "end": 93.355,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 91.43,
+          "end": 91.98
+        },
+        {
+          "text": "and",
+          "start": 91.98,
+          "end": 92.117
+        },
+        {
+          "text": "Further",
+          "start": 92.117,
+          "end": 92.48
+        },
+        {
+          "text": "Reading",
+          "start": 92.48,
+          "end": 93.355
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Cucumber , BDD basics",
+      "start": 93.8,
+      "end": 96.175,
+      "words": [
+        {
+          "text": "Cucumber",
+          "start": 94.05,
+          "end": 94.587
+        },
+        {
+          "text": ",",
+          "start": 94.587,
+          "end": 94.65
+        },
+        {
+          "text": "BDD",
+          "start": 94.65,
+          "end": 95.175
+        },
+        {
+          "text": "basics",
+          "start": 95.175,
+          "end": 96.175
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "SpecFlow , documentation",
+      "start": 96.645,
+      "end": 98.995,
+      "words": [
+        {
+          "text": "SpecFlow",
+          "start": 96.895,
+          "end": 97.507
+        },
+        {
+          "text": ",",
+          "start": 97.507,
+          "end": 97.57
+        },
+        {
+          "text": "documentation",
+          "start": 97.57,
+          "end": 98.995
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Gherkin reference",
+      "start": 99.415,
+      "end": 101.015,
+      "words": [
+        {
+          "text": "Gherkin",
+          "start": 99.665,
+          "end": 100.065
+        },
+        {
+          "text": "reference",
+          "start": 100.065,
+          "end": 101.015
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "li",
+      "text": "Living documentation , Cucumber docs",
+      "start": 101.535,
+      "end": 104.51,
+      "words": [
+        {
+          "text": "Living",
+          "start": 101.81,
+          "end": 102.085
+        },
+        {
+          "text": "documentation",
+          "start": 102.085,
+          "end": 103.06
+        },
+        {
+          "text": ",",
+          "start": 103.06,
+          "end": 103.135
+        },
+        {
+          "text": "Cucumber",
+          "start": 103.135,
+          "end": 103.635
+        },
+        {
+          "text": "docs",
+          "start": 103.635,
+          "end": 104.51
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "p",
+      "text": "See also: Comparing BDD, ATDD, and TDD (Sep 2024) , pick your flavor before you buy the Cucumber license.",
+      "start": 104.98,
+      "end": 113.83,
+      "words": [
+        {
+          "text": "See",
+          "start": 105.255,
+          "end": 105.405
+        },
+        {
+          "text": "also",
+          "start": 105.405,
+          "end": 105.955
+        },
+        {
+          "text": ":",
+          "start": 105.955,
+          "end": 106.03
+        },
+        {
+          "text": "Comparing",
+          "start": 106.03,
+          "end": 106.53
+        },
+        {
+          "text": "BDD",
+          "start": 106.53,
+          "end": 107.205
+        },
+        {
+          "text": ",",
+          "start": 107.205,
+          "end": 107.28
+        },
+        {
+          "text": "ATDD",
+          "start": 107.28,
+          "end": 108.055
+        },
+        {
+          "text": ",",
+          "start": 108.055,
+          "end": 108.092
+        },
+        {
+          "text": "and",
+          "start": 108.092,
+          "end": 108.205
+        },
+        {
+          "text": "TDD",
+          "start": 108.205,
+          "end": 108.992
+        },
+        {
+          "text": "(",
+          "start": 108.992,
+          "end": 109.08
+        },
+        {
+          "text": "Sep",
+          "start": 109.08,
+          "end": 109.305
+        },
+        {
+          "text": "2024",
+          "start": 109.305,
+          "end": 110.53
+        },
+        {
+          "text": ")",
+          "start": 110.53,
+          "end": 110.667
+        },
+        {
+          "text": ",",
+          "start": 110.667,
+          "end": 110.73
+        },
+        {
+          "text": "pick",
+          "start": 110.73,
+          "end": 110.892
+        },
+        {
+          "text": "your",
+          "start": 110.892,
+          "end": 111.005
+        },
+        {
+          "text": "flavor",
+          "start": 111.005,
+          "end": 111.38
+        },
+        {
+          "text": "before",
+          "start": 111.38,
+          "end": 111.705
+        },
+        {
+          "text": "you",
+          "start": 111.705,
+          "end": 111.83
+        },
+        {
+          "text": "buy",
+          "start": 111.83,
+          "end": 112.042
+        },
+        {
+          "text": "the",
+          "start": 112.042,
+          "end": 112.13
+        },
+        {
+          "text": "Cucumber",
+          "start": 112.13,
+          "end": 112.605
+        },
+        {
+          "text": "license",
+          "start": 112.605,
+          "end": 113.63
+        },
+        {
+          "text": ".",
+          "start": 113.63,
+          "end": 113.83
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

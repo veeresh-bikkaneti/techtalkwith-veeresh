@@ -1,0 +1,115 @@
+/* Listen Mode. Uses the site tokens, so light and dark come along free. */
+
+.listen {
+  margin: 0 0 1.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+}
+
+.listen-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.7rem;
+}
+
+.listen-play,
+.listen-float {
+  border: 0;
+  cursor: pointer;
+  font: 600 0.92rem/1 var(--font-sans);
+  color: #fff;
+  background: var(--gradient-btn);
+  border-radius: var(--radius-pill);
+}
+
+.listen-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.95rem;
+}
+
+.listen-play:hover,
+.listen-float:hover { background: var(--gradient-btn-hover); }
+
+.listen-group {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.listen-group button {
+  border: 0;
+  background: transparent;
+  color: var(--text-secondary);
+  font: 600 0.78rem/1 var(--font-sans);
+  padding: 0.42rem 0.6rem;
+  cursor: pointer;
+}
+
+.listen-group button[aria-pressed="true"] {
+  background: var(--accent-dim);
+  color: var(--accent-light);
+}
+
+.listen-seek {
+  flex: 1 1 140px;
+  min-width: 120px;
+  accent-color: var(--accent);
+}
+
+.listen-time {
+  font: 500 0.78rem/1 var(--font-mono);
+  color: var(--text-muted);
+  min-width: 2.6rem;
+}
+
+.listen-note,
+.listen-how {
+  margin: 0.7rem 0 0;
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+}
+
+.listen-how summary { cursor: pointer; color: var(--text-muted); }
+.listen-how p { margin: 0.4rem 0 0; }
+
+.listen-w.is-current {
+  background: var(--accent-dim);
+  border-radius: 0.2em;
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.listen-blockish.is-current,
+h1.is-current,
+h2.is-current,
+h3.is-current,
+p.is-current,
+li.is-current,
+blockquote.is-current {
+  background: var(--accent-glow-soft);
+  border-radius: 0.25em;
+}
+
+.listen-float {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 5.6rem;
+  z-index: 390;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-card);
+}
+
+.listen-float[hidden] { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .listen-w.is-current { transition: none; }
+}

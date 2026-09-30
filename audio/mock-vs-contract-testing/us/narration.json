@@ -1,0 +1,3701 @@
+{
+  "slug": "mock-vs-contract-testing",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 250.45,
+  "contentHash": "fd191990d1a17aaa9d785079c6d7226ec10792c5c6636a9b79893598825232d4",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Mock Servers vs Contract Testing",
+      "start": 0.0,
+      "end": 2.5,
+      "words": [
+        {
+          "text": "Mock",
+          "start": 0.3,
+          "end": 0.575
+        },
+        {
+          "text": "Servers",
+          "start": 0.575,
+          "end": 0.975
+        },
+        {
+          "text": "vs",
+          "start": 0.975,
+          "end": 1.325
+        },
+        {
+          "text": "Contract",
+          "start": 1.325,
+          "end": 1.775
+        },
+        {
+          "text": "Testing",
+          "start": 1.775,
+          "end": 2.5
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h2",
+      "text": "The Metaphor",
+      "start": 2.92,
+      "end": 4.12,
+      "words": [
+        {
+          "text": "The",
+          "start": 3.27,
+          "end": 3.345
+        },
+        {
+          "text": "Metaphor",
+          "start": 3.345,
+          "end": 4.12
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "Mocks are training wheels. They let you develop without the real thing, fast and loose.",
+      "start": 4.665,
+      "end": 9.84,
+      "words": [
+        {
+          "text": "Mocks",
+          "start": 4.99,
+          "end": 5.303
+        },
+        {
+          "text": "are",
+          "start": 5.303,
+          "end": 5.39
+        },
+        {
+          "text": "training",
+          "start": 5.39,
+          "end": 5.765
+        },
+        {
+          "text": "wheels",
+          "start": 5.765,
+          "end": 6.49
+        },
+        {
+          "text": ".",
+          "start": 6.49,
+          "end": 6.59
+        },
+        {
+          "text": "They",
+          "start": 6.59,
+          "end": 6.74
+        },
+        {
+          "text": "let",
+          "start": 6.74,
+          "end": 6.89
+        },
+        {
+          "text": "you",
+          "start": 6.89,
+          "end": 6.99
+        },
+        {
+          "text": "develop",
+          "start": 6.99,
+          "end": 7.377
+        },
+        {
+          "text": "without",
+          "start": 7.377,
+          "end": 7.652
+        },
+        {
+          "text": "the",
+          "start": 7.652,
+          "end": 7.74
+        },
+        {
+          "text": "real",
+          "start": 7.74,
+          "end": 8.027
+        },
+        {
+          "text": "thing",
+          "start": 8.027,
+          "end": 8.415
+        },
+        {
+          "text": ",",
+          "start": 8.415,
+          "end": 8.527
+        },
+        {
+          "text": "fast",
+          "start": 8.527,
+          "end": 8.99
+        },
+        {
+          "text": "and",
+          "start": 8.99,
+          "end": 9.115
+        },
+        {
+          "text": "loose",
+          "start": 9.115,
+          "end": 9.69
+        },
+        {
+          "text": ".",
+          "start": 9.69,
+          "end": 9.84
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "Contracts are a legal binding. Both sides agree to the terms, and you verify both follow them.",
+      "start": 10.16,
+      "end": 16.335,
+      "words": [
+        {
+          "text": "Contracts",
+          "start": 10.435,
+          "end": 11.035
+        },
+        {
+          "text": "are",
+          "start": 11.035,
+          "end": 11.148
+        },
+        {
+          "text": "a",
+          "start": 11.148,
+          "end": 11.21
+        },
+        {
+          "text": "legal",
+          "start": 11.21,
+          "end": 11.535
+        },
+        {
+          "text": "binding",
+          "start": 11.535,
+          "end": 12.335
+        },
+        {
+          "text": ".",
+          "start": 12.335,
+          "end": 12.473
+        },
+        {
+          "text": "Both",
+          "start": 12.473,
+          "end": 12.798
+        },
+        {
+          "text": "sides",
+          "start": 12.798,
+          "end": 13.185
+        },
+        {
+          "text": "agree",
+          "start": 13.185,
+          "end": 13.46
+        },
+        {
+          "text": "to",
+          "start": 13.46,
+          "end": 13.548
+        },
+        {
+          "text": "the",
+          "start": 13.548,
+          "end": 13.635
+        },
+        {
+          "text": "terms",
+          "start": 13.635,
+          "end": 14.235
+        },
+        {
+          "text": ",",
+          "start": 14.235,
+          "end": 14.335
+        },
+        {
+          "text": "and",
+          "start": 14.335,
+          "end": 14.448
+        },
+        {
+          "text": "you",
+          "start": 14.448,
+          "end": 14.56
+        },
+        {
+          "text": "verify",
+          "start": 14.56,
+          "end": 15.035
+        },
+        {
+          "text": "both",
+          "start": 15.035,
+          "end": 15.348
+        },
+        {
+          "text": "follow",
+          "start": 15.348,
+          "end": 15.673
+        },
+        {
+          "text": "them",
+          "start": 15.673,
+          "end": 16.185
+        },
+        {
+          "text": ".",
+          "start": 16.185,
+          "end": 16.335
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "This is the difference. Here's the detail:",
+      "start": 16.655,
+      "end": 19.43,
+      "words": [
+        {
+          "text": "This",
+          "start": 16.93,
+          "end": 17.155
+        },
+        {
+          "text": "is",
+          "start": 17.155,
+          "end": 17.293
+        },
+        {
+          "text": "the",
+          "start": 17.293,
+          "end": 17.38
+        },
+        {
+          "text": "difference",
+          "start": 17.38,
+          "end": 17.955
+        },
+        {
+          "text": ".",
+          "start": 17.955,
+          "end": 18.068
+        },
+        {
+          "text": "Here's",
+          "start": 18.068,
+          "end": 18.393
+        },
+        {
+          "text": "the",
+          "start": 18.393,
+          "end": 18.48
+        },
+        {
+          "text": "detail",
+          "start": 18.48,
+          "end": 19.255
+        },
+        {
+          "text": ":",
+          "start": 19.255,
+          "end": 19.43
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h3",
+      "text": "Contract Testing (The Legal Binding)",
+      "start": 19.75,
+      "end": 22.4,
+      "words": [
+        {
+          "text": "Contract",
+          "start": 20.025,
+          "end": 20.5
+        },
+        {
+          "text": "Testing",
+          "start": 20.5,
+          "end": 21.1
+        },
+        {
+          "text": "(",
+          "start": 21.1,
+          "end": 21.15
+        },
+        {
+          "text": "The",
+          "start": 21.15,
+          "end": 21.225
+        },
+        {
+          "text": "Legal",
+          "start": 21.225,
+          "end": 21.525
+        },
+        {
+          "text": "Binding",
+          "start": 21.525,
+          "end": 22.25
+        },
+        {
+          "text": ")",
+          "start": 22.25,
+          "end": 22.4
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "In contract testing, a contract is a formal agreement: \"This is what the consumer expects. This is what the provider promises.\" It's enforceable. Tools like Pact make it machine-readable.",
+      "start": 22.72,
+      "end": 35.195,
+      "words": [
+        {
+          "text": "In",
+          "start": 22.995,
+          "end": 23.12
+        },
+        {
+          "text": "contract",
+          "start": 23.12,
+          "end": 23.62
+        },
+        {
+          "text": "testing",
+          "start": 23.62,
+          "end": 24.22
+        },
+        {
+          "text": ",",
+          "start": 24.22,
+          "end": 24.32
+        },
+        {
+          "text": "a",
+          "start": 24.32,
+          "end": 24.432
+        },
+        {
+          "text": "contract",
+          "start": 24.432,
+          "end": 25.045
+        },
+        {
+          "text": "is",
+          "start": 25.045,
+          "end": 25.17
+        },
+        {
+          "text": "a",
+          "start": 25.17,
+          "end": 25.295
+        },
+        {
+          "text": "formal",
+          "start": 25.295,
+          "end": 25.72
+        },
+        {
+          "text": "agreement",
+          "start": 25.72,
+          "end": 26.545
+        },
+        {
+          "text": ":",
+          "start": 26.545,
+          "end": 26.67
+        },
+        {
+          "text": "\"",
+          "start": 26.67,
+          "end": 26.745
+        },
+        {
+          "text": "This",
+          "start": 26.745,
+          "end": 27.032
+        },
+        {
+          "text": "is",
+          "start": 27.032,
+          "end": 27.195
+        },
+        {
+          "text": "what",
+          "start": 27.195,
+          "end": 27.332
+        },
+        {
+          "text": "the",
+          "start": 27.332,
+          "end": 27.42
+        },
+        {
+          "text": "consumer",
+          "start": 27.42,
+          "end": 27.995
+        },
+        {
+          "text": "expects",
+          "start": 27.995,
+          "end": 28.82
+        },
+        {
+          "text": ".",
+          "start": 28.82,
+          "end": 28.932
+        },
+        {
+          "text": "This",
+          "start": 28.932,
+          "end": 29.207
+        },
+        {
+          "text": "is",
+          "start": 29.207,
+          "end": 29.395
+        },
+        {
+          "text": "what",
+          "start": 29.395,
+          "end": 29.532
+        },
+        {
+          "text": "the",
+          "start": 29.532,
+          "end": 29.62
+        },
+        {
+          "text": "provider",
+          "start": 29.62,
+          "end": 30.145
+        },
+        {
+          "text": "promises",
+          "start": 30.145,
+          "end": 31.245
+        },
+        {
+          "text": ".",
+          "start": 31.245,
+          "end": 31.32
+        },
+        {
+          "text": "\"",
+          "start": 31.32,
+          "end": 31.37
+        },
+        {
+          "text": "It's",
+          "start": 31.37,
+          "end": 31.62
+        },
+        {
+          "text": "enforceable",
+          "start": 31.62,
+          "end": 32.57
+        },
+        {
+          "text": ".",
+          "start": 32.57,
+          "end": 32.682
+        },
+        {
+          "text": "Tools",
+          "start": 32.682,
+          "end": 33.057
+        },
+        {
+          "text": "like",
+          "start": 33.057,
+          "end": 33.282
+        },
+        {
+          "text": "Pact",
+          "start": 33.282,
+          "end": 33.72
+        },
+        {
+          "text": "make",
+          "start": 33.72,
+          "end": 33.907
+        },
+        {
+          "text": "it",
+          "start": 33.907,
+          "end": 33.983
+        },
+        {
+          "text": "machine-readable",
+          "start": 33.983,
+          "end": 35.045
+        },
+        {
+          "text": ".",
+          "start": 35.045,
+          "end": 35.195
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Request format: URL, method, headers, body , explicitly defined",
+      "start": 35.515,
+      "end": 40.265,
+      "words": [
+        {
+          "text": "Request",
+          "start": 35.79,
+          "end": 36.165
+        },
+        {
+          "text": "format",
+          "start": 36.165,
+          "end": 36.84
+        },
+        {
+          "text": ":",
+          "start": 36.84,
+          "end": 36.977
+        },
+        {
+          "text": "URL",
+          "start": 36.977,
+          "end": 37.54
+        },
+        {
+          "text": ",",
+          "start": 37.54,
+          "end": 37.59
+        },
+        {
+          "text": "method",
+          "start": 37.59,
+          "end": 37.915
+        },
+        {
+          "text": ",",
+          "start": 37.915,
+          "end": 37.965
+        },
+        {
+          "text": "headers",
+          "start": 37.965,
+          "end": 38.34
+        },
+        {
+          "text": ",",
+          "start": 38.34,
+          "end": 38.39
+        },
+        {
+          "text": "body",
+          "start": 38.39,
+          "end": 38.815
+        },
+        {
+          "text": ",",
+          "start": 38.815,
+          "end": 38.89
+        },
+        {
+          "text": "explicitly",
+          "start": 38.89,
+          "end": 39.54
+        },
+        {
+          "text": "defined",
+          "start": 39.54,
+          "end": 40.265
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Response format: Status code, headers, JSON schema , explicitly defined",
+      "start": 40.735,
+      "end": 46.26,
+      "words": [
+        {
+          "text": "Response",
+          "start": 41.01,
+          "end": 41.485
+        },
+        {
+          "text": "format",
+          "start": 41.485,
+          "end": 42.185
+        },
+        {
+          "text": ":",
+          "start": 42.185,
+          "end": 42.322
+        },
+        {
+          "text": "Status",
+          "start": 42.322,
+          "end": 42.735
+        },
+        {
+          "text": "code",
+          "start": 42.735,
+          "end": 43.11
+        },
+        {
+          "text": ",",
+          "start": 43.11,
+          "end": 43.185
+        },
+        {
+          "text": "headers",
+          "start": 43.185,
+          "end": 43.585
+        },
+        {
+          "text": ",",
+          "start": 43.585,
+          "end": 43.635
+        },
+        {
+          "text": "JSON",
+          "start": 43.635,
+          "end": 44.26
+        },
+        {
+          "text": "schema",
+          "start": 44.26,
+          "end": 44.773
+        },
+        {
+          "text": ",",
+          "start": 44.773,
+          "end": 44.86
+        },
+        {
+          "text": "explicitly",
+          "start": 44.86,
+          "end": 45.51
+        },
+        {
+          "text": "defined",
+          "start": 45.51,
+          "end": 46.26
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "Both consumer and provider run tests against the same contract. If either breaks it, CI fails.",
+      "start": 46.73,
+      "end": 53.455,
+      "words": [
+        {
+          "text": "Both",
+          "start": 47.005,
+          "end": 47.255
+        },
+        {
+          "text": "consumer",
+          "start": 47.255,
+          "end": 47.917
+        },
+        {
+          "text": "and",
+          "start": 47.917,
+          "end": 48.08
+        },
+        {
+          "text": "provider",
+          "start": 48.08,
+          "end": 48.58
+        },
+        {
+          "text": "run",
+          "start": 48.58,
+          "end": 48.817
+        },
+        {
+          "text": "tests",
+          "start": 48.817,
+          "end": 49.23
+        },
+        {
+          "text": "against",
+          "start": 49.23,
+          "end": 49.542
+        },
+        {
+          "text": "the",
+          "start": 49.542,
+          "end": 49.63
+        },
+        {
+          "text": "same",
+          "start": 49.63,
+          "end": 49.905
+        },
+        {
+          "text": "contract",
+          "start": 49.905,
+          "end": 50.88
+        },
+        {
+          "text": ".",
+          "start": 50.88,
+          "end": 51.005
+        },
+        {
+          "text": "If",
+          "start": 51.005,
+          "end": 51.155
+        },
+        {
+          "text": "either",
+          "start": 51.155,
+          "end": 51.405
+        },
+        {
+          "text": "breaks",
+          "start": 51.405,
+          "end": 51.767
+        },
+        {
+          "text": "it",
+          "start": 51.767,
+          "end": 52.055
+        },
+        {
+          "text": ",",
+          "start": 52.055,
+          "end": 52.167
+        },
+        {
+          "text": "CI",
+          "start": 52.167,
+          "end": 52.567
+        },
+        {
+          "text": "fails",
+          "start": 52.567,
+          "end": 53.305
+        },
+        {
+          "text": ".",
+          "start": 53.305,
+          "end": 53.455
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h3",
+      "text": "Mock Servers (The Training Wheels)",
+      "start": 53.775,
+      "end": 56.1,
+      "words": [
+        {
+          "text": "Mock",
+          "start": 54.075,
+          "end": 54.325
+        },
+        {
+          "text": "Servers",
+          "start": 54.325,
+          "end": 54.85
+        },
+        {
+          "text": "(",
+          "start": 54.85,
+          "end": 54.9
+        },
+        {
+          "text": "The",
+          "start": 54.9,
+          "end": 54.975
+        },
+        {
+          "text": "Training",
+          "start": 54.975,
+          "end": 55.325
+        },
+        {
+          "text": "Wheels",
+          "start": 55.325,
+          "end": 55.95
+        },
+        {
+          "text": ")",
+          "start": 55.95,
+          "end": 56.1
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Mocks simulate the provider service. They're fast, they're under your control, and they let you code while the real service is in another sprint.",
+      "start": 56.42,
+      "end": 64.87,
+      "words": [
+        {
+          "text": "Mocks",
+          "start": 56.745,
+          "end": 57.132
+        },
+        {
+          "text": "simulate",
+          "start": 57.132,
+          "end": 57.582
+        },
+        {
+          "text": "the",
+          "start": 57.582,
+          "end": 57.67
+        },
+        {
+          "text": "provider",
+          "start": 57.67,
+          "end": 58.17
+        },
+        {
+          "text": "service",
+          "start": 58.17,
+          "end": 58.995
+        },
+        {
+          "text": ".",
+          "start": 58.995,
+          "end": 59.107
+        },
+        {
+          "text": "They're",
+          "start": 59.107,
+          "end": 59.332
+        },
+        {
+          "text": "fast",
+          "start": 59.332,
+          "end": 59.895
+        },
+        {
+          "text": ",",
+          "start": 59.895,
+          "end": 59.995
+        },
+        {
+          "text": "they're",
+          "start": 59.995,
+          "end": 60.195
+        },
+        {
+          "text": "under",
+          "start": 60.195,
+          "end": 60.407
+        },
+        {
+          "text": "your",
+          "start": 60.407,
+          "end": 60.52
+        },
+        {
+          "text": "control",
+          "start": 60.52,
+          "end": 61.27
+        },
+        {
+          "text": ",",
+          "start": 61.27,
+          "end": 61.37
+        },
+        {
+          "text": "and",
+          "start": 61.37,
+          "end": 61.482
+        },
+        {
+          "text": "they",
+          "start": 61.482,
+          "end": 61.595
+        },
+        {
+          "text": "let",
+          "start": 61.595,
+          "end": 61.745
+        },
+        {
+          "text": "you",
+          "start": 61.745,
+          "end": 61.907
+        },
+        {
+          "text": "code",
+          "start": 61.907,
+          "end": 62.295
+        },
+        {
+          "text": "while",
+          "start": 62.295,
+          "end": 62.482
+        },
+        {
+          "text": "the",
+          "start": 62.482,
+          "end": 62.607
+        },
+        {
+          "text": "real",
+          "start": 62.607,
+          "end": 62.907
+        },
+        {
+          "text": "service",
+          "start": 62.907,
+          "end": 63.382
+        },
+        {
+          "text": "is",
+          "start": 63.382,
+          "end": 63.545
+        },
+        {
+          "text": "in",
+          "start": 63.545,
+          "end": 63.645
+        },
+        {
+          "text": "another",
+          "start": 63.645,
+          "end": 64.032
+        },
+        {
+          "text": "sprint",
+          "start": 64.032,
+          "end": 64.72
+        },
+        {
+          "text": ".",
+          "start": 64.72,
+          "end": 64.87
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "Purpose: Let the consumer dev team move fast without blocking on provider availability",
+      "start": 65.19,
+      "end": 71.34,
+      "words": [
+        {
+          "text": "Purpose",
+          "start": 65.44,
+          "end": 66.265
+        },
+        {
+          "text": ":",
+          "start": 66.265,
+          "end": 66.403
+        },
+        {
+          "text": "Let",
+          "start": 66.403,
+          "end": 66.578
+        },
+        {
+          "text": "the",
+          "start": 66.578,
+          "end": 66.665
+        },
+        {
+          "text": "consumer",
+          "start": 66.665,
+          "end": 67.215
+        },
+        {
+          "text": "dev",
+          "start": 67.215,
+          "end": 67.465
+        },
+        {
+          "text": "team",
+          "start": 67.465,
+          "end": 67.977
+        },
+        {
+          "text": "move",
+          "start": 67.977,
+          "end": 68.227
+        },
+        {
+          "text": "fast",
+          "start": 68.227,
+          "end": 68.765
+        },
+        {
+          "text": "without",
+          "start": 68.765,
+          "end": 69.09
+        },
+        {
+          "text": "blocking",
+          "start": 69.09,
+          "end": 69.54
+        },
+        {
+          "text": "on",
+          "start": 69.54,
+          "end": 69.69
+        },
+        {
+          "text": "provider",
+          "start": 69.69,
+          "end": 70.19
+        },
+        {
+          "text": "availability",
+          "start": 70.19,
+          "end": 71.34
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Problem: Mocks can lie. The mock responds with what you think the provider will send, not what it actually sends",
+      "start": 71.735,
+      "end": 78.76,
+      "words": [
+        {
+          "text": "Problem",
+          "start": 71.985,
+          "end": 72.51
+        },
+        {
+          "text": ":",
+          "start": 72.51,
+          "end": 72.597
+        },
+        {
+          "text": "Mocks",
+          "start": 72.597,
+          "end": 72.985
+        },
+        {
+          "text": "can",
+          "start": 72.985,
+          "end": 73.16
+        },
+        {
+          "text": "lie",
+          "start": 73.16,
+          "end": 73.785
+        },
+        {
+          "text": ".",
+          "start": 73.785,
+          "end": 73.96
+        },
+        {
+          "text": "The",
+          "start": 73.96,
+          "end": 74.085
+        },
+        {
+          "text": "mock",
+          "start": 74.085,
+          "end": 74.41
+        },
+        {
+          "text": "responds",
+          "start": 74.41,
+          "end": 75.073
+        },
+        {
+          "text": "with",
+          "start": 75.073,
+          "end": 75.198
+        },
+        {
+          "text": "what",
+          "start": 75.198,
+          "end": 75.335
+        },
+        {
+          "text": "you",
+          "start": 75.335,
+          "end": 75.498
+        },
+        {
+          "text": "think",
+          "start": 75.498,
+          "end": 75.735
+        },
+        {
+          "text": "the",
+          "start": 75.735,
+          "end": 75.835
+        },
+        {
+          "text": "provider",
+          "start": 75.835,
+          "end": 76.335
+        },
+        {
+          "text": "will",
+          "start": 76.335,
+          "end": 76.522
+        },
+        {
+          "text": "send",
+          "start": 76.522,
+          "end": 77.085
+        },
+        {
+          "text": ",",
+          "start": 77.085,
+          "end": 77.21
+        },
+        {
+          "text": "not",
+          "start": 77.21,
+          "end": 77.373
+        },
+        {
+          "text": "what",
+          "start": 77.373,
+          "end": 77.498
+        },
+        {
+          "text": "it",
+          "start": 77.498,
+          "end": 77.585
+        },
+        {
+          "text": "actually",
+          "start": 77.585,
+          "end": 78.022
+        },
+        {
+          "text": "sends",
+          "start": 78.022,
+          "end": 78.76
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Scope: Consumer-only; the provider never sees the mock",
+      "start": 79.205,
+      "end": 82.855,
+      "words": [
+        {
+          "text": "Scope",
+          "start": 79.48,
+          "end": 79.88
+        },
+        {
+          "text": ":",
+          "start": 79.88,
+          "end": 79.93
+        },
+        {
+          "text": "Consumer-only",
+          "start": 79.93,
+          "end": 80.905
+        },
+        {
+          "text": ";",
+          "start": 80.905,
+          "end": 81.03
+        },
+        {
+          "text": "the",
+          "start": 81.03,
+          "end": 81.13
+        },
+        {
+          "text": "provider",
+          "start": 81.13,
+          "end": 81.63
+        },
+        {
+          "text": "never",
+          "start": 81.63,
+          "end": 81.93
+        },
+        {
+          "text": "sees",
+          "start": 81.93,
+          "end": 82.192
+        },
+        {
+          "text": "the",
+          "start": 82.192,
+          "end": 82.28
+        },
+        {
+          "text": "mock",
+          "start": 82.28,
+          "end": 82.855
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h3",
+      "text": "When You Should Care (The Real Difference)",
+      "start": 83.3,
+      "end": 85.675,
+      "words": [
+        {
+          "text": "When",
+          "start": 83.55,
+          "end": 83.662
+        },
+        {
+          "text": "You",
+          "start": 83.662,
+          "end": 83.775
+        },
+        {
+          "text": "Should",
+          "start": 83.775,
+          "end": 83.975
+        },
+        {
+          "text": "Care",
+          "start": 83.975,
+          "end": 84.425
+        },
+        {
+          "text": "(",
+          "start": 84.425,
+          "end": 84.475
+        },
+        {
+          "text": "The",
+          "start": 84.475,
+          "end": 84.575
+        },
+        {
+          "text": "Real",
+          "start": 84.575,
+          "end": 84.825
+        },
+        {
+          "text": "Difference",
+          "start": 84.825,
+          "end": 85.525
+        },
+        {
+          "text": ")",
+          "start": 85.525,
+          "end": 85.675
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "Mocks alone = disaster waiting to happen. Your consumer tests pass. CI is green. You ship. Then production breaks because the provider changed the response format and you never noticed.",
+      "start": 85.995,
+      "end": 98.72,
+      "words": [
+        {
+          "text": "Mocks",
+          "start": 86.32,
+          "end": 86.62
+        },
+        {
+          "text": "alone",
+          "start": 86.62,
+          "end": 87.07
+        },
+        {
+          "text": "=",
+          "start": 87.07,
+          "end": 87.445
+        },
+        {
+          "text": "disaster",
+          "start": 87.445,
+          "end": 88.02
+        },
+        {
+          "text": "waiting",
+          "start": 88.02,
+          "end": 88.345
+        },
+        {
+          "text": "to",
+          "start": 88.345,
+          "end": 88.445
+        },
+        {
+          "text": "happen",
+          "start": 88.445,
+          "end": 89.12
+        },
+        {
+          "text": ".",
+          "start": 89.12,
+          "end": 89.22
+        },
+        {
+          "text": "Your",
+          "start": 89.22,
+          "end": 89.37
+        },
+        {
+          "text": "consumer",
+          "start": 89.37,
+          "end": 89.92
+        },
+        {
+          "text": "tests",
+          "start": 89.92,
+          "end": 90.307
+        },
+        {
+          "text": "pass",
+          "start": 90.307,
+          "end": 91.045
+        },
+        {
+          "text": ".",
+          "start": 91.045,
+          "end": 91.195
+        },
+        {
+          "text": "CI",
+          "start": 91.195,
+          "end": 91.67
+        },
+        {
+          "text": "is",
+          "start": 91.67,
+          "end": 91.832
+        },
+        {
+          "text": "green",
+          "start": 91.832,
+          "end": 92.47
+        },
+        {
+          "text": ".",
+          "start": 92.47,
+          "end": 92.582
+        },
+        {
+          "text": "You",
+          "start": 92.582,
+          "end": 92.77
+        },
+        {
+          "text": "ship",
+          "start": 92.77,
+          "end": 93.47
+        },
+        {
+          "text": ".",
+          "start": 93.47,
+          "end": 93.632
+        },
+        {
+          "text": "Then",
+          "start": 93.632,
+          "end": 93.845
+        },
+        {
+          "text": "production",
+          "start": 93.845,
+          "end": 94.395
+        },
+        {
+          "text": "breaks",
+          "start": 94.395,
+          "end": 94.77
+        },
+        {
+          "text": "because",
+          "start": 94.77,
+          "end": 95.082
+        },
+        {
+          "text": "the",
+          "start": 95.082,
+          "end": 95.17
+        },
+        {
+          "text": "provider",
+          "start": 95.17,
+          "end": 95.682
+        },
+        {
+          "text": "changed",
+          "start": 95.682,
+          "end": 96.082
+        },
+        {
+          "text": "the",
+          "start": 96.082,
+          "end": 96.17
+        },
+        {
+          "text": "response",
+          "start": 96.17,
+          "end": 96.67
+        },
+        {
+          "text": "format",
+          "start": 96.67,
+          "end": 97.282
+        },
+        {
+          "text": "and",
+          "start": 97.282,
+          "end": 97.42
+        },
+        {
+          "text": "you",
+          "start": 97.42,
+          "end": 97.545
+        },
+        {
+          "text": "never",
+          "start": 97.545,
+          "end": 97.795
+        },
+        {
+          "text": "noticed",
+          "start": 97.795,
+          "end": 98.57
+        },
+        {
+          "text": ".",
+          "start": 98.57,
+          "end": 98.72
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "Contracts = early warning system. When the provider changes the format, their contract test fails. When the consumer expects a different format, the consumer's contract test fails. You catch the mismatch before merging.",
+      "start": 99.04,
+      "end": 113.04,
+      "words": [
+        {
+          "text": "Contracts",
+          "start": 99.315,
+          "end": 99.915
+        },
+        {
+          "text": "=",
+          "start": 99.915,
+          "end": 100.402
+        },
+        {
+          "text": "early",
+          "start": 100.402,
+          "end": 100.79
+        },
+        {
+          "text": "warning",
+          "start": 100.79,
+          "end": 101.165
+        },
+        {
+          "text": "system",
+          "start": 101.165,
+          "end": 101.965
+        },
+        {
+          "text": ".",
+          "start": 101.965,
+          "end": 102.065
+        },
+        {
+          "text": "When",
+          "start": 102.065,
+          "end": 102.202
+        },
+        {
+          "text": "the",
+          "start": 102.202,
+          "end": 102.29
+        },
+        {
+          "text": "provider",
+          "start": 102.29,
+          "end": 102.802
+        },
+        {
+          "text": "changes",
+          "start": 102.802,
+          "end": 103.24
+        },
+        {
+          "text": "the",
+          "start": 103.24,
+          "end": 103.352
+        },
+        {
+          "text": "format",
+          "start": 103.352,
+          "end": 103.94
+        },
+        {
+          "text": ",",
+          "start": 103.94,
+          "end": 104.015
+        },
+        {
+          "text": "their",
+          "start": 104.015,
+          "end": 104.19
+        },
+        {
+          "text": "contract",
+          "start": 104.19,
+          "end": 104.715
+        },
+        {
+          "text": "test",
+          "start": 104.715,
+          "end": 105.015
+        },
+        {
+          "text": "fails",
+          "start": 105.015,
+          "end": 105.815
+        },
+        {
+          "text": ".",
+          "start": 105.815,
+          "end": 105.915
+        },
+        {
+          "text": "When",
+          "start": 105.915,
+          "end": 106.052
+        },
+        {
+          "text": "the",
+          "start": 106.052,
+          "end": 106.14
+        },
+        {
+          "text": "consumer",
+          "start": 106.14,
+          "end": 106.715
+        },
+        {
+          "text": "expects",
+          "start": 106.715,
+          "end": 107.202
+        },
+        {
+          "text": "a",
+          "start": 107.202,
+          "end": 107.265
+        },
+        {
+          "text": "different",
+          "start": 107.265,
+          "end": 107.565
+        },
+        {
+          "text": "format",
+          "start": 107.565,
+          "end": 108.19
+        },
+        {
+          "text": ",",
+          "start": 108.19,
+          "end": 108.29
+        },
+        {
+          "text": "the",
+          "start": 108.29,
+          "end": 108.39
+        },
+        {
+          "text": "consumer's",
+          "start": 108.39,
+          "end": 109.04
+        },
+        {
+          "text": "contract",
+          "start": 109.04,
+          "end": 109.565
+        },
+        {
+          "text": "test",
+          "start": 109.565,
+          "end": 109.84
+        },
+        {
+          "text": "fails",
+          "start": 109.84,
+          "end": 110.615
+        },
+        {
+          "text": ".",
+          "start": 110.615,
+          "end": 110.752
+        },
+        {
+          "text": "You",
+          "start": 110.752,
+          "end": 110.927
+        },
+        {
+          "text": "catch",
+          "start": 110.927,
+          "end": 111.24
+        },
+        {
+          "text": "the",
+          "start": 111.24,
+          "end": 111.34
+        },
+        {
+          "text": "mismatch",
+          "start": 111.34,
+          "end": 111.84
+        },
+        {
+          "text": "before",
+          "start": 111.84,
+          "end": 112.19
+        },
+        {
+          "text": "merging",
+          "start": 112.19,
+          "end": 112.89
+        },
+        {
+          "text": ".",
+          "start": 112.89,
+          "end": 113.04
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "h3",
+      "text": "Quick Example",
+      "start": 113.36,
+      "end": 114.66,
+      "words": [
+        {
+          "text": "Quick",
+          "start": 113.685,
+          "end": 113.872
+        },
+        {
+          "text": "Example",
+          "start": 113.872,
+          "end": 114.66
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "Imagine Service A (consumer, your payments team) needs /user/{id} from Service B (provider, the platform team).",
+      "start": 115.155,
+      "end": 123.305,
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 115.455,
+          "end": 115.942
+        },
+        {
+          "text": "Service",
+          "start": 115.942,
+          "end": 116.33
+        },
+        {
+          "text": "A",
+          "start": 116.33,
+          "end": 116.58
+        },
+        {
+          "text": "(",
+          "start": 116.58,
+          "end": 116.63
+        },
+        {
+          "text": "consumer",
+          "start": 116.63,
+          "end": 117.255
+        },
+        {
+          "text": ",",
+          "start": 117.255,
+          "end": 117.33
+        },
+        {
+          "text": "your",
+          "start": 117.33,
+          "end": 117.455
+        },
+        {
+          "text": "payments",
+          "start": 117.455,
+          "end": 117.855
+        },
+        {
+          "text": "team",
+          "start": 117.855,
+          "end": 118.455
+        },
+        {
+          "text": ")",
+          "start": 118.455,
+          "end": 118.58
+        },
+        {
+          "text": "needs",
+          "start": 118.58,
+          "end": 118.867
+        },
+        {
+          "text": "/user/{id",
+          "start": 118.867,
+          "end": 120.305
+        },
+        {
+          "text": "}",
+          "start": 120.305,
+          "end": 120.367
+        },
+        {
+          "text": "from",
+          "start": 120.367,
+          "end": 120.567
+        },
+        {
+          "text": "Service",
+          "start": 120.567,
+          "end": 120.93
+        },
+        {
+          "text": "B",
+          "start": 120.93,
+          "end": 121.242
+        },
+        {
+          "text": "(",
+          "start": 121.242,
+          "end": 121.305
+        },
+        {
+          "text": "provider",
+          "start": 121.305,
+          "end": 121.855
+        },
+        {
+          "text": ",",
+          "start": 121.855,
+          "end": 121.917
+        },
+        {
+          "text": "the",
+          "start": 121.917,
+          "end": 122.03
+        },
+        {
+          "text": "platform",
+          "start": 122.03,
+          "end": 122.58
+        },
+        {
+          "text": "team",
+          "start": 122.58,
+          "end": 123.255
+        },
+        {
+          "text": ")",
+          "start": 123.255,
+          "end": 123.305
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "With mocks:",
+      "start": 123.625,
+      "end": 125.025,
+      "words": [
+        {
+          "text": "With",
+          "start": 123.975,
+          "end": 124.15
+        },
+        {
+          "text": "mocks",
+          "start": 124.15,
+          "end": 124.85
+        },
+        {
+          "text": ":",
+          "start": 124.85,
+          "end": 125.025
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "You mock /user/123 to return { name: \"Bob\", email: \"bob@x\" }",
+      "start": 125.345,
+      "end": 130.62,
+      "words": [
+        {
+          "text": "You",
+          "start": 125.62,
+          "end": 125.72
+        },
+        {
+          "text": "mock",
+          "start": 125.72,
+          "end": 125.995
+        },
+        {
+          "text": "/user/123",
+          "start": 125.995,
+          "end": 127.02
+        },
+        {
+          "text": "to",
+          "start": 127.02,
+          "end": 127.107
+        },
+        {
+          "text": "return",
+          "start": 127.107,
+          "end": 127.482
+        },
+        {
+          "text": "{",
+          "start": 127.482,
+          "end": 127.532
+        },
+        {
+          "text": "name",
+          "start": 127.532,
+          "end": 128.07
+        },
+        {
+          "text": ":",
+          "start": 128.07,
+          "end": 128.195
+        },
+        {
+          "text": "\"",
+          "start": 128.195,
+          "end": 128.27
+        },
+        {
+          "text": "Bob",
+          "start": 128.27,
+          "end": 128.645
+        },
+        {
+          "text": "\"",
+          "start": 128.645,
+          "end": 128.72
+        },
+        {
+          "text": ",",
+          "start": 128.72,
+          "end": 128.77
+        },
+        {
+          "text": "email",
+          "start": 128.77,
+          "end": 129.345
+        },
+        {
+          "text": ":",
+          "start": 129.345,
+          "end": 129.445
+        },
+        {
+          "text": "\"",
+          "start": 129.445,
+          "end": 129.52
+        },
+        {
+          "text": "bob@x",
+          "start": 129.52,
+          "end": 130.445
+        },
+        {
+          "text": "\"",
+          "start": 130.445,
+          "end": 130.582
+        },
+        {
+          "text": "}",
+          "start": 130.582,
+          "end": 130.62
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Service A builds code expecting that format",
+      "start": 130.94,
+      "end": 133.94,
+      "words": [
+        {
+          "text": "Service",
+          "start": 131.24,
+          "end": 131.577
+        },
+        {
+          "text": "A",
+          "start": 131.577,
+          "end": 131.79
+        },
+        {
+          "text": "builds",
+          "start": 131.79,
+          "end": 132.115
+        },
+        {
+          "text": "code",
+          "start": 132.115,
+          "end": 132.552
+        },
+        {
+          "text": "expecting",
+          "start": 132.552,
+          "end": 133.065
+        },
+        {
+          "text": "that",
+          "start": 133.065,
+          "end": 133.265
+        },
+        {
+          "text": "format",
+          "start": 133.265,
+          "end": 133.94
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "li",
+      "text": "Later, the platform team changes it to { user_name: \"Bob\", user_email: \"bob@x\" }",
+      "start": 134.385,
+      "end": 140.26,
+      "words": [
+        {
+          "text": "Later",
+          "start": 134.71,
+          "end": 135.035
+        },
+        {
+          "text": ",",
+          "start": 135.035,
+          "end": 135.072
+        },
+        {
+          "text": "the",
+          "start": 135.072,
+          "end": 135.16
+        },
+        {
+          "text": "platform",
+          "start": 135.16,
+          "end": 135.61
+        },
+        {
+          "text": "team",
+          "start": 135.61,
+          "end": 135.897
+        },
+        {
+          "text": "changes",
+          "start": 135.897,
+          "end": 136.31
+        },
+        {
+          "text": "it",
+          "start": 136.31,
+          "end": 136.435
+        },
+        {
+          "text": "to",
+          "start": 136.435,
+          "end": 136.572
+        },
+        {
+          "text": "{",
+          "start": 136.572,
+          "end": 136.635
+        },
+        {
+          "text": "user_name",
+          "start": 136.635,
+          "end": 137.435
+        },
+        {
+          "text": ":",
+          "start": 137.435,
+          "end": 137.56
+        },
+        {
+          "text": "\"",
+          "start": 137.56,
+          "end": 137.635
+        },
+        {
+          "text": "Bob",
+          "start": 137.635,
+          "end": 138.01
+        },
+        {
+          "text": "\"",
+          "start": 138.01,
+          "end": 138.085
+        },
+        {
+          "text": ",",
+          "start": 138.085,
+          "end": 138.135
+        },
+        {
+          "text": "user_email",
+          "start": 138.135,
+          "end": 138.985
+        },
+        {
+          "text": ":",
+          "start": 138.985,
+          "end": 139.085
+        },
+        {
+          "text": "\"",
+          "start": 139.085,
+          "end": 139.16
+        },
+        {
+          "text": "bob@x",
+          "start": 139.16,
+          "end": 140.085
+        },
+        {
+          "text": "\"",
+          "start": 140.085,
+          "end": 140.222
+        },
+        {
+          "text": "}",
+          "start": 140.222,
+          "end": 140.26
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Your tests still pass because they mock the old format",
+      "start": 140.58,
+      "end": 143.805,
+      "words": [
+        {
+          "text": "Your",
+          "start": 140.855,
+          "end": 140.98
+        },
+        {
+          "text": "tests",
+          "start": 140.98,
+          "end": 141.28
+        },
+        {
+          "text": "still",
+          "start": 141.28,
+          "end": 141.53
+        },
+        {
+          "text": "pass",
+          "start": 141.53,
+          "end": 142.105
+        },
+        {
+          "text": "because",
+          "start": 142.105,
+          "end": 142.367
+        },
+        {
+          "text": "they",
+          "start": 142.367,
+          "end": 142.505
+        },
+        {
+          "text": "mock",
+          "start": 142.505,
+          "end": 142.767
+        },
+        {
+          "text": "the",
+          "start": 142.767,
+          "end": 142.88
+        },
+        {
+          "text": "old",
+          "start": 142.88,
+          "end": 143.13
+        },
+        {
+          "text": "format",
+          "start": 143.13,
+          "end": 143.805
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "Production breaks on day one",
+      "start": 144.25,
+      "end": 146.125,
+      "words": [
+        {
+          "text": "Production",
+          "start": 144.5,
+          "end": 144.975
+        },
+        {
+          "text": "breaks",
+          "start": 144.975,
+          "end": 145.262
+        },
+        {
+          "text": "on",
+          "start": 145.262,
+          "end": 145.375
+        },
+        {
+          "text": "day",
+          "start": 145.375,
+          "end": 145.6
+        },
+        {
+          "text": "one",
+          "start": 145.6,
+          "end": 146.125
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "With contracts:",
+      "start": 146.595,
+      "end": 148.17,
+      "words": [
+        {
+          "text": "With",
+          "start": 146.895,
+          "end": 147.07
+        },
+        {
+          "text": "contracts",
+          "start": 147.07,
+          "end": 147.995
+        },
+        {
+          "text": ":",
+          "start": 147.995,
+          "end": 148.17
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Consumer and provider agree: /user/{id} returns { name: string, email: string }",
+      "start": 148.49,
+      "end": 155.065,
+      "words": [
+        {
+          "text": "Consumer",
+          "start": 148.74,
+          "end": 149.265
+        },
+        {
+          "text": "and",
+          "start": 149.265,
+          "end": 149.39
+        },
+        {
+          "text": "provider",
+          "start": 149.39,
+          "end": 149.89
+        },
+        {
+          "text": "agree",
+          "start": 149.89,
+          "end": 150.49
+        },
+        {
+          "text": ":",
+          "start": 150.49,
+          "end": 150.652
+        },
+        {
+          "text": "/user/{id",
+          "start": 150.652,
+          "end": 151.915
+        },
+        {
+          "text": "}",
+          "start": 151.915,
+          "end": 151.99
+        },
+        {
+          "text": "returns",
+          "start": 151.99,
+          "end": 152.402
+        },
+        {
+          "text": "{",
+          "start": 152.402,
+          "end": 152.465
+        },
+        {
+          "text": "name",
+          "start": 152.465,
+          "end": 153.065
+        },
+        {
+          "text": ":",
+          "start": 153.065,
+          "end": 153.202
+        },
+        {
+          "text": "string",
+          "start": 153.202,
+          "end": 153.615
+        },
+        {
+          "text": ",",
+          "start": 153.615,
+          "end": 153.69
+        },
+        {
+          "text": "email",
+          "start": 153.69,
+          "end": 154.14
+        },
+        {
+          "text": ":",
+          "start": 154.14,
+          "end": 154.252
+        },
+        {
+          "text": "string",
+          "start": 154.252,
+          "end": 155.065
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Consumer test verifies it can parse that format",
+      "start": 155.41,
+      "end": 158.585,
+      "words": [
+        {
+          "text": "Consumer",
+          "start": 155.685,
+          "end": 156.21
+        },
+        {
+          "text": "test",
+          "start": 156.21,
+          "end": 156.635
+        },
+        {
+          "text": "verifies",
+          "start": 156.635,
+          "end": 157.197
+        },
+        {
+          "text": "it",
+          "start": 157.197,
+          "end": 157.285
+        },
+        {
+          "text": "can",
+          "start": 157.285,
+          "end": 157.46
+        },
+        {
+          "text": "parse",
+          "start": 157.46,
+          "end": 157.747
+        },
+        {
+          "text": "that",
+          "start": 157.747,
+          "end": 157.91
+        },
+        {
+          "text": "format",
+          "start": 157.91,
+          "end": 158.585
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Provider test verifies it actually returns that format",
+      "start": 159.03,
+      "end": 162.755,
+      "words": [
+        {
+          "text": "Provider",
+          "start": 159.28,
+          "end": 159.755
+        },
+        {
+          "text": "test",
+          "start": 159.755,
+          "end": 160.305
+        },
+        {
+          "text": "verifies",
+          "start": 160.305,
+          "end": 160.855
+        },
+        {
+          "text": "it",
+          "start": 160.855,
+          "end": 160.992
+        },
+        {
+          "text": "actually",
+          "start": 160.992,
+          "end": 161.43
+        },
+        {
+          "text": "returns",
+          "start": 161.43,
+          "end": 161.917
+        },
+        {
+          "text": "that",
+          "start": 161.917,
+          "end": 162.08
+        },
+        {
+          "text": "format",
+          "start": 162.08,
+          "end": 162.755
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "If the provider changes the format, their contract test fails",
+      "start": 163.2,
+      "end": 167.1,
+      "words": [
+        {
+          "text": "If",
+          "start": 163.45,
+          "end": 163.587
+        },
+        {
+          "text": "the",
+          "start": 163.587,
+          "end": 163.675
+        },
+        {
+          "text": "provider",
+          "start": 163.675,
+          "end": 164.187
+        },
+        {
+          "text": "changes",
+          "start": 164.187,
+          "end": 164.612
+        },
+        {
+          "text": "the",
+          "start": 164.612,
+          "end": 164.7
+        },
+        {
+          "text": "format",
+          "start": 164.7,
+          "end": 165.3
+        },
+        {
+          "text": ",",
+          "start": 165.3,
+          "end": 165.4
+        },
+        {
+          "text": "their",
+          "start": 165.4,
+          "end": 165.575
+        },
+        {
+          "text": "contract",
+          "start": 165.575,
+          "end": 166.075
+        },
+        {
+          "text": "test",
+          "start": 166.075,
+          "end": 166.375
+        },
+        {
+          "text": "fails",
+          "start": 166.375,
+          "end": 167.1
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "The breaking change is caught before merge",
+      "start": 167.545,
+      "end": 169.82,
+      "words": [
+        {
+          "text": "The",
+          "start": 167.795,
+          "end": 167.87
+        },
+        {
+          "text": "breaking",
+          "start": 167.87,
+          "end": 168.27
+        },
+        {
+          "text": "change",
+          "start": 168.27,
+          "end": 168.582
+        },
+        {
+          "text": "is",
+          "start": 168.582,
+          "end": 168.72
+        },
+        {
+          "text": "caught",
+          "start": 168.72,
+          "end": 168.97
+        },
+        {
+          "text": "before",
+          "start": 168.97,
+          "end": 169.27
+        },
+        {
+          "text": "merge",
+          "start": 169.27,
+          "end": 169.82
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h1",
+      "text": "Service Interaction Flow",
+      "start": 170.315,
+      "end": 172.14,
+      "words": [
+        {
+          "text": "Service",
+          "start": 170.615,
+          "end": 170.952
+        },
+        {
+          "text": "Interaction",
+          "start": 170.952,
+          "end": 171.552
+        },
+        {
+          "text": "Flow",
+          "start": 171.552,
+          "end": 172.14
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h2",
+      "text": "Mock Server Testing",
+      "start": 172.635,
+      "end": 174.235,
+      "words": [
+        {
+          "text": "Mock",
+          "start": 172.985,
+          "end": 173.235
+        },
+        {
+          "text": "Server",
+          "start": 173.235,
+          "end": 173.51
+        },
+        {
+          "text": "Testing",
+          "start": 173.51,
+          "end": 174.235
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "Service A (Consumer) sends a request to the Mock Server.",
+      "start": 174.705,
+      "end": 178.505,
+      "words": [
+        {
+          "text": "Service",
+          "start": 175.005,
+          "end": 175.417
+        },
+        {
+          "text": "A",
+          "start": 175.417,
+          "end": 175.655
+        },
+        {
+          "text": "(",
+          "start": 175.655,
+          "end": 175.705
+        },
+        {
+          "text": "Consumer",
+          "start": 175.705,
+          "end": 176.43
+        },
+        {
+          "text": ")",
+          "start": 176.43,
+          "end": 176.555
+        },
+        {
+          "text": "sends",
+          "start": 176.555,
+          "end": 176.792
+        },
+        {
+          "text": "a",
+          "start": 176.792,
+          "end": 176.842
+        },
+        {
+          "text": "request",
+          "start": 176.842,
+          "end": 177.255
+        },
+        {
+          "text": "to",
+          "start": 177.255,
+          "end": 177.342
+        },
+        {
+          "text": "the",
+          "start": 177.342,
+          "end": 177.43
+        },
+        {
+          "text": "Mock",
+          "start": 177.43,
+          "end": 177.705
+        },
+        {
+          "text": "Server",
+          "start": 177.705,
+          "end": 178.33
+        },
+        {
+          "text": ".",
+          "start": 178.33,
+          "end": 178.505
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "The Mock Server responds back to Service A.",
+      "start": 178.825,
+      "end": 181.575,
+      "words": [
+        {
+          "text": "The",
+          "start": 179.075,
+          "end": 179.15
+        },
+        {
+          "text": "Mock",
+          "start": 179.15,
+          "end": 179.425
+        },
+        {
+          "text": "Server",
+          "start": 179.425,
+          "end": 179.775
+        },
+        {
+          "text": "responds",
+          "start": 179.775,
+          "end": 180.3
+        },
+        {
+          "text": "back",
+          "start": 180.3,
+          "end": 180.575
+        },
+        {
+          "text": "to",
+          "start": 180.575,
+          "end": 180.7
+        },
+        {
+          "text": "Service",
+          "start": 180.7,
+          "end": 181.05
+        },
+        {
+          "text": "A.",
+          "start": 181.05,
+          "end": 181.575
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h2",
+      "text": "Contract Testing",
+      "start": 182.045,
+      "end": 183.62,
+      "words": [
+        {
+          "text": "Contract",
+          "start": 182.37,
+          "end": 182.87
+        },
+        {
+          "text": "Testing",
+          "start": 182.87,
+          "end": 183.62
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Service A (Consumer) sends a request to Service B (Provider).",
+      "start": 184.09,
+      "end": 188.34,
+      "words": [
+        {
+          "text": "Service",
+          "start": 184.39,
+          "end": 184.74
+        },
+        {
+          "text": "A",
+          "start": 184.74,
+          "end": 184.99
+        },
+        {
+          "text": "(",
+          "start": 184.99,
+          "end": 185.04
+        },
+        {
+          "text": "Consumer",
+          "start": 185.04,
+          "end": 185.815
+        },
+        {
+          "text": ")",
+          "start": 185.815,
+          "end": 185.94
+        },
+        {
+          "text": "sends",
+          "start": 185.94,
+          "end": 186.177
+        },
+        {
+          "text": "a",
+          "start": 186.177,
+          "end": 186.227
+        },
+        {
+          "text": "request",
+          "start": 186.227,
+          "end": 186.665
+        },
+        {
+          "text": "to",
+          "start": 186.665,
+          "end": 186.79
+        },
+        {
+          "text": "Service",
+          "start": 186.79,
+          "end": 187.14
+        },
+        {
+          "text": "B",
+          "start": 187.14,
+          "end": 187.377
+        },
+        {
+          "text": "(",
+          "start": 187.377,
+          "end": 187.415
+        },
+        {
+          "text": "Provider",
+          "start": 187.415,
+          "end": 188.14
+        },
+        {
+          "text": ")",
+          "start": 188.14,
+          "end": 188.29
+        },
+        {
+          "text": ".",
+          "start": 188.29,
+          "end": 188.34
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Service B responds back to Service A.",
+      "start": 188.66,
+      "end": 191.285,
+      "words": [
+        {
+          "text": "Service",
+          "start": 188.96,
+          "end": 189.285
+        },
+        {
+          "text": "B",
+          "start": 189.285,
+          "end": 189.56
+        },
+        {
+          "text": "responds",
+          "start": 189.56,
+          "end": 190.035
+        },
+        {
+          "text": "back",
+          "start": 190.035,
+          "end": 190.31
+        },
+        {
+          "text": "to",
+          "start": 190.31,
+          "end": 190.435
+        },
+        {
+          "text": "Service",
+          "start": 190.435,
+          "end": 190.76
+        },
+        {
+          "text": "A.",
+          "start": 190.76,
+          "end": 191.285
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h2",
+      "text": "Contract Details",
+      "start": 191.78,
+      "end": 193.38,
+      "words": [
+        {
+          "text": "Contract",
+          "start": 192.105,
+          "end": 192.605
+        },
+        {
+          "text": "Details",
+          "start": 192.605,
+          "end": 193.38
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "The Contract provides details to both Service A and Service B.",
+      "start": 193.85,
+      "end": 197.95,
+      "words": [
+        {
+          "text": "The",
+          "start": 194.1,
+          "end": 194.175
+        },
+        {
+          "text": "Contract",
+          "start": 194.175,
+          "end": 194.7
+        },
+        {
+          "text": "provides",
+          "start": 194.7,
+          "end": 195.15
+        },
+        {
+          "text": "details",
+          "start": 195.15,
+          "end": 195.65
+        },
+        {
+          "text": "to",
+          "start": 195.65,
+          "end": 195.737
+        },
+        {
+          "text": "both",
+          "start": 195.737,
+          "end": 195.95
+        },
+        {
+          "text": "Service",
+          "start": 195.95,
+          "end": 196.312
+        },
+        {
+          "text": "A",
+          "start": 196.312,
+          "end": 196.812
+        },
+        {
+          "text": "and",
+          "start": 196.812,
+          "end": 197.012
+        },
+        {
+          "text": "Service",
+          "start": 197.012,
+          "end": 197.375
+        },
+        {
+          "text": "B.",
+          "start": 197.375,
+          "end": 197.95
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "h3",
+      "text": "The Pattern I Use",
+      "start": 198.395,
+      "end": 199.92,
+      "words": [
+        {
+          "text": "The",
+          "start": 198.695,
+          "end": 198.77
+        },
+        {
+          "text": "Pattern",
+          "start": 198.77,
+          "end": 199.17
+        },
+        {
+          "text": "I",
+          "start": 199.17,
+          "end": 199.32
+        },
+        {
+          "text": "Use",
+          "start": 199.32,
+          "end": 199.92
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "Start with mocks , you need to move fast and you can't block on the provider team. But don't stop there.",
+      "start": 200.39,
+      "end": 206.415,
+      "words": [
+        {
+          "text": "Start",
+          "start": 200.665,
+          "end": 200.877
+        },
+        {
+          "text": "with",
+          "start": 200.877,
+          "end": 201.04
+        },
+        {
+          "text": "mocks",
+          "start": 201.04,
+          "end": 201.54
+        },
+        {
+          "text": ",",
+          "start": 201.54,
+          "end": 201.615
+        },
+        {
+          "text": "you",
+          "start": 201.615,
+          "end": 201.715
+        },
+        {
+          "text": "need",
+          "start": 201.715,
+          "end": 201.915
+        },
+        {
+          "text": "to",
+          "start": 201.915,
+          "end": 202.015
+        },
+        {
+          "text": "move",
+          "start": 202.015,
+          "end": 202.252
+        },
+        {
+          "text": "fast",
+          "start": 202.252,
+          "end": 202.765
+        },
+        {
+          "text": "and",
+          "start": 202.765,
+          "end": 202.877
+        },
+        {
+          "text": "you",
+          "start": 202.877,
+          "end": 202.99
+        },
+        {
+          "text": "can't",
+          "start": 202.99,
+          "end": 203.265
+        },
+        {
+          "text": "block",
+          "start": 203.265,
+          "end": 203.577
+        },
+        {
+          "text": "on",
+          "start": 203.577,
+          "end": 203.677
+        },
+        {
+          "text": "the",
+          "start": 203.677,
+          "end": 203.765
+        },
+        {
+          "text": "provider",
+          "start": 203.765,
+          "end": 204.265
+        },
+        {
+          "text": "team",
+          "start": 204.265,
+          "end": 204.965
+        },
+        {
+          "text": ".",
+          "start": 204.965,
+          "end": 205.065
+        },
+        {
+          "text": "But",
+          "start": 205.065,
+          "end": 205.202
+        },
+        {
+          "text": "don't",
+          "start": 205.202,
+          "end": 205.415
+        },
+        {
+          "text": "stop",
+          "start": 205.415,
+          "end": 205.74
+        },
+        {
+          "text": "there",
+          "start": 205.74,
+          "end": 206.265
+        },
+        {
+          "text": ".",
+          "start": 206.265,
+          "end": 206.415
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "p",
+      "text": "Before merging anything that touches an API contract, add contract tests. It's one more CI job, maybe 30 seconds, and it saves the \"why did production break?\" conversation.",
+      "start": 206.735,
+      "end": 218.86,
+      "words": [
+        {
+          "text": "Before",
+          "start": 206.985,
+          "end": 207.335
+        },
+        {
+          "text": "merging",
+          "start": 207.335,
+          "end": 207.685
+        },
+        {
+          "text": "anything",
+          "start": 207.685,
+          "end": 208.135
+        },
+        {
+          "text": "that",
+          "start": 208.135,
+          "end": 208.285
+        },
+        {
+          "text": "touches",
+          "start": 208.285,
+          "end": 208.697
+        },
+        {
+          "text": "an",
+          "start": 208.697,
+          "end": 208.822
+        },
+        {
+          "text": "API",
+          "start": 208.822,
+          "end": 209.385
+        },
+        {
+          "text": "contract",
+          "start": 209.385,
+          "end": 210.16
+        },
+        {
+          "text": ",",
+          "start": 210.16,
+          "end": 210.272
+        },
+        {
+          "text": "add",
+          "start": 210.272,
+          "end": 210.51
+        },
+        {
+          "text": "contract",
+          "start": 210.51,
+          "end": 211.035
+        },
+        {
+          "text": "tests",
+          "start": 211.035,
+          "end": 211.91
+        },
+        {
+          "text": ".",
+          "start": 211.91,
+          "end": 212.01
+        },
+        {
+          "text": "It's",
+          "start": 212.01,
+          "end": 212.272
+        },
+        {
+          "text": "one",
+          "start": 212.272,
+          "end": 212.51
+        },
+        {
+          "text": "more",
+          "start": 212.51,
+          "end": 212.747
+        },
+        {
+          "text": "CI",
+          "start": 212.747,
+          "end": 213.172
+        },
+        {
+          "text": "job",
+          "start": 213.172,
+          "end": 213.66
+        },
+        {
+          "text": ",",
+          "start": 213.66,
+          "end": 213.76
+        },
+        {
+          "text": "maybe",
+          "start": 213.76,
+          "end": 214.097
+        },
+        {
+          "text": "30",
+          "start": 214.097,
+          "end": 214.435
+        },
+        {
+          "text": "seconds",
+          "start": 214.435,
+          "end": 215.085
+        },
+        {
+          "text": ",",
+          "start": 215.085,
+          "end": 215.16
+        },
+        {
+          "text": "and",
+          "start": 215.16,
+          "end": 215.272
+        },
+        {
+          "text": "it",
+          "start": 215.272,
+          "end": 215.372
+        },
+        {
+          "text": "saves",
+          "start": 215.372,
+          "end": 215.785
+        },
+        {
+          "text": "the",
+          "start": 215.785,
+          "end": 215.91
+        },
+        {
+          "text": "\"",
+          "start": 215.91,
+          "end": 215.985
+        },
+        {
+          "text": "why",
+          "start": 215.985,
+          "end": 216.235
+        },
+        {
+          "text": "did",
+          "start": 216.235,
+          "end": 216.41
+        },
+        {
+          "text": "production",
+          "start": 216.41,
+          "end": 216.885
+        },
+        {
+          "text": "break",
+          "start": 216.885,
+          "end": 217.485
+        },
+        {
+          "text": "?",
+          "start": 217.485,
+          "end": 217.585
+        },
+        {
+          "text": "\"",
+          "start": 217.585,
+          "end": 217.635
+        },
+        {
+          "text": "conversation",
+          "start": 217.635,
+          "end": 218.71
+        },
+        {
+          "text": ".",
+          "start": 218.71,
+          "end": 218.86
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "p",
+      "text": "Mocks are training wheels. Contracts are insurance. Use both.",
+      "start": 219.18,
+      "end": 223.455,
+      "words": [
+        {
+          "text": "Mocks",
+          "start": 219.505,
+          "end": 219.817
+        },
+        {
+          "text": "are",
+          "start": 219.817,
+          "end": 219.905
+        },
+        {
+          "text": "training",
+          "start": 219.905,
+          "end": 220.255
+        },
+        {
+          "text": "wheels",
+          "start": 220.255,
+          "end": 220.855
+        },
+        {
+          "text": ".",
+          "start": 220.855,
+          "end": 220.967
+        },
+        {
+          "text": "Contracts",
+          "start": 220.967,
+          "end": 221.492
+        },
+        {
+          "text": "are",
+          "start": 221.492,
+          "end": 221.567
+        },
+        {
+          "text": "insurance",
+          "start": 221.567,
+          "end": 222.28
+        },
+        {
+          "text": ".",
+          "start": 222.28,
+          "end": 222.392
+        },
+        {
+          "text": "Use",
+          "start": 222.392,
+          "end": 222.68
+        },
+        {
+          "text": "both",
+          "start": 222.68,
+          "end": 223.28
+        },
+        {
+          "text": ".",
+          "start": 223.28,
+          "end": 223.455
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 223.775,
+      "end": 225.6,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 224.075,
+          "end": 224.575
+        },
+        {
+          "text": "and",
+          "start": 224.575,
+          "end": 224.7
+        },
+        {
+          "text": "Further",
+          "start": 224.7,
+          "end": 224.975
+        },
+        {
+          "text": "Reading",
+          "start": 224.975,
+          "end": 225.6
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Pact , contract testing docs",
+      "start": 226.045,
+      "end": 228.245,
+      "words": [
+        {
+          "text": "Pact",
+          "start": 226.32,
+          "end": 226.707
+        },
+        {
+          "text": ",",
+          "start": 226.707,
+          "end": 226.77
+        },
+        {
+          "text": "contract",
+          "start": 226.77,
+          "end": 227.22
+        },
+        {
+          "text": "testing",
+          "start": 227.22,
+          "end": 227.62
+        },
+        {
+          "text": "docs",
+          "start": 227.62,
+          "end": 228.245
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Pact Broker , publishing and verifying contracts",
+      "start": 228.69,
+      "end": 232.115,
+      "words": [
+        {
+          "text": "Pact",
+          "start": 228.94,
+          "end": 229.24
+        },
+        {
+          "text": "Broker",
+          "start": 229.24,
+          "end": 229.852
+        },
+        {
+          "text": ",",
+          "start": 229.852,
+          "end": 229.94
+        },
+        {
+          "text": "publishing",
+          "start": 229.94,
+          "end": 230.49
+        },
+        {
+          "text": "and",
+          "start": 230.49,
+          "end": 230.615
+        },
+        {
+          "text": "verifying",
+          "start": 230.615,
+          "end": 231.19
+        },
+        {
+          "text": "contracts",
+          "start": 231.19,
+          "end": 232.115
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Martin Fowler , Consumer-Driven Contracts",
+      "start": 232.535,
+      "end": 235.56,
+      "words": [
+        {
+          "text": "Martin",
+          "start": 232.835,
+          "end": 233.222
+        },
+        {
+          "text": "Fowler",
+          "start": 233.222,
+          "end": 233.797
+        },
+        {
+          "text": ",",
+          "start": 233.797,
+          "end": 233.885
+        },
+        {
+          "text": "Consumer-Driven",
+          "start": 233.885,
+          "end": 234.66
+        },
+        {
+          "text": "Contracts",
+          "start": 234.66,
+          "end": 235.56
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "Testing ASP.NET Core services , Microsoft",
+      "start": 235.98,
+      "end": 239.055,
+      "words": [
+        {
+          "text": "Testing",
+          "start": 236.255,
+          "end": 236.63
+        },
+        {
+          "text": "ASP.NET",
+          "start": 236.63,
+          "end": 237.08
+        },
+        {
+          "text": "Core",
+          "start": 237.08,
+          "end": 237.28
+        },
+        {
+          "text": "services",
+          "start": 237.28,
+          "end": 238.042
+        },
+        {
+          "text": ",",
+          "start": 238.042,
+          "end": 238.13
+        },
+        {
+          "text": "Microsoft",
+          "start": 238.13,
+          "end": 239.055
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "p",
+      "text": "See also: Comparing BDD, ATDD, and TDD (Sep 2024) , different flavors of test-first thinking, same \"agree before you code\" energy.",
+      "start": 239.525,
+      "end": 250.35,
+      "words": [
+        {
+          "text": "See",
+          "start": 239.8,
+          "end": 239.975
+        },
+        {
+          "text": "also",
+          "start": 239.975,
+          "end": 240.625
+        },
+        {
+          "text": ":",
+          "start": 240.625,
+          "end": 240.75
+        },
+        {
+          "text": "Comparing",
+          "start": 240.75,
+          "end": 241.225
+        },
+        {
+          "text": "BDD",
+          "start": 241.225,
+          "end": 241.9
+        },
+        {
+          "text": ",",
+          "start": 241.9,
+          "end": 242.0
+        },
+        {
+          "text": "ATDD",
+          "start": 242.0,
+          "end": 242.825
+        },
+        {
+          "text": ",",
+          "start": 242.825,
+          "end": 242.875
+        },
+        {
+          "text": "and",
+          "start": 242.875,
+          "end": 243.012
+        },
+        {
+          "text": "TDD",
+          "start": 243.012,
+          "end": 243.85
+        },
+        {
+          "text": "(",
+          "start": 243.85,
+          "end": 243.95
+        },
+        {
+          "text": "Sep",
+          "start": 243.95,
+          "end": 244.2
+        },
+        {
+          "text": "2024",
+          "start": 244.2,
+          "end": 245.3
+        },
+        {
+          "text": ")",
+          "start": 245.3,
+          "end": 245.45
+        },
+        {
+          "text": ",",
+          "start": 245.45,
+          "end": 245.525
+        },
+        {
+          "text": "different",
+          "start": 245.525,
+          "end": 245.825
+        },
+        {
+          "text": "flavors",
+          "start": 245.825,
+          "end": 246.325
+        },
+        {
+          "text": "of",
+          "start": 246.325,
+          "end": 246.462
+        },
+        {
+          "text": "test-first",
+          "start": 246.462,
+          "end": 247.05
+        },
+        {
+          "text": "thinking",
+          "start": 247.05,
+          "end": 247.7
+        },
+        {
+          "text": ",",
+          "start": 247.7,
+          "end": 247.85
+        },
+        {
+          "text": "same",
+          "start": 247.85,
+          "end": 248.25
+        },
+        {
+          "text": "\"",
+          "start": 248.25,
+          "end": 248.3
+        },
+        {
+          "text": "agree",
+          "start": 248.3,
+          "end": 248.6
+        },
+        {
+          "text": "before",
+          "start": 248.6,
+          "end": 248.925
+        },
+        {
+          "text": "you",
+          "start": 248.925,
+          "end": 249.05
+        },
+        {
+          "text": "code",
+          "start": 249.05,
+          "end": 249.375
+        },
+        {
+          "text": "\"",
+          "start": 249.375,
+          "end": 249.425
+        },
+        {
+          "text": "energy",
+          "start": 249.425,
+          "end": 250.2
+        },
+        {
+          "text": ".",
+          "start": 250.2,
+          "end": 250.35
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

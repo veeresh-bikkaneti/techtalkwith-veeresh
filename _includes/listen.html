@@ -1,0 +1,34 @@
+<section class="listen" data-listen data-slug="{{ page.slug }}" data-base="{{ site.baseurl }}" aria-label="Listen to this article">
+  <div class="listen-bar">
+    <button type="button" class="listen-play" data-listen-play aria-pressed="false">
+      <i class="fas fa-headphones listen-icon" data-listen-icon aria-hidden="true"></i>
+      <span data-listen-label>Listen</span>
+    </button>
+    <div class="listen-group" role="group" aria-label="Voice">
+      <button type="button" data-accent="auto" aria-pressed="true">Auto</button>
+      <button type="button" data-accent="us" aria-pressed="false">US</button>
+      <button type="button" data-accent="uk" aria-pressed="false">UK</button>
+    </div>
+    <label class="listen-seek">
+      <span class="sr-only">Position</span>
+      <input type="range" data-listen-seek min="0" max="1000" value="0" step="1" disabled>
+    </label>
+    <span class="listen-time" data-listen-time>0:00</span>
+    <div class="listen-group" role="group" aria-label="Speed">
+      <button type="button" data-rate="0.9" aria-pressed="false">0.9×</button>
+      <button type="button" data-rate="1" aria-pressed="true">1×</button>
+      <button type="button" data-rate="1.25" aria-pressed="false">1.25×</button>
+      <button type="button" data-rate="1.5" aria-pressed="false">1.5×</button>
+    </div>
+  </div>
+  <p class="listen-note" data-listen-note>Press Listen. Nothing plays on its own. A synthesized voice is used when this article has one. Otherwise your browser reads it.</p>
+  <details class="listen-how">
+    <summary>How listen mode works</summary>
+    <p>The word being spoken lights up from the audio clock, including after you pause, drag the bar, or change speed. US and UK are remembered on this device. Leaving the page stops the voice. Highlighting is only a visual aid. The full text stays where it is.</p>
+  </details>
+  <p class="sr-only" data-listen-live aria-live="polite"></p>
+  <button type="button" class="listen-float" data-listen-float hidden aria-pressed="false">
+    <i class="fas fa-pause" aria-hidden="true"></i>
+    <span class="sr-only" data-listen-float-label>Pause</span>
+  </button>
+</section>
