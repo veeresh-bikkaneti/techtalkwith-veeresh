@@ -9,6 +9,9 @@ url: "https://veeresh-bikkaneti.github.io"
 baseurl: "/techtalkwith-veeresh"
 author: "Veeresh Bikkaneti"
 
+# Thoughts on a post are emailed here. The address is already public in the footer.
+comments_email: resume.qasdet@gmail.com
+
 # Build Settings
 future: true  # publish posts dated in the future (allows scheduling)
 markdown: kramdown

@@ -195,25 +195,6 @@ body::before {
   overflow: hidden;
 }
 
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--accent-dim);
-  border: 1px solid var(--border-hover);
-  color: var(--accent-light);
-  font-size: 0.82rem;
-  font-weight: 600;
-  padding: 0.4rem 1rem;
-  border-radius: var(--radius-pill);
-  margin-bottom: 2rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  position: relative;
-  z-index: 1;
-}
-.hero-badge::before { content: '●'; color: var(--green); font-size: 0.5rem; }
-
 .hero-title {
   font-family: var(--font-display);
   font-size: clamp(2.5rem, 6vw, 4rem);
@@ -1208,7 +1189,6 @@ body::before {
    ============================================ */
 @media (prefers-reduced-motion: reduce) {
   body::before { animation: none; }
-  .hero-badge { animation: none; }
   .post-card:hover { transform: none; }
   .bento-card:hover { transform: none; }
   .btn-primary:hover { transform: none; }

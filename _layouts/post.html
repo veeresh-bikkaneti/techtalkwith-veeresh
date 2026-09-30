@@ -39,6 +39,8 @@ layout: default
       </div>
     {% endif %}
 
+    {% include thoughts.html %}
+
     <nav class="post-nav" aria-label="More posts">
       {% if page.previous.url %}
         <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}">
