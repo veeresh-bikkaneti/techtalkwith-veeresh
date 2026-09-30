@@ -18,8 +18,10 @@ Go to `https://github.com/veeresh-bikkaneti/<repo>/settings/rules/new?target=bra
   - Restrict deletions
   - Block force pushes
   - Require a pull request before merging
-    - Required approvals: **0** (I am the only maintainer and GitHub will not let me approve my own PRs)
-    - Require review from Code Owners: **ON**
+    - Required approvals: **1**
+    - Dismiss stale pull request approvals when new commits are pushed: **ON**
+    - Require approval of the most recent reviewable push: **ON**
+    - Require review from Code Owners: **ON** (only I am listed in CODEOWNERS, so only my approval counts)
     - Require conversation resolution before merging: **ON**
 - Do NOT turn on required status checks, signed commits, linear history, or merge queue unless the repo already has one of these configured.
 - Click **Create**.
@@ -27,8 +29,15 @@ Go to `https://github.com/veeresh-bikkaneti/<repo>/settings/rules/new?target=bra
 ## Also, per repo: turn off auto-merge
 Go to `https://github.com/veeresh-bikkaneti/<repo>/settings`, scroll to **Pull Requests**, and UNCHECK **Allow auto-merge** (leave the other boxes as they are). Click Save if a button appears. This stops anyone or any bot from auto-merging.
 
+## CODEOWNERS check (per repo)
+"Require review from Code Owners" only works if the repo has `.github/CODEOWNERS` (or `CODEOWNERS` / `docs/CODEOWNERS`) containing `* @veeresh-bikkaneti`. Check that the file exists. Do NOT create or edit files. If it is missing or does not list me, still create the ruleset, but flag the repo in the report as "NEEDS CODEOWNERS".
+
+## Desired end state (what I want this to achieve)
+- Only I can approve changes. Contributors' PRs need my approval.
+- I can merge my own PRs. I expect to tick GitHub's "Merge without waiting for requirements to be met (bypass rules)" box on my own PRs, and that is fine.
+
 ## Before creating, for each repo
-- If a ruleset or classic branch protection rule already exists for the default branch, DO NOT overwrite or delete it. Skip that repo and report what is already there.
+- If a ruleset or classic branch protection rule already exists for the default branch, DO NOT create a second one and DO NOT edit or delete the existing one. Open it, read it, and record: type (ruleset or classic), name, required approvals, code-owner review on/off, and who can bypass. Still do the auto-merge step for that repo. Then move on.
 - If the page says rulesets are unavailable (private repos on a free plan), skip it and mark it "needs GitHub Pro or make public". Do not try to upgrade or pay for anything.
 - If the repo has no commits / no default branch yet, skip it.
 
@@ -38,7 +47,7 @@ Go to `https://github.com/veeresh-bikkaneti/<repo>/settings`, scroll to **Pull R
 - If a page looks different from what I described, stop and tell me instead of guessing.
 
 ## Report at the end
-A table with columns: repo | result (created / already protected / skipped) | reason. Then list anything I need to do by hand.
+A table with columns: repo | result (created / already protected / skipped) | required approvals | code-owner review | bypass | auto-merge now off (yes/no) | reason. Then list anything I need to do by hand.
 
 ## Start with one repo
-Do `techtalkwith-veeresh` first, show me the final ruleset page, and wait for me to say "continue" before doing the rest.
+Do `techtalkwith-veeresh` first. That repo is known to already have a rule that requires 1 approving review, so do NOT create a new ruleset there. Read the existing rule, tell me exactly what it is and whether "Allow auto-merge" was on, do the auto-merge step, and wait for me to say "continue" before doing the rest.
