@@ -1,0 +1,6938 @@
+{
+  "slug": "why-choose-hasura-over-other-tools",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 549.535,
+  "contentHash": "bafb0d9d317bf2190620b5ced82dbbe8464b28afafa71bc71403fde72f8e8baa",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Why Choose Hasura Over Other GraphQL Tools?",
+      "start": 0.0,
+      "end": 3.275,
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.275,
+          "end": 0.487
+        },
+        {
+          "text": "Choose",
+          "start": 0.487,
+          "end": 0.775
+        },
+        {
+          "text": "Hasura",
+          "start": 0.775,
+          "end": 1.363
+        },
+        {
+          "text": "Over",
+          "start": 1.363,
+          "end": 1.6
+        },
+        {
+          "text": "Other",
+          "start": 1.6,
+          "end": 1.775
+        },
+        {
+          "text": "GraphQL",
+          "start": 1.775,
+          "end": 2.4
+        },
+        {
+          "text": "Tools",
+          "start": 2.4,
+          "end": 3.125
+        },
+        {
+          "text": "?",
+          "start": 3.125,
+          "end": 3.275
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h2",
+      "text": "The \"Why\" Matters More Than The Tool",
+      "start": 3.595,
+      "end": 5.67,
+      "words": [
+        {
+          "text": "The",
+          "start": 3.87,
+          "end": 3.995
+        },
+        {
+          "text": "\"",
+          "start": 3.995,
+          "end": 4.07
+        },
+        {
+          "text": "Why",
+          "start": 4.07,
+          "end": 4.27
+        },
+        {
+          "text": "\"",
+          "start": 4.27,
+          "end": 4.308
+        },
+        {
+          "text": "Matters",
+          "start": 4.308,
+          "end": 4.645
+        },
+        {
+          "text": "More",
+          "start": 4.645,
+          "end": 4.808
+        },
+        {
+          "text": "Than",
+          "start": 4.808,
+          "end": 4.933
+        },
+        {
+          "text": "The",
+          "start": 4.933,
+          "end": 5.033
+        },
+        {
+          "text": "Tool",
+          "start": 5.033,
+          "end": 5.67
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "quote",
+      "text": "\"Why rewrite what Hasura already generated for free?\"",
+      "start": 6.09,
+      "end": 9.615,
+      "words": [
+        {
+          "text": "\"",
+          "start": 6.34,
+          "end": 6.415
+        },
+        {
+          "text": "Why",
+          "start": 6.415,
+          "end": 6.64
+        },
+        {
+          "text": "rewrite",
+          "start": 6.64,
+          "end": 7.09
+        },
+        {
+          "text": "what",
+          "start": 7.09,
+          "end": 7.24
+        },
+        {
+          "text": "Hasura",
+          "start": 7.24,
+          "end": 7.69
+        },
+        {
+          "text": "already",
+          "start": 7.69,
+          "end": 8.078
+        },
+        {
+          "text": "generated",
+          "start": 8.078,
+          "end": 8.665
+        },
+        {
+          "text": "for",
+          "start": 8.665,
+          "end": 8.828
+        },
+        {
+          "text": "free",
+          "start": 8.828,
+          "end": 9.44
+        },
+        {
+          "text": "?",
+          "start": 9.44,
+          "end": 9.565
+        },
+        {
+          "text": "\"",
+          "start": 9.565,
+          "end": 9.615
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "I learned this the hard way: I spent a week writing boilerplate GraphQL resolvers that Hasura would have generated in five minutes. The lesson stuck. Choosing between Hasura, Apollo, and building from scratch depends on what problem you're actually solving.",
+      "start": 9.935,
+      "end": 25.86,
+      "words": [
+        {
+          "text": "I",
+          "start": 10.21,
+          "end": 10.36
+        },
+        {
+          "text": "learned",
+          "start": 10.36,
+          "end": 10.66
+        },
+        {
+          "text": "this",
+          "start": 10.66,
+          "end": 10.86
+        },
+        {
+          "text": "the",
+          "start": 10.86,
+          "end": 10.96
+        },
+        {
+          "text": "hard",
+          "start": 10.96,
+          "end": 11.235
+        },
+        {
+          "text": "way",
+          "start": 11.235,
+          "end": 11.81
+        },
+        {
+          "text": ":",
+          "start": 11.81,
+          "end": 11.935
+        },
+        {
+          "text": "I",
+          "start": 11.935,
+          "end": 12.085
+        },
+        {
+          "text": "spent",
+          "start": 12.085,
+          "end": 12.335
+        },
+        {
+          "text": "a",
+          "start": 12.335,
+          "end": 12.46
+        },
+        {
+          "text": "week",
+          "start": 12.46,
+          "end": 12.797
+        },
+        {
+          "text": "writing",
+          "start": 12.797,
+          "end": 13.223
+        },
+        {
+          "text": "boilerplate",
+          "start": 13.223,
+          "end": 13.885
+        },
+        {
+          "text": "GraphQL",
+          "start": 13.885,
+          "end": 14.56
+        },
+        {
+          "text": "resolvers",
+          "start": 14.56,
+          "end": 15.185
+        },
+        {
+          "text": "that",
+          "start": 15.185,
+          "end": 15.348
+        },
+        {
+          "text": "Hasura",
+          "start": 15.348,
+          "end": 15.835
+        },
+        {
+          "text": "would",
+          "start": 15.835,
+          "end": 15.948
+        },
+        {
+          "text": "have",
+          "start": 15.948,
+          "end": 16.098
+        },
+        {
+          "text": "generated",
+          "start": 16.098,
+          "end": 16.685
+        },
+        {
+          "text": "in",
+          "start": 16.685,
+          "end": 16.848
+        },
+        {
+          "text": "five",
+          "start": 16.848,
+          "end": 17.198
+        },
+        {
+          "text": "minutes",
+          "start": 17.198,
+          "end": 18.035
+        },
+        {
+          "text": ".",
+          "start": 18.035,
+          "end": 18.172
+        },
+        {
+          "text": "The",
+          "start": 18.172,
+          "end": 18.31
+        },
+        {
+          "text": "lesson",
+          "start": 18.31,
+          "end": 18.697
+        },
+        {
+          "text": "stuck",
+          "start": 18.697,
+          "end": 19.435
+        },
+        {
+          "text": ".",
+          "start": 19.435,
+          "end": 19.585
+        },
+        {
+          "text": "Choosing",
+          "start": 19.585,
+          "end": 19.998
+        },
+        {
+          "text": "between",
+          "start": 19.998,
+          "end": 20.335
+        },
+        {
+          "text": "Hasura",
+          "start": 20.335,
+          "end": 21.01
+        },
+        {
+          "text": ",",
+          "start": 21.01,
+          "end": 21.11
+        },
+        {
+          "text": "Apollo",
+          "start": 21.11,
+          "end": 21.685
+        },
+        {
+          "text": ",",
+          "start": 21.685,
+          "end": 21.76
+        },
+        {
+          "text": "and",
+          "start": 21.76,
+          "end": 21.885
+        },
+        {
+          "text": "building",
+          "start": 21.885,
+          "end": 22.31
+        },
+        {
+          "text": "from",
+          "start": 22.31,
+          "end": 22.523
+        },
+        {
+          "text": "scratch",
+          "start": 22.523,
+          "end": 23.185
+        },
+        {
+          "text": "depends",
+          "start": 23.185,
+          "end": 23.648
+        },
+        {
+          "text": "on",
+          "start": 23.648,
+          "end": 23.76
+        },
+        {
+          "text": "what",
+          "start": 23.76,
+          "end": 23.91
+        },
+        {
+          "text": "problem",
+          "start": 23.91,
+          "end": 24.322
+        },
+        {
+          "text": "you're",
+          "start": 24.322,
+          "end": 24.473
+        },
+        {
+          "text": "actually",
+          "start": 24.473,
+          "end": 24.922
+        },
+        {
+          "text": "solving",
+          "start": 24.922,
+          "end": 25.71
+        },
+        {
+          "text": ".",
+          "start": 25.71,
+          "end": 25.86
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Hasura when you have a database and need a GraphQL API yesterday. Apollo when you need fine-grained control and don't mind the complexity. Custom code when neither fits and you enjoy suffering.",
+      "start": 26.18,
+      "end": 38.78,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 26.455,
+          "end": 26.893
+        },
+        {
+          "text": "when",
+          "start": 26.893,
+          "end": 27.018
+        },
+        {
+          "text": "you",
+          "start": 27.018,
+          "end": 27.105
+        },
+        {
+          "text": "have",
+          "start": 27.105,
+          "end": 27.267
+        },
+        {
+          "text": "a",
+          "start": 27.267,
+          "end": 27.33
+        },
+        {
+          "text": "database",
+          "start": 27.33,
+          "end": 28.093
+        },
+        {
+          "text": "and",
+          "start": 28.093,
+          "end": 28.23
+        },
+        {
+          "text": "need",
+          "start": 28.23,
+          "end": 28.417
+        },
+        {
+          "text": "a",
+          "start": 28.417,
+          "end": 28.492
+        },
+        {
+          "text": "GraphQL",
+          "start": 28.492,
+          "end": 29.267
+        },
+        {
+          "text": "API",
+          "start": 29.267,
+          "end": 29.88
+        },
+        {
+          "text": "yesterday",
+          "start": 29.88,
+          "end": 30.805
+        },
+        {
+          "text": ".",
+          "start": 30.805,
+          "end": 30.967
+        },
+        {
+          "text": "Apollo",
+          "start": 30.967,
+          "end": 31.443
+        },
+        {
+          "text": "when",
+          "start": 31.443,
+          "end": 31.58
+        },
+        {
+          "text": "you",
+          "start": 31.58,
+          "end": 31.68
+        },
+        {
+          "text": "need",
+          "start": 31.68,
+          "end": 31.98
+        },
+        {
+          "text": "fine-grained",
+          "start": 31.98,
+          "end": 32.63
+        },
+        {
+          "text": "control",
+          "start": 32.63,
+          "end": 33.38
+        },
+        {
+          "text": "and",
+          "start": 33.38,
+          "end": 33.53
+        },
+        {
+          "text": "don't",
+          "start": 33.53,
+          "end": 33.805
+        },
+        {
+          "text": "mind",
+          "start": 33.805,
+          "end": 34.042
+        },
+        {
+          "text": "the",
+          "start": 34.042,
+          "end": 34.13
+        },
+        {
+          "text": "complexity",
+          "start": 34.13,
+          "end": 35.155
+        },
+        {
+          "text": ".",
+          "start": 35.155,
+          "end": 35.317
+        },
+        {
+          "text": "Custom",
+          "start": 35.317,
+          "end": 35.742
+        },
+        {
+          "text": "code",
+          "start": 35.742,
+          "end": 36.13
+        },
+        {
+          "text": "when",
+          "start": 36.13,
+          "end": 36.305
+        },
+        {
+          "text": "neither",
+          "start": 36.305,
+          "end": 36.63
+        },
+        {
+          "text": "fits",
+          "start": 36.63,
+          "end": 37.092
+        },
+        {
+          "text": "and",
+          "start": 37.092,
+          "end": 37.23
+        },
+        {
+          "text": "you",
+          "start": 37.23,
+          "end": 37.405
+        },
+        {
+          "text": "enjoy",
+          "start": 37.405,
+          "end": 37.868
+        },
+        {
+          "text": "suffering",
+          "start": 37.868,
+          "end": 38.655
+        },
+        {
+          "text": ".",
+          "start": 38.655,
+          "end": 38.78
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "Here's how to pick:",
+      "start": 39.1,
+      "end": 40.675,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 39.425,
+          "end": 39.7
+        },
+        {
+          "text": "how",
+          "start": 39.7,
+          "end": 39.838
+        },
+        {
+          "text": "to",
+          "start": 39.838,
+          "end": 39.925
+        },
+        {
+          "text": "pick",
+          "start": 39.925,
+          "end": 40.5
+        },
+        {
+          "text": ":",
+          "start": 40.5,
+          "end": 40.675
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "h3",
+      "text": "Why Choose Hasura Over Other Tools?",
+      "start": 40.995,
+      "end": 43.42,
+      "words": [
+        {
+          "text": "Why",
+          "start": 41.27,
+          "end": 41.483
+        },
+        {
+          "text": "Choose",
+          "start": 41.483,
+          "end": 41.745
+        },
+        {
+          "text": "Hasura",
+          "start": 41.745,
+          "end": 42.195
+        },
+        {
+          "text": "Over",
+          "start": 42.195,
+          "end": 42.408
+        },
+        {
+          "text": "Other",
+          "start": 42.408,
+          "end": 42.57
+        },
+        {
+          "text": "Tools",
+          "start": 42.57,
+          "end": 43.27
+        },
+        {
+          "text": "?",
+          "start": 43.27,
+          "end": 43.42
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "1. Instant GraphQL APIs: Hasura can instantly generate a GraphQL API from your existing databases, which significantly reduces development time¹. This is particularly useful for quickly setting up a backend without writing boilerplate code.",
+      "start": 43.74,
+      "end": 61.04,
+      "words": [
+        {
+          "text": "1",
+          "start": 44.04,
+          "end": 44.515
+        },
+        {
+          "text": ".",
+          "start": 44.515,
+          "end": 44.627
+        },
+        {
+          "text": "Instant",
+          "start": 44.627,
+          "end": 45.177
+        },
+        {
+          "text": "GraphQL",
+          "start": 45.177,
+          "end": 45.865
+        },
+        {
+          "text": "APIs",
+          "start": 45.865,
+          "end": 46.965
+        },
+        {
+          "text": ":",
+          "start": 46.965,
+          "end": 47.102
+        },
+        {
+          "text": "Hasura",
+          "start": 47.102,
+          "end": 47.59
+        },
+        {
+          "text": "can",
+          "start": 47.59,
+          "end": 47.777
+        },
+        {
+          "text": "instantly",
+          "start": 47.777,
+          "end": 48.277
+        },
+        {
+          "text": "generate",
+          "start": 48.277,
+          "end": 48.765
+        },
+        {
+          "text": "a",
+          "start": 48.765,
+          "end": 48.877
+        },
+        {
+          "text": "GraphQL",
+          "start": 48.877,
+          "end": 49.602
+        },
+        {
+          "text": "API",
+          "start": 49.602,
+          "end": 50.315
+        },
+        {
+          "text": "from",
+          "start": 50.315,
+          "end": 50.453
+        },
+        {
+          "text": "your",
+          "start": 50.453,
+          "end": 50.565
+        },
+        {
+          "text": "existing",
+          "start": 50.565,
+          "end": 51.065
+        },
+        {
+          "text": "databases",
+          "start": 51.065,
+          "end": 52.215
+        },
+        {
+          "text": ",",
+          "start": 52.215,
+          "end": 52.315
+        },
+        {
+          "text": "which",
+          "start": 52.315,
+          "end": 52.527
+        },
+        {
+          "text": "significantly",
+          "start": 52.527,
+          "end": 53.265
+        },
+        {
+          "text": "reduces",
+          "start": 53.265,
+          "end": 53.815
+        },
+        {
+          "text": "development",
+          "start": 53.815,
+          "end": 54.34
+        },
+        {
+          "text": "time¹.",
+          "start": 54.34,
+          "end": 55.352
+        },
+        {
+          "text": "This",
+          "start": 55.352,
+          "end": 55.64
+        },
+        {
+          "text": "is",
+          "start": 55.64,
+          "end": 55.79
+        },
+        {
+          "text": "particularly",
+          "start": 55.79,
+          "end": 56.502
+        },
+        {
+          "text": "useful",
+          "start": 56.502,
+          "end": 56.94
+        },
+        {
+          "text": "for",
+          "start": 56.94,
+          "end": 57.102
+        },
+        {
+          "text": "quickly",
+          "start": 57.102,
+          "end": 57.477
+        },
+        {
+          "text": "setting",
+          "start": 57.477,
+          "end": 57.802
+        },
+        {
+          "text": "up",
+          "start": 57.802,
+          "end": 57.927
+        },
+        {
+          "text": "a",
+          "start": 57.927,
+          "end": 57.99
+        },
+        {
+          "text": "backend",
+          "start": 57.99,
+          "end": 58.765
+        },
+        {
+          "text": "without",
+          "start": 58.765,
+          "end": 59.178
+        },
+        {
+          "text": "writing",
+          "start": 59.178,
+          "end": 59.59
+        },
+        {
+          "text": "boilerplate",
+          "start": 59.59,
+          "end": 60.215
+        },
+        {
+          "text": "code",
+          "start": 60.215,
+          "end": 60.865
+        },
+        {
+          "text": ".",
+          "start": 60.865,
+          "end": 61.04
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "2. Real-time Capabilities: Hasura supports real-time data with subscriptions, making it ideal for applications that require live updates¹. This feature is not as readily available or as easy to implement in many other tools.",
+      "start": 61.36,
+      "end": 76.935,
+      "words": [
+        {
+          "text": "2",
+          "start": 61.635,
+          "end": 62.135
+        },
+        {
+          "text": ".",
+          "start": 62.135,
+          "end": 62.31
+        },
+        {
+          "text": "Real-time",
+          "start": 62.31,
+          "end": 62.91
+        },
+        {
+          "text": "Capabilities",
+          "start": 62.91,
+          "end": 64.035
+        },
+        {
+          "text": ":",
+          "start": 64.035,
+          "end": 64.172
+        },
+        {
+          "text": "Hasura",
+          "start": 64.172,
+          "end": 64.66
+        },
+        {
+          "text": "supports",
+          "start": 64.66,
+          "end": 65.148
+        },
+        {
+          "text": "real-time",
+          "start": 65.148,
+          "end": 65.685
+        },
+        {
+          "text": "data",
+          "start": 65.685,
+          "end": 66.21
+        },
+        {
+          "text": "with",
+          "start": 66.21,
+          "end": 66.385
+        },
+        {
+          "text": "subscriptions",
+          "start": 66.385,
+          "end": 67.51
+        },
+        {
+          "text": ",",
+          "start": 67.51,
+          "end": 67.61
+        },
+        {
+          "text": "making",
+          "start": 67.61,
+          "end": 67.897
+        },
+        {
+          "text": "it",
+          "start": 67.897,
+          "end": 68.01
+        },
+        {
+          "text": "ideal",
+          "start": 68.01,
+          "end": 68.485
+        },
+        {
+          "text": "for",
+          "start": 68.485,
+          "end": 68.61
+        },
+        {
+          "text": "applications",
+          "start": 68.61,
+          "end": 69.435
+        },
+        {
+          "text": "that",
+          "start": 69.435,
+          "end": 69.585
+        },
+        {
+          "text": "require",
+          "start": 69.585,
+          "end": 70.16
+        },
+        {
+          "text": "live",
+          "start": 70.16,
+          "end": 70.385
+        },
+        {
+          "text": "updates¹.",
+          "start": 70.385,
+          "end": 71.435
+        },
+        {
+          "text": "This",
+          "start": 71.435,
+          "end": 71.66
+        },
+        {
+          "text": "feature",
+          "start": 71.66,
+          "end": 72.098
+        },
+        {
+          "text": "is",
+          "start": 72.098,
+          "end": 72.272
+        },
+        {
+          "text": "not",
+          "start": 72.272,
+          "end": 72.51
+        },
+        {
+          "text": "as",
+          "start": 72.51,
+          "end": 72.685
+        },
+        {
+          "text": "readily",
+          "start": 72.685,
+          "end": 73.135
+        },
+        {
+          "text": "available",
+          "start": 73.135,
+          "end": 74.022
+        },
+        {
+          "text": "or",
+          "start": 74.022,
+          "end": 74.298
+        },
+        {
+          "text": "as",
+          "start": 74.298,
+          "end": 74.497
+        },
+        {
+          "text": "easy",
+          "start": 74.497,
+          "end": 74.835
+        },
+        {
+          "text": "to",
+          "start": 74.835,
+          "end": 74.96
+        },
+        {
+          "text": "implement",
+          "start": 74.96,
+          "end": 75.473
+        },
+        {
+          "text": "in",
+          "start": 75.473,
+          "end": 75.635
+        },
+        {
+          "text": "many",
+          "start": 75.635,
+          "end": 75.848
+        },
+        {
+          "text": "other",
+          "start": 75.848,
+          "end": 76.035
+        },
+        {
+          "text": "tools",
+          "start": 76.035,
+          "end": 76.785
+        },
+        {
+          "text": ".",
+          "start": 76.785,
+          "end": 76.935
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "3. Unified API Layer: Hasura can unify multiple data sources (e.g., databases, REST APIs) under a single GraphQL endpoint using Remote Schemas³. This simplifies the architecture and makes data management more efficient.",
+      "start": 77.255,
+      "end": 94.28,
+      "words": [
+        {
+          "text": "3",
+          "start": 77.555,
+          "end": 78.055
+        },
+        {
+          "text": ".",
+          "start": 78.055,
+          "end": 78.205
+        },
+        {
+          "text": "Unified",
+          "start": 78.205,
+          "end": 78.818
+        },
+        {
+          "text": "API",
+          "start": 78.818,
+          "end": 79.43
+        },
+        {
+          "text": "Layer",
+          "start": 79.43,
+          "end": 80.18
+        },
+        {
+          "text": ":",
+          "start": 80.18,
+          "end": 80.318
+        },
+        {
+          "text": "Hasura",
+          "start": 80.318,
+          "end": 80.755
+        },
+        {
+          "text": "can",
+          "start": 80.755,
+          "end": 80.968
+        },
+        {
+          "text": "unify",
+          "start": 80.968,
+          "end": 81.468
+        },
+        {
+          "text": "multiple",
+          "start": 81.468,
+          "end": 81.955
+        },
+        {
+          "text": "data",
+          "start": 81.955,
+          "end": 82.255
+        },
+        {
+          "text": "sources",
+          "start": 82.255,
+          "end": 82.993
+        },
+        {
+          "text": "(",
+          "start": 82.993,
+          "end": 83.08
+        },
+        {
+          "text": "e.g.",
+          "start": 83.08,
+          "end": 83.63
+        },
+        {
+          "text": ",",
+          "start": 83.63,
+          "end": 83.73
+        },
+        {
+          "text": "databases",
+          "start": 83.73,
+          "end": 84.63
+        },
+        {
+          "text": ",",
+          "start": 84.63,
+          "end": 84.73
+        },
+        {
+          "text": "REST",
+          "start": 84.73,
+          "end": 85.005
+        },
+        {
+          "text": "APIs",
+          "start": 85.005,
+          "end": 86.105
+        },
+        {
+          "text": ")",
+          "start": 86.105,
+          "end": 86.205
+        },
+        {
+          "text": "under",
+          "start": 86.205,
+          "end": 86.43
+        },
+        {
+          "text": "a",
+          "start": 86.43,
+          "end": 86.555
+        },
+        {
+          "text": "single",
+          "start": 86.555,
+          "end": 86.955
+        },
+        {
+          "text": "GraphQL",
+          "start": 86.955,
+          "end": 87.63
+        },
+        {
+          "text": "endpoint",
+          "start": 87.63,
+          "end": 88.118
+        },
+        {
+          "text": "using",
+          "start": 88.118,
+          "end": 88.48
+        },
+        {
+          "text": "Remote",
+          "start": 88.48,
+          "end": 88.855
+        },
+        {
+          "text": "Schemas³.",
+          "start": 88.855,
+          "end": 89.968
+        },
+        {
+          "text": "This",
+          "start": 89.968,
+          "end": 90.193
+        },
+        {
+          "text": "simplifies",
+          "start": 90.193,
+          "end": 90.818
+        },
+        {
+          "text": "the",
+          "start": 90.818,
+          "end": 90.93
+        },
+        {
+          "text": "architecture",
+          "start": 90.93,
+          "end": 91.793
+        },
+        {
+          "text": "and",
+          "start": 91.793,
+          "end": 91.93
+        },
+        {
+          "text": "makes",
+          "start": 91.93,
+          "end": 92.205
+        },
+        {
+          "text": "data",
+          "start": 92.205,
+          "end": 92.505
+        },
+        {
+          "text": "management",
+          "start": 92.505,
+          "end": 93.093
+        },
+        {
+          "text": "more",
+          "start": 93.093,
+          "end": 93.305
+        },
+        {
+          "text": "efficient",
+          "start": 93.305,
+          "end": 94.13
+        },
+        {
+          "text": ".",
+          "start": 94.13,
+          "end": 94.28
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "4. Built-in Authorization and Permissions: Hasura provides robust access control mechanisms out of the box, ensuring that your data is secure and compliant with various security standards⁴.",
+      "start": 94.6,
+      "end": 107.65,
+      "words": [
+        {
+          "text": "4",
+          "start": 94.9,
+          "end": 95.425
+        },
+        {
+          "text": ".",
+          "start": 95.425,
+          "end": 95.563
+        },
+        {
+          "text": "Built-in",
+          "start": 95.563,
+          "end": 96.038
+        },
+        {
+          "text": "Authorization",
+          "start": 96.038,
+          "end": 96.9
+        },
+        {
+          "text": "and",
+          "start": 96.9,
+          "end": 97.025
+        },
+        {
+          "text": "Permissions",
+          "start": 97.025,
+          "end": 98.05
+        },
+        {
+          "text": ":",
+          "start": 98.05,
+          "end": 98.188
+        },
+        {
+          "text": "Hasura",
+          "start": 98.188,
+          "end": 98.625
+        },
+        {
+          "text": "provides",
+          "start": 98.625,
+          "end": 99.138
+        },
+        {
+          "text": "robust",
+          "start": 99.138,
+          "end": 99.688
+        },
+        {
+          "text": "access",
+          "start": 99.688,
+          "end": 100.15
+        },
+        {
+          "text": "control",
+          "start": 100.15,
+          "end": 100.55
+        },
+        {
+          "text": "mechanisms",
+          "start": 100.55,
+          "end": 101.288
+        },
+        {
+          "text": "out",
+          "start": 101.288,
+          "end": 101.438
+        },
+        {
+          "text": "of",
+          "start": 101.438,
+          "end": 101.513
+        },
+        {
+          "text": "the",
+          "start": 101.513,
+          "end": 101.6
+        },
+        {
+          "text": "box",
+          "start": 101.6,
+          "end": 102.325
+        },
+        {
+          "text": ",",
+          "start": 102.325,
+          "end": 102.425
+        },
+        {
+          "text": "ensuring",
+          "start": 102.425,
+          "end": 102.975
+        },
+        {
+          "text": "that",
+          "start": 102.975,
+          "end": 103.1
+        },
+        {
+          "text": "your",
+          "start": 103.1,
+          "end": 103.25
+        },
+        {
+          "text": "data",
+          "start": 103.25,
+          "end": 103.638
+        },
+        {
+          "text": "is",
+          "start": 103.638,
+          "end": 103.788
+        },
+        {
+          "text": "secure",
+          "start": 103.788,
+          "end": 104.487
+        },
+        {
+          "text": "and",
+          "start": 104.487,
+          "end": 104.625
+        },
+        {
+          "text": "compliant",
+          "start": 104.625,
+          "end": 105.25
+        },
+        {
+          "text": "with",
+          "start": 105.25,
+          "end": 105.438
+        },
+        {
+          "text": "various",
+          "start": 105.438,
+          "end": 105.85
+        },
+        {
+          "text": "security",
+          "start": 105.85,
+          "end": 106.425
+        },
+        {
+          "text": "standards⁴.",
+          "start": 106.425,
+          "end": 107.65
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "5. Extensibility: You can extend Hasura's capabilities with custom business logic using Actions and Event Triggers³. This allows you to integrate with other services and add custom functionality as needed.",
+      "start": 108.095,
+      "end": 122.42,
+      "words": [
+        {
+          "text": "5",
+          "start": 108.395,
+          "end": 108.97
+        },
+        {
+          "text": ".",
+          "start": 108.97,
+          "end": 109.082
+        },
+        {
+          "text": "Extensibility",
+          "start": 109.082,
+          "end": 110.37
+        },
+        {
+          "text": ":",
+          "start": 110.37,
+          "end": 110.508
+        },
+        {
+          "text": "You",
+          "start": 110.508,
+          "end": 110.645
+        },
+        {
+          "text": "can",
+          "start": 110.645,
+          "end": 110.77
+        },
+        {
+          "text": "extend",
+          "start": 110.77,
+          "end": 111.282
+        },
+        {
+          "text": "Hasura's",
+          "start": 111.282,
+          "end": 111.845
+        },
+        {
+          "text": "capabilities",
+          "start": 111.845,
+          "end": 112.57
+        },
+        {
+          "text": "with",
+          "start": 112.57,
+          "end": 112.758
+        },
+        {
+          "text": "custom",
+          "start": 112.758,
+          "end": 113.195
+        },
+        {
+          "text": "business",
+          "start": 113.195,
+          "end": 113.62
+        },
+        {
+          "text": "logic",
+          "start": 113.62,
+          "end": 114.307
+        },
+        {
+          "text": "using",
+          "start": 114.307,
+          "end": 114.745
+        },
+        {
+          "text": "Actions",
+          "start": 114.745,
+          "end": 115.295
+        },
+        {
+          "text": "and",
+          "start": 115.295,
+          "end": 115.407
+        },
+        {
+          "text": "Event",
+          "start": 115.407,
+          "end": 116.157
+        },
+        {
+          "text": "Triggers³.",
+          "start": 116.157,
+          "end": 116.97
+        },
+        {
+          "text": "This",
+          "start": 116.97,
+          "end": 117.17
+        },
+        {
+          "text": "allows",
+          "start": 117.17,
+          "end": 117.62
+        },
+        {
+          "text": "you",
+          "start": 117.62,
+          "end": 117.77
+        },
+        {
+          "text": "to",
+          "start": 117.77,
+          "end": 117.907
+        },
+        {
+          "text": "integrate",
+          "start": 117.907,
+          "end": 118.407
+        },
+        {
+          "text": "with",
+          "start": 118.407,
+          "end": 118.545
+        },
+        {
+          "text": "other",
+          "start": 118.545,
+          "end": 118.82
+        },
+        {
+          "text": "services",
+          "start": 118.82,
+          "end": 119.77
+        },
+        {
+          "text": "and",
+          "start": 119.77,
+          "end": 119.957
+        },
+        {
+          "text": "add",
+          "start": 119.957,
+          "end": 120.258
+        },
+        {
+          "text": "custom",
+          "start": 120.258,
+          "end": 120.695
+        },
+        {
+          "text": "functionality",
+          "start": 120.695,
+          "end": 121.483
+        },
+        {
+          "text": "as",
+          "start": 121.483,
+          "end": 121.645
+        },
+        {
+          "text": "needed",
+          "start": 121.645,
+          "end": 122.27
+        },
+        {
+          "text": ".",
+          "start": 122.27,
+          "end": 122.42
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "When to Use Hasura, GraphQL, and Hot Chocolate Together",
+      "start": 122.74,
+      "end": 126.465,
+      "words": [
+        {
+          "text": "When",
+          "start": 123.015,
+          "end": 123.14
+        },
+        {
+          "text": "to",
+          "start": 123.14,
+          "end": 123.24
+        },
+        {
+          "text": "Use",
+          "start": 123.24,
+          "end": 123.44
+        },
+        {
+          "text": "Hasura",
+          "start": 123.44,
+          "end": 124.09
+        },
+        {
+          "text": ",",
+          "start": 124.09,
+          "end": 124.215
+        },
+        {
+          "text": "GraphQL",
+          "start": 124.215,
+          "end": 124.965
+        },
+        {
+          "text": ",",
+          "start": 124.965,
+          "end": 125.015
+        },
+        {
+          "text": "and",
+          "start": 125.015,
+          "end": 125.14
+        },
+        {
+          "text": "Hot",
+          "start": 125.14,
+          "end": 125.39
+        },
+        {
+          "text": "Chocolate",
+          "start": 125.39,
+          "end": 125.815
+        },
+        {
+          "text": "Together",
+          "start": 125.815,
+          "end": 126.465
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "1. Building a Unified API: Use Hasura to quickly generate a GraphQL API from your database and unify it with other data sources. Then, use Hot Chocolate to build custom GraphQL APIs in .NET and integrate them with Hasura using Remote Schemas⁴.",
+      "start": 126.935,
+      "end": 144.685,
+      "words": [
+        {
+          "text": "1",
+          "start": 127.235,
+          "end": 127.66
+        },
+        {
+          "text": ".",
+          "start": 127.66,
+          "end": 127.748
+        },
+        {
+          "text": "Building",
+          "start": 127.748,
+          "end": 128.21
+        },
+        {
+          "text": "a",
+          "start": 128.21,
+          "end": 128.323
+        },
+        {
+          "text": "Unified",
+          "start": 128.323,
+          "end": 128.86
+        },
+        {
+          "text": "API",
+          "start": 128.86,
+          "end": 129.885
+        },
+        {
+          "text": ":",
+          "start": 129.885,
+          "end": 130.06
+        },
+        {
+          "text": "Use",
+          "start": 130.06,
+          "end": 130.36
+        },
+        {
+          "text": "Hasura",
+          "start": 130.36,
+          "end": 130.785
+        },
+        {
+          "text": "to",
+          "start": 130.785,
+          "end": 130.91
+        },
+        {
+          "text": "quickly",
+          "start": 130.91,
+          "end": 131.273
+        },
+        {
+          "text": "generate",
+          "start": 131.273,
+          "end": 131.735
+        },
+        {
+          "text": "a",
+          "start": 131.735,
+          "end": 131.81
+        },
+        {
+          "text": "GraphQL",
+          "start": 131.81,
+          "end": 132.46
+        },
+        {
+          "text": "API",
+          "start": 132.46,
+          "end": 132.985
+        },
+        {
+          "text": "from",
+          "start": 132.985,
+          "end": 133.123
+        },
+        {
+          "text": "your",
+          "start": 133.123,
+          "end": 133.235
+        },
+        {
+          "text": "database",
+          "start": 133.235,
+          "end": 134.135
+        },
+        {
+          "text": "and",
+          "start": 134.135,
+          "end": 134.285
+        },
+        {
+          "text": "unify",
+          "start": 134.285,
+          "end": 134.71
+        },
+        {
+          "text": "it",
+          "start": 134.71,
+          "end": 134.822
+        },
+        {
+          "text": "with",
+          "start": 134.822,
+          "end": 134.96
+        },
+        {
+          "text": "other",
+          "start": 134.96,
+          "end": 135.185
+        },
+        {
+          "text": "data",
+          "start": 135.185,
+          "end": 135.46
+        },
+        {
+          "text": "sources",
+          "start": 135.46,
+          "end": 136.46
+        },
+        {
+          "text": ".",
+          "start": 136.46,
+          "end": 136.635
+        },
+        {
+          "text": "Then",
+          "start": 136.635,
+          "end": 137.26
+        },
+        {
+          "text": ",",
+          "start": 137.26,
+          "end": 137.398
+        },
+        {
+          "text": "use",
+          "start": 137.398,
+          "end": 137.635
+        },
+        {
+          "text": "Hot",
+          "start": 137.635,
+          "end": 137.898
+        },
+        {
+          "text": "Chocolate",
+          "start": 137.898,
+          "end": 138.385
+        },
+        {
+          "text": "to",
+          "start": 138.385,
+          "end": 138.485
+        },
+        {
+          "text": "build",
+          "start": 138.485,
+          "end": 138.772
+        },
+        {
+          "text": "custom",
+          "start": 138.772,
+          "end": 139.26
+        },
+        {
+          "text": "GraphQL",
+          "start": 139.26,
+          "end": 139.935
+        },
+        {
+          "text": "APIs",
+          "start": 139.935,
+          "end": 140.51
+        },
+        {
+          "text": "in",
+          "start": 140.51,
+          "end": 140.635
+        },
+        {
+          "text": ".NET",
+          "start": 140.635,
+          "end": 141.235
+        },
+        {
+          "text": "and",
+          "start": 141.235,
+          "end": 141.385
+        },
+        {
+          "text": "integrate",
+          "start": 141.385,
+          "end": 141.798
+        },
+        {
+          "text": "them",
+          "start": 141.798,
+          "end": 141.973
+        },
+        {
+          "text": "with",
+          "start": 141.973,
+          "end": 142.135
+        },
+        {
+          "text": "Hasura",
+          "start": 142.135,
+          "end": 142.748
+        },
+        {
+          "text": "using",
+          "start": 142.748,
+          "end": 143.11
+        },
+        {
+          "text": "Remote",
+          "start": 143.11,
+          "end": 143.51
+        },
+        {
+          "text": "Schemas⁴.",
+          "start": 143.51,
+          "end": 144.685
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "2. Leveraging Real-time Data: If your application requires real-time updates, Hasura's subscription feature can handle this efficiently. Combine this with Hot Chocolate's flexibility to manage complex, custom logic¹.",
+      "start": 145.18,
+      "end": 159.88,
+      "words": [
+        {
+          "text": "2",
+          "start": 145.455,
+          "end": 145.88
+        },
+        {
+          "text": ".",
+          "start": 145.88,
+          "end": 146.055
+        },
+        {
+          "text": "Leveraging",
+          "start": 146.055,
+          "end": 146.667
+        },
+        {
+          "text": "Real-time",
+          "start": 146.667,
+          "end": 147.23
+        },
+        {
+          "text": "Data",
+          "start": 147.23,
+          "end": 147.88
+        },
+        {
+          "text": ":",
+          "start": 147.88,
+          "end": 148.03
+        },
+        {
+          "text": "If",
+          "start": 148.03,
+          "end": 148.192
+        },
+        {
+          "text": "your",
+          "start": 148.192,
+          "end": 148.33
+        },
+        {
+          "text": "application",
+          "start": 148.33,
+          "end": 149.005
+        },
+        {
+          "text": "requires",
+          "start": 149.005,
+          "end": 149.592
+        },
+        {
+          "text": "real-time",
+          "start": 149.592,
+          "end": 150.105
+        },
+        {
+          "text": "updates",
+          "start": 150.105,
+          "end": 150.83
+        },
+        {
+          "text": ",",
+          "start": 150.83,
+          "end": 150.942
+        },
+        {
+          "text": "Hasura's",
+          "start": 150.942,
+          "end": 151.405
+        },
+        {
+          "text": "subscription",
+          "start": 151.405,
+          "end": 152.08
+        },
+        {
+          "text": "feature",
+          "start": 152.08,
+          "end": 152.53
+        },
+        {
+          "text": "can",
+          "start": 152.53,
+          "end": 152.655
+        },
+        {
+          "text": "handle",
+          "start": 152.655,
+          "end": 153.03
+        },
+        {
+          "text": "this",
+          "start": 153.03,
+          "end": 153.23
+        },
+        {
+          "text": "efficiently",
+          "start": 153.23,
+          "end": 154.33
+        },
+        {
+          "text": ".",
+          "start": 154.33,
+          "end": 154.517
+        },
+        {
+          "text": "Combine",
+          "start": 154.517,
+          "end": 154.98
+        },
+        {
+          "text": "this",
+          "start": 154.98,
+          "end": 155.23
+        },
+        {
+          "text": "with",
+          "start": 155.23,
+          "end": 155.417
+        },
+        {
+          "text": "Hot",
+          "start": 155.417,
+          "end": 155.742
+        },
+        {
+          "text": "Chocolate's",
+          "start": 155.742,
+          "end": 156.28
+        },
+        {
+          "text": "flexibility",
+          "start": 156.28,
+          "end": 156.992
+        },
+        {
+          "text": "to",
+          "start": 156.992,
+          "end": 157.13
+        },
+        {
+          "text": "manage",
+          "start": 157.13,
+          "end": 157.53
+        },
+        {
+          "text": "complex",
+          "start": 157.53,
+          "end": 158.355
+        },
+        {
+          "text": ",",
+          "start": 158.355,
+          "end": 158.455
+        },
+        {
+          "text": "custom",
+          "start": 158.455,
+          "end": 158.855
+        },
+        {
+          "text": "logic¹.",
+          "start": 158.855,
+          "end": 159.88
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "3. Simplifying Development: Hasura can handle the heavy lifting of generating the GraphQL API, while Hot Chocolate can be used for more complex, custom logic. This combination allows you to focus on building features rather than boilerplate code⁴.",
+      "start": 160.3,
+      "end": 177.3,
+      "words": [
+        {
+          "text": "3",
+          "start": 160.6,
+          "end": 161.1
+        },
+        {
+          "text": ".",
+          "start": 161.1,
+          "end": 161.275
+        },
+        {
+          "text": "Simplifying",
+          "start": 161.275,
+          "end": 161.95
+        },
+        {
+          "text": "Development",
+          "start": 161.95,
+          "end": 162.9
+        },
+        {
+          "text": ":",
+          "start": 162.9,
+          "end": 163.037
+        },
+        {
+          "text": "Hasura",
+          "start": 163.037,
+          "end": 163.5
+        },
+        {
+          "text": "can",
+          "start": 163.5,
+          "end": 163.625
+        },
+        {
+          "text": "handle",
+          "start": 163.625,
+          "end": 163.975
+        },
+        {
+          "text": "the",
+          "start": 163.975,
+          "end": 164.087
+        },
+        {
+          "text": "heavy",
+          "start": 164.087,
+          "end": 164.375
+        },
+        {
+          "text": "lifting",
+          "start": 164.375,
+          "end": 164.825
+        },
+        {
+          "text": "of",
+          "start": 164.825,
+          "end": 164.962
+        },
+        {
+          "text": "generating",
+          "start": 164.962,
+          "end": 165.525
+        },
+        {
+          "text": "the",
+          "start": 165.525,
+          "end": 165.625
+        },
+        {
+          "text": "GraphQL",
+          "start": 165.625,
+          "end": 166.312
+        },
+        {
+          "text": "API",
+          "start": 166.312,
+          "end": 167.25
+        },
+        {
+          "text": ",",
+          "start": 167.25,
+          "end": 167.35
+        },
+        {
+          "text": "while",
+          "start": 167.35,
+          "end": 167.575
+        },
+        {
+          "text": "Hot",
+          "start": 167.575,
+          "end": 167.837
+        },
+        {
+          "text": "Chocolate",
+          "start": 167.837,
+          "end": 168.3
+        },
+        {
+          "text": "can",
+          "start": 168.3,
+          "end": 168.412
+        },
+        {
+          "text": "be",
+          "start": 168.412,
+          "end": 168.562
+        },
+        {
+          "text": "used",
+          "start": 168.562,
+          "end": 168.95
+        },
+        {
+          "text": "for",
+          "start": 168.95,
+          "end": 169.075
+        },
+        {
+          "text": "more",
+          "start": 169.075,
+          "end": 169.312
+        },
+        {
+          "text": "complex",
+          "start": 169.312,
+          "end": 170.125
+        },
+        {
+          "text": ",",
+          "start": 170.125,
+          "end": 170.225
+        },
+        {
+          "text": "custom",
+          "start": 170.225,
+          "end": 170.65
+        },
+        {
+          "text": "logic",
+          "start": 170.65,
+          "end": 171.45
+        },
+        {
+          "text": ".",
+          "start": 171.45,
+          "end": 171.612
+        },
+        {
+          "text": "This",
+          "start": 171.612,
+          "end": 171.825
+        },
+        {
+          "text": "combination",
+          "start": 171.825,
+          "end": 172.637
+        },
+        {
+          "text": "allows",
+          "start": 172.637,
+          "end": 173.025
+        },
+        {
+          "text": "you",
+          "start": 173.025,
+          "end": 173.125
+        },
+        {
+          "text": "to",
+          "start": 173.125,
+          "end": 173.25
+        },
+        {
+          "text": "focus",
+          "start": 173.25,
+          "end": 173.675
+        },
+        {
+          "text": "on",
+          "start": 173.675,
+          "end": 173.875
+        },
+        {
+          "text": "building",
+          "start": 173.875,
+          "end": 174.262
+        },
+        {
+          "text": "features",
+          "start": 174.262,
+          "end": 175.037
+        },
+        {
+          "text": "rather",
+          "start": 175.037,
+          "end": 175.475
+        },
+        {
+          "text": "than",
+          "start": 175.475,
+          "end": 175.662
+        },
+        {
+          "text": "boilerplate",
+          "start": 175.662,
+          "end": 176.275
+        },
+        {
+          "text": "code⁴.",
+          "start": 176.275,
+          "end": 177.3
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "4. Efficient Data Fetching: GraphQL allows clients to request exactly the data they need, reducing over-fetching and under-fetching issues common with REST APIs⁵. This is particularly useful when you have multiple data sources and need to aggregate data efficiently.",
+      "start": 177.745,
+      "end": 195.92,
+      "words": [
+        {
+          "text": "4",
+          "start": 178.045,
+          "end": 178.595
+        },
+        {
+          "text": ".",
+          "start": 178.595,
+          "end": 178.733
+        },
+        {
+          "text": "Efficient",
+          "start": 178.733,
+          "end": 179.245
+        },
+        {
+          "text": "Data",
+          "start": 179.245,
+          "end": 179.557
+        },
+        {
+          "text": "Fetching",
+          "start": 179.557,
+          "end": 180.395
+        },
+        {
+          "text": ":",
+          "start": 180.395,
+          "end": 180.533
+        },
+        {
+          "text": "GraphQL",
+          "start": 180.533,
+          "end": 181.332
+        },
+        {
+          "text": "allows",
+          "start": 181.332,
+          "end": 181.758
+        },
+        {
+          "text": "clients",
+          "start": 181.758,
+          "end": 182.22
+        },
+        {
+          "text": "to",
+          "start": 182.22,
+          "end": 182.32
+        },
+        {
+          "text": "request",
+          "start": 182.32,
+          "end": 182.77
+        },
+        {
+          "text": "exactly",
+          "start": 182.77,
+          "end": 183.37
+        },
+        {
+          "text": "the",
+          "start": 183.37,
+          "end": 183.47
+        },
+        {
+          "text": "data",
+          "start": 183.47,
+          "end": 183.77
+        },
+        {
+          "text": "they",
+          "start": 183.77,
+          "end": 183.945
+        },
+        {
+          "text": "need",
+          "start": 183.945,
+          "end": 184.545
+        },
+        {
+          "text": ",",
+          "start": 184.545,
+          "end": 184.645
+        },
+        {
+          "text": "reducing",
+          "start": 184.645,
+          "end": 185.195
+        },
+        {
+          "text": "over-fetching",
+          "start": 185.195,
+          "end": 185.958
+        },
+        {
+          "text": "and",
+          "start": 185.958,
+          "end": 186.095
+        },
+        {
+          "text": "under-fetching",
+          "start": 186.095,
+          "end": 186.72
+        },
+        {
+          "text": "issues",
+          "start": 186.72,
+          "end": 187.233
+        },
+        {
+          "text": "common",
+          "start": 187.233,
+          "end": 187.67
+        },
+        {
+          "text": "with",
+          "start": 187.67,
+          "end": 187.845
+        },
+        {
+          "text": "REST",
+          "start": 187.845,
+          "end": 188.145
+        },
+        {
+          "text": "APIs⁵.",
+          "start": 188.145,
+          "end": 189.745
+        },
+        {
+          "text": "This",
+          "start": 189.745,
+          "end": 189.945
+        },
+        {
+          "text": "is",
+          "start": 189.945,
+          "end": 190.095
+        },
+        {
+          "text": "particularly",
+          "start": 190.095,
+          "end": 190.782
+        },
+        {
+          "text": "useful",
+          "start": 190.782,
+          "end": 191.42
+        },
+        {
+          "text": "when",
+          "start": 191.42,
+          "end": 191.57
+        },
+        {
+          "text": "you",
+          "start": 191.57,
+          "end": 191.67
+        },
+        {
+          "text": "have",
+          "start": 191.67,
+          "end": 191.907
+        },
+        {
+          "text": "multiple",
+          "start": 191.907,
+          "end": 192.395
+        },
+        {
+          "text": "data",
+          "start": 192.395,
+          "end": 192.67
+        },
+        {
+          "text": "sources",
+          "start": 192.67,
+          "end": 193.47
+        },
+        {
+          "text": "and",
+          "start": 193.47,
+          "end": 193.62
+        },
+        {
+          "text": "need",
+          "start": 193.62,
+          "end": 193.82
+        },
+        {
+          "text": "to",
+          "start": 193.82,
+          "end": 193.97
+        },
+        {
+          "text": "aggregate",
+          "start": 193.97,
+          "end": 194.495
+        },
+        {
+          "text": "data",
+          "start": 194.495,
+          "end": 194.795
+        },
+        {
+          "text": "efficiently",
+          "start": 194.795,
+          "end": 195.77
+        },
+        {
+          "text": ".",
+          "start": 195.77,
+          "end": 195.92
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "h3",
+      "text": "Hasura vs. Apollo: A Summary",
+      "start": 196.24,
+      "end": 198.89,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 196.515,
+          "end": 196.94
+        },
+        {
+          "text": "vs.",
+          "start": 196.94,
+          "end": 197.315
+        },
+        {
+          "text": "Apollo",
+          "start": 197.315,
+          "end": 197.915
+        },
+        {
+          "text": ":",
+          "start": 197.915,
+          "end": 198.052
+        },
+        {
+          "text": "A",
+          "start": 198.052,
+          "end": 198.177
+        },
+        {
+          "text": "Summary",
+          "start": 198.177,
+          "end": 198.89
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "h4",
+      "text": "Hasura",
+      "start": 199.335,
+      "end": 200.46,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 199.71,
+          "end": 200.46
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Instant GraphQL APIs: Quickly generates GraphQL APIs from existing databases.",
+      "start": 201.055,
+      "end": 207.555,
+      "words": [
+        {
+          "text": "Instant",
+          "start": 201.33,
+          "end": 201.842
+        },
+        {
+          "text": "GraphQL",
+          "start": 201.842,
+          "end": 202.53
+        },
+        {
+          "text": "APIs",
+          "start": 202.53,
+          "end": 203.43
+        },
+        {
+          "text": ":",
+          "start": 203.43,
+          "end": 203.567
+        },
+        {
+          "text": "Quickly",
+          "start": 203.567,
+          "end": 203.942
+        },
+        {
+          "text": "generates",
+          "start": 203.942,
+          "end": 204.48
+        },
+        {
+          "text": "GraphQL",
+          "start": 204.48,
+          "end": 205.105
+        },
+        {
+          "text": "APIs",
+          "start": 205.105,
+          "end": 205.755
+        },
+        {
+          "text": "from",
+          "start": 205.755,
+          "end": 205.892
+        },
+        {
+          "text": "existing",
+          "start": 205.892,
+          "end": 206.355
+        },
+        {
+          "text": "databases",
+          "start": 206.355,
+          "end": 207.405
+        },
+        {
+          "text": ".",
+          "start": 207.405,
+          "end": 207.555
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Real-time Capabilities: Supports real-time data with subscriptions.",
+      "start": 207.875,
+      "end": 212.575,
+      "words": [
+        {
+          "text": "Real-time",
+          "start": 208.175,
+          "end": 208.775
+        },
+        {
+          "text": "Capabilities",
+          "start": 208.775,
+          "end": 209.75
+        },
+        {
+          "text": ":",
+          "start": 209.75,
+          "end": 209.863
+        },
+        {
+          "text": "Supports",
+          "start": 209.863,
+          "end": 210.362
+        },
+        {
+          "text": "real-time",
+          "start": 210.362,
+          "end": 210.925
+        },
+        {
+          "text": "data",
+          "start": 210.925,
+          "end": 211.25
+        },
+        {
+          "text": "with",
+          "start": 211.25,
+          "end": 211.4
+        },
+        {
+          "text": "subscriptions",
+          "start": 211.4,
+          "end": 212.425
+        },
+        {
+          "text": ".",
+          "start": 212.425,
+          "end": 212.575
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "Unified API Layer: Unifies multiple data sources under a single GraphQL endpoint.",
+      "start": 212.895,
+      "end": 219.595,
+      "words": [
+        {
+          "text": "Unified",
+          "start": 213.195,
+          "end": 213.832
+        },
+        {
+          "text": "API",
+          "start": 213.832,
+          "end": 214.47
+        },
+        {
+          "text": "Layer",
+          "start": 214.47,
+          "end": 215.17
+        },
+        {
+          "text": ":",
+          "start": 215.17,
+          "end": 215.332
+        },
+        {
+          "text": "Unifies",
+          "start": 215.332,
+          "end": 215.932
+        },
+        {
+          "text": "multiple",
+          "start": 215.932,
+          "end": 216.42
+        },
+        {
+          "text": "data",
+          "start": 216.42,
+          "end": 216.695
+        },
+        {
+          "text": "sources",
+          "start": 216.695,
+          "end": 217.27
+        },
+        {
+          "text": "under",
+          "start": 217.27,
+          "end": 217.495
+        },
+        {
+          "text": "a",
+          "start": 217.495,
+          "end": 217.62
+        },
+        {
+          "text": "single",
+          "start": 217.62,
+          "end": 218.032
+        },
+        {
+          "text": "GraphQL",
+          "start": 218.032,
+          "end": 218.72
+        },
+        {
+          "text": "endpoint",
+          "start": 218.72,
+          "end": 219.445
+        },
+        {
+          "text": ".",
+          "start": 219.445,
+          "end": 219.595
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Built-in Authorization and Permissions: Robust access control mechanisms.",
+      "start": 219.915,
+      "end": 225.115,
+      "words": [
+        {
+          "text": "Built-in",
+          "start": 220.19,
+          "end": 220.653
+        },
+        {
+          "text": "Authorization",
+          "start": 220.653,
+          "end": 221.515
+        },
+        {
+          "text": "and",
+          "start": 221.515,
+          "end": 221.64
+        },
+        {
+          "text": "Permissions",
+          "start": 221.64,
+          "end": 222.49
+        },
+        {
+          "text": ":",
+          "start": 222.49,
+          "end": 222.628
+        },
+        {
+          "text": "Robust",
+          "start": 222.628,
+          "end": 223.128
+        },
+        {
+          "text": "access",
+          "start": 223.128,
+          "end": 223.59
+        },
+        {
+          "text": "control",
+          "start": 223.59,
+          "end": 223.99
+        },
+        {
+          "text": "mechanisms",
+          "start": 223.99,
+          "end": 224.965
+        },
+        {
+          "text": ".",
+          "start": 224.965,
+          "end": 225.115
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "li",
+      "text": "Extensibility: Custom business logic with Actions and Event Triggers.",
+      "start": 225.435,
+      "end": 230.235,
+      "words": [
+        {
+          "text": "Extensibility",
+          "start": 225.71,
+          "end": 226.835
+        },
+        {
+          "text": ":",
+          "start": 226.835,
+          "end": 226.997
+        },
+        {
+          "text": "Custom",
+          "start": 226.997,
+          "end": 227.41
+        },
+        {
+          "text": "business",
+          "start": 227.41,
+          "end": 227.81
+        },
+        {
+          "text": "logic",
+          "start": 227.81,
+          "end": 228.197
+        },
+        {
+          "text": "with",
+          "start": 228.197,
+          "end": 228.372
+        },
+        {
+          "text": "Actions",
+          "start": 228.372,
+          "end": 228.947
+        },
+        {
+          "text": "and",
+          "start": 228.947,
+          "end": 229.072
+        },
+        {
+          "text": "Event",
+          "start": 229.072,
+          "end": 229.335
+        },
+        {
+          "text": "Triggers",
+          "start": 229.335,
+          "end": 230.085
+        },
+        {
+          "text": ".",
+          "start": 230.085,
+          "end": 230.235
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h4",
+      "text": "Apollo",
+      "start": 230.555,
+      "end": 231.63,
+      "words": [
+        {
+          "text": "Apollo",
+          "start": 230.93,
+          "end": 231.63
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "Schema-First Approach: Flexible schema definition and resolvers.",
+      "start": 232.25,
+      "end": 236.85,
+      "words": [
+        {
+          "text": "Schema-First",
+          "start": 232.525,
+          "end": 233.162
+        },
+        {
+          "text": "Approach",
+          "start": 233.162,
+          "end": 233.875
+        },
+        {
+          "text": ":",
+          "start": 233.875,
+          "end": 234.037
+        },
+        {
+          "text": "Flexible",
+          "start": 234.037,
+          "end": 234.587
+        },
+        {
+          "text": "schema",
+          "start": 234.587,
+          "end": 234.95
+        },
+        {
+          "text": "definition",
+          "start": 234.95,
+          "end": 235.638
+        },
+        {
+          "text": "and",
+          "start": 235.638,
+          "end": 235.775
+        },
+        {
+          "text": "resolvers",
+          "start": 235.775,
+          "end": 236.7
+        },
+        {
+          "text": ".",
+          "start": 236.7,
+          "end": 236.85
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Comprehensive Tooling: Includes Apollo Server, Apollo Client, and Apollo GraphOS.",
+      "start": 237.17,
+      "end": 242.92,
+      "words": [
+        {
+          "text": "Comprehensive",
+          "start": 237.445,
+          "end": 238.12
+        },
+        {
+          "text": "Tooling",
+          "start": 238.12,
+          "end": 238.845
+        },
+        {
+          "text": ":",
+          "start": 238.845,
+          "end": 238.97
+        },
+        {
+          "text": "Includes",
+          "start": 238.97,
+          "end": 239.37
+        },
+        {
+          "text": "Apollo",
+          "start": 239.37,
+          "end": 239.832
+        },
+        {
+          "text": "Server",
+          "start": 239.832,
+          "end": 240.32
+        },
+        {
+          "text": ",",
+          "start": 240.32,
+          "end": 240.42
+        },
+        {
+          "text": "Apollo",
+          "start": 240.42,
+          "end": 240.845
+        },
+        {
+          "text": "Client",
+          "start": 240.845,
+          "end": 241.32
+        },
+        {
+          "text": ",",
+          "start": 241.32,
+          "end": 241.395
+        },
+        {
+          "text": "and",
+          "start": 241.395,
+          "end": 241.508
+        },
+        {
+          "text": "Apollo",
+          "start": 241.508,
+          "end": 241.92
+        },
+        {
+          "text": "GraphOS",
+          "start": 241.92,
+          "end": 242.77
+        },
+        {
+          "text": ".",
+          "start": 242.77,
+          "end": 242.92
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Federation Support: Composes multiple GraphQL services into a single graph.",
+      "start": 243.24,
+      "end": 248.89,
+      "words": [
+        {
+          "text": "Federation",
+          "start": 243.515,
+          "end": 244.165
+        },
+        {
+          "text": "Support",
+          "start": 244.165,
+          "end": 244.915
+        },
+        {
+          "text": ":",
+          "start": 244.915,
+          "end": 245.04
+        },
+        {
+          "text": "Composes",
+          "start": 245.04,
+          "end": 245.653
+        },
+        {
+          "text": "multiple",
+          "start": 245.653,
+          "end": 246.14
+        },
+        {
+          "text": "GraphQL",
+          "start": 246.14,
+          "end": 246.765
+        },
+        {
+          "text": "services",
+          "start": 246.765,
+          "end": 247.39
+        },
+        {
+          "text": "into",
+          "start": 247.39,
+          "end": 247.64
+        },
+        {
+          "text": "a",
+          "start": 247.64,
+          "end": 247.753
+        },
+        {
+          "text": "single",
+          "start": 247.753,
+          "end": 248.065
+        },
+        {
+          "text": "graph",
+          "start": 248.065,
+          "end": 248.74
+        },
+        {
+          "text": ".",
+          "start": 248.74,
+          "end": 248.89
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Strong Community and Ecosystem: Extensive documentation and third-party integrations.",
+      "start": 249.21,
+      "end": 255.585,
+      "words": [
+        {
+          "text": "Strong",
+          "start": 249.485,
+          "end": 249.91
+        },
+        {
+          "text": "Community",
+          "start": 249.91,
+          "end": 250.472
+        },
+        {
+          "text": "and",
+          "start": 250.472,
+          "end": 250.61
+        },
+        {
+          "text": "Ecosystem",
+          "start": 250.61,
+          "end": 251.71
+        },
+        {
+          "text": ":",
+          "start": 251.71,
+          "end": 251.848
+        },
+        {
+          "text": "Extensive",
+          "start": 251.848,
+          "end": 252.51
+        },
+        {
+          "text": "documentation",
+          "start": 252.51,
+          "end": 253.635
+        },
+        {
+          "text": "and",
+          "start": 253.635,
+          "end": 253.848
+        },
+        {
+          "text": "third-party",
+          "start": 253.848,
+          "end": 254.447
+        },
+        {
+          "text": "integrations",
+          "start": 254.447,
+          "end": 255.435
+        },
+        {
+          "text": ".",
+          "start": 255.435,
+          "end": 255.585
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Customization: High degree of customization for resolvers and middleware.",
+      "start": 255.905,
+      "end": 261.155,
+      "words": [
+        {
+          "text": "Customization",
+          "start": 256.155,
+          "end": 257.43
+        },
+        {
+          "text": ":",
+          "start": 257.43,
+          "end": 257.567
+        },
+        {
+          "text": "High",
+          "start": 257.567,
+          "end": 257.805
+        },
+        {
+          "text": "degree",
+          "start": 257.805,
+          "end": 258.13
+        },
+        {
+          "text": "of",
+          "start": 258.13,
+          "end": 258.255
+        },
+        {
+          "text": "customization",
+          "start": 258.255,
+          "end": 259.255
+        },
+        {
+          "text": "for",
+          "start": 259.255,
+          "end": 259.38
+        },
+        {
+          "text": "resolvers",
+          "start": 259.38,
+          "end": 260.093
+        },
+        {
+          "text": "and",
+          "start": 260.093,
+          "end": 260.23
+        },
+        {
+          "text": "middleware",
+          "start": 260.23,
+          "end": 261.005
+        },
+        {
+          "text": ".",
+          "start": 261.005,
+          "end": 261.155
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h3",
+      "text": "When to Use Each",
+      "start": 261.475,
+      "end": 262.925,
+      "words": [
+        {
+          "text": "When",
+          "start": 261.8,
+          "end": 261.925
+        },
+        {
+          "text": "to",
+          "start": 261.925,
+          "end": 262.05
+        },
+        {
+          "text": "Use",
+          "start": 262.05,
+          "end": 262.337
+        },
+        {
+          "text": "Each",
+          "start": 262.337,
+          "end": 262.925
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "Use Hasura if:",
+      "start": 263.445,
+      "end": 265.12,
+      "words": [
+        {
+          "text": "Use",
+          "start": 263.82,
+          "end": 264.02
+        },
+        {
+          "text": "Hasura",
+          "start": 264.02,
+          "end": 264.482
+        },
+        {
+          "text": "if",
+          "start": 264.482,
+          "end": 264.945
+        },
+        {
+          "text": ":",
+          "start": 264.945,
+          "end": 265.12
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "li",
+      "text": "You need a quick GraphQL API from an existing database.",
+      "start": 265.44,
+      "end": 269.49,
+      "words": [
+        {
+          "text": "You",
+          "start": 265.715,
+          "end": 265.802
+        },
+        {
+          "text": "need",
+          "start": 265.802,
+          "end": 265.977
+        },
+        {
+          "text": "a",
+          "start": 265.977,
+          "end": 266.053
+        },
+        {
+          "text": "quick",
+          "start": 266.053,
+          "end": 266.352
+        },
+        {
+          "text": "GraphQL",
+          "start": 266.352,
+          "end": 267.002
+        },
+        {
+          "text": "API",
+          "start": 267.002,
+          "end": 267.802
+        },
+        {
+          "text": "from",
+          "start": 267.802,
+          "end": 267.953
+        },
+        {
+          "text": "an",
+          "start": 267.953,
+          "end": 268.027
+        },
+        {
+          "text": "existing",
+          "start": 268.027,
+          "end": 268.465
+        },
+        {
+          "text": "database",
+          "start": 268.465,
+          "end": 269.34
+        },
+        {
+          "text": ".",
+          "start": 269.34,
+          "end": 269.49
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "li",
+      "text": "Your application requires real-time updates.",
+      "start": 269.81,
+      "end": 272.985,
+      "words": [
+        {
+          "text": "Your",
+          "start": 270.085,
+          "end": 270.21
+        },
+        {
+          "text": "application",
+          "start": 270.21,
+          "end": 270.935
+        },
+        {
+          "text": "requires",
+          "start": 270.935,
+          "end": 271.498
+        },
+        {
+          "text": "real-time",
+          "start": 271.498,
+          "end": 272.035
+        },
+        {
+          "text": "updates",
+          "start": 272.035,
+          "end": 272.835
+        },
+        {
+          "text": ".",
+          "start": 272.835,
+          "end": 272.985
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "You want built-in authentication, authorization, and API management.",
+      "start": 273.305,
+      "end": 278.055,
+      "words": [
+        {
+          "text": "You",
+          "start": 273.58,
+          "end": 273.68
+        },
+        {
+          "text": "want",
+          "start": 273.68,
+          "end": 273.905
+        },
+        {
+          "text": "built-in",
+          "start": 273.905,
+          "end": 274.28
+        },
+        {
+          "text": "authentication",
+          "start": 274.28,
+          "end": 275.28
+        },
+        {
+          "text": ",",
+          "start": 275.28,
+          "end": 275.405
+        },
+        {
+          "text": "authorization",
+          "start": 275.405,
+          "end": 276.33
+        },
+        {
+          "text": ",",
+          "start": 276.33,
+          "end": 276.405
+        },
+        {
+          "text": "and",
+          "start": 276.405,
+          "end": 276.542
+        },
+        {
+          "text": "API",
+          "start": 276.542,
+          "end": 277.105
+        },
+        {
+          "text": "management",
+          "start": 277.105,
+          "end": 277.905
+        },
+        {
+          "text": ".",
+          "start": 277.905,
+          "end": 278.055
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "You need to unify multiple data sources.",
+      "start": 278.375,
+      "end": 281.5,
+      "words": [
+        {
+          "text": "You",
+          "start": 278.675,
+          "end": 278.762
+        },
+        {
+          "text": "need",
+          "start": 278.762,
+          "end": 278.95
+        },
+        {
+          "text": "to",
+          "start": 278.95,
+          "end": 279.075
+        },
+        {
+          "text": "unify",
+          "start": 279.075,
+          "end": 279.713
+        },
+        {
+          "text": "multiple",
+          "start": 279.713,
+          "end": 280.25
+        },
+        {
+          "text": "data",
+          "start": 280.25,
+          "end": 280.525
+        },
+        {
+          "text": "sources",
+          "start": 280.525,
+          "end": 281.35
+        },
+        {
+          "text": ".",
+          "start": 281.35,
+          "end": 281.5
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "Use Apollo if:",
+      "start": 281.82,
+      "end": 283.47,
+      "words": [
+        {
+          "text": "Use",
+          "start": 282.195,
+          "end": 282.408
+        },
+        {
+          "text": "Apollo",
+          "start": 282.408,
+          "end": 282.832
+        },
+        {
+          "text": "if",
+          "start": 282.832,
+          "end": 283.295
+        },
+        {
+          "text": ":",
+          "start": 283.295,
+          "end": 283.47
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "You prefer a schema-first approach.",
+      "start": 283.79,
+      "end": 286.14,
+      "words": [
+        {
+          "text": "You",
+          "start": 284.065,
+          "end": 284.165
+        },
+        {
+          "text": "prefer",
+          "start": 284.165,
+          "end": 284.565
+        },
+        {
+          "text": "a",
+          "start": 284.565,
+          "end": 284.677
+        },
+        {
+          "text": "schema-first",
+          "start": 284.677,
+          "end": 285.302
+        },
+        {
+          "text": "approach",
+          "start": 285.302,
+          "end": 285.965
+        },
+        {
+          "text": ".",
+          "start": 285.965,
+          "end": 286.14
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "You need comprehensive tooling for server and client-side development.",
+      "start": 286.46,
+      "end": 290.885,
+      "words": [
+        {
+          "text": "You",
+          "start": 286.735,
+          "end": 286.835
+        },
+        {
+          "text": "need",
+          "start": 286.835,
+          "end": 287.072
+        },
+        {
+          "text": "comprehensive",
+          "start": 287.072,
+          "end": 287.785
+        },
+        {
+          "text": "tooling",
+          "start": 287.785,
+          "end": 288.447
+        },
+        {
+          "text": "for",
+          "start": 288.447,
+          "end": 288.635
+        },
+        {
+          "text": "server",
+          "start": 288.635,
+          "end": 289.222
+        },
+        {
+          "text": "and",
+          "start": 289.222,
+          "end": 289.36
+        },
+        {
+          "text": "client-side",
+          "start": 289.36,
+          "end": 289.922
+        },
+        {
+          "text": "development",
+          "start": 289.922,
+          "end": 290.735
+        },
+        {
+          "text": ".",
+          "start": 290.735,
+          "end": 290.885
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "You are building a large, federated GraphQL architecture.",
+      "start": 291.205,
+      "end": 295.255,
+      "words": [
+        {
+          "text": "You",
+          "start": 291.505,
+          "end": 291.605
+        },
+        {
+          "text": "are",
+          "start": 291.605,
+          "end": 291.705
+        },
+        {
+          "text": "building",
+          "start": 291.705,
+          "end": 292.08
+        },
+        {
+          "text": "a",
+          "start": 292.08,
+          "end": 292.193
+        },
+        {
+          "text": "large",
+          "start": 292.193,
+          "end": 292.78
+        },
+        {
+          "text": ",",
+          "start": 292.78,
+          "end": 292.892
+        },
+        {
+          "text": "federated",
+          "start": 292.892,
+          "end": 293.505
+        },
+        {
+          "text": "GraphQL",
+          "start": 293.505,
+          "end": 294.155
+        },
+        {
+          "text": "architecture",
+          "start": 294.155,
+          "end": 295.105
+        },
+        {
+          "text": ".",
+          "start": 295.105,
+          "end": 295.255
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "You require high customization and flexibility.",
+      "start": 295.575,
+      "end": 299.125,
+      "words": [
+        {
+          "text": "You",
+          "start": 295.85,
+          "end": 295.95
+        },
+        {
+          "text": "require",
+          "start": 295.95,
+          "end": 296.462
+        },
+        {
+          "text": "high",
+          "start": 296.462,
+          "end": 296.725
+        },
+        {
+          "text": "customization",
+          "start": 296.725,
+          "end": 297.812
+        },
+        {
+          "text": "and",
+          "start": 297.812,
+          "end": 297.95
+        },
+        {
+          "text": "flexibility",
+          "start": 297.95,
+          "end": 298.975
+        },
+        {
+          "text": ".",
+          "start": 298.975,
+          "end": 299.125
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "h3",
+      "text": "Use Cases of Hasura with Graph API and Hot Chocolate",
+      "start": 299.445,
+      "end": 303.37,
+      "words": [
+        {
+          "text": "Use",
+          "start": 299.745,
+          "end": 299.97
+        },
+        {
+          "text": "Cases",
+          "start": 299.97,
+          "end": 300.357
+        },
+        {
+          "text": "of",
+          "start": 300.357,
+          "end": 300.445
+        },
+        {
+          "text": "Hasura",
+          "start": 300.445,
+          "end": 300.895
+        },
+        {
+          "text": "with",
+          "start": 300.895,
+          "end": 301.07
+        },
+        {
+          "text": "Graph",
+          "start": 301.07,
+          "end": 301.395
+        },
+        {
+          "text": "API",
+          "start": 301.395,
+          "end": 302.245
+        },
+        {
+          "text": "and",
+          "start": 302.245,
+          "end": 302.395
+        },
+        {
+          "text": "Hot",
+          "start": 302.395,
+          "end": 302.62
+        },
+        {
+          "text": "Chocolate",
+          "start": 302.62,
+          "end": 303.37
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "Combining Hasura, GraphQL, and Hot Chocolate can lead to powerful and efficient solutions for various applications. Here are some notable use cases:",
+      "start": 303.815,
+      "end": 313.89,
+      "words": [
+        {
+          "text": "Combining",
+          "start": 304.065,
+          "end": 304.577
+        },
+        {
+          "text": "Hasura",
+          "start": 304.577,
+          "end": 305.265
+        },
+        {
+          "text": ",",
+          "start": 305.265,
+          "end": 305.403
+        },
+        {
+          "text": "GraphQL",
+          "start": 305.403,
+          "end": 306.19
+        },
+        {
+          "text": ",",
+          "start": 306.19,
+          "end": 306.265
+        },
+        {
+          "text": "and",
+          "start": 306.265,
+          "end": 306.39
+        },
+        {
+          "text": "Hot",
+          "start": 306.39,
+          "end": 306.615
+        },
+        {
+          "text": "Chocolate",
+          "start": 306.615,
+          "end": 307.415
+        },
+        {
+          "text": "can",
+          "start": 307.415,
+          "end": 307.615
+        },
+        {
+          "text": "lead",
+          "start": 307.615,
+          "end": 307.815
+        },
+        {
+          "text": "to",
+          "start": 307.815,
+          "end": 307.953
+        },
+        {
+          "text": "powerful",
+          "start": 307.953,
+          "end": 308.59
+        },
+        {
+          "text": "and",
+          "start": 308.59,
+          "end": 308.703
+        },
+        {
+          "text": "efficient",
+          "start": 308.703,
+          "end": 309.115
+        },
+        {
+          "text": "solutions",
+          "start": 309.115,
+          "end": 309.815
+        },
+        {
+          "text": "for",
+          "start": 309.815,
+          "end": 309.977
+        },
+        {
+          "text": "various",
+          "start": 309.977,
+          "end": 310.44
+        },
+        {
+          "text": "applications",
+          "start": 310.44,
+          "end": 311.615
+        },
+        {
+          "text": ".",
+          "start": 311.615,
+          "end": 311.753
+        },
+        {
+          "text": "Here",
+          "start": 311.753,
+          "end": 311.952
+        },
+        {
+          "text": "are",
+          "start": 311.952,
+          "end": 312.04
+        },
+        {
+          "text": "some",
+          "start": 312.04,
+          "end": 312.253
+        },
+        {
+          "text": "notable",
+          "start": 312.253,
+          "end": 312.74
+        },
+        {
+          "text": "use",
+          "start": 312.74,
+          "end": 312.965
+        },
+        {
+          "text": "cases",
+          "start": 312.965,
+          "end": 313.74
+        },
+        {
+          "text": ":",
+          "start": 313.74,
+          "end": 313.89
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "h4",
+      "text": "1. Real-time Dashboards",
+      "start": 314.21,
+      "end": 316.36,
+      "words": [
+        {
+          "text": "1",
+          "start": 314.51,
+          "end": 314.86
+        },
+        {
+          "text": ".",
+          "start": 314.86,
+          "end": 314.947
+        },
+        {
+          "text": "Real-time",
+          "start": 314.947,
+          "end": 315.46
+        },
+        {
+          "text": "Dashboards",
+          "start": 315.46,
+          "end": 316.36
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Scenario: Building interactive dashboards that reflect live data changes.",
+      "start": 316.805,
+      "end": 321.93,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 317.105,
+          "end": 317.905
+        },
+        {
+          "text": ":",
+          "start": 317.905,
+          "end": 318.067
+        },
+        {
+          "text": "Building",
+          "start": 318.067,
+          "end": 318.455
+        },
+        {
+          "text": "interactive",
+          "start": 318.455,
+          "end": 319.08
+        },
+        {
+          "text": "dashboards",
+          "start": 319.08,
+          "end": 319.78
+        },
+        {
+          "text": "that",
+          "start": 319.78,
+          "end": 319.917
+        },
+        {
+          "text": "reflect",
+          "start": 319.917,
+          "end": 320.367
+        },
+        {
+          "text": "live",
+          "start": 320.367,
+          "end": 320.705
+        },
+        {
+          "text": "data",
+          "start": 320.705,
+          "end": 320.98
+        },
+        {
+          "text": "changes",
+          "start": 320.98,
+          "end": 321.78
+        },
+        {
+          "text": ".",
+          "start": 321.78,
+          "end": 321.93
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "How: Use Hasura's real-time subscriptions to automatically update the dashboard whenever the underlying data changes³. Hot Chocolate can be used to handle complex business logic and custom queries.",
+      "start": 322.25,
+      "end": 335.875,
+      "words": [
+        {
+          "text": "How",
+          "start": 322.525,
+          "end": 322.975
+        },
+        {
+          "text": ":",
+          "start": 322.975,
+          "end": 323.125
+        },
+        {
+          "text": "Use",
+          "start": 323.125,
+          "end": 323.425
+        },
+        {
+          "text": "Hasura's",
+          "start": 323.425,
+          "end": 323.937
+        },
+        {
+          "text": "real-time",
+          "start": 323.937,
+          "end": 324.5
+        },
+        {
+          "text": "subscriptions",
+          "start": 324.5,
+          "end": 325.6
+        },
+        {
+          "text": "to",
+          "start": 325.6,
+          "end": 325.762
+        },
+        {
+          "text": "automatically",
+          "start": 325.762,
+          "end": 326.563
+        },
+        {
+          "text": "update",
+          "start": 326.563,
+          "end": 326.938
+        },
+        {
+          "text": "the",
+          "start": 326.938,
+          "end": 327.025
+        },
+        {
+          "text": "dashboard",
+          "start": 327.025,
+          "end": 328.0
+        },
+        {
+          "text": "whenever",
+          "start": 328.0,
+          "end": 328.387
+        },
+        {
+          "text": "the",
+          "start": 328.387,
+          "end": 328.5
+        },
+        {
+          "text": "underlying",
+          "start": 328.5,
+          "end": 329.125
+        },
+        {
+          "text": "data",
+          "start": 329.125,
+          "end": 329.537
+        },
+        {
+          "text": "changes³.",
+          "start": 329.537,
+          "end": 330.462
+        },
+        {
+          "text": "Hot",
+          "start": 330.462,
+          "end": 330.738
+        },
+        {
+          "text": "Chocolate",
+          "start": 330.738,
+          "end": 331.6
+        },
+        {
+          "text": "can",
+          "start": 331.6,
+          "end": 331.762
+        },
+        {
+          "text": "be",
+          "start": 331.762,
+          "end": 331.912
+        },
+        {
+          "text": "used",
+          "start": 331.912,
+          "end": 332.188
+        },
+        {
+          "text": "to",
+          "start": 332.188,
+          "end": 332.3
+        },
+        {
+          "text": "handle",
+          "start": 332.3,
+          "end": 332.688
+        },
+        {
+          "text": "complex",
+          "start": 332.688,
+          "end": 333.287
+        },
+        {
+          "text": "business",
+          "start": 333.287,
+          "end": 333.7
+        },
+        {
+          "text": "logic",
+          "start": 333.7,
+          "end": 334.325
+        },
+        {
+          "text": "and",
+          "start": 334.325,
+          "end": 334.488
+        },
+        {
+          "text": "custom",
+          "start": 334.488,
+          "end": 334.925
+        },
+        {
+          "text": "queries",
+          "start": 334.925,
+          "end": 335.75
+        },
+        {
+          "text": ".",
+          "start": 335.75,
+          "end": 335.875
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "h4",
+      "text": "2. Unified API Layer",
+      "start": 336.195,
+      "end": 338.47,
+      "words": [
+        {
+          "text": "2",
+          "start": 336.47,
+          "end": 336.795
+        },
+        {
+          "text": ".",
+          "start": 336.795,
+          "end": 336.907
+        },
+        {
+          "text": "Unified",
+          "start": 336.907,
+          "end": 337.395
+        },
+        {
+          "text": "API",
+          "start": 337.395,
+          "end": 337.895
+        },
+        {
+          "text": "Layer",
+          "start": 337.895,
+          "end": 338.47
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Scenario: Integrating multiple data sources into a single API.",
+      "start": 338.94,
+      "end": 343.915,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 339.24,
+          "end": 340.04
+        },
+        {
+          "text": ":",
+          "start": 340.04,
+          "end": 340.19
+        },
+        {
+          "text": "Integrating",
+          "start": 340.19,
+          "end": 340.777
+        },
+        {
+          "text": "multiple",
+          "start": 340.777,
+          "end": 341.265
+        },
+        {
+          "text": "data",
+          "start": 341.265,
+          "end": 341.54
+        },
+        {
+          "text": "sources",
+          "start": 341.54,
+          "end": 342.065
+        },
+        {
+          "text": "into",
+          "start": 342.065,
+          "end": 342.315
+        },
+        {
+          "text": "a",
+          "start": 342.315,
+          "end": 342.44
+        },
+        {
+          "text": "single",
+          "start": 342.44,
+          "end": 342.84
+        },
+        {
+          "text": "API",
+          "start": 342.84,
+          "end": 343.765
+        },
+        {
+          "text": ".",
+          "start": 343.765,
+          "end": 343.915
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "How: Hasura can unify data from different databases and REST APIs under a single GraphQL endpoint using Remote Schemas¹. Hot Chocolate can extend this by adding custom GraphQL endpoints that integrate seamlessly with Hasura.",
+      "start": 344.235,
+      "end": 360.535,
+      "words": [
+        {
+          "text": "How",
+          "start": 344.51,
+          "end": 344.96
+        },
+        {
+          "text": ":",
+          "start": 344.96,
+          "end": 345.098
+        },
+        {
+          "text": "Hasura",
+          "start": 345.098,
+          "end": 345.585
+        },
+        {
+          "text": "can",
+          "start": 345.585,
+          "end": 345.773
+        },
+        {
+          "text": "unify",
+          "start": 345.773,
+          "end": 346.21
+        },
+        {
+          "text": "data",
+          "start": 346.21,
+          "end": 346.535
+        },
+        {
+          "text": "from",
+          "start": 346.535,
+          "end": 346.735
+        },
+        {
+          "text": "different",
+          "start": 346.735,
+          "end": 347.035
+        },
+        {
+          "text": "databases",
+          "start": 347.035,
+          "end": 348.135
+        },
+        {
+          "text": "and",
+          "start": 348.135,
+          "end": 348.285
+        },
+        {
+          "text": "REST",
+          "start": 348.285,
+          "end": 348.597
+        },
+        {
+          "text": "APIs",
+          "start": 348.597,
+          "end": 349.41
+        },
+        {
+          "text": "under",
+          "start": 349.41,
+          "end": 349.635
+        },
+        {
+          "text": "a",
+          "start": 349.635,
+          "end": 349.76
+        },
+        {
+          "text": "single",
+          "start": 349.76,
+          "end": 350.16
+        },
+        {
+          "text": "GraphQL",
+          "start": 350.16,
+          "end": 350.835
+        },
+        {
+          "text": "endpoint",
+          "start": 350.835,
+          "end": 351.623
+        },
+        {
+          "text": "using",
+          "start": 351.623,
+          "end": 352.035
+        },
+        {
+          "text": "Remote",
+          "start": 352.035,
+          "end": 352.46
+        },
+        {
+          "text": "Schemas¹.",
+          "start": 352.46,
+          "end": 353.31
+        },
+        {
+          "text": "Hot",
+          "start": 353.31,
+          "end": 353.573
+        },
+        {
+          "text": "Chocolate",
+          "start": 353.573,
+          "end": 354.485
+        },
+        {
+          "text": "can",
+          "start": 354.485,
+          "end": 354.66
+        },
+        {
+          "text": "extend",
+          "start": 354.66,
+          "end": 355.135
+        },
+        {
+          "text": "this",
+          "start": 355.135,
+          "end": 355.598
+        },
+        {
+          "text": "by",
+          "start": 355.598,
+          "end": 355.785
+        },
+        {
+          "text": "adding",
+          "start": 355.785,
+          "end": 356.122
+        },
+        {
+          "text": "custom",
+          "start": 356.122,
+          "end": 356.61
+        },
+        {
+          "text": "GraphQL",
+          "start": 356.61,
+          "end": 357.285
+        },
+        {
+          "text": "endpoints",
+          "start": 357.285,
+          "end": 358.098
+        },
+        {
+          "text": "that",
+          "start": 358.098,
+          "end": 358.285
+        },
+        {
+          "text": "integrate",
+          "start": 358.285,
+          "end": 358.797
+        },
+        {
+          "text": "seamlessly",
+          "start": 358.797,
+          "end": 359.435
+        },
+        {
+          "text": "with",
+          "start": 359.435,
+          "end": 359.585
+        },
+        {
+          "text": "Hasura",
+          "start": 359.585,
+          "end": 360.36
+        },
+        {
+          "text": ".",
+          "start": 360.36,
+          "end": 360.535
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "h4",
+      "text": "3. Rapid Prototyping",
+      "start": 360.855,
+      "end": 362.98,
+      "words": [
+        {
+          "text": "3",
+          "start": 361.155,
+          "end": 361.53
+        },
+        {
+          "text": ".",
+          "start": 361.53,
+          "end": 361.63
+        },
+        {
+          "text": "Rapid",
+          "start": 361.63,
+          "end": 361.98
+        },
+        {
+          "text": "Prototyping",
+          "start": 361.98,
+          "end": 362.98
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "Scenario: Quickly setting up a backend for a new application.",
+      "start": 363.4,
+      "end": 367.3,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 363.7,
+          "end": 364.375
+        },
+        {
+          "text": ":",
+          "start": 364.375,
+          "end": 364.5
+        },
+        {
+          "text": "Quickly",
+          "start": 364.5,
+          "end": 364.85
+        },
+        {
+          "text": "setting",
+          "start": 364.85,
+          "end": 365.112
+        },
+        {
+          "text": "up",
+          "start": 365.112,
+          "end": 365.237
+        },
+        {
+          "text": "a",
+          "start": 365.237,
+          "end": 365.3
+        },
+        {
+          "text": "backend",
+          "start": 365.3,
+          "end": 365.775
+        },
+        {
+          "text": "for",
+          "start": 365.775,
+          "end": 365.887
+        },
+        {
+          "text": "a",
+          "start": 365.887,
+          "end": 365.975
+        },
+        {
+          "text": "new",
+          "start": 365.975,
+          "end": 366.175
+        },
+        {
+          "text": "application",
+          "start": 366.175,
+          "end": 367.15
+        },
+        {
+          "text": ".",
+          "start": 367.15,
+          "end": 367.3
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "How: Hasura can instantly generate a GraphQL API from your existing database, allowing you to focus on frontend development¹. Hot Chocolate can be used to add custom logic and extend the API as needed.",
+      "start": 367.62,
+      "end": 382.145,
+      "words": [
+        {
+          "text": "How",
+          "start": 367.895,
+          "end": 368.345
+        },
+        {
+          "text": ":",
+          "start": 368.345,
+          "end": 368.507
+        },
+        {
+          "text": "Hasura",
+          "start": 368.507,
+          "end": 368.995
+        },
+        {
+          "text": "can",
+          "start": 368.995,
+          "end": 369.207
+        },
+        {
+          "text": "instantly",
+          "start": 369.207,
+          "end": 369.707
+        },
+        {
+          "text": "generate",
+          "start": 369.707,
+          "end": 370.195
+        },
+        {
+          "text": "a",
+          "start": 370.195,
+          "end": 370.295
+        },
+        {
+          "text": "GraphQL",
+          "start": 370.295,
+          "end": 370.97
+        },
+        {
+          "text": "API",
+          "start": 370.97,
+          "end": 371.645
+        },
+        {
+          "text": "from",
+          "start": 371.645,
+          "end": 371.782
+        },
+        {
+          "text": "your",
+          "start": 371.782,
+          "end": 371.895
+        },
+        {
+          "text": "existing",
+          "start": 371.895,
+          "end": 372.42
+        },
+        {
+          "text": "database",
+          "start": 372.42,
+          "end": 373.42
+        },
+        {
+          "text": ",",
+          "start": 373.42,
+          "end": 373.557
+        },
+        {
+          "text": "allowing",
+          "start": 373.557,
+          "end": 373.995
+        },
+        {
+          "text": "you",
+          "start": 373.995,
+          "end": 374.145
+        },
+        {
+          "text": "to",
+          "start": 374.145,
+          "end": 374.282
+        },
+        {
+          "text": "focus",
+          "start": 374.282,
+          "end": 374.745
+        },
+        {
+          "text": "on",
+          "start": 374.745,
+          "end": 374.957
+        },
+        {
+          "text": "frontend",
+          "start": 374.957,
+          "end": 375.432
+        },
+        {
+          "text": "development¹.",
+          "start": 375.432,
+          "end": 376.707
+        },
+        {
+          "text": "Hot",
+          "start": 376.707,
+          "end": 376.982
+        },
+        {
+          "text": "Chocolate",
+          "start": 376.982,
+          "end": 377.707
+        },
+        {
+          "text": "can",
+          "start": 377.707,
+          "end": 377.832
+        },
+        {
+          "text": "be",
+          "start": 377.832,
+          "end": 377.982
+        },
+        {
+          "text": "used",
+          "start": 377.982,
+          "end": 378.27
+        },
+        {
+          "text": "to",
+          "start": 378.27,
+          "end": 378.407
+        },
+        {
+          "text": "add",
+          "start": 378.407,
+          "end": 378.682
+        },
+        {
+          "text": "custom",
+          "start": 378.682,
+          "end": 379.095
+        },
+        {
+          "text": "logic",
+          "start": 379.095,
+          "end": 379.795
+        },
+        {
+          "text": "and",
+          "start": 379.795,
+          "end": 379.932
+        },
+        {
+          "text": "extend",
+          "start": 379.932,
+          "end": 380.407
+        },
+        {
+          "text": "the",
+          "start": 380.407,
+          "end": 380.52
+        },
+        {
+          "text": "API",
+          "start": 380.52,
+          "end": 381.207
+        },
+        {
+          "text": "as",
+          "start": 381.207,
+          "end": 381.37
+        },
+        {
+          "text": "needed",
+          "start": 381.37,
+          "end": 381.995
+        },
+        {
+          "text": ".",
+          "start": 381.995,
+          "end": 382.145
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "h4",
+      "text": "4. Microservices Architecture",
+      "start": 382.465,
+      "end": 384.815,
+      "words": [
+        {
+          "text": "4.",
+          "start": 382.765,
+          "end": 383.015
+        },
+        {
+          "text": "Microservices",
+          "start": 383.015,
+          "end": 383.89
+        },
+        {
+          "text": "Architecture",
+          "start": 383.89,
+          "end": 384.815
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "Scenario: Building a microservices architecture with GraphQL.",
+      "start": 385.285,
+      "end": 389.76,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 385.585,
+          "end": 386.335
+        },
+        {
+          "text": ":",
+          "start": 386.335,
+          "end": 386.473
+        },
+        {
+          "text": "Building",
+          "start": 386.473,
+          "end": 386.835
+        },
+        {
+          "text": "a",
+          "start": 386.835,
+          "end": 386.935
+        },
+        {
+          "text": "microservices",
+          "start": 386.935,
+          "end": 387.81
+        },
+        {
+          "text": "architecture",
+          "start": 387.81,
+          "end": 388.46
+        },
+        {
+          "text": "with",
+          "start": 388.46,
+          "end": 388.635
+        },
+        {
+          "text": "GraphQL",
+          "start": 388.635,
+          "end": 389.61
+        },
+        {
+          "text": ".",
+          "start": 389.61,
+          "end": 389.76
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "li",
+      "text": "How: Use Hasura to manage the data layer and unify various microservices under a single GraphQL endpoint². Hot Chocolate can be used to build individual microservices that communicate with Hasura.",
+      "start": 390.08,
+      "end": 404.055,
+      "words": [
+        {
+          "text": "How",
+          "start": 390.355,
+          "end": 390.78
+        },
+        {
+          "text": ":",
+          "start": 390.78,
+          "end": 390.93
+        },
+        {
+          "text": "Use",
+          "start": 390.93,
+          "end": 391.23
+        },
+        {
+          "text": "Hasura",
+          "start": 391.23,
+          "end": 391.63
+        },
+        {
+          "text": "to",
+          "start": 391.63,
+          "end": 391.755
+        },
+        {
+          "text": "manage",
+          "start": 391.755,
+          "end": 392.155
+        },
+        {
+          "text": "the",
+          "start": 392.155,
+          "end": 392.293
+        },
+        {
+          "text": "data",
+          "start": 392.293,
+          "end": 392.63
+        },
+        {
+          "text": "layer",
+          "start": 392.63,
+          "end": 393.305
+        },
+        {
+          "text": "and",
+          "start": 393.305,
+          "end": 393.492
+        },
+        {
+          "text": "unify",
+          "start": 393.492,
+          "end": 394.043
+        },
+        {
+          "text": "various",
+          "start": 394.043,
+          "end": 394.48
+        },
+        {
+          "text": "microservices",
+          "start": 394.48,
+          "end": 395.63
+        },
+        {
+          "text": "under",
+          "start": 395.63,
+          "end": 395.88
+        },
+        {
+          "text": "a",
+          "start": 395.88,
+          "end": 396.018
+        },
+        {
+          "text": "single",
+          "start": 396.018,
+          "end": 396.468
+        },
+        {
+          "text": "GraphQL",
+          "start": 396.468,
+          "end": 397.155
+        },
+        {
+          "text": "endpoint²",
+          "start": 397.155,
+          "end": 398.38
+        },
+        {
+          "text": ".",
+          "start": 398.38,
+          "end": 398.655
+        },
+        {
+          "text": "Hot",
+          "start": 398.655,
+          "end": 398.967
+        },
+        {
+          "text": "Chocolate",
+          "start": 398.967,
+          "end": 399.692
+        },
+        {
+          "text": "can",
+          "start": 399.692,
+          "end": 399.817
+        },
+        {
+          "text": "be",
+          "start": 399.817,
+          "end": 399.967
+        },
+        {
+          "text": "used",
+          "start": 399.967,
+          "end": 400.242
+        },
+        {
+          "text": "to",
+          "start": 400.242,
+          "end": 400.33
+        },
+        {
+          "text": "build",
+          "start": 400.33,
+          "end": 400.617
+        },
+        {
+          "text": "individual",
+          "start": 400.617,
+          "end": 401.18
+        },
+        {
+          "text": "microservices",
+          "start": 401.18,
+          "end": 402.255
+        },
+        {
+          "text": "that",
+          "start": 402.255,
+          "end": 402.405
+        },
+        {
+          "text": "communicate",
+          "start": 402.405,
+          "end": 402.967
+        },
+        {
+          "text": "with",
+          "start": 402.967,
+          "end": 403.105
+        },
+        {
+          "text": "Hasura",
+          "start": 403.105,
+          "end": 403.88
+        },
+        {
+          "text": ".",
+          "start": 403.88,
+          "end": 404.055
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "h4",
+      "text": "5. Custom Business Logic",
+      "start": 404.375,
+      "end": 406.5,
+      "words": [
+        {
+          "text": "5",
+          "start": 404.675,
+          "end": 405.05
+        },
+        {
+          "text": ".",
+          "start": 405.05,
+          "end": 405.125
+        },
+        {
+          "text": "Custom",
+          "start": 405.125,
+          "end": 405.525
+        },
+        {
+          "text": "Business",
+          "start": 405.525,
+          "end": 405.875
+        },
+        {
+          "text": "Logic",
+          "start": 405.875,
+          "end": 406.5
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "li",
+      "text": "Scenario: Implementing complex business logic in your GraphQL API.",
+      "start": 406.945,
+      "end": 412.02,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 407.245,
+          "end": 408.095
+        },
+        {
+          "text": ":",
+          "start": 408.095,
+          "end": 408.245
+        },
+        {
+          "text": "Implementing",
+          "start": 408.245,
+          "end": 408.77
+        },
+        {
+          "text": "complex",
+          "start": 408.77,
+          "end": 409.32
+        },
+        {
+          "text": "business",
+          "start": 409.32,
+          "end": 409.72
+        },
+        {
+          "text": "logic",
+          "start": 409.72,
+          "end": 410.12
+        },
+        {
+          "text": "in",
+          "start": 410.12,
+          "end": 410.208
+        },
+        {
+          "text": "your",
+          "start": 410.208,
+          "end": 410.32
+        },
+        {
+          "text": "GraphQL",
+          "start": 410.32,
+          "end": 410.995
+        },
+        {
+          "text": "API",
+          "start": 410.995,
+          "end": 411.87
+        },
+        {
+          "text": ".",
+          "start": 411.87,
+          "end": 412.02
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "li",
+      "text": "How: Hasura handles the basic CRUD operations and real-time data, while Hot Chocolate is used to implement custom business logic and advanced queries¹.",
+      "start": 412.34,
+      "end": 422.59,
+      "words": [
+        {
+          "text": "How",
+          "start": 412.615,
+          "end": 413.015
+        },
+        {
+          "text": ":",
+          "start": 413.015,
+          "end": 413.127
+        },
+        {
+          "text": "Hasura",
+          "start": 413.127,
+          "end": 413.565
+        },
+        {
+          "text": "handles",
+          "start": 413.565,
+          "end": 413.99
+        },
+        {
+          "text": "the",
+          "start": 413.99,
+          "end": 414.09
+        },
+        {
+          "text": "basic",
+          "start": 414.09,
+          "end": 414.527
+        },
+        {
+          "text": "CRUD",
+          "start": 414.527,
+          "end": 414.765
+        },
+        {
+          "text": "operations",
+          "start": 414.765,
+          "end": 415.765
+        },
+        {
+          "text": "and",
+          "start": 415.765,
+          "end": 415.953
+        },
+        {
+          "text": "real-time",
+          "start": 415.953,
+          "end": 416.54
+        },
+        {
+          "text": "data",
+          "start": 416.54,
+          "end": 417.24
+        },
+        {
+          "text": ",",
+          "start": 417.24,
+          "end": 417.39
+        },
+        {
+          "text": "while",
+          "start": 417.39,
+          "end": 417.627
+        },
+        {
+          "text": "Hot",
+          "start": 417.627,
+          "end": 417.902
+        },
+        {
+          "text": "Chocolate",
+          "start": 417.902,
+          "end": 418.415
+        },
+        {
+          "text": "is",
+          "start": 418.415,
+          "end": 418.54
+        },
+        {
+          "text": "used",
+          "start": 418.54,
+          "end": 418.79
+        },
+        {
+          "text": "to",
+          "start": 418.79,
+          "end": 418.927
+        },
+        {
+          "text": "implement",
+          "start": 418.927,
+          "end": 419.402
+        },
+        {
+          "text": "custom",
+          "start": 419.402,
+          "end": 419.84
+        },
+        {
+          "text": "business",
+          "start": 419.84,
+          "end": 420.215
+        },
+        {
+          "text": "logic",
+          "start": 420.215,
+          "end": 420.865
+        },
+        {
+          "text": "and",
+          "start": 420.865,
+          "end": 421.002
+        },
+        {
+          "text": "advanced",
+          "start": 421.002,
+          "end": 421.49
+        },
+        {
+          "text": "queries¹.",
+          "start": 421.49,
+          "end": 422.59
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "h4",
+      "text": "6. Legacy System Integration",
+      "start": 423.01,
+      "end": 425.585,
+      "words": [
+        {
+          "text": "6",
+          "start": 423.335,
+          "end": 423.735
+        },
+        {
+          "text": ".",
+          "start": 423.735,
+          "end": 423.822
+        },
+        {
+          "text": "Legacy",
+          "start": 423.822,
+          "end": 424.26
+        },
+        {
+          "text": "System",
+          "start": 424.26,
+          "end": 424.61
+        },
+        {
+          "text": "Integration",
+          "start": 424.61,
+          "end": 425.585
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "li",
+      "text": "Scenario: Integrating with legacy systems that use REST APIs.",
+      "start": 426.005,
+      "end": 430.755,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 426.305,
+          "end": 427.105
+        },
+        {
+          "text": ":",
+          "start": 427.105,
+          "end": 427.255
+        },
+        {
+          "text": "Integrating",
+          "start": 427.255,
+          "end": 427.792
+        },
+        {
+          "text": "with",
+          "start": 427.792,
+          "end": 427.955
+        },
+        {
+          "text": "legacy",
+          "start": 427.955,
+          "end": 428.355
+        },
+        {
+          "text": "systems",
+          "start": 428.355,
+          "end": 428.93
+        },
+        {
+          "text": "that",
+          "start": 428.93,
+          "end": 429.105
+        },
+        {
+          "text": "use",
+          "start": 429.105,
+          "end": 429.33
+        },
+        {
+          "text": "REST",
+          "start": 429.33,
+          "end": 429.63
+        },
+        {
+          "text": "APIs",
+          "start": 429.63,
+          "end": 430.605
+        },
+        {
+          "text": ".",
+          "start": 430.605,
+          "end": 430.755
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "li",
+      "text": "How: Hasura can convert REST endpoints to GraphQL using REST Connectors². Hot Chocolate can be used to further customize and extend these endpoints.",
+      "start": 431.075,
+      "end": 441.5,
+      "words": [
+        {
+          "text": "How",
+          "start": 431.35,
+          "end": 431.75
+        },
+        {
+          "text": ":",
+          "start": 431.75,
+          "end": 431.862
+        },
+        {
+          "text": "Hasura",
+          "start": 431.862,
+          "end": 432.325
+        },
+        {
+          "text": "can",
+          "start": 432.325,
+          "end": 432.475
+        },
+        {
+          "text": "convert",
+          "start": 432.475,
+          "end": 432.925
+        },
+        {
+          "text": "REST",
+          "start": 432.925,
+          "end": 433.2
+        },
+        {
+          "text": "endpoints",
+          "start": 433.2,
+          "end": 433.725
+        },
+        {
+          "text": "to",
+          "start": 433.725,
+          "end": 433.825
+        },
+        {
+          "text": "GraphQL",
+          "start": 433.825,
+          "end": 434.75
+        },
+        {
+          "text": "using",
+          "start": 434.75,
+          "end": 435.125
+        },
+        {
+          "text": "REST",
+          "start": 435.125,
+          "end": 435.4
+        },
+        {
+          "text": "Connectors²",
+          "start": 435.4,
+          "end": 436.7
+        },
+        {
+          "text": ".",
+          "start": 436.7,
+          "end": 436.913
+        },
+        {
+          "text": "Hot",
+          "start": 436.913,
+          "end": 437.187
+        },
+        {
+          "text": "Chocolate",
+          "start": 437.187,
+          "end": 437.812
+        },
+        {
+          "text": "can",
+          "start": 437.812,
+          "end": 437.937
+        },
+        {
+          "text": "be",
+          "start": 437.937,
+          "end": 438.088
+        },
+        {
+          "text": "used",
+          "start": 438.088,
+          "end": 438.338
+        },
+        {
+          "text": "to",
+          "start": 438.338,
+          "end": 438.463
+        },
+        {
+          "text": "further",
+          "start": 438.463,
+          "end": 438.775
+        },
+        {
+          "text": "customize",
+          "start": 438.775,
+          "end": 439.675
+        },
+        {
+          "text": "and",
+          "start": 439.675,
+          "end": 439.825
+        },
+        {
+          "text": "extend",
+          "start": 439.825,
+          "end": 440.35
+        },
+        {
+          "text": "these",
+          "start": 440.35,
+          "end": 440.575
+        },
+        {
+          "text": "endpoints",
+          "start": 440.575,
+          "end": 441.375
+        },
+        {
+          "text": ".",
+          "start": 441.375,
+          "end": 441.5
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "h3",
+      "text": "Example Workflow",
+      "start": 441.82,
+      "end": 443.37,
+      "words": [
+        {
+          "text": "Example",
+          "start": 442.145,
+          "end": 442.645
+        },
+        {
+          "text": "Workflow",
+          "start": 442.645,
+          "end": 443.37
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "p",
+      "text": "1. Set Up Hasura: Connect Hasura to your database to automatically generate a GraphQL API.",
+      "start": 443.89,
+      "end": 450.89,
+      "words": [
+        {
+          "text": "1",
+          "start": 444.19,
+          "end": 444.565
+        },
+        {
+          "text": ".",
+          "start": 444.565,
+          "end": 444.653
+        },
+        {
+          "text": "Set",
+          "start": 444.653,
+          "end": 444.853
+        },
+        {
+          "text": "Up",
+          "start": 444.853,
+          "end": 444.99
+        },
+        {
+          "text": "Hasura",
+          "start": 444.99,
+          "end": 445.74
+        },
+        {
+          "text": ":",
+          "start": 445.74,
+          "end": 445.903
+        },
+        {
+          "text": "Connect",
+          "start": 445.903,
+          "end": 446.29
+        },
+        {
+          "text": "Hasura",
+          "start": 446.29,
+          "end": 446.715
+        },
+        {
+          "text": "to",
+          "start": 446.715,
+          "end": 446.803
+        },
+        {
+          "text": "your",
+          "start": 446.803,
+          "end": 446.915
+        },
+        {
+          "text": "database",
+          "start": 446.915,
+          "end": 447.628
+        },
+        {
+          "text": "to",
+          "start": 447.628,
+          "end": 447.803
+        },
+        {
+          "text": "automatically",
+          "start": 447.803,
+          "end": 448.552
+        },
+        {
+          "text": "generate",
+          "start": 448.552,
+          "end": 449.04
+        },
+        {
+          "text": "a",
+          "start": 449.04,
+          "end": 449.14
+        },
+        {
+          "text": "GraphQL",
+          "start": 449.14,
+          "end": 449.815
+        },
+        {
+          "text": "API",
+          "start": 449.815,
+          "end": 450.74
+        },
+        {
+          "text": ".",
+          "start": 450.74,
+          "end": 450.89
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "kind": "li",
+      "text": "Create Custom Endpoints with Hot Chocolate: Use Hot Chocolate to build custom GraphQL endpoints in .NET.",
+      "start": 451.21,
+      "end": 457.96,
+      "words": [
+        {
+          "text": "Create",
+          "start": 451.46,
+          "end": 451.785
+        },
+        {
+          "text": "Custom",
+          "start": 451.785,
+          "end": 452.16
+        },
+        {
+          "text": "Endpoints",
+          "start": 452.16,
+          "end": 452.66
+        },
+        {
+          "text": "with",
+          "start": 452.66,
+          "end": 452.835
+        },
+        {
+          "text": "Hot",
+          "start": 452.835,
+          "end": 453.06
+        },
+        {
+          "text": "Chocolate",
+          "start": 453.06,
+          "end": 453.91
+        },
+        {
+          "text": ":",
+          "start": 453.91,
+          "end": 454.047
+        },
+        {
+          "text": "Use",
+          "start": 454.047,
+          "end": 454.285
+        },
+        {
+          "text": "Hot",
+          "start": 454.285,
+          "end": 454.547
+        },
+        {
+          "text": "Chocolate",
+          "start": 454.547,
+          "end": 455.035
+        },
+        {
+          "text": "to",
+          "start": 455.035,
+          "end": 455.135
+        },
+        {
+          "text": "build",
+          "start": 455.135,
+          "end": 455.422
+        },
+        {
+          "text": "custom",
+          "start": 455.422,
+          "end": 455.835
+        },
+        {
+          "text": "GraphQL",
+          "start": 455.835,
+          "end": 456.485
+        },
+        {
+          "text": "endpoints",
+          "start": 456.485,
+          "end": 457.035
+        },
+        {
+          "text": "in",
+          "start": 457.035,
+          "end": 457.21
+        },
+        {
+          "text": ".NET",
+          "start": 457.21,
+          "end": 457.81
+        },
+        {
+          "text": ".",
+          "start": 457.81,
+          "end": 457.96
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "kind": "li",
+      "text": "Integrate with Hasura: Use Hasura's Remote Schema feature to integrate Hot Chocolate endpoints into the unified API¹.",
+      "start": 458.28,
+      "end": 466.555,
+      "words": [
+        {
+          "text": "Integrate",
+          "start": 458.555,
+          "end": 458.993
+        },
+        {
+          "text": "with",
+          "start": 458.993,
+          "end": 459.13
+        },
+        {
+          "text": "Hasura",
+          "start": 459.13,
+          "end": 459.955
+        },
+        {
+          "text": ":",
+          "start": 459.955,
+          "end": 460.155
+        },
+        {
+          "text": "Use",
+          "start": 460.155,
+          "end": 460.455
+        },
+        {
+          "text": "Hasura's",
+          "start": 460.455,
+          "end": 460.98
+        },
+        {
+          "text": "Remote",
+          "start": 460.98,
+          "end": 461.367
+        },
+        {
+          "text": "Schema",
+          "start": 461.367,
+          "end": 461.767
+        },
+        {
+          "text": "feature",
+          "start": 461.767,
+          "end": 462.43
+        },
+        {
+          "text": "to",
+          "start": 462.43,
+          "end": 462.58
+        },
+        {
+          "text": "integrate",
+          "start": 462.58,
+          "end": 463.043
+        },
+        {
+          "text": "Hot",
+          "start": 463.043,
+          "end": 463.317
+        },
+        {
+          "text": "Chocolate",
+          "start": 463.317,
+          "end": 463.73
+        },
+        {
+          "text": "endpoints",
+          "start": 463.73,
+          "end": 464.517
+        },
+        {
+          "text": "into",
+          "start": 464.517,
+          "end": 464.718
+        },
+        {
+          "text": "the",
+          "start": 464.718,
+          "end": 464.805
+        },
+        {
+          "text": "unified",
+          "start": 464.805,
+          "end": 465.317
+        },
+        {
+          "text": "API¹.",
+          "start": 465.317,
+          "end": 466.555
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "kind": "li",
+      "text": "Leverage Real-time Capabilities: Use Hasura's subscriptions to enable real-time updates in your application³.",
+      "start": 467.0,
+      "end": 474.6,
+      "words": [
+        {
+          "text": "Leverage",
+          "start": 467.325,
+          "end": 467.875
+        },
+        {
+          "text": "Real-time",
+          "start": 467.875,
+          "end": 468.45
+        },
+        {
+          "text": "Capabilities",
+          "start": 468.45,
+          "end": 469.525
+        },
+        {
+          "text": ":",
+          "start": 469.525,
+          "end": 469.663
+        },
+        {
+          "text": "Use",
+          "start": 469.663,
+          "end": 469.9
+        },
+        {
+          "text": "Hasura's",
+          "start": 469.9,
+          "end": 470.375
+        },
+        {
+          "text": "subscriptions",
+          "start": 470.375,
+          "end": 471.362
+        },
+        {
+          "text": "to",
+          "start": 471.362,
+          "end": 471.525
+        },
+        {
+          "text": "enable",
+          "start": 471.525,
+          "end": 471.938
+        },
+        {
+          "text": "real-time",
+          "start": 471.938,
+          "end": 472.475
+        },
+        {
+          "text": "updates",
+          "start": 472.475,
+          "end": 473.0
+        },
+        {
+          "text": "in",
+          "start": 473.0,
+          "end": 473.088
+        },
+        {
+          "text": "your",
+          "start": 473.088,
+          "end": 473.225
+        },
+        {
+          "text": "application³.",
+          "start": 473.225,
+          "end": 474.6
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "kind": "h2",
+      "text": "The Real Question: How Much Infrastructure Do You Want to Maintain?",
+      "start": 475.045,
+      "end": 479.12,
+      "words": [
+        {
+          "text": "The",
+          "start": 475.295,
+          "end": 475.395
+        },
+        {
+          "text": "Real",
+          "start": 475.395,
+          "end": 475.67
+        },
+        {
+          "text": "Question",
+          "start": 475.67,
+          "end": 476.42
+        },
+        {
+          "text": ":",
+          "start": 476.42,
+          "end": 476.557
+        },
+        {
+          "text": "How",
+          "start": 476.557,
+          "end": 476.745
+        },
+        {
+          "text": "Much",
+          "start": 476.745,
+          "end": 476.945
+        },
+        {
+          "text": "Infrastructure",
+          "start": 476.945,
+          "end": 477.645
+        },
+        {
+          "text": "Do",
+          "start": 477.645,
+          "end": 477.757
+        },
+        {
+          "text": "You",
+          "start": 477.757,
+          "end": 477.858
+        },
+        {
+          "text": "Want",
+          "start": 477.858,
+          "end": 478.007
+        },
+        {
+          "text": "to",
+          "start": 478.007,
+          "end": 478.083
+        },
+        {
+          "text": "Maintain",
+          "start": 478.083,
+          "end": 478.945
+        },
+        {
+          "text": "?",
+          "start": 478.945,
+          "end": 479.12
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "kind": "p",
+      "text": "Hasura wins when you have a database and zero desire to rewrite CRUD resolvers. Apollo wins when you're building a federated system and can afford the complexity. Custom code wins... basically never, unless you enjoy debugging GraphQL middleware at 2 AM.",
+      "start": 479.44,
+      "end": 496.965,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 479.74,
+          "end": 480.178
+        },
+        {
+          "text": "wins",
+          "start": 480.178,
+          "end": 480.59
+        },
+        {
+          "text": "when",
+          "start": 480.59,
+          "end": 480.728
+        },
+        {
+          "text": "you",
+          "start": 480.728,
+          "end": 480.815
+        },
+        {
+          "text": "have",
+          "start": 480.815,
+          "end": 480.978
+        },
+        {
+          "text": "a",
+          "start": 480.978,
+          "end": 481.077
+        },
+        {
+          "text": "database",
+          "start": 481.077,
+          "end": 481.753
+        },
+        {
+          "text": "and",
+          "start": 481.753,
+          "end": 481.928
+        },
+        {
+          "text": "zero",
+          "start": 481.928,
+          "end": 482.315
+        },
+        {
+          "text": "desire",
+          "start": 482.315,
+          "end": 482.827
+        },
+        {
+          "text": "to",
+          "start": 482.827,
+          "end": 482.965
+        },
+        {
+          "text": "rewrite",
+          "start": 482.965,
+          "end": 483.402
+        },
+        {
+          "text": "CRUD",
+          "start": 483.402,
+          "end": 483.69
+        },
+        {
+          "text": "resolvers",
+          "start": 483.69,
+          "end": 484.765
+        },
+        {
+          "text": ".",
+          "start": 484.765,
+          "end": 484.903
+        },
+        {
+          "text": "Apollo",
+          "start": 484.903,
+          "end": 485.452
+        },
+        {
+          "text": "wins",
+          "start": 485.452,
+          "end": 485.852
+        },
+        {
+          "text": "when",
+          "start": 485.852,
+          "end": 485.977
+        },
+        {
+          "text": "you're",
+          "start": 485.977,
+          "end": 486.09
+        },
+        {
+          "text": "building",
+          "start": 486.09,
+          "end": 486.465
+        },
+        {
+          "text": "a",
+          "start": 486.465,
+          "end": 486.577
+        },
+        {
+          "text": "federated",
+          "start": 486.577,
+          "end": 487.19
+        },
+        {
+          "text": "system",
+          "start": 487.19,
+          "end": 487.915
+        },
+        {
+          "text": "and",
+          "start": 487.915,
+          "end": 488.065
+        },
+        {
+          "text": "can",
+          "start": 488.065,
+          "end": 488.19
+        },
+        {
+          "text": "afford",
+          "start": 488.19,
+          "end": 488.602
+        },
+        {
+          "text": "the",
+          "start": 488.602,
+          "end": 488.69
+        },
+        {
+          "text": "complexity",
+          "start": 488.69,
+          "end": 489.815
+        },
+        {
+          "text": ".",
+          "start": 489.815,
+          "end": 489.977
+        },
+        {
+          "text": "Custom",
+          "start": 489.977,
+          "end": 490.428
+        },
+        {
+          "text": "code",
+          "start": 490.428,
+          "end": 490.79
+        },
+        {
+          "text": "wins",
+          "start": 490.79,
+          "end": 491.49
+        },
+        {
+          "text": ".",
+          "start": 491.49,
+          "end": 491.565
+        },
+        {
+          "text": ".",
+          "start": 491.565,
+          "end": 491.59
+        },
+        {
+          "text": ".",
+          "start": 491.59,
+          "end": 491.64
+        },
+        {
+          "text": "basically",
+          "start": 491.64,
+          "end": 492.19
+        },
+        {
+          "text": "never",
+          "start": 492.19,
+          "end": 492.74
+        },
+        {
+          "text": ",",
+          "start": 492.74,
+          "end": 492.877
+        },
+        {
+          "text": "unless",
+          "start": 492.877,
+          "end": 493.24
+        },
+        {
+          "text": "you",
+          "start": 493.24,
+          "end": 493.39
+        },
+        {
+          "text": "enjoy",
+          "start": 493.39,
+          "end": 493.803
+        },
+        {
+          "text": "debugging",
+          "start": 493.803,
+          "end": 494.34
+        },
+        {
+          "text": "GraphQL",
+          "start": 494.34,
+          "end": 495.015
+        },
+        {
+          "text": "middleware",
+          "start": 495.015,
+          "end": 495.577
+        },
+        {
+          "text": "at",
+          "start": 495.577,
+          "end": 495.752
+        },
+        {
+          "text": "2",
+          "start": 495.752,
+          "end": 496.028
+        },
+        {
+          "text": "AM",
+          "start": 496.028,
+          "end": 496.815
+        },
+        {
+          "text": ".",
+          "start": 496.815,
+          "end": 496.965
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "kind": "p",
+      "text": "For most people, most of the time: reach for Hasura first. Write the basic schema, wire in Hot Chocolate for custom logic, ship it. You'll spend your time on features that matter, not boilerplate that doesn't.",
+      "start": 497.285,
+      "end": 510.185,
+      "words": [
+        {
+          "text": "For",
+          "start": 497.56,
+          "end": 497.685
+        },
+        {
+          "text": "most",
+          "start": 497.685,
+          "end": 497.985
+        },
+        {
+          "text": "people",
+          "start": 497.985,
+          "end": 498.385
+        },
+        {
+          "text": ",",
+          "start": 498.385,
+          "end": 498.435
+        },
+        {
+          "text": "most",
+          "start": 498.435,
+          "end": 498.698
+        },
+        {
+          "text": "of",
+          "start": 498.698,
+          "end": 498.773
+        },
+        {
+          "text": "the",
+          "start": 498.773,
+          "end": 498.86
+        },
+        {
+          "text": "time",
+          "start": 498.86,
+          "end": 499.41
+        },
+        {
+          "text": ":",
+          "start": 499.41,
+          "end": 499.548
+        },
+        {
+          "text": "reach",
+          "start": 499.548,
+          "end": 499.835
+        },
+        {
+          "text": "for",
+          "start": 499.835,
+          "end": 499.96
+        },
+        {
+          "text": "Hasura",
+          "start": 499.96,
+          "end": 500.397
+        },
+        {
+          "text": "first",
+          "start": 500.397,
+          "end": 501.185
+        },
+        {
+          "text": ".",
+          "start": 501.185,
+          "end": 501.36
+        },
+        {
+          "text": "Write",
+          "start": 501.36,
+          "end": 501.685
+        },
+        {
+          "text": "the",
+          "start": 501.685,
+          "end": 501.785
+        },
+        {
+          "text": "basic",
+          "start": 501.785,
+          "end": 502.21
+        },
+        {
+          "text": "schema",
+          "start": 502.21,
+          "end": 502.785
+        },
+        {
+          "text": ",",
+          "start": 502.785,
+          "end": 502.923
+        },
+        {
+          "text": "wire",
+          "start": 502.923,
+          "end": 503.31
+        },
+        {
+          "text": "in",
+          "start": 503.31,
+          "end": 503.473
+        },
+        {
+          "text": "Hot",
+          "start": 503.473,
+          "end": 503.798
+        },
+        {
+          "text": "Chocolate",
+          "start": 503.798,
+          "end": 504.235
+        },
+        {
+          "text": "for",
+          "start": 504.235,
+          "end": 504.385
+        },
+        {
+          "text": "custom",
+          "start": 504.385,
+          "end": 504.76
+        },
+        {
+          "text": "logic",
+          "start": 504.76,
+          "end": 505.16
+        },
+        {
+          "text": ",",
+          "start": 505.16,
+          "end": 505.248
+        },
+        {
+          "text": "ship",
+          "start": 505.248,
+          "end": 505.485
+        },
+        {
+          "text": "it",
+          "start": 505.485,
+          "end": 506.01
+        },
+        {
+          "text": ".",
+          "start": 506.01,
+          "end": 506.148
+        },
+        {
+          "text": "You'll",
+          "start": 506.148,
+          "end": 506.31
+        },
+        {
+          "text": "spend",
+          "start": 506.31,
+          "end": 506.547
+        },
+        {
+          "text": "your",
+          "start": 506.547,
+          "end": 506.66
+        },
+        {
+          "text": "time",
+          "start": 506.66,
+          "end": 506.973
+        },
+        {
+          "text": "on",
+          "start": 506.973,
+          "end": 507.172
+        },
+        {
+          "text": "features",
+          "start": 507.172,
+          "end": 507.61
+        },
+        {
+          "text": "that",
+          "start": 507.61,
+          "end": 507.785
+        },
+        {
+          "text": "matter",
+          "start": 507.785,
+          "end": 508.31
+        },
+        {
+          "text": ",",
+          "start": 508.31,
+          "end": 508.41
+        },
+        {
+          "text": "not",
+          "start": 508.41,
+          "end": 508.635
+        },
+        {
+          "text": "boilerplate",
+          "start": 508.635,
+          "end": 509.185
+        },
+        {
+          "text": "that",
+          "start": 509.185,
+          "end": 509.36
+        },
+        {
+          "text": "doesn't",
+          "start": 509.36,
+          "end": 510.035
+        },
+        {
+          "text": ".",
+          "start": 510.035,
+          "end": 510.185
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 510.505,
+      "end": 512.33,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 510.805,
+          "end": 511.305
+        },
+        {
+          "text": "and",
+          "start": 511.305,
+          "end": 511.43
+        },
+        {
+          "text": "Further",
+          "start": 511.43,
+          "end": 511.705
+        },
+        {
+          "text": "Reading",
+          "start": 511.705,
+          "end": 512.33
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "kind": "li",
+      "text": "Getting Started with Hot Chocolate .NET GraphQL Server , Hasura",
+      "start": 512.775,
+      "end": 517.075,
+      "words": [
+        {
+          "text": "Getting",
+          "start": 513.075,
+          "end": 513.4
+        },
+        {
+          "text": "Started",
+          "start": 513.4,
+          "end": 513.762
+        },
+        {
+          "text": "with",
+          "start": 513.762,
+          "end": 513.9
+        },
+        {
+          "text": "Hot",
+          "start": 513.9,
+          "end": 514.125
+        },
+        {
+          "text": "Chocolate",
+          "start": 514.125,
+          "end": 514.887
+        },
+        {
+          "text": ".",
+          "start": 514.887,
+          "end": 514.975
+        },
+        {
+          "text": "NET",
+          "start": 514.975,
+          "end": 515.15
+        },
+        {
+          "text": "GraphQL",
+          "start": 515.15,
+          "end": 515.75
+        },
+        {
+          "text": "Server",
+          "start": 515.75,
+          "end": 516.25
+        },
+        {
+          "text": ",",
+          "start": 516.25,
+          "end": 516.325
+        },
+        {
+          "text": "Hasura",
+          "start": 516.325,
+          "end": 517.075
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "kind": "li",
+      "text": "GraphQL Server with .NET , Hasura Tutorial",
+      "start": 517.545,
+      "end": 520.67,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 517.82,
+          "end": 518.407
+        },
+        {
+          "text": "Server",
+          "start": 518.407,
+          "end": 518.657
+        },
+        {
+          "text": "with",
+          "start": 518.657,
+          "end": 518.82
+        },
+        {
+          "text": ".NET",
+          "start": 518.82,
+          "end": 519.27
+        },
+        {
+          "text": ",",
+          "start": 519.27,
+          "end": 519.345
+        },
+        {
+          "text": "Hasura",
+          "start": 519.345,
+          "end": 519.795
+        },
+        {
+          "text": "Tutorial",
+          "start": 519.795,
+          "end": 520.67
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "kind": "li",
+      "text": "Hasura use cases overview",
+      "start": 521.09,
+      "end": 523.14,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 521.365,
+          "end": 521.79
+        },
+        {
+          "text": "use",
+          "start": 521.79,
+          "end": 522.04
+        },
+        {
+          "text": "cases",
+          "start": 522.04,
+          "end": 522.49
+        },
+        {
+          "text": "overview",
+          "start": 522.49,
+          "end": 523.14
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "kind": "li",
+      "text": "Why You Should Use Hasura , Hasura Blog",
+      "start": 523.66,
+      "end": 526.335,
+      "words": [
+        {
+          "text": "Why",
+          "start": 523.96,
+          "end": 524.16
+        },
+        {
+          "text": "You",
+          "start": 524.16,
+          "end": 524.285
+        },
+        {
+          "text": "Should",
+          "start": 524.285,
+          "end": 524.435
+        },
+        {
+          "text": "Use",
+          "start": 524.435,
+          "end": 524.61
+        },
+        {
+          "text": "Hasura",
+          "start": 524.61,
+          "end": 525.223
+        },
+        {
+          "text": ",",
+          "start": 525.223,
+          "end": 525.31
+        },
+        {
+          "text": "Hasura",
+          "start": 525.31,
+          "end": 525.735
+        },
+        {
+          "text": "Blog",
+          "start": 525.735,
+          "end": 526.335
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "kind": "li",
+      "text": "Hasura explained , Restack",
+      "start": 526.88,
+      "end": 528.88,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 527.155,
+          "end": 527.542
+        },
+        {
+          "text": "explained",
+          "start": 527.542,
+          "end": 528.117
+        },
+        {
+          "text": ",",
+          "start": 528.117,
+          "end": 528.18
+        },
+        {
+          "text": "Restack",
+          "start": 528.18,
+          "end": 528.88
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "kind": "li",
+      "text": "Hasura v3 Course Introduction",
+      "start": 529.375,
+      "end": 531.8,
+      "words": [
+        {
+          "text": "Hasura",
+          "start": 529.65,
+          "end": 530.075
+        },
+        {
+          "text": "v3",
+          "start": 530.075,
+          "end": 530.6
+        },
+        {
+          "text": "Course",
+          "start": 530.6,
+          "end": 530.887
+        },
+        {
+          "text": "Introduction",
+          "start": 530.887,
+          "end": 531.8
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "kind": "li",
+      "text": "Comparing GraphQL platforms , Hasura Blog",
+      "start": 532.245,
+      "end": 535.57,
+      "words": [
+        {
+          "text": "Comparing",
+          "start": 532.52,
+          "end": 532.97
+        },
+        {
+          "text": "GraphQL",
+          "start": 532.97,
+          "end": 533.57
+        },
+        {
+          "text": "platforms",
+          "start": 533.57,
+          "end": 534.408
+        },
+        {
+          "text": ",",
+          "start": 534.408,
+          "end": 534.495
+        },
+        {
+          "text": "Hasura",
+          "start": 534.495,
+          "end": 534.945
+        },
+        {
+          "text": "Blog",
+          "start": 534.945,
+          "end": 535.57
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "kind": "li",
+      "text": "Guide to GraphQL , graphjin wiki",
+      "start": 536.065,
+      "end": 538.565,
+      "words": [
+        {
+          "text": "Guide",
+          "start": 536.365,
+          "end": 536.615
+        },
+        {
+          "text": "to",
+          "start": 536.615,
+          "end": 536.703
+        },
+        {
+          "text": "GraphQL",
+          "start": 536.703,
+          "end": 537.503
+        },
+        {
+          "text": ",",
+          "start": 537.503,
+          "end": 537.59
+        },
+        {
+          "text": "graphjin",
+          "start": 537.59,
+          "end": 538.09
+        },
+        {
+          "text": "wiki",
+          "start": 538.09,
+          "end": 538.565
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "kind": "p",
+      "text": "See also: Hasura with Graph API and Hot Chocolate (Sep 2024) · Modernizing Your Skills: Embracing GraphQL (Sep 2024)",
+      "start": 539.085,
+      "end": 549.36,
+      "words": [
+        {
+          "text": "See",
+          "start": 539.36,
+          "end": 539.535
+        },
+        {
+          "text": "also",
+          "start": 539.535,
+          "end": 540.16
+        },
+        {
+          "text": ":",
+          "start": 540.16,
+          "end": 540.298
+        },
+        {
+          "text": "Hasura",
+          "start": 540.298,
+          "end": 540.76
+        },
+        {
+          "text": "with",
+          "start": 540.76,
+          "end": 540.935
+        },
+        {
+          "text": "Graph",
+          "start": 540.935,
+          "end": 541.26
+        },
+        {
+          "text": "API",
+          "start": 541.26,
+          "end": 541.96
+        },
+        {
+          "text": "and",
+          "start": 541.96,
+          "end": 542.085
+        },
+        {
+          "text": "Hot",
+          "start": 542.085,
+          "end": 542.347
+        },
+        {
+          "text": "Chocolate",
+          "start": 542.347,
+          "end": 542.997
+        },
+        {
+          "text": "(",
+          "start": 542.997,
+          "end": 543.085
+        },
+        {
+          "text": "Sep",
+          "start": 543.085,
+          "end": 543.335
+        },
+        {
+          "text": "2024",
+          "start": 543.335,
+          "end": 544.26
+        },
+        {
+          "text": ")",
+          "start": 544.26,
+          "end": 544.41
+        },
+        {
+          "text": "Modernizing",
+          "start": 544.46,
+          "end": 545.073
+        },
+        {
+          "text": "Your",
+          "start": 545.073,
+          "end": 545.235
+        },
+        {
+          "text": "Skills",
+          "start": 545.235,
+          "end": 546.085
+        },
+        {
+          "text": ":",
+          "start": 546.085,
+          "end": 546.185
+        },
+        {
+          "text": "Embracing",
+          "start": 546.185,
+          "end": 546.785
+        },
+        {
+          "text": "GraphQL",
+          "start": 546.785,
+          "end": 547.673
+        },
+        {
+          "text": "(",
+          "start": 547.673,
+          "end": 547.76
+        },
+        {
+          "text": "Sep",
+          "start": 547.76,
+          "end": 548.01
+        },
+        {
+          "text": "2024",
+          "start": 548.01,
+          "end": 549.36
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

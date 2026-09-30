@@ -1,0 +1,7024 @@
+{
+  "slug": "selenium-page-locator-strategies",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 466.415,
+  "contentHash": "f9dc345a591981a1b9abe5e33ee9e243a97371f7adf6745e4f0148a94de4acd9",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Selenium Page Locator Strategies and NoSuchElementException",
+      "start": 0.0,
+      "end": 4.45,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 0.3,
+          "end": 0.825
+        },
+        {
+          "text": "Page",
+          "start": 0.825,
+          "end": 1.288
+        },
+        {
+          "text": "Locator",
+          "start": 1.288,
+          "end": 1.775
+        },
+        {
+          "text": "Strategies",
+          "start": 1.775,
+          "end": 2.663
+        },
+        {
+          "text": "and",
+          "start": 2.663,
+          "end": 2.8
+        },
+        {
+          "text": "NoSuchElementException",
+          "start": 2.8,
+          "end": 4.45
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "I've spent way too many 2 AM nights hunting for a button that the test swears doesn't exist , even though I can see it on my screen. NoSuchElementException. The bane of every automation engineer. And nine times out of ten, the culprit isn't the button. It's how I asked for it.",
+      "start": 4.92,
+      "end": 22.495,
+      "words": [
+        {
+          "text": "I've",
+          "start": 5.17,
+          "end": 5.32
+        },
+        {
+          "text": "spent",
+          "start": 5.32,
+          "end": 5.57
+        },
+        {
+          "text": "way",
+          "start": 5.57,
+          "end": 5.845
+        },
+        {
+          "text": "too",
+          "start": 5.845,
+          "end": 6.095
+        },
+        {
+          "text": "many",
+          "start": 6.095,
+          "end": 6.357
+        },
+        {
+          "text": "2",
+          "start": 6.357,
+          "end": 6.633
+        },
+        {
+          "text": "AM",
+          "start": 6.633,
+          "end": 7.045
+        },
+        {
+          "text": "nights",
+          "start": 7.045,
+          "end": 7.37
+        },
+        {
+          "text": "hunting",
+          "start": 7.37,
+          "end": 7.795
+        },
+        {
+          "text": "for",
+          "start": 7.795,
+          "end": 7.907
+        },
+        {
+          "text": "a",
+          "start": 7.907,
+          "end": 7.97
+        },
+        {
+          "text": "button",
+          "start": 7.97,
+          "end": 8.32
+        },
+        {
+          "text": "that",
+          "start": 8.32,
+          "end": 8.433
+        },
+        {
+          "text": "the",
+          "start": 8.433,
+          "end": 8.532
+        },
+        {
+          "text": "test",
+          "start": 8.532,
+          "end": 8.933
+        },
+        {
+          "text": "swears",
+          "start": 8.933,
+          "end": 9.345
+        },
+        {
+          "text": "doesn't",
+          "start": 9.345,
+          "end": 9.633
+        },
+        {
+          "text": "exist",
+          "start": 9.633,
+          "end": 10.445
+        },
+        {
+          "text": ",",
+          "start": 10.445,
+          "end": 10.57
+        },
+        {
+          "text": "even",
+          "start": 10.57,
+          "end": 10.845
+        },
+        {
+          "text": "though",
+          "start": 10.845,
+          "end": 11.02
+        },
+        {
+          "text": "I",
+          "start": 11.02,
+          "end": 11.145
+        },
+        {
+          "text": "can",
+          "start": 11.145,
+          "end": 11.332
+        },
+        {
+          "text": "see",
+          "start": 11.332,
+          "end": 11.545
+        },
+        {
+          "text": "it",
+          "start": 11.545,
+          "end": 11.657
+        },
+        {
+          "text": "on",
+          "start": 11.657,
+          "end": 11.758
+        },
+        {
+          "text": "my",
+          "start": 11.758,
+          "end": 11.933
+        },
+        {
+          "text": "screen",
+          "start": 11.933,
+          "end": 12.82
+        },
+        {
+          "text": ".",
+          "start": 12.82,
+          "end": 12.995
+        },
+        {
+          "text": "NoSuchElementException",
+          "start": 12.995,
+          "end": 14.695
+        },
+        {
+          "text": ".",
+          "start": 14.695,
+          "end": 14.795
+        },
+        {
+          "text": "The",
+          "start": 14.795,
+          "end": 14.932
+        },
+        {
+          "text": "bane",
+          "start": 14.932,
+          "end": 15.295
+        },
+        {
+          "text": "of",
+          "start": 15.295,
+          "end": 15.457
+        },
+        {
+          "text": "every",
+          "start": 15.457,
+          "end": 15.807
+        },
+        {
+          "text": "automation",
+          "start": 15.807,
+          "end": 16.47
+        },
+        {
+          "text": "engineer",
+          "start": 16.47,
+          "end": 17.345
+        },
+        {
+          "text": ".",
+          "start": 17.345,
+          "end": 17.445
+        },
+        {
+          "text": "And",
+          "start": 17.445,
+          "end": 17.633
+        },
+        {
+          "text": "nine",
+          "start": 17.633,
+          "end": 17.957
+        },
+        {
+          "text": "times",
+          "start": 17.957,
+          "end": 18.37
+        },
+        {
+          "text": "out",
+          "start": 18.37,
+          "end": 18.508
+        },
+        {
+          "text": "of",
+          "start": 18.508,
+          "end": 18.633
+        },
+        {
+          "text": "ten",
+          "start": 18.633,
+          "end": 19.145
+        },
+        {
+          "text": ",",
+          "start": 19.145,
+          "end": 19.245
+        },
+        {
+          "text": "the",
+          "start": 19.245,
+          "end": 19.345
+        },
+        {
+          "text": "culprit",
+          "start": 19.345,
+          "end": 19.82
+        },
+        {
+          "text": "isn't",
+          "start": 19.82,
+          "end": 20.057
+        },
+        {
+          "text": "the",
+          "start": 20.057,
+          "end": 20.145
+        },
+        {
+          "text": "button",
+          "start": 20.145,
+          "end": 20.82
+        },
+        {
+          "text": ".",
+          "start": 20.82,
+          "end": 20.92
+        },
+        {
+          "text": "It's",
+          "start": 20.92,
+          "end": 21.145
+        },
+        {
+          "text": "how",
+          "start": 21.145,
+          "end": 21.32
+        },
+        {
+          "text": "I",
+          "start": 21.32,
+          "end": 21.47
+        },
+        {
+          "text": "asked",
+          "start": 21.47,
+          "end": 21.77
+        },
+        {
+          "text": "for",
+          "start": 21.77,
+          "end": 21.92
+        },
+        {
+          "text": "it",
+          "start": 21.92,
+          "end": 22.345
+        },
+        {
+          "text": ".",
+          "start": 22.345,
+          "end": 22.495
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "This post is about the right way to ask the DOM for elements. It's the difference between a test suite that survives UI changes and one that breaks every sprint.",
+      "start": 22.815,
+      "end": 33.065,
+      "words": [
+        {
+          "text": "This",
+          "start": 23.09,
+          "end": 23.29
+        },
+        {
+          "text": "post",
+          "start": 23.29,
+          "end": 23.69
+        },
+        {
+          "text": "is",
+          "start": 23.69,
+          "end": 23.802
+        },
+        {
+          "text": "about",
+          "start": 23.802,
+          "end": 24.052
+        },
+        {
+          "text": "the",
+          "start": 24.052,
+          "end": 24.177
+        },
+        {
+          "text": "right",
+          "start": 24.177,
+          "end": 24.49
+        },
+        {
+          "text": "way",
+          "start": 24.49,
+          "end": 24.715
+        },
+        {
+          "text": "to",
+          "start": 24.715,
+          "end": 24.852
+        },
+        {
+          "text": "ask",
+          "start": 24.852,
+          "end": 25.14
+        },
+        {
+          "text": "the",
+          "start": 25.14,
+          "end": 25.24
+        },
+        {
+          "text": "DOM",
+          "start": 25.24,
+          "end": 25.565
+        },
+        {
+          "text": "for",
+          "start": 25.565,
+          "end": 25.69
+        },
+        {
+          "text": "elements",
+          "start": 25.69,
+          "end": 26.64
+        },
+        {
+          "text": ".",
+          "start": 26.64,
+          "end": 26.765
+        },
+        {
+          "text": "It's",
+          "start": 26.765,
+          "end": 27.015
+        },
+        {
+          "text": "the",
+          "start": 27.015,
+          "end": 27.115
+        },
+        {
+          "text": "difference",
+          "start": 27.115,
+          "end": 27.565
+        },
+        {
+          "text": "between",
+          "start": 27.565,
+          "end": 27.877
+        },
+        {
+          "text": "a",
+          "start": 27.877,
+          "end": 27.977
+        },
+        {
+          "text": "test",
+          "start": 27.977,
+          "end": 28.352
+        },
+        {
+          "text": "suite",
+          "start": 28.352,
+          "end": 28.927
+        },
+        {
+          "text": "that",
+          "start": 28.927,
+          "end": 29.115
+        },
+        {
+          "text": "survives",
+          "start": 29.115,
+          "end": 29.665
+        },
+        {
+          "text": "UI",
+          "start": 29.665,
+          "end": 29.952
+        },
+        {
+          "text": "changes",
+          "start": 29.952,
+          "end": 30.84
+        },
+        {
+          "text": "and",
+          "start": 30.84,
+          "end": 31.027
+        },
+        {
+          "text": "one",
+          "start": 31.027,
+          "end": 31.315
+        },
+        {
+          "text": "that",
+          "start": 31.315,
+          "end": 31.465
+        },
+        {
+          "text": "breaks",
+          "start": 31.465,
+          "end": 31.877
+        },
+        {
+          "text": "every",
+          "start": 31.877,
+          "end": 32.227
+        },
+        {
+          "text": "sprint",
+          "start": 32.227,
+          "end": 32.915
+        },
+        {
+          "text": ".",
+          "start": 32.915,
+          "end": 33.065
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "Why Locator Choice Matters",
+      "start": 33.385,
+      "end": 35.31,
+      "words": [
+        {
+          "text": "Why",
+          "start": 33.66,
+          "end": 33.835
+        },
+        {
+          "text": "Locator",
+          "start": 33.835,
+          "end": 34.31
+        },
+        {
+          "text": "Choice",
+          "start": 34.31,
+          "end": 34.61
+        },
+        {
+          "text": "Matters",
+          "start": 34.61,
+          "end": 35.31
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Think of the DOM as a filing cabinet. XPath lets you search by ancestry , \"go up to the grandparent, then down to the third cousin.\" CSS searches forward only , \"start from the top drawer and follow a path.\" Both find the file, but one is faster and more stable.",
+      "start": 35.755,
+      "end": 52.73,
+      "words": [
+        {
+          "text": "Think",
+          "start": 36.03,
+          "end": 36.193
+        },
+        {
+          "text": "of",
+          "start": 36.193,
+          "end": 36.267
+        },
+        {
+          "text": "the",
+          "start": 36.267,
+          "end": 36.392
+        },
+        {
+          "text": "DOM",
+          "start": 36.392,
+          "end": 36.855
+        },
+        {
+          "text": "as",
+          "start": 36.855,
+          "end": 36.967
+        },
+        {
+          "text": "a",
+          "start": 36.967,
+          "end": 37.067
+        },
+        {
+          "text": "filing",
+          "start": 37.067,
+          "end": 37.505
+        },
+        {
+          "text": "cabinet",
+          "start": 37.505,
+          "end": 38.355
+        },
+        {
+          "text": ".",
+          "start": 38.355,
+          "end": 38.492
+        },
+        {
+          "text": "XPath",
+          "start": 38.492,
+          "end": 39.055
+        },
+        {
+          "text": "lets",
+          "start": 39.055,
+          "end": 39.268
+        },
+        {
+          "text": "you",
+          "start": 39.268,
+          "end": 39.393
+        },
+        {
+          "text": "search",
+          "start": 39.393,
+          "end": 39.705
+        },
+        {
+          "text": "by",
+          "start": 39.705,
+          "end": 39.88
+        },
+        {
+          "text": "ancestry",
+          "start": 39.88,
+          "end": 40.742
+        },
+        {
+          "text": ",",
+          "start": 40.742,
+          "end": 40.83
+        },
+        {
+          "text": "\"",
+          "start": 40.83,
+          "end": 40.88
+        },
+        {
+          "text": "go",
+          "start": 40.88,
+          "end": 41.018
+        },
+        {
+          "text": "up",
+          "start": 41.018,
+          "end": 41.18
+        },
+        {
+          "text": "to",
+          "start": 41.18,
+          "end": 41.268
+        },
+        {
+          "text": "the",
+          "start": 41.268,
+          "end": 41.355
+        },
+        {
+          "text": "grandparent",
+          "start": 41.355,
+          "end": 42.03
+        },
+        {
+          "text": ",",
+          "start": 42.03,
+          "end": 42.105
+        },
+        {
+          "text": "then",
+          "start": 42.105,
+          "end": 42.343
+        },
+        {
+          "text": "down",
+          "start": 42.343,
+          "end": 42.705
+        },
+        {
+          "text": "to",
+          "start": 42.705,
+          "end": 42.792
+        },
+        {
+          "text": "the",
+          "start": 42.792,
+          "end": 42.917
+        },
+        {
+          "text": "third",
+          "start": 42.917,
+          "end": 43.205
+        },
+        {
+          "text": "cousin",
+          "start": 43.205,
+          "end": 44.055
+        },
+        {
+          "text": ".",
+          "start": 44.055,
+          "end": 44.18
+        },
+        {
+          "text": "\"",
+          "start": 44.18,
+          "end": 44.267
+        },
+        {
+          "text": "CSS",
+          "start": 44.267,
+          "end": 44.955
+        },
+        {
+          "text": "searches",
+          "start": 44.955,
+          "end": 45.355
+        },
+        {
+          "text": "forward",
+          "start": 45.355,
+          "end": 45.755
+        },
+        {
+          "text": "only",
+          "start": 45.755,
+          "end": 46.317
+        },
+        {
+          "text": ",",
+          "start": 46.317,
+          "end": 46.405
+        },
+        {
+          "text": "\"",
+          "start": 46.405,
+          "end": 46.48
+        },
+        {
+          "text": "start",
+          "start": 46.48,
+          "end": 46.743
+        },
+        {
+          "text": "from",
+          "start": 46.743,
+          "end": 46.868
+        },
+        {
+          "text": "the",
+          "start": 46.868,
+          "end": 46.955
+        },
+        {
+          "text": "top",
+          "start": 46.955,
+          "end": 47.267
+        },
+        {
+          "text": "drawer",
+          "start": 47.267,
+          "end": 47.655
+        },
+        {
+          "text": "and",
+          "start": 47.655,
+          "end": 47.792
+        },
+        {
+          "text": "follow",
+          "start": 47.792,
+          "end": 48.155
+        },
+        {
+          "text": "a",
+          "start": 48.155,
+          "end": 48.23
+        },
+        {
+          "text": "path",
+          "start": 48.23,
+          "end": 49.005
+        },
+        {
+          "text": ".",
+          "start": 49.005,
+          "end": 49.105
+        },
+        {
+          "text": "\"",
+          "start": 49.105,
+          "end": 49.155
+        },
+        {
+          "text": "Both",
+          "start": 49.155,
+          "end": 49.43
+        },
+        {
+          "text": "find",
+          "start": 49.43,
+          "end": 49.667
+        },
+        {
+          "text": "the",
+          "start": 49.667,
+          "end": 49.767
+        },
+        {
+          "text": "file",
+          "start": 49.767,
+          "end": 50.305
+        },
+        {
+          "text": ",",
+          "start": 50.305,
+          "end": 50.38
+        },
+        {
+          "text": "but",
+          "start": 50.38,
+          "end": 50.53
+        },
+        {
+          "text": "one",
+          "start": 50.53,
+          "end": 50.705
+        },
+        {
+          "text": "is",
+          "start": 50.705,
+          "end": 50.892
+        },
+        {
+          "text": "faster",
+          "start": 50.892,
+          "end": 51.468
+        },
+        {
+          "text": "and",
+          "start": 51.468,
+          "end": 51.605
+        },
+        {
+          "text": "more",
+          "start": 51.605,
+          "end": 51.83
+        },
+        {
+          "text": "stable",
+          "start": 51.83,
+          "end": 52.58
+        },
+        {
+          "text": ".",
+          "start": 52.58,
+          "end": 52.73
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "Poor locator strategy means:",
+      "start": 53.05,
+      "end": 55.4,
+      "words": [
+        {
+          "text": "Poor",
+          "start": 53.325,
+          "end": 53.55
+        },
+        {
+          "text": "locator",
+          "start": 53.55,
+          "end": 54.05
+        },
+        {
+          "text": "strategy",
+          "start": 54.05,
+          "end": 54.575
+        },
+        {
+          "text": "means",
+          "start": 54.575,
+          "end": 55.25
+        },
+        {
+          "text": ":",
+          "start": 55.25,
+          "end": 55.4
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "Tests fail mysteriously when the UI shifts (a real burden early in a project)",
+      "start": 55.72,
+      "end": 61.02,
+      "words": [
+        {
+          "text": "Tests",
+          "start": 55.995,
+          "end": 56.345
+        },
+        {
+          "text": "fail",
+          "start": 56.345,
+          "end": 56.607
+        },
+        {
+          "text": "mysteriously",
+          "start": 56.607,
+          "end": 57.282
+        },
+        {
+          "text": "when",
+          "start": 57.282,
+          "end": 57.407
+        },
+        {
+          "text": "the",
+          "start": 57.407,
+          "end": 57.495
+        },
+        {
+          "text": "UI",
+          "start": 57.495,
+          "end": 57.895
+        },
+        {
+          "text": "shifts",
+          "start": 57.895,
+          "end": 58.657
+        },
+        {
+          "text": "(",
+          "start": 58.657,
+          "end": 58.745
+        },
+        {
+          "text": "a",
+          "start": 58.745,
+          "end": 58.832
+        },
+        {
+          "text": "real",
+          "start": 58.832,
+          "end": 59.145
+        },
+        {
+          "text": "burden",
+          "start": 59.145,
+          "end": 59.532
+        },
+        {
+          "text": "early",
+          "start": 59.532,
+          "end": 59.895
+        },
+        {
+          "text": "in",
+          "start": 59.895,
+          "end": 59.982
+        },
+        {
+          "text": "a",
+          "start": 59.982,
+          "end": 60.045
+        },
+        {
+          "text": "project",
+          "start": 60.045,
+          "end": 60.87
+        },
+        {
+          "text": ")",
+          "start": 60.87,
+          "end": 61.02
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Performance degrades , XPath searches are expensive on big DOMs",
+      "start": 61.34,
+      "end": 65.84,
+      "words": [
+        {
+          "text": "Performance",
+          "start": 61.59,
+          "end": 62.09
+        },
+        {
+          "text": "degrades",
+          "start": 62.09,
+          "end": 62.902
+        },
+        {
+          "text": ",",
+          "start": 62.902,
+          "end": 63.015
+        },
+        {
+          "text": "XPath",
+          "start": 63.015,
+          "end": 63.515
+        },
+        {
+          "text": "searches",
+          "start": 63.515,
+          "end": 63.94
+        },
+        {
+          "text": "are",
+          "start": 63.94,
+          "end": 64.065
+        },
+        {
+          "text": "expensive",
+          "start": 64.065,
+          "end": 64.715
+        },
+        {
+          "text": "on",
+          "start": 64.715,
+          "end": 64.915
+        },
+        {
+          "text": "big",
+          "start": 64.915,
+          "end": 65.14
+        },
+        {
+          "text": "DOMs",
+          "start": 65.14,
+          "end": 65.84
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Maintenance becomes a nightmare , update the HTML, hunt through 50 tests to find the broken selector",
+      "start": 66.285,
+      "end": 73.085,
+      "words": [
+        {
+          "text": "Maintenance",
+          "start": 66.585,
+          "end": 67.085
+        },
+        {
+          "text": "becomes",
+          "start": 67.085,
+          "end": 67.448
+        },
+        {
+          "text": "a",
+          "start": 67.448,
+          "end": 67.51
+        },
+        {
+          "text": "nightmare",
+          "start": 67.51,
+          "end": 68.31
+        },
+        {
+          "text": ",",
+          "start": 68.31,
+          "end": 68.435
+        },
+        {
+          "text": "update",
+          "start": 68.435,
+          "end": 68.798
+        },
+        {
+          "text": "the",
+          "start": 68.798,
+          "end": 68.923
+        },
+        {
+          "text": "HTML",
+          "start": 68.923,
+          "end": 70.01
+        },
+        {
+          "text": ",",
+          "start": 70.01,
+          "end": 70.122
+        },
+        {
+          "text": "hunt",
+          "start": 70.122,
+          "end": 70.41
+        },
+        {
+          "text": "through",
+          "start": 70.41,
+          "end": 70.597
+        },
+        {
+          "text": "50",
+          "start": 70.597,
+          "end": 70.923
+        },
+        {
+          "text": "tests",
+          "start": 70.923,
+          "end": 71.41
+        },
+        {
+          "text": "to",
+          "start": 71.41,
+          "end": 71.535
+        },
+        {
+          "text": "find",
+          "start": 71.535,
+          "end": 71.798
+        },
+        {
+          "text": "the",
+          "start": 71.798,
+          "end": 71.885
+        },
+        {
+          "text": "broken",
+          "start": 71.885,
+          "end": 72.285
+        },
+        {
+          "text": "selector",
+          "start": 72.285,
+          "end": 73.085
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Synchronization issues creep in , you're waiting for something you can't even reliably find",
+      "start": 73.555,
+      "end": 78.88,
+      "words": [
+        {
+          "text": "Synchronization",
+          "start": 73.855,
+          "end": 74.63
+        },
+        {
+          "text": "issues",
+          "start": 74.63,
+          "end": 75.055
+        },
+        {
+          "text": "creep",
+          "start": 75.055,
+          "end": 75.355
+        },
+        {
+          "text": "in",
+          "start": 75.355,
+          "end": 75.867
+        },
+        {
+          "text": ",",
+          "start": 75.867,
+          "end": 75.955
+        },
+        {
+          "text": "you're",
+          "start": 75.955,
+          "end": 76.13
+        },
+        {
+          "text": "waiting",
+          "start": 76.13,
+          "end": 76.53
+        },
+        {
+          "text": "for",
+          "start": 76.53,
+          "end": 76.655
+        },
+        {
+          "text": "something",
+          "start": 76.655,
+          "end": 76.93
+        },
+        {
+          "text": "you",
+          "start": 76.93,
+          "end": 77.067
+        },
+        {
+          "text": "can't",
+          "start": 77.067,
+          "end": 77.38
+        },
+        {
+          "text": "even",
+          "start": 77.38,
+          "end": 77.655
+        },
+        {
+          "text": "reliably",
+          "start": 77.655,
+          "end": 78.255
+        },
+        {
+          "text": "find",
+          "start": 78.255,
+          "end": 78.88
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "The right choice, made once and encoded in page objects, pays dividends for years.",
+      "start": 79.35,
+      "end": 84.725,
+      "words": [
+        {
+          "text": "The",
+          "start": 79.6,
+          "end": 79.7
+        },
+        {
+          "text": "right",
+          "start": 79.7,
+          "end": 79.987
+        },
+        {
+          "text": "choice",
+          "start": 79.987,
+          "end": 80.425
+        },
+        {
+          "text": ",",
+          "start": 80.425,
+          "end": 80.475
+        },
+        {
+          "text": "made",
+          "start": 80.475,
+          "end": 80.7
+        },
+        {
+          "text": "once",
+          "start": 80.7,
+          "end": 81.0
+        },
+        {
+          "text": "and",
+          "start": 81.0,
+          "end": 81.112
+        },
+        {
+          "text": "encoded",
+          "start": 81.112,
+          "end": 81.55
+        },
+        {
+          "text": "in",
+          "start": 81.55,
+          "end": 81.7
+        },
+        {
+          "text": "page",
+          "start": 81.7,
+          "end": 82.0
+        },
+        {
+          "text": "objects",
+          "start": 82.0,
+          "end": 82.7
+        },
+        {
+          "text": ",",
+          "start": 82.7,
+          "end": 82.837
+        },
+        {
+          "text": "pays",
+          "start": 82.837,
+          "end": 83.2
+        },
+        {
+          "text": "dividends",
+          "start": 83.2,
+          "end": 83.7
+        },
+        {
+          "text": "for",
+          "start": 83.7,
+          "end": 83.825
+        },
+        {
+          "text": "years",
+          "start": 83.825,
+          "end": 84.575
+        },
+        {
+          "text": ".",
+          "start": 84.575,
+          "end": 84.725
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "h2",
+      "text": "Finding Elements , Your Preference Ladder",
+      "start": 85.045,
+      "end": 87.67,
+      "words": [
+        {
+          "text": "Finding",
+          "start": 85.345,
+          "end": 85.745
+        },
+        {
+          "text": "Elements",
+          "start": 85.745,
+          "end": 86.395
+        },
+        {
+          "text": ",",
+          "start": 86.395,
+          "end": 86.47
+        },
+        {
+          "text": "Your",
+          "start": 86.47,
+          "end": 86.62
+        },
+        {
+          "text": "Preference",
+          "start": 86.62,
+          "end": 87.07
+        },
+        {
+          "text": "Ladder",
+          "start": 87.07,
+          "end": 87.67
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "You've got choices. Each has a tradeoff.",
+      "start": 88.165,
+      "end": 90.965,
+      "words": [
+        {
+          "text": "You've",
+          "start": 88.44,
+          "end": 88.59
+        },
+        {
+          "text": "got",
+          "start": 88.59,
+          "end": 88.79
+        },
+        {
+          "text": "choices",
+          "start": 88.79,
+          "end": 89.465
+        },
+        {
+          "text": ".",
+          "start": 89.465,
+          "end": 89.565
+        },
+        {
+          "text": "Each",
+          "start": 89.565,
+          "end": 89.815
+        },
+        {
+          "text": "has",
+          "start": 89.815,
+          "end": 89.977
+        },
+        {
+          "text": "a",
+          "start": 89.977,
+          "end": 90.04
+        },
+        {
+          "text": "tradeoff",
+          "start": 90.04,
+          "end": 90.815
+        },
+        {
+          "text": ".",
+          "start": 90.815,
+          "end": 90.965
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h3",
+      "text": "The Selenium 3.0 Classics",
+      "start": 91.285,
+      "end": 93.26,
+      "words": [
+        {
+          "text": "The",
+          "start": 91.56,
+          "end": 91.66
+        },
+        {
+          "text": "Selenium",
+          "start": 91.66,
+          "end": 92.173
+        },
+        {
+          "text": "3.0",
+          "start": 92.173,
+          "end": 92.435
+        },
+        {
+          "text": "Classics",
+          "start": 92.435,
+          "end": 93.26
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "ID , If it exists, use it. IDs are unique, static, and the browser finds them instantly.",
+      "start": 93.705,
+      "end": 100.155,
+      "words": [
+        {
+          "text": "ID",
+          "start": 94.005,
+          "end": 94.442
+        },
+        {
+          "text": ",",
+          "start": 94.442,
+          "end": 94.492
+        },
+        {
+          "text": "If",
+          "start": 94.492,
+          "end": 94.617
+        },
+        {
+          "text": "it",
+          "start": 94.617,
+          "end": 94.692
+        },
+        {
+          "text": "exists",
+          "start": 94.692,
+          "end": 95.18
+        },
+        {
+          "text": ",",
+          "start": 95.18,
+          "end": 95.23
+        },
+        {
+          "text": "use",
+          "start": 95.23,
+          "end": 95.493
+        },
+        {
+          "text": "it",
+          "start": 95.493,
+          "end": 96.005
+        },
+        {
+          "text": ".",
+          "start": 96.005,
+          "end": 96.143
+        },
+        {
+          "text": "IDs",
+          "start": 96.143,
+          "end": 96.655
+        },
+        {
+          "text": "are",
+          "start": 96.655,
+          "end": 96.755
+        },
+        {
+          "text": "unique",
+          "start": 96.755,
+          "end": 97.205
+        },
+        {
+          "text": ",",
+          "start": 97.205,
+          "end": 97.292
+        },
+        {
+          "text": "static",
+          "start": 97.292,
+          "end": 97.93
+        },
+        {
+          "text": ",",
+          "start": 97.93,
+          "end": 98.03
+        },
+        {
+          "text": "and",
+          "start": 98.03,
+          "end": 98.142
+        },
+        {
+          "text": "the",
+          "start": 98.142,
+          "end": 98.23
+        },
+        {
+          "text": "browser",
+          "start": 98.23,
+          "end": 98.68
+        },
+        {
+          "text": "finds",
+          "start": 98.68,
+          "end": 98.968
+        },
+        {
+          "text": "them",
+          "start": 98.968,
+          "end": 99.13
+        },
+        {
+          "text": "instantly",
+          "start": 99.13,
+          "end": 100.005
+        },
+        {
+          "text": ".",
+          "start": 100.005,
+          "end": 100.155
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Class Name , Common, stable, and fast. Classes don't change as often as DOM structure.",
+      "start": 100.475,
+      "end": 106.475,
+      "words": [
+        {
+          "text": "Class",
+          "start": 100.725,
+          "end": 101.05
+        },
+        {
+          "text": "Name",
+          "start": 101.05,
+          "end": 101.4
+        },
+        {
+          "text": ",",
+          "start": 101.4,
+          "end": 101.475
+        },
+        {
+          "text": "Common",
+          "start": 101.475,
+          "end": 102.0
+        },
+        {
+          "text": ",",
+          "start": 102.0,
+          "end": 102.112
+        },
+        {
+          "text": "stable",
+          "start": 102.112,
+          "end": 102.525
+        },
+        {
+          "text": ",",
+          "start": 102.525,
+          "end": 102.563
+        },
+        {
+          "text": "and",
+          "start": 102.563,
+          "end": 102.688
+        },
+        {
+          "text": "fast",
+          "start": 102.688,
+          "end": 103.4
+        },
+        {
+          "text": ".",
+          "start": 103.4,
+          "end": 103.563
+        },
+        {
+          "text": "Classes",
+          "start": 103.563,
+          "end": 104.025
+        },
+        {
+          "text": "don't",
+          "start": 104.025,
+          "end": 104.263
+        },
+        {
+          "text": "change",
+          "start": 104.263,
+          "end": 104.587
+        },
+        {
+          "text": "as",
+          "start": 104.587,
+          "end": 104.738
+        },
+        {
+          "text": "often",
+          "start": 104.738,
+          "end": 105.125
+        },
+        {
+          "text": "as",
+          "start": 105.125,
+          "end": 105.275
+        },
+        {
+          "text": "DOM",
+          "start": 105.275,
+          "end": 105.55
+        },
+        {
+          "text": "structure",
+          "start": 105.55,
+          "end": 106.325
+        },
+        {
+          "text": ".",
+          "start": 106.325,
+          "end": 106.475
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "CSS Selectors , The sweet spot for most of us. Fast, readable, and lets you navigate from a stable parent down to your target. A real win when the HTML shifts.",
+      "start": 106.795,
+      "end": 117.92,
+      "words": [
+        {
+          "text": "CSS",
+          "start": 107.095,
+          "end": 107.62
+        },
+        {
+          "text": "Selectors",
+          "start": 107.62,
+          "end": 108.345
+        },
+        {
+          "text": ",",
+          "start": 108.345,
+          "end": 108.42
+        },
+        {
+          "text": "The",
+          "start": 108.42,
+          "end": 108.557
+        },
+        {
+          "text": "sweet",
+          "start": 108.557,
+          "end": 108.845
+        },
+        {
+          "text": "spot",
+          "start": 108.845,
+          "end": 109.195
+        },
+        {
+          "text": "for",
+          "start": 109.195,
+          "end": 109.32
+        },
+        {
+          "text": "most",
+          "start": 109.32,
+          "end": 109.583
+        },
+        {
+          "text": "of",
+          "start": 109.583,
+          "end": 109.657
+        },
+        {
+          "text": "us",
+          "start": 109.657,
+          "end": 110.32
+        },
+        {
+          "text": ".",
+          "start": 110.32,
+          "end": 110.47
+        },
+        {
+          "text": "Fast",
+          "start": 110.47,
+          "end": 111.045
+        },
+        {
+          "text": ",",
+          "start": 111.045,
+          "end": 111.157
+        },
+        {
+          "text": "readable",
+          "start": 111.157,
+          "end": 111.745
+        },
+        {
+          "text": ",",
+          "start": 111.745,
+          "end": 111.82
+        },
+        {
+          "text": "and",
+          "start": 111.82,
+          "end": 111.945
+        },
+        {
+          "text": "lets",
+          "start": 111.945,
+          "end": 112.195
+        },
+        {
+          "text": "you",
+          "start": 112.195,
+          "end": 112.295
+        },
+        {
+          "text": "navigate",
+          "start": 112.295,
+          "end": 112.795
+        },
+        {
+          "text": "from",
+          "start": 112.795,
+          "end": 112.933
+        },
+        {
+          "text": "a",
+          "start": 112.933,
+          "end": 112.995
+        },
+        {
+          "text": "stable",
+          "start": 112.995,
+          "end": 113.395
+        },
+        {
+          "text": "parent",
+          "start": 113.395,
+          "end": 113.795
+        },
+        {
+          "text": "down",
+          "start": 113.795,
+          "end": 114.045
+        },
+        {
+          "text": "to",
+          "start": 114.045,
+          "end": 114.133
+        },
+        {
+          "text": "your",
+          "start": 114.133,
+          "end": 114.245
+        },
+        {
+          "text": "target",
+          "start": 114.245,
+          "end": 115.045
+        },
+        {
+          "text": ".",
+          "start": 115.045,
+          "end": 115.182
+        },
+        {
+          "text": "A",
+          "start": 115.182,
+          "end": 115.307
+        },
+        {
+          "text": "real",
+          "start": 115.307,
+          "end": 115.633
+        },
+        {
+          "text": "win",
+          "start": 115.633,
+          "end": 115.995
+        },
+        {
+          "text": "when",
+          "start": 115.995,
+          "end": 116.133
+        },
+        {
+          "text": "the",
+          "start": 116.133,
+          "end": 116.245
+        },
+        {
+          "text": "HTML",
+          "start": 116.245,
+          "end": 117.082
+        },
+        {
+          "text": "shifts",
+          "start": 117.082,
+          "end": 117.795
+        },
+        {
+          "text": ".",
+          "start": 117.795,
+          "end": 117.92
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "XPath , Powerful but expensive. XPath can walk backward through the tree (to parents, siblings) and forward. That flexibility comes at a cost , the browser has to traverse more slowly. You'll need XPath for edge cases, but CSS is your daily driver.",
+      "start": 118.24,
+      "end": 134.99,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 118.54,
+          "end": 119.09
+        },
+        {
+          "text": ",",
+          "start": 119.09,
+          "end": 119.178
+        },
+        {
+          "text": "Powerful",
+          "start": 119.178,
+          "end": 119.765
+        },
+        {
+          "text": "but",
+          "start": 119.765,
+          "end": 119.902
+        },
+        {
+          "text": "expensive",
+          "start": 119.902,
+          "end": 121.04
+        },
+        {
+          "text": ".",
+          "start": 121.04,
+          "end": 121.203
+        },
+        {
+          "text": "XPath",
+          "start": 121.203,
+          "end": 121.765
+        },
+        {
+          "text": "can",
+          "start": 121.765,
+          "end": 121.89
+        },
+        {
+          "text": "walk",
+          "start": 121.89,
+          "end": 122.14
+        },
+        {
+          "text": "backward",
+          "start": 122.14,
+          "end": 122.59
+        },
+        {
+          "text": "through",
+          "start": 122.59,
+          "end": 122.765
+        },
+        {
+          "text": "the",
+          "start": 122.765,
+          "end": 122.877
+        },
+        {
+          "text": "tree",
+          "start": 122.877,
+          "end": 123.377
+        },
+        {
+          "text": "(",
+          "start": 123.377,
+          "end": 123.465
+        },
+        {
+          "text": "to",
+          "start": 123.465,
+          "end": 123.565
+        },
+        {
+          "text": "parents",
+          "start": 123.565,
+          "end": 124.065
+        },
+        {
+          "text": ",",
+          "start": 124.065,
+          "end": 124.153
+        },
+        {
+          "text": "siblings",
+          "start": 124.153,
+          "end": 124.715
+        },
+        {
+          "text": ")",
+          "start": 124.715,
+          "end": 124.765
+        },
+        {
+          "text": "and",
+          "start": 124.765,
+          "end": 124.903
+        },
+        {
+          "text": "forward",
+          "start": 124.903,
+          "end": 125.69
+        },
+        {
+          "text": ".",
+          "start": 125.69,
+          "end": 125.827
+        },
+        {
+          "text": "That",
+          "start": 125.827,
+          "end": 126.09
+        },
+        {
+          "text": "flexibility",
+          "start": 126.09,
+          "end": 126.74
+        },
+        {
+          "text": "comes",
+          "start": 126.74,
+          "end": 127.002
+        },
+        {
+          "text": "at",
+          "start": 127.002,
+          "end": 127.077
+        },
+        {
+          "text": "a",
+          "start": 127.077,
+          "end": 127.14
+        },
+        {
+          "text": "cost",
+          "start": 127.14,
+          "end": 127.752
+        },
+        {
+          "text": ",",
+          "start": 127.752,
+          "end": 127.84
+        },
+        {
+          "text": "the",
+          "start": 127.84,
+          "end": 127.94
+        },
+        {
+          "text": "browser",
+          "start": 127.94,
+          "end": 128.39
+        },
+        {
+          "text": "has",
+          "start": 128.39,
+          "end": 128.59
+        },
+        {
+          "text": "to",
+          "start": 128.59,
+          "end": 128.69
+        },
+        {
+          "text": "traverse",
+          "start": 128.69,
+          "end": 129.215
+        },
+        {
+          "text": "more",
+          "start": 129.215,
+          "end": 129.452
+        },
+        {
+          "text": "slowly",
+          "start": 129.452,
+          "end": 130.365
+        },
+        {
+          "text": ".",
+          "start": 130.365,
+          "end": 130.502
+        },
+        {
+          "text": "You'll",
+          "start": 130.502,
+          "end": 130.665
+        },
+        {
+          "text": "need",
+          "start": 130.665,
+          "end": 130.903
+        },
+        {
+          "text": "XPath",
+          "start": 130.903,
+          "end": 131.44
+        },
+        {
+          "text": "for",
+          "start": 131.44,
+          "end": 131.565
+        },
+        {
+          "text": "edge",
+          "start": 131.565,
+          "end": 131.765
+        },
+        {
+          "text": "cases",
+          "start": 131.765,
+          "end": 132.44
+        },
+        {
+          "text": ",",
+          "start": 132.44,
+          "end": 132.515
+        },
+        {
+          "text": "but",
+          "start": 132.515,
+          "end": 132.715
+        },
+        {
+          "text": "CSS",
+          "start": 132.715,
+          "end": 133.478
+        },
+        {
+          "text": "is",
+          "start": 133.478,
+          "end": 133.603
+        },
+        {
+          "text": "your",
+          "start": 133.603,
+          "end": 133.74
+        },
+        {
+          "text": "daily",
+          "start": 133.74,
+          "end": 134.115
+        },
+        {
+          "text": "driver",
+          "start": 134.115,
+          "end": 134.84
+        },
+        {
+          "text": ".",
+          "start": 134.84,
+          "end": 134.99
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Rough speed ranking: ID > Class > CSS >> XPath. In practice: if your page is stable, it doesn't matter. If it changes frequently, CSS will keep you sane.",
+      "start": 135.31,
+      "end": 145.585,
+      "words": [
+        {
+          "text": "Rough",
+          "start": 135.61,
+          "end": 135.835
+        },
+        {
+          "text": "speed",
+          "start": 135.835,
+          "end": 136.135
+        },
+        {
+          "text": "ranking",
+          "start": 136.135,
+          "end": 136.66
+        },
+        {
+          "text": ":",
+          "start": 136.66,
+          "end": 136.772
+        },
+        {
+          "text": "ID",
+          "start": 136.772,
+          "end": 137.135
+        },
+        {
+          "text": "Class",
+          "start": 137.185,
+          "end": 137.598
+        },
+        {
+          "text": "CSS",
+          "start": 137.66,
+          "end": 138.335
+        },
+        {
+          "text": "XPath",
+          "start": 138.385,
+          "end": 139.36
+        },
+        {
+          "text": ".",
+          "start": 139.36,
+          "end": 139.41
+        },
+        {
+          "text": "In",
+          "start": 139.41,
+          "end": 139.547
+        },
+        {
+          "text": "practice",
+          "start": 139.547,
+          "end": 140.435
+        },
+        {
+          "text": ":",
+          "start": 140.435,
+          "end": 140.473
+        },
+        {
+          "text": "if",
+          "start": 140.473,
+          "end": 140.547
+        },
+        {
+          "text": "your",
+          "start": 140.547,
+          "end": 140.81
+        },
+        {
+          "text": "page",
+          "start": 140.81,
+          "end": 141.06
+        },
+        {
+          "text": "is",
+          "start": 141.06,
+          "end": 141.223
+        },
+        {
+          "text": "stable",
+          "start": 141.223,
+          "end": 141.61
+        },
+        {
+          "text": ",",
+          "start": 141.61,
+          "end": 141.647
+        },
+        {
+          "text": "it",
+          "start": 141.647,
+          "end": 141.735
+        },
+        {
+          "text": "doesn't",
+          "start": 141.735,
+          "end": 142.085
+        },
+        {
+          "text": "matter",
+          "start": 142.085,
+          "end": 142.885
+        },
+        {
+          "text": ".",
+          "start": 142.885,
+          "end": 142.948
+        },
+        {
+          "text": "If",
+          "start": 142.948,
+          "end": 143.073
+        },
+        {
+          "text": "it",
+          "start": 143.073,
+          "end": 143.26
+        },
+        {
+          "text": "changes",
+          "start": 143.26,
+          "end": 143.61
+        },
+        {
+          "text": "frequently",
+          "start": 143.61,
+          "end": 144.285
+        },
+        {
+          "text": ",",
+          "start": 144.285,
+          "end": 144.373
+        },
+        {
+          "text": "CSS",
+          "start": 144.373,
+          "end": 144.897
+        },
+        {
+          "text": "will",
+          "start": 144.897,
+          "end": 145.085
+        },
+        {
+          "text": "keep",
+          "start": 145.085,
+          "end": 145.323
+        },
+        {
+          "text": "you",
+          "start": 145.323,
+          "end": 145.585
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h3",
+      "text": "Selenium 4.0 , Relative Locators (Your Escape Hatch)",
+      "start": 146.605,
+      "end": 150.28,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 146.905,
+          "end": 147.393
+        },
+        {
+          "text": "4.0",
+          "start": 147.393,
+          "end": 147.955
+        },
+        {
+          "text": ",",
+          "start": 147.955,
+          "end": 148.08
+        },
+        {
+          "text": "Relative",
+          "start": 148.08,
+          "end": 148.48
+        },
+        {
+          "text": "Locators",
+          "start": 148.48,
+          "end": 149.018
+        },
+        {
+          "text": "(",
+          "start": 149.018,
+          "end": 149.055
+        },
+        {
+          "text": "Your",
+          "start": 149.055,
+          "end": 149.168
+        },
+        {
+          "text": "Escape",
+          "start": 149.168,
+          "end": 149.53
+        },
+        {
+          "text": "Hatch",
+          "start": 149.53,
+          "end": 150.105
+        },
+        {
+          "text": ")",
+          "start": 150.105,
+          "end": 150.28
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "Relative locators let you say: \"Give me the button near the text 'Submit'\" or \"the input below the 'Email' label.\" They're game-changers for fragile UIs because they describe relationships, not paths.",
+      "start": 150.6,
+      "end": 163.075,
+      "words": [
+        {
+          "text": "Relative",
+          "start": 150.925,
+          "end": 151.35
+        },
+        {
+          "text": "locators",
+          "start": 151.35,
+          "end": 151.925
+        },
+        {
+          "text": "let",
+          "start": 151.925,
+          "end": 152.075
+        },
+        {
+          "text": "you",
+          "start": 152.075,
+          "end": 152.213
+        },
+        {
+          "text": "say",
+          "start": 152.213,
+          "end": 152.725
+        },
+        {
+          "text": ":",
+          "start": 152.725,
+          "end": 152.85
+        },
+        {
+          "text": "\"",
+          "start": 152.85,
+          "end": 152.925
+        },
+        {
+          "text": "Give",
+          "start": 152.925,
+          "end": 153.062
+        },
+        {
+          "text": "me",
+          "start": 153.062,
+          "end": 153.162
+        },
+        {
+          "text": "the",
+          "start": 153.162,
+          "end": 153.25
+        },
+        {
+          "text": "button",
+          "start": 153.25,
+          "end": 153.525
+        },
+        {
+          "text": "near",
+          "start": 153.525,
+          "end": 153.738
+        },
+        {
+          "text": "the",
+          "start": 153.738,
+          "end": 153.837
+        },
+        {
+          "text": "text",
+          "start": 153.837,
+          "end": 154.187
+        },
+        {
+          "text": "'",
+          "start": 154.187,
+          "end": 154.225
+        },
+        {
+          "text": "Submit",
+          "start": 154.225,
+          "end": 154.85
+        },
+        {
+          "text": "'",
+          "start": 154.85,
+          "end": 154.925
+        },
+        {
+          "text": "\"",
+          "start": 154.925,
+          "end": 154.988
+        },
+        {
+          "text": "or",
+          "start": 154.988,
+          "end": 155.35
+        },
+        {
+          "text": "\"",
+          "start": 155.35,
+          "end": 155.4
+        },
+        {
+          "text": "the",
+          "start": 155.4,
+          "end": 155.525
+        },
+        {
+          "text": "input",
+          "start": 155.525,
+          "end": 155.925
+        },
+        {
+          "text": "below",
+          "start": 155.925,
+          "end": 156.275
+        },
+        {
+          "text": "the",
+          "start": 156.275,
+          "end": 156.425
+        },
+        {
+          "text": "'",
+          "start": 156.425,
+          "end": 156.5
+        },
+        {
+          "text": "Email",
+          "start": 156.5,
+          "end": 156.8
+        },
+        {
+          "text": "'",
+          "start": 156.8,
+          "end": 156.85
+        },
+        {
+          "text": "label",
+          "start": 156.85,
+          "end": 157.725
+        },
+        {
+          "text": ".",
+          "start": 157.725,
+          "end": 157.85
+        },
+        {
+          "text": "\"",
+          "start": 157.85,
+          "end": 157.9
+        },
+        {
+          "text": "They're",
+          "start": 157.9,
+          "end": 158.05
+        },
+        {
+          "text": "game-changers",
+          "start": 158.05,
+          "end": 158.8
+        },
+        {
+          "text": "for",
+          "start": 158.8,
+          "end": 158.963
+        },
+        {
+          "text": "fragile",
+          "start": 158.963,
+          "end": 159.375
+        },
+        {
+          "text": "UIs",
+          "start": 159.375,
+          "end": 159.95
+        },
+        {
+          "text": "because",
+          "start": 159.95,
+          "end": 160.25
+        },
+        {
+          "text": "they",
+          "start": 160.25,
+          "end": 160.4
+        },
+        {
+          "text": "describe",
+          "start": 160.4,
+          "end": 160.9
+        },
+        {
+          "text": "relationships",
+          "start": 160.9,
+          "end": 161.85
+        },
+        {
+          "text": ",",
+          "start": 161.85,
+          "end": 161.95
+        },
+        {
+          "text": "not",
+          "start": 161.95,
+          "end": 162.175
+        },
+        {
+          "text": "paths",
+          "start": 162.175,
+          "end": 162.925
+        },
+        {
+          "text": ".",
+          "start": 162.925,
+          "end": 163.075
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "These catch changes that would shatter traditional selectors.",
+      "start": 163.395,
+      "end": 167.245,
+      "words": [
+        {
+          "text": "These",
+          "start": 163.67,
+          "end": 163.92
+        },
+        {
+          "text": "catch",
+          "start": 163.92,
+          "end": 164.207
+        },
+        {
+          "text": "changes",
+          "start": 164.207,
+          "end": 165.008
+        },
+        {
+          "text": "that",
+          "start": 165.008,
+          "end": 165.157
+        },
+        {
+          "text": "would",
+          "start": 165.157,
+          "end": 165.307
+        },
+        {
+          "text": "shatter",
+          "start": 165.307,
+          "end": 165.695
+        },
+        {
+          "text": "traditional",
+          "start": 165.695,
+          "end": 166.195
+        },
+        {
+          "text": "selectors",
+          "start": 166.195,
+          "end": 167.095
+        },
+        {
+          "text": ".",
+          "start": 167.095,
+          "end": 167.245
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h2",
+      "text": "Setting Up WebDriver , The Plumbing",
+      "start": 167.565,
+      "end": 169.815,
+      "words": [
+        {
+          "text": "Setting",
+          "start": 167.865,
+          "end": 168.127
+        },
+        {
+          "text": "Up",
+          "start": 168.127,
+          "end": 168.29
+        },
+        {
+          "text": "WebDriver",
+          "start": 168.29,
+          "end": 168.99
+        },
+        {
+          "text": ",",
+          "start": 168.99,
+          "end": 169.053
+        },
+        {
+          "text": "The",
+          "start": 169.053,
+          "end": 169.14
+        },
+        {
+          "text": "Plumbing",
+          "start": 169.14,
+          "end": 169.815
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "Before you can find a single element, WebDriver needs to know which browser to drive. There are two ways: the old way (manual path hunting) and the modern way (automatic).",
+      "start": 170.26,
+      "end": 181.485,
+      "words": [
+        {
+          "text": "Before",
+          "start": 170.51,
+          "end": 170.81
+        },
+        {
+          "text": "you",
+          "start": 170.81,
+          "end": 170.96
+        },
+        {
+          "text": "can",
+          "start": 170.96,
+          "end": 171.135
+        },
+        {
+          "text": "find",
+          "start": 171.135,
+          "end": 171.423
+        },
+        {
+          "text": "a",
+          "start": 171.423,
+          "end": 171.535
+        },
+        {
+          "text": "single",
+          "start": 171.535,
+          "end": 171.935
+        },
+        {
+          "text": "element",
+          "start": 171.935,
+          "end": 172.56
+        },
+        {
+          "text": ",",
+          "start": 172.56,
+          "end": 172.698
+        },
+        {
+          "text": "WebDriver",
+          "start": 172.698,
+          "end": 173.31
+        },
+        {
+          "text": "needs",
+          "start": 173.31,
+          "end": 173.635
+        },
+        {
+          "text": "to",
+          "start": 173.635,
+          "end": 173.76
+        },
+        {
+          "text": "know",
+          "start": 173.76,
+          "end": 174.085
+        },
+        {
+          "text": "which",
+          "start": 174.085,
+          "end": 174.323
+        },
+        {
+          "text": "browser",
+          "start": 174.323,
+          "end": 174.735
+        },
+        {
+          "text": "to",
+          "start": 174.735,
+          "end": 174.835
+        },
+        {
+          "text": "drive",
+          "start": 174.835,
+          "end": 175.735
+        },
+        {
+          "text": ".",
+          "start": 175.735,
+          "end": 175.873
+        },
+        {
+          "text": "There",
+          "start": 175.873,
+          "end": 176.035
+        },
+        {
+          "text": "are",
+          "start": 176.035,
+          "end": 176.172
+        },
+        {
+          "text": "two",
+          "start": 176.172,
+          "end": 176.385
+        },
+        {
+          "text": "ways",
+          "start": 176.385,
+          "end": 177.085
+        },
+        {
+          "text": ":",
+          "start": 177.085,
+          "end": 177.185
+        },
+        {
+          "text": "the",
+          "start": 177.185,
+          "end": 177.335
+        },
+        {
+          "text": "old",
+          "start": 177.335,
+          "end": 177.61
+        },
+        {
+          "text": "way",
+          "start": 177.61,
+          "end": 177.86
+        },
+        {
+          "text": "(",
+          "start": 177.86,
+          "end": 177.935
+        },
+        {
+          "text": "manual",
+          "start": 177.935,
+          "end": 178.31
+        },
+        {
+          "text": "path",
+          "start": 178.31,
+          "end": 178.585
+        },
+        {
+          "text": "hunting",
+          "start": 178.585,
+          "end": 179.26
+        },
+        {
+          "text": ")",
+          "start": 179.26,
+          "end": 179.36
+        },
+        {
+          "text": "and",
+          "start": 179.36,
+          "end": 179.473
+        },
+        {
+          "text": "the",
+          "start": 179.473,
+          "end": 179.56
+        },
+        {
+          "text": "modern",
+          "start": 179.56,
+          "end": 179.985
+        },
+        {
+          "text": "way",
+          "start": 179.985,
+          "end": 180.373
+        },
+        {
+          "text": "(",
+          "start": 180.373,
+          "end": 180.46
+        },
+        {
+          "text": "automatic",
+          "start": 180.46,
+          "end": 181.285
+        },
+        {
+          "text": ")",
+          "start": 181.285,
+          "end": 181.435
+        },
+        {
+          "text": ".",
+          "start": 181.435,
+          "end": 181.485
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h3",
+      "text": "Step #1 , Point WebDriver to the Browser",
+      "start": 181.805,
+      "end": 184.605,
+      "words": [
+        {
+          "text": "Step",
+          "start": 182.08,
+          "end": 182.33
+        },
+        {
+          "text": "1",
+          "start": 182.33,
+          "end": 182.755
+        },
+        {
+          "text": ",",
+          "start": 182.755,
+          "end": 182.83
+        },
+        {
+          "text": "Point",
+          "start": 182.83,
+          "end": 183.105
+        },
+        {
+          "text": "WebDriver",
+          "start": 183.105,
+          "end": 183.68
+        },
+        {
+          "text": "to",
+          "start": 183.68,
+          "end": 183.767
+        },
+        {
+          "text": "the",
+          "start": 183.767,
+          "end": 183.855
+        },
+        {
+          "text": "Browser",
+          "start": 183.855,
+          "end": 184.605
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "Using System.setProperty:",
+      "start": 185.075,
+      "end": 187.325,
+      "words": [
+        {
+          "text": "Using",
+          "start": 185.375,
+          "end": 185.75
+        },
+        {
+          "text": "System.setProperty",
+          "start": 185.75,
+          "end": 187.175
+        },
+        {
+          "text": ":",
+          "start": 187.175,
+          "end": 187.325
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "Or use Bonigarcia's WebDriverManager so the binary resolution is automatic:",
+      "start": 187.645,
+      "end": 193.02,
+      "words": [
+        {
+          "text": "Or",
+          "start": 187.92,
+          "end": 188.158
+        },
+        {
+          "text": "use",
+          "start": 188.158,
+          "end": 188.445
+        },
+        {
+          "text": "Bonigarcia's",
+          "start": 188.445,
+          "end": 189.195
+        },
+        {
+          "text": "WebDriverManager",
+          "start": 189.195,
+          "end": 190.407
+        },
+        {
+          "text": "so",
+          "start": 190.407,
+          "end": 190.582
+        },
+        {
+          "text": "the",
+          "start": 190.582,
+          "end": 190.67
+        },
+        {
+          "text": "binary",
+          "start": 190.67,
+          "end": 191.095
+        },
+        {
+          "text": "resolution",
+          "start": 191.095,
+          "end": 191.795
+        },
+        {
+          "text": "is",
+          "start": 191.795,
+          "end": 191.957
+        },
+        {
+          "text": "automatic",
+          "start": 191.957,
+          "end": 192.87
+        },
+        {
+          "text": ":",
+          "start": 192.87,
+          "end": 193.02
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h3",
+      "text": "Step #2 , Swap WebDriver Interface With a Fully Featured Browser",
+      "start": 193.34,
+      "end": 197.64,
+      "words": [
+        {
+          "text": "Step",
+          "start": 193.615,
+          "end": 193.877
+        },
+        {
+          "text": "2",
+          "start": 193.877,
+          "end": 194.34
+        },
+        {
+          "text": ",",
+          "start": 194.34,
+          "end": 194.477
+        },
+        {
+          "text": "Swap",
+          "start": 194.477,
+          "end": 194.815
+        },
+        {
+          "text": "WebDriver",
+          "start": 194.815,
+          "end": 195.328
+        },
+        {
+          "text": "Interface",
+          "start": 195.328,
+          "end": 195.877
+        },
+        {
+          "text": "With",
+          "start": 195.877,
+          "end": 196.002
+        },
+        {
+          "text": "a",
+          "start": 196.002,
+          "end": 196.115
+        },
+        {
+          "text": "Fully",
+          "start": 196.115,
+          "end": 196.477
+        },
+        {
+          "text": "Featured",
+          "start": 196.477,
+          "end": 196.865
+        },
+        {
+          "text": "Browser",
+          "start": 196.865,
+          "end": 197.64
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h2",
+      "text": "Synchronization , The Missing Puzzle Piece",
+      "start": 198.11,
+      "end": 200.585,
+      "words": [
+        {
+          "text": "Synchronization",
+          "start": 198.41,
+          "end": 199.447
+        },
+        {
+          "text": ",",
+          "start": 199.447,
+          "end": 199.535
+        },
+        {
+          "text": "The",
+          "start": 199.535,
+          "end": 199.635
+        },
+        {
+          "text": "Missing",
+          "start": 199.635,
+          "end": 199.96
+        },
+        {
+          "text": "Puzzle",
+          "start": 199.96,
+          "end": 200.31
+        },
+        {
+          "text": "Piece",
+          "start": 200.31,
+          "end": 200.585
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "A good locator is half the battle. The other half: waiting for the element to be there.",
+      "start": 200.93,
+      "end": 206.23,
+      "words": [
+        {
+          "text": "A",
+          "start": 201.205,
+          "end": 201.28
+        },
+        {
+          "text": "good",
+          "start": 201.28,
+          "end": 201.505
+        },
+        {
+          "text": "locator",
+          "start": 201.505,
+          "end": 202.055
+        },
+        {
+          "text": "is",
+          "start": 202.055,
+          "end": 202.18
+        },
+        {
+          "text": "half",
+          "start": 202.18,
+          "end": 202.443
+        },
+        {
+          "text": "the",
+          "start": 202.443,
+          "end": 202.53
+        },
+        {
+          "text": "battle",
+          "start": 202.53,
+          "end": 203.13
+        },
+        {
+          "text": ".",
+          "start": 203.13,
+          "end": 203.255
+        },
+        {
+          "text": "The",
+          "start": 203.255,
+          "end": 203.38
+        },
+        {
+          "text": "other",
+          "start": 203.38,
+          "end": 203.63
+        },
+        {
+          "text": "half",
+          "start": 203.63,
+          "end": 204.18
+        },
+        {
+          "text": ":",
+          "start": 204.18,
+          "end": 204.293
+        },
+        {
+          "text": "waiting",
+          "start": 204.293,
+          "end": 204.68
+        },
+        {
+          "text": "for",
+          "start": 204.68,
+          "end": 204.793
+        },
+        {
+          "text": "the",
+          "start": 204.793,
+          "end": 204.93
+        },
+        {
+          "text": "element",
+          "start": 204.93,
+          "end": 205.305
+        },
+        {
+          "text": "to",
+          "start": 205.305,
+          "end": 205.393
+        },
+        {
+          "text": "be",
+          "start": 205.393,
+          "end": 205.53
+        },
+        {
+          "text": "there",
+          "start": 205.53,
+          "end": 206.08
+        },
+        {
+          "text": ".",
+          "start": 206.08,
+          "end": 206.23
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "The DOM doesn't load all at once. JavaScript runs. Animations finish. Data arrives. Your test needs to wait for these things. Miss this, and you'll blame your selectors for failures that are really timing issues.",
+      "start": 206.55,
+      "end": 220.05,
+      "words": [
+        {
+          "text": "The",
+          "start": 206.8,
+          "end": 206.913
+        },
+        {
+          "text": "DOM",
+          "start": 206.913,
+          "end": 207.25
+        },
+        {
+          "text": "doesn't",
+          "start": 207.25,
+          "end": 207.525
+        },
+        {
+          "text": "load",
+          "start": 207.525,
+          "end": 207.788
+        },
+        {
+          "text": "all",
+          "start": 207.788,
+          "end": 207.938
+        },
+        {
+          "text": "at",
+          "start": 207.938,
+          "end": 208.025
+        },
+        {
+          "text": "once",
+          "start": 208.025,
+          "end": 208.7
+        },
+        {
+          "text": ".",
+          "start": 208.7,
+          "end": 208.85
+        },
+        {
+          "text": "JavaScript",
+          "start": 208.85,
+          "end": 209.525
+        },
+        {
+          "text": "runs",
+          "start": 209.525,
+          "end": 210.125
+        },
+        {
+          "text": ".",
+          "start": 210.125,
+          "end": 210.238
+        },
+        {
+          "text": "Animations",
+          "start": 210.238,
+          "end": 210.988
+        },
+        {
+          "text": "finish",
+          "start": 210.988,
+          "end": 211.75
+        },
+        {
+          "text": ".",
+          "start": 211.75,
+          "end": 211.9
+        },
+        {
+          "text": "Data",
+          "start": 211.9,
+          "end": 212.275
+        },
+        {
+          "text": "arrives",
+          "start": 212.275,
+          "end": 213.1
+        },
+        {
+          "text": ".",
+          "start": 213.1,
+          "end": 213.2
+        },
+        {
+          "text": "Your",
+          "start": 213.2,
+          "end": 213.388
+        },
+        {
+          "text": "test",
+          "start": 213.388,
+          "end": 213.775
+        },
+        {
+          "text": "needs",
+          "start": 213.775,
+          "end": 214.05
+        },
+        {
+          "text": "to",
+          "start": 214.05,
+          "end": 214.175
+        },
+        {
+          "text": "wait",
+          "start": 214.175,
+          "end": 214.425
+        },
+        {
+          "text": "for",
+          "start": 214.425,
+          "end": 214.538
+        },
+        {
+          "text": "these",
+          "start": 214.538,
+          "end": 214.75
+        },
+        {
+          "text": "things",
+          "start": 214.75,
+          "end": 215.425
+        },
+        {
+          "text": ".",
+          "start": 215.425,
+          "end": 215.563
+        },
+        {
+          "text": "Miss",
+          "start": 215.563,
+          "end": 215.8
+        },
+        {
+          "text": "this",
+          "start": 215.8,
+          "end": 216.175
+        },
+        {
+          "text": ",",
+          "start": 216.175,
+          "end": 216.25
+        },
+        {
+          "text": "and",
+          "start": 216.25,
+          "end": 216.363
+        },
+        {
+          "text": "you'll",
+          "start": 216.363,
+          "end": 216.475
+        },
+        {
+          "text": "blame",
+          "start": 216.475,
+          "end": 216.738
+        },
+        {
+          "text": "your",
+          "start": 216.738,
+          "end": 216.85
+        },
+        {
+          "text": "selectors",
+          "start": 216.85,
+          "end": 217.4
+        },
+        {
+          "text": "for",
+          "start": 217.4,
+          "end": 217.563
+        },
+        {
+          "text": "failures",
+          "start": 217.563,
+          "end": 218.125
+        },
+        {
+          "text": "that",
+          "start": 218.125,
+          "end": 218.25
+        },
+        {
+          "text": "are",
+          "start": 218.25,
+          "end": 218.425
+        },
+        {
+          "text": "really",
+          "start": 218.425,
+          "end": 218.788
+        },
+        {
+          "text": "timing",
+          "start": 218.788,
+          "end": 219.175
+        },
+        {
+          "text": "issues",
+          "start": 219.175,
+          "end": 219.9
+        },
+        {
+          "text": ".",
+          "start": 219.9,
+          "end": 220.05
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "Three strategies. Use them in order.",
+      "start": 220.37,
+      "end": 223.195,
+      "words": [
+        {
+          "text": "Three",
+          "start": 220.67,
+          "end": 220.895
+        },
+        {
+          "text": "strategies",
+          "start": 220.895,
+          "end": 221.695
+        },
+        {
+          "text": ".",
+          "start": 221.695,
+          "end": 221.807
+        },
+        {
+          "text": "Use",
+          "start": 221.807,
+          "end": 222.082
+        },
+        {
+          "text": "them",
+          "start": 222.082,
+          "end": 222.27
+        },
+        {
+          "text": "in",
+          "start": 222.27,
+          "end": 222.395
+        },
+        {
+          "text": "order",
+          "start": 222.395,
+          "end": 223.02
+        },
+        {
+          "text": ".",
+          "start": 223.02,
+          "end": 223.195
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h3",
+      "text": "Strategy #1: Implicit Waits (Blunt Instrument)",
+      "start": 223.515,
+      "end": 226.965,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 223.79,
+          "end": 224.29
+        },
+        {
+          "text": "1",
+          "start": 224.29,
+          "end": 224.74
+        },
+        {
+          "text": ":",
+          "start": 224.74,
+          "end": 224.84
+        },
+        {
+          "text": "Implicit",
+          "start": 224.84,
+          "end": 225.315
+        },
+        {
+          "text": "Waits",
+          "start": 225.315,
+          "end": 225.703
+        },
+        {
+          "text": "(",
+          "start": 225.703,
+          "end": 225.74
+        },
+        {
+          "text": "Blunt",
+          "start": 225.74,
+          "end": 226.015
+        },
+        {
+          "text": "Instrument",
+          "start": 226.015,
+          "end": 226.815
+        },
+        {
+          "text": ")",
+          "start": 226.815,
+          "end": 226.965
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "This says: \"Before you throw NoSuchElementException, wait up to 20 seconds for the element to appear.\" It's simple and broad , every single element search waits 20 seconds if not found immediately. Downside: it's always waiting, even when you don't need it.",
+      "start": 227.285,
+      "end": 243.56,
+      "words": [
+        {
+          "text": "This",
+          "start": 227.535,
+          "end": 227.685
+        },
+        {
+          "text": "says",
+          "start": 227.685,
+          "end": 228.11
+        },
+        {
+          "text": ":",
+          "start": 228.11,
+          "end": 228.148
+        },
+        {
+          "text": "\"",
+          "start": 228.148,
+          "end": 228.185
+        },
+        {
+          "text": "Before",
+          "start": 228.185,
+          "end": 228.435
+        },
+        {
+          "text": "you",
+          "start": 228.435,
+          "end": 228.597
+        },
+        {
+          "text": "throw",
+          "start": 228.597,
+          "end": 228.91
+        },
+        {
+          "text": "NoSuchElementException",
+          "start": 228.91,
+          "end": 230.46
+        },
+        {
+          "text": ",",
+          "start": 230.46,
+          "end": 230.573
+        },
+        {
+          "text": "wait",
+          "start": 230.573,
+          "end": 230.823
+        },
+        {
+          "text": "up",
+          "start": 230.823,
+          "end": 230.96
+        },
+        {
+          "text": "to",
+          "start": 230.96,
+          "end": 231.06
+        },
+        {
+          "text": "20",
+          "start": 231.06,
+          "end": 231.372
+        },
+        {
+          "text": "seconds",
+          "start": 231.372,
+          "end": 231.76
+        },
+        {
+          "text": "for",
+          "start": 231.76,
+          "end": 231.872
+        },
+        {
+          "text": "the",
+          "start": 231.872,
+          "end": 232.01
+        },
+        {
+          "text": "element",
+          "start": 232.01,
+          "end": 232.385
+        },
+        {
+          "text": "to",
+          "start": 232.385,
+          "end": 232.535
+        },
+        {
+          "text": "appear",
+          "start": 232.535,
+          "end": 233.435
+        },
+        {
+          "text": ".",
+          "start": 233.435,
+          "end": 233.56
+        },
+        {
+          "text": "\"",
+          "start": 233.56,
+          "end": 233.61
+        },
+        {
+          "text": "It's",
+          "start": 233.61,
+          "end": 233.86
+        },
+        {
+          "text": "simple",
+          "start": 233.86,
+          "end": 234.398
+        },
+        {
+          "text": "and",
+          "start": 234.398,
+          "end": 234.572
+        },
+        {
+          "text": "broad",
+          "start": 234.572,
+          "end": 235.222
+        },
+        {
+          "text": ",",
+          "start": 235.222,
+          "end": 235.335
+        },
+        {
+          "text": "every",
+          "start": 235.335,
+          "end": 235.71
+        },
+        {
+          "text": "single",
+          "start": 235.71,
+          "end": 236.11
+        },
+        {
+          "text": "element",
+          "start": 236.11,
+          "end": 236.547
+        },
+        {
+          "text": "search",
+          "start": 236.547,
+          "end": 236.898
+        },
+        {
+          "text": "waits",
+          "start": 236.898,
+          "end": 237.222
+        },
+        {
+          "text": "20",
+          "start": 237.222,
+          "end": 237.547
+        },
+        {
+          "text": "seconds",
+          "start": 237.547,
+          "end": 237.935
+        },
+        {
+          "text": "if",
+          "start": 237.935,
+          "end": 238.085
+        },
+        {
+          "text": "not",
+          "start": 238.085,
+          "end": 238.335
+        },
+        {
+          "text": "found",
+          "start": 238.335,
+          "end": 238.66
+        },
+        {
+          "text": "immediately",
+          "start": 238.66,
+          "end": 239.71
+        },
+        {
+          "text": ".",
+          "start": 239.71,
+          "end": 239.91
+        },
+        {
+          "text": "Downside",
+          "start": 239.91,
+          "end": 240.81
+        },
+        {
+          "text": ":",
+          "start": 240.81,
+          "end": 240.91
+        },
+        {
+          "text": "it's",
+          "start": 240.91,
+          "end": 241.06
+        },
+        {
+          "text": "always",
+          "start": 241.06,
+          "end": 241.435
+        },
+        {
+          "text": "waiting",
+          "start": 241.435,
+          "end": 241.935
+        },
+        {
+          "text": ",",
+          "start": 241.935,
+          "end": 242.047
+        },
+        {
+          "text": "even",
+          "start": 242.047,
+          "end": 242.323
+        },
+        {
+          "text": "when",
+          "start": 242.323,
+          "end": 242.46
+        },
+        {
+          "text": "you",
+          "start": 242.46,
+          "end": 242.56
+        },
+        {
+          "text": "don't",
+          "start": 242.56,
+          "end": 242.76
+        },
+        {
+          "text": "need",
+          "start": 242.76,
+          "end": 242.96
+        },
+        {
+          "text": "it",
+          "start": 242.96,
+          "end": 243.41
+        },
+        {
+          "text": ".",
+          "start": 243.41,
+          "end": 243.56
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "Strategy #2: Explicit Waits (Surgical , Use This)",
+      "start": 243.88,
+      "end": 247.555,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 244.155,
+          "end": 244.667
+        },
+        {
+          "text": "2",
+          "start": 244.667,
+          "end": 245.105
+        },
+        {
+          "text": ":",
+          "start": 245.105,
+          "end": 245.267
+        },
+        {
+          "text": "Explicit",
+          "start": 245.267,
+          "end": 245.805
+        },
+        {
+          "text": "Waits",
+          "start": 245.805,
+          "end": 246.155
+        },
+        {
+          "text": "(",
+          "start": 246.155,
+          "end": 246.205
+        },
+        {
+          "text": "Surgical",
+          "start": 246.205,
+          "end": 246.617
+        },
+        {
+          "text": ",",
+          "start": 246.617,
+          "end": 246.667
+        },
+        {
+          "text": "Use",
+          "start": 246.667,
+          "end": 246.88
+        },
+        {
+          "text": "This",
+          "start": 246.88,
+          "end": 247.405
+        },
+        {
+          "text": ")",
+          "start": 247.405,
+          "end": 247.555
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "This is better. You explicitly say: \"Wait up to 20 seconds for the page title to be 'Google'.\" It waits only when you ask, and only for what you ask. The moment the condition is true, it continues. No unnecessary pauses.",
+      "start": 247.875,
+      "end": 262.475,
+      "words": [
+        {
+          "text": "This",
+          "start": 248.125,
+          "end": 248.3
+        },
+        {
+          "text": "is",
+          "start": 248.3,
+          "end": 248.45
+        },
+        {
+          "text": "better",
+          "start": 248.45,
+          "end": 248.85
+        },
+        {
+          "text": ".",
+          "start": 248.85,
+          "end": 248.925
+        },
+        {
+          "text": "You",
+          "start": 248.925,
+          "end": 249.05
+        },
+        {
+          "text": "explicitly",
+          "start": 249.05,
+          "end": 249.687
+        },
+        {
+          "text": "say",
+          "start": 249.687,
+          "end": 250.225
+        },
+        {
+          "text": ":",
+          "start": 250.225,
+          "end": 250.35
+        },
+        {
+          "text": "\"",
+          "start": 250.35,
+          "end": 250.425
+        },
+        {
+          "text": "Wait",
+          "start": 250.425,
+          "end": 250.612
+        },
+        {
+          "text": "up",
+          "start": 250.612,
+          "end": 250.75
+        },
+        {
+          "text": "to",
+          "start": 250.75,
+          "end": 250.85
+        },
+        {
+          "text": "20",
+          "start": 250.85,
+          "end": 251.162
+        },
+        {
+          "text": "seconds",
+          "start": 251.162,
+          "end": 251.55
+        },
+        {
+          "text": "for",
+          "start": 251.55,
+          "end": 251.662
+        },
+        {
+          "text": "the",
+          "start": 251.662,
+          "end": 251.762
+        },
+        {
+          "text": "page",
+          "start": 251.762,
+          "end": 252.125
+        },
+        {
+          "text": "title",
+          "start": 252.125,
+          "end": 252.5
+        },
+        {
+          "text": "to",
+          "start": 252.5,
+          "end": 252.587
+        },
+        {
+          "text": "be",
+          "start": 252.587,
+          "end": 252.75
+        },
+        {
+          "text": "'",
+          "start": 252.75,
+          "end": 252.825
+        },
+        {
+          "text": "Google",
+          "start": 252.825,
+          "end": 253.55
+        },
+        {
+          "text": "'",
+          "start": 253.55,
+          "end": 253.65
+        },
+        {
+          "text": ".",
+          "start": 253.65,
+          "end": 253.675
+        },
+        {
+          "text": "\"",
+          "start": 253.675,
+          "end": 253.725
+        },
+        {
+          "text": "It",
+          "start": 253.725,
+          "end": 253.875
+        },
+        {
+          "text": "waits",
+          "start": 253.875,
+          "end": 254.212
+        },
+        {
+          "text": "only",
+          "start": 254.212,
+          "end": 254.512
+        },
+        {
+          "text": "when",
+          "start": 254.512,
+          "end": 254.65
+        },
+        {
+          "text": "you",
+          "start": 254.65,
+          "end": 254.812
+        },
+        {
+          "text": "ask",
+          "start": 254.812,
+          "end": 255.275
+        },
+        {
+          "text": ",",
+          "start": 255.275,
+          "end": 255.35
+        },
+        {
+          "text": "and",
+          "start": 255.35,
+          "end": 255.512
+        },
+        {
+          "text": "only",
+          "start": 255.512,
+          "end": 255.825
+        },
+        {
+          "text": "for",
+          "start": 255.825,
+          "end": 255.95
+        },
+        {
+          "text": "what",
+          "start": 255.95,
+          "end": 256.1
+        },
+        {
+          "text": "you",
+          "start": 256.1,
+          "end": 256.25
+        },
+        {
+          "text": "ask",
+          "start": 256.25,
+          "end": 257.0
+        },
+        {
+          "text": ".",
+          "start": 257.0,
+          "end": 257.162
+        },
+        {
+          "text": "The",
+          "start": 257.162,
+          "end": 257.275
+        },
+        {
+          "text": "moment",
+          "start": 257.275,
+          "end": 257.675
+        },
+        {
+          "text": "the",
+          "start": 257.675,
+          "end": 257.775
+        },
+        {
+          "text": "condition",
+          "start": 257.775,
+          "end": 258.325
+        },
+        {
+          "text": "is",
+          "start": 258.325,
+          "end": 258.487
+        },
+        {
+          "text": "true",
+          "start": 258.487,
+          "end": 258.975
+        },
+        {
+          "text": ",",
+          "start": 258.975,
+          "end": 259.087
+        },
+        {
+          "text": "it",
+          "start": 259.087,
+          "end": 259.225
+        },
+        {
+          "text": "continues",
+          "start": 259.225,
+          "end": 260.25
+        },
+        {
+          "text": ".",
+          "start": 260.25,
+          "end": 260.4
+        },
+        {
+          "text": "No",
+          "start": 260.4,
+          "end": 260.712
+        },
+        {
+          "text": "unnecessary",
+          "start": 260.712,
+          "end": 261.5
+        },
+        {
+          "text": "pauses",
+          "start": 261.5,
+          "end": 262.325
+        },
+        {
+          "text": ".",
+          "start": 262.325,
+          "end": 262.475
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "Strategy #3: FluentWait (For Edge Cases)",
+      "start": 262.795,
+      "end": 266.02,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 263.07,
+          "end": 263.582
+        },
+        {
+          "text": "3",
+          "start": 263.582,
+          "end": 264.045
+        },
+        {
+          "text": ":",
+          "start": 264.045,
+          "end": 264.182
+        },
+        {
+          "text": "FluentWait",
+          "start": 264.182,
+          "end": 264.708
+        },
+        {
+          "text": "(",
+          "start": 264.708,
+          "end": 264.745
+        },
+        {
+          "text": "For",
+          "start": 264.745,
+          "end": 264.87
+        },
+        {
+          "text": "Edge",
+          "start": 264.87,
+          "end": 265.07
+        },
+        {
+          "text": "Cases",
+          "start": 265.07,
+          "end": 265.87
+        },
+        {
+          "text": ")",
+          "start": 265.87,
+          "end": 266.02
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "p",
+      "text": "FluentWait lets you customize polling intervals and which exceptions to ignore. Save it for complex waits. In 90 percent of cases, explicit WebDriverWait is enough.",
+      "start": 266.34,
+      "end": 277.415,
+      "words": [
+        {
+          "text": "FluentWait",
+          "start": 266.64,
+          "end": 267.215
+        },
+        {
+          "text": "lets",
+          "start": 267.215,
+          "end": 267.428
+        },
+        {
+          "text": "you",
+          "start": 267.428,
+          "end": 267.54
+        },
+        {
+          "text": "customize",
+          "start": 267.54,
+          "end": 268.152
+        },
+        {
+          "text": "polling",
+          "start": 268.152,
+          "end": 268.59
+        },
+        {
+          "text": "intervals",
+          "start": 268.59,
+          "end": 269.203
+        },
+        {
+          "text": "and",
+          "start": 269.203,
+          "end": 269.34
+        },
+        {
+          "text": "which",
+          "start": 269.34,
+          "end": 269.54
+        },
+        {
+          "text": "exceptions",
+          "start": 269.54,
+          "end": 270.19
+        },
+        {
+          "text": "to",
+          "start": 270.19,
+          "end": 270.34
+        },
+        {
+          "text": "ignore",
+          "start": 270.34,
+          "end": 271.14
+        },
+        {
+          "text": ".",
+          "start": 271.14,
+          "end": 271.303
+        },
+        {
+          "text": "Save",
+          "start": 271.303,
+          "end": 271.64
+        },
+        {
+          "text": "it",
+          "start": 271.64,
+          "end": 271.79
+        },
+        {
+          "text": "for",
+          "start": 271.79,
+          "end": 271.94
+        },
+        {
+          "text": "complex",
+          "start": 271.94,
+          "end": 272.49
+        },
+        {
+          "text": "waits",
+          "start": 272.49,
+          "end": 273.215
+        },
+        {
+          "text": ".",
+          "start": 273.215,
+          "end": 273.353
+        },
+        {
+          "text": "In",
+          "start": 273.353,
+          "end": 273.515
+        },
+        {
+          "text": "90",
+          "start": 273.515,
+          "end": 273.89
+        },
+        {
+          "text": "percent",
+          "start": 273.89,
+          "end": 274.228
+        },
+        {
+          "text": "of",
+          "start": 274.228,
+          "end": 274.315
+        },
+        {
+          "text": "cases",
+          "start": 274.315,
+          "end": 275.015
+        },
+        {
+          "text": ",",
+          "start": 275.015,
+          "end": 275.115
+        },
+        {
+          "text": "explicit",
+          "start": 275.115,
+          "end": 275.69
+        },
+        {
+          "text": "WebDriverWait",
+          "start": 275.69,
+          "end": 276.465
+        },
+        {
+          "text": "is",
+          "start": 276.465,
+          "end": 276.59
+        },
+        {
+          "text": "enough",
+          "start": 276.59,
+          "end": 277.265
+        },
+        {
+          "text": ".",
+          "start": 277.265,
+          "end": 277.415
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h2",
+      "text": "A Real Example , Google's Search Box",
+      "start": 277.735,
+      "end": 280.21,
+      "words": [
+        {
+          "text": "A",
+          "start": 278.01,
+          "end": 278.085
+        },
+        {
+          "text": "Real",
+          "start": 278.085,
+          "end": 278.323
+        },
+        {
+          "text": "Example",
+          "start": 278.323,
+          "end": 278.923
+        },
+        {
+          "text": ",",
+          "start": 278.923,
+          "end": 279.01
+        },
+        {
+          "text": "Google's",
+          "start": 279.01,
+          "end": 279.36
+        },
+        {
+          "text": "Search",
+          "start": 279.36,
+          "end": 279.585
+        },
+        {
+          "text": "Box",
+          "start": 279.585,
+          "end": 280.21
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "All these strategies find the same element. The question is: which one should you pick?",
+      "start": 280.63,
+      "end": 286.08,
+      "words": [
+        {
+          "text": "All",
+          "start": 280.93,
+          "end": 281.155
+        },
+        {
+          "text": "these",
+          "start": 281.155,
+          "end": 281.355
+        },
+        {
+          "text": "strategies",
+          "start": 281.355,
+          "end": 282.018
+        },
+        {
+          "text": "find",
+          "start": 282.018,
+          "end": 282.318
+        },
+        {
+          "text": "the",
+          "start": 282.318,
+          "end": 282.418
+        },
+        {
+          "text": "same",
+          "start": 282.418,
+          "end": 282.68
+        },
+        {
+          "text": "element",
+          "start": 282.68,
+          "end": 283.38
+        },
+        {
+          "text": ".",
+          "start": 283.38,
+          "end": 283.505
+        },
+        {
+          "text": "The",
+          "start": 283.505,
+          "end": 283.605
+        },
+        {
+          "text": "question",
+          "start": 283.605,
+          "end": 284.092
+        },
+        {
+          "text": "is",
+          "start": 284.092,
+          "end": 284.53
+        },
+        {
+          "text": ":",
+          "start": 284.53,
+          "end": 284.63
+        },
+        {
+          "text": "which",
+          "start": 284.63,
+          "end": 284.83
+        },
+        {
+          "text": "one",
+          "start": 284.83,
+          "end": 285.055
+        },
+        {
+          "text": "should",
+          "start": 285.055,
+          "end": 285.205
+        },
+        {
+          "text": "you",
+          "start": 285.205,
+          "end": 285.342
+        },
+        {
+          "text": "pick",
+          "start": 285.342,
+          "end": 285.93
+        },
+        {
+          "text": "?",
+          "start": 285.93,
+          "end": 286.08
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "p",
+      "text": "Let me rank them for you:",
+      "start": 286.4,
+      "end": 288.15,
+      "words": [
+        {
+          "text": "Let",
+          "start": 286.7,
+          "end": 286.812
+        },
+        {
+          "text": "me",
+          "start": 286.812,
+          "end": 286.925
+        },
+        {
+          "text": "rank",
+          "start": 286.925,
+          "end": 287.2
+        },
+        {
+          "text": "them",
+          "start": 287.2,
+          "end": 287.4
+        },
+        {
+          "text": "for",
+          "start": 287.4,
+          "end": 287.525
+        },
+        {
+          "text": "you",
+          "start": 287.525,
+          "end": 287.975
+        },
+        {
+          "text": ":",
+          "start": 287.975,
+          "end": 288.15
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "By.name(\"q\") , Fastest. The name attribute is stable. Use this.",
+      "start": 288.47,
+      "end": 293.17,
+      "words": [
+        {
+          "text": "By.name(\"q",
+          "start": 288.745,
+          "end": 289.72
+        },
+        {
+          "text": "\"",
+          "start": 289.72,
+          "end": 289.745
+        },
+        {
+          "text": ")",
+          "start": 289.745,
+          "end": 289.783
+        },
+        {
+          "text": ",",
+          "start": 289.783,
+          "end": 289.845
+        },
+        {
+          "text": "Fastest",
+          "start": 289.845,
+          "end": 290.57
+        },
+        {
+          "text": ".",
+          "start": 290.57,
+          "end": 290.67
+        },
+        {
+          "text": "The",
+          "start": 290.67,
+          "end": 290.77
+        },
+        {
+          "text": "name",
+          "start": 290.77,
+          "end": 291.02
+        },
+        {
+          "text": "attribute",
+          "start": 291.02,
+          "end": 291.445
+        },
+        {
+          "text": "is",
+          "start": 291.445,
+          "end": 291.57
+        },
+        {
+          "text": "stable",
+          "start": 291.57,
+          "end": 292.12
+        },
+        {
+          "text": ".",
+          "start": 292.12,
+          "end": 292.208
+        },
+        {
+          "text": "Use",
+          "start": 292.208,
+          "end": 292.495
+        },
+        {
+          "text": "this",
+          "start": 292.495,
+          "end": 293.02
+        },
+        {
+          "text": ".",
+          "start": 293.02,
+          "end": 293.17
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "li",
+      "text": "By.cssSelector , Also fast and readable, but tied to the CSS class structure. If Google refactors their styles, this breaks.",
+      "start": 293.49,
+      "end": 302.79,
+      "words": [
+        {
+          "text": "By.cssSelector",
+          "start": 293.765,
+          "end": 295.353
+        },
+        {
+          "text": ",",
+          "start": 295.353,
+          "end": 295.44
+        },
+        {
+          "text": "Also",
+          "start": 295.44,
+          "end": 295.84
+        },
+        {
+          "text": "fast",
+          "start": 295.84,
+          "end": 296.265
+        },
+        {
+          "text": "and",
+          "start": 296.265,
+          "end": 296.39
+        },
+        {
+          "text": "readable",
+          "start": 296.39,
+          "end": 297.09
+        },
+        {
+          "text": ",",
+          "start": 297.09,
+          "end": 297.19
+        },
+        {
+          "text": "but",
+          "start": 297.19,
+          "end": 297.353
+        },
+        {
+          "text": "tied",
+          "start": 297.353,
+          "end": 297.74
+        },
+        {
+          "text": "to",
+          "start": 297.74,
+          "end": 297.828
+        },
+        {
+          "text": "the",
+          "start": 297.828,
+          "end": 297.953
+        },
+        {
+          "text": "CSS",
+          "start": 297.953,
+          "end": 298.59
+        },
+        {
+          "text": "class",
+          "start": 298.59,
+          "end": 298.865
+        },
+        {
+          "text": "structure",
+          "start": 298.865,
+          "end": 299.74
+        },
+        {
+          "text": ".",
+          "start": 299.74,
+          "end": 299.89
+        },
+        {
+          "text": "If",
+          "start": 299.89,
+          "end": 300.103
+        },
+        {
+          "text": "Google",
+          "start": 300.103,
+          "end": 300.44
+        },
+        {
+          "text": "refactors",
+          "start": 300.44,
+          "end": 301.065
+        },
+        {
+          "text": "their",
+          "start": 301.065,
+          "end": 301.277
+        },
+        {
+          "text": "styles",
+          "start": 301.277,
+          "end": 301.765
+        },
+        {
+          "text": ",",
+          "start": 301.765,
+          "end": 301.815
+        },
+        {
+          "text": "this",
+          "start": 301.815,
+          "end": 301.99
+        },
+        {
+          "text": "breaks",
+          "start": 301.99,
+          "end": 302.64
+        },
+        {
+          "text": ".",
+          "start": 302.64,
+          "end": 302.79
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "By.xpath (relative) , //input[@title='Search'] is flexible but slower than CSS.",
+      "start": 303.11,
+      "end": 310.235,
+      "words": [
+        {
+          "text": "By.xpath",
+          "start": 303.385,
+          "end": 304.223
+        },
+        {
+          "text": "(",
+          "start": 304.223,
+          "end": 304.26
+        },
+        {
+          "text": "relative",
+          "start": 304.26,
+          "end": 304.96
+        },
+        {
+          "text": ")",
+          "start": 304.96,
+          "end": 305.085
+        },
+        {
+          "text": ",",
+          "start": 305.085,
+          "end": 305.16
+        },
+        {
+          "text": "//input[@title=Search'",
+          "start": 305.16,
+          "end": 307.56
+        },
+        {
+          "text": "]",
+          "start": 307.56,
+          "end": 307.66
+        },
+        {
+          "text": "is",
+          "start": 307.66,
+          "end": 307.835
+        },
+        {
+          "text": "flexible",
+          "start": 307.835,
+          "end": 308.348
+        },
+        {
+          "text": "but",
+          "start": 308.348,
+          "end": 308.598
+        },
+        {
+          "text": "slower",
+          "start": 308.598,
+          "end": 308.998
+        },
+        {
+          "text": "than",
+          "start": 308.998,
+          "end": 309.21
+        },
+        {
+          "text": "CSS",
+          "start": 309.21,
+          "end": 310.235
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "By.xpath (absolute) , Don't. Ever. This shatters if Google moves the input to a different nesting level. Absolute XPath is debugging hell.",
+      "start": 310.555,
+      "end": 320.355,
+      "words": [
+        {
+          "text": "By.xpath",
+          "start": 310.83,
+          "end": 311.843
+        },
+        {
+          "text": "(",
+          "start": 311.843,
+          "end": 311.93
+        },
+        {
+          "text": "absolute",
+          "start": 311.93,
+          "end": 312.53
+        },
+        {
+          "text": ")",
+          "start": 312.53,
+          "end": 312.593
+        },
+        {
+          "text": ",",
+          "start": 312.593,
+          "end": 312.655
+        },
+        {
+          "text": "Don't",
+          "start": 312.655,
+          "end": 313.18
+        },
+        {
+          "text": ".",
+          "start": 313.18,
+          "end": 313.318
+        },
+        {
+          "text": "Ever",
+          "start": 313.318,
+          "end": 313.93
+        },
+        {
+          "text": ".",
+          "start": 313.93,
+          "end": 314.068
+        },
+        {
+          "text": "This",
+          "start": 314.068,
+          "end": 314.292
+        },
+        {
+          "text": "shatters",
+          "start": 314.292,
+          "end": 314.755
+        },
+        {
+          "text": "if",
+          "start": 314.755,
+          "end": 314.917
+        },
+        {
+          "text": "Google",
+          "start": 314.917,
+          "end": 315.268
+        },
+        {
+          "text": "moves",
+          "start": 315.268,
+          "end": 315.568
+        },
+        {
+          "text": "the",
+          "start": 315.568,
+          "end": 315.705
+        },
+        {
+          "text": "input",
+          "start": 315.705,
+          "end": 316.105
+        },
+        {
+          "text": "to",
+          "start": 316.105,
+          "end": 316.217
+        },
+        {
+          "text": "a",
+          "start": 316.217,
+          "end": 316.28
+        },
+        {
+          "text": "different",
+          "start": 316.28,
+          "end": 316.58
+        },
+        {
+          "text": "nesting",
+          "start": 316.58,
+          "end": 316.955
+        },
+        {
+          "text": "level",
+          "start": 316.955,
+          "end": 317.63
+        },
+        {
+          "text": ".",
+          "start": 317.63,
+          "end": 317.805
+        },
+        {
+          "text": "Absolute",
+          "start": 317.805,
+          "end": 318.393
+        },
+        {
+          "text": "XPath",
+          "start": 318.393,
+          "end": 318.955
+        },
+        {
+          "text": "is",
+          "start": 318.955,
+          "end": 319.105
+        },
+        {
+          "text": "debugging",
+          "start": 319.105,
+          "end": 319.63
+        },
+        {
+          "text": "hell",
+          "start": 319.63,
+          "end": 320.205
+        },
+        {
+          "text": ".",
+          "start": 320.205,
+          "end": 320.355
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "h3",
+      "text": "When XPath Wins",
+      "start": 320.675,
+      "end": 322.225,
+      "words": [
+        {
+          "text": "When",
+          "start": 320.975,
+          "end": 321.1
+        },
+        {
+          "text": "XPath",
+          "start": 321.1,
+          "end": 321.575
+        },
+        {
+          "text": "Wins",
+          "start": 321.575,
+          "end": 322.225
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "p",
+      "text": "XPath can go backward through the tree. Need the form that contains a specific button? XPath can walk up to the parent. CSS can't.",
+      "start": 322.72,
+      "end": 331.545,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 322.995,
+          "end": 323.495
+        },
+        {
+          "text": "can",
+          "start": 323.495,
+          "end": 323.62
+        },
+        {
+          "text": "go",
+          "start": 323.62,
+          "end": 323.795
+        },
+        {
+          "text": "backward",
+          "start": 323.795,
+          "end": 324.245
+        },
+        {
+          "text": "through",
+          "start": 324.245,
+          "end": 324.445
+        },
+        {
+          "text": "the",
+          "start": 324.445,
+          "end": 324.558
+        },
+        {
+          "text": "tree",
+          "start": 324.558,
+          "end": 325.17
+        },
+        {
+          "text": ".",
+          "start": 325.17,
+          "end": 325.308
+        },
+        {
+          "text": "Need",
+          "start": 325.308,
+          "end": 325.508
+        },
+        {
+          "text": "the",
+          "start": 325.508,
+          "end": 325.608
+        },
+        {
+          "text": "form",
+          "start": 325.608,
+          "end": 325.995
+        },
+        {
+          "text": "that",
+          "start": 325.995,
+          "end": 326.145
+        },
+        {
+          "text": "contains",
+          "start": 326.145,
+          "end": 326.633
+        },
+        {
+          "text": "a",
+          "start": 326.633,
+          "end": 326.695
+        },
+        {
+          "text": "specific",
+          "start": 326.695,
+          "end": 327.195
+        },
+        {
+          "text": "button",
+          "start": 327.195,
+          "end": 327.67
+        },
+        {
+          "text": "?",
+          "start": 327.67,
+          "end": 327.808
+        },
+        {
+          "text": "XPath",
+          "start": 327.808,
+          "end": 328.395
+        },
+        {
+          "text": "can",
+          "start": 328.395,
+          "end": 328.595
+        },
+        {
+          "text": "walk",
+          "start": 328.595,
+          "end": 328.832
+        },
+        {
+          "text": "up",
+          "start": 328.832,
+          "end": 329.02
+        },
+        {
+          "text": "to",
+          "start": 329.02,
+          "end": 329.108
+        },
+        {
+          "text": "the",
+          "start": 329.108,
+          "end": 329.195
+        },
+        {
+          "text": "parent",
+          "start": 329.195,
+          "end": 329.945
+        },
+        {
+          "text": ".",
+          "start": 329.945,
+          "end": 330.108
+        },
+        {
+          "text": "CSS",
+          "start": 330.108,
+          "end": 330.795
+        },
+        {
+          "text": "can't",
+          "start": 330.795,
+          "end": 331.395
+        },
+        {
+          "text": ".",
+          "start": 331.395,
+          "end": 331.545
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "p",
+      "text": "CSS stops there , it goes only forward down the tree. This is XPath's one genuine advantage.",
+      "start": 331.865,
+      "end": 338.79,
+      "words": [
+        {
+          "text": "CSS",
+          "start": 332.19,
+          "end": 332.79
+        },
+        {
+          "text": "stops",
+          "start": 332.79,
+          "end": 333.165
+        },
+        {
+          "text": "there",
+          "start": 333.165,
+          "end": 333.628
+        },
+        {
+          "text": ",",
+          "start": 333.628,
+          "end": 333.715
+        },
+        {
+          "text": "it",
+          "start": 333.715,
+          "end": 333.803
+        },
+        {
+          "text": "goes",
+          "start": 333.803,
+          "end": 334.04
+        },
+        {
+          "text": "only",
+          "start": 334.04,
+          "end": 334.353
+        },
+        {
+          "text": "forward",
+          "start": 334.353,
+          "end": 334.74
+        },
+        {
+          "text": "down",
+          "start": 334.74,
+          "end": 334.928
+        },
+        {
+          "text": "the",
+          "start": 334.928,
+          "end": 335.015
+        },
+        {
+          "text": "tree",
+          "start": 335.015,
+          "end": 335.74
+        },
+        {
+          "text": ".",
+          "start": 335.74,
+          "end": 335.903
+        },
+        {
+          "text": "This",
+          "start": 335.903,
+          "end": 336.14
+        },
+        {
+          "text": "is",
+          "start": 336.14,
+          "end": 336.303
+        },
+        {
+          "text": "XPath's",
+          "start": 336.303,
+          "end": 336.94
+        },
+        {
+          "text": "one",
+          "start": 336.94,
+          "end": 337.315
+        },
+        {
+          "text": "genuine",
+          "start": 337.315,
+          "end": 337.753
+        },
+        {
+          "text": "advantage",
+          "start": 337.753,
+          "end": 338.64
+        },
+        {
+          "text": ".",
+          "start": 338.64,
+          "end": 338.79
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "h3",
+      "text": "When CSS Wins",
+      "start": 339.11,
+      "end": 340.76,
+      "words": [
+        {
+          "text": "When",
+          "start": 339.385,
+          "end": 339.548
+        },
+        {
+          "text": "CSS",
+          "start": 339.548,
+          "end": 340.11
+        },
+        {
+          "text": "Wins",
+          "start": 340.11,
+          "end": 340.76
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "p",
+      "text": "CSS is faster and more readable for forward-only navigation. It's your default. Reach for XPath only when you genuinely need backward traversal.",
+      "start": 341.255,
+      "end": 351.33,
+      "words": [
+        {
+          "text": "CSS",
+          "start": 341.555,
+          "end": 342.217
+        },
+        {
+          "text": "is",
+          "start": 342.217,
+          "end": 342.418
+        },
+        {
+          "text": "faster",
+          "start": 342.418,
+          "end": 343.155
+        },
+        {
+          "text": "and",
+          "start": 343.155,
+          "end": 343.33
+        },
+        {
+          "text": "more",
+          "start": 343.33,
+          "end": 343.555
+        },
+        {
+          "text": "readable",
+          "start": 343.555,
+          "end": 344.005
+        },
+        {
+          "text": "for",
+          "start": 344.005,
+          "end": 344.18
+        },
+        {
+          "text": "forward-only",
+          "start": 344.18,
+          "end": 344.83
+        },
+        {
+          "text": "navigation",
+          "start": 344.83,
+          "end": 345.93
+        },
+        {
+          "text": ".",
+          "start": 345.93,
+          "end": 346.055
+        },
+        {
+          "text": "It's",
+          "start": 346.055,
+          "end": 346.28
+        },
+        {
+          "text": "your",
+          "start": 346.28,
+          "end": 346.405
+        },
+        {
+          "text": "default",
+          "start": 346.405,
+          "end": 347.28
+        },
+        {
+          "text": ".",
+          "start": 347.28,
+          "end": 347.417
+        },
+        {
+          "text": "Reach",
+          "start": 347.417,
+          "end": 347.705
+        },
+        {
+          "text": "for",
+          "start": 347.705,
+          "end": 347.868
+        },
+        {
+          "text": "XPath",
+          "start": 347.868,
+          "end": 348.505
+        },
+        {
+          "text": "only",
+          "start": 348.505,
+          "end": 348.817
+        },
+        {
+          "text": "when",
+          "start": 348.817,
+          "end": 348.955
+        },
+        {
+          "text": "you",
+          "start": 348.955,
+          "end": 349.092
+        },
+        {
+          "text": "genuinely",
+          "start": 349.092,
+          "end": 349.605
+        },
+        {
+          "text": "need",
+          "start": 349.605,
+          "end": 349.88
+        },
+        {
+          "text": "backward",
+          "start": 349.88,
+          "end": 350.305
+        },
+        {
+          "text": "traversal",
+          "start": 350.305,
+          "end": 351.18
+        },
+        {
+          "text": ".",
+          "start": 351.18,
+          "end": 351.33
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "h2",
+      "text": "A Tricky Case , Tables",
+      "start": 351.65,
+      "end": 353.55,
+      "words": [
+        {
+          "text": "A",
+          "start": 351.925,
+          "end": 352.0
+        },
+        {
+          "text": "Tricky",
+          "start": 352.0,
+          "end": 352.325
+        },
+        {
+          "text": "Case",
+          "start": 352.325,
+          "end": 352.725
+        },
+        {
+          "text": ",",
+          "start": 352.725,
+          "end": 352.8
+        },
+        {
+          "text": "Tables",
+          "start": 352.8,
+          "end": 353.55
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "p",
+      "text": "Both CSS and XPath can navigate tables. CSS is again faster.",
+      "start": 353.995,
+      "end": 359.62,
+      "words": [
+        {
+          "text": "Both",
+          "start": 354.27,
+          "end": 354.508
+        },
+        {
+          "text": "CSS",
+          "start": 354.508,
+          "end": 355.283
+        },
+        {
+          "text": "and",
+          "start": 355.283,
+          "end": 355.42
+        },
+        {
+          "text": "XPath",
+          "start": 355.42,
+          "end": 355.945
+        },
+        {
+          "text": "can",
+          "start": 355.945,
+          "end": 356.07
+        },
+        {
+          "text": "navigate",
+          "start": 356.07,
+          "end": 356.545
+        },
+        {
+          "text": "tables",
+          "start": 356.545,
+          "end": 357.345
+        },
+        {
+          "text": ".",
+          "start": 357.345,
+          "end": 357.508
+        },
+        {
+          "text": "CSS",
+          "start": 357.508,
+          "end": 358.245
+        },
+        {
+          "text": "is",
+          "start": 358.245,
+          "end": 358.37
+        },
+        {
+          "text": "again",
+          "start": 358.37,
+          "end": 358.683
+        },
+        {
+          "text": "faster",
+          "start": 358.683,
+          "end": 359.47
+        },
+        {
+          "text": ".",
+          "start": 359.47,
+          "end": 359.62
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "p",
+      "text": "CSS is my go-to for tables. XPath shines if you need to find which row contains a specific cell (backward traversal), then grab a column from that row. But if you know the row number, CSS wins.",
+      "start": 359.94,
+      "end": 373.69,
+      "words": [
+        {
+          "text": "CSS",
+          "start": 360.265,
+          "end": 360.915
+        },
+        {
+          "text": "is",
+          "start": 360.915,
+          "end": 361.04
+        },
+        {
+          "text": "my",
+          "start": 361.04,
+          "end": 361.215
+        },
+        {
+          "text": "go-to",
+          "start": 361.215,
+          "end": 361.665
+        },
+        {
+          "text": "for",
+          "start": 361.665,
+          "end": 361.79
+        },
+        {
+          "text": "tables",
+          "start": 361.79,
+          "end": 362.715
+        },
+        {
+          "text": ".",
+          "start": 362.715,
+          "end": 362.878
+        },
+        {
+          "text": "XPath",
+          "start": 362.878,
+          "end": 363.402
+        },
+        {
+          "text": "shines",
+          "start": 363.402,
+          "end": 363.865
+        },
+        {
+          "text": "if",
+          "start": 363.865,
+          "end": 363.99
+        },
+        {
+          "text": "you",
+          "start": 363.99,
+          "end": 364.078
+        },
+        {
+          "text": "need",
+          "start": 364.078,
+          "end": 364.265
+        },
+        {
+          "text": "to",
+          "start": 364.265,
+          "end": 364.39
+        },
+        {
+          "text": "find",
+          "start": 364.39,
+          "end": 364.727
+        },
+        {
+          "text": "which",
+          "start": 364.727,
+          "end": 364.953
+        },
+        {
+          "text": "row",
+          "start": 364.953,
+          "end": 365.265
+        },
+        {
+          "text": "contains",
+          "start": 365.265,
+          "end": 365.727
+        },
+        {
+          "text": "a",
+          "start": 365.727,
+          "end": 365.79
+        },
+        {
+          "text": "specific",
+          "start": 365.79,
+          "end": 366.352
+        },
+        {
+          "text": "cell",
+          "start": 366.352,
+          "end": 366.852
+        },
+        {
+          "text": "(",
+          "start": 366.852,
+          "end": 366.94
+        },
+        {
+          "text": "backward",
+          "start": 366.94,
+          "end": 367.34
+        },
+        {
+          "text": "traversal",
+          "start": 367.34,
+          "end": 368.24
+        },
+        {
+          "text": ")",
+          "start": 368.24,
+          "end": 368.34
+        },
+        {
+          "text": ",",
+          "start": 368.34,
+          "end": 368.39
+        },
+        {
+          "text": "then",
+          "start": 368.39,
+          "end": 368.628
+        },
+        {
+          "text": "grab",
+          "start": 368.628,
+          "end": 368.952
+        },
+        {
+          "text": "a",
+          "start": 368.952,
+          "end": 369.053
+        },
+        {
+          "text": "column",
+          "start": 369.053,
+          "end": 369.44
+        },
+        {
+          "text": "from",
+          "start": 369.44,
+          "end": 369.577
+        },
+        {
+          "text": "that",
+          "start": 369.577,
+          "end": 369.79
+        },
+        {
+          "text": "row",
+          "start": 369.79,
+          "end": 370.44
+        },
+        {
+          "text": ".",
+          "start": 370.44,
+          "end": 370.54
+        },
+        {
+          "text": "But",
+          "start": 370.54,
+          "end": 370.678
+        },
+        {
+          "text": "if",
+          "start": 370.678,
+          "end": 370.79
+        },
+        {
+          "text": "you",
+          "start": 370.79,
+          "end": 370.915
+        },
+        {
+          "text": "know",
+          "start": 370.915,
+          "end": 371.09
+        },
+        {
+          "text": "the",
+          "start": 371.09,
+          "end": 371.227
+        },
+        {
+          "text": "row",
+          "start": 371.227,
+          "end": 371.49
+        },
+        {
+          "text": "number",
+          "start": 371.49,
+          "end": 371.99
+        },
+        {
+          "text": ",",
+          "start": 371.99,
+          "end": 372.14
+        },
+        {
+          "text": "CSS",
+          "start": 372.14,
+          "end": 372.827
+        },
+        {
+          "text": "wins",
+          "start": 372.827,
+          "end": 373.54
+        },
+        {
+          "text": ".",
+          "start": 373.54,
+          "end": 373.69
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "h2",
+      "text": "Final Word",
+      "start": 374.01,
+      "end": 375.335,
+      "words": [
+        {
+          "text": "Final",
+          "start": 374.385,
+          "end": 374.735
+        },
+        {
+          "text": "Word",
+          "start": 374.735,
+          "end": 375.335
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "p",
+      "text": "I can tell you from experience: the locators you write today will outlast the UI they target. You'll spend more time maintaining your selectors than writing them. That's why the choice matters.",
+      "start": 375.855,
+      "end": 387.33,
+      "words": [
+        {
+          "text": "I",
+          "start": 376.105,
+          "end": 376.255
+        },
+        {
+          "text": "can",
+          "start": 376.255,
+          "end": 376.393
+        },
+        {
+          "text": "tell",
+          "start": 376.393,
+          "end": 376.655
+        },
+        {
+          "text": "you",
+          "start": 376.655,
+          "end": 376.805
+        },
+        {
+          "text": "from",
+          "start": 376.805,
+          "end": 376.955
+        },
+        {
+          "text": "experience",
+          "start": 376.955,
+          "end": 377.955
+        },
+        {
+          "text": ":",
+          "start": 377.955,
+          "end": 378.055
+        },
+        {
+          "text": "the",
+          "start": 378.055,
+          "end": 378.18
+        },
+        {
+          "text": "locators",
+          "start": 378.18,
+          "end": 378.73
+        },
+        {
+          "text": "you",
+          "start": 378.73,
+          "end": 378.855
+        },
+        {
+          "text": "write",
+          "start": 378.855,
+          "end": 379.105
+        },
+        {
+          "text": "today",
+          "start": 379.105,
+          "end": 379.455
+        },
+        {
+          "text": "will",
+          "start": 379.455,
+          "end": 379.643
+        },
+        {
+          "text": "outlast",
+          "start": 379.643,
+          "end": 380.28
+        },
+        {
+          "text": "the",
+          "start": 380.28,
+          "end": 380.393
+        },
+        {
+          "text": "UI",
+          "start": 380.393,
+          "end": 380.805
+        },
+        {
+          "text": "they",
+          "start": 380.805,
+          "end": 380.955
+        },
+        {
+          "text": "target",
+          "start": 380.955,
+          "end": 381.755
+        },
+        {
+          "text": ".",
+          "start": 381.755,
+          "end": 381.893
+        },
+        {
+          "text": "You'll",
+          "start": 381.893,
+          "end": 382.055
+        },
+        {
+          "text": "spend",
+          "start": 382.055,
+          "end": 382.355
+        },
+        {
+          "text": "more",
+          "start": 382.355,
+          "end": 382.58
+        },
+        {
+          "text": "time",
+          "start": 382.58,
+          "end": 382.93
+        },
+        {
+          "text": "maintaining",
+          "start": 382.93,
+          "end": 383.518
+        },
+        {
+          "text": "your",
+          "start": 383.518,
+          "end": 383.655
+        },
+        {
+          "text": "selectors",
+          "start": 383.655,
+          "end": 384.23
+        },
+        {
+          "text": "than",
+          "start": 384.23,
+          "end": 384.405
+        },
+        {
+          "text": "writing",
+          "start": 384.405,
+          "end": 384.718
+        },
+        {
+          "text": "them",
+          "start": 384.718,
+          "end": 385.305
+        },
+        {
+          "text": ".",
+          "start": 385.305,
+          "end": 385.443
+        },
+        {
+          "text": "That's",
+          "start": 385.443,
+          "end": 385.755
+        },
+        {
+          "text": "why",
+          "start": 385.755,
+          "end": 385.93
+        },
+        {
+          "text": "the",
+          "start": 385.93,
+          "end": 386.042
+        },
+        {
+          "text": "choice",
+          "start": 386.042,
+          "end": 386.355
+        },
+        {
+          "text": "matters",
+          "start": 386.355,
+          "end": 387.18
+        },
+        {
+          "text": ".",
+          "start": 387.18,
+          "end": 387.33
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "p",
+      "text": "Here's what I do:",
+      "start": 387.65,
+      "end": 389.225,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 387.975,
+          "end": 388.263
+        },
+        {
+          "text": "what",
+          "start": 388.263,
+          "end": 388.388
+        },
+        {
+          "text": "I",
+          "start": 388.388,
+          "end": 388.525
+        },
+        {
+          "text": "do",
+          "start": 388.525,
+          "end": 389.025
+        },
+        {
+          "text": ":",
+          "start": 389.025,
+          "end": 389.225
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "li",
+      "text": "Prefer IDs and stable attributes , if they exist, use them.",
+      "start": 389.545,
+      "end": 394.02,
+      "words": [
+        {
+          "text": "Prefer",
+          "start": 389.795,
+          "end": 390.182
+        },
+        {
+          "text": "IDs",
+          "start": 390.182,
+          "end": 390.77
+        },
+        {
+          "text": "and",
+          "start": 390.77,
+          "end": 390.895
+        },
+        {
+          "text": "stable",
+          "start": 390.895,
+          "end": 391.295
+        },
+        {
+          "text": "attributes",
+          "start": 391.295,
+          "end": 392.095
+        },
+        {
+          "text": ",",
+          "start": 392.095,
+          "end": 392.17
+        },
+        {
+          "text": "if",
+          "start": 392.17,
+          "end": 392.295
+        },
+        {
+          "text": "they",
+          "start": 392.295,
+          "end": 392.445
+        },
+        {
+          "text": "exist",
+          "start": 392.445,
+          "end": 392.945
+        },
+        {
+          "text": ",",
+          "start": 392.945,
+          "end": 393.058
+        },
+        {
+          "text": "use",
+          "start": 393.058,
+          "end": 393.345
+        },
+        {
+          "text": "them",
+          "start": 393.345,
+          "end": 393.87
+        },
+        {
+          "text": ".",
+          "start": 393.87,
+          "end": 394.02
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "li",
+      "text": "Fall back to CSS , fast, readable, sufficient for 90 percent of cases.",
+      "start": 394.34,
+      "end": 399.94,
+      "words": [
+        {
+          "text": "Fall",
+          "start": 394.64,
+          "end": 394.84
+        },
+        {
+          "text": "back",
+          "start": 394.84,
+          "end": 395.115
+        },
+        {
+          "text": "to",
+          "start": 395.115,
+          "end": 395.24
+        },
+        {
+          "text": "CSS",
+          "start": 395.24,
+          "end": 396.202
+        },
+        {
+          "text": ",",
+          "start": 396.202,
+          "end": 396.327
+        },
+        {
+          "text": "fast",
+          "start": 396.327,
+          "end": 396.84
+        },
+        {
+          "text": ",",
+          "start": 396.84,
+          "end": 396.94
+        },
+        {
+          "text": "readable",
+          "start": 396.94,
+          "end": 397.44
+        },
+        {
+          "text": ",",
+          "start": 397.44,
+          "end": 397.515
+        },
+        {
+          "text": "sufficient",
+          "start": 397.515,
+          "end": 398.065
+        },
+        {
+          "text": "for",
+          "start": 398.065,
+          "end": 398.19
+        },
+        {
+          "text": "90",
+          "start": 398.19,
+          "end": 398.565
+        },
+        {
+          "text": "percent",
+          "start": 398.565,
+          "end": 398.902
+        },
+        {
+          "text": "of",
+          "start": 398.902,
+          "end": 398.99
+        },
+        {
+          "text": "cases",
+          "start": 398.99,
+          "end": 399.79
+        },
+        {
+          "text": ".",
+          "start": 399.79,
+          "end": 399.94
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "li",
+      "text": "Use XPath only for backward traversal , it's the only thing CSS can't do.",
+      "start": 400.26,
+      "end": 405.51,
+      "words": [
+        {
+          "text": "Use",
+          "start": 400.56,
+          "end": 400.798
+        },
+        {
+          "text": "XPath",
+          "start": 400.798,
+          "end": 401.348
+        },
+        {
+          "text": "only",
+          "start": 401.348,
+          "end": 401.66
+        },
+        {
+          "text": "for",
+          "start": 401.66,
+          "end": 401.785
+        },
+        {
+          "text": "backward",
+          "start": 401.785,
+          "end": 402.16
+        },
+        {
+          "text": "traversal",
+          "start": 402.16,
+          "end": 403.048
+        },
+        {
+          "text": ",",
+          "start": 403.048,
+          "end": 403.135
+        },
+        {
+          "text": "it's",
+          "start": 403.135,
+          "end": 403.298
+        },
+        {
+          "text": "the",
+          "start": 403.298,
+          "end": 403.423
+        },
+        {
+          "text": "only",
+          "start": 403.423,
+          "end": 403.735
+        },
+        {
+          "text": "thing",
+          "start": 403.735,
+          "end": 403.973
+        },
+        {
+          "text": "CSS",
+          "start": 403.973,
+          "end": 404.535
+        },
+        {
+          "text": "can't",
+          "start": 404.535,
+          "end": 404.835
+        },
+        {
+          "text": "do",
+          "start": 404.835,
+          "end": 405.335
+        },
+        {
+          "text": ".",
+          "start": 405.335,
+          "end": 405.51
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "li",
+      "text": "Set up explicit waits , they're your insurance against timing ghosts.",
+      "start": 405.83,
+      "end": 410.08,
+      "words": [
+        {
+          "text": "Set",
+          "start": 406.13,
+          "end": 406.268
+        },
+        {
+          "text": "up",
+          "start": 406.268,
+          "end": 406.393
+        },
+        {
+          "text": "explicit",
+          "start": 406.393,
+          "end": 406.905
+        },
+        {
+          "text": "waits",
+          "start": 406.905,
+          "end": 407.542
+        },
+        {
+          "text": ",",
+          "start": 407.542,
+          "end": 407.63
+        },
+        {
+          "text": "they're",
+          "start": 407.63,
+          "end": 407.83
+        },
+        {
+          "text": "your",
+          "start": 407.83,
+          "end": 407.967
+        },
+        {
+          "text": "insurance",
+          "start": 407.967,
+          "end": 408.53
+        },
+        {
+          "text": "against",
+          "start": 408.53,
+          "end": 408.855
+        },
+        {
+          "text": "timing",
+          "start": 408.855,
+          "end": 409.23
+        },
+        {
+          "text": "ghosts",
+          "start": 409.23,
+          "end": 409.93
+        },
+        {
+          "text": ".",
+          "start": 409.93,
+          "end": 410.08
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "li",
+      "text": "Encode it in page objects , one change, one place, then your whole suite stays green.",
+      "start": 410.4,
+      "end": 415.75,
+      "words": [
+        {
+          "text": "Encode",
+          "start": 410.675,
+          "end": 411.013
+        },
+        {
+          "text": "it",
+          "start": 411.013,
+          "end": 411.125
+        },
+        {
+          "text": "in",
+          "start": 411.125,
+          "end": 411.225
+        },
+        {
+          "text": "page",
+          "start": 411.225,
+          "end": 411.525
+        },
+        {
+          "text": "objects",
+          "start": 411.525,
+          "end": 412.125
+        },
+        {
+          "text": ",",
+          "start": 412.125,
+          "end": 412.2
+        },
+        {
+          "text": "one",
+          "start": 412.2,
+          "end": 412.425
+        },
+        {
+          "text": "change",
+          "start": 412.425,
+          "end": 412.75
+        },
+        {
+          "text": ",",
+          "start": 412.75,
+          "end": 412.8
+        },
+        {
+          "text": "one",
+          "start": 412.8,
+          "end": 413.025
+        },
+        {
+          "text": "place",
+          "start": 413.025,
+          "end": 413.65
+        },
+        {
+          "text": ",",
+          "start": 413.65,
+          "end": 413.75
+        },
+        {
+          "text": "then",
+          "start": 413.75,
+          "end": 413.887
+        },
+        {
+          "text": "your",
+          "start": 413.887,
+          "end": 414.0
+        },
+        {
+          "text": "whole",
+          "start": 414.0,
+          "end": 414.262
+        },
+        {
+          "text": "suite",
+          "start": 414.262,
+          "end": 414.55
+        },
+        {
+          "text": "stays",
+          "start": 414.55,
+          "end": 414.925
+        },
+        {
+          "text": "green",
+          "start": 414.925,
+          "end": 415.6
+        },
+        {
+          "text": ".",
+          "start": 415.6,
+          "end": 415.75
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "p",
+      "text": "Make these decisions once. Encode them as page-object helpers. Then when the designer moves a button or the PM adds a new field, you fix it in one place, not thirty tests.",
+      "start": 416.07,
+      "end": 427.395,
+      "words": [
+        {
+          "text": "Make",
+          "start": 416.345,
+          "end": 416.545
+        },
+        {
+          "text": "these",
+          "start": 416.545,
+          "end": 416.77
+        },
+        {
+          "text": "decisions",
+          "start": 416.77,
+          "end": 417.32
+        },
+        {
+          "text": "once",
+          "start": 417.32,
+          "end": 418.02
+        },
+        {
+          "text": ".",
+          "start": 418.02,
+          "end": 418.158
+        },
+        {
+          "text": "Encode",
+          "start": 418.158,
+          "end": 418.62
+        },
+        {
+          "text": "them",
+          "start": 418.62,
+          "end": 418.882
+        },
+        {
+          "text": "as",
+          "start": 418.882,
+          "end": 419.057
+        },
+        {
+          "text": "page-object",
+          "start": 419.057,
+          "end": 419.745
+        },
+        {
+          "text": "helpers",
+          "start": 419.745,
+          "end": 420.67
+        },
+        {
+          "text": ".",
+          "start": 420.67,
+          "end": 420.807
+        },
+        {
+          "text": "Then",
+          "start": 420.807,
+          "end": 421.07
+        },
+        {
+          "text": "when",
+          "start": 421.07,
+          "end": 421.208
+        },
+        {
+          "text": "the",
+          "start": 421.208,
+          "end": 421.295
+        },
+        {
+          "text": "designer",
+          "start": 421.295,
+          "end": 421.795
+        },
+        {
+          "text": "moves",
+          "start": 421.795,
+          "end": 422.033
+        },
+        {
+          "text": "a",
+          "start": 422.033,
+          "end": 422.132
+        },
+        {
+          "text": "button",
+          "start": 422.132,
+          "end": 422.583
+        },
+        {
+          "text": "or",
+          "start": 422.583,
+          "end": 422.708
+        },
+        {
+          "text": "the",
+          "start": 422.708,
+          "end": 422.807
+        },
+        {
+          "text": "PM",
+          "start": 422.807,
+          "end": 423.307
+        },
+        {
+          "text": "adds",
+          "start": 423.307,
+          "end": 423.557
+        },
+        {
+          "text": "a",
+          "start": 423.557,
+          "end": 423.62
+        },
+        {
+          "text": "new",
+          "start": 423.62,
+          "end": 423.807
+        },
+        {
+          "text": "field",
+          "start": 423.807,
+          "end": 424.395
+        },
+        {
+          "text": ",",
+          "start": 424.395,
+          "end": 424.495
+        },
+        {
+          "text": "you",
+          "start": 424.495,
+          "end": 424.632
+        },
+        {
+          "text": "fix",
+          "start": 424.632,
+          "end": 424.87
+        },
+        {
+          "text": "it",
+          "start": 424.87,
+          "end": 424.995
+        },
+        {
+          "text": "in",
+          "start": 424.995,
+          "end": 425.145
+        },
+        {
+          "text": "one",
+          "start": 425.145,
+          "end": 425.37
+        },
+        {
+          "text": "place",
+          "start": 425.37,
+          "end": 425.87
+        },
+        {
+          "text": ",",
+          "start": 425.87,
+          "end": 425.97
+        },
+        {
+          "text": "not",
+          "start": 425.97,
+          "end": 426.22
+        },
+        {
+          "text": "thirty",
+          "start": 426.22,
+          "end": 426.52
+        },
+        {
+          "text": "tests",
+          "start": 426.52,
+          "end": 427.245
+        },
+        {
+          "text": ".",
+          "start": 427.245,
+          "end": 427.395
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 427.715,
+      "end": 429.54,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 428.015,
+          "end": 428.515
+        },
+        {
+          "text": "and",
+          "start": 428.515,
+          "end": 428.64
+        },
+        {
+          "text": "Further",
+          "start": 428.64,
+          "end": 428.915
+        },
+        {
+          "text": "Reading",
+          "start": 428.915,
+          "end": 429.54
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "kind": "li",
+      "text": "Selenium locators , official guide",
+      "start": 429.985,
+      "end": 432.51,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 430.285,
+          "end": 430.735
+        },
+        {
+          "text": "locators",
+          "start": 430.735,
+          "end": 431.435
+        },
+        {
+          "text": ",",
+          "start": 431.435,
+          "end": 431.51
+        },
+        {
+          "text": "official",
+          "start": 431.51,
+          "end": 431.91
+        },
+        {
+          "text": "guide",
+          "start": 431.91,
+          "end": 432.51
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "kind": "li",
+      "text": "Relative locators , Selenium 4",
+      "start": 432.98,
+      "end": 435.48,
+      "words": [
+        {
+          "text": "Relative",
+          "start": 433.28,
+          "end": 433.68
+        },
+        {
+          "text": "locators",
+          "start": 433.68,
+          "end": 434.343
+        },
+        {
+          "text": ",",
+          "start": 434.343,
+          "end": 434.43
+        },
+        {
+          "text": "Selenium",
+          "start": 434.43,
+          "end": 434.942
+        },
+        {
+          "text": "4",
+          "start": 434.942,
+          "end": 435.48
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "kind": "li",
+      "text": "Waits and synchronization",
+      "start": 436.025,
+      "end": 437.825,
+      "words": [
+        {
+          "text": "Waits",
+          "start": 436.325,
+          "end": 436.65
+        },
+        {
+          "text": "and",
+          "start": 436.65,
+          "end": 436.775
+        },
+        {
+          "text": "synchronization",
+          "start": 436.775,
+          "end": 437.825
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "kind": "li",
+      "text": "NoSuchElementException , troubleshooting",
+      "start": 438.27,
+      "end": 441.12,
+      "words": [
+        {
+          "text": "NoSuchElementException",
+          "start": 438.595,
+          "end": 440.033
+        },
+        {
+          "text": ",",
+          "start": 440.033,
+          "end": 440.12
+        },
+        {
+          "text": "troubleshooting",
+          "start": 440.12,
+          "end": 441.12
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "kind": "p",
+      "text": "See also: Selenium in 2026: A Beginner's Guide (Jul 2026) · XPath for Test Automation (Jul 2026) , the story-mode article with complex XPath and CSS for SDETs (SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS); the natural next read after this 2020 strategy-ladder introduction.",
+      "start": 441.54,
+      "end": 466.265,
+      "words": [
+        {
+          "text": "See",
+          "start": 441.84,
+          "end": 441.965
+        },
+        {
+          "text": "also",
+          "start": 441.965,
+          "end": 442.59
+        },
+        {
+          "text": ":",
+          "start": 442.59,
+          "end": 442.728
+        },
+        {
+          "text": "Selenium",
+          "start": 442.728,
+          "end": 443.315
+        },
+        {
+          "text": "in",
+          "start": 443.315,
+          "end": 443.415
+        },
+        {
+          "text": "2026",
+          "start": 443.415,
+          "end": 444.74
+        },
+        {
+          "text": ":",
+          "start": 444.74,
+          "end": 444.84
+        },
+        {
+          "text": "A",
+          "start": 444.84,
+          "end": 444.902
+        },
+        {
+          "text": "Beginner's",
+          "start": 444.902,
+          "end": 445.365
+        },
+        {
+          "text": "Guide",
+          "start": 445.365,
+          "end": 445.853
+        },
+        {
+          "text": "(",
+          "start": 445.853,
+          "end": 445.94
+        },
+        {
+          "text": "Jul",
+          "start": 445.94,
+          "end": 446.19
+        },
+        {
+          "text": "2026",
+          "start": 446.19,
+          "end": 447.39
+        },
+        {
+          "text": ")",
+          "start": 447.39,
+          "end": 447.49
+        },
+        {
+          "text": "XPath",
+          "start": 447.54,
+          "end": 448.027
+        },
+        {
+          "text": "for",
+          "start": 448.027,
+          "end": 448.165
+        },
+        {
+          "text": "Test",
+          "start": 448.165,
+          "end": 448.415
+        },
+        {
+          "text": "Automation",
+          "start": 448.415,
+          "end": 449.265
+        },
+        {
+          "text": "(",
+          "start": 449.265,
+          "end": 449.34
+        },
+        {
+          "text": "Jul",
+          "start": 449.34,
+          "end": 449.59
+        },
+        {
+          "text": "2026",
+          "start": 449.59,
+          "end": 450.84
+        },
+        {
+          "text": ")",
+          "start": 450.84,
+          "end": 450.878
+        },
+        {
+          "text": ",",
+          "start": 450.878,
+          "end": 450.953
+        },
+        {
+          "text": "the",
+          "start": 450.953,
+          "end": 451.065
+        },
+        {
+          "text": "story-mode",
+          "start": 451.065,
+          "end": 451.615
+        },
+        {
+          "text": "article",
+          "start": 451.615,
+          "end": 452.003
+        },
+        {
+          "text": "with",
+          "start": 452.003,
+          "end": 452.19
+        },
+        {
+          "text": "complex",
+          "start": 452.19,
+          "end": 452.765
+        },
+        {
+          "text": "XPath",
+          "start": 452.765,
+          "end": 453.328
+        },
+        {
+          "text": "and",
+          "start": 453.328,
+          "end": 453.49
+        },
+        {
+          "text": "CSS",
+          "start": 453.49,
+          "end": 454.128
+        },
+        {
+          "text": "for",
+          "start": 454.128,
+          "end": 454.29
+        },
+        {
+          "text": "SDETs",
+          "start": 454.29,
+          "end": 455.277
+        },
+        {
+          "text": "(",
+          "start": 455.277,
+          "end": 455.34
+        },
+        {
+          "text": "SVG",
+          "start": 455.34,
+          "end": 456.065
+        },
+        {
+          "text": ",",
+          "start": 456.065,
+          "end": 456.128
+        },
+        {
+          "text": "computed",
+          "start": 456.128,
+          "end": 456.552
+        },
+        {
+          "text": "indices",
+          "start": 456.552,
+          "end": 457.215
+        },
+        {
+          "text": ",",
+          "start": 457.215,
+          "end": 457.29
+        },
+        {
+          "text": "ARIA",
+          "start": 457.29,
+          "end": 457.64
+        },
+        {
+          "text": "chains",
+          "start": 457.64,
+          "end": 458.265
+        },
+        {
+          "text": ",",
+          "start": 458.265,
+          "end": 458.34
+        },
+        {
+          "text": "iframe/shadow-DOM",
+          "start": 458.34,
+          "end": 460.29
+        },
+        {
+          "text": ",",
+          "start": 460.29,
+          "end": 460.39
+        },
+        {
+          "text": "modern",
+          "start": 460.39,
+          "end": 460.84
+        },
+        {
+          "text": "CSS",
+          "start": 460.84,
+          "end": 461.965
+        },
+        {
+          "text": ")",
+          "start": 461.965,
+          "end": 461.99
+        },
+        {
+          "text": ";",
+          "start": 461.99,
+          "end": 462.052
+        },
+        {
+          "text": "the",
+          "start": 462.052,
+          "end": 462.165
+        },
+        {
+          "text": "natural",
+          "start": 462.165,
+          "end": 462.652
+        },
+        {
+          "text": "next",
+          "start": 462.652,
+          "end": 463.015
+        },
+        {
+          "text": "read",
+          "start": 463.015,
+          "end": 463.34
+        },
+        {
+          "text": "after",
+          "start": 463.34,
+          "end": 463.59
+        },
+        {
+          "text": "this",
+          "start": 463.59,
+          "end": 463.79
+        },
+        {
+          "text": "2020",
+          "start": 463.79,
+          "end": 464.44
+        },
+        {
+          "text": "strategy-ladder",
+          "start": 464.44,
+          "end": 465.203
+        },
+        {
+          "text": "introduction",
+          "start": 465.203,
+          "end": 466.265
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
