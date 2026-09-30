@@ -1,7 +1,7 @@
 /**
  * Headless check for Listen Mode.
  * Neural: highlight advances with audio.currentTime, seek and rate stay tied to it.
- * Fallback: a missing manifest uses the speech API and still highlights.
+ * Missing recording: the speech API is not used, and Listen stays disabled.
  *
  *   node scripts/tts/verify_player.mjs
  */
@@ -151,21 +151,25 @@ try {
   const resumed = await neural.evaluate(() => document.querySelector("[data-listen]").dataset.state);
   check("main control resumes", resumed === "playing", resumed);
 
+  await neural.click("[data-accent='uk']");
+  const ukUsesUs = await neural.waitForFunction(() => {
+    const note = document.querySelector("[data-listen-note]");
+    const audio = document.querySelector("audio");
+    return note && /US voice/.test(note.textContent) && audio && /\/us\//.test(audio.src);
+  }, null, { timeout: 8000 }).then(() => true).catch(() => false);
+  check("UK preference still plays the US recording", ukUsesUs);
+
   const fallback = await browser.newPage();
   await fallback.addInitScript(() => {
-    const spoken = [];
-    window.__listenSpoken = spoken;
+    window.__listenSpoken = [];
     window.__listenTestSpeech = {
       cancel() {},
       pause() {},
       resume() {},
       getVoices() { return [{ name: "Google US English", lang: "en-US", localService: true }]; },
       speak(utterance) {
-        spoken.push(utterance.text);
-        if (utterance.onstart) utterance.onstart();
-        setTimeout(() => {
-          if (utterance.onend) utterance.onend();
-        }, 20);
+        window.__listenSpoken.push(utterance.text);
+        if (utterance.onend) setTimeout(() => utterance.onend(), 20);
       },
       addEventListener() {},
     };
@@ -174,14 +178,17 @@ try {
     route.fulfill({ contentType: "text/html", body: pageHtml("missing-article") })
   );
   await fallback.goto(`http://127.0.0.1:${port}/missing-article.html`, { waitUntil: "domcontentloaded" });
-  await fallback.click("[data-listen-play]");
-  await fallback.waitForFunction(() => (window.__listenSpoken || []).length > 0, null, { timeout: 8000 });
+  await fallback.waitForFunction(() => {
+    const note = document.querySelector("[data-listen-note]");
+    return note && /not on the site yet/.test(note.textContent);
+  }, null, { timeout: 8000 });
   const fallbackState = await fallback.evaluate(() => ({
     mode: document.querySelector("[data-listen]").dataset.mode,
     spoken: window.__listenSpoken.length,
-    highlighted: !!document.querySelector("p.is-current, li.is-current, h1.is-current"),
+    disabled: document.querySelector("[data-listen-play]").disabled,
+    speech: typeof window.speechSynthesis !== "undefined" && window.__listenSpoken.length,
   }));
-  check("fallback speaks without a manifest", fallbackState.mode === "browser" && fallbackState.spoken > 0, JSON.stringify(fallbackState));
+  check("missing recording does not use browser speech", fallbackState.mode === "neural" && fallbackState.spoken === 0 && fallbackState.disabled, JSON.stringify(fallbackState));
 
   await fallback.evaluate(() => {
     window.addEventListener("pagehide", () => { window.__pagehide = true; });

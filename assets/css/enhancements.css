@@ -180,7 +180,7 @@ html { scroll-padding-top: calc(var(--header-h) + 1rem); }
 .post-back i { font-size: 0.75rem; }
 .post-title { text-wrap: balance; }
 .post-content { font-size: 1.0625rem; line-height: 1.8; }
-.post-content h2, .post-content h3 { scroll-margin-top: calc(var(--header-h) + 1rem); text-wrap: balance; }
+.post-content h2, .post-content h3 { scroll-margin-top: calc(var(--header-h) + 3.4rem); text-wrap: balance; }
 .post-content h2 { margin-top: 2.75rem; }
 .post-content a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
 .post-content table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -200,6 +200,36 @@ html { scroll-padding-top: calc(var(--header-h) + 1rem); }
 }
 .code-wrap:hover .copy-btn, .copy-btn:focus-visible, .copy-btn.copied { opacity: 1; }
 @media (hover: none) { .copy-btn { opacity: 1; } }
+
+/* Section pills sit under the sticky header on every article. */
+.section-pills {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 40;
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  margin: 0 0 1.1rem;
+  padding: 0.45rem 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.section-pills[hidden] { display: none; }
+.section-pills a {
+  flex: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 0.38rem 0.8rem;
+  font: 600 0.78rem/1.2 var(--font-sans);
+  color: var(--text-secondary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.section-pills a.is-current {
+  color: var(--accent-light);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
 
 /* Table of contents */
 .post-toc { display: none; }

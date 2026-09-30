@@ -1,5 +1,5 @@
-/* Listen Mode. Neural narration when audio/<slug>/<accent>/ exists,
-   otherwise the browser's own voice. Highlighting follows the audio clock. */
+/* Listen Mode. Plays the Kokoro recording for this article.
+   The browser speech engine is never used. The current word stays in view. */
 (function () {
   var root = document.querySelector("[data-listen]");
   if (!root || root.dataset.bound) return;
@@ -22,7 +22,7 @@
 
   var state = {
     status: "stopped",
-    mode: "browser",
+    mode: "neural",
     accentPref: "auto",
     accent: "us",
     rate: 1,
@@ -32,18 +32,12 @@
     marks: [],
     blocks: [],
     raf: 0,
-    speechEpoch: 0,
-    speechItems: [],
-    speechIndex: 0,
+    followEl: null,
     probing: null
   };
 
-  function speechApi() {
-    return window.__listenTestSpeech || window.speechSynthesis;
-  }
-
   function canPlay() {
-    return !!speechApi() || typeof Audio === "function";
+    return typeof Audio === "function";
   }
 
   if (!canPlay() && floatBtn) floatBtn.hidden = true;
@@ -220,11 +214,19 @@
       block.el.classList.toggle("is-current", on);
       if (on && !current) current = block.el;
     });
-    if (current && !current.__listenSeen) {
-      var box = current.getBoundingClientRect();
-      var outside = box.top < 80 || box.bottom > window.innerHeight - 40;
-      if (outside && !reduce) current.scrollIntoView({ block: "nearest", behavior: "smooth" });
-      current.__listenSeen = true;
+    if (current && current !== state.followEl) {
+      state.followEl = current;
+      if (!reduce) {
+        var box = current.getBoundingClientRect();
+        var topLimit = 110;
+        var bottomLimit = window.innerHeight * 0.68;
+        if (box.top < topLimit || box.bottom > bottomLimit) {
+          var y = window.scrollY + box.top - window.innerHeight * 0.32;
+          window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+        }
+      }
+    } else if (!current) {
+      state.followEl = null;
     }
     if (state.manifest && seek && document.activeElement !== seek) {
       var dur = state.manifest.duration || 0;
@@ -272,20 +274,15 @@
     state.raf = requestAnimationFrame(tick);
   }
 
-  function haltSpeech() {
-    state.speechEpoch += 1;
-    var api = speechApi();
-    if (api && api.cancel) api.cancel();
-  }
-
-  function stopAll() {
-    haltSpeech();
-    stopRaf();
-    if (state.audio) {
-      state.audio.pause();
+  function voiceNote(found) {
+    if (!found) return "The neural recording for this article is not on the site yet.";
+    if (state.accentPref === "uk" && found.accent !== "uk") {
+      return "The UK recording is not ready. Playing the US voice.";
     }
-    paint(-1);
-    setStatus("stopped");
+    if (state.accentPref === "us" && found.accent !== "us") {
+      return "The US recording is not ready. Playing the UK voice.";
+    }
+    return found.accent === "uk" ? "Neural narration, UK voice." : "Neural narration, US voice.";
   }
 
   function manifestUrl(accent) {
@@ -294,22 +291,30 @@
 
   function probe() {
     var pref = state.accentPref;
-    var order = pref === "us" ? ["us"] : pref === "uk" ? ["uk"] : ["us", "uk"];
+    var order = pref === "uk" ? ["uk", "us"] : ["us", "uk"];
     state.probing = (async function () {
       for (var i = 0; i < order.length; i++) {
         try {
-          var res = await fetch(manifestUrl(order[i]), { cache: "force-cache" });
+          var res = await fetch(manifestUrl(order[i]), { cache: "no-cache" });
           if (!res.ok) continue;
           var json = await res.json();
+          if (!json || !json.blocks) continue;
           var audioUrl = new URL(json.audio || "narration.opus", res.url).href;
           return { manifest: json, accent: order[i], audioUrl: audioUrl };
         } catch (err) {
-          /* try the next accent, then the browser voice */
+          /* try the other recorded accent */
         }
       }
       return null;
     })();
     return state.probing;
+  }
+
+  function stopAll() {
+    stopRaf();
+    if (state.audio) state.audio.pause();
+    paint(-1);
+    setStatus("stopped");
   }
 
   function ensureAudio(url) {
@@ -336,107 +341,17 @@
     state.audio.playbackRate = state.rate;
   }
 
-  function pickVoice() {
-    var api = speechApi();
-    var voices = api && api.getVoices ? api.getVoices() : [];
-    var pref = state.accentPref;
-    function score(voice) {
-      var lang = (voice.lang || "").toLowerCase();
-      var name = (voice.name || "").toLowerCase();
-      var value = 0;
-      if (pref === "us" && lang.indexOf("en-us") === 0) value += 50;
-      if (pref === "uk" && (lang.indexOf("en-gb") === 0 || lang.indexOf("en-uk") === 0)) value += 50;
-      if (pref === "auto" && lang.indexOf("en") === 0) value += 20;
-      if (/natural|neural|premium|enhanced/.test(name)) value += 30;
-      if (name.indexOf("google") !== -1 && lang.indexOf("en") === 0) value += 15;
-      if (voice.localService) value += 5;
-      if (lang.indexOf("en") === 0) value += 10;
-      return value;
-    }
-    return voices.slice().sort(function (a, b) { return score(b) - score(a); })[0] || null;
-  }
-
-  function speechItems() {
-    var dom = collectDomBlocks();
-    var items = [];
-    dom.forEach(function (block) {
-      var sentences = block.text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [block.text];
-      sentences.forEach(function (sentence) {
-        var text = sentence.replace(/\s+/g, " ").trim();
-        if (text) items.push({ text: text, el: block.el });
-      });
-    });
-    return items;
-  }
-
-  function speakFrom(index) {
-    var api = speechApi();
-    if (!api) {
-      if (note) note.textContent = "This browser cannot read the article aloud.";
-      return;
-    }
-    haltSpeech();
-    state.mode = "browser";
-    state.speechItems = state.speechItems.length ? state.speechItems : speechItems();
-    state.speechIndex = index;
-    var epoch = state.speechEpoch;
-    function next() {
-      if (epoch !== state.speechEpoch) return;
-      if (state.speechIndex >= state.speechItems.length) {
-        paint(-1);
-        setStatus("stopped");
-        return;
-      }
-      var item = state.speechItems[state.speechIndex];
-      state.speechIndex += 1;
-      var utterance = new SpeechSynthesisUtterance(item.text);
-      utterance._epoch = epoch;
-      utterance.rate = state.rate;
-      var voice = pickVoice();
-      if (voice && typeof SpeechSynthesisVoice !== "undefined" && voice instanceof SpeechSynthesisVoice) {
-        utterance.voice = voice;
-      }
-      item.el.classList.add("is-current");
-      utterance.onboundary = function (event) {
-        if (utterance._epoch !== state.speechEpoch) return;
-        if (event.name !== "sentence" && event.name !== "word") return;
-        item.el.classList.add("is-current");
-      };
-      utterance.onend = function () {
-        if (utterance._epoch !== state.speechEpoch) return;
-        item.el.classList.remove("is-current");
-        next();
-      };
-      utterance.onerror = function (event) {
-        if (utterance._epoch !== state.speechEpoch) return;
-        if (event.error === "interrupted" || event.error === "canceled" || event.error === "cancelled") return;
-        item.el.classList.remove("is-current");
-        next();
-      };
-      setStatus("playing");
-      api.speak(utterance);
-    }
-    next();
-  }
-
   async function playNeural() {
     var found = await probe();
+    if (note) note.textContent = voiceNote(found);
     if (!found) {
-      state.mode = "browser";
-      if (note) note.textContent = "No neural narration for this accent yet. Your browser is reading it.";
-      if (seek) seek.disabled = false;
-      state.speechItems = speechItems();
-      speakFrom(state.speechIndex || 0);
+      state.mode = "neural";
+      setStatus("stopped");
       return;
     }
     state.mode = "neural";
     state.accent = found.accent;
     state.manifest = found.manifest;
-    if (note) {
-      note.textContent = found.accent === "uk"
-        ? "Neural narration, UK voice."
-        : "Neural narration, US voice.";
-    }
     align(found.manifest);
     ensureAudio(found.audioUrl);
     if (seek) seek.disabled = false;
@@ -453,32 +368,20 @@
   }
 
   function toggle() {
-    if (state.status === "playing") {
-      if (state.mode === "neural" && state.audio) {
-        state.audio.pause();
-        stopRaf();
-        setStatus("paused");
-      } else {
-        var api = speechApi();
-        if (api && api.pause) api.pause();
-        setStatus("paused");
-      }
+    if (!state.audio && state.status !== "stopped") return;
+    if (state.status === "playing" && state.audio) {
+      state.audio.pause();
+      stopRaf();
+      setStatus("paused");
       return;
     }
-    if (state.status === "paused") {
-      if (state.mode === "neural" && state.audio) {
-        state.audio.playbackRate = state.rate;
-        state.audio.play();
-        setStatus("playing");
-        state.raf = requestAnimationFrame(tick);
-      } else {
-        var resume = speechApi();
-        if (resume && resume.resume) resume.resume();
-        setStatus("playing");
-      }
+    if (state.status === "paused" && state.audio) {
+      state.audio.playbackRate = state.rate;
+      state.audio.play();
+      setStatus("playing");
+      state.raf = requestAnimationFrame(tick);
       return;
     }
-    state.speechIndex = 0;
     playNeural();
   }
 
@@ -492,7 +395,6 @@
     });
     state.manifest = null;
     state.audioUrl = "";
-    state.speechItems = [];
     if (was) playNeural();
   }
 
@@ -503,10 +405,6 @@
       btn.setAttribute("aria-pressed", Number(btn.getAttribute("data-rate")) === rate ? "true" : "false");
     });
     if (state.audio) state.audio.playbackRate = rate;
-    if (state.mode === "browser" && state.status === "playing") {
-      var index = Math.max(0, state.speechIndex - 1);
-      speakFrom(index);
-    }
   }
 
   playBtn.addEventListener("click", toggle);
@@ -522,14 +420,10 @@
       var fraction = Number(seek.value) / 1000;
       if (state.mode === "neural" && state.audio && state.manifest) {
         var next = fraction * (state.manifest.duration || 0);
+        state.followEl = null;
         state.audio.currentTime = next;
         paint(next);
-        return;
       }
-      if (!state.speechItems.length) state.speechItems = speechItems();
-      var index = Math.round(fraction * Math.max(0, state.speechItems.length - 1));
-      state.speechIndex = index;
-      if (state.mode === "browser" && state.status === "playing") speakFrom(index);
     });
   }
 
@@ -548,5 +442,8 @@
     btn.setAttribute("aria-pressed", Number(btn.getAttribute("data-rate")) === state.rate ? "true" : "false");
   });
   setStatus("stopped");
-  probe();
+  probe().then(function (found) {
+    if (note) note.textContent = voiceNote(found);
+    if (playBtn) playBtn.disabled = !found;
+  });
 })();
