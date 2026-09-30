@@ -17,15 +17,6 @@ This site is built with [Jekyll](https://jekyllrb.com/) and deployed via [GitHub
 - **Blog** covering AI-driven testing, automation frameworks, and software quality
 - **Agent Orchestrator** — structured workflow management for content and site operations
 
-## Contact
-
-| Platform | Link |
-|----------|------|
-| Email | [resume.qasdet@gmail.com](mailto:resume.qasdet@gmail.com) |
-| LinkedIn | [sdetbaveer](https://www.linkedin.com/in/sdetbaveer/) |
-| GitHub | [veeresh-bikkaneti](https://github.com/veeresh-bikkaneti) |
-| Medium | [@veeresh.esh](https://medium.com/@veeresh.esh) |
-
 ---
 
 ## Blog Topics
