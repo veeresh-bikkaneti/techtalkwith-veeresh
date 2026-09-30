@@ -1,7 +1,7 @@
 # CPU-only Kokoro. Install torch from the CPU index first so pip does not
 # pull a CUDA wheel:
-#   pip install torch==2.6.0+cpu --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple
+#   pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple
 #   pip install -r scripts/tts/requirements.txt
-torch==2.6.0+cpu
+torch==2.13.0
 kokoro==0.9.4
 soundfile==0.14.0
