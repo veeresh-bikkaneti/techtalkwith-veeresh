@@ -444,6 +444,6 @@
   setStatus("stopped");
   probe().then(function (found) {
     if (note) note.textContent = voiceNote(found);
-    if (playBtn) playBtn.disabled = !found;
+    if (playBtn) playBtn.disabled = false;
   });
 })();
