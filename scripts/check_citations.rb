@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require "net/http"
+require "openssl"
 require "uri"
 
 POSTS_DIR = File.expand_path("../_posts", __dir__)
@@ -20,7 +21,9 @@ TRANSIENT_ERRORS = [
   Net::ReadTimeout,
   Errno::ETIMEDOUT,
   SocketError,
-  EOFError
+  EOFError,
+  # Handshake "unexpected eof" is SSLError, not EOFError. Same flake as a 5xx.
+  OpenSSL::SSL::SSLError
 ].freeze
 
 def fetch_url(url)
