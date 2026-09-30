@@ -1,0 +1,3817 @@
+{
+  "slug": "graph-api-vs-graphql",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 281.005,
+  "contentHash": "2cb645d8ad73a9f620103021909a0632a1ead63eb5284e628e6f63244e8207b9",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Graph API vs GraphQL: Choosing the Right API for Your Data",
+      "start": 0.0,
+      "end": 4.75,
+      "words": [
+        {
+          "text": "Graph",
+          "start": 0.275,
+          "end": 0.575
+        },
+        {
+          "text": "API",
+          "start": 0.575,
+          "end": 1.125
+        },
+        {
+          "text": "vs",
+          "start": 1.125,
+          "end": 1.5
+        },
+        {
+          "text": "GraphQL",
+          "start": 1.5,
+          "end": 2.425
+        },
+        {
+          "text": ":",
+          "start": 2.425,
+          "end": 2.575
+        },
+        {
+          "text": "Choosing",
+          "start": 2.575,
+          "end": 2.962
+        },
+        {
+          "text": "the",
+          "start": 2.962,
+          "end": 3.05
+        },
+        {
+          "text": "Right",
+          "start": 3.05,
+          "end": 3.325
+        },
+        {
+          "text": "API",
+          "start": 3.325,
+          "end": 3.925
+        },
+        {
+          "text": "for",
+          "start": 3.925,
+          "end": 4.037
+        },
+        {
+          "text": "Your",
+          "start": 4.037,
+          "end": 4.175
+        },
+        {
+          "text": "Data",
+          "start": 4.175,
+          "end": 4.75
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "I get asked this once a month: \"Should I use Graph API or GraphQL?\" The answer is neither, until you know what problem you're solving.",
+      "start": 5.32,
+      "end": 13.72,
+      "words": [
+        {
+          "text": "I",
+          "start": 5.57,
+          "end": 5.67
+        },
+        {
+          "text": "get",
+          "start": 5.67,
+          "end": 5.857
+        },
+        {
+          "text": "asked",
+          "start": 5.857,
+          "end": 6.182
+        },
+        {
+          "text": "this",
+          "start": 6.182,
+          "end": 6.37
+        },
+        {
+          "text": "once",
+          "start": 6.37,
+          "end": 6.557
+        },
+        {
+          "text": "a",
+          "start": 6.557,
+          "end": 6.62
+        },
+        {
+          "text": "month",
+          "start": 6.62,
+          "end": 7.145
+        },
+        {
+          "text": ":",
+          "start": 7.145,
+          "end": 7.245
+        },
+        {
+          "text": "\"",
+          "start": 7.245,
+          "end": 7.32
+        },
+        {
+          "text": "Should",
+          "start": 7.32,
+          "end": 7.432
+        },
+        {
+          "text": "I",
+          "start": 7.432,
+          "end": 7.545
+        },
+        {
+          "text": "use",
+          "start": 7.545,
+          "end": 7.77
+        },
+        {
+          "text": "Graph",
+          "start": 7.77,
+          "end": 8.133
+        },
+        {
+          "text": "API",
+          "start": 8.133,
+          "end": 8.883
+        },
+        {
+          "text": "or",
+          "start": 8.883,
+          "end": 9.045
+        },
+        {
+          "text": "GraphQL",
+          "start": 9.045,
+          "end": 10.07
+        },
+        {
+          "text": "?",
+          "start": 10.07,
+          "end": 10.17
+        },
+        {
+          "text": "\"",
+          "start": 10.17,
+          "end": 10.22
+        },
+        {
+          "text": "The",
+          "start": 10.22,
+          "end": 10.383
+        },
+        {
+          "text": "answer",
+          "start": 10.383,
+          "end": 10.745
+        },
+        {
+          "text": "is",
+          "start": 10.745,
+          "end": 10.895
+        },
+        {
+          "text": "neither",
+          "start": 10.895,
+          "end": 11.42
+        },
+        {
+          "text": ",",
+          "start": 11.42,
+          "end": 11.52
+        },
+        {
+          "text": "until",
+          "start": 11.52,
+          "end": 11.795
+        },
+        {
+          "text": "you",
+          "start": 11.795,
+          "end": 11.895
+        },
+        {
+          "text": "know",
+          "start": 11.895,
+          "end": 12.07
+        },
+        {
+          "text": "what",
+          "start": 12.07,
+          "end": 12.22
+        },
+        {
+          "text": "problem",
+          "start": 12.22,
+          "end": 12.633
+        },
+        {
+          "text": "you're",
+          "start": 12.633,
+          "end": 12.782
+        },
+        {
+          "text": "solving",
+          "start": 12.782,
+          "end": 13.57
+        },
+        {
+          "text": ".",
+          "start": 13.57,
+          "end": 13.72
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "Microsoft Graph is Microsoft's REST API for their services (Office 365, Azure AD, Teams, etc.). It's opinionated, stable, and Microsoft-maintained.",
+      "start": 14.04,
+      "end": 26.615,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 14.34,
+          "end": 14.915
+        },
+        {
+          "text": "Graph",
+          "start": 14.915,
+          "end": 15.353
+        },
+        {
+          "text": "is",
+          "start": 15.353,
+          "end": 15.528
+        },
+        {
+          "text": "Microsoft's",
+          "start": 15.528,
+          "end": 16.165
+        },
+        {
+          "text": "REST",
+          "start": 16.165,
+          "end": 16.453
+        },
+        {
+          "text": "API",
+          "start": 16.453,
+          "end": 17.14
+        },
+        {
+          "text": "for",
+          "start": 17.14,
+          "end": 17.253
+        },
+        {
+          "text": "their",
+          "start": 17.253,
+          "end": 17.428
+        },
+        {
+          "text": "services",
+          "start": 17.428,
+          "end": 18.402
+        },
+        {
+          "text": "(",
+          "start": 18.402,
+          "end": 18.49
+        },
+        {
+          "text": "Office",
+          "start": 18.49,
+          "end": 18.865
+        },
+        {
+          "text": "365",
+          "start": 18.865,
+          "end": 20.24
+        },
+        {
+          "text": ",",
+          "start": 20.24,
+          "end": 20.378
+        },
+        {
+          "text": "Azure",
+          "start": 20.378,
+          "end": 20.777
+        },
+        {
+          "text": "AD",
+          "start": 20.777,
+          "end": 21.44
+        },
+        {
+          "text": ",",
+          "start": 21.44,
+          "end": 21.578
+        },
+        {
+          "text": "Teams",
+          "start": 21.578,
+          "end": 22.065
+        },
+        {
+          "text": ",",
+          "start": 22.065,
+          "end": 22.115
+        },
+        {
+          "text": "etc.",
+          "start": 22.115,
+          "end": 22.99
+        },
+        {
+          "text": ")",
+          "start": 22.99,
+          "end": 23.215
+        },
+        {
+          "text": ".",
+          "start": 23.215,
+          "end": 23.29
+        },
+        {
+          "text": "It's",
+          "start": 23.29,
+          "end": 23.477
+        },
+        {
+          "text": "opinionated",
+          "start": 23.477,
+          "end": 24.29
+        },
+        {
+          "text": ",",
+          "start": 24.29,
+          "end": 24.403
+        },
+        {
+          "text": "stable",
+          "start": 24.403,
+          "end": 24.915
+        },
+        {
+          "text": ",",
+          "start": 24.915,
+          "end": 24.965
+        },
+        {
+          "text": "and",
+          "start": 24.965,
+          "end": 25.09
+        },
+        {
+          "text": "Microsoft-maintained",
+          "start": 25.09,
+          "end": 26.465
+        },
+        {
+          "text": ".",
+          "start": 26.465,
+          "end": 26.615
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "GraphQL is a query language for any API. It's flexible, efficient, and you maintain it.",
+      "start": 26.935,
+      "end": 33.41,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 27.21,
+          "end": 27.885
+        },
+        {
+          "text": "is",
+          "start": 27.885,
+          "end": 27.998
+        },
+        {
+          "text": "a",
+          "start": 27.998,
+          "end": 28.098
+        },
+        {
+          "text": "query",
+          "start": 28.098,
+          "end": 28.485
+        },
+        {
+          "text": "language",
+          "start": 28.485,
+          "end": 28.885
+        },
+        {
+          "text": "for",
+          "start": 28.885,
+          "end": 29.035
+        },
+        {
+          "text": "any",
+          "start": 29.035,
+          "end": 29.285
+        },
+        {
+          "text": "API",
+          "start": 29.285,
+          "end": 30.21
+        },
+        {
+          "text": ".",
+          "start": 30.21,
+          "end": 30.36
+        },
+        {
+          "text": "It's",
+          "start": 30.36,
+          "end": 30.61
+        },
+        {
+          "text": "flexible",
+          "start": 30.61,
+          "end": 31.235
+        },
+        {
+          "text": ",",
+          "start": 31.235,
+          "end": 31.31
+        },
+        {
+          "text": "efficient",
+          "start": 31.31,
+          "end": 32.035
+        },
+        {
+          "text": ",",
+          "start": 32.035,
+          "end": 32.11
+        },
+        {
+          "text": "and",
+          "start": 32.11,
+          "end": 32.235
+        },
+        {
+          "text": "you",
+          "start": 32.235,
+          "end": 32.335
+        },
+        {
+          "text": "maintain",
+          "start": 32.335,
+          "end": 32.835
+        },
+        {
+          "text": "it",
+          "start": 32.835,
+          "end": 33.26
+        },
+        {
+          "text": ".",
+          "start": 33.26,
+          "end": 33.41
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "These aren't competing products. They solve different problems. Here's when to pick each.",
+      "start": 33.73,
+      "end": 38.98,
+      "words": [
+        {
+          "text": "These",
+          "start": 34.03,
+          "end": 34.305
+        },
+        {
+          "text": "aren't",
+          "start": 34.305,
+          "end": 34.505
+        },
+        {
+          "text": "competing",
+          "start": 34.505,
+          "end": 34.98
+        },
+        {
+          "text": "products",
+          "start": 34.98,
+          "end": 35.705
+        },
+        {
+          "text": ".",
+          "start": 35.705,
+          "end": 35.805
+        },
+        {
+          "text": "They",
+          "start": 35.805,
+          "end": 35.993
+        },
+        {
+          "text": "solve",
+          "start": 35.993,
+          "end": 36.33
+        },
+        {
+          "text": "different",
+          "start": 36.33,
+          "end": 36.63
+        },
+        {
+          "text": "problems",
+          "start": 36.63,
+          "end": 37.38
+        },
+        {
+          "text": ".",
+          "start": 37.38,
+          "end": 37.493
+        },
+        {
+          "text": "Here's",
+          "start": 37.493,
+          "end": 37.768
+        },
+        {
+          "text": "when",
+          "start": 37.768,
+          "end": 37.893
+        },
+        {
+          "text": "to",
+          "start": 37.893,
+          "end": 37.98
+        },
+        {
+          "text": "pick",
+          "start": 37.98,
+          "end": 38.23
+        },
+        {
+          "text": "each",
+          "start": 38.23,
+          "end": 38.805
+        },
+        {
+          "text": ".",
+          "start": 38.805,
+          "end": 38.98
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h2",
+      "text": "When to Use Microsoft Graph",
+      "start": 39.3,
+      "end": 41.225,
+      "words": [
+        {
+          "text": "When",
+          "start": 39.575,
+          "end": 39.7
+        },
+        {
+          "text": "to",
+          "start": 39.7,
+          "end": 39.8
+        },
+        {
+          "text": "Use",
+          "start": 39.8,
+          "end": 40.05
+        },
+        {
+          "text": "Microsoft",
+          "start": 40.05,
+          "end": 40.625
+        },
+        {
+          "text": "Graph",
+          "start": 40.625,
+          "end": 41.225
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "You're building against Microsoft services. Teams, Outlook, Azure AD, SharePoint , Microsoft Graph is the official, maintained API. It's your best choice if:",
+      "start": 41.67,
+      "end": 52.67,
+      "words": [
+        {
+          "text": "You're",
+          "start": 41.945,
+          "end": 42.07
+        },
+        {
+          "text": "building",
+          "start": 42.07,
+          "end": 42.47
+        },
+        {
+          "text": "against",
+          "start": 42.47,
+          "end": 42.845
+        },
+        {
+          "text": "Microsoft",
+          "start": 42.845,
+          "end": 43.395
+        },
+        {
+          "text": "services",
+          "start": 43.395,
+          "end": 44.32
+        },
+        {
+          "text": ".",
+          "start": 44.32,
+          "end": 44.458
+        },
+        {
+          "text": "Teams",
+          "start": 44.458,
+          "end": 45.02
+        },
+        {
+          "text": ",",
+          "start": 45.02,
+          "end": 45.133
+        },
+        {
+          "text": "Outlook",
+          "start": 45.133,
+          "end": 45.67
+        },
+        {
+          "text": ",",
+          "start": 45.67,
+          "end": 45.758
+        },
+        {
+          "text": "Azure",
+          "start": 45.758,
+          "end": 46.108
+        },
+        {
+          "text": "AD",
+          "start": 46.108,
+          "end": 46.67
+        },
+        {
+          "text": ",",
+          "start": 46.67,
+          "end": 46.782
+        },
+        {
+          "text": "SharePoint",
+          "start": 46.782,
+          "end": 47.395
+        },
+        {
+          "text": ",",
+          "start": 47.395,
+          "end": 47.47
+        },
+        {
+          "text": "Microsoft",
+          "start": 47.47,
+          "end": 48.045
+        },
+        {
+          "text": "Graph",
+          "start": 48.045,
+          "end": 48.445
+        },
+        {
+          "text": "is",
+          "start": 48.445,
+          "end": 48.558
+        },
+        {
+          "text": "the",
+          "start": 48.558,
+          "end": 48.695
+        },
+        {
+          "text": "official",
+          "start": 48.695,
+          "end": 49.27
+        },
+        {
+          "text": ",",
+          "start": 49.27,
+          "end": 49.345
+        },
+        {
+          "text": "maintained",
+          "start": 49.345,
+          "end": 49.983
+        },
+        {
+          "text": "API",
+          "start": 49.983,
+          "end": 51.02
+        },
+        {
+          "text": ".",
+          "start": 51.02,
+          "end": 51.145
+        },
+        {
+          "text": "It's",
+          "start": 51.145,
+          "end": 51.308
+        },
+        {
+          "text": "your",
+          "start": 51.308,
+          "end": 51.42
+        },
+        {
+          "text": "best",
+          "start": 51.42,
+          "end": 51.72
+        },
+        {
+          "text": "choice",
+          "start": 51.72,
+          "end": 52.058
+        },
+        {
+          "text": "if",
+          "start": 52.058,
+          "end": 52.52
+        },
+        {
+          "text": ":",
+          "start": 52.52,
+          "end": 52.67
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Your app primarily integrates with Microsoft 365",
+      "start": 52.99,
+      "end": 57.19,
+      "words": [
+        {
+          "text": "Your",
+          "start": 53.265,
+          "end": 53.415
+        },
+        {
+          "text": "app",
+          "start": 53.415,
+          "end": 53.665
+        },
+        {
+          "text": "primarily",
+          "start": 53.665,
+          "end": 54.24
+        },
+        {
+          "text": "integrates",
+          "start": 54.24,
+          "end": 54.803
+        },
+        {
+          "text": "with",
+          "start": 54.803,
+          "end": 54.965
+        },
+        {
+          "text": "Microsoft",
+          "start": 54.965,
+          "end": 55.715
+        },
+        {
+          "text": "365",
+          "start": 55.715,
+          "end": 57.19
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "You need Azure AD as your auth source",
+      "start": 57.66,
+      "end": 60.185,
+      "words": [
+        {
+          "text": "You",
+          "start": 57.935,
+          "end": 58.023
+        },
+        {
+          "text": "need",
+          "start": 58.023,
+          "end": 58.248
+        },
+        {
+          "text": "Azure",
+          "start": 58.248,
+          "end": 58.598
+        },
+        {
+          "text": "AD",
+          "start": 58.598,
+          "end": 59.073
+        },
+        {
+          "text": "as",
+          "start": 59.073,
+          "end": 59.198
+        },
+        {
+          "text": "your",
+          "start": 59.198,
+          "end": 59.31
+        },
+        {
+          "text": "auth",
+          "start": 59.31,
+          "end": 59.535
+        },
+        {
+          "text": "source",
+          "start": 59.535,
+          "end": 60.185
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "You're building Outlook plugins, Teams bots, or SharePoint extensions",
+      "start": 60.655,
+      "end": 64.905,
+      "words": [
+        {
+          "text": "You're",
+          "start": 60.93,
+          "end": 61.055
+        },
+        {
+          "text": "building",
+          "start": 61.055,
+          "end": 61.43
+        },
+        {
+          "text": "Outlook",
+          "start": 61.43,
+          "end": 61.78
+        },
+        {
+          "text": "plugins",
+          "start": 61.78,
+          "end": 62.43
+        },
+        {
+          "text": ",",
+          "start": 62.43,
+          "end": 62.53
+        },
+        {
+          "text": "Teams",
+          "start": 62.53,
+          "end": 62.88
+        },
+        {
+          "text": "bots",
+          "start": 62.88,
+          "end": 63.28
+        },
+        {
+          "text": ",",
+          "start": 63.28,
+          "end": 63.33
+        },
+        {
+          "text": "or",
+          "start": 63.33,
+          "end": 63.492
+        },
+        {
+          "text": "SharePoint",
+          "start": 63.492,
+          "end": 63.943
+        },
+        {
+          "text": "extensions",
+          "start": 63.943,
+          "end": 64.905
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "li",
+      "text": "You want Microsoft to handle API versioning and security patches",
+      "start": 65.35,
+      "end": 69.8,
+      "words": [
+        {
+          "text": "You",
+          "start": 65.625,
+          "end": 65.725
+        },
+        {
+          "text": "want",
+          "start": 65.725,
+          "end": 65.925
+        },
+        {
+          "text": "Microsoft",
+          "start": 65.925,
+          "end": 66.575
+        },
+        {
+          "text": "to",
+          "start": 66.575,
+          "end": 66.675
+        },
+        {
+          "text": "handle",
+          "start": 66.675,
+          "end": 67.062
+        },
+        {
+          "text": "API",
+          "start": 67.062,
+          "end": 67.675
+        },
+        {
+          "text": "versioning",
+          "start": 67.675,
+          "end": 68.387
+        },
+        {
+          "text": "and",
+          "start": 68.387,
+          "end": 68.525
+        },
+        {
+          "text": "security",
+          "start": 68.525,
+          "end": 68.975
+        },
+        {
+          "text": "patches",
+          "start": 68.975,
+          "end": 69.8
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Example: A corporate app that reads a user's Teams calendar, pulls their Outlook meetings, and syncs them to your dashboard. Graph API handles all three with consistent auth.",
+      "start": 70.22,
+      "end": 81.62,
+      "words": [
+        {
+          "text": "Example",
+          "start": 70.495,
+          "end": 71.17
+        },
+        {
+          "text": ":",
+          "start": 71.17,
+          "end": 71.27
+        },
+        {
+          "text": "A",
+          "start": 71.27,
+          "end": 71.37
+        },
+        {
+          "text": "corporate",
+          "start": 71.37,
+          "end": 71.745
+        },
+        {
+          "text": "app",
+          "start": 71.745,
+          "end": 71.995
+        },
+        {
+          "text": "that",
+          "start": 71.995,
+          "end": 72.145
+        },
+        {
+          "text": "reads",
+          "start": 72.145,
+          "end": 72.433
+        },
+        {
+          "text": "a",
+          "start": 72.433,
+          "end": 72.532
+        },
+        {
+          "text": "user's",
+          "start": 72.532,
+          "end": 72.97
+        },
+        {
+          "text": "Teams",
+          "start": 72.97,
+          "end": 73.295
+        },
+        {
+          "text": "calendar",
+          "start": 73.295,
+          "end": 74.02
+        },
+        {
+          "text": ",",
+          "start": 74.02,
+          "end": 74.132
+        },
+        {
+          "text": "pulls",
+          "start": 74.132,
+          "end": 74.495
+        },
+        {
+          "text": "their",
+          "start": 74.495,
+          "end": 74.683
+        },
+        {
+          "text": "Outlook",
+          "start": 74.683,
+          "end": 75.07
+        },
+        {
+          "text": "meetings",
+          "start": 75.07,
+          "end": 75.72
+        },
+        {
+          "text": ",",
+          "start": 75.72,
+          "end": 75.795
+        },
+        {
+          "text": "and",
+          "start": 75.795,
+          "end": 75.945
+        },
+        {
+          "text": "syncs",
+          "start": 75.945,
+          "end": 76.245
+        },
+        {
+          "text": "them",
+          "start": 76.245,
+          "end": 76.445
+        },
+        {
+          "text": "to",
+          "start": 76.445,
+          "end": 76.532
+        },
+        {
+          "text": "your",
+          "start": 76.532,
+          "end": 76.645
+        },
+        {
+          "text": "dashboard",
+          "start": 76.645,
+          "end": 77.695
+        },
+        {
+          "text": ".",
+          "start": 77.695,
+          "end": 77.895
+        },
+        {
+          "text": "Graph",
+          "start": 77.895,
+          "end": 78.295
+        },
+        {
+          "text": "API",
+          "start": 78.295,
+          "end": 78.983
+        },
+        {
+          "text": "handles",
+          "start": 78.983,
+          "end": 79.433
+        },
+        {
+          "text": "all",
+          "start": 79.433,
+          "end": 79.707
+        },
+        {
+          "text": "three",
+          "start": 79.707,
+          "end": 80.17
+        },
+        {
+          "text": "with",
+          "start": 80.17,
+          "end": 80.345
+        },
+        {
+          "text": "consistent",
+          "start": 80.345,
+          "end": 80.895
+        },
+        {
+          "text": "auth",
+          "start": 80.895,
+          "end": 81.47
+        },
+        {
+          "text": ".",
+          "start": 81.47,
+          "end": 81.62
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "The Trade-off",
+      "start": 81.94,
+      "end": 83.14,
+      "words": [
+        {
+          "text": "The",
+          "start": 82.29,
+          "end": 82.415
+        },
+        {
+          "text": "Trade-off",
+          "start": 82.415,
+          "end": 83.14
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "Microsoft Graph is opinionated. You get what Microsoft designed. If you need exactly users/{id}/calendar/events, it's perfect. If you need a custom shape (user's email + manager's team + direct reports' availability), you might over-fetch or make multiple requests.",
+      "start": 83.61,
+      "end": 101.785,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 83.91,
+          "end": 84.535
+        },
+        {
+          "text": "Graph",
+          "start": 84.535,
+          "end": 84.96
+        },
+        {
+          "text": "is",
+          "start": 84.96,
+          "end": 85.085
+        },
+        {
+          "text": "opinionated",
+          "start": 85.085,
+          "end": 86.11
+        },
+        {
+          "text": ".",
+          "start": 86.11,
+          "end": 86.248
+        },
+        {
+          "text": "You",
+          "start": 86.248,
+          "end": 86.385
+        },
+        {
+          "text": "get",
+          "start": 86.385,
+          "end": 86.56
+        },
+        {
+          "text": "what",
+          "start": 86.56,
+          "end": 86.735
+        },
+        {
+          "text": "Microsoft",
+          "start": 86.735,
+          "end": 87.335
+        },
+        {
+          "text": "designed",
+          "start": 87.335,
+          "end": 88.26
+        },
+        {
+          "text": ".",
+          "start": 88.26,
+          "end": 88.385
+        },
+        {
+          "text": "If",
+          "start": 88.385,
+          "end": 88.56
+        },
+        {
+          "text": "you",
+          "start": 88.56,
+          "end": 88.66
+        },
+        {
+          "text": "need",
+          "start": 88.66,
+          "end": 88.885
+        },
+        {
+          "text": "exactly",
+          "start": 88.885,
+          "end": 89.46
+        },
+        {
+          "text": "users/{id}/calendar/events",
+          "start": 89.46,
+          "end": 92.535
+        },
+        {
+          "text": ",",
+          "start": 92.535,
+          "end": 92.61
+        },
+        {
+          "text": "it's",
+          "start": 92.61,
+          "end": 92.797
+        },
+        {
+          "text": "perfect",
+          "start": 92.797,
+          "end": 93.81
+        },
+        {
+          "text": ".",
+          "start": 93.81,
+          "end": 93.86
+        },
+        {
+          "text": "If",
+          "start": 93.86,
+          "end": 93.998
+        },
+        {
+          "text": "you",
+          "start": 93.998,
+          "end": 94.11
+        },
+        {
+          "text": "need",
+          "start": 94.11,
+          "end": 94.285
+        },
+        {
+          "text": "a",
+          "start": 94.285,
+          "end": 94.385
+        },
+        {
+          "text": "custom",
+          "start": 94.385,
+          "end": 94.86
+        },
+        {
+          "text": "shape",
+          "start": 94.86,
+          "end": 95.422
+        },
+        {
+          "text": "(",
+          "start": 95.422,
+          "end": 95.485
+        },
+        {
+          "text": "user's",
+          "start": 95.485,
+          "end": 95.972
+        },
+        {
+          "text": "email",
+          "start": 95.972,
+          "end": 96.323
+        },
+        {
+          "text": "+",
+          "start": 96.323,
+          "end": 96.623
+        },
+        {
+          "text": "manager's",
+          "start": 96.623,
+          "end": 97.185
+        },
+        {
+          "text": "team",
+          "start": 97.185,
+          "end": 97.498
+        },
+        {
+          "text": "+",
+          "start": 97.498,
+          "end": 97.897
+        },
+        {
+          "text": "direct",
+          "start": 97.897,
+          "end": 98.323
+        },
+        {
+          "text": "reports'",
+          "start": 98.323,
+          "end": 98.735
+        },
+        {
+          "text": "availability",
+          "start": 98.735,
+          "end": 99.81
+        },
+        {
+          "text": ")",
+          "start": 99.81,
+          "end": 99.86
+        },
+        {
+          "text": ",",
+          "start": 99.86,
+          "end": 99.91
+        },
+        {
+          "text": "you",
+          "start": 99.91,
+          "end": 100.035
+        },
+        {
+          "text": "might",
+          "start": 100.035,
+          "end": 100.297
+        },
+        {
+          "text": "over-fetch",
+          "start": 100.297,
+          "end": 100.935
+        },
+        {
+          "text": "or",
+          "start": 100.935,
+          "end": 101.06
+        },
+        {
+          "text": "make",
+          "start": 101.06,
+          "end": 101.31
+        },
+        {
+          "text": "multiple",
+          "start": 101.31,
+          "end": 101.785
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "h2",
+      "text": "When to Use GraphQL",
+      "start": 103.055,
+      "end": 104.68,
+      "words": [
+        {
+          "text": "When",
+          "start": 103.33,
+          "end": 103.455
+        },
+        {
+          "text": "to",
+          "start": 103.455,
+          "end": 103.58
+        },
+        {
+          "text": "Use",
+          "start": 103.58,
+          "end": 103.855
+        },
+        {
+          "text": "GraphQL",
+          "start": 103.855,
+          "end": 104.68
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "You're building an API for your own users. You control both sides , the server and the clients using it. GraphQL shines when:",
+      "start": 105.15,
+      "end": 113.6,
+      "words": [
+        {
+          "text": "You're",
+          "start": 105.425,
+          "end": 105.55
+        },
+        {
+          "text": "building",
+          "start": 105.55,
+          "end": 105.9
+        },
+        {
+          "text": "an",
+          "start": 105.9,
+          "end": 106.038
+        },
+        {
+          "text": "API",
+          "start": 106.038,
+          "end": 106.7
+        },
+        {
+          "text": "for",
+          "start": 106.7,
+          "end": 106.812
+        },
+        {
+          "text": "your",
+          "start": 106.812,
+          "end": 106.925
+        },
+        {
+          "text": "own",
+          "start": 106.925,
+          "end": 107.15
+        },
+        {
+          "text": "users",
+          "start": 107.15,
+          "end": 107.9
+        },
+        {
+          "text": ".",
+          "start": 107.9,
+          "end": 108.0
+        },
+        {
+          "text": "You",
+          "start": 108.0,
+          "end": 108.125
+        },
+        {
+          "text": "control",
+          "start": 108.125,
+          "end": 108.575
+        },
+        {
+          "text": "both",
+          "start": 108.575,
+          "end": 108.863
+        },
+        {
+          "text": "sides",
+          "start": 108.863,
+          "end": 109.45
+        },
+        {
+          "text": ",",
+          "start": 109.45,
+          "end": 109.525
+        },
+        {
+          "text": "the",
+          "start": 109.525,
+          "end": 109.663
+        },
+        {
+          "text": "server",
+          "start": 109.663,
+          "end": 110.138
+        },
+        {
+          "text": "and",
+          "start": 110.138,
+          "end": 110.263
+        },
+        {
+          "text": "the",
+          "start": 110.263,
+          "end": 110.35
+        },
+        {
+          "text": "clients",
+          "start": 110.35,
+          "end": 110.8
+        },
+        {
+          "text": "using",
+          "start": 110.8,
+          "end": 111.125
+        },
+        {
+          "text": "it",
+          "start": 111.125,
+          "end": 111.65
+        },
+        {
+          "text": ".",
+          "start": 111.65,
+          "end": 111.825
+        },
+        {
+          "text": "GraphQL",
+          "start": 111.825,
+          "end": 112.538
+        },
+        {
+          "text": "shines",
+          "start": 112.538,
+          "end": 112.925
+        },
+        {
+          "text": "when",
+          "start": 112.925,
+          "end": 113.45
+        },
+        {
+          "text": ":",
+          "start": 113.45,
+          "end": 113.6
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "You have diverse clients (web, mobile, third-party) with different data needs",
+      "start": 113.92,
+      "end": 118.695,
+      "words": [
+        {
+          "text": "You",
+          "start": 114.195,
+          "end": 114.295
+        },
+        {
+          "text": "have",
+          "start": 114.295,
+          "end": 114.495
+        },
+        {
+          "text": "diverse",
+          "start": 114.495,
+          "end": 114.92
+        },
+        {
+          "text": "clients",
+          "start": 114.92,
+          "end": 115.558
+        },
+        {
+          "text": "(",
+          "start": 115.558,
+          "end": 115.645
+        },
+        {
+          "text": "web",
+          "start": 115.645,
+          "end": 115.92
+        },
+        {
+          "text": ",",
+          "start": 115.92,
+          "end": 115.995
+        },
+        {
+          "text": "mobile",
+          "start": 115.995,
+          "end": 116.37
+        },
+        {
+          "text": ",",
+          "start": 116.37,
+          "end": 116.42
+        },
+        {
+          "text": "third-party",
+          "start": 116.42,
+          "end": 117.145
+        },
+        {
+          "text": ")",
+          "start": 117.145,
+          "end": 117.245
+        },
+        {
+          "text": "with",
+          "start": 117.245,
+          "end": 117.42
+        },
+        {
+          "text": "different",
+          "start": 117.42,
+          "end": 117.72
+        },
+        {
+          "text": "data",
+          "start": 117.72,
+          "end": 118.02
+        },
+        {
+          "text": "needs",
+          "start": 118.02,
+          "end": 118.695
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Clients need to request only the fields they use (reduce bandwidth)",
+      "start": 119.115,
+      "end": 123.54,
+      "words": [
+        {
+          "text": "Clients",
+          "start": 119.39,
+          "end": 119.84
+        },
+        {
+          "text": "need",
+          "start": 119.84,
+          "end": 120.04
+        },
+        {
+          "text": "to",
+          "start": 120.04,
+          "end": 120.127
+        },
+        {
+          "text": "request",
+          "start": 120.127,
+          "end": 120.565
+        },
+        {
+          "text": "only",
+          "start": 120.565,
+          "end": 120.852
+        },
+        {
+          "text": "the",
+          "start": 120.852,
+          "end": 120.953
+        },
+        {
+          "text": "fields",
+          "start": 120.953,
+          "end": 121.34
+        },
+        {
+          "text": "they",
+          "start": 121.34,
+          "end": 121.502
+        },
+        {
+          "text": "use",
+          "start": 121.502,
+          "end": 122.127
+        },
+        {
+          "text": "(",
+          "start": 122.127,
+          "end": 122.215
+        },
+        {
+          "text": "reduce",
+          "start": 122.215,
+          "end": 122.59
+        },
+        {
+          "text": "bandwidth",
+          "start": 122.59,
+          "end": 123.39
+        },
+        {
+          "text": ")",
+          "start": 123.39,
+          "end": 123.54
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "You want to evolve your API without breaking old clients",
+      "start": 123.86,
+      "end": 127.535,
+      "words": [
+        {
+          "text": "You",
+          "start": 124.135,
+          "end": 124.222
+        },
+        {
+          "text": "want",
+          "start": 124.222,
+          "end": 124.373
+        },
+        {
+          "text": "to",
+          "start": 124.373,
+          "end": 124.46
+        },
+        {
+          "text": "evolve",
+          "start": 124.46,
+          "end": 124.797
+        },
+        {
+          "text": "your",
+          "start": 124.797,
+          "end": 124.91
+        },
+        {
+          "text": "API",
+          "start": 124.91,
+          "end": 125.748
+        },
+        {
+          "text": "without",
+          "start": 125.748,
+          "end": 126.085
+        },
+        {
+          "text": "breaking",
+          "start": 126.085,
+          "end": 126.51
+        },
+        {
+          "text": "old",
+          "start": 126.51,
+          "end": 126.735
+        },
+        {
+          "text": "clients",
+          "start": 126.735,
+          "end": 127.535
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "You're aggregating data from multiple backends (databases, third-party APIs)",
+      "start": 127.955,
+      "end": 133.705,
+      "words": [
+        {
+          "text": "You're",
+          "start": 128.23,
+          "end": 128.392
+        },
+        {
+          "text": "aggregating",
+          "start": 128.392,
+          "end": 129.005
+        },
+        {
+          "text": "data",
+          "start": 129.005,
+          "end": 129.33
+        },
+        {
+          "text": "from",
+          "start": 129.33,
+          "end": 129.53
+        },
+        {
+          "text": "multiple",
+          "start": 129.53,
+          "end": 129.955
+        },
+        {
+          "text": "backends",
+          "start": 129.955,
+          "end": 130.817
+        },
+        {
+          "text": "(",
+          "start": 130.817,
+          "end": 130.88
+        },
+        {
+          "text": "databases",
+          "start": 130.88,
+          "end": 131.805
+        },
+        {
+          "text": ",",
+          "start": 131.805,
+          "end": 131.942
+        },
+        {
+          "text": "third-party",
+          "start": 131.942,
+          "end": 132.58
+        },
+        {
+          "text": "APIs",
+          "start": 132.58,
+          "end": 133.555
+        },
+        {
+          "text": ")",
+          "start": 133.555,
+          "end": 133.705
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "Example: A dashboard app where the mobile client needs only user name + status, but the admin panel needs name + status + last login + permission groups. GraphQL lets each request exactly what it needs in one round-trip.",
+      "start": 134.025,
+      "end": 149.8,
+      "words": [
+        {
+          "text": "Example",
+          "start": 134.3,
+          "end": 135.05
+        },
+        {
+          "text": ":",
+          "start": 135.05,
+          "end": 135.162
+        },
+        {
+          "text": "A",
+          "start": 135.162,
+          "end": 135.275
+        },
+        {
+          "text": "dashboard",
+          "start": 135.275,
+          "end": 135.875
+        },
+        {
+          "text": "app",
+          "start": 135.875,
+          "end": 136.25
+        },
+        {
+          "text": "where",
+          "start": 136.25,
+          "end": 136.388
+        },
+        {
+          "text": "the",
+          "start": 136.388,
+          "end": 136.475
+        },
+        {
+          "text": "mobile",
+          "start": 136.475,
+          "end": 136.838
+        },
+        {
+          "text": "client",
+          "start": 136.838,
+          "end": 137.225
+        },
+        {
+          "text": "needs",
+          "start": 137.225,
+          "end": 137.65
+        },
+        {
+          "text": "only",
+          "start": 137.65,
+          "end": 137.988
+        },
+        {
+          "text": "user",
+          "start": 137.988,
+          "end": 138.35
+        },
+        {
+          "text": "name",
+          "start": 138.35,
+          "end": 138.675
+        },
+        {
+          "text": "+",
+          "start": 138.675,
+          "end": 138.925
+        },
+        {
+          "text": "status",
+          "start": 138.925,
+          "end": 139.775
+        },
+        {
+          "text": ",",
+          "start": 139.775,
+          "end": 139.875
+        },
+        {
+          "text": "but",
+          "start": 139.875,
+          "end": 140.013
+        },
+        {
+          "text": "the",
+          "start": 140.013,
+          "end": 140.162
+        },
+        {
+          "text": "admin",
+          "start": 140.162,
+          "end": 140.638
+        },
+        {
+          "text": "panel",
+          "start": 140.638,
+          "end": 141.025
+        },
+        {
+          "text": "needs",
+          "start": 141.025,
+          "end": 141.363
+        },
+        {
+          "text": "name",
+          "start": 141.363,
+          "end": 141.7
+        },
+        {
+          "text": "+",
+          "start": 141.7,
+          "end": 141.95
+        },
+        {
+          "text": "status",
+          "start": 141.95,
+          "end": 142.513
+        },
+        {
+          "text": "+",
+          "start": 142.513,
+          "end": 142.838
+        },
+        {
+          "text": "last",
+          "start": 142.838,
+          "end": 143.225
+        },
+        {
+          "text": "login",
+          "start": 143.225,
+          "end": 143.888
+        },
+        {
+          "text": "+",
+          "start": 143.888,
+          "end": 144.175
+        },
+        {
+          "text": "permission",
+          "start": 144.175,
+          "end": 144.6
+        },
+        {
+          "text": "groups",
+          "start": 144.6,
+          "end": 145.425
+        },
+        {
+          "text": ".",
+          "start": 145.425,
+          "end": 145.6
+        },
+        {
+          "text": "GraphQL",
+          "start": 145.6,
+          "end": 146.375
+        },
+        {
+          "text": "lets",
+          "start": 146.375,
+          "end": 146.625
+        },
+        {
+          "text": "each",
+          "start": 146.625,
+          "end": 146.85
+        },
+        {
+          "text": "request",
+          "start": 146.85,
+          "end": 147.325
+        },
+        {
+          "text": "exactly",
+          "start": 147.325,
+          "end": 147.925
+        },
+        {
+          "text": "what",
+          "start": 147.925,
+          "end": 148.062
+        },
+        {
+          "text": "it",
+          "start": 148.062,
+          "end": 148.15
+        },
+        {
+          "text": "needs",
+          "start": 148.15,
+          "end": 148.45
+        },
+        {
+          "text": "in",
+          "start": 148.45,
+          "end": 148.6
+        },
+        {
+          "text": "one",
+          "start": 148.6,
+          "end": 148.825
+        },
+        {
+          "text": "round-trip",
+          "start": 148.825,
+          "end": 149.65
+        },
+        {
+          "text": ".",
+          "start": 149.65,
+          "end": 149.8
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "h3",
+      "text": "The Trade-off",
+      "start": 150.12,
+      "end": 151.32,
+      "words": [
+        {
+          "text": "The",
+          "start": 150.47,
+          "end": 150.595
+        },
+        {
+          "text": "Trade-off",
+          "start": 150.595,
+          "end": 151.32
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "You maintain the GraphQL server. You version the schema. You handle deprecations. Clients gain flexibility; you take on maintenance.",
+      "start": 151.79,
+      "end": 160.515,
+      "words": [
+        {
+          "text": "You",
+          "start": 152.065,
+          "end": 152.165
+        },
+        {
+          "text": "maintain",
+          "start": 152.165,
+          "end": 152.677
+        },
+        {
+          "text": "the",
+          "start": 152.677,
+          "end": 152.765
+        },
+        {
+          "text": "GraphQL",
+          "start": 152.765,
+          "end": 153.44
+        },
+        {
+          "text": "server",
+          "start": 153.44,
+          "end": 154.065
+        },
+        {
+          "text": ".",
+          "start": 154.065,
+          "end": 154.202
+        },
+        {
+          "text": "You",
+          "start": 154.202,
+          "end": 154.365
+        },
+        {
+          "text": "version",
+          "start": 154.365,
+          "end": 154.727
+        },
+        {
+          "text": "the",
+          "start": 154.727,
+          "end": 154.815
+        },
+        {
+          "text": "schema",
+          "start": 154.815,
+          "end": 155.44
+        },
+        {
+          "text": ".",
+          "start": 155.44,
+          "end": 155.577
+        },
+        {
+          "text": "You",
+          "start": 155.577,
+          "end": 155.74
+        },
+        {
+          "text": "handle",
+          "start": 155.74,
+          "end": 156.115
+        },
+        {
+          "text": "deprecations",
+          "start": 156.115,
+          "end": 157.29
+        },
+        {
+          "text": ".",
+          "start": 157.29,
+          "end": 157.452
+        },
+        {
+          "text": "Clients",
+          "start": 157.452,
+          "end": 157.89
+        },
+        {
+          "text": "gain",
+          "start": 157.89,
+          "end": 158.14
+        },
+        {
+          "text": "flexibility",
+          "start": 158.14,
+          "end": 158.965
+        },
+        {
+          "text": ";",
+          "start": 158.965,
+          "end": 159.04
+        },
+        {
+          "text": "you",
+          "start": 159.04,
+          "end": 159.19
+        },
+        {
+          "text": "take",
+          "start": 159.19,
+          "end": 159.403
+        },
+        {
+          "text": "on",
+          "start": 159.403,
+          "end": 159.565
+        },
+        {
+          "text": "maintenance",
+          "start": 159.565,
+          "end": 160.365
+        },
+        {
+          "text": ".",
+          "start": 160.365,
+          "end": 160.515
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h2",
+      "text": "When You Have Both: Anti-Corruption Layers",
+      "start": 160.835,
+      "end": 163.56,
+      "words": [
+        {
+          "text": "When",
+          "start": 161.085,
+          "end": 161.197
+        },
+        {
+          "text": "You",
+          "start": 161.197,
+          "end": 161.297
+        },
+        {
+          "text": "Have",
+          "start": 161.297,
+          "end": 161.51
+        },
+        {
+          "text": "Both",
+          "start": 161.51,
+          "end": 161.96
+        },
+        {
+          "text": ":",
+          "start": 161.96,
+          "end": 162.06
+        },
+        {
+          "text": "Anti-Corruption",
+          "start": 162.06,
+          "end": 162.835
+        },
+        {
+          "text": "Layers",
+          "start": 162.835,
+          "end": 163.56
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "p",
+      "text": "Sometimes you're integrating Graph API into an existing system that already has a REST or GraphQL interface. You don't want Graph API bleeding into your core code. Enter the Anti-Corruption Layer (ACL) , a façade that translates between Graph API and your internal interfaces.",
+      "start": 164.005,
+      "end": 183.18,
+      "words": [
+        {
+          "text": "Sometimes",
+          "start": 164.28,
+          "end": 164.83
+        },
+        {
+          "text": "you're",
+          "start": 164.83,
+          "end": 165.005
+        },
+        {
+          "text": "integrating",
+          "start": 165.005,
+          "end": 165.555
+        },
+        {
+          "text": "Graph",
+          "start": 165.555,
+          "end": 165.992
+        },
+        {
+          "text": "API",
+          "start": 165.992,
+          "end": 166.73
+        },
+        {
+          "text": "into",
+          "start": 166.73,
+          "end": 166.967
+        },
+        {
+          "text": "an",
+          "start": 166.967,
+          "end": 167.055
+        },
+        {
+          "text": "existing",
+          "start": 167.055,
+          "end": 167.605
+        },
+        {
+          "text": "system",
+          "start": 167.605,
+          "end": 168.317
+        },
+        {
+          "text": "that",
+          "start": 168.317,
+          "end": 168.48
+        },
+        {
+          "text": "already",
+          "start": 168.48,
+          "end": 168.855
+        },
+        {
+          "text": "has",
+          "start": 168.855,
+          "end": 169.03
+        },
+        {
+          "text": "a",
+          "start": 169.03,
+          "end": 169.142
+        },
+        {
+          "text": "REST",
+          "start": 169.142,
+          "end": 169.642
+        },
+        {
+          "text": "or",
+          "start": 169.642,
+          "end": 169.817
+        },
+        {
+          "text": "GraphQL",
+          "start": 169.817,
+          "end": 170.505
+        },
+        {
+          "text": "interface",
+          "start": 170.505,
+          "end": 171.505
+        },
+        {
+          "text": ".",
+          "start": 171.505,
+          "end": 171.63
+        },
+        {
+          "text": "You",
+          "start": 171.63,
+          "end": 171.742
+        },
+        {
+          "text": "don't",
+          "start": 171.742,
+          "end": 171.93
+        },
+        {
+          "text": "want",
+          "start": 171.93,
+          "end": 172.13
+        },
+        {
+          "text": "Graph",
+          "start": 172.13,
+          "end": 172.517
+        },
+        {
+          "text": "API",
+          "start": 172.517,
+          "end": 173.142
+        },
+        {
+          "text": "bleeding",
+          "start": 173.142,
+          "end": 173.492
+        },
+        {
+          "text": "into",
+          "start": 173.492,
+          "end": 173.667
+        },
+        {
+          "text": "your",
+          "start": 173.667,
+          "end": 173.78
+        },
+        {
+          "text": "core",
+          "start": 173.78,
+          "end": 174.03
+        },
+        {
+          "text": "code",
+          "start": 174.03,
+          "end": 174.78
+        },
+        {
+          "text": ".",
+          "start": 174.78,
+          "end": 174.942
+        },
+        {
+          "text": "Enter",
+          "start": 174.942,
+          "end": 175.192
+        },
+        {
+          "text": "the",
+          "start": 175.192,
+          "end": 175.33
+        },
+        {
+          "text": "Anti-Corruption",
+          "start": 175.33,
+          "end": 176.142
+        },
+        {
+          "text": "Layer",
+          "start": 176.142,
+          "end": 176.717
+        },
+        {
+          "text": "(",
+          "start": 176.717,
+          "end": 176.805
+        },
+        {
+          "text": "ACL",
+          "start": 176.805,
+          "end": 177.755
+        },
+        {
+          "text": ")",
+          "start": 177.755,
+          "end": 177.955
+        },
+        {
+          "text": ",",
+          "start": 177.955,
+          "end": 178.03
+        },
+        {
+          "text": "a",
+          "start": 178.03,
+          "end": 178.13
+        },
+        {
+          "text": "façade",
+          "start": 178.13,
+          "end": 178.68
+        },
+        {
+          "text": "that",
+          "start": 178.68,
+          "end": 178.83
+        },
+        {
+          "text": "translates",
+          "start": 178.83,
+          "end": 179.505
+        },
+        {
+          "text": "between",
+          "start": 179.505,
+          "end": 179.83
+        },
+        {
+          "text": "Graph",
+          "start": 179.83,
+          "end": 180.155
+        },
+        {
+          "text": "API",
+          "start": 180.155,
+          "end": 181.117
+        },
+        {
+          "text": "and",
+          "start": 181.117,
+          "end": 181.305
+        },
+        {
+          "text": "your",
+          "start": 181.305,
+          "end": 181.48
+        },
+        {
+          "text": "internal",
+          "start": 181.48,
+          "end": 182.005
+        },
+        {
+          "text": "interfaces",
+          "start": 182.005,
+          "end": 183.055
+        },
+        {
+          "text": ".",
+          "start": 183.055,
+          "end": 183.18
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "The ACL:",
+      "start": 183.5,
+      "end": 185.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 183.85,
+          "end": 183.975
+        },
+        {
+          "text": "ACL",
+          "start": 183.975,
+          "end": 184.825
+        },
+        {
+          "text": ":",
+          "start": 184.825,
+          "end": 185.0
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Takes your internal request shape (your domain model)",
+      "start": 185.32,
+      "end": 188.72,
+      "words": [
+        {
+          "text": "Takes",
+          "start": 185.595,
+          "end": 185.832
+        },
+        {
+          "text": "your",
+          "start": 185.832,
+          "end": 185.932
+        },
+        {
+          "text": "internal",
+          "start": 185.932,
+          "end": 186.307
+        },
+        {
+          "text": "request",
+          "start": 186.307,
+          "end": 186.795
+        },
+        {
+          "text": "shape",
+          "start": 186.795,
+          "end": 187.332
+        },
+        {
+          "text": "(",
+          "start": 187.332,
+          "end": 187.395
+        },
+        {
+          "text": "your",
+          "start": 187.395,
+          "end": 187.495
+        },
+        {
+          "text": "domain",
+          "start": 187.495,
+          "end": 187.92
+        },
+        {
+          "text": "model",
+          "start": 187.92,
+          "end": 188.57
+        },
+        {
+          "text": ")",
+          "start": 188.57,
+          "end": 188.72
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Translates it to Graph API calls",
+      "start": 189.04,
+      "end": 191.54,
+      "words": [
+        {
+          "text": "Translates",
+          "start": 189.315,
+          "end": 189.827
+        },
+        {
+          "text": "it",
+          "start": 189.827,
+          "end": 189.915
+        },
+        {
+          "text": "to",
+          "start": 189.915,
+          "end": 190.015
+        },
+        {
+          "text": "Graph",
+          "start": 190.015,
+          "end": 190.352
+        },
+        {
+          "text": "API",
+          "start": 190.352,
+          "end": 190.89
+        },
+        {
+          "text": "calls",
+          "start": 190.89,
+          "end": 191.54
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Translates Graph responses back to your shape",
+      "start": 191.985,
+      "end": 194.76,
+      "words": [
+        {
+          "text": "Translates",
+          "start": 192.26,
+          "end": 192.81
+        },
+        {
+          "text": "Graph",
+          "start": 192.81,
+          "end": 193.122
+        },
+        {
+          "text": "responses",
+          "start": 193.122,
+          "end": 193.735
+        },
+        {
+          "text": "back",
+          "start": 193.735,
+          "end": 194.01
+        },
+        {
+          "text": "to",
+          "start": 194.01,
+          "end": 194.097
+        },
+        {
+          "text": "your",
+          "start": 194.097,
+          "end": 194.222
+        },
+        {
+          "text": "shape",
+          "start": 194.222,
+          "end": 194.76
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Keeps your core logic free of Graph API specifics",
+      "start": 195.23,
+      "end": 198.68,
+      "words": [
+        {
+          "text": "Keeps",
+          "start": 195.48,
+          "end": 195.717
+        },
+        {
+          "text": "your",
+          "start": 195.717,
+          "end": 195.83
+        },
+        {
+          "text": "core",
+          "start": 195.83,
+          "end": 196.242
+        },
+        {
+          "text": "logic",
+          "start": 196.242,
+          "end": 196.63
+        },
+        {
+          "text": "free",
+          "start": 196.63,
+          "end": 196.855
+        },
+        {
+          "text": "of",
+          "start": 196.855,
+          "end": 196.955
+        },
+        {
+          "text": "Graph",
+          "start": 196.955,
+          "end": 197.28
+        },
+        {
+          "text": "API",
+          "start": 197.28,
+          "end": 197.805
+        },
+        {
+          "text": "specifics",
+          "start": 197.805,
+          "end": 198.68
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "This matters when you might migrate away from Microsoft 365. The ACL lets you swap backends without rewriting everything.",
+      "start": 199.1,
+      "end": 208.35,
+      "words": [
+        {
+          "text": "This",
+          "start": 199.375,
+          "end": 199.612
+        },
+        {
+          "text": "matters",
+          "start": 199.612,
+          "end": 200.062
+        },
+        {
+          "text": "when",
+          "start": 200.062,
+          "end": 200.187
+        },
+        {
+          "text": "you",
+          "start": 200.187,
+          "end": 200.275
+        },
+        {
+          "text": "might",
+          "start": 200.275,
+          "end": 200.5
+        },
+        {
+          "text": "migrate",
+          "start": 200.5,
+          "end": 200.875
+        },
+        {
+          "text": "away",
+          "start": 200.875,
+          "end": 201.325
+        },
+        {
+          "text": "from",
+          "start": 201.325,
+          "end": 201.475
+        },
+        {
+          "text": "Microsoft",
+          "start": 201.475,
+          "end": 202.2
+        },
+        {
+          "text": "365",
+          "start": 202.2,
+          "end": 203.95
+        },
+        {
+          "text": ".",
+          "start": 203.95,
+          "end": 204.1
+        },
+        {
+          "text": "The",
+          "start": 204.1,
+          "end": 204.262
+        },
+        {
+          "text": "ACL",
+          "start": 204.262,
+          "end": 204.9
+        },
+        {
+          "text": "lets",
+          "start": 204.9,
+          "end": 205.137
+        },
+        {
+          "text": "you",
+          "start": 205.137,
+          "end": 205.262
+        },
+        {
+          "text": "swap",
+          "start": 205.262,
+          "end": 205.625
+        },
+        {
+          "text": "backends",
+          "start": 205.625,
+          "end": 206.462
+        },
+        {
+          "text": "without",
+          "start": 206.462,
+          "end": 206.825
+        },
+        {
+          "text": "rewriting",
+          "start": 206.825,
+          "end": 207.35
+        },
+        {
+          "text": "everything",
+          "start": 207.35,
+          "end": 208.2
+        },
+        {
+          "text": ".",
+          "start": 208.2,
+          "end": 208.35
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h2",
+      "text": "The Real Trade-off: Control vs. Consistency",
+      "start": 208.67,
+      "end": 212.02,
+      "words": [
+        {
+          "text": "The",
+          "start": 208.945,
+          "end": 209.045
+        },
+        {
+          "text": "Real",
+          "start": 209.045,
+          "end": 209.32
+        },
+        {
+          "text": "Trade-off",
+          "start": 209.32,
+          "end": 209.945
+        },
+        {
+          "text": ":",
+          "start": 209.945,
+          "end": 210.045
+        },
+        {
+          "text": "Control",
+          "start": 210.045,
+          "end": 210.57
+        },
+        {
+          "text": "vs.",
+          "start": 210.57,
+          "end": 210.97
+        },
+        {
+          "text": "Consistency",
+          "start": 210.97,
+          "end": 212.02
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "Think of it this way:",
+      "start": 212.49,
+      "end": 214.09,
+      "words": [
+        {
+          "text": "Think",
+          "start": 212.815,
+          "end": 213.002
+        },
+        {
+          "text": "of",
+          "start": 213.002,
+          "end": 213.077
+        },
+        {
+          "text": "it",
+          "start": 213.077,
+          "end": 213.19
+        },
+        {
+          "text": "this",
+          "start": 213.19,
+          "end": 213.39
+        },
+        {
+          "text": "way",
+          "start": 213.39,
+          "end": 213.915
+        },
+        {
+          "text": ":",
+          "start": 213.915,
+          "end": 214.09
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "Microsoft Graph = staying in the Microsoft ecosystem. You get stability and official support, but you bend to Microsoft's data model.",
+      "start": 214.41,
+      "end": 223.735,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 214.71,
+          "end": 215.335
+        },
+        {
+          "text": "Graph",
+          "start": 215.335,
+          "end": 215.797
+        },
+        {
+          "text": "=",
+          "start": 215.797,
+          "end": 216.197
+        },
+        {
+          "text": "staying",
+          "start": 216.197,
+          "end": 216.622
+        },
+        {
+          "text": "in",
+          "start": 216.622,
+          "end": 216.697
+        },
+        {
+          "text": "the",
+          "start": 216.697,
+          "end": 216.785
+        },
+        {
+          "text": "Microsoft",
+          "start": 216.785,
+          "end": 217.41
+        },
+        {
+          "text": "ecosystem",
+          "start": 217.41,
+          "end": 218.535
+        },
+        {
+          "text": ".",
+          "start": 218.535,
+          "end": 218.672
+        },
+        {
+          "text": "You",
+          "start": 218.672,
+          "end": 218.81
+        },
+        {
+          "text": "get",
+          "start": 218.81,
+          "end": 219.01
+        },
+        {
+          "text": "stability",
+          "start": 219.01,
+          "end": 219.747
+        },
+        {
+          "text": "and",
+          "start": 219.747,
+          "end": 219.872
+        },
+        {
+          "text": "official",
+          "start": 219.872,
+          "end": 220.31
+        },
+        {
+          "text": "support",
+          "start": 220.31,
+          "end": 221.06
+        },
+        {
+          "text": ",",
+          "start": 221.06,
+          "end": 221.16
+        },
+        {
+          "text": "but",
+          "start": 221.16,
+          "end": 221.31
+        },
+        {
+          "text": "you",
+          "start": 221.31,
+          "end": 221.472
+        },
+        {
+          "text": "bend",
+          "start": 221.472,
+          "end": 221.81
+        },
+        {
+          "text": "to",
+          "start": 221.81,
+          "end": 221.935
+        },
+        {
+          "text": "Microsoft's",
+          "start": 221.935,
+          "end": 222.635
+        },
+        {
+          "text": "data",
+          "start": 222.635,
+          "end": 222.935
+        },
+        {
+          "text": "model",
+          "start": 222.935,
+          "end": 223.585
+        },
+        {
+          "text": ".",
+          "start": 223.585,
+          "end": 223.735
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "p",
+      "text": "GraphQL = full control. You define the schema, you version it, you own the maintenance.",
+      "start": 224.055,
+      "end": 229.78,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 224.33,
+          "end": 224.955
+        },
+        {
+          "text": "=",
+          "start": 224.955,
+          "end": 225.33
+        },
+        {
+          "text": "full",
+          "start": 225.33,
+          "end": 225.555
+        },
+        {
+          "text": "control",
+          "start": 225.555,
+          "end": 226.33
+        },
+        {
+          "text": ".",
+          "start": 226.33,
+          "end": 226.455
+        },
+        {
+          "text": "You",
+          "start": 226.455,
+          "end": 226.58
+        },
+        {
+          "text": "define",
+          "start": 226.58,
+          "end": 226.942
+        },
+        {
+          "text": "the",
+          "start": 226.942,
+          "end": 227.03
+        },
+        {
+          "text": "schema",
+          "start": 227.03,
+          "end": 227.53
+        },
+        {
+          "text": ",",
+          "start": 227.53,
+          "end": 227.63
+        },
+        {
+          "text": "you",
+          "start": 227.63,
+          "end": 227.78
+        },
+        {
+          "text": "version",
+          "start": 227.78,
+          "end": 228.155
+        },
+        {
+          "text": "it",
+          "start": 228.155,
+          "end": 228.355
+        },
+        {
+          "text": ",",
+          "start": 228.355,
+          "end": 228.43
+        },
+        {
+          "text": "you",
+          "start": 228.43,
+          "end": 228.592
+        },
+        {
+          "text": "own",
+          "start": 228.592,
+          "end": 228.792
+        },
+        {
+          "text": "the",
+          "start": 228.792,
+          "end": 228.88
+        },
+        {
+          "text": "maintenance",
+          "start": 228.88,
+          "end": 229.63
+        },
+        {
+          "text": ".",
+          "start": 229.63,
+          "end": 229.78
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "Neither is universally \"better.\" Graph API is better for Microsoft-heavy shops. GraphQL is better for shops with diverse backends or strict client requirements.",
+      "start": 230.1,
+      "end": 241.7,
+      "words": [
+        {
+          "text": "Neither",
+          "start": 230.425,
+          "end": 230.862
+        },
+        {
+          "text": "is",
+          "start": 230.862,
+          "end": 231.037
+        },
+        {
+          "text": "universally",
+          "start": 231.037,
+          "end": 231.875
+        },
+        {
+          "text": "\"",
+          "start": 231.875,
+          "end": 231.95
+        },
+        {
+          "text": "better",
+          "start": 231.95,
+          "end": 232.65
+        },
+        {
+          "text": ".",
+          "start": 232.65,
+          "end": 232.775
+        },
+        {
+          "text": "\"",
+          "start": 232.775,
+          "end": 232.837
+        },
+        {
+          "text": "Graph",
+          "start": 232.837,
+          "end": 233.187
+        },
+        {
+          "text": "API",
+          "start": 233.187,
+          "end": 233.912
+        },
+        {
+          "text": "is",
+          "start": 233.912,
+          "end": 234.075
+        },
+        {
+          "text": "better",
+          "start": 234.075,
+          "end": 234.4
+        },
+        {
+          "text": "for",
+          "start": 234.4,
+          "end": 234.562
+        },
+        {
+          "text": "Microsoft-heavy",
+          "start": 234.562,
+          "end": 235.512
+        },
+        {
+          "text": "shops",
+          "start": 235.512,
+          "end": 236.275
+        },
+        {
+          "text": ".",
+          "start": 236.275,
+          "end": 236.412
+        },
+        {
+          "text": "GraphQL",
+          "start": 236.412,
+          "end": 237.125
+        },
+        {
+          "text": "is",
+          "start": 237.125,
+          "end": 237.275
+        },
+        {
+          "text": "better",
+          "start": 237.275,
+          "end": 237.6
+        },
+        {
+          "text": "for",
+          "start": 237.6,
+          "end": 237.775
+        },
+        {
+          "text": "shops",
+          "start": 237.775,
+          "end": 238.2
+        },
+        {
+          "text": "with",
+          "start": 238.2,
+          "end": 238.375
+        },
+        {
+          "text": "diverse",
+          "start": 238.375,
+          "end": 238.825
+        },
+        {
+          "text": "backends",
+          "start": 238.825,
+          "end": 239.65
+        },
+        {
+          "text": "or",
+          "start": 239.65,
+          "end": 239.875
+        },
+        {
+          "text": "strict",
+          "start": 239.875,
+          "end": 240.312
+        },
+        {
+          "text": "client",
+          "start": 240.312,
+          "end": 240.637
+        },
+        {
+          "text": "requirements",
+          "start": 240.637,
+          "end": 241.55
+        },
+        {
+          "text": ".",
+          "start": 241.55,
+          "end": 241.7
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "Visual: The Architecture Difference",
+      "start": 242.02,
+      "end": 244.37,
+      "words": [
+        {
+          "text": "Visual",
+          "start": 242.32,
+          "end": 242.845
+        },
+        {
+          "text": ":",
+          "start": 242.845,
+          "end": 242.92
+        },
+        {
+          "text": "The",
+          "start": 242.92,
+          "end": 243.07
+        },
+        {
+          "text": "Architecture",
+          "start": 243.07,
+          "end": 243.645
+        },
+        {
+          "text": "Difference",
+          "start": 243.645,
+          "end": 244.37
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "p",
+      "text": "Graph API is direct , you talk to Microsoft's servers. GraphQL requires you to run a server in the middle, translating client needs into backend calls.",
+      "start": 244.815,
+      "end": 255.215,
+      "words": [
+        {
+          "text": "Graph",
+          "start": 245.09,
+          "end": 245.44
+        },
+        {
+          "text": "API",
+          "start": 245.44,
+          "end": 246.14
+        },
+        {
+          "text": "is",
+          "start": 246.14,
+          "end": 246.29
+        },
+        {
+          "text": "direct",
+          "start": 246.29,
+          "end": 246.952
+        },
+        {
+          "text": ",",
+          "start": 246.952,
+          "end": 247.04
+        },
+        {
+          "text": "you",
+          "start": 247.04,
+          "end": 247.165
+        },
+        {
+          "text": "talk",
+          "start": 247.165,
+          "end": 247.44
+        },
+        {
+          "text": "to",
+          "start": 247.44,
+          "end": 247.565
+        },
+        {
+          "text": "Microsoft's",
+          "start": 247.565,
+          "end": 248.14
+        },
+        {
+          "text": "servers",
+          "start": 248.14,
+          "end": 249.04
+        },
+        {
+          "text": ".",
+          "start": 249.04,
+          "end": 249.202
+        },
+        {
+          "text": "GraphQL",
+          "start": 249.202,
+          "end": 249.89
+        },
+        {
+          "text": "requires",
+          "start": 249.89,
+          "end": 250.44
+        },
+        {
+          "text": "you",
+          "start": 250.44,
+          "end": 250.59
+        },
+        {
+          "text": "to",
+          "start": 250.59,
+          "end": 250.727
+        },
+        {
+          "text": "run",
+          "start": 250.727,
+          "end": 250.952
+        },
+        {
+          "text": "a",
+          "start": 250.952,
+          "end": 251.052
+        },
+        {
+          "text": "server",
+          "start": 251.052,
+          "end": 251.44
+        },
+        {
+          "text": "in",
+          "start": 251.44,
+          "end": 251.527
+        },
+        {
+          "text": "the",
+          "start": 251.527,
+          "end": 251.615
+        },
+        {
+          "text": "middle",
+          "start": 251.615,
+          "end": 252.115
+        },
+        {
+          "text": ",",
+          "start": 252.115,
+          "end": 252.227
+        },
+        {
+          "text": "translating",
+          "start": 252.227,
+          "end": 252.952
+        },
+        {
+          "text": "client",
+          "start": 252.952,
+          "end": 253.39
+        },
+        {
+          "text": "needs",
+          "start": 253.39,
+          "end": 253.752
+        },
+        {
+          "text": "into",
+          "start": 253.752,
+          "end": 253.965
+        },
+        {
+          "text": "backend",
+          "start": 253.965,
+          "end": 254.34
+        },
+        {
+          "text": "calls",
+          "start": 254.34,
+          "end": 255.065
+        },
+        {
+          "text": ".",
+          "start": 255.065,
+          "end": 255.215
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h2",
+      "text": "Decision Matrix",
+      "start": 255.535,
+      "end": 257.16,
+      "words": [
+        {
+          "text": "Decision",
+          "start": 255.86,
+          "end": 256.335
+        },
+        {
+          "text": "Matrix",
+          "start": 256.335,
+          "end": 257.16
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 257.605,
+      "end": 259.43,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 257.905,
+          "end": 258.405
+        },
+        {
+          "text": "and",
+          "start": 258.405,
+          "end": 258.53
+        },
+        {
+          "text": "Further",
+          "start": 258.53,
+          "end": 258.805
+        },
+        {
+          "text": "Reading",
+          "start": 258.805,
+          "end": 259.43
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Microsoft Graph overview",
+      "start": 259.875,
+      "end": 261.725,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 260.175,
+          "end": 260.725
+        },
+        {
+          "text": "Graph",
+          "start": 260.725,
+          "end": 261.05
+        },
+        {
+          "text": "overview",
+          "start": 261.05,
+          "end": 261.725
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "Microsoft Graph best practices",
+      "start": 262.245,
+      "end": 264.67,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 262.545,
+          "end": 263.095
+        },
+        {
+          "text": "Graph",
+          "start": 263.095,
+          "end": 263.42
+        },
+        {
+          "text": "best",
+          "start": 263.42,
+          "end": 263.695
+        },
+        {
+          "text": "practices",
+          "start": 263.695,
+          "end": 264.67
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "li",
+      "text": "Anti-Corruption Layer , Azure Architecture Center",
+      "start": 265.09,
+      "end": 268.465,
+      "words": [
+        {
+          "text": "Anti-Corruption",
+          "start": 265.39,
+          "end": 266.19
+        },
+        {
+          "text": "Layer",
+          "start": 266.19,
+          "end": 266.778
+        },
+        {
+          "text": ",",
+          "start": 266.778,
+          "end": 266.878
+        },
+        {
+          "text": "Azure",
+          "start": 266.878,
+          "end": 267.215
+        },
+        {
+          "text": "Architecture",
+          "start": 267.215,
+          "end": 267.815
+        },
+        {
+          "text": "Center",
+          "start": 267.815,
+          "end": 268.465
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "GraphQL vs REST , AWS comparison",
+      "start": 268.91,
+      "end": 271.885,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 269.185,
+          "end": 269.71
+        },
+        {
+          "text": "vs",
+          "start": 269.71,
+          "end": 270.11
+        },
+        {
+          "text": "REST",
+          "start": 270.11,
+          "end": 270.623
+        },
+        {
+          "text": ",",
+          "start": 270.623,
+          "end": 270.71
+        },
+        {
+          "text": "AWS",
+          "start": 270.71,
+          "end": 270.96
+        },
+        {
+          "text": "comparison",
+          "start": 270.96,
+          "end": 271.885
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "p",
+      "text": "See also: Mastering GraphQL (Sep 2024) · Hasura with Graph API and Hot Chocolate (Sep 2024)",
+      "start": 272.305,
+      "end": 280.855,
+      "words": [
+        {
+          "text": "See",
+          "start": 272.58,
+          "end": 272.755
+        },
+        {
+          "text": "also",
+          "start": 272.755,
+          "end": 273.38
+        },
+        {
+          "text": ":",
+          "start": 273.38,
+          "end": 273.518
+        },
+        {
+          "text": "Mastering",
+          "start": 273.518,
+          "end": 274.005
+        },
+        {
+          "text": "GraphQL",
+          "start": 274.005,
+          "end": 274.793
+        },
+        {
+          "text": "(",
+          "start": 274.793,
+          "end": 274.88
+        },
+        {
+          "text": "Sep",
+          "start": 274.88,
+          "end": 275.105
+        },
+        {
+          "text": "2024",
+          "start": 275.105,
+          "end": 276.155
+        },
+        {
+          "text": ")",
+          "start": 276.155,
+          "end": 276.33
+        },
+        {
+          "text": "Hasura",
+          "start": 276.38,
+          "end": 276.843
+        },
+        {
+          "text": "with",
+          "start": 276.843,
+          "end": 277.03
+        },
+        {
+          "text": "Graph",
+          "start": 277.03,
+          "end": 277.368
+        },
+        {
+          "text": "API",
+          "start": 277.368,
+          "end": 278.043
+        },
+        {
+          "text": "and",
+          "start": 278.043,
+          "end": 278.168
+        },
+        {
+          "text": "Hot",
+          "start": 278.168,
+          "end": 278.43
+        },
+        {
+          "text": "Chocolate",
+          "start": 278.43,
+          "end": 279.193
+        },
+        {
+          "text": "(",
+          "start": 279.193,
+          "end": 279.28
+        },
+        {
+          "text": "Sep",
+          "start": 279.28,
+          "end": 279.53
+        },
+        {
+          "text": "2024",
+          "start": 279.53,
+          "end": 280.855
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

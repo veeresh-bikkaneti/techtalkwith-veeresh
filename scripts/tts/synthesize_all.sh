@@ -21,3 +21,14 @@ for voice in af_heart bf_emma; do
     echo "END $voice $slug"
   done
 done
+
+echo "RETRY missing"
+for voice in af_heart bf_emma; do
+  for slug in $slugs; do
+    echo "BEGIN $voice $slug"
+    if ! python3 scripts/tts/synthesize.py --voice "$voice" --only "$slug" --only-missing; then
+      echo "FAIL $voice $slug"
+    fi
+    echo "END $voice $slug"
+  done
+done

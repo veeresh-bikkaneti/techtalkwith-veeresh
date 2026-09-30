@@ -196,6 +196,18 @@ def main() -> int:
     if args.limit:
         posts = posts[: args.limit]
 
+    pending = []
+    for path in posts:
+        post = extract_post(path)
+        dest = Path(args.out) / post["slug"] / accent
+        if args.only_missing and _already_done(dest):
+            print(f"skip {post['slug']} {accent}", flush=True)
+            continue
+        pending.append((post, dest))
+    if not pending:
+        print(f"synthesized=0 failed=0 accent={accent}", flush=True)
+        return 0
+
     os.environ.setdefault("HF_HUB_DISABLE_TELEMETRY", "1")
     import torch
     torch.set_grad_enabled(False)
@@ -206,12 +218,7 @@ def main() -> int:
     pipeline = KPipeline(lang_code=lang, repo_id="hexgrad/Kokoro-82M")
     failed = []
     done = 0
-    for path in posts:
-        post = extract_post(path)
-        dest = Path(args.out) / post["slug"] / accent
-        if args.only_missing and _already_done(dest):
-            print(f"skip {post['slug']} {accent}", flush=True)
-            continue
+    for post, dest in pending:
         print(f"speak {post['slug']} {accent} blocks={len(post['blocks'])}", flush=True)
         try:
             synthesize_post(pipeline, post, args.voice, accent, dest)
