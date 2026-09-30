@@ -48,69 +48,19 @@ title: Home
 <section class="section" aria-labelledby="oss-title">
   <div class="section-header">
     <i class="fab fa-github" aria-hidden="true"></i>
-    <h2 id="oss-title">Open Source</h2>
+    <h2 id="oss-title">Projects &amp; live sites</h2>
     <div class="section-divider"></div>
-    <a class="section-link" href="https://veeresh-bikkaneti.github.io/">All projects <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
   </div>
   <div class="bento-grid">
-    <article class="bento-card bento-card--featured" data-reveal>
-      <div class="bento-header">
-        <div class="bento-icon"><i class="fas fa-robot"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/cypress-qa-ai-workforce" target="_blank" rel="noopener">cypress-qa-ai-workforce</a></h3>
-      </div>
-      <p class="bento-desc">AI-powered Cypress QA system with agent orchestration, self-healing locators, and security gates. Built for enterprise test automation with multi-agent collaboration.</p>
-      <div class="bento-tags">
-        <span class="bento-tag bento-tag--lang">JavaScript</span>
-        <span class="bento-tag">Cypress</span>
-        <span class="bento-tag">AI Agents</span>
-        <span class="bento-tag">Playwright</span>
-      </div>
-      <div class="bento-stats">
-        <span><i class="fas fa-star"></i> Featured</span>
-        <span><i class="fas fa-code-branch"></i> Active</span>
-      </div>
-    </article>
-    <article class="bento-card" data-reveal>
-      <div class="bento-header">
-        <div class="bento-icon"><i class="fas fa-brain"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/LLMcouncil" target="_blank" rel="noopener">LLMcouncil</a></h3>
-      </div>
-      <p class="bento-desc">Multi-agent AI orchestration framework: 3 parallel analysis agents + Chairperson synthesizer.</p>
-      <div class="bento-tags">
-        <span class="bento-tag bento-tag--lang">TypeScript</span>
-        <span class="bento-tag">LLM</span>
-        <span class="bento-tag">Multi-Agent</span>
-      </div>
-    </article>
-    <article class="bento-card" data-reveal>
-      <div class="bento-header">
-        <div class="bento-icon"><i class="fas fa-plug"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/azdo-ai-toolkit" target="_blank" rel="noopener">azdo-ai-toolkit</a></h3>
-      </div>
-      <p class="bento-desc">Azure DevOps AI integration: automated test case generation from work items.</p>
-      <div class="bento-tags">
-        <span class="bento-tag bento-tag--lang">TypeScript</span>
-        <span class="bento-tag">Azure DevOps</span>
-        <span class="bento-tag">AI</span>
-      </div>
-    </article>
-    <article class="bento-card bento-card--wide" data-reveal>
-      <div class="bento-header">
-        <div class="bento-icon"><i class="fas fa-exchange-alt"></i></div>
-        <h3 class="bento-title"><a href="https://github.com/veeresh-bikkaneti/cypress-playwright" target="_blank" rel="noopener">cypress-playwright</a></h3>
-      </div>
-      <p class="bento-desc">Migration framework bridging Cypress and Playwright ecosystems. Smooth transition path for teams moving between frameworks.</p>
-      <div class="bento-tags">
-        <span class="bento-tag bento-tag--lang">TypeScript</span>
-        <span class="bento-tag">Cypress</span>
-        <span class="bento-tag">Playwright</span>
-        <span class="bento-tag">Migration</span>
-      </div>
-    </article>
-    <a class="bento-card bento-card--cta" href="https://veeresh-bikkaneti.github.io/" data-reveal>
-      <span class="bento-cta-kicker">Live sites & tools</span>
+    <a class="bento-card bento-card--cta" href="https://veeresh-bikkaneti.github.io/#projects" data-reveal>
+      <span class="bento-cta-kicker">Open source</span>
+      <span class="bento-cta-title">AI-assisted QA, Cypress to Playwright migration, LLM council and more</span>
+      <span class="bento-cta-link">See projects <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+    <a class="bento-card bento-card--cta" href="https://veeresh-bikkaneti.github.io/#sites" data-reveal>
+      <span class="bento-cta-kicker">Live sites &amp; tools</span>
       <span class="bento-cta-title">System Design Mastery, TicketRouter, testing guides and more</span>
-      <span class="bento-cta-link">Browse everything <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+      <span class="bento-cta-link">Browse live sites <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
     </a>
   </div>
 </section>
