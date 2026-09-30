@@ -7,11 +7,11 @@ title: Home
   <canvas id="network-canvas" class="network-canvas" aria-hidden="true"></canvas>
   <h1 class="hero-title">Tech Talk with Veeresh</h1>
   <p class="hero-subtitle">
-    Principal QA Architect · AI Test Architect · 20+ years driving enterprise software quality. Writing about AI-driven test strategy, automation frameworks, and building quality engineering teams.
+    Principal QA Architect · AI Test Architect · writing on AI-driven test strategy, automation frameworks, and quality engineering teams.
+    <a href="https://veeresh-bikkaneti.github.io/about.html">About Veeresh</a> lives on the portfolio.
   </p>
   <div class="hero-links">
-    <a href="{{ '/about/' | relative_url }}" class="btn-primary"><i class="fas fa-user" aria-hidden="true"></i> About Me</a>
-    <a href="{{ '/blog/' | relative_url }}" class="btn-secondary"><i class="fas fa-rss" aria-hidden="true"></i> Read the Blog</a>
+    <a href="{{ '/blog/' | relative_url }}" class="btn-primary"><i class="fas fa-rss" aria-hidden="true"></i> Latest posts</a>
     <a href="https://github.com/veeresh-bikkaneti" target="_blank" rel="noopener" class="btn-secondary"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
     <a href="https://www.linkedin.com/in/sdetbaveer/" target="_blank" rel="noopener" class="btn-secondary"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
   </div>
@@ -108,7 +108,7 @@ title: Home
       </div>
     </article>
     <a class="bento-card bento-card--cta" href="https://veeresh-bikkaneti.github.io/" data-reveal>
-      <span class="bento-cta-kicker">Live sites &amp; tools</span>
+      <span class="bento-cta-kicker">Live sites & tools</span>
       <span class="bento-cta-title">System Design Mastery, TicketRouter, testing guides and more</span>
       <span class="bento-cta-link">Browse everything <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
     </a>
