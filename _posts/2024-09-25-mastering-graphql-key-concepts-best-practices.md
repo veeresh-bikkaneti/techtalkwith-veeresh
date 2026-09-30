@@ -253,7 +253,7 @@ Understand **Schema** and **Resolvers**, fix the **N+1 problem**, and use **JWT*
 
 1. [GraphQL — official specification](https://graphql.org/learn/)
 2. [How to GraphQL — fullstack tutorial](https://www.howtographql.com/)
-3. [GraphQL vs REST — Apollo blog](https://www.apollographql.com/blog/graphql-vs-rest)
+3. [GraphQL specification](https://spec.graphql.org/October2021/)
 4. [GraphQL mutations — Hasura tutorial](https://hasura.io/learn/graphql/intro-graphql/graphql-mutations/)
 
 *See also:* [Modernizing Your Skills: Embracing GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-modernizing-skills-embracing-graphql.md %}) · [Graph API vs GraphQL (Sep 2024)]({{ site.baseurl }}{% link _posts/2024-09-24-graph-api-vs-graphql.md %}) — yes, Microsoft Graph and GraphQL are different beasts.

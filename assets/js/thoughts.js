@@ -1,6 +1,5 @@
-/* Comment box. The writing fields stay hidden until the drawn code matches.
-   Submitting then goes through FormSubmit, which runs its own check
-   before the note is emailed. A static page cannot verify a captcha alone. */
+/* Thoughts stay off email. The writing box is hidden until the drawn code matches.
+   Saving keeps the note on this browser. Publishing opens GitHub, which requires a sign-in. */
 (function () {
   var root = document.querySelector("[data-thoughts]");
   if (!root || root.dataset.bound) return;
@@ -12,10 +11,12 @@
   var canvas = root.querySelector("[data-thoughts-canvas]");
   var codeInput = root.querySelector("[data-thoughts-code]");
   var msg = root.querySelector("[data-thoughts-msg]");
-  var sent = root.querySelector("[data-thoughts-sent]");
+  var list = root.querySelector("[data-thoughts-list]");
   var alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
   var expected = "";
   var misses = 0;
+  var open = false;
+  var storageKey = "thoughts:" + location.pathname;
 
   function mint() {
     var bytes = new Uint8Array(5);
@@ -66,17 +67,34 @@
     if (msg) msg.textContent = text;
   }
 
-  function armForm() {
-    var email = root.getAttribute("data-email") || "";
-    var title = root.getAttribute("data-title") || "a post";
-    var page = root.getAttribute("data-page") || location.href;
-    form.action = "https://formsubmit.co/" + email;
-    form.querySelector("[name='_subject']").value = "Thought on " + title;
-    form.querySelector("[name='article']").value = title + " " + page;
-    var back = new URL(page);
-    back.searchParams.set("thought", "sent");
-    back.hash = "thoughts";
-    form.querySelector("[name='_next']").value = back.toString();
+  function readThoughts() {
+    try { return JSON.parse(localStorage.getItem(storageKey) || "[]"); }
+    catch (err) { return []; }
+  }
+
+  function render() {
+    if (!list) return;
+    list.replaceChildren();
+    readThoughts().forEach(function (item) {
+      var li = document.createElement("li");
+      var who = document.createElement("strong");
+      who.textContent = item.name || "Reader";
+      var body = document.createElement("p");
+      body.textContent = item.message || "";
+      var publish = document.createElement("a");
+      var title = root.getAttribute("data-title") || "a post";
+      var page = root.getAttribute("data-page") || location.href;
+      publish.href = "https://github.com/veeresh-bikkaneti/techtalkwith-veeresh/issues/new?title="
+        + encodeURIComponent("Thought: " + title)
+        + "&body=" + encodeURIComponent((item.message || "") + "\n\nFrom: " + (item.name || "Reader") + "\n" + page);
+      publish.target = "_blank";
+      publish.rel = "noopener noreferrer";
+      publish.textContent = "Post this on GitHub";
+      li.appendChild(who);
+      li.appendChild(body);
+      li.appendChild(publish);
+      list.appendChild(li);
+    });
   }
 
   function unlock() {
@@ -94,21 +112,15 @@
       if (misses >= 8 && codeInput) codeInput.disabled = true;
       return;
     }
-    armForm();
+    open = true;
     gate.hidden = true;
     fields.hidden = false;
     var name = fields.querySelector("[name='name']");
     if (name) name.focus();
   }
 
-  var params = new URLSearchParams(location.search);
-  if (params.get("thought") === "sent") {
-    if (sent) sent.hidden = false;
-    if (form) form.hidden = true;
-    return;
-  }
-
   refresh();
+  render();
   root.querySelector("[data-thoughts-refresh]").addEventListener("click", function () {
     if (misses >= 8) return;
     refresh();
@@ -122,14 +134,19 @@
     }
   });
   form.addEventListener("submit", function (event) {
-    if (fields.hidden) {
-      event.preventDefault();
+    event.preventDefault();
+    if (!open) {
       unlock();
       return;
     }
-    if (!form.action || form.action === location.href) {
-      event.preventDefault();
-      say("The box is still locked.");
-    }
+    var name = (fields.querySelector("[name='name']").value || "").trim();
+    var message = (fields.querySelector("[name='message']").value || "").trim();
+    if (!name || !message) return;
+    var items = readThoughts();
+    items.push({ name: name, message: message });
+    try { localStorage.setItem(storageKey, JSON.stringify(items)); } catch (err) {}
+    fields.querySelector("[name='message']").value = "";
+    render();
+    say("Saved on this browser. It was not emailed.");
   });
 })();

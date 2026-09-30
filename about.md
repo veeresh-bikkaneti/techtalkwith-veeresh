@@ -355,7 +355,7 @@ title: About
     <div class="section-divider"></div>
   </div>
   <div class="contact-section">
-    <p class="contact-intro">Interested in collaborating on QA architecture, test automation strategy, or AI-driven quality engineering? I'm always open to discussing new opportunities and ideas.</p>
+    <p class="contact-intro">This is a blog of notes and half-formed ideas. If you want to argue with a post, use the thought box on the article. It does not email me.</p>
     <div class="contact-grid">
       <a href="mailto:resume.qasdet@gmail.com" class="contact-card" data-reveal>
         <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>

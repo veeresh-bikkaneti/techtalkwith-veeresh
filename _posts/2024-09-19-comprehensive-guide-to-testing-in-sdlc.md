@@ -351,7 +351,7 @@ Each layer catches something the previous layer missed. You don't get to skip an
 
 ## Sources & Further Reading
 
-1. [ISTQB — Software Testing Fundamentals](https://istqb.org/certifications/certified-tester-foundation-level)
+1. [ISTQB — Certified Tester Foundation Level](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4/)
 2. [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 3. [Microsoft — Performance testing guidance](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/performance-test)
 4. [Shift-left testing — Wikipedia (solid overview)](https://en.wikipedia.org/wiki/Shift-left_testing)

@@ -17,6 +17,18 @@
   max-width: 42rem;
 }
 
+.thoughts-list { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.8rem; }
+.thoughts-list:empty { display: none; }
+.thoughts-list li {
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+}
+.thoughts-list strong { display: block; margin-bottom: 0.25rem; }
+.thoughts-list p { margin: 0 0 0.45rem; white-space: pre-wrap; }
+.thoughts-list a { font-size: 0.86rem; }
+
 .thoughts-form {
   margin-top: 1rem;
   padding: 1rem;
