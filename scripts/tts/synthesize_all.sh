@@ -14,7 +14,7 @@ PY
 )
 for voice in af_heart bf_emma; do
   for slug in $slugs; do
-    echo "BEGIN $voice $slug"
+    echo "BEGIN $(date -u +%H:%M:%S) $voice $slug"
     if ! python3 scripts/tts/synthesize.py --voice "$voice" --only "$slug" --only-missing; then
       echo "FAIL $voice $slug"
     fi
@@ -25,7 +25,7 @@ done
 echo "RETRY missing"
 for voice in af_heart bf_emma; do
   for slug in $slugs; do
-    echo "BEGIN $voice $slug"
+    echo "BEGIN $(date -u +%H:%M:%S) $voice $slug"
     if ! python3 scripts/tts/synthesize.py --voice "$voice" --only "$slug" --only-missing; then
       echo "FAIL $voice $slug"
     fi
