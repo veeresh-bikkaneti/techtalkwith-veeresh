@@ -80,7 +80,11 @@ def _front_matter(raw: str) -> tuple[dict, str]:
         if ":" not in line or line.startswith(" ") or line.startswith("-"):
             continue
         key, value = line.split(":", 1)
-        meta[key.strip()] = value.strip().strip('"').strip("'")
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        value = value.replace('\\"', '"').replace("\\'", "'")
+        meta[key.strip()] = value
     return meta, body.lstrip("\n")
 
 
