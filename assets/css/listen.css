@@ -35,6 +35,11 @@
 .listen-play:hover,
 .listen-float:hover { background: var(--gradient-btn-hover); }
 
+.listen-play:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
 .listen-group {
   display: inline-flex;
   border: 1px solid var(--border);
