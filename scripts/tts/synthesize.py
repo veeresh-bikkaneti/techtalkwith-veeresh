@@ -221,6 +221,8 @@ def main() -> int:
             failed.append(post["slug"])
             print(f"FAIL {post['slug']}", flush=True)
             traceback.print_exc()
+        import gc
+        gc.collect()
     print(f"synthesized={done} failed={len(failed)} accent={accent}", flush=True)
     if failed:
         print("failed slugs: " + ", ".join(failed), flush=True)

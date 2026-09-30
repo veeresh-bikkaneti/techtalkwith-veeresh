@@ -24,7 +24,7 @@ python3 scripts/tts/validate.py --strict-coverage
 
 The toolchain used for the committed audio is torch 2.6.0+cpu, kokoro 0.9.4, soundfile 0.14.0, ffmpeg libopus at 24 kbps. Weights stay in the Hugging Face cache. Do not commit `*.wav`. Commit opus and json a few articles at a time, and only after that article has finished writing.
 
-`--only some-slug` limits the batch. A failure is logged and the batch continues. The process exits nonzero if any article failed. `--only-missing` skips a slug whose opus and json are already there.
+`scripts/tts/synthesize_all.sh` runs one article per process. That is the batch to use. A single long-lived Kokoro process grows until a small machine kills it.
 
 `scripts/tts/test_speakable.py` checks the extractor. `node scripts/tts/verify_player.mjs` loads a fixture article in headless Chromium, presses play, and checks that the highlight moves with the clock. It also checks the browser-voice path when the manifest is absent.
 
