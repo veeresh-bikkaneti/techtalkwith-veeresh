@@ -46,6 +46,7 @@ function pageHtml(slug) {
 <html lang="en"><head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="/assets/css/listen.css">
+<style>body{margin:0 0 0 4rem}</style>
 </head><body>
 <article class="post">
   <h1 class="post-title">A short listen test</h1>
@@ -158,6 +159,29 @@ try {
     return note && /US voice/.test(note.textContent) && audio && /\/us\//.test(audio.src);
   }, null, { timeout: 8000 }).then(() => true).catch(() => false);
   check("UK preference still plays the US recording", ukUsesUs);
+
+  const here = await browser.newPage();
+  await here.route("**/listen-fixture.html", (route) =>
+    route.fulfill({ contentType: "text/html", body: pageHtml("listen-fixture") })
+  );
+  await here.goto(`http://127.0.0.1:${port}/listen-fixture.html`, { waitUntil: "domcontentloaded" });
+  await here.waitForSelector(".listen-here", { state: "attached", timeout: 15000 });
+  const markers = await here.locator(".listen-here").count();
+  check("each aligned block gets a play-from-here marker", markers >= 2, String(markers));
+
+  await here.locator("li .listen-here").click({ force: true });
+  await here.waitForFunction(() => document.querySelector("[data-listen]").dataset.state === "playing", null, { timeout: 15000 });
+  const fromItem = await here.evaluate(() => document.querySelector("audio").currentTime);
+  check("marker before first play starts at that block", fromItem > 1, `t=${fromItem.toFixed(2)}`);
+
+  await here.locator("p .listen-here").click({ force: true });
+  const fromPara = await here.evaluate(() => document.querySelector("audio").currentTime);
+  check("marker while playing jumps back", fromPara < fromItem, `t=${fromPara.toFixed(2)}`);
+
+  await here.click("[data-listen-play]");
+  await here.locator("li .listen-here").click({ force: true });
+  const resumedHere = await here.evaluate(() => document.querySelector("[data-listen]").dataset.state);
+  check("marker while paused resumes", resumedHere === "playing", resumedHere);
 
   const fallback = await browser.newPage();
   await fallback.addInitScript(() => {
