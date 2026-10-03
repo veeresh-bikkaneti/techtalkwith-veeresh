@@ -1,0 +1,4445 @@
+{
+  "slug": "the-software-testing-pyramid",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 303.595,
+  "contentHash": "945b9ce29764263517d8a31307feed3a62bf5019f5061086e5ff579bc9b2f2ef",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "The Software Testing Pyramid: A Developer's Secret Weapon",
+      "start": 0.0,
+      "end": 4.0,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.25,
+          "end": 0.35
+        },
+        {
+          "text": "Software",
+          "start": 0.35,
+          "end": 0.8
+        },
+        {
+          "text": "Testing",
+          "start": 0.8,
+          "end": 1.25
+        },
+        {
+          "text": "Pyramid",
+          "start": 1.25,
+          "end": 1.925
+        },
+        {
+          "text": ":",
+          "start": 1.925,
+          "end": 2.025
+        },
+        {
+          "text": "A",
+          "start": 2.025,
+          "end": 2.1
+        },
+        {
+          "text": "Developer's",
+          "start": 2.1,
+          "end": 2.663
+        },
+        {
+          "text": "Secret",
+          "start": 2.663,
+          "end": 3.1
+        },
+        {
+          "text": "Weapon",
+          "start": 3.1,
+          "end": 4.0
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "li",
+      "text": "Breakdown of the Testing Pyramid and how to implement",
+      "start": 4.47,
+      "end": 7.845,
+      "words": [
+        {
+          "text": "Breakdown",
+          "start": 4.72,
+          "end": 5.157
+        },
+        {
+          "text": "of",
+          "start": 5.157,
+          "end": 5.232
+        },
+        {
+          "text": "the",
+          "start": 5.232,
+          "end": 5.32
+        },
+        {
+          "text": "Testing",
+          "start": 5.32,
+          "end": 5.745
+        },
+        {
+          "text": "Pyramid",
+          "start": 5.745,
+          "end": 6.307
+        },
+        {
+          "text": "and",
+          "start": 6.307,
+          "end": 6.445
+        },
+        {
+          "text": "how",
+          "start": 6.445,
+          "end": 6.645
+        },
+        {
+          "text": "to",
+          "start": 6.645,
+          "end": 6.77
+        },
+        {
+          "text": "implement",
+          "start": 6.77,
+          "end": 7.845
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "li",
+      "text": "Implementation",
+      "start": 8.315,
+      "end": 10.065,
+      "words": [
+        {
+          "text": "Implementation",
+          "start": 8.565,
+          "end": 10.065
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "The Testing Pyramid: A Developer's Secret Weapon",
+      "start": 10.51,
+      "end": 14.01,
+      "words": [
+        {
+          "text": "The",
+          "start": 10.735,
+          "end": 10.81
+        },
+        {
+          "text": "Testing",
+          "start": 10.81,
+          "end": 11.26
+        },
+        {
+          "text": "Pyramid",
+          "start": 11.26,
+          "end": 11.91
+        },
+        {
+          "text": ":",
+          "start": 11.91,
+          "end": 12.01
+        },
+        {
+          "text": "A",
+          "start": 12.01,
+          "end": 12.085
+        },
+        {
+          "text": "Developer's",
+          "start": 12.085,
+          "end": 12.672
+        },
+        {
+          "text": "Secret",
+          "start": 12.672,
+          "end": 13.11
+        },
+        {
+          "text": "Weapon",
+          "start": 13.11,
+          "end": 14.01
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Ever felt overwhelmed by the sheer complexity of software testing? You're not alone. As developers, we often struggle to balance thorough testing with tight deadlines and limited resources. ⏳",
+      "start": 14.53,
+      "end": 26.805,
+      "words": [
+        {
+          "text": "Ever",
+          "start": 14.805,
+          "end": 15.03
+        },
+        {
+          "text": "felt",
+          "start": 15.03,
+          "end": 15.28
+        },
+        {
+          "text": "overwhelmed",
+          "start": 15.28,
+          "end": 15.88
+        },
+        {
+          "text": "by",
+          "start": 15.88,
+          "end": 16.018
+        },
+        {
+          "text": "the",
+          "start": 16.018,
+          "end": 16.143
+        },
+        {
+          "text": "sheer",
+          "start": 16.143,
+          "end": 16.405
+        },
+        {
+          "text": "complexity",
+          "start": 16.405,
+          "end": 17.017
+        },
+        {
+          "text": "of",
+          "start": 17.017,
+          "end": 17.105
+        },
+        {
+          "text": "software",
+          "start": 17.105,
+          "end": 17.53
+        },
+        {
+          "text": "testing",
+          "start": 17.53,
+          "end": 18.305
+        },
+        {
+          "text": "?",
+          "start": 18.305,
+          "end": 18.405
+        },
+        {
+          "text": "You're",
+          "start": 18.405,
+          "end": 18.543
+        },
+        {
+          "text": "not",
+          "start": 18.543,
+          "end": 18.73
+        },
+        {
+          "text": "alone",
+          "start": 18.73,
+          "end": 19.48
+        },
+        {
+          "text": ".",
+          "start": 19.48,
+          "end": 19.58
+        },
+        {
+          "text": "As",
+          "start": 19.58,
+          "end": 19.755
+        },
+        {
+          "text": "developers",
+          "start": 19.755,
+          "end": 20.355
+        },
+        {
+          "text": ",",
+          "start": 20.355,
+          "end": 20.392
+        },
+        {
+          "text": "we",
+          "start": 20.392,
+          "end": 20.505
+        },
+        {
+          "text": "often",
+          "start": 20.505,
+          "end": 20.805
+        },
+        {
+          "text": "struggle",
+          "start": 20.805,
+          "end": 21.205
+        },
+        {
+          "text": "to",
+          "start": 21.205,
+          "end": 21.305
+        },
+        {
+          "text": "balance",
+          "start": 21.305,
+          "end": 21.68
+        },
+        {
+          "text": "thorough",
+          "start": 21.68,
+          "end": 21.955
+        },
+        {
+          "text": "testing",
+          "start": 21.955,
+          "end": 22.392
+        },
+        {
+          "text": "with",
+          "start": 22.392,
+          "end": 22.53
+        },
+        {
+          "text": "tight",
+          "start": 22.53,
+          "end": 22.805
+        },
+        {
+          "text": "deadlines",
+          "start": 22.805,
+          "end": 23.33
+        },
+        {
+          "text": "and",
+          "start": 23.33,
+          "end": 23.455
+        },
+        {
+          "text": "limited",
+          "start": 23.455,
+          "end": 23.83
+        },
+        {
+          "text": "resources",
+          "start": 23.83,
+          "end": 25.105
+        },
+        {
+          "text": ".",
+          "start": 25.105,
+          "end": 25.243
+        },
+        {
+          "text": "⏳",
+          "start": 25.243,
+          "end": 26.805
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "Traditional approaches often lead to a chaotic mix of unit tests and manual checks, leaving critical gaps in our testing strategy. This can result in bugs slipping through to production, causing headaches for both developers and users.",
+      "start": 27.275,
+      "end": 41.375,
+      "words": [
+        {
+          "text": "Traditional",
+          "start": 27.525,
+          "end": 28.025
+        },
+        {
+          "text": "approaches",
+          "start": 28.025,
+          "end": 28.6
+        },
+        {
+          "text": "often",
+          "start": 28.6,
+          "end": 28.95
+        },
+        {
+          "text": "lead",
+          "start": 28.95,
+          "end": 29.15
+        },
+        {
+          "text": "to",
+          "start": 29.15,
+          "end": 29.238
+        },
+        {
+          "text": "a",
+          "start": 29.238,
+          "end": 29.3
+        },
+        {
+          "text": "chaotic",
+          "start": 29.3,
+          "end": 29.775
+        },
+        {
+          "text": "mix",
+          "start": 29.775,
+          "end": 30.038
+        },
+        {
+          "text": "of",
+          "start": 30.038,
+          "end": 30.125
+        },
+        {
+          "text": "unit",
+          "start": 30.125,
+          "end": 30.4
+        },
+        {
+          "text": "tests",
+          "start": 30.4,
+          "end": 30.875
+        },
+        {
+          "text": "and",
+          "start": 30.875,
+          "end": 31.0
+        },
+        {
+          "text": "manual",
+          "start": 31.0,
+          "end": 31.413
+        },
+        {
+          "text": "checks",
+          "start": 31.413,
+          "end": 32.125
+        },
+        {
+          "text": ",",
+          "start": 32.125,
+          "end": 32.225
+        },
+        {
+          "text": "leaving",
+          "start": 32.225,
+          "end": 32.575
+        },
+        {
+          "text": "critical",
+          "start": 32.575,
+          "end": 33.025
+        },
+        {
+          "text": "gaps",
+          "start": 33.025,
+          "end": 33.4
+        },
+        {
+          "text": "in",
+          "start": 33.4,
+          "end": 33.488
+        },
+        {
+          "text": "our",
+          "start": 33.488,
+          "end": 33.625
+        },
+        {
+          "text": "testing",
+          "start": 33.625,
+          "end": 34.025
+        },
+        {
+          "text": "strategy",
+          "start": 34.025,
+          "end": 35.175
+        },
+        {
+          "text": ".",
+          "start": 35.175,
+          "end": 35.338
+        },
+        {
+          "text": "This",
+          "start": 35.338,
+          "end": 35.575
+        },
+        {
+          "text": "can",
+          "start": 35.575,
+          "end": 35.687
+        },
+        {
+          "text": "result",
+          "start": 35.687,
+          "end": 36.1
+        },
+        {
+          "text": "in",
+          "start": 36.1,
+          "end": 36.25
+        },
+        {
+          "text": "bugs",
+          "start": 36.25,
+          "end": 36.65
+        },
+        {
+          "text": "slipping",
+          "start": 36.65,
+          "end": 37.025
+        },
+        {
+          "text": "through",
+          "start": 37.025,
+          "end": 37.25
+        },
+        {
+          "text": "to",
+          "start": 37.25,
+          "end": 37.35
+        },
+        {
+          "text": "production",
+          "start": 37.35,
+          "end": 38.15
+        },
+        {
+          "text": ",",
+          "start": 38.15,
+          "end": 38.25
+        },
+        {
+          "text": "causing",
+          "start": 38.25,
+          "end": 38.6
+        },
+        {
+          "text": "headaches",
+          "start": 38.6,
+          "end": 39.025
+        },
+        {
+          "text": "for",
+          "start": 39.025,
+          "end": 39.15
+        },
+        {
+          "text": "both",
+          "start": 39.15,
+          "end": 39.425
+        },
+        {
+          "text": "developers",
+          "start": 39.425,
+          "end": 40.062
+        },
+        {
+          "text": "and",
+          "start": 40.062,
+          "end": 40.225
+        },
+        {
+          "text": "users",
+          "start": 40.225,
+          "end": 41.2
+        },
+        {
+          "text": ".",
+          "start": 41.2,
+          "end": 41.375
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "My \"aha\" moment came when I discovered the Testing Pyramid concept. This game-changing framework revolutionized how I approach software quality assurance.",
+      "start": 41.695,
+      "end": 51.37,
+      "words": [
+        {
+          "text": "My",
+          "start": 41.97,
+          "end": 42.17
+        },
+        {
+          "text": "\"",
+          "start": 42.17,
+          "end": 42.245
+        },
+        {
+          "text": "aha",
+          "start": 42.245,
+          "end": 42.62
+        },
+        {
+          "text": "\"",
+          "start": 42.62,
+          "end": 42.67
+        },
+        {
+          "text": "moment",
+          "start": 42.67,
+          "end": 43.045
+        },
+        {
+          "text": "came",
+          "start": 43.045,
+          "end": 43.358
+        },
+        {
+          "text": "when",
+          "start": 43.358,
+          "end": 43.483
+        },
+        {
+          "text": "I",
+          "start": 43.483,
+          "end": 43.595
+        },
+        {
+          "text": "discovered",
+          "start": 43.595,
+          "end": 44.057
+        },
+        {
+          "text": "the",
+          "start": 44.057,
+          "end": 44.145
+        },
+        {
+          "text": "Testing",
+          "start": 44.145,
+          "end": 44.595
+        },
+        {
+          "text": "Pyramid",
+          "start": 44.595,
+          "end": 45.045
+        },
+        {
+          "text": "concept",
+          "start": 45.045,
+          "end": 46.12
+        },
+        {
+          "text": ".",
+          "start": 46.12,
+          "end": 46.22
+        },
+        {
+          "text": "This",
+          "start": 46.22,
+          "end": 46.445
+        },
+        {
+          "text": "game-changing",
+          "start": 46.445,
+          "end": 47.12
+        },
+        {
+          "text": "framework",
+          "start": 47.12,
+          "end": 47.695
+        },
+        {
+          "text": "revolutionized",
+          "start": 47.695,
+          "end": 48.495
+        },
+        {
+          "text": "how",
+          "start": 48.495,
+          "end": 48.67
+        },
+        {
+          "text": "I",
+          "start": 48.67,
+          "end": 48.795
+        },
+        {
+          "text": "approach",
+          "start": 48.795,
+          "end": 49.182
+        },
+        {
+          "text": "software",
+          "start": 49.182,
+          "end": 49.645
+        },
+        {
+          "text": "quality",
+          "start": 49.645,
+          "end": 50.095
+        },
+        {
+          "text": "assurance",
+          "start": 50.095,
+          "end": 51.17
+        },
+        {
+          "text": ".",
+          "start": 51.17,
+          "end": 51.37
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "h1",
+      "text": "Here's a breakdown of the Testing Pyramid and how to implement it:",
+      "start": 51.69,
+      "end": 55.94,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 51.94,
+          "end": 52.227
+        },
+        {
+          "text": "a",
+          "start": 52.227,
+          "end": 52.29
+        },
+        {
+          "text": "breakdown",
+          "start": 52.29,
+          "end": 52.777
+        },
+        {
+          "text": "of",
+          "start": 52.777,
+          "end": 52.852
+        },
+        {
+          "text": "the",
+          "start": 52.852,
+          "end": 52.94
+        },
+        {
+          "text": "Testing",
+          "start": 52.94,
+          "end": 53.365
+        },
+        {
+          "text": "Pyramid",
+          "start": 53.365,
+          "end": 54.065
+        },
+        {
+          "text": "and",
+          "start": 54.065,
+          "end": 54.215
+        },
+        {
+          "text": "how",
+          "start": 54.215,
+          "end": 54.39
+        },
+        {
+          "text": "to",
+          "start": 54.39,
+          "end": 54.515
+        },
+        {
+          "text": "implement",
+          "start": 54.515,
+          "end": 55.052
+        },
+        {
+          "text": "it",
+          "start": 55.052,
+          "end": 55.74
+        },
+        {
+          "text": ":",
+          "start": 55.74,
+          "end": 55.94
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Unit Tests (Base): Focus on individual functions and methods. Aim for high code coverage (but not obsessively).",
+      "start": 56.26,
+      "end": 63.735,
+      "words": [
+        {
+          "text": "Unit",
+          "start": 56.535,
+          "end": 56.785
+        },
+        {
+          "text": "Tests",
+          "start": 56.785,
+          "end": 57.198
+        },
+        {
+          "text": "(",
+          "start": 57.198,
+          "end": 57.235
+        },
+        {
+          "text": "Base",
+          "start": 57.235,
+          "end": 57.76
+        },
+        {
+          "text": ":",
+          "start": 57.76,
+          "end": 57.873
+        },
+        {
+          "text": "Focus",
+          "start": 57.873,
+          "end": 58.298
+        },
+        {
+          "text": "on",
+          "start": 58.298,
+          "end": 58.435
+        },
+        {
+          "text": "individual",
+          "start": 58.435,
+          "end": 58.985
+        },
+        {
+          "text": "functions",
+          "start": 58.985,
+          "end": 59.497
+        },
+        {
+          "text": "and",
+          "start": 59.497,
+          "end": 59.61
+        },
+        {
+          "text": "methods",
+          "start": 59.61,
+          "end": 60.46
+        },
+        {
+          "text": ".",
+          "start": 60.46,
+          "end": 60.598
+        },
+        {
+          "text": "Aim",
+          "start": 60.598,
+          "end": 60.885
+        },
+        {
+          "text": "for",
+          "start": 60.885,
+          "end": 61.01
+        },
+        {
+          "text": "high",
+          "start": 61.01,
+          "end": 61.26
+        },
+        {
+          "text": "code",
+          "start": 61.26,
+          "end": 61.585
+        },
+        {
+          "text": "coverage",
+          "start": 61.585,
+          "end": 62.023
+        },
+        {
+          "text": "(",
+          "start": 62.023,
+          "end": 62.06
+        },
+        {
+          "text": "but",
+          "start": 62.06,
+          "end": 62.185
+        },
+        {
+          "text": "not",
+          "start": 62.185,
+          "end": 62.372
+        },
+        {
+          "text": "obsessively",
+          "start": 62.372,
+          "end": 63.485
+        },
+        {
+          "text": ")",
+          "start": 63.485,
+          "end": 63.66
+        },
+        {
+          "text": ".",
+          "start": 63.66,
+          "end": 63.735
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Example: In a banking app, unit tests verify that the interest calculation function works for negative balances, leap years, rounding edge cases.",
+      "start": 64.055,
+      "end": 73.655,
+      "words": [
+        {
+          "text": "Example",
+          "start": 64.305,
+          "end": 64.98
+        },
+        {
+          "text": ":",
+          "start": 64.98,
+          "end": 65.055
+        },
+        {
+          "text": "In",
+          "start": 65.055,
+          "end": 65.143
+        },
+        {
+          "text": "a",
+          "start": 65.143,
+          "end": 65.205
+        },
+        {
+          "text": "banking",
+          "start": 65.205,
+          "end": 65.605
+        },
+        {
+          "text": "app",
+          "start": 65.605,
+          "end": 66.105
+        },
+        {
+          "text": ",",
+          "start": 66.105,
+          "end": 66.205
+        },
+        {
+          "text": "unit",
+          "start": 66.205,
+          "end": 66.48
+        },
+        {
+          "text": "tests",
+          "start": 66.48,
+          "end": 66.88
+        },
+        {
+          "text": "verify",
+          "start": 66.88,
+          "end": 67.355
+        },
+        {
+          "text": "that",
+          "start": 67.355,
+          "end": 67.467
+        },
+        {
+          "text": "the",
+          "start": 67.467,
+          "end": 67.58
+        },
+        {
+          "text": "interest",
+          "start": 67.58,
+          "end": 67.98
+        },
+        {
+          "text": "calculation",
+          "start": 67.98,
+          "end": 68.68
+        },
+        {
+          "text": "function",
+          "start": 68.68,
+          "end": 69.13
+        },
+        {
+          "text": "works",
+          "start": 69.13,
+          "end": 69.455
+        },
+        {
+          "text": "for",
+          "start": 69.455,
+          "end": 69.58
+        },
+        {
+          "text": "negative",
+          "start": 69.58,
+          "end": 69.98
+        },
+        {
+          "text": "balances",
+          "start": 69.98,
+          "end": 70.93
+        },
+        {
+          "text": ",",
+          "start": 70.93,
+          "end": 71.042
+        },
+        {
+          "text": "leap",
+          "start": 71.042,
+          "end": 71.305
+        },
+        {
+          "text": "years",
+          "start": 71.305,
+          "end": 71.73
+        },
+        {
+          "text": ",",
+          "start": 71.73,
+          "end": 71.805
+        },
+        {
+          "text": "rounding",
+          "start": 71.805,
+          "end": 72.205
+        },
+        {
+          "text": "edge",
+          "start": 72.205,
+          "end": 72.405
+        },
+        {
+          "text": "cases",
+          "start": 72.405,
+          "end": 73.48
+        },
+        {
+          "text": ".",
+          "start": 73.48,
+          "end": 73.655
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "li",
+      "text": "Lesson I learned: Unit tests are cheap insurance. I once wrote 100 unit tests for a date calculation function. Only 3 caught real bugs. But those 3 prevented a multi-million-dollar reconciliation error. The other 97? They were cheap peace of mind.",
+      "start": 73.975,
+      "end": 90.525,
+      "words": [
+        {
+          "text": "Lesson",
+          "start": 74.275,
+          "end": 74.562
+        },
+        {
+          "text": "I",
+          "start": 74.562,
+          "end": 74.7
+        },
+        {
+          "text": "learned",
+          "start": 74.7,
+          "end": 75.2
+        },
+        {
+          "text": ":",
+          "start": 75.2,
+          "end": 75.3
+        },
+        {
+          "text": "Unit",
+          "start": 75.3,
+          "end": 75.575
+        },
+        {
+          "text": "tests",
+          "start": 75.575,
+          "end": 75.975
+        },
+        {
+          "text": "are",
+          "start": 75.975,
+          "end": 76.112
+        },
+        {
+          "text": "cheap",
+          "start": 76.112,
+          "end": 76.387
+        },
+        {
+          "text": "insurance",
+          "start": 76.387,
+          "end": 77.425
+        },
+        {
+          "text": ".",
+          "start": 77.425,
+          "end": 77.525
+        },
+        {
+          "text": "I",
+          "start": 77.525,
+          "end": 77.65
+        },
+        {
+          "text": "once",
+          "start": 77.65,
+          "end": 77.925
+        },
+        {
+          "text": "wrote",
+          "start": 77.925,
+          "end": 78.125
+        },
+        {
+          "text": "100",
+          "start": 78.125,
+          "end": 78.65
+        },
+        {
+          "text": "unit",
+          "start": 78.65,
+          "end": 78.925
+        },
+        {
+          "text": "tests",
+          "start": 78.925,
+          "end": 79.325
+        },
+        {
+          "text": "for",
+          "start": 79.325,
+          "end": 79.437
+        },
+        {
+          "text": "a",
+          "start": 79.437,
+          "end": 79.5
+        },
+        {
+          "text": "date",
+          "start": 79.5,
+          "end": 79.8
+        },
+        {
+          "text": "calculation",
+          "start": 79.8,
+          "end": 80.475
+        },
+        {
+          "text": "function",
+          "start": 80.475,
+          "end": 81.425
+        },
+        {
+          "text": ".",
+          "start": 81.425,
+          "end": 81.562
+        },
+        {
+          "text": "Only",
+          "start": 81.562,
+          "end": 81.887
+        },
+        {
+          "text": "3",
+          "start": 81.887,
+          "end": 82.175
+        },
+        {
+          "text": "caught",
+          "start": 82.175,
+          "end": 82.45
+        },
+        {
+          "text": "real",
+          "start": 82.45,
+          "end": 82.725
+        },
+        {
+          "text": "bugs",
+          "start": 82.725,
+          "end": 83.4
+        },
+        {
+          "text": ".",
+          "start": 83.4,
+          "end": 83.475
+        },
+        {
+          "text": "But",
+          "start": 83.475,
+          "end": 83.625
+        },
+        {
+          "text": "those",
+          "start": 83.625,
+          "end": 83.9
+        },
+        {
+          "text": "3",
+          "start": 83.9,
+          "end": 84.15
+        },
+        {
+          "text": "prevented",
+          "start": 84.15,
+          "end": 84.562
+        },
+        {
+          "text": "a",
+          "start": 84.562,
+          "end": 84.625
+        },
+        {
+          "text": "multi-million-dollar",
+          "start": 84.625,
+          "end": 85.6
+        },
+        {
+          "text": "reconciliation",
+          "start": 85.6,
+          "end": 86.375
+        },
+        {
+          "text": "error",
+          "start": 86.375,
+          "end": 87.075
+        },
+        {
+          "text": ".",
+          "start": 87.075,
+          "end": 87.175
+        },
+        {
+          "text": "The",
+          "start": 87.175,
+          "end": 87.325
+        },
+        {
+          "text": "other",
+          "start": 87.325,
+          "end": 87.575
+        },
+        {
+          "text": "97",
+          "start": 87.575,
+          "end": 88.45
+        },
+        {
+          "text": "?",
+          "start": 88.45,
+          "end": 88.55
+        },
+        {
+          "text": "They",
+          "start": 88.55,
+          "end": 88.687
+        },
+        {
+          "text": "were",
+          "start": 88.687,
+          "end": 88.812
+        },
+        {
+          "text": "cheap",
+          "start": 88.812,
+          "end": 89.1
+        },
+        {
+          "text": "peace",
+          "start": 89.1,
+          "end": 89.338
+        },
+        {
+          "text": "of",
+          "start": 89.338,
+          "end": 89.425
+        },
+        {
+          "text": "mind",
+          "start": 89.425,
+          "end": 90.325
+        },
+        {
+          "text": ".",
+          "start": 90.325,
+          "end": 90.525
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "li",
+      "text": "Component Tests: Test isolated sections of your app, mocking external dependencies.",
+      "start": 90.845,
+      "end": 96.795,
+      "words": [
+        {
+          "text": "Component",
+          "start": 91.095,
+          "end": 91.62
+        },
+        {
+          "text": "Tests",
+          "start": 91.62,
+          "end": 92.395
+        },
+        {
+          "text": ":",
+          "start": 92.395,
+          "end": 92.495
+        },
+        {
+          "text": "Test",
+          "start": 92.495,
+          "end": 92.807
+        },
+        {
+          "text": "isolated",
+          "start": 92.807,
+          "end": 93.445
+        },
+        {
+          "text": "sections",
+          "start": 93.445,
+          "end": 93.882
+        },
+        {
+          "text": "of",
+          "start": 93.882,
+          "end": 93.957
+        },
+        {
+          "text": "your",
+          "start": 93.957,
+          "end": 94.145
+        },
+        {
+          "text": "app",
+          "start": 94.145,
+          "end": 94.395
+        },
+        {
+          "text": ",",
+          "start": 94.395,
+          "end": 94.445
+        },
+        {
+          "text": "mocking",
+          "start": 94.445,
+          "end": 94.795
+        },
+        {
+          "text": "external",
+          "start": 94.795,
+          "end": 95.295
+        },
+        {
+          "text": "dependencies",
+          "start": 95.295,
+          "end": 96.62
+        },
+        {
+          "text": ".",
+          "start": 96.62,
+          "end": 96.795
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "Example: For an e-commerce site, component tests verify the cart updates when items are added/removed, handles edge cases (duplicate items, quantity overflow).",
+      "start": 97.115,
+      "end": 107.59,
+      "words": [
+        {
+          "text": "Example",
+          "start": 97.365,
+          "end": 97.94
+        },
+        {
+          "text": ":",
+          "start": 97.94,
+          "end": 98.015
+        },
+        {
+          "text": "For",
+          "start": 98.015,
+          "end": 98.153
+        },
+        {
+          "text": "an",
+          "start": 98.153,
+          "end": 98.24
+        },
+        {
+          "text": "e-commerce",
+          "start": 98.24,
+          "end": 98.752
+        },
+        {
+          "text": "site",
+          "start": 98.752,
+          "end": 99.19
+        },
+        {
+          "text": ",",
+          "start": 99.19,
+          "end": 99.265
+        },
+        {
+          "text": "component",
+          "start": 99.265,
+          "end": 99.74
+        },
+        {
+          "text": "tests",
+          "start": 99.74,
+          "end": 100.14
+        },
+        {
+          "text": "verify",
+          "start": 100.14,
+          "end": 100.553
+        },
+        {
+          "text": "the",
+          "start": 100.553,
+          "end": 100.64
+        },
+        {
+          "text": "cart",
+          "start": 100.64,
+          "end": 100.965
+        },
+        {
+          "text": "updates",
+          "start": 100.965,
+          "end": 101.427
+        },
+        {
+          "text": "when",
+          "start": 101.427,
+          "end": 101.59
+        },
+        {
+          "text": "items",
+          "start": 101.59,
+          "end": 101.977
+        },
+        {
+          "text": "are",
+          "start": 101.977,
+          "end": 102.065
+        },
+        {
+          "text": "added/removed",
+          "start": 102.065,
+          "end": 103.265
+        },
+        {
+          "text": ",",
+          "start": 103.265,
+          "end": 103.365
+        },
+        {
+          "text": "handles",
+          "start": 103.365,
+          "end": 103.79
+        },
+        {
+          "text": "edge",
+          "start": 103.79,
+          "end": 104.015
+        },
+        {
+          "text": "cases",
+          "start": 104.015,
+          "end": 104.74
+        },
+        {
+          "text": "(",
+          "start": 104.74,
+          "end": 104.815
+        },
+        {
+          "text": "duplicate",
+          "start": 104.815,
+          "end": 105.29
+        },
+        {
+          "text": "items",
+          "start": 105.29,
+          "end": 105.815
+        },
+        {
+          "text": ",",
+          "start": 105.815,
+          "end": 105.865
+        },
+        {
+          "text": "quantity",
+          "start": 105.865,
+          "end": 106.315
+        },
+        {
+          "text": "overflow",
+          "start": 106.315,
+          "end": 107.215
+        },
+        {
+          "text": ")",
+          "start": 107.215,
+          "end": 107.515
+        },
+        {
+          "text": ".",
+          "start": 107.515,
+          "end": 107.59
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Lesson I learned: I once skipped component tests because \"the E2E tests cover it.\" Three weeks later, the API was down for 2 hours, and all E2E tests failed. Meanwhile, the component tests (with mocked API) still passed , proving the UI logic was fine. That's when I got religion about the middle layer.",
+      "start": 107.91,
+      "end": 126.485,
+      "words": [
+        {
+          "text": "Lesson",
+          "start": 108.21,
+          "end": 108.472
+        },
+        {
+          "text": "I",
+          "start": 108.472,
+          "end": 108.585
+        },
+        {
+          "text": "learned",
+          "start": 108.585,
+          "end": 109.26
+        },
+        {
+          "text": ":",
+          "start": 109.26,
+          "end": 109.36
+        },
+        {
+          "text": "I",
+          "start": 109.36,
+          "end": 109.485
+        },
+        {
+          "text": "once",
+          "start": 109.485,
+          "end": 109.685
+        },
+        {
+          "text": "skipped",
+          "start": 109.685,
+          "end": 109.96
+        },
+        {
+          "text": "component",
+          "start": 109.96,
+          "end": 110.435
+        },
+        {
+          "text": "tests",
+          "start": 110.435,
+          "end": 110.835
+        },
+        {
+          "text": "because",
+          "start": 110.835,
+          "end": 111.097
+        },
+        {
+          "text": "\"",
+          "start": 111.097,
+          "end": 111.135
+        },
+        {
+          "text": "the",
+          "start": 111.135,
+          "end": 111.235
+        },
+        {
+          "text": "E",
+          "start": 111.235,
+          "end": 111.385
+        },
+        {
+          "text": "2",
+          "start": 111.385,
+          "end": 111.51
+        },
+        {
+          "text": "E",
+          "start": 111.51,
+          "end": 111.635
+        },
+        {
+          "text": "tests",
+          "start": 111.635,
+          "end": 112.01
+        },
+        {
+          "text": "cover",
+          "start": 112.01,
+          "end": 112.298
+        },
+        {
+          "text": "it",
+          "start": 112.298,
+          "end": 113.035
+        },
+        {
+          "text": ".",
+          "start": 113.035,
+          "end": 113.135
+        },
+        {
+          "text": "\"",
+          "start": 113.135,
+          "end": 113.197
+        },
+        {
+          "text": "Three",
+          "start": 113.197,
+          "end": 113.435
+        },
+        {
+          "text": "weeks",
+          "start": 113.435,
+          "end": 113.685
+        },
+        {
+          "text": "later",
+          "start": 113.685,
+          "end": 114.01
+        },
+        {
+          "text": ",",
+          "start": 114.01,
+          "end": 114.048
+        },
+        {
+          "text": "the",
+          "start": 114.048,
+          "end": 114.16
+        },
+        {
+          "text": "API",
+          "start": 114.16,
+          "end": 114.673
+        },
+        {
+          "text": "was",
+          "start": 114.673,
+          "end": 114.785
+        },
+        {
+          "text": "down",
+          "start": 114.785,
+          "end": 115.035
+        },
+        {
+          "text": "for",
+          "start": 115.035,
+          "end": 115.16
+        },
+        {
+          "text": "2",
+          "start": 115.16,
+          "end": 115.335
+        },
+        {
+          "text": "hours",
+          "start": 115.335,
+          "end": 115.735
+        },
+        {
+          "text": ",",
+          "start": 115.735,
+          "end": 115.81
+        },
+        {
+          "text": "and",
+          "start": 115.81,
+          "end": 115.935
+        },
+        {
+          "text": "all",
+          "start": 115.935,
+          "end": 116.16
+        },
+        {
+          "text": "E",
+          "start": 116.16,
+          "end": 116.31
+        },
+        {
+          "text": "2",
+          "start": 116.31,
+          "end": 116.435
+        },
+        {
+          "text": "E",
+          "start": 116.435,
+          "end": 116.56
+        },
+        {
+          "text": "tests",
+          "start": 116.56,
+          "end": 116.935
+        },
+        {
+          "text": "failed",
+          "start": 116.935,
+          "end": 117.835
+        },
+        {
+          "text": ".",
+          "start": 117.835,
+          "end": 117.973
+        },
+        {
+          "text": "Meanwhile",
+          "start": 117.973,
+          "end": 118.485
+        },
+        {
+          "text": ",",
+          "start": 118.485,
+          "end": 118.522
+        },
+        {
+          "text": "the",
+          "start": 118.522,
+          "end": 118.61
+        },
+        {
+          "text": "component",
+          "start": 118.61,
+          "end": 119.123
+        },
+        {
+          "text": "tests",
+          "start": 119.123,
+          "end": 119.572
+        },
+        {
+          "text": "(",
+          "start": 119.572,
+          "end": 119.61
+        },
+        {
+          "text": "with",
+          "start": 119.61,
+          "end": 119.76
+        },
+        {
+          "text": "mocked",
+          "start": 119.76,
+          "end": 120.06
+        },
+        {
+          "text": "API",
+          "start": 120.06,
+          "end": 120.635
+        },
+        {
+          "text": ")",
+          "start": 120.635,
+          "end": 120.685
+        },
+        {
+          "text": "still",
+          "start": 120.685,
+          "end": 120.96
+        },
+        {
+          "text": "passed",
+          "start": 120.96,
+          "end": 121.447
+        },
+        {
+          "text": ",",
+          "start": 121.447,
+          "end": 121.51
+        },
+        {
+          "text": "proving",
+          "start": 121.51,
+          "end": 121.873
+        },
+        {
+          "text": "the",
+          "start": 121.873,
+          "end": 121.96
+        },
+        {
+          "text": "UI",
+          "start": 121.96,
+          "end": 122.31
+        },
+        {
+          "text": "logic",
+          "start": 122.31,
+          "end": 122.647
+        },
+        {
+          "text": "was",
+          "start": 122.647,
+          "end": 122.81
+        },
+        {
+          "text": "fine",
+          "start": 122.81,
+          "end": 123.585
+        },
+        {
+          "text": ".",
+          "start": 123.585,
+          "end": 123.723
+        },
+        {
+          "text": "That's",
+          "start": 123.723,
+          "end": 124.022
+        },
+        {
+          "text": "when",
+          "start": 124.022,
+          "end": 124.147
+        },
+        {
+          "text": "I",
+          "start": 124.147,
+          "end": 124.26
+        },
+        {
+          "text": "got",
+          "start": 124.26,
+          "end": 124.435
+        },
+        {
+          "text": "religion",
+          "start": 124.435,
+          "end": 124.797
+        },
+        {
+          "text": "about",
+          "start": 124.797,
+          "end": 125.073
+        },
+        {
+          "text": "the",
+          "start": 125.073,
+          "end": 125.16
+        },
+        {
+          "text": "middle",
+          "start": 125.16,
+          "end": 125.435
+        },
+        {
+          "text": "layer",
+          "start": 125.435,
+          "end": 126.285
+        },
+        {
+          "text": ".",
+          "start": 126.285,
+          "end": 126.485
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Integration Tests: Verify components talking to real external systems (databases, APIs).",
+      "start": 126.805,
+      "end": 133.68,
+      "words": [
+        {
+          "text": "Integration",
+          "start": 127.055,
+          "end": 127.655
+        },
+        {
+          "text": "Tests",
+          "start": 127.655,
+          "end": 128.48
+        },
+        {
+          "text": ":",
+          "start": 128.48,
+          "end": 128.592
+        },
+        {
+          "text": "Verify",
+          "start": 128.592,
+          "end": 129.055
+        },
+        {
+          "text": "components",
+          "start": 129.055,
+          "end": 129.605
+        },
+        {
+          "text": "talking",
+          "start": 129.605,
+          "end": 130.005
+        },
+        {
+          "text": "to",
+          "start": 130.005,
+          "end": 130.13
+        },
+        {
+          "text": "real",
+          "start": 130.13,
+          "end": 130.405
+        },
+        {
+          "text": "external",
+          "start": 130.405,
+          "end": 130.905
+        },
+        {
+          "text": "systems",
+          "start": 130.905,
+          "end": 131.405
+        },
+        {
+          "text": "(",
+          "start": 131.405,
+          "end": 131.455
+        },
+        {
+          "text": "databases",
+          "start": 131.455,
+          "end": 132.18
+        },
+        {
+          "text": ",",
+          "start": 132.18,
+          "end": 132.23
+        },
+        {
+          "text": "APIs",
+          "start": 132.23,
+          "end": 133.43
+        },
+        {
+          "text": ")",
+          "start": 133.43,
+          "end": 133.605
+        },
+        {
+          "text": ".",
+          "start": 133.605,
+          "end": 133.68
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "Example: In a social media app, integration tests verify the user profile updates when the API responds, and handles API errors gracefully.",
+      "start": 134.0,
+      "end": 143.925,
+      "words": [
+        {
+          "text": "Example",
+          "start": 134.25,
+          "end": 134.95
+        },
+        {
+          "text": ":",
+          "start": 134.95,
+          "end": 135.025
+        },
+        {
+          "text": "In",
+          "start": 135.025,
+          "end": 135.112
+        },
+        {
+          "text": "a",
+          "start": 135.112,
+          "end": 135.175
+        },
+        {
+          "text": "social",
+          "start": 135.175,
+          "end": 135.55
+        },
+        {
+          "text": "media",
+          "start": 135.55,
+          "end": 135.9
+        },
+        {
+          "text": "app",
+          "start": 135.9,
+          "end": 136.425
+        },
+        {
+          "text": ",",
+          "start": 136.425,
+          "end": 136.525
+        },
+        {
+          "text": "integration",
+          "start": 136.525,
+          "end": 137.2
+        },
+        {
+          "text": "tests",
+          "start": 137.2,
+          "end": 137.575
+        },
+        {
+          "text": "verify",
+          "start": 137.575,
+          "end": 138.05
+        },
+        {
+          "text": "the",
+          "start": 138.05,
+          "end": 138.15
+        },
+        {
+          "text": "user",
+          "start": 138.15,
+          "end": 138.425
+        },
+        {
+          "text": "profile",
+          "start": 138.425,
+          "end": 138.85
+        },
+        {
+          "text": "updates",
+          "start": 138.85,
+          "end": 139.337
+        },
+        {
+          "text": "when",
+          "start": 139.337,
+          "end": 139.462
+        },
+        {
+          "text": "the",
+          "start": 139.462,
+          "end": 139.575
+        },
+        {
+          "text": "API",
+          "start": 139.575,
+          "end": 140.1
+        },
+        {
+          "text": "responds",
+          "start": 140.1,
+          "end": 141.05
+        },
+        {
+          "text": ",",
+          "start": 141.05,
+          "end": 141.15
+        },
+        {
+          "text": "and",
+          "start": 141.15,
+          "end": 141.275
+        },
+        {
+          "text": "handles",
+          "start": 141.275,
+          "end": 141.712
+        },
+        {
+          "text": "API",
+          "start": 141.712,
+          "end": 142.3
+        },
+        {
+          "text": "errors",
+          "start": 142.3,
+          "end": 142.65
+        },
+        {
+          "text": "gracefully",
+          "start": 142.65,
+          "end": 143.75
+        },
+        {
+          "text": ".",
+          "start": 143.75,
+          "end": 143.925
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "Lesson I learned: I once had a feature pass E2E tests but fail in production because the real database was slower than the test database. Integration tests would have caught that timing bug in CI.",
+      "start": 144.245,
+      "end": 156.345,
+      "words": [
+        {
+          "text": "Lesson",
+          "start": 144.545,
+          "end": 144.807
+        },
+        {
+          "text": "I",
+          "start": 144.807,
+          "end": 144.945
+        },
+        {
+          "text": "learned",
+          "start": 144.945,
+          "end": 145.72
+        },
+        {
+          "text": ":",
+          "start": 145.72,
+          "end": 145.82
+        },
+        {
+          "text": "I",
+          "start": 145.82,
+          "end": 145.945
+        },
+        {
+          "text": "once",
+          "start": 145.945,
+          "end": 146.183
+        },
+        {
+          "text": "had",
+          "start": 146.183,
+          "end": 146.332
+        },
+        {
+          "text": "a",
+          "start": 146.332,
+          "end": 146.408
+        },
+        {
+          "text": "feature",
+          "start": 146.408,
+          "end": 146.745
+        },
+        {
+          "text": "pass",
+          "start": 146.745,
+          "end": 147.07
+        },
+        {
+          "text": "E",
+          "start": 147.07,
+          "end": 147.22
+        },
+        {
+          "text": "2",
+          "start": 147.22,
+          "end": 147.345
+        },
+        {
+          "text": "E",
+          "start": 147.345,
+          "end": 147.47
+        },
+        {
+          "text": "tests",
+          "start": 147.47,
+          "end": 148.02
+        },
+        {
+          "text": "but",
+          "start": 148.02,
+          "end": 148.17
+        },
+        {
+          "text": "fail",
+          "start": 148.17,
+          "end": 148.482
+        },
+        {
+          "text": "in",
+          "start": 148.482,
+          "end": 148.57
+        },
+        {
+          "text": "production",
+          "start": 148.57,
+          "end": 149.145
+        },
+        {
+          "text": "because",
+          "start": 149.145,
+          "end": 149.445
+        },
+        {
+          "text": "the",
+          "start": 149.445,
+          "end": 149.545
+        },
+        {
+          "text": "real",
+          "start": 149.545,
+          "end": 149.82
+        },
+        {
+          "text": "database",
+          "start": 149.82,
+          "end": 150.37
+        },
+        {
+          "text": "was",
+          "start": 150.37,
+          "end": 150.508
+        },
+        {
+          "text": "slower",
+          "start": 150.508,
+          "end": 150.895
+        },
+        {
+          "text": "than",
+          "start": 150.895,
+          "end": 151.008
+        },
+        {
+          "text": "the",
+          "start": 151.008,
+          "end": 151.095
+        },
+        {
+          "text": "test",
+          "start": 151.095,
+          "end": 151.37
+        },
+        {
+          "text": "database",
+          "start": 151.37,
+          "end": 152.545
+        },
+        {
+          "text": ".",
+          "start": 152.545,
+          "end": 152.67
+        },
+        {
+          "text": "Integration",
+          "start": 152.67,
+          "end": 153.295
+        },
+        {
+          "text": "tests",
+          "start": 153.295,
+          "end": 153.683
+        },
+        {
+          "text": "would",
+          "start": 153.683,
+          "end": 153.782
+        },
+        {
+          "text": "have",
+          "start": 153.782,
+          "end": 153.895
+        },
+        {
+          "text": "caught",
+          "start": 153.895,
+          "end": 154.17
+        },
+        {
+          "text": "that",
+          "start": 154.17,
+          "end": 154.345
+        },
+        {
+          "text": "timing",
+          "start": 154.345,
+          "end": 154.745
+        },
+        {
+          "text": "bug",
+          "start": 154.745,
+          "end": 155.045
+        },
+        {
+          "text": "in",
+          "start": 155.045,
+          "end": 155.208
+        },
+        {
+          "text": "CI",
+          "start": 155.208,
+          "end": 156.145
+        },
+        {
+          "text": ".",
+          "start": 156.145,
+          "end": 156.345
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "End-to-End Tests: Automate the happy path through the UI. But keep these lean.",
+      "start": 156.665,
+      "end": 161.965,
+      "words": [
+        {
+          "text": "End-to-End",
+          "start": 156.915,
+          "end": 157.452
+        },
+        {
+          "text": "Tests",
+          "start": 157.452,
+          "end": 158.04
+        },
+        {
+          "text": ":",
+          "start": 158.04,
+          "end": 158.14
+        },
+        {
+          "text": "Automate",
+          "start": 158.14,
+          "end": 158.552
+        },
+        {
+          "text": "the",
+          "start": 158.552,
+          "end": 158.64
+        },
+        {
+          "text": "happy",
+          "start": 158.64,
+          "end": 158.94
+        },
+        {
+          "text": "path",
+          "start": 158.94,
+          "end": 159.265
+        },
+        {
+          "text": "through",
+          "start": 159.265,
+          "end": 159.428
+        },
+        {
+          "text": "the",
+          "start": 159.428,
+          "end": 159.515
+        },
+        {
+          "text": "UI",
+          "start": 159.515,
+          "end": 160.19
+        },
+        {
+          "text": ".",
+          "start": 160.19,
+          "end": 160.29
+        },
+        {
+          "text": "But",
+          "start": 160.29,
+          "end": 160.44
+        },
+        {
+          "text": "keep",
+          "start": 160.44,
+          "end": 160.69
+        },
+        {
+          "text": "these",
+          "start": 160.69,
+          "end": 160.94
+        },
+        {
+          "text": "lean",
+          "start": 160.94,
+          "end": 161.79
+        },
+        {
+          "text": ".",
+          "start": 161.79,
+          "end": 161.965
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Example: For a travel booking site, E2E tests simulate: search to select to checkout. But NOT every variant of every search filter (that's what unit/integration tests do).",
+      "start": 162.285,
+      "end": 173.235,
+      "words": [
+        {
+          "text": "Example",
+          "start": 162.535,
+          "end": 163.11
+        },
+        {
+          "text": ":",
+          "start": 163.11,
+          "end": 163.16
+        },
+        {
+          "text": "For",
+          "start": 163.16,
+          "end": 163.297
+        },
+        {
+          "text": "a",
+          "start": 163.297,
+          "end": 163.36
+        },
+        {
+          "text": "travel",
+          "start": 163.36,
+          "end": 163.71
+        },
+        {
+          "text": "booking",
+          "start": 163.71,
+          "end": 164.047
+        },
+        {
+          "text": "site",
+          "start": 164.047,
+          "end": 164.36
+        },
+        {
+          "text": ",",
+          "start": 164.36,
+          "end": 164.41
+        },
+        {
+          "text": "E",
+          "start": 164.41,
+          "end": 164.56
+        },
+        {
+          "text": "2",
+          "start": 164.56,
+          "end": 164.685
+        },
+        {
+          "text": "E",
+          "start": 164.685,
+          "end": 164.785
+        },
+        {
+          "text": "tests",
+          "start": 164.785,
+          "end": 165.135
+        },
+        {
+          "text": "simulate",
+          "start": 165.135,
+          "end": 165.985
+        },
+        {
+          "text": ":",
+          "start": 165.985,
+          "end": 166.097
+        },
+        {
+          "text": "search",
+          "start": 166.097,
+          "end": 166.41
+        },
+        {
+          "text": "to",
+          "start": 166.41,
+          "end": 166.535
+        },
+        {
+          "text": "select",
+          "start": 166.535,
+          "end": 166.91
+        },
+        {
+          "text": "to",
+          "start": 166.91,
+          "end": 167.035
+        },
+        {
+          "text": "checkout",
+          "start": 167.035,
+          "end": 168.06
+        },
+        {
+          "text": ".",
+          "start": 168.06,
+          "end": 168.16
+        },
+        {
+          "text": "But",
+          "start": 168.16,
+          "end": 168.31
+        },
+        {
+          "text": "NOT",
+          "start": 168.31,
+          "end": 168.535
+        },
+        {
+          "text": "every",
+          "start": 168.535,
+          "end": 168.835
+        },
+        {
+          "text": "variant",
+          "start": 168.835,
+          "end": 169.297
+        },
+        {
+          "text": "of",
+          "start": 169.297,
+          "end": 169.385
+        },
+        {
+          "text": "every",
+          "start": 169.385,
+          "end": 169.722
+        },
+        {
+          "text": "search",
+          "start": 169.722,
+          "end": 170.06
+        },
+        {
+          "text": "filter",
+          "start": 170.06,
+          "end": 170.672
+        },
+        {
+          "text": "(",
+          "start": 170.672,
+          "end": 170.76
+        },
+        {
+          "text": "that's",
+          "start": 170.76,
+          "end": 170.997
+        },
+        {
+          "text": "what",
+          "start": 170.997,
+          "end": 171.135
+        },
+        {
+          "text": "unit/integration",
+          "start": 171.135,
+          "end": 171.985
+        },
+        {
+          "text": "tests",
+          "start": 171.985,
+          "end": 172.335
+        },
+        {
+          "text": "do",
+          "start": 172.335,
+          "end": 172.61
+        },
+        {
+          "text": ")",
+          "start": 172.61,
+          "end": 173.085
+        },
+        {
+          "text": ".",
+          "start": 173.085,
+          "end": 173.235
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Lesson I learned: I once had 400 E2E tests. A CSS class name changed on one page, and 380 tests failed. That day I learned: E2E tests are the pyramid's capstone, not the foundation. They're slow, brittle, and expensive. Use them to verify the critical user flows only. Everything else belongs in lower layers.",
+      "start": 173.555,
+      "end": 193.88,
+      "words": [
+        {
+          "text": "Lesson",
+          "start": 173.855,
+          "end": 174.117
+        },
+        {
+          "text": "I",
+          "start": 174.117,
+          "end": 174.255
+        },
+        {
+          "text": "learned",
+          "start": 174.255,
+          "end": 174.63
+        },
+        {
+          "text": ":",
+          "start": 174.63,
+          "end": 174.705
+        },
+        {
+          "text": "I",
+          "start": 174.705,
+          "end": 174.83
+        },
+        {
+          "text": "once",
+          "start": 174.83,
+          "end": 175.042
+        },
+        {
+          "text": "had",
+          "start": 175.042,
+          "end": 175.23
+        },
+        {
+          "text": "400",
+          "start": 175.23,
+          "end": 175.73
+        },
+        {
+          "text": "E",
+          "start": 175.73,
+          "end": 175.88
+        },
+        {
+          "text": "2",
+          "start": 175.88,
+          "end": 176.005
+        },
+        {
+          "text": "E",
+          "start": 176.005,
+          "end": 176.13
+        },
+        {
+          "text": "tests",
+          "start": 176.13,
+          "end": 177.03
+        },
+        {
+          "text": ".",
+          "start": 177.03,
+          "end": 177.143
+        },
+        {
+          "text": "A",
+          "start": 177.143,
+          "end": 177.268
+        },
+        {
+          "text": "CSS",
+          "start": 177.268,
+          "end": 177.805
+        },
+        {
+          "text": "class",
+          "start": 177.805,
+          "end": 178.155
+        },
+        {
+          "text": "name",
+          "start": 178.155,
+          "end": 178.405
+        },
+        {
+          "text": "changed",
+          "start": 178.405,
+          "end": 178.743
+        },
+        {
+          "text": "on",
+          "start": 178.743,
+          "end": 178.855
+        },
+        {
+          "text": "one",
+          "start": 178.855,
+          "end": 179.08
+        },
+        {
+          "text": "page",
+          "start": 179.08,
+          "end": 179.43
+        },
+        {
+          "text": ",",
+          "start": 179.43,
+          "end": 179.467
+        },
+        {
+          "text": "and",
+          "start": 179.467,
+          "end": 179.58
+        },
+        {
+          "text": "380",
+          "start": 179.58,
+          "end": 180.255
+        },
+        {
+          "text": "tests",
+          "start": 180.255,
+          "end": 180.63
+        },
+        {
+          "text": "failed",
+          "start": 180.63,
+          "end": 181.405
+        },
+        {
+          "text": ".",
+          "start": 181.405,
+          "end": 181.518
+        },
+        {
+          "text": "That",
+          "start": 181.518,
+          "end": 181.73
+        },
+        {
+          "text": "day",
+          "start": 181.73,
+          "end": 181.893
+        },
+        {
+          "text": "I",
+          "start": 181.893,
+          "end": 182.03
+        },
+        {
+          "text": "learned",
+          "start": 182.03,
+          "end": 182.53
+        },
+        {
+          "text": ":",
+          "start": 182.53,
+          "end": 182.63
+        },
+        {
+          "text": "E",
+          "start": 182.63,
+          "end": 182.78
+        },
+        {
+          "text": "2",
+          "start": 182.78,
+          "end": 182.88
+        },
+        {
+          "text": "E",
+          "start": 182.88,
+          "end": 182.98
+        },
+        {
+          "text": "tests",
+          "start": 182.98,
+          "end": 183.368
+        },
+        {
+          "text": "are",
+          "start": 183.368,
+          "end": 183.442
+        },
+        {
+          "text": "the",
+          "start": 183.442,
+          "end": 183.53
+        },
+        {
+          "text": "pyramid's",
+          "start": 183.53,
+          "end": 184.005
+        },
+        {
+          "text": "capstone",
+          "start": 184.005,
+          "end": 184.53
+        },
+        {
+          "text": ",",
+          "start": 184.53,
+          "end": 184.567
+        },
+        {
+          "text": "not",
+          "start": 184.567,
+          "end": 184.743
+        },
+        {
+          "text": "the",
+          "start": 184.743,
+          "end": 184.83
+        },
+        {
+          "text": "foundation",
+          "start": 184.83,
+          "end": 185.88
+        },
+        {
+          "text": ".",
+          "start": 185.88,
+          "end": 185.98
+        },
+        {
+          "text": "They're",
+          "start": 185.98,
+          "end": 186.143
+        },
+        {
+          "text": "slow",
+          "start": 186.143,
+          "end": 186.505
+        },
+        {
+          "text": ",",
+          "start": 186.505,
+          "end": 186.555
+        },
+        {
+          "text": "brittle",
+          "start": 186.555,
+          "end": 186.905
+        },
+        {
+          "text": ",",
+          "start": 186.905,
+          "end": 186.942
+        },
+        {
+          "text": "and",
+          "start": 186.942,
+          "end": 187.042
+        },
+        {
+          "text": "expensive",
+          "start": 187.042,
+          "end": 187.98
+        },
+        {
+          "text": ".",
+          "start": 187.98,
+          "end": 188.092
+        },
+        {
+          "text": "Use",
+          "start": 188.092,
+          "end": 188.342
+        },
+        {
+          "text": "them",
+          "start": 188.342,
+          "end": 188.53
+        },
+        {
+          "text": "to",
+          "start": 188.53,
+          "end": 188.63
+        },
+        {
+          "text": "verify",
+          "start": 188.63,
+          "end": 189.105
+        },
+        {
+          "text": "the",
+          "start": 189.105,
+          "end": 189.205
+        },
+        {
+          "text": "critical",
+          "start": 189.205,
+          "end": 189.655
+        },
+        {
+          "text": "user",
+          "start": 189.655,
+          "end": 189.955
+        },
+        {
+          "text": "flows",
+          "start": 189.955,
+          "end": 190.305
+        },
+        {
+          "text": "only",
+          "start": 190.305,
+          "end": 191.055
+        },
+        {
+          "text": ".",
+          "start": 191.055,
+          "end": 191.192
+        },
+        {
+          "text": "Everything",
+          "start": 191.192,
+          "end": 191.655
+        },
+        {
+          "text": "else",
+          "start": 191.655,
+          "end": 191.905
+        },
+        {
+          "text": "belongs",
+          "start": 191.905,
+          "end": 192.38
+        },
+        {
+          "text": "in",
+          "start": 192.38,
+          "end": 192.505
+        },
+        {
+          "text": "lower",
+          "start": 192.505,
+          "end": 192.755
+        },
+        {
+          "text": "layers",
+          "start": 192.755,
+          "end": 193.705
+        },
+        {
+          "text": ".",
+          "start": 193.705,
+          "end": 193.88
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Manual Tests (Peak): Reserve for things machines can't test.",
+      "start": 194.2,
+      "end": 198.6,
+      "words": [
+        {
+          "text": "Manual",
+          "start": 194.475,
+          "end": 194.9
+        },
+        {
+          "text": "Tests",
+          "start": 194.9,
+          "end": 195.313
+        },
+        {
+          "text": "(",
+          "start": 195.313,
+          "end": 195.375
+        },
+        {
+          "text": "Peak",
+          "start": 195.375,
+          "end": 195.925
+        },
+        {
+          "text": ":",
+          "start": 195.925,
+          "end": 196.025
+        },
+        {
+          "text": "Reserve",
+          "start": 196.025,
+          "end": 196.4
+        },
+        {
+          "text": "for",
+          "start": 196.4,
+          "end": 196.525
+        },
+        {
+          "text": "things",
+          "start": 196.525,
+          "end": 196.787
+        },
+        {
+          "text": "machines",
+          "start": 196.787,
+          "end": 197.225
+        },
+        {
+          "text": "can't",
+          "start": 197.225,
+          "end": 197.5
+        },
+        {
+          "text": "test",
+          "start": 197.5,
+          "end": 198.375
+        },
+        {
+          "text": ".",
+          "start": 198.375,
+          "end": 198.6
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "Example: In a healthcare app, manual testing catches UX nuances (is the font readable?), regulatory edge cases, and \"does this feel right?\" questions.",
+      "start": 198.92,
+      "end": 208.345,
+      "words": [
+        {
+          "text": "Example",
+          "start": 199.17,
+          "end": 199.745
+        },
+        {
+          "text": ":",
+          "start": 199.745,
+          "end": 199.82
+        },
+        {
+          "text": "In",
+          "start": 199.82,
+          "end": 199.907
+        },
+        {
+          "text": "a",
+          "start": 199.907,
+          "end": 199.97
+        },
+        {
+          "text": "healthcare",
+          "start": 199.97,
+          "end": 200.47
+        },
+        {
+          "text": "app",
+          "start": 200.47,
+          "end": 200.695
+        },
+        {
+          "text": ",",
+          "start": 200.695,
+          "end": 200.745
+        },
+        {
+          "text": "manual",
+          "start": 200.745,
+          "end": 201.095
+        },
+        {
+          "text": "testing",
+          "start": 201.095,
+          "end": 201.545
+        },
+        {
+          "text": "catches",
+          "start": 201.545,
+          "end": 201.895
+        },
+        {
+          "text": "UX",
+          "start": 201.895,
+          "end": 202.27
+        },
+        {
+          "text": "nuances",
+          "start": 202.27,
+          "end": 202.895
+        },
+        {
+          "text": "(",
+          "start": 202.895,
+          "end": 202.97
+        },
+        {
+          "text": "is",
+          "start": 202.97,
+          "end": 203.083
+        },
+        {
+          "text": "the",
+          "start": 203.083,
+          "end": 203.182
+        },
+        {
+          "text": "font",
+          "start": 203.182,
+          "end": 203.47
+        },
+        {
+          "text": "readable",
+          "start": 203.47,
+          "end": 204.27
+        },
+        {
+          "text": "?",
+          "start": 204.27,
+          "end": 204.37
+        },
+        {
+          "text": ")",
+          "start": 204.37,
+          "end": 204.395
+        },
+        {
+          "text": ",",
+          "start": 204.395,
+          "end": 204.445
+        },
+        {
+          "text": "regulatory",
+          "start": 204.445,
+          "end": 205.02
+        },
+        {
+          "text": "edge",
+          "start": 205.02,
+          "end": 205.22
+        },
+        {
+          "text": "cases",
+          "start": 205.22,
+          "end": 205.695
+        },
+        {
+          "text": ",",
+          "start": 205.695,
+          "end": 205.732
+        },
+        {
+          "text": "and",
+          "start": 205.732,
+          "end": 205.833
+        },
+        {
+          "text": "\"",
+          "start": 205.833,
+          "end": 205.87
+        },
+        {
+          "text": "does",
+          "start": 205.87,
+          "end": 206.008
+        },
+        {
+          "text": "this",
+          "start": 206.008,
+          "end": 206.17
+        },
+        {
+          "text": "feel",
+          "start": 206.17,
+          "end": 206.395
+        },
+        {
+          "text": "right",
+          "start": 206.395,
+          "end": 206.92
+        },
+        {
+          "text": "?",
+          "start": 206.92,
+          "end": 206.995
+        },
+        {
+          "text": "\"",
+          "start": 206.995,
+          "end": 207.045
+        },
+        {
+          "text": "questions",
+          "start": 207.045,
+          "end": 208.145
+        },
+        {
+          "text": ".",
+          "start": 208.145,
+          "end": 208.345
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Lesson I learned: Exploratory testing caught more bugs than my first 6 months of automated E2E tests. A QA engineer who knows the domain is invaluable. Let machines verify correctness; let humans verify usability.",
+      "start": 208.665,
+      "end": 223.59,
+      "words": [
+        {
+          "text": "Lesson",
+          "start": 208.965,
+          "end": 209.265
+        },
+        {
+          "text": "I",
+          "start": 209.265,
+          "end": 209.415
+        },
+        {
+          "text": "learned",
+          "start": 209.415,
+          "end": 210.065
+        },
+        {
+          "text": ":",
+          "start": 210.065,
+          "end": 210.178
+        },
+        {
+          "text": "Exploratory",
+          "start": 210.178,
+          "end": 210.865
+        },
+        {
+          "text": "testing",
+          "start": 210.865,
+          "end": 211.315
+        },
+        {
+          "text": "caught",
+          "start": 211.315,
+          "end": 211.565
+        },
+        {
+          "text": "more",
+          "start": 211.565,
+          "end": 211.79
+        },
+        {
+          "text": "bugs",
+          "start": 211.79,
+          "end": 212.178
+        },
+        {
+          "text": "than",
+          "start": 212.178,
+          "end": 212.278
+        },
+        {
+          "text": "my",
+          "start": 212.278,
+          "end": 212.453
+        },
+        {
+          "text": "first",
+          "start": 212.453,
+          "end": 212.74
+        },
+        {
+          "text": "6",
+          "start": 212.74,
+          "end": 213.015
+        },
+        {
+          "text": "months",
+          "start": 213.015,
+          "end": 213.303
+        },
+        {
+          "text": "of",
+          "start": 213.303,
+          "end": 213.39
+        },
+        {
+          "text": "automated",
+          "start": 213.39,
+          "end": 213.965
+        },
+        {
+          "text": "E",
+          "start": 213.965,
+          "end": 214.115
+        },
+        {
+          "text": "2",
+          "start": 214.115,
+          "end": 214.24
+        },
+        {
+          "text": "E",
+          "start": 214.24,
+          "end": 214.365
+        },
+        {
+          "text": "tests",
+          "start": 214.365,
+          "end": 215.315
+        },
+        {
+          "text": ".",
+          "start": 215.315,
+          "end": 215.453
+        },
+        {
+          "text": "A",
+          "start": 215.453,
+          "end": 215.565
+        },
+        {
+          "text": "QA",
+          "start": 215.565,
+          "end": 215.965
+        },
+        {
+          "text": "engineer",
+          "start": 215.965,
+          "end": 216.49
+        },
+        {
+          "text": "who",
+          "start": 216.49,
+          "end": 216.64
+        },
+        {
+          "text": "knows",
+          "start": 216.64,
+          "end": 216.953
+        },
+        {
+          "text": "the",
+          "start": 216.953,
+          "end": 217.04
+        },
+        {
+          "text": "domain",
+          "start": 217.04,
+          "end": 217.54
+        },
+        {
+          "text": "is",
+          "start": 217.54,
+          "end": 217.69
+        },
+        {
+          "text": "invaluable",
+          "start": 217.69,
+          "end": 218.74
+        },
+        {
+          "text": ".",
+          "start": 218.74,
+          "end": 218.853
+        },
+        {
+          "text": "Let",
+          "start": 218.853,
+          "end": 219.052
+        },
+        {
+          "text": "machines",
+          "start": 219.052,
+          "end": 219.565
+        },
+        {
+          "text": "verify",
+          "start": 219.565,
+          "end": 220.04
+        },
+        {
+          "text": "correctness",
+          "start": 220.04,
+          "end": 220.965
+        },
+        {
+          "text": ";",
+          "start": 220.965,
+          "end": 221.065
+        },
+        {
+          "text": "let",
+          "start": 221.065,
+          "end": 221.265
+        },
+        {
+          "text": "humans",
+          "start": 221.265,
+          "end": 221.69
+        },
+        {
+          "text": "verify",
+          "start": 221.69,
+          "end": 222.19
+        },
+        {
+          "text": "usability",
+          "start": 222.19,
+          "end": 223.39
+        },
+        {
+          "text": ".",
+          "start": 223.39,
+          "end": 223.59
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h2",
+      "text": "By implementing this pyramid approach, I've seen:",
+      "start": 223.91,
+      "end": 227.16,
+      "words": [
+        {
+          "text": "By",
+          "start": 224.135,
+          "end": 224.335
+        },
+        {
+          "text": "implementing",
+          "start": 224.335,
+          "end": 224.948
+        },
+        {
+          "text": "this",
+          "start": 224.948,
+          "end": 225.11
+        },
+        {
+          "text": "pyramid",
+          "start": 225.11,
+          "end": 225.523
+        },
+        {
+          "text": "approach",
+          "start": 225.523,
+          "end": 225.91
+        },
+        {
+          "text": ",",
+          "start": 225.91,
+          "end": 225.948
+        },
+        {
+          "text": "I've",
+          "start": 225.948,
+          "end": 226.148
+        },
+        {
+          "text": "seen",
+          "start": 226.148,
+          "end": 226.985
+        },
+        {
+          "text": ":",
+          "start": 226.985,
+          "end": 227.16
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "50 percent reduction in production bugs",
+      "start": 227.48,
+      "end": 230.53,
+      "words": [
+        {
+          "text": "50",
+          "start": 227.73,
+          "end": 228.055
+        },
+        {
+          "text": "percent",
+          "start": 228.055,
+          "end": 228.455
+        },
+        {
+          "text": "reduction",
+          "start": 228.455,
+          "end": 229.005
+        },
+        {
+          "text": "in",
+          "start": 229.005,
+          "end": 229.13
+        },
+        {
+          "text": "production",
+          "start": 229.13,
+          "end": 229.655
+        },
+        {
+          "text": "bugs",
+          "start": 229.655,
+          "end": 230.53
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "30 percent faster release cycles ⏩",
+      "start": 231.025,
+      "end": 234.95,
+      "words": [
+        {
+          "text": "30",
+          "start": 231.275,
+          "end": 231.625
+        },
+        {
+          "text": "percent",
+          "start": 231.625,
+          "end": 232.038
+        },
+        {
+          "text": "faster",
+          "start": 232.038,
+          "end": 232.45
+        },
+        {
+          "text": "release",
+          "start": 232.45,
+          "end": 232.775
+        },
+        {
+          "text": "cycles",
+          "start": 232.775,
+          "end": 233.313
+        },
+        {
+          "text": "⏩",
+          "start": 233.313,
+          "end": 234.95
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Improved developer confidence and productivity",
+      "start": 235.42,
+      "end": 238.82,
+      "words": [
+        {
+          "text": "Improved",
+          "start": 235.67,
+          "end": 236.145
+        },
+        {
+          "text": "developer",
+          "start": 236.145,
+          "end": 236.645
+        },
+        {
+          "text": "confidence",
+          "start": 236.645,
+          "end": 237.345
+        },
+        {
+          "text": "and",
+          "start": 237.345,
+          "end": 237.47
+        },
+        {
+          "text": "productivity",
+          "start": 237.47,
+          "end": 238.82
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "This framework isn't just for web apps , it's applicable across various software domains, from mobile apps to embedded systems.",
+      "start": 239.24,
+      "end": 247.215,
+      "words": [
+        {
+          "text": "This",
+          "start": 239.49,
+          "end": 239.665
+        },
+        {
+          "text": "framework",
+          "start": 239.665,
+          "end": 240.14
+        },
+        {
+          "text": "isn't",
+          "start": 240.14,
+          "end": 240.415
+        },
+        {
+          "text": "just",
+          "start": 240.415,
+          "end": 240.665
+        },
+        {
+          "text": "for",
+          "start": 240.665,
+          "end": 240.79
+        },
+        {
+          "text": "web",
+          "start": 240.79,
+          "end": 241.015
+        },
+        {
+          "text": "apps",
+          "start": 241.015,
+          "end": 241.59
+        },
+        {
+          "text": ",",
+          "start": 241.59,
+          "end": 241.665
+        },
+        {
+          "text": "it's",
+          "start": 241.665,
+          "end": 241.84
+        },
+        {
+          "text": "applicable",
+          "start": 241.84,
+          "end": 242.34
+        },
+        {
+          "text": "across",
+          "start": 242.34,
+          "end": 242.678
+        },
+        {
+          "text": "various",
+          "start": 242.678,
+          "end": 243.115
+        },
+        {
+          "text": "software",
+          "start": 243.115,
+          "end": 243.54
+        },
+        {
+          "text": "domains",
+          "start": 243.54,
+          "end": 244.39
+        },
+        {
+          "text": ",",
+          "start": 244.39,
+          "end": 244.49
+        },
+        {
+          "text": "from",
+          "start": 244.49,
+          "end": 244.69
+        },
+        {
+          "text": "mobile",
+          "start": 244.69,
+          "end": 245.04
+        },
+        {
+          "text": "apps",
+          "start": 245.04,
+          "end": 245.365
+        },
+        {
+          "text": "to",
+          "start": 245.365,
+          "end": 245.515
+        },
+        {
+          "text": "embedded",
+          "start": 245.515,
+          "end": 245.965
+        },
+        {
+          "text": "systems",
+          "start": 245.965,
+          "end": 247.015
+        },
+        {
+          "text": ".",
+          "start": 247.015,
+          "end": 247.215
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "The Testing Pyramid reminds us that creative problem-solving is crucial in our ever-evolving field. By rethinking our testing strategy, we can deliver higher quality software more efficiently.",
+      "start": 247.535,
+      "end": 258.96,
+      "words": [
+        {
+          "text": "The",
+          "start": 247.785,
+          "end": 247.86
+        },
+        {
+          "text": "Testing",
+          "start": 247.86,
+          "end": 248.235
+        },
+        {
+          "text": "Pyramid",
+          "start": 248.235,
+          "end": 248.685
+        },
+        {
+          "text": "reminds",
+          "start": 248.685,
+          "end": 249.073
+        },
+        {
+          "text": "us",
+          "start": 249.073,
+          "end": 249.285
+        },
+        {
+          "text": "that",
+          "start": 249.285,
+          "end": 249.435
+        },
+        {
+          "text": "creative",
+          "start": 249.435,
+          "end": 249.935
+        },
+        {
+          "text": "problem-solving",
+          "start": 249.935,
+          "end": 250.76
+        },
+        {
+          "text": "is",
+          "start": 250.76,
+          "end": 250.923
+        },
+        {
+          "text": "crucial",
+          "start": 250.923,
+          "end": 251.41
+        },
+        {
+          "text": "in",
+          "start": 251.41,
+          "end": 251.497
+        },
+        {
+          "text": "our",
+          "start": 251.497,
+          "end": 251.635
+        },
+        {
+          "text": "ever-evolving",
+          "start": 251.635,
+          "end": 252.322
+        },
+        {
+          "text": "field",
+          "start": 252.322,
+          "end": 253.285
+        },
+        {
+          "text": ".",
+          "start": 253.285,
+          "end": 253.423
+        },
+        {
+          "text": "By",
+          "start": 253.423,
+          "end": 253.635
+        },
+        {
+          "text": "rethinking",
+          "start": 253.635,
+          "end": 254.173
+        },
+        {
+          "text": "our",
+          "start": 254.173,
+          "end": 254.31
+        },
+        {
+          "text": "testing",
+          "start": 254.31,
+          "end": 254.71
+        },
+        {
+          "text": "strategy",
+          "start": 254.71,
+          "end": 255.56
+        },
+        {
+          "text": ",",
+          "start": 255.56,
+          "end": 255.66
+        },
+        {
+          "text": "we",
+          "start": 255.66,
+          "end": 255.785
+        },
+        {
+          "text": "can",
+          "start": 255.785,
+          "end": 255.935
+        },
+        {
+          "text": "deliver",
+          "start": 255.935,
+          "end": 256.26
+        },
+        {
+          "text": "higher",
+          "start": 256.26,
+          "end": 256.56
+        },
+        {
+          "text": "quality",
+          "start": 256.56,
+          "end": 257.01
+        },
+        {
+          "text": "software",
+          "start": 257.01,
+          "end": 257.51
+        },
+        {
+          "text": "more",
+          "start": 257.51,
+          "end": 257.672
+        },
+        {
+          "text": "efficiently",
+          "start": 257.672,
+          "end": 258.76
+        },
+        {
+          "text": ".",
+          "start": 258.76,
+          "end": 258.96
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "What unconventional testing approaches have you found effective in your projects? Share your experiences below , let's learn from each other!",
+      "start": 259.28,
+      "end": 267.255,
+      "words": [
+        {
+          "text": "What",
+          "start": 259.53,
+          "end": 259.73
+        },
+        {
+          "text": "unconventional",
+          "start": 259.73,
+          "end": 260.555
+        },
+        {
+          "text": "testing",
+          "start": 260.555,
+          "end": 260.918
+        },
+        {
+          "text": "approaches",
+          "start": 260.918,
+          "end": 261.455
+        },
+        {
+          "text": "have",
+          "start": 261.455,
+          "end": 261.568
+        },
+        {
+          "text": "you",
+          "start": 261.568,
+          "end": 261.68
+        },
+        {
+          "text": "found",
+          "start": 261.68,
+          "end": 261.943
+        },
+        {
+          "text": "effective",
+          "start": 261.943,
+          "end": 262.368
+        },
+        {
+          "text": "in",
+          "start": 262.368,
+          "end": 262.443
+        },
+        {
+          "text": "your",
+          "start": 262.443,
+          "end": 262.555
+        },
+        {
+          "text": "projects",
+          "start": 262.555,
+          "end": 263.605
+        },
+        {
+          "text": "?",
+          "start": 263.605,
+          "end": 263.755
+        },
+        {
+          "text": "Share",
+          "start": 263.755,
+          "end": 263.98
+        },
+        {
+          "text": "your",
+          "start": 263.98,
+          "end": 264.13
+        },
+        {
+          "text": "experiences",
+          "start": 264.13,
+          "end": 264.88
+        },
+        {
+          "text": "below",
+          "start": 264.88,
+          "end": 265.405
+        },
+        {
+          "text": ",",
+          "start": 265.405,
+          "end": 265.48
+        },
+        {
+          "text": "let's",
+          "start": 265.48,
+          "end": 265.755
+        },
+        {
+          "text": "learn",
+          "start": 265.755,
+          "end": 266.03
+        },
+        {
+          "text": "from",
+          "start": 266.03,
+          "end": 266.168
+        },
+        {
+          "text": "each",
+          "start": 266.168,
+          "end": 266.343
+        },
+        {
+          "text": "other",
+          "start": 266.343,
+          "end": 267.055
+        },
+        {
+          "text": "!",
+          "start": 267.055,
+          "end": 267.255
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 267.575,
+      "end": 269.775,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 267.85,
+          "end": 268.4
+        },
+        {
+          "text": "and",
+          "start": 268.4,
+          "end": 268.537
+        },
+        {
+          "text": "Further",
+          "start": 268.537,
+          "end": 268.9
+        },
+        {
+          "text": "Reading",
+          "start": 268.9,
+          "end": 269.775
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "The Practical Test Pyramid , Ham Vocke",
+      "start": 270.22,
+      "end": 272.795,
+      "words": [
+        {
+          "text": "The",
+          "start": 270.445,
+          "end": 270.52
+        },
+        {
+          "text": "Practical",
+          "start": 270.52,
+          "end": 271.045
+        },
+        {
+          "text": "Test",
+          "start": 271.045,
+          "end": 271.37
+        },
+        {
+          "text": "Pyramid",
+          "start": 271.37,
+          "end": 271.832
+        },
+        {
+          "text": ",",
+          "start": 271.832,
+          "end": 271.895
+        },
+        {
+          "text": "Ham",
+          "start": 271.895,
+          "end": 272.12
+        },
+        {
+          "text": "Vocke",
+          "start": 272.12,
+          "end": 272.795
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "li",
+      "text": "Google Testing Blog , Just Say No to More End-to-End Tests",
+      "start": 273.365,
+      "end": 277.215,
+      "words": [
+        {
+          "text": "Google",
+          "start": 273.615,
+          "end": 273.965
+        },
+        {
+          "text": "Testing",
+          "start": 273.965,
+          "end": 274.34
+        },
+        {
+          "text": "Blog",
+          "start": 274.34,
+          "end": 274.74
+        },
+        {
+          "text": ",",
+          "start": 274.74,
+          "end": 274.815
+        },
+        {
+          "text": "Just",
+          "start": 274.815,
+          "end": 274.99
+        },
+        {
+          "text": "Say",
+          "start": 274.99,
+          "end": 275.19
+        },
+        {
+          "text": "No",
+          "start": 275.19,
+          "end": 275.39
+        },
+        {
+          "text": "to",
+          "start": 275.39,
+          "end": 275.477
+        },
+        {
+          "text": "More",
+          "start": 275.477,
+          "end": 275.665
+        },
+        {
+          "text": "End-to-End",
+          "start": 275.665,
+          "end": 276.215
+        },
+        {
+          "text": "Tests",
+          "start": 276.215,
+          "end": 277.215
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "li",
+      "text": "Test Pyramid , Microsoft testing guidance",
+      "start": 277.66,
+      "end": 280.66,
+      "words": [
+        {
+          "text": "Test",
+          "start": 277.91,
+          "end": 278.185
+        },
+        {
+          "text": "Pyramid",
+          "start": 278.185,
+          "end": 278.673
+        },
+        {
+          "text": ",",
+          "start": 278.673,
+          "end": 278.735
+        },
+        {
+          "text": "Microsoft",
+          "start": 278.735,
+          "end": 279.26
+        },
+        {
+          "text": "testing",
+          "start": 279.26,
+          "end": 279.66
+        },
+        {
+          "text": "guidance",
+          "start": 279.66,
+          "end": 280.66
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "Playwright , testing best practices",
+      "start": 281.155,
+      "end": 283.78,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 281.38,
+          "end": 281.818
+        },
+        {
+          "text": ",",
+          "start": 281.818,
+          "end": 281.88
+        },
+        {
+          "text": "testing",
+          "start": 281.88,
+          "end": 282.33
+        },
+        {
+          "text": "best",
+          "start": 282.33,
+          "end": 282.605
+        },
+        {
+          "text": "practices",
+          "start": 282.605,
+          "end": 283.78
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "See also: Comparing BDD, ATDD, and TDD (Sep 2024) · CI/CD Pipelines for Test Automation (Jun 2026) , fast feedback at the base of the pyramid, slow E2E at the top.",
+      "start": 284.25,
+      "end": 298.3,
+      "words": [
+        {
+          "text": "See",
+          "start": 284.525,
+          "end": 284.675
+        },
+        {
+          "text": "also",
+          "start": 284.675,
+          "end": 285.25
+        },
+        {
+          "text": ":",
+          "start": 285.25,
+          "end": 285.325
+        },
+        {
+          "text": "Comparing",
+          "start": 285.325,
+          "end": 285.8
+        },
+        {
+          "text": "BDD",
+          "start": 285.8,
+          "end": 286.425
+        },
+        {
+          "text": ",",
+          "start": 286.425,
+          "end": 286.5
+        },
+        {
+          "text": "ATDD",
+          "start": 286.5,
+          "end": 287.225
+        },
+        {
+          "text": ",",
+          "start": 287.225,
+          "end": 287.263
+        },
+        {
+          "text": "and",
+          "start": 287.263,
+          "end": 287.375
+        },
+        {
+          "text": "TDD",
+          "start": 287.375,
+          "end": 288.187
+        },
+        {
+          "text": "(",
+          "start": 288.187,
+          "end": 288.275
+        },
+        {
+          "text": "Sep",
+          "start": 288.275,
+          "end": 288.525
+        },
+        {
+          "text": "2024",
+          "start": 288.525,
+          "end": 289.8
+        },
+        {
+          "text": ")",
+          "start": 289.8,
+          "end": 290.0
+        },
+        {
+          "text": "CI/CD",
+          "start": 290.05,
+          "end": 290.825
+        },
+        {
+          "text": "Pipelines",
+          "start": 290.825,
+          "end": 291.338
+        },
+        {
+          "text": "for",
+          "start": 291.338,
+          "end": 291.475
+        },
+        {
+          "text": "Test",
+          "start": 291.475,
+          "end": 291.713
+        },
+        {
+          "text": "Automation",
+          "start": 291.713,
+          "end": 292.675
+        },
+        {
+          "text": "(",
+          "start": 292.675,
+          "end": 292.75
+        },
+        {
+          "text": "Jun",
+          "start": 292.75,
+          "end": 292.975
+        },
+        {
+          "text": "2026",
+          "start": 292.975,
+          "end": 294.35
+        },
+        {
+          "text": ")",
+          "start": 294.35,
+          "end": 294.412
+        },
+        {
+          "text": ",",
+          "start": 294.412,
+          "end": 294.488
+        },
+        {
+          "text": "fast",
+          "start": 294.488,
+          "end": 294.812
+        },
+        {
+          "text": "feedback",
+          "start": 294.812,
+          "end": 295.287
+        },
+        {
+          "text": "at",
+          "start": 295.287,
+          "end": 295.363
+        },
+        {
+          "text": "the",
+          "start": 295.363,
+          "end": 295.475
+        },
+        {
+          "text": "base",
+          "start": 295.475,
+          "end": 295.738
+        },
+        {
+          "text": "of",
+          "start": 295.738,
+          "end": 295.812
+        },
+        {
+          "text": "the",
+          "start": 295.812,
+          "end": 295.925
+        },
+        {
+          "text": "pyramid",
+          "start": 295.925,
+          "end": 296.375
+        },
+        {
+          "text": ",",
+          "start": 296.375,
+          "end": 296.488
+        },
+        {
+          "text": "slow",
+          "start": 296.488,
+          "end": 296.8
+        },
+        {
+          "text": "E",
+          "start": 296.8,
+          "end": 296.975
+        },
+        {
+          "text": "2",
+          "start": 296.975,
+          "end": 297.075
+        },
+        {
+          "text": "E",
+          "start": 297.075,
+          "end": 297.162
+        },
+        {
+          "text": "at",
+          "start": 297.162,
+          "end": 297.238
+        },
+        {
+          "text": "the",
+          "start": 297.238,
+          "end": 297.35
+        },
+        {
+          "text": "top",
+          "start": 297.35,
+          "end": 298.3
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "#SoftwareTesting #DeveloperProductivity #QualityAssurance #teststrategy",
+      "start": 298.695,
+      "end": 303.37,
+      "words": [
+        {
+          "text": "SoftwareTesting",
+          "start": 298.97,
+          "end": 299.745
+        },
+        {
+          "text": "DeveloperProductivity",
+          "start": 299.745,
+          "end": 300.92
+        },
+        {
+          "text": "QualityAssurance",
+          "start": 300.92,
+          "end": 301.983
+        },
+        {
+          "text": "#",
+          "start": 301.983,
+          "end": 302.07
+        },
+        {
+          "text": "teststrategy",
+          "start": 302.07,
+          "end": 303.37
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
