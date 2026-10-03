@@ -1,0 +1,5743 @@
+{
+  "slug": "playwright-ai-codegen-deep-dive",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 433.06,
+  "contentHash": "f908c21609a7a35632e6e38a24e164e843876680a9cda0b7ab6f1856353c2a54",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Playwright AI Codegen in 2026: Generating Test Suites from Natural Language",
+      "start": 0.0,
+      "end": 5.9,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 0.25,
+          "end": 0.688
+        },
+        {
+          "text": "AI",
+          "start": 0.688,
+          "end": 1.113
+        },
+        {
+          "text": "Codegen",
+          "start": 1.113,
+          "end": 1.625
+        },
+        {
+          "text": "in",
+          "start": 1.625,
+          "end": 1.75
+        },
+        {
+          "text": "2026",
+          "start": 1.75,
+          "end": 3.025
+        },
+        {
+          "text": ":",
+          "start": 3.025,
+          "end": 3.163
+        },
+        {
+          "text": "Generating",
+          "start": 3.163,
+          "end": 3.763
+        },
+        {
+          "text": "Test",
+          "start": 3.763,
+          "end": 4.112
+        },
+        {
+          "text": "Suites",
+          "start": 4.112,
+          "end": 4.5
+        },
+        {
+          "text": "from",
+          "start": 4.5,
+          "end": 4.7
+        },
+        {
+          "text": "Natural",
+          "start": 4.7,
+          "end": 5.15
+        },
+        {
+          "text": "Language",
+          "start": 5.15,
+          "end": 5.9
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "In the Playwright MCP guide, you learned how to let an AI agent drive your browser through natural language. Now we go one step deeper: AI codegen , where Playwright writes the test script for you, not just executes your commands. You describe what you want in plain English, and Playwright generates idiomatic, maintainable code in your language of choice (C#, Python, TypeScript, or Java).",
+      "start": 6.37,
+      "end": 30.32,
+      "words": [
+        {
+          "text": "In",
+          "start": 6.67,
+          "end": 6.758
+        },
+        {
+          "text": "the",
+          "start": 6.758,
+          "end": 6.845
+        },
+        {
+          "text": "Playwright",
+          "start": 6.845,
+          "end": 7.282
+        },
+        {
+          "text": "MCP",
+          "start": 7.282,
+          "end": 7.87
+        },
+        {
+          "text": "guide",
+          "start": 7.87,
+          "end": 8.37
+        },
+        {
+          "text": ",",
+          "start": 8.37,
+          "end": 8.47
+        },
+        {
+          "text": "you",
+          "start": 8.47,
+          "end": 8.595
+        },
+        {
+          "text": "learned",
+          "start": 8.595,
+          "end": 8.87
+        },
+        {
+          "text": "how",
+          "start": 8.87,
+          "end": 9.008
+        },
+        {
+          "text": "to",
+          "start": 9.008,
+          "end": 9.095
+        },
+        {
+          "text": "let",
+          "start": 9.095,
+          "end": 9.232
+        },
+        {
+          "text": "an",
+          "start": 9.232,
+          "end": 9.357
+        },
+        {
+          "text": "AI",
+          "start": 9.357,
+          "end": 9.832
+        },
+        {
+          "text": "agent",
+          "start": 9.832,
+          "end": 10.17
+        },
+        {
+          "text": "drive",
+          "start": 10.17,
+          "end": 10.457
+        },
+        {
+          "text": "your",
+          "start": 10.457,
+          "end": 10.57
+        },
+        {
+          "text": "browser",
+          "start": 10.57,
+          "end": 10.995
+        },
+        {
+          "text": "through",
+          "start": 10.995,
+          "end": 11.195
+        },
+        {
+          "text": "natural",
+          "start": 11.195,
+          "end": 11.595
+        },
+        {
+          "text": "language",
+          "start": 11.595,
+          "end": 12.52
+        },
+        {
+          "text": ".",
+          "start": 12.52,
+          "end": 12.695
+        },
+        {
+          "text": "Now",
+          "start": 12.695,
+          "end": 12.945
+        },
+        {
+          "text": "we",
+          "start": 12.945,
+          "end": 13.045
+        },
+        {
+          "text": "go",
+          "start": 13.045,
+          "end": 13.22
+        },
+        {
+          "text": "one",
+          "start": 13.22,
+          "end": 13.445
+        },
+        {
+          "text": "step",
+          "start": 13.445,
+          "end": 13.72
+        },
+        {
+          "text": "deeper",
+          "start": 13.72,
+          "end": 14.37
+        },
+        {
+          "text": ":",
+          "start": 14.37,
+          "end": 14.532
+        },
+        {
+          "text": "AI",
+          "start": 14.532,
+          "end": 14.933
+        },
+        {
+          "text": "codegen",
+          "start": 14.933,
+          "end": 15.483
+        },
+        {
+          "text": ",",
+          "start": 15.483,
+          "end": 15.532
+        },
+        {
+          "text": "where",
+          "start": 15.532,
+          "end": 15.67
+        },
+        {
+          "text": "Playwright",
+          "start": 15.67,
+          "end": 16.07
+        },
+        {
+          "text": "writes",
+          "start": 16.07,
+          "end": 16.332
+        },
+        {
+          "text": "the",
+          "start": 16.332,
+          "end": 16.42
+        },
+        {
+          "text": "test",
+          "start": 16.42,
+          "end": 16.758
+        },
+        {
+          "text": "script",
+          "start": 16.758,
+          "end": 17.095
+        },
+        {
+          "text": "for",
+          "start": 17.095,
+          "end": 17.22
+        },
+        {
+          "text": "you",
+          "start": 17.22,
+          "end": 17.62
+        },
+        {
+          "text": ",",
+          "start": 17.62,
+          "end": 17.745
+        },
+        {
+          "text": "not",
+          "start": 17.745,
+          "end": 17.97
+        },
+        {
+          "text": "just",
+          "start": 17.97,
+          "end": 18.195
+        },
+        {
+          "text": "executes",
+          "start": 18.195,
+          "end": 18.683
+        },
+        {
+          "text": "your",
+          "start": 18.683,
+          "end": 18.795
+        },
+        {
+          "text": "commands",
+          "start": 18.795,
+          "end": 19.795
+        },
+        {
+          "text": ".",
+          "start": 19.795,
+          "end": 19.957
+        },
+        {
+          "text": "You",
+          "start": 19.957,
+          "end": 20.095
+        },
+        {
+          "text": "describe",
+          "start": 20.095,
+          "end": 20.582
+        },
+        {
+          "text": "what",
+          "start": 20.582,
+          "end": 20.72
+        },
+        {
+          "text": "you",
+          "start": 20.72,
+          "end": 20.858
+        },
+        {
+          "text": "want",
+          "start": 20.858,
+          "end": 21.195
+        },
+        {
+          "text": "in",
+          "start": 21.195,
+          "end": 21.345
+        },
+        {
+          "text": "plain",
+          "start": 21.345,
+          "end": 21.67
+        },
+        {
+          "text": "English",
+          "start": 21.67,
+          "end": 22.345
+        },
+        {
+          "text": ",",
+          "start": 22.345,
+          "end": 22.445
+        },
+        {
+          "text": "and",
+          "start": 22.445,
+          "end": 22.57
+        },
+        {
+          "text": "Playwright",
+          "start": 22.57,
+          "end": 23.008
+        },
+        {
+          "text": "generates",
+          "start": 23.008,
+          "end": 23.558
+        },
+        {
+          "text": "idiomatic",
+          "start": 23.558,
+          "end": 24.22
+        },
+        {
+          "text": ",",
+          "start": 24.22,
+          "end": 24.27
+        },
+        {
+          "text": "maintainable",
+          "start": 24.27,
+          "end": 24.983
+        },
+        {
+          "text": "code",
+          "start": 24.983,
+          "end": 25.332
+        },
+        {
+          "text": "in",
+          "start": 25.332,
+          "end": 25.408
+        },
+        {
+          "text": "your",
+          "start": 25.408,
+          "end": 25.52
+        },
+        {
+          "text": "language",
+          "start": 25.52,
+          "end": 25.97
+        },
+        {
+          "text": "of",
+          "start": 25.97,
+          "end": 26.133
+        },
+        {
+          "text": "choice",
+          "start": 26.133,
+          "end": 26.82
+        },
+        {
+          "text": "(",
+          "start": 26.82,
+          "end": 26.92
+        },
+        {
+          "text": "C#",
+          "start": 26.92,
+          "end": 27.645
+        },
+        {
+          "text": ",",
+          "start": 27.645,
+          "end": 27.758
+        },
+        {
+          "text": "Python",
+          "start": 27.758,
+          "end": 28.445
+        },
+        {
+          "text": ",",
+          "start": 28.445,
+          "end": 28.558
+        },
+        {
+          "text": "TypeScript",
+          "start": 28.558,
+          "end": 29.22
+        },
+        {
+          "text": ",",
+          "start": 29.22,
+          "end": 29.295
+        },
+        {
+          "text": "or",
+          "start": 29.295,
+          "end": 29.457
+        },
+        {
+          "text": "Java",
+          "start": 29.457,
+          "end": 29.895
+        },
+        {
+          "text": ")",
+          "start": 29.895,
+          "end": 30.22
+        },
+        {
+          "text": ".",
+          "start": 30.22,
+          "end": 30.32
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "If Playwright MCP is like having an AI chauffeur drive your car, AI codegen is like the chauffeur writing you the driver's manual , so you can replay the journey anytime, tweak the route, and commit it to CI/CD.",
+      "start": 30.64,
+      "end": 44.515,
+      "words": [
+        {
+          "text": "If",
+          "start": 30.89,
+          "end": 31.078
+        },
+        {
+          "text": "Playwright",
+          "start": 31.078,
+          "end": 31.553
+        },
+        {
+          "text": "MCP",
+          "start": 31.553,
+          "end": 32.328
+        },
+        {
+          "text": "is",
+          "start": 32.328,
+          "end": 32.465
+        },
+        {
+          "text": "like",
+          "start": 32.465,
+          "end": 32.665
+        },
+        {
+          "text": "having",
+          "start": 32.665,
+          "end": 32.977
+        },
+        {
+          "text": "an",
+          "start": 32.977,
+          "end": 33.102
+        },
+        {
+          "text": "AI",
+          "start": 33.102,
+          "end": 33.528
+        },
+        {
+          "text": "chauffeur",
+          "start": 33.528,
+          "end": 33.94
+        },
+        {
+          "text": "drive",
+          "start": 33.94,
+          "end": 34.203
+        },
+        {
+          "text": "your",
+          "start": 34.203,
+          "end": 34.315
+        },
+        {
+          "text": "car",
+          "start": 34.315,
+          "end": 34.965
+        },
+        {
+          "text": ",",
+          "start": 34.965,
+          "end": 35.127
+        },
+        {
+          "text": "AI",
+          "start": 35.127,
+          "end": 35.553
+        },
+        {
+          "text": "codegen",
+          "start": 35.553,
+          "end": 36.09
+        },
+        {
+          "text": "is",
+          "start": 36.09,
+          "end": 36.203
+        },
+        {
+          "text": "like",
+          "start": 36.203,
+          "end": 36.377
+        },
+        {
+          "text": "the",
+          "start": 36.377,
+          "end": 36.515
+        },
+        {
+          "text": "chauffeur",
+          "start": 36.515,
+          "end": 36.94
+        },
+        {
+          "text": "writing",
+          "start": 36.94,
+          "end": 37.265
+        },
+        {
+          "text": "you",
+          "start": 37.265,
+          "end": 37.415
+        },
+        {
+          "text": "the",
+          "start": 37.415,
+          "end": 37.515
+        },
+        {
+          "text": "driver's",
+          "start": 37.515,
+          "end": 37.99
+        },
+        {
+          "text": "manual",
+          "start": 37.99,
+          "end": 38.928
+        },
+        {
+          "text": ",",
+          "start": 38.928,
+          "end": 39.015
+        },
+        {
+          "text": "so",
+          "start": 39.015,
+          "end": 39.14
+        },
+        {
+          "text": "you",
+          "start": 39.14,
+          "end": 39.24
+        },
+        {
+          "text": "can",
+          "start": 39.24,
+          "end": 39.39
+        },
+        {
+          "text": "replay",
+          "start": 39.39,
+          "end": 39.815
+        },
+        {
+          "text": "the",
+          "start": 39.815,
+          "end": 39.953
+        },
+        {
+          "text": "journey",
+          "start": 39.953,
+          "end": 40.29
+        },
+        {
+          "text": "anytime",
+          "start": 40.29,
+          "end": 41.14
+        },
+        {
+          "text": ",",
+          "start": 41.14,
+          "end": 41.278
+        },
+        {
+          "text": "tweak",
+          "start": 41.278,
+          "end": 41.565
+        },
+        {
+          "text": "the",
+          "start": 41.565,
+          "end": 41.69
+        },
+        {
+          "text": "route",
+          "start": 41.69,
+          "end": 42.265
+        },
+        {
+          "text": ",",
+          "start": 42.265,
+          "end": 42.365
+        },
+        {
+          "text": "and",
+          "start": 42.365,
+          "end": 42.49
+        },
+        {
+          "text": "commit",
+          "start": 42.49,
+          "end": 42.84
+        },
+        {
+          "text": "it",
+          "start": 42.84,
+          "end": 42.965
+        },
+        {
+          "text": "to",
+          "start": 42.965,
+          "end": 43.102
+        },
+        {
+          "text": "CI/CD",
+          "start": 43.102,
+          "end": 44.365
+        },
+        {
+          "text": ".",
+          "start": 44.365,
+          "end": 44.515
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "This post is the natural next step after the Selenium 2026 and Playwright MCP guides. No prior AI experience needed , just a working Playwright install.",
+      "start": 44.835,
+      "end": 56.31,
+      "words": [
+        {
+          "text": "This",
+          "start": 45.11,
+          "end": 45.322
+        },
+        {
+          "text": "post",
+          "start": 45.322,
+          "end": 45.735
+        },
+        {
+          "text": "is",
+          "start": 45.735,
+          "end": 45.885
+        },
+        {
+          "text": "the",
+          "start": 45.885,
+          "end": 45.985
+        },
+        {
+          "text": "natural",
+          "start": 45.985,
+          "end": 46.485
+        },
+        {
+          "text": "next",
+          "start": 46.485,
+          "end": 46.76
+        },
+        {
+          "text": "step",
+          "start": 46.76,
+          "end": 47.223
+        },
+        {
+          "text": "after",
+          "start": 47.223,
+          "end": 47.498
+        },
+        {
+          "text": "the",
+          "start": 47.498,
+          "end": 47.585
+        },
+        {
+          "text": "Selenium",
+          "start": 47.585,
+          "end": 48.185
+        },
+        {
+          "text": "2026",
+          "start": 48.185,
+          "end": 49.46
+        },
+        {
+          "text": "and",
+          "start": 49.46,
+          "end": 49.623
+        },
+        {
+          "text": "Playwright",
+          "start": 49.623,
+          "end": 50.098
+        },
+        {
+          "text": "MCP",
+          "start": 50.098,
+          "end": 50.76
+        },
+        {
+          "text": "guides",
+          "start": 50.76,
+          "end": 51.66
+        },
+        {
+          "text": ".",
+          "start": 51.66,
+          "end": 51.835
+        },
+        {
+          "text": "No",
+          "start": 51.835,
+          "end": 52.123
+        },
+        {
+          "text": "prior",
+          "start": 52.123,
+          "end": 52.523
+        },
+        {
+          "text": "AI",
+          "start": 52.523,
+          "end": 52.96
+        },
+        {
+          "text": "experience",
+          "start": 52.96,
+          "end": 53.56
+        },
+        {
+          "text": "needed",
+          "start": 53.56,
+          "end": 54.172
+        },
+        {
+          "text": ",",
+          "start": 54.172,
+          "end": 54.26
+        },
+        {
+          "text": "just",
+          "start": 54.26,
+          "end": 54.472
+        },
+        {
+          "text": "a",
+          "start": 54.472,
+          "end": 54.56
+        },
+        {
+          "text": "working",
+          "start": 54.56,
+          "end": 54.91
+        },
+        {
+          "text": "Playwright",
+          "start": 54.91,
+          "end": 55.36
+        },
+        {
+          "text": "install",
+          "start": 55.36,
+          "end": 56.185
+        },
+        {
+          "text": ".",
+          "start": 56.185,
+          "end": 56.31
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "h2",
+      "text": "What npx playwright codegen --ai Actually Does",
+      "start": 56.63,
+      "end": 59.93,
+      "words": [
+        {
+          "text": "What",
+          "start": 56.905,
+          "end": 57.055
+        },
+        {
+          "text": "npx",
+          "start": 57.055,
+          "end": 57.63
+        },
+        {
+          "text": "playwright",
+          "start": 57.63,
+          "end": 58.005
+        },
+        {
+          "text": "codegen",
+          "start": 58.005,
+          "end": 58.405
+        },
+        {
+          "text": "--ai",
+          "start": 58.405,
+          "end": 58.88
+        },
+        {
+          "text": "Actually",
+          "start": 58.88,
+          "end": 59.33
+        },
+        {
+          "text": "Does",
+          "start": 59.33,
+          "end": 59.93
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "Traditional playwright codegen (no --ai flag) records your clicks and keystrokes and translates them into Playwright scripts mechanically:",
+      "start": 60.4,
+      "end": 68.975,
+      "words": [
+        {
+          "text": "Traditional",
+          "start": 60.65,
+          "end": 61.225
+        },
+        {
+          "text": "playwright",
+          "start": 61.225,
+          "end": 61.675
+        },
+        {
+          "text": "codegen",
+          "start": 61.675,
+          "end": 62.475
+        },
+        {
+          "text": "(",
+          "start": 62.475,
+          "end": 62.575
+        },
+        {
+          "text": "no",
+          "start": 62.575,
+          "end": 62.862
+        },
+        {
+          "text": "--ai",
+          "start": 62.862,
+          "end": 63.263
+        },
+        {
+          "text": "flag",
+          "start": 63.263,
+          "end": 63.9
+        },
+        {
+          "text": ")",
+          "start": 63.9,
+          "end": 64.05
+        },
+        {
+          "text": "records",
+          "start": 64.05,
+          "end": 64.487
+        },
+        {
+          "text": "your",
+          "start": 64.487,
+          "end": 64.638
+        },
+        {
+          "text": "clicks",
+          "start": 64.638,
+          "end": 64.975
+        },
+        {
+          "text": "and",
+          "start": 64.975,
+          "end": 65.1
+        },
+        {
+          "text": "keystrokes",
+          "start": 65.1,
+          "end": 65.913
+        },
+        {
+          "text": "and",
+          "start": 65.913,
+          "end": 66.05
+        },
+        {
+          "text": "translates",
+          "start": 66.05,
+          "end": 66.663
+        },
+        {
+          "text": "them",
+          "start": 66.663,
+          "end": 66.837
+        },
+        {
+          "text": "into",
+          "start": 66.837,
+          "end": 67.05
+        },
+        {
+          "text": "Playwright",
+          "start": 67.05,
+          "end": 67.45
+        },
+        {
+          "text": "scripts",
+          "start": 67.45,
+          "end": 67.85
+        },
+        {
+          "text": "mechanically",
+          "start": 67.85,
+          "end": 68.85
+        },
+        {
+          "text": ":",
+          "start": 68.85,
+          "end": 68.975
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "It works, but it's brittle. The selectors are whatever CSS path Playwright guesses at the moment of recording. Change the DOM, and the script breaks.",
+      "start": 69.295,
+      "end": 78.745,
+      "words": [
+        {
+          "text": "It",
+          "start": 69.545,
+          "end": 69.695
+        },
+        {
+          "text": "works",
+          "start": 69.695,
+          "end": 70.07
+        },
+        {
+          "text": ",",
+          "start": 70.07,
+          "end": 70.108
+        },
+        {
+          "text": "but",
+          "start": 70.108,
+          "end": 70.233
+        },
+        {
+          "text": "it's",
+          "start": 70.233,
+          "end": 70.42
+        },
+        {
+          "text": "brittle",
+          "start": 70.42,
+          "end": 71.17
+        },
+        {
+          "text": ".",
+          "start": 71.17,
+          "end": 71.295
+        },
+        {
+          "text": "The",
+          "start": 71.295,
+          "end": 71.42
+        },
+        {
+          "text": "selectors",
+          "start": 71.42,
+          "end": 72.045
+        },
+        {
+          "text": "are",
+          "start": 72.045,
+          "end": 72.195
+        },
+        {
+          "text": "whatever",
+          "start": 72.195,
+          "end": 72.67
+        },
+        {
+          "text": "CSS",
+          "start": 72.67,
+          "end": 73.333
+        },
+        {
+          "text": "path",
+          "start": 73.333,
+          "end": 73.708
+        },
+        {
+          "text": "Playwright",
+          "start": 73.708,
+          "end": 74.145
+        },
+        {
+          "text": "guesses",
+          "start": 74.145,
+          "end": 74.595
+        },
+        {
+          "text": "at",
+          "start": 74.595,
+          "end": 74.683
+        },
+        {
+          "text": "the",
+          "start": 74.683,
+          "end": 74.77
+        },
+        {
+          "text": "moment",
+          "start": 74.77,
+          "end": 75.083
+        },
+        {
+          "text": "of",
+          "start": 75.083,
+          "end": 75.17
+        },
+        {
+          "text": "recording",
+          "start": 75.17,
+          "end": 76.095
+        },
+        {
+          "text": ".",
+          "start": 76.095,
+          "end": 76.245
+        },
+        {
+          "text": "Change",
+          "start": 76.245,
+          "end": 76.645
+        },
+        {
+          "text": "the",
+          "start": 76.645,
+          "end": 76.745
+        },
+        {
+          "text": "DOM",
+          "start": 76.745,
+          "end": 77.27
+        },
+        {
+          "text": ",",
+          "start": 77.27,
+          "end": 77.37
+        },
+        {
+          "text": "and",
+          "start": 77.37,
+          "end": 77.482
+        },
+        {
+          "text": "the",
+          "start": 77.482,
+          "end": 77.57
+        },
+        {
+          "text": "script",
+          "start": 77.57,
+          "end": 77.92
+        },
+        {
+          "text": "breaks",
+          "start": 77.92,
+          "end": 78.595
+        },
+        {
+          "text": ".",
+          "start": 78.595,
+          "end": 78.745
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "AI codegen (--ai flag, stable since Playwright v1.50) is fundamentally different:",
+      "start": 79.065,
+      "end": 85.29,
+      "words": [
+        {
+          "text": "AI",
+          "start": 79.365,
+          "end": 79.728
+        },
+        {
+          "text": "codegen",
+          "start": 79.728,
+          "end": 80.24
+        },
+        {
+          "text": "(",
+          "start": 80.24,
+          "end": 80.315
+        },
+        {
+          "text": "--ai",
+          "start": 80.315,
+          "end": 80.628
+        },
+        {
+          "text": "flag",
+          "start": 80.628,
+          "end": 81.24
+        },
+        {
+          "text": ",",
+          "start": 81.24,
+          "end": 81.378
+        },
+        {
+          "text": "stable",
+          "start": 81.378,
+          "end": 81.84
+        },
+        {
+          "text": "since",
+          "start": 81.84,
+          "end": 82.065
+        },
+        {
+          "text": "Playwright",
+          "start": 82.065,
+          "end": 82.49
+        },
+        {
+          "text": "v1.50",
+          "start": 82.49,
+          "end": 83.44
+        },
+        {
+          "text": ")",
+          "start": 83.44,
+          "end": 83.553
+        },
+        {
+          "text": "is",
+          "start": 83.553,
+          "end": 83.753
+        },
+        {
+          "text": "fundamentally",
+          "start": 83.753,
+          "end": 84.44
+        },
+        {
+          "text": "different",
+          "start": 84.44,
+          "end": 85.14
+        },
+        {
+          "text": ":",
+          "start": 85.14,
+          "end": 85.29
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "The engine doesn't just record , it understands intent. Instead of generating page.Locator(\"#email-17abc\"), it generates page.GetByLabel(\"Email\") , a semantic locator that survives DOM reshuffles.",
+      "start": 85.61,
+      "end": 100.66,
+      "words": [
+        {
+          "text": "The",
+          "start": 85.86,
+          "end": 85.998
+        },
+        {
+          "text": "engine",
+          "start": 85.998,
+          "end": 86.41
+        },
+        {
+          "text": "doesn't",
+          "start": 86.41,
+          "end": 86.71
+        },
+        {
+          "text": "just",
+          "start": 86.71,
+          "end": 86.898
+        },
+        {
+          "text": "record",
+          "start": 86.898,
+          "end": 87.435
+        },
+        {
+          "text": ",",
+          "start": 87.435,
+          "end": 87.51
+        },
+        {
+          "text": "it",
+          "start": 87.51,
+          "end": 87.598
+        },
+        {
+          "text": "understands",
+          "start": 87.598,
+          "end": 88.235
+        },
+        {
+          "text": "intent",
+          "start": 88.235,
+          "end": 89.06
+        },
+        {
+          "text": ".",
+          "start": 89.06,
+          "end": 89.16
+        },
+        {
+          "text": "Instead",
+          "start": 89.16,
+          "end": 89.498
+        },
+        {
+          "text": "of",
+          "start": 89.498,
+          "end": 89.623
+        },
+        {
+          "text": "generating",
+          "start": 89.623,
+          "end": 90.21
+        },
+        {
+          "text": "page",
+          "start": 90.21,
+          "end": 90.735
+        },
+        {
+          "text": ".",
+          "start": 90.735,
+          "end": 90.86
+        },
+        {
+          "text": "Locator(\"#email-17abc",
+          "start": 90.86,
+          "end": 93.935
+        },
+        {
+          "text": "\"",
+          "start": 93.935,
+          "end": 94.035
+        },
+        {
+          "text": ")",
+          "start": 94.035,
+          "end": 94.06
+        },
+        {
+          "text": ",",
+          "start": 94.06,
+          "end": 94.122
+        },
+        {
+          "text": "it",
+          "start": 94.122,
+          "end": 94.272
+        },
+        {
+          "text": "generates",
+          "start": 94.272,
+          "end": 94.81
+        },
+        {
+          "text": "page",
+          "start": 94.81,
+          "end": 95.41
+        },
+        {
+          "text": ".",
+          "start": 95.41,
+          "end": 95.535
+        },
+        {
+          "text": "GetByLabel(\"Email",
+          "start": 95.535,
+          "end": 97.185
+        },
+        {
+          "text": "\"",
+          "start": 97.185,
+          "end": 97.285
+        },
+        {
+          "text": ")",
+          "start": 97.285,
+          "end": 97.323
+        },
+        {
+          "text": ",",
+          "start": 97.323,
+          "end": 97.385
+        },
+        {
+          "text": "a",
+          "start": 97.385,
+          "end": 97.485
+        },
+        {
+          "text": "semantic",
+          "start": 97.485,
+          "end": 98.01
+        },
+        {
+          "text": "locator",
+          "start": 98.01,
+          "end": 98.535
+        },
+        {
+          "text": "that",
+          "start": 98.535,
+          "end": 98.71
+        },
+        {
+          "text": "survives",
+          "start": 98.71,
+          "end": 99.298
+        },
+        {
+          "text": "DOM",
+          "start": 99.298,
+          "end": 99.635
+        },
+        {
+          "text": "reshuffles",
+          "start": 99.635,
+          "end": 100.51
+        },
+        {
+          "text": ".",
+          "start": 100.51,
+          "end": 100.66
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h2",
+      "text": "Step 1: Basic AI Codegen , From Sentence to Script",
+      "start": 100.98,
+      "end": 104.755,
+      "words": [
+        {
+          "text": "Step",
+          "start": 101.255,
+          "end": 101.505
+        },
+        {
+          "text": "1",
+          "start": 101.505,
+          "end": 101.855
+        },
+        {
+          "text": ":",
+          "start": 101.855,
+          "end": 101.93
+        },
+        {
+          "text": "Basic",
+          "start": 101.93,
+          "end": 102.355
+        },
+        {
+          "text": "AI",
+          "start": 102.355,
+          "end": 102.68
+        },
+        {
+          "text": "Codegen",
+          "start": 102.68,
+          "end": 103.305
+        },
+        {
+          "text": ",",
+          "start": 103.305,
+          "end": 103.38
+        },
+        {
+          "text": "From",
+          "start": 103.38,
+          "end": 103.593
+        },
+        {
+          "text": "Sentence",
+          "start": 103.593,
+          "end": 104.03
+        },
+        {
+          "text": "to",
+          "start": 104.03,
+          "end": 104.155
+        },
+        {
+          "text": "Script",
+          "start": 104.155,
+          "end": 104.755
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "Open a terminal and run:",
+      "start": 105.175,
+      "end": 107.125,
+      "words": [
+        {
+          "text": "Open",
+          "start": 105.475,
+          "end": 105.762
+        },
+        {
+          "text": "a",
+          "start": 105.762,
+          "end": 105.825
+        },
+        {
+          "text": "terminal",
+          "start": 105.825,
+          "end": 106.275
+        },
+        {
+          "text": "and",
+          "start": 106.275,
+          "end": 106.4
+        },
+        {
+          "text": "run",
+          "start": 106.4,
+          "end": 106.975
+        },
+        {
+          "text": ":",
+          "start": 106.975,
+          "end": 107.125
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "A Chromium window opens alongside the Playwright Inspector. In the inspector, instead of clicking around, type what you want:",
+      "start": 107.445,
+      "end": 115.495,
+      "words": [
+        {
+          "text": "A",
+          "start": 107.695,
+          "end": 107.782
+        },
+        {
+          "text": "Chromium",
+          "start": 107.782,
+          "end": 108.32
+        },
+        {
+          "text": "window",
+          "start": 108.32,
+          "end": 108.808
+        },
+        {
+          "text": "opens",
+          "start": 108.808,
+          "end": 109.295
+        },
+        {
+          "text": "alongside",
+          "start": 109.295,
+          "end": 109.858
+        },
+        {
+          "text": "the",
+          "start": 109.858,
+          "end": 109.945
+        },
+        {
+          "text": "Playwright",
+          "start": 109.945,
+          "end": 110.358
+        },
+        {
+          "text": "Inspector",
+          "start": 110.358,
+          "end": 111.345
+        },
+        {
+          "text": ".",
+          "start": 111.345,
+          "end": 111.508
+        },
+        {
+          "text": "In",
+          "start": 111.508,
+          "end": 111.633
+        },
+        {
+          "text": "the",
+          "start": 111.633,
+          "end": 111.77
+        },
+        {
+          "text": "inspector",
+          "start": 111.77,
+          "end": 112.545
+        },
+        {
+          "text": ",",
+          "start": 112.545,
+          "end": 112.645
+        },
+        {
+          "text": "instead",
+          "start": 112.645,
+          "end": 112.983
+        },
+        {
+          "text": "of",
+          "start": 112.983,
+          "end": 113.095
+        },
+        {
+          "text": "clicking",
+          "start": 113.095,
+          "end": 113.42
+        },
+        {
+          "text": "around",
+          "start": 113.42,
+          "end": 114.02
+        },
+        {
+          "text": ",",
+          "start": 114.02,
+          "end": 114.133
+        },
+        {
+          "text": "type",
+          "start": 114.133,
+          "end": 114.433
+        },
+        {
+          "text": "what",
+          "start": 114.433,
+          "end": 114.57
+        },
+        {
+          "text": "you",
+          "start": 114.57,
+          "end": 114.695
+        },
+        {
+          "text": "want",
+          "start": 114.695,
+          "end": 115.345
+        },
+        {
+          "text": ":",
+          "start": 115.345,
+          "end": 115.495
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "Playwright watches the page, plans the steps, and generates:",
+      "start": 115.815,
+      "end": 119.54,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 116.065,
+          "end": 116.44
+        },
+        {
+          "text": "watches",
+          "start": 116.44,
+          "end": 116.853
+        },
+        {
+          "text": "the",
+          "start": 116.853,
+          "end": 116.94
+        },
+        {
+          "text": "page",
+          "start": 116.94,
+          "end": 117.49
+        },
+        {
+          "text": ",",
+          "start": 117.49,
+          "end": 117.615
+        },
+        {
+          "text": "plans",
+          "start": 117.615,
+          "end": 117.953
+        },
+        {
+          "text": "the",
+          "start": 117.953,
+          "end": 118.04
+        },
+        {
+          "text": "steps",
+          "start": 118.04,
+          "end": 118.44
+        },
+        {
+          "text": ",",
+          "start": 118.44,
+          "end": 118.478
+        },
+        {
+          "text": "and",
+          "start": 118.478,
+          "end": 118.59
+        },
+        {
+          "text": "generates",
+          "start": 118.59,
+          "end": 119.39
+        },
+        {
+          "text": ":",
+          "start": 119.39,
+          "end": 119.54
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h3",
+      "text": "Multi-Language Output",
+      "start": 119.86,
+      "end": 121.66,
+      "words": [
+        {
+          "text": "Multi-Language",
+          "start": 120.16,
+          "end": 120.972
+        },
+        {
+          "text": "Output",
+          "start": 120.972,
+          "end": 121.66
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "AI codegen supports all Playwright languages. The same natural-language input generates idiomatic code for each:",
+      "start": 122.08,
+      "end": 129.955,
+      "words": [
+        {
+          "text": "AI",
+          "start": 122.38,
+          "end": 122.742
+        },
+        {
+          "text": "codegen",
+          "start": 122.742,
+          "end": 123.28
+        },
+        {
+          "text": "supports",
+          "start": 123.28,
+          "end": 123.767
+        },
+        {
+          "text": "all",
+          "start": 123.767,
+          "end": 124.03
+        },
+        {
+          "text": "Playwright",
+          "start": 124.03,
+          "end": 124.417
+        },
+        {
+          "text": "languages",
+          "start": 124.417,
+          "end": 125.405
+        },
+        {
+          "text": ".",
+          "start": 125.405,
+          "end": 125.53
+        },
+        {
+          "text": "The",
+          "start": 125.53,
+          "end": 125.68
+        },
+        {
+          "text": "same",
+          "start": 125.68,
+          "end": 126.03
+        },
+        {
+          "text": "natural-language",
+          "start": 126.03,
+          "end": 126.83
+        },
+        {
+          "text": "input",
+          "start": 126.83,
+          "end": 127.518
+        },
+        {
+          "text": "generates",
+          "start": 127.518,
+          "end": 128.08
+        },
+        {
+          "text": "idiomatic",
+          "start": 128.08,
+          "end": 128.68
+        },
+        {
+          "text": "code",
+          "start": 128.68,
+          "end": 129.03
+        },
+        {
+          "text": "for",
+          "start": 129.03,
+          "end": 129.18
+        },
+        {
+          "text": "each",
+          "start": 129.18,
+          "end": 129.78
+        },
+        {
+          "text": ":",
+          "start": 129.78,
+          "end": 129.955
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h2",
+      "text": "Step 2: From Requirements Document to Full Test Suite",
+      "start": 130.275,
+      "end": 133.8,
+      "words": [
+        {
+          "text": "Step",
+          "start": 130.55,
+          "end": 130.837
+        },
+        {
+          "text": "2",
+          "start": 130.837,
+          "end": 131.225
+        },
+        {
+          "text": ":",
+          "start": 131.225,
+          "end": 131.325
+        },
+        {
+          "text": "From",
+          "start": 131.325,
+          "end": 131.487
+        },
+        {
+          "text": "Requirements",
+          "start": 131.487,
+          "end": 131.975
+        },
+        {
+          "text": "Document",
+          "start": 131.975,
+          "end": 132.475
+        },
+        {
+          "text": "to",
+          "start": 132.475,
+          "end": 132.612
+        },
+        {
+          "text": "Full",
+          "start": 132.612,
+          "end": 132.85
+        },
+        {
+          "text": "Test",
+          "start": 132.85,
+          "end": 133.163
+        },
+        {
+          "text": "Suite",
+          "start": 133.163,
+          "end": 133.8
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "The real power of AI codegen emerges when you feed it a requirements document instead of one-off instructions. This is the workflow teased in the AI-Driven Test Strategy post , Phase 2 in practice.",
+      "start": 134.245,
+      "end": 147.795,
+      "words": [
+        {
+          "text": "The",
+          "start": 134.52,
+          "end": 134.633
+        },
+        {
+          "text": "real",
+          "start": 134.633,
+          "end": 134.933
+        },
+        {
+          "text": "power",
+          "start": 134.933,
+          "end": 135.32
+        },
+        {
+          "text": "of",
+          "start": 135.32,
+          "end": 135.483
+        },
+        {
+          "text": "AI",
+          "start": 135.483,
+          "end": 135.908
+        },
+        {
+          "text": "codegen",
+          "start": 135.908,
+          "end": 136.533
+        },
+        {
+          "text": "emerges",
+          "start": 136.533,
+          "end": 137.082
+        },
+        {
+          "text": "when",
+          "start": 137.082,
+          "end": 137.22
+        },
+        {
+          "text": "you",
+          "start": 137.22,
+          "end": 137.37
+        },
+        {
+          "text": "feed",
+          "start": 137.37,
+          "end": 137.633
+        },
+        {
+          "text": "it",
+          "start": 137.633,
+          "end": 137.745
+        },
+        {
+          "text": "a",
+          "start": 137.745,
+          "end": 137.82
+        },
+        {
+          "text": "requirements",
+          "start": 137.82,
+          "end": 138.495
+        },
+        {
+          "text": "document",
+          "start": 138.495,
+          "end": 139.295
+        },
+        {
+          "text": "instead",
+          "start": 139.295,
+          "end": 139.657
+        },
+        {
+          "text": "of",
+          "start": 139.657,
+          "end": 139.782
+        },
+        {
+          "text": "one-off",
+          "start": 139.782,
+          "end": 140.232
+        },
+        {
+          "text": "instructions",
+          "start": 140.232,
+          "end": 141.42
+        },
+        {
+          "text": ".",
+          "start": 141.42,
+          "end": 141.57
+        },
+        {
+          "text": "This",
+          "start": 141.57,
+          "end": 141.87
+        },
+        {
+          "text": "is",
+          "start": 141.87,
+          "end": 142.02
+        },
+        {
+          "text": "the",
+          "start": 142.02,
+          "end": 142.133
+        },
+        {
+          "text": "workflow",
+          "start": 142.133,
+          "end": 142.708
+        },
+        {
+          "text": "teased",
+          "start": 142.708,
+          "end": 143.17
+        },
+        {
+          "text": "in",
+          "start": 143.17,
+          "end": 143.257
+        },
+        {
+          "text": "the",
+          "start": 143.257,
+          "end": 143.382
+        },
+        {
+          "text": "AI-Driven",
+          "start": 143.382,
+          "end": 144.07
+        },
+        {
+          "text": "Test",
+          "start": 144.07,
+          "end": 144.37
+        },
+        {
+          "text": "Strategy",
+          "start": 144.37,
+          "end": 144.895
+        },
+        {
+          "text": "post",
+          "start": 144.895,
+          "end": 145.645
+        },
+        {
+          "text": ",",
+          "start": 145.645,
+          "end": 145.782
+        },
+        {
+          "text": "Phase",
+          "start": 145.782,
+          "end": 146.208
+        },
+        {
+          "text": "2",
+          "start": 146.208,
+          "end": 146.608
+        },
+        {
+          "text": "in",
+          "start": 146.608,
+          "end": 146.745
+        },
+        {
+          "text": "practice",
+          "start": 146.745,
+          "end": 147.645
+        },
+        {
+          "text": ".",
+          "start": 147.645,
+          "end": 147.795
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "h3",
+      "text": "The Requirements-to-Tests Pipeline",
+      "start": 148.115,
+      "end": 150.315,
+      "words": [
+        {
+          "text": "The",
+          "start": 148.39,
+          "end": 148.465
+        },
+        {
+          "text": "Requirements-to-Tests",
+          "start": 148.465,
+          "end": 149.515
+        },
+        {
+          "text": "Pipeline",
+          "start": 149.515,
+          "end": 150.315
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "h3",
+      "text": "Practical Example",
+      "start": 150.785,
+      "end": 152.385,
+      "words": [
+        {
+          "text": "Practical",
+          "start": 151.06,
+          "end": 151.585
+        },
+        {
+          "text": "Example",
+          "start": 151.585,
+          "end": 152.385
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "Say you have this requirements snippet for an e-commerce checkout:",
+      "start": 152.855,
+      "end": 156.58,
+      "words": [
+        {
+          "text": "Say",
+          "start": 153.155,
+          "end": 153.305
+        },
+        {
+          "text": "you",
+          "start": 153.305,
+          "end": 153.405
+        },
+        {
+          "text": "have",
+          "start": 153.405,
+          "end": 153.593
+        },
+        {
+          "text": "this",
+          "start": 153.593,
+          "end": 153.755
+        },
+        {
+          "text": "requirements",
+          "start": 153.755,
+          "end": 154.48
+        },
+        {
+          "text": "snippet",
+          "start": 154.48,
+          "end": 154.955
+        },
+        {
+          "text": "for",
+          "start": 154.955,
+          "end": 155.067
+        },
+        {
+          "text": "an",
+          "start": 155.067,
+          "end": 155.18
+        },
+        {
+          "text": "e-commerce",
+          "start": 155.18,
+          "end": 155.705
+        },
+        {
+          "text": "checkout",
+          "start": 155.705,
+          "end": 156.43
+        },
+        {
+          "text": ":",
+          "start": 156.43,
+          "end": 156.58
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "Feed each section separately to AI codegen for best results:",
+      "start": 156.9,
+      "end": 161.1,
+      "words": [
+        {
+          "text": "Feed",
+          "start": 157.175,
+          "end": 157.425
+        },
+        {
+          "text": "each",
+          "start": 157.425,
+          "end": 157.65
+        },
+        {
+          "text": "section",
+          "start": 157.65,
+          "end": 158.15
+        },
+        {
+          "text": "separately",
+          "start": 158.15,
+          "end": 158.675
+        },
+        {
+          "text": "to",
+          "start": 158.675,
+          "end": 158.838
+        },
+        {
+          "text": "AI",
+          "start": 158.838,
+          "end": 159.2
+        },
+        {
+          "text": "codegen",
+          "start": 159.2,
+          "end": 159.813
+        },
+        {
+          "text": "for",
+          "start": 159.813,
+          "end": 159.95
+        },
+        {
+          "text": "best",
+          "start": 159.95,
+          "end": 160.212
+        },
+        {
+          "text": "results",
+          "start": 160.212,
+          "end": 160.95
+        },
+        {
+          "text": ":",
+          "start": 160.95,
+          "end": 161.1
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "AI codegen generates a separate test file per scenario. Combine them into a single test class, add a [Test] attribute per method, and you have a complete checkout test suite , generated from the requirements doc in under 10 minutes.",
+      "start": 161.42,
+      "end": 176.295,
+      "words": [
+        {
+          "text": "AI",
+          "start": 161.745,
+          "end": 162.182
+        },
+        {
+          "text": "codegen",
+          "start": 162.182,
+          "end": 162.732
+        },
+        {
+          "text": "generates",
+          "start": 162.732,
+          "end": 163.245
+        },
+        {
+          "text": "a",
+          "start": 163.245,
+          "end": 163.37
+        },
+        {
+          "text": "separate",
+          "start": 163.37,
+          "end": 163.795
+        },
+        {
+          "text": "test",
+          "start": 163.795,
+          "end": 164.12
+        },
+        {
+          "text": "file",
+          "start": 164.12,
+          "end": 164.395
+        },
+        {
+          "text": "per",
+          "start": 164.395,
+          "end": 164.545
+        },
+        {
+          "text": "scenario",
+          "start": 164.545,
+          "end": 165.52
+        },
+        {
+          "text": ".",
+          "start": 165.52,
+          "end": 165.682
+        },
+        {
+          "text": "Combine",
+          "start": 165.682,
+          "end": 166.082
+        },
+        {
+          "text": "them",
+          "start": 166.082,
+          "end": 166.232
+        },
+        {
+          "text": "into",
+          "start": 166.232,
+          "end": 166.47
+        },
+        {
+          "text": "a",
+          "start": 166.47,
+          "end": 166.595
+        },
+        {
+          "text": "single",
+          "start": 166.595,
+          "end": 166.995
+        },
+        {
+          "text": "test",
+          "start": 166.995,
+          "end": 167.27
+        },
+        {
+          "text": "class",
+          "start": 167.27,
+          "end": 167.92
+        },
+        {
+          "text": ",",
+          "start": 167.92,
+          "end": 168.02
+        },
+        {
+          "text": "add",
+          "start": 168.02,
+          "end": 168.182
+        },
+        {
+          "text": "a",
+          "start": 168.182,
+          "end": 168.283
+        },
+        {
+          "text": "[Test",
+          "start": 168.283,
+          "end": 168.92
+        },
+        {
+          "text": "]",
+          "start": 168.92,
+          "end": 169.033
+        },
+        {
+          "text": "attribute",
+          "start": 169.033,
+          "end": 169.457
+        },
+        {
+          "text": "per",
+          "start": 169.457,
+          "end": 169.607
+        },
+        {
+          "text": "method",
+          "start": 169.607,
+          "end": 170.345
+        },
+        {
+          "text": ",",
+          "start": 170.345,
+          "end": 170.408
+        },
+        {
+          "text": "and",
+          "start": 170.408,
+          "end": 170.507
+        },
+        {
+          "text": "you",
+          "start": 170.507,
+          "end": 170.62
+        },
+        {
+          "text": "have",
+          "start": 170.62,
+          "end": 170.757
+        },
+        {
+          "text": "a",
+          "start": 170.757,
+          "end": 170.845
+        },
+        {
+          "text": "complete",
+          "start": 170.845,
+          "end": 171.395
+        },
+        {
+          "text": "checkout",
+          "start": 171.395,
+          "end": 171.77
+        },
+        {
+          "text": "test",
+          "start": 171.77,
+          "end": 172.257
+        },
+        {
+          "text": "suite",
+          "start": 172.257,
+          "end": 172.97
+        },
+        {
+          "text": ",",
+          "start": 172.97,
+          "end": 173.095
+        },
+        {
+          "text": "generated",
+          "start": 173.095,
+          "end": 173.633
+        },
+        {
+          "text": "from",
+          "start": 173.633,
+          "end": 173.758
+        },
+        {
+          "text": "the",
+          "start": 173.758,
+          "end": 173.87
+        },
+        {
+          "text": "requirements",
+          "start": 173.87,
+          "end": 174.545
+        },
+        {
+          "text": "doc",
+          "start": 174.545,
+          "end": 174.932
+        },
+        {
+          "text": "in",
+          "start": 174.932,
+          "end": 175.008
+        },
+        {
+          "text": "under",
+          "start": 175.008,
+          "end": 175.295
+        },
+        {
+          "text": "10",
+          "start": 175.295,
+          "end": 175.482
+        },
+        {
+          "text": "minutes",
+          "start": 175.482,
+          "end": 176.295
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h3",
+      "text": "What AI Codegen Gets Right (and Wrong)",
+      "start": 176.615,
+      "end": 179.34,
+      "words": [
+        {
+          "text": "What",
+          "start": 176.89,
+          "end": 177.065
+        },
+        {
+          "text": "AI",
+          "start": 177.065,
+          "end": 177.39
+        },
+        {
+          "text": "Codegen",
+          "start": 177.39,
+          "end": 177.752
+        },
+        {
+          "text": "Gets",
+          "start": 177.752,
+          "end": 177.965
+        },
+        {
+          "text": "Right",
+          "start": 177.965,
+          "end": 178.39
+        },
+        {
+          "text": "(",
+          "start": 178.39,
+          "end": 178.465
+        },
+        {
+          "text": "and",
+          "start": 178.465,
+          "end": 178.565
+        },
+        {
+          "text": "Wrong",
+          "start": 178.565,
+          "end": 179.19
+        },
+        {
+          "text": ")",
+          "start": 179.19,
+          "end": 179.34
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "The human's job shifts from writing code to reviewing code. You spend 80 percent less time typing and 100 percent more time thinking about what could go wrong.",
+      "start": 179.66,
+      "end": 189.935,
+      "words": [
+        {
+          "text": "The",
+          "start": 179.91,
+          "end": 179.985
+        },
+        {
+          "text": "human's",
+          "start": 179.985,
+          "end": 180.472
+        },
+        {
+          "text": "job",
+          "start": 180.472,
+          "end": 180.91
+        },
+        {
+          "text": "shifts",
+          "start": 180.91,
+          "end": 181.235
+        },
+        {
+          "text": "from",
+          "start": 181.235,
+          "end": 181.435
+        },
+        {
+          "text": "writing",
+          "start": 181.435,
+          "end": 181.822
+        },
+        {
+          "text": "code",
+          "start": 181.822,
+          "end": 182.485
+        },
+        {
+          "text": "to",
+          "start": 182.485,
+          "end": 182.66
+        },
+        {
+          "text": "reviewing",
+          "start": 182.66,
+          "end": 183.135
+        },
+        {
+          "text": "code",
+          "start": 183.135,
+          "end": 183.935
+        },
+        {
+          "text": ".",
+          "start": 183.935,
+          "end": 184.097
+        },
+        {
+          "text": "You",
+          "start": 184.097,
+          "end": 184.235
+        },
+        {
+          "text": "spend",
+          "start": 184.235,
+          "end": 184.56
+        },
+        {
+          "text": "80",
+          "start": 184.56,
+          "end": 184.86
+        },
+        {
+          "text": "percent",
+          "start": 184.86,
+          "end": 185.21
+        },
+        {
+          "text": "less",
+          "start": 185.21,
+          "end": 185.435
+        },
+        {
+          "text": "time",
+          "start": 185.435,
+          "end": 185.735
+        },
+        {
+          "text": "typing",
+          "start": 185.735,
+          "end": 186.51
+        },
+        {
+          "text": "and",
+          "start": 186.51,
+          "end": 186.66
+        },
+        {
+          "text": "100",
+          "start": 186.66,
+          "end": 187.085
+        },
+        {
+          "text": "percent",
+          "start": 187.085,
+          "end": 187.435
+        },
+        {
+          "text": "more",
+          "start": 187.435,
+          "end": 187.66
+        },
+        {
+          "text": "time",
+          "start": 187.66,
+          "end": 188.072
+        },
+        {
+          "text": "thinking",
+          "start": 188.072,
+          "end": 188.435
+        },
+        {
+          "text": "about",
+          "start": 188.435,
+          "end": 188.71
+        },
+        {
+          "text": "what",
+          "start": 188.71,
+          "end": 188.86
+        },
+        {
+          "text": "could",
+          "start": 188.86,
+          "end": 188.985
+        },
+        {
+          "text": "go",
+          "start": 188.985,
+          "end": 189.16
+        },
+        {
+          "text": "wrong",
+          "start": 189.16,
+          "end": 189.785
+        },
+        {
+          "text": ".",
+          "start": 189.785,
+          "end": 189.935
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h2",
+      "text": "Step 3: Refining AI-Generated Tests",
+      "start": 190.255,
+      "end": 193.23,
+      "words": [
+        {
+          "text": "Step",
+          "start": 190.53,
+          "end": 190.78
+        },
+        {
+          "text": "3",
+          "start": 190.78,
+          "end": 191.155
+        },
+        {
+          "text": ":",
+          "start": 191.155,
+          "end": 191.255
+        },
+        {
+          "text": "Refining",
+          "start": 191.255,
+          "end": 191.767
+        },
+        {
+          "text": "AI-Generated",
+          "start": 191.767,
+          "end": 192.53
+        },
+        {
+          "text": "Tests",
+          "start": 192.53,
+          "end": 193.23
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "AI codegen gives you an 80 percent solution. Here's how to get to 95 percent.",
+      "start": 193.65,
+      "end": 199.45,
+      "words": [
+        {
+          "text": "AI",
+          "start": 193.95,
+          "end": 194.313
+        },
+        {
+          "text": "codegen",
+          "start": 194.313,
+          "end": 194.9
+        },
+        {
+          "text": "gives",
+          "start": 194.9,
+          "end": 195.125
+        },
+        {
+          "text": "you",
+          "start": 195.125,
+          "end": 195.275
+        },
+        {
+          "text": "an",
+          "start": 195.275,
+          "end": 195.425
+        },
+        {
+          "text": "80",
+          "start": 195.425,
+          "end": 195.75
+        },
+        {
+          "text": "percent",
+          "start": 195.75,
+          "end": 196.1
+        },
+        {
+          "text": "solution",
+          "start": 196.1,
+          "end": 196.95
+        },
+        {
+          "text": ".",
+          "start": 196.95,
+          "end": 197.087
+        },
+        {
+          "text": "Here's",
+          "start": 197.087,
+          "end": 197.375
+        },
+        {
+          "text": "how",
+          "start": 197.375,
+          "end": 197.513
+        },
+        {
+          "text": "to",
+          "start": 197.513,
+          "end": 197.6
+        },
+        {
+          "text": "get",
+          "start": 197.6,
+          "end": 197.775
+        },
+        {
+          "text": "to",
+          "start": 197.775,
+          "end": 197.9
+        },
+        {
+          "text": "95",
+          "start": 197.9,
+          "end": 198.6
+        },
+        {
+          "text": "percent",
+          "start": 198.6,
+          "end": 199.3
+        },
+        {
+          "text": ".",
+          "start": 199.3,
+          "end": 199.45
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "h3",
+      "text": "Add Test Data Setup",
+      "start": 199.77,
+      "end": 201.495,
+      "words": [
+        {
+          "text": "Add",
+          "start": 200.07,
+          "end": 200.27
+        },
+        {
+          "text": "Test",
+          "start": 200.27,
+          "end": 200.595
+        },
+        {
+          "text": "Data",
+          "start": 200.595,
+          "end": 200.895
+        },
+        {
+          "text": "Setup",
+          "start": 200.895,
+          "end": 201.495
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "AI codegen works against live pages. It doesn't know how to seed your database. Add setup methods manually:",
+      "start": 201.965,
+      "end": 209.34,
+      "words": [
+        {
+          "text": "AI",
+          "start": 202.265,
+          "end": 202.728
+        },
+        {
+          "text": "codegen",
+          "start": 202.728,
+          "end": 203.24
+        },
+        {
+          "text": "works",
+          "start": 203.24,
+          "end": 203.565
+        },
+        {
+          "text": "against",
+          "start": 203.565,
+          "end": 203.915
+        },
+        {
+          "text": "live",
+          "start": 203.915,
+          "end": 204.19
+        },
+        {
+          "text": "pages",
+          "start": 204.19,
+          "end": 204.94
+        },
+        {
+          "text": ".",
+          "start": 204.94,
+          "end": 205.04
+        },
+        {
+          "text": "It",
+          "start": 205.04,
+          "end": 205.153
+        },
+        {
+          "text": "doesn't",
+          "start": 205.153,
+          "end": 205.403
+        },
+        {
+          "text": "know",
+          "start": 205.403,
+          "end": 205.565
+        },
+        {
+          "text": "how",
+          "start": 205.565,
+          "end": 205.728
+        },
+        {
+          "text": "to",
+          "start": 205.728,
+          "end": 205.84
+        },
+        {
+          "text": "seed",
+          "start": 205.84,
+          "end": 206.053
+        },
+        {
+          "text": "your",
+          "start": 206.053,
+          "end": 206.165
+        },
+        {
+          "text": "database",
+          "start": 206.165,
+          "end": 207.09
+        },
+        {
+          "text": ".",
+          "start": 207.09,
+          "end": 207.253
+        },
+        {
+          "text": "Add",
+          "start": 207.253,
+          "end": 207.552
+        },
+        {
+          "text": "setup",
+          "start": 207.552,
+          "end": 207.965
+        },
+        {
+          "text": "methods",
+          "start": 207.965,
+          "end": 208.365
+        },
+        {
+          "text": "manually",
+          "start": 208.365,
+          "end": 209.215
+        },
+        {
+          "text": ":",
+          "start": 209.215,
+          "end": 209.34
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h3",
+      "text": "Replace Hardcoded Values with Test Parameters",
+      "start": 209.66,
+      "end": 212.835,
+      "words": [
+        {
+          "text": "Replace",
+          "start": 209.935,
+          "end": 210.385
+        },
+        {
+          "text": "Hardcoded",
+          "start": 210.385,
+          "end": 210.91
+        },
+        {
+          "text": "Values",
+          "start": 210.91,
+          "end": 211.485
+        },
+        {
+          "text": "with",
+          "start": 211.485,
+          "end": 211.66
+        },
+        {
+          "text": "Test",
+          "start": 211.66,
+          "end": 211.935
+        },
+        {
+          "text": "Parameters",
+          "start": 211.935,
+          "end": 212.835
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "AI codegen generates hardcoded values. Parameterize them:",
+      "start": 213.28,
+      "end": 217.805,
+      "words": [
+        {
+          "text": "AI",
+          "start": 213.58,
+          "end": 213.968
+        },
+        {
+          "text": "codegen",
+          "start": 213.968,
+          "end": 214.405
+        },
+        {
+          "text": "generates",
+          "start": 214.405,
+          "end": 214.905
+        },
+        {
+          "text": "hardcoded",
+          "start": 214.905,
+          "end": 215.455
+        },
+        {
+          "text": "values",
+          "start": 215.455,
+          "end": 216.205
+        },
+        {
+          "text": ".",
+          "start": 216.205,
+          "end": 216.343
+        },
+        {
+          "text": "Parameterize",
+          "start": 216.343,
+          "end": 217.13
+        },
+        {
+          "text": "them",
+          "start": 217.13,
+          "end": 217.655
+        },
+        {
+          "text": ":",
+          "start": 217.655,
+          "end": 217.805
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h3",
+      "text": "Add Visual Regression Checks",
+      "start": 218.125,
+      "end": 220.05,
+      "words": [
+        {
+          "text": "Add",
+          "start": 218.425,
+          "end": 218.625
+        },
+        {
+          "text": "Visual",
+          "start": 218.625,
+          "end": 218.913
+        },
+        {
+          "text": "Regression",
+          "start": 218.913,
+          "end": 219.413
+        },
+        {
+          "text": "Checks",
+          "start": 219.413,
+          "end": 220.05
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "AI codegen doesn't generate visual assertions. Add them:",
+      "start": 220.52,
+      "end": 224.67,
+      "words": [
+        {
+          "text": "AI",
+          "start": 220.82,
+          "end": 221.208
+        },
+        {
+          "text": "codegen",
+          "start": 221.208,
+          "end": 221.695
+        },
+        {
+          "text": "doesn't",
+          "start": 221.695,
+          "end": 221.97
+        },
+        {
+          "text": "generate",
+          "start": 221.97,
+          "end": 222.42
+        },
+        {
+          "text": "visual",
+          "start": 222.42,
+          "end": 222.745
+        },
+        {
+          "text": "assertions",
+          "start": 222.745,
+          "end": 223.67
+        },
+        {
+          "text": ".",
+          "start": 223.67,
+          "end": 223.808
+        },
+        {
+          "text": "Add",
+          "start": 223.808,
+          "end": 224.033
+        },
+        {
+          "text": "them",
+          "start": 224.033,
+          "end": 224.52
+        },
+        {
+          "text": ":",
+          "start": 224.52,
+          "end": 224.67
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h2",
+      "text": "Step 4: AI Codegen + MCP , Two Sides of the Same Coin",
+      "start": 224.99,
+      "end": 229.665,
+      "words": [
+        {
+          "text": "Step",
+          "start": 225.265,
+          "end": 225.515
+        },
+        {
+          "text": "4",
+          "start": 225.515,
+          "end": 225.84
+        },
+        {
+          "text": ":",
+          "start": 225.84,
+          "end": 225.928
+        },
+        {
+          "text": "AI",
+          "start": 225.928,
+          "end": 226.29
+        },
+        {
+          "text": "Codegen",
+          "start": 226.29,
+          "end": 226.74
+        },
+        {
+          "text": "+",
+          "start": 226.74,
+          "end": 227.015
+        },
+        {
+          "text": "MCP",
+          "start": 227.015,
+          "end": 227.94
+        },
+        {
+          "text": ",",
+          "start": 227.94,
+          "end": 228.04
+        },
+        {
+          "text": "Two",
+          "start": 228.04,
+          "end": 228.253
+        },
+        {
+          "text": "Sides",
+          "start": 228.253,
+          "end": 228.577
+        },
+        {
+          "text": "of",
+          "start": 228.577,
+          "end": 228.653
+        },
+        {
+          "text": "the",
+          "start": 228.653,
+          "end": 228.74
+        },
+        {
+          "text": "Same",
+          "start": 228.74,
+          "end": 229.015
+        },
+        {
+          "text": "Coin",
+          "start": 229.015,
+          "end": 229.665
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "AI codegen and Playwright MCP (from the previous guide) solve different problems:",
+      "start": 230.11,
+      "end": 235.86,
+      "words": [
+        {
+          "text": "AI",
+          "start": 230.435,
+          "end": 230.823
+        },
+        {
+          "text": "codegen",
+          "start": 230.823,
+          "end": 231.36
+        },
+        {
+          "text": "and",
+          "start": 231.36,
+          "end": 231.485
+        },
+        {
+          "text": "Playwright",
+          "start": 231.485,
+          "end": 231.935
+        },
+        {
+          "text": "MCP",
+          "start": 231.935,
+          "end": 232.798
+        },
+        {
+          "text": "(",
+          "start": 232.798,
+          "end": 232.885
+        },
+        {
+          "text": "from",
+          "start": 232.885,
+          "end": 232.998
+        },
+        {
+          "text": "the",
+          "start": 232.998,
+          "end": 233.085
+        },
+        {
+          "text": "previous",
+          "start": 233.085,
+          "end": 233.51
+        },
+        {
+          "text": "guide",
+          "start": 233.51,
+          "end": 234.06
+        },
+        {
+          "text": ")",
+          "start": 234.06,
+          "end": 234.21
+        },
+        {
+          "text": "solve",
+          "start": 234.21,
+          "end": 234.585
+        },
+        {
+          "text": "different",
+          "start": 234.585,
+          "end": 234.885
+        },
+        {
+          "text": "problems",
+          "start": 234.885,
+          "end": 235.71
+        },
+        {
+          "text": ":",
+          "start": 235.71,
+          "end": 235.86
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "The Combined Workflow",
+      "start": 236.18,
+      "end": 237.78,
+      "words": [
+        {
+          "text": "The",
+          "start": 236.455,
+          "end": 236.53
+        },
+        {
+          "text": "Combined",
+          "start": 236.53,
+          "end": 237.08
+        },
+        {
+          "text": "Workflow",
+          "start": 237.08,
+          "end": 237.78
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "AI codegen creates the tests, MCP debugs them when they fail. Together, they form a self-improving test pipeline , the Phase 4 vision from the AI-Driven Test Strategy post.",
+      "start": 238.325,
+      "end": 250.675,
+      "words": [
+        {
+          "text": "AI",
+          "start": 238.625,
+          "end": 238.988
+        },
+        {
+          "text": "codegen",
+          "start": 238.988,
+          "end": 239.538
+        },
+        {
+          "text": "creates",
+          "start": 239.538,
+          "end": 239.95
+        },
+        {
+          "text": "the",
+          "start": 239.95,
+          "end": 240.05
+        },
+        {
+          "text": "tests",
+          "start": 240.05,
+          "end": 240.775
+        },
+        {
+          "text": ",",
+          "start": 240.775,
+          "end": 240.913
+        },
+        {
+          "text": "MCP",
+          "start": 240.913,
+          "end": 241.662
+        },
+        {
+          "text": "debugs",
+          "start": 241.662,
+          "end": 242.188
+        },
+        {
+          "text": "them",
+          "start": 242.188,
+          "end": 242.338
+        },
+        {
+          "text": "when",
+          "start": 242.338,
+          "end": 242.463
+        },
+        {
+          "text": "they",
+          "start": 242.463,
+          "end": 242.613
+        },
+        {
+          "text": "fail",
+          "start": 242.613,
+          "end": 243.45
+        },
+        {
+          "text": ".",
+          "start": 243.45,
+          "end": 243.588
+        },
+        {
+          "text": "Together",
+          "start": 243.588,
+          "end": 244.225
+        },
+        {
+          "text": ",",
+          "start": 244.225,
+          "end": 244.3
+        },
+        {
+          "text": "they",
+          "start": 244.3,
+          "end": 244.463
+        },
+        {
+          "text": "form",
+          "start": 244.463,
+          "end": 244.725
+        },
+        {
+          "text": "a",
+          "start": 244.725,
+          "end": 244.838
+        },
+        {
+          "text": "self-improving",
+          "start": 244.838,
+          "end": 245.625
+        },
+        {
+          "text": "test",
+          "start": 245.625,
+          "end": 245.9
+        },
+        {
+          "text": "pipeline",
+          "start": 245.9,
+          "end": 246.813
+        },
+        {
+          "text": ",",
+          "start": 246.813,
+          "end": 246.9
+        },
+        {
+          "text": "the",
+          "start": 246.9,
+          "end": 247.013
+        },
+        {
+          "text": "Phase",
+          "start": 247.013,
+          "end": 247.412
+        },
+        {
+          "text": "4",
+          "start": 247.412,
+          "end": 247.65
+        },
+        {
+          "text": "vision",
+          "start": 247.65,
+          "end": 248.05
+        },
+        {
+          "text": "from",
+          "start": 248.05,
+          "end": 248.188
+        },
+        {
+          "text": "the",
+          "start": 248.188,
+          "end": 248.338
+        },
+        {
+          "text": "AI-Driven",
+          "start": 248.338,
+          "end": 249.0
+        },
+        {
+          "text": "Test",
+          "start": 249.0,
+          "end": 249.325
+        },
+        {
+          "text": "Strategy",
+          "start": 249.325,
+          "end": 249.85
+        },
+        {
+          "text": "post",
+          "start": 249.85,
+          "end": 250.525
+        },
+        {
+          "text": ".",
+          "start": 250.525,
+          "end": 250.675
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h2",
+      "text": "Step 5: CI/CD Integration , Generated Tests in Your Pipeline",
+      "start": 250.995,
+      "end": 255.87,
+      "words": [
+        {
+          "text": "Step",
+          "start": 251.27,
+          "end": 251.52
+        },
+        {
+          "text": "5",
+          "start": 251.52,
+          "end": 252.02
+        },
+        {
+          "text": ":",
+          "start": 252.02,
+          "end": 252.145
+        },
+        {
+          "text": "CI/CD",
+          "start": 252.145,
+          "end": 252.908
+        },
+        {
+          "text": "Integration",
+          "start": 252.908,
+          "end": 253.807
+        },
+        {
+          "text": ",",
+          "start": 253.807,
+          "end": 253.933
+        },
+        {
+          "text": "Generated",
+          "start": 253.933,
+          "end": 254.533
+        },
+        {
+          "text": "Tests",
+          "start": 254.533,
+          "end": 254.883
+        },
+        {
+          "text": "in",
+          "start": 254.883,
+          "end": 254.957
+        },
+        {
+          "text": "Your",
+          "start": 254.957,
+          "end": 255.095
+        },
+        {
+          "text": "Pipeline",
+          "start": 255.095,
+          "end": 255.87
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "p",
+      "text": "AI-generated tests slot into any CI/CD pipeline. Here's a GitHub Actions example:",
+      "start": 256.365,
+      "end": 262.99,
+      "words": [
+        {
+          "text": "AI-generated",
+          "start": 256.665,
+          "end": 257.465
+        },
+        {
+          "text": "tests",
+          "start": 257.465,
+          "end": 258.015
+        },
+        {
+          "text": "slot",
+          "start": 258.015,
+          "end": 258.352
+        },
+        {
+          "text": "into",
+          "start": 258.352,
+          "end": 258.602
+        },
+        {
+          "text": "any",
+          "start": 258.602,
+          "end": 258.903
+        },
+        {
+          "text": "CI/CD",
+          "start": 258.903,
+          "end": 259.79
+        },
+        {
+          "text": "pipeline",
+          "start": 259.79,
+          "end": 260.665
+        },
+        {
+          "text": ".",
+          "start": 260.665,
+          "end": 260.827
+        },
+        {
+          "text": "Here's",
+          "start": 260.827,
+          "end": 261.128
+        },
+        {
+          "text": "a",
+          "start": 261.128,
+          "end": 261.202
+        },
+        {
+          "text": "GitHub",
+          "start": 261.202,
+          "end": 261.602
+        },
+        {
+          "text": "Actions",
+          "start": 261.602,
+          "end": 262.065
+        },
+        {
+          "text": "example",
+          "start": 262.065,
+          "end": 262.84
+        },
+        {
+          "text": ":",
+          "start": 262.84,
+          "end": 262.99
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "p",
+      "text": "Key point: the generated tests use GetByRole, GetByLabel, and GetByTestId , locators that are resilient to DOM changes. Your CI/CD pipeline won't break because a CSS class was renamed.",
+      "start": 263.31,
+      "end": 277.21,
+      "words": [
+        {
+          "text": "Key",
+          "start": 263.585,
+          "end": 263.772
+        },
+        {
+          "text": "point",
+          "start": 263.772,
+          "end": 264.435
+        },
+        {
+          "text": ":",
+          "start": 264.435,
+          "end": 264.535
+        },
+        {
+          "text": "the",
+          "start": 264.535,
+          "end": 264.673
+        },
+        {
+          "text": "generated",
+          "start": 264.673,
+          "end": 265.247
+        },
+        {
+          "text": "tests",
+          "start": 265.247,
+          "end": 265.722
+        },
+        {
+          "text": "use",
+          "start": 265.722,
+          "end": 265.997
+        },
+        {
+          "text": "GetByRole",
+          "start": 265.997,
+          "end": 266.835
+        },
+        {
+          "text": ",",
+          "start": 266.835,
+          "end": 266.935
+        },
+        {
+          "text": "GetByLabel",
+          "start": 266.935,
+          "end": 267.785
+        },
+        {
+          "text": ",",
+          "start": 267.785,
+          "end": 267.86
+        },
+        {
+          "text": "and",
+          "start": 267.86,
+          "end": 267.985
+        },
+        {
+          "text": "GetByTestId",
+          "start": 267.985,
+          "end": 269.198
+        },
+        {
+          "text": ",",
+          "start": 269.198,
+          "end": 269.347
+        },
+        {
+          "text": "locators",
+          "start": 269.347,
+          "end": 269.96
+        },
+        {
+          "text": "that",
+          "start": 269.96,
+          "end": 270.073
+        },
+        {
+          "text": "are",
+          "start": 270.073,
+          "end": 270.16
+        },
+        {
+          "text": "resilient",
+          "start": 270.16,
+          "end": 270.735
+        },
+        {
+          "text": "to",
+          "start": 270.735,
+          "end": 270.86
+        },
+        {
+          "text": "DOM",
+          "start": 270.86,
+          "end": 271.135
+        },
+        {
+          "text": "changes",
+          "start": 271.135,
+          "end": 272.11
+        },
+        {
+          "text": ".",
+          "start": 272.11,
+          "end": 272.247
+        },
+        {
+          "text": "Your",
+          "start": 272.247,
+          "end": 272.46
+        },
+        {
+          "text": "CI/CD",
+          "start": 272.46,
+          "end": 273.385
+        },
+        {
+          "text": "pipeline",
+          "start": 273.385,
+          "end": 273.935
+        },
+        {
+          "text": "won't",
+          "start": 273.935,
+          "end": 274.135
+        },
+        {
+          "text": "break",
+          "start": 274.135,
+          "end": 274.673
+        },
+        {
+          "text": "because",
+          "start": 274.673,
+          "end": 274.96
+        },
+        {
+          "text": "a",
+          "start": 274.96,
+          "end": 275.085
+        },
+        {
+          "text": "CSS",
+          "start": 275.085,
+          "end": 275.76
+        },
+        {
+          "text": "class",
+          "start": 275.76,
+          "end": 276.11
+        },
+        {
+          "text": "was",
+          "start": 276.11,
+          "end": 276.26
+        },
+        {
+          "text": "renamed",
+          "start": 276.26,
+          "end": 277.06
+        },
+        {
+          "text": ".",
+          "start": 277.06,
+          "end": 277.21
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h2",
+      "text": "Where Existing Posts Fit",
+      "start": 277.53,
+      "end": 279.305,
+      "words": [
+        {
+          "text": "Where",
+          "start": 277.805,
+          "end": 277.917
+        },
+        {
+          "text": "Existing",
+          "start": 277.917,
+          "end": 278.355
+        },
+        {
+          "text": "Posts",
+          "start": 278.355,
+          "end": 278.767
+        },
+        {
+          "text": "Fit",
+          "start": 278.767,
+          "end": 279.305
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "p",
+      "text": "This post completes the 2026 Playwright trilogy:",
+      "start": 279.75,
+      "end": 283.5,
+      "words": [
+        {
+          "text": "This",
+          "start": 280.025,
+          "end": 280.237
+        },
+        {
+          "text": "post",
+          "start": 280.237,
+          "end": 280.675
+        },
+        {
+          "text": "completes",
+          "start": 280.675,
+          "end": 281.113
+        },
+        {
+          "text": "the",
+          "start": 281.113,
+          "end": 281.2
+        },
+        {
+          "text": "2026",
+          "start": 281.2,
+          "end": 282.15
+        },
+        {
+          "text": "Playwright",
+          "start": 282.15,
+          "end": 282.575
+        },
+        {
+          "text": "trilogy",
+          "start": 282.575,
+          "end": 283.35
+        },
+        {
+          "text": ":",
+          "start": 283.35,
+          "end": 283.5
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "h2",
+      "text": "When to Use AI Codegen vs. Alternatives",
+      "start": 283.82,
+      "end": 286.92,
+      "words": [
+        {
+          "text": "When",
+          "start": 284.095,
+          "end": 284.22
+        },
+        {
+          "text": "to",
+          "start": 284.22,
+          "end": 284.32
+        },
+        {
+          "text": "Use",
+          "start": 284.32,
+          "end": 284.558
+        },
+        {
+          "text": "AI",
+          "start": 284.558,
+          "end": 285.083
+        },
+        {
+          "text": "Codegen",
+          "start": 285.083,
+          "end": 285.57
+        },
+        {
+          "text": "vs.",
+          "start": 285.57,
+          "end": 285.982
+        },
+        {
+          "text": "Alternatives",
+          "start": 285.982,
+          "end": 286.92
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 287.365,
+      "end": 289.19,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 287.665,
+          "end": 288.165
+        },
+        {
+          "text": "and",
+          "start": 288.165,
+          "end": 288.29
+        },
+        {
+          "text": "Further",
+          "start": 288.29,
+          "end": 288.565
+        },
+        {
+          "text": "Reading",
+          "start": 288.565,
+          "end": 289.19
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Playwright Codegen Documentation , official guide to the test generator, including --ai mode",
+      "start": 289.635,
+      "end": 295.585,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 289.885,
+          "end": 290.31
+        },
+        {
+          "text": "Codegen",
+          "start": 290.31,
+          "end": 290.71
+        },
+        {
+          "text": "Documentation",
+          "start": 290.71,
+          "end": 291.848
+        },
+        {
+          "text": ",",
+          "start": 291.848,
+          "end": 291.935
+        },
+        {
+          "text": "official",
+          "start": 291.935,
+          "end": 292.385
+        },
+        {
+          "text": "guide",
+          "start": 292.385,
+          "end": 292.71
+        },
+        {
+          "text": "to",
+          "start": 292.71,
+          "end": 292.797
+        },
+        {
+          "text": "the",
+          "start": 292.797,
+          "end": 292.885
+        },
+        {
+          "text": "test",
+          "start": 292.885,
+          "end": 293.16
+        },
+        {
+          "text": "generator",
+          "start": 293.16,
+          "end": 293.86
+        },
+        {
+          "text": ",",
+          "start": 293.86,
+          "end": 293.96
+        },
+        {
+          "text": "including",
+          "start": 293.96,
+          "end": 294.51
+        },
+        {
+          "text": "--ai",
+          "start": 294.51,
+          "end": 294.985
+        },
+        {
+          "text": "mode",
+          "start": 294.985,
+          "end": 295.585
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Playwright .NET API Reference , C# API docs for the locator and assertion patterns used throughout",
+      "start": 296.055,
+      "end": 302.68,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 296.305,
+          "end": 296.78
+        },
+        {
+          "text": ".",
+          "start": 296.78,
+          "end": 296.855
+        },
+        {
+          "text": "NET",
+          "start": 296.855,
+          "end": 297.055
+        },
+        {
+          "text": "API",
+          "start": 297.055,
+          "end": 297.555
+        },
+        {
+          "text": "Reference",
+          "start": 297.555,
+          "end": 298.367
+        },
+        {
+          "text": ",",
+          "start": 298.367,
+          "end": 298.455
+        },
+        {
+          "text": "C#",
+          "start": 298.455,
+          "end": 298.917
+        },
+        {
+          "text": "API",
+          "start": 298.917,
+          "end": 299.48
+        },
+        {
+          "text": "docs",
+          "start": 299.48,
+          "end": 299.88
+        },
+        {
+          "text": "for",
+          "start": 299.88,
+          "end": 299.993
+        },
+        {
+          "text": "the",
+          "start": 299.993,
+          "end": 300.105
+        },
+        {
+          "text": "locator",
+          "start": 300.105,
+          "end": 300.655
+        },
+        {
+          "text": "and",
+          "start": 300.655,
+          "end": 300.768
+        },
+        {
+          "text": "assertion",
+          "start": 300.768,
+          "end": 301.23
+        },
+        {
+          "text": "patterns",
+          "start": 301.23,
+          "end": 301.717
+        },
+        {
+          "text": "used",
+          "start": 301.717,
+          "end": 301.98
+        },
+        {
+          "text": "throughout",
+          "start": 301.98,
+          "end": 302.68
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "Model Context Protocol Specification , the MCP standard that enables the combined AI codegen + MCP debugging workflow in Step 4",
+      "start": 303.125,
+      "end": 313.75,
+      "words": [
+        {
+          "text": "Model",
+          "start": 303.425,
+          "end": 303.775
+        },
+        {
+          "text": "Context",
+          "start": 303.775,
+          "end": 304.35
+        },
+        {
+          "text": "Protocol",
+          "start": 304.35,
+          "end": 304.875
+        },
+        {
+          "text": "Specification",
+          "start": 304.875,
+          "end": 306.162
+        },
+        {
+          "text": ",",
+          "start": 306.162,
+          "end": 306.25
+        },
+        {
+          "text": "the",
+          "start": 306.25,
+          "end": 306.412
+        },
+        {
+          "text": "MCP",
+          "start": 306.412,
+          "end": 307.112
+        },
+        {
+          "text": "standard",
+          "start": 307.112,
+          "end": 307.813
+        },
+        {
+          "text": "that",
+          "start": 307.813,
+          "end": 307.975
+        },
+        {
+          "text": "enables",
+          "start": 307.975,
+          "end": 308.5
+        },
+        {
+          "text": "the",
+          "start": 308.5,
+          "end": 308.6
+        },
+        {
+          "text": "combined",
+          "start": 308.6,
+          "end": 309.188
+        },
+        {
+          "text": "AI",
+          "start": 309.188,
+          "end": 309.6
+        },
+        {
+          "text": "codegen",
+          "start": 309.6,
+          "end": 310.425
+        },
+        {
+          "text": "+",
+          "start": 310.425,
+          "end": 310.762
+        },
+        {
+          "text": "MCP",
+          "start": 310.762,
+          "end": 311.575
+        },
+        {
+          "text": "debugging",
+          "start": 311.575,
+          "end": 312.125
+        },
+        {
+          "text": "workflow",
+          "start": 312.125,
+          "end": 312.675
+        },
+        {
+          "text": "in",
+          "start": 312.675,
+          "end": 312.825
+        },
+        {
+          "text": "Step",
+          "start": 312.825,
+          "end": 313.125
+        },
+        {
+          "text": "4",
+          "start": 313.125,
+          "end": 313.75
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Angie Jones / mcp-selenium , the original Selenium MCP server for comparison with Playwright's native @playwright/mcp",
+      "start": 314.27,
+      "end": 324.12,
+      "words": [
+        {
+          "text": "Angie",
+          "start": 314.57,
+          "end": 314.883
+        },
+        {
+          "text": "Jones",
+          "start": 314.883,
+          "end": 315.433
+        },
+        {
+          "text": "/",
+          "start": 315.433,
+          "end": 315.895
+        },
+        {
+          "text": "mcp-selenium",
+          "start": 315.895,
+          "end": 317.383
+        },
+        {
+          "text": ",",
+          "start": 317.383,
+          "end": 317.47
+        },
+        {
+          "text": "the",
+          "start": 317.47,
+          "end": 317.62
+        },
+        {
+          "text": "original",
+          "start": 317.62,
+          "end": 318.07
+        },
+        {
+          "text": "Selenium",
+          "start": 318.07,
+          "end": 318.795
+        },
+        {
+          "text": "MCP",
+          "start": 318.795,
+          "end": 319.582
+        },
+        {
+          "text": "server",
+          "start": 319.582,
+          "end": 319.97
+        },
+        {
+          "text": "for",
+          "start": 319.97,
+          "end": 320.095
+        },
+        {
+          "text": "comparison",
+          "start": 320.095,
+          "end": 320.707
+        },
+        {
+          "text": "with",
+          "start": 320.707,
+          "end": 320.87
+        },
+        {
+          "text": "Playwright's",
+          "start": 320.87,
+          "end": 321.633
+        },
+        {
+          "text": "native",
+          "start": 321.633,
+          "end": 322.07
+        },
+        {
+          "text": "@playwright/mcp",
+          "start": 322.07,
+          "end": 324.12
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h2",
+      "text": "What to Do Next",
+      "start": 324.515,
+      "end": 325.915,
+      "words": [
+        {
+          "text": "What",
+          "start": 324.84,
+          "end": 324.99
+        },
+        {
+          "text": "to",
+          "start": 324.99,
+          "end": 325.09
+        },
+        {
+          "text": "Do",
+          "start": 325.09,
+          "end": 325.29
+        },
+        {
+          "text": "Next",
+          "start": 325.29,
+          "end": 325.915
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Try basic AI codegen right now. Run npx playwright codegen --ai against any public website and type \"Log in, verify the page title contains Dashboard, then click the first item in the list.\" Watch the semantic locators appear in real time.",
+      "start": 326.41,
+      "end": 343.31,
+      "words": [
+        {
+          "text": "Try",
+          "start": 326.685,
+          "end": 327.023
+        },
+        {
+          "text": "basic",
+          "start": 327.023,
+          "end": 327.472
+        },
+        {
+          "text": "AI",
+          "start": 327.472,
+          "end": 327.922
+        },
+        {
+          "text": "codegen",
+          "start": 327.922,
+          "end": 328.41
+        },
+        {
+          "text": "right",
+          "start": 328.41,
+          "end": 328.598
+        },
+        {
+          "text": "now",
+          "start": 328.598,
+          "end": 329.285
+        },
+        {
+          "text": ".",
+          "start": 329.285,
+          "end": 329.46
+        },
+        {
+          "text": "Run",
+          "start": 329.46,
+          "end": 329.76
+        },
+        {
+          "text": "npx",
+          "start": 329.76,
+          "end": 330.36
+        },
+        {
+          "text": "playwright",
+          "start": 330.36,
+          "end": 330.798
+        },
+        {
+          "text": "codegen",
+          "start": 330.798,
+          "end": 331.26
+        },
+        {
+          "text": "ai",
+          "start": 331.26,
+          "end": 331.748
+        },
+        {
+          "text": "against",
+          "start": 331.748,
+          "end": 332.135
+        },
+        {
+          "text": "any",
+          "start": 332.135,
+          "end": 332.335
+        },
+        {
+          "text": "public",
+          "start": 332.335,
+          "end": 332.71
+        },
+        {
+          "text": "website",
+          "start": 332.71,
+          "end": 333.21
+        },
+        {
+          "text": "and",
+          "start": 333.21,
+          "end": 333.348
+        },
+        {
+          "text": "type",
+          "start": 333.348,
+          "end": 333.947
+        },
+        {
+          "text": "\"",
+          "start": 333.947,
+          "end": 334.06
+        },
+        {
+          "text": "Log",
+          "start": 334.06,
+          "end": 334.348
+        },
+        {
+          "text": "in",
+          "start": 334.348,
+          "end": 334.785
+        },
+        {
+          "text": ",",
+          "start": 334.785,
+          "end": 334.922
+        },
+        {
+          "text": "verify",
+          "start": 334.922,
+          "end": 335.41
+        },
+        {
+          "text": "the",
+          "start": 335.41,
+          "end": 335.51
+        },
+        {
+          "text": "page",
+          "start": 335.51,
+          "end": 335.86
+        },
+        {
+          "text": "title",
+          "start": 335.86,
+          "end": 336.235
+        },
+        {
+          "text": "contains",
+          "start": 336.235,
+          "end": 336.735
+        },
+        {
+          "text": "Dashboard",
+          "start": 336.735,
+          "end": 337.585
+        },
+        {
+          "text": ",",
+          "start": 337.585,
+          "end": 337.685
+        },
+        {
+          "text": "then",
+          "start": 337.685,
+          "end": 337.922
+        },
+        {
+          "text": "click",
+          "start": 337.922,
+          "end": 338.185
+        },
+        {
+          "text": "the",
+          "start": 338.185,
+          "end": 338.297
+        },
+        {
+          "text": "first",
+          "start": 338.297,
+          "end": 338.585
+        },
+        {
+          "text": "item",
+          "start": 338.585,
+          "end": 338.885
+        },
+        {
+          "text": "in",
+          "start": 338.885,
+          "end": 338.972
+        },
+        {
+          "text": "the",
+          "start": 338.972,
+          "end": 339.06
+        },
+        {
+          "text": "list",
+          "start": 339.06,
+          "end": 339.91
+        },
+        {
+          "text": ".",
+          "start": 339.91,
+          "end": 340.06
+        },
+        {
+          "text": "\"",
+          "start": 340.06,
+          "end": 340.123
+        },
+        {
+          "text": "Watch",
+          "start": 340.123,
+          "end": 340.46
+        },
+        {
+          "text": "the",
+          "start": 340.46,
+          "end": 340.56
+        },
+        {
+          "text": "semantic",
+          "start": 340.56,
+          "end": 341.085
+        },
+        {
+          "text": "locators",
+          "start": 341.085,
+          "end": 341.635
+        },
+        {
+          "text": "appear",
+          "start": 341.635,
+          "end": 342.035
+        },
+        {
+          "text": "in",
+          "start": 342.035,
+          "end": 342.197
+        },
+        {
+          "text": "real",
+          "start": 342.197,
+          "end": 342.485
+        },
+        {
+          "text": "time",
+          "start": 342.485,
+          "end": 343.16
+        },
+        {
+          "text": ".",
+          "start": 343.16,
+          "end": 343.31
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "Feed a real requirements doc. Take a Confluence page or PRD you already have, split it into scenarios, and feed each section to codegen --ai. You'll have a test suite in under 30 minutes.",
+      "start": 343.63,
+      "end": 356.03,
+      "words": [
+        {
+          "text": "Feed",
+          "start": 343.93,
+          "end": 344.142
+        },
+        {
+          "text": "a",
+          "start": 344.142,
+          "end": 344.205
+        },
+        {
+          "text": "real",
+          "start": 344.205,
+          "end": 344.48
+        },
+        {
+          "text": "requirements",
+          "start": 344.48,
+          "end": 345.13
+        },
+        {
+          "text": "doc",
+          "start": 345.13,
+          "end": 345.83
+        },
+        {
+          "text": ".",
+          "start": 345.83,
+          "end": 345.942
+        },
+        {
+          "text": "Take",
+          "start": 345.942,
+          "end": 346.142
+        },
+        {
+          "text": "a",
+          "start": 346.142,
+          "end": 346.205
+        },
+        {
+          "text": "Confluence",
+          "start": 346.205,
+          "end": 346.78
+        },
+        {
+          "text": "page",
+          "start": 346.78,
+          "end": 347.242
+        },
+        {
+          "text": "or",
+          "start": 347.242,
+          "end": 347.418
+        },
+        {
+          "text": "PRD",
+          "start": 347.418,
+          "end": 348.005
+        },
+        {
+          "text": "you",
+          "start": 348.005,
+          "end": 348.13
+        },
+        {
+          "text": "already",
+          "start": 348.13,
+          "end": 348.505
+        },
+        {
+          "text": "have",
+          "start": 348.505,
+          "end": 349.03
+        },
+        {
+          "text": ",",
+          "start": 349.03,
+          "end": 349.155
+        },
+        {
+          "text": "split",
+          "start": 349.155,
+          "end": 349.442
+        },
+        {
+          "text": "it",
+          "start": 349.442,
+          "end": 349.517
+        },
+        {
+          "text": "into",
+          "start": 349.517,
+          "end": 349.73
+        },
+        {
+          "text": "scenarios",
+          "start": 349.73,
+          "end": 350.53
+        },
+        {
+          "text": ",",
+          "start": 350.53,
+          "end": 350.605
+        },
+        {
+          "text": "and",
+          "start": 350.605,
+          "end": 350.755
+        },
+        {
+          "text": "feed",
+          "start": 350.755,
+          "end": 351.055
+        },
+        {
+          "text": "each",
+          "start": 351.055,
+          "end": 351.28
+        },
+        {
+          "text": "section",
+          "start": 351.28,
+          "end": 351.73
+        },
+        {
+          "text": "to",
+          "start": 351.73,
+          "end": 351.855
+        },
+        {
+          "text": "codegen",
+          "start": 351.855,
+          "end": 352.305
+        },
+        {
+          "text": "--ai",
+          "start": 352.305,
+          "end": 353.105
+        },
+        {
+          "text": ".",
+          "start": 353.105,
+          "end": 353.267
+        },
+        {
+          "text": "You'll",
+          "start": 353.267,
+          "end": 353.43
+        },
+        {
+          "text": "have",
+          "start": 353.43,
+          "end": 353.592
+        },
+        {
+          "text": "a",
+          "start": 353.592,
+          "end": 353.668
+        },
+        {
+          "text": "test",
+          "start": 353.668,
+          "end": 354.092
+        },
+        {
+          "text": "suite",
+          "start": 354.092,
+          "end": 354.53
+        },
+        {
+          "text": "in",
+          "start": 354.53,
+          "end": 354.617
+        },
+        {
+          "text": "under",
+          "start": 354.617,
+          "end": 354.867
+        },
+        {
+          "text": "30",
+          "start": 354.867,
+          "end": 355.205
+        },
+        {
+          "text": "minutes",
+          "start": 355.205,
+          "end": 355.88
+        },
+        {
+          "text": ".",
+          "start": 355.88,
+          "end": 356.03
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "Combine with MCP for debugging. When an AI-generated test fails in CI, spin up Playwright MCP to investigate the failure interactively instead of staring at a trace file.",
+      "start": 356.35,
+      "end": 369.2,
+      "words": [
+        {
+          "text": "Combine",
+          "start": 356.6,
+          "end": 357.075
+        },
+        {
+          "text": "with",
+          "start": 357.075,
+          "end": 357.262
+        },
+        {
+          "text": "MCP",
+          "start": 357.262,
+          "end": 358.1
+        },
+        {
+          "text": "for",
+          "start": 358.1,
+          "end": 358.225
+        },
+        {
+          "text": "debugging",
+          "start": 358.225,
+          "end": 359.175
+        },
+        {
+          "text": ".",
+          "start": 359.175,
+          "end": 359.275
+        },
+        {
+          "text": "When",
+          "start": 359.275,
+          "end": 359.412
+        },
+        {
+          "text": "an",
+          "start": 359.412,
+          "end": 359.537
+        },
+        {
+          "text": "AI-generated",
+          "start": 359.537,
+          "end": 360.488
+        },
+        {
+          "text": "test",
+          "start": 360.488,
+          "end": 360.937
+        },
+        {
+          "text": "fails",
+          "start": 360.937,
+          "end": 361.375
+        },
+        {
+          "text": "in",
+          "start": 361.375,
+          "end": 361.537
+        },
+        {
+          "text": "CI",
+          "start": 361.537,
+          "end": 362.275
+        },
+        {
+          "text": ",",
+          "start": 362.275,
+          "end": 362.45
+        },
+        {
+          "text": "spin",
+          "start": 362.45,
+          "end": 362.762
+        },
+        {
+          "text": "up",
+          "start": 362.762,
+          "end": 362.962
+        },
+        {
+          "text": "Playwright",
+          "start": 362.962,
+          "end": 363.437
+        },
+        {
+          "text": "MCP",
+          "start": 363.437,
+          "end": 364.45
+        },
+        {
+          "text": "to",
+          "start": 364.45,
+          "end": 364.625
+        },
+        {
+          "text": "investigate",
+          "start": 364.625,
+          "end": 365.262
+        },
+        {
+          "text": "the",
+          "start": 365.262,
+          "end": 365.363
+        },
+        {
+          "text": "failure",
+          "start": 365.363,
+          "end": 365.85
+        },
+        {
+          "text": "interactively",
+          "start": 365.85,
+          "end": 366.925
+        },
+        {
+          "text": "instead",
+          "start": 366.925,
+          "end": 367.287
+        },
+        {
+          "text": "of",
+          "start": 367.287,
+          "end": 367.412
+        },
+        {
+          "text": "staring",
+          "start": 367.412,
+          "end": 367.9
+        },
+        {
+          "text": "at",
+          "start": 367.9,
+          "end": 367.988
+        },
+        {
+          "text": "a",
+          "start": 367.988,
+          "end": 368.05
+        },
+        {
+          "text": "trace",
+          "start": 368.05,
+          "end": 368.4
+        },
+        {
+          "text": "file",
+          "start": 368.4,
+          "end": 369.05
+        },
+        {
+          "text": ".",
+          "start": 369.05,
+          "end": 369.2
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "Compare to Selenium. Read the BiDi vs CDP comparison to understand why Playwright's native CDP architecture enables AI codegen while Selenium's WebDriver layer makes it harder.",
+      "start": 369.52,
+      "end": 382.97,
+      "words": [
+        {
+          "text": "Compare",
+          "start": 369.77,
+          "end": 370.145
+        },
+        {
+          "text": "to",
+          "start": 370.145,
+          "end": 370.27
+        },
+        {
+          "text": "Selenium",
+          "start": 370.27,
+          "end": 371.27
+        },
+        {
+          "text": ".",
+          "start": 371.27,
+          "end": 371.445
+        },
+        {
+          "text": "Read",
+          "start": 371.445,
+          "end": 371.77
+        },
+        {
+          "text": "the",
+          "start": 371.77,
+          "end": 371.87
+        },
+        {
+          "text": "BiDi",
+          "start": 371.87,
+          "end": 372.457
+        },
+        {
+          "text": "vs",
+          "start": 372.457,
+          "end": 372.933
+        },
+        {
+          "text": "CDP",
+          "start": 372.933,
+          "end": 373.495
+        },
+        {
+          "text": "comparison",
+          "start": 373.495,
+          "end": 374.495
+        },
+        {
+          "text": "to",
+          "start": 374.495,
+          "end": 374.645
+        },
+        {
+          "text": "understand",
+          "start": 374.645,
+          "end": 375.32
+        },
+        {
+          "text": "why",
+          "start": 375.32,
+          "end": 375.533
+        },
+        {
+          "text": "Playwright's",
+          "start": 375.533,
+          "end": 376.07
+        },
+        {
+          "text": "native",
+          "start": 376.07,
+          "end": 376.482
+        },
+        {
+          "text": "CDP",
+          "start": 376.482,
+          "end": 377.045
+        },
+        {
+          "text": "architecture",
+          "start": 377.045,
+          "end": 378.045
+        },
+        {
+          "text": "enables",
+          "start": 378.045,
+          "end": 378.62
+        },
+        {
+          "text": "AI",
+          "start": 378.62,
+          "end": 379.082
+        },
+        {
+          "text": "codegen",
+          "start": 379.082,
+          "end": 379.908
+        },
+        {
+          "text": "while",
+          "start": 379.908,
+          "end": 380.158
+        },
+        {
+          "text": "Selenium's",
+          "start": 380.158,
+          "end": 380.832
+        },
+        {
+          "text": "WebDriver",
+          "start": 380.832,
+          "end": 381.42
+        },
+        {
+          "text": "layer",
+          "start": 381.42,
+          "end": 381.82
+        },
+        {
+          "text": "makes",
+          "start": 381.82,
+          "end": 382.058
+        },
+        {
+          "text": "it",
+          "start": 382.058,
+          "end": 382.145
+        },
+        {
+          "text": "harder",
+          "start": 382.145,
+          "end": 382.82
+        },
+        {
+          "text": ".",
+          "start": 382.82,
+          "end": 382.97
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "Subscribe to this blog's feed.xml , next up: self-healing test suites that automatically fix broken locators in CI/CD using the same intent-based AI that powers codegen.",
+      "start": 383.29,
+      "end": 396.165,
+      "words": [
+        {
+          "text": "Subscribe",
+          "start": 383.565,
+          "end": 384.065
+        },
+        {
+          "text": "to",
+          "start": 384.065,
+          "end": 384.153
+        },
+        {
+          "text": "this",
+          "start": 384.153,
+          "end": 384.34
+        },
+        {
+          "text": "blog's",
+          "start": 384.34,
+          "end": 384.715
+        },
+        {
+          "text": "feed.xml",
+          "start": 384.715,
+          "end": 386.29
+        },
+        {
+          "text": ",",
+          "start": 386.29,
+          "end": 386.365
+        },
+        {
+          "text": "next",
+          "start": 386.365,
+          "end": 386.652
+        },
+        {
+          "text": "up",
+          "start": 386.652,
+          "end": 387.24
+        },
+        {
+          "text": ":",
+          "start": 387.24,
+          "end": 387.39
+        },
+        {
+          "text": "self-healing",
+          "start": 387.39,
+          "end": 388.027
+        },
+        {
+          "text": "test",
+          "start": 388.027,
+          "end": 388.478
+        },
+        {
+          "text": "suites",
+          "start": 388.478,
+          "end": 388.815
+        },
+        {
+          "text": "that",
+          "start": 388.815,
+          "end": 389.003
+        },
+        {
+          "text": "automatically",
+          "start": 389.003,
+          "end": 389.765
+        },
+        {
+          "text": "fix",
+          "start": 389.765,
+          "end": 390.065
+        },
+        {
+          "text": "broken",
+          "start": 390.065,
+          "end": 390.465
+        },
+        {
+          "text": "locators",
+          "start": 390.465,
+          "end": 391.178
+        },
+        {
+          "text": "in",
+          "start": 391.178,
+          "end": 391.352
+        },
+        {
+          "text": "CI/CD",
+          "start": 391.352,
+          "end": 392.515
+        },
+        {
+          "text": "using",
+          "start": 392.515,
+          "end": 392.827
+        },
+        {
+          "text": "the",
+          "start": 392.827,
+          "end": 392.952
+        },
+        {
+          "text": "same",
+          "start": 392.952,
+          "end": 393.315
+        },
+        {
+          "text": "intent-based",
+          "start": 393.315,
+          "end": 394.102
+        },
+        {
+          "text": "AI",
+          "start": 394.102,
+          "end": 394.615
+        },
+        {
+          "text": "that",
+          "start": 394.615,
+          "end": 394.778
+        },
+        {
+          "text": "powers",
+          "start": 394.778,
+          "end": 395.215
+        },
+        {
+          "text": "codegen",
+          "start": 395.215,
+          "end": 396.015
+        },
+        {
+          "text": ".",
+          "start": 396.015,
+          "end": 396.165
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "p",
+      "text": "See also: Playwright vs Selenium in 2026 (Jun 2026) , the speed, reliability, and ecosystem comparison that explains why Playwright leads on AI-native features like codegen. · XPath for Test Automation (Jul 2026) , the story-mode article with §12 complex XPath and CSS for SDETs (the locator patterns AI codegen generates that you should review before merging , SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS :has()/:is()/:where())..",
+      "start": 396.485,
+      "end": 432.91,
+      "words": [
+        {
+          "text": "See",
+          "start": 396.76,
+          "end": 396.935
+        },
+        {
+          "text": "also",
+          "start": 396.935,
+          "end": 397.61
+        },
+        {
+          "text": ":",
+          "start": 397.61,
+          "end": 397.772
+        },
+        {
+          "text": "Playwright",
+          "start": 397.772,
+          "end": 398.21
+        },
+        {
+          "text": "vs",
+          "start": 398.21,
+          "end": 398.46
+        },
+        {
+          "text": "Selenium",
+          "start": 398.46,
+          "end": 399.06
+        },
+        {
+          "text": "in",
+          "start": 399.06,
+          "end": 399.185
+        },
+        {
+          "text": "2026",
+          "start": 399.185,
+          "end": 400.61
+        },
+        {
+          "text": "(",
+          "start": 400.61,
+          "end": 400.735
+        },
+        {
+          "text": "Jun",
+          "start": 400.735,
+          "end": 401.06
+        },
+        {
+          "text": "2026",
+          "start": 401.06,
+          "end": 402.41
+        },
+        {
+          "text": ")",
+          "start": 402.41,
+          "end": 402.523
+        },
+        {
+          "text": ",",
+          "start": 402.523,
+          "end": 402.585
+        },
+        {
+          "text": "the",
+          "start": 402.585,
+          "end": 402.735
+        },
+        {
+          "text": "speed",
+          "start": 402.735,
+          "end": 403.41
+        },
+        {
+          "text": ",",
+          "start": 403.41,
+          "end": 403.535
+        },
+        {
+          "text": "reliability",
+          "start": 403.535,
+          "end": 404.435
+        },
+        {
+          "text": ",",
+          "start": 404.435,
+          "end": 404.51
+        },
+        {
+          "text": "and",
+          "start": 404.51,
+          "end": 404.648
+        },
+        {
+          "text": "ecosystem",
+          "start": 404.648,
+          "end": 405.31
+        },
+        {
+          "text": "comparison",
+          "start": 405.31,
+          "end": 406.135
+        },
+        {
+          "text": "that",
+          "start": 406.135,
+          "end": 406.273
+        },
+        {
+          "text": "explains",
+          "start": 406.273,
+          "end": 406.885
+        },
+        {
+          "text": "why",
+          "start": 406.885,
+          "end": 407.098
+        },
+        {
+          "text": "Playwright",
+          "start": 407.098,
+          "end": 407.535
+        },
+        {
+          "text": "leads",
+          "start": 407.535,
+          "end": 407.91
+        },
+        {
+          "text": "on",
+          "start": 407.91,
+          "end": 408.098
+        },
+        {
+          "text": "AI-native",
+          "start": 408.098,
+          "end": 408.71
+        },
+        {
+          "text": "features",
+          "start": 408.71,
+          "end": 409.185
+        },
+        {
+          "text": "like",
+          "start": 409.185,
+          "end": 409.41
+        },
+        {
+          "text": "codegen",
+          "start": 409.41,
+          "end": 410.235
+        },
+        {
+          "text": ".",
+          "start": 410.235,
+          "end": 410.385
+        },
+        {
+          "text": "XPath",
+          "start": 410.81,
+          "end": 411.273
+        },
+        {
+          "text": "for",
+          "start": 411.273,
+          "end": 411.435
+        },
+        {
+          "text": "Test",
+          "start": 411.435,
+          "end": 411.685
+        },
+        {
+          "text": "Automation",
+          "start": 411.685,
+          "end": 412.535
+        },
+        {
+          "text": "(",
+          "start": 412.535,
+          "end": 412.61
+        },
+        {
+          "text": "Jul",
+          "start": 412.61,
+          "end": 412.848
+        },
+        {
+          "text": "2026",
+          "start": 412.848,
+          "end": 414.06
+        },
+        {
+          "text": ")",
+          "start": 414.06,
+          "end": 414.11
+        },
+        {
+          "text": ",",
+          "start": 414.11,
+          "end": 414.173
+        },
+        {
+          "text": "the",
+          "start": 414.173,
+          "end": 414.298
+        },
+        {
+          "text": "story-mode",
+          "start": 414.298,
+          "end": 414.822
+        },
+        {
+          "text": "article",
+          "start": 414.822,
+          "end": 415.21
+        },
+        {
+          "text": "with",
+          "start": 415.21,
+          "end": 415.36
+        },
+        {
+          "text": "§12",
+          "start": 415.36,
+          "end": 416.21
+        },
+        {
+          "text": "complex",
+          "start": 416.21,
+          "end": 416.76
+        },
+        {
+          "text": "XPath",
+          "start": 416.76,
+          "end": 417.298
+        },
+        {
+          "text": "and",
+          "start": 417.298,
+          "end": 417.485
+        },
+        {
+          "text": "CSS",
+          "start": 417.485,
+          "end": 418.123
+        },
+        {
+          "text": "for",
+          "start": 418.123,
+          "end": 418.31
+        },
+        {
+          "text": "SDETs",
+          "start": 418.31,
+          "end": 419.648
+        },
+        {
+          "text": "(",
+          "start": 419.648,
+          "end": 419.685
+        },
+        {
+          "text": "the",
+          "start": 419.685,
+          "end": 419.785
+        },
+        {
+          "text": "locator",
+          "start": 419.785,
+          "end": 420.247
+        },
+        {
+          "text": "patterns",
+          "start": 420.247,
+          "end": 420.773
+        },
+        {
+          "text": "AI",
+          "start": 420.773,
+          "end": 421.148
+        },
+        {
+          "text": "codegen",
+          "start": 421.148,
+          "end": 421.585
+        },
+        {
+          "text": "generates",
+          "start": 421.585,
+          "end": 422.072
+        },
+        {
+          "text": "that",
+          "start": 422.072,
+          "end": 422.197
+        },
+        {
+          "text": "you",
+          "start": 422.197,
+          "end": 422.298
+        },
+        {
+          "text": "should",
+          "start": 422.298,
+          "end": 422.497
+        },
+        {
+          "text": "review",
+          "start": 422.497,
+          "end": 422.848
+        },
+        {
+          "text": "before",
+          "start": 422.848,
+          "end": 423.16
+        },
+        {
+          "text": "merging",
+          "start": 423.16,
+          "end": 423.635
+        },
+        {
+          "text": ",",
+          "start": 423.635,
+          "end": 423.735
+        },
+        {
+          "text": "SVG",
+          "start": 423.735,
+          "end": 424.535
+        },
+        {
+          "text": ",",
+          "start": 424.535,
+          "end": 424.585
+        },
+        {
+          "text": "computed",
+          "start": 424.585,
+          "end": 424.997
+        },
+        {
+          "text": "indices",
+          "start": 424.997,
+          "end": 425.685
+        },
+        {
+          "text": ",",
+          "start": 425.685,
+          "end": 425.76
+        },
+        {
+          "text": "ARIA",
+          "start": 425.76,
+          "end": 426.148
+        },
+        {
+          "text": "chains",
+          "start": 426.148,
+          "end": 426.71
+        },
+        {
+          "text": ",",
+          "start": 426.71,
+          "end": 426.785
+        },
+        {
+          "text": "iframe/shadow-DOM",
+          "start": 426.785,
+          "end": 428.635
+        },
+        {
+          "text": ",",
+          "start": 428.635,
+          "end": 428.697
+        },
+        {
+          "text": "modern",
+          "start": 428.697,
+          "end": 429.11
+        },
+        {
+          "text": "CSS",
+          "start": 429.11,
+          "end": 429.735
+        },
+        {
+          "text": ":",
+          "start": 429.735,
+          "end": 429.885
+        },
+        {
+          "text": "has()/:is()/:where",
+          "start": 429.885,
+          "end": 432.835
+        },
+        {
+          "text": "(",
+          "start": 432.835,
+          "end": 432.86
+        },
+        {
+          "text": ")",
+          "start": 432.86,
+          "end": 432.885
+        },
+        {
+          "text": ")",
+          "start": 432.885,
+          "end": 432.91
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

@@ -1,0 +1,3281 @@
+{
+  "slug": "mastering-e2e-testing-csharp-playwright",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 224.725,
+  "contentHash": "bef13400e40ff0459e4aaab20fc4952983f8b8069440cefea554b25db380b85c",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Mastering E2E Testing with C# and Microsoft Playwright: Top Tips and Tricks",
+      "start": 0.0,
+      "end": 5.325,
+      "words": [
+        {
+          "text": "Mastering",
+          "start": 0.325,
+          "end": 0.838
+        },
+        {
+          "text": "E",
+          "start": 0.838,
+          "end": 1.0
+        },
+        {
+          "text": "2",
+          "start": 1.0,
+          "end": 1.125
+        },
+        {
+          "text": "E",
+          "start": 1.125,
+          "end": 1.25
+        },
+        {
+          "text": "Testing",
+          "start": 1.25,
+          "end": 1.637
+        },
+        {
+          "text": "with",
+          "start": 1.637,
+          "end": 1.8
+        },
+        {
+          "text": "C#",
+          "start": 1.8,
+          "end": 2.375
+        },
+        {
+          "text": "and",
+          "start": 2.375,
+          "end": 2.5
+        },
+        {
+          "text": "Microsoft",
+          "start": 2.5,
+          "end": 3.05
+        },
+        {
+          "text": "Playwright",
+          "start": 3.05,
+          "end": 3.775
+        },
+        {
+          "text": ":",
+          "start": 3.775,
+          "end": 3.913
+        },
+        {
+          "text": "Top",
+          "start": 3.913,
+          "end": 4.213
+        },
+        {
+          "text": "Tips",
+          "start": 4.213,
+          "end": 4.55
+        },
+        {
+          "text": "and",
+          "start": 4.55,
+          "end": 4.675
+        },
+        {
+          "text": "Tricks",
+          "start": 4.675,
+          "end": 5.325
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "When testing an application, it's crucial to attack from all angles. Picture a testing pyramid where you not only scrutinize the API but also validate the database simultaneously to guarantee the API is delivering as promised.",
+      "start": 5.745,
+      "end": 21.295,
+      "words": [
+        {
+          "text": "When",
+          "start": 5.995,
+          "end": 6.157
+        },
+        {
+          "text": "testing",
+          "start": 6.157,
+          "end": 6.532
+        },
+        {
+          "text": "an",
+          "start": 6.532,
+          "end": 6.62
+        },
+        {
+          "text": "application",
+          "start": 6.62,
+          "end": 7.645
+        },
+        {
+          "text": ",",
+          "start": 7.645,
+          "end": 7.758
+        },
+        {
+          "text": "it's",
+          "start": 7.758,
+          "end": 7.982
+        },
+        {
+          "text": "crucial",
+          "start": 7.982,
+          "end": 8.445
+        },
+        {
+          "text": "to",
+          "start": 8.445,
+          "end": 8.595
+        },
+        {
+          "text": "attack",
+          "start": 8.595,
+          "end": 8.995
+        },
+        {
+          "text": "from",
+          "start": 8.995,
+          "end": 9.207
+        },
+        {
+          "text": "all",
+          "start": 9.207,
+          "end": 9.482
+        },
+        {
+          "text": "angles",
+          "start": 9.482,
+          "end": 10.445
+        },
+        {
+          "text": ".",
+          "start": 10.445,
+          "end": 10.607
+        },
+        {
+          "text": "Picture",
+          "start": 10.607,
+          "end": 11.045
+        },
+        {
+          "text": "a",
+          "start": 11.045,
+          "end": 11.157
+        },
+        {
+          "text": "testing",
+          "start": 11.157,
+          "end": 11.683
+        },
+        {
+          "text": "pyramid",
+          "start": 11.683,
+          "end": 12.195
+        },
+        {
+          "text": "where",
+          "start": 12.195,
+          "end": 12.345
+        },
+        {
+          "text": "you",
+          "start": 12.345,
+          "end": 12.445
+        },
+        {
+          "text": "not",
+          "start": 12.445,
+          "end": 12.67
+        },
+        {
+          "text": "only",
+          "start": 12.67,
+          "end": 12.982
+        },
+        {
+          "text": "scrutinize",
+          "start": 12.982,
+          "end": 13.582
+        },
+        {
+          "text": "the",
+          "start": 13.582,
+          "end": 13.72
+        },
+        {
+          "text": "API",
+          "start": 13.72,
+          "end": 14.72
+        },
+        {
+          "text": "but",
+          "start": 14.72,
+          "end": 14.895
+        },
+        {
+          "text": "also",
+          "start": 14.895,
+          "end": 15.27
+        },
+        {
+          "text": "validate",
+          "start": 15.27,
+          "end": 15.758
+        },
+        {
+          "text": "the",
+          "start": 15.758,
+          "end": 15.845
+        },
+        {
+          "text": "database",
+          "start": 15.845,
+          "end": 16.558
+        },
+        {
+          "text": "simultaneously",
+          "start": 16.558,
+          "end": 17.945
+        },
+        {
+          "text": "to",
+          "start": 17.945,
+          "end": 18.095
+        },
+        {
+          "text": "guarantee",
+          "start": 18.095,
+          "end": 18.582
+        },
+        {
+          "text": "the",
+          "start": 18.582,
+          "end": 18.72
+        },
+        {
+          "text": "API",
+          "start": 18.72,
+          "end": 19.457
+        },
+        {
+          "text": "is",
+          "start": 19.457,
+          "end": 19.62
+        },
+        {
+          "text": "delivering",
+          "start": 19.62,
+          "end": 20.195
+        },
+        {
+          "text": "as",
+          "start": 20.195,
+          "end": 20.345
+        },
+        {
+          "text": "promised",
+          "start": 20.345,
+          "end": 21.145
+        },
+        {
+          "text": ".",
+          "start": 21.145,
+          "end": 21.295
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "Having delved into the world of Microsoft Playwright, I challenge you to take your testing game up a notch. Dive into API testing with the Microsoft Playwright client and watch your testing prowess soar!",
+      "start": 21.615,
+      "end": 34.015,
+      "words": [
+        {
+          "text": "Having",
+          "start": 21.89,
+          "end": 22.227
+        },
+        {
+          "text": "delved",
+          "start": 22.227,
+          "end": 22.677
+        },
+        {
+          "text": "into",
+          "start": 22.677,
+          "end": 22.852
+        },
+        {
+          "text": "the",
+          "start": 22.852,
+          "end": 22.94
+        },
+        {
+          "text": "world",
+          "start": 22.94,
+          "end": 23.252
+        },
+        {
+          "text": "of",
+          "start": 23.252,
+          "end": 23.365
+        },
+        {
+          "text": "Microsoft",
+          "start": 23.365,
+          "end": 23.94
+        },
+        {
+          "text": "Playwright",
+          "start": 23.94,
+          "end": 24.665
+        },
+        {
+          "text": ",",
+          "start": 24.665,
+          "end": 24.765
+        },
+        {
+          "text": "I",
+          "start": 24.765,
+          "end": 24.94
+        },
+        {
+          "text": "challenge",
+          "start": 24.94,
+          "end": 25.415
+        },
+        {
+          "text": "you",
+          "start": 25.415,
+          "end": 25.565
+        },
+        {
+          "text": "to",
+          "start": 25.565,
+          "end": 25.69
+        },
+        {
+          "text": "take",
+          "start": 25.69,
+          "end": 25.902
+        },
+        {
+          "text": "your",
+          "start": 25.902,
+          "end": 26.04
+        },
+        {
+          "text": "testing",
+          "start": 26.04,
+          "end": 26.49
+        },
+        {
+          "text": "game",
+          "start": 26.49,
+          "end": 26.703
+        },
+        {
+          "text": "up",
+          "start": 26.703,
+          "end": 26.828
+        },
+        {
+          "text": "a",
+          "start": 26.828,
+          "end": 26.89
+        },
+        {
+          "text": "notch",
+          "start": 26.89,
+          "end": 27.715
+        },
+        {
+          "text": ".",
+          "start": 27.715,
+          "end": 27.915
+        },
+        {
+          "text": "Dive",
+          "start": 27.915,
+          "end": 28.302
+        },
+        {
+          "text": "into",
+          "start": 28.302,
+          "end": 28.578
+        },
+        {
+          "text": "API",
+          "start": 28.578,
+          "end": 29.252
+        },
+        {
+          "text": "testing",
+          "start": 29.252,
+          "end": 29.84
+        },
+        {
+          "text": "with",
+          "start": 29.84,
+          "end": 29.977
+        },
+        {
+          "text": "the",
+          "start": 29.977,
+          "end": 30.065
+        },
+        {
+          "text": "Microsoft",
+          "start": 30.065,
+          "end": 30.715
+        },
+        {
+          "text": "Playwright",
+          "start": 30.715,
+          "end": 31.14
+        },
+        {
+          "text": "client",
+          "start": 31.14,
+          "end": 31.84
+        },
+        {
+          "text": "and",
+          "start": 31.84,
+          "end": 32.002
+        },
+        {
+          "text": "watch",
+          "start": 32.002,
+          "end": 32.302
+        },
+        {
+          "text": "your",
+          "start": 32.302,
+          "end": 32.415
+        },
+        {
+          "text": "testing",
+          "start": 32.415,
+          "end": 32.865
+        },
+        {
+          "text": "prowess",
+          "start": 32.865,
+          "end": 33.227
+        },
+        {
+          "text": "soar",
+          "start": 33.227,
+          "end": 33.865
+        },
+        {
+          "text": "!",
+          "start": 33.865,
+          "end": 34.015
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "Step #1: Install Playwright , Build Your Foundation",
+      "start": 34.335,
+      "end": 37.71,
+      "words": [
+        {
+          "text": "Step",
+          "start": 34.61,
+          "end": 34.86
+        },
+        {
+          "text": "1",
+          "start": 34.86,
+          "end": 35.26
+        },
+        {
+          "text": ":",
+          "start": 35.26,
+          "end": 35.36
+        },
+        {
+          "text": "Install",
+          "start": 35.36,
+          "end": 35.785
+        },
+        {
+          "text": "Playwright",
+          "start": 35.785,
+          "end": 36.31
+        },
+        {
+          "text": ",",
+          "start": 36.31,
+          "end": 36.385
+        },
+        {
+          "text": "Build",
+          "start": 36.385,
+          "end": 36.622
+        },
+        {
+          "text": "Your",
+          "start": 36.622,
+          "end": 36.76
+        },
+        {
+          "text": "Foundation",
+          "start": 36.76,
+          "end": 37.71
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Just like the pyramid's base must be solid, Playwright needs the browser binaries installed. This isn't optional , it's the bedrock.",
+      "start": 38.18,
+      "end": 46.355,
+      "words": [
+        {
+          "text": "Just",
+          "start": 38.48,
+          "end": 38.692
+        },
+        {
+          "text": "like",
+          "start": 38.692,
+          "end": 38.842
+        },
+        {
+          "text": "the",
+          "start": 38.842,
+          "end": 38.93
+        },
+        {
+          "text": "pyramid's",
+          "start": 38.93,
+          "end": 39.43
+        },
+        {
+          "text": "base",
+          "start": 39.43,
+          "end": 39.78
+        },
+        {
+          "text": "must",
+          "start": 39.78,
+          "end": 40.03
+        },
+        {
+          "text": "be",
+          "start": 40.03,
+          "end": 40.205
+        },
+        {
+          "text": "solid",
+          "start": 40.205,
+          "end": 40.805
+        },
+        {
+          "text": ",",
+          "start": 40.805,
+          "end": 40.917
+        },
+        {
+          "text": "Playwright",
+          "start": 40.917,
+          "end": 41.355
+        },
+        {
+          "text": "needs",
+          "start": 41.355,
+          "end": 41.68
+        },
+        {
+          "text": "the",
+          "start": 41.68,
+          "end": 41.78
+        },
+        {
+          "text": "browser",
+          "start": 41.78,
+          "end": 42.23
+        },
+        {
+          "text": "binaries",
+          "start": 42.23,
+          "end": 42.755
+        },
+        {
+          "text": "installed",
+          "start": 42.755,
+          "end": 43.755
+        },
+        {
+          "text": ".",
+          "start": 43.755,
+          "end": 43.917
+        },
+        {
+          "text": "This",
+          "start": 43.917,
+          "end": 44.13
+        },
+        {
+          "text": "isn't",
+          "start": 44.13,
+          "end": 44.38
+        },
+        {
+          "text": "optional",
+          "start": 44.38,
+          "end": 45.068
+        },
+        {
+          "text": ",",
+          "start": 45.068,
+          "end": 45.155
+        },
+        {
+          "text": "it's",
+          "start": 45.155,
+          "end": 45.355
+        },
+        {
+          "text": "the",
+          "start": 45.355,
+          "end": 45.455
+        },
+        {
+          "text": "bedrock",
+          "start": 45.455,
+          "end": 46.205
+        },
+        {
+          "text": ".",
+          "start": 46.205,
+          "end": 46.355
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h2",
+      "text": "Step #2: Multi-Browser Setup , The Pyramid's Middle Layers",
+      "start": 46.675,
+      "end": 50.625,
+      "words": [
+        {
+          "text": "Step",
+          "start": 46.95,
+          "end": 47.238
+        },
+        {
+          "text": "2",
+          "start": 47.238,
+          "end": 47.55
+        },
+        {
+          "text": ":",
+          "start": 47.55,
+          "end": 47.65
+        },
+        {
+          "text": "Multi-Browser",
+          "start": 47.65,
+          "end": 48.288
+        },
+        {
+          "text": "Setup",
+          "start": 48.288,
+          "end": 48.888
+        },
+        {
+          "text": ",",
+          "start": 48.888,
+          "end": 48.975
+        },
+        {
+          "text": "The",
+          "start": 48.975,
+          "end": 49.075
+        },
+        {
+          "text": "Pyramid's",
+          "start": 49.075,
+          "end": 49.575
+        },
+        {
+          "text": "Middle",
+          "start": 49.575,
+          "end": 49.85
+        },
+        {
+          "text": "Layers",
+          "start": 49.85,
+          "end": 50.625
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "The pyramid's strength comes from testing across multiple browsers. Here's how I orchestrate that , thinking of each browser launch as another \"floor\" of the pyramid.",
+      "start": 51.07,
+      "end": 61.12,
+      "words": [
+        {
+          "text": "The",
+          "start": 51.32,
+          "end": 51.395
+        },
+        {
+          "text": "pyramid's",
+          "start": 51.395,
+          "end": 51.92
+        },
+        {
+          "text": "strength",
+          "start": 51.92,
+          "end": 52.433
+        },
+        {
+          "text": "comes",
+          "start": 52.433,
+          "end": 52.745
+        },
+        {
+          "text": "from",
+          "start": 52.745,
+          "end": 52.958
+        },
+        {
+          "text": "testing",
+          "start": 52.958,
+          "end": 53.42
+        },
+        {
+          "text": "across",
+          "start": 53.42,
+          "end": 53.833
+        },
+        {
+          "text": "multiple",
+          "start": 53.833,
+          "end": 54.295
+        },
+        {
+          "text": "browsers",
+          "start": 54.295,
+          "end": 55.295
+        },
+        {
+          "text": ".",
+          "start": 55.295,
+          "end": 55.433
+        },
+        {
+          "text": "Here's",
+          "start": 55.433,
+          "end": 55.745
+        },
+        {
+          "text": "how",
+          "start": 55.745,
+          "end": 55.908
+        },
+        {
+          "text": "I",
+          "start": 55.908,
+          "end": 56.045
+        },
+        {
+          "text": "orchestrate",
+          "start": 56.045,
+          "end": 56.595
+        },
+        {
+          "text": "that",
+          "start": 56.595,
+          "end": 57.108
+        },
+        {
+          "text": ",",
+          "start": 57.108,
+          "end": 57.195
+        },
+        {
+          "text": "thinking",
+          "start": 57.195,
+          "end": 57.52
+        },
+        {
+          "text": "of",
+          "start": 57.52,
+          "end": 57.683
+        },
+        {
+          "text": "each",
+          "start": 57.683,
+          "end": 57.995
+        },
+        {
+          "text": "browser",
+          "start": 57.995,
+          "end": 58.433
+        },
+        {
+          "text": "launch",
+          "start": 58.433,
+          "end": 58.795
+        },
+        {
+          "text": "as",
+          "start": 58.795,
+          "end": 58.92
+        },
+        {
+          "text": "another",
+          "start": 58.92,
+          "end": 59.395
+        },
+        {
+          "text": "\"",
+          "start": 59.395,
+          "end": 59.495
+        },
+        {
+          "text": "floor",
+          "start": 59.495,
+          "end": 59.945
+        },
+        {
+          "text": "\"",
+          "start": 59.945,
+          "end": 60.02
+        },
+        {
+          "text": "of",
+          "start": 60.02,
+          "end": 60.108
+        },
+        {
+          "text": "the",
+          "start": 60.108,
+          "end": 60.195
+        },
+        {
+          "text": "pyramid",
+          "start": 60.195,
+          "end": 60.97
+        },
+        {
+          "text": ".",
+          "start": 60.97,
+          "end": 61.12
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "h2",
+      "text": "Step #3: API Calls , Attacking from Another Angle",
+      "start": 61.44,
+      "end": 65.14,
+      "words": [
+        {
+          "text": "Step",
+          "start": 61.715,
+          "end": 61.965
+        },
+        {
+          "text": "3",
+          "start": 61.965,
+          "end": 62.315
+        },
+        {
+          "text": ":",
+          "start": 62.315,
+          "end": 62.415
+        },
+        {
+          "text": "API",
+          "start": 62.415,
+          "end": 62.94
+        },
+        {
+          "text": "Calls",
+          "start": 62.94,
+          "end": 63.44
+        },
+        {
+          "text": ",",
+          "start": 63.44,
+          "end": 63.515
+        },
+        {
+          "text": "Attacking",
+          "start": 63.515,
+          "end": 64.015
+        },
+        {
+          "text": "from",
+          "start": 64.015,
+          "end": 64.153
+        },
+        {
+          "text": "Another",
+          "start": 64.153,
+          "end": 64.49
+        },
+        {
+          "text": "Angle",
+          "start": 64.49,
+          "end": 65.14
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "Remember: the pyramid is strong because you test from every angle. UI alone isn't enough , you need the API layer too. Here's how Playwright lets you make raw API calls within the same test session, no separate tool required.",
+      "start": 65.56,
+      "end": 80.535,
+      "words": [
+        {
+          "text": "Remember",
+          "start": 65.81,
+          "end": 66.51
+        },
+        {
+          "text": ":",
+          "start": 66.51,
+          "end": 66.635
+        },
+        {
+          "text": "the",
+          "start": 66.635,
+          "end": 66.748
+        },
+        {
+          "text": "pyramid",
+          "start": 66.748,
+          "end": 67.235
+        },
+        {
+          "text": "is",
+          "start": 67.235,
+          "end": 67.372
+        },
+        {
+          "text": "strong",
+          "start": 67.372,
+          "end": 67.81
+        },
+        {
+          "text": "because",
+          "start": 67.81,
+          "end": 68.06
+        },
+        {
+          "text": "you",
+          "start": 68.06,
+          "end": 68.198
+        },
+        {
+          "text": "test",
+          "start": 68.198,
+          "end": 68.51
+        },
+        {
+          "text": "from",
+          "start": 68.51,
+          "end": 68.723
+        },
+        {
+          "text": "every",
+          "start": 68.723,
+          "end": 69.06
+        },
+        {
+          "text": "angle",
+          "start": 69.06,
+          "end": 69.835
+        },
+        {
+          "text": ".",
+          "start": 69.835,
+          "end": 69.985
+        },
+        {
+          "text": "UI",
+          "start": 69.985,
+          "end": 70.335
+        },
+        {
+          "text": "alone",
+          "start": 70.335,
+          "end": 70.71
+        },
+        {
+          "text": "isn't",
+          "start": 70.71,
+          "end": 70.948
+        },
+        {
+          "text": "enough",
+          "start": 70.948,
+          "end": 71.523
+        },
+        {
+          "text": ",",
+          "start": 71.523,
+          "end": 71.61
+        },
+        {
+          "text": "you",
+          "start": 71.61,
+          "end": 71.735
+        },
+        {
+          "text": "need",
+          "start": 71.735,
+          "end": 71.922
+        },
+        {
+          "text": "the",
+          "start": 71.922,
+          "end": 72.073
+        },
+        {
+          "text": "API",
+          "start": 72.073,
+          "end": 72.722
+        },
+        {
+          "text": "layer",
+          "start": 72.722,
+          "end": 73.097
+        },
+        {
+          "text": "too",
+          "start": 73.097,
+          "end": 73.81
+        },
+        {
+          "text": ".",
+          "start": 73.81,
+          "end": 73.998
+        },
+        {
+          "text": "Here's",
+          "start": 73.998,
+          "end": 74.285
+        },
+        {
+          "text": "how",
+          "start": 74.285,
+          "end": 74.472
+        },
+        {
+          "text": "Playwright",
+          "start": 74.472,
+          "end": 74.96
+        },
+        {
+          "text": "lets",
+          "start": 74.96,
+          "end": 75.148
+        },
+        {
+          "text": "you",
+          "start": 75.148,
+          "end": 75.235
+        },
+        {
+          "text": "make",
+          "start": 75.235,
+          "end": 75.472
+        },
+        {
+          "text": "raw",
+          "start": 75.472,
+          "end": 75.773
+        },
+        {
+          "text": "API",
+          "start": 75.773,
+          "end": 76.398
+        },
+        {
+          "text": "calls",
+          "start": 76.398,
+          "end": 76.81
+        },
+        {
+          "text": "within",
+          "start": 76.81,
+          "end": 77.023
+        },
+        {
+          "text": "the",
+          "start": 77.023,
+          "end": 77.122
+        },
+        {
+          "text": "same",
+          "start": 77.122,
+          "end": 77.46
+        },
+        {
+          "text": "test",
+          "start": 77.46,
+          "end": 77.71
+        },
+        {
+          "text": "session",
+          "start": 77.71,
+          "end": 78.36
+        },
+        {
+          "text": ",",
+          "start": 78.36,
+          "end": 78.498
+        },
+        {
+          "text": "no",
+          "start": 78.498,
+          "end": 78.748
+        },
+        {
+          "text": "separate",
+          "start": 78.748,
+          "end": 79.173
+        },
+        {
+          "text": "tool",
+          "start": 79.173,
+          "end": 79.485
+        },
+        {
+          "text": "required",
+          "start": 79.485,
+          "end": 80.385
+        },
+        {
+          "text": ".",
+          "start": 80.385,
+          "end": 80.535
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h2",
+      "text": "Step #4, 5: Database Validation , Completing the Pyramid",
+      "start": 80.855,
+      "end": 85.105,
+      "words": [
+        {
+          "text": "Step",
+          "start": 81.13,
+          "end": 81.38
+        },
+        {
+          "text": "4",
+          "start": 81.38,
+          "end": 81.63
+        },
+        {
+          "text": ",",
+          "start": 81.63,
+          "end": 81.693
+        },
+        {
+          "text": "5",
+          "start": 81.693,
+          "end": 82.305
+        },
+        {
+          "text": ":",
+          "start": 82.305,
+          "end": 82.443
+        },
+        {
+          "text": "Database",
+          "start": 82.443,
+          "end": 82.98
+        },
+        {
+          "text": "Validation",
+          "start": 82.98,
+          "end": 83.755
+        },
+        {
+          "text": ",",
+          "start": 83.755,
+          "end": 83.83
+        },
+        {
+          "text": "Completing",
+          "start": 83.83,
+          "end": 84.293
+        },
+        {
+          "text": "the",
+          "start": 84.293,
+          "end": 84.38
+        },
+        {
+          "text": "Pyramid",
+          "start": 84.38,
+          "end": 85.105
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "The pyramid is incomplete without the database layer. You can hit the API, see it succeed, and still have the data corruption hiding in the DB. I learned this when a bug shipped because nobody looked at what the database actually stored.",
+      "start": 85.65,
+      "end": 100.5,
+      "words": [
+        {
+          "text": "The",
+          "start": 85.9,
+          "end": 85.987
+        },
+        {
+          "text": "pyramid",
+          "start": 85.987,
+          "end": 86.5
+        },
+        {
+          "text": "is",
+          "start": 86.5,
+          "end": 86.65
+        },
+        {
+          "text": "incomplete",
+          "start": 86.65,
+          "end": 87.325
+        },
+        {
+          "text": "without",
+          "start": 87.325,
+          "end": 87.638
+        },
+        {
+          "text": "the",
+          "start": 87.638,
+          "end": 87.725
+        },
+        {
+          "text": "database",
+          "start": 87.725,
+          "end": 88.3
+        },
+        {
+          "text": "layer",
+          "start": 88.3,
+          "end": 89.05
+        },
+        {
+          "text": ".",
+          "start": 89.05,
+          "end": 89.175
+        },
+        {
+          "text": "You",
+          "start": 89.175,
+          "end": 89.3
+        },
+        {
+          "text": "can",
+          "start": 89.3,
+          "end": 89.425
+        },
+        {
+          "text": "hit",
+          "start": 89.425,
+          "end": 89.6
+        },
+        {
+          "text": "the",
+          "start": 89.6,
+          "end": 89.763
+        },
+        {
+          "text": "API",
+          "start": 89.763,
+          "end": 90.65
+        },
+        {
+          "text": ",",
+          "start": 90.65,
+          "end": 90.787
+        },
+        {
+          "text": "see",
+          "start": 90.787,
+          "end": 91.0
+        },
+        {
+          "text": "it",
+          "start": 91.0,
+          "end": 91.125
+        },
+        {
+          "text": "succeed",
+          "start": 91.125,
+          "end": 91.925
+        },
+        {
+          "text": ",",
+          "start": 91.925,
+          "end": 92.025
+        },
+        {
+          "text": "and",
+          "start": 92.025,
+          "end": 92.15
+        },
+        {
+          "text": "still",
+          "start": 92.15,
+          "end": 92.425
+        },
+        {
+          "text": "have",
+          "start": 92.425,
+          "end": 92.638
+        },
+        {
+          "text": "the",
+          "start": 92.638,
+          "end": 92.763
+        },
+        {
+          "text": "data",
+          "start": 92.763,
+          "end": 93.1
+        },
+        {
+          "text": "corruption",
+          "start": 93.1,
+          "end": 93.687
+        },
+        {
+          "text": "hiding",
+          "start": 93.687,
+          "end": 94.1
+        },
+        {
+          "text": "in",
+          "start": 94.1,
+          "end": 94.187
+        },
+        {
+          "text": "the",
+          "start": 94.187,
+          "end": 94.275
+        },
+        {
+          "text": "DB",
+          "start": 94.275,
+          "end": 95.2
+        },
+        {
+          "text": ".",
+          "start": 95.2,
+          "end": 95.388
+        },
+        {
+          "text": "I",
+          "start": 95.388,
+          "end": 95.575
+        },
+        {
+          "text": "learned",
+          "start": 95.575,
+          "end": 95.9
+        },
+        {
+          "text": "this",
+          "start": 95.9,
+          "end": 96.175
+        },
+        {
+          "text": "when",
+          "start": 96.175,
+          "end": 96.312
+        },
+        {
+          "text": "a",
+          "start": 96.312,
+          "end": 96.388
+        },
+        {
+          "text": "bug",
+          "start": 96.388,
+          "end": 96.75
+        },
+        {
+          "text": "shipped",
+          "start": 96.75,
+          "end": 97.287
+        },
+        {
+          "text": "because",
+          "start": 97.287,
+          "end": 97.638
+        },
+        {
+          "text": "nobody",
+          "start": 97.638,
+          "end": 98.075
+        },
+        {
+          "text": "looked",
+          "start": 98.075,
+          "end": 98.312
+        },
+        {
+          "text": "at",
+          "start": 98.312,
+          "end": 98.388
+        },
+        {
+          "text": "what",
+          "start": 98.388,
+          "end": 98.513
+        },
+        {
+          "text": "the",
+          "start": 98.513,
+          "end": 98.6
+        },
+        {
+          "text": "database",
+          "start": 98.6,
+          "end": 99.213
+        },
+        {
+          "text": "actually",
+          "start": 99.213,
+          "end": 99.662
+        },
+        {
+          "text": "stored",
+          "start": 99.662,
+          "end": 100.35
+        },
+        {
+          "text": ".",
+          "start": 100.35,
+          "end": 100.5
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Install SqlClient:",
+      "start": 100.82,
+      "end": 102.795,
+      "words": [
+        {
+          "text": "Install",
+          "start": 101.12,
+          "end": 101.607
+        },
+        {
+          "text": "SqlClient",
+          "start": 101.607,
+          "end": 102.645
+        },
+        {
+          "text": ":",
+          "start": 102.645,
+          "end": 102.795
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "Now query the database from within the same test. This is the real power , one test, three angles: UI to API to Database.",
+      "start": 103.115,
+      "end": 112.065,
+      "words": [
+        {
+          "text": "Now",
+          "start": 103.415,
+          "end": 103.627
+        },
+        {
+          "text": "query",
+          "start": 103.627,
+          "end": 103.99
+        },
+        {
+          "text": "the",
+          "start": 103.99,
+          "end": 104.09
+        },
+        {
+          "text": "database",
+          "start": 104.09,
+          "end": 104.665
+        },
+        {
+          "text": "from",
+          "start": 104.665,
+          "end": 104.803
+        },
+        {
+          "text": "within",
+          "start": 104.803,
+          "end": 105.028
+        },
+        {
+          "text": "the",
+          "start": 105.028,
+          "end": 105.115
+        },
+        {
+          "text": "same",
+          "start": 105.115,
+          "end": 105.39
+        },
+        {
+          "text": "test",
+          "start": 105.39,
+          "end": 106.19
+        },
+        {
+          "text": ".",
+          "start": 106.19,
+          "end": 106.327
+        },
+        {
+          "text": "This",
+          "start": 106.327,
+          "end": 106.565
+        },
+        {
+          "text": "is",
+          "start": 106.565,
+          "end": 106.715
+        },
+        {
+          "text": "the",
+          "start": 106.715,
+          "end": 106.815
+        },
+        {
+          "text": "real",
+          "start": 106.815,
+          "end": 107.09
+        },
+        {
+          "text": "power",
+          "start": 107.09,
+          "end": 107.59
+        },
+        {
+          "text": ",",
+          "start": 107.59,
+          "end": 107.665
+        },
+        {
+          "text": "one",
+          "start": 107.665,
+          "end": 107.89
+        },
+        {
+          "text": "test",
+          "start": 107.89,
+          "end": 108.34
+        },
+        {
+          "text": ",",
+          "start": 108.34,
+          "end": 108.453
+        },
+        {
+          "text": "three",
+          "start": 108.453,
+          "end": 108.715
+        },
+        {
+          "text": "angles",
+          "start": 108.715,
+          "end": 109.44
+        },
+        {
+          "text": ":",
+          "start": 109.44,
+          "end": 109.565
+        },
+        {
+          "text": "UI",
+          "start": 109.565,
+          "end": 110.027
+        },
+        {
+          "text": "to",
+          "start": 110.027,
+          "end": 110.203
+        },
+        {
+          "text": "API",
+          "start": 110.203,
+          "end": 110.915
+        },
+        {
+          "text": "to",
+          "start": 110.915,
+          "end": 111.04
+        },
+        {
+          "text": "Database",
+          "start": 111.04,
+          "end": 111.915
+        },
+        {
+          "text": ".",
+          "start": 111.915,
+          "end": 112.065
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h2",
+      "text": "Step #6: Close the Loop , Compare Pyramid Layers",
+      "start": 112.385,
+      "end": 115.71,
+      "words": [
+        {
+          "text": "Step",
+          "start": 112.66,
+          "end": 112.91
+        },
+        {
+          "text": "6",
+          "start": 112.91,
+          "end": 113.185
+        },
+        {
+          "text": ":",
+          "start": 113.185,
+          "end": 113.235
+        },
+        {
+          "text": "Close",
+          "start": 113.235,
+          "end": 113.548
+        },
+        {
+          "text": "the",
+          "start": 113.548,
+          "end": 113.635
+        },
+        {
+          "text": "Loop",
+          "start": 113.635,
+          "end": 114.085
+        },
+        {
+          "text": ",",
+          "start": 114.085,
+          "end": 114.16
+        },
+        {
+          "text": "Compare",
+          "start": 114.16,
+          "end": 114.535
+        },
+        {
+          "text": "Pyramid",
+          "start": 114.535,
+          "end": 114.935
+        },
+        {
+          "text": "Layers",
+          "start": 114.935,
+          "end": 115.71
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "This is where the pyramid's power becomes obvious. Here's the pattern I use:",
+      "start": 116.155,
+      "end": 120.93,
+      "words": [
+        {
+          "text": "This",
+          "start": 116.43,
+          "end": 116.63
+        },
+        {
+          "text": "is",
+          "start": 116.63,
+          "end": 116.755
+        },
+        {
+          "text": "where",
+          "start": 116.755,
+          "end": 116.893
+        },
+        {
+          "text": "the",
+          "start": 116.893,
+          "end": 116.98
+        },
+        {
+          "text": "pyramid's",
+          "start": 116.98,
+          "end": 117.48
+        },
+        {
+          "text": "power",
+          "start": 117.48,
+          "end": 117.855
+        },
+        {
+          "text": "becomes",
+          "start": 117.855,
+          "end": 118.267
+        },
+        {
+          "text": "obvious",
+          "start": 118.267,
+          "end": 119.08
+        },
+        {
+          "text": ".",
+          "start": 119.08,
+          "end": 119.217
+        },
+        {
+          "text": "Here's",
+          "start": 119.217,
+          "end": 119.517
+        },
+        {
+          "text": "the",
+          "start": 119.517,
+          "end": 119.605
+        },
+        {
+          "text": "pattern",
+          "start": 119.605,
+          "end": 120.017
+        },
+        {
+          "text": "I",
+          "start": 120.017,
+          "end": 120.155
+        },
+        {
+          "text": "use",
+          "start": 120.155,
+          "end": 120.78
+        },
+        {
+          "text": ":",
+          "start": 120.78,
+          "end": 120.93
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "Call the API and capture the response.",
+      "start": 121.25,
+      "end": 124.1,
+      "words": [
+        {
+          "text": "Call",
+          "start": 121.525,
+          "end": 121.712
+        },
+        {
+          "text": "the",
+          "start": 121.712,
+          "end": 121.825
+        },
+        {
+          "text": "API",
+          "start": 121.825,
+          "end": 122.587
+        },
+        {
+          "text": "and",
+          "start": 122.587,
+          "end": 122.725
+        },
+        {
+          "text": "capture",
+          "start": 122.725,
+          "end": 123.087
+        },
+        {
+          "text": "the",
+          "start": 123.087,
+          "end": 123.162
+        },
+        {
+          "text": "response",
+          "start": 123.162,
+          "end": 123.95
+        },
+        {
+          "text": ".",
+          "start": 123.95,
+          "end": 124.1
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "Query the database for the ground truth.",
+      "start": 124.42,
+      "end": 126.97,
+      "words": [
+        {
+          "text": "Query",
+          "start": 124.695,
+          "end": 125.02
+        },
+        {
+          "text": "the",
+          "start": 125.02,
+          "end": 125.12
+        },
+        {
+          "text": "database",
+          "start": 125.12,
+          "end": 125.67
+        },
+        {
+          "text": "for",
+          "start": 125.67,
+          "end": 125.783
+        },
+        {
+          "text": "the",
+          "start": 125.783,
+          "end": 125.87
+        },
+        {
+          "text": "ground",
+          "start": 125.87,
+          "end": 126.195
+        },
+        {
+          "text": "truth",
+          "start": 126.195,
+          "end": 126.795
+        },
+        {
+          "text": ".",
+          "start": 126.795,
+          "end": 126.97
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Assert they match.",
+      "start": 127.29,
+      "end": 128.94,
+      "words": [
+        {
+          "text": "Assert",
+          "start": 127.64,
+          "end": 127.99
+        },
+        {
+          "text": "they",
+          "start": 127.99,
+          "end": 128.14
+        },
+        {
+          "text": "match",
+          "start": 128.14,
+          "end": 128.765
+        },
+        {
+          "text": ".",
+          "start": 128.765,
+          "end": 128.94
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "If the UI says \"Success\" but the database says \"Failed,\" you've caught a critical bug that most tests miss.",
+      "start": 129.26,
+      "end": 135.91,
+      "words": [
+        {
+          "text": "If",
+          "start": 129.51,
+          "end": 129.66
+        },
+        {
+          "text": "the",
+          "start": 129.66,
+          "end": 129.773
+        },
+        {
+          "text": "UI",
+          "start": 129.773,
+          "end": 130.21
+        },
+        {
+          "text": "says",
+          "start": 130.21,
+          "end": 130.51
+        },
+        {
+          "text": "\"",
+          "start": 130.51,
+          "end": 130.56
+        },
+        {
+          "text": "Success",
+          "start": 130.56,
+          "end": 131.31
+        },
+        {
+          "text": "\"",
+          "start": 131.31,
+          "end": 131.435
+        },
+        {
+          "text": "but",
+          "start": 131.435,
+          "end": 131.572
+        },
+        {
+          "text": "the",
+          "start": 131.572,
+          "end": 131.66
+        },
+        {
+          "text": "database",
+          "start": 131.66,
+          "end": 132.185
+        },
+        {
+          "text": "says",
+          "start": 132.185,
+          "end": 132.46
+        },
+        {
+          "text": "\"",
+          "start": 132.46,
+          "end": 132.535
+        },
+        {
+          "text": "Failed",
+          "start": 132.535,
+          "end": 133.16
+        },
+        {
+          "text": ",",
+          "start": 133.16,
+          "end": 133.235
+        },
+        {
+          "text": "\"",
+          "start": 133.235,
+          "end": 133.285
+        },
+        {
+          "text": "you've",
+          "start": 133.285,
+          "end": 133.485
+        },
+        {
+          "text": "caught",
+          "start": 133.485,
+          "end": 133.647
+        },
+        {
+          "text": "a",
+          "start": 133.647,
+          "end": 133.723
+        },
+        {
+          "text": "critical",
+          "start": 133.723,
+          "end": 134.16
+        },
+        {
+          "text": "bug",
+          "start": 134.16,
+          "end": 134.46
+        },
+        {
+          "text": "that",
+          "start": 134.46,
+          "end": 134.61
+        },
+        {
+          "text": "most",
+          "start": 134.61,
+          "end": 134.86
+        },
+        {
+          "text": "tests",
+          "start": 134.86,
+          "end": 135.21
+        },
+        {
+          "text": "miss",
+          "start": 135.21,
+          "end": 135.76
+        },
+        {
+          "text": ".",
+          "start": 135.76,
+          "end": 135.91
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "This is the pyramid in action: UI confirms it looks right, API confirms it responded correctly, database confirms the state is actually saved.",
+      "start": 136.23,
+      "end": 146.38,
+      "words": [
+        {
+          "text": "This",
+          "start": 136.505,
+          "end": 136.73
+        },
+        {
+          "text": "is",
+          "start": 136.73,
+          "end": 136.88
+        },
+        {
+          "text": "the",
+          "start": 136.88,
+          "end": 136.992
+        },
+        {
+          "text": "pyramid",
+          "start": 136.992,
+          "end": 137.48
+        },
+        {
+          "text": "in",
+          "start": 137.48,
+          "end": 137.605
+        },
+        {
+          "text": "action",
+          "start": 137.605,
+          "end": 138.43
+        },
+        {
+          "text": ":",
+          "start": 138.43,
+          "end": 138.58
+        },
+        {
+          "text": "UI",
+          "start": 138.58,
+          "end": 139.03
+        },
+        {
+          "text": "confirms",
+          "start": 139.03,
+          "end": 139.543
+        },
+        {
+          "text": "it",
+          "start": 139.543,
+          "end": 139.63
+        },
+        {
+          "text": "looks",
+          "start": 139.63,
+          "end": 139.88
+        },
+        {
+          "text": "right",
+          "start": 139.88,
+          "end": 140.43
+        },
+        {
+          "text": ",",
+          "start": 140.43,
+          "end": 140.568
+        },
+        {
+          "text": "API",
+          "start": 140.568,
+          "end": 141.205
+        },
+        {
+          "text": "confirms",
+          "start": 141.205,
+          "end": 141.693
+        },
+        {
+          "text": "it",
+          "start": 141.693,
+          "end": 141.768
+        },
+        {
+          "text": "responded",
+          "start": 141.768,
+          "end": 142.355
+        },
+        {
+          "text": "correctly",
+          "start": 142.355,
+          "end": 143.13
+        },
+        {
+          "text": ",",
+          "start": 143.13,
+          "end": 143.268
+        },
+        {
+          "text": "database",
+          "start": 143.268,
+          "end": 143.855
+        },
+        {
+          "text": "confirms",
+          "start": 143.855,
+          "end": 144.43
+        },
+        {
+          "text": "the",
+          "start": 144.43,
+          "end": 144.543
+        },
+        {
+          "text": "state",
+          "start": 144.543,
+          "end": 144.905
+        },
+        {
+          "text": "is",
+          "start": 144.905,
+          "end": 145.068
+        },
+        {
+          "text": "actually",
+          "start": 145.068,
+          "end": 145.518
+        },
+        {
+          "text": "saved",
+          "start": 145.518,
+          "end": 146.23
+        },
+        {
+          "text": ".",
+          "start": 146.23,
+          "end": 146.38
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h2",
+      "text": "Step #7: Tear Down , Evidence Only on Failure",
+      "start": 146.7,
+      "end": 150.225,
+      "words": [
+        {
+          "text": "Step",
+          "start": 146.975,
+          "end": 147.225
+        },
+        {
+          "text": "7",
+          "start": 147.225,
+          "end": 147.75
+        },
+        {
+          "text": ":",
+          "start": 147.75,
+          "end": 147.863
+        },
+        {
+          "text": "Tear",
+          "start": 147.863,
+          "end": 148.125
+        },
+        {
+          "text": "Down",
+          "start": 148.125,
+          "end": 148.5
+        },
+        {
+          "text": ",",
+          "start": 148.5,
+          "end": 148.575
+        },
+        {
+          "text": "Evidence",
+          "start": 148.575,
+          "end": 149.037
+        },
+        {
+          "text": "Only",
+          "start": 149.037,
+          "end": 149.338
+        },
+        {
+          "text": "on",
+          "start": 149.338,
+          "end": 149.5
+        },
+        {
+          "text": "Failure",
+          "start": 149.5,
+          "end": 150.225
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "This is the secret weapon I learned from debugging failed tests on CI: capture traces and videos only when the test fails. Why? Because traces are huge. A passing test doesn't need 50MB of replay data , but a failing test needs every millisecond documented.",
+      "start": 150.72,
+      "end": 168.745,
+      "words": [
+        {
+          "text": "This",
+          "start": 150.995,
+          "end": 151.195
+        },
+        {
+          "text": "is",
+          "start": 151.195,
+          "end": 151.345
+        },
+        {
+          "text": "the",
+          "start": 151.345,
+          "end": 151.482
+        },
+        {
+          "text": "secret",
+          "start": 151.482,
+          "end": 151.87
+        },
+        {
+          "text": "weapon",
+          "start": 151.87,
+          "end": 152.282
+        },
+        {
+          "text": "I",
+          "start": 152.282,
+          "end": 152.47
+        },
+        {
+          "text": "learned",
+          "start": 152.47,
+          "end": 152.82
+        },
+        {
+          "text": "from",
+          "start": 152.82,
+          "end": 153.032
+        },
+        {
+          "text": "debugging",
+          "start": 153.032,
+          "end": 153.607
+        },
+        {
+          "text": "failed",
+          "start": 153.607,
+          "end": 154.007
+        },
+        {
+          "text": "tests",
+          "start": 154.007,
+          "end": 154.47
+        },
+        {
+          "text": "on",
+          "start": 154.47,
+          "end": 154.682
+        },
+        {
+          "text": "CI",
+          "start": 154.682,
+          "end": 155.47
+        },
+        {
+          "text": ":",
+          "start": 155.47,
+          "end": 155.632
+        },
+        {
+          "text": "capture",
+          "start": 155.632,
+          "end": 156.07
+        },
+        {
+          "text": "traces",
+          "start": 156.07,
+          "end": 156.57
+        },
+        {
+          "text": "and",
+          "start": 156.57,
+          "end": 156.695
+        },
+        {
+          "text": "videos",
+          "start": 156.695,
+          "end": 157.232
+        },
+        {
+          "text": "only",
+          "start": 157.232,
+          "end": 157.557
+        },
+        {
+          "text": "when",
+          "start": 157.557,
+          "end": 157.682
+        },
+        {
+          "text": "the",
+          "start": 157.682,
+          "end": 157.77
+        },
+        {
+          "text": "test",
+          "start": 157.77,
+          "end": 158.095
+        },
+        {
+          "text": "fails",
+          "start": 158.095,
+          "end": 158.92
+        },
+        {
+          "text": ".",
+          "start": 158.92,
+          "end": 159.07
+        },
+        {
+          "text": "Why",
+          "start": 159.07,
+          "end": 159.67
+        },
+        {
+          "text": "?",
+          "start": 159.67,
+          "end": 159.845
+        },
+        {
+          "text": "Because",
+          "start": 159.845,
+          "end": 160.17
+        },
+        {
+          "text": "traces",
+          "start": 160.17,
+          "end": 160.645
+        },
+        {
+          "text": "are",
+          "start": 160.645,
+          "end": 160.77
+        },
+        {
+          "text": "huge",
+          "start": 160.77,
+          "end": 161.57
+        },
+        {
+          "text": ".",
+          "start": 161.57,
+          "end": 161.732
+        },
+        {
+          "text": "A",
+          "start": 161.732,
+          "end": 161.845
+        },
+        {
+          "text": "passing",
+          "start": 161.845,
+          "end": 162.295
+        },
+        {
+          "text": "test",
+          "start": 162.295,
+          "end": 162.595
+        },
+        {
+          "text": "doesn't",
+          "start": 162.595,
+          "end": 162.857
+        },
+        {
+          "text": "need",
+          "start": 162.857,
+          "end": 163.12
+        },
+        {
+          "text": "50MB",
+          "start": 163.12,
+          "end": 163.92
+        },
+        {
+          "text": "of",
+          "start": 163.92,
+          "end": 164.02
+        },
+        {
+          "text": "replay",
+          "start": 164.02,
+          "end": 164.395
+        },
+        {
+          "text": "data",
+          "start": 164.395,
+          "end": 165.007
+        },
+        {
+          "text": ",",
+          "start": 165.007,
+          "end": 165.095
+        },
+        {
+          "text": "but",
+          "start": 165.095,
+          "end": 165.232
+        },
+        {
+          "text": "a",
+          "start": 165.232,
+          "end": 165.345
+        },
+        {
+          "text": "failing",
+          "start": 165.345,
+          "end": 165.857
+        },
+        {
+          "text": "test",
+          "start": 165.857,
+          "end": 166.295
+        },
+        {
+          "text": "needs",
+          "start": 166.295,
+          "end": 166.645
+        },
+        {
+          "text": "every",
+          "start": 166.645,
+          "end": 167.032
+        },
+        {
+          "text": "millisecond",
+          "start": 167.032,
+          "end": 167.67
+        },
+        {
+          "text": "documented",
+          "start": 167.67,
+          "end": 168.595
+        },
+        {
+          "text": ".",
+          "start": 168.595,
+          "end": 168.745
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h2",
+      "text": "Final Thought , The Pyramid Complete",
+      "start": 169.065,
+      "end": 171.415,
+      "words": [
+        {
+          "text": "Final",
+          "start": 169.365,
+          "end": 169.715
+        },
+        {
+          "text": "Thought",
+          "start": 169.715,
+          "end": 170.09
+        },
+        {
+          "text": ",",
+          "start": 170.09,
+          "end": 170.152
+        },
+        {
+          "text": "The",
+          "start": 170.152,
+          "end": 170.24
+        },
+        {
+          "text": "Pyramid",
+          "start": 170.24,
+          "end": 170.665
+        },
+        {
+          "text": "Complete",
+          "start": 170.665,
+          "end": 171.415
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "This is the pattern I use every day: hit the pyramid from all three angles in one test. UI says success? Check the API response. API says success? Hit the database. All three aligned? You've shipped quality.",
+      "start": 171.86,
+      "end": 186.685,
+      "words": [
+        {
+          "text": "This",
+          "start": 172.135,
+          "end": 172.31
+        },
+        {
+          "text": "is",
+          "start": 172.31,
+          "end": 172.447
+        },
+        {
+          "text": "the",
+          "start": 172.447,
+          "end": 172.547
+        },
+        {
+          "text": "pattern",
+          "start": 172.547,
+          "end": 172.985
+        },
+        {
+          "text": "I",
+          "start": 172.985,
+          "end": 173.135
+        },
+        {
+          "text": "use",
+          "start": 173.135,
+          "end": 173.36
+        },
+        {
+          "text": "every",
+          "start": 173.36,
+          "end": 173.685
+        },
+        {
+          "text": "day",
+          "start": 173.685,
+          "end": 174.185
+        },
+        {
+          "text": ":",
+          "start": 174.185,
+          "end": 174.285
+        },
+        {
+          "text": "hit",
+          "start": 174.285,
+          "end": 174.447
+        },
+        {
+          "text": "the",
+          "start": 174.447,
+          "end": 174.535
+        },
+        {
+          "text": "pyramid",
+          "start": 174.535,
+          "end": 175.01
+        },
+        {
+          "text": "from",
+          "start": 175.01,
+          "end": 175.185
+        },
+        {
+          "text": "all",
+          "start": 175.185,
+          "end": 175.447
+        },
+        {
+          "text": "three",
+          "start": 175.447,
+          "end": 175.685
+        },
+        {
+          "text": "angles",
+          "start": 175.685,
+          "end": 176.16
+        },
+        {
+          "text": "in",
+          "start": 176.16,
+          "end": 176.31
+        },
+        {
+          "text": "one",
+          "start": 176.31,
+          "end": 176.535
+        },
+        {
+          "text": "test",
+          "start": 176.535,
+          "end": 177.285
+        },
+        {
+          "text": ".",
+          "start": 177.285,
+          "end": 177.46
+        },
+        {
+          "text": "UI",
+          "start": 177.46,
+          "end": 177.86
+        },
+        {
+          "text": "says",
+          "start": 177.86,
+          "end": 178.085
+        },
+        {
+          "text": "success",
+          "start": 178.085,
+          "end": 178.885
+        },
+        {
+          "text": "?",
+          "start": 178.885,
+          "end": 179.047
+        },
+        {
+          "text": "Check",
+          "start": 179.047,
+          "end": 179.247
+        },
+        {
+          "text": "the",
+          "start": 179.247,
+          "end": 179.397
+        },
+        {
+          "text": "API",
+          "start": 179.397,
+          "end": 180.06
+        },
+        {
+          "text": "response",
+          "start": 180.06,
+          "end": 180.985
+        },
+        {
+          "text": ".",
+          "start": 180.985,
+          "end": 181.147
+        },
+        {
+          "text": "API",
+          "start": 181.147,
+          "end": 181.81
+        },
+        {
+          "text": "says",
+          "start": 181.81,
+          "end": 182.035
+        },
+        {
+          "text": "success",
+          "start": 182.035,
+          "end": 182.71
+        },
+        {
+          "text": "?",
+          "start": 182.71,
+          "end": 182.81
+        },
+        {
+          "text": "Hit",
+          "start": 182.81,
+          "end": 182.972
+        },
+        {
+          "text": "the",
+          "start": 182.972,
+          "end": 183.06
+        },
+        {
+          "text": "database",
+          "start": 183.06,
+          "end": 183.935
+        },
+        {
+          "text": ".",
+          "start": 183.935,
+          "end": 184.072
+        },
+        {
+          "text": "All",
+          "start": 184.072,
+          "end": 184.347
+        },
+        {
+          "text": "three",
+          "start": 184.347,
+          "end": 184.585
+        },
+        {
+          "text": "aligned",
+          "start": 184.585,
+          "end": 185.21
+        },
+        {
+          "text": "?",
+          "start": 185.21,
+          "end": 185.31
+        },
+        {
+          "text": "You've",
+          "start": 185.31,
+          "end": 185.522
+        },
+        {
+          "text": "shipped",
+          "start": 185.522,
+          "end": 185.785
+        },
+        {
+          "text": "quality",
+          "start": 185.785,
+          "end": 186.56
+        },
+        {
+          "text": ".",
+          "start": 186.56,
+          "end": 186.685
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "p",
+      "text": "That's the power of Playwright , no separate tools, no session fragmentation, one coherent test that catches the bugs others miss. Add cross-browser execution to that, and you've built a pyramid that actually holds.",
+      "start": 187.005,
+      "end": 200.755,
+      "words": [
+        {
+          "text": "That's",
+          "start": 187.255,
+          "end": 187.505
+        },
+        {
+          "text": "the",
+          "start": 187.505,
+          "end": 187.618
+        },
+        {
+          "text": "power",
+          "start": 187.618,
+          "end": 188.017
+        },
+        {
+          "text": "of",
+          "start": 188.017,
+          "end": 188.13
+        },
+        {
+          "text": "Playwright",
+          "start": 188.13,
+          "end": 188.868
+        },
+        {
+          "text": ",",
+          "start": 188.868,
+          "end": 188.967
+        },
+        {
+          "text": "no",
+          "start": 188.967,
+          "end": 189.217
+        },
+        {
+          "text": "separate",
+          "start": 189.217,
+          "end": 189.605
+        },
+        {
+          "text": "tools",
+          "start": 189.605,
+          "end": 190.205
+        },
+        {
+          "text": ",",
+          "start": 190.205,
+          "end": 190.317
+        },
+        {
+          "text": "no",
+          "start": 190.317,
+          "end": 190.567
+        },
+        {
+          "text": "session",
+          "start": 190.567,
+          "end": 190.98
+        },
+        {
+          "text": "fragmentation",
+          "start": 190.98,
+          "end": 192.03
+        },
+        {
+          "text": ",",
+          "start": 192.03,
+          "end": 192.143
+        },
+        {
+          "text": "one",
+          "start": 192.143,
+          "end": 192.417
+        },
+        {
+          "text": "coherent",
+          "start": 192.417,
+          "end": 192.943
+        },
+        {
+          "text": "test",
+          "start": 192.943,
+          "end": 193.355
+        },
+        {
+          "text": "that",
+          "start": 193.355,
+          "end": 193.53
+        },
+        {
+          "text": "catches",
+          "start": 193.53,
+          "end": 193.955
+        },
+        {
+          "text": "the",
+          "start": 193.955,
+          "end": 194.055
+        },
+        {
+          "text": "bugs",
+          "start": 194.055,
+          "end": 194.43
+        },
+        {
+          "text": "others",
+          "start": 194.43,
+          "end": 194.78
+        },
+        {
+          "text": "miss",
+          "start": 194.78,
+          "end": 195.58
+        },
+        {
+          "text": ".",
+          "start": 195.58,
+          "end": 195.767
+        },
+        {
+          "text": "Add",
+          "start": 195.767,
+          "end": 196.03
+        },
+        {
+          "text": "cross-browser",
+          "start": 196.03,
+          "end": 196.755
+        },
+        {
+          "text": "execution",
+          "start": 196.755,
+          "end": 197.405
+        },
+        {
+          "text": "to",
+          "start": 197.405,
+          "end": 197.505
+        },
+        {
+          "text": "that",
+          "start": 197.505,
+          "end": 198.03
+        },
+        {
+          "text": ",",
+          "start": 198.03,
+          "end": 198.13
+        },
+        {
+          "text": "and",
+          "start": 198.13,
+          "end": 198.255
+        },
+        {
+          "text": "you've",
+          "start": 198.255,
+          "end": 198.455
+        },
+        {
+          "text": "built",
+          "start": 198.455,
+          "end": 198.693
+        },
+        {
+          "text": "a",
+          "start": 198.693,
+          "end": 198.767
+        },
+        {
+          "text": "pyramid",
+          "start": 198.767,
+          "end": 199.28
+        },
+        {
+          "text": "that",
+          "start": 199.28,
+          "end": 199.443
+        },
+        {
+          "text": "actually",
+          "start": 199.443,
+          "end": 199.905
+        },
+        {
+          "text": "holds",
+          "start": 199.905,
+          "end": 200.605
+        },
+        {
+          "text": ".",
+          "start": 200.605,
+          "end": 200.755
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 201.075,
+      "end": 202.9,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 201.375,
+          "end": 201.875
+        },
+        {
+          "text": "and",
+          "start": 201.875,
+          "end": 202.0
+        },
+        {
+          "text": "Further",
+          "start": 202.0,
+          "end": 202.275
+        },
+        {
+          "text": "Reading",
+          "start": 202.275,
+          "end": 202.9
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Playwright .NET , intro",
+      "start": 203.345,
+      "end": 205.17,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 203.62,
+          "end": 203.995
+        },
+        {
+          "text": ".NET",
+          "start": 203.995,
+          "end": 204.407
+        },
+        {
+          "text": ",",
+          "start": 204.407,
+          "end": 204.495
+        },
+        {
+          "text": "intro",
+          "start": 204.495,
+          "end": 205.17
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Playwright tracing , debug failed tests",
+      "start": 205.665,
+      "end": 208.39,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 205.915,
+          "end": 206.265
+        },
+        {
+          "text": "tracing",
+          "start": 206.265,
+          "end": 206.89
+        },
+        {
+          "text": ",",
+          "start": 206.89,
+          "end": 206.965
+        },
+        {
+          "text": "debug",
+          "start": 206.965,
+          "end": 207.365
+        },
+        {
+          "text": "failed",
+          "start": 207.365,
+          "end": 207.69
+        },
+        {
+          "text": "tests",
+          "start": 207.69,
+          "end": 208.39
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "API testing with Playwright",
+      "start": 208.81,
+      "end": 210.81,
+      "words": [
+        {
+          "text": "API",
+          "start": 209.11,
+          "end": 209.635
+        },
+        {
+          "text": "testing",
+          "start": 209.635,
+          "end": 209.998
+        },
+        {
+          "text": "with",
+          "start": 209.998,
+          "end": 210.135
+        },
+        {
+          "text": "Playwright",
+          "start": 210.135,
+          "end": 210.81
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Cross-browser testing , Playwright",
+      "start": 211.255,
+      "end": 213.455,
+      "words": [
+        {
+          "text": "Cross-browser",
+          "start": 211.53,
+          "end": 212.08
+        },
+        {
+          "text": "testing",
+          "start": 212.08,
+          "end": 212.63
+        },
+        {
+          "text": ",",
+          "start": 212.63,
+          "end": 212.705
+        },
+        {
+          "text": "Playwright",
+          "start": 212.705,
+          "end": 213.455
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "See also: Mastering Async Operations in C# Playwright (Aug 2024) · Playwright MCP + Multi-Agent Testing (Jul 2026)",
+      "start": 213.9,
+      "end": 224.575,
+      "words": [
+        {
+          "text": "See",
+          "start": 214.175,
+          "end": 214.325
+        },
+        {
+          "text": "also",
+          "start": 214.325,
+          "end": 214.975
+        },
+        {
+          "text": ":",
+          "start": 214.975,
+          "end": 215.113
+        },
+        {
+          "text": "Mastering",
+          "start": 215.113,
+          "end": 215.6
+        },
+        {
+          "text": "Async",
+          "start": 215.6,
+          "end": 215.925
+        },
+        {
+          "text": "Operations",
+          "start": 215.925,
+          "end": 216.675
+        },
+        {
+          "text": "in",
+          "start": 216.675,
+          "end": 216.837
+        },
+        {
+          "text": "C#",
+          "start": 216.837,
+          "end": 217.462
+        },
+        {
+          "text": "Playwright",
+          "start": 217.462,
+          "end": 217.9
+        },
+        {
+          "text": "(",
+          "start": 217.9,
+          "end": 217.975
+        },
+        {
+          "text": "Aug",
+          "start": 217.975,
+          "end": 218.287
+        },
+        {
+          "text": "2024",
+          "start": 218.287,
+          "end": 219.45
+        },
+        {
+          "text": ")",
+          "start": 219.45,
+          "end": 219.65
+        },
+        {
+          "text": "Playwright",
+          "start": 219.7,
+          "end": 220.15
+        },
+        {
+          "text": "MCP",
+          "start": 220.15,
+          "end": 220.95
+        },
+        {
+          "text": "+",
+          "start": 220.95,
+          "end": 221.263
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 221.263,
+          "end": 221.9
+        },
+        {
+          "text": "Testing",
+          "start": 221.9,
+          "end": 222.812
+        },
+        {
+          "text": "(",
+          "start": 222.812,
+          "end": 222.9
+        },
+        {
+          "text": "Jul",
+          "start": 222.9,
+          "end": 223.25
+        },
+        {
+          "text": "2026",
+          "start": 223.25,
+          "end": 224.575
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

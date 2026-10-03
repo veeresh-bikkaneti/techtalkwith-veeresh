@@ -1,0 +1,6290 @@
+{
+  "slug": "mastering-async-operations-csharp-playwright",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 399.77,
+  "contentHash": "bf5a8a037bc415f6c33342f30cd14dde1e1cb7831bcdf4084b7de721065d6a52",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Mastering Asynchronous Operations in C# with Microsoft Playwright",
+      "start": 0.0,
+      "end": 4.75,
+      "words": [
+        {
+          "text": "Mastering",
+          "start": 0.3,
+          "end": 0.825
+        },
+        {
+          "text": "Asynchronous",
+          "start": 0.825,
+          "end": 1.4
+        },
+        {
+          "text": "Operations",
+          "start": 1.4,
+          "end": 2.375
+        },
+        {
+          "text": "in",
+          "start": 2.375,
+          "end": 2.562
+        },
+        {
+          "text": "C#",
+          "start": 2.562,
+          "end": 3.275
+        },
+        {
+          "text": "with",
+          "start": 3.275,
+          "end": 3.45
+        },
+        {
+          "text": "Microsoft",
+          "start": 3.45,
+          "end": 4.025
+        },
+        {
+          "text": "Playwright",
+          "start": 4.025,
+          "end": 4.75
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h2",
+      "text": "Waiting for Network Responses: The \"You're Not Done Yet\" Guide",
+      "start": 5.195,
+      "end": 8.82,
+      "words": [
+        {
+          "text": "Waiting",
+          "start": 5.495,
+          "end": 5.845
+        },
+        {
+          "text": "for",
+          "start": 5.845,
+          "end": 5.97
+        },
+        {
+          "text": "Network",
+          "start": 5.97,
+          "end": 6.307
+        },
+        {
+          "text": "Responses",
+          "start": 6.307,
+          "end": 7.195
+        },
+        {
+          "text": ":",
+          "start": 7.195,
+          "end": 7.295
+        },
+        {
+          "text": "The",
+          "start": 7.295,
+          "end": 7.407
+        },
+        {
+          "text": "\"",
+          "start": 7.407,
+          "end": 7.445
+        },
+        {
+          "text": "You're",
+          "start": 7.445,
+          "end": 7.557
+        },
+        {
+          "text": "Not",
+          "start": 7.557,
+          "end": 7.745
+        },
+        {
+          "text": "Done",
+          "start": 7.745,
+          "end": 7.97
+        },
+        {
+          "text": "Yet",
+          "start": 7.97,
+          "end": 8.145
+        },
+        {
+          "text": "\"",
+          "start": 8.145,
+          "end": 8.195
+        },
+        {
+          "text": "Guide",
+          "start": 8.195,
+          "end": 8.82
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "quote",
+      "text": "\"The network is fast... sometimes. And that's when your tests flake.\"",
+      "start": 9.29,
+      "end": 13.515,
+      "words": [
+        {
+          "text": "\"",
+          "start": 9.515,
+          "end": 9.565
+        },
+        {
+          "text": "The",
+          "start": 9.565,
+          "end": 9.64
+        },
+        {
+          "text": "network",
+          "start": 9.64,
+          "end": 10.003
+        },
+        {
+          "text": "is",
+          "start": 10.003,
+          "end": 10.14
+        },
+        {
+          "text": "fast",
+          "start": 10.14,
+          "end": 10.74
+        },
+        {
+          "text": ".",
+          "start": 10.74,
+          "end": 10.79
+        },
+        {
+          "text": ".",
+          "start": 10.79,
+          "end": 10.815
+        },
+        {
+          "text": ".",
+          "start": 10.815,
+          "end": 10.865
+        },
+        {
+          "text": "sometimes",
+          "start": 10.865,
+          "end": 11.69
+        },
+        {
+          "text": ".",
+          "start": 11.69,
+          "end": 11.79
+        },
+        {
+          "text": "And",
+          "start": 11.79,
+          "end": 11.928
+        },
+        {
+          "text": "that's",
+          "start": 11.928,
+          "end": 12.178
+        },
+        {
+          "text": "when",
+          "start": 12.178,
+          "end": 12.303
+        },
+        {
+          "text": "your",
+          "start": 12.303,
+          "end": 12.415
+        },
+        {
+          "text": "tests",
+          "start": 12.415,
+          "end": 12.765
+        },
+        {
+          "text": "flake",
+          "start": 12.765,
+          "end": 13.34
+        },
+        {
+          "text": ".",
+          "start": 13.34,
+          "end": 13.49
+        },
+        {
+          "text": "\"",
+          "start": 13.49,
+          "end": 13.515
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "You're building test automation for an API-driven app. A user clicks \"Submit\", which fires off an API call to /api/order. Your test needs the response data to validate what happens next, but if you click and immediately assert, you've beaten the network to the punch. The API hasn't answered yet. Your test fails. Locally it passes (fast network). On CI, it's flaky. You've probably been there.",
+      "start": 13.835,
+      "end": 39.235,
+      "words": [
+        {
+          "text": "You're",
+          "start": 14.11,
+          "end": 14.235
+        },
+        {
+          "text": "building",
+          "start": 14.235,
+          "end": 14.61
+        },
+        {
+          "text": "test",
+          "start": 14.61,
+          "end": 14.91
+        },
+        {
+          "text": "automation",
+          "start": 14.91,
+          "end": 15.61
+        },
+        {
+          "text": "for",
+          "start": 15.61,
+          "end": 15.723
+        },
+        {
+          "text": "an",
+          "start": 15.723,
+          "end": 15.835
+        },
+        {
+          "text": "API-driven",
+          "start": 15.835,
+          "end": 16.635
+        },
+        {
+          "text": "app",
+          "start": 16.635,
+          "end": 17.21
+        },
+        {
+          "text": ".",
+          "start": 17.21,
+          "end": 17.348
+        },
+        {
+          "text": "A",
+          "start": 17.348,
+          "end": 17.473
+        },
+        {
+          "text": "user",
+          "start": 17.473,
+          "end": 17.848
+        },
+        {
+          "text": "clicks",
+          "start": 17.848,
+          "end": 18.185
+        },
+        {
+          "text": "\"",
+          "start": 18.185,
+          "end": 18.26
+        },
+        {
+          "text": "Submit",
+          "start": 18.26,
+          "end": 18.76
+        },
+        {
+          "text": "\"",
+          "start": 18.76,
+          "end": 18.81
+        },
+        {
+          "text": ",",
+          "start": 18.81,
+          "end": 18.848
+        },
+        {
+          "text": "which",
+          "start": 18.848,
+          "end": 19.035
+        },
+        {
+          "text": "fires",
+          "start": 19.035,
+          "end": 19.435
+        },
+        {
+          "text": "off",
+          "start": 19.435,
+          "end": 19.623
+        },
+        {
+          "text": "an",
+          "start": 19.623,
+          "end": 19.71
+        },
+        {
+          "text": "API",
+          "start": 19.71,
+          "end": 20.26
+        },
+        {
+          "text": "call",
+          "start": 20.26,
+          "end": 20.56
+        },
+        {
+          "text": "to",
+          "start": 20.56,
+          "end": 20.698
+        },
+        {
+          "text": "/api/order",
+          "start": 20.698,
+          "end": 22.885
+        },
+        {
+          "text": ".",
+          "start": 22.885,
+          "end": 23.048
+        },
+        {
+          "text": "Your",
+          "start": 23.048,
+          "end": 23.248
+        },
+        {
+          "text": "test",
+          "start": 23.248,
+          "end": 23.61
+        },
+        {
+          "text": "needs",
+          "start": 23.61,
+          "end": 23.848
+        },
+        {
+          "text": "the",
+          "start": 23.848,
+          "end": 23.935
+        },
+        {
+          "text": "response",
+          "start": 23.935,
+          "end": 24.435
+        },
+        {
+          "text": "data",
+          "start": 24.435,
+          "end": 24.71
+        },
+        {
+          "text": "to",
+          "start": 24.71,
+          "end": 24.835
+        },
+        {
+          "text": "validate",
+          "start": 24.835,
+          "end": 25.323
+        },
+        {
+          "text": "what",
+          "start": 25.323,
+          "end": 25.46
+        },
+        {
+          "text": "happens",
+          "start": 25.46,
+          "end": 25.86
+        },
+        {
+          "text": "next",
+          "start": 25.86,
+          "end": 26.41
+        },
+        {
+          "text": ",",
+          "start": 26.41,
+          "end": 26.485
+        },
+        {
+          "text": "but",
+          "start": 26.485,
+          "end": 26.623
+        },
+        {
+          "text": "if",
+          "start": 26.623,
+          "end": 26.698
+        },
+        {
+          "text": "you",
+          "start": 26.698,
+          "end": 26.823
+        },
+        {
+          "text": "click",
+          "start": 26.823,
+          "end": 27.185
+        },
+        {
+          "text": "and",
+          "start": 27.185,
+          "end": 27.298
+        },
+        {
+          "text": "immediately",
+          "start": 27.298,
+          "end": 27.86
+        },
+        {
+          "text": "assert",
+          "start": 27.86,
+          "end": 28.385
+        },
+        {
+          "text": ",",
+          "start": 28.385,
+          "end": 28.46
+        },
+        {
+          "text": "you've",
+          "start": 28.46,
+          "end": 28.66
+        },
+        {
+          "text": "beaten",
+          "start": 28.66,
+          "end": 28.898
+        },
+        {
+          "text": "the",
+          "start": 28.898,
+          "end": 28.985
+        },
+        {
+          "text": "network",
+          "start": 28.985,
+          "end": 29.385
+        },
+        {
+          "text": "to",
+          "start": 29.385,
+          "end": 29.473
+        },
+        {
+          "text": "the",
+          "start": 29.473,
+          "end": 29.56
+        },
+        {
+          "text": "punch",
+          "start": 29.56,
+          "end": 30.26
+        },
+        {
+          "text": ".",
+          "start": 30.26,
+          "end": 30.422
+        },
+        {
+          "text": "The",
+          "start": 30.422,
+          "end": 30.585
+        },
+        {
+          "text": "API",
+          "start": 30.585,
+          "end": 31.185
+        },
+        {
+          "text": "hasn't",
+          "start": 31.185,
+          "end": 31.51
+        },
+        {
+          "text": "answered",
+          "start": 31.51,
+          "end": 31.91
+        },
+        {
+          "text": "yet",
+          "start": 31.91,
+          "end": 32.335
+        },
+        {
+          "text": ".",
+          "start": 32.335,
+          "end": 32.41
+        },
+        {
+          "text": "Your",
+          "start": 32.41,
+          "end": 32.56
+        },
+        {
+          "text": "test",
+          "start": 32.56,
+          "end": 32.885
+        },
+        {
+          "text": "fails",
+          "start": 32.885,
+          "end": 33.56
+        },
+        {
+          "text": ".",
+          "start": 33.56,
+          "end": 33.672
+        },
+        {
+          "text": "Locally",
+          "start": 33.672,
+          "end": 34.047
+        },
+        {
+          "text": "it",
+          "start": 34.047,
+          "end": 34.135
+        },
+        {
+          "text": "passes",
+          "start": 34.135,
+          "end": 34.685
+        },
+        {
+          "text": "(",
+          "start": 34.685,
+          "end": 34.76
+        },
+        {
+          "text": "fast",
+          "start": 34.76,
+          "end": 35.085
+        },
+        {
+          "text": "network",
+          "start": 35.085,
+          "end": 35.735
+        },
+        {
+          "text": ")",
+          "start": 35.735,
+          "end": 35.935
+        },
+        {
+          "text": ".",
+          "start": 35.935,
+          "end": 36.01
+        },
+        {
+          "text": "On",
+          "start": 36.01,
+          "end": 36.26
+        },
+        {
+          "text": "CI",
+          "start": 36.26,
+          "end": 36.735
+        },
+        {
+          "text": ",",
+          "start": 36.735,
+          "end": 36.785
+        },
+        {
+          "text": "it's",
+          "start": 36.785,
+          "end": 36.985
+        },
+        {
+          "text": "flaky",
+          "start": 36.985,
+          "end": 37.56
+        },
+        {
+          "text": ".",
+          "start": 37.56,
+          "end": 37.672
+        },
+        {
+          "text": "You've",
+          "start": 37.672,
+          "end": 37.885
+        },
+        {
+          "text": "probably",
+          "start": 37.885,
+          "end": 38.36
+        },
+        {
+          "text": "been",
+          "start": 38.36,
+          "end": 38.535
+        },
+        {
+          "text": "there",
+          "start": 38.535,
+          "end": 39.085
+        },
+        {
+          "text": ".",
+          "start": 39.085,
+          "end": 39.235
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "The fix: Don't guess when the response arrives. Make your test wait for it explicitly using WaitForResponseAsync, then grab the data and verify it. This post walks you through doing that in C# with Playwright , step by step, with no secrets.",
+      "start": 39.555,
+      "end": 55.105,
+      "words": [
+        {
+          "text": "The",
+          "start": 39.805,
+          "end": 39.93
+        },
+        {
+          "text": "fix",
+          "start": 39.93,
+          "end": 40.405
+        },
+        {
+          "text": ":",
+          "start": 40.405,
+          "end": 40.48
+        },
+        {
+          "text": "Don't",
+          "start": 40.48,
+          "end": 40.705
+        },
+        {
+          "text": "guess",
+          "start": 40.705,
+          "end": 40.942
+        },
+        {
+          "text": "when",
+          "start": 40.942,
+          "end": 41.067
+        },
+        {
+          "text": "the",
+          "start": 41.067,
+          "end": 41.155
+        },
+        {
+          "text": "response",
+          "start": 41.155,
+          "end": 41.655
+        },
+        {
+          "text": "arrives",
+          "start": 41.655,
+          "end": 42.58
+        },
+        {
+          "text": ".",
+          "start": 42.58,
+          "end": 42.718
+        },
+        {
+          "text": "Make",
+          "start": 42.718,
+          "end": 42.917
+        },
+        {
+          "text": "your",
+          "start": 42.917,
+          "end": 43.055
+        },
+        {
+          "text": "test",
+          "start": 43.055,
+          "end": 43.38
+        },
+        {
+          "text": "wait",
+          "start": 43.38,
+          "end": 43.63
+        },
+        {
+          "text": "for",
+          "start": 43.63,
+          "end": 43.78
+        },
+        {
+          "text": "it",
+          "start": 43.78,
+          "end": 43.905
+        },
+        {
+          "text": "explicitly",
+          "start": 43.905,
+          "end": 44.58
+        },
+        {
+          "text": "using",
+          "start": 44.58,
+          "end": 44.93
+        },
+        {
+          "text": "WaitForResponseAsync",
+          "start": 44.93,
+          "end": 46.455
+        },
+        {
+          "text": ",",
+          "start": 46.455,
+          "end": 46.555
+        },
+        {
+          "text": "then",
+          "start": 46.555,
+          "end": 46.792
+        },
+        {
+          "text": "grab",
+          "start": 46.792,
+          "end": 47.155
+        },
+        {
+          "text": "the",
+          "start": 47.155,
+          "end": 47.255
+        },
+        {
+          "text": "data",
+          "start": 47.255,
+          "end": 47.643
+        },
+        {
+          "text": "and",
+          "start": 47.643,
+          "end": 47.78
+        },
+        {
+          "text": "verify",
+          "start": 47.78,
+          "end": 48.255
+        },
+        {
+          "text": "it",
+          "start": 48.255,
+          "end": 48.855
+        },
+        {
+          "text": ".",
+          "start": 48.855,
+          "end": 49.03
+        },
+        {
+          "text": "This",
+          "start": 49.03,
+          "end": 49.28
+        },
+        {
+          "text": "post",
+          "start": 49.28,
+          "end": 49.668
+        },
+        {
+          "text": "walks",
+          "start": 49.668,
+          "end": 49.955
+        },
+        {
+          "text": "you",
+          "start": 49.955,
+          "end": 50.117
+        },
+        {
+          "text": "through",
+          "start": 50.117,
+          "end": 50.367
+        },
+        {
+          "text": "doing",
+          "start": 50.367,
+          "end": 50.755
+        },
+        {
+          "text": "that",
+          "start": 50.755,
+          "end": 50.93
+        },
+        {
+          "text": "in",
+          "start": 50.93,
+          "end": 51.105
+        },
+        {
+          "text": "C#",
+          "start": 51.105,
+          "end": 51.717
+        },
+        {
+          "text": "with",
+          "start": 51.717,
+          "end": 51.88
+        },
+        {
+          "text": "Playwright",
+          "start": 51.88,
+          "end": 52.617
+        },
+        {
+          "text": ",",
+          "start": 52.617,
+          "end": 52.717
+        },
+        {
+          "text": "step",
+          "start": 52.717,
+          "end": 53.005
+        },
+        {
+          "text": "by",
+          "start": 53.005,
+          "end": 53.217
+        },
+        {
+          "text": "step",
+          "start": 53.217,
+          "end": 53.68
+        },
+        {
+          "text": ",",
+          "start": 53.68,
+          "end": 53.755
+        },
+        {
+          "text": "with",
+          "start": 53.755,
+          "end": 53.93
+        },
+        {
+          "text": "no",
+          "start": 53.93,
+          "end": 54.13
+        },
+        {
+          "text": "secrets",
+          "start": 54.13,
+          "end": 54.955
+        },
+        {
+          "text": ".",
+          "start": 54.955,
+          "end": 55.105
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h2",
+      "text": "How Async Waiting Actually Works",
+      "start": 55.425,
+      "end": 57.625,
+      "words": [
+        {
+          "text": "How",
+          "start": 55.7,
+          "end": 55.875
+        },
+        {
+          "text": "Async",
+          "start": 55.875,
+          "end": 56.275
+        },
+        {
+          "text": "Waiting",
+          "start": 56.275,
+          "end": 56.613
+        },
+        {
+          "text": "Actually",
+          "start": 56.613,
+          "end": 57.025
+        },
+        {
+          "text": "Works",
+          "start": 57.025,
+          "end": 57.625
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "Think of it like waiting for a package delivery. You don't stand at the door and check every millisecond. You ask the delivery service, \"Tell me when the package from FedEx arrives,\" then do other stuff. When it arrives, you're notified and can open it. WaitForResponseAsync works the same way: you tell Playwright, \"I'm waiting for a response matching /api/endpoint,\" and Playwright watches the network. The moment that response lands, you can read its body, status, headers, whatever you need.",
+      "start": 58.07,
+      "end": 87.495,
+      "words": [
+        {
+          "text": "Think",
+          "start": 58.37,
+          "end": 58.532
+        },
+        {
+          "text": "of",
+          "start": 58.532,
+          "end": 58.62
+        },
+        {
+          "text": "it",
+          "start": 58.62,
+          "end": 58.733
+        },
+        {
+          "text": "like",
+          "start": 58.733,
+          "end": 58.945
+        },
+        {
+          "text": "waiting",
+          "start": 58.945,
+          "end": 59.295
+        },
+        {
+          "text": "for",
+          "start": 59.295,
+          "end": 59.407
+        },
+        {
+          "text": "a",
+          "start": 59.407,
+          "end": 59.47
+        },
+        {
+          "text": "package",
+          "start": 59.47,
+          "end": 59.895
+        },
+        {
+          "text": "delivery",
+          "start": 59.895,
+          "end": 60.72
+        },
+        {
+          "text": ".",
+          "start": 60.72,
+          "end": 60.845
+        },
+        {
+          "text": "You",
+          "start": 60.845,
+          "end": 60.957
+        },
+        {
+          "text": "don't",
+          "start": 60.957,
+          "end": 61.12
+        },
+        {
+          "text": "stand",
+          "start": 61.12,
+          "end": 61.457
+        },
+        {
+          "text": "at",
+          "start": 61.457,
+          "end": 61.532
+        },
+        {
+          "text": "the",
+          "start": 61.532,
+          "end": 61.62
+        },
+        {
+          "text": "door",
+          "start": 61.62,
+          "end": 61.945
+        },
+        {
+          "text": "and",
+          "start": 61.945,
+          "end": 62.082
+        },
+        {
+          "text": "check",
+          "start": 62.082,
+          "end": 62.37
+        },
+        {
+          "text": "every",
+          "start": 62.37,
+          "end": 62.645
+        },
+        {
+          "text": "millisecond",
+          "start": 62.645,
+          "end": 63.57
+        },
+        {
+          "text": ".",
+          "start": 63.57,
+          "end": 63.67
+        },
+        {
+          "text": "You",
+          "start": 63.67,
+          "end": 63.82
+        },
+        {
+          "text": "ask",
+          "start": 63.82,
+          "end": 64.095
+        },
+        {
+          "text": "the",
+          "start": 64.095,
+          "end": 64.195
+        },
+        {
+          "text": "delivery",
+          "start": 64.195,
+          "end": 64.57
+        },
+        {
+          "text": "service",
+          "start": 64.57,
+          "end": 65.195
+        },
+        {
+          "text": ",",
+          "start": 65.195,
+          "end": 65.27
+        },
+        {
+          "text": "\"",
+          "start": 65.27,
+          "end": 65.345
+        },
+        {
+          "text": "Tell",
+          "start": 65.345,
+          "end": 65.483
+        },
+        {
+          "text": "me",
+          "start": 65.483,
+          "end": 65.582
+        },
+        {
+          "text": "when",
+          "start": 65.582,
+          "end": 65.707
+        },
+        {
+          "text": "the",
+          "start": 65.707,
+          "end": 65.795
+        },
+        {
+          "text": "package",
+          "start": 65.795,
+          "end": 66.22
+        },
+        {
+          "text": "from",
+          "start": 66.22,
+          "end": 66.395
+        },
+        {
+          "text": "FedEx",
+          "start": 66.395,
+          "end": 66.82
+        },
+        {
+          "text": "arrives",
+          "start": 66.82,
+          "end": 67.545
+        },
+        {
+          "text": ",",
+          "start": 67.545,
+          "end": 67.62
+        },
+        {
+          "text": "\"",
+          "start": 67.62,
+          "end": 67.67
+        },
+        {
+          "text": "then",
+          "start": 67.67,
+          "end": 67.895
+        },
+        {
+          "text": "do",
+          "start": 67.895,
+          "end": 68.07
+        },
+        {
+          "text": "other",
+          "start": 68.07,
+          "end": 68.345
+        },
+        {
+          "text": "stuff",
+          "start": 68.345,
+          "end": 69.17
+        },
+        {
+          "text": ".",
+          "start": 69.17,
+          "end": 69.27
+        },
+        {
+          "text": "When",
+          "start": 69.27,
+          "end": 69.407
+        },
+        {
+          "text": "it",
+          "start": 69.407,
+          "end": 69.495
+        },
+        {
+          "text": "arrives",
+          "start": 69.495,
+          "end": 70.095
+        },
+        {
+          "text": ",",
+          "start": 70.095,
+          "end": 70.17
+        },
+        {
+          "text": "you're",
+          "start": 70.17,
+          "end": 70.295
+        },
+        {
+          "text": "notified",
+          "start": 70.295,
+          "end": 70.895
+        },
+        {
+          "text": "and",
+          "start": 70.895,
+          "end": 71.02
+        },
+        {
+          "text": "can",
+          "start": 71.02,
+          "end": 71.145
+        },
+        {
+          "text": "open",
+          "start": 71.145,
+          "end": 71.483
+        },
+        {
+          "text": "it",
+          "start": 71.483,
+          "end": 72.045
+        },
+        {
+          "text": ".",
+          "start": 72.045,
+          "end": 72.195
+        },
+        {
+          "text": "WaitForResponseAsync",
+          "start": 72.195,
+          "end": 73.395
+        },
+        {
+          "text": "works",
+          "start": 73.395,
+          "end": 73.657
+        },
+        {
+          "text": "the",
+          "start": 73.657,
+          "end": 73.758
+        },
+        {
+          "text": "same",
+          "start": 73.758,
+          "end": 74.07
+        },
+        {
+          "text": "way",
+          "start": 74.07,
+          "end": 74.52
+        },
+        {
+          "text": ":",
+          "start": 74.52,
+          "end": 74.645
+        },
+        {
+          "text": "you",
+          "start": 74.645,
+          "end": 74.795
+        },
+        {
+          "text": "tell",
+          "start": 74.795,
+          "end": 75.02
+        },
+        {
+          "text": "Playwright",
+          "start": 75.02,
+          "end": 75.695
+        },
+        {
+          "text": ",",
+          "start": 75.695,
+          "end": 75.795
+        },
+        {
+          "text": "\"",
+          "start": 75.795,
+          "end": 75.87
+        },
+        {
+          "text": "I'm",
+          "start": 75.87,
+          "end": 76.02
+        },
+        {
+          "text": "waiting",
+          "start": 76.02,
+          "end": 76.37
+        },
+        {
+          "text": "for",
+          "start": 76.37,
+          "end": 76.483
+        },
+        {
+          "text": "a",
+          "start": 76.483,
+          "end": 76.545
+        },
+        {
+          "text": "response",
+          "start": 76.545,
+          "end": 77.07
+        },
+        {
+          "text": "matching",
+          "start": 77.07,
+          "end": 77.495
+        },
+        {
+          "text": "/api/endpoint",
+          "start": 77.495,
+          "end": 79.845
+        },
+        {
+          "text": ",",
+          "start": 79.845,
+          "end": 79.92
+        },
+        {
+          "text": "\"",
+          "start": 79.92,
+          "end": 79.97
+        },
+        {
+          "text": "and",
+          "start": 79.97,
+          "end": 80.095
+        },
+        {
+          "text": "Playwright",
+          "start": 80.095,
+          "end": 80.557
+        },
+        {
+          "text": "watches",
+          "start": 80.557,
+          "end": 80.97
+        },
+        {
+          "text": "the",
+          "start": 80.97,
+          "end": 81.07
+        },
+        {
+          "text": "network",
+          "start": 81.07,
+          "end": 81.795
+        },
+        {
+          "text": ".",
+          "start": 81.795,
+          "end": 81.945
+        },
+        {
+          "text": "The",
+          "start": 82.295,
+          "end": 82.395
+        },
+        {
+          "text": "moment",
+          "start": 82.395,
+          "end": 82.683
+        },
+        {
+          "text": "that",
+          "start": 82.683,
+          "end": 82.782
+        },
+        {
+          "text": "response",
+          "start": 82.782,
+          "end": 83.245
+        },
+        {
+          "text": "lands",
+          "start": 83.245,
+          "end": 83.92
+        },
+        {
+          "text": ",",
+          "start": 83.92,
+          "end": 84.02
+        },
+        {
+          "text": "you",
+          "start": 84.02,
+          "end": 84.12
+        },
+        {
+          "text": "can",
+          "start": 84.12,
+          "end": 84.295
+        },
+        {
+          "text": "read",
+          "start": 84.295,
+          "end": 84.483
+        },
+        {
+          "text": "its",
+          "start": 84.483,
+          "end": 84.645
+        },
+        {
+          "text": "body",
+          "start": 84.645,
+          "end": 85.07
+        },
+        {
+          "text": ",",
+          "start": 85.07,
+          "end": 85.183
+        },
+        {
+          "text": "status",
+          "start": 85.183,
+          "end": 85.77
+        },
+        {
+          "text": ",",
+          "start": 85.77,
+          "end": 85.82
+        },
+        {
+          "text": "headers",
+          "start": 85.82,
+          "end": 86.245
+        },
+        {
+          "text": ",",
+          "start": 86.245,
+          "end": 86.295
+        },
+        {
+          "text": "whatever",
+          "start": 86.295,
+          "end": 86.645
+        },
+        {
+          "text": "you",
+          "start": 86.645,
+          "end": 86.745
+        },
+        {
+          "text": "need",
+          "start": 86.745,
+          "end": 87.32
+        },
+        {
+          "text": ".",
+          "start": 87.32,
+          "end": 87.495
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "Here's what we're doing today:",
+      "start": 87.815,
+      "end": 89.665,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 88.09,
+          "end": 88.377
+        },
+        {
+          "text": "what",
+          "start": 88.377,
+          "end": 88.502
+        },
+        {
+          "text": "we're",
+          "start": 88.502,
+          "end": 88.615
+        },
+        {
+          "text": "doing",
+          "start": 88.615,
+          "end": 88.915
+        },
+        {
+          "text": "today",
+          "start": 88.915,
+          "end": 89.49
+        },
+        {
+          "text": ":",
+          "start": 89.49,
+          "end": 89.665
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Listen for the API response (before you click)",
+      "start": 89.985,
+      "end": 93.36,
+      "words": [
+        {
+          "text": "Listen",
+          "start": 90.285,
+          "end": 90.61
+        },
+        {
+          "text": "for",
+          "start": 90.61,
+          "end": 90.723
+        },
+        {
+          "text": "the",
+          "start": 90.723,
+          "end": 90.86
+        },
+        {
+          "text": "API",
+          "start": 90.86,
+          "end": 91.385
+        },
+        {
+          "text": "response",
+          "start": 91.385,
+          "end": 92.123
+        },
+        {
+          "text": "(",
+          "start": 92.123,
+          "end": 92.185
+        },
+        {
+          "text": "before",
+          "start": 92.185,
+          "end": 92.485
+        },
+        {
+          "text": "you",
+          "start": 92.485,
+          "end": 92.61
+        },
+        {
+          "text": "click",
+          "start": 92.61,
+          "end": 93.185
+        },
+        {
+          "text": ")",
+          "start": 93.185,
+          "end": 93.36
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Wait for the button to show up (visibility check)",
+      "start": 93.68,
+      "end": 96.78,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 93.98,
+          "end": 94.23
+        },
+        {
+          "text": "for",
+          "start": 94.23,
+          "end": 94.342
+        },
+        {
+          "text": "the",
+          "start": 94.342,
+          "end": 94.43
+        },
+        {
+          "text": "button",
+          "start": 94.43,
+          "end": 94.73
+        },
+        {
+          "text": "to",
+          "start": 94.73,
+          "end": 94.868
+        },
+        {
+          "text": "show",
+          "start": 94.868,
+          "end": 95.105
+        },
+        {
+          "text": "up",
+          "start": 95.105,
+          "end": 95.443
+        },
+        {
+          "text": "(",
+          "start": 95.443,
+          "end": 95.505
+        },
+        {
+          "text": "visibility",
+          "start": 95.505,
+          "end": 96.043
+        },
+        {
+          "text": "check",
+          "start": 96.043,
+          "end": 96.605
+        },
+        {
+          "text": ")",
+          "start": 96.605,
+          "end": 96.78
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "li",
+      "text": "Click the button and wait for navigation (at the same time)",
+      "start": 97.1,
+      "end": 100.8,
+      "words": [
+        {
+          "text": "Click",
+          "start": 97.35,
+          "end": 97.575
+        },
+        {
+          "text": "the",
+          "start": 97.575,
+          "end": 97.675
+        },
+        {
+          "text": "button",
+          "start": 97.675,
+          "end": 98.05
+        },
+        {
+          "text": "and",
+          "start": 98.05,
+          "end": 98.175
+        },
+        {
+          "text": "wait",
+          "start": 98.175,
+          "end": 98.425
+        },
+        {
+          "text": "for",
+          "start": 98.425,
+          "end": 98.538
+        },
+        {
+          "text": "navigation",
+          "start": 98.538,
+          "end": 99.488
+        },
+        {
+          "text": "(",
+          "start": 99.488,
+          "end": 99.575
+        },
+        {
+          "text": "at",
+          "start": 99.575,
+          "end": 99.637
+        },
+        {
+          "text": "the",
+          "start": 99.637,
+          "end": 99.725
+        },
+        {
+          "text": "same",
+          "start": 99.725,
+          "end": 100.0
+        },
+        {
+          "text": "time",
+          "start": 100.0,
+          "end": 100.65
+        },
+        {
+          "text": ")",
+          "start": 100.65,
+          "end": 100.8
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "li",
+      "text": "Confirm the API response is complete",
+      "start": 101.12,
+      "end": 103.87,
+      "words": [
+        {
+          "text": "Confirm",
+          "start": 101.395,
+          "end": 101.833
+        },
+        {
+          "text": "the",
+          "start": 101.833,
+          "end": 101.945
+        },
+        {
+          "text": "API",
+          "start": 101.945,
+          "end": 102.458
+        },
+        {
+          "text": "response",
+          "start": 102.458,
+          "end": 102.945
+        },
+        {
+          "text": "is",
+          "start": 102.945,
+          "end": 103.095
+        },
+        {
+          "text": "complete",
+          "start": 103.095,
+          "end": 103.87
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "Assert the response status (was it a 200?)",
+      "start": 104.315,
+      "end": 107.64,
+      "words": [
+        {
+          "text": "Assert",
+          "start": 104.59,
+          "end": 104.928
+        },
+        {
+          "text": "the",
+          "start": 104.928,
+          "end": 105.015
+        },
+        {
+          "text": "response",
+          "start": 105.015,
+          "end": 105.49
+        },
+        {
+          "text": "status",
+          "start": 105.49,
+          "end": 106.202
+        },
+        {
+          "text": "(",
+          "start": 106.202,
+          "end": 106.29
+        },
+        {
+          "text": "was",
+          "start": 106.29,
+          "end": 106.427
+        },
+        {
+          "text": "it",
+          "start": 106.427,
+          "end": 106.503
+        },
+        {
+          "text": "a",
+          "start": 106.503,
+          "end": 106.578
+        },
+        {
+          "text": "200",
+          "start": 106.578,
+          "end": 107.44
+        },
+        {
+          "text": "?",
+          "start": 107.44,
+          "end": 107.59
+        },
+        {
+          "text": ")",
+          "start": 107.59,
+          "end": 107.64
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Log the request/response details (debugging)",
+      "start": 107.96,
+      "end": 111.16,
+      "words": [
+        {
+          "text": "Log",
+          "start": 108.285,
+          "end": 108.547
+        },
+        {
+          "text": "the",
+          "start": 108.547,
+          "end": 108.623
+        },
+        {
+          "text": "request/response",
+          "start": 108.623,
+          "end": 109.435
+        },
+        {
+          "text": "details",
+          "start": 109.435,
+          "end": 110.147
+        },
+        {
+          "text": "(",
+          "start": 110.147,
+          "end": 110.235
+        },
+        {
+          "text": "debugging",
+          "start": 110.235,
+          "end": 111.01
+        },
+        {
+          "text": ")",
+          "start": 111.01,
+          "end": 111.16
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Deserialize and use the data (turn JSON into objects)",
+      "start": 111.48,
+      "end": 115.78,
+      "words": [
+        {
+          "text": "Deserialize",
+          "start": 111.755,
+          "end": 112.592
+        },
+        {
+          "text": "and",
+          "start": 112.592,
+          "end": 112.73
+        },
+        {
+          "text": "use",
+          "start": 112.73,
+          "end": 112.942
+        },
+        {
+          "text": "the",
+          "start": 112.942,
+          "end": 113.03
+        },
+        {
+          "text": "data",
+          "start": 113.03,
+          "end": 113.605
+        },
+        {
+          "text": "(",
+          "start": 113.605,
+          "end": 113.705
+        },
+        {
+          "text": "turn",
+          "start": 113.705,
+          "end": 113.98
+        },
+        {
+          "text": "JSON",
+          "start": 113.98,
+          "end": 114.567
+        },
+        {
+          "text": "into",
+          "start": 114.567,
+          "end": 114.817
+        },
+        {
+          "text": "objects",
+          "start": 114.817,
+          "end": 115.63
+        },
+        {
+          "text": ")",
+          "start": 115.63,
+          "end": 115.78
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Let's go.",
+      "start": 116.1,
+      "end": 117.5,
+      "words": [
+        {
+          "text": "Let's",
+          "start": 116.475,
+          "end": 116.75
+        },
+        {
+          "text": "go",
+          "start": 116.75,
+          "end": 117.3
+        },
+        {
+          "text": ".",
+          "start": 117.3,
+          "end": 117.5
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h2",
+      "text": "Step by Step: Making It Work",
+      "start": 117.82,
+      "end": 119.995,
+      "words": [
+        {
+          "text": "Step",
+          "start": 118.095,
+          "end": 118.345
+        },
+        {
+          "text": "by",
+          "start": 118.345,
+          "end": 118.52
+        },
+        {
+          "text": "Step",
+          "start": 118.52,
+          "end": 118.97
+        },
+        {
+          "text": ":",
+          "start": 118.97,
+          "end": 119.07
+        },
+        {
+          "text": "Making",
+          "start": 119.07,
+          "end": 119.358
+        },
+        {
+          "text": "It",
+          "start": 119.358,
+          "end": 119.47
+        },
+        {
+          "text": "Work",
+          "start": 119.47,
+          "end": 119.995
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "h3",
+      "text": "1. Start Listening for the Response",
+      "start": 120.465,
+      "end": 122.89,
+      "words": [
+        {
+          "text": "1",
+          "start": 120.765,
+          "end": 121.14
+        },
+        {
+          "text": ".",
+          "start": 121.14,
+          "end": 121.253
+        },
+        {
+          "text": "Start",
+          "start": 121.253,
+          "end": 121.515
+        },
+        {
+          "text": "Listening",
+          "start": 121.515,
+          "end": 121.915
+        },
+        {
+          "text": "for",
+          "start": 121.915,
+          "end": 122.027
+        },
+        {
+          "text": "the",
+          "start": 122.027,
+          "end": 122.102
+        },
+        {
+          "text": "Response",
+          "start": 122.102,
+          "end": 122.89
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Before you click anything, tell Playwright you're waiting for a response. You do this by setting up a task that watches for a network request matching a regex pattern:",
+      "start": 123.36,
+      "end": 133.185,
+      "words": [
+        {
+          "text": "Before",
+          "start": 123.61,
+          "end": 123.91
+        },
+        {
+          "text": "you",
+          "start": 123.91,
+          "end": 124.035
+        },
+        {
+          "text": "click",
+          "start": 124.035,
+          "end": 124.26
+        },
+        {
+          "text": "anything",
+          "start": 124.26,
+          "end": 124.96
+        },
+        {
+          "text": ",",
+          "start": 124.96,
+          "end": 125.072
+        },
+        {
+          "text": "tell",
+          "start": 125.072,
+          "end": 125.347
+        },
+        {
+          "text": "Playwright",
+          "start": 125.347,
+          "end": 125.773
+        },
+        {
+          "text": "you're",
+          "start": 125.773,
+          "end": 125.885
+        },
+        {
+          "text": "waiting",
+          "start": 125.885,
+          "end": 126.335
+        },
+        {
+          "text": "for",
+          "start": 126.335,
+          "end": 126.447
+        },
+        {
+          "text": "a",
+          "start": 126.447,
+          "end": 126.51
+        },
+        {
+          "text": "response",
+          "start": 126.51,
+          "end": 127.535
+        },
+        {
+          "text": ".",
+          "start": 127.535,
+          "end": 127.672
+        },
+        {
+          "text": "You",
+          "start": 127.672,
+          "end": 127.81
+        },
+        {
+          "text": "do",
+          "start": 127.81,
+          "end": 127.96
+        },
+        {
+          "text": "this",
+          "start": 127.96,
+          "end": 128.26
+        },
+        {
+          "text": "by",
+          "start": 128.26,
+          "end": 128.448
+        },
+        {
+          "text": "setting",
+          "start": 128.448,
+          "end": 128.773
+        },
+        {
+          "text": "up",
+          "start": 128.773,
+          "end": 128.922
+        },
+        {
+          "text": "a",
+          "start": 128.922,
+          "end": 129.023
+        },
+        {
+          "text": "task",
+          "start": 129.023,
+          "end": 129.46
+        },
+        {
+          "text": "that",
+          "start": 129.46,
+          "end": 129.61
+        },
+        {
+          "text": "watches",
+          "start": 129.61,
+          "end": 130.06
+        },
+        {
+          "text": "for",
+          "start": 130.06,
+          "end": 130.172
+        },
+        {
+          "text": "a",
+          "start": 130.172,
+          "end": 130.235
+        },
+        {
+          "text": "network",
+          "start": 130.235,
+          "end": 130.623
+        },
+        {
+          "text": "request",
+          "start": 130.623,
+          "end": 131.36
+        },
+        {
+          "text": "matching",
+          "start": 131.36,
+          "end": 131.785
+        },
+        {
+          "text": "a",
+          "start": 131.785,
+          "end": 131.885
+        },
+        {
+          "text": "regex",
+          "start": 131.885,
+          "end": 132.31
+        },
+        {
+          "text": "pattern",
+          "start": 132.31,
+          "end": 133.035
+        },
+        {
+          "text": ":",
+          "start": 133.035,
+          "end": 133.185
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "The WaitForResponseAsync call with a regex pattern tells Playwright, \"When you see a response from a URL matching /api/endpoint, grab it.\" The method returns a Task , a promise that gets fulfilled when the response actually arrives. You're not blocked yet; you're just watching.",
+      "start": 133.505,
+      "end": 151.88,
+      "words": [
+        {
+          "text": "The",
+          "start": 133.78,
+          "end": 133.88
+        },
+        {
+          "text": "WaitForResponseAsync",
+          "start": 133.88,
+          "end": 135.055
+        },
+        {
+          "text": "call",
+          "start": 135.055,
+          "end": 135.355
+        },
+        {
+          "text": "with",
+          "start": 135.355,
+          "end": 135.492
+        },
+        {
+          "text": "a",
+          "start": 135.492,
+          "end": 135.593
+        },
+        {
+          "text": "regex",
+          "start": 135.593,
+          "end": 136.03
+        },
+        {
+          "text": "pattern",
+          "start": 136.03,
+          "end": 136.455
+        },
+        {
+          "text": "tells",
+          "start": 136.455,
+          "end": 136.755
+        },
+        {
+          "text": "Playwright",
+          "start": 136.755,
+          "end": 137.555
+        },
+        {
+          "text": ",",
+          "start": 137.555,
+          "end": 137.655
+        },
+        {
+          "text": "\"",
+          "start": 137.655,
+          "end": 137.705
+        },
+        {
+          "text": "When",
+          "start": 137.705,
+          "end": 137.83
+        },
+        {
+          "text": "you",
+          "start": 137.83,
+          "end": 137.968
+        },
+        {
+          "text": "see",
+          "start": 137.968,
+          "end": 138.155
+        },
+        {
+          "text": "a",
+          "start": 138.155,
+          "end": 138.23
+        },
+        {
+          "text": "response",
+          "start": 138.23,
+          "end": 138.83
+        },
+        {
+          "text": "from",
+          "start": 138.83,
+          "end": 138.968
+        },
+        {
+          "text": "a",
+          "start": 138.968,
+          "end": 139.068
+        },
+        {
+          "text": "URL",
+          "start": 139.068,
+          "end": 139.668
+        },
+        {
+          "text": "matching",
+          "start": 139.668,
+          "end": 140.13
+        },
+        {
+          "text": "/api/endpoint",
+          "start": 140.13,
+          "end": 142.38
+        },
+        {
+          "text": ",",
+          "start": 142.38,
+          "end": 142.48
+        },
+        {
+          "text": "grab",
+          "start": 142.48,
+          "end": 142.805
+        },
+        {
+          "text": "it",
+          "start": 142.805,
+          "end": 143.405
+        },
+        {
+          "text": ".",
+          "start": 143.405,
+          "end": 143.53
+        },
+        {
+          "text": "\"",
+          "start": 143.53,
+          "end": 143.58
+        },
+        {
+          "text": "The",
+          "start": 143.58,
+          "end": 143.705
+        },
+        {
+          "text": "method",
+          "start": 143.705,
+          "end": 144.08
+        },
+        {
+          "text": "returns",
+          "start": 144.08,
+          "end": 144.517
+        },
+        {
+          "text": "a",
+          "start": 144.517,
+          "end": 144.58
+        },
+        {
+          "text": "Task",
+          "start": 144.58,
+          "end": 145.28
+        },
+        {
+          "text": ",",
+          "start": 145.28,
+          "end": 145.38
+        },
+        {
+          "text": "a",
+          "start": 145.38,
+          "end": 145.492
+        },
+        {
+          "text": "promise",
+          "start": 145.492,
+          "end": 145.98
+        },
+        {
+          "text": "that",
+          "start": 145.98,
+          "end": 146.13
+        },
+        {
+          "text": "gets",
+          "start": 146.13,
+          "end": 146.38
+        },
+        {
+          "text": "fulfilled",
+          "start": 146.38,
+          "end": 146.943
+        },
+        {
+          "text": "when",
+          "start": 146.943,
+          "end": 147.068
+        },
+        {
+          "text": "the",
+          "start": 147.068,
+          "end": 147.155
+        },
+        {
+          "text": "response",
+          "start": 147.155,
+          "end": 147.742
+        },
+        {
+          "text": "actually",
+          "start": 147.742,
+          "end": 148.18
+        },
+        {
+          "text": "arrives",
+          "start": 148.18,
+          "end": 149.155
+        },
+        {
+          "text": ".",
+          "start": 149.155,
+          "end": 149.28
+        },
+        {
+          "text": "You're",
+          "start": 149.28,
+          "end": 149.418
+        },
+        {
+          "text": "not",
+          "start": 149.418,
+          "end": 149.63
+        },
+        {
+          "text": "blocked",
+          "start": 149.63,
+          "end": 150.005
+        },
+        {
+          "text": "yet",
+          "start": 150.005,
+          "end": 150.455
+        },
+        {
+          "text": ";",
+          "start": 150.455,
+          "end": 150.555
+        },
+        {
+          "text": "you're",
+          "start": 150.555,
+          "end": 150.68
+        },
+        {
+          "text": "just",
+          "start": 150.68,
+          "end": 150.93
+        },
+        {
+          "text": "watching",
+          "start": 150.93,
+          "end": 151.73
+        },
+        {
+          "text": ".",
+          "start": 151.73,
+          "end": 151.88
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h3",
+      "text": "2. Wait for the Button to Show Up",
+      "start": 152.2,
+      "end": 154.35,
+      "words": [
+        {
+          "text": "2",
+          "start": 152.475,
+          "end": 152.825
+        },
+        {
+          "text": ".",
+          "start": 152.825,
+          "end": 152.938
+        },
+        {
+          "text": "Wait",
+          "start": 152.938,
+          "end": 153.175
+        },
+        {
+          "text": "for",
+          "start": 153.175,
+          "end": 153.287
+        },
+        {
+          "text": "the",
+          "start": 153.287,
+          "end": 153.375
+        },
+        {
+          "text": "Button",
+          "start": 153.375,
+          "end": 153.613
+        },
+        {
+          "text": "to",
+          "start": 153.613,
+          "end": 153.725
+        },
+        {
+          "text": "Show",
+          "start": 153.725,
+          "end": 153.95
+        },
+        {
+          "text": "Up",
+          "start": 153.95,
+          "end": 154.35
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "Before you click anything, make sure the button is actually clickable. WaitForAsync with Visible state means, \"Don't move until I can see this button on the page.\"",
+      "start": 154.82,
+      "end": 164.47,
+      "words": [
+        {
+          "text": "Before",
+          "start": 155.07,
+          "end": 155.395
+        },
+        {
+          "text": "you",
+          "start": 155.395,
+          "end": 155.52
+        },
+        {
+          "text": "click",
+          "start": 155.52,
+          "end": 155.745
+        },
+        {
+          "text": "anything",
+          "start": 155.745,
+          "end": 156.42
+        },
+        {
+          "text": ",",
+          "start": 156.42,
+          "end": 156.52
+        },
+        {
+          "text": "make",
+          "start": 156.52,
+          "end": 156.745
+        },
+        {
+          "text": "sure",
+          "start": 156.745,
+          "end": 156.883
+        },
+        {
+          "text": "the",
+          "start": 156.883,
+          "end": 156.97
+        },
+        {
+          "text": "button",
+          "start": 156.97,
+          "end": 157.295
+        },
+        {
+          "text": "is",
+          "start": 157.295,
+          "end": 157.47
+        },
+        {
+          "text": "actually",
+          "start": 157.47,
+          "end": 157.945
+        },
+        {
+          "text": "clickable",
+          "start": 157.945,
+          "end": 158.82
+        },
+        {
+          "text": ".",
+          "start": 158.82,
+          "end": 158.995
+        },
+        {
+          "text": "WaitForAsync",
+          "start": 158.995,
+          "end": 159.87
+        },
+        {
+          "text": "with",
+          "start": 159.87,
+          "end": 160.057
+        },
+        {
+          "text": "Visible",
+          "start": 160.057,
+          "end": 160.47
+        },
+        {
+          "text": "state",
+          "start": 160.47,
+          "end": 160.77
+        },
+        {
+          "text": "means",
+          "start": 160.77,
+          "end": 161.42
+        },
+        {
+          "text": ",",
+          "start": 161.42,
+          "end": 161.52
+        },
+        {
+          "text": "\"",
+          "start": 161.52,
+          "end": 161.595
+        },
+        {
+          "text": "Don't",
+          "start": 161.595,
+          "end": 161.82
+        },
+        {
+          "text": "move",
+          "start": 161.82,
+          "end": 162.208
+        },
+        {
+          "text": "until",
+          "start": 162.208,
+          "end": 162.458
+        },
+        {
+          "text": "I",
+          "start": 162.458,
+          "end": 162.57
+        },
+        {
+          "text": "can",
+          "start": 162.57,
+          "end": 162.745
+        },
+        {
+          "text": "see",
+          "start": 162.745,
+          "end": 162.945
+        },
+        {
+          "text": "this",
+          "start": 162.945,
+          "end": 163.145
+        },
+        {
+          "text": "button",
+          "start": 163.145,
+          "end": 163.407
+        },
+        {
+          "text": "on",
+          "start": 163.407,
+          "end": 163.508
+        },
+        {
+          "text": "the",
+          "start": 163.508,
+          "end": 163.595
+        },
+        {
+          "text": "page",
+          "start": 163.595,
+          "end": 164.27
+        },
+        {
+          "text": ".",
+          "start": 164.27,
+          "end": 164.42
+        },
+        {
+          "text": "\"",
+          "start": 164.42,
+          "end": 164.47
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h3",
+      "text": "3. Click the Button and Wait for Navigation (at the Same Time)",
+      "start": 164.79,
+      "end": 169.04,
+      "words": [
+        {
+          "text": "3",
+          "start": 165.09,
+          "end": 165.515
+        },
+        {
+          "text": ".",
+          "start": 165.515,
+          "end": 165.64
+        },
+        {
+          "text": "Click",
+          "start": 165.64,
+          "end": 165.89
+        },
+        {
+          "text": "the",
+          "start": 165.89,
+          "end": 165.99
+        },
+        {
+          "text": "Button",
+          "start": 165.99,
+          "end": 166.34
+        },
+        {
+          "text": "and",
+          "start": 166.34,
+          "end": 166.465
+        },
+        {
+          "text": "Wait",
+          "start": 166.465,
+          "end": 166.69
+        },
+        {
+          "text": "for",
+          "start": 166.69,
+          "end": 166.803
+        },
+        {
+          "text": "Navigation",
+          "start": 166.803,
+          "end": 167.703
+        },
+        {
+          "text": "(",
+          "start": 167.703,
+          "end": 167.79
+        },
+        {
+          "text": "at",
+          "start": 167.79,
+          "end": 167.853
+        },
+        {
+          "text": "the",
+          "start": 167.853,
+          "end": 167.94
+        },
+        {
+          "text": "Same",
+          "start": 167.94,
+          "end": 168.215
+        },
+        {
+          "text": "Time",
+          "start": 168.215,
+          "end": 168.89
+        },
+        {
+          "text": ")",
+          "start": 168.89,
+          "end": 169.04
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "Here's a trick: you don't want to click first, then wait for navigation. You want both to happen together. That's what Task.WhenAll does , it waits for all the tasks to finish before moving on. So you:",
+      "start": 169.36,
+      "end": 181.335,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 169.635,
+          "end": 169.872
+        },
+        {
+          "text": "a",
+          "start": 169.872,
+          "end": 169.947
+        },
+        {
+          "text": "trick",
+          "start": 169.947,
+          "end": 170.285
+        },
+        {
+          "text": ":",
+          "start": 170.285,
+          "end": 170.335
+        },
+        {
+          "text": "you",
+          "start": 170.335,
+          "end": 170.423
+        },
+        {
+          "text": "don't",
+          "start": 170.423,
+          "end": 170.572
+        },
+        {
+          "text": "want",
+          "start": 170.572,
+          "end": 170.723
+        },
+        {
+          "text": "to",
+          "start": 170.723,
+          "end": 170.81
+        },
+        {
+          "text": "click",
+          "start": 170.81,
+          "end": 171.098
+        },
+        {
+          "text": "first",
+          "start": 171.098,
+          "end": 171.51
+        },
+        {
+          "text": ",",
+          "start": 171.51,
+          "end": 171.56
+        },
+        {
+          "text": "then",
+          "start": 171.56,
+          "end": 171.76
+        },
+        {
+          "text": "wait",
+          "start": 171.76,
+          "end": 172.01
+        },
+        {
+          "text": "for",
+          "start": 172.01,
+          "end": 172.135
+        },
+        {
+          "text": "navigation",
+          "start": 172.135,
+          "end": 173.21
+        },
+        {
+          "text": ".",
+          "start": 173.21,
+          "end": 173.31
+        },
+        {
+          "text": "You",
+          "start": 173.31,
+          "end": 173.435
+        },
+        {
+          "text": "want",
+          "start": 173.435,
+          "end": 173.635
+        },
+        {
+          "text": "both",
+          "start": 173.635,
+          "end": 173.885
+        },
+        {
+          "text": "to",
+          "start": 173.885,
+          "end": 173.985
+        },
+        {
+          "text": "happen",
+          "start": 173.985,
+          "end": 174.285
+        },
+        {
+          "text": "together",
+          "start": 174.285,
+          "end": 174.91
+        },
+        {
+          "text": ".",
+          "start": 174.91,
+          "end": 175.022
+        },
+        {
+          "text": "That's",
+          "start": 175.022,
+          "end": 175.335
+        },
+        {
+          "text": "what",
+          "start": 175.335,
+          "end": 175.497
+        },
+        {
+          "text": "Task",
+          "start": 175.497,
+          "end": 176.26
+        },
+        {
+          "text": ".",
+          "start": 176.26,
+          "end": 176.385
+        },
+        {
+          "text": "WhenAll",
+          "start": 176.385,
+          "end": 176.735
+        },
+        {
+          "text": "does",
+          "start": 176.735,
+          "end": 177.073
+        },
+        {
+          "text": ",",
+          "start": 177.073,
+          "end": 177.122
+        },
+        {
+          "text": "it",
+          "start": 177.122,
+          "end": 177.21
+        },
+        {
+          "text": "waits",
+          "start": 177.21,
+          "end": 177.51
+        },
+        {
+          "text": "for",
+          "start": 177.51,
+          "end": 177.673
+        },
+        {
+          "text": "all",
+          "start": 177.673,
+          "end": 177.897
+        },
+        {
+          "text": "the",
+          "start": 177.897,
+          "end": 177.997
+        },
+        {
+          "text": "tasks",
+          "start": 177.997,
+          "end": 178.485
+        },
+        {
+          "text": "to",
+          "start": 178.485,
+          "end": 178.61
+        },
+        {
+          "text": "finish",
+          "start": 178.61,
+          "end": 178.935
+        },
+        {
+          "text": "before",
+          "start": 178.935,
+          "end": 179.285
+        },
+        {
+          "text": "moving",
+          "start": 179.285,
+          "end": 179.585
+        },
+        {
+          "text": "on",
+          "start": 179.585,
+          "end": 180.21
+        },
+        {
+          "text": ".",
+          "start": 180.21,
+          "end": 180.397
+        },
+        {
+          "text": "So",
+          "start": 180.397,
+          "end": 180.647
+        },
+        {
+          "text": "you",
+          "start": 180.647,
+          "end": 181.16
+        },
+        {
+          "text": ":",
+          "start": 181.16,
+          "end": 181.335
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Tell Playwright to watch for navigation to /next-page (and wait until the page is loaded)",
+      "start": 181.655,
+      "end": 187.03,
+      "words": [
+        {
+          "text": "Tell",
+          "start": 181.93,
+          "end": 182.155
+        },
+        {
+          "text": "Playwright",
+          "start": 182.155,
+          "end": 182.58
+        },
+        {
+          "text": "to",
+          "start": 182.58,
+          "end": 182.705
+        },
+        {
+          "text": "watch",
+          "start": 182.705,
+          "end": 183.005
+        },
+        {
+          "text": "for",
+          "start": 183.005,
+          "end": 183.13
+        },
+        {
+          "text": "navigation",
+          "start": 183.13,
+          "end": 183.805
+        },
+        {
+          "text": "to",
+          "start": 183.805,
+          "end": 183.905
+        },
+        {
+          "text": "/next-page",
+          "start": 183.905,
+          "end": 184.905
+        },
+        {
+          "text": "(",
+          "start": 184.905,
+          "end": 185.005
+        },
+        {
+          "text": "and",
+          "start": 185.005,
+          "end": 185.142
+        },
+        {
+          "text": "wait",
+          "start": 185.142,
+          "end": 185.392
+        },
+        {
+          "text": "until",
+          "start": 185.392,
+          "end": 185.617
+        },
+        {
+          "text": "the",
+          "start": 185.617,
+          "end": 185.705
+        },
+        {
+          "text": "page",
+          "start": 185.705,
+          "end": 186.055
+        },
+        {
+          "text": "is",
+          "start": 186.055,
+          "end": 186.205
+        },
+        {
+          "text": "loaded",
+          "start": 186.205,
+          "end": 186.855
+        },
+        {
+          "text": ")",
+          "start": 186.855,
+          "end": 187.03
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "Click the button",
+      "start": 187.35,
+      "end": 188.7,
+      "words": [
+        {
+          "text": "Click",
+          "start": 187.7,
+          "end": 187.925
+        },
+        {
+          "text": "the",
+          "start": 187.925,
+          "end": 188.025
+        },
+        {
+          "text": "button",
+          "start": 188.025,
+          "end": 188.7
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Wait for both to complete",
+      "start": 189.32,
+      "end": 191.095,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 189.595,
+          "end": 189.795
+        },
+        {
+          "text": "for",
+          "start": 189.795,
+          "end": 189.92
+        },
+        {
+          "text": "both",
+          "start": 189.92,
+          "end": 190.22
+        },
+        {
+          "text": "to",
+          "start": 190.22,
+          "end": 190.32
+        },
+        {
+          "text": "complete",
+          "start": 190.32,
+          "end": 191.095
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "If the navigation doesn't happen within 5 seconds, the test fails. (That timeout is configurable; 5 seconds is reasonable for most apps.)",
+      "start": 191.54,
+      "end": 200.815,
+      "words": [
+        {
+          "text": "If",
+          "start": 191.79,
+          "end": 191.927
+        },
+        {
+          "text": "the",
+          "start": 191.927,
+          "end": 192.015
+        },
+        {
+          "text": "navigation",
+          "start": 192.015,
+          "end": 192.715
+        },
+        {
+          "text": "doesn't",
+          "start": 192.715,
+          "end": 193.015
+        },
+        {
+          "text": "happen",
+          "start": 193.015,
+          "end": 193.39
+        },
+        {
+          "text": "within",
+          "start": 193.39,
+          "end": 193.678
+        },
+        {
+          "text": "5",
+          "start": 193.678,
+          "end": 193.99
+        },
+        {
+          "text": "seconds",
+          "start": 193.99,
+          "end": 194.565
+        },
+        {
+          "text": ",",
+          "start": 194.565,
+          "end": 194.64
+        },
+        {
+          "text": "the",
+          "start": 194.64,
+          "end": 194.753
+        },
+        {
+          "text": "test",
+          "start": 194.753,
+          "end": 195.09
+        },
+        {
+          "text": "fails",
+          "start": 195.09,
+          "end": 195.99
+        },
+        {
+          "text": ".",
+          "start": 195.99,
+          "end": 196.14
+        },
+        {
+          "text": "(",
+          "start": 196.14,
+          "end": 196.215
+        },
+        {
+          "text": "That",
+          "start": 196.215,
+          "end": 196.452
+        },
+        {
+          "text": "timeout",
+          "start": 196.452,
+          "end": 196.915
+        },
+        {
+          "text": "is",
+          "start": 196.915,
+          "end": 197.065
+        },
+        {
+          "text": "configurable",
+          "start": 197.065,
+          "end": 197.965
+        },
+        {
+          "text": ";",
+          "start": 197.965,
+          "end": 198.09
+        },
+        {
+          "text": "5",
+          "start": 198.09,
+          "end": 198.465
+        },
+        {
+          "text": "seconds",
+          "start": 198.465,
+          "end": 198.865
+        },
+        {
+          "text": "is",
+          "start": 198.865,
+          "end": 199.027
+        },
+        {
+          "text": "reasonable",
+          "start": 199.027,
+          "end": 199.615
+        },
+        {
+          "text": "for",
+          "start": 199.615,
+          "end": 199.74
+        },
+        {
+          "text": "most",
+          "start": 199.74,
+          "end": 200.065
+        },
+        {
+          "text": "apps",
+          "start": 200.065,
+          "end": 200.665
+        },
+        {
+          "text": ".",
+          "start": 200.665,
+          "end": 200.79
+        },
+        {
+          "text": ")",
+          "start": 200.79,
+          "end": 200.815
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "This pattern prevents a race condition: if you click first, then wait for navigation, the page might navigate before you even finish clicking. Task.WhenAll ensures you're set up to listen before you trigger the action.",
+      "start": 201.135,
+      "end": 214.835,
+      "words": [
+        {
+          "text": "This",
+          "start": 201.41,
+          "end": 201.622
+        },
+        {
+          "text": "pattern",
+          "start": 201.622,
+          "end": 202.06
+        },
+        {
+          "text": "prevents",
+          "start": 202.06,
+          "end": 202.447
+        },
+        {
+          "text": "a",
+          "start": 202.447,
+          "end": 202.51
+        },
+        {
+          "text": "race",
+          "start": 202.51,
+          "end": 202.81
+        },
+        {
+          "text": "condition",
+          "start": 202.81,
+          "end": 203.66
+        },
+        {
+          "text": ":",
+          "start": 203.66,
+          "end": 203.773
+        },
+        {
+          "text": "if",
+          "start": 203.773,
+          "end": 203.91
+        },
+        {
+          "text": "you",
+          "start": 203.91,
+          "end": 204.035
+        },
+        {
+          "text": "click",
+          "start": 204.035,
+          "end": 204.298
+        },
+        {
+          "text": "first",
+          "start": 204.298,
+          "end": 204.91
+        },
+        {
+          "text": ",",
+          "start": 204.91,
+          "end": 205.01
+        },
+        {
+          "text": "then",
+          "start": 205.01,
+          "end": 205.223
+        },
+        {
+          "text": "wait",
+          "start": 205.223,
+          "end": 205.485
+        },
+        {
+          "text": "for",
+          "start": 205.485,
+          "end": 205.61
+        },
+        {
+          "text": "navigation",
+          "start": 205.61,
+          "end": 206.56
+        },
+        {
+          "text": ",",
+          "start": 206.56,
+          "end": 206.66
+        },
+        {
+          "text": "the",
+          "start": 206.66,
+          "end": 206.773
+        },
+        {
+          "text": "page",
+          "start": 206.773,
+          "end": 207.16
+        },
+        {
+          "text": "might",
+          "start": 207.16,
+          "end": 207.385
+        },
+        {
+          "text": "navigate",
+          "start": 207.385,
+          "end": 207.91
+        },
+        {
+          "text": "before",
+          "start": 207.91,
+          "end": 208.285
+        },
+        {
+          "text": "you",
+          "start": 208.285,
+          "end": 208.46
+        },
+        {
+          "text": "even",
+          "start": 208.46,
+          "end": 208.773
+        },
+        {
+          "text": "finish",
+          "start": 208.773,
+          "end": 209.135
+        },
+        {
+          "text": "clicking",
+          "start": 209.135,
+          "end": 210.01
+        },
+        {
+          "text": ".",
+          "start": 210.01,
+          "end": 210.185
+        },
+        {
+          "text": "Task",
+          "start": 210.185,
+          "end": 210.985
+        },
+        {
+          "text": ".",
+          "start": 210.985,
+          "end": 211.135
+        },
+        {
+          "text": "WhenAll",
+          "start": 211.135,
+          "end": 211.56
+        },
+        {
+          "text": "ensures",
+          "start": 211.56,
+          "end": 211.998
+        },
+        {
+          "text": "you're",
+          "start": 211.998,
+          "end": 212.147
+        },
+        {
+          "text": "set",
+          "start": 212.147,
+          "end": 212.348
+        },
+        {
+          "text": "up",
+          "start": 212.348,
+          "end": 212.535
+        },
+        {
+          "text": "to",
+          "start": 212.535,
+          "end": 212.66
+        },
+        {
+          "text": "listen",
+          "start": 212.66,
+          "end": 212.985
+        },
+        {
+          "text": "before",
+          "start": 212.985,
+          "end": 213.335
+        },
+        {
+          "text": "you",
+          "start": 213.335,
+          "end": 213.498
+        },
+        {
+          "text": "trigger",
+          "start": 213.498,
+          "end": 213.797
+        },
+        {
+          "text": "the",
+          "start": 213.797,
+          "end": 213.935
+        },
+        {
+          "text": "action",
+          "start": 213.935,
+          "end": 214.685
+        },
+        {
+          "text": ".",
+          "start": 214.685,
+          "end": 214.835
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "h3",
+      "text": "4. Make Sure the Response Finished Arriving",
+      "start": 215.155,
+      "end": 217.855,
+      "words": [
+        {
+          "text": "4",
+          "start": 215.455,
+          "end": 215.83
+        },
+        {
+          "text": ".",
+          "start": 215.83,
+          "end": 215.905
+        },
+        {
+          "text": "Make",
+          "start": 215.905,
+          "end": 216.105
+        },
+        {
+          "text": "Sure",
+          "start": 216.105,
+          "end": 216.243
+        },
+        {
+          "text": "the",
+          "start": 216.243,
+          "end": 216.318
+        },
+        {
+          "text": "Response",
+          "start": 216.318,
+          "end": 216.83
+        },
+        {
+          "text": "Finished",
+          "start": 216.83,
+          "end": 217.118
+        },
+        {
+          "text": "Arriving",
+          "start": 217.118,
+          "end": 217.855
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "The response might have started arriving, but you want to be sure it's complete before you read it. FinishedAsync() waits for the response body to fully load. Wrap it in a try-catch because network stuff can fail, and you want to handle that gracefully:",
+      "start": 218.275,
+      "end": 233.175,
+      "words": [
+        {
+          "text": "The",
+          "start": 218.525,
+          "end": 218.6
+        },
+        {
+          "text": "response",
+          "start": 218.6,
+          "end": 219.175
+        },
+        {
+          "text": "might",
+          "start": 219.175,
+          "end": 219.338
+        },
+        {
+          "text": "have",
+          "start": 219.338,
+          "end": 219.45
+        },
+        {
+          "text": "started",
+          "start": 219.45,
+          "end": 219.825
+        },
+        {
+          "text": "arriving",
+          "start": 219.825,
+          "end": 220.575
+        },
+        {
+          "text": ",",
+          "start": 220.575,
+          "end": 220.65
+        },
+        {
+          "text": "but",
+          "start": 220.65,
+          "end": 220.8
+        },
+        {
+          "text": "you",
+          "start": 220.8,
+          "end": 220.925
+        },
+        {
+          "text": "want",
+          "start": 220.925,
+          "end": 221.112
+        },
+        {
+          "text": "to",
+          "start": 221.112,
+          "end": 221.188
+        },
+        {
+          "text": "be",
+          "start": 221.188,
+          "end": 221.35
+        },
+        {
+          "text": "sure",
+          "start": 221.35,
+          "end": 221.612
+        },
+        {
+          "text": "it's",
+          "start": 221.612,
+          "end": 221.775
+        },
+        {
+          "text": "complete",
+          "start": 221.775,
+          "end": 222.275
+        },
+        {
+          "text": "before",
+          "start": 222.275,
+          "end": 222.675
+        },
+        {
+          "text": "you",
+          "start": 222.675,
+          "end": 222.825
+        },
+        {
+          "text": "read",
+          "start": 222.825,
+          "end": 223.025
+        },
+        {
+          "text": "it",
+          "start": 223.025,
+          "end": 223.575
+        },
+        {
+          "text": ".",
+          "start": 223.575,
+          "end": 223.75
+        },
+        {
+          "text": "FinishedAsync",
+          "start": 223.75,
+          "end": 224.925
+        },
+        {
+          "text": "(",
+          "start": 224.925,
+          "end": 225.025
+        },
+        {
+          "text": ")",
+          "start": 225.025,
+          "end": 225.088
+        },
+        {
+          "text": "waits",
+          "start": 225.088,
+          "end": 225.4
+        },
+        {
+          "text": "for",
+          "start": 225.4,
+          "end": 225.513
+        },
+        {
+          "text": "the",
+          "start": 225.513,
+          "end": 225.6
+        },
+        {
+          "text": "response",
+          "start": 225.6,
+          "end": 226.15
+        },
+        {
+          "text": "body",
+          "start": 226.15,
+          "end": 226.525
+        },
+        {
+          "text": "to",
+          "start": 226.525,
+          "end": 226.662
+        },
+        {
+          "text": "fully",
+          "start": 226.662,
+          "end": 226.95
+        },
+        {
+          "text": "load",
+          "start": 226.95,
+          "end": 227.65
+        },
+        {
+          "text": ".",
+          "start": 227.65,
+          "end": 227.8
+        },
+        {
+          "text": "Wrap",
+          "start": 227.8,
+          "end": 228.125
+        },
+        {
+          "text": "it",
+          "start": 228.125,
+          "end": 228.275
+        },
+        {
+          "text": "in",
+          "start": 228.275,
+          "end": 228.362
+        },
+        {
+          "text": "a",
+          "start": 228.362,
+          "end": 228.438
+        },
+        {
+          "text": "try-catch",
+          "start": 228.438,
+          "end": 229.125
+        },
+        {
+          "text": "because",
+          "start": 229.125,
+          "end": 229.438
+        },
+        {
+          "text": "network",
+          "start": 229.438,
+          "end": 229.85
+        },
+        {
+          "text": "stuff",
+          "start": 229.85,
+          "end": 230.125
+        },
+        {
+          "text": "can",
+          "start": 230.125,
+          "end": 230.338
+        },
+        {
+          "text": "fail",
+          "start": 230.338,
+          "end": 230.95
+        },
+        {
+          "text": ",",
+          "start": 230.95,
+          "end": 231.05
+        },
+        {
+          "text": "and",
+          "start": 231.05,
+          "end": 231.175
+        },
+        {
+          "text": "you",
+          "start": 231.175,
+          "end": 231.275
+        },
+        {
+          "text": "want",
+          "start": 231.275,
+          "end": 231.463
+        },
+        {
+          "text": "to",
+          "start": 231.463,
+          "end": 231.55
+        },
+        {
+          "text": "handle",
+          "start": 231.55,
+          "end": 231.9
+        },
+        {
+          "text": "that",
+          "start": 231.9,
+          "end": 232.1
+        },
+        {
+          "text": "gracefully",
+          "start": 232.1,
+          "end": 233.025
+        },
+        {
+          "text": ":",
+          "start": 233.025,
+          "end": 233.175
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h3",
+      "text": "5. Grab the Response and Assert It's a 200",
+      "start": 233.495,
+      "end": 236.795,
+      "words": [
+        {
+          "text": "5",
+          "start": 233.795,
+          "end": 234.245
+        },
+        {
+          "text": ".",
+          "start": 234.245,
+          "end": 234.345
+        },
+        {
+          "text": "Grab",
+          "start": 234.345,
+          "end": 234.658
+        },
+        {
+          "text": "the",
+          "start": 234.658,
+          "end": 234.745
+        },
+        {
+          "text": "Response",
+          "start": 234.745,
+          "end": 235.345
+        },
+        {
+          "text": "and",
+          "start": 235.345,
+          "end": 235.457
+        },
+        {
+          "text": "Assert",
+          "start": 235.457,
+          "end": 235.807
+        },
+        {
+          "text": "It's",
+          "start": 235.807,
+          "end": 235.932
+        },
+        {
+          "text": "a",
+          "start": 235.932,
+          "end": 235.995
+        },
+        {
+          "text": "200",
+          "start": 235.995,
+          "end": 236.795
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "Now you can reach into the apiResponseTask and pull out the response:",
+      "start": 237.265,
+      "end": 241.94,
+      "words": [
+        {
+          "text": "Now",
+          "start": 237.59,
+          "end": 237.84
+        },
+        {
+          "text": "you",
+          "start": 237.84,
+          "end": 237.99
+        },
+        {
+          "text": "can",
+          "start": 237.99,
+          "end": 238.14
+        },
+        {
+          "text": "reach",
+          "start": 238.14,
+          "end": 238.378
+        },
+        {
+          "text": "into",
+          "start": 238.378,
+          "end": 238.553
+        },
+        {
+          "text": "the",
+          "start": 238.553,
+          "end": 238.678
+        },
+        {
+          "text": "apiResponseTask",
+          "start": 238.678,
+          "end": 240.39
+        },
+        {
+          "text": "and",
+          "start": 240.39,
+          "end": 240.54
+        },
+        {
+          "text": "pull",
+          "start": 240.54,
+          "end": 240.752
+        },
+        {
+          "text": "out",
+          "start": 240.752,
+          "end": 240.903
+        },
+        {
+          "text": "the",
+          "start": 240.903,
+          "end": 240.977
+        },
+        {
+          "text": "response",
+          "start": 240.977,
+          "end": 241.79
+        },
+        {
+          "text": ":",
+          "start": 241.79,
+          "end": 241.94
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "If the status is not 200, your test fails right here with a clear message. No mystery, no silent failures later.",
+      "start": 242.26,
+      "end": 250.11,
+      "words": [
+        {
+          "text": "If",
+          "start": 242.51,
+          "end": 242.648
+        },
+        {
+          "text": "the",
+          "start": 242.648,
+          "end": 242.735
+        },
+        {
+          "text": "status",
+          "start": 242.735,
+          "end": 243.185
+        },
+        {
+          "text": "is",
+          "start": 243.185,
+          "end": 243.335
+        },
+        {
+          "text": "not",
+          "start": 243.335,
+          "end": 243.56
+        },
+        {
+          "text": "200",
+          "start": 243.56,
+          "end": 244.335
+        },
+        {
+          "text": ",",
+          "start": 244.335,
+          "end": 244.435
+        },
+        {
+          "text": "your",
+          "start": 244.435,
+          "end": 244.622
+        },
+        {
+          "text": "test",
+          "start": 244.622,
+          "end": 244.96
+        },
+        {
+          "text": "fails",
+          "start": 244.96,
+          "end": 245.298
+        },
+        {
+          "text": "right",
+          "start": 245.298,
+          "end": 245.56
+        },
+        {
+          "text": "here",
+          "start": 245.56,
+          "end": 245.785
+        },
+        {
+          "text": "with",
+          "start": 245.785,
+          "end": 245.923
+        },
+        {
+          "text": "a",
+          "start": 245.923,
+          "end": 245.997
+        },
+        {
+          "text": "clear",
+          "start": 245.997,
+          "end": 246.285
+        },
+        {
+          "text": "message",
+          "start": 246.285,
+          "end": 247.135
+        },
+        {
+          "text": ".",
+          "start": 247.135,
+          "end": 247.335
+        },
+        {
+          "text": "No",
+          "start": 247.335,
+          "end": 247.535
+        },
+        {
+          "text": "mystery",
+          "start": 247.535,
+          "end": 248.16
+        },
+        {
+          "text": ",",
+          "start": 248.16,
+          "end": 248.26
+        },
+        {
+          "text": "no",
+          "start": 248.26,
+          "end": 248.497
+        },
+        {
+          "text": "silent",
+          "start": 248.497,
+          "end": 248.885
+        },
+        {
+          "text": "failures",
+          "start": 248.885,
+          "end": 249.335
+        },
+        {
+          "text": "later",
+          "start": 249.335,
+          "end": 249.96
+        },
+        {
+          "text": ".",
+          "start": 249.96,
+          "end": 250.11
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "6. Log the Request and Response for Debugging",
+      "start": 250.43,
+      "end": 253.605,
+      "words": [
+        {
+          "text": "6",
+          "start": 250.755,
+          "end": 251.18
+        },
+        {
+          "text": ".",
+          "start": 251.18,
+          "end": 251.268
+        },
+        {
+          "text": "Log",
+          "start": 251.268,
+          "end": 251.543
+        },
+        {
+          "text": "the",
+          "start": 251.543,
+          "end": 251.63
+        },
+        {
+          "text": "Request",
+          "start": 251.63,
+          "end": 252.093
+        },
+        {
+          "text": "and",
+          "start": 252.093,
+          "end": 252.193
+        },
+        {
+          "text": "Response",
+          "start": 252.193,
+          "end": 252.68
+        },
+        {
+          "text": "for",
+          "start": 252.68,
+          "end": 252.805
+        },
+        {
+          "text": "Debugging",
+          "start": 252.805,
+          "end": 253.605
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "When something goes wrong, you want to know exactly what was sent and what came back. Log the URL, HTTP method, and status:",
+      "start": 254.025,
+      "end": 262.325,
+      "words": [
+        {
+          "text": "When",
+          "start": 254.275,
+          "end": 254.425
+        },
+        {
+          "text": "something",
+          "start": 254.425,
+          "end": 254.7
+        },
+        {
+          "text": "goes",
+          "start": 254.7,
+          "end": 254.975
+        },
+        {
+          "text": "wrong",
+          "start": 254.975,
+          "end": 255.45
+        },
+        {
+          "text": ",",
+          "start": 255.45,
+          "end": 255.55
+        },
+        {
+          "text": "you",
+          "start": 255.55,
+          "end": 255.637
+        },
+        {
+          "text": "want",
+          "start": 255.637,
+          "end": 255.787
+        },
+        {
+          "text": "to",
+          "start": 255.787,
+          "end": 255.862
+        },
+        {
+          "text": "know",
+          "start": 255.862,
+          "end": 256.025
+        },
+        {
+          "text": "exactly",
+          "start": 256.025,
+          "end": 256.612
+        },
+        {
+          "text": "what",
+          "start": 256.612,
+          "end": 256.737
+        },
+        {
+          "text": "was",
+          "start": 256.737,
+          "end": 256.862
+        },
+        {
+          "text": "sent",
+          "start": 256.862,
+          "end": 257.312
+        },
+        {
+          "text": "and",
+          "start": 257.312,
+          "end": 257.45
+        },
+        {
+          "text": "what",
+          "start": 257.45,
+          "end": 257.6
+        },
+        {
+          "text": "came",
+          "start": 257.6,
+          "end": 257.8
+        },
+        {
+          "text": "back",
+          "start": 257.8,
+          "end": 258.525
+        },
+        {
+          "text": ".",
+          "start": 258.525,
+          "end": 258.725
+        },
+        {
+          "text": "Log",
+          "start": 258.725,
+          "end": 259.075
+        },
+        {
+          "text": "the",
+          "start": 259.075,
+          "end": 259.212
+        },
+        {
+          "text": "URL",
+          "start": 259.212,
+          "end": 260.0
+        },
+        {
+          "text": ",",
+          "start": 260.0,
+          "end": 260.1
+        },
+        {
+          "text": "HTTP",
+          "start": 260.1,
+          "end": 260.9
+        },
+        {
+          "text": "method",
+          "start": 260.9,
+          "end": 261.275
+        },
+        {
+          "text": ",",
+          "start": 261.275,
+          "end": 261.312
+        },
+        {
+          "text": "and",
+          "start": 261.312,
+          "end": 261.425
+        },
+        {
+          "text": "status",
+          "start": 261.425,
+          "end": 262.175
+        },
+        {
+          "text": ":",
+          "start": 262.175,
+          "end": 262.325
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "This helps you trace through the test later when you're investigating why something went sideways.",
+      "start": 262.645,
+      "end": 268.12,
+      "words": [
+        {
+          "text": "This",
+          "start": 262.92,
+          "end": 263.12
+        },
+        {
+          "text": "helps",
+          "start": 263.12,
+          "end": 263.383
+        },
+        {
+          "text": "you",
+          "start": 263.383,
+          "end": 263.47
+        },
+        {
+          "text": "trace",
+          "start": 263.47,
+          "end": 263.82
+        },
+        {
+          "text": "through",
+          "start": 263.82,
+          "end": 264.02
+        },
+        {
+          "text": "the",
+          "start": 264.02,
+          "end": 264.133
+        },
+        {
+          "text": "test",
+          "start": 264.133,
+          "end": 264.47
+        },
+        {
+          "text": "later",
+          "start": 264.47,
+          "end": 264.982
+        },
+        {
+          "text": "when",
+          "start": 264.982,
+          "end": 265.132
+        },
+        {
+          "text": "you're",
+          "start": 265.132,
+          "end": 265.232
+        },
+        {
+          "text": "investigating",
+          "start": 265.232,
+          "end": 266.295
+        },
+        {
+          "text": "why",
+          "start": 266.295,
+          "end": 266.545
+        },
+        {
+          "text": "something",
+          "start": 266.545,
+          "end": 266.87
+        },
+        {
+          "text": "went",
+          "start": 266.87,
+          "end": 267.083
+        },
+        {
+          "text": "sideways",
+          "start": 267.083,
+          "end": 267.97
+        },
+        {
+          "text": ".",
+          "start": 267.97,
+          "end": 268.12
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h3",
+      "text": "7. Deserialize the JSON and Use the Data",
+      "start": 268.44,
+      "end": 272.09,
+      "words": [
+        {
+          "text": "7",
+          "start": 268.74,
+          "end": 269.165
+        },
+        {
+          "text": ".",
+          "start": 269.165,
+          "end": 269.24
+        },
+        {
+          "text": "Deserialize",
+          "start": 269.24,
+          "end": 269.927
+        },
+        {
+          "text": "the",
+          "start": 269.927,
+          "end": 270.015
+        },
+        {
+          "text": "JSON",
+          "start": 270.015,
+          "end": 271.04
+        },
+        {
+          "text": "and",
+          "start": 271.04,
+          "end": 271.19
+        },
+        {
+          "text": "Use",
+          "start": 271.19,
+          "end": 271.403
+        },
+        {
+          "text": "the",
+          "start": 271.403,
+          "end": 271.49
+        },
+        {
+          "text": "Data",
+          "start": 271.49,
+          "end": 272.09
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "p",
+      "text": "Now the fun part: turn the JSON response into a C# object and loop through the data:",
+      "start": 272.66,
+      "end": 278.91,
+      "words": [
+        {
+          "text": "Now",
+          "start": 272.96,
+          "end": 273.16
+        },
+        {
+          "text": "the",
+          "start": 273.16,
+          "end": 273.273
+        },
+        {
+          "text": "fun",
+          "start": 273.273,
+          "end": 273.51
+        },
+        {
+          "text": "part",
+          "start": 273.51,
+          "end": 274.085
+        },
+        {
+          "text": ":",
+          "start": 274.085,
+          "end": 274.223
+        },
+        {
+          "text": "turn",
+          "start": 274.223,
+          "end": 274.473
+        },
+        {
+          "text": "the",
+          "start": 274.473,
+          "end": 274.56
+        },
+        {
+          "text": "JSON",
+          "start": 274.56,
+          "end": 275.26
+        },
+        {
+          "text": "response",
+          "start": 275.26,
+          "end": 275.748
+        },
+        {
+          "text": "into",
+          "start": 275.748,
+          "end": 275.96
+        },
+        {
+          "text": "a",
+          "start": 275.96,
+          "end": 276.073
+        },
+        {
+          "text": "C#",
+          "start": 276.073,
+          "end": 276.76
+        },
+        {
+          "text": "object",
+          "start": 276.76,
+          "end": 277.36
+        },
+        {
+          "text": "and",
+          "start": 277.36,
+          "end": 277.547
+        },
+        {
+          "text": "loop",
+          "start": 277.547,
+          "end": 277.81
+        },
+        {
+          "text": "through",
+          "start": 277.81,
+          "end": 277.998
+        },
+        {
+          "text": "the",
+          "start": 277.998,
+          "end": 278.085
+        },
+        {
+          "text": "data",
+          "start": 278.085,
+          "end": 278.735
+        },
+        {
+          "text": ":",
+          "start": 278.735,
+          "end": 278.91
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "Now you have strongly typed data you can trust in your assertions. No more string parsing, no guessing about what the API returned.",
+      "start": 279.23,
+      "end": 287.73,
+      "words": [
+        {
+          "text": "Now",
+          "start": 279.555,
+          "end": 279.755
+        },
+        {
+          "text": "you",
+          "start": 279.755,
+          "end": 279.855
+        },
+        {
+          "text": "have",
+          "start": 279.855,
+          "end": 280.055
+        },
+        {
+          "text": "strongly",
+          "start": 280.055,
+          "end": 280.518
+        },
+        {
+          "text": "typed",
+          "start": 280.518,
+          "end": 280.893
+        },
+        {
+          "text": "data",
+          "start": 280.893,
+          "end": 281.23
+        },
+        {
+          "text": "you",
+          "start": 281.23,
+          "end": 281.38
+        },
+        {
+          "text": "can",
+          "start": 281.38,
+          "end": 281.567
+        },
+        {
+          "text": "trust",
+          "start": 281.567,
+          "end": 281.955
+        },
+        {
+          "text": "in",
+          "start": 281.955,
+          "end": 282.043
+        },
+        {
+          "text": "your",
+          "start": 282.043,
+          "end": 282.155
+        },
+        {
+          "text": "assertions",
+          "start": 282.155,
+          "end": 283.205
+        },
+        {
+          "text": ".",
+          "start": 283.205,
+          "end": 283.355
+        },
+        {
+          "text": "No",
+          "start": 283.355,
+          "end": 283.555
+        },
+        {
+          "text": "more",
+          "start": 283.555,
+          "end": 283.793
+        },
+        {
+          "text": "string",
+          "start": 283.793,
+          "end": 284.13
+        },
+        {
+          "text": "parsing",
+          "start": 284.13,
+          "end": 284.855
+        },
+        {
+          "text": ",",
+          "start": 284.855,
+          "end": 284.955
+        },
+        {
+          "text": "no",
+          "start": 284.955,
+          "end": 285.192
+        },
+        {
+          "text": "guessing",
+          "start": 285.192,
+          "end": 285.58
+        },
+        {
+          "text": "about",
+          "start": 285.58,
+          "end": 285.843
+        },
+        {
+          "text": "what",
+          "start": 285.843,
+          "end": 285.968
+        },
+        {
+          "text": "the",
+          "start": 285.968,
+          "end": 286.118
+        },
+        {
+          "text": "API",
+          "start": 286.118,
+          "end": 286.78
+        },
+        {
+          "text": "returned",
+          "start": 286.78,
+          "end": 287.58
+        },
+        {
+          "text": ".",
+          "start": 287.58,
+          "end": 287.73
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "h2",
+      "text": "The Full Picture",
+      "start": 288.05,
+      "end": 289.45,
+      "words": [
+        {
+          "text": "The",
+          "start": 288.375,
+          "end": 288.488
+        },
+        {
+          "text": "Full",
+          "start": 288.488,
+          "end": 288.75
+        },
+        {
+          "text": "Picture",
+          "start": 288.75,
+          "end": 289.45
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "Here's the complete code all together. This is what you'd paste into your test and customize for your API endpoint and assertions:",
+      "start": 289.97,
+      "end": 297.895,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 290.245,
+          "end": 290.52
+        },
+        {
+          "text": "the",
+          "start": 290.52,
+          "end": 290.62
+        },
+        {
+          "text": "complete",
+          "start": 290.62,
+          "end": 291.07
+        },
+        {
+          "text": "code",
+          "start": 291.07,
+          "end": 291.42
+        },
+        {
+          "text": "all",
+          "start": 291.42,
+          "end": 291.62
+        },
+        {
+          "text": "together",
+          "start": 291.62,
+          "end": 292.42
+        },
+        {
+          "text": ".",
+          "start": 292.42,
+          "end": 292.582
+        },
+        {
+          "text": "This",
+          "start": 292.582,
+          "end": 292.845
+        },
+        {
+          "text": "is",
+          "start": 292.845,
+          "end": 292.957
+        },
+        {
+          "text": "what",
+          "start": 292.957,
+          "end": 293.095
+        },
+        {
+          "text": "you'd",
+          "start": 293.095,
+          "end": 293.245
+        },
+        {
+          "text": "paste",
+          "start": 293.245,
+          "end": 293.558
+        },
+        {
+          "text": "into",
+          "start": 293.558,
+          "end": 293.733
+        },
+        {
+          "text": "your",
+          "start": 293.733,
+          "end": 293.882
+        },
+        {
+          "text": "test",
+          "start": 293.882,
+          "end": 294.545
+        },
+        {
+          "text": "and",
+          "start": 294.545,
+          "end": 294.695
+        },
+        {
+          "text": "customize",
+          "start": 294.695,
+          "end": 295.32
+        },
+        {
+          "text": "for",
+          "start": 295.32,
+          "end": 295.433
+        },
+        {
+          "text": "your",
+          "start": 295.433,
+          "end": 295.582
+        },
+        {
+          "text": "API",
+          "start": 295.582,
+          "end": 296.233
+        },
+        {
+          "text": "endpoint",
+          "start": 296.233,
+          "end": 296.72
+        },
+        {
+          "text": "and",
+          "start": 296.72,
+          "end": 296.832
+        },
+        {
+          "text": "assertions",
+          "start": 296.832,
+          "end": 297.745
+        },
+        {
+          "text": ":",
+          "start": 297.745,
+          "end": 297.895
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "h2",
+      "text": "The Pattern You'll Use Over and Over",
+      "start": 298.215,
+      "end": 300.34,
+      "words": [
+        {
+          "text": "The",
+          "start": 298.465,
+          "end": 298.54
+        },
+        {
+          "text": "Pattern",
+          "start": 298.54,
+          "end": 298.903
+        },
+        {
+          "text": "You'll",
+          "start": 298.903,
+          "end": 299.04
+        },
+        {
+          "text": "Use",
+          "start": 299.04,
+          "end": 299.328
+        },
+        {
+          "text": "Over",
+          "start": 299.328,
+          "end": 299.653
+        },
+        {
+          "text": "and",
+          "start": 299.653,
+          "end": 299.765
+        },
+        {
+          "text": "Over",
+          "start": 299.765,
+          "end": 300.34
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "p",
+      "text": "The steps above aren't magic, they're a repeatable pattern. Every time you need to:",
+      "start": 300.835,
+      "end": 305.81,
+      "words": [
+        {
+          "text": "The",
+          "start": 301.085,
+          "end": 301.185
+        },
+        {
+          "text": "steps",
+          "start": 301.185,
+          "end": 301.535
+        },
+        {
+          "text": "above",
+          "start": 301.535,
+          "end": 301.798
+        },
+        {
+          "text": "aren't",
+          "start": 301.798,
+          "end": 301.985
+        },
+        {
+          "text": "magic",
+          "start": 301.985,
+          "end": 302.485
+        },
+        {
+          "text": ",",
+          "start": 302.485,
+          "end": 302.56
+        },
+        {
+          "text": "they're",
+          "start": 302.56,
+          "end": 302.723
+        },
+        {
+          "text": "a",
+          "start": 302.723,
+          "end": 302.785
+        },
+        {
+          "text": "repeatable",
+          "start": 302.785,
+          "end": 303.36
+        },
+        {
+          "text": "pattern",
+          "start": 303.36,
+          "end": 304.06
+        },
+        {
+          "text": ".",
+          "start": 304.06,
+          "end": 304.223
+        },
+        {
+          "text": "Every",
+          "start": 304.223,
+          "end": 304.535
+        },
+        {
+          "text": "time",
+          "start": 304.535,
+          "end": 304.81
+        },
+        {
+          "text": "you",
+          "start": 304.81,
+          "end": 304.91
+        },
+        {
+          "text": "need",
+          "start": 304.91,
+          "end": 305.148
+        },
+        {
+          "text": "to",
+          "start": 305.148,
+          "end": 305.56
+        },
+        {
+          "text": ":",
+          "start": 305.56,
+          "end": 305.81
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Trigger an action that fires an API call (click a button)",
+      "start": 306.13,
+      "end": 310.105,
+      "words": [
+        {
+          "text": "Trigger",
+          "start": 306.405,
+          "end": 306.667
+        },
+        {
+          "text": "an",
+          "start": 306.667,
+          "end": 306.767
+        },
+        {
+          "text": "action",
+          "start": 306.767,
+          "end": 307.18
+        },
+        {
+          "text": "that",
+          "start": 307.18,
+          "end": 307.355
+        },
+        {
+          "text": "fires",
+          "start": 307.355,
+          "end": 307.743
+        },
+        {
+          "text": "an",
+          "start": 307.743,
+          "end": 307.868
+        },
+        {
+          "text": "API",
+          "start": 307.868,
+          "end": 308.405
+        },
+        {
+          "text": "call",
+          "start": 308.405,
+          "end": 308.967
+        },
+        {
+          "text": "(",
+          "start": 308.967,
+          "end": 309.055
+        },
+        {
+          "text": "click",
+          "start": 309.055,
+          "end": 309.242
+        },
+        {
+          "text": "a",
+          "start": 309.242,
+          "end": 309.305
+        },
+        {
+          "text": "button",
+          "start": 309.305,
+          "end": 309.93
+        },
+        {
+          "text": ")",
+          "start": 309.93,
+          "end": 310.105
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "Wait for the response to arrive (before asserting)",
+      "start": 310.425,
+      "end": 313.75,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 310.725,
+          "end": 310.975
+        },
+        {
+          "text": "for",
+          "start": 310.975,
+          "end": 311.087
+        },
+        {
+          "text": "the",
+          "start": 311.087,
+          "end": 311.175
+        },
+        {
+          "text": "response",
+          "start": 311.175,
+          "end": 311.675
+        },
+        {
+          "text": "to",
+          "start": 311.675,
+          "end": 311.825
+        },
+        {
+          "text": "arrive",
+          "start": 311.825,
+          "end": 312.425
+        },
+        {
+          "text": "(",
+          "start": 312.425,
+          "end": 312.475
+        },
+        {
+          "text": "before",
+          "start": 312.475,
+          "end": 312.8
+        },
+        {
+          "text": "asserting",
+          "start": 312.8,
+          "end": 313.6
+        },
+        {
+          "text": ")",
+          "start": 313.6,
+          "end": 313.75
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Use the response data in your test (verify the payload)",
+      "start": 314.07,
+      "end": 317.92,
+      "words": [
+        {
+          "text": "Use",
+          "start": 314.395,
+          "end": 314.632
+        },
+        {
+          "text": "the",
+          "start": 314.632,
+          "end": 314.72
+        },
+        {
+          "text": "response",
+          "start": 314.72,
+          "end": 315.245
+        },
+        {
+          "text": "data",
+          "start": 315.245,
+          "end": 315.507
+        },
+        {
+          "text": "in",
+          "start": 315.507,
+          "end": 315.582
+        },
+        {
+          "text": "your",
+          "start": 315.582,
+          "end": 315.72
+        },
+        {
+          "text": "test",
+          "start": 315.72,
+          "end": 316.37
+        },
+        {
+          "text": "(",
+          "start": 316.37,
+          "end": 316.47
+        },
+        {
+          "text": "verify",
+          "start": 316.47,
+          "end": 316.907
+        },
+        {
+          "text": "the",
+          "start": 316.907,
+          "end": 316.995
+        },
+        {
+          "text": "payload",
+          "start": 316.995,
+          "end": 317.745
+        },
+        {
+          "text": ")",
+          "start": 317.745,
+          "end": 317.92
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "p",
+      "text": "...you'll use this same scaffolding. Start listening with WaitForResponseAsync, ensure your UI is ready with WaitForAsync, coordinate the click and navigation with Task.WhenAll, then read and assert the response.",
+      "start": 318.24,
+      "end": 331.915,
+      "words": [
+        {
+          "text": ".",
+          "start": 318.49,
+          "end": 318.515
+        },
+        {
+          "text": ".",
+          "start": 318.515,
+          "end": 318.54
+        },
+        {
+          "text": ".",
+          "start": 318.54,
+          "end": 318.59
+        },
+        {
+          "text": "you'll",
+          "start": 318.59,
+          "end": 318.728
+        },
+        {
+          "text": "use",
+          "start": 318.728,
+          "end": 318.99
+        },
+        {
+          "text": "this",
+          "start": 318.99,
+          "end": 319.203
+        },
+        {
+          "text": "same",
+          "start": 319.203,
+          "end": 319.515
+        },
+        {
+          "text": "scaffolding",
+          "start": 319.515,
+          "end": 320.465
+        },
+        {
+          "text": ".",
+          "start": 320.465,
+          "end": 320.615
+        },
+        {
+          "text": "Start",
+          "start": 320.615,
+          "end": 320.965
+        },
+        {
+          "text": "listening",
+          "start": 320.965,
+          "end": 321.378
+        },
+        {
+          "text": "with",
+          "start": 321.378,
+          "end": 321.54
+        },
+        {
+          "text": "WaitForResponseAsync",
+          "start": 321.54,
+          "end": 322.94
+        },
+        {
+          "text": ",",
+          "start": 322.94,
+          "end": 323.04
+        },
+        {
+          "text": "ensure",
+          "start": 323.04,
+          "end": 323.465
+        },
+        {
+          "text": "your",
+          "start": 323.465,
+          "end": 323.64
+        },
+        {
+          "text": "UI",
+          "start": 323.64,
+          "end": 324.09
+        },
+        {
+          "text": "is",
+          "start": 324.09,
+          "end": 324.253
+        },
+        {
+          "text": "ready",
+          "start": 324.253,
+          "end": 324.565
+        },
+        {
+          "text": "with",
+          "start": 324.565,
+          "end": 324.74
+        },
+        {
+          "text": "WaitForAsync",
+          "start": 324.74,
+          "end": 325.79
+        },
+        {
+          "text": ",",
+          "start": 325.79,
+          "end": 325.927
+        },
+        {
+          "text": "coordinate",
+          "start": 325.927,
+          "end": 326.565
+        },
+        {
+          "text": "the",
+          "start": 326.565,
+          "end": 326.677
+        },
+        {
+          "text": "click",
+          "start": 326.677,
+          "end": 327.015
+        },
+        {
+          "text": "and",
+          "start": 327.015,
+          "end": 327.14
+        },
+        {
+          "text": "navigation",
+          "start": 327.14,
+          "end": 327.802
+        },
+        {
+          "text": "with",
+          "start": 327.802,
+          "end": 327.965
+        },
+        {
+          "text": "Task",
+          "start": 327.965,
+          "end": 328.815
+        },
+        {
+          "text": ".",
+          "start": 328.815,
+          "end": 328.965
+        },
+        {
+          "text": "WhenAll",
+          "start": 328.965,
+          "end": 329.515
+        },
+        {
+          "text": ",",
+          "start": 329.515,
+          "end": 329.615
+        },
+        {
+          "text": "then",
+          "start": 329.615,
+          "end": 329.878
+        },
+        {
+          "text": "read",
+          "start": 329.878,
+          "end": 330.328
+        },
+        {
+          "text": "and",
+          "start": 330.328,
+          "end": 330.453
+        },
+        {
+          "text": "assert",
+          "start": 330.453,
+          "end": 330.802
+        },
+        {
+          "text": "the",
+          "start": 330.802,
+          "end": 330.89
+        },
+        {
+          "text": "response",
+          "start": 330.89,
+          "end": 331.765
+        },
+        {
+          "text": ".",
+          "start": 331.765,
+          "end": 331.915
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "p",
+      "text": "I learned this pattern the hard way, my early tests would click, then immediately assert, and flake on CI. Network latency is invisible when you're testing locally on fast WiFi, but it's brutal on CI with shared infrastructure. Waiting explicitly for responses transformed my test suite from flaky to rock solid.",
+      "start": 332.235,
+      "end": 353.01,
+      "words": [
+        {
+          "text": "I",
+          "start": 332.51,
+          "end": 332.66
+        },
+        {
+          "text": "learned",
+          "start": 332.66,
+          "end": 332.96
+        },
+        {
+          "text": "this",
+          "start": 332.96,
+          "end": 333.135
+        },
+        {
+          "text": "pattern",
+          "start": 333.135,
+          "end": 333.523
+        },
+        {
+          "text": "the",
+          "start": 333.523,
+          "end": 333.61
+        },
+        {
+          "text": "hard",
+          "start": 333.61,
+          "end": 333.885
+        },
+        {
+          "text": "way",
+          "start": 333.885,
+          "end": 334.385
+        },
+        {
+          "text": ",",
+          "start": 334.385,
+          "end": 334.485
+        },
+        {
+          "text": "my",
+          "start": 334.485,
+          "end": 334.66
+        },
+        {
+          "text": "early",
+          "start": 334.66,
+          "end": 334.998
+        },
+        {
+          "text": "tests",
+          "start": 334.998,
+          "end": 335.41
+        },
+        {
+          "text": "would",
+          "start": 335.41,
+          "end": 335.597
+        },
+        {
+          "text": "click",
+          "start": 335.597,
+          "end": 336.185
+        },
+        {
+          "text": ",",
+          "start": 336.185,
+          "end": 336.285
+        },
+        {
+          "text": "then",
+          "start": 336.285,
+          "end": 336.51
+        },
+        {
+          "text": "immediately",
+          "start": 336.51,
+          "end": 337.11
+        },
+        {
+          "text": "assert",
+          "start": 337.11,
+          "end": 337.735
+        },
+        {
+          "text": ",",
+          "start": 337.735,
+          "end": 337.81
+        },
+        {
+          "text": "and",
+          "start": 337.81,
+          "end": 337.948
+        },
+        {
+          "text": "flake",
+          "start": 337.948,
+          "end": 338.248
+        },
+        {
+          "text": "on",
+          "start": 338.248,
+          "end": 338.448
+        },
+        {
+          "text": "CI",
+          "start": 338.448,
+          "end": 339.41
+        },
+        {
+          "text": ".",
+          "start": 339.41,
+          "end": 339.61
+        },
+        {
+          "text": "Network",
+          "start": 339.61,
+          "end": 340.035
+        },
+        {
+          "text": "latency",
+          "start": 340.035,
+          "end": 340.585
+        },
+        {
+          "text": "is",
+          "start": 340.585,
+          "end": 340.71
+        },
+        {
+          "text": "invisible",
+          "start": 340.71,
+          "end": 341.247
+        },
+        {
+          "text": "when",
+          "start": 341.247,
+          "end": 341.372
+        },
+        {
+          "text": "you're",
+          "start": 341.372,
+          "end": 341.485
+        },
+        {
+          "text": "testing",
+          "start": 341.485,
+          "end": 341.923
+        },
+        {
+          "text": "locally",
+          "start": 341.923,
+          "end": 342.385
+        },
+        {
+          "text": "on",
+          "start": 342.385,
+          "end": 342.598
+        },
+        {
+          "text": "fast",
+          "start": 342.598,
+          "end": 342.935
+        },
+        {
+          "text": "WiFi",
+          "start": 342.935,
+          "end": 343.76
+        },
+        {
+          "text": ",",
+          "start": 343.76,
+          "end": 343.86
+        },
+        {
+          "text": "but",
+          "start": 343.86,
+          "end": 343.997
+        },
+        {
+          "text": "it's",
+          "start": 343.997,
+          "end": 344.173
+        },
+        {
+          "text": "brutal",
+          "start": 344.173,
+          "end": 344.56
+        },
+        {
+          "text": "on",
+          "start": 344.56,
+          "end": 344.772
+        },
+        {
+          "text": "CI",
+          "start": 344.772,
+          "end": 345.285
+        },
+        {
+          "text": "with",
+          "start": 345.285,
+          "end": 345.485
+        },
+        {
+          "text": "shared",
+          "start": 345.485,
+          "end": 345.835
+        },
+        {
+          "text": "infrastructure",
+          "start": 345.835,
+          "end": 347.035
+        },
+        {
+          "text": ".",
+          "start": 347.035,
+          "end": 347.235
+        },
+        {
+          "text": "Waiting",
+          "start": 347.235,
+          "end": 347.635
+        },
+        {
+          "text": "explicitly",
+          "start": 347.635,
+          "end": 348.31
+        },
+        {
+          "text": "for",
+          "start": 348.31,
+          "end": 348.435
+        },
+        {
+          "text": "responses",
+          "start": 348.435,
+          "end": 349.335
+        },
+        {
+          "text": "transformed",
+          "start": 349.335,
+          "end": 349.973
+        },
+        {
+          "text": "my",
+          "start": 349.973,
+          "end": 350.148
+        },
+        {
+          "text": "test",
+          "start": 350.148,
+          "end": 350.71
+        },
+        {
+          "text": "suite",
+          "start": 350.71,
+          "end": 351.085
+        },
+        {
+          "text": "from",
+          "start": 351.085,
+          "end": 351.297
+        },
+        {
+          "text": "flaky",
+          "start": 351.297,
+          "end": 351.773
+        },
+        {
+          "text": "to",
+          "start": 351.773,
+          "end": 351.91
+        },
+        {
+          "text": "rock",
+          "start": 351.91,
+          "end": 352.185
+        },
+        {
+          "text": "solid",
+          "start": 352.185,
+          "end": 352.86
+        },
+        {
+          "text": ".",
+          "start": 352.86,
+          "end": 353.01
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "p",
+      "text": "One last thing: always prefer getting data via the API (like here with WaitForResponseAsync) over scraping it from the UI. APIs are deterministic; DOM queries can break if someone moves a div. Test the UI behavior, but grab the data from the source.",
+      "start": 353.33,
+      "end": 370.28,
+      "words": [
+        {
+          "text": "One",
+          "start": 353.63,
+          "end": 353.855
+        },
+        {
+          "text": "last",
+          "start": 353.855,
+          "end": 354.205
+        },
+        {
+          "text": "thing",
+          "start": 354.205,
+          "end": 354.655
+        },
+        {
+          "text": ":",
+          "start": 354.655,
+          "end": 354.792
+        },
+        {
+          "text": "always",
+          "start": 354.792,
+          "end": 355.18
+        },
+        {
+          "text": "prefer",
+          "start": 355.18,
+          "end": 355.58
+        },
+        {
+          "text": "getting",
+          "start": 355.58,
+          "end": 355.905
+        },
+        {
+          "text": "data",
+          "start": 355.905,
+          "end": 356.23
+        },
+        {
+          "text": "via",
+          "start": 356.23,
+          "end": 356.442
+        },
+        {
+          "text": "the",
+          "start": 356.442,
+          "end": 356.592
+        },
+        {
+          "text": "API",
+          "start": 356.592,
+          "end": 357.517
+        },
+        {
+          "text": "(",
+          "start": 357.517,
+          "end": 357.605
+        },
+        {
+          "text": "like",
+          "start": 357.605,
+          "end": 357.805
+        },
+        {
+          "text": "here",
+          "start": 357.805,
+          "end": 358.08
+        },
+        {
+          "text": "with",
+          "start": 358.08,
+          "end": 358.255
+        },
+        {
+          "text": "WaitForResponseAsync",
+          "start": 358.255,
+          "end": 359.58
+        },
+        {
+          "text": ")",
+          "start": 359.58,
+          "end": 359.68
+        },
+        {
+          "text": "over",
+          "start": 359.68,
+          "end": 359.967
+        },
+        {
+          "text": "scraping",
+          "start": 359.967,
+          "end": 360.43
+        },
+        {
+          "text": "it",
+          "start": 360.43,
+          "end": 360.555
+        },
+        {
+          "text": "from",
+          "start": 360.555,
+          "end": 360.692
+        },
+        {
+          "text": "the",
+          "start": 360.692,
+          "end": 360.78
+        },
+        {
+          "text": "UI",
+          "start": 360.78,
+          "end": 361.705
+        },
+        {
+          "text": ".",
+          "start": 361.705,
+          "end": 361.892
+        },
+        {
+          "text": "APIs",
+          "start": 361.892,
+          "end": 362.605
+        },
+        {
+          "text": "are",
+          "start": 362.605,
+          "end": 362.705
+        },
+        {
+          "text": "deterministic",
+          "start": 362.705,
+          "end": 363.88
+        },
+        {
+          "text": ";",
+          "start": 363.88,
+          "end": 363.993
+        },
+        {
+          "text": "DOM",
+          "start": 363.993,
+          "end": 364.33
+        },
+        {
+          "text": "queries",
+          "start": 364.33,
+          "end": 364.78
+        },
+        {
+          "text": "can",
+          "start": 364.78,
+          "end": 364.955
+        },
+        {
+          "text": "break",
+          "start": 364.955,
+          "end": 365.28
+        },
+        {
+          "text": "if",
+          "start": 365.28,
+          "end": 365.43
+        },
+        {
+          "text": "someone",
+          "start": 365.43,
+          "end": 365.755
+        },
+        {
+          "text": "moves",
+          "start": 365.755,
+          "end": 366.017
+        },
+        {
+          "text": "a",
+          "start": 366.017,
+          "end": 366.08
+        },
+        {
+          "text": "div",
+          "start": 366.08,
+          "end": 366.755
+        },
+        {
+          "text": ".",
+          "start": 366.755,
+          "end": 366.892
+        },
+        {
+          "text": "Test",
+          "start": 366.892,
+          "end": 367.18
+        },
+        {
+          "text": "the",
+          "start": 367.18,
+          "end": 367.28
+        },
+        {
+          "text": "UI",
+          "start": 367.28,
+          "end": 367.58
+        },
+        {
+          "text": "behavior",
+          "start": 367.58,
+          "end": 368.205
+        },
+        {
+          "text": ",",
+          "start": 368.205,
+          "end": 368.28
+        },
+        {
+          "text": "but",
+          "start": 368.28,
+          "end": 368.442
+        },
+        {
+          "text": "grab",
+          "start": 368.442,
+          "end": 368.78
+        },
+        {
+          "text": "the",
+          "start": 368.78,
+          "end": 368.88
+        },
+        {
+          "text": "data",
+          "start": 368.88,
+          "end": 369.205
+        },
+        {
+          "text": "from",
+          "start": 369.205,
+          "end": 369.368
+        },
+        {
+          "text": "the",
+          "start": 369.368,
+          "end": 369.455
+        },
+        {
+          "text": "source",
+          "start": 369.455,
+          "end": 370.13
+        },
+        {
+          "text": ".",
+          "start": 370.13,
+          "end": 370.28
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "p",
+      "text": "Happy testing, and may your assertions never chase ghosts.",
+      "start": 370.6,
+      "end": 374.475,
+      "words": [
+        {
+          "text": "Happy",
+          "start": 370.875,
+          "end": 371.175
+        },
+        {
+          "text": "testing",
+          "start": 371.175,
+          "end": 371.85
+        },
+        {
+          "text": ",",
+          "start": 371.85,
+          "end": 371.95
+        },
+        {
+          "text": "and",
+          "start": 371.95,
+          "end": 372.075
+        },
+        {
+          "text": "may",
+          "start": 372.075,
+          "end": 372.237
+        },
+        {
+          "text": "your",
+          "start": 372.237,
+          "end": 372.35
+        },
+        {
+          "text": "assertions",
+          "start": 372.35,
+          "end": 372.987
+        },
+        {
+          "text": "never",
+          "start": 372.987,
+          "end": 373.287
+        },
+        {
+          "text": "chase",
+          "start": 373.287,
+          "end": 373.6
+        },
+        {
+          "text": "ghosts",
+          "start": 373.6,
+          "end": 374.325
+        },
+        {
+          "text": ".",
+          "start": 374.325,
+          "end": 374.475
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 374.795,
+      "end": 376.62,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 375.095,
+          "end": 375.595
+        },
+        {
+          "text": "and",
+          "start": 375.595,
+          "end": 375.72
+        },
+        {
+          "text": "Further",
+          "start": 375.72,
+          "end": 375.995
+        },
+        {
+          "text": "Reading",
+          "start": 375.995,
+          "end": 376.62
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "Playwright .NET , network events",
+      "start": 377.065,
+      "end": 379.165,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 377.315,
+          "end": 377.69
+        },
+        {
+          "text": ".NET",
+          "start": 377.69,
+          "end": 378.115
+        },
+        {
+          "text": ",",
+          "start": 378.115,
+          "end": 378.19
+        },
+        {
+          "text": "network",
+          "start": 378.19,
+          "end": 378.503
+        },
+        {
+          "text": "events",
+          "start": 378.503,
+          "end": 379.165
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "WaitForResponseAsync , API reference",
+      "start": 379.585,
+      "end": 382.485,
+      "words": [
+        {
+          "text": "WaitForResponseAsync",
+          "start": 379.885,
+          "end": 381.097
+        },
+        {
+          "text": ",",
+          "start": 381.097,
+          "end": 381.185
+        },
+        {
+          "text": "API",
+          "start": 381.185,
+          "end": 381.71
+        },
+        {
+          "text": "reference",
+          "start": 381.71,
+          "end": 382.485
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "li",
+      "text": "Web-first assertions , Playwright",
+      "start": 382.93,
+      "end": 385.155,
+      "words": [
+        {
+          "text": "Web-first",
+          "start": 383.23,
+          "end": 383.692
+        },
+        {
+          "text": "assertions",
+          "start": 383.692,
+          "end": 384.355
+        },
+        {
+          "text": ",",
+          "start": 384.355,
+          "end": 384.43
+        },
+        {
+          "text": "Playwright",
+          "start": 384.43,
+          "end": 385.155
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "li",
+      "text": "Auto-waiting , why explicit sleeps die here",
+      "start": 385.575,
+      "end": 388.475,
+      "words": [
+        {
+          "text": "Auto-waiting",
+          "start": 385.875,
+          "end": 386.65
+        },
+        {
+          "text": ",",
+          "start": 386.65,
+          "end": 386.725
+        },
+        {
+          "text": "why",
+          "start": 386.725,
+          "end": 386.9
+        },
+        {
+          "text": "explicit",
+          "start": 386.9,
+          "end": 387.45
+        },
+        {
+          "text": "sleeps",
+          "start": 387.45,
+          "end": 387.775
+        },
+        {
+          "text": "die",
+          "start": 387.775,
+          "end": 388.0
+        },
+        {
+          "text": "here",
+          "start": 388.0,
+          "end": 388.475
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "p",
+      "text": "See also: Mastering E2E Testing with C# Playwright (Jul 2024) · Playwright MCP + Multi-Agent Testing (Jul 2026)",
+      "start": 388.97,
+      "end": 399.62,
+      "words": [
+        {
+          "text": "See",
+          "start": 389.245,
+          "end": 389.42
+        },
+        {
+          "text": "also",
+          "start": 389.42,
+          "end": 390.07
+        },
+        {
+          "text": ":",
+          "start": 390.07,
+          "end": 390.208
+        },
+        {
+          "text": "Mastering",
+          "start": 390.208,
+          "end": 390.758
+        },
+        {
+          "text": "E",
+          "start": 390.758,
+          "end": 390.92
+        },
+        {
+          "text": "2",
+          "start": 390.92,
+          "end": 391.045
+        },
+        {
+          "text": "E",
+          "start": 391.045,
+          "end": 391.17
+        },
+        {
+          "text": "Testing",
+          "start": 391.17,
+          "end": 391.62
+        },
+        {
+          "text": "with",
+          "start": 391.62,
+          "end": 391.807
+        },
+        {
+          "text": "C#",
+          "start": 391.807,
+          "end": 392.345
+        },
+        {
+          "text": "Playwright",
+          "start": 392.345,
+          "end": 393.145
+        },
+        {
+          "text": "(",
+          "start": 393.145,
+          "end": 393.27
+        },
+        {
+          "text": "Jul",
+          "start": 393.27,
+          "end": 393.545
+        },
+        {
+          "text": "2024",
+          "start": 393.545,
+          "end": 394.62
+        },
+        {
+          "text": ")",
+          "start": 394.62,
+          "end": 394.77
+        },
+        {
+          "text": "Playwright",
+          "start": 394.82,
+          "end": 395.27
+        },
+        {
+          "text": "MCP",
+          "start": 395.27,
+          "end": 396.045
+        },
+        {
+          "text": "+",
+          "start": 396.045,
+          "end": 396.358
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 396.358,
+          "end": 396.995
+        },
+        {
+          "text": "Testing",
+          "start": 396.995,
+          "end": 397.882
+        },
+        {
+          "text": "(",
+          "start": 397.882,
+          "end": 397.97
+        },
+        {
+          "text": "Jul",
+          "start": 397.97,
+          "end": 398.295
+        },
+        {
+          "text": "2026",
+          "start": 398.295,
+          "end": 399.62
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

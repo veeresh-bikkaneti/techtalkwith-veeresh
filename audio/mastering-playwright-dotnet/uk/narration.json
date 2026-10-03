@@ -1,0 +1,6169 @@
+{
+  "slug": "mastering-playwright-dotnet",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 409.69,
+  "contentHash": "c40021c6955dd49a1a4e2f782884a45df49746486685d3b5d7c6646dbe67d961",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Mastering .NET 8.0 with Playwright: A Comprehensive Framework Building Guide",
+      "start": 0.0,
+      "end": 4.525,
+      "words": [
+        {
+          "text": "Mastering",
+          "start": 0.275,
+          "end": 0.75
+        },
+        {
+          "text": ".NET",
+          "start": 0.75,
+          "end": 0.975
+        },
+        {
+          "text": "8.0",
+          "start": 0.975,
+          "end": 1.188
+        },
+        {
+          "text": "with",
+          "start": 1.188,
+          "end": 1.325
+        },
+        {
+          "text": "Playwright",
+          "start": 1.325,
+          "end": 2.025
+        },
+        {
+          "text": ":",
+          "start": 2.025,
+          "end": 2.125
+        },
+        {
+          "text": "A",
+          "start": 2.125,
+          "end": 2.2
+        },
+        {
+          "text": "Comprehensive",
+          "start": 2.2,
+          "end": 2.875
+        },
+        {
+          "text": "Framework",
+          "start": 2.875,
+          "end": 3.35
+        },
+        {
+          "text": "Building",
+          "start": 3.35,
+          "end": 3.725
+        },
+        {
+          "text": "Guide",
+          "start": 3.725,
+          "end": 4.525
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h2",
+      "text": "Building a Reusable Test Framework with Dependency Injection",
+      "start": 5.07,
+      "end": 9.22,
+      "words": [
+        {
+          "text": "Building",
+          "start": 5.32,
+          "end": 5.72
+        },
+        {
+          "text": "a",
+          "start": 5.72,
+          "end": 5.82
+        },
+        {
+          "text": "Reusable",
+          "start": 5.82,
+          "end": 6.42
+        },
+        {
+          "text": "Test",
+          "start": 6.42,
+          "end": 6.695
+        },
+        {
+          "text": "Framework",
+          "start": 6.695,
+          "end": 7.27
+        },
+        {
+          "text": "with",
+          "start": 7.27,
+          "end": 7.42
+        },
+        {
+          "text": "Dependency",
+          "start": 7.42,
+          "end": 8.12
+        },
+        {
+          "text": "Injection",
+          "start": 8.12,
+          "end": 9.22
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "quote",
+      "text": "\"The first test is free. The hundredth test costs you your sanity if you haven't built it right.\"",
+      "start": 9.69,
+      "end": 15.29,
+      "words": [
+        {
+          "text": "\"",
+          "start": 9.89,
+          "end": 9.94
+        },
+        {
+          "text": "The",
+          "start": 9.94,
+          "end": 10.015
+        },
+        {
+          "text": "first",
+          "start": 10.015,
+          "end": 10.29
+        },
+        {
+          "text": "test",
+          "start": 10.29,
+          "end": 10.553
+        },
+        {
+          "text": "is",
+          "start": 10.553,
+          "end": 10.702
+        },
+        {
+          "text": "free",
+          "start": 10.702,
+          "end": 11.39
+        },
+        {
+          "text": ".",
+          "start": 11.39,
+          "end": 11.49
+        },
+        {
+          "text": "The",
+          "start": 11.49,
+          "end": 11.59
+        },
+        {
+          "text": "hundredth",
+          "start": 11.59,
+          "end": 12.015
+        },
+        {
+          "text": "test",
+          "start": 12.015,
+          "end": 12.34
+        },
+        {
+          "text": "costs",
+          "start": 12.34,
+          "end": 12.627
+        },
+        {
+          "text": "you",
+          "start": 12.627,
+          "end": 12.727
+        },
+        {
+          "text": "your",
+          "start": 12.727,
+          "end": 12.865
+        },
+        {
+          "text": "sanity",
+          "start": 12.865,
+          "end": 13.365
+        },
+        {
+          "text": "if",
+          "start": 13.365,
+          "end": 13.477
+        },
+        {
+          "text": "you",
+          "start": 13.477,
+          "end": 13.578
+        },
+        {
+          "text": "haven't",
+          "start": 13.578,
+          "end": 13.84
+        },
+        {
+          "text": "built",
+          "start": 13.84,
+          "end": 14.127
+        },
+        {
+          "text": "it",
+          "start": 14.127,
+          "end": 14.24
+        },
+        {
+          "text": "right",
+          "start": 14.24,
+          "end": 15.04
+        },
+        {
+          "text": ".",
+          "start": 15.04,
+          "end": 15.215
+        },
+        {
+          "text": "\"",
+          "start": 15.215,
+          "end": 15.29
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "You've written a Playwright test. It works. Then you write another. Then another. Before long, you've copy-pasted browser setup, context creation, and cleanup code 50 times across files. When you need to change how video recording works, you edit 50 places. That's not scaling. That's snowballing.",
+      "start": 15.61,
+      "end": 32.735,
+      "words": [
+        {
+          "text": "You've",
+          "start": 15.885,
+          "end": 16.035
+        },
+        {
+          "text": "written",
+          "start": 16.035,
+          "end": 16.297
+        },
+        {
+          "text": "a",
+          "start": 16.297,
+          "end": 16.36
+        },
+        {
+          "text": "Playwright",
+          "start": 16.36,
+          "end": 16.76
+        },
+        {
+          "text": "test",
+          "start": 16.76,
+          "end": 17.385
+        },
+        {
+          "text": ".",
+          "start": 17.385,
+          "end": 17.46
+        },
+        {
+          "text": "It",
+          "start": 17.46,
+          "end": 17.61
+        },
+        {
+          "text": "works",
+          "start": 17.61,
+          "end": 17.96
+        },
+        {
+          "text": ".",
+          "start": 17.96,
+          "end": 18.01
+        },
+        {
+          "text": "Then",
+          "start": 18.01,
+          "end": 18.148
+        },
+        {
+          "text": "you",
+          "start": 18.148,
+          "end": 18.26
+        },
+        {
+          "text": "write",
+          "start": 18.26,
+          "end": 18.448
+        },
+        {
+          "text": "another",
+          "start": 18.448,
+          "end": 19.085
+        },
+        {
+          "text": ".",
+          "start": 19.085,
+          "end": 19.185
+        },
+        {
+          "text": "Then",
+          "start": 19.185,
+          "end": 19.36
+        },
+        {
+          "text": "another",
+          "start": 19.36,
+          "end": 20.135
+        },
+        {
+          "text": ".",
+          "start": 20.135,
+          "end": 20.26
+        },
+        {
+          "text": "Before",
+          "start": 20.26,
+          "end": 20.585
+        },
+        {
+          "text": "long",
+          "start": 20.585,
+          "end": 20.81
+        },
+        {
+          "text": ",",
+          "start": 20.81,
+          "end": 20.848
+        },
+        {
+          "text": "you've",
+          "start": 20.848,
+          "end": 20.985
+        },
+        {
+          "text": "copy-pasted",
+          "start": 20.985,
+          "end": 21.635
+        },
+        {
+          "text": "browser",
+          "start": 21.635,
+          "end": 22.01
+        },
+        {
+          "text": "setup",
+          "start": 22.01,
+          "end": 22.435
+        },
+        {
+          "text": ",",
+          "start": 22.435,
+          "end": 22.485
+        },
+        {
+          "text": "context",
+          "start": 22.485,
+          "end": 22.985
+        },
+        {
+          "text": "creation",
+          "start": 22.985,
+          "end": 23.485
+        },
+        {
+          "text": ",",
+          "start": 23.485,
+          "end": 23.523
+        },
+        {
+          "text": "and",
+          "start": 23.523,
+          "end": 23.635
+        },
+        {
+          "text": "cleanup",
+          "start": 23.635,
+          "end": 24.035
+        },
+        {
+          "text": "code",
+          "start": 24.035,
+          "end": 24.36
+        },
+        {
+          "text": "50",
+          "start": 24.36,
+          "end": 24.66
+        },
+        {
+          "text": "times",
+          "start": 24.66,
+          "end": 24.973
+        },
+        {
+          "text": "across",
+          "start": 24.973,
+          "end": 25.31
+        },
+        {
+          "text": "files",
+          "start": 25.31,
+          "end": 26.285
+        },
+        {
+          "text": ".",
+          "start": 26.285,
+          "end": 26.385
+        },
+        {
+          "text": "When",
+          "start": 26.385,
+          "end": 26.523
+        },
+        {
+          "text": "you",
+          "start": 26.523,
+          "end": 26.623
+        },
+        {
+          "text": "need",
+          "start": 26.623,
+          "end": 26.785
+        },
+        {
+          "text": "to",
+          "start": 26.785,
+          "end": 26.885
+        },
+        {
+          "text": "change",
+          "start": 26.885,
+          "end": 27.198
+        },
+        {
+          "text": "how",
+          "start": 27.198,
+          "end": 27.36
+        },
+        {
+          "text": "video",
+          "start": 27.36,
+          "end": 27.685
+        },
+        {
+          "text": "recording",
+          "start": 27.685,
+          "end": 28.16
+        },
+        {
+          "text": "works",
+          "start": 28.16,
+          "end": 28.435
+        },
+        {
+          "text": ",",
+          "start": 28.435,
+          "end": 28.473
+        },
+        {
+          "text": "you",
+          "start": 28.473,
+          "end": 28.585
+        },
+        {
+          "text": "edit",
+          "start": 28.585,
+          "end": 28.86
+        },
+        {
+          "text": "50",
+          "start": 28.86,
+          "end": 29.16
+        },
+        {
+          "text": "places",
+          "start": 29.16,
+          "end": 29.96
+        },
+        {
+          "text": ".",
+          "start": 29.96,
+          "end": 30.035
+        },
+        {
+          "text": "That's",
+          "start": 30.035,
+          "end": 30.31
+        },
+        {
+          "text": "not",
+          "start": 30.31,
+          "end": 30.535
+        },
+        {
+          "text": "scaling",
+          "start": 30.535,
+          "end": 31.085
+        },
+        {
+          "text": ".",
+          "start": 31.085,
+          "end": 31.16
+        },
+        {
+          "text": "That's",
+          "start": 31.16,
+          "end": 31.41
+        },
+        {
+          "text": "snowballing",
+          "start": 31.41,
+          "end": 32.56
+        },
+        {
+          "text": ".",
+          "start": 32.56,
+          "end": 32.735
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "The fix is to build a framework , a reusable scaffolding that handles browser setup, dependency injection, and teardown for you. Each test then just grabs what it needs, runs its assertions, and the framework handles the rest.",
+      "start": 33.055,
+      "end": 46.655,
+      "words": [
+        {
+          "text": "The",
+          "start": 33.305,
+          "end": 33.417
+        },
+        {
+          "text": "fix",
+          "start": 33.417,
+          "end": 33.692
+        },
+        {
+          "text": "is",
+          "start": 33.692,
+          "end": 33.805
+        },
+        {
+          "text": "to",
+          "start": 33.805,
+          "end": 33.905
+        },
+        {
+          "text": "build",
+          "start": 33.905,
+          "end": 34.142
+        },
+        {
+          "text": "a",
+          "start": 34.142,
+          "end": 34.205
+        },
+        {
+          "text": "framework",
+          "start": 34.205,
+          "end": 35.093
+        },
+        {
+          "text": ",",
+          "start": 35.093,
+          "end": 35.18
+        },
+        {
+          "text": "a",
+          "start": 35.18,
+          "end": 35.28
+        },
+        {
+          "text": "reusable",
+          "start": 35.28,
+          "end": 35.855
+        },
+        {
+          "text": "scaffolding",
+          "start": 35.855,
+          "end": 36.43
+        },
+        {
+          "text": "that",
+          "start": 36.43,
+          "end": 36.555
+        },
+        {
+          "text": "handles",
+          "start": 36.555,
+          "end": 36.98
+        },
+        {
+          "text": "browser",
+          "start": 36.98,
+          "end": 37.355
+        },
+        {
+          "text": "setup",
+          "start": 37.355,
+          "end": 38.005
+        },
+        {
+          "text": ",",
+          "start": 38.005,
+          "end": 38.105
+        },
+        {
+          "text": "dependency",
+          "start": 38.105,
+          "end": 38.743
+        },
+        {
+          "text": "injection",
+          "start": 38.743,
+          "end": 39.28
+        },
+        {
+          "text": ",",
+          "start": 39.28,
+          "end": 39.318
+        },
+        {
+          "text": "and",
+          "start": 39.318,
+          "end": 39.43
+        },
+        {
+          "text": "teardown",
+          "start": 39.43,
+          "end": 39.83
+        },
+        {
+          "text": "for",
+          "start": 39.83,
+          "end": 39.955
+        },
+        {
+          "text": "you",
+          "start": 39.955,
+          "end": 40.78
+        },
+        {
+          "text": ".",
+          "start": 40.78,
+          "end": 40.943
+        },
+        {
+          "text": "Each",
+          "start": 40.943,
+          "end": 41.243
+        },
+        {
+          "text": "test",
+          "start": 41.243,
+          "end": 41.58
+        },
+        {
+          "text": "then",
+          "start": 41.58,
+          "end": 41.805
+        },
+        {
+          "text": "just",
+          "start": 41.805,
+          "end": 41.98
+        },
+        {
+          "text": "grabs",
+          "start": 41.98,
+          "end": 42.317
+        },
+        {
+          "text": "what",
+          "start": 42.317,
+          "end": 42.442
+        },
+        {
+          "text": "it",
+          "start": 42.442,
+          "end": 42.53
+        },
+        {
+          "text": "needs",
+          "start": 42.53,
+          "end": 43.005
+        },
+        {
+          "text": ",",
+          "start": 43.005,
+          "end": 43.08
+        },
+        {
+          "text": "runs",
+          "start": 43.08,
+          "end": 43.342
+        },
+        {
+          "text": "its",
+          "start": 43.342,
+          "end": 43.467
+        },
+        {
+          "text": "assertions",
+          "start": 43.467,
+          "end": 44.28
+        },
+        {
+          "text": ",",
+          "start": 44.28,
+          "end": 44.355
+        },
+        {
+          "text": "and",
+          "start": 44.355,
+          "end": 44.467
+        },
+        {
+          "text": "the",
+          "start": 44.467,
+          "end": 44.555
+        },
+        {
+          "text": "framework",
+          "start": 44.555,
+          "end": 45.03
+        },
+        {
+          "text": "handles",
+          "start": 45.03,
+          "end": 45.455
+        },
+        {
+          "text": "the",
+          "start": 45.455,
+          "end": 45.555
+        },
+        {
+          "text": "rest",
+          "start": 45.555,
+          "end": 46.455
+        },
+        {
+          "text": ".",
+          "start": 46.455,
+          "end": 46.655
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "This post walks you through building exactly that in .NET 8.0 with Playwright, using dependency injection to wire everything together cleanly.",
+      "start": 46.975,
+      "end": 55.1,
+      "words": [
+        {
+          "text": "This",
+          "start": 47.225,
+          "end": 47.425
+        },
+        {
+          "text": "post",
+          "start": 47.425,
+          "end": 47.775
+        },
+        {
+          "text": "walks",
+          "start": 47.775,
+          "end": 48.037
+        },
+        {
+          "text": "you",
+          "start": 48.037,
+          "end": 48.15
+        },
+        {
+          "text": "through",
+          "start": 48.15,
+          "end": 48.325
+        },
+        {
+          "text": "building",
+          "start": 48.325,
+          "end": 48.7
+        },
+        {
+          "text": "exactly",
+          "start": 48.7,
+          "end": 49.25
+        },
+        {
+          "text": "that",
+          "start": 49.25,
+          "end": 49.425
+        },
+        {
+          "text": "in",
+          "start": 49.425,
+          "end": 49.55
+        },
+        {
+          "text": ".NET",
+          "start": 49.55,
+          "end": 49.775
+        },
+        {
+          "text": "8.0",
+          "start": 49.775,
+          "end": 49.988
+        },
+        {
+          "text": "with",
+          "start": 49.988,
+          "end": 50.15
+        },
+        {
+          "text": "Playwright",
+          "start": 50.15,
+          "end": 50.975
+        },
+        {
+          "text": ",",
+          "start": 50.975,
+          "end": 51.075
+        },
+        {
+          "text": "using",
+          "start": 51.075,
+          "end": 51.375
+        },
+        {
+          "text": "dependency",
+          "start": 51.375,
+          "end": 52.05
+        },
+        {
+          "text": "injection",
+          "start": 52.05,
+          "end": 52.625
+        },
+        {
+          "text": "to",
+          "start": 52.625,
+          "end": 52.75
+        },
+        {
+          "text": "wire",
+          "start": 52.75,
+          "end": 53.063
+        },
+        {
+          "text": "everything",
+          "start": 53.063,
+          "end": 53.575
+        },
+        {
+          "text": "together",
+          "start": 53.575,
+          "end": 53.95
+        },
+        {
+          "text": "cleanly",
+          "start": 53.95,
+          "end": 54.925
+        },
+        {
+          "text": ".",
+          "start": 54.925,
+          "end": 55.1
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "h2",
+      "text": "What We're Building",
+      "start": 55.42,
+      "end": 57.07,
+      "words": [
+        {
+          "text": "What",
+          "start": 55.67,
+          "end": 55.895
+        },
+        {
+          "text": "We're",
+          "start": 55.895,
+          "end": 56.12
+        },
+        {
+          "text": "Building",
+          "start": 56.12,
+          "end": 57.07
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "Think of it like building with LEGO. You don't want to glue individual bricks to each test. You want a frame (the framework) that holds the pieces (services), and each test just snaps into place.",
+      "start": 57.565,
+      "end": 68.715,
+      "words": [
+        {
+          "text": "Think",
+          "start": 57.84,
+          "end": 58.002
+        },
+        {
+          "text": "of",
+          "start": 58.002,
+          "end": 58.09
+        },
+        {
+          "text": "it",
+          "start": 58.09,
+          "end": 58.202
+        },
+        {
+          "text": "like",
+          "start": 58.202,
+          "end": 58.415
+        },
+        {
+          "text": "building",
+          "start": 58.415,
+          "end": 58.752
+        },
+        {
+          "text": "with",
+          "start": 58.752,
+          "end": 58.89
+        },
+        {
+          "text": "LEGO",
+          "start": 58.89,
+          "end": 59.615
+        },
+        {
+          "text": ".",
+          "start": 59.615,
+          "end": 59.74
+        },
+        {
+          "text": "You",
+          "start": 59.74,
+          "end": 59.877
+        },
+        {
+          "text": "don't",
+          "start": 59.877,
+          "end": 60.052
+        },
+        {
+          "text": "want",
+          "start": 60.052,
+          "end": 60.215
+        },
+        {
+          "text": "to",
+          "start": 60.215,
+          "end": 60.315
+        },
+        {
+          "text": "glue",
+          "start": 60.315,
+          "end": 60.565
+        },
+        {
+          "text": "individual",
+          "start": 60.565,
+          "end": 61.09
+        },
+        {
+          "text": "bricks",
+          "start": 61.09,
+          "end": 61.39
+        },
+        {
+          "text": "to",
+          "start": 61.39,
+          "end": 61.49
+        },
+        {
+          "text": "each",
+          "start": 61.49,
+          "end": 61.715
+        },
+        {
+          "text": "test",
+          "start": 61.715,
+          "end": 62.49
+        },
+        {
+          "text": ".",
+          "start": 62.49,
+          "end": 62.59
+        },
+        {
+          "text": "You",
+          "start": 62.59,
+          "end": 62.727
+        },
+        {
+          "text": "want",
+          "start": 62.727,
+          "end": 62.902
+        },
+        {
+          "text": "a",
+          "start": 62.902,
+          "end": 62.977
+        },
+        {
+          "text": "frame",
+          "start": 62.977,
+          "end": 63.44
+        },
+        {
+          "text": "(",
+          "start": 63.44,
+          "end": 63.49
+        },
+        {
+          "text": "the",
+          "start": 63.49,
+          "end": 63.565
+        },
+        {
+          "text": "framework",
+          "start": 63.565,
+          "end": 64.065
+        },
+        {
+          "text": ")",
+          "start": 64.065,
+          "end": 64.102
+        },
+        {
+          "text": "that",
+          "start": 64.102,
+          "end": 64.215
+        },
+        {
+          "text": "holds",
+          "start": 64.215,
+          "end": 64.527
+        },
+        {
+          "text": "the",
+          "start": 64.527,
+          "end": 64.615
+        },
+        {
+          "text": "pieces",
+          "start": 64.615,
+          "end": 65.052
+        },
+        {
+          "text": "(",
+          "start": 65.052,
+          "end": 65.115
+        },
+        {
+          "text": "services",
+          "start": 65.115,
+          "end": 66.015
+        },
+        {
+          "text": ")",
+          "start": 66.015,
+          "end": 66.09
+        },
+        {
+          "text": ",",
+          "start": 66.09,
+          "end": 66.14
+        },
+        {
+          "text": "and",
+          "start": 66.14,
+          "end": 66.265
+        },
+        {
+          "text": "each",
+          "start": 66.265,
+          "end": 66.515
+        },
+        {
+          "text": "test",
+          "start": 66.515,
+          "end": 66.84
+        },
+        {
+          "text": "just",
+          "start": 66.84,
+          "end": 67.04
+        },
+        {
+          "text": "snaps",
+          "start": 67.04,
+          "end": 67.377
+        },
+        {
+          "text": "into",
+          "start": 67.377,
+          "end": 67.59
+        },
+        {
+          "text": "place",
+          "start": 67.59,
+          "end": 68.515
+        },
+        {
+          "text": ".",
+          "start": 68.515,
+          "end": 68.715
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "Here's the structure:",
+      "start": 69.035,
+      "end": 71.01,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 69.285,
+          "end": 69.66
+        },
+        {
+          "text": "the",
+          "start": 69.66,
+          "end": 69.785
+        },
+        {
+          "text": "structure",
+          "start": 69.785,
+          "end": 70.76
+        },
+        {
+          "text": ":",
+          "start": 70.76,
+          "end": 71.01
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "BrowserFactory: Launches and manages browser instances",
+      "start": 71.33,
+      "end": 75.43,
+      "words": [
+        {
+          "text": "BrowserFactory",
+          "start": 71.555,
+          "end": 72.58
+        },
+        {
+          "text": ":",
+          "start": 72.58,
+          "end": 72.693
+        },
+        {
+          "text": "Launches",
+          "start": 72.693,
+          "end": 73.193
+        },
+        {
+          "text": "and",
+          "start": 73.193,
+          "end": 73.305
+        },
+        {
+          "text": "manages",
+          "start": 73.305,
+          "end": 73.78
+        },
+        {
+          "text": "browser",
+          "start": 73.78,
+          "end": 74.18
+        },
+        {
+          "text": "instances",
+          "start": 74.18,
+          "end": 75.43
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "li",
+      "text": "TestService: Orchestrates the test actions (navigate, click, assert)",
+      "start": 75.9,
+      "end": 80.575,
+      "words": [
+        {
+          "text": "TestService",
+          "start": 76.15,
+          "end": 76.975
+        },
+        {
+          "text": ":",
+          "start": 76.975,
+          "end": 77.05
+        },
+        {
+          "text": "Orchestrates",
+          "start": 77.05,
+          "end": 77.637
+        },
+        {
+          "text": "the",
+          "start": 77.637,
+          "end": 77.725
+        },
+        {
+          "text": "test",
+          "start": 77.725,
+          "end": 78.0
+        },
+        {
+          "text": "actions",
+          "start": 78.0,
+          "end": 78.6
+        },
+        {
+          "text": "(",
+          "start": 78.6,
+          "end": 78.675
+        },
+        {
+          "text": "navigate",
+          "start": 78.675,
+          "end": 79.125
+        },
+        {
+          "text": ",",
+          "start": 79.125,
+          "end": 79.175
+        },
+        {
+          "text": "click",
+          "start": 79.175,
+          "end": 79.425
+        },
+        {
+          "text": ",",
+          "start": 79.425,
+          "end": 79.462
+        },
+        {
+          "text": "assert",
+          "start": 79.462,
+          "end": 80.375
+        },
+        {
+          "text": ")",
+          "start": 80.375,
+          "end": 80.575
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "li",
+      "text": "Dependency Injection: Wires the pieces together automatically",
+      "start": 80.895,
+      "end": 85.32,
+      "words": [
+        {
+          "text": "Dependency",
+          "start": 81.145,
+          "end": 81.795
+        },
+        {
+          "text": "Injection",
+          "start": 81.795,
+          "end": 82.645
+        },
+        {
+          "text": ":",
+          "start": 82.645,
+          "end": 82.758
+        },
+        {
+          "text": "Wires",
+          "start": 82.758,
+          "end": 83.108
+        },
+        {
+          "text": "the",
+          "start": 83.108,
+          "end": 83.195
+        },
+        {
+          "text": "pieces",
+          "start": 83.195,
+          "end": 83.62
+        },
+        {
+          "text": "together",
+          "start": 83.62,
+          "end": 84.033
+        },
+        {
+          "text": "automatically",
+          "start": 84.033,
+          "end": 85.32
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "NUnit + Allure: Runs the tests and generates beautiful reports",
+      "start": 85.84,
+      "end": 90.515,
+      "words": [
+        {
+          "text": "NUnit",
+          "start": 86.115,
+          "end": 86.515
+        },
+        {
+          "text": "+",
+          "start": 86.515,
+          "end": 86.79
+        },
+        {
+          "text": "Allure",
+          "start": 86.79,
+          "end": 87.465
+        },
+        {
+          "text": ":",
+          "start": 87.465,
+          "end": 87.565
+        },
+        {
+          "text": "Runs",
+          "start": 87.565,
+          "end": 87.853
+        },
+        {
+          "text": "the",
+          "start": 87.853,
+          "end": 87.94
+        },
+        {
+          "text": "tests",
+          "start": 87.94,
+          "end": 88.353
+        },
+        {
+          "text": "and",
+          "start": 88.353,
+          "end": 88.465
+        },
+        {
+          "text": "generates",
+          "start": 88.465,
+          "end": 88.99
+        },
+        {
+          "text": "beautiful",
+          "start": 88.99,
+          "end": 89.44
+        },
+        {
+          "text": "reports",
+          "start": 89.44,
+          "end": 90.515
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Parallel Testing: Multiple tests run at once without conflicts",
+      "start": 91.01,
+      "end": 95.385,
+      "words": [
+        {
+          "text": "Parallel",
+          "start": 91.26,
+          "end": 91.685
+        },
+        {
+          "text": "Testing",
+          "start": 91.685,
+          "end": 92.435
+        },
+        {
+          "text": ":",
+          "start": 92.435,
+          "end": 92.547
+        },
+        {
+          "text": "Multiple",
+          "start": 92.547,
+          "end": 93.035
+        },
+        {
+          "text": "tests",
+          "start": 93.035,
+          "end": 93.435
+        },
+        {
+          "text": "run",
+          "start": 93.435,
+          "end": 93.598
+        },
+        {
+          "text": "at",
+          "start": 93.598,
+          "end": 93.685
+        },
+        {
+          "text": "once",
+          "start": 93.685,
+          "end": 93.973
+        },
+        {
+          "text": "without",
+          "start": 93.973,
+          "end": 94.285
+        },
+        {
+          "text": "conflicts",
+          "start": 94.285,
+          "end": 95.385
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "Let's build it.",
+      "start": 95.855,
+      "end": 97.555,
+      "words": [
+        {
+          "text": "Let's",
+          "start": 96.105,
+          "end": 96.38
+        },
+        {
+          "text": "build",
+          "start": 96.38,
+          "end": 96.742
+        },
+        {
+          "text": "it",
+          "start": 96.742,
+          "end": 97.355
+        },
+        {
+          "text": ".",
+          "start": 97.355,
+          "end": 97.555
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h2",
+      "text": "Step 1: Create the .NET Project",
+      "start": 97.875,
+      "end": 100.325,
+      "words": [
+        {
+          "text": "Step",
+          "start": 98.125,
+          "end": 98.4
+        },
+        {
+          "text": "1",
+          "start": 98.4,
+          "end": 98.675
+        },
+        {
+          "text": ":",
+          "start": 98.675,
+          "end": 98.725
+        },
+        {
+          "text": "Create",
+          "start": 98.725,
+          "end": 99.063
+        },
+        {
+          "text": "the",
+          "start": 99.063,
+          "end": 99.15
+        },
+        {
+          "text": ".NET",
+          "start": 99.15,
+          "end": 99.375
+        },
+        {
+          "text": "Project",
+          "start": 99.375,
+          "end": 100.325
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "Open your terminal and run these commands to scaffold a new class library:",
+      "start": 100.82,
+      "end": 105.695,
+      "words": [
+        {
+          "text": "Open",
+          "start": 101.07,
+          "end": 101.345
+        },
+        {
+          "text": "your",
+          "start": 101.345,
+          "end": 101.52
+        },
+        {
+          "text": "terminal",
+          "start": 101.52,
+          "end": 102.207
+        },
+        {
+          "text": "and",
+          "start": 102.207,
+          "end": 102.345
+        },
+        {
+          "text": "run",
+          "start": 102.345,
+          "end": 102.595
+        },
+        {
+          "text": "these",
+          "start": 102.595,
+          "end": 102.845
+        },
+        {
+          "text": "commands",
+          "start": 102.845,
+          "end": 103.37
+        },
+        {
+          "text": "to",
+          "start": 103.37,
+          "end": 103.495
+        },
+        {
+          "text": "scaffold",
+          "start": 103.495,
+          "end": 103.932
+        },
+        {
+          "text": "a",
+          "start": 103.932,
+          "end": 103.995
+        },
+        {
+          "text": "new",
+          "start": 103.995,
+          "end": 104.195
+        },
+        {
+          "text": "class",
+          "start": 104.195,
+          "end": 104.545
+        },
+        {
+          "text": "library",
+          "start": 104.545,
+          "end": 105.52
+        },
+        {
+          "text": ":",
+          "start": 105.52,
+          "end": 105.695
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "This creates a class library , the foundation for your reusable framework.",
+      "start": 106.015,
+      "end": 110.965,
+      "words": [
+        {
+          "text": "This",
+          "start": 106.265,
+          "end": 106.465
+        },
+        {
+          "text": "creates",
+          "start": 106.465,
+          "end": 106.852
+        },
+        {
+          "text": "a",
+          "start": 106.852,
+          "end": 106.915
+        },
+        {
+          "text": "class",
+          "start": 106.915,
+          "end": 107.265
+        },
+        {
+          "text": "library",
+          "start": 107.265,
+          "end": 108.027
+        },
+        {
+          "text": ",",
+          "start": 108.027,
+          "end": 108.102
+        },
+        {
+          "text": "the",
+          "start": 108.102,
+          "end": 108.19
+        },
+        {
+          "text": "foundation",
+          "start": 108.19,
+          "end": 108.815
+        },
+        {
+          "text": "for",
+          "start": 108.815,
+          "end": 108.94
+        },
+        {
+          "text": "your",
+          "start": 108.94,
+          "end": 109.14
+        },
+        {
+          "text": "reusable",
+          "start": 109.14,
+          "end": 109.715
+        },
+        {
+          "text": "framework",
+          "start": 109.715,
+          "end": 110.765
+        },
+        {
+          "text": ".",
+          "start": 110.765,
+          "end": 110.965
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "h2",
+      "text": "Step 2: Add the Dependencies",
+      "start": 111.285,
+      "end": 113.76,
+      "words": [
+        {
+          "text": "Step",
+          "start": 111.535,
+          "end": 111.822
+        },
+        {
+          "text": "2",
+          "start": 111.822,
+          "end": 112.11
+        },
+        {
+          "text": ":",
+          "start": 112.11,
+          "end": 112.16
+        },
+        {
+          "text": "Add",
+          "start": 112.16,
+          "end": 112.347
+        },
+        {
+          "text": "the",
+          "start": 112.347,
+          "end": 112.422
+        },
+        {
+          "text": "Dependencies",
+          "start": 112.422,
+          "end": 113.76
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "Now install the packages you'll need: Playwright, dependency injection, NUnit for testing, and Allure for pretty reports.",
+      "start": 114.205,
+      "end": 121.73,
+      "words": [
+        {
+          "text": "Now",
+          "start": 114.505,
+          "end": 114.705
+        },
+        {
+          "text": "install",
+          "start": 114.705,
+          "end": 115.092
+        },
+        {
+          "text": "the",
+          "start": 115.092,
+          "end": 115.18
+        },
+        {
+          "text": "packages",
+          "start": 115.18,
+          "end": 115.68
+        },
+        {
+          "text": "you'll",
+          "start": 115.68,
+          "end": 115.83
+        },
+        {
+          "text": "need",
+          "start": 115.83,
+          "end": 116.405
+        },
+        {
+          "text": ":",
+          "start": 116.405,
+          "end": 116.543
+        },
+        {
+          "text": "Playwright",
+          "start": 116.543,
+          "end": 117.03
+        },
+        {
+          "text": ",",
+          "start": 117.03,
+          "end": 117.08
+        },
+        {
+          "text": "dependency",
+          "start": 117.08,
+          "end": 117.73
+        },
+        {
+          "text": "injection",
+          "start": 117.73,
+          "end": 118.355
+        },
+        {
+          "text": ",",
+          "start": 118.355,
+          "end": 118.43
+        },
+        {
+          "text": "NUnit",
+          "start": 118.43,
+          "end": 118.855
+        },
+        {
+          "text": "for",
+          "start": 118.855,
+          "end": 118.98
+        },
+        {
+          "text": "testing",
+          "start": 118.98,
+          "end": 119.53
+        },
+        {
+          "text": ",",
+          "start": 119.53,
+          "end": 119.605
+        },
+        {
+          "text": "and",
+          "start": 119.605,
+          "end": 119.73
+        },
+        {
+          "text": "Allure",
+          "start": 119.73,
+          "end": 120.055
+        },
+        {
+          "text": "for",
+          "start": 120.055,
+          "end": 120.18
+        },
+        {
+          "text": "pretty",
+          "start": 120.18,
+          "end": 120.48
+        },
+        {
+          "text": "reports",
+          "start": 120.48,
+          "end": 121.555
+        },
+        {
+          "text": ".",
+          "start": 121.555,
+          "end": 121.73
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h2",
+      "text": "Step 3: Wire Everything Together with Dependency Injection",
+      "start": 122.05,
+      "end": 126.075,
+      "words": [
+        {
+          "text": "Step",
+          "start": 122.3,
+          "end": 122.55
+        },
+        {
+          "text": "3",
+          "start": 122.55,
+          "end": 122.925
+        },
+        {
+          "text": ":",
+          "start": 122.925,
+          "end": 123.0
+        },
+        {
+          "text": "Wire",
+          "start": 123.0,
+          "end": 123.275
+        },
+        {
+          "text": "Everything",
+          "start": 123.275,
+          "end": 123.7
+        },
+        {
+          "text": "Together",
+          "start": 123.7,
+          "end": 124.1
+        },
+        {
+          "text": "with",
+          "start": 124.1,
+          "end": 124.25
+        },
+        {
+          "text": "Dependency",
+          "start": 124.25,
+          "end": 124.95
+        },
+        {
+          "text": "Injection",
+          "start": 124.95,
+          "end": 126.075
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "Create a Startup class that tells the DI container how to build the pieces. When a test asks for a browser, the container knows to use BrowserFactory. When a test asks for a test service, the container wires in the factory automatically. This is where the \"framework\" magic happens.",
+      "start": 126.52,
+      "end": 143.295,
+      "words": [
+        {
+          "text": "Create",
+          "start": 126.77,
+          "end": 127.082
+        },
+        {
+          "text": "a",
+          "start": 127.082,
+          "end": 127.145
+        },
+        {
+          "text": "Startup",
+          "start": 127.145,
+          "end": 127.62
+        },
+        {
+          "text": "class",
+          "start": 127.62,
+          "end": 127.97
+        },
+        {
+          "text": "that",
+          "start": 127.97,
+          "end": 128.095
+        },
+        {
+          "text": "tells",
+          "start": 128.095,
+          "end": 128.395
+        },
+        {
+          "text": "the",
+          "start": 128.395,
+          "end": 128.495
+        },
+        {
+          "text": "DI",
+          "start": 128.495,
+          "end": 128.845
+        },
+        {
+          "text": "container",
+          "start": 128.845,
+          "end": 129.37
+        },
+        {
+          "text": "how",
+          "start": 129.37,
+          "end": 129.545
+        },
+        {
+          "text": "to",
+          "start": 129.545,
+          "end": 129.645
+        },
+        {
+          "text": "build",
+          "start": 129.645,
+          "end": 129.882
+        },
+        {
+          "text": "the",
+          "start": 129.882,
+          "end": 129.97
+        },
+        {
+          "text": "pieces",
+          "start": 129.97,
+          "end": 131.02
+        },
+        {
+          "text": ".",
+          "start": 131.02,
+          "end": 131.12
+        },
+        {
+          "text": "When",
+          "start": 131.12,
+          "end": 131.257
+        },
+        {
+          "text": "a",
+          "start": 131.257,
+          "end": 131.32
+        },
+        {
+          "text": "test",
+          "start": 131.32,
+          "end": 131.67
+        },
+        {
+          "text": "asks",
+          "start": 131.67,
+          "end": 132.02
+        },
+        {
+          "text": "for",
+          "start": 132.02,
+          "end": 132.132
+        },
+        {
+          "text": "a",
+          "start": 132.132,
+          "end": 132.195
+        },
+        {
+          "text": "browser",
+          "start": 132.195,
+          "end": 132.745
+        },
+        {
+          "text": ",",
+          "start": 132.745,
+          "end": 132.82
+        },
+        {
+          "text": "the",
+          "start": 132.82,
+          "end": 132.92
+        },
+        {
+          "text": "container",
+          "start": 132.92,
+          "end": 133.42
+        },
+        {
+          "text": "knows",
+          "start": 133.42,
+          "end": 133.745
+        },
+        {
+          "text": "to",
+          "start": 133.745,
+          "end": 133.845
+        },
+        {
+          "text": "use",
+          "start": 133.845,
+          "end": 134.07
+        },
+        {
+          "text": "BrowserFactory",
+          "start": 134.07,
+          "end": 135.345
+        },
+        {
+          "text": ".",
+          "start": 135.345,
+          "end": 135.445
+        },
+        {
+          "text": "When",
+          "start": 135.445,
+          "end": 135.582
+        },
+        {
+          "text": "a",
+          "start": 135.582,
+          "end": 135.645
+        },
+        {
+          "text": "test",
+          "start": 135.645,
+          "end": 135.995
+        },
+        {
+          "text": "asks",
+          "start": 135.995,
+          "end": 136.345
+        },
+        {
+          "text": "for",
+          "start": 136.345,
+          "end": 136.457
+        },
+        {
+          "text": "a",
+          "start": 136.457,
+          "end": 136.52
+        },
+        {
+          "text": "test",
+          "start": 136.52,
+          "end": 136.795
+        },
+        {
+          "text": "service",
+          "start": 136.795,
+          "end": 137.42
+        },
+        {
+          "text": ",",
+          "start": 137.42,
+          "end": 137.495
+        },
+        {
+          "text": "the",
+          "start": 137.495,
+          "end": 137.595
+        },
+        {
+          "text": "container",
+          "start": 137.595,
+          "end": 138.095
+        },
+        {
+          "text": "wires",
+          "start": 138.095,
+          "end": 138.457
+        },
+        {
+          "text": "in",
+          "start": 138.457,
+          "end": 138.532
+        },
+        {
+          "text": "the",
+          "start": 138.532,
+          "end": 138.62
+        },
+        {
+          "text": "factory",
+          "start": 138.62,
+          "end": 139.095
+        },
+        {
+          "text": "automatically",
+          "start": 139.095,
+          "end": 140.32
+        },
+        {
+          "text": ".",
+          "start": 140.32,
+          "end": 140.433
+        },
+        {
+          "text": "This",
+          "start": 140.433,
+          "end": 140.67
+        },
+        {
+          "text": "is",
+          "start": 140.67,
+          "end": 140.82
+        },
+        {
+          "text": "where",
+          "start": 140.82,
+          "end": 141.02
+        },
+        {
+          "text": "the",
+          "start": 141.02,
+          "end": 141.145
+        },
+        {
+          "text": "\"",
+          "start": 141.145,
+          "end": 141.22
+        },
+        {
+          "text": "framework",
+          "start": 141.22,
+          "end": 141.745
+        },
+        {
+          "text": "\"",
+          "start": 141.745,
+          "end": 141.795
+        },
+        {
+          "text": "magic",
+          "start": 141.795,
+          "end": 142.095
+        },
+        {
+          "text": "happens",
+          "start": 142.095,
+          "end": 143.095
+        },
+        {
+          "text": ".",
+          "start": 143.095,
+          "end": 143.295
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h2",
+      "text": "Step 4: Build the BrowserFactory",
+      "start": 143.615,
+      "end": 146.19,
+      "words": [
+        {
+          "text": "Step",
+          "start": 143.865,
+          "end": 144.14
+        },
+        {
+          "text": "4",
+          "start": 144.14,
+          "end": 144.415
+        },
+        {
+          "text": ":",
+          "start": 144.415,
+          "end": 144.465
+        },
+        {
+          "text": "Build",
+          "start": 144.465,
+          "end": 144.702
+        },
+        {
+          "text": "the",
+          "start": 144.702,
+          "end": 144.79
+        },
+        {
+          "text": "BrowserFactory",
+          "start": 144.79,
+          "end": 146.19
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "This class is your browser machine. Every time a test needs a browser, it asks the factory, and the factory launches one. Playwright initialization, launch options, headless settings , all live here. Change it once, and every test benefits.",
+      "start": 146.635,
+      "end": 160.385,
+      "words": [
+        {
+          "text": "This",
+          "start": 146.885,
+          "end": 147.06
+        },
+        {
+          "text": "class",
+          "start": 147.06,
+          "end": 147.397
+        },
+        {
+          "text": "is",
+          "start": 147.397,
+          "end": 147.472
+        },
+        {
+          "text": "your",
+          "start": 147.472,
+          "end": 147.585
+        },
+        {
+          "text": "browser",
+          "start": 147.585,
+          "end": 147.922
+        },
+        {
+          "text": "machine",
+          "start": 147.922,
+          "end": 148.66
+        },
+        {
+          "text": ".",
+          "start": 148.66,
+          "end": 148.772
+        },
+        {
+          "text": "Every",
+          "start": 148.772,
+          "end": 149.06
+        },
+        {
+          "text": "time",
+          "start": 149.06,
+          "end": 149.297
+        },
+        {
+          "text": "a",
+          "start": 149.297,
+          "end": 149.36
+        },
+        {
+          "text": "test",
+          "start": 149.36,
+          "end": 149.71
+        },
+        {
+          "text": "needs",
+          "start": 149.71,
+          "end": 149.922
+        },
+        {
+          "text": "a",
+          "start": 149.922,
+          "end": 149.985
+        },
+        {
+          "text": "browser",
+          "start": 149.985,
+          "end": 150.51
+        },
+        {
+          "text": ",",
+          "start": 150.51,
+          "end": 150.585
+        },
+        {
+          "text": "it",
+          "start": 150.585,
+          "end": 150.71
+        },
+        {
+          "text": "asks",
+          "start": 150.71,
+          "end": 151.047
+        },
+        {
+          "text": "the",
+          "start": 151.047,
+          "end": 151.135
+        },
+        {
+          "text": "factory",
+          "start": 151.135,
+          "end": 151.61
+        },
+        {
+          "text": ",",
+          "start": 151.61,
+          "end": 151.672
+        },
+        {
+          "text": "and",
+          "start": 151.672,
+          "end": 151.772
+        },
+        {
+          "text": "the",
+          "start": 151.772,
+          "end": 151.86
+        },
+        {
+          "text": "factory",
+          "start": 151.86,
+          "end": 152.285
+        },
+        {
+          "text": "launches",
+          "start": 152.285,
+          "end": 152.71
+        },
+        {
+          "text": "one",
+          "start": 152.71,
+          "end": 153.46
+        },
+        {
+          "text": ".",
+          "start": 153.46,
+          "end": 153.597
+        },
+        {
+          "text": "Playwright",
+          "start": 153.597,
+          "end": 153.997
+        },
+        {
+          "text": "initialization",
+          "start": 153.997,
+          "end": 154.885
+        },
+        {
+          "text": ",",
+          "start": 154.885,
+          "end": 154.96
+        },
+        {
+          "text": "launch",
+          "start": 154.96,
+          "end": 155.26
+        },
+        {
+          "text": "options",
+          "start": 155.26,
+          "end": 155.735
+        },
+        {
+          "text": ",",
+          "start": 155.735,
+          "end": 155.785
+        },
+        {
+          "text": "headless",
+          "start": 155.785,
+          "end": 156.16
+        },
+        {
+          "text": "settings",
+          "start": 156.16,
+          "end": 156.597
+        },
+        {
+          "text": ",",
+          "start": 156.597,
+          "end": 156.647
+        },
+        {
+          "text": "all",
+          "start": 156.647,
+          "end": 156.835
+        },
+        {
+          "text": "live",
+          "start": 156.835,
+          "end": 157.01
+        },
+        {
+          "text": "here",
+          "start": 157.01,
+          "end": 157.635
+        },
+        {
+          "text": ".",
+          "start": 157.635,
+          "end": 157.747
+        },
+        {
+          "text": "Change",
+          "start": 157.747,
+          "end": 158.047
+        },
+        {
+          "text": "it",
+          "start": 158.047,
+          "end": 158.135
+        },
+        {
+          "text": "once",
+          "start": 158.135,
+          "end": 158.435
+        },
+        {
+          "text": ",",
+          "start": 158.435,
+          "end": 158.472
+        },
+        {
+          "text": "and",
+          "start": 158.472,
+          "end": 158.585
+        },
+        {
+          "text": "every",
+          "start": 158.585,
+          "end": 158.86
+        },
+        {
+          "text": "test",
+          "start": 158.86,
+          "end": 159.135
+        },
+        {
+          "text": "benefits",
+          "start": 159.135,
+          "end": 160.21
+        },
+        {
+          "text": ".",
+          "start": 160.21,
+          "end": 160.385
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h2",
+      "text": "Step 5: Create the TestService",
+      "start": 160.705,
+      "end": 163.255,
+      "words": [
+        {
+          "text": "Step",
+          "start": 160.955,
+          "end": 161.205
+        },
+        {
+          "text": "5",
+          "start": 161.205,
+          "end": 161.555
+        },
+        {
+          "text": ":",
+          "start": 161.555,
+          "end": 161.605
+        },
+        {
+          "text": "Create",
+          "start": 161.605,
+          "end": 161.917
+        },
+        {
+          "text": "the",
+          "start": 161.917,
+          "end": 162.005
+        },
+        {
+          "text": "TestService",
+          "start": 162.005,
+          "end": 163.255
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "This is where your actual test logic runs. It doesn't worry about launching browsers or managing contexts , the factory handles that. It just orchestrates the actions: \"Go to the URL, click this, assert that.\" Clean separation of concerns.",
+      "start": 163.75,
+      "end": 178.3,
+      "words": [
+        {
+          "text": "This",
+          "start": 164.0,
+          "end": 164.175
+        },
+        {
+          "text": "is",
+          "start": 164.175,
+          "end": 164.3
+        },
+        {
+          "text": "where",
+          "start": 164.3,
+          "end": 164.475
+        },
+        {
+          "text": "your",
+          "start": 164.475,
+          "end": 164.675
+        },
+        {
+          "text": "actual",
+          "start": 164.675,
+          "end": 165.1
+        },
+        {
+          "text": "test",
+          "start": 165.1,
+          "end": 165.45
+        },
+        {
+          "text": "logic",
+          "start": 165.45,
+          "end": 165.775
+        },
+        {
+          "text": "runs",
+          "start": 165.775,
+          "end": 166.55
+        },
+        {
+          "text": ".",
+          "start": 166.55,
+          "end": 166.625
+        },
+        {
+          "text": "It",
+          "start": 166.625,
+          "end": 166.738
+        },
+        {
+          "text": "doesn't",
+          "start": 166.738,
+          "end": 167.0
+        },
+        {
+          "text": "worry",
+          "start": 167.0,
+          "end": 167.263
+        },
+        {
+          "text": "about",
+          "start": 167.263,
+          "end": 167.55
+        },
+        {
+          "text": "launching",
+          "start": 167.55,
+          "end": 167.975
+        },
+        {
+          "text": "browsers",
+          "start": 167.975,
+          "end": 168.5
+        },
+        {
+          "text": "or",
+          "start": 168.5,
+          "end": 168.65
+        },
+        {
+          "text": "managing",
+          "start": 168.65,
+          "end": 169.075
+        },
+        {
+          "text": "contexts",
+          "start": 169.075,
+          "end": 169.713
+        },
+        {
+          "text": ",",
+          "start": 169.713,
+          "end": 169.763
+        },
+        {
+          "text": "the",
+          "start": 169.763,
+          "end": 169.85
+        },
+        {
+          "text": "factory",
+          "start": 169.85,
+          "end": 170.25
+        },
+        {
+          "text": "handles",
+          "start": 170.25,
+          "end": 170.675
+        },
+        {
+          "text": "that",
+          "start": 170.675,
+          "end": 171.4
+        },
+        {
+          "text": ".",
+          "start": 171.4,
+          "end": 171.5
+        },
+        {
+          "text": "It",
+          "start": 171.5,
+          "end": 171.65
+        },
+        {
+          "text": "just",
+          "start": 171.65,
+          "end": 171.875
+        },
+        {
+          "text": "orchestrates",
+          "start": 171.875,
+          "end": 172.437
+        },
+        {
+          "text": "the",
+          "start": 172.437,
+          "end": 172.525
+        },
+        {
+          "text": "actions",
+          "start": 172.525,
+          "end": 173.3
+        },
+        {
+          "text": ":",
+          "start": 173.3,
+          "end": 173.375
+        },
+        {
+          "text": "\"",
+          "start": 173.375,
+          "end": 173.45
+        },
+        {
+          "text": "Go",
+          "start": 173.45,
+          "end": 173.625
+        },
+        {
+          "text": "to",
+          "start": 173.625,
+          "end": 173.713
+        },
+        {
+          "text": "the",
+          "start": 173.713,
+          "end": 173.8
+        },
+        {
+          "text": "URL",
+          "start": 173.8,
+          "end": 174.35
+        },
+        {
+          "text": ",",
+          "start": 174.35,
+          "end": 174.4
+        },
+        {
+          "text": "click",
+          "start": 174.4,
+          "end": 174.65
+        },
+        {
+          "text": "this",
+          "start": 174.65,
+          "end": 174.875
+        },
+        {
+          "text": ",",
+          "start": 174.875,
+          "end": 174.912
+        },
+        {
+          "text": "assert",
+          "start": 174.912,
+          "end": 175.25
+        },
+        {
+          "text": "that",
+          "start": 175.25,
+          "end": 175.925
+        },
+        {
+          "text": ".",
+          "start": 175.925,
+          "end": 176.0
+        },
+        {
+          "text": "\"",
+          "start": 176.0,
+          "end": 176.05
+        },
+        {
+          "text": "Clean",
+          "start": 176.05,
+          "end": 176.35
+        },
+        {
+          "text": "separation",
+          "start": 176.35,
+          "end": 176.888
+        },
+        {
+          "text": "of",
+          "start": 176.888,
+          "end": 176.975
+        },
+        {
+          "text": "concerns",
+          "start": 176.975,
+          "end": 178.1
+        },
+        {
+          "text": ".",
+          "start": 178.1,
+          "end": 178.3
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "h2",
+      "text": "Step 6: Write Your First Test",
+      "start": 178.62,
+      "end": 180.995,
+      "words": [
+        {
+          "text": "Step",
+          "start": 178.87,
+          "end": 179.145
+        },
+        {
+          "text": "6",
+          "start": 179.145,
+          "end": 179.47
+        },
+        {
+          "text": ":",
+          "start": 179.47,
+          "end": 179.52
+        },
+        {
+          "text": "Write",
+          "start": 179.52,
+          "end": 179.757
+        },
+        {
+          "text": "Your",
+          "start": 179.757,
+          "end": 179.895
+        },
+        {
+          "text": "First",
+          "start": 179.895,
+          "end": 180.22
+        },
+        {
+          "text": "Test",
+          "start": 180.22,
+          "end": 180.995
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "Now the fun part. You use NUnit to write actual test methods. Each test method is simple: grab the services you need from the DI container, run your test, and NUnit + Allure handle the reporting automatically.",
+      "start": 181.565,
+      "end": 194.865,
+      "words": [
+        {
+          "text": "Now",
+          "start": 181.865,
+          "end": 182.053
+        },
+        {
+          "text": "the",
+          "start": 182.053,
+          "end": 182.14
+        },
+        {
+          "text": "fun",
+          "start": 182.14,
+          "end": 182.365
+        },
+        {
+          "text": "part",
+          "start": 182.365,
+          "end": 183.09
+        },
+        {
+          "text": ".",
+          "start": 183.09,
+          "end": 183.19
+        },
+        {
+          "text": "You",
+          "start": 183.19,
+          "end": 183.327
+        },
+        {
+          "text": "use",
+          "start": 183.327,
+          "end": 183.49
+        },
+        {
+          "text": "NUnit",
+          "start": 183.49,
+          "end": 183.915
+        },
+        {
+          "text": "to",
+          "start": 183.915,
+          "end": 184.015
+        },
+        {
+          "text": "write",
+          "start": 184.015,
+          "end": 184.265
+        },
+        {
+          "text": "actual",
+          "start": 184.265,
+          "end": 184.69
+        },
+        {
+          "text": "test",
+          "start": 184.69,
+          "end": 184.965
+        },
+        {
+          "text": "methods",
+          "start": 184.965,
+          "end": 185.94
+        },
+        {
+          "text": ".",
+          "start": 185.94,
+          "end": 186.053
+        },
+        {
+          "text": "Each",
+          "start": 186.053,
+          "end": 186.315
+        },
+        {
+          "text": "test",
+          "start": 186.315,
+          "end": 186.577
+        },
+        {
+          "text": "method",
+          "start": 186.577,
+          "end": 186.89
+        },
+        {
+          "text": "is",
+          "start": 186.89,
+          "end": 187.027
+        },
+        {
+          "text": "simple",
+          "start": 187.027,
+          "end": 187.765
+        },
+        {
+          "text": ":",
+          "start": 187.765,
+          "end": 187.865
+        },
+        {
+          "text": "grab",
+          "start": 187.865,
+          "end": 188.127
+        },
+        {
+          "text": "the",
+          "start": 188.127,
+          "end": 188.228
+        },
+        {
+          "text": "services",
+          "start": 188.228,
+          "end": 188.74
+        },
+        {
+          "text": "you",
+          "start": 188.74,
+          "end": 188.865
+        },
+        {
+          "text": "need",
+          "start": 188.865,
+          "end": 189.115
+        },
+        {
+          "text": "from",
+          "start": 189.115,
+          "end": 189.252
+        },
+        {
+          "text": "the",
+          "start": 189.252,
+          "end": 189.34
+        },
+        {
+          "text": "DI",
+          "start": 189.34,
+          "end": 189.69
+        },
+        {
+          "text": "container",
+          "start": 189.69,
+          "end": 190.24
+        },
+        {
+          "text": ",",
+          "start": 190.24,
+          "end": 190.315
+        },
+        {
+          "text": "run",
+          "start": 190.315,
+          "end": 190.515
+        },
+        {
+          "text": "your",
+          "start": 190.515,
+          "end": 190.715
+        },
+        {
+          "text": "test",
+          "start": 190.715,
+          "end": 191.19
+        },
+        {
+          "text": ",",
+          "start": 191.19,
+          "end": 191.265
+        },
+        {
+          "text": "and",
+          "start": 191.265,
+          "end": 191.39
+        },
+        {
+          "text": "NUnit",
+          "start": 191.39,
+          "end": 191.815
+        },
+        {
+          "text": "+",
+          "start": 191.815,
+          "end": 192.14
+        },
+        {
+          "text": "Allure",
+          "start": 192.14,
+          "end": 192.465
+        },
+        {
+          "text": "handle",
+          "start": 192.465,
+          "end": 192.828
+        },
+        {
+          "text": "the",
+          "start": 192.828,
+          "end": 192.915
+        },
+        {
+          "text": "reporting",
+          "start": 192.915,
+          "end": 193.465
+        },
+        {
+          "text": "automatically",
+          "start": 193.465,
+          "end": 194.665
+        },
+        {
+          "text": ".",
+          "start": 194.665,
+          "end": 194.865
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h2",
+      "text": "Extra Features: You Get All This Too",
+      "start": 195.185,
+      "end": 197.76,
+      "words": [
+        {
+          "text": "Extra",
+          "start": 195.435,
+          "end": 195.81
+        },
+        {
+          "text": "Features",
+          "start": 195.81,
+          "end": 196.285
+        },
+        {
+          "text": ":",
+          "start": 196.285,
+          "end": 196.335
+        },
+        {
+          "text": "You",
+          "start": 196.335,
+          "end": 196.473
+        },
+        {
+          "text": "Get",
+          "start": 196.473,
+          "end": 196.647
+        },
+        {
+          "text": "All",
+          "start": 196.647,
+          "end": 196.798
+        },
+        {
+          "text": "This",
+          "start": 196.798,
+          "end": 196.997
+        },
+        {
+          "text": "Too",
+          "start": 196.997,
+          "end": 197.76
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "h3",
+      "text": "Run Tests in Parallel",
+      "start": 198.18,
+      "end": 200.205,
+      "words": [
+        {
+          "text": "Run",
+          "start": 198.455,
+          "end": 198.693
+        },
+        {
+          "text": "Tests",
+          "start": 198.693,
+          "end": 199.13
+        },
+        {
+          "text": "in",
+          "start": 199.13,
+          "end": 199.28
+        },
+        {
+          "text": "Parallel",
+          "start": 199.28,
+          "end": 200.205
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "By default, NUnit runs tests one after another. If you have 50 tests and each takes 3 seconds, that's 150 seconds. With parallel testing, multiple tests run simultaneously (each with its own browser context), and the total time drops to about 15 seconds. Add the Parallelizable attribute to your test classes:",
+      "start": 200.675,
+      "end": 221.0,
+      "words": [
+        {
+          "text": "By",
+          "start": 200.925,
+          "end": 201.075
+        },
+        {
+          "text": "default",
+          "start": 201.075,
+          "end": 201.6
+        },
+        {
+          "text": ",",
+          "start": 201.6,
+          "end": 201.675
+        },
+        {
+          "text": "NUnit",
+          "start": 201.675,
+          "end": 202.1
+        },
+        {
+          "text": "runs",
+          "start": 202.1,
+          "end": 202.375
+        },
+        {
+          "text": "tests",
+          "start": 202.375,
+          "end": 202.75
+        },
+        {
+          "text": "one",
+          "start": 202.75,
+          "end": 202.95
+        },
+        {
+          "text": "after",
+          "start": 202.95,
+          "end": 203.187
+        },
+        {
+          "text": "another",
+          "start": 203.187,
+          "end": 203.975
+        },
+        {
+          "text": ".",
+          "start": 203.975,
+          "end": 204.075
+        },
+        {
+          "text": "If",
+          "start": 204.075,
+          "end": 204.212
+        },
+        {
+          "text": "you",
+          "start": 204.212,
+          "end": 204.312
+        },
+        {
+          "text": "have",
+          "start": 204.312,
+          "end": 204.5
+        },
+        {
+          "text": "50",
+          "start": 204.5,
+          "end": 204.8
+        },
+        {
+          "text": "tests",
+          "start": 204.8,
+          "end": 205.237
+        },
+        {
+          "text": "and",
+          "start": 205.237,
+          "end": 205.35
+        },
+        {
+          "text": "each",
+          "start": 205.35,
+          "end": 205.575
+        },
+        {
+          "text": "takes",
+          "start": 205.575,
+          "end": 205.85
+        },
+        {
+          "text": "3",
+          "start": 205.85,
+          "end": 206.1
+        },
+        {
+          "text": "seconds",
+          "start": 206.1,
+          "end": 206.575
+        },
+        {
+          "text": ",",
+          "start": 206.575,
+          "end": 206.65
+        },
+        {
+          "text": "that's",
+          "start": 206.65,
+          "end": 206.888
+        },
+        {
+          "text": "150",
+          "start": 206.888,
+          "end": 207.6
+        },
+        {
+          "text": "seconds",
+          "start": 207.6,
+          "end": 208.5
+        },
+        {
+          "text": ".",
+          "start": 208.5,
+          "end": 208.6
+        },
+        {
+          "text": "With",
+          "start": 208.6,
+          "end": 208.8
+        },
+        {
+          "text": "parallel",
+          "start": 208.8,
+          "end": 209.25
+        },
+        {
+          "text": "testing",
+          "start": 209.25,
+          "end": 209.75
+        },
+        {
+          "text": ",",
+          "start": 209.75,
+          "end": 209.825
+        },
+        {
+          "text": "multiple",
+          "start": 209.825,
+          "end": 210.3
+        },
+        {
+          "text": "tests",
+          "start": 210.3,
+          "end": 210.7
+        },
+        {
+          "text": "run",
+          "start": 210.7,
+          "end": 210.925
+        },
+        {
+          "text": "simultaneously",
+          "start": 210.925,
+          "end": 212.037
+        },
+        {
+          "text": "(",
+          "start": 212.037,
+          "end": 212.125
+        },
+        {
+          "text": "each",
+          "start": 212.125,
+          "end": 212.362
+        },
+        {
+          "text": "with",
+          "start": 212.362,
+          "end": 212.487
+        },
+        {
+          "text": "its",
+          "start": 212.487,
+          "end": 212.65
+        },
+        {
+          "text": "own",
+          "start": 212.65,
+          "end": 212.9
+        },
+        {
+          "text": "browser",
+          "start": 212.9,
+          "end": 213.275
+        },
+        {
+          "text": "context",
+          "start": 213.275,
+          "end": 214.2
+        },
+        {
+          "text": ")",
+          "start": 214.2,
+          "end": 214.275
+        },
+        {
+          "text": ",",
+          "start": 214.275,
+          "end": 214.325
+        },
+        {
+          "text": "and",
+          "start": 214.325,
+          "end": 214.437
+        },
+        {
+          "text": "the",
+          "start": 214.437,
+          "end": 214.525
+        },
+        {
+          "text": "total",
+          "start": 214.525,
+          "end": 214.925
+        },
+        {
+          "text": "time",
+          "start": 214.925,
+          "end": 215.25
+        },
+        {
+          "text": "drops",
+          "start": 215.25,
+          "end": 215.55
+        },
+        {
+          "text": "to",
+          "start": 215.55,
+          "end": 215.687
+        },
+        {
+          "text": "about",
+          "start": 215.687,
+          "end": 215.975
+        },
+        {
+          "text": "15",
+          "start": 215.975,
+          "end": 216.425
+        },
+        {
+          "text": "seconds",
+          "start": 216.425,
+          "end": 217.5
+        },
+        {
+          "text": ".",
+          "start": 217.5,
+          "end": 217.637
+        },
+        {
+          "text": "Add",
+          "start": 217.637,
+          "end": 217.837
+        },
+        {
+          "text": "the",
+          "start": 217.837,
+          "end": 217.925
+        },
+        {
+          "text": "Parallelizable",
+          "start": 217.925,
+          "end": 218.775
+        },
+        {
+          "text": "attribute",
+          "start": 218.775,
+          "end": 219.25
+        },
+        {
+          "text": "to",
+          "start": 219.25,
+          "end": 219.337
+        },
+        {
+          "text": "your",
+          "start": 219.337,
+          "end": 219.45
+        },
+        {
+          "text": "test",
+          "start": 219.45,
+          "end": 219.725
+        },
+        {
+          "text": "classes",
+          "start": 219.725,
+          "end": 220.825
+        },
+        {
+          "text": ":",
+          "start": 220.825,
+          "end": 221.0
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h3",
+      "text": "Generate Beautiful Reports",
+      "start": 221.32,
+      "end": 223.595,
+      "words": [
+        {
+          "text": "Generate",
+          "start": 221.595,
+          "end": 222.07
+        },
+        {
+          "text": "Beautiful",
+          "start": 222.07,
+          "end": 222.545
+        },
+        {
+          "text": "Reports",
+          "start": 222.545,
+          "end": 223.595
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "After tests run, you want to know what passed, what failed, and why. ReportUnit turns NUnit XML results into HTML reports you can open in a browser.",
+      "start": 224.065,
+      "end": 234.44,
+      "words": [
+        {
+          "text": "After",
+          "start": 224.34,
+          "end": 224.59
+        },
+        {
+          "text": "tests",
+          "start": 224.59,
+          "end": 224.94
+        },
+        {
+          "text": "run",
+          "start": 224.94,
+          "end": 225.34
+        },
+        {
+          "text": ",",
+          "start": 225.34,
+          "end": 225.415
+        },
+        {
+          "text": "you",
+          "start": 225.415,
+          "end": 225.527
+        },
+        {
+          "text": "want",
+          "start": 225.527,
+          "end": 225.678
+        },
+        {
+          "text": "to",
+          "start": 225.678,
+          "end": 225.753
+        },
+        {
+          "text": "know",
+          "start": 225.753,
+          "end": 225.902
+        },
+        {
+          "text": "what",
+          "start": 225.902,
+          "end": 226.04
+        },
+        {
+          "text": "passed",
+          "start": 226.04,
+          "end": 226.69
+        },
+        {
+          "text": ",",
+          "start": 226.69,
+          "end": 226.765
+        },
+        {
+          "text": "what",
+          "start": 226.765,
+          "end": 226.94
+        },
+        {
+          "text": "failed",
+          "start": 226.94,
+          "end": 227.365
+        },
+        {
+          "text": ",",
+          "start": 227.365,
+          "end": 227.415
+        },
+        {
+          "text": "and",
+          "start": 227.415,
+          "end": 227.54
+        },
+        {
+          "text": "why",
+          "start": 227.54,
+          "end": 228.415
+        },
+        {
+          "text": ".",
+          "start": 228.415,
+          "end": 228.578
+        },
+        {
+          "text": "ReportUnit",
+          "start": 228.578,
+          "end": 229.19
+        },
+        {
+          "text": "turns",
+          "start": 229.19,
+          "end": 229.578
+        },
+        {
+          "text": "NUnit",
+          "start": 229.578,
+          "end": 230.052
+        },
+        {
+          "text": "XML",
+          "start": 230.052,
+          "end": 230.69
+        },
+        {
+          "text": "results",
+          "start": 230.69,
+          "end": 231.127
+        },
+        {
+          "text": "into",
+          "start": 231.127,
+          "end": 231.34
+        },
+        {
+          "text": "HTML",
+          "start": 231.34,
+          "end": 232.115
+        },
+        {
+          "text": "reports",
+          "start": 232.115,
+          "end": 232.615
+        },
+        {
+          "text": "you",
+          "start": 232.615,
+          "end": 232.727
+        },
+        {
+          "text": "can",
+          "start": 232.727,
+          "end": 232.84
+        },
+        {
+          "text": "open",
+          "start": 232.84,
+          "end": 233.165
+        },
+        {
+          "text": "in",
+          "start": 233.165,
+          "end": 233.253
+        },
+        {
+          "text": "a",
+          "start": 233.253,
+          "end": 233.315
+        },
+        {
+          "text": "browser",
+          "start": 233.315,
+          "end": 234.24
+        },
+        {
+          "text": ".",
+          "start": 234.24,
+          "end": 234.44
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h3",
+      "text": "Intercept Network Requests (XHR Handling)",
+      "start": 234.76,
+      "end": 238.285,
+      "words": [
+        {
+          "text": "Intercept",
+          "start": 235.01,
+          "end": 235.51
+        },
+        {
+          "text": "Network",
+          "start": 235.51,
+          "end": 235.948
+        },
+        {
+          "text": "Requests",
+          "start": 235.948,
+          "end": 236.535
+        },
+        {
+          "text": "(",
+          "start": 236.535,
+          "end": 236.585
+        },
+        {
+          "text": "XHR",
+          "start": 236.585,
+          "end": 237.185
+        },
+        {
+          "text": "Handling",
+          "start": 237.185,
+          "end": 238.11
+        },
+        {
+          "text": ")",
+          "start": 238.11,
+          "end": 238.285
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "p",
+      "text": "Some tests need to mock API responses or verify that a specific API call was made. Playwright can intercept requests before they reach the network and modify them.",
+      "start": 238.605,
+      "end": 249.23,
+      "words": [
+        {
+          "text": "Some",
+          "start": 238.88,
+          "end": 239.105
+        },
+        {
+          "text": "tests",
+          "start": 239.105,
+          "end": 239.48
+        },
+        {
+          "text": "need",
+          "start": 239.48,
+          "end": 239.68
+        },
+        {
+          "text": "to",
+          "start": 239.68,
+          "end": 239.78
+        },
+        {
+          "text": "mock",
+          "start": 239.78,
+          "end": 240.005
+        },
+        {
+          "text": "API",
+          "start": 240.005,
+          "end": 240.53
+        },
+        {
+          "text": "responses",
+          "start": 240.53,
+          "end": 241.18
+        },
+        {
+          "text": "or",
+          "start": 241.18,
+          "end": 241.305
+        },
+        {
+          "text": "verify",
+          "start": 241.305,
+          "end": 242.118
+        },
+        {
+          "text": "that",
+          "start": 242.118,
+          "end": 242.243
+        },
+        {
+          "text": "a",
+          "start": 242.243,
+          "end": 242.305
+        },
+        {
+          "text": "specific",
+          "start": 242.305,
+          "end": 242.842
+        },
+        {
+          "text": "API",
+          "start": 242.842,
+          "end": 243.405
+        },
+        {
+          "text": "call",
+          "start": 243.405,
+          "end": 243.705
+        },
+        {
+          "text": "was",
+          "start": 243.705,
+          "end": 243.88
+        },
+        {
+          "text": "made",
+          "start": 243.88,
+          "end": 244.73
+        },
+        {
+          "text": ".",
+          "start": 244.73,
+          "end": 244.893
+        },
+        {
+          "text": "Playwright",
+          "start": 244.893,
+          "end": 245.33
+        },
+        {
+          "text": "can",
+          "start": 245.33,
+          "end": 245.455
+        },
+        {
+          "text": "intercept",
+          "start": 245.455,
+          "end": 245.943
+        },
+        {
+          "text": "requests",
+          "start": 245.943,
+          "end": 246.48
+        },
+        {
+          "text": "before",
+          "start": 246.48,
+          "end": 246.768
+        },
+        {
+          "text": "they",
+          "start": 246.768,
+          "end": 246.905
+        },
+        {
+          "text": "reach",
+          "start": 246.905,
+          "end": 247.18
+        },
+        {
+          "text": "the",
+          "start": 247.18,
+          "end": 247.28
+        },
+        {
+          "text": "network",
+          "start": 247.28,
+          "end": 247.743
+        },
+        {
+          "text": "and",
+          "start": 247.743,
+          "end": 247.855
+        },
+        {
+          "text": "modify",
+          "start": 247.855,
+          "end": 248.33
+        },
+        {
+          "text": "them",
+          "start": 248.33,
+          "end": 249.055
+        },
+        {
+          "text": ".",
+          "start": 249.055,
+          "end": 249.23
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "h3",
+      "text": "Record Video of Test Runs",
+      "start": 249.55,
+      "end": 252.025,
+      "words": [
+        {
+          "text": "Record",
+          "start": 249.825,
+          "end": 250.275
+        },
+        {
+          "text": "Video",
+          "start": 250.275,
+          "end": 250.65
+        },
+        {
+          "text": "of",
+          "start": 250.65,
+          "end": 250.775
+        },
+        {
+          "text": "Test",
+          "start": 250.775,
+          "end": 251.125
+        },
+        {
+          "text": "Runs",
+          "start": 251.125,
+          "end": 252.025
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "When a test fails, a video is worth a thousand screenshots. You can see exactly where it broke, what the UI looked like, and what the user saw.",
+      "start": 252.52,
+      "end": 261.22,
+      "words": [
+        {
+          "text": "When",
+          "start": 252.77,
+          "end": 252.882
+        },
+        {
+          "text": "a",
+          "start": 252.882,
+          "end": 252.945
+        },
+        {
+          "text": "test",
+          "start": 252.945,
+          "end": 253.27
+        },
+        {
+          "text": "fails",
+          "start": 253.27,
+          "end": 253.67
+        },
+        {
+          "text": ",",
+          "start": 253.67,
+          "end": 253.72
+        },
+        {
+          "text": "a",
+          "start": 253.72,
+          "end": 253.795
+        },
+        {
+          "text": "video",
+          "start": 253.795,
+          "end": 254.17
+        },
+        {
+          "text": "is",
+          "start": 254.17,
+          "end": 254.295
+        },
+        {
+          "text": "worth",
+          "start": 254.295,
+          "end": 254.533
+        },
+        {
+          "text": "a",
+          "start": 254.533,
+          "end": 254.632
+        },
+        {
+          "text": "thousand",
+          "start": 254.632,
+          "end": 255.07
+        },
+        {
+          "text": "screenshots",
+          "start": 255.07,
+          "end": 256.27
+        },
+        {
+          "text": ".",
+          "start": 256.27,
+          "end": 256.37
+        },
+        {
+          "text": "You",
+          "start": 256.37,
+          "end": 256.507
+        },
+        {
+          "text": "can",
+          "start": 256.507,
+          "end": 256.645
+        },
+        {
+          "text": "see",
+          "start": 256.645,
+          "end": 256.82
+        },
+        {
+          "text": "exactly",
+          "start": 256.82,
+          "end": 257.37
+        },
+        {
+          "text": "where",
+          "start": 257.37,
+          "end": 257.533
+        },
+        {
+          "text": "it",
+          "start": 257.533,
+          "end": 257.62
+        },
+        {
+          "text": "broke",
+          "start": 257.62,
+          "end": 258.245
+        },
+        {
+          "text": ",",
+          "start": 258.245,
+          "end": 258.345
+        },
+        {
+          "text": "what",
+          "start": 258.345,
+          "end": 258.483
+        },
+        {
+          "text": "the",
+          "start": 258.483,
+          "end": 258.57
+        },
+        {
+          "text": "UI",
+          "start": 258.57,
+          "end": 258.945
+        },
+        {
+          "text": "looked",
+          "start": 258.945,
+          "end": 259.17
+        },
+        {
+          "text": "like",
+          "start": 259.17,
+          "end": 259.495
+        },
+        {
+          "text": ",",
+          "start": 259.495,
+          "end": 259.533
+        },
+        {
+          "text": "and",
+          "start": 259.533,
+          "end": 259.632
+        },
+        {
+          "text": "what",
+          "start": 259.632,
+          "end": 259.757
+        },
+        {
+          "text": "the",
+          "start": 259.757,
+          "end": 259.845
+        },
+        {
+          "text": "user",
+          "start": 259.845,
+          "end": 260.182
+        },
+        {
+          "text": "saw",
+          "start": 260.182,
+          "end": 261.02
+        },
+        {
+          "text": ".",
+          "start": 261.02,
+          "end": 261.22
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h3",
+      "text": "Test Multiple Browsers at Once",
+      "start": 261.54,
+      "end": 264.14,
+      "words": [
+        {
+          "text": "Test",
+          "start": 261.79,
+          "end": 262.103
+        },
+        {
+          "text": "Multiple",
+          "start": 262.103,
+          "end": 262.615
+        },
+        {
+          "text": "Browsers",
+          "start": 262.615,
+          "end": 263.115
+        },
+        {
+          "text": "at",
+          "start": 263.115,
+          "end": 263.24
+        },
+        {
+          "text": "Once",
+          "start": 263.24,
+          "end": 264.14
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "p",
+      "text": "Your app needs to work in Chrome, Firefox, and Safari. Instead of writing three separate test suites, you write once and tell Playwright to run it against every browser.",
+      "start": 264.66,
+      "end": 274.535,
+      "words": [
+        {
+          "text": "Your",
+          "start": 264.935,
+          "end": 265.085
+        },
+        {
+          "text": "app",
+          "start": 265.085,
+          "end": 265.31
+        },
+        {
+          "text": "needs",
+          "start": 265.31,
+          "end": 265.535
+        },
+        {
+          "text": "to",
+          "start": 265.535,
+          "end": 265.635
+        },
+        {
+          "text": "work",
+          "start": 265.635,
+          "end": 265.873
+        },
+        {
+          "text": "in",
+          "start": 265.873,
+          "end": 266.01
+        },
+        {
+          "text": "Chrome",
+          "start": 266.01,
+          "end": 266.485
+        },
+        {
+          "text": ",",
+          "start": 266.485,
+          "end": 266.573
+        },
+        {
+          "text": "Firefox",
+          "start": 266.573,
+          "end": 267.135
+        },
+        {
+          "text": ",",
+          "start": 267.135,
+          "end": 267.173
+        },
+        {
+          "text": "and",
+          "start": 267.173,
+          "end": 267.285
+        },
+        {
+          "text": "Safari",
+          "start": 267.285,
+          "end": 268.285
+        },
+        {
+          "text": ".",
+          "start": 268.285,
+          "end": 268.423
+        },
+        {
+          "text": "Instead",
+          "start": 268.423,
+          "end": 268.798
+        },
+        {
+          "text": "of",
+          "start": 268.798,
+          "end": 268.885
+        },
+        {
+          "text": "writing",
+          "start": 268.885,
+          "end": 269.273
+        },
+        {
+          "text": "three",
+          "start": 269.273,
+          "end": 269.548
+        },
+        {
+          "text": "separate",
+          "start": 269.548,
+          "end": 269.96
+        },
+        {
+          "text": "test",
+          "start": 269.96,
+          "end": 270.235
+        },
+        {
+          "text": "suites",
+          "start": 270.235,
+          "end": 270.885
+        },
+        {
+          "text": ",",
+          "start": 270.885,
+          "end": 270.985
+        },
+        {
+          "text": "you",
+          "start": 270.985,
+          "end": 271.11
+        },
+        {
+          "text": "write",
+          "start": 271.11,
+          "end": 271.335
+        },
+        {
+          "text": "once",
+          "start": 271.335,
+          "end": 271.648
+        },
+        {
+          "text": "and",
+          "start": 271.648,
+          "end": 271.76
+        },
+        {
+          "text": "tell",
+          "start": 271.76,
+          "end": 272.01
+        },
+        {
+          "text": "Playwright",
+          "start": 272.01,
+          "end": 272.385
+        },
+        {
+          "text": "to",
+          "start": 272.385,
+          "end": 272.485
+        },
+        {
+          "text": "run",
+          "start": 272.485,
+          "end": 272.673
+        },
+        {
+          "text": "it",
+          "start": 272.673,
+          "end": 272.773
+        },
+        {
+          "text": "against",
+          "start": 272.773,
+          "end": 273.135
+        },
+        {
+          "text": "every",
+          "start": 273.135,
+          "end": 273.385
+        },
+        {
+          "text": "browser",
+          "start": 273.385,
+          "end": 274.335
+        },
+        {
+          "text": ".",
+          "start": 274.335,
+          "end": 274.535
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h2",
+      "text": "Things to Watch Out For",
+      "start": 274.855,
+      "end": 276.78,
+      "words": [
+        {
+          "text": "Things",
+          "start": 275.105,
+          "end": 275.43
+        },
+        {
+          "text": "to",
+          "start": 275.43,
+          "end": 275.555
+        },
+        {
+          "text": "Watch",
+          "start": 275.555,
+          "end": 275.805
+        },
+        {
+          "text": "Out",
+          "start": 275.805,
+          "end": 276.03
+        },
+        {
+          "text": "For",
+          "start": 276.03,
+          "end": 276.78
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "p",
+      "text": "Dependency Injection is your friend, not your enemy. Make sure every service is registered in the Startup class. If you forget to register something, the DI container throws an error immediately , that's a feature. You catch the mistake in dev, not in production.",
+      "start": 277.275,
+      "end": 292.75,
+      "words": [
+        {
+          "text": "Dependency",
+          "start": 277.525,
+          "end": 278.175
+        },
+        {
+          "text": "Injection",
+          "start": 278.175,
+          "end": 278.725
+        },
+        {
+          "text": "is",
+          "start": 278.725,
+          "end": 278.85
+        },
+        {
+          "text": "your",
+          "start": 278.85,
+          "end": 279.063
+        },
+        {
+          "text": "friend",
+          "start": 279.063,
+          "end": 279.475
+        },
+        {
+          "text": ",",
+          "start": 279.475,
+          "end": 279.55
+        },
+        {
+          "text": "not",
+          "start": 279.55,
+          "end": 279.75
+        },
+        {
+          "text": "your",
+          "start": 279.75,
+          "end": 279.95
+        },
+        {
+          "text": "enemy",
+          "start": 279.95,
+          "end": 280.775
+        },
+        {
+          "text": ".",
+          "start": 280.775,
+          "end": 280.913
+        },
+        {
+          "text": "Make",
+          "start": 280.913,
+          "end": 281.163
+        },
+        {
+          "text": "sure",
+          "start": 281.163,
+          "end": 281.4
+        },
+        {
+          "text": "every",
+          "start": 281.4,
+          "end": 281.687
+        },
+        {
+          "text": "service",
+          "start": 281.687,
+          "end": 282.1
+        },
+        {
+          "text": "is",
+          "start": 282.1,
+          "end": 282.25
+        },
+        {
+          "text": "registered",
+          "start": 282.25,
+          "end": 282.687
+        },
+        {
+          "text": "in",
+          "start": 282.687,
+          "end": 282.762
+        },
+        {
+          "text": "the",
+          "start": 282.762,
+          "end": 282.85
+        },
+        {
+          "text": "Startup",
+          "start": 282.85,
+          "end": 283.325
+        },
+        {
+          "text": "class",
+          "start": 283.325,
+          "end": 284.125
+        },
+        {
+          "text": ".",
+          "start": 284.125,
+          "end": 284.225
+        },
+        {
+          "text": "If",
+          "start": 284.225,
+          "end": 284.387
+        },
+        {
+          "text": "you",
+          "start": 284.387,
+          "end": 284.5
+        },
+        {
+          "text": "forget",
+          "start": 284.5,
+          "end": 284.825
+        },
+        {
+          "text": "to",
+          "start": 284.825,
+          "end": 284.925
+        },
+        {
+          "text": "register",
+          "start": 284.925,
+          "end": 285.35
+        },
+        {
+          "text": "something",
+          "start": 285.35,
+          "end": 285.825
+        },
+        {
+          "text": ",",
+          "start": 285.825,
+          "end": 285.888
+        },
+        {
+          "text": "the",
+          "start": 285.888,
+          "end": 285.975
+        },
+        {
+          "text": "DI",
+          "start": 285.975,
+          "end": 286.35
+        },
+        {
+          "text": "container",
+          "start": 286.35,
+          "end": 286.837
+        },
+        {
+          "text": "throws",
+          "start": 286.837,
+          "end": 287.187
+        },
+        {
+          "text": "an",
+          "start": 287.187,
+          "end": 287.275
+        },
+        {
+          "text": "error",
+          "start": 287.275,
+          "end": 287.55
+        },
+        {
+          "text": "immediately",
+          "start": 287.55,
+          "end": 288.187
+        },
+        {
+          "text": ",",
+          "start": 288.187,
+          "end": 288.25
+        },
+        {
+          "text": "that's",
+          "start": 288.25,
+          "end": 288.488
+        },
+        {
+          "text": "a",
+          "start": 288.488,
+          "end": 288.55
+        },
+        {
+          "text": "feature",
+          "start": 288.55,
+          "end": 289.45
+        },
+        {
+          "text": ".",
+          "start": 289.45,
+          "end": 289.6
+        },
+        {
+          "text": "You",
+          "start": 289.6,
+          "end": 289.75
+        },
+        {
+          "text": "catch",
+          "start": 289.75,
+          "end": 290.05
+        },
+        {
+          "text": "the",
+          "start": 290.05,
+          "end": 290.15
+        },
+        {
+          "text": "mistake",
+          "start": 290.15,
+          "end": 290.65
+        },
+        {
+          "text": "in",
+          "start": 290.65,
+          "end": 290.8
+        },
+        {
+          "text": "dev",
+          "start": 290.8,
+          "end": 291.175
+        },
+        {
+          "text": ",",
+          "start": 291.175,
+          "end": 291.25
+        },
+        {
+          "text": "not",
+          "start": 291.25,
+          "end": 291.437
+        },
+        {
+          "text": "in",
+          "start": 291.437,
+          "end": 291.525
+        },
+        {
+          "text": "production",
+          "start": 291.525,
+          "end": 292.55
+        },
+        {
+          "text": ".",
+          "start": 292.55,
+          "end": 292.75
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "Playwright has auto-waiting built in. Before you click something, Playwright verifies the element is actually clickable. You rarely need manual sleeps. Trust it.",
+      "start": 293.07,
+      "end": 302.545,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 293.32,
+          "end": 293.682
+        },
+        {
+          "text": "has",
+          "start": 293.682,
+          "end": 293.845
+        },
+        {
+          "text": "auto-waiting",
+          "start": 293.845,
+          "end": 294.52
+        },
+        {
+          "text": "built",
+          "start": 294.52,
+          "end": 294.807
+        },
+        {
+          "text": "in",
+          "start": 294.807,
+          "end": 295.42
+        },
+        {
+          "text": ".",
+          "start": 295.42,
+          "end": 295.52
+        },
+        {
+          "text": "Before",
+          "start": 295.52,
+          "end": 295.807
+        },
+        {
+          "text": "you",
+          "start": 295.807,
+          "end": 295.92
+        },
+        {
+          "text": "click",
+          "start": 295.92,
+          "end": 296.17
+        },
+        {
+          "text": "something",
+          "start": 296.17,
+          "end": 296.595
+        },
+        {
+          "text": ",",
+          "start": 296.595,
+          "end": 296.645
+        },
+        {
+          "text": "Playwright",
+          "start": 296.645,
+          "end": 297.045
+        },
+        {
+          "text": "verifies",
+          "start": 297.045,
+          "end": 297.557
+        },
+        {
+          "text": "the",
+          "start": 297.557,
+          "end": 297.67
+        },
+        {
+          "text": "element",
+          "start": 297.67,
+          "end": 298.083
+        },
+        {
+          "text": "is",
+          "start": 298.083,
+          "end": 298.232
+        },
+        {
+          "text": "actually",
+          "start": 298.232,
+          "end": 298.645
+        },
+        {
+          "text": "clickable",
+          "start": 298.645,
+          "end": 299.47
+        },
+        {
+          "text": ".",
+          "start": 299.47,
+          "end": 299.57
+        },
+        {
+          "text": "You",
+          "start": 299.57,
+          "end": 299.72
+        },
+        {
+          "text": "rarely",
+          "start": 299.72,
+          "end": 300.045
+        },
+        {
+          "text": "need",
+          "start": 300.045,
+          "end": 300.295
+        },
+        {
+          "text": "manual",
+          "start": 300.295,
+          "end": 300.732
+        },
+        {
+          "text": "sleeps",
+          "start": 300.732,
+          "end": 301.245
+        },
+        {
+          "text": ".",
+          "start": 301.245,
+          "end": 301.32
+        },
+        {
+          "text": "Trust",
+          "start": 301.32,
+          "end": 301.682
+        },
+        {
+          "text": "it",
+          "start": 301.682,
+          "end": 302.345
+        },
+        {
+          "text": ".",
+          "start": 302.345,
+          "end": 302.545
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "Log and capture errors aggressively. When a test fails on CI but passes locally, the log is your lifeline. Capture network requests, screenshots, videos, console output , everything. Use Allure to tie it all together.",
+      "start": 302.865,
+      "end": 316.515,
+      "words": [
+        {
+          "text": "Log",
+          "start": 303.19,
+          "end": 303.452
+        },
+        {
+          "text": "and",
+          "start": 303.452,
+          "end": 303.565
+        },
+        {
+          "text": "capture",
+          "start": 303.565,
+          "end": 303.965
+        },
+        {
+          "text": "errors",
+          "start": 303.965,
+          "end": 304.265
+        },
+        {
+          "text": "aggressively",
+          "start": 304.265,
+          "end": 305.29
+        },
+        {
+          "text": ".",
+          "start": 305.29,
+          "end": 305.39
+        },
+        {
+          "text": "When",
+          "start": 305.39,
+          "end": 305.527
+        },
+        {
+          "text": "a",
+          "start": 305.527,
+          "end": 305.59
+        },
+        {
+          "text": "test",
+          "start": 305.59,
+          "end": 305.915
+        },
+        {
+          "text": "fails",
+          "start": 305.915,
+          "end": 306.202
+        },
+        {
+          "text": "on",
+          "start": 306.202,
+          "end": 306.377
+        },
+        {
+          "text": "CI",
+          "start": 306.377,
+          "end": 306.79
+        },
+        {
+          "text": "but",
+          "start": 306.79,
+          "end": 306.94
+        },
+        {
+          "text": "passes",
+          "start": 306.94,
+          "end": 307.39
+        },
+        {
+          "text": "locally",
+          "start": 307.39,
+          "end": 307.865
+        },
+        {
+          "text": ",",
+          "start": 307.865,
+          "end": 307.94
+        },
+        {
+          "text": "the",
+          "start": 307.94,
+          "end": 308.065
+        },
+        {
+          "text": "log",
+          "start": 308.065,
+          "end": 308.327
+        },
+        {
+          "text": "is",
+          "start": 308.327,
+          "end": 308.44
+        },
+        {
+          "text": "your",
+          "start": 308.44,
+          "end": 308.565
+        },
+        {
+          "text": "lifeline",
+          "start": 308.565,
+          "end": 309.49
+        },
+        {
+          "text": ".",
+          "start": 309.49,
+          "end": 309.602
+        },
+        {
+          "text": "Capture",
+          "start": 309.602,
+          "end": 309.99
+        },
+        {
+          "text": "network",
+          "start": 309.99,
+          "end": 310.377
+        },
+        {
+          "text": "requests",
+          "start": 310.377,
+          "end": 310.915
+        },
+        {
+          "text": ",",
+          "start": 310.915,
+          "end": 310.965
+        },
+        {
+          "text": "screenshots",
+          "start": 310.965,
+          "end": 311.615
+        },
+        {
+          "text": ",",
+          "start": 311.615,
+          "end": 311.652
+        },
+        {
+          "text": "videos",
+          "start": 311.652,
+          "end": 312.14
+        },
+        {
+          "text": ",",
+          "start": 312.14,
+          "end": 312.19
+        },
+        {
+          "text": "console",
+          "start": 312.19,
+          "end": 312.615
+        },
+        {
+          "text": "output",
+          "start": 312.615,
+          "end": 313.077
+        },
+        {
+          "text": ",",
+          "start": 313.077,
+          "end": 313.14
+        },
+        {
+          "text": "everything",
+          "start": 313.14,
+          "end": 314.04
+        },
+        {
+          "text": ".",
+          "start": 314.04,
+          "end": 314.152
+        },
+        {
+          "text": "Use",
+          "start": 314.152,
+          "end": 314.44
+        },
+        {
+          "text": "Allure",
+          "start": 314.44,
+          "end": 314.765
+        },
+        {
+          "text": "to",
+          "start": 314.765,
+          "end": 314.89
+        },
+        {
+          "text": "tie",
+          "start": 314.89,
+          "end": 315.103
+        },
+        {
+          "text": "it",
+          "start": 315.103,
+          "end": 315.202
+        },
+        {
+          "text": "all",
+          "start": 315.202,
+          "end": 315.415
+        },
+        {
+          "text": "together",
+          "start": 315.415,
+          "end": 316.315
+        },
+        {
+          "text": ".",
+          "start": 316.315,
+          "end": 316.515
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "h2",
+      "text": "How the Pieces Fit Together",
+      "start": 316.835,
+      "end": 318.785,
+      "words": [
+        {
+          "text": "How",
+          "start": 317.085,
+          "end": 317.247
+        },
+        {
+          "text": "the",
+          "start": 317.247,
+          "end": 317.335
+        },
+        {
+          "text": "Pieces",
+          "start": 317.335,
+          "end": 317.735
+        },
+        {
+          "text": "Fit",
+          "start": 317.735,
+          "end": 317.935
+        },
+        {
+          "text": "Together",
+          "start": 317.935,
+          "end": 318.785
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "p",
+      "text": "Here are the architecture diagrams that show how everything connects:",
+      "start": 319.33,
+      "end": 323.455,
+      "words": [
+        {
+          "text": "Here",
+          "start": 319.58,
+          "end": 319.855
+        },
+        {
+          "text": "are",
+          "start": 319.855,
+          "end": 319.943
+        },
+        {
+          "text": "the",
+          "start": 319.943,
+          "end": 320.092
+        },
+        {
+          "text": "architecture",
+          "start": 320.092,
+          "end": 320.68
+        },
+        {
+          "text": "diagrams",
+          "start": 320.68,
+          "end": 321.268
+        },
+        {
+          "text": "that",
+          "start": 321.268,
+          "end": 321.392
+        },
+        {
+          "text": "show",
+          "start": 321.392,
+          "end": 321.63
+        },
+        {
+          "text": "how",
+          "start": 321.63,
+          "end": 321.805
+        },
+        {
+          "text": "everything",
+          "start": 321.805,
+          "end": 322.28
+        },
+        {
+          "text": "connects",
+          "start": 322.28,
+          "end": 323.28
+        },
+        {
+          "text": ":",
+          "start": 323.28,
+          "end": 323.455
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "h3",
+      "text": "Sequence Diagram",
+      "start": 323.775,
+      "end": 325.525,
+      "words": [
+        {
+          "text": "Sequence",
+          "start": 324.05,
+          "end": 324.525
+        },
+        {
+          "text": "Diagram",
+          "start": 324.525,
+          "end": 325.525
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "h4",
+      "text": "Sequence Diagram",
+      "start": 326.07,
+      "end": 327.82,
+      "words": [
+        {
+          "text": "Sequence",
+          "start": 326.345,
+          "end": 326.82
+        },
+        {
+          "text": "Diagram",
+          "start": 326.82,
+          "end": 327.82
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h4",
+      "text": "Flow Diagram",
+      "start": 328.365,
+      "end": 329.715,
+      "words": [
+        {
+          "text": "Flow",
+          "start": 328.615,
+          "end": 328.89
+        },
+        {
+          "text": "Diagram",
+          "start": 328.89,
+          "end": 329.715
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "h4",
+      "text": "Class Diagram",
+      "start": 330.41,
+      "end": 331.885,
+      "words": [
+        {
+          "text": "Class",
+          "start": 330.66,
+          "end": 331.01
+        },
+        {
+          "text": "Diagram",
+          "start": 331.01,
+          "end": 331.885
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "h2",
+      "text": "You're Not Gluing Bricks Anymore",
+      "start": 332.505,
+      "end": 334.68,
+      "words": [
+        {
+          "text": "You're",
+          "start": 332.755,
+          "end": 332.88
+        },
+        {
+          "text": "Not",
+          "start": 332.88,
+          "end": 333.105
+        },
+        {
+          "text": "Gluing",
+          "start": 333.105,
+          "end": 333.455
+        },
+        {
+          "text": "Bricks",
+          "start": 333.455,
+          "end": 333.78
+        },
+        {
+          "text": "Anymore",
+          "start": 333.78,
+          "end": 334.68
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "p",
+      "text": "What you've built is a reusable framework. The first test takes an hour (setup, wiring, learning curves). The second test takes 10 minutes. The hundredth test still takes 10 minutes because you've got structure. When you need to add video recording, change the browser to Firefox, or enable parallel testing, you update the framework once. Every test instantly gets the benefit.",
+      "start": 335.15,
+      "end": 356.7,
+      "words": [
+        {
+          "text": "What",
+          "start": 335.4,
+          "end": 335.55
+        },
+        {
+          "text": "you've",
+          "start": 335.55,
+          "end": 335.7
+        },
+        {
+          "text": "built",
+          "start": 335.7,
+          "end": 336.0
+        },
+        {
+          "text": "is",
+          "start": 336.0,
+          "end": 336.125
+        },
+        {
+          "text": "a",
+          "start": 336.125,
+          "end": 336.225
+        },
+        {
+          "text": "reusable",
+          "start": 336.225,
+          "end": 336.8
+        },
+        {
+          "text": "framework",
+          "start": 336.8,
+          "end": 337.725
+        },
+        {
+          "text": ".",
+          "start": 337.725,
+          "end": 337.825
+        },
+        {
+          "text": "The",
+          "start": 337.825,
+          "end": 337.925
+        },
+        {
+          "text": "first",
+          "start": 337.925,
+          "end": 338.2
+        },
+        {
+          "text": "test",
+          "start": 338.2,
+          "end": 338.475
+        },
+        {
+          "text": "takes",
+          "start": 338.475,
+          "end": 338.712
+        },
+        {
+          "text": "an",
+          "start": 338.712,
+          "end": 338.8
+        },
+        {
+          "text": "hour",
+          "start": 338.8,
+          "end": 339.062
+        },
+        {
+          "text": "(",
+          "start": 339.062,
+          "end": 339.125
+        },
+        {
+          "text": "setup",
+          "start": 339.125,
+          "end": 339.525
+        },
+        {
+          "text": ",",
+          "start": 339.525,
+          "end": 339.575
+        },
+        {
+          "text": "wiring",
+          "start": 339.575,
+          "end": 339.975
+        },
+        {
+          "text": ",",
+          "start": 339.975,
+          "end": 340.025
+        },
+        {
+          "text": "learning",
+          "start": 340.025,
+          "end": 340.35
+        },
+        {
+          "text": "curves",
+          "start": 340.35,
+          "end": 341.05
+        },
+        {
+          "text": ")",
+          "start": 341.05,
+          "end": 341.125
+        },
+        {
+          "text": ".",
+          "start": 341.125,
+          "end": 341.175
+        },
+        {
+          "text": "The",
+          "start": 341.175,
+          "end": 341.275
+        },
+        {
+          "text": "second",
+          "start": 341.275,
+          "end": 341.6
+        },
+        {
+          "text": "test",
+          "start": 341.6,
+          "end": 341.9
+        },
+        {
+          "text": "takes",
+          "start": 341.9,
+          "end": 342.175
+        },
+        {
+          "text": "10",
+          "start": 342.175,
+          "end": 342.425
+        },
+        {
+          "text": "minutes",
+          "start": 342.425,
+          "end": 343.175
+        },
+        {
+          "text": ".",
+          "start": 343.175,
+          "end": 343.25
+        },
+        {
+          "text": "The",
+          "start": 343.25,
+          "end": 343.35
+        },
+        {
+          "text": "hundredth",
+          "start": 343.35,
+          "end": 343.75
+        },
+        {
+          "text": "test",
+          "start": 343.75,
+          "end": 344.025
+        },
+        {
+          "text": "still",
+          "start": 344.025,
+          "end": 344.3
+        },
+        {
+          "text": "takes",
+          "start": 344.3,
+          "end": 344.575
+        },
+        {
+          "text": "10",
+          "start": 344.575,
+          "end": 344.825
+        },
+        {
+          "text": "minutes",
+          "start": 344.825,
+          "end": 345.175
+        },
+        {
+          "text": "because",
+          "start": 345.175,
+          "end": 345.425
+        },
+        {
+          "text": "you've",
+          "start": 345.425,
+          "end": 345.575
+        },
+        {
+          "text": "got",
+          "start": 345.575,
+          "end": 345.75
+        },
+        {
+          "text": "structure",
+          "start": 345.75,
+          "end": 346.65
+        },
+        {
+          "text": ".",
+          "start": 346.65,
+          "end": 346.775
+        },
+        {
+          "text": "When",
+          "start": 346.775,
+          "end": 346.925
+        },
+        {
+          "text": "you",
+          "start": 346.925,
+          "end": 347.037
+        },
+        {
+          "text": "need",
+          "start": 347.037,
+          "end": 347.2
+        },
+        {
+          "text": "to",
+          "start": 347.2,
+          "end": 347.325
+        },
+        {
+          "text": "add",
+          "start": 347.325,
+          "end": 347.525
+        },
+        {
+          "text": "video",
+          "start": 347.525,
+          "end": 347.85
+        },
+        {
+          "text": "recording",
+          "start": 347.85,
+          "end": 348.425
+        },
+        {
+          "text": ",",
+          "start": 348.425,
+          "end": 348.488
+        },
+        {
+          "text": "change",
+          "start": 348.488,
+          "end": 348.837
+        },
+        {
+          "text": "the",
+          "start": 348.837,
+          "end": 348.925
+        },
+        {
+          "text": "browser",
+          "start": 348.925,
+          "end": 349.3
+        },
+        {
+          "text": "to",
+          "start": 349.3,
+          "end": 349.425
+        },
+        {
+          "text": "Firefox",
+          "start": 349.425,
+          "end": 350.025
+        },
+        {
+          "text": ",",
+          "start": 350.025,
+          "end": 350.1
+        },
+        {
+          "text": "or",
+          "start": 350.1,
+          "end": 350.25
+        },
+        {
+          "text": "enable",
+          "start": 350.25,
+          "end": 350.7
+        },
+        {
+          "text": "parallel",
+          "start": 350.7,
+          "end": 351.15
+        },
+        {
+          "text": "testing",
+          "start": 351.15,
+          "end": 351.825
+        },
+        {
+          "text": ",",
+          "start": 351.825,
+          "end": 351.925
+        },
+        {
+          "text": "you",
+          "start": 351.925,
+          "end": 352.037
+        },
+        {
+          "text": "update",
+          "start": 352.037,
+          "end": 352.412
+        },
+        {
+          "text": "the",
+          "start": 352.412,
+          "end": 352.5
+        },
+        {
+          "text": "framework",
+          "start": 352.5,
+          "end": 352.975
+        },
+        {
+          "text": "once",
+          "start": 352.975,
+          "end": 353.85
+        },
+        {
+          "text": ".",
+          "start": 353.85,
+          "end": 353.987
+        },
+        {
+          "text": "Every",
+          "start": 353.987,
+          "end": 354.3
+        },
+        {
+          "text": "test",
+          "start": 354.3,
+          "end": 354.625
+        },
+        {
+          "text": "instantly",
+          "start": 354.625,
+          "end": 355.125
+        },
+        {
+          "text": "gets",
+          "start": 355.125,
+          "end": 355.375
+        },
+        {
+          "text": "the",
+          "start": 355.375,
+          "end": 355.475
+        },
+        {
+          "text": "benefit",
+          "start": 355.475,
+          "end": 356.5
+        },
+        {
+          "text": ".",
+          "start": 356.5,
+          "end": 356.7
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "p",
+      "text": "I learned this the hard way by copy-pasting test code across 20 files, then spending a day updating all of them when the team decided we needed video recordings. Build the framework once. Build the tests many times. The ratio pays for itself by test five.",
+      "start": 357.02,
+      "end": 372.72,
+      "words": [
+        {
+          "text": "I",
+          "start": 357.295,
+          "end": 357.445
+        },
+        {
+          "text": "learned",
+          "start": 357.445,
+          "end": 357.657
+        },
+        {
+          "text": "this",
+          "start": 357.657,
+          "end": 357.82
+        },
+        {
+          "text": "the",
+          "start": 357.82,
+          "end": 357.92
+        },
+        {
+          "text": "hard",
+          "start": 357.92,
+          "end": 358.22
+        },
+        {
+          "text": "way",
+          "start": 358.22,
+          "end": 358.42
+        },
+        {
+          "text": "by",
+          "start": 358.42,
+          "end": 358.595
+        },
+        {
+          "text": "copy-pasting",
+          "start": 358.595,
+          "end": 359.27
+        },
+        {
+          "text": "test",
+          "start": 359.27,
+          "end": 359.62
+        },
+        {
+          "text": "code",
+          "start": 359.62,
+          "end": 359.857
+        },
+        {
+          "text": "across",
+          "start": 359.857,
+          "end": 360.17
+        },
+        {
+          "text": "20",
+          "start": 360.17,
+          "end": 360.495
+        },
+        {
+          "text": "files",
+          "start": 360.495,
+          "end": 361.27
+        },
+        {
+          "text": ",",
+          "start": 361.27,
+          "end": 361.345
+        },
+        {
+          "text": "then",
+          "start": 361.345,
+          "end": 361.545
+        },
+        {
+          "text": "spending",
+          "start": 361.545,
+          "end": 361.907
+        },
+        {
+          "text": "a",
+          "start": 361.907,
+          "end": 361.97
+        },
+        {
+          "text": "day",
+          "start": 361.97,
+          "end": 362.17
+        },
+        {
+          "text": "updating",
+          "start": 362.17,
+          "end": 362.77
+        },
+        {
+          "text": "all",
+          "start": 362.77,
+          "end": 362.957
+        },
+        {
+          "text": "of",
+          "start": 362.957,
+          "end": 363.032
+        },
+        {
+          "text": "them",
+          "start": 363.032,
+          "end": 363.182
+        },
+        {
+          "text": "when",
+          "start": 363.182,
+          "end": 363.307
+        },
+        {
+          "text": "the",
+          "start": 363.307,
+          "end": 363.395
+        },
+        {
+          "text": "team",
+          "start": 363.395,
+          "end": 363.67
+        },
+        {
+          "text": "decided",
+          "start": 363.67,
+          "end": 364.145
+        },
+        {
+          "text": "we",
+          "start": 364.145,
+          "end": 364.27
+        },
+        {
+          "text": "needed",
+          "start": 364.27,
+          "end": 364.595
+        },
+        {
+          "text": "video",
+          "start": 364.595,
+          "end": 364.92
+        },
+        {
+          "text": "recordings",
+          "start": 364.92,
+          "end": 366.12
+        },
+        {
+          "text": ".",
+          "start": 366.12,
+          "end": 366.257
+        },
+        {
+          "text": "Build",
+          "start": 366.257,
+          "end": 366.507
+        },
+        {
+          "text": "the",
+          "start": 366.507,
+          "end": 366.595
+        },
+        {
+          "text": "framework",
+          "start": 366.595,
+          "end": 367.07
+        },
+        {
+          "text": "once",
+          "start": 367.07,
+          "end": 367.72
+        },
+        {
+          "text": ".",
+          "start": 367.72,
+          "end": 367.832
+        },
+        {
+          "text": "Build",
+          "start": 367.832,
+          "end": 368.082
+        },
+        {
+          "text": "the",
+          "start": 368.082,
+          "end": 368.182
+        },
+        {
+          "text": "tests",
+          "start": 368.182,
+          "end": 368.595
+        },
+        {
+          "text": "many",
+          "start": 368.595,
+          "end": 368.82
+        },
+        {
+          "text": "times",
+          "start": 368.82,
+          "end": 369.62
+        },
+        {
+          "text": ".",
+          "start": 369.62,
+          "end": 369.72
+        },
+        {
+          "text": "The",
+          "start": 369.72,
+          "end": 369.82
+        },
+        {
+          "text": "ratio",
+          "start": 369.82,
+          "end": 370.307
+        },
+        {
+          "text": "pays",
+          "start": 370.307,
+          "end": 370.645
+        },
+        {
+          "text": "for",
+          "start": 370.645,
+          "end": 370.757
+        },
+        {
+          "text": "itself",
+          "start": 370.757,
+          "end": 371.17
+        },
+        {
+          "text": "by",
+          "start": 371.17,
+          "end": 371.345
+        },
+        {
+          "text": "test",
+          "start": 371.345,
+          "end": 371.645
+        },
+        {
+          "text": "five",
+          "start": 371.645,
+          "end": 372.52
+        },
+        {
+          "text": ".",
+          "start": 372.52,
+          "end": 372.72
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 373.04,
+      "end": 375.24,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 373.315,
+          "end": 373.865
+        },
+        {
+          "text": "and",
+          "start": 373.865,
+          "end": 374.003
+        },
+        {
+          "text": "Further",
+          "start": 374.003,
+          "end": 374.365
+        },
+        {
+          "text": "Reading",
+          "start": 374.365,
+          "end": 375.24
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "Playwright .NET , getting started",
+      "start": 375.685,
+      "end": 378.035,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 375.91,
+          "end": 376.31
+        },
+        {
+          "text": ".NET",
+          "start": 376.31,
+          "end": 376.623
+        },
+        {
+          "text": ",",
+          "start": 376.623,
+          "end": 376.685
+        },
+        {
+          "text": "getting",
+          "start": 376.685,
+          "end": 377.035
+        },
+        {
+          "text": "started",
+          "start": 377.035,
+          "end": 378.035
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "li",
+      "text": "Playwright .NET , dependency injection pattern",
+      "start": 378.555,
+      "end": 381.73,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 378.78,
+          "end": 379.155
+        },
+        {
+          "text": ".NET",
+          "start": 379.155,
+          "end": 379.492
+        },
+        {
+          "text": ",",
+          "start": 379.492,
+          "end": 379.542
+        },
+        {
+          "text": "dependency",
+          "start": 379.542,
+          "end": 380.205
+        },
+        {
+          "text": "injection",
+          "start": 380.205,
+          "end": 380.755
+        },
+        {
+          "text": "pattern",
+          "start": 380.755,
+          "end": 381.73
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "li",
+      "text": "Allure Report , Playwright integration",
+      "start": 382.175,
+      "end": 384.775,
+      "words": [
+        {
+          "text": "Allure",
+          "start": 382.425,
+          "end": 382.725
+        },
+        {
+          "text": "Report",
+          "start": 382.725,
+          "end": 383.263
+        },
+        {
+          "text": ",",
+          "start": 383.263,
+          "end": 383.325
+        },
+        {
+          "text": "Playwright",
+          "start": 383.325,
+          "end": 383.687
+        },
+        {
+          "text": "integration",
+          "start": 383.687,
+          "end": 384.775
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "li",
+      "text": "NUnit , documentation",
+      "start": 385.27,
+      "end": 387.495,
+      "words": [
+        {
+          "text": "NUnit",
+          "start": 385.52,
+          "end": 386.057
+        },
+        {
+          "text": ",",
+          "start": 386.057,
+          "end": 386.12
+        },
+        {
+          "text": "documentation",
+          "start": 386.12,
+          "end": 387.495
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "p",
+      "text": "See also: Playwright MCP + Multi-Agent Testing in 2026 (Jul 2026) , the 2026 refresh with MCP server integration and multi-agent testing patterns. · Playwright AI Codegen in 2026 (Jul 2026) , AI-generated Page Objects and test classes from natural language.",
+      "start": 387.94,
+      "end": 409.54,
+      "words": [
+        {
+          "text": "See",
+          "start": 388.24,
+          "end": 388.39
+        },
+        {
+          "text": "also",
+          "start": 388.39,
+          "end": 388.94
+        },
+        {
+          "text": ":",
+          "start": 388.94,
+          "end": 389.015
+        },
+        {
+          "text": "Playwright",
+          "start": 389.015,
+          "end": 389.415
+        },
+        {
+          "text": "MCP",
+          "start": 389.415,
+          "end": 390.04
+        },
+        {
+          "text": "+",
+          "start": 390.04,
+          "end": 390.315
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 390.315,
+          "end": 390.99
+        },
+        {
+          "text": "Testing",
+          "start": 390.99,
+          "end": 391.415
+        },
+        {
+          "text": "in",
+          "start": 391.415,
+          "end": 391.515
+        },
+        {
+          "text": "2026",
+          "start": 391.515,
+          "end": 392.877
+        },
+        {
+          "text": "(",
+          "start": 392.877,
+          "end": 392.965
+        },
+        {
+          "text": "Jul",
+          "start": 392.965,
+          "end": 393.165
+        },
+        {
+          "text": "2026",
+          "start": 393.165,
+          "end": 394.54
+        },
+        {
+          "text": ")",
+          "start": 394.54,
+          "end": 394.602
+        },
+        {
+          "text": ",",
+          "start": 394.602,
+          "end": 394.653
+        },
+        {
+          "text": "the",
+          "start": 394.653,
+          "end": 394.74
+        },
+        {
+          "text": "2026",
+          "start": 394.74,
+          "end": 395.665
+        },
+        {
+          "text": "refresh",
+          "start": 395.665,
+          "end": 396.127
+        },
+        {
+          "text": "with",
+          "start": 396.127,
+          "end": 396.265
+        },
+        {
+          "text": "MCP",
+          "start": 396.265,
+          "end": 396.865
+        },
+        {
+          "text": "server",
+          "start": 396.865,
+          "end": 397.178
+        },
+        {
+          "text": "integration",
+          "start": 397.178,
+          "end": 398.102
+        },
+        {
+          "text": "and",
+          "start": 398.102,
+          "end": 398.24
+        },
+        {
+          "text": "multi-agent",
+          "start": 398.24,
+          "end": 398.915
+        },
+        {
+          "text": "testing",
+          "start": 398.915,
+          "end": 399.265
+        },
+        {
+          "text": "patterns",
+          "start": 399.265,
+          "end": 400.365
+        },
+        {
+          "text": ".",
+          "start": 400.365,
+          "end": 400.515
+        },
+        {
+          "text": "Playwright",
+          "start": 400.565,
+          "end": 401.028
+        },
+        {
+          "text": "AI",
+          "start": 401.028,
+          "end": 401.415
+        },
+        {
+          "text": "Codegen",
+          "start": 401.415,
+          "end": 401.878
+        },
+        {
+          "text": "in",
+          "start": 401.878,
+          "end": 401.99
+        },
+        {
+          "text": "2026",
+          "start": 401.99,
+          "end": 403.34
+        },
+        {
+          "text": "(",
+          "start": 403.34,
+          "end": 403.415
+        },
+        {
+          "text": "Jul",
+          "start": 403.415,
+          "end": 403.665
+        },
+        {
+          "text": "2026",
+          "start": 403.665,
+          "end": 405.065
+        },
+        {
+          "text": ")",
+          "start": 405.065,
+          "end": 405.128
+        },
+        {
+          "text": ",",
+          "start": 405.128,
+          "end": 405.228
+        },
+        {
+          "text": "AI-generated",
+          "start": 405.228,
+          "end": 406.115
+        },
+        {
+          "text": "Page",
+          "start": 406.115,
+          "end": 406.44
+        },
+        {
+          "text": "Objects",
+          "start": 406.44,
+          "end": 406.978
+        },
+        {
+          "text": "and",
+          "start": 406.978,
+          "end": 407.115
+        },
+        {
+          "text": "test",
+          "start": 407.115,
+          "end": 407.39
+        },
+        {
+          "text": "classes",
+          "start": 407.39,
+          "end": 407.828
+        },
+        {
+          "text": "from",
+          "start": 407.828,
+          "end": 408.003
+        },
+        {
+          "text": "natural",
+          "start": 408.003,
+          "end": 408.378
+        },
+        {
+          "text": "language",
+          "start": 408.378,
+          "end": 409.54
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
