@@ -1,0 +1,5907 @@
+{
+  "slug": "selenium-bidi-vs-playwright-cdp",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 482.58,
+  "contentHash": "591dbfb04ae18b469d8aa31dea1b969b2b1531a2ac95c4d7540a7726af695237",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Automating Complex Interactions in 2026: Selenium BiDi vs. Playwright CDP",
+      "start": 0.0,
+      "end": 6.625,
+      "words": [
+        {
+          "text": "Automating",
+          "start": 0.3,
+          "end": 0.863
+        },
+        {
+          "text": "Complex",
+          "start": 0.863,
+          "end": 1.363
+        },
+        {
+          "text": "Interactions",
+          "start": 1.363,
+          "end": 2.112
+        },
+        {
+          "text": "in",
+          "start": 2.112,
+          "end": 2.25
+        },
+        {
+          "text": "2026",
+          "start": 2.25,
+          "end": 3.55
+        },
+        {
+          "text": ":",
+          "start": 3.55,
+          "end": 3.7
+        },
+        {
+          "text": "Selenium",
+          "start": 3.7,
+          "end": 4.263
+        },
+        {
+          "text": "BiDi",
+          "start": 4.263,
+          "end": 4.725
+        },
+        {
+          "text": "vs.",
+          "start": 4.725,
+          "end": 5.213
+        },
+        {
+          "text": "Playwright",
+          "start": 5.213,
+          "end": 5.7
+        },
+        {
+          "text": "CDP",
+          "start": 5.7,
+          "end": 6.625
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "Two years ago, automating drag-and-drop meant writing JavaScript fallbacks because Selenium's Actions class couldn't keep up with custom web components. Today, both Selenium and Playwright have low-level browser protocol access , BiDi and CDP , that let you simulate interactions at the engine level, intercept network traffic, and even replay sessions with AI assistance.",
+      "start": 7.02,
+      "end": 31.07,
+      "words": [
+        {
+          "text": "Two",
+          "start": 7.295,
+          "end": 7.47
+        },
+        {
+          "text": "years",
+          "start": 7.47,
+          "end": 7.707
+        },
+        {
+          "text": "ago",
+          "start": 7.707,
+          "end": 8.12
+        },
+        {
+          "text": ",",
+          "start": 8.12,
+          "end": 8.232
+        },
+        {
+          "text": "automating",
+          "start": 8.232,
+          "end": 8.795
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 8.795,
+          "end": 9.595
+        },
+        {
+          "text": "meant",
+          "start": 9.595,
+          "end": 9.857
+        },
+        {
+          "text": "writing",
+          "start": 9.857,
+          "end": 10.232
+        },
+        {
+          "text": "JavaScript",
+          "start": 10.232,
+          "end": 10.87
+        },
+        {
+          "text": "fallbacks",
+          "start": 10.87,
+          "end": 11.758
+        },
+        {
+          "text": "because",
+          "start": 11.758,
+          "end": 12.07
+        },
+        {
+          "text": "Selenium's",
+          "start": 12.07,
+          "end": 12.682
+        },
+        {
+          "text": "Actions",
+          "start": 12.682,
+          "end": 13.17
+        },
+        {
+          "text": "class",
+          "start": 13.17,
+          "end": 13.595
+        },
+        {
+          "text": "couldn't",
+          "start": 13.595,
+          "end": 13.82
+        },
+        {
+          "text": "keep",
+          "start": 13.82,
+          "end": 14.057
+        },
+        {
+          "text": "up",
+          "start": 14.057,
+          "end": 14.232
+        },
+        {
+          "text": "with",
+          "start": 14.232,
+          "end": 14.395
+        },
+        {
+          "text": "custom",
+          "start": 14.395,
+          "end": 14.77
+        },
+        {
+          "text": "web",
+          "start": 14.77,
+          "end": 14.995
+        },
+        {
+          "text": "components",
+          "start": 14.995,
+          "end": 16.045
+        },
+        {
+          "text": ".",
+          "start": 16.045,
+          "end": 16.182
+        },
+        {
+          "text": "Today",
+          "start": 16.182,
+          "end": 16.77
+        },
+        {
+          "text": ",",
+          "start": 16.77,
+          "end": 16.895
+        },
+        {
+          "text": "both",
+          "start": 16.895,
+          "end": 17.145
+        },
+        {
+          "text": "Selenium",
+          "start": 17.145,
+          "end": 17.795
+        },
+        {
+          "text": "and",
+          "start": 17.795,
+          "end": 17.97
+        },
+        {
+          "text": "Playwright",
+          "start": 17.97,
+          "end": 18.42
+        },
+        {
+          "text": "have",
+          "start": 18.42,
+          "end": 18.657
+        },
+        {
+          "text": "low-level",
+          "start": 18.657,
+          "end": 19.22
+        },
+        {
+          "text": "browser",
+          "start": 19.22,
+          "end": 19.645
+        },
+        {
+          "text": "protocol",
+          "start": 19.645,
+          "end": 20.17
+        },
+        {
+          "text": "access",
+          "start": 20.17,
+          "end": 21.095
+        },
+        {
+          "text": ",",
+          "start": 21.095,
+          "end": 21.195
+        },
+        {
+          "text": "BiDi",
+          "start": 21.195,
+          "end": 21.883
+        },
+        {
+          "text": "and",
+          "start": 21.883,
+          "end": 22.057
+        },
+        {
+          "text": "CDP",
+          "start": 22.057,
+          "end": 23.12
+        },
+        {
+          "text": ",",
+          "start": 23.12,
+          "end": 23.245
+        },
+        {
+          "text": "that",
+          "start": 23.245,
+          "end": 23.445
+        },
+        {
+          "text": "let",
+          "start": 23.445,
+          "end": 23.595
+        },
+        {
+          "text": "you",
+          "start": 23.595,
+          "end": 23.77
+        },
+        {
+          "text": "simulate",
+          "start": 23.77,
+          "end": 24.258
+        },
+        {
+          "text": "interactions",
+          "start": 24.258,
+          "end": 24.97
+        },
+        {
+          "text": "at",
+          "start": 24.97,
+          "end": 25.058
+        },
+        {
+          "text": "the",
+          "start": 25.058,
+          "end": 25.17
+        },
+        {
+          "text": "engine",
+          "start": 25.17,
+          "end": 25.52
+        },
+        {
+          "text": "level",
+          "start": 25.52,
+          "end": 26.12
+        },
+        {
+          "text": ",",
+          "start": 26.12,
+          "end": 26.245
+        },
+        {
+          "text": "intercept",
+          "start": 26.245,
+          "end": 26.77
+        },
+        {
+          "text": "network",
+          "start": 26.77,
+          "end": 27.095
+        },
+        {
+          "text": "traffic",
+          "start": 27.095,
+          "end": 27.82
+        },
+        {
+          "text": ",",
+          "start": 27.82,
+          "end": 27.92
+        },
+        {
+          "text": "and",
+          "start": 27.92,
+          "end": 28.082
+        },
+        {
+          "text": "even",
+          "start": 28.082,
+          "end": 28.395
+        },
+        {
+          "text": "replay",
+          "start": 28.395,
+          "end": 28.832
+        },
+        {
+          "text": "sessions",
+          "start": 28.832,
+          "end": 29.345
+        },
+        {
+          "text": "with",
+          "start": 29.345,
+          "end": 29.532
+        },
+        {
+          "text": "AI",
+          "start": 29.532,
+          "end": 29.97
+        },
+        {
+          "text": "assistance",
+          "start": 29.97,
+          "end": 30.92
+        },
+        {
+          "text": ".",
+          "start": 30.92,
+          "end": 31.07
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "This post compares the two approaches side-by-side for the three hardest interaction types: drag-and-drop, network interception, and AI-powered replay. If you read the Selenium 2026 guide and the Playwright MCP guide, this is the next step , going deeper into the protocol layer.",
+      "start": 31.39,
+      "end": 50.065,
+      "words": [
+        {
+          "text": "This",
+          "start": 31.665,
+          "end": 31.84
+        },
+        {
+          "text": "post",
+          "start": 31.84,
+          "end": 32.19
+        },
+        {
+          "text": "compares",
+          "start": 32.19,
+          "end": 32.64
+        },
+        {
+          "text": "the",
+          "start": 32.64,
+          "end": 32.777
+        },
+        {
+          "text": "two",
+          "start": 32.777,
+          "end": 33.04
+        },
+        {
+          "text": "approaches",
+          "start": 33.04,
+          "end": 33.578
+        },
+        {
+          "text": "side-by-side",
+          "start": 33.578,
+          "end": 34.39
+        },
+        {
+          "text": "for",
+          "start": 34.39,
+          "end": 34.502
+        },
+        {
+          "text": "the",
+          "start": 34.502,
+          "end": 34.64
+        },
+        {
+          "text": "three",
+          "start": 34.64,
+          "end": 35.002
+        },
+        {
+          "text": "hardest",
+          "start": 35.002,
+          "end": 35.402
+        },
+        {
+          "text": "interaction",
+          "start": 35.402,
+          "end": 35.99
+        },
+        {
+          "text": "types",
+          "start": 35.99,
+          "end": 36.69
+        },
+        {
+          "text": ":",
+          "start": 36.69,
+          "end": 36.828
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 36.828,
+          "end": 37.815
+        },
+        {
+          "text": ",",
+          "start": 37.815,
+          "end": 37.953
+        },
+        {
+          "text": "network",
+          "start": 37.953,
+          "end": 38.328
+        },
+        {
+          "text": "interception",
+          "start": 38.328,
+          "end": 39.19
+        },
+        {
+          "text": ",",
+          "start": 39.19,
+          "end": 39.29
+        },
+        {
+          "text": "and",
+          "start": 39.29,
+          "end": 39.453
+        },
+        {
+          "text": "AI-powered",
+          "start": 39.453,
+          "end": 40.215
+        },
+        {
+          "text": "replay",
+          "start": 40.215,
+          "end": 41.14
+        },
+        {
+          "text": ".",
+          "start": 41.14,
+          "end": 41.352
+        },
+        {
+          "text": "If",
+          "start": 41.352,
+          "end": 41.54
+        },
+        {
+          "text": "you",
+          "start": 41.54,
+          "end": 41.703
+        },
+        {
+          "text": "read",
+          "start": 41.703,
+          "end": 41.902
+        },
+        {
+          "text": "the",
+          "start": 41.902,
+          "end": 42.002
+        },
+        {
+          "text": "Selenium",
+          "start": 42.002,
+          "end": 42.627
+        },
+        {
+          "text": "2026",
+          "start": 42.627,
+          "end": 43.565
+        },
+        {
+          "text": "guide",
+          "start": 43.565,
+          "end": 44.165
+        },
+        {
+          "text": "and",
+          "start": 44.165,
+          "end": 44.302
+        },
+        {
+          "text": "the",
+          "start": 44.302,
+          "end": 44.402
+        },
+        {
+          "text": "Playwright",
+          "start": 44.402,
+          "end": 44.877
+        },
+        {
+          "text": "MCP",
+          "start": 44.877,
+          "end": 45.54
+        },
+        {
+          "text": "guide",
+          "start": 45.54,
+          "end": 46.115
+        },
+        {
+          "text": ",",
+          "start": 46.115,
+          "end": 46.215
+        },
+        {
+          "text": "this",
+          "start": 46.215,
+          "end": 46.465
+        },
+        {
+          "text": "is",
+          "start": 46.465,
+          "end": 46.615
+        },
+        {
+          "text": "the",
+          "start": 46.615,
+          "end": 46.715
+        },
+        {
+          "text": "next",
+          "start": 46.715,
+          "end": 46.99
+        },
+        {
+          "text": "step",
+          "start": 46.99,
+          "end": 47.59
+        },
+        {
+          "text": ",",
+          "start": 47.59,
+          "end": 47.69
+        },
+        {
+          "text": "going",
+          "start": 47.69,
+          "end": 48.052
+        },
+        {
+          "text": "deeper",
+          "start": 48.052,
+          "end": 48.44
+        },
+        {
+          "text": "into",
+          "start": 48.44,
+          "end": 48.627
+        },
+        {
+          "text": "the",
+          "start": 48.627,
+          "end": 48.715
+        },
+        {
+          "text": "protocol",
+          "start": 48.715,
+          "end": 49.24
+        },
+        {
+          "text": "layer",
+          "start": 49.24,
+          "end": 49.915
+        },
+        {
+          "text": ".",
+          "start": 49.915,
+          "end": 50.065
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "How BiDi and CDP Actually Work",
+      "start": 50.385,
+      "end": 53.085,
+      "words": [
+        {
+          "text": "How",
+          "start": 50.66,
+          "end": 50.835
+        },
+        {
+          "text": "BiDi",
+          "start": 50.835,
+          "end": 51.335
+        },
+        {
+          "text": "and",
+          "start": 51.335,
+          "end": 51.46
+        },
+        {
+          "text": "CDP",
+          "start": 51.46,
+          "end": 52.122
+        },
+        {
+          "text": "Actually",
+          "start": 52.122,
+          "end": 52.56
+        },
+        {
+          "text": "Work",
+          "start": 52.56,
+          "end": 53.085
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Before comparing code, let's understand what's happening under the hood.",
+      "start": 53.555,
+      "end": 57.855,
+      "words": [
+        {
+          "text": "Before",
+          "start": 53.805,
+          "end": 54.18
+        },
+        {
+          "text": "comparing",
+          "start": 54.18,
+          "end": 54.705
+        },
+        {
+          "text": "code",
+          "start": 54.705,
+          "end": 55.305
+        },
+        {
+          "text": ",",
+          "start": 55.305,
+          "end": 55.43
+        },
+        {
+          "text": "let's",
+          "start": 55.43,
+          "end": 55.667
+        },
+        {
+          "text": "understand",
+          "start": 55.667,
+          "end": 56.193
+        },
+        {
+          "text": "what's",
+          "start": 56.193,
+          "end": 56.355
+        },
+        {
+          "text": "happening",
+          "start": 56.355,
+          "end": 56.805
+        },
+        {
+          "text": "under",
+          "start": 56.805,
+          "end": 57.017
+        },
+        {
+          "text": "the",
+          "start": 57.017,
+          "end": 57.105
+        },
+        {
+          "text": "hood",
+          "start": 57.105,
+          "end": 57.68
+        },
+        {
+          "text": ".",
+          "start": 57.68,
+          "end": 57.855
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "The critical difference: Selenium BiDi adds a translation layer. The browser speaks CDP natively, but Selenium wraps it in the WebDriver BiDi protocol , a WebSocket-based standard that all browser vendors agreed on. Playwright skips the translation and talks CDP directly.",
+      "start": 58.175,
+      "end": 77.375,
+      "words": [
+        {
+          "text": "The",
+          "start": 58.425,
+          "end": 58.5
+        },
+        {
+          "text": "critical",
+          "start": 58.5,
+          "end": 58.95
+        },
+        {
+          "text": "difference",
+          "start": 58.95,
+          "end": 59.725
+        },
+        {
+          "text": ":",
+          "start": 59.725,
+          "end": 59.85
+        },
+        {
+          "text": "Selenium",
+          "start": 59.85,
+          "end": 60.425
+        },
+        {
+          "text": "BiDi",
+          "start": 60.425,
+          "end": 61.088
+        },
+        {
+          "text": "adds",
+          "start": 61.088,
+          "end": 61.338
+        },
+        {
+          "text": "a",
+          "start": 61.338,
+          "end": 61.4
+        },
+        {
+          "text": "translation",
+          "start": 61.4,
+          "end": 62.175
+        },
+        {
+          "text": "layer",
+          "start": 62.175,
+          "end": 62.975
+        },
+        {
+          "text": ".",
+          "start": 62.975,
+          "end": 63.113
+        },
+        {
+          "text": "The",
+          "start": 63.113,
+          "end": 63.225
+        },
+        {
+          "text": "browser",
+          "start": 63.225,
+          "end": 63.662
+        },
+        {
+          "text": "speaks",
+          "start": 63.662,
+          "end": 64.063
+        },
+        {
+          "text": "CDP",
+          "start": 64.063,
+          "end": 64.675
+        },
+        {
+          "text": "natively",
+          "start": 64.675,
+          "end": 65.425
+        },
+        {
+          "text": ",",
+          "start": 65.425,
+          "end": 65.525
+        },
+        {
+          "text": "but",
+          "start": 65.525,
+          "end": 65.688
+        },
+        {
+          "text": "Selenium",
+          "start": 65.688,
+          "end": 66.288
+        },
+        {
+          "text": "wraps",
+          "start": 66.288,
+          "end": 66.65
+        },
+        {
+          "text": "it",
+          "start": 66.65,
+          "end": 66.8
+        },
+        {
+          "text": "in",
+          "start": 66.8,
+          "end": 66.887
+        },
+        {
+          "text": "the",
+          "start": 66.887,
+          "end": 66.975
+        },
+        {
+          "text": "WebDriver",
+          "start": 66.975,
+          "end": 67.525
+        },
+        {
+          "text": "BiDi",
+          "start": 67.525,
+          "end": 68.05
+        },
+        {
+          "text": "protocol",
+          "start": 68.05,
+          "end": 68.938
+        },
+        {
+          "text": ",",
+          "start": 68.938,
+          "end": 69.05
+        },
+        {
+          "text": "a",
+          "start": 69.05,
+          "end": 69.163
+        },
+        {
+          "text": "WebSocket-based",
+          "start": 69.163,
+          "end": 70.225
+        },
+        {
+          "text": "standard",
+          "start": 70.225,
+          "end": 70.775
+        },
+        {
+          "text": "that",
+          "start": 70.775,
+          "end": 70.962
+        },
+        {
+          "text": "all",
+          "start": 70.962,
+          "end": 71.25
+        },
+        {
+          "text": "browser",
+          "start": 71.25,
+          "end": 71.675
+        },
+        {
+          "text": "vendors",
+          "start": 71.675,
+          "end": 72.125
+        },
+        {
+          "text": "agreed",
+          "start": 72.125,
+          "end": 72.45
+        },
+        {
+          "text": "on",
+          "start": 72.45,
+          "end": 73.1
+        },
+        {
+          "text": ".",
+          "start": 73.1,
+          "end": 73.275
+        },
+        {
+          "text": "Playwright",
+          "start": 73.275,
+          "end": 73.762
+        },
+        {
+          "text": "skips",
+          "start": 73.762,
+          "end": 74.1
+        },
+        {
+          "text": "the",
+          "start": 74.1,
+          "end": 74.2
+        },
+        {
+          "text": "translation",
+          "start": 74.2,
+          "end": 75.25
+        },
+        {
+          "text": "and",
+          "start": 75.25,
+          "end": 75.413
+        },
+        {
+          "text": "talks",
+          "start": 75.413,
+          "end": 75.762
+        },
+        {
+          "text": "CDP",
+          "start": 75.762,
+          "end": 76.35
+        },
+        {
+          "text": "directly",
+          "start": 76.35,
+          "end": 77.225
+        },
+        {
+          "text": ".",
+          "start": 77.225,
+          "end": 77.375
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "The tradeoff: BiDi is simpler but less powerful. CDP is deeper but Chromium-only for the most advanced features.",
+      "start": 77.695,
+      "end": 85.77,
+      "words": [
+        {
+          "text": "The",
+          "start": 77.945,
+          "end": 78.02
+        },
+        {
+          "text": "tradeoff",
+          "start": 78.02,
+          "end": 78.72
+        },
+        {
+          "text": ":",
+          "start": 78.72,
+          "end": 78.82
+        },
+        {
+          "text": "BiDi",
+          "start": 78.82,
+          "end": 79.295
+        },
+        {
+          "text": "is",
+          "start": 79.295,
+          "end": 79.433
+        },
+        {
+          "text": "simpler",
+          "start": 79.433,
+          "end": 79.87
+        },
+        {
+          "text": "but",
+          "start": 79.87,
+          "end": 80.02
+        },
+        {
+          "text": "less",
+          "start": 80.02,
+          "end": 80.258
+        },
+        {
+          "text": "powerful",
+          "start": 80.258,
+          "end": 81.245
+        },
+        {
+          "text": ".",
+          "start": 81.245,
+          "end": 81.407
+        },
+        {
+          "text": "CDP",
+          "start": 81.407,
+          "end": 82.07
+        },
+        {
+          "text": "is",
+          "start": 82.07,
+          "end": 82.233
+        },
+        {
+          "text": "deeper",
+          "start": 82.233,
+          "end": 82.595
+        },
+        {
+          "text": "but",
+          "start": 82.595,
+          "end": 82.745
+        },
+        {
+          "text": "Chromium",
+          "start": 82.745,
+          "end": 83.495
+        },
+        {
+          "text": "-",
+          "start": 83.495,
+          "end": 83.595
+        },
+        {
+          "text": "only",
+          "start": 83.595,
+          "end": 83.895
+        },
+        {
+          "text": "for",
+          "start": 83.895,
+          "end": 84.008
+        },
+        {
+          "text": "the",
+          "start": 84.008,
+          "end": 84.095
+        },
+        {
+          "text": "most",
+          "start": 84.095,
+          "end": 84.345
+        },
+        {
+          "text": "advanced",
+          "start": 84.345,
+          "end": 84.845
+        },
+        {
+          "text": "features",
+          "start": 84.845,
+          "end": 85.62
+        },
+        {
+          "text": ".",
+          "start": 85.62,
+          "end": 85.77
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "h2",
+      "text": "Drag-and-Drop: From JavaScript Hacks to Protocol-Level Events",
+      "start": 86.09,
+      "end": 90.19,
+      "words": [
+        {
+          "text": "Drag-and-Drop",
+          "start": 86.365,
+          "end": 87.315
+        },
+        {
+          "text": ":",
+          "start": 87.315,
+          "end": 87.415
+        },
+        {
+          "text": "From",
+          "start": 87.415,
+          "end": 87.615
+        },
+        {
+          "text": "JavaScript",
+          "start": 87.615,
+          "end": 88.215
+        },
+        {
+          "text": "Hacks",
+          "start": 88.215,
+          "end": 88.64
+        },
+        {
+          "text": "to",
+          "start": 88.64,
+          "end": 88.765
+        },
+        {
+          "text": "Protocol-Level",
+          "start": 88.765,
+          "end": 89.515
+        },
+        {
+          "text": "Events",
+          "start": 89.515,
+          "end": 90.19
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "In the 2024 drag-and-drop guide, most methods relied on JavaScript fallbacks because Selenium's Actions class couldn't reliably trigger custom drag handlers. In 2026, both BiDi and CDP let you fire the raw dragstart, dragover, and drop events that the application is actually listening for.",
+      "start": 90.61,
+      "end": 111.66,
+      "words": [
+        {
+          "text": "In",
+          "start": 90.885,
+          "end": 90.972
+        },
+        {
+          "text": "the",
+          "start": 90.972,
+          "end": 91.06
+        },
+        {
+          "text": "2024",
+          "start": 91.06,
+          "end": 92.048
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 92.048,
+          "end": 92.76
+        },
+        {
+          "text": "guide",
+          "start": 92.76,
+          "end": 93.335
+        },
+        {
+          "text": ",",
+          "start": 93.335,
+          "end": 93.472
+        },
+        {
+          "text": "most",
+          "start": 93.472,
+          "end": 93.785
+        },
+        {
+          "text": "methods",
+          "start": 93.785,
+          "end": 94.185
+        },
+        {
+          "text": "relied",
+          "start": 94.185,
+          "end": 94.572
+        },
+        {
+          "text": "on",
+          "start": 94.572,
+          "end": 94.772
+        },
+        {
+          "text": "JavaScript",
+          "start": 94.772,
+          "end": 95.435
+        },
+        {
+          "text": "fallbacks",
+          "start": 95.435,
+          "end": 96.347
+        },
+        {
+          "text": "because",
+          "start": 96.347,
+          "end": 96.672
+        },
+        {
+          "text": "Selenium's",
+          "start": 96.672,
+          "end": 97.323
+        },
+        {
+          "text": "Actions",
+          "start": 97.323,
+          "end": 97.81
+        },
+        {
+          "text": "class",
+          "start": 97.81,
+          "end": 98.248
+        },
+        {
+          "text": "couldn't",
+          "start": 98.248,
+          "end": 98.485
+        },
+        {
+          "text": "reliably",
+          "start": 98.485,
+          "end": 99.122
+        },
+        {
+          "text": "trigger",
+          "start": 99.122,
+          "end": 99.497
+        },
+        {
+          "text": "custom",
+          "start": 99.497,
+          "end": 99.91
+        },
+        {
+          "text": "drag",
+          "start": 99.91,
+          "end": 100.21
+        },
+        {
+          "text": "handlers",
+          "start": 100.21,
+          "end": 101.285
+        },
+        {
+          "text": ".",
+          "start": 101.285,
+          "end": 101.448
+        },
+        {
+          "text": "In",
+          "start": 101.448,
+          "end": 101.585
+        },
+        {
+          "text": "2026",
+          "start": 101.585,
+          "end": 102.835
+        },
+        {
+          "text": ",",
+          "start": 102.835,
+          "end": 102.935
+        },
+        {
+          "text": "both",
+          "start": 102.935,
+          "end": 103.247
+        },
+        {
+          "text": "BiDi",
+          "start": 103.247,
+          "end": 103.948
+        },
+        {
+          "text": "and",
+          "start": 103.948,
+          "end": 104.122
+        },
+        {
+          "text": "CDP",
+          "start": 104.122,
+          "end": 104.985
+        },
+        {
+          "text": "let",
+          "start": 104.985,
+          "end": 105.185
+        },
+        {
+          "text": "you",
+          "start": 105.185,
+          "end": 105.36
+        },
+        {
+          "text": "fire",
+          "start": 105.36,
+          "end": 105.76
+        },
+        {
+          "text": "the",
+          "start": 105.76,
+          "end": 105.897
+        },
+        {
+          "text": "raw",
+          "start": 105.897,
+          "end": 106.172
+        },
+        {
+          "text": "dragstart",
+          "start": 106.172,
+          "end": 107.06
+        },
+        {
+          "text": ",",
+          "start": 107.06,
+          "end": 107.197
+        },
+        {
+          "text": "dragover",
+          "start": 107.197,
+          "end": 107.81
+        },
+        {
+          "text": ",",
+          "start": 107.81,
+          "end": 107.885
+        },
+        {
+          "text": "and",
+          "start": 107.885,
+          "end": 108.01
+        },
+        {
+          "text": "drop",
+          "start": 108.01,
+          "end": 108.273
+        },
+        {
+          "text": "events",
+          "start": 108.273,
+          "end": 108.922
+        },
+        {
+          "text": "that",
+          "start": 108.922,
+          "end": 109.048
+        },
+        {
+          "text": "the",
+          "start": 109.048,
+          "end": 109.16
+        },
+        {
+          "text": "application",
+          "start": 109.16,
+          "end": 109.885
+        },
+        {
+          "text": "is",
+          "start": 109.885,
+          "end": 110.06
+        },
+        {
+          "text": "actually",
+          "start": 110.06,
+          "end": 110.51
+        },
+        {
+          "text": "listening",
+          "start": 110.51,
+          "end": 110.91
+        },
+        {
+          "text": "for",
+          "start": 110.91,
+          "end": 111.51
+        },
+        {
+          "text": ".",
+          "start": 111.51,
+          "end": 111.66
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h3",
+      "text": "Selenium BiDi: Dispatch Input Events",
+      "start": 111.98,
+      "end": 114.93,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 112.28,
+          "end": 112.755
+        },
+        {
+          "text": "BiDi",
+          "start": 112.755,
+          "end": 113.38
+        },
+        {
+          "text": ":",
+          "start": 113.38,
+          "end": 113.505
+        },
+        {
+          "text": "Dispatch",
+          "start": 113.505,
+          "end": 113.98
+        },
+        {
+          "text": "Input",
+          "start": 113.98,
+          "end": 114.267
+        },
+        {
+          "text": "Events",
+          "start": 114.267,
+          "end": 114.93
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "BiDi's input domain lets you synthesize pointer events. You describe the interaction as a sequence of low-level actions:",
+      "start": 115.375,
+      "end": 123.9,
+      "words": [
+        {
+          "text": "BiDi's",
+          "start": 115.65,
+          "end": 116.337
+        },
+        {
+          "text": "input",
+          "start": 116.337,
+          "end": 116.775
+        },
+        {
+          "text": "domain",
+          "start": 116.775,
+          "end": 117.575
+        },
+        {
+          "text": "lets",
+          "start": 117.575,
+          "end": 117.85
+        },
+        {
+          "text": "you",
+          "start": 117.85,
+          "end": 117.987
+        },
+        {
+          "text": "synthesize",
+          "start": 117.987,
+          "end": 118.712
+        },
+        {
+          "text": "pointer",
+          "start": 118.712,
+          "end": 119.125
+        },
+        {
+          "text": "events",
+          "start": 119.125,
+          "end": 119.95
+        },
+        {
+          "text": ".",
+          "start": 119.95,
+          "end": 120.087
+        },
+        {
+          "text": "You",
+          "start": 120.087,
+          "end": 120.225
+        },
+        {
+          "text": "describe",
+          "start": 120.225,
+          "end": 120.662
+        },
+        {
+          "text": "the",
+          "start": 120.662,
+          "end": 120.737
+        },
+        {
+          "text": "interaction",
+          "start": 120.737,
+          "end": 121.5
+        },
+        {
+          "text": "as",
+          "start": 121.5,
+          "end": 121.637
+        },
+        {
+          "text": "a",
+          "start": 121.637,
+          "end": 121.737
+        },
+        {
+          "text": "sequence",
+          "start": 121.737,
+          "end": 122.225
+        },
+        {
+          "text": "of",
+          "start": 122.225,
+          "end": 122.387
+        },
+        {
+          "text": "low-level",
+          "start": 122.387,
+          "end": 122.925
+        },
+        {
+          "text": "actions",
+          "start": 122.925,
+          "end": 123.75
+        },
+        {
+          "text": ":",
+          "start": 123.75,
+          "end": 123.9
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "The advantage: BiDi fires actual pointerdown/pointermove/pointerup events that the browser dispatches natively. No JavaScript injection. No DataTransfer hacks. The application's dragstart listener fires as if a real user dragged the element.",
+      "start": 124.22,
+      "end": 141.995,
+      "words": [
+        {
+          "text": "The",
+          "start": 124.47,
+          "end": 124.595
+        },
+        {
+          "text": "advantage",
+          "start": 124.595,
+          "end": 125.47
+        },
+        {
+          "text": ":",
+          "start": 125.47,
+          "end": 125.608
+        },
+        {
+          "text": "BiDi",
+          "start": 125.608,
+          "end": 126.182
+        },
+        {
+          "text": "fires",
+          "start": 126.182,
+          "end": 126.62
+        },
+        {
+          "text": "actual",
+          "start": 126.62,
+          "end": 127.07
+        },
+        {
+          "text": "pointerdown/pointermove/pointerup",
+          "start": 127.07,
+          "end": 130.245
+        },
+        {
+          "text": "events",
+          "start": 130.245,
+          "end": 130.67
+        },
+        {
+          "text": "that",
+          "start": 130.67,
+          "end": 130.782
+        },
+        {
+          "text": "the",
+          "start": 130.782,
+          "end": 130.883
+        },
+        {
+          "text": "browser",
+          "start": 130.883,
+          "end": 131.345
+        },
+        {
+          "text": "dispatches",
+          "start": 131.345,
+          "end": 131.983
+        },
+        {
+          "text": "natively",
+          "start": 131.983,
+          "end": 132.97
+        },
+        {
+          "text": ".",
+          "start": 132.97,
+          "end": 133.145
+        },
+        {
+          "text": "No",
+          "start": 133.145,
+          "end": 133.432
+        },
+        {
+          "text": "JavaScript",
+          "start": 133.432,
+          "end": 134.095
+        },
+        {
+          "text": "injection",
+          "start": 134.095,
+          "end": 134.995
+        },
+        {
+          "text": ".",
+          "start": 134.995,
+          "end": 135.145
+        },
+        {
+          "text": "No",
+          "start": 135.145,
+          "end": 135.37
+        },
+        {
+          "text": "DataTransfer",
+          "start": 135.37,
+          "end": 136.07
+        },
+        {
+          "text": "hacks",
+          "start": 136.07,
+          "end": 136.82
+        },
+        {
+          "text": ".",
+          "start": 136.82,
+          "end": 136.92
+        },
+        {
+          "text": "The",
+          "start": 136.92,
+          "end": 137.07
+        },
+        {
+          "text": "application's",
+          "start": 137.07,
+          "end": 137.883
+        },
+        {
+          "text": "dragstart",
+          "start": 137.883,
+          "end": 138.495
+        },
+        {
+          "text": "listener",
+          "start": 138.495,
+          "end": 138.87
+        },
+        {
+          "text": "fires",
+          "start": 138.87,
+          "end": 139.62
+        },
+        {
+          "text": "as",
+          "start": 139.62,
+          "end": 139.77
+        },
+        {
+          "text": "if",
+          "start": 139.77,
+          "end": 139.883
+        },
+        {
+          "text": "a",
+          "start": 139.883,
+          "end": 139.983
+        },
+        {
+          "text": "real",
+          "start": 139.983,
+          "end": 140.27
+        },
+        {
+          "text": "user",
+          "start": 140.27,
+          "end": 140.608
+        },
+        {
+          "text": "dragged",
+          "start": 140.608,
+          "end": 140.983
+        },
+        {
+          "text": "the",
+          "start": 140.983,
+          "end": 141.12
+        },
+        {
+          "text": "element",
+          "start": 141.12,
+          "end": 141.845
+        },
+        {
+          "text": ".",
+          "start": 141.845,
+          "end": 141.995
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "Playwright CDP: Route and Simulate at the Protocol Level",
+      "start": 142.315,
+      "end": 146.365,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 142.565,
+          "end": 142.977
+        },
+        {
+          "text": "CDP",
+          "start": 142.977,
+          "end": 143.915
+        },
+        {
+          "text": ":",
+          "start": 143.915,
+          "end": 144.09
+        },
+        {
+          "text": "Route",
+          "start": 144.09,
+          "end": 144.478
+        },
+        {
+          "text": "and",
+          "start": 144.478,
+          "end": 144.652
+        },
+        {
+          "text": "Simulate",
+          "start": 144.652,
+          "end": 145.127
+        },
+        {
+          "text": "at",
+          "start": 145.127,
+          "end": 145.203
+        },
+        {
+          "text": "the",
+          "start": 145.203,
+          "end": 145.29
+        },
+        {
+          "text": "Protocol",
+          "start": 145.29,
+          "end": 145.79
+        },
+        {
+          "text": "Level",
+          "start": 145.79,
+          "end": 146.365
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "Playwright can go even deeper , it can intercept and modify the HTML5 drag events before they reach the page:",
+      "start": 146.81,
+      "end": 154.185,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 147.06,
+          "end": 147.485
+        },
+        {
+          "text": "can",
+          "start": 147.485,
+          "end": 147.61
+        },
+        {
+          "text": "go",
+          "start": 147.61,
+          "end": 147.785
+        },
+        {
+          "text": "even",
+          "start": 147.785,
+          "end": 148.06
+        },
+        {
+          "text": "deeper",
+          "start": 148.06,
+          "end": 148.797
+        },
+        {
+          "text": ",",
+          "start": 148.797,
+          "end": 148.885
+        },
+        {
+          "text": "it",
+          "start": 148.885,
+          "end": 148.973
+        },
+        {
+          "text": "can",
+          "start": 148.973,
+          "end": 149.135
+        },
+        {
+          "text": "intercept",
+          "start": 149.135,
+          "end": 149.772
+        },
+        {
+          "text": "and",
+          "start": 149.772,
+          "end": 149.91
+        },
+        {
+          "text": "modify",
+          "start": 149.91,
+          "end": 150.385
+        },
+        {
+          "text": "the",
+          "start": 150.385,
+          "end": 150.547
+        },
+        {
+          "text": "HTML5",
+          "start": 150.547,
+          "end": 151.835
+        },
+        {
+          "text": "drag",
+          "start": 151.835,
+          "end": 152.123
+        },
+        {
+          "text": "events",
+          "start": 152.123,
+          "end": 152.585
+        },
+        {
+          "text": "before",
+          "start": 152.585,
+          "end": 152.897
+        },
+        {
+          "text": "they",
+          "start": 152.897,
+          "end": 153.035
+        },
+        {
+          "text": "reach",
+          "start": 153.035,
+          "end": 153.285
+        },
+        {
+          "text": "the",
+          "start": 153.285,
+          "end": 153.385
+        },
+        {
+          "text": "page",
+          "start": 153.385,
+          "end": 154.01
+        },
+        {
+          "text": ":",
+          "start": 154.01,
+          "end": 154.185
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "Playwright's DragAndDropAsync is a single call. Under the hood it uses CDP to:",
+      "start": 154.505,
+      "end": 160.055,
+      "words": [
+        {
+          "text": "Playwright's",
+          "start": 154.755,
+          "end": 155.205
+        },
+        {
+          "text": "DragAndDropAsync",
+          "start": 155.205,
+          "end": 156.33
+        },
+        {
+          "text": "is",
+          "start": 156.33,
+          "end": 156.467
+        },
+        {
+          "text": "a",
+          "start": 156.467,
+          "end": 156.567
+        },
+        {
+          "text": "single",
+          "start": 156.567,
+          "end": 156.93
+        },
+        {
+          "text": "call",
+          "start": 156.93,
+          "end": 157.555
+        },
+        {
+          "text": ".",
+          "start": 157.555,
+          "end": 157.692
+        },
+        {
+          "text": "Under",
+          "start": 157.692,
+          "end": 157.942
+        },
+        {
+          "text": "the",
+          "start": 157.942,
+          "end": 158.03
+        },
+        {
+          "text": "hood",
+          "start": 158.03,
+          "end": 158.305
+        },
+        {
+          "text": "it",
+          "start": 158.305,
+          "end": 158.405
+        },
+        {
+          "text": "uses",
+          "start": 158.405,
+          "end": 158.742
+        },
+        {
+          "text": "CDP",
+          "start": 158.742,
+          "end": 159.393
+        },
+        {
+          "text": "to",
+          "start": 159.393,
+          "end": 159.78
+        },
+        {
+          "text": ":",
+          "start": 159.78,
+          "end": 160.055
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "Inject a DataTransfer into the drag event pipeline",
+      "start": 160.375,
+      "end": 163.775,
+      "words": [
+        {
+          "text": "Inject",
+          "start": 160.675,
+          "end": 161.05
+        },
+        {
+          "text": "a",
+          "start": 161.05,
+          "end": 161.125
+        },
+        {
+          "text": "DataTransfer",
+          "start": 161.125,
+          "end": 162.025
+        },
+        {
+          "text": "into",
+          "start": 162.025,
+          "end": 162.212
+        },
+        {
+          "text": "the",
+          "start": 162.212,
+          "end": 162.3
+        },
+        {
+          "text": "drag",
+          "start": 162.3,
+          "end": 162.612
+        },
+        {
+          "text": "event",
+          "start": 162.612,
+          "end": 162.937
+        },
+        {
+          "text": "pipeline",
+          "start": 162.937,
+          "end": 163.775
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "Fire dragstart with the correct payload",
+      "start": 164.245,
+      "end": 166.795,
+      "words": [
+        {
+          "text": "Fire",
+          "start": 164.545,
+          "end": 164.82
+        },
+        {
+          "text": "dragstart",
+          "start": 164.82,
+          "end": 165.47
+        },
+        {
+          "text": "with",
+          "start": 165.47,
+          "end": 165.582
+        },
+        {
+          "text": "the",
+          "start": 165.582,
+          "end": 165.67
+        },
+        {
+          "text": "correct",
+          "start": 165.67,
+          "end": 166.045
+        },
+        {
+          "text": "payload",
+          "start": 166.045,
+          "end": 166.795
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Fire dragover on each element the cursor passes over",
+      "start": 167.265,
+      "end": 170.965,
+      "words": [
+        {
+          "text": "Fire",
+          "start": 167.565,
+          "end": 167.865
+        },
+        {
+          "text": "dragover",
+          "start": 167.865,
+          "end": 168.44
+        },
+        {
+          "text": "on",
+          "start": 168.44,
+          "end": 168.615
+        },
+        {
+          "text": "each",
+          "start": 168.615,
+          "end": 168.84
+        },
+        {
+          "text": "element",
+          "start": 168.84,
+          "end": 169.452
+        },
+        {
+          "text": "the",
+          "start": 169.452,
+          "end": 169.565
+        },
+        {
+          "text": "cursor",
+          "start": 169.565,
+          "end": 169.99
+        },
+        {
+          "text": "passes",
+          "start": 169.99,
+          "end": 170.39
+        },
+        {
+          "text": "over",
+          "start": 170.39,
+          "end": 170.965
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Fire drop on the target",
+      "start": 171.435,
+      "end": 173.26,
+      "words": [
+        {
+          "text": "Fire",
+          "start": 171.735,
+          "end": 172.085
+        },
+        {
+          "text": "drop",
+          "start": 172.085,
+          "end": 172.373
+        },
+        {
+          "text": "on",
+          "start": 172.373,
+          "end": 172.473
+        },
+        {
+          "text": "the",
+          "start": 172.473,
+          "end": 172.56
+        },
+        {
+          "text": "target",
+          "start": 172.56,
+          "end": 173.26
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Fire dragend to clean up",
+      "start": 173.705,
+      "end": 175.455,
+      "words": [
+        {
+          "text": "Fire",
+          "start": 174.005,
+          "end": 174.255
+        },
+        {
+          "text": "dragend",
+          "start": 174.255,
+          "end": 174.68
+        },
+        {
+          "text": "to",
+          "start": 174.68,
+          "end": 174.78
+        },
+        {
+          "text": "clean",
+          "start": 174.78,
+          "end": 175.03
+        },
+        {
+          "text": "up",
+          "start": 175.03,
+          "end": 175.455
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h3",
+      "text": "Which Wins for Drag-and-Drop?",
+      "start": 175.925,
+      "end": 178.025,
+      "words": [
+        {
+          "text": "Which",
+          "start": 176.2,
+          "end": 176.4
+        },
+        {
+          "text": "Wins",
+          "start": 176.4,
+          "end": 176.7
+        },
+        {
+          "text": "for",
+          "start": 176.7,
+          "end": 176.825
+        },
+        {
+          "text": "Drag-and-Drop",
+          "start": 176.825,
+          "end": 177.85
+        },
+        {
+          "text": "?",
+          "start": 177.85,
+          "end": 178.025
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "Winner: Playwright for simplicity. Selenium BiDi for debugging and Firefox support.",
+      "start": 178.345,
+      "end": 184.22,
+      "words": [
+        {
+          "text": "Winner",
+          "start": 178.62,
+          "end": 179.045
+        },
+        {
+          "text": ":",
+          "start": 179.045,
+          "end": 179.158
+        },
+        {
+          "text": "Playwright",
+          "start": 179.158,
+          "end": 179.595
+        },
+        {
+          "text": "for",
+          "start": 179.595,
+          "end": 179.72
+        },
+        {
+          "text": "simplicity",
+          "start": 179.72,
+          "end": 180.695
+        },
+        {
+          "text": ".",
+          "start": 180.695,
+          "end": 180.845
+        },
+        {
+          "text": "Selenium",
+          "start": 180.845,
+          "end": 181.395
+        },
+        {
+          "text": "BiDi",
+          "start": 181.395,
+          "end": 181.995
+        },
+        {
+          "text": "for",
+          "start": 181.995,
+          "end": 182.12
+        },
+        {
+          "text": "debugging",
+          "start": 182.12,
+          "end": 182.67
+        },
+        {
+          "text": "and",
+          "start": 182.67,
+          "end": 182.808
+        },
+        {
+          "text": "Firefox",
+          "start": 182.808,
+          "end": 183.37
+        },
+        {
+          "text": "support",
+          "start": 183.37,
+          "end": 184.07
+        },
+        {
+          "text": ".",
+          "start": 184.07,
+          "end": 184.22
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h2",
+      "text": "Network Interception: Watch, Modify, and Mock API Calls",
+      "start": 184.54,
+      "end": 188.89,
+      "words": [
+        {
+          "text": "Network",
+          "start": 184.84,
+          "end": 185.202
+        },
+        {
+          "text": "Interception",
+          "start": 185.202,
+          "end": 186.09
+        },
+        {
+          "text": ":",
+          "start": 186.09,
+          "end": 186.228
+        },
+        {
+          "text": "Watch",
+          "start": 186.228,
+          "end": 186.615
+        },
+        {
+          "text": ",",
+          "start": 186.615,
+          "end": 186.69
+        },
+        {
+          "text": "Modify",
+          "start": 186.69,
+          "end": 187.215
+        },
+        {
+          "text": ",",
+          "start": 187.215,
+          "end": 187.265
+        },
+        {
+          "text": "and",
+          "start": 187.265,
+          "end": 187.39
+        },
+        {
+          "text": "Mock",
+          "start": 187.39,
+          "end": 187.678
+        },
+        {
+          "text": "API",
+          "start": 187.678,
+          "end": 188.215
+        },
+        {
+          "text": "Calls",
+          "start": 188.215,
+          "end": 188.89
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "Both BiDi and CDP let you intercept network requests mid-flight. This is the superpower that eliminates the need for separate API mocking tools in many cases.",
+      "start": 189.335,
+      "end": 201.16,
+      "words": [
+        {
+          "text": "Both",
+          "start": 189.585,
+          "end": 189.86
+        },
+        {
+          "text": "BiDi",
+          "start": 189.86,
+          "end": 190.585
+        },
+        {
+          "text": "and",
+          "start": 190.585,
+          "end": 190.785
+        },
+        {
+          "text": "CDP",
+          "start": 190.785,
+          "end": 191.785
+        },
+        {
+          "text": "let",
+          "start": 191.785,
+          "end": 191.96
+        },
+        {
+          "text": "you",
+          "start": 191.96,
+          "end": 192.085
+        },
+        {
+          "text": "intercept",
+          "start": 192.085,
+          "end": 192.698
+        },
+        {
+          "text": "network",
+          "start": 192.698,
+          "end": 193.16
+        },
+        {
+          "text": "requests",
+          "start": 193.16,
+          "end": 193.698
+        },
+        {
+          "text": "mid-flight",
+          "start": 193.698,
+          "end": 194.71
+        },
+        {
+          "text": ".",
+          "start": 194.71,
+          "end": 194.885
+        },
+        {
+          "text": "This",
+          "start": 194.885,
+          "end": 195.21
+        },
+        {
+          "text": "is",
+          "start": 195.21,
+          "end": 195.36
+        },
+        {
+          "text": "the",
+          "start": 195.36,
+          "end": 195.498
+        },
+        {
+          "text": "superpower",
+          "start": 195.498,
+          "end": 196.473
+        },
+        {
+          "text": "that",
+          "start": 196.473,
+          "end": 196.635
+        },
+        {
+          "text": "eliminates",
+          "start": 196.635,
+          "end": 197.235
+        },
+        {
+          "text": "the",
+          "start": 197.235,
+          "end": 197.335
+        },
+        {
+          "text": "need",
+          "start": 197.335,
+          "end": 197.685
+        },
+        {
+          "text": "for",
+          "start": 197.685,
+          "end": 197.847
+        },
+        {
+          "text": "separate",
+          "start": 197.847,
+          "end": 198.298
+        },
+        {
+          "text": "API",
+          "start": 198.298,
+          "end": 198.91
+        },
+        {
+          "text": "mocking",
+          "start": 198.91,
+          "end": 199.285
+        },
+        {
+          "text": "tools",
+          "start": 199.285,
+          "end": 199.81
+        },
+        {
+          "text": "in",
+          "start": 199.81,
+          "end": 199.96
+        },
+        {
+          "text": "many",
+          "start": 199.96,
+          "end": 200.185
+        },
+        {
+          "text": "cases",
+          "start": 200.185,
+          "end": 201.01
+        },
+        {
+          "text": ".",
+          "start": 201.01,
+          "end": 201.16
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h3",
+      "text": "Selenium BiDi: Network Event Subscription",
+      "start": 201.48,
+      "end": 204.63,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 201.78,
+          "end": 202.255
+        },
+        {
+          "text": "BiDi",
+          "start": 202.255,
+          "end": 202.93
+        },
+        {
+          "text": ":",
+          "start": 202.93,
+          "end": 203.067
+        },
+        {
+          "text": "Network",
+          "start": 203.067,
+          "end": 203.393
+        },
+        {
+          "text": "Event",
+          "start": 203.393,
+          "end": 203.68
+        },
+        {
+          "text": "Subscription",
+          "start": 203.68,
+          "end": 204.63
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "BiDi's network domain is event-driven: you subscribe to NetworkRequestSent and NetworkResponseReceived, and the browser pushes events to you in real time. No polling, no explicit waits.",
+      "start": 205.075,
+      "end": 217.85,
+      "words": [
+        {
+          "text": "BiDi's",
+          "start": 205.35,
+          "end": 205.925
+        },
+        {
+          "text": "network",
+          "start": 205.925,
+          "end": 206.325
+        },
+        {
+          "text": "domain",
+          "start": 206.325,
+          "end": 206.888
+        },
+        {
+          "text": "is",
+          "start": 206.888,
+          "end": 207.05
+        },
+        {
+          "text": "event-driven",
+          "start": 207.05,
+          "end": 208.15
+        },
+        {
+          "text": ":",
+          "start": 208.15,
+          "end": 208.288
+        },
+        {
+          "text": "you",
+          "start": 208.288,
+          "end": 208.45
+        },
+        {
+          "text": "subscribe",
+          "start": 208.45,
+          "end": 209.075
+        },
+        {
+          "text": "to",
+          "start": 209.075,
+          "end": 209.212
+        },
+        {
+          "text": "NetworkRequestSent",
+          "start": 209.212,
+          "end": 210.337
+        },
+        {
+          "text": "and",
+          "start": 210.337,
+          "end": 210.475
+        },
+        {
+          "text": "NetworkResponseReceived",
+          "start": 210.475,
+          "end": 212.05
+        },
+        {
+          "text": ",",
+          "start": 212.05,
+          "end": 212.15
+        },
+        {
+          "text": "and",
+          "start": 212.15,
+          "end": 212.263
+        },
+        {
+          "text": "the",
+          "start": 212.263,
+          "end": 212.35
+        },
+        {
+          "text": "browser",
+          "start": 212.35,
+          "end": 212.788
+        },
+        {
+          "text": "pushes",
+          "start": 212.788,
+          "end": 213.225
+        },
+        {
+          "text": "events",
+          "start": 213.225,
+          "end": 213.6
+        },
+        {
+          "text": "to",
+          "start": 213.6,
+          "end": 213.7
+        },
+        {
+          "text": "you",
+          "start": 213.7,
+          "end": 213.9
+        },
+        {
+          "text": "in",
+          "start": 213.9,
+          "end": 214.063
+        },
+        {
+          "text": "real",
+          "start": 214.063,
+          "end": 214.35
+        },
+        {
+          "text": "time",
+          "start": 214.35,
+          "end": 215.15
+        },
+        {
+          "text": ".",
+          "start": 215.15,
+          "end": 215.325
+        },
+        {
+          "text": "No",
+          "start": 215.325,
+          "end": 215.563
+        },
+        {
+          "text": "polling",
+          "start": 215.563,
+          "end": 216.175
+        },
+        {
+          "text": ",",
+          "start": 216.175,
+          "end": 216.288
+        },
+        {
+          "text": "no",
+          "start": 216.288,
+          "end": 216.525
+        },
+        {
+          "text": "explicit",
+          "start": 216.525,
+          "end": 217.075
+        },
+        {
+          "text": "waits",
+          "start": 217.075,
+          "end": 217.7
+        },
+        {
+          "text": ".",
+          "start": 217.7,
+          "end": 217.85
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "h3",
+      "text": "Playwright CDP: Route Interception",
+      "start": 218.17,
+      "end": 220.895,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 218.445,
+          "end": 218.845
+        },
+        {
+          "text": "CDP",
+          "start": 218.845,
+          "end": 219.645
+        },
+        {
+          "text": ":",
+          "start": 219.645,
+          "end": 219.807
+        },
+        {
+          "text": "Route",
+          "start": 219.807,
+          "end": 220.032
+        },
+        {
+          "text": "Interception",
+          "start": 220.032,
+          "end": 220.895
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "Playwright's page.RouteAsync() is more powerful , you can intercept, modify, or mock responses mid-flight:",
+      "start": 221.365,
+      "end": 228.49,
+      "words": [
+        {
+          "text": "Playwright's",
+          "start": 221.615,
+          "end": 222.09
+        },
+        {
+          "text": "page",
+          "start": 222.09,
+          "end": 222.615
+        },
+        {
+          "text": ".",
+          "start": 222.615,
+          "end": 222.74
+        },
+        {
+          "text": "RouteAsync",
+          "start": 222.74,
+          "end": 223.615
+        },
+        {
+          "text": "(",
+          "start": 223.615,
+          "end": 223.715
+        },
+        {
+          "text": ")",
+          "start": 223.715,
+          "end": 223.777
+        },
+        {
+          "text": "is",
+          "start": 223.777,
+          "end": 223.94
+        },
+        {
+          "text": "more",
+          "start": 223.94,
+          "end": 224.165
+        },
+        {
+          "text": "powerful",
+          "start": 224.165,
+          "end": 224.777
+        },
+        {
+          "text": ",",
+          "start": 224.777,
+          "end": 224.84
+        },
+        {
+          "text": "you",
+          "start": 224.84,
+          "end": 224.94
+        },
+        {
+          "text": "can",
+          "start": 224.94,
+          "end": 225.14
+        },
+        {
+          "text": "intercept",
+          "start": 225.14,
+          "end": 225.765
+        },
+        {
+          "text": ",",
+          "start": 225.765,
+          "end": 225.852
+        },
+        {
+          "text": "modify",
+          "start": 225.852,
+          "end": 226.49
+        },
+        {
+          "text": ",",
+          "start": 226.49,
+          "end": 226.565
+        },
+        {
+          "text": "or",
+          "start": 226.565,
+          "end": 226.715
+        },
+        {
+          "text": "mock",
+          "start": 226.715,
+          "end": 226.952
+        },
+        {
+          "text": "responses",
+          "start": 226.952,
+          "end": 227.565
+        },
+        {
+          "text": "mid-flight",
+          "start": 227.565,
+          "end": 228.34
+        },
+        {
+          "text": ":",
+          "start": 228.34,
+          "end": 228.49
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h3",
+      "text": "Which Wins for Network Interception?",
+      "start": 228.81,
+      "end": 231.235,
+      "words": [
+        {
+          "text": "Which",
+          "start": 229.085,
+          "end": 229.297
+        },
+        {
+          "text": "Wins",
+          "start": 229.297,
+          "end": 229.66
+        },
+        {
+          "text": "for",
+          "start": 229.66,
+          "end": 229.785
+        },
+        {
+          "text": "Network",
+          "start": 229.785,
+          "end": 230.147
+        },
+        {
+          "text": "Interception",
+          "start": 230.147,
+          "end": 231.085
+        },
+        {
+          "text": "?",
+          "start": 231.085,
+          "end": 231.235
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "Winner: Playwright CDP for power and flexibility. Selenium BiDi for simple monitoring , the event subscription model is cleaner for \"watch everything and report\" scenarios.",
+      "start": 231.555,
+      "end": 243.58,
+      "words": [
+        {
+          "text": "Winner",
+          "start": 231.83,
+          "end": 232.305
+        },
+        {
+          "text": ":",
+          "start": 232.305,
+          "end": 232.417
+        },
+        {
+          "text": "Playwright",
+          "start": 232.417,
+          "end": 232.892
+        },
+        {
+          "text": "CDP",
+          "start": 232.892,
+          "end": 233.53
+        },
+        {
+          "text": "for",
+          "start": 233.53,
+          "end": 233.693
+        },
+        {
+          "text": "power",
+          "start": 233.693,
+          "end": 234.155
+        },
+        {
+          "text": "and",
+          "start": 234.155,
+          "end": 234.28
+        },
+        {
+          "text": "flexibility",
+          "start": 234.28,
+          "end": 235.455
+        },
+        {
+          "text": ".",
+          "start": 235.455,
+          "end": 235.63
+        },
+        {
+          "text": "Selenium",
+          "start": 235.63,
+          "end": 236.23
+        },
+        {
+          "text": "BiDi",
+          "start": 236.23,
+          "end": 236.78
+        },
+        {
+          "text": "for",
+          "start": 236.78,
+          "end": 236.943
+        },
+        {
+          "text": "simple",
+          "start": 236.943,
+          "end": 237.28
+        },
+        {
+          "text": "monitoring",
+          "start": 237.28,
+          "end": 238.167
+        },
+        {
+          "text": ",",
+          "start": 238.167,
+          "end": 238.255
+        },
+        {
+          "text": "the",
+          "start": 238.255,
+          "end": 238.405
+        },
+        {
+          "text": "event",
+          "start": 238.405,
+          "end": 238.68
+        },
+        {
+          "text": "subscription",
+          "start": 238.68,
+          "end": 239.305
+        },
+        {
+          "text": "model",
+          "start": 239.305,
+          "end": 239.88
+        },
+        {
+          "text": "is",
+          "start": 239.88,
+          "end": 240.068
+        },
+        {
+          "text": "cleaner",
+          "start": 240.068,
+          "end": 240.505
+        },
+        {
+          "text": "for",
+          "start": 240.505,
+          "end": 240.68
+        },
+        {
+          "text": "\"",
+          "start": 240.68,
+          "end": 240.755
+        },
+        {
+          "text": "watch",
+          "start": 240.755,
+          "end": 241.092
+        },
+        {
+          "text": "everything",
+          "start": 241.092,
+          "end": 241.68
+        },
+        {
+          "text": "and",
+          "start": 241.68,
+          "end": 241.793
+        },
+        {
+          "text": "report",
+          "start": 241.793,
+          "end": 242.355
+        },
+        {
+          "text": "\"",
+          "start": 242.355,
+          "end": 242.467
+        },
+        {
+          "text": "scenarios",
+          "start": 242.467,
+          "end": 243.455
+        },
+        {
+          "text": ".",
+          "start": 243.455,
+          "end": 243.58
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h2",
+      "text": "AI-Powered Interaction Replay",
+      "start": 243.9,
+      "end": 246.0,
+      "words": [
+        {
+          "text": "AI-Powered",
+          "start": 244.2,
+          "end": 244.738
+        },
+        {
+          "text": "Interaction",
+          "start": 244.738,
+          "end": 245.325
+        },
+        {
+          "text": "Replay",
+          "start": 245.325,
+          "end": 246.0
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "This is the 2026 differentiator. Both BiDi and CDP can record a user session and replay it through an AI agent that adapts to UI changes.",
+      "start": 246.545,
+      "end": 257.145,
+      "words": [
+        {
+          "text": "This",
+          "start": 246.82,
+          "end": 247.083
+        },
+        {
+          "text": "is",
+          "start": 247.083,
+          "end": 247.232
+        },
+        {
+          "text": "the",
+          "start": 247.232,
+          "end": 247.333
+        },
+        {
+          "text": "2026",
+          "start": 247.333,
+          "end": 248.295
+        },
+        {
+          "text": "differentiator",
+          "start": 248.295,
+          "end": 249.47
+        },
+        {
+          "text": ".",
+          "start": 249.47,
+          "end": 249.632
+        },
+        {
+          "text": "Both",
+          "start": 249.632,
+          "end": 249.908
+        },
+        {
+          "text": "BiDi",
+          "start": 249.908,
+          "end": 250.645
+        },
+        {
+          "text": "and",
+          "start": 250.645,
+          "end": 250.833
+        },
+        {
+          "text": "CDP",
+          "start": 250.833,
+          "end": 251.545
+        },
+        {
+          "text": "can",
+          "start": 251.545,
+          "end": 251.67
+        },
+        {
+          "text": "record",
+          "start": 251.67,
+          "end": 252.057
+        },
+        {
+          "text": "a",
+          "start": 252.057,
+          "end": 252.12
+        },
+        {
+          "text": "user",
+          "start": 252.12,
+          "end": 252.42
+        },
+        {
+          "text": "session",
+          "start": 252.42,
+          "end": 253.17
+        },
+        {
+          "text": "and",
+          "start": 253.17,
+          "end": 253.32
+        },
+        {
+          "text": "replay",
+          "start": 253.32,
+          "end": 253.745
+        },
+        {
+          "text": "it",
+          "start": 253.745,
+          "end": 253.908
+        },
+        {
+          "text": "through",
+          "start": 253.908,
+          "end": 254.107
+        },
+        {
+          "text": "an",
+          "start": 254.107,
+          "end": 254.232
+        },
+        {
+          "text": "AI",
+          "start": 254.232,
+          "end": 254.645
+        },
+        {
+          "text": "agent",
+          "start": 254.645,
+          "end": 255.12
+        },
+        {
+          "text": "that",
+          "start": 255.12,
+          "end": 255.27
+        },
+        {
+          "text": "adapts",
+          "start": 255.27,
+          "end": 255.745
+        },
+        {
+          "text": "to",
+          "start": 255.745,
+          "end": 255.87
+        },
+        {
+          "text": "UI",
+          "start": 255.87,
+          "end": 256.17
+        },
+        {
+          "text": "changes",
+          "start": 256.17,
+          "end": 256.995
+        },
+        {
+          "text": ".",
+          "start": 256.995,
+          "end": 257.145
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h3",
+      "text": "How It Works",
+      "start": 257.465,
+      "end": 258.715,
+      "words": [
+        {
+          "text": "How",
+          "start": 257.815,
+          "end": 257.952
+        },
+        {
+          "text": "It",
+          "start": 257.952,
+          "end": 258.065
+        },
+        {
+          "text": "Works",
+          "start": 258.065,
+          "end": 258.715
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h3",
+      "text": "Selenium BiDi + AI Replay",
+      "start": 259.185,
+      "end": 261.735,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 259.485,
+          "end": 259.96
+        },
+        {
+          "text": "BiDi",
+          "start": 259.96,
+          "end": 260.41
+        },
+        {
+          "text": "+",
+          "start": 260.41,
+          "end": 260.673
+        },
+        {
+          "text": "AI",
+          "start": 260.673,
+          "end": 261.01
+        },
+        {
+          "text": "Replay",
+          "start": 261.01,
+          "end": 261.735
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "Playwright CDP + AI Replay",
+      "start": 262.23,
+      "end": 265.005,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 262.48,
+          "end": 262.855
+        },
+        {
+          "text": "CDP",
+          "start": 262.855,
+          "end": 263.643
+        },
+        {
+          "text": "+",
+          "start": 263.643,
+          "end": 263.942
+        },
+        {
+          "text": "AI",
+          "start": 263.942,
+          "end": 264.305
+        },
+        {
+          "text": "Replay",
+          "start": 264.305,
+          "end": 265.005
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "Playwright's deeper CDP access gives the AI agent more information for self-healing:",
+      "start": 265.525,
+      "end": 271.5,
+      "words": [
+        {
+          "text": "Playwright's",
+          "start": 265.775,
+          "end": 266.263
+        },
+        {
+          "text": "deeper",
+          "start": 266.263,
+          "end": 266.688
+        },
+        {
+          "text": "CDP",
+          "start": 266.688,
+          "end": 267.287
+        },
+        {
+          "text": "access",
+          "start": 267.287,
+          "end": 268.2
+        },
+        {
+          "text": "gives",
+          "start": 268.2,
+          "end": 268.438
+        },
+        {
+          "text": "the",
+          "start": 268.438,
+          "end": 268.588
+        },
+        {
+          "text": "AI",
+          "start": 268.588,
+          "end": 269.088
+        },
+        {
+          "text": "agent",
+          "start": 269.088,
+          "end": 269.475
+        },
+        {
+          "text": "more",
+          "start": 269.475,
+          "end": 269.663
+        },
+        {
+          "text": "information",
+          "start": 269.663,
+          "end": 270.275
+        },
+        {
+          "text": "for",
+          "start": 270.275,
+          "end": 270.4
+        },
+        {
+          "text": "self-healing",
+          "start": 270.4,
+          "end": 271.35
+        },
+        {
+          "text": ":",
+          "start": 271.35,
+          "end": 271.5
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h2",
+      "text": "When to Use Which",
+      "start": 271.82,
+      "end": 273.27,
+      "words": [
+        {
+          "text": "When",
+          "start": 272.145,
+          "end": 272.27
+        },
+        {
+          "text": "to",
+          "start": 272.27,
+          "end": 272.395
+        },
+        {
+          "text": "Use",
+          "start": 272.395,
+          "end": 272.67
+        },
+        {
+          "text": "Which",
+          "start": 272.67,
+          "end": 273.27
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "p",
+      "text": "Rule of thumb:",
+      "start": 273.765,
+      "end": 275.365,
+      "words": [
+        {
+          "text": "Rule",
+          "start": 274.165,
+          "end": 274.403
+        },
+        {
+          "text": "of",
+          "start": 274.403,
+          "end": 274.528
+        },
+        {
+          "text": "thumb",
+          "start": 274.528,
+          "end": 275.165
+        },
+        {
+          "text": ":",
+          "start": 275.165,
+          "end": 275.365
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Playwright CDP for Chromium-first teams that want maximum power (mock, modify, replay with visual diff)",
+      "start": 275.685,
+      "end": 282.985,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 275.935,
+          "end": 276.347
+        },
+        {
+          "text": "CDP",
+          "start": 276.347,
+          "end": 277.01
+        },
+        {
+          "text": "for",
+          "start": 277.01,
+          "end": 277.135
+        },
+        {
+          "text": "Chromium-first",
+          "start": 277.135,
+          "end": 277.81
+        },
+        {
+          "text": "teams",
+          "start": 277.81,
+          "end": 278.235
+        },
+        {
+          "text": "that",
+          "start": 278.235,
+          "end": 278.385
+        },
+        {
+          "text": "want",
+          "start": 278.385,
+          "end": 278.623
+        },
+        {
+          "text": "maximum",
+          "start": 278.623,
+          "end": 279.135
+        },
+        {
+          "text": "power",
+          "start": 279.135,
+          "end": 279.91
+        },
+        {
+          "text": "(",
+          "start": 279.91,
+          "end": 280.01
+        },
+        {
+          "text": "mock",
+          "start": 280.01,
+          "end": 280.435
+        },
+        {
+          "text": ",",
+          "start": 280.435,
+          "end": 280.535
+        },
+        {
+          "text": "modify",
+          "start": 280.535,
+          "end": 281.21
+        },
+        {
+          "text": ",",
+          "start": 281.21,
+          "end": 281.31
+        },
+        {
+          "text": "replay",
+          "start": 281.31,
+          "end": 281.76
+        },
+        {
+          "text": "with",
+          "start": 281.76,
+          "end": 281.935
+        },
+        {
+          "text": "visual",
+          "start": 281.935,
+          "end": 282.26
+        },
+        {
+          "text": "diff",
+          "start": 282.26,
+          "end": 282.835
+        },
+        {
+          "text": ")",
+          "start": 282.835,
+          "end": 282.985
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "Selenium BiDi for cross-browser teams that need Firefox and prefer explicit control over each event",
+      "start": 283.305,
+      "end": 290.38,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 283.605,
+          "end": 284.13
+        },
+        {
+          "text": "BiDi",
+          "start": 284.13,
+          "end": 284.68
+        },
+        {
+          "text": "for",
+          "start": 284.68,
+          "end": 284.805
+        },
+        {
+          "text": "cross-browser",
+          "start": 284.805,
+          "end": 285.48
+        },
+        {
+          "text": "teams",
+          "start": 285.48,
+          "end": 286.23
+        },
+        {
+          "text": "that",
+          "start": 286.23,
+          "end": 286.405
+        },
+        {
+          "text": "need",
+          "start": 286.405,
+          "end": 286.643
+        },
+        {
+          "text": "Firefox",
+          "start": 286.643,
+          "end": 287.543
+        },
+        {
+          "text": "and",
+          "start": 287.543,
+          "end": 287.68
+        },
+        {
+          "text": "prefer",
+          "start": 287.68,
+          "end": 288.08
+        },
+        {
+          "text": "explicit",
+          "start": 288.08,
+          "end": 288.63
+        },
+        {
+          "text": "control",
+          "start": 288.63,
+          "end": 289.268
+        },
+        {
+          "text": "over",
+          "start": 289.268,
+          "end": 289.53
+        },
+        {
+          "text": "each",
+          "start": 289.53,
+          "end": 289.742
+        },
+        {
+          "text": "event",
+          "start": 289.742,
+          "end": 290.38
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "h2",
+      "text": "Where Existing Posts Fit",
+      "start": 290.825,
+      "end": 292.6,
+      "words": [
+        {
+          "text": "Where",
+          "start": 291.1,
+          "end": 291.213
+        },
+        {
+          "text": "Existing",
+          "start": 291.213,
+          "end": 291.65
+        },
+        {
+          "text": "Posts",
+          "start": 291.65,
+          "end": 292.063
+        },
+        {
+          "text": "Fit",
+          "start": 292.063,
+          "end": 292.6
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "h2",
+      "text": "Multi-Language Quick Reference",
+      "start": 293.045,
+      "end": 295.17,
+      "words": [
+        {
+          "text": "Multi-Language",
+          "start": 293.345,
+          "end": 294.12
+        },
+        {
+          "text": "Quick",
+          "start": 294.12,
+          "end": 294.37
+        },
+        {
+          "text": "Reference",
+          "start": 294.37,
+          "end": 295.17
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "This post used C# examples. Here's the equivalent syntax in Java, TypeScript, JavaScript, and Python for key BiDi and CDP operations:",
+      "start": 295.615,
+      "end": 305.99,
+      "words": [
+        {
+          "text": "This",
+          "start": 295.89,
+          "end": 296.065
+        },
+        {
+          "text": "post",
+          "start": 296.065,
+          "end": 296.39
+        },
+        {
+          "text": "used",
+          "start": 296.39,
+          "end": 296.702
+        },
+        {
+          "text": "C#",
+          "start": 296.702,
+          "end": 297.178
+        },
+        {
+          "text": "examples",
+          "start": 297.178,
+          "end": 298.19
+        },
+        {
+          "text": ".",
+          "start": 298.19,
+          "end": 298.327
+        },
+        {
+          "text": "Here's",
+          "start": 298.327,
+          "end": 298.628
+        },
+        {
+          "text": "the",
+          "start": 298.628,
+          "end": 298.74
+        },
+        {
+          "text": "equivalent",
+          "start": 298.74,
+          "end": 299.19
+        },
+        {
+          "text": "syntax",
+          "start": 299.19,
+          "end": 299.715
+        },
+        {
+          "text": "in",
+          "start": 299.715,
+          "end": 299.878
+        },
+        {
+          "text": "Java",
+          "start": 299.878,
+          "end": 300.465
+        },
+        {
+          "text": ",",
+          "start": 300.465,
+          "end": 300.602
+        },
+        {
+          "text": "TypeScript",
+          "start": 300.602,
+          "end": 301.415
+        },
+        {
+          "text": ",",
+          "start": 301.415,
+          "end": 301.528
+        },
+        {
+          "text": "JavaScript",
+          "start": 301.528,
+          "end": 302.265
+        },
+        {
+          "text": ",",
+          "start": 302.265,
+          "end": 302.315
+        },
+        {
+          "text": "and",
+          "start": 302.315,
+          "end": 302.44
+        },
+        {
+          "text": "Python",
+          "start": 302.44,
+          "end": 303.04
+        },
+        {
+          "text": "for",
+          "start": 303.04,
+          "end": 303.203
+        },
+        {
+          "text": "key",
+          "start": 303.203,
+          "end": 303.465
+        },
+        {
+          "text": "BiDi",
+          "start": 303.465,
+          "end": 304.102
+        },
+        {
+          "text": "and",
+          "start": 304.102,
+          "end": 304.278
+        },
+        {
+          "text": "CDP",
+          "start": 304.278,
+          "end": 304.84
+        },
+        {
+          "text": "operations",
+          "start": 304.84,
+          "end": 305.84
+        },
+        {
+          "text": ":",
+          "start": 305.84,
+          "end": 305.99
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "h3",
+      "text": "Selenium BiDi , Drag-and-Drop",
+      "start": 306.31,
+      "end": 308.785,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 306.61,
+          "end": 307.06
+        },
+        {
+          "text": "BiDi",
+          "start": 307.06,
+          "end": 307.673
+        },
+        {
+          "text": ",",
+          "start": 307.673,
+          "end": 307.76
+        },
+        {
+          "text": "Drag-and-Drop",
+          "start": 307.76,
+          "end": 308.785
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "h3",
+      "text": "Selenium BiDi , Network Monitoring",
+      "start": 309.255,
+      "end": 312.055,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 309.555,
+          "end": 310.03
+        },
+        {
+          "text": "BiDi",
+          "start": 310.03,
+          "end": 310.73
+        },
+        {
+          "text": ",",
+          "start": 310.73,
+          "end": 310.83
+        },
+        {
+          "text": "Network",
+          "start": 310.83,
+          "end": 311.23
+        },
+        {
+          "text": "Monitoring",
+          "start": 311.23,
+          "end": 312.055
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "h3",
+      "text": "Playwright CDP , Drag-and-Drop",
+      "start": 312.55,
+      "end": 315.025,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 312.8,
+          "end": 313.175
+        },
+        {
+          "text": "CDP",
+          "start": 313.175,
+          "end": 313.913
+        },
+        {
+          "text": ",",
+          "start": 313.913,
+          "end": 314.0
+        },
+        {
+          "text": "Drag-and-Drop",
+          "start": 314.0,
+          "end": 315.025
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "h3",
+      "text": "Playwright CDP , Route Interception",
+      "start": 315.495,
+      "end": 318.245,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 315.745,
+          "end": 316.145
+        },
+        {
+          "text": "CDP",
+          "start": 316.145,
+          "end": 316.945
+        },
+        {
+          "text": ",",
+          "start": 316.945,
+          "end": 317.083
+        },
+        {
+          "text": "Route",
+          "start": 317.083,
+          "end": 317.308
+        },
+        {
+          "text": "Interception",
+          "start": 317.308,
+          "end": 318.245
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h3",
+      "text": "Playwright , Browser Launch",
+      "start": 318.69,
+      "end": 320.465,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 318.965,
+          "end": 319.403
+        },
+        {
+          "text": ",",
+          "start": 319.403,
+          "end": 319.465
+        },
+        {
+          "text": "Browser",
+          "start": 319.465,
+          "end": 319.84
+        },
+        {
+          "text": "Launch",
+          "start": 319.84,
+          "end": 320.465
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "quote",
+      "text": "TypeScript vs JavaScript: Playwright's TypeScript API uses the same syntax as JavaScript for most operations , the difference is type safety (const browser: Browser). Both benefit from Playwright's auto-complete in VS Code.",
+      "start": 320.985,
+      "end": 336.76,
+      "words": [
+        {
+          "text": "TypeScript",
+          "start": 321.235,
+          "end": 321.897
+        },
+        {
+          "text": "vs",
+          "start": 321.897,
+          "end": 322.335
+        },
+        {
+          "text": "JavaScript",
+          "start": 322.335,
+          "end": 323.335
+        },
+        {
+          "text": ":",
+          "start": 323.335,
+          "end": 323.472
+        },
+        {
+          "text": "Playwright's",
+          "start": 323.472,
+          "end": 323.96
+        },
+        {
+          "text": "TypeScript",
+          "start": 323.96,
+          "end": 324.572
+        },
+        {
+          "text": "API",
+          "start": 324.572,
+          "end": 325.323
+        },
+        {
+          "text": "uses",
+          "start": 325.323,
+          "end": 325.71
+        },
+        {
+          "text": "the",
+          "start": 325.71,
+          "end": 325.847
+        },
+        {
+          "text": "same",
+          "start": 325.847,
+          "end": 326.198
+        },
+        {
+          "text": "syntax",
+          "start": 326.198,
+          "end": 326.81
+        },
+        {
+          "text": "as",
+          "start": 326.81,
+          "end": 326.972
+        },
+        {
+          "text": "JavaScript",
+          "start": 326.972,
+          "end": 327.635
+        },
+        {
+          "text": "for",
+          "start": 327.635,
+          "end": 327.76
+        },
+        {
+          "text": "most",
+          "start": 327.76,
+          "end": 328.01
+        },
+        {
+          "text": "operations",
+          "start": 328.01,
+          "end": 329.135
+        },
+        {
+          "text": ",",
+          "start": 329.135,
+          "end": 329.21
+        },
+        {
+          "text": "the",
+          "start": 329.21,
+          "end": 329.31
+        },
+        {
+          "text": "difference",
+          "start": 329.31,
+          "end": 329.747
+        },
+        {
+          "text": "is",
+          "start": 329.747,
+          "end": 329.923
+        },
+        {
+          "text": "type",
+          "start": 329.923,
+          "end": 330.247
+        },
+        {
+          "text": "safety",
+          "start": 330.247,
+          "end": 330.923
+        },
+        {
+          "text": "(",
+          "start": 330.923,
+          "end": 331.01
+        },
+        {
+          "text": "const",
+          "start": 331.01,
+          "end": 331.36
+        },
+        {
+          "text": "browser",
+          "start": 331.36,
+          "end": 332.06
+        },
+        {
+          "text": ":",
+          "start": 332.06,
+          "end": 332.198
+        },
+        {
+          "text": "Browser",
+          "start": 332.198,
+          "end": 332.985
+        },
+        {
+          "text": ")",
+          "start": 332.985,
+          "end": 333.185
+        },
+        {
+          "text": ".",
+          "start": 333.185,
+          "end": 333.272
+        },
+        {
+          "text": "Both",
+          "start": 333.272,
+          "end": 333.585
+        },
+        {
+          "text": "benefit",
+          "start": 333.585,
+          "end": 334.01
+        },
+        {
+          "text": "from",
+          "start": 334.01,
+          "end": 334.185
+        },
+        {
+          "text": "Playwright's",
+          "start": 334.185,
+          "end": 334.723
+        },
+        {
+          "text": "auto-complete",
+          "start": 334.723,
+          "end": 335.51
+        },
+        {
+          "text": "in",
+          "start": 335.51,
+          "end": 335.66
+        },
+        {
+          "text": "VS",
+          "start": 335.66,
+          "end": 335.96
+        },
+        {
+          "text": "Code",
+          "start": 335.96,
+          "end": 336.61
+        },
+        {
+          "text": ".",
+          "start": 336.61,
+          "end": 336.76
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 337.08,
+      "end": 338.905,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 337.38,
+          "end": 337.88
+        },
+        {
+          "text": "and",
+          "start": 337.88,
+          "end": 338.005
+        },
+        {
+          "text": "Further",
+          "start": 338.005,
+          "end": 338.28
+        },
+        {
+          "text": "Reading",
+          "start": 338.28,
+          "end": 338.905
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "WebDriver BiDi W3C Specification , the W3C standard for bidirectional browser automation",
+      "start": 339.35,
+      "end": 347.7,
+      "words": [
+        {
+          "text": "WebDriver",
+          "start": 339.65,
+          "end": 340.262
+        },
+        {
+          "text": "BiDi",
+          "start": 340.262,
+          "end": 341.037
+        },
+        {
+          "text": "W3C",
+          "start": 341.037,
+          "end": 342.1
+        },
+        {
+          "text": "Specification",
+          "start": 342.1,
+          "end": 343.462
+        },
+        {
+          "text": ",",
+          "start": 343.462,
+          "end": 343.55
+        },
+        {
+          "text": "the",
+          "start": 343.55,
+          "end": 343.662
+        },
+        {
+          "text": "W3C",
+          "start": 343.662,
+          "end": 344.8
+        },
+        {
+          "text": "standard",
+          "start": 344.8,
+          "end": 345.375
+        },
+        {
+          "text": "for",
+          "start": 345.375,
+          "end": 345.537
+        },
+        {
+          "text": "bidirectional",
+          "start": 345.537,
+          "end": 346.3
+        },
+        {
+          "text": "browser",
+          "start": 346.3,
+          "end": 346.725
+        },
+        {
+          "text": "automation",
+          "start": 346.725,
+          "end": 347.7
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "Chrome DevTools Protocol Documentation , the CDP surface Playwright accesses natively and Selenium accesses via BiDi translation",
+      "start": 348.12,
+      "end": 358.245,
+      "words": [
+        {
+          "text": "Chrome",
+          "start": 348.37,
+          "end": 348.72
+        },
+        {
+          "text": "DevTools",
+          "start": 348.72,
+          "end": 349.457
+        },
+        {
+          "text": "Protocol",
+          "start": 349.457,
+          "end": 349.995
+        },
+        {
+          "text": "Documentation",
+          "start": 349.995,
+          "end": 351.282
+        },
+        {
+          "text": ",",
+          "start": 351.282,
+          "end": 351.37
+        },
+        {
+          "text": "the",
+          "start": 351.37,
+          "end": 351.507
+        },
+        {
+          "text": "CDP",
+          "start": 351.507,
+          "end": 352.157
+        },
+        {
+          "text": "surface",
+          "start": 352.157,
+          "end": 352.495
+        },
+        {
+          "text": "Playwright",
+          "start": 352.495,
+          "end": 352.957
+        },
+        {
+          "text": "accesses",
+          "start": 352.957,
+          "end": 353.782
+        },
+        {
+          "text": "natively",
+          "start": 353.782,
+          "end": 354.557
+        },
+        {
+          "text": "and",
+          "start": 354.557,
+          "end": 354.695
+        },
+        {
+          "text": "Selenium",
+          "start": 354.695,
+          "end": 355.245
+        },
+        {
+          "text": "accesses",
+          "start": 355.245,
+          "end": 356.207
+        },
+        {
+          "text": "via",
+          "start": 356.207,
+          "end": 356.557
+        },
+        {
+          "text": "BiDi",
+          "start": 356.557,
+          "end": 357.145
+        },
+        {
+          "text": "translation",
+          "start": 357.145,
+          "end": 358.245
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "Playwright CDP Session API , official docs for the CDP session used in drag-and-drop and network interception examples",
+      "start": 358.665,
+      "end": 367.44,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 358.915,
+          "end": 359.327
+        },
+        {
+          "text": "CDP",
+          "start": 359.327,
+          "end": 359.94
+        },
+        {
+          "text": "Session",
+          "start": 359.94,
+          "end": 360.377
+        },
+        {
+          "text": "API",
+          "start": 360.377,
+          "end": 361.477
+        },
+        {
+          "text": ",",
+          "start": 361.477,
+          "end": 361.615
+        },
+        {
+          "text": "official",
+          "start": 361.615,
+          "end": 362.04
+        },
+        {
+          "text": "docs",
+          "start": 362.04,
+          "end": 362.415
+        },
+        {
+          "text": "for",
+          "start": 362.415,
+          "end": 362.527
+        },
+        {
+          "text": "the",
+          "start": 362.527,
+          "end": 362.652
+        },
+        {
+          "text": "CDP",
+          "start": 362.652,
+          "end": 363.19
+        },
+        {
+          "text": "session",
+          "start": 363.19,
+          "end": 363.878
+        },
+        {
+          "text": "used",
+          "start": 363.878,
+          "end": 364.29
+        },
+        {
+          "text": "in",
+          "start": 364.29,
+          "end": 364.44
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 364.44,
+          "end": 365.327
+        },
+        {
+          "text": "and",
+          "start": 365.327,
+          "end": 365.465
+        },
+        {
+          "text": "network",
+          "start": 365.465,
+          "end": 365.827
+        },
+        {
+          "text": "interception",
+          "start": 365.827,
+          "end": 366.465
+        },
+        {
+          "text": "examples",
+          "start": 366.465,
+          "end": 367.44
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "Selenium WebDriver BiDi Guide , official BiDi documentation including network and input domains",
+      "start": 367.86,
+      "end": 374.96,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 368.16,
+          "end": 368.735
+        },
+        {
+          "text": "WebDriver",
+          "start": 368.735,
+          "end": 369.36
+        },
+        {
+          "text": "BiDi",
+          "start": 369.36,
+          "end": 369.81
+        },
+        {
+          "text": "Guide",
+          "start": 369.81,
+          "end": 370.51
+        },
+        {
+          "text": ",",
+          "start": 370.51,
+          "end": 370.61
+        },
+        {
+          "text": "official",
+          "start": 370.61,
+          "end": 371.035
+        },
+        {
+          "text": "BiDi",
+          "start": 371.035,
+          "end": 371.535
+        },
+        {
+          "text": "documentation",
+          "start": 371.535,
+          "end": 372.423
+        },
+        {
+          "text": "including",
+          "start": 372.423,
+          "end": 372.923
+        },
+        {
+          "text": "network",
+          "start": 372.923,
+          "end": 373.497
+        },
+        {
+          "text": "and",
+          "start": 373.497,
+          "end": 373.673
+        },
+        {
+          "text": "input",
+          "start": 373.673,
+          "end": 374.06
+        },
+        {
+          "text": "domains",
+          "start": 374.06,
+          "end": 374.96
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "h2",
+      "text": "What to Do Next",
+      "start": 375.405,
+      "end": 376.805,
+      "words": [
+        {
+          "text": "What",
+          "start": 375.73,
+          "end": 375.88
+        },
+        {
+          "text": "to",
+          "start": 375.88,
+          "end": 375.98
+        },
+        {
+          "text": "Do",
+          "start": 375.98,
+          "end": 376.18
+        },
+        {
+          "text": "Next",
+          "start": 376.18,
+          "end": 376.805
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "li",
+      "text": "Try the drag-and-drop examples. Take any drag-based UI (Kanban, file upload, sortable list) and test both the BiDi pointer-event approach and Playwright's DragAndDropAsync(). See which one handles your app's custom drag handlers.",
+      "start": 377.3,
+      "end": 392.675,
+      "words": [
+        {
+          "text": "Try",
+          "start": 377.575,
+          "end": 377.8
+        },
+        {
+          "text": "the",
+          "start": 377.8,
+          "end": 377.9
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 377.9,
+          "end": 378.625
+        },
+        {
+          "text": "examples",
+          "start": 378.625,
+          "end": 379.625
+        },
+        {
+          "text": ".",
+          "start": 379.625,
+          "end": 379.737
+        },
+        {
+          "text": "Take",
+          "start": 379.737,
+          "end": 379.937
+        },
+        {
+          "text": "any",
+          "start": 379.937,
+          "end": 380.125
+        },
+        {
+          "text": "drag-based",
+          "start": 380.125,
+          "end": 380.725
+        },
+        {
+          "text": "UI",
+          "start": 380.725,
+          "end": 381.237
+        },
+        {
+          "text": "(",
+          "start": 381.237,
+          "end": 381.325
+        },
+        {
+          "text": "Kanban",
+          "start": 381.325,
+          "end": 381.975
+        },
+        {
+          "text": ",",
+          "start": 381.975,
+          "end": 382.087
+        },
+        {
+          "text": "file",
+          "start": 382.087,
+          "end": 382.45
+        },
+        {
+          "text": "upload",
+          "start": 382.45,
+          "end": 383.0
+        },
+        {
+          "text": ",",
+          "start": 383.0,
+          "end": 383.087
+        },
+        {
+          "text": "sortable",
+          "start": 383.087,
+          "end": 383.55
+        },
+        {
+          "text": "list",
+          "start": 383.55,
+          "end": 384.15
+        },
+        {
+          "text": ")",
+          "start": 384.15,
+          "end": 384.25
+        },
+        {
+          "text": "and",
+          "start": 384.25,
+          "end": 384.387
+        },
+        {
+          "text": "test",
+          "start": 384.387,
+          "end": 384.725
+        },
+        {
+          "text": "both",
+          "start": 384.725,
+          "end": 384.975
+        },
+        {
+          "text": "the",
+          "start": 384.975,
+          "end": 385.1
+        },
+        {
+          "text": "BiDi",
+          "start": 385.1,
+          "end": 385.662
+        },
+        {
+          "text": "pointer-event",
+          "start": 385.662,
+          "end": 386.25
+        },
+        {
+          "text": "approach",
+          "start": 386.25,
+          "end": 386.937
+        },
+        {
+          "text": "and",
+          "start": 386.937,
+          "end": 387.137
+        },
+        {
+          "text": "Playwright's",
+          "start": 387.137,
+          "end": 387.65
+        },
+        {
+          "text": "DragAndDropAsync",
+          "start": 387.65,
+          "end": 389.025
+        },
+        {
+          "text": "(",
+          "start": 389.025,
+          "end": 389.175
+        },
+        {
+          "text": ")",
+          "start": 389.175,
+          "end": 389.2
+        },
+        {
+          "text": ".",
+          "start": 389.2,
+          "end": 389.3
+        },
+        {
+          "text": "See",
+          "start": 389.3,
+          "end": 389.55
+        },
+        {
+          "text": "which",
+          "start": 389.55,
+          "end": 389.75
+        },
+        {
+          "text": "one",
+          "start": 389.75,
+          "end": 389.975
+        },
+        {
+          "text": "handles",
+          "start": 389.975,
+          "end": 390.362
+        },
+        {
+          "text": "your",
+          "start": 390.362,
+          "end": 390.512
+        },
+        {
+          "text": "app's",
+          "start": 390.512,
+          "end": 390.875
+        },
+        {
+          "text": "custom",
+          "start": 390.875,
+          "end": 391.3
+        },
+        {
+          "text": "drag",
+          "start": 391.3,
+          "end": 391.65
+        },
+        {
+          "text": "handlers",
+          "start": 391.65,
+          "end": 392.525
+        },
+        {
+          "text": ".",
+          "start": 392.525,
+          "end": 392.675
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "li",
+      "text": "Set up network monitoring in CI. Subscribe to BiDi's NetworkResponseReceived in your existing Selenium suite. One event handler, and you'll catch every 500 error your UI tests were silently ignoring.",
+      "start": 392.995,
+      "end": 407.42,
+      "words": [
+        {
+          "text": "Set",
+          "start": 393.295,
+          "end": 393.458
+        },
+        {
+          "text": "up",
+          "start": 393.458,
+          "end": 393.62
+        },
+        {
+          "text": "network",
+          "start": 393.62,
+          "end": 394.057
+        },
+        {
+          "text": "monitoring",
+          "start": 394.057,
+          "end": 394.733
+        },
+        {
+          "text": "in",
+          "start": 394.733,
+          "end": 394.908
+        },
+        {
+          "text": "CI",
+          "start": 394.908,
+          "end": 395.745
+        },
+        {
+          "text": ".",
+          "start": 395.745,
+          "end": 395.883
+        },
+        {
+          "text": "Subscribe",
+          "start": 395.883,
+          "end": 396.47
+        },
+        {
+          "text": "to",
+          "start": 396.47,
+          "end": 396.595
+        },
+        {
+          "text": "BiDi's",
+          "start": 396.595,
+          "end": 397.482
+        },
+        {
+          "text": "NetworkResponseReceived",
+          "start": 397.482,
+          "end": 398.857
+        },
+        {
+          "text": "in",
+          "start": 398.857,
+          "end": 398.958
+        },
+        {
+          "text": "your",
+          "start": 398.958,
+          "end": 399.07
+        },
+        {
+          "text": "existing",
+          "start": 399.07,
+          "end": 399.645
+        },
+        {
+          "text": "Selenium",
+          "start": 399.645,
+          "end": 400.232
+        },
+        {
+          "text": "suite",
+          "start": 400.232,
+          "end": 401.045
+        },
+        {
+          "text": ".",
+          "start": 401.045,
+          "end": 401.245
+        },
+        {
+          "text": "One",
+          "start": 401.245,
+          "end": 401.495
+        },
+        {
+          "text": "event",
+          "start": 401.495,
+          "end": 401.77
+        },
+        {
+          "text": "handler",
+          "start": 401.77,
+          "end": 402.52
+        },
+        {
+          "text": ",",
+          "start": 402.52,
+          "end": 402.62
+        },
+        {
+          "text": "and",
+          "start": 402.62,
+          "end": 402.733
+        },
+        {
+          "text": "you'll",
+          "start": 402.733,
+          "end": 402.907
+        },
+        {
+          "text": "catch",
+          "start": 402.907,
+          "end": 403.282
+        },
+        {
+          "text": "every",
+          "start": 403.282,
+          "end": 403.632
+        },
+        {
+          "text": "500",
+          "start": 403.632,
+          "end": 404.37
+        },
+        {
+          "text": "error",
+          "start": 404.37,
+          "end": 404.67
+        },
+        {
+          "text": "your",
+          "start": 404.67,
+          "end": 404.858
+        },
+        {
+          "text": "UI",
+          "start": 404.858,
+          "end": 405.257
+        },
+        {
+          "text": "tests",
+          "start": 405.257,
+          "end": 405.72
+        },
+        {
+          "text": "were",
+          "start": 405.72,
+          "end": 405.895
+        },
+        {
+          "text": "silently",
+          "start": 405.895,
+          "end": 406.42
+        },
+        {
+          "text": "ignoring",
+          "start": 406.42,
+          "end": 407.27
+        },
+        {
+          "text": ".",
+          "start": 407.27,
+          "end": 407.42
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "li",
+      "text": "Experiment with AI replay. Record a manual drag-and-drop session in Playwright (HAR recording is built-in), then ask an LLM to describe what happened in natural language. You've just built a self-documenting test.",
+      "start": 407.74,
+      "end": 422.565,
+      "words": [
+        {
+          "text": "Experiment",
+          "start": 408.015,
+          "end": 408.69
+        },
+        {
+          "text": "with",
+          "start": 408.69,
+          "end": 408.915
+        },
+        {
+          "text": "AI",
+          "start": 408.915,
+          "end": 409.365
+        },
+        {
+          "text": "replay",
+          "start": 409.365,
+          "end": 410.19
+        },
+        {
+          "text": ".",
+          "start": 410.19,
+          "end": 410.378
+        },
+        {
+          "text": "Record",
+          "start": 410.378,
+          "end": 410.79
+        },
+        {
+          "text": "a",
+          "start": 410.79,
+          "end": 410.903
+        },
+        {
+          "text": "manual",
+          "start": 410.903,
+          "end": 411.365
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 411.365,
+          "end": 412.09
+        },
+        {
+          "text": "session",
+          "start": 412.09,
+          "end": 412.553
+        },
+        {
+          "text": "in",
+          "start": 412.553,
+          "end": 412.715
+        },
+        {
+          "text": "Playwright",
+          "start": 412.715,
+          "end": 413.415
+        },
+        {
+          "text": "(",
+          "start": 413.415,
+          "end": 413.515
+        },
+        {
+          "text": "HAR",
+          "start": 413.515,
+          "end": 414.09
+        },
+        {
+          "text": "recording",
+          "start": 414.09,
+          "end": 414.64
+        },
+        {
+          "text": "is",
+          "start": 414.64,
+          "end": 414.79
+        },
+        {
+          "text": "built-in",
+          "start": 414.79,
+          "end": 415.665
+        },
+        {
+          "text": ")",
+          "start": 415.665,
+          "end": 415.79
+        },
+        {
+          "text": ",",
+          "start": 415.79,
+          "end": 415.865
+        },
+        {
+          "text": "then",
+          "start": 415.865,
+          "end": 416.103
+        },
+        {
+          "text": "ask",
+          "start": 416.103,
+          "end": 416.39
+        },
+        {
+          "text": "an",
+          "start": 416.39,
+          "end": 416.553
+        },
+        {
+          "text": "LLM",
+          "start": 416.553,
+          "end": 417.165
+        },
+        {
+          "text": "to",
+          "start": 417.165,
+          "end": 417.265
+        },
+        {
+          "text": "describe",
+          "start": 417.265,
+          "end": 417.815
+        },
+        {
+          "text": "what",
+          "start": 417.815,
+          "end": 417.965
+        },
+        {
+          "text": "happened",
+          "start": 417.965,
+          "end": 418.39
+        },
+        {
+          "text": "in",
+          "start": 418.39,
+          "end": 418.515
+        },
+        {
+          "text": "natural",
+          "start": 418.515,
+          "end": 418.94
+        },
+        {
+          "text": "language",
+          "start": 418.94,
+          "end": 419.79
+        },
+        {
+          "text": ".",
+          "start": 419.79,
+          "end": 419.953
+        },
+        {
+          "text": "You've",
+          "start": 419.953,
+          "end": 420.14
+        },
+        {
+          "text": "just",
+          "start": 420.14,
+          "end": 420.365
+        },
+        {
+          "text": "built",
+          "start": 420.365,
+          "end": 420.665
+        },
+        {
+          "text": "a",
+          "start": 420.665,
+          "end": 420.777
+        },
+        {
+          "text": "self-documenting",
+          "start": 420.777,
+          "end": 421.74
+        },
+        {
+          "text": "test",
+          "start": 421.74,
+          "end": 422.415
+        },
+        {
+          "text": ".",
+          "start": 422.415,
+          "end": 422.565
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "li",
+      "text": "Subscribe to this blog's feed.xml , next up: a deep-dive on self-healing locators and how AI can find elements by their semantic role when CSS selectors break.",
+      "start": 422.885,
+      "end": 434.735,
+      "words": [
+        {
+          "text": "Subscribe",
+          "start": 423.16,
+          "end": 423.685
+        },
+        {
+          "text": "to",
+          "start": 423.685,
+          "end": 423.772
+        },
+        {
+          "text": "this",
+          "start": 423.772,
+          "end": 423.96
+        },
+        {
+          "text": "blog's",
+          "start": 423.96,
+          "end": 424.335
+        },
+        {
+          "text": "feed.xml",
+          "start": 424.335,
+          "end": 425.948
+        },
+        {
+          "text": ",",
+          "start": 425.948,
+          "end": 426.035
+        },
+        {
+          "text": "next",
+          "start": 426.035,
+          "end": 426.323
+        },
+        {
+          "text": "up",
+          "start": 426.323,
+          "end": 426.935
+        },
+        {
+          "text": ":",
+          "start": 426.935,
+          "end": 427.073
+        },
+        {
+          "text": "a",
+          "start": 427.073,
+          "end": 427.198
+        },
+        {
+          "text": "deep-dive",
+          "start": 427.198,
+          "end": 427.785
+        },
+        {
+          "text": "on",
+          "start": 427.785,
+          "end": 427.997
+        },
+        {
+          "text": "self-healing",
+          "start": 427.997,
+          "end": 428.61
+        },
+        {
+          "text": "locators",
+          "start": 428.61,
+          "end": 429.423
+        },
+        {
+          "text": "and",
+          "start": 429.423,
+          "end": 429.56
+        },
+        {
+          "text": "how",
+          "start": 429.56,
+          "end": 429.798
+        },
+        {
+          "text": "AI",
+          "start": 429.798,
+          "end": 430.26
+        },
+        {
+          "text": "can",
+          "start": 430.26,
+          "end": 430.435
+        },
+        {
+          "text": "find",
+          "start": 430.435,
+          "end": 430.735
+        },
+        {
+          "text": "elements",
+          "start": 430.735,
+          "end": 431.235
+        },
+        {
+          "text": "by",
+          "start": 431.235,
+          "end": 431.398
+        },
+        {
+          "text": "their",
+          "start": 431.398,
+          "end": 431.56
+        },
+        {
+          "text": "semantic",
+          "start": 431.56,
+          "end": 432.085
+        },
+        {
+          "text": "role",
+          "start": 432.085,
+          "end": 432.56
+        },
+        {
+          "text": "when",
+          "start": 432.56,
+          "end": 432.785
+        },
+        {
+          "text": "CSS",
+          "start": 432.785,
+          "end": 433.435
+        },
+        {
+          "text": "selectors",
+          "start": 433.435,
+          "end": 433.985
+        },
+        {
+          "text": "break",
+          "start": 433.985,
+          "end": 434.585
+        },
+        {
+          "text": ".",
+          "start": 434.585,
+          "end": 434.735
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "p",
+      "text": "See also: AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026) , the overarching thesis on multi-agent QA systems, including the self-healing locator pattern referenced above. · Self-Healing Test Suites (Jul 2026) , full implementation: Java SemanticHealer, CDP accessibility tree, DOM diff, CI/CD healing log. · XPath for Test Automation (Jul 2026) , the story-mode article whose §12 maps the complex XPath and CSS patterns you ship selectors around (SVG namespace handling, computed indices, role/state ARIA chains, iframe/shadow-DOM piercing matrix, modern CSS Level 4 selectors, decision flowchart).",
+      "start": 435.055,
+      "end": 482.43,
+      "words": [
+        {
+          "text": "See",
+          "start": 435.355,
+          "end": 435.53
+        },
+        {
+          "text": "also",
+          "start": 435.53,
+          "end": 436.03
+        },
+        {
+          "text": ":",
+          "start": 436.03,
+          "end": 436.143
+        },
+        {
+          "text": "AI-Driven",
+          "start": 436.143,
+          "end": 436.755
+        },
+        {
+          "text": "Test",
+          "start": 436.755,
+          "end": 436.993
+        },
+        {
+          "text": "Strategy",
+          "start": 436.993,
+          "end": 437.855
+        },
+        {
+          "text": ":",
+          "start": 437.855,
+          "end": 437.955
+        },
+        {
+          "text": "From",
+          "start": 437.955,
+          "end": 438.167
+        },
+        {
+          "text": "Copilot",
+          "start": 438.167,
+          "end": 438.705
+        },
+        {
+          "text": "to",
+          "start": 438.705,
+          "end": 438.83
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 438.83,
+          "end": 439.443
+        },
+        {
+          "text": "Orchestration",
+          "start": 439.443,
+          "end": 440.417
+        },
+        {
+          "text": "(",
+          "start": 440.417,
+          "end": 440.505
+        },
+        {
+          "text": "Jun",
+          "start": 440.505,
+          "end": 440.755
+        },
+        {
+          "text": "2026",
+          "start": 440.755,
+          "end": 441.955
+        },
+        {
+          "text": ")",
+          "start": 441.955,
+          "end": 442.042
+        },
+        {
+          "text": ",",
+          "start": 442.042,
+          "end": 442.093
+        },
+        {
+          "text": "the",
+          "start": 442.093,
+          "end": 442.23
+        },
+        {
+          "text": "overarching",
+          "start": 442.23,
+          "end": 442.855
+        },
+        {
+          "text": "thesis",
+          "start": 442.855,
+          "end": 443.255
+        },
+        {
+          "text": "on",
+          "start": 443.255,
+          "end": 443.455
+        },
+        {
+          "text": "multi-agent",
+          "start": 443.455,
+          "end": 444.08
+        },
+        {
+          "text": "QA",
+          "start": 444.08,
+          "end": 444.43
+        },
+        {
+          "text": "systems",
+          "start": 444.43,
+          "end": 445.08
+        },
+        {
+          "text": ",",
+          "start": 445.08,
+          "end": 445.18
+        },
+        {
+          "text": "including",
+          "start": 445.18,
+          "end": 445.643
+        },
+        {
+          "text": "the",
+          "start": 445.643,
+          "end": 445.743
+        },
+        {
+          "text": "self-healing",
+          "start": 445.743,
+          "end": 446.33
+        },
+        {
+          "text": "locator",
+          "start": 446.33,
+          "end": 446.805
+        },
+        {
+          "text": "pattern",
+          "start": 446.805,
+          "end": 447.23
+        },
+        {
+          "text": "referenced",
+          "start": 447.23,
+          "end": 447.667
+        },
+        {
+          "text": "above",
+          "start": 447.667,
+          "end": 448.505
+        },
+        {
+          "text": ".",
+          "start": 448.505,
+          "end": 448.693
+        },
+        {
+          "text": "Self-Healing",
+          "start": 448.743,
+          "end": 449.305
+        },
+        {
+          "text": "Test",
+          "start": 449.305,
+          "end": 449.68
+        },
+        {
+          "text": "Suites",
+          "start": 449.68,
+          "end": 450.305
+        },
+        {
+          "text": "(",
+          "start": 450.305,
+          "end": 450.38
+        },
+        {
+          "text": "Jul",
+          "start": 450.38,
+          "end": 450.63
+        },
+        {
+          "text": "2026",
+          "start": 450.63,
+          "end": 451.73
+        },
+        {
+          "text": ")",
+          "start": 451.73,
+          "end": 451.792
+        },
+        {
+          "text": ",",
+          "start": 451.792,
+          "end": 451.893
+        },
+        {
+          "text": "full",
+          "start": 451.893,
+          "end": 452.143
+        },
+        {
+          "text": "implementation",
+          "start": 452.143,
+          "end": 453.38
+        },
+        {
+          "text": ":",
+          "start": 453.38,
+          "end": 453.48
+        },
+        {
+          "text": "Java",
+          "start": 453.48,
+          "end": 453.805
+        },
+        {
+          "text": "SemanticHealer",
+          "start": 453.805,
+          "end": 454.655
+        },
+        {
+          "text": ",",
+          "start": 454.655,
+          "end": 454.755
+        },
+        {
+          "text": "CDP",
+          "start": 454.755,
+          "end": 455.305
+        },
+        {
+          "text": "accessibility",
+          "start": 455.305,
+          "end": 456.042
+        },
+        {
+          "text": "tree",
+          "start": 456.042,
+          "end": 456.455
+        },
+        {
+          "text": ",",
+          "start": 456.455,
+          "end": 456.555
+        },
+        {
+          "text": "DOM",
+          "start": 456.555,
+          "end": 456.843
+        },
+        {
+          "text": "diff",
+          "start": 456.843,
+          "end": 457.23
+        },
+        {
+          "text": ",",
+          "start": 457.23,
+          "end": 457.355
+        },
+        {
+          "text": "CI/CD",
+          "start": 457.355,
+          "end": 458.243
+        },
+        {
+          "text": "healing",
+          "start": 458.243,
+          "end": 458.605
+        },
+        {
+          "text": "log",
+          "start": 458.605,
+          "end": 459.33
+        },
+        {
+          "text": "XPath",
+          "start": 459.83,
+          "end": 460.318
+        },
+        {
+          "text": "for",
+          "start": 460.318,
+          "end": 460.48
+        },
+        {
+          "text": "Test",
+          "start": 460.48,
+          "end": 460.78
+        },
+        {
+          "text": "Automation",
+          "start": 460.78,
+          "end": 461.705
+        },
+        {
+          "text": "(",
+          "start": 461.705,
+          "end": 461.805
+        },
+        {
+          "text": "Jul",
+          "start": 461.805,
+          "end": 462.042
+        },
+        {
+          "text": "2026",
+          "start": 462.042,
+          "end": 463.355
+        },
+        {
+          "text": ")",
+          "start": 463.355,
+          "end": 463.405
+        },
+        {
+          "text": ",",
+          "start": 463.405,
+          "end": 463.468
+        },
+        {
+          "text": "the",
+          "start": 463.468,
+          "end": 463.593
+        },
+        {
+          "text": "story-mode",
+          "start": 463.593,
+          "end": 464.143
+        },
+        {
+          "text": "article",
+          "start": 464.143,
+          "end": 464.542
+        },
+        {
+          "text": "whose",
+          "start": 464.542,
+          "end": 464.73
+        },
+        {
+          "text": "§12",
+          "start": 464.73,
+          "end": 465.667
+        },
+        {
+          "text": "maps",
+          "start": 465.667,
+          "end": 465.943
+        },
+        {
+          "text": "the",
+          "start": 465.943,
+          "end": 466.093
+        },
+        {
+          "text": "complex",
+          "start": 466.093,
+          "end": 466.655
+        },
+        {
+          "text": "XPath",
+          "start": 466.655,
+          "end": 467.218
+        },
+        {
+          "text": "and",
+          "start": 467.218,
+          "end": 467.405
+        },
+        {
+          "text": "CSS",
+          "start": 467.405,
+          "end": 467.968
+        },
+        {
+          "text": "patterns",
+          "start": 467.968,
+          "end": 468.48
+        },
+        {
+          "text": "you",
+          "start": 468.48,
+          "end": 468.655
+        },
+        {
+          "text": "ship",
+          "start": 468.655,
+          "end": 468.905
+        },
+        {
+          "text": "selectors",
+          "start": 468.905,
+          "end": 469.505
+        },
+        {
+          "text": "around",
+          "start": 469.505,
+          "end": 470.18
+        },
+        {
+          "text": "(",
+          "start": 470.18,
+          "end": 470.255
+        },
+        {
+          "text": "SVG",
+          "start": 470.255,
+          "end": 470.805
+        },
+        {
+          "text": "namespace",
+          "start": 470.805,
+          "end": 471.343
+        },
+        {
+          "text": "handling",
+          "start": 471.343,
+          "end": 472.155
+        },
+        {
+          "text": ",",
+          "start": 472.155,
+          "end": 472.205
+        },
+        {
+          "text": "computed",
+          "start": 472.205,
+          "end": 472.618
+        },
+        {
+          "text": "indices",
+          "start": 472.618,
+          "end": 473.505
+        },
+        {
+          "text": ",",
+          "start": 473.505,
+          "end": 473.593
+        },
+        {
+          "text": "role/state",
+          "start": 473.593,
+          "end": 474.205
+        },
+        {
+          "text": "ARIA",
+          "start": 474.205,
+          "end": 474.593
+        },
+        {
+          "text": "chains",
+          "start": 474.593,
+          "end": 475.305
+        },
+        {
+          "text": ",",
+          "start": 475.305,
+          "end": 475.393
+        },
+        {
+          "text": "iframe/shadow-DOM",
+          "start": 475.393,
+          "end": 477.168
+        },
+        {
+          "text": "piercing",
+          "start": 477.168,
+          "end": 477.555
+        },
+        {
+          "text": "matrix",
+          "start": 477.555,
+          "end": 478.505
+        },
+        {
+          "text": ",",
+          "start": 478.505,
+          "end": 478.592
+        },
+        {
+          "text": "modern",
+          "start": 478.592,
+          "end": 479.03
+        },
+        {
+          "text": "CSS",
+          "start": 479.03,
+          "end": 479.605
+        },
+        {
+          "text": "Level",
+          "start": 479.605,
+          "end": 479.98
+        },
+        {
+          "text": "4",
+          "start": 479.98,
+          "end": 480.23
+        },
+        {
+          "text": "selectors",
+          "start": 480.23,
+          "end": 480.93
+        },
+        {
+          "text": ",",
+          "start": 480.93,
+          "end": 481.005
+        },
+        {
+          "text": "decision",
+          "start": 481.005,
+          "end": 481.493
+        },
+        {
+          "text": "flowchart",
+          "start": 481.493,
+          "end": 482.43
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

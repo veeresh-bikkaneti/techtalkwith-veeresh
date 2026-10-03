@@ -1,0 +1,6311 @@
+{
+  "slug": "self-healing-test-suites",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 463.975,
+  "contentHash": "b029ecaf3812369acd6c5a4757d3f22ef102fe6ab06ca84517a094c6944dd617",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Self-Healing Test Suites: AI-Powered Locator Healing in CI/CD",
+      "start": 0.0,
+      "end": 4.775,
+      "words": [
+        {
+          "text": "Self-Healing",
+          "start": 0.3,
+          "end": 0.85
+        },
+        {
+          "text": "Test",
+          "start": 0.85,
+          "end": 1.188
+        },
+        {
+          "text": "Suites",
+          "start": 1.188,
+          "end": 1.85
+        },
+        {
+          "text": ":",
+          "start": 1.85,
+          "end": 1.988
+        },
+        {
+          "text": "AI-Powered",
+          "start": 1.988,
+          "end": 2.6
+        },
+        {
+          "text": "Locator",
+          "start": 2.6,
+          "end": 3.1
+        },
+        {
+          "text": "Healing",
+          "start": 3.1,
+          "end": 3.475
+        },
+        {
+          "text": "in",
+          "start": 3.475,
+          "end": 3.638
+        },
+        {
+          "text": "CI/CD",
+          "start": 3.638,
+          "end": 4.775
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "Every QA engineer knows the feeling. You open Slack on Monday morning and see it: \"Build #847 failed , 23 tests, 19 failures.\" The cause? A frontend developer renamed btn-submit to submit-button-primary on Friday at 4:59 PM. Nineteen tests. All broken. All for the same CSS class change.",
+      "start": 5.195,
+      "end": 27.87,
+      "words": [
+        {
+          "text": "Every",
+          "start": 5.47,
+          "end": 5.757
+        },
+        {
+          "text": "QA",
+          "start": 5.757,
+          "end": 6.17
+        },
+        {
+          "text": "engineer",
+          "start": 6.17,
+          "end": 6.645
+        },
+        {
+          "text": "knows",
+          "start": 6.645,
+          "end": 6.92
+        },
+        {
+          "text": "the",
+          "start": 6.92,
+          "end": 7.02
+        },
+        {
+          "text": "feeling",
+          "start": 7.02,
+          "end": 7.745
+        },
+        {
+          "text": ".",
+          "start": 7.745,
+          "end": 7.857
+        },
+        {
+          "text": "You",
+          "start": 7.857,
+          "end": 8.02
+        },
+        {
+          "text": "open",
+          "start": 8.02,
+          "end": 8.357
+        },
+        {
+          "text": "Slack",
+          "start": 8.357,
+          "end": 8.682
+        },
+        {
+          "text": "on",
+          "start": 8.682,
+          "end": 8.82
+        },
+        {
+          "text": "Monday",
+          "start": 8.82,
+          "end": 9.145
+        },
+        {
+          "text": "morning",
+          "start": 9.145,
+          "end": 9.545
+        },
+        {
+          "text": "and",
+          "start": 9.545,
+          "end": 9.682
+        },
+        {
+          "text": "see",
+          "start": 9.682,
+          "end": 9.895
+        },
+        {
+          "text": "it",
+          "start": 9.895,
+          "end": 10.32
+        },
+        {
+          "text": ":",
+          "start": 10.32,
+          "end": 10.42
+        },
+        {
+          "text": "\"",
+          "start": 10.42,
+          "end": 10.47
+        },
+        {
+          "text": "Build",
+          "start": 10.47,
+          "end": 10.732
+        },
+        {
+          "text": "847",
+          "start": 10.732,
+          "end": 11.982
+        },
+        {
+          "text": "failed",
+          "start": 11.982,
+          "end": 12.47
+        },
+        {
+          "text": ",",
+          "start": 12.47,
+          "end": 12.545
+        },
+        {
+          "text": "23",
+          "start": 12.545,
+          "end": 13.082
+        },
+        {
+          "text": "tests",
+          "start": 13.082,
+          "end": 13.595
+        },
+        {
+          "text": ",",
+          "start": 13.595,
+          "end": 13.683
+        },
+        {
+          "text": "19",
+          "start": 13.683,
+          "end": 14.145
+        },
+        {
+          "text": "failures",
+          "start": 14.145,
+          "end": 15.145
+        },
+        {
+          "text": ".",
+          "start": 15.145,
+          "end": 15.22
+        },
+        {
+          "text": "\"",
+          "start": 15.22,
+          "end": 15.27
+        },
+        {
+          "text": "The",
+          "start": 15.27,
+          "end": 15.383
+        },
+        {
+          "text": "cause",
+          "start": 15.383,
+          "end": 16.12
+        },
+        {
+          "text": "?",
+          "start": 16.12,
+          "end": 16.258
+        },
+        {
+          "text": "A",
+          "start": 16.258,
+          "end": 16.383
+        },
+        {
+          "text": "frontend",
+          "start": 16.383,
+          "end": 16.857
+        },
+        {
+          "text": "developer",
+          "start": 16.857,
+          "end": 17.345
+        },
+        {
+          "text": "renamed",
+          "start": 17.345,
+          "end": 17.832
+        },
+        {
+          "text": "btn-submit",
+          "start": 17.832,
+          "end": 18.72
+        },
+        {
+          "text": "to",
+          "start": 18.72,
+          "end": 18.845
+        },
+        {
+          "text": "submit-button-primary",
+          "start": 18.845,
+          "end": 19.945
+        },
+        {
+          "text": "on",
+          "start": 19.945,
+          "end": 20.157
+        },
+        {
+          "text": "Friday",
+          "start": 20.157,
+          "end": 20.633
+        },
+        {
+          "text": "at",
+          "start": 20.633,
+          "end": 20.82
+        },
+        {
+          "text": "4:59",
+          "start": 20.82,
+          "end": 21.945
+        },
+        {
+          "text": "PM",
+          "start": 21.945,
+          "end": 22.795
+        },
+        {
+          "text": ".",
+          "start": 22.795,
+          "end": 22.945
+        },
+        {
+          "text": "Nineteen",
+          "start": 22.945,
+          "end": 23.42
+        },
+        {
+          "text": "tests",
+          "start": 23.42,
+          "end": 24.12
+        },
+        {
+          "text": ".",
+          "start": 24.12,
+          "end": 24.233
+        },
+        {
+          "text": "All",
+          "start": 24.233,
+          "end": 24.445
+        },
+        {
+          "text": "broken",
+          "start": 24.445,
+          "end": 25.145
+        },
+        {
+          "text": ".",
+          "start": 25.145,
+          "end": 25.282
+        },
+        {
+          "text": "All",
+          "start": 25.282,
+          "end": 25.545
+        },
+        {
+          "text": "for",
+          "start": 25.545,
+          "end": 25.657
+        },
+        {
+          "text": "the",
+          "start": 25.657,
+          "end": 25.758
+        },
+        {
+          "text": "same",
+          "start": 25.758,
+          "end": 26.082
+        },
+        {
+          "text": "CSS",
+          "start": 26.082,
+          "end": 26.695
+        },
+        {
+          "text": "class",
+          "start": 26.695,
+          "end": 26.995
+        },
+        {
+          "text": "change",
+          "start": 26.995,
+          "end": 27.695
+        },
+        {
+          "text": ".",
+          "start": 27.695,
+          "end": 27.87
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "This is the locator crisis , the single biggest source of flaky tests in every Selenium and Playwright suite I've ever maintained. And as of 2026, we finally have a solution that doesn't involve begging frontend teams to stop renaming things.",
+      "start": 28.19,
+      "end": 44.465,
+      "words": [
+        {
+          "text": "This",
+          "start": 28.465,
+          "end": 28.752
+        },
+        {
+          "text": "is",
+          "start": 28.752,
+          "end": 28.915
+        },
+        {
+          "text": "the",
+          "start": 28.915,
+          "end": 29.04
+        },
+        {
+          "text": "locator",
+          "start": 29.04,
+          "end": 29.54
+        },
+        {
+          "text": "crisis",
+          "start": 29.54,
+          "end": 30.427
+        },
+        {
+          "text": ",",
+          "start": 30.427,
+          "end": 30.515
+        },
+        {
+          "text": "the",
+          "start": 30.515,
+          "end": 30.665
+        },
+        {
+          "text": "single",
+          "start": 30.665,
+          "end": 31.102
+        },
+        {
+          "text": "biggest",
+          "start": 31.102,
+          "end": 31.49
+        },
+        {
+          "text": "source",
+          "start": 31.49,
+          "end": 31.777
+        },
+        {
+          "text": "of",
+          "start": 31.777,
+          "end": 31.902
+        },
+        {
+          "text": "flaky",
+          "start": 31.902,
+          "end": 32.302
+        },
+        {
+          "text": "tests",
+          "start": 32.302,
+          "end": 32.977
+        },
+        {
+          "text": "in",
+          "start": 32.977,
+          "end": 33.152
+        },
+        {
+          "text": "every",
+          "start": 33.152,
+          "end": 33.502
+        },
+        {
+          "text": "Selenium",
+          "start": 33.502,
+          "end": 34.115
+        },
+        {
+          "text": "and",
+          "start": 34.115,
+          "end": 34.24
+        },
+        {
+          "text": "Playwright",
+          "start": 34.24,
+          "end": 34.715
+        },
+        {
+          "text": "suite",
+          "start": 34.715,
+          "end": 35.328
+        },
+        {
+          "text": "I've",
+          "start": 35.328,
+          "end": 35.552
+        },
+        {
+          "text": "ever",
+          "start": 35.552,
+          "end": 35.79
+        },
+        {
+          "text": "maintained",
+          "start": 35.79,
+          "end": 36.915
+        },
+        {
+          "text": ".",
+          "start": 36.915,
+          "end": 37.04
+        },
+        {
+          "text": "And",
+          "start": 37.04,
+          "end": 37.227
+        },
+        {
+          "text": "as",
+          "start": 37.227,
+          "end": 37.352
+        },
+        {
+          "text": "of",
+          "start": 37.352,
+          "end": 37.44
+        },
+        {
+          "text": "2026",
+          "start": 37.44,
+          "end": 38.69
+        },
+        {
+          "text": ",",
+          "start": 38.69,
+          "end": 38.79
+        },
+        {
+          "text": "we",
+          "start": 38.79,
+          "end": 38.953
+        },
+        {
+          "text": "finally",
+          "start": 38.953,
+          "end": 39.415
+        },
+        {
+          "text": "have",
+          "start": 39.415,
+          "end": 39.578
+        },
+        {
+          "text": "a",
+          "start": 39.578,
+          "end": 39.64
+        },
+        {
+          "text": "solution",
+          "start": 39.64,
+          "end": 40.215
+        },
+        {
+          "text": "that",
+          "start": 40.215,
+          "end": 40.365
+        },
+        {
+          "text": "doesn't",
+          "start": 40.365,
+          "end": 40.665
+        },
+        {
+          "text": "involve",
+          "start": 40.665,
+          "end": 41.177
+        },
+        {
+          "text": "begging",
+          "start": 41.177,
+          "end": 41.578
+        },
+        {
+          "text": "frontend",
+          "start": 41.578,
+          "end": 42.052
+        },
+        {
+          "text": "teams",
+          "start": 42.052,
+          "end": 42.677
+        },
+        {
+          "text": "to",
+          "start": 42.677,
+          "end": 42.815
+        },
+        {
+          "text": "stop",
+          "start": 42.815,
+          "end": 43.14
+        },
+        {
+          "text": "renaming",
+          "start": 43.14,
+          "end": 43.615
+        },
+        {
+          "text": "things",
+          "start": 43.615,
+          "end": 44.315
+        },
+        {
+          "text": ".",
+          "start": 44.315,
+          "end": 44.465
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "This post shows you how to build self-healing test suites , tests that automatically find elements by their semantic role when traditional selectors break, using Java (primary), C#, TypeScript, JavaScript, and Python.",
+      "start": 44.785,
+      "end": 59.435,
+      "words": [
+        {
+          "text": "This",
+          "start": 45.06,
+          "end": 45.235
+        },
+        {
+          "text": "post",
+          "start": 45.235,
+          "end": 45.622
+        },
+        {
+          "text": "shows",
+          "start": 45.622,
+          "end": 45.86
+        },
+        {
+          "text": "you",
+          "start": 45.86,
+          "end": 45.985
+        },
+        {
+          "text": "how",
+          "start": 45.985,
+          "end": 46.122
+        },
+        {
+          "text": "to",
+          "start": 46.122,
+          "end": 46.21
+        },
+        {
+          "text": "build",
+          "start": 46.21,
+          "end": 46.522
+        },
+        {
+          "text": "self-healing",
+          "start": 46.522,
+          "end": 47.185
+        },
+        {
+          "text": "test",
+          "start": 47.185,
+          "end": 47.435
+        },
+        {
+          "text": "suites",
+          "start": 47.435,
+          "end": 48.272
+        },
+        {
+          "text": ",",
+          "start": 48.272,
+          "end": 48.372
+        },
+        {
+          "text": "tests",
+          "start": 48.372,
+          "end": 48.76
+        },
+        {
+          "text": "that",
+          "start": 48.76,
+          "end": 48.947
+        },
+        {
+          "text": "automatically",
+          "start": 48.947,
+          "end": 49.697
+        },
+        {
+          "text": "find",
+          "start": 49.697,
+          "end": 50.06
+        },
+        {
+          "text": "elements",
+          "start": 50.06,
+          "end": 50.51
+        },
+        {
+          "text": "by",
+          "start": 50.51,
+          "end": 50.672
+        },
+        {
+          "text": "their",
+          "start": 50.672,
+          "end": 50.835
+        },
+        {
+          "text": "semantic",
+          "start": 50.835,
+          "end": 51.36
+        },
+        {
+          "text": "role",
+          "start": 51.36,
+          "end": 51.697
+        },
+        {
+          "text": "when",
+          "start": 51.697,
+          "end": 51.835
+        },
+        {
+          "text": "traditional",
+          "start": 51.835,
+          "end": 52.335
+        },
+        {
+          "text": "selectors",
+          "start": 52.335,
+          "end": 52.86
+        },
+        {
+          "text": "break",
+          "start": 52.86,
+          "end": 53.51
+        },
+        {
+          "text": ",",
+          "start": 53.51,
+          "end": 53.647
+        },
+        {
+          "text": "using",
+          "start": 53.647,
+          "end": 54.022
+        },
+        {
+          "text": "Java",
+          "start": 54.022,
+          "end": 54.547
+        },
+        {
+          "text": "(",
+          "start": 54.547,
+          "end": 54.635
+        },
+        {
+          "text": "primary",
+          "start": 54.635,
+          "end": 55.485
+        },
+        {
+          "text": ")",
+          "start": 55.485,
+          "end": 55.635
+        },
+        {
+          "text": ",",
+          "start": 55.635,
+          "end": 55.722
+        },
+        {
+          "text": "C#",
+          "start": 55.722,
+          "end": 56.485
+        },
+        {
+          "text": ",",
+          "start": 56.485,
+          "end": 56.597
+        },
+        {
+          "text": "TypeScript",
+          "start": 56.597,
+          "end": 57.435
+        },
+        {
+          "text": ",",
+          "start": 57.435,
+          "end": 57.547
+        },
+        {
+          "text": "JavaScript",
+          "start": 57.547,
+          "end": 58.26
+        },
+        {
+          "text": ",",
+          "start": 58.26,
+          "end": 58.31
+        },
+        {
+          "text": "and",
+          "start": 58.31,
+          "end": 58.435
+        },
+        {
+          "text": "Python",
+          "start": 58.435,
+          "end": 59.285
+        },
+        {
+          "text": ".",
+          "start": 59.285,
+          "end": 59.435
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "If you read the Selenium Locators guide from 2020, this is the sequel , six years later, we're solving the NoSuchElementException problem at the root.",
+      "start": 59.755,
+      "end": 69.83,
+      "words": [
+        {
+          "text": "If",
+          "start": 60.005,
+          "end": 60.18
+        },
+        {
+          "text": "you",
+          "start": 60.18,
+          "end": 60.343
+        },
+        {
+          "text": "read",
+          "start": 60.343,
+          "end": 60.605
+        },
+        {
+          "text": "the",
+          "start": 60.605,
+          "end": 60.718
+        },
+        {
+          "text": "Selenium",
+          "start": 60.718,
+          "end": 61.305
+        },
+        {
+          "text": "Locators",
+          "start": 61.305,
+          "end": 61.855
+        },
+        {
+          "text": "guide",
+          "start": 61.855,
+          "end": 62.255
+        },
+        {
+          "text": "from",
+          "start": 62.255,
+          "end": 62.43
+        },
+        {
+          "text": "2020",
+          "start": 62.43,
+          "end": 63.48
+        },
+        {
+          "text": ",",
+          "start": 63.48,
+          "end": 63.63
+        },
+        {
+          "text": "this",
+          "start": 63.63,
+          "end": 63.893
+        },
+        {
+          "text": "is",
+          "start": 63.893,
+          "end": 64.08
+        },
+        {
+          "text": "the",
+          "start": 64.08,
+          "end": 64.218
+        },
+        {
+          "text": "sequel",
+          "start": 64.218,
+          "end": 64.905
+        },
+        {
+          "text": ",",
+          "start": 64.905,
+          "end": 65.042
+        },
+        {
+          "text": "six",
+          "start": 65.042,
+          "end": 65.292
+        },
+        {
+          "text": "years",
+          "start": 65.292,
+          "end": 65.53
+        },
+        {
+          "text": "later",
+          "start": 65.53,
+          "end": 66.13
+        },
+        {
+          "text": ",",
+          "start": 66.13,
+          "end": 66.23
+        },
+        {
+          "text": "we're",
+          "start": 66.23,
+          "end": 66.417
+        },
+        {
+          "text": "solving",
+          "start": 66.417,
+          "end": 66.905
+        },
+        {
+          "text": "the",
+          "start": 66.905,
+          "end": 67.042
+        },
+        {
+          "text": "NoSuchElementException",
+          "start": 67.042,
+          "end": 68.43
+        },
+        {
+          "text": "problem",
+          "start": 68.43,
+          "end": 68.88
+        },
+        {
+          "text": "at",
+          "start": 68.88,
+          "end": 68.968
+        },
+        {
+          "text": "the",
+          "start": 68.968,
+          "end": 69.067
+        },
+        {
+          "text": "root",
+          "start": 69.067,
+          "end": 69.68
+        },
+        {
+          "text": ".",
+          "start": 69.68,
+          "end": 69.83
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h2",
+      "text": "Why Locators Break (And Why Manual Fixing Doesn't Scale)",
+      "start": 70.15,
+      "end": 73.975,
+      "words": [
+        {
+          "text": "Why",
+          "start": 70.425,
+          "end": 70.6
+        },
+        {
+          "text": "Locators",
+          "start": 70.6,
+          "end": 71.15
+        },
+        {
+          "text": "Break",
+          "start": 71.15,
+          "end": 71.7
+        },
+        {
+          "text": "(",
+          "start": 71.7,
+          "end": 71.75
+        },
+        {
+          "text": "And",
+          "start": 71.75,
+          "end": 71.863
+        },
+        {
+          "text": "Why",
+          "start": 71.863,
+          "end": 72.025
+        },
+        {
+          "text": "Manual",
+          "start": 72.025,
+          "end": 72.425
+        },
+        {
+          "text": "Fixing",
+          "start": 72.425,
+          "end": 72.85
+        },
+        {
+          "text": "Doesn't",
+          "start": 72.85,
+          "end": 73.125
+        },
+        {
+          "text": "Scale",
+          "start": 73.125,
+          "end": 73.825
+        },
+        {
+          "text": ")",
+          "start": 73.825,
+          "end": 73.975
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "In 2020, the advice was simple: use stable locators. Prefer By.id() over By.xpath(). Build a Page Object layer. Hope for the best.",
+      "start": 74.295,
+      "end": 84.42,
+      "words": [
+        {
+          "text": "In",
+          "start": 74.595,
+          "end": 74.695
+        },
+        {
+          "text": "2020",
+          "start": 74.695,
+          "end": 75.395
+        },
+        {
+          "text": ",",
+          "start": 75.395,
+          "end": 75.445
+        },
+        {
+          "text": "the",
+          "start": 75.445,
+          "end": 75.595
+        },
+        {
+          "text": "advice",
+          "start": 75.595,
+          "end": 75.995
+        },
+        {
+          "text": "was",
+          "start": 75.995,
+          "end": 76.133
+        },
+        {
+          "text": "simple",
+          "start": 76.133,
+          "end": 76.695
+        },
+        {
+          "text": ":",
+          "start": 76.695,
+          "end": 76.808
+        },
+        {
+          "text": "use",
+          "start": 76.808,
+          "end": 77.095
+        },
+        {
+          "text": "stable",
+          "start": 77.095,
+          "end": 77.495
+        },
+        {
+          "text": "locators",
+          "start": 77.495,
+          "end": 78.22
+        },
+        {
+          "text": ".",
+          "start": 78.22,
+          "end": 78.295
+        },
+        {
+          "text": "Prefer",
+          "start": 78.295,
+          "end": 78.732
+        },
+        {
+          "text": "By.id",
+          "start": 78.732,
+          "end": 79.645
+        },
+        {
+          "text": "(",
+          "start": 79.645,
+          "end": 79.745
+        },
+        {
+          "text": ")",
+          "start": 79.745,
+          "end": 79.795
+        },
+        {
+          "text": "over",
+          "start": 79.795,
+          "end": 80.045
+        },
+        {
+          "text": "By.xpath",
+          "start": 80.045,
+          "end": 81.245
+        },
+        {
+          "text": "(",
+          "start": 81.245,
+          "end": 81.345
+        },
+        {
+          "text": ")",
+          "start": 81.345,
+          "end": 81.37
+        },
+        {
+          "text": ".",
+          "start": 81.37,
+          "end": 81.433
+        },
+        {
+          "text": "Build",
+          "start": 81.433,
+          "end": 81.683
+        },
+        {
+          "text": "a",
+          "start": 81.683,
+          "end": 81.758
+        },
+        {
+          "text": "Page",
+          "start": 81.758,
+          "end": 82.145
+        },
+        {
+          "text": "Object",
+          "start": 82.145,
+          "end": 82.52
+        },
+        {
+          "text": "layer",
+          "start": 82.52,
+          "end": 83.045
+        },
+        {
+          "text": ".",
+          "start": 83.045,
+          "end": 83.158
+        },
+        {
+          "text": "Hope",
+          "start": 83.158,
+          "end": 83.395
+        },
+        {
+          "text": "for",
+          "start": 83.395,
+          "end": 83.508
+        },
+        {
+          "text": "the",
+          "start": 83.508,
+          "end": 83.595
+        },
+        {
+          "text": "best",
+          "start": 83.595,
+          "end": 84.27
+        },
+        {
+          "text": ".",
+          "start": 84.27,
+          "end": 84.42
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "In 2026, the reality hasn't changed , frontend teams still refactor CSS, rename components, and migrate from Bootstrap to Tailwind to whatever comes next. The only difference is that we no longer have to fix the breakage manually.",
+      "start": 84.74,
+      "end": 100.94,
+      "words": [
+        {
+          "text": "In",
+          "start": 85.04,
+          "end": 85.14
+        },
+        {
+          "text": "2026",
+          "start": 85.14,
+          "end": 86.365
+        },
+        {
+          "text": ",",
+          "start": 86.365,
+          "end": 86.465
+        },
+        {
+          "text": "the",
+          "start": 86.465,
+          "end": 86.565
+        },
+        {
+          "text": "reality",
+          "start": 86.565,
+          "end": 87.09
+        },
+        {
+          "text": "hasn't",
+          "start": 87.09,
+          "end": 87.465
+        },
+        {
+          "text": "changed",
+          "start": 87.465,
+          "end": 88.202
+        },
+        {
+          "text": ",",
+          "start": 88.202,
+          "end": 88.302
+        },
+        {
+          "text": "frontend",
+          "start": 88.302,
+          "end": 88.827
+        },
+        {
+          "text": "teams",
+          "start": 88.827,
+          "end": 89.39
+        },
+        {
+          "text": "still",
+          "start": 89.39,
+          "end": 89.715
+        },
+        {
+          "text": "refactor",
+          "start": 89.715,
+          "end": 90.302
+        },
+        {
+          "text": "CSS",
+          "start": 90.302,
+          "end": 91.29
+        },
+        {
+          "text": ",",
+          "start": 91.29,
+          "end": 91.427
+        },
+        {
+          "text": "rename",
+          "start": 91.427,
+          "end": 91.84
+        },
+        {
+          "text": "components",
+          "start": 91.84,
+          "end": 92.64
+        },
+        {
+          "text": ",",
+          "start": 92.64,
+          "end": 92.715
+        },
+        {
+          "text": "and",
+          "start": 92.715,
+          "end": 92.852
+        },
+        {
+          "text": "migrate",
+          "start": 92.852,
+          "end": 93.34
+        },
+        {
+          "text": "from",
+          "start": 93.34,
+          "end": 93.54
+        },
+        {
+          "text": "Bootstrap",
+          "start": 93.54,
+          "end": 94.09
+        },
+        {
+          "text": "to",
+          "start": 94.09,
+          "end": 94.215
+        },
+        {
+          "text": "Tailwind",
+          "start": 94.215,
+          "end": 95.065
+        },
+        {
+          "text": "to",
+          "start": 95.065,
+          "end": 95.215
+        },
+        {
+          "text": "whatever",
+          "start": 95.215,
+          "end": 95.59
+        },
+        {
+          "text": "comes",
+          "start": 95.59,
+          "end": 95.865
+        },
+        {
+          "text": "next",
+          "start": 95.865,
+          "end": 96.715
+        },
+        {
+          "text": ".",
+          "start": 96.715,
+          "end": 96.878
+        },
+        {
+          "text": "The",
+          "start": 96.878,
+          "end": 97.04
+        },
+        {
+          "text": "only",
+          "start": 97.04,
+          "end": 97.34
+        },
+        {
+          "text": "difference",
+          "start": 97.34,
+          "end": 97.802
+        },
+        {
+          "text": "is",
+          "start": 97.802,
+          "end": 97.99
+        },
+        {
+          "text": "that",
+          "start": 97.99,
+          "end": 98.14
+        },
+        {
+          "text": "we",
+          "start": 98.14,
+          "end": 98.265
+        },
+        {
+          "text": "no",
+          "start": 98.265,
+          "end": 98.44
+        },
+        {
+          "text": "longer",
+          "start": 98.44,
+          "end": 98.79
+        },
+        {
+          "text": "have",
+          "start": 98.79,
+          "end": 98.99
+        },
+        {
+          "text": "to",
+          "start": 98.99,
+          "end": 99.128
+        },
+        {
+          "text": "fix",
+          "start": 99.128,
+          "end": 99.415
+        },
+        {
+          "text": "the",
+          "start": 99.415,
+          "end": 99.515
+        },
+        {
+          "text": "breakage",
+          "start": 99.515,
+          "end": 99.94
+        },
+        {
+          "text": "manually",
+          "start": 99.94,
+          "end": 100.815
+        },
+        {
+          "text": ".",
+          "start": 100.815,
+          "end": 100.94
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "The self-healing path doesn't just fix the tests , it documents what changed so you can review the healing decisions and feed them back to the frontend team.",
+      "start": 101.26,
+      "end": 110.685,
+      "words": [
+        {
+          "text": "The",
+          "start": 101.51,
+          "end": 101.622
+        },
+        {
+          "text": "self-healing",
+          "start": 101.622,
+          "end": 102.272
+        },
+        {
+          "text": "path",
+          "start": 102.272,
+          "end": 102.673
+        },
+        {
+          "text": "doesn't",
+          "start": 102.673,
+          "end": 102.985
+        },
+        {
+          "text": "just",
+          "start": 102.985,
+          "end": 103.235
+        },
+        {
+          "text": "fix",
+          "start": 103.235,
+          "end": 103.485
+        },
+        {
+          "text": "the",
+          "start": 103.485,
+          "end": 103.585
+        },
+        {
+          "text": "tests",
+          "start": 103.585,
+          "end": 104.448
+        },
+        {
+          "text": ",",
+          "start": 104.448,
+          "end": 104.572
+        },
+        {
+          "text": "it",
+          "start": 104.572,
+          "end": 104.71
+        },
+        {
+          "text": "documents",
+          "start": 104.71,
+          "end": 105.31
+        },
+        {
+          "text": "what",
+          "start": 105.31,
+          "end": 105.547
+        },
+        {
+          "text": "changed",
+          "start": 105.547,
+          "end": 106.26
+        },
+        {
+          "text": "so",
+          "start": 106.26,
+          "end": 106.435
+        },
+        {
+          "text": "you",
+          "start": 106.435,
+          "end": 106.56
+        },
+        {
+          "text": "can",
+          "start": 106.56,
+          "end": 106.71
+        },
+        {
+          "text": "review",
+          "start": 106.71,
+          "end": 107.06
+        },
+        {
+          "text": "the",
+          "start": 107.06,
+          "end": 107.172
+        },
+        {
+          "text": "healing",
+          "start": 107.172,
+          "end": 107.535
+        },
+        {
+          "text": "decisions",
+          "start": 107.535,
+          "end": 108.385
+        },
+        {
+          "text": "and",
+          "start": 108.385,
+          "end": 108.56
+        },
+        {
+          "text": "feed",
+          "start": 108.56,
+          "end": 108.773
+        },
+        {
+          "text": "them",
+          "start": 108.773,
+          "end": 108.935
+        },
+        {
+          "text": "back",
+          "start": 108.935,
+          "end": 109.21
+        },
+        {
+          "text": "to",
+          "start": 109.21,
+          "end": 109.297
+        },
+        {
+          "text": "the",
+          "start": 109.297,
+          "end": 109.397
+        },
+        {
+          "text": "frontend",
+          "start": 109.397,
+          "end": 109.91
+        },
+        {
+          "text": "team",
+          "start": 109.91,
+          "end": 110.535
+        },
+        {
+          "text": ".",
+          "start": 110.535,
+          "end": 110.685
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h2",
+      "text": "How Self-Healing Works: The Three-Layer Strategy",
+      "start": 111.005,
+      "end": 114.205,
+      "words": [
+        {
+          "text": "How",
+          "start": 111.28,
+          "end": 111.443
+        },
+        {
+          "text": "Self-Healing",
+          "start": 111.443,
+          "end": 112.005
+        },
+        {
+          "text": "Works",
+          "start": 112.005,
+          "end": 112.53
+        },
+        {
+          "text": ":",
+          "start": 112.53,
+          "end": 112.63
+        },
+        {
+          "text": "The",
+          "start": 112.63,
+          "end": 112.768
+        },
+        {
+          "text": "Three-Layer",
+          "start": 112.768,
+          "end": 113.33
+        },
+        {
+          "text": "Strategy",
+          "start": 113.33,
+          "end": 114.205
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "Self-healing isn't one technique , it's a layered defense that falls back through increasingly intelligent strategies:",
+      "start": 114.675,
+      "end": 121.95,
+      "words": [
+        {
+          "text": "Self-healing",
+          "start": 114.975,
+          "end": 115.663
+        },
+        {
+          "text": "isn't",
+          "start": 115.663,
+          "end": 115.95
+        },
+        {
+          "text": "one",
+          "start": 115.95,
+          "end": 116.175
+        },
+        {
+          "text": "technique",
+          "start": 116.175,
+          "end": 117.037
+        },
+        {
+          "text": ",",
+          "start": 117.037,
+          "end": 117.15
+        },
+        {
+          "text": "it's",
+          "start": 117.15,
+          "end": 117.313
+        },
+        {
+          "text": "a",
+          "start": 117.313,
+          "end": 117.412
+        },
+        {
+          "text": "layered",
+          "start": 117.412,
+          "end": 117.825
+        },
+        {
+          "text": "defense",
+          "start": 117.825,
+          "end": 118.325
+        },
+        {
+          "text": "that",
+          "start": 118.325,
+          "end": 118.475
+        },
+        {
+          "text": "falls",
+          "start": 118.475,
+          "end": 118.775
+        },
+        {
+          "text": "back",
+          "start": 118.775,
+          "end": 119.188
+        },
+        {
+          "text": "through",
+          "start": 119.188,
+          "end": 119.4
+        },
+        {
+          "text": "increasingly",
+          "start": 119.4,
+          "end": 120.2
+        },
+        {
+          "text": "intelligent",
+          "start": 120.2,
+          "end": 120.825
+        },
+        {
+          "text": "strategies",
+          "start": 120.825,
+          "end": 121.8
+        },
+        {
+          "text": ":",
+          "start": 121.8,
+          "end": 121.95
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Each layer is progressively more expensive but also more powerful. Let's build all three , in Java.",
+      "start": 122.27,
+      "end": 129.045,
+      "words": [
+        {
+          "text": "Each",
+          "start": 122.57,
+          "end": 122.795
+        },
+        {
+          "text": "layer",
+          "start": 122.795,
+          "end": 123.17
+        },
+        {
+          "text": "is",
+          "start": 123.17,
+          "end": 123.32
+        },
+        {
+          "text": "progressively",
+          "start": 123.32,
+          "end": 123.97
+        },
+        {
+          "text": "more",
+          "start": 123.97,
+          "end": 124.17
+        },
+        {
+          "text": "expensive",
+          "start": 124.17,
+          "end": 124.982
+        },
+        {
+          "text": "but",
+          "start": 124.982,
+          "end": 125.145
+        },
+        {
+          "text": "also",
+          "start": 125.145,
+          "end": 125.495
+        },
+        {
+          "text": "more",
+          "start": 125.495,
+          "end": 125.67
+        },
+        {
+          "text": "powerful",
+          "start": 125.67,
+          "end": 126.595
+        },
+        {
+          "text": ".",
+          "start": 126.595,
+          "end": 126.757
+        },
+        {
+          "text": "Let's",
+          "start": 126.757,
+          "end": 127.045
+        },
+        {
+          "text": "build",
+          "start": 127.045,
+          "end": 127.295
+        },
+        {
+          "text": "all",
+          "start": 127.295,
+          "end": 127.507
+        },
+        {
+          "text": "three",
+          "start": 127.507,
+          "end": 127.97
+        },
+        {
+          "text": ",",
+          "start": 127.97,
+          "end": 128.045
+        },
+        {
+          "text": "in",
+          "start": 128.045,
+          "end": 128.195
+        },
+        {
+          "text": "Java",
+          "start": 128.195,
+          "end": 128.87
+        },
+        {
+          "text": ".",
+          "start": 128.87,
+          "end": 129.045
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h2",
+      "text": "Strategy 1: Relative Locators , Your First Line of Defense",
+      "start": 129.365,
+      "end": 133.44,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 129.64,
+          "end": 130.165
+        },
+        {
+          "text": "1",
+          "start": 130.165,
+          "end": 130.665
+        },
+        {
+          "text": ":",
+          "start": 130.665,
+          "end": 130.803
+        },
+        {
+          "text": "Relative",
+          "start": 130.803,
+          "end": 131.24
+        },
+        {
+          "text": "Locators",
+          "start": 131.24,
+          "end": 131.878
+        },
+        {
+          "text": ",",
+          "start": 131.878,
+          "end": 131.927
+        },
+        {
+          "text": "Your",
+          "start": 131.927,
+          "end": 132.102
+        },
+        {
+          "text": "First",
+          "start": 132.102,
+          "end": 132.403
+        },
+        {
+          "text": "Line",
+          "start": 132.403,
+          "end": 132.602
+        },
+        {
+          "text": "of",
+          "start": 132.602,
+          "end": 132.69
+        },
+        {
+          "text": "Defense",
+          "start": 132.69,
+          "end": 133.44
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "Before AI gets involved, use the simplest tool Selenium 4 gives you: Relative Locators. Instead of By.cssSelector(\".btn-submit\"), describe where the element lives on the page:",
+      "start": 133.91,
+      "end": 146.635,
+      "words": [
+        {
+          "text": "Before",
+          "start": 134.16,
+          "end": 134.522
+        },
+        {
+          "text": "AI",
+          "start": 134.522,
+          "end": 134.935
+        },
+        {
+          "text": "gets",
+          "start": 134.935,
+          "end": 135.147
+        },
+        {
+          "text": "involved",
+          "start": 135.147,
+          "end": 135.785
+        },
+        {
+          "text": ",",
+          "start": 135.785,
+          "end": 135.885
+        },
+        {
+          "text": "use",
+          "start": 135.885,
+          "end": 136.11
+        },
+        {
+          "text": "the",
+          "start": 136.11,
+          "end": 136.248
+        },
+        {
+          "text": "simplest",
+          "start": 136.248,
+          "end": 136.71
+        },
+        {
+          "text": "tool",
+          "start": 136.71,
+          "end": 136.985
+        },
+        {
+          "text": "Selenium",
+          "start": 136.985,
+          "end": 137.535
+        },
+        {
+          "text": "4",
+          "start": 137.535,
+          "end": 137.885
+        },
+        {
+          "text": "gives",
+          "start": 137.885,
+          "end": 138.16
+        },
+        {
+          "text": "you",
+          "start": 138.16,
+          "end": 138.535
+        },
+        {
+          "text": ":",
+          "start": 138.535,
+          "end": 138.722
+        },
+        {
+          "text": "Relative",
+          "start": 138.722,
+          "end": 139.21
+        },
+        {
+          "text": "Locators",
+          "start": 139.21,
+          "end": 140.16
+        },
+        {
+          "text": ".",
+          "start": 140.16,
+          "end": 140.272
+        },
+        {
+          "text": "Instead",
+          "start": 140.272,
+          "end": 140.623
+        },
+        {
+          "text": "of",
+          "start": 140.623,
+          "end": 140.71
+        },
+        {
+          "text": "By.cssSelector(\".btn-submit",
+          "start": 140.71,
+          "end": 143.985
+        },
+        {
+          "text": "\"",
+          "start": 143.985,
+          "end": 144.06
+        },
+        {
+          "text": ")",
+          "start": 144.06,
+          "end": 144.085
+        },
+        {
+          "text": ",",
+          "start": 144.085,
+          "end": 144.135
+        },
+        {
+          "text": "describe",
+          "start": 144.135,
+          "end": 144.672
+        },
+        {
+          "text": "where",
+          "start": 144.672,
+          "end": 144.797
+        },
+        {
+          "text": "the",
+          "start": 144.797,
+          "end": 144.935
+        },
+        {
+          "text": "element",
+          "start": 144.935,
+          "end": 145.36
+        },
+        {
+          "text": "lives",
+          "start": 145.36,
+          "end": 145.623
+        },
+        {
+          "text": "on",
+          "start": 145.623,
+          "end": 145.723
+        },
+        {
+          "text": "the",
+          "start": 145.723,
+          "end": 145.81
+        },
+        {
+          "text": "page",
+          "start": 145.81,
+          "end": 146.485
+        },
+        {
+          "text": ":",
+          "start": 146.485,
+          "end": 146.635
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "Relative Locators survive CSS class renames because they don't depend on class names. They depend on spatial relationships , what's above, below, or near another element. As long as the layout doesn't radically change, the locator holds.",
+      "start": 146.955,
+      "end": 162.93,
+      "words": [
+        {
+          "text": "Relative",
+          "start": 147.28,
+          "end": 147.73
+        },
+        {
+          "text": "Locators",
+          "start": 147.73,
+          "end": 148.367
+        },
+        {
+          "text": "survive",
+          "start": 148.367,
+          "end": 148.942
+        },
+        {
+          "text": "CSS",
+          "start": 148.942,
+          "end": 149.605
+        },
+        {
+          "text": "class",
+          "start": 149.605,
+          "end": 149.93
+        },
+        {
+          "text": "renames",
+          "start": 149.93,
+          "end": 150.717
+        },
+        {
+          "text": "because",
+          "start": 150.717,
+          "end": 151.055
+        },
+        {
+          "text": "they",
+          "start": 151.055,
+          "end": 151.205
+        },
+        {
+          "text": "don't",
+          "start": 151.205,
+          "end": 151.43
+        },
+        {
+          "text": "depend",
+          "start": 151.43,
+          "end": 151.792
+        },
+        {
+          "text": "on",
+          "start": 151.792,
+          "end": 151.93
+        },
+        {
+          "text": "class",
+          "start": 151.93,
+          "end": 152.255
+        },
+        {
+          "text": "names",
+          "start": 152.255,
+          "end": 153.08
+        },
+        {
+          "text": ".",
+          "start": 153.08,
+          "end": 153.217
+        },
+        {
+          "text": "They",
+          "start": 153.217,
+          "end": 153.405
+        },
+        {
+          "text": "depend",
+          "start": 153.405,
+          "end": 153.792
+        },
+        {
+          "text": "on",
+          "start": 153.792,
+          "end": 153.992
+        },
+        {
+          "text": "spatial",
+          "start": 153.992,
+          "end": 154.455
+        },
+        {
+          "text": "relationships",
+          "start": 154.455,
+          "end": 155.555
+        },
+        {
+          "text": ",",
+          "start": 155.555,
+          "end": 155.63
+        },
+        {
+          "text": "what's",
+          "start": 155.63,
+          "end": 155.83
+        },
+        {
+          "text": "above",
+          "start": 155.83,
+          "end": 156.28
+        },
+        {
+          "text": ",",
+          "start": 156.28,
+          "end": 156.355
+        },
+        {
+          "text": "below",
+          "start": 156.355,
+          "end": 156.88
+        },
+        {
+          "text": ",",
+          "start": 156.88,
+          "end": 156.992
+        },
+        {
+          "text": "or",
+          "start": 156.992,
+          "end": 157.18
+        },
+        {
+          "text": "near",
+          "start": 157.18,
+          "end": 157.43
+        },
+        {
+          "text": "another",
+          "start": 157.43,
+          "end": 157.78
+        },
+        {
+          "text": "element",
+          "start": 157.78,
+          "end": 158.655
+        },
+        {
+          "text": ".",
+          "start": 158.655,
+          "end": 158.792
+        },
+        {
+          "text": "As",
+          "start": 158.792,
+          "end": 159.005
+        },
+        {
+          "text": "long",
+          "start": 159.005,
+          "end": 159.28
+        },
+        {
+          "text": "as",
+          "start": 159.28,
+          "end": 159.43
+        },
+        {
+          "text": "the",
+          "start": 159.43,
+          "end": 159.555
+        },
+        {
+          "text": "layout",
+          "start": 159.555,
+          "end": 159.98
+        },
+        {
+          "text": "doesn't",
+          "start": 159.98,
+          "end": 160.255
+        },
+        {
+          "text": "radically",
+          "start": 160.255,
+          "end": 160.742
+        },
+        {
+          "text": "change",
+          "start": 160.742,
+          "end": 161.33
+        },
+        {
+          "text": ",",
+          "start": 161.33,
+          "end": 161.43
+        },
+        {
+          "text": "the",
+          "start": 161.43,
+          "end": 161.555
+        },
+        {
+          "text": "locator",
+          "start": 161.555,
+          "end": 162.08
+        },
+        {
+          "text": "holds",
+          "start": 162.08,
+          "end": 162.78
+        },
+        {
+          "text": ".",
+          "start": 162.78,
+          "end": 162.93
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Limitation: If the entire DOM structure shifts (e.g., a redesign that moves the login form to a modal), Relative Locators fail too. That's where Strategy 2 comes in.",
+      "start": 163.25,
+      "end": 175.175,
+      "words": [
+        {
+          "text": "Limitation",
+          "start": 163.55,
+          "end": 164.575
+        },
+        {
+          "text": ":",
+          "start": 164.575,
+          "end": 164.675
+        },
+        {
+          "text": "If",
+          "start": 164.675,
+          "end": 164.812
+        },
+        {
+          "text": "the",
+          "start": 164.812,
+          "end": 164.95
+        },
+        {
+          "text": "entire",
+          "start": 164.95,
+          "end": 165.475
+        },
+        {
+          "text": "DOM",
+          "start": 165.475,
+          "end": 165.775
+        },
+        {
+          "text": "structure",
+          "start": 165.775,
+          "end": 166.25
+        },
+        {
+          "text": "shifts",
+          "start": 166.25,
+          "end": 166.837
+        },
+        {
+          "text": "(",
+          "start": 166.837,
+          "end": 166.925
+        },
+        {
+          "text": "e.g.",
+          "start": 166.925,
+          "end": 167.6
+        },
+        {
+          "text": ",",
+          "start": 167.6,
+          "end": 167.737
+        },
+        {
+          "text": "a",
+          "start": 167.737,
+          "end": 167.862
+        },
+        {
+          "text": "redesign",
+          "start": 167.862,
+          "end": 168.475
+        },
+        {
+          "text": "that",
+          "start": 168.475,
+          "end": 168.625
+        },
+        {
+          "text": "moves",
+          "start": 168.625,
+          "end": 168.95
+        },
+        {
+          "text": "the",
+          "start": 168.95,
+          "end": 169.075
+        },
+        {
+          "text": "login",
+          "start": 169.075,
+          "end": 169.537
+        },
+        {
+          "text": "form",
+          "start": 169.537,
+          "end": 169.9
+        },
+        {
+          "text": "to",
+          "start": 169.9,
+          "end": 170.025
+        },
+        {
+          "text": "a",
+          "start": 170.025,
+          "end": 170.15
+        },
+        {
+          "text": "modal",
+          "start": 170.15,
+          "end": 170.625
+        },
+        {
+          "text": ")",
+          "start": 170.625,
+          "end": 170.7
+        },
+        {
+          "text": ",",
+          "start": 170.7,
+          "end": 170.787
+        },
+        {
+          "text": "Relative",
+          "start": 170.787,
+          "end": 171.225
+        },
+        {
+          "text": "Locators",
+          "start": 171.225,
+          "end": 171.775
+        },
+        {
+          "text": "fail",
+          "start": 171.775,
+          "end": 172.112
+        },
+        {
+          "text": "too",
+          "start": 172.112,
+          "end": 172.8
+        },
+        {
+          "text": ".",
+          "start": 172.8,
+          "end": 172.987
+        },
+        {
+          "text": "That's",
+          "start": 172.987,
+          "end": 173.287
+        },
+        {
+          "text": "where",
+          "start": 173.287,
+          "end": 173.45
+        },
+        {
+          "text": "Strategy",
+          "start": 173.45,
+          "end": 173.987
+        },
+        {
+          "text": "2",
+          "start": 173.987,
+          "end": 174.225
+        },
+        {
+          "text": "comes",
+          "start": 174.225,
+          "end": 174.512
+        },
+        {
+          "text": "in",
+          "start": 174.512,
+          "end": 175.025
+        },
+        {
+          "text": ".",
+          "start": 175.025,
+          "end": 175.175
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h2",
+      "text": "Strategy 2: AI-Powered Semantic Role Matching",
+      "start": 175.495,
+      "end": 178.92,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 175.77,
+          "end": 176.307
+        },
+        {
+          "text": "2",
+          "start": 176.307,
+          "end": 176.72
+        },
+        {
+          "text": ":",
+          "start": 176.72,
+          "end": 176.882
+        },
+        {
+          "text": "AI-Powered",
+          "start": 176.882,
+          "end": 177.52
+        },
+        {
+          "text": "Semantic",
+          "start": 177.52,
+          "end": 177.995
+        },
+        {
+          "text": "Role",
+          "start": 177.995,
+          "end": 178.22
+        },
+        {
+          "text": "Matching",
+          "start": 178.22,
+          "end": 178.92
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "When both CSS selectors and Relative Locators fail, the AI healer asks a different question: \"What is this element's job on the page?\"",
+      "start": 179.34,
+      "end": 188.44,
+      "words": [
+        {
+          "text": "When",
+          "start": 179.59,
+          "end": 179.715
+        },
+        {
+          "text": "both",
+          "start": 179.715,
+          "end": 179.99
+        },
+        {
+          "text": "CSS",
+          "start": 179.99,
+          "end": 180.64
+        },
+        {
+          "text": "selectors",
+          "start": 180.64,
+          "end": 181.34
+        },
+        {
+          "text": "and",
+          "start": 181.34,
+          "end": 181.515
+        },
+        {
+          "text": "Relative",
+          "start": 181.515,
+          "end": 181.965
+        },
+        {
+          "text": "Locators",
+          "start": 181.965,
+          "end": 182.528
+        },
+        {
+          "text": "fail",
+          "start": 182.528,
+          "end": 183.165
+        },
+        {
+          "text": ",",
+          "start": 183.165,
+          "end": 183.265
+        },
+        {
+          "text": "the",
+          "start": 183.265,
+          "end": 183.428
+        },
+        {
+          "text": "AI",
+          "start": 183.428,
+          "end": 183.84
+        },
+        {
+          "text": "healer",
+          "start": 183.84,
+          "end": 184.227
+        },
+        {
+          "text": "asks",
+          "start": 184.227,
+          "end": 184.602
+        },
+        {
+          "text": "a",
+          "start": 184.602,
+          "end": 184.665
+        },
+        {
+          "text": "different",
+          "start": 184.665,
+          "end": 184.952
+        },
+        {
+          "text": "question",
+          "start": 184.952,
+          "end": 185.84
+        },
+        {
+          "text": ":",
+          "start": 185.84,
+          "end": 185.965
+        },
+        {
+          "text": "\"",
+          "start": 185.965,
+          "end": 186.04
+        },
+        {
+          "text": "What",
+          "start": 186.04,
+          "end": 186.19
+        },
+        {
+          "text": "is",
+          "start": 186.19,
+          "end": 186.34
+        },
+        {
+          "text": "this",
+          "start": 186.34,
+          "end": 186.577
+        },
+        {
+          "text": "element's",
+          "start": 186.577,
+          "end": 187.053
+        },
+        {
+          "text": "job",
+          "start": 187.053,
+          "end": 187.378
+        },
+        {
+          "text": "on",
+          "start": 187.378,
+          "end": 187.477
+        },
+        {
+          "text": "the",
+          "start": 187.477,
+          "end": 187.565
+        },
+        {
+          "text": "page",
+          "start": 187.565,
+          "end": 188.24
+        },
+        {
+          "text": "?",
+          "start": 188.24,
+          "end": 188.39
+        },
+        {
+          "text": "\"",
+          "start": 188.39,
+          "end": 188.44
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Instead of hunting for .btn-submit or even a below the email field, it looks for an element whose semantic role matches the intent of the test step:",
+      "start": 188.76,
+      "end": 198.485,
+      "words": [
+        {
+          "text": "Instead",
+          "start": 189.035,
+          "end": 189.348
+        },
+        {
+          "text": "of",
+          "start": 189.348,
+          "end": 189.435
+        },
+        {
+          "text": "hunting",
+          "start": 189.435,
+          "end": 189.885
+        },
+        {
+          "text": "for",
+          "start": 189.885,
+          "end": 190.248
+        },
+        {
+          "text": ".btn-submit",
+          "start": 190.248,
+          "end": 191.485
+        },
+        {
+          "text": "or",
+          "start": 191.485,
+          "end": 191.698
+        },
+        {
+          "text": "even",
+          "start": 191.698,
+          "end": 191.998
+        },
+        {
+          "text": "a",
+          "start": 191.998,
+          "end": 192.06
+        },
+        {
+          "text": "below",
+          "start": 192.06,
+          "end": 192.397
+        },
+        {
+          "text": "the",
+          "start": 192.397,
+          "end": 192.548
+        },
+        {
+          "text": "email",
+          "start": 192.548,
+          "end": 192.972
+        },
+        {
+          "text": "field",
+          "start": 192.972,
+          "end": 193.685
+        },
+        {
+          "text": ",",
+          "start": 193.685,
+          "end": 193.823
+        },
+        {
+          "text": "it",
+          "start": 193.823,
+          "end": 193.96
+        },
+        {
+          "text": "looks",
+          "start": 193.96,
+          "end": 194.21
+        },
+        {
+          "text": "for",
+          "start": 194.21,
+          "end": 194.323
+        },
+        {
+          "text": "an",
+          "start": 194.323,
+          "end": 194.41
+        },
+        {
+          "text": "element",
+          "start": 194.41,
+          "end": 194.91
+        },
+        {
+          "text": "whose",
+          "start": 194.91,
+          "end": 195.147
+        },
+        {
+          "text": "semantic",
+          "start": 195.147,
+          "end": 195.698
+        },
+        {
+          "text": "role",
+          "start": 195.698,
+          "end": 196.185
+        },
+        {
+          "text": "matches",
+          "start": 196.185,
+          "end": 196.66
+        },
+        {
+          "text": "the",
+          "start": 196.66,
+          "end": 196.81
+        },
+        {
+          "text": "intent",
+          "start": 196.81,
+          "end": 197.298
+        },
+        {
+          "text": "of",
+          "start": 197.298,
+          "end": 197.373
+        },
+        {
+          "text": "the",
+          "start": 197.373,
+          "end": 197.46
+        },
+        {
+          "text": "test",
+          "start": 197.46,
+          "end": 197.735
+        },
+        {
+          "text": "step",
+          "start": 197.735,
+          "end": 198.31
+        },
+        {
+          "text": ":",
+          "start": 198.31,
+          "end": 198.485
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h3",
+      "text": "Using the Semantic Healer in a Real Test",
+      "start": 198.805,
+      "end": 201.53,
+      "words": [
+        {
+          "text": "Using",
+          "start": 199.105,
+          "end": 199.392
+        },
+        {
+          "text": "the",
+          "start": 199.392,
+          "end": 199.48
+        },
+        {
+          "text": "Semantic",
+          "start": 199.48,
+          "end": 199.93
+        },
+        {
+          "text": "Healer",
+          "start": 199.93,
+          "end": 200.417
+        },
+        {
+          "text": "in",
+          "start": 200.417,
+          "end": 200.517
+        },
+        {
+          "text": "a",
+          "start": 200.517,
+          "end": 200.605
+        },
+        {
+          "text": "Real",
+          "start": 200.605,
+          "end": 200.88
+        },
+        {
+          "text": "Test",
+          "start": 200.88,
+          "end": 201.53
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "Here's how a test wraps every findElement call with healing fallback:",
+      "start": 202.0,
+      "end": 206.425,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 202.275,
+          "end": 202.525
+        },
+        {
+          "text": "how",
+          "start": 202.525,
+          "end": 202.662
+        },
+        {
+          "text": "a",
+          "start": 202.662,
+          "end": 202.738
+        },
+        {
+          "text": "test",
+          "start": 202.738,
+          "end": 203.288
+        },
+        {
+          "text": "wraps",
+          "start": 203.288,
+          "end": 203.663
+        },
+        {
+          "text": "every",
+          "start": 203.663,
+          "end": 203.988
+        },
+        {
+          "text": "findElement",
+          "start": 203.988,
+          "end": 204.65
+        },
+        {
+          "text": "call",
+          "start": 204.65,
+          "end": 205.025
+        },
+        {
+          "text": "with",
+          "start": 205.025,
+          "end": 205.2
+        },
+        {
+          "text": "healing",
+          "start": 205.2,
+          "end": 205.55
+        },
+        {
+          "text": "fallback",
+          "start": 205.55,
+          "end": 206.275
+        },
+        {
+          "text": ":",
+          "start": 206.275,
+          "end": 206.425
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "h2",
+      "text": "Strategy 3: BiDi/CDP DOM Diff , When the Element Moved",
+      "start": 206.745,
+      "end": 211.445,
+      "words": [
+        {
+          "text": "Strategy",
+          "start": 207.02,
+          "end": 207.508
+        },
+        {
+          "text": "3",
+          "start": 207.508,
+          "end": 207.995
+        },
+        {
+          "text": ":",
+          "start": 207.995,
+          "end": 208.12
+        },
+        {
+          "text": "BiDi/CDP",
+          "start": 208.12,
+          "end": 209.445
+        },
+        {
+          "text": "DOM",
+          "start": 209.445,
+          "end": 209.72
+        },
+        {
+          "text": "Diff",
+          "start": 209.72,
+          "end": 210.095
+        },
+        {
+          "text": ",",
+          "start": 210.095,
+          "end": 210.158
+        },
+        {
+          "text": "When",
+          "start": 210.158,
+          "end": 210.283
+        },
+        {
+          "text": "the",
+          "start": 210.283,
+          "end": 210.395
+        },
+        {
+          "text": "Element",
+          "start": 210.395,
+          "end": 210.77
+        },
+        {
+          "text": "Moved",
+          "start": 210.77,
+          "end": 211.445
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "Sometimes the element exists but in a completely different part of the DOM , a redesign moved the login form from a sidebar to a modal. Semantic healing might find it, but the locator path is now entirely wrong.",
+      "start": 211.915,
+      "end": 225.84,
+      "words": [
+        {
+          "text": "Sometimes",
+          "start": 212.19,
+          "end": 212.79
+        },
+        {
+          "text": "the",
+          "start": 212.79,
+          "end": 212.928
+        },
+        {
+          "text": "element",
+          "start": 212.928,
+          "end": 213.34
+        },
+        {
+          "text": "exists",
+          "start": 213.34,
+          "end": 214.103
+        },
+        {
+          "text": "but",
+          "start": 214.103,
+          "end": 214.265
+        },
+        {
+          "text": "in",
+          "start": 214.265,
+          "end": 214.353
+        },
+        {
+          "text": "a",
+          "start": 214.353,
+          "end": 214.415
+        },
+        {
+          "text": "completely",
+          "start": 214.415,
+          "end": 215.053
+        },
+        {
+          "text": "different",
+          "start": 215.053,
+          "end": 215.39
+        },
+        {
+          "text": "part",
+          "start": 215.39,
+          "end": 215.603
+        },
+        {
+          "text": "of",
+          "start": 215.603,
+          "end": 215.678
+        },
+        {
+          "text": "the",
+          "start": 215.678,
+          "end": 215.765
+        },
+        {
+          "text": "DOM",
+          "start": 215.765,
+          "end": 216.453
+        },
+        {
+          "text": ",",
+          "start": 216.453,
+          "end": 216.578
+        },
+        {
+          "text": "a",
+          "start": 216.578,
+          "end": 216.703
+        },
+        {
+          "text": "redesign",
+          "start": 216.703,
+          "end": 217.328
+        },
+        {
+          "text": "moved",
+          "start": 217.328,
+          "end": 217.64
+        },
+        {
+          "text": "the",
+          "start": 217.64,
+          "end": 217.765
+        },
+        {
+          "text": "login",
+          "start": 217.765,
+          "end": 218.227
+        },
+        {
+          "text": "form",
+          "start": 218.227,
+          "end": 218.59
+        },
+        {
+          "text": "from",
+          "start": 218.59,
+          "end": 218.727
+        },
+        {
+          "text": "a",
+          "start": 218.727,
+          "end": 218.828
+        },
+        {
+          "text": "sidebar",
+          "start": 218.828,
+          "end": 219.477
+        },
+        {
+          "text": "to",
+          "start": 219.477,
+          "end": 219.64
+        },
+        {
+          "text": "a",
+          "start": 219.64,
+          "end": 219.715
+        },
+        {
+          "text": "modal",
+          "start": 219.715,
+          "end": 220.59
+        },
+        {
+          "text": ".",
+          "start": 220.59,
+          "end": 220.765
+        },
+        {
+          "text": "Semantic",
+          "start": 220.765,
+          "end": 221.315
+        },
+        {
+          "text": "healing",
+          "start": 221.315,
+          "end": 221.69
+        },
+        {
+          "text": "might",
+          "start": 221.69,
+          "end": 221.915
+        },
+        {
+          "text": "find",
+          "start": 221.915,
+          "end": 222.24
+        },
+        {
+          "text": "it",
+          "start": 222.24,
+          "end": 222.64
+        },
+        {
+          "text": ",",
+          "start": 222.64,
+          "end": 222.715
+        },
+        {
+          "text": "but",
+          "start": 222.715,
+          "end": 222.852
+        },
+        {
+          "text": "the",
+          "start": 222.852,
+          "end": 222.965
+        },
+        {
+          "text": "locator",
+          "start": 222.965,
+          "end": 223.465
+        },
+        {
+          "text": "path",
+          "start": 223.465,
+          "end": 223.852
+        },
+        {
+          "text": "is",
+          "start": 223.852,
+          "end": 224.028
+        },
+        {
+          "text": "now",
+          "start": 224.028,
+          "end": 224.34
+        },
+        {
+          "text": "entirely",
+          "start": 224.34,
+          "end": 225.015
+        },
+        {
+          "text": "wrong",
+          "start": 225.015,
+          "end": 225.69
+        },
+        {
+          "text": ".",
+          "start": 225.69,
+          "end": 225.84
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "This is where BiDi (or CDP) DOM diffing comes in:",
+      "start": 226.16,
+      "end": 230.06,
+      "words": [
+        {
+          "text": "This",
+          "start": 226.435,
+          "end": 226.61
+        },
+        {
+          "text": "is",
+          "start": 226.61,
+          "end": 226.723
+        },
+        {
+          "text": "where",
+          "start": 226.723,
+          "end": 226.86
+        },
+        {
+          "text": "BiDi",
+          "start": 226.86,
+          "end": 227.435
+        },
+        {
+          "text": "(",
+          "start": 227.435,
+          "end": 227.51
+        },
+        {
+          "text": "or",
+          "start": 227.51,
+          "end": 227.648
+        },
+        {
+          "text": "CDP",
+          "start": 227.648,
+          "end": 228.41
+        },
+        {
+          "text": ")",
+          "start": 228.41,
+          "end": 228.547
+        },
+        {
+          "text": "DOM",
+          "start": 228.547,
+          "end": 228.835
+        },
+        {
+          "text": "diffing",
+          "start": 228.835,
+          "end": 229.16
+        },
+        {
+          "text": "comes",
+          "start": 229.16,
+          "end": 229.448
+        },
+        {
+          "text": "in",
+          "start": 229.448,
+          "end": 229.91
+        },
+        {
+          "text": ":",
+          "start": 229.91,
+          "end": 230.06
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h3",
+      "text": "The Full Three-Layer Healing Wrapper",
+      "start": 230.38,
+      "end": 232.505,
+      "words": [
+        {
+          "text": "The",
+          "start": 230.63,
+          "end": 230.742
+        },
+        {
+          "text": "Full",
+          "start": 230.742,
+          "end": 231.005
+        },
+        {
+          "text": "Three-Layer",
+          "start": 231.005,
+          "end": 231.53
+        },
+        {
+          "text": "Healing",
+          "start": 231.53,
+          "end": 231.905
+        },
+        {
+          "text": "Wrapper",
+          "start": 231.905,
+          "end": 232.505
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "Wrap all three strategies into a single findElement replacement:",
+      "start": 233.0,
+      "end": 237.525,
+      "words": [
+        {
+          "text": "Wrap",
+          "start": 233.3,
+          "end": 233.638
+        },
+        {
+          "text": "all",
+          "start": 233.638,
+          "end": 233.913
+        },
+        {
+          "text": "three",
+          "start": 233.913,
+          "end": 234.15
+        },
+        {
+          "text": "strategies",
+          "start": 234.15,
+          "end": 235.075
+        },
+        {
+          "text": "into",
+          "start": 235.075,
+          "end": 235.325
+        },
+        {
+          "text": "a",
+          "start": 235.325,
+          "end": 235.45
+        },
+        {
+          "text": "single",
+          "start": 235.45,
+          "end": 235.862
+        },
+        {
+          "text": "findElement",
+          "start": 235.862,
+          "end": 236.513
+        },
+        {
+          "text": "replacement",
+          "start": 236.513,
+          "end": 237.375
+        },
+        {
+          "text": ":",
+          "start": 237.375,
+          "end": 237.525
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "h2",
+      "text": "CI/CD Integration: Commit the Healing Log",
+      "start": 237.845,
+      "end": 241.07,
+      "words": [
+        {
+          "text": "CI/CD",
+          "start": 238.17,
+          "end": 238.907
+        },
+        {
+          "text": "Integration",
+          "start": 238.907,
+          "end": 239.67
+        },
+        {
+          "text": ":",
+          "start": 239.67,
+          "end": 239.795
+        },
+        {
+          "text": "Commit",
+          "start": 239.795,
+          "end": 240.083
+        },
+        {
+          "text": "the",
+          "start": 240.083,
+          "end": 240.17
+        },
+        {
+          "text": "Healing",
+          "start": 240.17,
+          "end": 240.52
+        },
+        {
+          "text": "Log",
+          "start": 240.52,
+          "end": 241.07
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "The final piece: when healing happens in CI/CD, commit the log as a build artifact so a human can review the AI's decisions:",
+      "start": 241.54,
+      "end": 250.49,
+      "words": [
+        {
+          "text": "The",
+          "start": 241.79,
+          "end": 241.903
+        },
+        {
+          "text": "final",
+          "start": 241.903,
+          "end": 242.29
+        },
+        {
+          "text": "piece",
+          "start": 242.29,
+          "end": 243.015
+        },
+        {
+          "text": ":",
+          "start": 243.015,
+          "end": 243.115
+        },
+        {
+          "text": "when",
+          "start": 243.115,
+          "end": 243.302
+        },
+        {
+          "text": "healing",
+          "start": 243.302,
+          "end": 243.69
+        },
+        {
+          "text": "happens",
+          "start": 243.69,
+          "end": 244.165
+        },
+        {
+          "text": "in",
+          "start": 244.165,
+          "end": 244.34
+        },
+        {
+          "text": "CI/CD",
+          "start": 244.34,
+          "end": 245.515
+        },
+        {
+          "text": ",",
+          "start": 245.515,
+          "end": 245.677
+        },
+        {
+          "text": "commit",
+          "start": 245.677,
+          "end": 246.015
+        },
+        {
+          "text": "the",
+          "start": 246.015,
+          "end": 246.14
+        },
+        {
+          "text": "log",
+          "start": 246.14,
+          "end": 246.54
+        },
+        {
+          "text": "as",
+          "start": 246.54,
+          "end": 246.653
+        },
+        {
+          "text": "a",
+          "start": 246.653,
+          "end": 246.753
+        },
+        {
+          "text": "build",
+          "start": 246.753,
+          "end": 247.015
+        },
+        {
+          "text": "artifact",
+          "start": 247.015,
+          "end": 247.728
+        },
+        {
+          "text": "so",
+          "start": 247.728,
+          "end": 247.853
+        },
+        {
+          "text": "a",
+          "start": 247.853,
+          "end": 247.952
+        },
+        {
+          "text": "human",
+          "start": 247.952,
+          "end": 248.39
+        },
+        {
+          "text": "can",
+          "start": 248.39,
+          "end": 248.515
+        },
+        {
+          "text": "review",
+          "start": 248.515,
+          "end": 248.853
+        },
+        {
+          "text": "the",
+          "start": 248.853,
+          "end": 249.003
+        },
+        {
+          "text": "AI's",
+          "start": 249.003,
+          "end": 249.465
+        },
+        {
+          "text": "decisions",
+          "start": 249.465,
+          "end": 250.34
+        },
+        {
+          "text": ":",
+          "start": 250.34,
+          "end": 250.49
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "After the run, your PR gets a summary like:",
+      "start": 250.81,
+      "end": 253.81,
+      "words": [
+        {
+          "text": "After",
+          "start": 251.085,
+          "end": 251.347
+        },
+        {
+          "text": "the",
+          "start": 251.347,
+          "end": 251.435
+        },
+        {
+          "text": "run",
+          "start": 251.435,
+          "end": 251.86
+        },
+        {
+          "text": ",",
+          "start": 251.86,
+          "end": 251.96
+        },
+        {
+          "text": "your",
+          "start": 251.96,
+          "end": 252.11
+        },
+        {
+          "text": "PR",
+          "start": 252.11,
+          "end": 252.51
+        },
+        {
+          "text": "gets",
+          "start": 252.51,
+          "end": 252.673
+        },
+        {
+          "text": "a",
+          "start": 252.673,
+          "end": 252.735
+        },
+        {
+          "text": "summary",
+          "start": 252.735,
+          "end": 253.11
+        },
+        {
+          "text": "like",
+          "start": 253.11,
+          "end": 253.66
+        },
+        {
+          "text": ":",
+          "start": 253.66,
+          "end": 253.81
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "The healing log doubles as a change notification for the frontend team , they can see exactly which selectors broke and why.",
+      "start": 254.13,
+      "end": 261.955,
+      "words": [
+        {
+          "text": "The",
+          "start": 254.38,
+          "end": 254.493
+        },
+        {
+          "text": "healing",
+          "start": 254.493,
+          "end": 254.88
+        },
+        {
+          "text": "log",
+          "start": 254.88,
+          "end": 255.318
+        },
+        {
+          "text": "doubles",
+          "start": 255.318,
+          "end": 255.818
+        },
+        {
+          "text": "as",
+          "start": 255.818,
+          "end": 255.943
+        },
+        {
+          "text": "a",
+          "start": 255.943,
+          "end": 256.055
+        },
+        {
+          "text": "change",
+          "start": 256.055,
+          "end": 256.505
+        },
+        {
+          "text": "notification",
+          "start": 256.505,
+          "end": 257.28
+        },
+        {
+          "text": "for",
+          "start": 257.28,
+          "end": 257.393
+        },
+        {
+          "text": "the",
+          "start": 257.393,
+          "end": 257.48
+        },
+        {
+          "text": "frontend",
+          "start": 257.48,
+          "end": 257.993
+        },
+        {
+          "text": "team",
+          "start": 257.993,
+          "end": 258.718
+        },
+        {
+          "text": ",",
+          "start": 258.718,
+          "end": 258.805
+        },
+        {
+          "text": "they",
+          "start": 258.805,
+          "end": 258.955
+        },
+        {
+          "text": "can",
+          "start": 258.955,
+          "end": 259.13
+        },
+        {
+          "text": "see",
+          "start": 259.13,
+          "end": 259.305
+        },
+        {
+          "text": "exactly",
+          "start": 259.305,
+          "end": 259.905
+        },
+        {
+          "text": "which",
+          "start": 259.905,
+          "end": 260.105
+        },
+        {
+          "text": "selectors",
+          "start": 260.105,
+          "end": 260.655
+        },
+        {
+          "text": "broke",
+          "start": 260.655,
+          "end": 261.042
+        },
+        {
+          "text": "and",
+          "start": 261.042,
+          "end": 261.18
+        },
+        {
+          "text": "why",
+          "start": 261.18,
+          "end": 261.805
+        },
+        {
+          "text": ".",
+          "start": 261.805,
+          "end": 261.955
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "quote",
+      "text": "Wiring it up: The SemanticHealer and SelfHealingDriver in this post store healing records in an in-memory ArrayList. To bridge to the CI/CD workflow above, add a writeHealingLog() method to your healer that serializes getHealingLog() to target/healing-log.json (Jackson or Gson), and call it from your @AfterAll / @AfterSuite teardown hook. That's the last mile , everything else in the workflow is ready to go.",
+      "start": 262.275,
+      "end": 288.475,
+      "words": [
+        {
+          "text": "Wiring",
+          "start": 262.575,
+          "end": 262.938
+        },
+        {
+          "text": "it",
+          "start": 262.938,
+          "end": 263.013
+        },
+        {
+          "text": "up",
+          "start": 263.013,
+          "end": 263.475
+        },
+        {
+          "text": ":",
+          "start": 263.475,
+          "end": 263.575
+        },
+        {
+          "text": "The",
+          "start": 263.575,
+          "end": 263.675
+        },
+        {
+          "text": "SemanticHealer",
+          "start": 263.675,
+          "end": 264.475
+        },
+        {
+          "text": "and",
+          "start": 264.475,
+          "end": 264.6
+        },
+        {
+          "text": "SelfHealingDriver",
+          "start": 264.6,
+          "end": 265.55
+        },
+        {
+          "text": "in",
+          "start": 265.55,
+          "end": 265.638
+        },
+        {
+          "text": "this",
+          "start": 265.638,
+          "end": 265.8
+        },
+        {
+          "text": "post",
+          "start": 265.8,
+          "end": 266.125
+        },
+        {
+          "text": "store",
+          "start": 266.125,
+          "end": 266.488
+        },
+        {
+          "text": "healing",
+          "start": 266.488,
+          "end": 266.875
+        },
+        {
+          "text": "records",
+          "start": 266.875,
+          "end": 267.3
+        },
+        {
+          "text": "in",
+          "start": 267.3,
+          "end": 267.388
+        },
+        {
+          "text": "an",
+          "start": 267.388,
+          "end": 267.475
+        },
+        {
+          "text": "in-memory",
+          "start": 267.475,
+          "end": 268.05
+        },
+        {
+          "text": "ArrayList",
+          "start": 268.05,
+          "end": 269.1
+        },
+        {
+          "text": ".",
+          "start": 269.1,
+          "end": 269.238
+        },
+        {
+          "text": "To",
+          "start": 269.238,
+          "end": 269.375
+        },
+        {
+          "text": "bridge",
+          "start": 269.375,
+          "end": 269.675
+        },
+        {
+          "text": "to",
+          "start": 269.675,
+          "end": 269.763
+        },
+        {
+          "text": "the",
+          "start": 269.763,
+          "end": 269.863
+        },
+        {
+          "text": "CI/CD",
+          "start": 269.863,
+          "end": 270.625
+        },
+        {
+          "text": "workflow",
+          "start": 270.625,
+          "end": 271.1
+        },
+        {
+          "text": "above",
+          "start": 271.1,
+          "end": 271.55
+        },
+        {
+          "text": ",",
+          "start": 271.55,
+          "end": 271.65
+        },
+        {
+          "text": "add",
+          "start": 271.65,
+          "end": 271.813
+        },
+        {
+          "text": "a",
+          "start": 271.813,
+          "end": 271.875
+        },
+        {
+          "text": "writeHealingLog",
+          "start": 271.875,
+          "end": 273.0
+        },
+        {
+          "text": "(",
+          "start": 273.0,
+          "end": 273.125
+        },
+        {
+          "text": ")",
+          "start": 273.125,
+          "end": 273.175
+        },
+        {
+          "text": "method",
+          "start": 273.175,
+          "end": 273.475
+        },
+        {
+          "text": "to",
+          "start": 273.475,
+          "end": 273.563
+        },
+        {
+          "text": "your",
+          "start": 273.563,
+          "end": 273.675
+        },
+        {
+          "text": "healer",
+          "start": 273.675,
+          "end": 274.025
+        },
+        {
+          "text": "that",
+          "start": 274.025,
+          "end": 274.238
+        },
+        {
+          "text": "serializes",
+          "start": 274.238,
+          "end": 274.975
+        },
+        {
+          "text": "getHealingLog",
+          "start": 274.975,
+          "end": 276.0
+        },
+        {
+          "text": "(",
+          "start": 276.0,
+          "end": 276.075
+        },
+        {
+          "text": ")",
+          "start": 276.075,
+          "end": 276.125
+        },
+        {
+          "text": "to",
+          "start": 276.125,
+          "end": 276.25
+        },
+        {
+          "text": "target/healing-log.json",
+          "start": 276.25,
+          "end": 278.813
+        },
+        {
+          "text": "(",
+          "start": 278.813,
+          "end": 278.9
+        },
+        {
+          "text": "Jackson",
+          "start": 278.9,
+          "end": 279.438
+        },
+        {
+          "text": "or",
+          "start": 279.438,
+          "end": 279.613
+        },
+        {
+          "text": "Gson",
+          "start": 279.613,
+          "end": 280.425
+        },
+        {
+          "text": ")",
+          "start": 280.425,
+          "end": 280.525
+        },
+        {
+          "text": ",",
+          "start": 280.525,
+          "end": 280.6
+        },
+        {
+          "text": "and",
+          "start": 280.6,
+          "end": 280.738
+        },
+        {
+          "text": "call",
+          "start": 280.738,
+          "end": 280.988
+        },
+        {
+          "text": "it",
+          "start": 280.988,
+          "end": 281.075
+        },
+        {
+          "text": "from",
+          "start": 281.075,
+          "end": 281.213
+        },
+        {
+          "text": "your",
+          "start": 281.213,
+          "end": 281.325
+        },
+        {
+          "text": "@AfterAll",
+          "start": 281.325,
+          "end": 282.05
+        },
+        {
+          "text": "/",
+          "start": 282.05,
+          "end": 282.575
+        },
+        {
+          "text": "@AfterSuite",
+          "start": 282.575,
+          "end": 283.363
+        },
+        {
+          "text": "teardown",
+          "start": 283.363,
+          "end": 283.85
+        },
+        {
+          "text": "hook",
+          "start": 283.85,
+          "end": 284.575
+        },
+        {
+          "text": ".",
+          "start": 284.575,
+          "end": 284.738
+        },
+        {
+          "text": "That's",
+          "start": 284.738,
+          "end": 285.013
+        },
+        {
+          "text": "the",
+          "start": 285.013,
+          "end": 285.1
+        },
+        {
+          "text": "last",
+          "start": 285.1,
+          "end": 285.425
+        },
+        {
+          "text": "mile",
+          "start": 285.425,
+          "end": 285.825
+        },
+        {
+          "text": ",",
+          "start": 285.825,
+          "end": 285.9
+        },
+        {
+          "text": "everything",
+          "start": 285.9,
+          "end": 286.338
+        },
+        {
+          "text": "else",
+          "start": 286.338,
+          "end": 286.563
+        },
+        {
+          "text": "in",
+          "start": 286.563,
+          "end": 286.638
+        },
+        {
+          "text": "the",
+          "start": 286.638,
+          "end": 286.725
+        },
+        {
+          "text": "workflow",
+          "start": 286.725,
+          "end": 287.25
+        },
+        {
+          "text": "is",
+          "start": 287.25,
+          "end": 287.4
+        },
+        {
+          "text": "ready",
+          "start": 287.4,
+          "end": 287.625
+        },
+        {
+          "text": "to",
+          "start": 287.625,
+          "end": 287.725
+        },
+        {
+          "text": "go",
+          "start": 287.725,
+          "end": 288.325
+        },
+        {
+          "text": ".",
+          "start": 288.325,
+          "end": 288.475
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h2",
+      "text": "When to Use Each Strategy",
+      "start": 288.795,
+      "end": 290.645,
+      "words": [
+        {
+          "text": "When",
+          "start": 289.07,
+          "end": 289.195
+        },
+        {
+          "text": "to",
+          "start": 289.195,
+          "end": 289.295
+        },
+        {
+          "text": "Use",
+          "start": 289.295,
+          "end": 289.558
+        },
+        {
+          "text": "Each",
+          "start": 289.558,
+          "end": 289.795
+        },
+        {
+          "text": "Strategy",
+          "start": 289.795,
+          "end": 290.645
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h2",
+      "text": "Multi-Language Quick Reference",
+      "start": 291.115,
+      "end": 293.24,
+      "words": [
+        {
+          "text": "Multi-Language",
+          "start": 291.415,
+          "end": 292.19
+        },
+        {
+          "text": "Quick",
+          "start": 292.19,
+          "end": 292.44
+        },
+        {
+          "text": "Reference",
+          "start": 292.44,
+          "end": 293.24
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "This post used Java examples. Here's the equivalent syntax across C#, TypeScript, JavaScript, and Python:",
+      "start": 293.685,
+      "end": 301.185,
+      "words": [
+        {
+          "text": "This",
+          "start": 293.96,
+          "end": 294.135
+        },
+        {
+          "text": "post",
+          "start": 294.135,
+          "end": 294.46
+        },
+        {
+          "text": "used",
+          "start": 294.46,
+          "end": 294.735
+        },
+        {
+          "text": "Java",
+          "start": 294.735,
+          "end": 295.06
+        },
+        {
+          "text": "examples",
+          "start": 295.06,
+          "end": 296.06
+        },
+        {
+          "text": ".",
+          "start": 296.06,
+          "end": 296.198
+        },
+        {
+          "text": "Here's",
+          "start": 296.198,
+          "end": 296.498
+        },
+        {
+          "text": "the",
+          "start": 296.498,
+          "end": 296.585
+        },
+        {
+          "text": "equivalent",
+          "start": 296.585,
+          "end": 297.035
+        },
+        {
+          "text": "syntax",
+          "start": 297.035,
+          "end": 297.535
+        },
+        {
+          "text": "across",
+          "start": 297.535,
+          "end": 297.898
+        },
+        {
+          "text": "C",
+          "start": 297.898,
+          "end": 298.385
+        },
+        {
+          "text": ",",
+          "start": 298.385,
+          "end": 298.523
+        },
+        {
+          "text": "TypeScript",
+          "start": 298.523,
+          "end": 299.235
+        },
+        {
+          "text": ",",
+          "start": 299.235,
+          "end": 299.347
+        },
+        {
+          "text": "JavaScript",
+          "start": 299.347,
+          "end": 300.035
+        },
+        {
+          "text": ",",
+          "start": 300.035,
+          "end": 300.072
+        },
+        {
+          "text": "and",
+          "start": 300.072,
+          "end": 300.185
+        },
+        {
+          "text": "Python",
+          "start": 300.185,
+          "end": 301.035
+        },
+        {
+          "text": ":",
+          "start": 301.035,
+          "end": 301.185
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "Relative Locators",
+      "start": 301.505,
+      "end": 303.255,
+      "words": [
+        {
+          "text": "Relative",
+          "start": 301.88,
+          "end": 302.33
+        },
+        {
+          "text": "Locators",
+          "start": 302.33,
+          "end": 303.255
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "h3",
+      "text": "Accessibility Tree Query (CDP)",
+      "start": 303.725,
+      "end": 306.525,
+      "words": [
+        {
+          "text": "Accessibility",
+          "start": 304.0,
+          "end": 304.675
+        },
+        {
+          "text": "Tree",
+          "start": 304.675,
+          "end": 304.9
+        },
+        {
+          "text": "Query",
+          "start": 304.9,
+          "end": 305.388
+        },
+        {
+          "text": "(",
+          "start": 305.388,
+          "end": 305.475
+        },
+        {
+          "text": "CDP",
+          "start": 305.475,
+          "end": 306.375
+        },
+        {
+          "text": ")",
+          "start": 306.375,
+          "end": 306.525
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "SelfHealingDriver Wrapper",
+      "start": 306.845,
+      "end": 308.695,
+      "words": [
+        {
+          "text": "SelfHealingDriver",
+          "start": 307.145,
+          "end": 308.095
+        },
+        {
+          "text": "Wrapper",
+          "start": 308.095,
+          "end": 308.695
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h3",
+      "text": "CI/CD Healing Log Upload",
+      "start": 309.24,
+      "end": 311.565,
+      "words": [
+        {
+          "text": "CI/CD",
+          "start": 309.565,
+          "end": 310.24
+        },
+        {
+          "text": "Healing",
+          "start": 310.24,
+          "end": 310.565
+        },
+        {
+          "text": "Log",
+          "start": 310.565,
+          "end": 310.84
+        },
+        {
+          "text": "Upload",
+          "start": 310.84,
+          "end": 311.565
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h2",
+      "text": "Where Existing Posts Fit",
+      "start": 312.035,
+      "end": 313.81,
+      "words": [
+        {
+          "text": "Where",
+          "start": 312.31,
+          "end": 312.423
+        },
+        {
+          "text": "Existing",
+          "start": 312.423,
+          "end": 312.86
+        },
+        {
+          "text": "Posts",
+          "start": 312.86,
+          "end": 313.273
+        },
+        {
+          "text": "Fit",
+          "start": 313.273,
+          "end": 313.81
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 314.255,
+      "end": 316.08,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 314.555,
+          "end": 315.055
+        },
+        {
+          "text": "and",
+          "start": 315.055,
+          "end": 315.18
+        },
+        {
+          "text": "Further",
+          "start": 315.18,
+          "end": 315.455
+        },
+        {
+          "text": "Reading",
+          "start": 315.455,
+          "end": 316.08
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Selenium Relative Locators , official docs for the above(), below(), near() API used in Strategy 1",
+      "start": 316.525,
+      "end": 323.775,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 316.825,
+          "end": 317.35
+        },
+        {
+          "text": "Relative",
+          "start": 317.35,
+          "end": 317.75
+        },
+        {
+          "text": "Locators",
+          "start": 317.75,
+          "end": 318.5
+        },
+        {
+          "text": ",",
+          "start": 318.5,
+          "end": 318.575
+        },
+        {
+          "text": "official",
+          "start": 318.575,
+          "end": 318.95
+        },
+        {
+          "text": "docs",
+          "start": 318.95,
+          "end": 319.275
+        },
+        {
+          "text": "for",
+          "start": 319.275,
+          "end": 319.387
+        },
+        {
+          "text": "the",
+          "start": 319.387,
+          "end": 319.525
+        },
+        {
+          "text": "above",
+          "start": 319.525,
+          "end": 320.05
+        },
+        {
+          "text": "(",
+          "start": 320.05,
+          "end": 320.1
+        },
+        {
+          "text": ")",
+          "start": 320.1,
+          "end": 320.125
+        },
+        {
+          "text": ",",
+          "start": 320.125,
+          "end": 320.175
+        },
+        {
+          "text": "below",
+          "start": 320.175,
+          "end": 320.65
+        },
+        {
+          "text": "(",
+          "start": 320.65,
+          "end": 320.7
+        },
+        {
+          "text": ")",
+          "start": 320.7,
+          "end": 320.725
+        },
+        {
+          "text": ",",
+          "start": 320.725,
+          "end": 320.788
+        },
+        {
+          "text": "near",
+          "start": 320.788,
+          "end": 321.35
+        },
+        {
+          "text": "(",
+          "start": 321.35,
+          "end": 321.475
+        },
+        {
+          "text": ")",
+          "start": 321.475,
+          "end": 321.538
+        },
+        {
+          "text": "API",
+          "start": 321.538,
+          "end": 322.187
+        },
+        {
+          "text": "used",
+          "start": 322.187,
+          "end": 322.512
+        },
+        {
+          "text": "in",
+          "start": 322.512,
+          "end": 322.65
+        },
+        {
+          "text": "Strategy",
+          "start": 322.65,
+          "end": 323.175
+        },
+        {
+          "text": "1",
+          "start": 323.175,
+          "end": 323.775
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "Chrome DevTools Protocol , Accessibility Domain , the CDP API (Accessibility.getFullAXTree) that powers the semantic healer in Strategy 2",
+      "start": 324.195,
+      "end": 335.22,
+      "words": [
+        {
+          "text": "Chrome",
+          "start": 324.445,
+          "end": 324.745
+        },
+        {
+          "text": "DevTools",
+          "start": 324.745,
+          "end": 325.457
+        },
+        {
+          "text": "Protocol",
+          "start": 325.457,
+          "end": 326.082
+        },
+        {
+          "text": ",",
+          "start": 326.082,
+          "end": 326.145
+        },
+        {
+          "text": "Accessibility",
+          "start": 326.145,
+          "end": 326.92
+        },
+        {
+          "text": "Domain",
+          "start": 326.92,
+          "end": 327.658
+        },
+        {
+          "text": ",",
+          "start": 327.658,
+          "end": 327.745
+        },
+        {
+          "text": "the",
+          "start": 327.745,
+          "end": 327.882
+        },
+        {
+          "text": "CDP",
+          "start": 327.882,
+          "end": 328.507
+        },
+        {
+          "text": "API",
+          "start": 328.507,
+          "end": 329.307
+        },
+        {
+          "text": "(",
+          "start": 329.307,
+          "end": 329.395
+        },
+        {
+          "text": "Accessibility.getFullAXTree",
+          "start": 329.395,
+          "end": 332.245
+        },
+        {
+          "text": ")",
+          "start": 332.245,
+          "end": 332.345
+        },
+        {
+          "text": "that",
+          "start": 332.345,
+          "end": 332.507
+        },
+        {
+          "text": "powers",
+          "start": 332.507,
+          "end": 332.982
+        },
+        {
+          "text": "the",
+          "start": 332.982,
+          "end": 333.07
+        },
+        {
+          "text": "semantic",
+          "start": 333.07,
+          "end": 333.595
+        },
+        {
+          "text": "healer",
+          "start": 333.595,
+          "end": 333.945
+        },
+        {
+          "text": "in",
+          "start": 333.945,
+          "end": 334.095
+        },
+        {
+          "text": "Strategy",
+          "start": 334.095,
+          "end": 334.633
+        },
+        {
+          "text": "2",
+          "start": 334.633,
+          "end": 335.22
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "li",
+      "text": "Selenium CDP (Chrome DevTools Protocol) , official guide to using CDP sessions from Selenium, the bridge between BiDi and Chrome's native protocol",
+      "start": 335.715,
+      "end": 346.615,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 336.015,
+          "end": 336.602
+        },
+        {
+          "text": "CDP",
+          "start": 336.602,
+          "end": 337.64
+        },
+        {
+          "text": "(",
+          "start": 337.64,
+          "end": 337.74
+        },
+        {
+          "text": "Chrome",
+          "start": 337.74,
+          "end": 338.04
+        },
+        {
+          "text": "DevTools",
+          "start": 338.04,
+          "end": 338.727
+        },
+        {
+          "text": "Protocol",
+          "start": 338.727,
+          "end": 339.515
+        },
+        {
+          "text": ")",
+          "start": 339.515,
+          "end": 339.577
+        },
+        {
+          "text": ",",
+          "start": 339.577,
+          "end": 339.64
+        },
+        {
+          "text": "official",
+          "start": 339.64,
+          "end": 340.09
+        },
+        {
+          "text": "guide",
+          "start": 340.09,
+          "end": 340.577
+        },
+        {
+          "text": "to",
+          "start": 340.577,
+          "end": 340.715
+        },
+        {
+          "text": "using",
+          "start": 340.715,
+          "end": 341.052
+        },
+        {
+          "text": "CDP",
+          "start": 341.052,
+          "end": 341.59
+        },
+        {
+          "text": "sessions",
+          "start": 341.59,
+          "end": 342.04
+        },
+        {
+          "text": "from",
+          "start": 342.04,
+          "end": 342.215
+        },
+        {
+          "text": "Selenium",
+          "start": 342.215,
+          "end": 343.065
+        },
+        {
+          "text": ",",
+          "start": 343.065,
+          "end": 343.165
+        },
+        {
+          "text": "the",
+          "start": 343.165,
+          "end": 343.302
+        },
+        {
+          "text": "bridge",
+          "start": 343.302,
+          "end": 343.69
+        },
+        {
+          "text": "between",
+          "start": 343.69,
+          "end": 344.04
+        },
+        {
+          "text": "BiDi",
+          "start": 344.04,
+          "end": 344.64
+        },
+        {
+          "text": "and",
+          "start": 344.64,
+          "end": 344.765
+        },
+        {
+          "text": "Chrome's",
+          "start": 344.765,
+          "end": 345.315
+        },
+        {
+          "text": "native",
+          "start": 345.315,
+          "end": 345.69
+        },
+        {
+          "text": "protocol",
+          "start": 345.69,
+          "end": 346.615
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Angie Jones / mcp-selenium , the MCP server whose accessibility tree query inspired the semantic healing approach",
+      "start": 347.035,
+      "end": 355.96,
+      "words": [
+        {
+          "text": "Angie",
+          "start": 347.335,
+          "end": 347.672
+        },
+        {
+          "text": "Jones",
+          "start": 347.672,
+          "end": 348.272
+        },
+        {
+          "text": "/",
+          "start": 348.272,
+          "end": 348.76
+        },
+        {
+          "text": "mcp-selenium",
+          "start": 348.76,
+          "end": 350.272
+        },
+        {
+          "text": ",",
+          "start": 350.272,
+          "end": 350.36
+        },
+        {
+          "text": "the",
+          "start": 350.36,
+          "end": 350.522
+        },
+        {
+          "text": "MCP",
+          "start": 350.522,
+          "end": 351.222
+        },
+        {
+          "text": "server",
+          "start": 351.222,
+          "end": 351.66
+        },
+        {
+          "text": "whose",
+          "start": 351.66,
+          "end": 351.835
+        },
+        {
+          "text": "accessibility",
+          "start": 351.835,
+          "end": 352.622
+        },
+        {
+          "text": "tree",
+          "start": 352.622,
+          "end": 353.197
+        },
+        {
+          "text": "query",
+          "start": 353.197,
+          "end": 353.66
+        },
+        {
+          "text": "inspired",
+          "start": 353.66,
+          "end": 354.272
+        },
+        {
+          "text": "the",
+          "start": 354.272,
+          "end": 354.36
+        },
+        {
+          "text": "semantic",
+          "start": 354.36,
+          "end": 354.86
+        },
+        {
+          "text": "healing",
+          "start": 354.86,
+          "end": 355.235
+        },
+        {
+          "text": "approach",
+          "start": 355.235,
+          "end": 355.96
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "h2",
+      "text": "What to Do Next",
+      "start": 356.43,
+      "end": 357.83,
+      "words": [
+        {
+          "text": "What",
+          "start": 356.755,
+          "end": 356.905
+        },
+        {
+          "text": "to",
+          "start": 356.905,
+          "end": 357.005
+        },
+        {
+          "text": "Do",
+          "start": 357.005,
+          "end": 357.205
+        },
+        {
+          "text": "Next",
+          "start": 357.205,
+          "end": 357.83
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "Add Relative Locators today. It's a zero-dependency change , replace your 5 most brittle CSS selectors with RelativeLocator.with().below() / .near(). You'll see immediate stability improvement in the next CI run.",
+      "start": 358.325,
+      "end": 373.05,
+      "words": [
+        {
+          "text": "Add",
+          "start": 358.625,
+          "end": 358.863
+        },
+        {
+          "text": "Relative",
+          "start": 358.863,
+          "end": 359.325
+        },
+        {
+          "text": "Locators",
+          "start": 359.325,
+          "end": 359.875
+        },
+        {
+          "text": "today",
+          "start": 359.875,
+          "end": 360.55
+        },
+        {
+          "text": ".",
+          "start": 360.55,
+          "end": 360.675
+        },
+        {
+          "text": "It's",
+          "start": 360.675,
+          "end": 360.863
+        },
+        {
+          "text": "a",
+          "start": 360.863,
+          "end": 360.963
+        },
+        {
+          "text": "zero-dependency",
+          "start": 360.963,
+          "end": 361.863
+        },
+        {
+          "text": "change",
+          "start": 361.863,
+          "end": 362.537
+        },
+        {
+          "text": ",",
+          "start": 362.537,
+          "end": 362.65
+        },
+        {
+          "text": "replace",
+          "start": 362.65,
+          "end": 363.063
+        },
+        {
+          "text": "your",
+          "start": 363.063,
+          "end": 363.213
+        },
+        {
+          "text": "5",
+          "start": 363.213,
+          "end": 363.625
+        },
+        {
+          "text": "most",
+          "start": 363.625,
+          "end": 363.912
+        },
+        {
+          "text": "brittle",
+          "start": 363.912,
+          "end": 364.287
+        },
+        {
+          "text": "CSS",
+          "start": 364.287,
+          "end": 364.85
+        },
+        {
+          "text": "selectors",
+          "start": 364.85,
+          "end": 365.45
+        },
+        {
+          "text": "with",
+          "start": 365.45,
+          "end": 365.625
+        },
+        {
+          "text": "RelativeLocator.with().below",
+          "start": 365.625,
+          "end": 368.025
+        },
+        {
+          "text": "(",
+          "start": 368.025,
+          "end": 368.125
+        },
+        {
+          "text": ")",
+          "start": 368.125,
+          "end": 368.188
+        },
+        {
+          "text": "/",
+          "start": 368.188,
+          "end": 368.6
+        },
+        {
+          "text": ".near",
+          "start": 368.6,
+          "end": 369.25
+        },
+        {
+          "text": "(",
+          "start": 369.25,
+          "end": 369.325
+        },
+        {
+          "text": ")",
+          "start": 369.325,
+          "end": 369.35
+        },
+        {
+          "text": ".",
+          "start": 369.35,
+          "end": 369.4
+        },
+        {
+          "text": "You'll",
+          "start": 369.4,
+          "end": 369.587
+        },
+        {
+          "text": "see",
+          "start": 369.587,
+          "end": 369.837
+        },
+        {
+          "text": "immediate",
+          "start": 369.837,
+          "end": 370.375
+        },
+        {
+          "text": "stability",
+          "start": 370.375,
+          "end": 370.95
+        },
+        {
+          "text": "improvement",
+          "start": 370.95,
+          "end": 371.525
+        },
+        {
+          "text": "in",
+          "start": 371.525,
+          "end": 371.612
+        },
+        {
+          "text": "the",
+          "start": 371.612,
+          "end": 371.7
+        },
+        {
+          "text": "next",
+          "start": 371.7,
+          "end": 371.975
+        },
+        {
+          "text": "CI",
+          "start": 371.975,
+          "end": 372.325
+        },
+        {
+          "text": "run",
+          "start": 372.325,
+          "end": 372.9
+        },
+        {
+          "text": ".",
+          "start": 372.9,
+          "end": 373.05
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Prototype the SemanticHealer. Take the Java class from this post, wire it up to your existing test suite's findElement calls, and run it against a page where you've deliberately broken a CSS class. Watch the accessibility tree heal it in real time.",
+      "start": 373.37,
+      "end": 389.12,
+      "words": [
+        {
+          "text": "Prototype",
+          "start": 373.62,
+          "end": 374.22
+        },
+        {
+          "text": "the",
+          "start": 374.22,
+          "end": 374.345
+        },
+        {
+          "text": "SemanticHealer",
+          "start": 374.345,
+          "end": 375.52
+        },
+        {
+          "text": ".",
+          "start": 375.52,
+          "end": 375.657
+        },
+        {
+          "text": "Take",
+          "start": 375.657,
+          "end": 375.92
+        },
+        {
+          "text": "the",
+          "start": 375.92,
+          "end": 376.032
+        },
+        {
+          "text": "Java",
+          "start": 376.032,
+          "end": 376.37
+        },
+        {
+          "text": "class",
+          "start": 376.37,
+          "end": 376.695
+        },
+        {
+          "text": "from",
+          "start": 376.695,
+          "end": 376.832
+        },
+        {
+          "text": "this",
+          "start": 376.832,
+          "end": 376.995
+        },
+        {
+          "text": "post",
+          "start": 376.995,
+          "end": 377.62
+        },
+        {
+          "text": ",",
+          "start": 377.62,
+          "end": 377.757
+        },
+        {
+          "text": "wire",
+          "start": 377.757,
+          "end": 378.107
+        },
+        {
+          "text": "it",
+          "start": 378.107,
+          "end": 378.182
+        },
+        {
+          "text": "up",
+          "start": 378.182,
+          "end": 378.37
+        },
+        {
+          "text": "to",
+          "start": 378.37,
+          "end": 378.457
+        },
+        {
+          "text": "your",
+          "start": 378.457,
+          "end": 378.595
+        },
+        {
+          "text": "existing",
+          "start": 378.595,
+          "end": 379.132
+        },
+        {
+          "text": "test",
+          "start": 379.132,
+          "end": 379.57
+        },
+        {
+          "text": "suite's",
+          "start": 379.57,
+          "end": 379.92
+        },
+        {
+          "text": "findElement",
+          "start": 379.92,
+          "end": 380.52
+        },
+        {
+          "text": "calls",
+          "start": 380.52,
+          "end": 381.195
+        },
+        {
+          "text": ",",
+          "start": 381.195,
+          "end": 381.307
+        },
+        {
+          "text": "and",
+          "start": 381.307,
+          "end": 381.457
+        },
+        {
+          "text": "run",
+          "start": 381.457,
+          "end": 381.632
+        },
+        {
+          "text": "it",
+          "start": 381.632,
+          "end": 381.72
+        },
+        {
+          "text": "against",
+          "start": 381.72,
+          "end": 382.057
+        },
+        {
+          "text": "a",
+          "start": 382.057,
+          "end": 382.132
+        },
+        {
+          "text": "page",
+          "start": 382.132,
+          "end": 382.72
+        },
+        {
+          "text": "where",
+          "start": 382.72,
+          "end": 382.87
+        },
+        {
+          "text": "you've",
+          "start": 382.87,
+          "end": 383.07
+        },
+        {
+          "text": "deliberately",
+          "start": 383.07,
+          "end": 383.695
+        },
+        {
+          "text": "broken",
+          "start": 383.695,
+          "end": 384.07
+        },
+        {
+          "text": "a",
+          "start": 384.07,
+          "end": 384.182
+        },
+        {
+          "text": "CSS",
+          "start": 384.182,
+          "end": 384.77
+        },
+        {
+          "text": "class",
+          "start": 384.77,
+          "end": 385.645
+        },
+        {
+          "text": ".",
+          "start": 385.645,
+          "end": 385.82
+        },
+        {
+          "text": "Watch",
+          "start": 385.82,
+          "end": 386.145
+        },
+        {
+          "text": "the",
+          "start": 386.145,
+          "end": 386.27
+        },
+        {
+          "text": "accessibility",
+          "start": 386.27,
+          "end": 387.095
+        },
+        {
+          "text": "tree",
+          "start": 387.095,
+          "end": 387.432
+        },
+        {
+          "text": "heal",
+          "start": 387.432,
+          "end": 387.695
+        },
+        {
+          "text": "it",
+          "start": 387.695,
+          "end": 387.857
+        },
+        {
+          "text": "in",
+          "start": 387.857,
+          "end": 388.02
+        },
+        {
+          "text": "real",
+          "start": 388.02,
+          "end": 388.295
+        },
+        {
+          "text": "time",
+          "start": 388.295,
+          "end": 388.97
+        },
+        {
+          "text": ".",
+          "start": 388.97,
+          "end": 389.12
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Set up the healing log in CI/CD. Even without the full three-layer healing engine, logging every NoSuchElementException with the page's accessibility snapshot gives you data to build the healer with.",
+      "start": 389.44,
+      "end": 402.54,
+      "words": [
+        {
+          "text": "Set",
+          "start": 389.74,
+          "end": 389.902
+        },
+        {
+          "text": "up",
+          "start": 389.902,
+          "end": 390.027
+        },
+        {
+          "text": "the",
+          "start": 390.027,
+          "end": 390.115
+        },
+        {
+          "text": "healing",
+          "start": 390.115,
+          "end": 390.49
+        },
+        {
+          "text": "log",
+          "start": 390.49,
+          "end": 390.953
+        },
+        {
+          "text": "in",
+          "start": 390.953,
+          "end": 391.14
+        },
+        {
+          "text": "CI/CD",
+          "start": 391.14,
+          "end": 392.465
+        },
+        {
+          "text": ".",
+          "start": 392.465,
+          "end": 392.652
+        },
+        {
+          "text": "Even",
+          "start": 392.652,
+          "end": 392.99
+        },
+        {
+          "text": "without",
+          "start": 392.99,
+          "end": 393.302
+        },
+        {
+          "text": "the",
+          "start": 393.302,
+          "end": 393.453
+        },
+        {
+          "text": "full",
+          "start": 393.453,
+          "end": 393.802
+        },
+        {
+          "text": "three-layer",
+          "start": 393.802,
+          "end": 394.377
+        },
+        {
+          "text": "healing",
+          "start": 394.377,
+          "end": 394.765
+        },
+        {
+          "text": "engine",
+          "start": 394.765,
+          "end": 395.49
+        },
+        {
+          "text": ",",
+          "start": 395.49,
+          "end": 395.627
+        },
+        {
+          "text": "logging",
+          "start": 395.627,
+          "end": 396.152
+        },
+        {
+          "text": "every",
+          "start": 396.152,
+          "end": 396.49
+        },
+        {
+          "text": "NoSuchElementException",
+          "start": 396.49,
+          "end": 398.015
+        },
+        {
+          "text": "with",
+          "start": 398.015,
+          "end": 398.152
+        },
+        {
+          "text": "the",
+          "start": 398.152,
+          "end": 398.252
+        },
+        {
+          "text": "page's",
+          "start": 398.252,
+          "end": 398.715
+        },
+        {
+          "text": "accessibility",
+          "start": 398.715,
+          "end": 399.465
+        },
+        {
+          "text": "snapshot",
+          "start": 399.465,
+          "end": 400.34
+        },
+        {
+          "text": "gives",
+          "start": 400.34,
+          "end": 400.577
+        },
+        {
+          "text": "you",
+          "start": 400.577,
+          "end": 400.69
+        },
+        {
+          "text": "data",
+          "start": 400.69,
+          "end": 401.015
+        },
+        {
+          "text": "to",
+          "start": 401.015,
+          "end": 401.14
+        },
+        {
+          "text": "build",
+          "start": 401.14,
+          "end": 401.377
+        },
+        {
+          "text": "the",
+          "start": 401.377,
+          "end": 401.465
+        },
+        {
+          "text": "healer",
+          "start": 401.465,
+          "end": 401.815
+        },
+        {
+          "text": "with",
+          "start": 401.815,
+          "end": 402.365
+        },
+        {
+          "text": ".",
+          "start": 402.365,
+          "end": 402.54
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "For Playwright users: The same pattern works , replace driver.findElement() with page.locator() and the CDP accessibility query is identical. The Playwright AI Codegen post covers the TypeScript/JS equivalent.",
+      "start": 402.86,
+      "end": 417.61,
+      "words": [
+        {
+          "text": "For",
+          "start": 403.135,
+          "end": 403.26
+        },
+        {
+          "text": "Playwright",
+          "start": 403.26,
+          "end": 403.685
+        },
+        {
+          "text": "users",
+          "start": 403.685,
+          "end": 404.46
+        },
+        {
+          "text": ":",
+          "start": 404.46,
+          "end": 404.56
+        },
+        {
+          "text": "The",
+          "start": 404.56,
+          "end": 404.697
+        },
+        {
+          "text": "same",
+          "start": 404.697,
+          "end": 405.01
+        },
+        {
+          "text": "pattern",
+          "start": 405.01,
+          "end": 405.435
+        },
+        {
+          "text": "works",
+          "start": 405.435,
+          "end": 405.91
+        },
+        {
+          "text": ",",
+          "start": 405.91,
+          "end": 405.985
+        },
+        {
+          "text": "replace",
+          "start": 405.985,
+          "end": 406.523
+        },
+        {
+          "text": "driver.findElement",
+          "start": 406.523,
+          "end": 407.76
+        },
+        {
+          "text": "(",
+          "start": 407.76,
+          "end": 407.835
+        },
+        {
+          "text": ")",
+          "start": 407.835,
+          "end": 407.885
+        },
+        {
+          "text": "with",
+          "start": 407.885,
+          "end": 408.073
+        },
+        {
+          "text": "page.locator",
+          "start": 408.073,
+          "end": 409.285
+        },
+        {
+          "text": "(",
+          "start": 409.285,
+          "end": 409.385
+        },
+        {
+          "text": ")",
+          "start": 409.385,
+          "end": 409.448
+        },
+        {
+          "text": "and",
+          "start": 409.448,
+          "end": 409.573
+        },
+        {
+          "text": "the",
+          "start": 409.573,
+          "end": 409.672
+        },
+        {
+          "text": "CDP",
+          "start": 409.672,
+          "end": 410.285
+        },
+        {
+          "text": "accessibility",
+          "start": 410.285,
+          "end": 410.985
+        },
+        {
+          "text": "query",
+          "start": 410.985,
+          "end": 411.473
+        },
+        {
+          "text": "is",
+          "start": 411.473,
+          "end": 411.647
+        },
+        {
+          "text": "identical",
+          "start": 411.647,
+          "end": 412.685
+        },
+        {
+          "text": ".",
+          "start": 412.685,
+          "end": 412.848
+        },
+        {
+          "text": "The",
+          "start": 412.848,
+          "end": 412.96
+        },
+        {
+          "text": "Playwright",
+          "start": 412.96,
+          "end": 413.397
+        },
+        {
+          "text": "AI",
+          "start": 413.397,
+          "end": 413.872
+        },
+        {
+          "text": "Codegen",
+          "start": 413.872,
+          "end": 414.31
+        },
+        {
+          "text": "post",
+          "start": 414.31,
+          "end": 414.848
+        },
+        {
+          "text": "covers",
+          "start": 414.848,
+          "end": 415.26
+        },
+        {
+          "text": "the",
+          "start": 415.26,
+          "end": 415.397
+        },
+        {
+          "text": "TypeScript/JS",
+          "start": 415.397,
+          "end": 416.66
+        },
+        {
+          "text": "equivalent",
+          "start": 416.66,
+          "end": 417.46
+        },
+        {
+          "text": ".",
+          "start": 417.46,
+          "end": 417.61
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "Subscribe to this blog's feed.xml , next up: a practical guide to building an AI test oracle that judges \"did the test actually pass?\" by looking at screenshots, not assertions.",
+      "start": 417.93,
+      "end": 430.08,
+      "words": [
+        {
+          "text": "Subscribe",
+          "start": 418.205,
+          "end": 418.755
+        },
+        {
+          "text": "to",
+          "start": 418.755,
+          "end": 418.842
+        },
+        {
+          "text": "this",
+          "start": 418.842,
+          "end": 419.03
+        },
+        {
+          "text": "blog's",
+          "start": 419.03,
+          "end": 419.455
+        },
+        {
+          "text": "feed.xml",
+          "start": 419.455,
+          "end": 420.955
+        },
+        {
+          "text": ",",
+          "start": 420.955,
+          "end": 421.03
+        },
+        {
+          "text": "next",
+          "start": 421.03,
+          "end": 421.317
+        },
+        {
+          "text": "up",
+          "start": 421.317,
+          "end": 421.805
+        },
+        {
+          "text": ":",
+          "start": 421.805,
+          "end": 421.942
+        },
+        {
+          "text": "a",
+          "start": 421.942,
+          "end": 422.055
+        },
+        {
+          "text": "practical",
+          "start": 422.055,
+          "end": 422.605
+        },
+        {
+          "text": "guide",
+          "start": 422.605,
+          "end": 422.955
+        },
+        {
+          "text": "to",
+          "start": 422.955,
+          "end": 423.055
+        },
+        {
+          "text": "building",
+          "start": 423.055,
+          "end": 423.392
+        },
+        {
+          "text": "an",
+          "start": 423.392,
+          "end": 423.517
+        },
+        {
+          "text": "AI",
+          "start": 423.517,
+          "end": 423.93
+        },
+        {
+          "text": "test",
+          "start": 423.93,
+          "end": 424.23
+        },
+        {
+          "text": "oracle",
+          "start": 424.23,
+          "end": 424.655
+        },
+        {
+          "text": "that",
+          "start": 424.655,
+          "end": 424.843
+        },
+        {
+          "text": "judges",
+          "start": 424.843,
+          "end": 425.455
+        },
+        {
+          "text": "\"",
+          "start": 425.455,
+          "end": 425.505
+        },
+        {
+          "text": "did",
+          "start": 425.505,
+          "end": 425.618
+        },
+        {
+          "text": "the",
+          "start": 425.618,
+          "end": 425.718
+        },
+        {
+          "text": "test",
+          "start": 425.718,
+          "end": 426.093
+        },
+        {
+          "text": "actually",
+          "start": 426.093,
+          "end": 426.53
+        },
+        {
+          "text": "pass",
+          "start": 426.53,
+          "end": 427.355
+        },
+        {
+          "text": "?",
+          "start": 427.355,
+          "end": 427.48
+        },
+        {
+          "text": "\"",
+          "start": 427.48,
+          "end": 427.53
+        },
+        {
+          "text": "by",
+          "start": 427.53,
+          "end": 427.705
+        },
+        {
+          "text": "looking",
+          "start": 427.705,
+          "end": 427.98
+        },
+        {
+          "text": "at",
+          "start": 427.98,
+          "end": 428.08
+        },
+        {
+          "text": "screenshots",
+          "start": 428.08,
+          "end": 428.805
+        },
+        {
+          "text": ",",
+          "start": 428.805,
+          "end": 428.855
+        },
+        {
+          "text": "not",
+          "start": 428.855,
+          "end": 429.043
+        },
+        {
+          "text": "assertions",
+          "start": 429.043,
+          "end": 429.93
+        },
+        {
+          "text": ".",
+          "start": 429.93,
+          "end": 430.08
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "p",
+      "text": "See also: AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026) , the Phase 4 Cypress self-healing implementation that inspired the Java Selenium version in this post. · XPath for Test Automation (Jul 2026) , the story-mode article with §12 complex XPath and CSS for SDETs (SVG, computed indices, ARIA chains, iframe/shadow-DOM, modern CSS :has()/:is()/:where(), decision flowchart).",
+      "start": 430.4,
+      "end": 463.825,
+      "words": [
+        {
+          "text": "See",
+          "start": 430.7,
+          "end": 430.875
+        },
+        {
+          "text": "also",
+          "start": 430.875,
+          "end": 431.5
+        },
+        {
+          "text": ":",
+          "start": 431.5,
+          "end": 431.637
+        },
+        {
+          "text": "AI-Driven",
+          "start": 431.637,
+          "end": 432.325
+        },
+        {
+          "text": "Test",
+          "start": 432.325,
+          "end": 432.563
+        },
+        {
+          "text": "Strategy",
+          "start": 432.563,
+          "end": 433.475
+        },
+        {
+          "text": ":",
+          "start": 433.475,
+          "end": 433.6
+        },
+        {
+          "text": "From",
+          "start": 433.6,
+          "end": 433.837
+        },
+        {
+          "text": "Copilot",
+          "start": 433.837,
+          "end": 434.512
+        },
+        {
+          "text": "to",
+          "start": 434.512,
+          "end": 434.662
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 434.662,
+          "end": 435.35
+        },
+        {
+          "text": "Orchestration",
+          "start": 435.35,
+          "end": 436.525
+        },
+        {
+          "text": "(",
+          "start": 436.525,
+          "end": 436.625
+        },
+        {
+          "text": "Jun",
+          "start": 436.625,
+          "end": 436.9
+        },
+        {
+          "text": "2026",
+          "start": 436.9,
+          "end": 438.2
+        },
+        {
+          "text": ")",
+          "start": 438.2,
+          "end": 438.35
+        },
+        {
+          "text": ",",
+          "start": 438.35,
+          "end": 438.425
+        },
+        {
+          "text": "the",
+          "start": 438.425,
+          "end": 438.563
+        },
+        {
+          "text": "Phase",
+          "start": 438.563,
+          "end": 438.962
+        },
+        {
+          "text": "4",
+          "start": 438.962,
+          "end": 439.388
+        },
+        {
+          "text": "Cypress",
+          "start": 439.388,
+          "end": 439.888
+        },
+        {
+          "text": "self-healing",
+          "start": 439.888,
+          "end": 440.575
+        },
+        {
+          "text": "implementation",
+          "start": 440.575,
+          "end": 441.688
+        },
+        {
+          "text": "that",
+          "start": 441.688,
+          "end": 441.85
+        },
+        {
+          "text": "inspired",
+          "start": 441.85,
+          "end": 442.475
+        },
+        {
+          "text": "the",
+          "start": 442.475,
+          "end": 442.612
+        },
+        {
+          "text": "Java",
+          "start": 442.612,
+          "end": 442.95
+        },
+        {
+          "text": "Selenium",
+          "start": 442.95,
+          "end": 443.5
+        },
+        {
+          "text": "version",
+          "start": 443.5,
+          "end": 443.925
+        },
+        {
+          "text": "in",
+          "start": 443.925,
+          "end": 444.037
+        },
+        {
+          "text": "this",
+          "start": 444.037,
+          "end": 444.2
+        },
+        {
+          "text": "post",
+          "start": 444.2,
+          "end": 444.85
+        },
+        {
+          "text": ".",
+          "start": 444.85,
+          "end": 445.013
+        },
+        {
+          "text": "XPath",
+          "start": 445.425,
+          "end": 445.912
+        },
+        {
+          "text": "for",
+          "start": 445.912,
+          "end": 446.075
+        },
+        {
+          "text": "Test",
+          "start": 446.075,
+          "end": 446.325
+        },
+        {
+          "text": "Automation",
+          "start": 446.325,
+          "end": 447.15
+        },
+        {
+          "text": "(",
+          "start": 447.15,
+          "end": 447.225
+        },
+        {
+          "text": "Jul",
+          "start": 447.225,
+          "end": 447.462
+        },
+        {
+          "text": "2026",
+          "start": 447.462,
+          "end": 448.675
+        },
+        {
+          "text": ")",
+          "start": 448.675,
+          "end": 448.725
+        },
+        {
+          "text": ",",
+          "start": 448.725,
+          "end": 448.787
+        },
+        {
+          "text": "the",
+          "start": 448.787,
+          "end": 448.912
+        },
+        {
+          "text": "story-mode",
+          "start": 448.912,
+          "end": 449.462
+        },
+        {
+          "text": "article",
+          "start": 449.462,
+          "end": 449.85
+        },
+        {
+          "text": "with",
+          "start": 449.85,
+          "end": 450.0
+        },
+        {
+          "text": "§12",
+          "start": 450.0,
+          "end": 450.8
+        },
+        {
+          "text": "complex",
+          "start": 450.8,
+          "end": 451.35
+        },
+        {
+          "text": "XPath",
+          "start": 451.35,
+          "end": 451.887
+        },
+        {
+          "text": "and",
+          "start": 451.887,
+          "end": 452.075
+        },
+        {
+          "text": "CSS",
+          "start": 452.075,
+          "end": 452.712
+        },
+        {
+          "text": "for",
+          "start": 452.712,
+          "end": 452.9
+        },
+        {
+          "text": "SDETs",
+          "start": 452.9,
+          "end": 453.725
+        },
+        {
+          "text": "(",
+          "start": 453.725,
+          "end": 453.8
+        },
+        {
+          "text": "SVG",
+          "start": 453.8,
+          "end": 454.625
+        },
+        {
+          "text": ",",
+          "start": 454.625,
+          "end": 454.675
+        },
+        {
+          "text": "computed",
+          "start": 454.675,
+          "end": 455.087
+        },
+        {
+          "text": "indices",
+          "start": 455.087,
+          "end": 455.725
+        },
+        {
+          "text": ",",
+          "start": 455.725,
+          "end": 455.8
+        },
+        {
+          "text": "ARIA",
+          "start": 455.8,
+          "end": 456.187
+        },
+        {
+          "text": "chains",
+          "start": 456.187,
+          "end": 456.7
+        },
+        {
+          "text": ",",
+          "start": 456.7,
+          "end": 456.775
+        },
+        {
+          "text": "iframe/shadow-DOM",
+          "start": 456.775,
+          "end": 458.35
+        },
+        {
+          "text": ",",
+          "start": 458.35,
+          "end": 458.412
+        },
+        {
+          "text": "modern",
+          "start": 458.412,
+          "end": 458.8
+        },
+        {
+          "text": "CSS",
+          "start": 458.8,
+          "end": 459.5
+        },
+        {
+          "text": ":",
+          "start": 459.5,
+          "end": 459.65
+        },
+        {
+          "text": "has()/:is()/:where",
+          "start": 459.65,
+          "end": 462.4
+        },
+        {
+          "text": "(",
+          "start": 462.4,
+          "end": 462.425
+        },
+        {
+          "text": ")",
+          "start": 462.425,
+          "end": 462.475
+        },
+        {
+          "text": ",",
+          "start": 462.475,
+          "end": 462.537
+        },
+        {
+          "text": "decision",
+          "start": 462.537,
+          "end": 462.987
+        },
+        {
+          "text": "flowchart",
+          "start": 462.987,
+          "end": 463.825
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
