@@ -1,0 +1,4002 @@
+{
+  "slug": "mastering-azure-cosmos-db-crud",
+  "voice": "af_heart",
+  "accent": "us",
+  "sampleRate": 24000,
+  "duration": 285.505,
+  "contentHash": "8da05c7a52c26755e7996b0b3ddcca975110aba395edc1d2763a086b235224ac",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Azure Cosmos DB CRUD: A Practical Guide to Building Maintainable Data Services",
+      "start": 0.0,
+      "end": 5.95,
+      "words": [
+        {
+          "text": "Azure",
+          "start": 0.3,
+          "end": 0.662
+        },
+        {
+          "text": "Cosmos",
+          "start": 0.662,
+          "end": 1.4
+        },
+        {
+          "text": "DB",
+          "start": 1.4,
+          "end": 1.775
+        },
+        {
+          "text": "CRUD",
+          "start": 1.775,
+          "end": 2.375
+        },
+        {
+          "text": ":",
+          "start": 2.375,
+          "end": 2.538
+        },
+        {
+          "text": "A",
+          "start": 2.538,
+          "end": 2.65
+        },
+        {
+          "text": "Practical",
+          "start": 2.65,
+          "end": 3.2
+        },
+        {
+          "text": "Guide",
+          "start": 3.2,
+          "end": 3.55
+        },
+        {
+          "text": "to",
+          "start": 3.55,
+          "end": 3.65
+        },
+        {
+          "text": "Building",
+          "start": 3.65,
+          "end": 4.025
+        },
+        {
+          "text": "Maintainable",
+          "start": 4.025,
+          "end": 4.75
+        },
+        {
+          "text": "Data",
+          "start": 4.75,
+          "end": 5.05
+        },
+        {
+          "text": "Services",
+          "start": 5.05,
+          "end": 5.95
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "I've rebuilt Cosmos DB services more times than I'd like to admit. The common thread: start simple, skip the architecture, then realize at scale that the code is a tangled mess. This guide is the architecture I wish I'd known six months in.",
+      "start": 6.37,
+      "end": 22.12,
+      "words": [
+        {
+          "text": "I've",
+          "start": 6.62,
+          "end": 6.795
+        },
+        {
+          "text": "rebuilt",
+          "start": 6.795,
+          "end": 7.232
+        },
+        {
+          "text": "Cosmos",
+          "start": 7.232,
+          "end": 7.832
+        },
+        {
+          "text": "DB",
+          "start": 7.832,
+          "end": 8.332
+        },
+        {
+          "text": "services",
+          "start": 8.332,
+          "end": 8.832
+        },
+        {
+          "text": "more",
+          "start": 8.832,
+          "end": 9.07
+        },
+        {
+          "text": "times",
+          "start": 9.07,
+          "end": 9.52
+        },
+        {
+          "text": "than",
+          "start": 9.52,
+          "end": 9.645
+        },
+        {
+          "text": "I'd",
+          "start": 9.645,
+          "end": 9.845
+        },
+        {
+          "text": "like",
+          "start": 9.845,
+          "end": 10.07
+        },
+        {
+          "text": "to",
+          "start": 10.07,
+          "end": 10.22
+        },
+        {
+          "text": "admit",
+          "start": 10.22,
+          "end": 11.02
+        },
+        {
+          "text": ".",
+          "start": 11.02,
+          "end": 11.145
+        },
+        {
+          "text": "The",
+          "start": 11.145,
+          "end": 11.282
+        },
+        {
+          "text": "common",
+          "start": 11.282,
+          "end": 11.683
+        },
+        {
+          "text": "thread",
+          "start": 11.683,
+          "end": 12.32
+        },
+        {
+          "text": ":",
+          "start": 12.32,
+          "end": 12.457
+        },
+        {
+          "text": "start",
+          "start": 12.457,
+          "end": 12.808
+        },
+        {
+          "text": "simple",
+          "start": 12.808,
+          "end": 13.395
+        },
+        {
+          "text": ",",
+          "start": 13.395,
+          "end": 13.532
+        },
+        {
+          "text": "skip",
+          "start": 13.532,
+          "end": 13.82
+        },
+        {
+          "text": "the",
+          "start": 13.82,
+          "end": 13.945
+        },
+        {
+          "text": "architecture",
+          "start": 13.945,
+          "end": 14.845
+        },
+        {
+          "text": ",",
+          "start": 14.845,
+          "end": 14.945
+        },
+        {
+          "text": "then",
+          "start": 14.945,
+          "end": 15.17
+        },
+        {
+          "text": "realize",
+          "start": 15.17,
+          "end": 15.62
+        },
+        {
+          "text": "at",
+          "start": 15.62,
+          "end": 15.782
+        },
+        {
+          "text": "scale",
+          "start": 15.782,
+          "end": 16.195
+        },
+        {
+          "text": "that",
+          "start": 16.195,
+          "end": 16.308
+        },
+        {
+          "text": "the",
+          "start": 16.308,
+          "end": 16.433
+        },
+        {
+          "text": "code",
+          "start": 16.433,
+          "end": 16.87
+        },
+        {
+          "text": "is",
+          "start": 16.87,
+          "end": 16.983
+        },
+        {
+          "text": "a",
+          "start": 16.983,
+          "end": 17.082
+        },
+        {
+          "text": "tangled",
+          "start": 17.082,
+          "end": 17.595
+        },
+        {
+          "text": "mess",
+          "start": 17.595,
+          "end": 18.395
+        },
+        {
+          "text": ".",
+          "start": 18.395,
+          "end": 18.57
+        },
+        {
+          "text": "This",
+          "start": 18.57,
+          "end": 18.82
+        },
+        {
+          "text": "guide",
+          "start": 18.82,
+          "end": 19.108
+        },
+        {
+          "text": "is",
+          "start": 19.108,
+          "end": 19.207
+        },
+        {
+          "text": "the",
+          "start": 19.207,
+          "end": 19.32
+        },
+        {
+          "text": "architecture",
+          "start": 19.32,
+          "end": 20.02
+        },
+        {
+          "text": "I",
+          "start": 20.02,
+          "end": 20.17
+        },
+        {
+          "text": "wish",
+          "start": 20.17,
+          "end": 20.395
+        },
+        {
+          "text": "I'd",
+          "start": 20.395,
+          "end": 20.57
+        },
+        {
+          "text": "known",
+          "start": 20.57,
+          "end": 20.87
+        },
+        {
+          "text": "six",
+          "start": 20.87,
+          "end": 21.17
+        },
+        {
+          "text": "months",
+          "start": 21.17,
+          "end": 21.433
+        },
+        {
+          "text": "in",
+          "start": 21.433,
+          "end": 21.97
+        },
+        {
+          "text": ".",
+          "start": 21.97,
+          "end": 22.12
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "We'll build a CRUD service that's maintainable , interfaces are separate from implementations, dependencies are injected, and when you need to swap SQL for Cosmos (or vice versa), you change one file, not forty. No over-engineering. Just the baseline design that lets your code grow.",
+      "start": 22.44,
+      "end": 40.815,
+      "words": [
+        {
+          "text": "We'll",
+          "start": 22.69,
+          "end": 22.815
+        },
+        {
+          "text": "build",
+          "start": 22.815,
+          "end": 23.052
+        },
+        {
+          "text": "a",
+          "start": 23.052,
+          "end": 23.152
+        },
+        {
+          "text": "CRUD",
+          "start": 23.152,
+          "end": 23.502
+        },
+        {
+          "text": "service",
+          "start": 23.502,
+          "end": 23.94
+        },
+        {
+          "text": "that's",
+          "start": 23.94,
+          "end": 24.19
+        },
+        {
+          "text": "maintainable",
+          "start": 24.19,
+          "end": 25.102
+        },
+        {
+          "text": ",",
+          "start": 25.102,
+          "end": 25.215
+        },
+        {
+          "text": "interfaces",
+          "start": 25.215,
+          "end": 25.89
+        },
+        {
+          "text": "are",
+          "start": 25.89,
+          "end": 26.065
+        },
+        {
+          "text": "separate",
+          "start": 26.065,
+          "end": 26.49
+        },
+        {
+          "text": "from",
+          "start": 26.49,
+          "end": 26.627
+        },
+        {
+          "text": "implementations",
+          "start": 26.627,
+          "end": 27.865
+        },
+        {
+          "text": ",",
+          "start": 27.865,
+          "end": 27.965
+        },
+        {
+          "text": "dependencies",
+          "start": 27.965,
+          "end": 28.802
+        },
+        {
+          "text": "are",
+          "start": 28.802,
+          "end": 28.94
+        },
+        {
+          "text": "injected",
+          "start": 28.94,
+          "end": 29.865
+        },
+        {
+          "text": ",",
+          "start": 29.865,
+          "end": 29.965
+        },
+        {
+          "text": "and",
+          "start": 29.965,
+          "end": 30.077
+        },
+        {
+          "text": "when",
+          "start": 30.077,
+          "end": 30.215
+        },
+        {
+          "text": "you",
+          "start": 30.215,
+          "end": 30.315
+        },
+        {
+          "text": "need",
+          "start": 30.315,
+          "end": 30.515
+        },
+        {
+          "text": "to",
+          "start": 30.515,
+          "end": 30.652
+        },
+        {
+          "text": "swap",
+          "start": 30.652,
+          "end": 31.052
+        },
+        {
+          "text": "SQL",
+          "start": 31.052,
+          "end": 31.44
+        },
+        {
+          "text": "for",
+          "start": 31.44,
+          "end": 31.602
+        },
+        {
+          "text": "Cosmos",
+          "start": 31.602,
+          "end": 32.34
+        },
+        {
+          "text": "(",
+          "start": 32.34,
+          "end": 32.415
+        },
+        {
+          "text": "or",
+          "start": 32.415,
+          "end": 32.54
+        },
+        {
+          "text": "vice",
+          "start": 32.54,
+          "end": 32.815
+        },
+        {
+          "text": "versa",
+          "start": 32.815,
+          "end": 33.365
+        },
+        {
+          "text": ")",
+          "start": 33.365,
+          "end": 33.59
+        },
+        {
+          "text": ",",
+          "start": 33.59,
+          "end": 33.665
+        },
+        {
+          "text": "you",
+          "start": 33.665,
+          "end": 33.828
+        },
+        {
+          "text": "change",
+          "start": 33.828,
+          "end": 34.19
+        },
+        {
+          "text": "one",
+          "start": 34.19,
+          "end": 34.427
+        },
+        {
+          "text": "file",
+          "start": 34.427,
+          "end": 34.915
+        },
+        {
+          "text": ",",
+          "start": 34.915,
+          "end": 35.015
+        },
+        {
+          "text": "not",
+          "start": 35.015,
+          "end": 35.277
+        },
+        {
+          "text": "forty",
+          "start": 35.277,
+          "end": 36.04
+        },
+        {
+          "text": ".",
+          "start": 36.04,
+          "end": 36.215
+        },
+        {
+          "text": "No",
+          "start": 36.215,
+          "end": 36.515
+        },
+        {
+          "text": "over-engineering",
+          "start": 36.515,
+          "end": 37.715
+        },
+        {
+          "text": ".",
+          "start": 37.715,
+          "end": 37.865
+        },
+        {
+          "text": "Just",
+          "start": 37.865,
+          "end": 38.102
+        },
+        {
+          "text": "the",
+          "start": 38.102,
+          "end": 38.19
+        },
+        {
+          "text": "baseline",
+          "start": 38.19,
+          "end": 38.715
+        },
+        {
+          "text": "design",
+          "start": 38.715,
+          "end": 39.19
+        },
+        {
+          "text": "that",
+          "start": 39.19,
+          "end": 39.365
+        },
+        {
+          "text": "lets",
+          "start": 39.365,
+          "end": 39.578
+        },
+        {
+          "text": "your",
+          "start": 39.578,
+          "end": 39.69
+        },
+        {
+          "text": "code",
+          "start": 39.69,
+          "end": 40.015
+        },
+        {
+          "text": "grow",
+          "start": 40.015,
+          "end": 40.665
+        },
+        {
+          "text": ".",
+          "start": 40.665,
+          "end": 40.815
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "What Cosmos DB Queries Look Like",
+      "start": 41.135,
+      "end": 43.535,
+      "words": [
+        {
+          "text": "What",
+          "start": 41.385,
+          "end": 41.51
+        },
+        {
+          "text": "Cosmos",
+          "start": 41.51,
+          "end": 42.06
+        },
+        {
+          "text": "DB",
+          "start": 42.06,
+          "end": 42.385
+        },
+        {
+          "text": "Queries",
+          "start": 42.385,
+          "end": 42.785
+        },
+        {
+          "text": "Look",
+          "start": 42.785,
+          "end": 42.985
+        },
+        {
+          "text": "Like",
+          "start": 42.985,
+          "end": 43.535
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "Cosmos DB speaks SQL. If you know SQL, the queries feel natural:",
+      "start": 44.005,
+      "end": 48.855,
+      "words": [
+        {
+          "text": "Cosmos",
+          "start": 44.28,
+          "end": 44.817
+        },
+        {
+          "text": "DB",
+          "start": 44.817,
+          "end": 45.23
+        },
+        {
+          "text": "speaks",
+          "start": 45.23,
+          "end": 45.53
+        },
+        {
+          "text": "SQL",
+          "start": 45.53,
+          "end": 46.205
+        },
+        {
+          "text": ".",
+          "start": 46.205,
+          "end": 46.33
+        },
+        {
+          "text": "If",
+          "start": 46.33,
+          "end": 46.467
+        },
+        {
+          "text": "you",
+          "start": 46.467,
+          "end": 46.543
+        },
+        {
+          "text": "know",
+          "start": 46.543,
+          "end": 46.717
+        },
+        {
+          "text": "SQL",
+          "start": 46.717,
+          "end": 47.155
+        },
+        {
+          "text": ",",
+          "start": 47.155,
+          "end": 47.193
+        },
+        {
+          "text": "the",
+          "start": 47.193,
+          "end": 47.28
+        },
+        {
+          "text": "queries",
+          "start": 47.28,
+          "end": 47.705
+        },
+        {
+          "text": "feel",
+          "start": 47.705,
+          "end": 47.93
+        },
+        {
+          "text": "natural",
+          "start": 47.93,
+          "end": 48.705
+        },
+        {
+          "text": ":",
+          "start": 48.705,
+          "end": 48.855
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "You can run these in the Azure Portal's Data Explorer or from code via the SDK.",
+      "start": 49.175,
+      "end": 54.875,
+      "words": [
+        {
+          "text": "You",
+          "start": 49.45,
+          "end": 49.55
+        },
+        {
+          "text": "can",
+          "start": 49.55,
+          "end": 49.75
+        },
+        {
+          "text": "run",
+          "start": 49.75,
+          "end": 50.0
+        },
+        {
+          "text": "these",
+          "start": 50.0,
+          "end": 50.3
+        },
+        {
+          "text": "in",
+          "start": 50.3,
+          "end": 50.388
+        },
+        {
+          "text": "the",
+          "start": 50.388,
+          "end": 50.513
+        },
+        {
+          "text": "Azure",
+          "start": 50.513,
+          "end": 50.85
+        },
+        {
+          "text": "Portal's",
+          "start": 50.85,
+          "end": 51.3
+        },
+        {
+          "text": "Data",
+          "start": 51.3,
+          "end": 51.625
+        },
+        {
+          "text": "Explorer",
+          "start": 51.625,
+          "end": 52.55
+        },
+        {
+          "text": "or",
+          "start": 52.55,
+          "end": 52.7
+        },
+        {
+          "text": "from",
+          "start": 52.7,
+          "end": 52.912
+        },
+        {
+          "text": "code",
+          "start": 52.912,
+          "end": 53.388
+        },
+        {
+          "text": "via",
+          "start": 53.388,
+          "end": 53.638
+        },
+        {
+          "text": "the",
+          "start": 53.638,
+          "end": 53.775
+        },
+        {
+          "text": "SDK",
+          "start": 53.775,
+          "end": 54.725
+        },
+        {
+          "text": ".",
+          "start": 54.725,
+          "end": 54.875
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "h2",
+      "text": "Why Architecture Matters Here",
+      "start": 55.195,
+      "end": 57.22,
+      "words": [
+        {
+          "text": "Why",
+          "start": 55.47,
+          "end": 55.67
+        },
+        {
+          "text": "Architecture",
+          "start": 55.67,
+          "end": 56.245
+        },
+        {
+          "text": "Matters",
+          "start": 56.245,
+          "end": 56.67
+        },
+        {
+          "text": "Here",
+          "start": 56.67,
+          "end": 57.22
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "Before you write a single CreateItemAsync, pause. How will you inject a database service? How will you swap Cosmos for SQL without rewriting your entire application layer?",
+      "start": 57.715,
+      "end": 68.79,
+      "words": [
+        {
+          "text": "Before",
+          "start": 57.965,
+          "end": 58.34
+        },
+        {
+          "text": "you",
+          "start": 58.34,
+          "end": 58.49
+        },
+        {
+          "text": "write",
+          "start": 58.49,
+          "end": 58.765
+        },
+        {
+          "text": "a",
+          "start": 58.765,
+          "end": 58.902
+        },
+        {
+          "text": "single",
+          "start": 58.902,
+          "end": 59.327
+        },
+        {
+          "text": "CreateItemAsync",
+          "start": 59.327,
+          "end": 60.315
+        },
+        {
+          "text": ",",
+          "start": 60.315,
+          "end": 60.365
+        },
+        {
+          "text": "pause",
+          "start": 60.365,
+          "end": 61.065
+        },
+        {
+          "text": ".",
+          "start": 61.065,
+          "end": 61.202
+        },
+        {
+          "text": "How",
+          "start": 61.202,
+          "end": 61.39
+        },
+        {
+          "text": "will",
+          "start": 61.39,
+          "end": 61.54
+        },
+        {
+          "text": "you",
+          "start": 61.54,
+          "end": 61.69
+        },
+        {
+          "text": "inject",
+          "start": 61.69,
+          "end": 62.103
+        },
+        {
+          "text": "a",
+          "start": 62.103,
+          "end": 62.165
+        },
+        {
+          "text": "database",
+          "start": 62.165,
+          "end": 62.69
+        },
+        {
+          "text": "service",
+          "start": 62.69,
+          "end": 63.515
+        },
+        {
+          "text": "?",
+          "start": 63.515,
+          "end": 63.653
+        },
+        {
+          "text": "How",
+          "start": 63.653,
+          "end": 63.865
+        },
+        {
+          "text": "will",
+          "start": 63.865,
+          "end": 63.99
+        },
+        {
+          "text": "you",
+          "start": 63.99,
+          "end": 64.127
+        },
+        {
+          "text": "swap",
+          "start": 64.127,
+          "end": 64.465
+        },
+        {
+          "text": "Cosmos",
+          "start": 64.465,
+          "end": 65.015
+        },
+        {
+          "text": "for",
+          "start": 65.015,
+          "end": 65.177
+        },
+        {
+          "text": "SQL",
+          "start": 65.177,
+          "end": 65.877
+        },
+        {
+          "text": "without",
+          "start": 65.877,
+          "end": 66.215
+        },
+        {
+          "text": "rewriting",
+          "start": 66.215,
+          "end": 66.715
+        },
+        {
+          "text": "your",
+          "start": 66.715,
+          "end": 66.827
+        },
+        {
+          "text": "entire",
+          "start": 66.827,
+          "end": 67.365
+        },
+        {
+          "text": "application",
+          "start": 67.365,
+          "end": 67.99
+        },
+        {
+          "text": "layer",
+          "start": 67.99,
+          "end": 68.64
+        },
+        {
+          "text": "?",
+          "start": 68.64,
+          "end": 68.79
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "The answer: interfaces and dependency injection. It feels like ceremony at first. It saves your life when your CTO says \"move this to PostgreSQL.\"",
+      "start": 69.11,
+      "end": 79.96,
+      "words": [
+        {
+          "text": "The",
+          "start": 69.36,
+          "end": 69.498
+        },
+        {
+          "text": "answer",
+          "start": 69.498,
+          "end": 70.16
+        },
+        {
+          "text": ":",
+          "start": 70.16,
+          "end": 70.285
+        },
+        {
+          "text": "interfaces",
+          "start": 70.285,
+          "end": 71.098
+        },
+        {
+          "text": "and",
+          "start": 71.098,
+          "end": 71.222
+        },
+        {
+          "text": "dependency",
+          "start": 71.222,
+          "end": 71.86
+        },
+        {
+          "text": "injection",
+          "start": 71.86,
+          "end": 72.86
+        },
+        {
+          "text": ".",
+          "start": 72.86,
+          "end": 72.96
+        },
+        {
+          "text": "It",
+          "start": 72.96,
+          "end": 73.172
+        },
+        {
+          "text": "feels",
+          "start": 73.172,
+          "end": 73.56
+        },
+        {
+          "text": "like",
+          "start": 73.56,
+          "end": 73.798
+        },
+        {
+          "text": "ceremony",
+          "start": 73.798,
+          "end": 74.36
+        },
+        {
+          "text": "at",
+          "start": 74.36,
+          "end": 74.51
+        },
+        {
+          "text": "first",
+          "start": 74.51,
+          "end": 75.21
+        },
+        {
+          "text": ".",
+          "start": 75.21,
+          "end": 75.31
+        },
+        {
+          "text": "It",
+          "start": 75.31,
+          "end": 75.498
+        },
+        {
+          "text": "saves",
+          "start": 75.498,
+          "end": 75.847
+        },
+        {
+          "text": "your",
+          "start": 75.847,
+          "end": 75.96
+        },
+        {
+          "text": "life",
+          "start": 75.96,
+          "end": 76.272
+        },
+        {
+          "text": "when",
+          "start": 76.272,
+          "end": 76.397
+        },
+        {
+          "text": "your",
+          "start": 76.397,
+          "end": 76.548
+        },
+        {
+          "text": "CTO",
+          "start": 76.548,
+          "end": 77.172
+        },
+        {
+          "text": "says",
+          "start": 77.172,
+          "end": 77.723
+        },
+        {
+          "text": "\"",
+          "start": 77.723,
+          "end": 77.81
+        },
+        {
+          "text": "move",
+          "start": 77.81,
+          "end": 78.06
+        },
+        {
+          "text": "this",
+          "start": 78.06,
+          "end": 78.285
+        },
+        {
+          "text": "to",
+          "start": 78.285,
+          "end": 78.41
+        },
+        {
+          "text": "PostgreSQL",
+          "start": 78.41,
+          "end": 79.81
+        },
+        {
+          "text": ".",
+          "start": 79.81,
+          "end": 79.935
+        },
+        {
+          "text": "\"",
+          "start": 79.935,
+          "end": 79.96
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "We'll build a ICosmosDbService interface, then an implementation. When the time comes to migrate, you write a new implementation , your business logic doesn't change.",
+      "start": 80.28,
+      "end": 90.98,
+      "words": [
+        {
+          "text": "We'll",
+          "start": 80.53,
+          "end": 80.68
+        },
+        {
+          "text": "build",
+          "start": 80.68,
+          "end": 81.005
+        },
+        {
+          "text": "a",
+          "start": 81.005,
+          "end": 81.092
+        },
+        {
+          "text": "ICosmosDbService",
+          "start": 81.092,
+          "end": 82.668
+        },
+        {
+          "text": "interface",
+          "start": 82.668,
+          "end": 83.355
+        },
+        {
+          "text": ",",
+          "start": 83.355,
+          "end": 83.43
+        },
+        {
+          "text": "then",
+          "start": 83.43,
+          "end": 83.592
+        },
+        {
+          "text": "an",
+          "start": 83.592,
+          "end": 83.668
+        },
+        {
+          "text": "implementation",
+          "start": 83.668,
+          "end": 85.005
+        },
+        {
+          "text": ".",
+          "start": 85.005,
+          "end": 85.13
+        },
+        {
+          "text": "When",
+          "start": 85.13,
+          "end": 85.267
+        },
+        {
+          "text": "the",
+          "start": 85.267,
+          "end": 85.355
+        },
+        {
+          "text": "time",
+          "start": 85.355,
+          "end": 85.68
+        },
+        {
+          "text": "comes",
+          "start": 85.68,
+          "end": 85.955
+        },
+        {
+          "text": "to",
+          "start": 85.955,
+          "end": 86.08
+        },
+        {
+          "text": "migrate",
+          "start": 86.08,
+          "end": 86.755
+        },
+        {
+          "text": ",",
+          "start": 86.755,
+          "end": 86.855
+        },
+        {
+          "text": "you",
+          "start": 86.855,
+          "end": 87.005
+        },
+        {
+          "text": "write",
+          "start": 87.005,
+          "end": 87.23
+        },
+        {
+          "text": "a",
+          "start": 87.23,
+          "end": 87.343
+        },
+        {
+          "text": "new",
+          "start": 87.343,
+          "end": 87.517
+        },
+        {
+          "text": "implementation",
+          "start": 87.517,
+          "end": 88.667
+        },
+        {
+          "text": ",",
+          "start": 88.667,
+          "end": 88.755
+        },
+        {
+          "text": "your",
+          "start": 88.755,
+          "end": 88.942
+        },
+        {
+          "text": "business",
+          "start": 88.942,
+          "end": 89.38
+        },
+        {
+          "text": "logic",
+          "start": 89.38,
+          "end": 89.755
+        },
+        {
+          "text": "doesn't",
+          "start": 89.755,
+          "end": 90.093
+        },
+        {
+          "text": "change",
+          "start": 90.093,
+          "end": 90.805
+        },
+        {
+          "text": ".",
+          "start": 90.805,
+          "end": 90.98
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h2",
+      "text": "Getting Started",
+      "start": 91.3,
+      "end": 92.675,
+      "words": [
+        {
+          "text": "Getting",
+          "start": 91.65,
+          "end": 91.975
+        },
+        {
+          "text": "Started",
+          "start": 91.975,
+          "end": 92.675
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "You'll need an Azure Cosmos DB account (create one in the portal) and the SDK:",
+      "start": 93.17,
+      "end": 98.67,
+      "words": [
+        {
+          "text": "You'll",
+          "start": 93.445,
+          "end": 93.57
+        },
+        {
+          "text": "need",
+          "start": 93.57,
+          "end": 93.757
+        },
+        {
+          "text": "an",
+          "start": 93.757,
+          "end": 93.895
+        },
+        {
+          "text": "Azure",
+          "start": 93.895,
+          "end": 94.27
+        },
+        {
+          "text": "Cosmos",
+          "start": 94.27,
+          "end": 94.807
+        },
+        {
+          "text": "DB",
+          "start": 94.807,
+          "end": 95.17
+        },
+        {
+          "text": "account",
+          "start": 95.17,
+          "end": 95.882
+        },
+        {
+          "text": "(",
+          "start": 95.882,
+          "end": 95.97
+        },
+        {
+          "text": "create",
+          "start": 95.97,
+          "end": 96.295
+        },
+        {
+          "text": "one",
+          "start": 96.295,
+          "end": 96.482
+        },
+        {
+          "text": "in",
+          "start": 96.482,
+          "end": 96.557
+        },
+        {
+          "text": "the",
+          "start": 96.557,
+          "end": 96.645
+        },
+        {
+          "text": "portal",
+          "start": 96.645,
+          "end": 97.22
+        },
+        {
+          "text": ")",
+          "start": 97.22,
+          "end": 97.332
+        },
+        {
+          "text": "and",
+          "start": 97.332,
+          "end": 97.457
+        },
+        {
+          "text": "the",
+          "start": 97.457,
+          "end": 97.582
+        },
+        {
+          "text": "SDK",
+          "start": 97.582,
+          "end": 98.52
+        },
+        {
+          "text": ":",
+          "start": 98.52,
+          "end": 98.67
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "Then we build the service layer.",
+      "start": 98.99,
+      "end": 101.19,
+      "words": [
+        {
+          "text": "Then",
+          "start": 99.265,
+          "end": 99.515
+        },
+        {
+          "text": "we",
+          "start": 99.515,
+          "end": 99.678
+        },
+        {
+          "text": "build",
+          "start": 99.678,
+          "end": 99.953
+        },
+        {
+          "text": "the",
+          "start": 99.953,
+          "end": 100.052
+        },
+        {
+          "text": "service",
+          "start": 100.052,
+          "end": 100.44
+        },
+        {
+          "text": "layer",
+          "start": 100.44,
+          "end": 101.04
+        },
+        {
+          "text": ".",
+          "start": 101.04,
+          "end": 101.19
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h2",
+      "text": "Building the CRUD Service",
+      "start": 101.51,
+      "end": 103.185,
+      "words": [
+        {
+          "text": "Building",
+          "start": 101.785,
+          "end": 102.147
+        },
+        {
+          "text": "the",
+          "start": 102.147,
+          "end": 102.235
+        },
+        {
+          "text": "CRUD",
+          "start": 102.235,
+          "end": 102.51
+        },
+        {
+          "text": "Service",
+          "start": 102.51,
+          "end": 103.185
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "We'll create a CosmosDbService that handles Create, Read, Update, Delete. Each operation returns data cleanly , no tight coupling to Cosmos. If tomorrow your boss says \"use SQL Server,\" you swap the implementation, not the interface.",
+      "start": 103.655,
+      "end": 119.78,
+      "words": [
+        {
+          "text": "We'll",
+          "start": 103.905,
+          "end": 104.03
+        },
+        {
+          "text": "create",
+          "start": 104.03,
+          "end": 104.355
+        },
+        {
+          "text": "a",
+          "start": 104.355,
+          "end": 104.468
+        },
+        {
+          "text": "CosmosDbService",
+          "start": 104.468,
+          "end": 105.88
+        },
+        {
+          "text": "that",
+          "start": 105.88,
+          "end": 106.03
+        },
+        {
+          "text": "handles",
+          "start": 106.03,
+          "end": 106.492
+        },
+        {
+          "text": "Create",
+          "start": 106.492,
+          "end": 107.03
+        },
+        {
+          "text": ",",
+          "start": 107.03,
+          "end": 107.142
+        },
+        {
+          "text": "Read",
+          "start": 107.142,
+          "end": 107.58
+        },
+        {
+          "text": ",",
+          "start": 107.58,
+          "end": 107.68
+        },
+        {
+          "text": "Update",
+          "start": 107.68,
+          "end": 108.155
+        },
+        {
+          "text": ",",
+          "start": 108.155,
+          "end": 108.23
+        },
+        {
+          "text": "Delete",
+          "start": 108.23,
+          "end": 109.08
+        },
+        {
+          "text": ".",
+          "start": 109.08,
+          "end": 109.243
+        },
+        {
+          "text": "Each",
+          "start": 109.243,
+          "end": 109.505
+        },
+        {
+          "text": "operation",
+          "start": 109.505,
+          "end": 110.13
+        },
+        {
+          "text": "returns",
+          "start": 110.13,
+          "end": 110.63
+        },
+        {
+          "text": "data",
+          "start": 110.63,
+          "end": 110.93
+        },
+        {
+          "text": "cleanly",
+          "start": 110.93,
+          "end": 111.68
+        },
+        {
+          "text": ",",
+          "start": 111.68,
+          "end": 111.78
+        },
+        {
+          "text": "no",
+          "start": 111.78,
+          "end": 112.017
+        },
+        {
+          "text": "tight",
+          "start": 112.017,
+          "end": 112.33
+        },
+        {
+          "text": "coupling",
+          "start": 112.33,
+          "end": 112.73
+        },
+        {
+          "text": "to",
+          "start": 112.73,
+          "end": 112.83
+        },
+        {
+          "text": "Cosmos",
+          "start": 112.83,
+          "end": 113.83
+        },
+        {
+          "text": ".",
+          "start": 113.83,
+          "end": 113.955
+        },
+        {
+          "text": "If",
+          "start": 113.955,
+          "end": 114.155
+        },
+        {
+          "text": "tomorrow",
+          "start": 114.155,
+          "end": 114.568
+        },
+        {
+          "text": "your",
+          "start": 114.568,
+          "end": 114.68
+        },
+        {
+          "text": "boss",
+          "start": 114.68,
+          "end": 115.005
+        },
+        {
+          "text": "says",
+          "start": 115.005,
+          "end": 115.405
+        },
+        {
+          "text": "\"",
+          "start": 115.405,
+          "end": 115.48
+        },
+        {
+          "text": "use",
+          "start": 115.48,
+          "end": 115.717
+        },
+        {
+          "text": "SQL",
+          "start": 115.717,
+          "end": 116.092
+        },
+        {
+          "text": "Server",
+          "start": 116.092,
+          "end": 116.73
+        },
+        {
+          "text": ",",
+          "start": 116.73,
+          "end": 116.83
+        },
+        {
+          "text": "\"",
+          "start": 116.83,
+          "end": 116.88
+        },
+        {
+          "text": "you",
+          "start": 116.88,
+          "end": 117.042
+        },
+        {
+          "text": "swap",
+          "start": 117.042,
+          "end": 117.342
+        },
+        {
+          "text": "the",
+          "start": 117.342,
+          "end": 117.417
+        },
+        {
+          "text": "implementation",
+          "start": 117.417,
+          "end": 118.33
+        },
+        {
+          "text": ",",
+          "start": 118.33,
+          "end": 118.43
+        },
+        {
+          "text": "not",
+          "start": 118.43,
+          "end": 118.642
+        },
+        {
+          "text": "the",
+          "start": 118.642,
+          "end": 118.755
+        },
+        {
+          "text": "interface",
+          "start": 118.755,
+          "end": 119.63
+        },
+        {
+          "text": ".",
+          "start": 119.63,
+          "end": 119.78
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h3",
+      "text": "Initialize Cosmos Client",
+      "start": 120.1,
+      "end": 122.075,
+      "words": [
+        {
+          "text": "Initialize",
+          "start": 120.375,
+          "end": 120.925
+        },
+        {
+          "text": "Cosmos",
+          "start": 120.925,
+          "end": 121.4
+        },
+        {
+          "text": "Client",
+          "start": 121.4,
+          "end": 122.075
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h3",
+      "text": "Detailed Methods",
+      "start": 122.52,
+      "end": 124.095,
+      "words": [
+        {
+          "text": "Detailed",
+          "start": 122.87,
+          "end": 123.32
+        },
+        {
+          "text": "Methods",
+          "start": 123.32,
+          "end": 124.095
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "h4",
+      "text": "CreateItemAsync",
+      "start": 124.565,
+      "end": 126.065,
+      "words": [
+        {
+          "text": "CreateItemAsync",
+          "start": 124.89,
+          "end": 126.065
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "h4",
+      "text": "ReadItemAsync",
+      "start": 126.56,
+      "end": 128.01,
+      "words": [
+        {
+          "text": "ReadItemAsync",
+          "start": 126.935,
+          "end": 128.01
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h4",
+      "text": "UpdateItemAsync",
+      "start": 128.505,
+      "end": 130.08,
+      "words": [
+        {
+          "text": "UpdateItemAsync",
+          "start": 128.83,
+          "end": 130.08
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h4",
+      "text": "DeleteItemAsync",
+      "start": 130.575,
+      "end": 132.125,
+      "words": [
+        {
+          "text": "DeleteItemAsync",
+          "start": 130.925,
+          "end": 132.125
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "h4",
+      "text": "DeleteAllItems",
+      "start": 132.62,
+      "end": 134.145,
+      "words": [
+        {
+          "text": "DeleteAllItems",
+          "start": 132.97,
+          "end": 134.145
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h4",
+      "text": "ListDatabasesAndContainers",
+      "start": 134.615,
+      "end": 136.79,
+      "words": [
+        {
+          "text": "ListDatabasesAndContainers",
+          "start": 134.915,
+          "end": 136.79
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h4",
+      "text": "DeleteContainerAsync",
+      "start": 137.235,
+      "end": 138.96,
+      "words": [
+        {
+          "text": "DeleteContainerAsync",
+          "start": 137.535,
+          "end": 138.96
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h4",
+      "text": "DeleteDatabaseAsync",
+      "start": 139.43,
+      "end": 141.03,
+      "words": [
+        {
+          "text": "DeleteDatabaseAsync",
+          "start": 139.73,
+          "end": 141.03
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "h2",
+      "text": "The Contract (Interface)",
+      "start": 141.525,
+      "end": 143.5,
+      "words": [
+        {
+          "text": "The",
+          "start": 141.8,
+          "end": 141.875
+        },
+        {
+          "text": "Contract",
+          "start": 141.875,
+          "end": 142.475
+        },
+        {
+          "text": "(",
+          "start": 142.475,
+          "end": 142.525
+        },
+        {
+          "text": "Interface",
+          "start": 142.525,
+          "end": 143.325
+        },
+        {
+          "text": ")",
+          "start": 143.325,
+          "end": 143.5
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "Here's the contract your code will rely on. Any implementation must follow this shape.",
+      "start": 143.82,
+      "end": 149.07,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 144.095,
+          "end": 144.357
+        },
+        {
+          "text": "the",
+          "start": 144.357,
+          "end": 144.445
+        },
+        {
+          "text": "contract",
+          "start": 144.445,
+          "end": 144.932
+        },
+        {
+          "text": "your",
+          "start": 144.932,
+          "end": 145.045
+        },
+        {
+          "text": "code",
+          "start": 145.045,
+          "end": 145.395
+        },
+        {
+          "text": "will",
+          "start": 145.395,
+          "end": 145.52
+        },
+        {
+          "text": "rely",
+          "start": 145.52,
+          "end": 145.845
+        },
+        {
+          "text": "on",
+          "start": 145.845,
+          "end": 146.37
+        },
+        {
+          "text": ".",
+          "start": 146.37,
+          "end": 146.507
+        },
+        {
+          "text": "Any",
+          "start": 146.507,
+          "end": 146.757
+        },
+        {
+          "text": "implementation",
+          "start": 146.757,
+          "end": 147.57
+        },
+        {
+          "text": "must",
+          "start": 147.57,
+          "end": 147.845
+        },
+        {
+          "text": "follow",
+          "start": 147.845,
+          "end": 148.17
+        },
+        {
+          "text": "this",
+          "start": 148.17,
+          "end": 148.332
+        },
+        {
+          "text": "shape",
+          "start": 148.332,
+          "end": 148.92
+        },
+        {
+          "text": ".",
+          "start": 148.92,
+          "end": 149.07
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h2",
+      "text": "The Implementation",
+      "start": 149.39,
+      "end": 150.965,
+      "words": [
+        {
+          "text": "The",
+          "start": 149.715,
+          "end": 149.84
+        },
+        {
+          "text": "Implementation",
+          "start": 149.84,
+          "end": 150.965
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "Now we realize the interface with actual Cosmos DB calls.",
+      "start": 151.435,
+      "end": 155.785,
+      "words": [
+        {
+          "text": "Now",
+          "start": 151.76,
+          "end": 152.01
+        },
+        {
+          "text": "we",
+          "start": 152.01,
+          "end": 152.16
+        },
+        {
+          "text": "realize",
+          "start": 152.16,
+          "end": 152.572
+        },
+        {
+          "text": "the",
+          "start": 152.572,
+          "end": 152.685
+        },
+        {
+          "text": "interface",
+          "start": 152.685,
+          "end": 153.46
+        },
+        {
+          "text": "with",
+          "start": 153.46,
+          "end": 153.66
+        },
+        {
+          "text": "actual",
+          "start": 153.66,
+          "end": 154.11
+        },
+        {
+          "text": "Cosmos",
+          "start": 154.11,
+          "end": 154.635
+        },
+        {
+          "text": "DB",
+          "start": 154.635,
+          "end": 154.985
+        },
+        {
+          "text": "calls",
+          "start": 154.985,
+          "end": 155.635
+        },
+        {
+          "text": ".",
+          "start": 155.635,
+          "end": 155.785
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "h2",
+      "text": "Putting It to Use",
+      "start": 156.105,
+      "end": 157.605,
+      "words": [
+        {
+          "text": "Putting",
+          "start": 156.405,
+          "end": 156.693
+        },
+        {
+          "text": "It",
+          "start": 156.693,
+          "end": 156.805
+        },
+        {
+          "text": "to",
+          "start": 156.805,
+          "end": 156.93
+        },
+        {
+          "text": "Use",
+          "start": 156.93,
+          "end": 157.605
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "Here's what a real test looks like. Notice: you depend on the interface, not the concrete Cosmos class. When you swap implementations, this code doesn't change.",
+      "start": 158.075,
+      "end": 168.55,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 158.35,
+          "end": 158.612
+        },
+        {
+          "text": "what",
+          "start": 158.612,
+          "end": 158.737
+        },
+        {
+          "text": "a",
+          "start": 158.737,
+          "end": 158.837
+        },
+        {
+          "text": "real",
+          "start": 158.837,
+          "end": 159.125
+        },
+        {
+          "text": "test",
+          "start": 159.125,
+          "end": 159.45
+        },
+        {
+          "text": "looks",
+          "start": 159.45,
+          "end": 159.7
+        },
+        {
+          "text": "like",
+          "start": 159.7,
+          "end": 160.325
+        },
+        {
+          "text": ".",
+          "start": 160.325,
+          "end": 160.475
+        },
+        {
+          "text": "Notice",
+          "start": 160.475,
+          "end": 161.275
+        },
+        {
+          "text": ":",
+          "start": 161.275,
+          "end": 161.375
+        },
+        {
+          "text": "you",
+          "start": 161.375,
+          "end": 161.525
+        },
+        {
+          "text": "depend",
+          "start": 161.525,
+          "end": 161.888
+        },
+        {
+          "text": "on",
+          "start": 161.888,
+          "end": 161.988
+        },
+        {
+          "text": "the",
+          "start": 161.988,
+          "end": 162.075
+        },
+        {
+          "text": "interface",
+          "start": 162.075,
+          "end": 162.675
+        },
+        {
+          "text": ",",
+          "start": 162.675,
+          "end": 162.725
+        },
+        {
+          "text": "not",
+          "start": 162.725,
+          "end": 162.912
+        },
+        {
+          "text": "the",
+          "start": 162.912,
+          "end": 163.013
+        },
+        {
+          "text": "concrete",
+          "start": 163.013,
+          "end": 163.587
+        },
+        {
+          "text": "Cosmos",
+          "start": 163.587,
+          "end": 164.125
+        },
+        {
+          "text": "class",
+          "start": 164.125,
+          "end": 164.95
+        },
+        {
+          "text": ".",
+          "start": 164.95,
+          "end": 165.075
+        },
+        {
+          "text": "When",
+          "start": 165.075,
+          "end": 165.225
+        },
+        {
+          "text": "you",
+          "start": 165.225,
+          "end": 165.362
+        },
+        {
+          "text": "swap",
+          "start": 165.362,
+          "end": 165.662
+        },
+        {
+          "text": "implementations",
+          "start": 165.662,
+          "end": 166.8
+        },
+        {
+          "text": ",",
+          "start": 166.8,
+          "end": 166.9
+        },
+        {
+          "text": "this",
+          "start": 166.9,
+          "end": 167.1
+        },
+        {
+          "text": "code",
+          "start": 167.1,
+          "end": 167.4
+        },
+        {
+          "text": "doesn't",
+          "start": 167.4,
+          "end": 167.675
+        },
+        {
+          "text": "change",
+          "start": 167.675,
+          "end": 168.375
+        },
+        {
+          "text": ".",
+          "start": 168.375,
+          "end": 168.55
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h2",
+      "text": "Scaling It: Multi-Container Scenarios",
+      "start": 168.87,
+      "end": 171.695,
+      "words": [
+        {
+          "text": "Scaling",
+          "start": 169.145,
+          "end": 169.557
+        },
+        {
+          "text": "It",
+          "start": 169.557,
+          "end": 169.845
+        },
+        {
+          "text": ":",
+          "start": 169.845,
+          "end": 169.957
+        },
+        {
+          "text": "Multi-Container",
+          "start": 169.957,
+          "end": 170.77
+        },
+        {
+          "text": "Scenarios",
+          "start": 170.77,
+          "end": 171.695
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "As your app grows, you'll manage multiple databases and containers dynamically. The same interface pattern holds , just parameterize the database and container IDs.",
+      "start": 172.115,
+      "end": 183.315,
+      "words": [
+        {
+          "text": "As",
+          "start": 172.39,
+          "end": 172.553
+        },
+        {
+          "text": "your",
+          "start": 172.553,
+          "end": 172.703
+        },
+        {
+          "text": "app",
+          "start": 172.703,
+          "end": 172.94
+        },
+        {
+          "text": "grows",
+          "start": 172.94,
+          "end": 173.565
+        },
+        {
+          "text": ",",
+          "start": 173.565,
+          "end": 173.665
+        },
+        {
+          "text": "you'll",
+          "start": 173.665,
+          "end": 173.815
+        },
+        {
+          "text": "manage",
+          "start": 173.815,
+          "end": 174.265
+        },
+        {
+          "text": "multiple",
+          "start": 174.265,
+          "end": 174.765
+        },
+        {
+          "text": "databases",
+          "start": 174.765,
+          "end": 175.565
+        },
+        {
+          "text": "and",
+          "start": 175.565,
+          "end": 175.69
+        },
+        {
+          "text": "containers",
+          "start": 175.69,
+          "end": 176.315
+        },
+        {
+          "text": "dynamically",
+          "start": 176.315,
+          "end": 177.465
+        },
+        {
+          "text": ".",
+          "start": 177.465,
+          "end": 177.628
+        },
+        {
+          "text": "The",
+          "start": 177.628,
+          "end": 177.777
+        },
+        {
+          "text": "same",
+          "start": 177.777,
+          "end": 178.115
+        },
+        {
+          "text": "interface",
+          "start": 178.115,
+          "end": 178.64
+        },
+        {
+          "text": "pattern",
+          "start": 178.64,
+          "end": 179.04
+        },
+        {
+          "text": "holds",
+          "start": 179.04,
+          "end": 179.727
+        },
+        {
+          "text": ",",
+          "start": 179.727,
+          "end": 179.815
+        },
+        {
+          "text": "just",
+          "start": 179.815,
+          "end": 180.04
+        },
+        {
+          "text": "parameterize",
+          "start": 180.04,
+          "end": 180.84
+        },
+        {
+          "text": "the",
+          "start": 180.84,
+          "end": 180.94
+        },
+        {
+          "text": "database",
+          "start": 180.94,
+          "end": 181.652
+        },
+        {
+          "text": "and",
+          "start": 181.652,
+          "end": 181.79
+        },
+        {
+          "text": "container",
+          "start": 181.79,
+          "end": 182.34
+        },
+        {
+          "text": "IDs",
+          "start": 182.34,
+          "end": 183.165
+        },
+        {
+          "text": ".",
+          "start": 183.165,
+          "end": 183.315
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h2",
+      "text": "Why This Architecture Matters",
+      "start": 183.635,
+      "end": 185.66,
+      "words": [
+        {
+          "text": "Why",
+          "start": 183.935,
+          "end": 184.135
+        },
+        {
+          "text": "This",
+          "start": 184.135,
+          "end": 184.335
+        },
+        {
+          "text": "Architecture",
+          "start": 184.335,
+          "end": 184.96
+        },
+        {
+          "text": "Matters",
+          "start": 184.96,
+          "end": 185.66
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "p",
+      "text": "This isn't abstract theory. Here's what you actually get:",
+      "start": 186.105,
+      "end": 189.655,
+      "words": [
+        {
+          "text": "This",
+          "start": 186.38,
+          "end": 186.555
+        },
+        {
+          "text": "isn't",
+          "start": 186.555,
+          "end": 186.805
+        },
+        {
+          "text": "abstract",
+          "start": 186.805,
+          "end": 187.33
+        },
+        {
+          "text": "theory",
+          "start": 187.33,
+          "end": 187.83
+        },
+        {
+          "text": ".",
+          "start": 187.83,
+          "end": 187.968
+        },
+        {
+          "text": "Here's",
+          "start": 187.968,
+          "end": 188.268
+        },
+        {
+          "text": "what",
+          "start": 188.268,
+          "end": 188.393
+        },
+        {
+          "text": "you",
+          "start": 188.393,
+          "end": 188.505
+        },
+        {
+          "text": "actually",
+          "start": 188.505,
+          "end": 188.93
+        },
+        {
+          "text": "get",
+          "start": 188.93,
+          "end": 189.505
+        },
+        {
+          "text": ":",
+          "start": 189.505,
+          "end": 189.655
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "Swap databases with one file change , SQL, MongoDB, Firebase? Write a new implementation, swap it in. Your app doesn't know.",
+      "start": 189.975,
+      "end": 198.65,
+      "words": [
+        {
+          "text": "Swap",
+          "start": 190.25,
+          "end": 190.55
+        },
+        {
+          "text": "databases",
+          "start": 190.55,
+          "end": 191.275
+        },
+        {
+          "text": "with",
+          "start": 191.275,
+          "end": 191.45
+        },
+        {
+          "text": "one",
+          "start": 191.45,
+          "end": 191.687
+        },
+        {
+          "text": "file",
+          "start": 191.687,
+          "end": 192.037
+        },
+        {
+          "text": "change",
+          "start": 192.037,
+          "end": 192.6
+        },
+        {
+          "text": ",",
+          "start": 192.6,
+          "end": 192.713
+        },
+        {
+          "text": "SQL",
+          "start": 192.713,
+          "end": 193.175
+        },
+        {
+          "text": ",",
+          "start": 193.175,
+          "end": 193.25
+        },
+        {
+          "text": "MongoDB",
+          "start": 193.25,
+          "end": 193.9
+        },
+        {
+          "text": ",",
+          "start": 193.9,
+          "end": 193.95
+        },
+        {
+          "text": "Firebase",
+          "start": 193.95,
+          "end": 194.85
+        },
+        {
+          "text": "?",
+          "start": 194.85,
+          "end": 195.013
+        },
+        {
+          "text": "Write",
+          "start": 195.013,
+          "end": 195.237
+        },
+        {
+          "text": "a",
+          "start": 195.237,
+          "end": 195.3
+        },
+        {
+          "text": "new",
+          "start": 195.3,
+          "end": 195.463
+        },
+        {
+          "text": "implementation",
+          "start": 195.463,
+          "end": 196.25
+        },
+        {
+          "text": ",",
+          "start": 196.25,
+          "end": 196.312
+        },
+        {
+          "text": "swap",
+          "start": 196.312,
+          "end": 196.562
+        },
+        {
+          "text": "it",
+          "start": 196.562,
+          "end": 196.638
+        },
+        {
+          "text": "in",
+          "start": 196.638,
+          "end": 197.125
+        },
+        {
+          "text": ".",
+          "start": 197.125,
+          "end": 197.263
+        },
+        {
+          "text": "Your",
+          "start": 197.263,
+          "end": 197.45
+        },
+        {
+          "text": "app",
+          "start": 197.45,
+          "end": 197.675
+        },
+        {
+          "text": "doesn't",
+          "start": 197.675,
+          "end": 197.937
+        },
+        {
+          "text": "know",
+          "start": 197.937,
+          "end": 198.5
+        },
+        {
+          "text": ".",
+          "start": 198.5,
+          "end": 198.65
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "li",
+      "text": "Unit test without a database , Mock the interface, test your business logic in isolation.",
+      "start": 198.97,
+      "end": 205.07,
+      "words": [
+        {
+          "text": "Unit",
+          "start": 199.295,
+          "end": 199.632
+        },
+        {
+          "text": "test",
+          "start": 199.632,
+          "end": 200.02
+        },
+        {
+          "text": "without",
+          "start": 200.02,
+          "end": 200.333
+        },
+        {
+          "text": "a",
+          "start": 200.333,
+          "end": 200.395
+        },
+        {
+          "text": "database",
+          "start": 200.395,
+          "end": 201.282
+        },
+        {
+          "text": ",",
+          "start": 201.282,
+          "end": 201.37
+        },
+        {
+          "text": "Mock",
+          "start": 201.37,
+          "end": 201.582
+        },
+        {
+          "text": "the",
+          "start": 201.582,
+          "end": 201.695
+        },
+        {
+          "text": "interface",
+          "start": 201.695,
+          "end": 202.495
+        },
+        {
+          "text": ",",
+          "start": 202.495,
+          "end": 202.608
+        },
+        {
+          "text": "test",
+          "start": 202.608,
+          "end": 202.883
+        },
+        {
+          "text": "your",
+          "start": 202.883,
+          "end": 202.995
+        },
+        {
+          "text": "business",
+          "start": 202.995,
+          "end": 203.395
+        },
+        {
+          "text": "logic",
+          "start": 203.395,
+          "end": 203.795
+        },
+        {
+          "text": "in",
+          "start": 203.795,
+          "end": 203.895
+        },
+        {
+          "text": "isolation",
+          "start": 203.895,
+          "end": 204.92
+        },
+        {
+          "text": ".",
+          "start": 204.92,
+          "end": 205.07
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Avoid the \"Cosmos ghetto\" , The pattern works for any database. You're not painting yourself into a corner.",
+      "start": 205.39,
+      "end": 211.89,
+      "words": [
+        {
+          "text": "Avoid",
+          "start": 205.69,
+          "end": 206.077
+        },
+        {
+          "text": "the",
+          "start": 206.077,
+          "end": 206.19
+        },
+        {
+          "text": "\"",
+          "start": 206.19,
+          "end": 206.265
+        },
+        {
+          "text": "Cosmos",
+          "start": 206.265,
+          "end": 206.765
+        },
+        {
+          "text": "ghetto",
+          "start": 206.765,
+          "end": 207.265
+        },
+        {
+          "text": "\"",
+          "start": 207.265,
+          "end": 207.44
+        },
+        {
+          "text": ",",
+          "start": 207.44,
+          "end": 207.515
+        },
+        {
+          "text": "The",
+          "start": 207.515,
+          "end": 207.615
+        },
+        {
+          "text": "pattern",
+          "start": 207.615,
+          "end": 208.065
+        },
+        {
+          "text": "works",
+          "start": 208.065,
+          "end": 208.365
+        },
+        {
+          "text": "for",
+          "start": 208.365,
+          "end": 208.515
+        },
+        {
+          "text": "any",
+          "start": 208.515,
+          "end": 208.715
+        },
+        {
+          "text": "database",
+          "start": 208.715,
+          "end": 209.59
+        },
+        {
+          "text": ".",
+          "start": 209.59,
+          "end": 209.69
+        },
+        {
+          "text": "You're",
+          "start": 209.69,
+          "end": 209.827
+        },
+        {
+          "text": "not",
+          "start": 209.827,
+          "end": 210.015
+        },
+        {
+          "text": "painting",
+          "start": 210.015,
+          "end": 210.377
+        },
+        {
+          "text": "yourself",
+          "start": 210.377,
+          "end": 210.752
+        },
+        {
+          "text": "into",
+          "start": 210.752,
+          "end": 210.978
+        },
+        {
+          "text": "a",
+          "start": 210.978,
+          "end": 211.04
+        },
+        {
+          "text": "corner",
+          "start": 211.04,
+          "end": 211.74
+        },
+        {
+          "text": ".",
+          "start": 211.74,
+          "end": 211.89
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Split across teams , One person owns the Cosmos layer; another owns business logic. Loose coupling wins.",
+      "start": 212.21,
+      "end": 219.31,
+      "words": [
+        {
+          "text": "Split",
+          "start": 212.485,
+          "end": 212.722
+        },
+        {
+          "text": "across",
+          "start": 212.722,
+          "end": 213.06
+        },
+        {
+          "text": "teams",
+          "start": 213.06,
+          "end": 213.585
+        },
+        {
+          "text": ",",
+          "start": 213.585,
+          "end": 213.685
+        },
+        {
+          "text": "One",
+          "start": 213.685,
+          "end": 213.91
+        },
+        {
+          "text": "person",
+          "start": 213.91,
+          "end": 214.335
+        },
+        {
+          "text": "owns",
+          "start": 214.335,
+          "end": 214.572
+        },
+        {
+          "text": "the",
+          "start": 214.572,
+          "end": 214.66
+        },
+        {
+          "text": "Cosmos",
+          "start": 214.66,
+          "end": 215.16
+        },
+        {
+          "text": "layer",
+          "start": 215.16,
+          "end": 215.735
+        },
+        {
+          "text": ";",
+          "start": 215.735,
+          "end": 215.848
+        },
+        {
+          "text": "another",
+          "start": 215.848,
+          "end": 216.26
+        },
+        {
+          "text": "owns",
+          "start": 216.26,
+          "end": 216.572
+        },
+        {
+          "text": "business",
+          "start": 216.572,
+          "end": 216.985
+        },
+        {
+          "text": "logic",
+          "start": 216.985,
+          "end": 217.61
+        },
+        {
+          "text": ".",
+          "start": 217.61,
+          "end": 217.76
+        },
+        {
+          "text": "Loose",
+          "start": 217.76,
+          "end": 218.085
+        },
+        {
+          "text": "coupling",
+          "start": 218.085,
+          "end": 218.485
+        },
+        {
+          "text": "wins",
+          "start": 218.485,
+          "end": 219.16
+        },
+        {
+          "text": ".",
+          "start": 219.16,
+          "end": 219.31
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "That's SOLID in practice. The principles aren't buzzwords , they're tools that buy you flexibility.",
+      "start": 219.63,
+      "end": 225.605,
+      "words": [
+        {
+          "text": "That's",
+          "start": 219.905,
+          "end": 220.168
+        },
+        {
+          "text": "SOLID",
+          "start": 220.168,
+          "end": 220.543
+        },
+        {
+          "text": "in",
+          "start": 220.543,
+          "end": 220.63
+        },
+        {
+          "text": "practice",
+          "start": 220.63,
+          "end": 221.53
+        },
+        {
+          "text": ".",
+          "start": 221.53,
+          "end": 221.63
+        },
+        {
+          "text": "The",
+          "start": 221.63,
+          "end": 221.73
+        },
+        {
+          "text": "principles",
+          "start": 221.73,
+          "end": 222.23
+        },
+        {
+          "text": "aren't",
+          "start": 222.23,
+          "end": 222.43
+        },
+        {
+          "text": "buzzwords",
+          "start": 222.43,
+          "end": 223.205
+        },
+        {
+          "text": ",",
+          "start": 223.205,
+          "end": 223.28
+        },
+        {
+          "text": "they're",
+          "start": 223.28,
+          "end": 223.493
+        },
+        {
+          "text": "tools",
+          "start": 223.493,
+          "end": 223.868
+        },
+        {
+          "text": "that",
+          "start": 223.868,
+          "end": 224.03
+        },
+        {
+          "text": "buy",
+          "start": 224.03,
+          "end": 224.305
+        },
+        {
+          "text": "you",
+          "start": 224.305,
+          "end": 224.455
+        },
+        {
+          "text": "flexibility",
+          "start": 224.455,
+          "end": 225.48
+        },
+        {
+          "text": ".",
+          "start": 225.48,
+          "end": 225.605
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "h2",
+      "text": "Conclusion",
+      "start": 225.925,
+      "end": 227.175,
+      "words": [
+        {
+          "text": "Conclusion",
+          "start": 226.275,
+          "end": 227.175
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "Here's what I've learned the hard way: the database layer is not your application. Treat it as one input among many. An interface + implementation keeps Cosmos from bleeding into your business logic.",
+      "start": 227.695,
+      "end": 240.32,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 227.97,
+          "end": 228.258
+        },
+        {
+          "text": "what",
+          "start": 228.258,
+          "end": 228.383
+        },
+        {
+          "text": "I've",
+          "start": 228.383,
+          "end": 228.57
+        },
+        {
+          "text": "learned",
+          "start": 228.57,
+          "end": 228.832
+        },
+        {
+          "text": "the",
+          "start": 228.832,
+          "end": 228.92
+        },
+        {
+          "text": "hard",
+          "start": 228.92,
+          "end": 229.22
+        },
+        {
+          "text": "way",
+          "start": 229.22,
+          "end": 229.795
+        },
+        {
+          "text": ":",
+          "start": 229.795,
+          "end": 229.92
+        },
+        {
+          "text": "the",
+          "start": 229.92,
+          "end": 230.045
+        },
+        {
+          "text": "database",
+          "start": 230.045,
+          "end": 230.62
+        },
+        {
+          "text": "layer",
+          "start": 230.62,
+          "end": 231.058
+        },
+        {
+          "text": "is",
+          "start": 231.058,
+          "end": 231.22
+        },
+        {
+          "text": "not",
+          "start": 231.22,
+          "end": 231.445
+        },
+        {
+          "text": "your",
+          "start": 231.445,
+          "end": 231.595
+        },
+        {
+          "text": "application",
+          "start": 231.595,
+          "end": 232.695
+        },
+        {
+          "text": ".",
+          "start": 232.695,
+          "end": 232.845
+        },
+        {
+          "text": "Treat",
+          "start": 232.845,
+          "end": 233.145
+        },
+        {
+          "text": "it",
+          "start": 233.145,
+          "end": 233.295
+        },
+        {
+          "text": "as",
+          "start": 233.295,
+          "end": 233.47
+        },
+        {
+          "text": "one",
+          "start": 233.47,
+          "end": 233.77
+        },
+        {
+          "text": "input",
+          "start": 233.77,
+          "end": 234.17
+        },
+        {
+          "text": "among",
+          "start": 234.17,
+          "end": 234.445
+        },
+        {
+          "text": "many",
+          "start": 234.445,
+          "end": 235.145
+        },
+        {
+          "text": ".",
+          "start": 235.145,
+          "end": 235.308
+        },
+        {
+          "text": "An",
+          "start": 235.308,
+          "end": 235.47
+        },
+        {
+          "text": "interface",
+          "start": 235.47,
+          "end": 235.995
+        },
+        {
+          "text": "+",
+          "start": 235.995,
+          "end": 236.27
+        },
+        {
+          "text": "implementation",
+          "start": 236.27,
+          "end": 237.32
+        },
+        {
+          "text": "keeps",
+          "start": 237.32,
+          "end": 237.657
+        },
+        {
+          "text": "Cosmos",
+          "start": 237.657,
+          "end": 238.22
+        },
+        {
+          "text": "from",
+          "start": 238.22,
+          "end": 238.42
+        },
+        {
+          "text": "bleeding",
+          "start": 238.42,
+          "end": 238.808
+        },
+        {
+          "text": "into",
+          "start": 238.808,
+          "end": 239.007
+        },
+        {
+          "text": "your",
+          "start": 239.007,
+          "end": 239.12
+        },
+        {
+          "text": "business",
+          "start": 239.12,
+          "end": 239.52
+        },
+        {
+          "text": "logic",
+          "start": 239.52,
+          "end": 240.17
+        },
+        {
+          "text": ".",
+          "start": 240.17,
+          "end": 240.32
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "Start with the interface. Write the implementation second. That order saves you hours down the road.",
+      "start": 240.64,
+      "end": 246.765,
+      "words": [
+        {
+          "text": "Start",
+          "start": 240.915,
+          "end": 241.177
+        },
+        {
+          "text": "with",
+          "start": 241.177,
+          "end": 241.277
+        },
+        {
+          "text": "the",
+          "start": 241.277,
+          "end": 241.39
+        },
+        {
+          "text": "interface",
+          "start": 241.39,
+          "end": 242.24
+        },
+        {
+          "text": ".",
+          "start": 242.24,
+          "end": 242.378
+        },
+        {
+          "text": "Write",
+          "start": 242.378,
+          "end": 242.602
+        },
+        {
+          "text": "the",
+          "start": 242.602,
+          "end": 242.678
+        },
+        {
+          "text": "implementation",
+          "start": 242.678,
+          "end": 243.503
+        },
+        {
+          "text": "second",
+          "start": 243.503,
+          "end": 244.14
+        },
+        {
+          "text": ".",
+          "start": 244.14,
+          "end": 244.253
+        },
+        {
+          "text": "That",
+          "start": 244.253,
+          "end": 244.49
+        },
+        {
+          "text": "order",
+          "start": 244.49,
+          "end": 244.827
+        },
+        {
+          "text": "saves",
+          "start": 244.827,
+          "end": 245.19
+        },
+        {
+          "text": "you",
+          "start": 245.19,
+          "end": 245.353
+        },
+        {
+          "text": "hours",
+          "start": 245.353,
+          "end": 245.74
+        },
+        {
+          "text": "down",
+          "start": 245.74,
+          "end": 245.927
+        },
+        {
+          "text": "the",
+          "start": 245.927,
+          "end": 246.015
+        },
+        {
+          "text": "road",
+          "start": 246.015,
+          "end": 246.615
+        },
+        {
+          "text": ".",
+          "start": 246.615,
+          "end": 246.765
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "p",
+      "text": "When your CTO calls and says \"we're moving to PostgreSQL\" (they always do), you'll have one file to rewrite instead of forty.",
+      "start": 247.085,
+      "end": 255.51,
+      "words": [
+        {
+          "text": "When",
+          "start": 247.335,
+          "end": 247.447
+        },
+        {
+          "text": "your",
+          "start": 247.447,
+          "end": 247.597
+        },
+        {
+          "text": "CTO",
+          "start": 247.597,
+          "end": 248.185
+        },
+        {
+          "text": "calls",
+          "start": 248.185,
+          "end": 248.585
+        },
+        {
+          "text": "and",
+          "start": 248.585,
+          "end": 248.722
+        },
+        {
+          "text": "says",
+          "start": 248.722,
+          "end": 249.347
+        },
+        {
+          "text": "\"",
+          "start": 249.347,
+          "end": 249.41
+        },
+        {
+          "text": "we're",
+          "start": 249.41,
+          "end": 249.56
+        },
+        {
+          "text": "moving",
+          "start": 249.56,
+          "end": 249.91
+        },
+        {
+          "text": "to",
+          "start": 249.91,
+          "end": 250.035
+        },
+        {
+          "text": "PostgreSQL",
+          "start": 250.035,
+          "end": 251.435
+        },
+        {
+          "text": "\"",
+          "start": 251.435,
+          "end": 251.56
+        },
+        {
+          "text": "(",
+          "start": 251.56,
+          "end": 251.635
+        },
+        {
+          "text": "they",
+          "start": 251.635,
+          "end": 251.772
+        },
+        {
+          "text": "always",
+          "start": 251.772,
+          "end": 252.185
+        },
+        {
+          "text": "do",
+          "start": 252.185,
+          "end": 252.51
+        },
+        {
+          "text": ")",
+          "start": 252.51,
+          "end": 252.685
+        },
+        {
+          "text": ",",
+          "start": 252.685,
+          "end": 252.76
+        },
+        {
+          "text": "you'll",
+          "start": 252.76,
+          "end": 252.885
+        },
+        {
+          "text": "have",
+          "start": 252.885,
+          "end": 253.097
+        },
+        {
+          "text": "one",
+          "start": 253.097,
+          "end": 253.347
+        },
+        {
+          "text": "file",
+          "start": 253.347,
+          "end": 253.66
+        },
+        {
+          "text": "to",
+          "start": 253.66,
+          "end": 253.785
+        },
+        {
+          "text": "rewrite",
+          "start": 253.785,
+          "end": 254.235
+        },
+        {
+          "text": "instead",
+          "start": 254.235,
+          "end": 254.572
+        },
+        {
+          "text": "of",
+          "start": 254.572,
+          "end": 254.66
+        },
+        {
+          "text": "forty",
+          "start": 254.66,
+          "end": 255.36
+        },
+        {
+          "text": ".",
+          "start": 255.36,
+          "end": 255.51
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 255.83,
+      "end": 257.655,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 256.13,
+          "end": 256.63
+        },
+        {
+          "text": "and",
+          "start": 256.63,
+          "end": 256.755
+        },
+        {
+          "text": "Further",
+          "start": 256.755,
+          "end": 257.03
+        },
+        {
+          "text": "Reading",
+          "start": 257.03,
+          "end": 257.655
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "Azure Cosmos DB , .NET SDK quickstart",
+      "start": 258.1,
+      "end": 261.625,
+      "words": [
+        {
+          "text": "Azure",
+          "start": 258.4,
+          "end": 258.7
+        },
+        {
+          "text": "Cosmos",
+          "start": 258.7,
+          "end": 259.2
+        },
+        {
+          "text": "DB",
+          "start": 259.2,
+          "end": 259.825
+        },
+        {
+          "text": ",",
+          "start": 259.825,
+          "end": 259.925
+        },
+        {
+          "text": ".NET",
+          "start": 259.925,
+          "end": 260.325
+        },
+        {
+          "text": "SDK",
+          "start": 260.325,
+          "end": 260.825
+        },
+        {
+          "text": "quickstart",
+          "start": 260.825,
+          "end": 261.625
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Cosmos DB CRUD with .NET",
+      "start": 262.07,
+      "end": 264.17,
+      "words": [
+        {
+          "text": "Cosmos",
+          "start": 262.345,
+          "end": 262.845
+        },
+        {
+          "text": "DB",
+          "start": 262.845,
+          "end": 263.17
+        },
+        {
+          "text": "CRUD",
+          "start": 263.17,
+          "end": 263.432
+        },
+        {
+          "text": "with",
+          "start": 263.432,
+          "end": 263.582
+        },
+        {
+          "text": ".",
+          "start": 263.582,
+          "end": 263.645
+        },
+        {
+          "text": "NET",
+          "start": 263.645,
+          "end": 264.17
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "SOLID principles , Microsoft architecture guidance",
+      "start": 264.615,
+      "end": 268.24,
+      "words": [
+        {
+          "text": "SOLID",
+          "start": 264.94,
+          "end": 265.29
+        },
+        {
+          "text": "principles",
+          "start": 265.29,
+          "end": 266.103
+        },
+        {
+          "text": ",",
+          "start": 266.103,
+          "end": 266.215
+        },
+        {
+          "text": "Microsoft",
+          "start": 266.215,
+          "end": 266.865
+        },
+        {
+          "text": "architecture",
+          "start": 266.865,
+          "end": 267.465
+        },
+        {
+          "text": "guidance",
+          "start": 267.465,
+          "end": 268.24
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Partition keys , Cosmos DB design",
+      "start": 268.685,
+      "end": 271.635,
+      "words": [
+        {
+          "text": "Partition",
+          "start": 268.935,
+          "end": 269.385
+        },
+        {
+          "text": "keys",
+          "start": 269.385,
+          "end": 269.947
+        },
+        {
+          "text": ",",
+          "start": 269.947,
+          "end": 270.035
+        },
+        {
+          "text": "Cosmos",
+          "start": 270.035,
+          "end": 270.535
+        },
+        {
+          "text": "DB",
+          "start": 270.535,
+          "end": 270.91
+        },
+        {
+          "text": "design",
+          "start": 270.91,
+          "end": 271.635
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "p",
+      "text": "See also: Mastering E2E Testing with C# Playwright (Jul 2024) , UI + API + database assertions in one test; this post covers the Cosmos side of that triangle.",
+      "start": 272.105,
+      "end": 285.405,
+      "words": [
+        {
+          "text": "See",
+          "start": 272.38,
+          "end": 272.53
+        },
+        {
+          "text": "also",
+          "start": 272.53,
+          "end": 273.18
+        },
+        {
+          "text": ":",
+          "start": 273.18,
+          "end": 273.318
+        },
+        {
+          "text": "Mastering",
+          "start": 273.318,
+          "end": 273.868
+        },
+        {
+          "text": "E",
+          "start": 273.868,
+          "end": 274.03
+        },
+        {
+          "text": "2",
+          "start": 274.03,
+          "end": 274.155
+        },
+        {
+          "text": "E",
+          "start": 274.155,
+          "end": 274.28
+        },
+        {
+          "text": "Testing",
+          "start": 274.28,
+          "end": 274.755
+        },
+        {
+          "text": "with",
+          "start": 274.755,
+          "end": 274.943
+        },
+        {
+          "text": "C#",
+          "start": 274.943,
+          "end": 275.505
+        },
+        {
+          "text": "Playwright",
+          "start": 275.505,
+          "end": 276.267
+        },
+        {
+          "text": "(",
+          "start": 276.267,
+          "end": 276.355
+        },
+        {
+          "text": "Jul",
+          "start": 276.355,
+          "end": 276.605
+        },
+        {
+          "text": "2024",
+          "start": 276.605,
+          "end": 277.63
+        },
+        {
+          "text": ")",
+          "start": 277.63,
+          "end": 277.805
+        },
+        {
+          "text": ",",
+          "start": 277.805,
+          "end": 277.892
+        },
+        {
+          "text": "UI",
+          "start": 277.892,
+          "end": 278.33
+        },
+        {
+          "text": "+",
+          "start": 278.33,
+          "end": 278.642
+        },
+        {
+          "text": "API",
+          "start": 278.642,
+          "end": 279.33
+        },
+        {
+          "text": "+",
+          "start": 279.33,
+          "end": 279.605
+        },
+        {
+          "text": "database",
+          "start": 279.605,
+          "end": 280.155
+        },
+        {
+          "text": "assertions",
+          "start": 280.155,
+          "end": 280.78
+        },
+        {
+          "text": "in",
+          "start": 280.78,
+          "end": 280.93
+        },
+        {
+          "text": "one",
+          "start": 280.93,
+          "end": 281.155
+        },
+        {
+          "text": "test",
+          "start": 281.155,
+          "end": 281.905
+        },
+        {
+          "text": ";",
+          "start": 281.905,
+          "end": 282.042
+        },
+        {
+          "text": "this",
+          "start": 282.042,
+          "end": 282.267
+        },
+        {
+          "text": "post",
+          "start": 282.267,
+          "end": 282.705
+        },
+        {
+          "text": "covers",
+          "start": 282.705,
+          "end": 283.08
+        },
+        {
+          "text": "the",
+          "start": 283.08,
+          "end": 283.193
+        },
+        {
+          "text": "Cosmos",
+          "start": 283.193,
+          "end": 283.767
+        },
+        {
+          "text": "side",
+          "start": 283.767,
+          "end": 284.093
+        },
+        {
+          "text": "of",
+          "start": 284.093,
+          "end": 284.18
+        },
+        {
+          "text": "that",
+          "start": 284.18,
+          "end": 284.405
+        },
+        {
+          "text": "triangle",
+          "start": 284.405,
+          "end": 285.255
+        },
+        {
+          "text": ".",
+          "start": 285.255,
+          "end": 285.405
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

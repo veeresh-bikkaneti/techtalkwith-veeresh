@@ -1,0 +1,4936 @@
+{
+  "slug": "handling-html-encoded-strings-in-csharp-net-8-playwright",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 358.325,
+  "contentHash": "4c54d9beba5aa6b8f2e6634a95716857208f13dc336ce69304998342ebca747b",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Handling HTML Encoded Strings in C# .NET 8.0 with Microsoft Playwright",
+      "start": 0.0,
+      "end": 5.25,
+      "words": [
+        {
+          "text": "Handling",
+          "start": 0.25,
+          "end": 0.65
+        },
+        {
+          "text": "HTML",
+          "start": 0.65,
+          "end": 1.562
+        },
+        {
+          "text": "Encoded",
+          "start": 1.562,
+          "end": 2.075
+        },
+        {
+          "text": "Strings",
+          "start": 2.075,
+          "end": 2.5
+        },
+        {
+          "text": "in",
+          "start": 2.5,
+          "end": 2.663
+        },
+        {
+          "text": "C#",
+          "start": 2.663,
+          "end": 3.175
+        },
+        {
+          "text": ".NET",
+          "start": 3.175,
+          "end": 3.375
+        },
+        {
+          "text": "8.0",
+          "start": 3.375,
+          "end": 3.587
+        },
+        {
+          "text": "with",
+          "start": 3.587,
+          "end": 3.75
+        },
+        {
+          "text": "Microsoft",
+          "start": 3.75,
+          "end": 4.3
+        },
+        {
+          "text": "Playwright",
+          "start": 4.3,
+          "end": 5.25
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h3",
+      "text": "The Bug That Wasted My Day",
+      "start": 5.745,
+      "end": 7.945,
+      "words": [
+        {
+          "text": "The",
+          "start": 5.97,
+          "end": 6.07
+        },
+        {
+          "text": "Bug",
+          "start": 6.07,
+          "end": 6.37
+        },
+        {
+          "text": "That",
+          "start": 6.37,
+          "end": 6.52
+        },
+        {
+          "text": "Wasted",
+          "start": 6.52,
+          "end": 6.995
+        },
+        {
+          "text": "My",
+          "start": 6.995,
+          "end": 7.195
+        },
+        {
+          "text": "Day",
+          "start": 7.195,
+          "end": 7.945
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "You're debugging a test. Playwright finds the text you're looking for. You assert it matches a JSON baseline. The assertion fails. You look at the HTML in DevTools , the text is right there, character for character.",
+      "start": 8.465,
+      "end": 21.59,
+      "words": [
+        {
+          "text": "You're",
+          "start": 8.74,
+          "end": 8.865
+        },
+        {
+          "text": "debugging",
+          "start": 8.865,
+          "end": 9.328
+        },
+        {
+          "text": "a",
+          "start": 9.328,
+          "end": 9.39
+        },
+        {
+          "text": "test",
+          "start": 9.39,
+          "end": 10.215
+        },
+        {
+          "text": ".",
+          "start": 10.215,
+          "end": 10.328
+        },
+        {
+          "text": "Playwright",
+          "start": 10.328,
+          "end": 10.74
+        },
+        {
+          "text": "finds",
+          "start": 10.74,
+          "end": 11.003
+        },
+        {
+          "text": "the",
+          "start": 11.003,
+          "end": 11.09
+        },
+        {
+          "text": "text",
+          "start": 11.09,
+          "end": 11.403
+        },
+        {
+          "text": "you're",
+          "start": 11.403,
+          "end": 11.515
+        },
+        {
+          "text": "looking",
+          "start": 11.515,
+          "end": 11.84
+        },
+        {
+          "text": "for",
+          "start": 11.84,
+          "end": 12.29
+        },
+        {
+          "text": ".",
+          "start": 12.29,
+          "end": 12.39
+        },
+        {
+          "text": "You",
+          "start": 12.39,
+          "end": 12.528
+        },
+        {
+          "text": "assert",
+          "start": 12.528,
+          "end": 12.828
+        },
+        {
+          "text": "it",
+          "start": 12.828,
+          "end": 12.915
+        },
+        {
+          "text": "matches",
+          "start": 12.915,
+          "end": 13.29
+        },
+        {
+          "text": "a",
+          "start": 13.29,
+          "end": 13.365
+        },
+        {
+          "text": "JSON",
+          "start": 13.365,
+          "end": 14.04
+        },
+        {
+          "text": "baseline",
+          "start": 14.04,
+          "end": 14.89
+        },
+        {
+          "text": ".",
+          "start": 14.89,
+          "end": 14.99
+        },
+        {
+          "text": "The",
+          "start": 14.99,
+          "end": 15.115
+        },
+        {
+          "text": "assertion",
+          "start": 15.115,
+          "end": 15.653
+        },
+        {
+          "text": "fails",
+          "start": 15.653,
+          "end": 16.465
+        },
+        {
+          "text": ".",
+          "start": 16.465,
+          "end": 16.565
+        },
+        {
+          "text": "You",
+          "start": 16.565,
+          "end": 16.703
+        },
+        {
+          "text": "look",
+          "start": 16.703,
+          "end": 16.852
+        },
+        {
+          "text": "at",
+          "start": 16.852,
+          "end": 16.928
+        },
+        {
+          "text": "the",
+          "start": 16.928,
+          "end": 17.04
+        },
+        {
+          "text": "HTML",
+          "start": 17.04,
+          "end": 17.84
+        },
+        {
+          "text": "in",
+          "start": 17.84,
+          "end": 17.99
+        },
+        {
+          "text": "DevTools",
+          "start": 17.99,
+          "end": 18.678
+        },
+        {
+          "text": ",",
+          "start": 18.678,
+          "end": 18.727
+        },
+        {
+          "text": "the",
+          "start": 18.727,
+          "end": 18.815
+        },
+        {
+          "text": "text",
+          "start": 18.815,
+          "end": 19.153
+        },
+        {
+          "text": "is",
+          "start": 19.153,
+          "end": 19.265
+        },
+        {
+          "text": "right",
+          "start": 19.265,
+          "end": 19.54
+        },
+        {
+          "text": "there",
+          "start": 19.54,
+          "end": 19.74
+        },
+        {
+          "text": ",",
+          "start": 19.74,
+          "end": 19.79
+        },
+        {
+          "text": "character",
+          "start": 19.79,
+          "end": 20.24
+        },
+        {
+          "text": "for",
+          "start": 20.24,
+          "end": 20.365
+        },
+        {
+          "text": "character",
+          "start": 20.365,
+          "end": 21.365
+        },
+        {
+          "text": ".",
+          "start": 21.365,
+          "end": 21.59
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "You're not losing your mind. It's HTML encoding.",
+      "start": 21.91,
+      "end": 25.76,
+      "words": [
+        {
+          "text": "You're",
+          "start": 22.16,
+          "end": 22.273
+        },
+        {
+          "text": "not",
+          "start": 22.273,
+          "end": 22.46
+        },
+        {
+          "text": "losing",
+          "start": 22.46,
+          "end": 22.773
+        },
+        {
+          "text": "your",
+          "start": 22.773,
+          "end": 22.885
+        },
+        {
+          "text": "mind",
+          "start": 22.885,
+          "end": 23.46
+        },
+        {
+          "text": ".",
+          "start": 23.46,
+          "end": 23.56
+        },
+        {
+          "text": "It's",
+          "start": 23.56,
+          "end": 23.785
+        },
+        {
+          "text": "HTML",
+          "start": 23.785,
+          "end": 24.535
+        },
+        {
+          "text": "encoding",
+          "start": 24.535,
+          "end": 25.585
+        },
+        {
+          "text": ".",
+          "start": 25.585,
+          "end": 25.76
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "The browser renders and lt;p and gt;Hello and lt;/p and gt; as Hello on screen. Playwright reads the DOM and hands you the literal string and lt;p and gt;Hello and lt;/p and gt;. Your JSON has Hello . They look the same to a human. To an Assert.AreEqual(), they're night and day.",
+      "start": 26.08,
+      "end": 43.63,
+      "words": [
+        {
+          "text": "The",
+          "start": 26.33,
+          "end": 26.405
+        },
+        {
+          "text": "browser",
+          "start": 26.405,
+          "end": 26.78
+        },
+        {
+          "text": "renders",
+          "start": 26.78,
+          "end": 27.23
+        },
+        {
+          "text": "and",
+          "start": 27.23,
+          "end": 27.355
+        },
+        {
+          "text": "lt;p",
+          "start": 27.355,
+          "end": 28.118
+        },
+        {
+          "text": "and",
+          "start": 28.118,
+          "end": 28.23
+        },
+        {
+          "text": "gt;Hello",
+          "start": 28.23,
+          "end": 28.993
+        },
+        {
+          "text": "and",
+          "start": 28.993,
+          "end": 29.093
+        },
+        {
+          "text": "lt;/p",
+          "start": 29.093,
+          "end": 29.968
+        },
+        {
+          "text": "and",
+          "start": 29.968,
+          "end": 30.08
+        },
+        {
+          "text": "gt",
+          "start": 30.08,
+          "end": 30.48
+        },
+        {
+          "text": ";",
+          "start": 30.48,
+          "end": 30.53
+        },
+        {
+          "text": "as",
+          "start": 30.53,
+          "end": 30.642
+        },
+        {
+          "text": "Hello",
+          "start": 30.642,
+          "end": 30.918
+        },
+        {
+          "text": "on",
+          "start": 30.918,
+          "end": 31.08
+        },
+        {
+          "text": "screen",
+          "start": 31.08,
+          "end": 32.005
+        },
+        {
+          "text": ".",
+          "start": 32.005,
+          "end": 32.168
+        },
+        {
+          "text": "Playwright",
+          "start": 32.168,
+          "end": 32.58
+        },
+        {
+          "text": "reads",
+          "start": 32.58,
+          "end": 32.843
+        },
+        {
+          "text": "the",
+          "start": 32.843,
+          "end": 32.93
+        },
+        {
+          "text": "DOM",
+          "start": 32.93,
+          "end": 33.192
+        },
+        {
+          "text": "and",
+          "start": 33.192,
+          "end": 33.305
+        },
+        {
+          "text": "hands",
+          "start": 33.305,
+          "end": 33.543
+        },
+        {
+          "text": "you",
+          "start": 33.543,
+          "end": 33.642
+        },
+        {
+          "text": "the",
+          "start": 33.642,
+          "end": 33.73
+        },
+        {
+          "text": "literal",
+          "start": 33.73,
+          "end": 34.08
+        },
+        {
+          "text": "string",
+          "start": 34.08,
+          "end": 34.392
+        },
+        {
+          "text": "and",
+          "start": 34.392,
+          "end": 34.505
+        },
+        {
+          "text": "lt;p",
+          "start": 34.505,
+          "end": 35.193
+        },
+        {
+          "text": "and",
+          "start": 35.193,
+          "end": 35.305
+        },
+        {
+          "text": "gt;Hello",
+          "start": 35.305,
+          "end": 35.992
+        },
+        {
+          "text": "and",
+          "start": 35.992,
+          "end": 36.092
+        },
+        {
+          "text": "lt;/p",
+          "start": 36.092,
+          "end": 36.943
+        },
+        {
+          "text": "and",
+          "start": 36.943,
+          "end": 37.055
+        },
+        {
+          "text": "gt",
+          "start": 37.055,
+          "end": 37.855
+        },
+        {
+          "text": ";",
+          "start": 37.855,
+          "end": 37.905
+        },
+        {
+          "text": ".",
+          "start": 37.905,
+          "end": 37.955
+        },
+        {
+          "text": "Your",
+          "start": 37.955,
+          "end": 38.105
+        },
+        {
+          "text": "JSON",
+          "start": 38.105,
+          "end": 38.755
+        },
+        {
+          "text": "has",
+          "start": 38.755,
+          "end": 38.905
+        },
+        {
+          "text": "Hello",
+          "start": 38.905,
+          "end": 39.268
+        },
+        {
+          "text": ".",
+          "start": 39.268,
+          "end": 39.318
+        },
+        {
+          "text": "They",
+          "start": 39.318,
+          "end": 39.43
+        },
+        {
+          "text": "look",
+          "start": 39.43,
+          "end": 39.592
+        },
+        {
+          "text": "the",
+          "start": 39.592,
+          "end": 39.68
+        },
+        {
+          "text": "same",
+          "start": 39.68,
+          "end": 39.955
+        },
+        {
+          "text": "to",
+          "start": 39.955,
+          "end": 40.043
+        },
+        {
+          "text": "a",
+          "start": 40.043,
+          "end": 40.105
+        },
+        {
+          "text": "human",
+          "start": 40.105,
+          "end": 40.73
+        },
+        {
+          "text": ".",
+          "start": 40.73,
+          "end": 40.805
+        },
+        {
+          "text": "To",
+          "start": 40.805,
+          "end": 40.892
+        },
+        {
+          "text": "an",
+          "start": 40.892,
+          "end": 40.967
+        },
+        {
+          "text": "Assert",
+          "start": 40.967,
+          "end": 41.455
+        },
+        {
+          "text": ".",
+          "start": 41.455,
+          "end": 41.53
+        },
+        {
+          "text": "AreEqual",
+          "start": 41.53,
+          "end": 42.055
+        },
+        {
+          "text": "(",
+          "start": 42.055,
+          "end": 42.08
+        },
+        {
+          "text": ")",
+          "start": 42.08,
+          "end": 42.105
+        },
+        {
+          "text": ",",
+          "start": 42.105,
+          "end": 42.142
+        },
+        {
+          "text": "they're",
+          "start": 42.142,
+          "end": 42.28
+        },
+        {
+          "text": "night",
+          "start": 42.28,
+          "end": 42.542
+        },
+        {
+          "text": "and",
+          "start": 42.542,
+          "end": 42.655
+        },
+        {
+          "text": "day",
+          "start": 42.655,
+          "end": 43.43
+        },
+        {
+          "text": ".",
+          "start": 43.43,
+          "end": 43.63
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "This is the post I wish I'd found at 2am instead of learning it the hard way.",
+      "start": 43.95,
+      "end": 48.6,
+      "words": [
+        {
+          "text": "This",
+          "start": 44.2,
+          "end": 44.4
+        },
+        {
+          "text": "is",
+          "start": 44.4,
+          "end": 44.537
+        },
+        {
+          "text": "the",
+          "start": 44.537,
+          "end": 44.625
+        },
+        {
+          "text": "post",
+          "start": 44.625,
+          "end": 44.937
+        },
+        {
+          "text": "I",
+          "start": 44.937,
+          "end": 45.075
+        },
+        {
+          "text": "wish",
+          "start": 45.075,
+          "end": 45.262
+        },
+        {
+          "text": "I'd",
+          "start": 45.262,
+          "end": 45.45
+        },
+        {
+          "text": "found",
+          "start": 45.45,
+          "end": 45.712
+        },
+        {
+          "text": "at",
+          "start": 45.712,
+          "end": 45.812
+        },
+        {
+          "text": "2am",
+          "start": 45.812,
+          "end": 46.375
+        },
+        {
+          "text": "instead",
+          "start": 46.375,
+          "end": 46.737
+        },
+        {
+          "text": "of",
+          "start": 46.737,
+          "end": 46.825
+        },
+        {
+          "text": "learning",
+          "start": 46.825,
+          "end": 47.125
+        },
+        {
+          "text": "it",
+          "start": 47.125,
+          "end": 47.25
+        },
+        {
+          "text": "the",
+          "start": 47.25,
+          "end": 47.35
+        },
+        {
+          "text": "hard",
+          "start": 47.35,
+          "end": 47.65
+        },
+        {
+          "text": "way",
+          "start": 47.65,
+          "end": 48.425
+        },
+        {
+          "text": ".",
+          "start": 48.425,
+          "end": 48.6
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "h3",
+      "text": "The Real-World Scenarios (Why This Matters)",
+      "start": 48.92,
+      "end": 52.22,
+      "words": [
+        {
+          "text": "The",
+          "start": 49.17,
+          "end": 49.27
+        },
+        {
+          "text": "Real-World",
+          "start": 49.27,
+          "end": 49.895
+        },
+        {
+          "text": "Scenarios",
+          "start": 49.895,
+          "end": 50.62
+        },
+        {
+          "text": "(",
+          "start": 50.62,
+          "end": 50.695
+        },
+        {
+          "text": "Why",
+          "start": 50.695,
+          "end": 50.857
+        },
+        {
+          "text": "This",
+          "start": 50.857,
+          "end": 51.045
+        },
+        {
+          "text": "Matters",
+          "start": 51.045,
+          "end": 52.045
+        },
+        {
+          "text": ")",
+          "start": 52.045,
+          "end": 52.22
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "1. E-commerce product comparison , You're testing that product descriptions on the website match the database. The DB has \"High-quality widget and trade;\". Playwright reads \"High-quality widget ™\" from the DOM. Without decoding, the test fails even though the user sees the exact same text.",
+      "start": 52.54,
+      "end": 69.84,
+      "words": [
+        {
+          "text": "1.",
+          "start": 52.815,
+          "end": 53.04
+        },
+        {
+          "text": "E-commerce",
+          "start": 53.04,
+          "end": 53.59
+        },
+        {
+          "text": "product",
+          "start": 53.59,
+          "end": 53.94
+        },
+        {
+          "text": "comparison",
+          "start": 53.94,
+          "end": 54.765
+        },
+        {
+          "text": ",",
+          "start": 54.765,
+          "end": 54.84
+        },
+        {
+          "text": "You're",
+          "start": 54.84,
+          "end": 54.99
+        },
+        {
+          "text": "testing",
+          "start": 54.99,
+          "end": 55.352
+        },
+        {
+          "text": "that",
+          "start": 55.352,
+          "end": 55.49
+        },
+        {
+          "text": "product",
+          "start": 55.49,
+          "end": 55.852
+        },
+        {
+          "text": "descriptions",
+          "start": 55.852,
+          "end": 56.402
+        },
+        {
+          "text": "on",
+          "start": 56.402,
+          "end": 56.502
+        },
+        {
+          "text": "the",
+          "start": 56.502,
+          "end": 56.59
+        },
+        {
+          "text": "website",
+          "start": 56.59,
+          "end": 57.065
+        },
+        {
+          "text": "match",
+          "start": 57.065,
+          "end": 57.315
+        },
+        {
+          "text": "the",
+          "start": 57.315,
+          "end": 57.415
+        },
+        {
+          "text": "database",
+          "start": 57.415,
+          "end": 58.515
+        },
+        {
+          "text": ".",
+          "start": 58.515,
+          "end": 58.615
+        },
+        {
+          "text": "The",
+          "start": 58.615,
+          "end": 58.715
+        },
+        {
+          "text": "DB",
+          "start": 58.715,
+          "end": 59.09
+        },
+        {
+          "text": "has",
+          "start": 59.09,
+          "end": 59.277
+        },
+        {
+          "text": "\"",
+          "start": 59.277,
+          "end": 59.315
+        },
+        {
+          "text": "High-quality",
+          "start": 59.315,
+          "end": 59.89
+        },
+        {
+          "text": "widget",
+          "start": 59.89,
+          "end": 60.177
+        },
+        {
+          "text": "and",
+          "start": 60.177,
+          "end": 60.29
+        },
+        {
+          "text": "trade",
+          "start": 60.29,
+          "end": 60.965
+        },
+        {
+          "text": ";",
+          "start": 60.965,
+          "end": 61.015
+        },
+        {
+          "text": "\"",
+          "start": 61.015,
+          "end": 61.04
+        },
+        {
+          "text": ".",
+          "start": 61.04,
+          "end": 61.09
+        },
+        {
+          "text": "Playwright",
+          "start": 61.09,
+          "end": 61.49
+        },
+        {
+          "text": "reads",
+          "start": 61.49,
+          "end": 62.077
+        },
+        {
+          "text": "\"",
+          "start": 62.077,
+          "end": 62.165
+        },
+        {
+          "text": "High-quality",
+          "start": 62.165,
+          "end": 62.79
+        },
+        {
+          "text": "widget",
+          "start": 62.79,
+          "end": 63.127
+        },
+        {
+          "text": "™",
+          "start": 63.127,
+          "end": 63.64
+        },
+        {
+          "text": "\"",
+          "start": 63.64,
+          "end": 63.69
+        },
+        {
+          "text": "from",
+          "start": 63.69,
+          "end": 63.852
+        },
+        {
+          "text": "the",
+          "start": 63.852,
+          "end": 63.94
+        },
+        {
+          "text": "DOM",
+          "start": 63.94,
+          "end": 64.74
+        },
+        {
+          "text": ".",
+          "start": 64.74,
+          "end": 64.84
+        },
+        {
+          "text": "Without",
+          "start": 64.84,
+          "end": 65.19
+        },
+        {
+          "text": "decoding",
+          "start": 65.19,
+          "end": 65.715
+        },
+        {
+          "text": ",",
+          "start": 65.715,
+          "end": 65.752
+        },
+        {
+          "text": "the",
+          "start": 65.752,
+          "end": 65.84
+        },
+        {
+          "text": "test",
+          "start": 65.84,
+          "end": 66.19
+        },
+        {
+          "text": "fails",
+          "start": 66.19,
+          "end": 66.627
+        },
+        {
+          "text": "even",
+          "start": 66.627,
+          "end": 66.94
+        },
+        {
+          "text": "though",
+          "start": 66.94,
+          "end": 67.115
+        },
+        {
+          "text": "the",
+          "start": 67.115,
+          "end": 67.215
+        },
+        {
+          "text": "user",
+          "start": 67.215,
+          "end": 67.527
+        },
+        {
+          "text": "sees",
+          "start": 67.527,
+          "end": 67.827
+        },
+        {
+          "text": "the",
+          "start": 67.827,
+          "end": 67.965
+        },
+        {
+          "text": "exact",
+          "start": 67.965,
+          "end": 68.415
+        },
+        {
+          "text": "same",
+          "start": 68.415,
+          "end": 68.715
+        },
+        {
+          "text": "text",
+          "start": 68.715,
+          "end": 69.64
+        },
+        {
+          "text": ".",
+          "start": 69.64,
+          "end": 69.84
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "2. Content management systems , A CMS editor stores \" Hello \" in the DB. The HTML rendered on screen looks perfect. Your test extracts the text and gets \" Hello \" literally. Without decoding and stripping tags, you're comparing metadata, not content.",
+      "start": 70.16,
+      "end": 85.985,
+      "words": [
+        {
+          "text": "2.",
+          "start": 70.435,
+          "end": 70.61
+        },
+        {
+          "text": "Content",
+          "start": 70.61,
+          "end": 71.01
+        },
+        {
+          "text": "management",
+          "start": 71.01,
+          "end": 71.46
+        },
+        {
+          "text": "systems",
+          "start": 71.46,
+          "end": 72.11
+        },
+        {
+          "text": ",",
+          "start": 72.11,
+          "end": 72.185
+        },
+        {
+          "text": "A",
+          "start": 72.185,
+          "end": 72.298
+        },
+        {
+          "text": "CMS",
+          "start": 72.298,
+          "end": 72.835
+        },
+        {
+          "text": "editor",
+          "start": 72.835,
+          "end": 73.21
+        },
+        {
+          "text": "stores",
+          "start": 73.21,
+          "end": 73.522
+        },
+        {
+          "text": "\"",
+          "start": 73.522,
+          "end": 73.573
+        },
+        {
+          "text": "Hello",
+          "start": 73.573,
+          "end": 73.948
+        },
+        {
+          "text": "\"",
+          "start": 73.948,
+          "end": 73.997
+        },
+        {
+          "text": "in",
+          "start": 73.997,
+          "end": 74.073
+        },
+        {
+          "text": "the",
+          "start": 74.073,
+          "end": 74.16
+        },
+        {
+          "text": "DB",
+          "start": 74.16,
+          "end": 75.085
+        },
+        {
+          "text": ".",
+          "start": 75.085,
+          "end": 75.185
+        },
+        {
+          "text": "The",
+          "start": 75.185,
+          "end": 75.335
+        },
+        {
+          "text": "HTML",
+          "start": 75.335,
+          "end": 76.085
+        },
+        {
+          "text": "rendered",
+          "start": 76.085,
+          "end": 76.423
+        },
+        {
+          "text": "on",
+          "start": 76.423,
+          "end": 76.56
+        },
+        {
+          "text": "screen",
+          "start": 76.56,
+          "end": 76.91
+        },
+        {
+          "text": "looks",
+          "start": 76.91,
+          "end": 77.16
+        },
+        {
+          "text": "perfect",
+          "start": 77.16,
+          "end": 78.085
+        },
+        {
+          "text": ".",
+          "start": 78.085,
+          "end": 78.185
+        },
+        {
+          "text": "Your",
+          "start": 78.185,
+          "end": 78.335
+        },
+        {
+          "text": "test",
+          "start": 78.335,
+          "end": 78.598
+        },
+        {
+          "text": "extracts",
+          "start": 78.598,
+          "end": 79.047
+        },
+        {
+          "text": "the",
+          "start": 79.047,
+          "end": 79.135
+        },
+        {
+          "text": "text",
+          "start": 79.135,
+          "end": 79.523
+        },
+        {
+          "text": "and",
+          "start": 79.523,
+          "end": 79.635
+        },
+        {
+          "text": "gets",
+          "start": 79.635,
+          "end": 79.898
+        },
+        {
+          "text": "\"",
+          "start": 79.898,
+          "end": 79.947
+        },
+        {
+          "text": "Hello",
+          "start": 79.947,
+          "end": 80.385
+        },
+        {
+          "text": "\"",
+          "start": 80.385,
+          "end": 80.46
+        },
+        {
+          "text": "literally",
+          "start": 80.46,
+          "end": 81.335
+        },
+        {
+          "text": ".",
+          "start": 81.335,
+          "end": 81.435
+        },
+        {
+          "text": "Without",
+          "start": 81.435,
+          "end": 81.785
+        },
+        {
+          "text": "decoding",
+          "start": 81.785,
+          "end": 82.273
+        },
+        {
+          "text": "and",
+          "start": 82.273,
+          "end": 82.385
+        },
+        {
+          "text": "stripping",
+          "start": 82.385,
+          "end": 82.785
+        },
+        {
+          "text": "tags",
+          "start": 82.785,
+          "end": 83.235
+        },
+        {
+          "text": ",",
+          "start": 83.235,
+          "end": 83.285
+        },
+        {
+          "text": "you're",
+          "start": 83.285,
+          "end": 83.435
+        },
+        {
+          "text": "comparing",
+          "start": 83.435,
+          "end": 83.91
+        },
+        {
+          "text": "metadata",
+          "start": 83.91,
+          "end": 84.485
+        },
+        {
+          "text": ",",
+          "start": 84.485,
+          "end": 84.523
+        },
+        {
+          "text": "not",
+          "start": 84.523,
+          "end": 84.71
+        },
+        {
+          "text": "content",
+          "start": 84.71,
+          "end": 85.785
+        },
+        {
+          "text": ".",
+          "start": 85.785,
+          "end": 85.985
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "3. API vs. UI validation , The API returns { description: \" Widget on sale \" }. The UI displays this as \"Widget on sale\". If you naively compare the API payload with what Playwright reads from the DOM, they'll never match.",
+      "start": 86.305,
+      "end": 100.905,
+      "words": [
+        {
+          "text": "3.",
+          "start": 86.605,
+          "end": 86.83
+        },
+        {
+          "text": "API",
+          "start": 86.83,
+          "end": 87.355
+        },
+        {
+          "text": "vs.",
+          "start": 87.355,
+          "end": 87.755
+        },
+        {
+          "text": "UI",
+          "start": 87.755,
+          "end": 88.055
+        },
+        {
+          "text": "validation",
+          "start": 88.055,
+          "end": 88.905
+        },
+        {
+          "text": ",",
+          "start": 88.905,
+          "end": 88.968
+        },
+        {
+          "text": "The",
+          "start": 88.968,
+          "end": 89.08
+        },
+        {
+          "text": "API",
+          "start": 89.08,
+          "end": 89.605
+        },
+        {
+          "text": "returns",
+          "start": 89.605,
+          "end": 90.017
+        },
+        {
+          "text": "{",
+          "start": 90.017,
+          "end": 90.067
+        },
+        {
+          "text": "description",
+          "start": 90.067,
+          "end": 91.155
+        },
+        {
+          "text": ":",
+          "start": 91.155,
+          "end": 91.242
+        },
+        {
+          "text": "\"",
+          "start": 91.242,
+          "end": 91.305
+        },
+        {
+          "text": "Widget",
+          "start": 91.305,
+          "end": 91.567
+        },
+        {
+          "text": "on",
+          "start": 91.567,
+          "end": 91.768
+        },
+        {
+          "text": "sale",
+          "start": 91.768,
+          "end": 92.405
+        },
+        {
+          "text": "\"",
+          "start": 92.405,
+          "end": 92.467
+        },
+        {
+          "text": "}",
+          "start": 92.467,
+          "end": 92.53
+        },
+        {
+          "text": ".",
+          "start": 92.53,
+          "end": 92.58
+        },
+        {
+          "text": "The",
+          "start": 92.58,
+          "end": 92.68
+        },
+        {
+          "text": "UI",
+          "start": 92.68,
+          "end": 93.03
+        },
+        {
+          "text": "displays",
+          "start": 93.03,
+          "end": 93.58
+        },
+        {
+          "text": "this",
+          "start": 93.58,
+          "end": 93.83
+        },
+        {
+          "text": "as",
+          "start": 93.83,
+          "end": 93.98
+        },
+        {
+          "text": "\"",
+          "start": 93.98,
+          "end": 94.055
+        },
+        {
+          "text": "Widget",
+          "start": 94.055,
+          "end": 94.317
+        },
+        {
+          "text": "on",
+          "start": 94.317,
+          "end": 94.492
+        },
+        {
+          "text": "sale",
+          "start": 94.492,
+          "end": 95.18
+        },
+        {
+          "text": "\"",
+          "start": 95.18,
+          "end": 95.305
+        },
+        {
+          "text": ".",
+          "start": 95.305,
+          "end": 95.38
+        },
+        {
+          "text": "If",
+          "start": 95.38,
+          "end": 95.518
+        },
+        {
+          "text": "you",
+          "start": 95.518,
+          "end": 95.63
+        },
+        {
+          "text": "naively",
+          "start": 95.63,
+          "end": 96.105
+        },
+        {
+          "text": "compare",
+          "start": 96.105,
+          "end": 96.442
+        },
+        {
+          "text": "the",
+          "start": 96.442,
+          "end": 96.555
+        },
+        {
+          "text": "API",
+          "start": 96.555,
+          "end": 97.143
+        },
+        {
+          "text": "payload",
+          "start": 97.143,
+          "end": 97.643
+        },
+        {
+          "text": "with",
+          "start": 97.643,
+          "end": 97.78
+        },
+        {
+          "text": "what",
+          "start": 97.78,
+          "end": 97.98
+        },
+        {
+          "text": "Playwright",
+          "start": 97.98,
+          "end": 98.38
+        },
+        {
+          "text": "reads",
+          "start": 98.38,
+          "end": 98.68
+        },
+        {
+          "text": "from",
+          "start": 98.68,
+          "end": 98.817
+        },
+        {
+          "text": "the",
+          "start": 98.817,
+          "end": 98.905
+        },
+        {
+          "text": "DOM",
+          "start": 98.905,
+          "end": 99.33
+        },
+        {
+          "text": ",",
+          "start": 99.33,
+          "end": 99.405
+        },
+        {
+          "text": "they'll",
+          "start": 99.405,
+          "end": 99.58
+        },
+        {
+          "text": "never",
+          "start": 99.58,
+          "end": 99.83
+        },
+        {
+          "text": "match",
+          "start": 99.83,
+          "end": 100.705
+        },
+        {
+          "text": ".",
+          "start": 100.705,
+          "end": 100.905
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h4",
+      "text": "The Solution Pattern",
+      "start": 101.225,
+      "end": 102.975,
+      "words": [
+        {
+          "text": "The",
+          "start": 101.45,
+          "end": 101.587
+        },
+        {
+          "text": "Solution",
+          "start": 101.587,
+          "end": 102.125
+        },
+        {
+          "text": "Pattern",
+          "start": 102.125,
+          "end": 102.975
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "li",
+      "text": "Extract text from the page with Playwright",
+      "start": 103.52,
+      "end": 106.195,
+      "words": [
+        {
+          "text": "Extract",
+          "start": 103.77,
+          "end": 104.195
+        },
+        {
+          "text": "text",
+          "start": 104.195,
+          "end": 104.533
+        },
+        {
+          "text": "from",
+          "start": 104.533,
+          "end": 104.658
+        },
+        {
+          "text": "the",
+          "start": 104.658,
+          "end": 104.745
+        },
+        {
+          "text": "page",
+          "start": 104.745,
+          "end": 105.107
+        },
+        {
+          "text": "with",
+          "start": 105.107,
+          "end": 105.27
+        },
+        {
+          "text": "Playwright",
+          "start": 105.27,
+          "end": 106.195
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "Decode HTML entities ( and lt; to <, and amp; to and , etc.) using HttpUtility.HtmlDecode",
+      "start": 106.69,
+      "end": 114.765,
+      "words": [
+        {
+          "text": "Decode",
+          "start": 106.94,
+          "end": 107.315
+        },
+        {
+          "text": "HTML",
+          "start": 107.315,
+          "end": 107.965
+        },
+        {
+          "text": "entities",
+          "start": 107.965,
+          "end": 108.615
+        },
+        {
+          "text": "(",
+          "start": 108.615,
+          "end": 108.69
+        },
+        {
+          "text": "and",
+          "start": 108.69,
+          "end": 108.815
+        },
+        {
+          "text": "lt",
+          "start": 108.815,
+          "end": 109.49
+        },
+        {
+          "text": ";",
+          "start": 109.49,
+          "end": 109.565
+        },
+        {
+          "text": "to",
+          "start": 109.565,
+          "end": 109.703
+        },
+        {
+          "text": ",",
+          "start": 109.703,
+          "end": 109.752
+        },
+        {
+          "text": "and",
+          "start": 109.752,
+          "end": 109.865
+        },
+        {
+          "text": "amp",
+          "start": 109.865,
+          "end": 110.165
+        },
+        {
+          "text": ";",
+          "start": 110.165,
+          "end": 110.24
+        },
+        {
+          "text": "to",
+          "start": 110.24,
+          "end": 110.402
+        },
+        {
+          "text": "and",
+          "start": 110.402,
+          "end": 110.578
+        },
+        {
+          "text": ",",
+          "start": 110.578,
+          "end": 110.628
+        },
+        {
+          "text": "etc.",
+          "start": 110.628,
+          "end": 111.14
+        },
+        {
+          "text": ")",
+          "start": 111.14,
+          "end": 111.215
+        },
+        {
+          "text": "using",
+          "start": 111.215,
+          "end": 111.515
+        },
+        {
+          "text": "HttpUtility",
+          "start": 111.515,
+          "end": 113.04
+        },
+        {
+          "text": ".",
+          "start": 113.04,
+          "end": 113.14
+        },
+        {
+          "text": "HtmlDecode",
+          "start": 113.14,
+          "end": 114.765
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Strip remaining HTML tags with regex",
+      "start": 115.31,
+      "end": 118.61,
+      "words": [
+        {
+          "text": "Strip",
+          "start": 115.56,
+          "end": 115.86
+        },
+        {
+          "text": "remaining",
+          "start": 115.86,
+          "end": 116.31
+        },
+        {
+          "text": "HTML",
+          "start": 116.31,
+          "end": 117.085
+        },
+        {
+          "text": "tags",
+          "start": 117.085,
+          "end": 117.473
+        },
+        {
+          "text": "with",
+          "start": 117.473,
+          "end": 117.635
+        },
+        {
+          "text": "regex",
+          "start": 117.635,
+          "end": 118.61
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Compare clean text to your baseline",
+      "start": 119.08,
+      "end": 121.705,
+      "words": [
+        {
+          "text": "Compare",
+          "start": 119.33,
+          "end": 119.755
+        },
+        {
+          "text": "clean",
+          "start": 119.755,
+          "end": 120.055
+        },
+        {
+          "text": "text",
+          "start": 120.055,
+          "end": 120.405
+        },
+        {
+          "text": "to",
+          "start": 120.405,
+          "end": 120.493
+        },
+        {
+          "text": "your",
+          "start": 120.493,
+          "end": 120.655
+        },
+        {
+          "text": "baseline",
+          "start": 120.655,
+          "end": 121.705
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h4",
+      "text": "Code",
+      "start": 122.15,
+      "end": 122.825,
+      "words": [
+        {
+          "text": "Code",
+          "start": 122.4,
+          "end": 122.825
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h4",
+      "text": "What Each Part Does",
+      "start": 123.17,
+      "end": 124.995,
+      "words": [
+        {
+          "text": "What",
+          "start": 123.42,
+          "end": 123.645
+        },
+        {
+          "text": "Each",
+          "start": 123.645,
+          "end": 123.87
+        },
+        {
+          "text": "Part",
+          "start": 123.87,
+          "end": 124.195
+        },
+        {
+          "text": "Does",
+          "start": 124.195,
+          "end": 124.995
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "HtmlStringProcessor , The wrapper class that orchestrates the whole flow. Think of it as a decoder that knows how to compare apples to apples (cleaned text, not raw HTML).",
+      "start": 125.515,
+      "end": 136.84,
+      "words": [
+        {
+          "text": "HtmlStringProcessor",
+          "start": 125.79,
+          "end": 127.678
+        },
+        {
+          "text": ",",
+          "start": 127.678,
+          "end": 127.765
+        },
+        {
+          "text": "The",
+          "start": 127.765,
+          "end": 127.865
+        },
+        {
+          "text": "wrapper",
+          "start": 127.865,
+          "end": 128.14
+        },
+        {
+          "text": "class",
+          "start": 128.14,
+          "end": 128.478
+        },
+        {
+          "text": "that",
+          "start": 128.478,
+          "end": 128.59
+        },
+        {
+          "text": "orchestrates",
+          "start": 128.59,
+          "end": 129.203
+        },
+        {
+          "text": "the",
+          "start": 129.203,
+          "end": 129.29
+        },
+        {
+          "text": "whole",
+          "start": 129.29,
+          "end": 129.553
+        },
+        {
+          "text": "flow",
+          "start": 129.553,
+          "end": 130.465
+        },
+        {
+          "text": ".",
+          "start": 130.465,
+          "end": 130.603
+        },
+        {
+          "text": "Think",
+          "start": 130.603,
+          "end": 130.803
+        },
+        {
+          "text": "of",
+          "start": 130.803,
+          "end": 130.89
+        },
+        {
+          "text": "it",
+          "start": 130.89,
+          "end": 131.04
+        },
+        {
+          "text": "as",
+          "start": 131.04,
+          "end": 131.152
+        },
+        {
+          "text": "a",
+          "start": 131.152,
+          "end": 131.215
+        },
+        {
+          "text": "decoder",
+          "start": 131.215,
+          "end": 131.765
+        },
+        {
+          "text": "that",
+          "start": 131.765,
+          "end": 131.915
+        },
+        {
+          "text": "knows",
+          "start": 131.915,
+          "end": 132.165
+        },
+        {
+          "text": "how",
+          "start": 132.165,
+          "end": 132.34
+        },
+        {
+          "text": "to",
+          "start": 132.34,
+          "end": 132.44
+        },
+        {
+          "text": "compare",
+          "start": 132.44,
+          "end": 132.79
+        },
+        {
+          "text": "apples",
+          "start": 132.79,
+          "end": 133.14
+        },
+        {
+          "text": "to",
+          "start": 133.14,
+          "end": 133.265
+        },
+        {
+          "text": "apples",
+          "start": 133.265,
+          "end": 133.928
+        },
+        {
+          "text": "(",
+          "start": 133.928,
+          "end": 134.015
+        },
+        {
+          "text": "cleaned",
+          "start": 134.015,
+          "end": 134.328
+        },
+        {
+          "text": "text",
+          "start": 134.328,
+          "end": 134.915
+        },
+        {
+          "text": ",",
+          "start": 134.915,
+          "end": 135.015
+        },
+        {
+          "text": "not",
+          "start": 135.015,
+          "end": 135.215
+        },
+        {
+          "text": "raw",
+          "start": 135.215,
+          "end": 135.44
+        },
+        {
+          "text": "HTML",
+          "start": 135.44,
+          "end": 136.39
+        },
+        {
+          "text": ")",
+          "start": 136.39,
+          "end": 136.765
+        },
+        {
+          "text": ".",
+          "start": 136.765,
+          "end": 136.84
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "ExtractDescriptionsFromPageAsync , Grabs the text from the DOM using Playwright's locators. This is where you get the encoded strings.",
+      "start": 137.16,
+      "end": 145.535,
+      "words": [
+        {
+          "text": "ExtractDescriptionsFromPageAsync",
+          "start": 137.41,
+          "end": 139.473
+        },
+        {
+          "text": ",",
+          "start": 139.473,
+          "end": 139.56
+        },
+        {
+          "text": "Grabs",
+          "start": 139.56,
+          "end": 139.898
+        },
+        {
+          "text": "the",
+          "start": 139.898,
+          "end": 139.985
+        },
+        {
+          "text": "text",
+          "start": 139.985,
+          "end": 140.298
+        },
+        {
+          "text": "from",
+          "start": 140.298,
+          "end": 140.423
+        },
+        {
+          "text": "the",
+          "start": 140.423,
+          "end": 140.51
+        },
+        {
+          "text": "DOM",
+          "start": 140.51,
+          "end": 140.81
+        },
+        {
+          "text": "using",
+          "start": 140.81,
+          "end": 141.11
+        },
+        {
+          "text": "Playwright's",
+          "start": 141.11,
+          "end": 141.56
+        },
+        {
+          "text": "locators",
+          "start": 141.56,
+          "end": 142.76
+        },
+        {
+          "text": ".",
+          "start": 142.76,
+          "end": 142.873
+        },
+        {
+          "text": "This",
+          "start": 142.873,
+          "end": 143.11
+        },
+        {
+          "text": "is",
+          "start": 143.11,
+          "end": 143.26
+        },
+        {
+          "text": "where",
+          "start": 143.26,
+          "end": 143.435
+        },
+        {
+          "text": "you",
+          "start": 143.435,
+          "end": 143.56
+        },
+        {
+          "text": "get",
+          "start": 143.56,
+          "end": 143.723
+        },
+        {
+          "text": "the",
+          "start": 143.723,
+          "end": 143.835
+        },
+        {
+          "text": "encoded",
+          "start": 143.835,
+          "end": 144.335
+        },
+        {
+          "text": "strings",
+          "start": 144.335,
+          "end": 145.335
+        },
+        {
+          "text": ".",
+          "start": 145.335,
+          "end": 145.535
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "DecodeHtmlString , Uses HttpUtility.HtmlDecode with a StringWriter. This converts and lt; back to <, and amp; back to and , etc. It's the bridge between what Playwright reads and what the JSON file contains.",
+      "start": 145.855,
+      "end": 160.905,
+      "words": [
+        {
+          "text": "DecodeHtmlString",
+          "start": 146.105,
+          "end": 147.518
+        },
+        {
+          "text": ",",
+          "start": 147.518,
+          "end": 147.58
+        },
+        {
+          "text": "Uses",
+          "start": 147.58,
+          "end": 147.905
+        },
+        {
+          "text": "HttpUtility",
+          "start": 147.905,
+          "end": 149.63
+        },
+        {
+          "text": ".",
+          "start": 149.63,
+          "end": 149.73
+        },
+        {
+          "text": "HtmlDecode",
+          "start": 149.73,
+          "end": 150.768
+        },
+        {
+          "text": "with",
+          "start": 150.768,
+          "end": 150.868
+        },
+        {
+          "text": "a",
+          "start": 150.868,
+          "end": 150.93
+        },
+        {
+          "text": "StringWriter",
+          "start": 150.93,
+          "end": 152.18
+        },
+        {
+          "text": ".",
+          "start": 152.18,
+          "end": 152.33
+        },
+        {
+          "text": "This",
+          "start": 152.33,
+          "end": 152.53
+        },
+        {
+          "text": "converts",
+          "start": 152.53,
+          "end": 153.055
+        },
+        {
+          "text": "and",
+          "start": 153.055,
+          "end": 153.18
+        },
+        {
+          "text": "lt",
+          "start": 153.18,
+          "end": 153.805
+        },
+        {
+          "text": ";",
+          "start": 153.805,
+          "end": 153.88
+        },
+        {
+          "text": "back",
+          "start": 153.88,
+          "end": 154.155
+        },
+        {
+          "text": "to",
+          "start": 154.155,
+          "end": 154.343
+        },
+        {
+          "text": ",",
+          "start": 154.343,
+          "end": 154.393
+        },
+        {
+          "text": "and",
+          "start": 154.393,
+          "end": 154.53
+        },
+        {
+          "text": "amp",
+          "start": 154.53,
+          "end": 155.08
+        },
+        {
+          "text": ";",
+          "start": 155.08,
+          "end": 155.18
+        },
+        {
+          "text": "back",
+          "start": 155.18,
+          "end": 155.43
+        },
+        {
+          "text": "to",
+          "start": 155.43,
+          "end": 155.63
+        },
+        {
+          "text": "and",
+          "start": 155.63,
+          "end": 155.918
+        },
+        {
+          "text": ",",
+          "start": 155.918,
+          "end": 155.98
+        },
+        {
+          "text": "etc.",
+          "start": 155.98,
+          "end": 156.418
+        },
+        {
+          "text": "It's",
+          "start": 156.418,
+          "end": 156.568
+        },
+        {
+          "text": "the",
+          "start": 156.568,
+          "end": 156.655
+        },
+        {
+          "text": "bridge",
+          "start": 156.655,
+          "end": 156.955
+        },
+        {
+          "text": "between",
+          "start": 156.955,
+          "end": 157.243
+        },
+        {
+          "text": "what",
+          "start": 157.243,
+          "end": 157.38
+        },
+        {
+          "text": "Playwright",
+          "start": 157.38,
+          "end": 157.78
+        },
+        {
+          "text": "reads",
+          "start": 157.78,
+          "end": 158.18
+        },
+        {
+          "text": "and",
+          "start": 158.18,
+          "end": 158.293
+        },
+        {
+          "text": "what",
+          "start": 158.293,
+          "end": 158.418
+        },
+        {
+          "text": "the",
+          "start": 158.418,
+          "end": 158.505
+        },
+        {
+          "text": "JSON",
+          "start": 158.505,
+          "end": 159.243
+        },
+        {
+          "text": "file",
+          "start": 159.243,
+          "end": 159.58
+        },
+        {
+          "text": "contains",
+          "start": 159.58,
+          "end": 160.705
+        },
+        {
+          "text": ".",
+          "start": 160.705,
+          "end": 160.905
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "ProcessProductDescriptionsAsync , The orchestrator. Extract to Decode to Clean to Compare. If the cleaned text from the page matches the cleaned text from the JSON, you've caught a data sync bug (or confirmed everything is fine).",
+      "start": 161.225,
+      "end": 175.375,
+      "words": [
+        {
+          "text": "ProcessProductDescriptionsAsync",
+          "start": 161.475,
+          "end": 163.263
+        },
+        {
+          "text": ",",
+          "start": 163.263,
+          "end": 163.312
+        },
+        {
+          "text": "The",
+          "start": 163.312,
+          "end": 163.425
+        },
+        {
+          "text": "orchestrator",
+          "start": 163.425,
+          "end": 164.5
+        },
+        {
+          "text": ".",
+          "start": 164.5,
+          "end": 164.663
+        },
+        {
+          "text": "Extract",
+          "start": 164.663,
+          "end": 165.175
+        },
+        {
+          "text": "to",
+          "start": 165.175,
+          "end": 165.275
+        },
+        {
+          "text": "Decode",
+          "start": 165.275,
+          "end": 165.75
+        },
+        {
+          "text": "to",
+          "start": 165.75,
+          "end": 165.85
+        },
+        {
+          "text": "Clean",
+          "start": 165.85,
+          "end": 166.15
+        },
+        {
+          "text": "to",
+          "start": 166.15,
+          "end": 166.25
+        },
+        {
+          "text": "Compare",
+          "start": 166.25,
+          "end": 167.25
+        },
+        {
+          "text": ".",
+          "start": 167.25,
+          "end": 167.35
+        },
+        {
+          "text": "If",
+          "start": 167.35,
+          "end": 167.488
+        },
+        {
+          "text": "the",
+          "start": 167.488,
+          "end": 167.575
+        },
+        {
+          "text": "cleaned",
+          "start": 167.575,
+          "end": 167.875
+        },
+        {
+          "text": "text",
+          "start": 167.875,
+          "end": 168.163
+        },
+        {
+          "text": "from",
+          "start": 168.163,
+          "end": 168.287
+        },
+        {
+          "text": "the",
+          "start": 168.287,
+          "end": 168.375
+        },
+        {
+          "text": "page",
+          "start": 168.375,
+          "end": 168.75
+        },
+        {
+          "text": "matches",
+          "start": 168.75,
+          "end": 169.113
+        },
+        {
+          "text": "the",
+          "start": 169.113,
+          "end": 169.2
+        },
+        {
+          "text": "cleaned",
+          "start": 169.2,
+          "end": 169.5
+        },
+        {
+          "text": "text",
+          "start": 169.5,
+          "end": 169.838
+        },
+        {
+          "text": "from",
+          "start": 169.838,
+          "end": 169.963
+        },
+        {
+          "text": "the",
+          "start": 169.963,
+          "end": 170.05
+        },
+        {
+          "text": "JSON",
+          "start": 170.05,
+          "end": 171.075
+        },
+        {
+          "text": ",",
+          "start": 171.075,
+          "end": 171.175
+        },
+        {
+          "text": "you've",
+          "start": 171.175,
+          "end": 171.325
+        },
+        {
+          "text": "caught",
+          "start": 171.325,
+          "end": 171.537
+        },
+        {
+          "text": "a",
+          "start": 171.537,
+          "end": 171.6
+        },
+        {
+          "text": "data",
+          "start": 171.6,
+          "end": 171.963
+        },
+        {
+          "text": "sync",
+          "start": 171.963,
+          "end": 172.25
+        },
+        {
+          "text": "bug",
+          "start": 172.25,
+          "end": 172.813
+        },
+        {
+          "text": "(",
+          "start": 172.813,
+          "end": 172.9
+        },
+        {
+          "text": "or",
+          "start": 172.9,
+          "end": 173.0
+        },
+        {
+          "text": "confirmed",
+          "start": 173.0,
+          "end": 173.588
+        },
+        {
+          "text": "everything",
+          "start": 173.588,
+          "end": 174.1
+        },
+        {
+          "text": "is",
+          "start": 174.1,
+          "end": 174.25
+        },
+        {
+          "text": "fine",
+          "start": 174.25,
+          "end": 175.075
+        },
+        {
+          "text": ")",
+          "start": 175.075,
+          "end": 175.3
+        },
+        {
+          "text": ".",
+          "start": 175.3,
+          "end": 175.375
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "This is the pattern that saved me from 404 failures that night.",
+      "start": 175.695,
+      "end": 180.195,
+      "words": [
+        {
+          "text": "This",
+          "start": 175.945,
+          "end": 176.17
+        },
+        {
+          "text": "is",
+          "start": 176.17,
+          "end": 176.308
+        },
+        {
+          "text": "the",
+          "start": 176.308,
+          "end": 176.395
+        },
+        {
+          "text": "pattern",
+          "start": 176.395,
+          "end": 176.845
+        },
+        {
+          "text": "that",
+          "start": 176.845,
+          "end": 177.008
+        },
+        {
+          "text": "saved",
+          "start": 177.008,
+          "end": 177.358
+        },
+        {
+          "text": "me",
+          "start": 177.358,
+          "end": 177.495
+        },
+        {
+          "text": "from",
+          "start": 177.495,
+          "end": 177.708
+        },
+        {
+          "text": "404",
+          "start": 177.708,
+          "end": 178.483
+        },
+        {
+          "text": "failures",
+          "start": 178.483,
+          "end": 178.945
+        },
+        {
+          "text": "that",
+          "start": 178.945,
+          "end": 179.17
+        },
+        {
+          "text": "night",
+          "start": 179.17,
+          "end": 179.995
+        },
+        {
+          "text": ".",
+          "start": 179.995,
+          "end": 180.195
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h3",
+      "text": "Using the Code in a Real-World Scenario",
+      "start": 180.515,
+      "end": 183.465,
+      "words": [
+        {
+          "text": "Using",
+          "start": 180.79,
+          "end": 181.102
+        },
+        {
+          "text": "the",
+          "start": 181.102,
+          "end": 181.19
+        },
+        {
+          "text": "Code",
+          "start": 181.19,
+          "end": 181.615
+        },
+        {
+          "text": "in",
+          "start": 181.615,
+          "end": 181.702
+        },
+        {
+          "text": "a",
+          "start": 181.702,
+          "end": 181.79
+        },
+        {
+          "text": "Real-World",
+          "start": 181.79,
+          "end": 182.415
+        },
+        {
+          "text": "Scenario",
+          "start": 182.415,
+          "end": 183.465
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h4",
+      "text": "Scenario",
+      "start": 183.91,
+      "end": 184.885,
+      "words": [
+        {
+          "text": "Scenario",
+          "start": 184.185,
+          "end": 184.885
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "p",
+      "text": "Imagine you are developing a web application for an e-commerce platform. Your task is to ensure that product descriptions displayed on the website match those stored in your database. These descriptions might be HTML encoded and contain various HTML tags. You need to decode these strings, remove the HTML tags, and compare them to ensure consistency.",
+      "start": 185.555,
+      "end": 207.105,
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 185.83,
+          "end": 186.23
+        },
+        {
+          "text": "you",
+          "start": 186.23,
+          "end": 186.342
+        },
+        {
+          "text": "are",
+          "start": 186.342,
+          "end": 186.43
+        },
+        {
+          "text": "developing",
+          "start": 186.43,
+          "end": 186.918
+        },
+        {
+          "text": "a",
+          "start": 186.918,
+          "end": 186.98
+        },
+        {
+          "text": "web",
+          "start": 186.98,
+          "end": 187.168
+        },
+        {
+          "text": "application",
+          "start": 187.168,
+          "end": 187.78
+        },
+        {
+          "text": "for",
+          "start": 187.78,
+          "end": 187.892
+        },
+        {
+          "text": "an",
+          "start": 187.892,
+          "end": 187.98
+        },
+        {
+          "text": "e-commerce",
+          "start": 187.98,
+          "end": 188.53
+        },
+        {
+          "text": "platform",
+          "start": 188.53,
+          "end": 189.58
+        },
+        {
+          "text": ".",
+          "start": 189.58,
+          "end": 189.68
+        },
+        {
+          "text": "Your",
+          "start": 189.68,
+          "end": 189.83
+        },
+        {
+          "text": "task",
+          "start": 189.83,
+          "end": 190.167
+        },
+        {
+          "text": "is",
+          "start": 190.167,
+          "end": 190.28
+        },
+        {
+          "text": "to",
+          "start": 190.28,
+          "end": 190.405
+        },
+        {
+          "text": "ensure",
+          "start": 190.405,
+          "end": 190.855
+        },
+        {
+          "text": "that",
+          "start": 190.855,
+          "end": 190.98
+        },
+        {
+          "text": "product",
+          "start": 190.98,
+          "end": 191.342
+        },
+        {
+          "text": "descriptions",
+          "start": 191.342,
+          "end": 191.905
+        },
+        {
+          "text": "displayed",
+          "start": 191.905,
+          "end": 192.393
+        },
+        {
+          "text": "on",
+          "start": 192.393,
+          "end": 192.493
+        },
+        {
+          "text": "the",
+          "start": 192.493,
+          "end": 192.58
+        },
+        {
+          "text": "website",
+          "start": 192.58,
+          "end": 193.193
+        },
+        {
+          "text": "match",
+          "start": 193.193,
+          "end": 193.48
+        },
+        {
+          "text": "those",
+          "start": 193.48,
+          "end": 193.705
+        },
+        {
+          "text": "stored",
+          "start": 193.705,
+          "end": 194.043
+        },
+        {
+          "text": "in",
+          "start": 194.043,
+          "end": 194.117
+        },
+        {
+          "text": "your",
+          "start": 194.117,
+          "end": 194.23
+        },
+        {
+          "text": "database",
+          "start": 194.23,
+          "end": 195.355
+        },
+        {
+          "text": ".",
+          "start": 195.355,
+          "end": 195.455
+        },
+        {
+          "text": "These",
+          "start": 195.455,
+          "end": 195.68
+        },
+        {
+          "text": "descriptions",
+          "start": 195.68,
+          "end": 196.255
+        },
+        {
+          "text": "might",
+          "start": 196.255,
+          "end": 196.442
+        },
+        {
+          "text": "be",
+          "start": 196.442,
+          "end": 196.555
+        },
+        {
+          "text": "HTML",
+          "start": 196.555,
+          "end": 197.33
+        },
+        {
+          "text": "encoded",
+          "start": 197.33,
+          "end": 197.88
+        },
+        {
+          "text": "and",
+          "start": 197.88,
+          "end": 198.005
+        },
+        {
+          "text": "contain",
+          "start": 198.005,
+          "end": 198.48
+        },
+        {
+          "text": "various",
+          "start": 198.48,
+          "end": 198.905
+        },
+        {
+          "text": "HTML",
+          "start": 198.905,
+          "end": 199.63
+        },
+        {
+          "text": "tags",
+          "start": 199.63,
+          "end": 200.53
+        },
+        {
+          "text": ".",
+          "start": 200.53,
+          "end": 200.63
+        },
+        {
+          "text": "You",
+          "start": 200.63,
+          "end": 200.768
+        },
+        {
+          "text": "need",
+          "start": 200.768,
+          "end": 200.918
+        },
+        {
+          "text": "to",
+          "start": 200.918,
+          "end": 200.993
+        },
+        {
+          "text": "decode",
+          "start": 200.993,
+          "end": 201.405
+        },
+        {
+          "text": "these",
+          "start": 201.405,
+          "end": 201.605
+        },
+        {
+          "text": "strings",
+          "start": 201.605,
+          "end": 202.305
+        },
+        {
+          "text": ",",
+          "start": 202.305,
+          "end": 202.405
+        },
+        {
+          "text": "remove",
+          "start": 202.405,
+          "end": 202.743
+        },
+        {
+          "text": "the",
+          "start": 202.743,
+          "end": 202.855
+        },
+        {
+          "text": "HTML",
+          "start": 202.855,
+          "end": 203.58
+        },
+        {
+          "text": "tags",
+          "start": 203.58,
+          "end": 204.28
+        },
+        {
+          "text": ",",
+          "start": 204.28,
+          "end": 204.38
+        },
+        {
+          "text": "and",
+          "start": 204.38,
+          "end": 204.505
+        },
+        {
+          "text": "compare",
+          "start": 204.505,
+          "end": 204.892
+        },
+        {
+          "text": "them",
+          "start": 204.892,
+          "end": 205.08
+        },
+        {
+          "text": "to",
+          "start": 205.08,
+          "end": 205.23
+        },
+        {
+          "text": "ensure",
+          "start": 205.23,
+          "end": 205.68
+        },
+        {
+          "text": "consistency",
+          "start": 205.68,
+          "end": 206.93
+        },
+        {
+          "text": ".",
+          "start": 206.93,
+          "end": 207.105
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "h4",
+      "text": "Steps to Use the Code",
+      "start": 207.425,
+      "end": 209.25,
+      "words": [
+        {
+          "text": "Steps",
+          "start": 207.675,
+          "end": 208.0
+        },
+        {
+          "text": "to",
+          "start": 208.0,
+          "end": 208.125
+        },
+        {
+          "text": "Use",
+          "start": 208.125,
+          "end": 208.362
+        },
+        {
+          "text": "the",
+          "start": 208.362,
+          "end": 208.45
+        },
+        {
+          "text": "Code",
+          "start": 208.45,
+          "end": 209.25
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Setup Microsoft Playwright:",
+      "start": 209.795,
+      "end": 212.195,
+      "words": [
+        {
+          "text": "Setup",
+          "start": 210.07,
+          "end": 210.47
+        },
+        {
+          "text": "Microsoft",
+          "start": 210.47,
+          "end": 211.045
+        },
+        {
+          "text": "Playwright",
+          "start": 211.045,
+          "end": 211.995
+        },
+        {
+          "text": ":",
+          "start": 211.995,
+          "end": 212.195
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Install Microsoft Playwright in your project using NuGet.",
+      "start": 212.515,
+      "end": 216.365,
+      "words": [
+        {
+          "text": "Install",
+          "start": 212.765,
+          "end": 213.265
+        },
+        {
+          "text": "Microsoft",
+          "start": 213.265,
+          "end": 213.865
+        },
+        {
+          "text": "Playwright",
+          "start": 213.865,
+          "end": 214.277
+        },
+        {
+          "text": "in",
+          "start": 214.277,
+          "end": 214.352
+        },
+        {
+          "text": "your",
+          "start": 214.352,
+          "end": 214.465
+        },
+        {
+          "text": "project",
+          "start": 214.465,
+          "end": 214.94
+        },
+        {
+          "text": "using",
+          "start": 214.94,
+          "end": 215.215
+        },
+        {
+          "text": "NuGet",
+          "start": 215.215,
+          "end": 216.165
+        },
+        {
+          "text": ".",
+          "start": 216.165,
+          "end": 216.365
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Initialize Playwright and navigate to the webpage containing the product descriptions.",
+      "start": 216.685,
+      "end": 221.835,
+      "words": [
+        {
+          "text": "Initialize",
+          "start": 216.96,
+          "end": 217.51
+        },
+        {
+          "text": "Playwright",
+          "start": 217.51,
+          "end": 218.06
+        },
+        {
+          "text": "and",
+          "start": 218.06,
+          "end": 218.185
+        },
+        {
+          "text": "navigate",
+          "start": 218.185,
+          "end": 218.685
+        },
+        {
+          "text": "to",
+          "start": 218.685,
+          "end": 218.772
+        },
+        {
+          "text": "the",
+          "start": 218.772,
+          "end": 218.86
+        },
+        {
+          "text": "webpage",
+          "start": 218.86,
+          "end": 219.46
+        },
+        {
+          "text": "containing",
+          "start": 219.46,
+          "end": 219.973
+        },
+        {
+          "text": "the",
+          "start": 219.973,
+          "end": 220.06
+        },
+        {
+          "text": "product",
+          "start": 220.06,
+          "end": 220.448
+        },
+        {
+          "text": "descriptions",
+          "start": 220.448,
+          "end": 221.635
+        },
+        {
+          "text": ".",
+          "start": 221.635,
+          "end": 221.835
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Extract Product Descriptions:",
+      "start": 222.155,
+      "end": 224.63,
+      "words": [
+        {
+          "text": "Extract",
+          "start": 222.405,
+          "end": 222.88
+        },
+        {
+          "text": "Product",
+          "start": 222.88,
+          "end": 223.267
+        },
+        {
+          "text": "Descriptions",
+          "start": 223.267,
+          "end": 224.43
+        },
+        {
+          "text": ":",
+          "start": 224.43,
+          "end": 224.63
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "Use the HtmlStringProcessor class to extract product descriptions from the webpage.",
+      "start": 224.95,
+      "end": 231.15,
+      "words": [
+        {
+          "text": "Use",
+          "start": 225.225,
+          "end": 225.462
+        },
+        {
+          "text": "the",
+          "start": 225.462,
+          "end": 225.575
+        },
+        {
+          "text": "HtmlStringProcessor",
+          "start": 225.575,
+          "end": 227.2
+        },
+        {
+          "text": "class",
+          "start": 227.2,
+          "end": 227.938
+        },
+        {
+          "text": "to",
+          "start": 227.938,
+          "end": 228.1
+        },
+        {
+          "text": "extract",
+          "start": 228.1,
+          "end": 228.6
+        },
+        {
+          "text": "product",
+          "start": 228.6,
+          "end": 228.988
+        },
+        {
+          "text": "descriptions",
+          "start": 228.988,
+          "end": 229.65
+        },
+        {
+          "text": "from",
+          "start": 229.65,
+          "end": 229.788
+        },
+        {
+          "text": "the",
+          "start": 229.788,
+          "end": 229.875
+        },
+        {
+          "text": "webpage",
+          "start": 229.875,
+          "end": 230.95
+        },
+        {
+          "text": ".",
+          "start": 230.95,
+          "end": 231.15
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "Decode and Clean Descriptions:",
+      "start": 231.47,
+      "end": 233.995,
+      "words": [
+        {
+          "text": "Decode",
+          "start": 231.72,
+          "end": 232.245
+        },
+        {
+          "text": "and",
+          "start": 232.245,
+          "end": 232.37
+        },
+        {
+          "text": "Clean",
+          "start": 232.37,
+          "end": 232.633
+        },
+        {
+          "text": "Descriptions",
+          "start": 232.633,
+          "end": 233.795
+        },
+        {
+          "text": ":",
+          "start": 233.795,
+          "end": 233.995
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "li",
+      "text": "The HtmlStringProcessor class will decode the HTML encoded strings and remove any HTML tags.",
+      "start": 234.315,
+      "end": 242.34,
+      "words": [
+        {
+          "text": "The",
+          "start": 234.565,
+          "end": 234.665
+        },
+        {
+          "text": "HtmlStringProcessor",
+          "start": 234.665,
+          "end": 236.265
+        },
+        {
+          "text": "class",
+          "start": 236.265,
+          "end": 237.015
+        },
+        {
+          "text": "will",
+          "start": 237.015,
+          "end": 237.14
+        },
+        {
+          "text": "decode",
+          "start": 237.14,
+          "end": 237.527
+        },
+        {
+          "text": "the",
+          "start": 237.527,
+          "end": 237.64
+        },
+        {
+          "text": "HTML",
+          "start": 237.64,
+          "end": 238.415
+        },
+        {
+          "text": "encoded",
+          "start": 238.415,
+          "end": 238.915
+        },
+        {
+          "text": "strings",
+          "start": 238.915,
+          "end": 239.753
+        },
+        {
+          "text": "and",
+          "start": 239.753,
+          "end": 239.877
+        },
+        {
+          "text": "remove",
+          "start": 239.877,
+          "end": 240.24
+        },
+        {
+          "text": "any",
+          "start": 240.24,
+          "end": 240.465
+        },
+        {
+          "text": "HTML",
+          "start": 240.465,
+          "end": 241.215
+        },
+        {
+          "text": "tags",
+          "start": 241.215,
+          "end": 242.165
+        },
+        {
+          "text": ".",
+          "start": 242.165,
+          "end": 242.34
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "li",
+      "text": "Compare Descriptions:",
+      "start": 242.66,
+      "end": 244.685,
+      "words": [
+        {
+          "text": "Compare",
+          "start": 242.91,
+          "end": 243.31
+        },
+        {
+          "text": "Descriptions",
+          "start": 243.31,
+          "end": 244.485
+        },
+        {
+          "text": ":",
+          "start": 244.485,
+          "end": 244.685
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "The cleaned descriptions from the webpage are compared with those from the JSON file to ensure they match.",
+      "start": 245.005,
+      "end": 251.68,
+      "words": [
+        {
+          "text": "The",
+          "start": 245.255,
+          "end": 245.33
+        },
+        {
+          "text": "cleaned",
+          "start": 245.33,
+          "end": 245.618
+        },
+        {
+          "text": "descriptions",
+          "start": 245.618,
+          "end": 246.23
+        },
+        {
+          "text": "from",
+          "start": 246.23,
+          "end": 246.368
+        },
+        {
+          "text": "the",
+          "start": 246.368,
+          "end": 246.455
+        },
+        {
+          "text": "webpage",
+          "start": 246.455,
+          "end": 247.38
+        },
+        {
+          "text": "are",
+          "start": 247.38,
+          "end": 247.505
+        },
+        {
+          "text": "compared",
+          "start": 247.505,
+          "end": 247.968
+        },
+        {
+          "text": "with",
+          "start": 247.968,
+          "end": 248.105
+        },
+        {
+          "text": "those",
+          "start": 248.105,
+          "end": 248.43
+        },
+        {
+          "text": "from",
+          "start": 248.43,
+          "end": 248.568
+        },
+        {
+          "text": "the",
+          "start": 248.568,
+          "end": 248.655
+        },
+        {
+          "text": "JSON",
+          "start": 248.655,
+          "end": 249.368
+        },
+        {
+          "text": "file",
+          "start": 249.368,
+          "end": 249.893
+        },
+        {
+          "text": "to",
+          "start": 249.893,
+          "end": 250.055
+        },
+        {
+          "text": "ensure",
+          "start": 250.055,
+          "end": 250.455
+        },
+        {
+          "text": "they",
+          "start": 250.455,
+          "end": 250.605
+        },
+        {
+          "text": "match",
+          "start": 250.605,
+          "end": 251.48
+        },
+        {
+          "text": ".",
+          "start": 251.48,
+          "end": 251.68
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "h4",
+      "text": "Example Usage",
+      "start": 252.0,
+      "end": 253.675,
+      "words": [
+        {
+          "text": "Example",
+          "start": 252.25,
+          "end": 252.75
+        },
+        {
+          "text": "Usage",
+          "start": 252.75,
+          "end": 253.675
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "Common Pitfalls When Handling HTML Encoded Strings",
+      "start": 254.17,
+      "end": 258.095,
+      "words": [
+        {
+          "text": "Common",
+          "start": 254.42,
+          "end": 254.745
+        },
+        {
+          "text": "Pitfalls",
+          "start": 254.745,
+          "end": 255.257
+        },
+        {
+          "text": "When",
+          "start": 255.257,
+          "end": 255.395
+        },
+        {
+          "text": "Handling",
+          "start": 255.395,
+          "end": 255.82
+        },
+        {
+          "text": "HTML",
+          "start": 255.82,
+          "end": 256.62
+        },
+        {
+          "text": "Encoded",
+          "start": 256.62,
+          "end": 257.12
+        },
+        {
+          "text": "Strings",
+          "start": 257.12,
+          "end": 258.095
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Incomplete Decoding:",
+      "start": 258.565,
+      "end": 260.74,
+      "words": [
+        {
+          "text": "Incomplete",
+          "start": 258.815,
+          "end": 259.49
+        },
+        {
+          "text": "Decoding",
+          "start": 259.49,
+          "end": 260.565
+        },
+        {
+          "text": ":",
+          "start": 260.565,
+          "end": 260.74
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Ensure that all HTML encoded characters are properly decoded. Missing out on certain characters can lead to incorrect comparisons.",
+      "start": 261.06,
+      "end": 269.91,
+      "words": [
+        {
+          "text": "Ensure",
+          "start": 261.335,
+          "end": 261.76
+        },
+        {
+          "text": "that",
+          "start": 261.76,
+          "end": 261.935
+        },
+        {
+          "text": "all",
+          "start": 261.935,
+          "end": 262.16
+        },
+        {
+          "text": "HTML",
+          "start": 262.16,
+          "end": 262.985
+        },
+        {
+          "text": "encoded",
+          "start": 262.985,
+          "end": 263.485
+        },
+        {
+          "text": "characters",
+          "start": 263.485,
+          "end": 264.035
+        },
+        {
+          "text": "are",
+          "start": 264.035,
+          "end": 264.135
+        },
+        {
+          "text": "properly",
+          "start": 264.135,
+          "end": 264.56
+        },
+        {
+          "text": "decoded",
+          "start": 264.56,
+          "end": 265.61
+        },
+        {
+          "text": ".",
+          "start": 265.61,
+          "end": 265.748
+        },
+        {
+          "text": "Missing",
+          "start": 265.748,
+          "end": 266.06
+        },
+        {
+          "text": "out",
+          "start": 266.06,
+          "end": 266.248
+        },
+        {
+          "text": "on",
+          "start": 266.248,
+          "end": 266.41
+        },
+        {
+          "text": "certain",
+          "start": 266.41,
+          "end": 266.785
+        },
+        {
+          "text": "characters",
+          "start": 266.785,
+          "end": 267.435
+        },
+        {
+          "text": "can",
+          "start": 267.435,
+          "end": 267.61
+        },
+        {
+          "text": "lead",
+          "start": 267.61,
+          "end": 267.835
+        },
+        {
+          "text": "to",
+          "start": 267.835,
+          "end": 267.96
+        },
+        {
+          "text": "incorrect",
+          "start": 267.96,
+          "end": 268.46
+        },
+        {
+          "text": "comparisons",
+          "start": 268.46,
+          "end": 269.71
+        },
+        {
+          "text": ".",
+          "start": 269.71,
+          "end": 269.91
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "Improper Regular Expressions:",
+      "start": 270.23,
+      "end": 272.83,
+      "words": [
+        {
+          "text": "Improper",
+          "start": 270.48,
+          "end": 270.992
+        },
+        {
+          "text": "Regular",
+          "start": 270.992,
+          "end": 271.43
+        },
+        {
+          "text": "Expressions",
+          "start": 271.43,
+          "end": 272.63
+        },
+        {
+          "text": ":",
+          "start": 272.63,
+          "end": 272.83
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Using incorrect or overly broad regular expressions can result in removing necessary content or failing to remove all HTML tags.",
+      "start": 273.15,
+      "end": 282.725,
+      "words": [
+        {
+          "text": "Using",
+          "start": 273.425,
+          "end": 273.75
+        },
+        {
+          "text": "incorrect",
+          "start": 273.75,
+          "end": 274.388
+        },
+        {
+          "text": "or",
+          "start": 274.388,
+          "end": 274.563
+        },
+        {
+          "text": "overly",
+          "start": 274.563,
+          "end": 274.975
+        },
+        {
+          "text": "broad",
+          "start": 274.975,
+          "end": 275.325
+        },
+        {
+          "text": "regular",
+          "start": 275.325,
+          "end": 275.725
+        },
+        {
+          "text": "expressions",
+          "start": 275.725,
+          "end": 276.825
+        },
+        {
+          "text": "can",
+          "start": 276.825,
+          "end": 277.012
+        },
+        {
+          "text": "result",
+          "start": 277.012,
+          "end": 277.4
+        },
+        {
+          "text": "in",
+          "start": 277.4,
+          "end": 277.525
+        },
+        {
+          "text": "removing",
+          "start": 277.525,
+          "end": 278.025
+        },
+        {
+          "text": "necessary",
+          "start": 278.025,
+          "end": 278.525
+        },
+        {
+          "text": "content",
+          "start": 278.525,
+          "end": 279.475
+        },
+        {
+          "text": "or",
+          "start": 279.475,
+          "end": 279.663
+        },
+        {
+          "text": "failing",
+          "start": 279.663,
+          "end": 280.1
+        },
+        {
+          "text": "to",
+          "start": 280.1,
+          "end": 280.2
+        },
+        {
+          "text": "remove",
+          "start": 280.2,
+          "end": 280.6
+        },
+        {
+          "text": "all",
+          "start": 280.6,
+          "end": 280.825
+        },
+        {
+          "text": "HTML",
+          "start": 280.825,
+          "end": 281.6
+        },
+        {
+          "text": "tags",
+          "start": 281.6,
+          "end": 282.55
+        },
+        {
+          "text": ".",
+          "start": 282.55,
+          "end": 282.725
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "Case Sensitivity:",
+      "start": 283.045,
+      "end": 285.12,
+      "words": [
+        {
+          "text": "Case",
+          "start": 283.295,
+          "end": 283.595
+        },
+        {
+          "text": "Sensitivity",
+          "start": 283.595,
+          "end": 284.945
+        },
+        {
+          "text": ":",
+          "start": 284.945,
+          "end": 285.12
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "li",
+      "text": "Comparisons should be case-insensitive to avoid mismatches due to different casing.",
+      "start": 285.44,
+      "end": 290.915,
+      "words": [
+        {
+          "text": "Comparisons",
+          "start": 285.69,
+          "end": 286.415
+        },
+        {
+          "text": "should",
+          "start": 286.415,
+          "end": 286.553
+        },
+        {
+          "text": "be",
+          "start": 286.553,
+          "end": 286.665
+        },
+        {
+          "text": "case-insensitive",
+          "start": 286.665,
+          "end": 287.79
+        },
+        {
+          "text": "to",
+          "start": 287.79,
+          "end": 287.94
+        },
+        {
+          "text": "avoid",
+          "start": 287.94,
+          "end": 288.315
+        },
+        {
+          "text": "mismatches",
+          "start": 288.315,
+          "end": 289.153
+        },
+        {
+          "text": "due",
+          "start": 289.153,
+          "end": 289.34
+        },
+        {
+          "text": "to",
+          "start": 289.34,
+          "end": 289.44
+        },
+        {
+          "text": "different",
+          "start": 289.44,
+          "end": 289.74
+        },
+        {
+          "text": "casing",
+          "start": 289.74,
+          "end": 290.74
+        },
+        {
+          "text": ".",
+          "start": 290.74,
+          "end": 290.915
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Whitespace Handling:",
+      "start": 291.235,
+      "end": 293.185,
+      "words": [
+        {
+          "text": "Whitespace",
+          "start": 291.485,
+          "end": 292.035
+        },
+        {
+          "text": "Handling",
+          "start": 292.035,
+          "end": 293.01
+        },
+        {
+          "text": ":",
+          "start": 293.01,
+          "end": 293.185
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Extra spaces or newline characters can cause mismatches. Ensure that strings are trimmed and unnecessary whitespace is removed.",
+      "start": 293.505,
+      "end": 301.855,
+      "words": [
+        {
+          "text": "Extra",
+          "start": 293.755,
+          "end": 294.105
+        },
+        {
+          "text": "spaces",
+          "start": 294.105,
+          "end": 294.717
+        },
+        {
+          "text": "or",
+          "start": 294.717,
+          "end": 294.855
+        },
+        {
+          "text": "newline",
+          "start": 294.855,
+          "end": 295.18
+        },
+        {
+          "text": "characters",
+          "start": 295.18,
+          "end": 295.78
+        },
+        {
+          "text": "can",
+          "start": 295.78,
+          "end": 295.98
+        },
+        {
+          "text": "cause",
+          "start": 295.98,
+          "end": 296.255
+        },
+        {
+          "text": "mismatches",
+          "start": 296.255,
+          "end": 297.38
+        },
+        {
+          "text": ".",
+          "start": 297.38,
+          "end": 297.492
+        },
+        {
+          "text": "Ensure",
+          "start": 297.492,
+          "end": 297.93
+        },
+        {
+          "text": "that",
+          "start": 297.93,
+          "end": 298.055
+        },
+        {
+          "text": "strings",
+          "start": 298.055,
+          "end": 298.417
+        },
+        {
+          "text": "are",
+          "start": 298.417,
+          "end": 298.505
+        },
+        {
+          "text": "trimmed",
+          "start": 298.505,
+          "end": 299.018
+        },
+        {
+          "text": "and",
+          "start": 299.018,
+          "end": 299.167
+        },
+        {
+          "text": "unnecessary",
+          "start": 299.167,
+          "end": 299.88
+        },
+        {
+          "text": "whitespace",
+          "start": 299.88,
+          "end": 300.48
+        },
+        {
+          "text": "is",
+          "start": 300.48,
+          "end": 300.63
+        },
+        {
+          "text": "removed",
+          "start": 300.63,
+          "end": 301.655
+        },
+        {
+          "text": ".",
+          "start": 301.655,
+          "end": 301.855
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "Performance Issues:",
+      "start": 302.175,
+      "end": 304.15,
+      "words": [
+        {
+          "text": "Performance",
+          "start": 302.4,
+          "end": 302.975
+        },
+        {
+          "text": "Issues",
+          "start": 302.975,
+          "end": 303.975
+        },
+        {
+          "text": ":",
+          "start": 303.975,
+          "end": 304.15
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "li",
+      "text": "Decoding and cleaning large amounts of text can be resource-intensive. Optimize your code to handle large datasets efficiently.",
+      "start": 304.47,
+      "end": 312.67,
+      "words": [
+        {
+          "text": "Decoding",
+          "start": 304.72,
+          "end": 305.32
+        },
+        {
+          "text": "and",
+          "start": 305.32,
+          "end": 305.445
+        },
+        {
+          "text": "cleaning",
+          "start": 305.445,
+          "end": 305.82
+        },
+        {
+          "text": "large",
+          "start": 305.82,
+          "end": 306.108
+        },
+        {
+          "text": "amounts",
+          "start": 306.108,
+          "end": 306.458
+        },
+        {
+          "text": "of",
+          "start": 306.458,
+          "end": 306.545
+        },
+        {
+          "text": "text",
+          "start": 306.545,
+          "end": 307.045
+        },
+        {
+          "text": "can",
+          "start": 307.045,
+          "end": 307.208
+        },
+        {
+          "text": "be",
+          "start": 307.208,
+          "end": 307.32
+        },
+        {
+          "text": "resource-intensive",
+          "start": 307.32,
+          "end": 308.82
+        },
+        {
+          "text": ".",
+          "start": 308.82,
+          "end": 308.958
+        },
+        {
+          "text": "Optimize",
+          "start": 308.958,
+          "end": 309.52
+        },
+        {
+          "text": "your",
+          "start": 309.52,
+          "end": 309.645
+        },
+        {
+          "text": "code",
+          "start": 309.645,
+          "end": 309.995
+        },
+        {
+          "text": "to",
+          "start": 309.995,
+          "end": 310.095
+        },
+        {
+          "text": "handle",
+          "start": 310.095,
+          "end": 310.47
+        },
+        {
+          "text": "large",
+          "start": 310.47,
+          "end": 310.795
+        },
+        {
+          "text": "datasets",
+          "start": 310.795,
+          "end": 311.395
+        },
+        {
+          "text": "efficiently",
+          "start": 311.395,
+          "end": 312.47
+        },
+        {
+          "text": ".",
+          "start": 312.47,
+          "end": 312.67
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Encoding Variations:",
+      "start": 312.99,
+      "end": 315.265,
+      "words": [
+        {
+          "text": "Encoding",
+          "start": 313.265,
+          "end": 313.79
+        },
+        {
+          "text": "Variations",
+          "start": 313.79,
+          "end": 315.065
+        },
+        {
+          "text": ":",
+          "start": 315.065,
+          "end": 315.265
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Different sources might use different encoding schemes. Ensure consistency in encoding across all data sources.",
+      "start": 315.585,
+      "end": 322.71,
+      "words": [
+        {
+          "text": "Different",
+          "start": 315.835,
+          "end": 316.11
+        },
+        {
+          "text": "sources",
+          "start": 316.11,
+          "end": 316.66
+        },
+        {
+          "text": "might",
+          "start": 316.66,
+          "end": 316.86
+        },
+        {
+          "text": "use",
+          "start": 316.86,
+          "end": 317.085
+        },
+        {
+          "text": "different",
+          "start": 317.085,
+          "end": 317.41
+        },
+        {
+          "text": "encoding",
+          "start": 317.41,
+          "end": 317.91
+        },
+        {
+          "text": "schemes",
+          "start": 317.91,
+          "end": 318.76
+        },
+        {
+          "text": ".",
+          "start": 318.76,
+          "end": 318.873
+        },
+        {
+          "text": "Ensure",
+          "start": 318.873,
+          "end": 319.31
+        },
+        {
+          "text": "consistency",
+          "start": 319.31,
+          "end": 320.01
+        },
+        {
+          "text": "in",
+          "start": 320.01,
+          "end": 320.098
+        },
+        {
+          "text": "encoding",
+          "start": 320.098,
+          "end": 320.585
+        },
+        {
+          "text": "across",
+          "start": 320.585,
+          "end": 320.935
+        },
+        {
+          "text": "all",
+          "start": 320.935,
+          "end": 321.16
+        },
+        {
+          "text": "data",
+          "start": 321.16,
+          "end": 321.485
+        },
+        {
+          "text": "sources",
+          "start": 321.485,
+          "end": 322.535
+        },
+        {
+          "text": ".",
+          "start": 322.535,
+          "end": 322.71
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "p",
+      "text": "By being aware of these pitfalls and following best practices, you can effectively handle HTML encoded strings in your applications.",
+      "start": 323.03,
+      "end": 331.355,
+      "words": [
+        {
+          "text": "By",
+          "start": 323.28,
+          "end": 323.43
+        },
+        {
+          "text": "being",
+          "start": 323.43,
+          "end": 323.68
+        },
+        {
+          "text": "aware",
+          "start": 323.68,
+          "end": 323.942
+        },
+        {
+          "text": "of",
+          "start": 323.942,
+          "end": 324.017
+        },
+        {
+          "text": "these",
+          "start": 324.017,
+          "end": 324.255
+        },
+        {
+          "text": "pitfalls",
+          "start": 324.255,
+          "end": 324.855
+        },
+        {
+          "text": "and",
+          "start": 324.855,
+          "end": 324.992
+        },
+        {
+          "text": "following",
+          "start": 324.992,
+          "end": 325.43
+        },
+        {
+          "text": "best",
+          "start": 325.43,
+          "end": 325.68
+        },
+        {
+          "text": "practices",
+          "start": 325.68,
+          "end": 326.73
+        },
+        {
+          "text": ",",
+          "start": 326.73,
+          "end": 326.83
+        },
+        {
+          "text": "you",
+          "start": 326.83,
+          "end": 326.942
+        },
+        {
+          "text": "can",
+          "start": 326.942,
+          "end": 327.042
+        },
+        {
+          "text": "effectively",
+          "start": 327.042,
+          "end": 327.605
+        },
+        {
+          "text": "handle",
+          "start": 327.605,
+          "end": 327.992
+        },
+        {
+          "text": "HTML",
+          "start": 327.992,
+          "end": 328.78
+        },
+        {
+          "text": "encoded",
+          "start": 328.78,
+          "end": 329.28
+        },
+        {
+          "text": "strings",
+          "start": 329.28,
+          "end": 329.692
+        },
+        {
+          "text": "in",
+          "start": 329.692,
+          "end": 329.767
+        },
+        {
+          "text": "your",
+          "start": 329.767,
+          "end": 329.867
+        },
+        {
+          "text": "applications",
+          "start": 329.867,
+          "end": 331.18
+        },
+        {
+          "text": ".",
+          "start": 331.18,
+          "end": 331.355
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 331.675,
+      "end": 333.875,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 331.95,
+          "end": 332.5
+        },
+        {
+          "text": "and",
+          "start": 332.5,
+          "end": 332.637
+        },
+        {
+          "text": "Further",
+          "start": 332.637,
+          "end": 333.0
+        },
+        {
+          "text": "Reading",
+          "start": 333.0,
+          "end": 333.875
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "Playwright .NET , intro",
+      "start": 334.32,
+      "end": 336.27,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 334.545,
+          "end": 334.945
+        },
+        {
+          "text": ".NET",
+          "start": 334.945,
+          "end": 335.308
+        },
+        {
+          "text": ",",
+          "start": 335.308,
+          "end": 335.358
+        },
+        {
+          "text": "intro",
+          "start": 335.358,
+          "end": 336.27
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "System.Net.WebUtility.HtmlDecode , Microsoft docs",
+      "start": 336.79,
+      "end": 341.44,
+      "words": [
+        {
+          "text": "System",
+          "start": 337.065,
+          "end": 337.44
+        },
+        {
+          "text": ".",
+          "start": 337.44,
+          "end": 337.49
+        },
+        {
+          "text": "Net",
+          "start": 337.49,
+          "end": 337.74
+        },
+        {
+          "text": ".",
+          "start": 337.74,
+          "end": 337.79
+        },
+        {
+          "text": "WebUtility",
+          "start": 337.79,
+          "end": 338.79
+        },
+        {
+          "text": ".",
+          "start": 338.79,
+          "end": 338.89
+        },
+        {
+          "text": "HtmlDecode",
+          "start": 338.89,
+          "end": 340.002
+        },
+        {
+          "text": ",",
+          "start": 340.002,
+          "end": 340.053
+        },
+        {
+          "text": "Microsoft",
+          "start": 340.053,
+          "end": 340.565
+        },
+        {
+          "text": "docs",
+          "start": 340.565,
+          "end": 341.44
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "HtmlAgilityPack , HTML parsing for .NET",
+      "start": 341.935,
+      "end": 346.06,
+      "words": [
+        {
+          "text": "HtmlAgilityPack",
+          "start": 342.185,
+          "end": 343.847
+        },
+        {
+          "text": ",",
+          "start": 343.847,
+          "end": 343.935
+        },
+        {
+          "text": "HTML",
+          "start": 343.935,
+          "end": 344.685
+        },
+        {
+          "text": "parsing",
+          "start": 344.685,
+          "end": 345.135
+        },
+        {
+          "text": "for",
+          "start": 345.135,
+          "end": 345.247
+        },
+        {
+          "text": ".",
+          "start": 345.247,
+          "end": 345.31
+        },
+        {
+          "text": "NET",
+          "start": 345.31,
+          "end": 346.06
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "li",
+      "text": "Playwright locators , text matching",
+      "start": 346.53,
+      "end": 349.23,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 346.755,
+          "end": 347.143
+        },
+        {
+          "text": "locators",
+          "start": 347.143,
+          "end": 347.843
+        },
+        {
+          "text": ",",
+          "start": 347.843,
+          "end": 347.905
+        },
+        {
+          "text": "text",
+          "start": 347.905,
+          "end": 348.255
+        },
+        {
+          "text": "matching",
+          "start": 348.255,
+          "end": 349.23
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "p",
+      "text": "See also: Mastering Playwright .NET (Sep 2024) , the full DI + Page Object setup this decoding logic plugs into.",
+      "start": 349.65,
+      "end": 358.225,
+      "words": [
+        {
+          "text": "See",
+          "start": 349.925,
+          "end": 350.063
+        },
+        {
+          "text": "also",
+          "start": 350.063,
+          "end": 350.525
+        },
+        {
+          "text": ":",
+          "start": 350.525,
+          "end": 350.6
+        },
+        {
+          "text": "Mastering",
+          "start": 350.6,
+          "end": 351.025
+        },
+        {
+          "text": "Playwright",
+          "start": 351.025,
+          "end": 351.713
+        },
+        {
+          "text": ".",
+          "start": 351.713,
+          "end": 351.8
+        },
+        {
+          "text": "NET",
+          "start": 351.8,
+          "end": 352.075
+        },
+        {
+          "text": "(",
+          "start": 352.075,
+          "end": 352.15
+        },
+        {
+          "text": "Sep",
+          "start": 352.15,
+          "end": 352.375
+        },
+        {
+          "text": "2024",
+          "start": 352.375,
+          "end": 353.5
+        },
+        {
+          "text": ")",
+          "start": 353.5,
+          "end": 353.625
+        },
+        {
+          "text": ",",
+          "start": 353.625,
+          "end": 353.688
+        },
+        {
+          "text": "the",
+          "start": 353.688,
+          "end": 353.788
+        },
+        {
+          "text": "full",
+          "start": 353.788,
+          "end": 354.063
+        },
+        {
+          "text": "DI",
+          "start": 354.063,
+          "end": 354.45
+        },
+        {
+          "text": "+",
+          "start": 354.45,
+          "end": 354.725
+        },
+        {
+          "text": "Page",
+          "start": 354.725,
+          "end": 355.075
+        },
+        {
+          "text": "Object",
+          "start": 355.075,
+          "end": 355.5
+        },
+        {
+          "text": "setup",
+          "start": 355.5,
+          "end": 355.875
+        },
+        {
+          "text": "this",
+          "start": 355.875,
+          "end": 356.075
+        },
+        {
+          "text": "decoding",
+          "start": 356.075,
+          "end": 356.525
+        },
+        {
+          "text": "logic",
+          "start": 356.525,
+          "end": 356.825
+        },
+        {
+          "text": "plugs",
+          "start": 356.825,
+          "end": 357.138
+        },
+        {
+          "text": "into",
+          "start": 357.138,
+          "end": 358.05
+        },
+        {
+          "text": ".",
+          "start": 358.05,
+          "end": 358.225
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

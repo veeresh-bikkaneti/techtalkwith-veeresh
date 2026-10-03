@@ -1,0 +1,4359 @@
+{
+  "slug": "selenium-net-framework-development-guide",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 319.24,
+  "contentHash": "dd3addc49cbc6749afc005238fddf4879cb032c590aeb42521dd0b4526acb8fb",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Framework Development Guide for Selenium C#",
+      "start": 0.0,
+      "end": 2.975,
+      "words": [
+        {
+          "text": "Framework",
+          "start": 0.275,
+          "end": 0.675
+        },
+        {
+          "text": "Development",
+          "start": 0.675,
+          "end": 1.2
+        },
+        {
+          "text": "Guide",
+          "start": 1.2,
+          "end": 1.575
+        },
+        {
+          "text": "for",
+          "start": 1.575,
+          "end": 1.7
+        },
+        {
+          "text": "Selenium",
+          "start": 1.7,
+          "end": 2.212
+        },
+        {
+          "text": "C",
+          "start": 2.212,
+          "end": 2.975
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "I've torn down and rebuilt more Selenium C# frameworks than I care to count. This is the architecture that finally stuck , layered, boring on purpose, and maintainable when the team turns over.",
+      "start": 3.42,
+      "end": 15.17,
+      "words": [
+        {
+          "text": "I've",
+          "start": 3.67,
+          "end": 3.82
+        },
+        {
+          "text": "torn",
+          "start": 3.82,
+          "end": 4.12
+        },
+        {
+          "text": "down",
+          "start": 4.12,
+          "end": 4.495
+        },
+        {
+          "text": "and",
+          "start": 4.495,
+          "end": 4.607
+        },
+        {
+          "text": "rebuilt",
+          "start": 4.607,
+          "end": 4.97
+        },
+        {
+          "text": "more",
+          "start": 4.97,
+          "end": 5.17
+        },
+        {
+          "text": "Selenium",
+          "start": 5.17,
+          "end": 5.732
+        },
+        {
+          "text": "C#",
+          "start": 5.732,
+          "end": 6.17
+        },
+        {
+          "text": "frameworks",
+          "start": 6.17,
+          "end": 6.658
+        },
+        {
+          "text": "than",
+          "start": 6.658,
+          "end": 6.758
+        },
+        {
+          "text": "I",
+          "start": 6.758,
+          "end": 6.895
+        },
+        {
+          "text": "care",
+          "start": 6.895,
+          "end": 7.12
+        },
+        {
+          "text": "to",
+          "start": 7.12,
+          "end": 7.22
+        },
+        {
+          "text": "count",
+          "start": 7.22,
+          "end": 8.195
+        },
+        {
+          "text": ".",
+          "start": 8.195,
+          "end": 8.308
+        },
+        {
+          "text": "This",
+          "start": 8.308,
+          "end": 8.52
+        },
+        {
+          "text": "is",
+          "start": 8.52,
+          "end": 8.633
+        },
+        {
+          "text": "the",
+          "start": 8.633,
+          "end": 8.77
+        },
+        {
+          "text": "architecture",
+          "start": 8.77,
+          "end": 9.37
+        },
+        {
+          "text": "that",
+          "start": 9.37,
+          "end": 9.582
+        },
+        {
+          "text": "finally",
+          "start": 9.582,
+          "end": 10.033
+        },
+        {
+          "text": "stuck",
+          "start": 10.033,
+          "end": 10.607
+        },
+        {
+          "text": ",",
+          "start": 10.607,
+          "end": 10.695
+        },
+        {
+          "text": "layered",
+          "start": 10.695,
+          "end": 11.145
+        },
+        {
+          "text": ",",
+          "start": 11.145,
+          "end": 11.22
+        },
+        {
+          "text": "boring",
+          "start": 11.22,
+          "end": 11.557
+        },
+        {
+          "text": "on",
+          "start": 11.557,
+          "end": 11.67
+        },
+        {
+          "text": "purpose",
+          "start": 11.67,
+          "end": 12.47
+        },
+        {
+          "text": ",",
+          "start": 12.47,
+          "end": 12.57
+        },
+        {
+          "text": "and",
+          "start": 12.57,
+          "end": 12.682
+        },
+        {
+          "text": "maintainable",
+          "start": 12.682,
+          "end": 13.357
+        },
+        {
+          "text": "when",
+          "start": 13.357,
+          "end": 13.482
+        },
+        {
+          "text": "the",
+          "start": 13.482,
+          "end": 13.57
+        },
+        {
+          "text": "team",
+          "start": 13.57,
+          "end": 13.845
+        },
+        {
+          "text": "turns",
+          "start": 13.845,
+          "end": 14.145
+        },
+        {
+          "text": "over",
+          "start": 14.145,
+          "end": 14.97
+        },
+        {
+          "text": ".",
+          "start": 14.97,
+          "end": 15.17
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "What you need:",
+      "start": 15.49,
+      "end": 17.04,
+      "words": [
+        {
+          "text": "What",
+          "start": 15.715,
+          "end": 15.915
+        },
+        {
+          "text": "you",
+          "start": 15.915,
+          "end": 16.04
+        },
+        {
+          "text": "need",
+          "start": 16.04,
+          "end": 16.84
+        },
+        {
+          "text": ":",
+          "start": 16.84,
+          "end": 17.04
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "li",
+      "text": "WebDriver layer , abstracts browser setup so you can swap Chrome for Firefox without touching a test",
+      "start": 17.36,
+      "end": 23.26,
+      "words": [
+        {
+          "text": "WebDriver",
+          "start": 17.61,
+          "end": 18.085
+        },
+        {
+          "text": "layer",
+          "start": 18.085,
+          "end": 18.46
+        },
+        {
+          "text": ",",
+          "start": 18.46,
+          "end": 18.535
+        },
+        {
+          "text": "abstracts",
+          "start": 18.535,
+          "end": 19.035
+        },
+        {
+          "text": "browser",
+          "start": 19.035,
+          "end": 19.41
+        },
+        {
+          "text": "setup",
+          "start": 19.41,
+          "end": 20.023
+        },
+        {
+          "text": "so",
+          "start": 20.023,
+          "end": 20.185
+        },
+        {
+          "text": "you",
+          "start": 20.185,
+          "end": 20.297
+        },
+        {
+          "text": "can",
+          "start": 20.297,
+          "end": 20.41
+        },
+        {
+          "text": "swap",
+          "start": 20.41,
+          "end": 20.685
+        },
+        {
+          "text": "Chrome",
+          "start": 20.685,
+          "end": 20.96
+        },
+        {
+          "text": "for",
+          "start": 20.96,
+          "end": 21.085
+        },
+        {
+          "text": "Firefox",
+          "start": 21.085,
+          "end": 21.648
+        },
+        {
+          "text": "without",
+          "start": 21.648,
+          "end": 21.96
+        },
+        {
+          "text": "touching",
+          "start": 21.96,
+          "end": 22.297
+        },
+        {
+          "text": "a",
+          "start": 22.297,
+          "end": 22.36
+        },
+        {
+          "text": "test",
+          "start": 22.36,
+          "end": 23.26
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "li",
+      "text": "Page Objects , each page is one class; change the HTML, fix one place",
+      "start": 23.755,
+      "end": 28.98,
+      "words": [
+        {
+          "text": "Page",
+          "start": 23.98,
+          "end": 24.255
+        },
+        {
+          "text": "Objects",
+          "start": 24.255,
+          "end": 24.718
+        },
+        {
+          "text": ",",
+          "start": 24.718,
+          "end": 24.767
+        },
+        {
+          "text": "each",
+          "start": 24.767,
+          "end": 24.955
+        },
+        {
+          "text": "page",
+          "start": 24.955,
+          "end": 25.267
+        },
+        {
+          "text": "is",
+          "start": 25.267,
+          "end": 25.38
+        },
+        {
+          "text": "one",
+          "start": 25.38,
+          "end": 25.605
+        },
+        {
+          "text": "class",
+          "start": 25.605,
+          "end": 26.28
+        },
+        {
+          "text": ";",
+          "start": 26.28,
+          "end": 26.393
+        },
+        {
+          "text": "change",
+          "start": 26.393,
+          "end": 26.693
+        },
+        {
+          "text": "the",
+          "start": 26.693,
+          "end": 26.83
+        },
+        {
+          "text": "HTML",
+          "start": 26.83,
+          "end": 27.555
+        },
+        {
+          "text": ",",
+          "start": 27.555,
+          "end": 27.605
+        },
+        {
+          "text": "fix",
+          "start": 27.605,
+          "end": 27.855
+        },
+        {
+          "text": "one",
+          "start": 27.855,
+          "end": 28.08
+        },
+        {
+          "text": "place",
+          "start": 28.08,
+          "end": 28.98
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "li",
+      "text": "SpecFlow for BDD , write tests in English; developers and testers speak the same language",
+      "start": 29.475,
+      "end": 35.1,
+      "words": [
+        {
+          "text": "SpecFlow",
+          "start": 29.725,
+          "end": 30.225
+        },
+        {
+          "text": "for",
+          "start": 30.225,
+          "end": 30.35
+        },
+        {
+          "text": "BDD",
+          "start": 30.35,
+          "end": 30.962
+        },
+        {
+          "text": ",",
+          "start": 30.962,
+          "end": 31.025
+        },
+        {
+          "text": "write",
+          "start": 31.025,
+          "end": 31.3
+        },
+        {
+          "text": "tests",
+          "start": 31.3,
+          "end": 31.638
+        },
+        {
+          "text": "in",
+          "start": 31.638,
+          "end": 31.712
+        },
+        {
+          "text": "English",
+          "start": 31.712,
+          "end": 32.5
+        },
+        {
+          "text": ";",
+          "start": 32.5,
+          "end": 32.6
+        },
+        {
+          "text": "developers",
+          "start": 32.6,
+          "end": 33.112
+        },
+        {
+          "text": "and",
+          "start": 33.112,
+          "end": 33.225
+        },
+        {
+          "text": "testers",
+          "start": 33.225,
+          "end": 33.675
+        },
+        {
+          "text": "speak",
+          "start": 33.675,
+          "end": 33.962
+        },
+        {
+          "text": "the",
+          "start": 33.962,
+          "end": 34.05
+        },
+        {
+          "text": "same",
+          "start": 34.05,
+          "end": 34.325
+        },
+        {
+          "text": "language",
+          "start": 34.325,
+          "end": 35.1
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "Dependency Injection , no tight coupling; database, API, UI layers are swappable",
+      "start": 35.67,
+      "end": 41.47,
+      "words": [
+        {
+          "text": "Dependency",
+          "start": 35.92,
+          "end": 36.483
+        },
+        {
+          "text": "Injection",
+          "start": 36.483,
+          "end": 37.07
+        },
+        {
+          "text": ",",
+          "start": 37.07,
+          "end": 37.145
+        },
+        {
+          "text": "no",
+          "start": 37.145,
+          "end": 37.32
+        },
+        {
+          "text": "tight",
+          "start": 37.32,
+          "end": 37.595
+        },
+        {
+          "text": "coupling",
+          "start": 37.595,
+          "end": 38.32
+        },
+        {
+          "text": ";",
+          "start": 38.32,
+          "end": 38.42
+        },
+        {
+          "text": "database",
+          "start": 38.42,
+          "end": 38.995
+        },
+        {
+          "text": ",",
+          "start": 38.995,
+          "end": 39.045
+        },
+        {
+          "text": "API",
+          "start": 39.045,
+          "end": 39.62
+        },
+        {
+          "text": ",",
+          "start": 39.62,
+          "end": 39.67
+        },
+        {
+          "text": "UI",
+          "start": 39.67,
+          "end": 39.97
+        },
+        {
+          "text": "layers",
+          "start": 39.97,
+          "end": 40.308
+        },
+        {
+          "text": "are",
+          "start": 40.308,
+          "end": 40.395
+        },
+        {
+          "text": "swappable",
+          "start": 40.395,
+          "end": 41.47
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Database + API helpers , SQL, Cosmos, MongoDB, REST, GraphQL all supported",
+      "start": 41.915,
+      "end": 48.24,
+      "words": [
+        {
+          "text": "Database",
+          "start": 42.165,
+          "end": 42.64
+        },
+        {
+          "text": "+",
+          "start": 42.64,
+          "end": 42.915
+        },
+        {
+          "text": "API",
+          "start": 42.915,
+          "end": 43.44
+        },
+        {
+          "text": "helpers",
+          "start": 43.44,
+          "end": 44.09
+        },
+        {
+          "text": ",",
+          "start": 44.09,
+          "end": 44.165
+        },
+        {
+          "text": "SQL",
+          "start": 44.165,
+          "end": 44.665
+        },
+        {
+          "text": ",",
+          "start": 44.665,
+          "end": 44.74
+        },
+        {
+          "text": "Cosmos",
+          "start": 44.74,
+          "end": 45.215
+        },
+        {
+          "text": ",",
+          "start": 45.215,
+          "end": 45.265
+        },
+        {
+          "text": "MongoDB",
+          "start": 45.265,
+          "end": 45.965
+        },
+        {
+          "text": ",",
+          "start": 45.965,
+          "end": 46.015
+        },
+        {
+          "text": "REST",
+          "start": 46.015,
+          "end": 46.365
+        },
+        {
+          "text": ",",
+          "start": 46.365,
+          "end": 46.415
+        },
+        {
+          "text": "GraphQL",
+          "start": 46.415,
+          "end": 47.04
+        },
+        {
+          "text": "all",
+          "start": 47.04,
+          "end": 47.265
+        },
+        {
+          "text": "supported",
+          "start": 47.265,
+          "end": 48.24
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Allure reports , traces that tell the why when a test fails",
+      "start": 48.76,
+      "end": 52.56,
+      "words": [
+        {
+          "text": "Allure",
+          "start": 49.01,
+          "end": 49.31
+        },
+        {
+          "text": "reports",
+          "start": 49.31,
+          "end": 49.923
+        },
+        {
+          "text": ",",
+          "start": 49.923,
+          "end": 49.985
+        },
+        {
+          "text": "traces",
+          "start": 49.985,
+          "end": 50.423
+        },
+        {
+          "text": "that",
+          "start": 50.423,
+          "end": 50.535
+        },
+        {
+          "text": "tell",
+          "start": 50.535,
+          "end": 50.748
+        },
+        {
+          "text": "the",
+          "start": 50.748,
+          "end": 50.835
+        },
+        {
+          "text": "why",
+          "start": 50.835,
+          "end": 51.072
+        },
+        {
+          "text": "when",
+          "start": 51.072,
+          "end": 51.198
+        },
+        {
+          "text": "a",
+          "start": 51.198,
+          "end": 51.26
+        },
+        {
+          "text": "test",
+          "start": 51.26,
+          "end": 51.56
+        },
+        {
+          "text": "fails",
+          "start": 51.56,
+          "end": 52.56
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "This isn't a toy. This is the architecture I'd use if I had to hand this off to a new team tomorrow.",
+      "start": 53.03,
+      "end": 59.23,
+      "words": [
+        {
+          "text": "This",
+          "start": 53.28,
+          "end": 53.48
+        },
+        {
+          "text": "isn't",
+          "start": 53.48,
+          "end": 53.742
+        },
+        {
+          "text": "a",
+          "start": 53.742,
+          "end": 53.842
+        },
+        {
+          "text": "toy",
+          "start": 53.842,
+          "end": 54.53
+        },
+        {
+          "text": ".",
+          "start": 54.53,
+          "end": 54.655
+        },
+        {
+          "text": "This",
+          "start": 54.655,
+          "end": 54.905
+        },
+        {
+          "text": "is",
+          "start": 54.905,
+          "end": 55.017
+        },
+        {
+          "text": "the",
+          "start": 55.017,
+          "end": 55.155
+        },
+        {
+          "text": "architecture",
+          "start": 55.155,
+          "end": 55.855
+        },
+        {
+          "text": "I'd",
+          "start": 55.855,
+          "end": 56.03
+        },
+        {
+          "text": "use",
+          "start": 56.03,
+          "end": 56.242
+        },
+        {
+          "text": "if",
+          "start": 56.242,
+          "end": 56.342
+        },
+        {
+          "text": "I",
+          "start": 56.342,
+          "end": 56.455
+        },
+        {
+          "text": "had",
+          "start": 56.455,
+          "end": 56.63
+        },
+        {
+          "text": "to",
+          "start": 56.63,
+          "end": 56.755
+        },
+        {
+          "text": "hand",
+          "start": 56.755,
+          "end": 56.992
+        },
+        {
+          "text": "this",
+          "start": 56.992,
+          "end": 57.155
+        },
+        {
+          "text": "off",
+          "start": 57.155,
+          "end": 57.405
+        },
+        {
+          "text": "to",
+          "start": 57.405,
+          "end": 57.505
+        },
+        {
+          "text": "a",
+          "start": 57.505,
+          "end": 57.58
+        },
+        {
+          "text": "new",
+          "start": 57.58,
+          "end": 57.78
+        },
+        {
+          "text": "team",
+          "start": 57.78,
+          "end": 58.055
+        },
+        {
+          "text": "tomorrow",
+          "start": 58.055,
+          "end": 59.005
+        },
+        {
+          "text": ".",
+          "start": 59.005,
+          "end": 59.23
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h2",
+      "text": "Architecture Foundations",
+      "start": 59.55,
+      "end": 61.725,
+      "words": [
+        {
+          "text": "Architecture",
+          "start": 59.8,
+          "end": 60.45
+        },
+        {
+          "text": "Foundations",
+          "start": 60.45,
+          "end": 61.725
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Think of the framework as layers: presentation, application, domain, infrastructure. Each layer talks to the next through interfaces. When requirements change, you update one layer. Tests stay green.",
+      "start": 62.22,
+      "end": 74.495,
+      "words": [
+        {
+          "text": "Think",
+          "start": 62.495,
+          "end": 62.658
+        },
+        {
+          "text": "of",
+          "start": 62.658,
+          "end": 62.733
+        },
+        {
+          "text": "the",
+          "start": 62.733,
+          "end": 62.82
+        },
+        {
+          "text": "framework",
+          "start": 62.82,
+          "end": 63.295
+        },
+        {
+          "text": "as",
+          "start": 63.295,
+          "end": 63.445
+        },
+        {
+          "text": "layers",
+          "start": 63.445,
+          "end": 64.12
+        },
+        {
+          "text": ":",
+          "start": 64.12,
+          "end": 64.22
+        },
+        {
+          "text": "presentation",
+          "start": 64.22,
+          "end": 64.995
+        },
+        {
+          "text": ",",
+          "start": 64.995,
+          "end": 65.033
+        },
+        {
+          "text": "application",
+          "start": 65.033,
+          "end": 65.695
+        },
+        {
+          "text": ",",
+          "start": 65.695,
+          "end": 65.745
+        },
+        {
+          "text": "domain",
+          "start": 65.745,
+          "end": 66.12
+        },
+        {
+          "text": ",",
+          "start": 66.12,
+          "end": 66.158
+        },
+        {
+          "text": "infrastructure",
+          "start": 66.158,
+          "end": 67.295
+        },
+        {
+          "text": ".",
+          "start": 67.295,
+          "end": 67.483
+        },
+        {
+          "text": "Each",
+          "start": 67.483,
+          "end": 67.745
+        },
+        {
+          "text": "layer",
+          "start": 67.745,
+          "end": 68.045
+        },
+        {
+          "text": "talks",
+          "start": 68.045,
+          "end": 68.345
+        },
+        {
+          "text": "to",
+          "start": 68.345,
+          "end": 68.433
+        },
+        {
+          "text": "the",
+          "start": 68.433,
+          "end": 68.52
+        },
+        {
+          "text": "next",
+          "start": 68.52,
+          "end": 68.82
+        },
+        {
+          "text": "through",
+          "start": 68.82,
+          "end": 68.958
+        },
+        {
+          "text": "interfaces",
+          "start": 68.958,
+          "end": 70.145
+        },
+        {
+          "text": ".",
+          "start": 70.145,
+          "end": 70.245
+        },
+        {
+          "text": "When",
+          "start": 70.245,
+          "end": 70.395
+        },
+        {
+          "text": "requirements",
+          "start": 70.395,
+          "end": 70.983
+        },
+        {
+          "text": "change",
+          "start": 70.983,
+          "end": 71.395
+        },
+        {
+          "text": ",",
+          "start": 71.395,
+          "end": 71.445
+        },
+        {
+          "text": "you",
+          "start": 71.445,
+          "end": 71.558
+        },
+        {
+          "text": "update",
+          "start": 71.558,
+          "end": 71.945
+        },
+        {
+          "text": "one",
+          "start": 71.945,
+          "end": 72.17
+        },
+        {
+          "text": "layer",
+          "start": 72.17,
+          "end": 72.67
+        },
+        {
+          "text": ".",
+          "start": 72.67,
+          "end": 72.783
+        },
+        {
+          "text": "Tests",
+          "start": 72.783,
+          "end": 73.145
+        },
+        {
+          "text": "stay",
+          "start": 73.145,
+          "end": 73.42
+        },
+        {
+          "text": "green",
+          "start": 73.42,
+          "end": 74.32
+        },
+        {
+          "text": ".",
+          "start": 74.32,
+          "end": 74.495
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "Why Interfaces First",
+      "start": 74.815,
+      "end": 76.715,
+      "words": [
+        {
+          "text": "Why",
+          "start": 75.065,
+          "end": 75.265
+        },
+        {
+          "text": "Interfaces",
+          "start": 75.265,
+          "end": 75.94
+        },
+        {
+          "text": "First",
+          "start": 75.94,
+          "end": 76.715
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "Your tests shouldn't care if you're using Cosmos or SQL. Your Selenium layer shouldn't know what database lives behind it. Interfaces enforce this separation. Define IUserRepository, then write implementations , SQL one, Cosmos one, Mock one for tests. Swap them at runtime.",
+      "start": 77.26,
+      "end": 94.56,
+      "words": [
+        {
+          "text": "Your",
+          "start": 77.535,
+          "end": 77.66
+        },
+        {
+          "text": "tests",
+          "start": 77.66,
+          "end": 77.935
+        },
+        {
+          "text": "shouldn't",
+          "start": 77.935,
+          "end": 78.16
+        },
+        {
+          "text": "care",
+          "start": 78.16,
+          "end": 78.423
+        },
+        {
+          "text": "if",
+          "start": 78.423,
+          "end": 78.523
+        },
+        {
+          "text": "you're",
+          "start": 78.523,
+          "end": 78.635
+        },
+        {
+          "text": "using",
+          "start": 78.635,
+          "end": 78.935
+        },
+        {
+          "text": "Cosmos",
+          "start": 78.935,
+          "end": 79.46
+        },
+        {
+          "text": "or",
+          "start": 79.46,
+          "end": 79.623
+        },
+        {
+          "text": "SQL",
+          "start": 79.623,
+          "end": 80.46
+        },
+        {
+          "text": ".",
+          "start": 80.46,
+          "end": 80.56
+        },
+        {
+          "text": "Your",
+          "start": 80.56,
+          "end": 80.71
+        },
+        {
+          "text": "Selenium",
+          "start": 80.71,
+          "end": 81.185
+        },
+        {
+          "text": "layer",
+          "start": 81.185,
+          "end": 81.498
+        },
+        {
+          "text": "shouldn't",
+          "start": 81.498,
+          "end": 81.735
+        },
+        {
+          "text": "know",
+          "start": 81.735,
+          "end": 81.91
+        },
+        {
+          "text": "what",
+          "start": 81.91,
+          "end": 82.06
+        },
+        {
+          "text": "database",
+          "start": 82.06,
+          "end": 82.585
+        },
+        {
+          "text": "lives",
+          "start": 82.585,
+          "end": 82.86
+        },
+        {
+          "text": "behind",
+          "start": 82.86,
+          "end": 83.285
+        },
+        {
+          "text": "it",
+          "start": 83.285,
+          "end": 83.885
+        },
+        {
+          "text": ".",
+          "start": 83.885,
+          "end": 84.01
+        },
+        {
+          "text": "Interfaces",
+          "start": 84.01,
+          "end": 84.66
+        },
+        {
+          "text": "enforce",
+          "start": 84.66,
+          "end": 85.135
+        },
+        {
+          "text": "this",
+          "start": 85.135,
+          "end": 85.31
+        },
+        {
+          "text": "separation",
+          "start": 85.31,
+          "end": 86.435
+        },
+        {
+          "text": ".",
+          "start": 86.435,
+          "end": 86.547
+        },
+        {
+          "text": "Define",
+          "start": 86.547,
+          "end": 86.985
+        },
+        {
+          "text": "IUserRepository",
+          "start": 86.985,
+          "end": 88.135
+        },
+        {
+          "text": ",",
+          "start": 88.135,
+          "end": 88.21
+        },
+        {
+          "text": "then",
+          "start": 88.21,
+          "end": 88.435
+        },
+        {
+          "text": "write",
+          "start": 88.435,
+          "end": 88.672
+        },
+        {
+          "text": "implementations",
+          "start": 88.672,
+          "end": 89.735
+        },
+        {
+          "text": ",",
+          "start": 89.735,
+          "end": 89.81
+        },
+        {
+          "text": "SQL",
+          "start": 89.81,
+          "end": 90.16
+        },
+        {
+          "text": "one",
+          "start": 90.16,
+          "end": 90.435
+        },
+        {
+          "text": ",",
+          "start": 90.435,
+          "end": 90.485
+        },
+        {
+          "text": "Cosmos",
+          "start": 90.485,
+          "end": 90.935
+        },
+        {
+          "text": "one",
+          "start": 90.935,
+          "end": 91.16
+        },
+        {
+          "text": ",",
+          "start": 91.16,
+          "end": 91.21
+        },
+        {
+          "text": "Mock",
+          "start": 91.21,
+          "end": 91.435
+        },
+        {
+          "text": "one",
+          "start": 91.435,
+          "end": 91.66
+        },
+        {
+          "text": "for",
+          "start": 91.66,
+          "end": 91.785
+        },
+        {
+          "text": "tests",
+          "start": 91.785,
+          "end": 92.66
+        },
+        {
+          "text": ".",
+          "start": 92.66,
+          "end": 92.81
+        },
+        {
+          "text": "Swap",
+          "start": 92.81,
+          "end": 93.097
+        },
+        {
+          "text": "them",
+          "start": 93.097,
+          "end": 93.248
+        },
+        {
+          "text": "at",
+          "start": 93.248,
+          "end": 93.335
+        },
+        {
+          "text": "runtime",
+          "start": 93.335,
+          "end": 94.36
+        },
+        {
+          "text": ".",
+          "start": 94.36,
+          "end": 94.56
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "h3",
+      "text": "Technology Stack",
+      "start": 94.88,
+      "end": 96.43,
+      "words": [
+        {
+          "text": "Technology",
+          "start": 95.13,
+          "end": 95.755
+        },
+        {
+          "text": "Stack",
+          "start": 95.755,
+          "end": 96.43
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "li",
+      "text": "xUnit , Faster, cleaner assertions than NUnit. Parallel by default.",
+      "start": 97.0,
+      "end": 102.25,
+      "words": [
+        {
+          "text": "xUnit",
+          "start": 97.25,
+          "end": 97.687
+        },
+        {
+          "text": ",",
+          "start": 97.687,
+          "end": 97.75
+        },
+        {
+          "text": "Faster",
+          "start": 97.75,
+          "end": 98.25
+        },
+        {
+          "text": ",",
+          "start": 98.25,
+          "end": 98.325
+        },
+        {
+          "text": "cleaner",
+          "start": 98.325,
+          "end": 98.65
+        },
+        {
+          "text": "assertions",
+          "start": 98.65,
+          "end": 99.3
+        },
+        {
+          "text": "than",
+          "start": 99.3,
+          "end": 99.45
+        },
+        {
+          "text": "NUnit",
+          "start": 99.45,
+          "end": 100.25
+        },
+        {
+          "text": ".",
+          "start": 100.25,
+          "end": 100.362
+        },
+        {
+          "text": "Parallel",
+          "start": 100.362,
+          "end": 100.825
+        },
+        {
+          "text": "by",
+          "start": 100.825,
+          "end": 101.0
+        },
+        {
+          "text": "default",
+          "start": 101.0,
+          "end": 102.05
+        },
+        {
+          "text": ".",
+          "start": 102.05,
+          "end": 102.25
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "SpecFlow , Gherkin syntax bridges QA and dev. Tests read like requirements.",
+      "start": 102.57,
+      "end": 108.07,
+      "words": [
+        {
+          "text": "SpecFlow",
+          "start": 102.82,
+          "end": 103.332
+        },
+        {
+          "text": ",",
+          "start": 103.332,
+          "end": 103.395
+        },
+        {
+          "text": "Gherkin",
+          "start": 103.395,
+          "end": 103.77
+        },
+        {
+          "text": "syntax",
+          "start": 103.77,
+          "end": 104.27
+        },
+        {
+          "text": "bridges",
+          "start": 104.27,
+          "end": 104.62
+        },
+        {
+          "text": "QA",
+          "start": 104.62,
+          "end": 105.07
+        },
+        {
+          "text": "and",
+          "start": 105.07,
+          "end": 105.195
+        },
+        {
+          "text": "dev",
+          "start": 105.195,
+          "end": 105.82
+        },
+        {
+          "text": ".",
+          "start": 105.82,
+          "end": 105.932
+        },
+        {
+          "text": "Tests",
+          "start": 105.932,
+          "end": 106.32
+        },
+        {
+          "text": "read",
+          "start": 106.32,
+          "end": 106.557
+        },
+        {
+          "text": "like",
+          "start": 106.557,
+          "end": 106.732
+        },
+        {
+          "text": "requirements",
+          "start": 106.732,
+          "end": 107.87
+        },
+        {
+          "text": ".",
+          "start": 107.87,
+          "end": 108.07
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Dependency Injection , Microsoft.Extensions DI is lightweight and battle-tested.",
+      "start": 108.39,
+      "end": 114.54,
+      "words": [
+        {
+          "text": "Dependency",
+          "start": 108.64,
+          "end": 109.29
+        },
+        {
+          "text": "Injection",
+          "start": 109.29,
+          "end": 109.852
+        },
+        {
+          "text": ",",
+          "start": 109.852,
+          "end": 109.915
+        },
+        {
+          "text": "Microsoft",
+          "start": 109.915,
+          "end": 110.94
+        },
+        {
+          "text": ".",
+          "start": 110.94,
+          "end": 111.065
+        },
+        {
+          "text": "Extensions",
+          "start": 111.065,
+          "end": 111.703
+        },
+        {
+          "text": "DI",
+          "start": 111.703,
+          "end": 112.215
+        },
+        {
+          "text": "is",
+          "start": 112.215,
+          "end": 112.365
+        },
+        {
+          "text": "lightweight",
+          "start": 112.365,
+          "end": 112.94
+        },
+        {
+          "text": "and",
+          "start": 112.94,
+          "end": 113.065
+        },
+        {
+          "text": "battle-tested",
+          "start": 113.065,
+          "end": 114.34
+        },
+        {
+          "text": ".",
+          "start": 114.34,
+          "end": 114.54
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Database support , Dapper (SQL), Azure Cosmos SDK, MongoDB.Driver.",
+      "start": 114.86,
+      "end": 120.235,
+      "words": [
+        {
+          "text": "Database",
+          "start": 115.11,
+          "end": 115.56
+        },
+        {
+          "text": "support",
+          "start": 115.56,
+          "end": 115.998
+        },
+        {
+          "text": ",",
+          "start": 115.998,
+          "end": 116.048
+        },
+        {
+          "text": "Dapper",
+          "start": 116.048,
+          "end": 116.323
+        },
+        {
+          "text": "(",
+          "start": 116.323,
+          "end": 116.385
+        },
+        {
+          "text": "SQL",
+          "start": 116.385,
+          "end": 117.06
+        },
+        {
+          "text": ")",
+          "start": 117.06,
+          "end": 117.16
+        },
+        {
+          "text": ",",
+          "start": 117.16,
+          "end": 117.235
+        },
+        {
+          "text": "Azure",
+          "start": 117.235,
+          "end": 117.485
+        },
+        {
+          "text": "Cosmos",
+          "start": 117.485,
+          "end": 117.91
+        },
+        {
+          "text": "SDK",
+          "start": 117.91,
+          "end": 118.435
+        },
+        {
+          "text": ",",
+          "start": 118.435,
+          "end": 118.485
+        },
+        {
+          "text": "MongoDB.Driver",
+          "start": 118.485,
+          "end": 120.06
+        },
+        {
+          "text": ".",
+          "start": 120.06,
+          "end": 120.235
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "API support , RestSharp (REST), GraphQL.Client.",
+      "start": 120.555,
+      "end": 124.73,
+      "words": [
+        {
+          "text": "API",
+          "start": 120.83,
+          "end": 121.33
+        },
+        {
+          "text": "support",
+          "start": 121.33,
+          "end": 121.793
+        },
+        {
+          "text": ",",
+          "start": 121.793,
+          "end": 121.843
+        },
+        {
+          "text": "RestSharp",
+          "start": 121.843,
+          "end": 122.367
+        },
+        {
+          "text": "(",
+          "start": 122.367,
+          "end": 122.43
+        },
+        {
+          "text": "REST",
+          "start": 122.43,
+          "end": 122.83
+        },
+        {
+          "text": ")",
+          "start": 122.83,
+          "end": 122.905
+        },
+        {
+          "text": ",",
+          "start": 122.905,
+          "end": 122.955
+        },
+        {
+          "text": "GraphQL.Client",
+          "start": 122.955,
+          "end": 124.53
+        },
+        {
+          "text": ".",
+          "start": 124.53,
+          "end": 124.73
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Reporting , Allure gives you traces, not just pass/fail.",
+      "start": 125.05,
+      "end": 128.975,
+      "words": [
+        {
+          "text": "Reporting",
+          "start": 125.3,
+          "end": 125.913
+        },
+        {
+          "text": ",",
+          "start": 125.913,
+          "end": 125.962
+        },
+        {
+          "text": "Allure",
+          "start": 125.962,
+          "end": 126.275
+        },
+        {
+          "text": "gives",
+          "start": 126.275,
+          "end": 126.437
+        },
+        {
+          "text": "you",
+          "start": 126.437,
+          "end": 126.55
+        },
+        {
+          "text": "traces",
+          "start": 126.55,
+          "end": 127.175
+        },
+        {
+          "text": ",",
+          "start": 127.175,
+          "end": 127.225
+        },
+        {
+          "text": "not",
+          "start": 127.225,
+          "end": 127.425
+        },
+        {
+          "text": "just",
+          "start": 127.425,
+          "end": 127.625
+        },
+        {
+          "text": "pass/fail",
+          "start": 127.625,
+          "end": 128.8
+        },
+        {
+          "text": ".",
+          "start": 128.8,
+          "end": 128.975
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "h3",
+      "text": "Folder Structure",
+      "start": 129.295,
+      "end": 130.795,
+      "words": [
+        {
+          "text": "Folder",
+          "start": 129.545,
+          "end": 129.945
+        },
+        {
+          "text": "Structure",
+          "start": 129.945,
+          "end": 130.795
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h2",
+      "text": "Building It , Step by Step",
+      "start": 131.49,
+      "end": 133.565,
+      "words": [
+        {
+          "text": "Building",
+          "start": 131.715,
+          "end": 132.09
+        },
+        {
+          "text": "It",
+          "start": 132.09,
+          "end": 132.278
+        },
+        {
+          "text": ",",
+          "start": 132.278,
+          "end": 132.34
+        },
+        {
+          "text": "Step",
+          "start": 132.34,
+          "end": 132.64
+        },
+        {
+          "text": "by",
+          "start": 132.64,
+          "end": 132.84
+        },
+        {
+          "text": "Step",
+          "start": 132.84,
+          "end": 133.565
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h3",
+      "text": "Setup",
+      "start": 134.085,
+      "end": 134.785,
+      "words": [
+        {
+          "text": "Setup",
+          "start": 134.36,
+          "end": 134.785
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h3",
+      "text": "The WebDriver Factory",
+      "start": 135.13,
+      "end": 137.155,
+      "words": [
+        {
+          "text": "The",
+          "start": 135.38,
+          "end": 135.505
+        },
+        {
+          "text": "WebDriver",
+          "start": 135.505,
+          "end": 136.105
+        },
+        {
+          "text": "Factory",
+          "start": 136.105,
+          "end": 137.155
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "h3",
+      "text": "The Base Page (Shared Element Interactions)",
+      "start": 137.625,
+      "end": 140.85,
+      "words": [
+        {
+          "text": "The",
+          "start": 137.85,
+          "end": 137.925
+        },
+        {
+          "text": "Base",
+          "start": 137.925,
+          "end": 138.225
+        },
+        {
+          "text": "Page",
+          "start": 138.225,
+          "end": 138.65
+        },
+        {
+          "text": "(",
+          "start": 138.65,
+          "end": 138.75
+        },
+        {
+          "text": "Shared",
+          "start": 138.75,
+          "end": 139.025
+        },
+        {
+          "text": "Element",
+          "start": 139.025,
+          "end": 139.413
+        },
+        {
+          "text": "Interactions",
+          "start": 139.413,
+          "end": 140.65
+        },
+        {
+          "text": ")",
+          "start": 140.65,
+          "end": 140.85
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "Every page has locators and waits. BasePage is where they live.",
+      "start": 141.17,
+      "end": 145.695,
+      "words": [
+        {
+          "text": "Every",
+          "start": 141.42,
+          "end": 141.695
+        },
+        {
+          "text": "page",
+          "start": 141.695,
+          "end": 142.032
+        },
+        {
+          "text": "has",
+          "start": 142.032,
+          "end": 142.195
+        },
+        {
+          "text": "locators",
+          "start": 142.195,
+          "end": 142.808
+        },
+        {
+          "text": "and",
+          "start": 142.808,
+          "end": 142.92
+        },
+        {
+          "text": "waits",
+          "start": 142.92,
+          "end": 143.57
+        },
+        {
+          "text": ".",
+          "start": 143.57,
+          "end": 143.67
+        },
+        {
+          "text": "BasePage",
+          "start": 143.67,
+          "end": 144.295
+        },
+        {
+          "text": "is",
+          "start": 144.295,
+          "end": 144.42
+        },
+        {
+          "text": "where",
+          "start": 144.42,
+          "end": 144.583
+        },
+        {
+          "text": "they",
+          "start": 144.583,
+          "end": 144.72
+        },
+        {
+          "text": "live",
+          "start": 144.72,
+          "end": 145.495
+        },
+        {
+          "text": ".",
+          "start": 145.495,
+          "end": 145.695
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h3",
+      "text": "The Base Test (Setup and Teardown)",
+      "start": 146.015,
+      "end": 148.69,
+      "words": [
+        {
+          "text": "The",
+          "start": 146.24,
+          "end": 146.315
+        },
+        {
+          "text": "Base",
+          "start": 146.315,
+          "end": 146.615
+        },
+        {
+          "text": "Test",
+          "start": 146.615,
+          "end": 147.015
+        },
+        {
+          "text": "(",
+          "start": 147.015,
+          "end": 147.09
+        },
+        {
+          "text": "Setup",
+          "start": 147.09,
+          "end": 147.478
+        },
+        {
+          "text": "and",
+          "start": 147.478,
+          "end": 147.59
+        },
+        {
+          "text": "Teardown",
+          "start": 147.59,
+          "end": 148.49
+        },
+        {
+          "text": ")",
+          "start": 148.49,
+          "end": 148.69
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h3",
+      "text": "A Real Page Object",
+      "start": 149.01,
+      "end": 150.985,
+      "words": [
+        {
+          "text": "A",
+          "start": 149.26,
+          "end": 149.348
+        },
+        {
+          "text": "Real",
+          "start": 149.348,
+          "end": 149.672
+        },
+        {
+          "text": "Page",
+          "start": 149.672,
+          "end": 150.085
+        },
+        {
+          "text": "Object",
+          "start": 150.085,
+          "end": 150.985
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "h2",
+      "text": "SpecFlow for Readability",
+      "start": 151.505,
+      "end": 153.755,
+      "words": [
+        {
+          "text": "SpecFlow",
+          "start": 151.755,
+          "end": 152.38
+        },
+        {
+          "text": "for",
+          "start": 152.38,
+          "end": 152.505
+        },
+        {
+          "text": "Readability",
+          "start": 152.505,
+          "end": 153.755
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "Write scenarios in English. The step definitions bridge to your Page Objects.",
+      "start": 154.2,
+      "end": 159.425,
+      "words": [
+        {
+          "text": "Write",
+          "start": 154.475,
+          "end": 154.75
+        },
+        {
+          "text": "scenarios",
+          "start": 154.75,
+          "end": 155.35
+        },
+        {
+          "text": "in",
+          "start": 155.35,
+          "end": 155.438
+        },
+        {
+          "text": "English",
+          "start": 155.438,
+          "end": 156.175
+        },
+        {
+          "text": ".",
+          "start": 156.175,
+          "end": 156.275
+        },
+        {
+          "text": "The",
+          "start": 156.275,
+          "end": 156.375
+        },
+        {
+          "text": "step",
+          "start": 156.375,
+          "end": 156.675
+        },
+        {
+          "text": "definitions",
+          "start": 156.675,
+          "end": 157.325
+        },
+        {
+          "text": "bridge",
+          "start": 157.325,
+          "end": 157.625
+        },
+        {
+          "text": "to",
+          "start": 157.625,
+          "end": 157.713
+        },
+        {
+          "text": "your",
+          "start": 157.713,
+          "end": 157.9
+        },
+        {
+          "text": "Page",
+          "start": 157.9,
+          "end": 158.2
+        },
+        {
+          "text": "Objects",
+          "start": 158.2,
+          "end": 159.225
+        },
+        {
+          "text": ".",
+          "start": 159.225,
+          "end": 159.425
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h3",
+      "text": "The Feature File",
+      "start": 159.745,
+      "end": 161.07,
+      "words": [
+        {
+          "text": "The",
+          "start": 159.97,
+          "end": 160.108
+        },
+        {
+          "text": "Feature",
+          "start": 160.108,
+          "end": 160.508
+        },
+        {
+          "text": "File",
+          "start": 160.508,
+          "end": 161.07
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h3",
+      "text": "The Step Definitions",
+      "start": 161.615,
+      "end": 163.49,
+      "words": [
+        {
+          "text": "The",
+          "start": 161.84,
+          "end": 161.965
+        },
+        {
+          "text": "Step",
+          "start": 161.965,
+          "end": 162.265
+        },
+        {
+          "text": "Definitions",
+          "start": 162.265,
+          "end": 163.49
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h2",
+      "text": "Database Helpers , Abstraction for Multiple Stores",
+      "start": 163.985,
+      "end": 167.56,
+      "words": [
+        {
+          "text": "Database",
+          "start": 164.235,
+          "end": 164.785
+        },
+        {
+          "text": "Helpers",
+          "start": 164.785,
+          "end": 165.298
+        },
+        {
+          "text": ",",
+          "start": 165.298,
+          "end": 165.36
+        },
+        {
+          "text": "Abstraction",
+          "start": 165.36,
+          "end": 165.96
+        },
+        {
+          "text": "for",
+          "start": 165.96,
+          "end": 166.085
+        },
+        {
+          "text": "Multiple",
+          "start": 166.085,
+          "end": 166.56
+        },
+        {
+          "text": "Stores",
+          "start": 166.56,
+          "end": 167.56
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "SQL via Dapper",
+      "start": 168.03,
+      "end": 169.755,
+      "words": [
+        {
+          "text": "SQL",
+          "start": 168.305,
+          "end": 168.705
+        },
+        {
+          "text": "via",
+          "start": 168.705,
+          "end": 169.03
+        },
+        {
+          "text": "Dapper",
+          "start": 169.03,
+          "end": 169.755
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "h3",
+      "text": "Cosmos DB",
+      "start": 170.35,
+      "end": 172.1,
+      "words": [
+        {
+          "text": "Cosmos",
+          "start": 170.6,
+          "end": 171.138
+        },
+        {
+          "text": "DB",
+          "start": 171.138,
+          "end": 172.1
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "MongoDB",
+      "start": 172.545,
+      "end": 173.845,
+      "words": [
+        {
+          "text": "MongoDB",
+          "start": 172.795,
+          "end": 173.845
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h2",
+      "text": "API Helpers",
+      "start": 174.39,
+      "end": 176.215,
+      "words": [
+        {
+          "text": "API",
+          "start": 174.64,
+          "end": 175.215
+        },
+        {
+          "text": "Helpers",
+          "start": 175.215,
+          "end": 176.215
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h3",
+      "text": "REST (RestSharp)",
+      "start": 176.66,
+      "end": 178.535,
+      "words": [
+        {
+          "text": "REST",
+          "start": 176.935,
+          "end": 177.272
+        },
+        {
+          "text": "(",
+          "start": 177.272,
+          "end": 177.31
+        },
+        {
+          "text": "RestSharp",
+          "start": 177.31,
+          "end": 178.31
+        },
+        {
+          "text": ")",
+          "start": 178.31,
+          "end": 178.535
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h3",
+      "text": "GraphQL",
+      "start": 178.855,
+      "end": 179.905,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 179.105,
+          "end": 179.905
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "h2",
+      "text": "Wiring It All Up , Dependency Injection",
+      "start": 180.4,
+      "end": 183.45,
+      "words": [
+        {
+          "text": "Wiring",
+          "start": 180.675,
+          "end": 181.013
+        },
+        {
+          "text": "It",
+          "start": 181.013,
+          "end": 181.15
+        },
+        {
+          "text": "All",
+          "start": 181.15,
+          "end": 181.35
+        },
+        {
+          "text": "Up",
+          "start": 181.35,
+          "end": 181.625
+        },
+        {
+          "text": ",",
+          "start": 181.625,
+          "end": 181.7
+        },
+        {
+          "text": "Dependency",
+          "start": 181.7,
+          "end": 182.35
+        },
+        {
+          "text": "Injection",
+          "start": 182.35,
+          "end": 183.45
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "This is where the magic happens. Register everything once, swap implementations at runtime.",
+      "start": 183.92,
+      "end": 189.87,
+      "words": [
+        {
+          "text": "This",
+          "start": 184.17,
+          "end": 184.37
+        },
+        {
+          "text": "is",
+          "start": 184.37,
+          "end": 184.52
+        },
+        {
+          "text": "where",
+          "start": 184.52,
+          "end": 184.682
+        },
+        {
+          "text": "the",
+          "start": 184.682,
+          "end": 184.77
+        },
+        {
+          "text": "magic",
+          "start": 184.77,
+          "end": 185.095
+        },
+        {
+          "text": "happens",
+          "start": 185.095,
+          "end": 185.945
+        },
+        {
+          "text": ".",
+          "start": 185.945,
+          "end": 186.058
+        },
+        {
+          "text": "Register",
+          "start": 186.058,
+          "end": 186.52
+        },
+        {
+          "text": "everything",
+          "start": 186.52,
+          "end": 186.995
+        },
+        {
+          "text": "once",
+          "start": 186.995,
+          "end": 187.37
+        },
+        {
+          "text": ",",
+          "start": 187.37,
+          "end": 187.458
+        },
+        {
+          "text": "swap",
+          "start": 187.458,
+          "end": 187.732
+        },
+        {
+          "text": "implementations",
+          "start": 187.732,
+          "end": 188.558
+        },
+        {
+          "text": "at",
+          "start": 188.558,
+          "end": 188.645
+        },
+        {
+          "text": "runtime",
+          "start": 188.645,
+          "end": 189.67
+        },
+        {
+          "text": ".",
+          "start": 189.67,
+          "end": 189.87
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "h2",
+      "text": "Reporting with Allure",
+      "start": 190.19,
+      "end": 192.04,
+      "words": [
+        {
+          "text": "Reporting",
+          "start": 190.44,
+          "end": 191.065
+        },
+        {
+          "text": "with",
+          "start": 191.065,
+          "end": 191.203
+        },
+        {
+          "text": "Allure",
+          "start": 191.203,
+          "end": 192.04
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "p",
+      "text": "Don't just report pass/fail. Report why.",
+      "start": 192.56,
+      "end": 195.835,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 192.81,
+          "end": 193.06
+        },
+        {
+          "text": "just",
+          "start": 193.06,
+          "end": 193.248
+        },
+        {
+          "text": "report",
+          "start": 193.248,
+          "end": 193.61
+        },
+        {
+          "text": "pass/fail",
+          "start": 193.61,
+          "end": 194.36
+        },
+        {
+          "text": ".",
+          "start": 194.36,
+          "end": 194.46
+        },
+        {
+          "text": "Report",
+          "start": 194.46,
+          "end": 194.86
+        },
+        {
+          "text": "why",
+          "start": 194.86,
+          "end": 195.635
+        },
+        {
+          "text": ".",
+          "start": 195.635,
+          "end": 195.835
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "h2",
+      "text": "The Pattern in Practice , Use Cases",
+      "start": 196.155,
+      "end": 198.855,
+      "words": [
+        {
+          "text": "The",
+          "start": 196.38,
+          "end": 196.455
+        },
+        {
+          "text": "Pattern",
+          "start": 196.455,
+          "end": 196.805
+        },
+        {
+          "text": "in",
+          "start": 196.805,
+          "end": 196.955
+        },
+        {
+          "text": "Practice",
+          "start": 196.955,
+          "end": 197.467
+        },
+        {
+          "text": ",",
+          "start": 197.467,
+          "end": 197.53
+        },
+        {
+          "text": "Use",
+          "start": 197.53,
+          "end": 197.755
+        },
+        {
+          "text": "Cases",
+          "start": 197.755,
+          "end": 198.855
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "p",
+      "text": "A Use Case combines business logic and UI. It's where your tests do something meaningful.",
+      "start": 199.3,
+      "end": 205.0,
+      "words": [
+        {
+          "text": "A",
+          "start": 199.55,
+          "end": 199.625
+        },
+        {
+          "text": "Use",
+          "start": 199.625,
+          "end": 199.85
+        },
+        {
+          "text": "Case",
+          "start": 199.85,
+          "end": 200.15
+        },
+        {
+          "text": "combines",
+          "start": 200.15,
+          "end": 200.65
+        },
+        {
+          "text": "business",
+          "start": 200.65,
+          "end": 201.025
+        },
+        {
+          "text": "logic",
+          "start": 201.025,
+          "end": 201.4
+        },
+        {
+          "text": "and",
+          "start": 201.4,
+          "end": 201.525
+        },
+        {
+          "text": "UI",
+          "start": 201.525,
+          "end": 202.275
+        },
+        {
+          "text": ".",
+          "start": 202.275,
+          "end": 202.4
+        },
+        {
+          "text": "It's",
+          "start": 202.4,
+          "end": 202.563
+        },
+        {
+          "text": "where",
+          "start": 202.563,
+          "end": 202.688
+        },
+        {
+          "text": "your",
+          "start": 202.688,
+          "end": 202.8
+        },
+        {
+          "text": "tests",
+          "start": 202.8,
+          "end": 203.2
+        },
+        {
+          "text": "do",
+          "start": 203.2,
+          "end": 203.35
+        },
+        {
+          "text": "something",
+          "start": 203.35,
+          "end": 203.725
+        },
+        {
+          "text": "meaningful",
+          "start": 203.725,
+          "end": 204.8
+        },
+        {
+          "text": ".",
+          "start": 204.8,
+          "end": 205.0
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "p",
+      "text": "Notice: the Use Case doesn't know whether IUserRepository is SQL, Cosmos, or a mock. The LoginPage doesn't know what database backs it. This is the payoff of interfaces , swappable parts, testable code.",
+      "start": 205.32,
+      "end": 218.145,
+      "words": [
+        {
+          "text": "Notice",
+          "start": 205.62,
+          "end": 206.12
+        },
+        {
+          "text": ":",
+          "start": 206.12,
+          "end": 206.17
+        },
+        {
+          "text": "the",
+          "start": 206.17,
+          "end": 206.27
+        },
+        {
+          "text": "Use",
+          "start": 206.27,
+          "end": 206.495
+        },
+        {
+          "text": "Case",
+          "start": 206.495,
+          "end": 206.795
+        },
+        {
+          "text": "doesn't",
+          "start": 206.795,
+          "end": 207.058
+        },
+        {
+          "text": "know",
+          "start": 207.058,
+          "end": 207.245
+        },
+        {
+          "text": "whether",
+          "start": 207.245,
+          "end": 207.495
+        },
+        {
+          "text": "IUserRepository",
+          "start": 207.495,
+          "end": 208.52
+        },
+        {
+          "text": "is",
+          "start": 208.52,
+          "end": 208.658
+        },
+        {
+          "text": "SQL",
+          "start": 208.658,
+          "end": 209.095
+        },
+        {
+          "text": ",",
+          "start": 209.095,
+          "end": 209.145
+        },
+        {
+          "text": "Cosmos",
+          "start": 209.145,
+          "end": 209.695
+        },
+        {
+          "text": ",",
+          "start": 209.695,
+          "end": 209.77
+        },
+        {
+          "text": "or",
+          "start": 209.77,
+          "end": 209.883
+        },
+        {
+          "text": "a",
+          "start": 209.883,
+          "end": 209.945
+        },
+        {
+          "text": "mock",
+          "start": 209.945,
+          "end": 210.745
+        },
+        {
+          "text": ".",
+          "start": 210.745,
+          "end": 210.845
+        },
+        {
+          "text": "The",
+          "start": 210.845,
+          "end": 210.945
+        },
+        {
+          "text": "LoginPage",
+          "start": 210.945,
+          "end": 211.595
+        },
+        {
+          "text": "doesn't",
+          "start": 211.595,
+          "end": 211.858
+        },
+        {
+          "text": "know",
+          "start": 211.858,
+          "end": 212.02
+        },
+        {
+          "text": "what",
+          "start": 212.02,
+          "end": 212.17
+        },
+        {
+          "text": "database",
+          "start": 212.17,
+          "end": 212.695
+        },
+        {
+          "text": "backs",
+          "start": 212.695,
+          "end": 213.057
+        },
+        {
+          "text": "it",
+          "start": 213.057,
+          "end": 213.645
+        },
+        {
+          "text": ".",
+          "start": 213.645,
+          "end": 213.757
+        },
+        {
+          "text": "This",
+          "start": 213.757,
+          "end": 214.045
+        },
+        {
+          "text": "is",
+          "start": 214.045,
+          "end": 214.183
+        },
+        {
+          "text": "the",
+          "start": 214.183,
+          "end": 214.27
+        },
+        {
+          "text": "payoff",
+          "start": 214.27,
+          "end": 214.658
+        },
+        {
+          "text": "of",
+          "start": 214.658,
+          "end": 214.745
+        },
+        {
+          "text": "interfaces",
+          "start": 214.745,
+          "end": 215.545
+        },
+        {
+          "text": ",",
+          "start": 215.545,
+          "end": 215.62
+        },
+        {
+          "text": "swappable",
+          "start": 215.62,
+          "end": 216.095
+        },
+        {
+          "text": "parts",
+          "start": 216.095,
+          "end": 216.52
+        },
+        {
+          "text": ",",
+          "start": 216.52,
+          "end": 216.57
+        },
+        {
+          "text": "testable",
+          "start": 216.57,
+          "end": 217.07
+        },
+        {
+          "text": "code",
+          "start": 217.07,
+          "end": 217.945
+        },
+        {
+          "text": ".",
+          "start": 217.945,
+          "end": 218.145
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h2",
+      "text": "Lessons Learned",
+      "start": 218.465,
+      "end": 219.99,
+      "words": [
+        {
+          "text": "Lessons",
+          "start": 218.74,
+          "end": 219.19
+        },
+        {
+          "text": "Learned",
+          "start": 219.19,
+          "end": 219.99
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "p",
+      "text": "Here's what actually matters:",
+      "start": 220.51,
+      "end": 222.935,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 220.76,
+          "end": 221.11
+        },
+        {
+          "text": "what",
+          "start": 221.11,
+          "end": 221.285
+        },
+        {
+          "text": "actually",
+          "start": 221.285,
+          "end": 221.735
+        },
+        {
+          "text": "matters",
+          "start": 221.735,
+          "end": 222.76
+        },
+        {
+          "text": ":",
+          "start": 222.76,
+          "end": 222.935
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "Interfaces first , Define contracts before implementations. Test against interfaces, not concrete classes.",
+      "start": 223.255,
+      "end": 230.83,
+      "words": [
+        {
+          "text": "Interfaces",
+          "start": 223.505,
+          "end": 224.13
+        },
+        {
+          "text": "first",
+          "start": 224.13,
+          "end": 224.655
+        },
+        {
+          "text": ",",
+          "start": 224.655,
+          "end": 224.717
+        },
+        {
+          "text": "Define",
+          "start": 224.717,
+          "end": 225.13
+        },
+        {
+          "text": "contracts",
+          "start": 225.13,
+          "end": 225.68
+        },
+        {
+          "text": "before",
+          "start": 225.68,
+          "end": 225.967
+        },
+        {
+          "text": "implementations",
+          "start": 225.967,
+          "end": 227.355
+        },
+        {
+          "text": ".",
+          "start": 227.355,
+          "end": 227.468
+        },
+        {
+          "text": "Test",
+          "start": 227.468,
+          "end": 227.768
+        },
+        {
+          "text": "against",
+          "start": 227.768,
+          "end": 228.105
+        },
+        {
+          "text": "interfaces",
+          "start": 228.105,
+          "end": 228.855
+        },
+        {
+          "text": ",",
+          "start": 228.855,
+          "end": 228.905
+        },
+        {
+          "text": "not",
+          "start": 228.905,
+          "end": 229.105
+        },
+        {
+          "text": "concrete",
+          "start": 229.105,
+          "end": 229.555
+        },
+        {
+          "text": "classes",
+          "start": 229.555,
+          "end": 230.655
+        },
+        {
+          "text": ".",
+          "start": 230.655,
+          "end": 230.83
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "Layers separate concerns , Page Objects don't know about databases. Use Cases don't know about Selenium. Database helpers don't know about tests.",
+      "start": 231.15,
+      "end": 240.875,
+      "words": [
+        {
+          "text": "Layers",
+          "start": 231.45,
+          "end": 231.75
+        },
+        {
+          "text": "separate",
+          "start": 231.75,
+          "end": 232.1
+        },
+        {
+          "text": "concerns",
+          "start": 232.1,
+          "end": 232.713
+        },
+        {
+          "text": ",",
+          "start": 232.713,
+          "end": 232.775
+        },
+        {
+          "text": "Page",
+          "start": 232.775,
+          "end": 233.1
+        },
+        {
+          "text": "Objects",
+          "start": 233.1,
+          "end": 233.575
+        },
+        {
+          "text": "don't",
+          "start": 233.575,
+          "end": 233.8
+        },
+        {
+          "text": "know",
+          "start": 233.8,
+          "end": 233.988
+        },
+        {
+          "text": "about",
+          "start": 233.988,
+          "end": 234.275
+        },
+        {
+          "text": "databases",
+          "start": 234.275,
+          "end": 235.45
+        },
+        {
+          "text": ".",
+          "start": 235.45,
+          "end": 235.563
+        },
+        {
+          "text": "Use",
+          "start": 235.563,
+          "end": 235.8
+        },
+        {
+          "text": "Cases",
+          "start": 235.8,
+          "end": 236.25
+        },
+        {
+          "text": "don't",
+          "start": 236.25,
+          "end": 236.5
+        },
+        {
+          "text": "know",
+          "start": 236.5,
+          "end": 236.688
+        },
+        {
+          "text": "about",
+          "start": 236.688,
+          "end": 236.975
+        },
+        {
+          "text": "Selenium",
+          "start": 236.975,
+          "end": 237.9
+        },
+        {
+          "text": ".",
+          "start": 237.9,
+          "end": 238.013
+        },
+        {
+          "text": "Database",
+          "start": 238.013,
+          "end": 238.55
+        },
+        {
+          "text": "helpers",
+          "start": 238.55,
+          "end": 239.0
+        },
+        {
+          "text": "don't",
+          "start": 239.0,
+          "end": 239.225
+        },
+        {
+          "text": "know",
+          "start": 239.225,
+          "end": 239.388
+        },
+        {
+          "text": "about",
+          "start": 239.388,
+          "end": 239.675
+        },
+        {
+          "text": "tests",
+          "start": 239.675,
+          "end": 240.675
+        },
+        {
+          "text": ".",
+          "start": 240.675,
+          "end": 240.875
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "Async by default , Selenium and databases are I/O bound. Async gets you parallelism and responsive CI.",
+      "start": 241.195,
+      "end": 248.595,
+      "words": [
+        {
+          "text": "Async",
+          "start": 241.445,
+          "end": 241.795
+        },
+        {
+          "text": "by",
+          "start": 241.795,
+          "end": 241.97
+        },
+        {
+          "text": "default",
+          "start": 241.97,
+          "end": 242.545
+        },
+        {
+          "text": ",",
+          "start": 242.545,
+          "end": 242.62
+        },
+        {
+          "text": "Selenium",
+          "start": 242.62,
+          "end": 243.132
+        },
+        {
+          "text": "and",
+          "start": 243.132,
+          "end": 243.245
+        },
+        {
+          "text": "databases",
+          "start": 243.245,
+          "end": 243.92
+        },
+        {
+          "text": "are",
+          "start": 243.92,
+          "end": 244.02
+        },
+        {
+          "text": "I/O",
+          "start": 244.02,
+          "end": 244.37
+        },
+        {
+          "text": "bound",
+          "start": 244.37,
+          "end": 245.17
+        },
+        {
+          "text": ".",
+          "start": 245.17,
+          "end": 245.307
+        },
+        {
+          "text": "Async",
+          "start": 245.307,
+          "end": 245.695
+        },
+        {
+          "text": "gets",
+          "start": 245.695,
+          "end": 245.908
+        },
+        {
+          "text": "you",
+          "start": 245.908,
+          "end": 246.02
+        },
+        {
+          "text": "parallelism",
+          "start": 246.02,
+          "end": 246.745
+        },
+        {
+          "text": "and",
+          "start": 246.745,
+          "end": 246.857
+        },
+        {
+          "text": "responsive",
+          "start": 246.857,
+          "end": 247.445
+        },
+        {
+          "text": "CI",
+          "start": 247.445,
+          "end": 248.395
+        },
+        {
+          "text": ".",
+          "start": 248.395,
+          "end": 248.595
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "BDD for communication , Gherkin syncs QA and dev. When you write scenarios together, bugs drop by half.",
+      "start": 248.915,
+      "end": 256.215,
+      "words": [
+        {
+          "text": "BDD",
+          "start": 249.165,
+          "end": 249.665
+        },
+        {
+          "text": "for",
+          "start": 249.665,
+          "end": 249.79
+        },
+        {
+          "text": "communication",
+          "start": 249.79,
+          "end": 250.665
+        },
+        {
+          "text": ",",
+          "start": 250.665,
+          "end": 250.74
+        },
+        {
+          "text": "Gherkin",
+          "start": 250.74,
+          "end": 251.115
+        },
+        {
+          "text": "syncs",
+          "start": 251.115,
+          "end": 251.39
+        },
+        {
+          "text": "QA",
+          "start": 251.39,
+          "end": 251.865
+        },
+        {
+          "text": "and",
+          "start": 251.865,
+          "end": 251.99
+        },
+        {
+          "text": "dev",
+          "start": 251.99,
+          "end": 252.74
+        },
+        {
+          "text": ".",
+          "start": 252.74,
+          "end": 252.84
+        },
+        {
+          "text": "When",
+          "start": 252.84,
+          "end": 252.977
+        },
+        {
+          "text": "you",
+          "start": 252.977,
+          "end": 253.09
+        },
+        {
+          "text": "write",
+          "start": 253.09,
+          "end": 253.315
+        },
+        {
+          "text": "scenarios",
+          "start": 253.315,
+          "end": 253.865
+        },
+        {
+          "text": "together",
+          "start": 253.865,
+          "end": 254.24
+        },
+        {
+          "text": ",",
+          "start": 254.24,
+          "end": 254.315
+        },
+        {
+          "text": "bugs",
+          "start": 254.315,
+          "end": 254.69
+        },
+        {
+          "text": "drop",
+          "start": 254.69,
+          "end": 254.94
+        },
+        {
+          "text": "by",
+          "start": 254.94,
+          "end": 255.115
+        },
+        {
+          "text": "half",
+          "start": 255.115,
+          "end": 256.015
+        },
+        {
+          "text": ".",
+          "start": 256.015,
+          "end": 256.215
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "One folder, one responsibility , Models in Models/, Pages in Pages/, Helpers in Helpers/. No guessing where code lives.",
+      "start": 256.535,
+      "end": 264.56,
+      "words": [
+        {
+          "text": "One",
+          "start": 256.785,
+          "end": 257.022
+        },
+        {
+          "text": "folder",
+          "start": 257.022,
+          "end": 257.51
+        },
+        {
+          "text": ",",
+          "start": 257.51,
+          "end": 257.585
+        },
+        {
+          "text": "one",
+          "start": 257.585,
+          "end": 257.772
+        },
+        {
+          "text": "responsibility",
+          "start": 257.772,
+          "end": 258.622
+        },
+        {
+          "text": ",",
+          "start": 258.622,
+          "end": 258.685
+        },
+        {
+          "text": "Models",
+          "start": 258.685,
+          "end": 259.06
+        },
+        {
+          "text": "in",
+          "start": 259.06,
+          "end": 259.185
+        },
+        {
+          "text": "Models/",
+          "start": 259.185,
+          "end": 259.835
+        },
+        {
+          "text": ",",
+          "start": 259.835,
+          "end": 259.935
+        },
+        {
+          "text": "Pages",
+          "start": 259.935,
+          "end": 260.36
+        },
+        {
+          "text": "in",
+          "start": 260.36,
+          "end": 260.51
+        },
+        {
+          "text": "Pages/",
+          "start": 260.51,
+          "end": 261.285
+        },
+        {
+          "text": ",",
+          "start": 261.285,
+          "end": 261.385
+        },
+        {
+          "text": "Helpers",
+          "start": 261.385,
+          "end": 261.835
+        },
+        {
+          "text": "in",
+          "start": 261.835,
+          "end": 261.96
+        },
+        {
+          "text": "Helpers/.",
+          "start": 261.96,
+          "end": 262.41
+        },
+        {
+          "text": "No",
+          "start": 262.41,
+          "end": 262.585
+        },
+        {
+          "text": "guessing",
+          "start": 262.585,
+          "end": 262.935
+        },
+        {
+          "text": "where",
+          "start": 262.935,
+          "end": 263.085
+        },
+        {
+          "text": "code",
+          "start": 263.085,
+          "end": 263.41
+        },
+        {
+          "text": "lives",
+          "start": 263.41,
+          "end": 264.36
+        },
+        {
+          "text": ".",
+          "start": 264.36,
+          "end": 264.56
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "h2",
+      "text": "Conclusion",
+      "start": 264.88,
+      "end": 266.08,
+      "words": [
+        {
+          "text": "Conclusion",
+          "start": 265.13,
+          "end": 266.08
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "p",
+      "text": "This architecture isn't fancy. It's boring. That's the point. Boring code survives handoffs, team turnover, requirement changes. In six months when someone else owns this, they'll understand it in an afternoon.",
+      "start": 266.65,
+      "end": 279.225,
+      "words": [
+        {
+          "text": "This",
+          "start": 266.9,
+          "end": 267.075
+        },
+        {
+          "text": "architecture",
+          "start": 267.075,
+          "end": 267.65
+        },
+        {
+          "text": "isn't",
+          "start": 267.65,
+          "end": 267.95
+        },
+        {
+          "text": "fancy",
+          "start": 267.95,
+          "end": 268.5
+        },
+        {
+          "text": ".",
+          "start": 268.5,
+          "end": 268.575
+        },
+        {
+          "text": "It's",
+          "start": 268.575,
+          "end": 268.775
+        },
+        {
+          "text": "boring",
+          "start": 268.775,
+          "end": 269.525
+        },
+        {
+          "text": ".",
+          "start": 269.525,
+          "end": 269.625
+        },
+        {
+          "text": "That's",
+          "start": 269.625,
+          "end": 269.9
+        },
+        {
+          "text": "the",
+          "start": 269.9,
+          "end": 270.0
+        },
+        {
+          "text": "point",
+          "start": 270.0,
+          "end": 270.775
+        },
+        {
+          "text": ".",
+          "start": 270.775,
+          "end": 270.888
+        },
+        {
+          "text": "Boring",
+          "start": 270.888,
+          "end": 271.25
+        },
+        {
+          "text": "code",
+          "start": 271.25,
+          "end": 271.575
+        },
+        {
+          "text": "survives",
+          "start": 271.575,
+          "end": 272.0
+        },
+        {
+          "text": "handoffs",
+          "start": 272.0,
+          "end": 272.525
+        },
+        {
+          "text": ",",
+          "start": 272.525,
+          "end": 272.575
+        },
+        {
+          "text": "team",
+          "start": 272.575,
+          "end": 272.85
+        },
+        {
+          "text": "turnover",
+          "start": 272.85,
+          "end": 273.4
+        },
+        {
+          "text": ",",
+          "start": 273.4,
+          "end": 273.438
+        },
+        {
+          "text": "requirement",
+          "start": 273.438,
+          "end": 273.975
+        },
+        {
+          "text": "changes",
+          "start": 273.975,
+          "end": 274.875
+        },
+        {
+          "text": ".",
+          "start": 274.875,
+          "end": 274.987
+        },
+        {
+          "text": "In",
+          "start": 274.987,
+          "end": 275.15
+        },
+        {
+          "text": "six",
+          "start": 275.15,
+          "end": 275.425
+        },
+        {
+          "text": "months",
+          "start": 275.425,
+          "end": 275.737
+        },
+        {
+          "text": "when",
+          "start": 275.737,
+          "end": 275.9
+        },
+        {
+          "text": "someone",
+          "start": 275.9,
+          "end": 276.138
+        },
+        {
+          "text": "else",
+          "start": 276.138,
+          "end": 276.375
+        },
+        {
+          "text": "owns",
+          "start": 276.375,
+          "end": 276.675
+        },
+        {
+          "text": "this",
+          "start": 276.675,
+          "end": 276.9
+        },
+        {
+          "text": ",",
+          "start": 276.9,
+          "end": 276.95
+        },
+        {
+          "text": "they'll",
+          "start": 276.95,
+          "end": 277.112
+        },
+        {
+          "text": "understand",
+          "start": 277.112,
+          "end": 277.65
+        },
+        {
+          "text": "it",
+          "start": 277.65,
+          "end": 277.8
+        },
+        {
+          "text": "in",
+          "start": 277.8,
+          "end": 277.888
+        },
+        {
+          "text": "an",
+          "start": 277.888,
+          "end": 277.975
+        },
+        {
+          "text": "afternoon",
+          "start": 277.975,
+          "end": 279.05
+        },
+        {
+          "text": ".",
+          "start": 279.05,
+          "end": 279.225
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "p",
+      "text": "Start here. Add complexity only when you need it. Don't abstract early. Let the code tell you where it needs abstraction, then refactor once. That's the difference between architecture and over-engineering.",
+      "start": 279.545,
+      "end": 291.495,
+      "words": [
+        {
+          "text": "Start",
+          "start": 279.82,
+          "end": 280.12
+        },
+        {
+          "text": "here",
+          "start": 280.12,
+          "end": 280.42
+        },
+        {
+          "text": ".",
+          "start": 280.42,
+          "end": 280.495
+        },
+        {
+          "text": "Add",
+          "start": 280.495,
+          "end": 280.695
+        },
+        {
+          "text": "complexity",
+          "start": 280.695,
+          "end": 281.345
+        },
+        {
+          "text": "only",
+          "start": 281.345,
+          "end": 281.607
+        },
+        {
+          "text": "when",
+          "start": 281.607,
+          "end": 281.733
+        },
+        {
+          "text": "you",
+          "start": 281.733,
+          "end": 281.845
+        },
+        {
+          "text": "need",
+          "start": 281.845,
+          "end": 282.07
+        },
+        {
+          "text": "it",
+          "start": 282.07,
+          "end": 282.52
+        },
+        {
+          "text": ".",
+          "start": 282.52,
+          "end": 282.632
+        },
+        {
+          "text": "Don't",
+          "start": 282.632,
+          "end": 282.92
+        },
+        {
+          "text": "abstract",
+          "start": 282.92,
+          "end": 283.395
+        },
+        {
+          "text": "early",
+          "start": 283.395,
+          "end": 284.195
+        },
+        {
+          "text": ".",
+          "start": 284.195,
+          "end": 284.332
+        },
+        {
+          "text": "Let",
+          "start": 284.332,
+          "end": 284.532
+        },
+        {
+          "text": "the",
+          "start": 284.532,
+          "end": 284.62
+        },
+        {
+          "text": "code",
+          "start": 284.62,
+          "end": 284.92
+        },
+        {
+          "text": "tell",
+          "start": 284.92,
+          "end": 285.145
+        },
+        {
+          "text": "you",
+          "start": 285.145,
+          "end": 285.258
+        },
+        {
+          "text": "where",
+          "start": 285.258,
+          "end": 285.383
+        },
+        {
+          "text": "it",
+          "start": 285.383,
+          "end": 285.47
+        },
+        {
+          "text": "needs",
+          "start": 285.47,
+          "end": 285.707
+        },
+        {
+          "text": "abstraction",
+          "start": 285.707,
+          "end": 286.37
+        },
+        {
+          "text": ",",
+          "start": 286.37,
+          "end": 286.407
+        },
+        {
+          "text": "then",
+          "start": 286.407,
+          "end": 286.595
+        },
+        {
+          "text": "refactor",
+          "start": 286.595,
+          "end": 287.17
+        },
+        {
+          "text": "once",
+          "start": 287.17,
+          "end": 287.92
+        },
+        {
+          "text": ".",
+          "start": 287.92,
+          "end": 288.033
+        },
+        {
+          "text": "That's",
+          "start": 288.033,
+          "end": 288.32
+        },
+        {
+          "text": "the",
+          "start": 288.32,
+          "end": 288.42
+        },
+        {
+          "text": "difference",
+          "start": 288.42,
+          "end": 288.82
+        },
+        {
+          "text": "between",
+          "start": 288.82,
+          "end": 289.17
+        },
+        {
+          "text": "architecture",
+          "start": 289.17,
+          "end": 289.845
+        },
+        {
+          "text": "and",
+          "start": 289.845,
+          "end": 289.97
+        },
+        {
+          "text": "over-engineering",
+          "start": 289.97,
+          "end": 291.32
+        },
+        {
+          "text": ".",
+          "start": 291.32,
+          "end": 291.495
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 291.815,
+      "end": 294.015,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 292.09,
+          "end": 292.64
+        },
+        {
+          "text": "and",
+          "start": 292.64,
+          "end": 292.778
+        },
+        {
+          "text": "Further",
+          "start": 292.778,
+          "end": 293.14
+        },
+        {
+          "text": "Reading",
+          "start": 293.14,
+          "end": 294.015
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "li",
+      "text": "Selenium with C# , official docs",
+      "start": 294.46,
+      "end": 297.385,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 294.735,
+          "end": 295.223
+        },
+        {
+          "text": "with",
+          "start": 295.223,
+          "end": 295.385
+        },
+        {
+          "text": "C#",
+          "start": 295.385,
+          "end": 296.022
+        },
+        {
+          "text": ",",
+          "start": 296.022,
+          "end": 296.072
+        },
+        {
+          "text": "official",
+          "start": 296.072,
+          "end": 296.485
+        },
+        {
+          "text": "docs",
+          "start": 296.485,
+          "end": 297.385
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "li",
+      "text": "SpecFlow documentation",
+      "start": 297.83,
+      "end": 300.105,
+      "words": [
+        {
+          "text": "SpecFlow",
+          "start": 298.08,
+          "end": 298.68
+        },
+        {
+          "text": "documentation",
+          "start": 298.68,
+          "end": 300.105
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "li",
+      "text": "xUnit.net , getting started",
+      "start": 300.525,
+      "end": 302.925,
+      "words": [
+        {
+          "text": "xUnit.net",
+          "start": 300.775,
+          "end": 301.513
+        },
+        {
+          "text": ",",
+          "start": 301.513,
+          "end": 301.575
+        },
+        {
+          "text": "getting",
+          "start": 301.575,
+          "end": 301.925
+        },
+        {
+          "text": "started",
+          "start": 301.925,
+          "end": 302.925
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "li",
+      "text": "Page Object Model , Selenium design pattern",
+      "start": 303.445,
+      "end": 306.795,
+      "words": [
+        {
+          "text": "Page",
+          "start": 303.67,
+          "end": 303.97
+        },
+        {
+          "text": "Object",
+          "start": 303.97,
+          "end": 304.42
+        },
+        {
+          "text": "Model",
+          "start": 304.42,
+          "end": 304.82
+        },
+        {
+          "text": ",",
+          "start": 304.82,
+          "end": 304.895
+        },
+        {
+          "text": "Selenium",
+          "start": 304.895,
+          "end": 305.37
+        },
+        {
+          "text": "design",
+          "start": 305.37,
+          "end": 305.77
+        },
+        {
+          "text": "pattern",
+          "start": 305.77,
+          "end": 306.795
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "p",
+      "text": "See also: Selenium in 2026: A Beginner's Guide (Jul 2026) , the 2026 refresh with MCP server integration as a new project dependency.",
+      "start": 307.215,
+      "end": 319.14,
+      "words": [
+        {
+          "text": "See",
+          "start": 307.515,
+          "end": 307.665
+        },
+        {
+          "text": "also",
+          "start": 307.665,
+          "end": 308.215
+        },
+        {
+          "text": ":",
+          "start": 308.215,
+          "end": 308.328
+        },
+        {
+          "text": "Selenium",
+          "start": 308.328,
+          "end": 308.915
+        },
+        {
+          "text": "in",
+          "start": 308.915,
+          "end": 309.015
+        },
+        {
+          "text": "2026",
+          "start": 309.015,
+          "end": 310.465
+        },
+        {
+          "text": ":",
+          "start": 310.465,
+          "end": 310.565
+        },
+        {
+          "text": "A",
+          "start": 310.565,
+          "end": 310.64
+        },
+        {
+          "text": "Beginner's",
+          "start": 310.64,
+          "end": 311.09
+        },
+        {
+          "text": "Guide",
+          "start": 311.09,
+          "end": 311.703
+        },
+        {
+          "text": "(",
+          "start": 311.703,
+          "end": 311.79
+        },
+        {
+          "text": "Jul",
+          "start": 311.79,
+          "end": 312.065
+        },
+        {
+          "text": "2026",
+          "start": 312.065,
+          "end": 313.49
+        },
+        {
+          "text": ")",
+          "start": 313.49,
+          "end": 313.578
+        },
+        {
+          "text": ",",
+          "start": 313.578,
+          "end": 313.627
+        },
+        {
+          "text": "the",
+          "start": 313.627,
+          "end": 313.715
+        },
+        {
+          "text": "2026",
+          "start": 313.715,
+          "end": 314.665
+        },
+        {
+          "text": "refresh",
+          "start": 314.665,
+          "end": 315.127
+        },
+        {
+          "text": "with",
+          "start": 315.127,
+          "end": 315.29
+        },
+        {
+          "text": "MCP",
+          "start": 315.29,
+          "end": 315.965
+        },
+        {
+          "text": "server",
+          "start": 315.965,
+          "end": 316.302
+        },
+        {
+          "text": "integration",
+          "start": 316.302,
+          "end": 317.015
+        },
+        {
+          "text": "as",
+          "start": 317.015,
+          "end": 317.127
+        },
+        {
+          "text": "a",
+          "start": 317.127,
+          "end": 317.19
+        },
+        {
+          "text": "new",
+          "start": 317.19,
+          "end": 317.39
+        },
+        {
+          "text": "project",
+          "start": 317.39,
+          "end": 317.778
+        },
+        {
+          "text": "dependency",
+          "start": 317.778,
+          "end": 318.965
+        },
+        {
+          "text": ".",
+          "start": 318.965,
+          "end": 319.14
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

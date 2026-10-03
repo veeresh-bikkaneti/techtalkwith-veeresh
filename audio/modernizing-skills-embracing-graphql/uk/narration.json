@@ -1,0 +1,8074 @@
+{
+  "slug": "modernizing-skills-embracing-graphql",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 608.64,
+  "contentHash": "8252b2f0126309c334b2e23fac66f67c49dea122ce19069ed95159f435d22742",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Modernizing Your Skills: Embracing GraphQL for Efficient Data Management",
+      "start": 0.0,
+      "end": 5.225,
+      "words": [
+        {
+          "text": "Modernizing",
+          "start": 0.275,
+          "end": 0.875
+        },
+        {
+          "text": "Your",
+          "start": 0.875,
+          "end": 1.025
+        },
+        {
+          "text": "Skills",
+          "start": 1.025,
+          "end": 1.825
+        },
+        {
+          "text": ":",
+          "start": 1.825,
+          "end": 1.938
+        },
+        {
+          "text": "Embracing",
+          "start": 1.938,
+          "end": 2.55
+        },
+        {
+          "text": "GraphQL",
+          "start": 2.55,
+          "end": 3.225
+        },
+        {
+          "text": "for",
+          "start": 3.225,
+          "end": 3.35
+        },
+        {
+          "text": "Efficient",
+          "start": 3.35,
+          "end": 3.775
+        },
+        {
+          "text": "Data",
+          "start": 3.775,
+          "end": 4.125
+        },
+        {
+          "text": "Management",
+          "start": 4.125,
+          "end": 5.225
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "li",
+      "text": "Modernizing Your Skills: Embracing GraphQL for Efficient Data Management",
+      "start": 5.72,
+      "end": 10.945,
+      "words": [
+        {
+          "text": "Modernizing",
+          "start": 5.995,
+          "end": 6.595
+        },
+        {
+          "text": "Your",
+          "start": 6.595,
+          "end": 6.745
+        },
+        {
+          "text": "Skills",
+          "start": 6.745,
+          "end": 7.545
+        },
+        {
+          "text": ":",
+          "start": 7.545,
+          "end": 7.657
+        },
+        {
+          "text": "Embracing",
+          "start": 7.657,
+          "end": 8.27
+        },
+        {
+          "text": "GraphQL",
+          "start": 8.27,
+          "end": 8.945
+        },
+        {
+          "text": "for",
+          "start": 8.945,
+          "end": 9.07
+        },
+        {
+          "text": "Efficient",
+          "start": 9.07,
+          "end": 9.495
+        },
+        {
+          "text": "Data",
+          "start": 9.495,
+          "end": 9.845
+        },
+        {
+          "text": "Management",
+          "start": 9.845,
+          "end": 10.945
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "li",
+      "text": "Why Should a Company Plan to Move to GraphQL?",
+      "start": 11.44,
+      "end": 14.69,
+      "words": [
+        {
+          "text": "Why",
+          "start": 11.69,
+          "end": 11.89
+        },
+        {
+          "text": "Should",
+          "start": 11.89,
+          "end": 12.027
+        },
+        {
+          "text": "a",
+          "start": 12.027,
+          "end": 12.09
+        },
+        {
+          "text": "Company",
+          "start": 12.09,
+          "end": 12.515
+        },
+        {
+          "text": "Plan",
+          "start": 12.515,
+          "end": 12.865
+        },
+        {
+          "text": "to",
+          "start": 12.865,
+          "end": 12.965
+        },
+        {
+          "text": "Move",
+          "start": 12.965,
+          "end": 13.24
+        },
+        {
+          "text": "to",
+          "start": 13.24,
+          "end": 13.34
+        },
+        {
+          "text": "GraphQL",
+          "start": 13.34,
+          "end": 14.515
+        },
+        {
+          "text": "?",
+          "start": 14.515,
+          "end": 14.69
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "li",
+      "text": "Glossary",
+      "start": 15.01,
+      "end": 15.885,
+      "words": [
+        {
+          "text": "Glossary",
+          "start": 15.26,
+          "end": 15.885
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "li",
+      "text": "Architectural Diagram Using UML in Mermaid",
+      "start": 16.28,
+      "end": 19.68,
+      "words": [
+        {
+          "text": "Architectural",
+          "start": 16.53,
+          "end": 17.18
+        },
+        {
+          "text": "Diagram",
+          "start": 17.18,
+          "end": 17.768
+        },
+        {
+          "text": "Using",
+          "start": 17.768,
+          "end": 18.105
+        },
+        {
+          "text": "UML",
+          "start": 18.105,
+          "end": 18.63
+        },
+        {
+          "text": "in",
+          "start": 18.63,
+          "end": 18.755
+        },
+        {
+          "text": "Mermaid",
+          "start": 18.755,
+          "end": 19.68
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "li",
+      "text": "Explanation",
+      "start": 20.175,
+      "end": 21.475,
+      "words": [
+        {
+          "text": "Explanation",
+          "start": 20.4,
+          "end": 21.475
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "How This Architecture Improves Response Time",
+      "start": 22.02,
+      "end": 25.095,
+      "words": [
+        {
+          "text": "How",
+          "start": 22.27,
+          "end": 22.407
+        },
+        {
+          "text": "This",
+          "start": 22.407,
+          "end": 22.595
+        },
+        {
+          "text": "Architecture",
+          "start": 22.595,
+          "end": 23.195
+        },
+        {
+          "text": "Improves",
+          "start": 23.195,
+          "end": 23.72
+        },
+        {
+          "text": "Response",
+          "start": 23.72,
+          "end": 24.245
+        },
+        {
+          "text": "Time",
+          "start": 24.245,
+          "end": 25.095
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Conclusion",
+      "start": 25.54,
+      "end": 26.74,
+      "words": [
+        {
+          "text": "Conclusion",
+          "start": 25.79,
+          "end": 26.74
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "h1",
+      "text": "Modernizing Your Skills: Embracing GraphQL for Efficient Data Management",
+      "start": 27.31,
+      "end": 32.535,
+      "words": [
+        {
+          "text": "Modernizing",
+          "start": 27.585,
+          "end": 28.185
+        },
+        {
+          "text": "Your",
+          "start": 28.185,
+          "end": 28.335
+        },
+        {
+          "text": "Skills",
+          "start": 28.335,
+          "end": 29.135
+        },
+        {
+          "text": ":",
+          "start": 29.135,
+          "end": 29.248
+        },
+        {
+          "text": "Embracing",
+          "start": 29.248,
+          "end": 29.86
+        },
+        {
+          "text": "GraphQL",
+          "start": 29.86,
+          "end": 30.535
+        },
+        {
+          "text": "for",
+          "start": 30.535,
+          "end": 30.66
+        },
+        {
+          "text": "Efficient",
+          "start": 30.66,
+          "end": 31.085
+        },
+        {
+          "text": "Data",
+          "start": 31.085,
+          "end": 31.435
+        },
+        {
+          "text": "Management",
+          "start": 31.435,
+          "end": 32.535
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "quote",
+      "text": "\"Ask for exactly what you need.\" , GraphQL's core philosophy",
+      "start": 33.03,
+      "end": 37.105,
+      "words": [
+        {
+          "text": "\"",
+          "start": 33.255,
+          "end": 33.305
+        },
+        {
+          "text": "Ask",
+          "start": 33.305,
+          "end": 33.555
+        },
+        {
+          "text": "for",
+          "start": 33.555,
+          "end": 33.667
+        },
+        {
+          "text": "exactly",
+          "start": 33.667,
+          "end": 34.142
+        },
+        {
+          "text": "what",
+          "start": 34.142,
+          "end": 34.33
+        },
+        {
+          "text": "you",
+          "start": 34.33,
+          "end": 34.455
+        },
+        {
+          "text": "need",
+          "start": 34.455,
+          "end": 34.955
+        },
+        {
+          "text": ".",
+          "start": 34.955,
+          "end": 35.005
+        },
+        {
+          "text": "\"",
+          "start": 35.005,
+          "end": 35.042
+        },
+        {
+          "text": ",",
+          "start": 35.042,
+          "end": 35.105
+        },
+        {
+          "text": "GraphQL's",
+          "start": 35.105,
+          "end": 35.755
+        },
+        {
+          "text": "core",
+          "start": 35.755,
+          "end": 35.955
+        },
+        {
+          "text": "philosophy",
+          "start": 35.955,
+          "end": 37.105
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h2",
+      "text": "The Wake-Up Call",
+      "start": 37.625,
+      "end": 38.925,
+      "words": [
+        {
+          "text": "The",
+          "start": 37.85,
+          "end": 37.95
+        },
+        {
+          "text": "Wake-Up",
+          "start": 37.95,
+          "end": 38.4
+        },
+        {
+          "text": "Call",
+          "start": 38.4,
+          "end": 38.925
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "REST was fine until it wasn't. I'd fetch an entire user object , 40 fields , when the test only needed an email address. Bandwidth wasted. Tests slower than they needed to be. Debugging harder because the API response was bloated noise.",
+      "start": 39.47,
+      "end": 54.245,
+      "words": [
+        {
+          "text": "REST",
+          "start": 39.77,
+          "end": 40.007
+        },
+        {
+          "text": "was",
+          "start": 40.007,
+          "end": 40.17
+        },
+        {
+          "text": "fine",
+          "start": 40.17,
+          "end": 40.458
+        },
+        {
+          "text": "until",
+          "start": 40.458,
+          "end": 40.732
+        },
+        {
+          "text": "it",
+          "start": 40.732,
+          "end": 40.82
+        },
+        {
+          "text": "wasn't",
+          "start": 40.82,
+          "end": 41.595
+        },
+        {
+          "text": ".",
+          "start": 41.595,
+          "end": 41.695
+        },
+        {
+          "text": "I'd",
+          "start": 41.695,
+          "end": 41.895
+        },
+        {
+          "text": "fetch",
+          "start": 41.895,
+          "end": 42.132
+        },
+        {
+          "text": "an",
+          "start": 42.132,
+          "end": 42.208
+        },
+        {
+          "text": "entire",
+          "start": 42.208,
+          "end": 42.645
+        },
+        {
+          "text": "user",
+          "start": 42.645,
+          "end": 42.92
+        },
+        {
+          "text": "object",
+          "start": 42.92,
+          "end": 43.357
+        },
+        {
+          "text": ",",
+          "start": 43.357,
+          "end": 43.42
+        },
+        {
+          "text": "40",
+          "start": 43.42,
+          "end": 43.745
+        },
+        {
+          "text": "fields",
+          "start": 43.745,
+          "end": 44.132
+        },
+        {
+          "text": ",",
+          "start": 44.132,
+          "end": 44.183
+        },
+        {
+          "text": "when",
+          "start": 44.183,
+          "end": 44.308
+        },
+        {
+          "text": "the",
+          "start": 44.308,
+          "end": 44.395
+        },
+        {
+          "text": "test",
+          "start": 44.395,
+          "end": 44.72
+        },
+        {
+          "text": "only",
+          "start": 44.72,
+          "end": 45.02
+        },
+        {
+          "text": "needed",
+          "start": 45.02,
+          "end": 45.333
+        },
+        {
+          "text": "an",
+          "start": 45.333,
+          "end": 45.42
+        },
+        {
+          "text": "email",
+          "start": 45.42,
+          "end": 45.72
+        },
+        {
+          "text": "address",
+          "start": 45.72,
+          "end": 46.62
+        },
+        {
+          "text": ".",
+          "start": 46.62,
+          "end": 46.757
+        },
+        {
+          "text": "Bandwidth",
+          "start": 46.757,
+          "end": 47.295
+        },
+        {
+          "text": "wasted",
+          "start": 47.295,
+          "end": 48.02
+        },
+        {
+          "text": ".",
+          "start": 48.02,
+          "end": 48.132
+        },
+        {
+          "text": "Tests",
+          "start": 48.132,
+          "end": 48.533
+        },
+        {
+          "text": "slower",
+          "start": 48.533,
+          "end": 48.895
+        },
+        {
+          "text": "than",
+          "start": 48.895,
+          "end": 49.007
+        },
+        {
+          "text": "they",
+          "start": 49.007,
+          "end": 49.145
+        },
+        {
+          "text": "needed",
+          "start": 49.145,
+          "end": 49.47
+        },
+        {
+          "text": "to",
+          "start": 49.47,
+          "end": 49.57
+        },
+        {
+          "text": "be",
+          "start": 49.57,
+          "end": 50.12
+        },
+        {
+          "text": ".",
+          "start": 50.12,
+          "end": 50.232
+        },
+        {
+          "text": "Debugging",
+          "start": 50.232,
+          "end": 50.77
+        },
+        {
+          "text": "harder",
+          "start": 50.77,
+          "end": 51.12
+        },
+        {
+          "text": "because",
+          "start": 51.12,
+          "end": 51.382
+        },
+        {
+          "text": "the",
+          "start": 51.382,
+          "end": 51.52
+        },
+        {
+          "text": "API",
+          "start": 51.52,
+          "end": 52.045
+        },
+        {
+          "text": "response",
+          "start": 52.045,
+          "end": 52.545
+        },
+        {
+          "text": "was",
+          "start": 52.545,
+          "end": 52.72
+        },
+        {
+          "text": "bloated",
+          "start": 52.72,
+          "end": 53.12
+        },
+        {
+          "text": "noise",
+          "start": 53.12,
+          "end": 54.045
+        },
+        {
+          "text": ".",
+          "start": 54.045,
+          "end": 54.245
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "As a tester who's worn the QA, Scrum, and BA hats, I realized: REST is server-centric. The server decides what you get. GraphQL is client-centric. You decide what you get. Ask for three fields, get three fields. No fluff, no surprises.",
+      "start": 54.565,
+      "end": 69.49,
+      "words": [
+        {
+          "text": "As",
+          "start": 54.815,
+          "end": 54.953
+        },
+        {
+          "text": "a",
+          "start": 54.953,
+          "end": 55.015
+        },
+        {
+          "text": "tester",
+          "start": 55.015,
+          "end": 55.365
+        },
+        {
+          "text": "who's",
+          "start": 55.365,
+          "end": 55.59
+        },
+        {
+          "text": "worn",
+          "start": 55.59,
+          "end": 55.803
+        },
+        {
+          "text": "the",
+          "start": 55.803,
+          "end": 55.89
+        },
+        {
+          "text": "QA",
+          "start": 55.89,
+          "end": 56.29
+        },
+        {
+          "text": ",",
+          "start": 56.29,
+          "end": 56.34
+        },
+        {
+          "text": "Scrum",
+          "start": 56.34,
+          "end": 56.665
+        },
+        {
+          "text": ",",
+          "start": 56.665,
+          "end": 56.703
+        },
+        {
+          "text": "and",
+          "start": 56.703,
+          "end": 56.815
+        },
+        {
+          "text": "BA",
+          "start": 56.815,
+          "end": 57.165
+        },
+        {
+          "text": "hats",
+          "start": 57.165,
+          "end": 57.44
+        },
+        {
+          "text": ",",
+          "start": 57.44,
+          "end": 57.478
+        },
+        {
+          "text": "I",
+          "start": 57.478,
+          "end": 57.615
+        },
+        {
+          "text": "realized",
+          "start": 57.615,
+          "end": 58.215
+        },
+        {
+          "text": ":",
+          "start": 58.215,
+          "end": 58.29
+        },
+        {
+          "text": "REST",
+          "start": 58.29,
+          "end": 58.527
+        },
+        {
+          "text": "is",
+          "start": 58.527,
+          "end": 58.64
+        },
+        {
+          "text": "server-centric",
+          "start": 58.64,
+          "end": 59.74
+        },
+        {
+          "text": ".",
+          "start": 59.74,
+          "end": 59.84
+        },
+        {
+          "text": "The",
+          "start": 59.84,
+          "end": 59.977
+        },
+        {
+          "text": "server",
+          "start": 59.977,
+          "end": 60.34
+        },
+        {
+          "text": "decides",
+          "start": 60.34,
+          "end": 60.753
+        },
+        {
+          "text": "what",
+          "start": 60.753,
+          "end": 60.89
+        },
+        {
+          "text": "you",
+          "start": 60.89,
+          "end": 61.015
+        },
+        {
+          "text": "get",
+          "start": 61.015,
+          "end": 61.69
+        },
+        {
+          "text": ".",
+          "start": 61.69,
+          "end": 61.79
+        },
+        {
+          "text": "GraphQL",
+          "start": 61.79,
+          "end": 62.415
+        },
+        {
+          "text": "is",
+          "start": 62.415,
+          "end": 62.565
+        },
+        {
+          "text": "client-centric",
+          "start": 62.565,
+          "end": 63.44
+        },
+        {
+          "text": ".",
+          "start": 63.44,
+          "end": 63.515
+        },
+        {
+          "text": "You",
+          "start": 63.515,
+          "end": 63.653
+        },
+        {
+          "text": "decide",
+          "start": 63.653,
+          "end": 64.003
+        },
+        {
+          "text": "what",
+          "start": 64.003,
+          "end": 64.14
+        },
+        {
+          "text": "you",
+          "start": 64.14,
+          "end": 64.265
+        },
+        {
+          "text": "get",
+          "start": 64.265,
+          "end": 64.915
+        },
+        {
+          "text": ".",
+          "start": 64.915,
+          "end": 65.028
+        },
+        {
+          "text": "Ask",
+          "start": 65.028,
+          "end": 65.315
+        },
+        {
+          "text": "for",
+          "start": 65.315,
+          "end": 65.44
+        },
+        {
+          "text": "three",
+          "start": 65.44,
+          "end": 65.702
+        },
+        {
+          "text": "fields",
+          "start": 65.702,
+          "end": 66.115
+        },
+        {
+          "text": ",",
+          "start": 66.115,
+          "end": 66.165
+        },
+        {
+          "text": "get",
+          "start": 66.165,
+          "end": 66.34
+        },
+        {
+          "text": "three",
+          "start": 66.34,
+          "end": 66.577
+        },
+        {
+          "text": "fields",
+          "start": 66.577,
+          "end": 67.24
+        },
+        {
+          "text": ".",
+          "start": 67.24,
+          "end": 67.327
+        },
+        {
+          "text": "No",
+          "start": 67.327,
+          "end": 67.553
+        },
+        {
+          "text": "fluff",
+          "start": 67.553,
+          "end": 67.865
+        },
+        {
+          "text": ",",
+          "start": 67.865,
+          "end": 67.915
+        },
+        {
+          "text": "no",
+          "start": 67.915,
+          "end": 68.115
+        },
+        {
+          "text": "surprises",
+          "start": 68.115,
+          "end": 69.29
+        },
+        {
+          "text": ".",
+          "start": 69.29,
+          "end": 69.49
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "This isn't hype. It's a genuine shift in how APIs work. And if you're doing test automation, understanding GraphQL makes your tests faster, your payloads smaller, and your assertions more precise.",
+      "start": 69.81,
+      "end": 82.21,
+      "words": [
+        {
+          "text": "This",
+          "start": 70.06,
+          "end": 70.235
+        },
+        {
+          "text": "isn't",
+          "start": 70.235,
+          "end": 70.535
+        },
+        {
+          "text": "hype",
+          "start": 70.535,
+          "end": 71.035
+        },
+        {
+          "text": ".",
+          "start": 71.035,
+          "end": 71.11
+        },
+        {
+          "text": "It's",
+          "start": 71.11,
+          "end": 71.248
+        },
+        {
+          "text": "a",
+          "start": 71.248,
+          "end": 71.31
+        },
+        {
+          "text": "genuine",
+          "start": 71.31,
+          "end": 71.772
+        },
+        {
+          "text": "shift",
+          "start": 71.772,
+          "end": 72.098
+        },
+        {
+          "text": "in",
+          "start": 72.098,
+          "end": 72.185
+        },
+        {
+          "text": "how",
+          "start": 72.185,
+          "end": 72.36
+        },
+        {
+          "text": "APIs",
+          "start": 72.36,
+          "end": 72.96
+        },
+        {
+          "text": "work",
+          "start": 72.96,
+          "end": 73.86
+        },
+        {
+          "text": ".",
+          "start": 73.86,
+          "end": 73.96
+        },
+        {
+          "text": "And",
+          "start": 73.96,
+          "end": 74.097
+        },
+        {
+          "text": "if",
+          "start": 74.097,
+          "end": 74.198
+        },
+        {
+          "text": "you're",
+          "start": 74.198,
+          "end": 74.31
+        },
+        {
+          "text": "doing",
+          "start": 74.31,
+          "end": 74.61
+        },
+        {
+          "text": "test",
+          "start": 74.61,
+          "end": 74.873
+        },
+        {
+          "text": "automation",
+          "start": 74.873,
+          "end": 75.66
+        },
+        {
+          "text": ",",
+          "start": 75.66,
+          "end": 75.76
+        },
+        {
+          "text": "understanding",
+          "start": 75.76,
+          "end": 76.435
+        },
+        {
+          "text": "GraphQL",
+          "start": 76.435,
+          "end": 77.06
+        },
+        {
+          "text": "makes",
+          "start": 77.06,
+          "end": 77.298
+        },
+        {
+          "text": "your",
+          "start": 77.298,
+          "end": 77.41
+        },
+        {
+          "text": "tests",
+          "start": 77.41,
+          "end": 77.785
+        },
+        {
+          "text": "faster",
+          "start": 77.785,
+          "end": 78.535
+        },
+        {
+          "text": ",",
+          "start": 78.535,
+          "end": 78.66
+        },
+        {
+          "text": "your",
+          "start": 78.66,
+          "end": 78.835
+        },
+        {
+          "text": "payloads",
+          "start": 78.835,
+          "end": 79.323
+        },
+        {
+          "text": "smaller",
+          "start": 79.323,
+          "end": 79.885
+        },
+        {
+          "text": ",",
+          "start": 79.885,
+          "end": 79.96
+        },
+        {
+          "text": "and",
+          "start": 79.96,
+          "end": 80.085
+        },
+        {
+          "text": "your",
+          "start": 80.085,
+          "end": 80.21
+        },
+        {
+          "text": "assertions",
+          "start": 80.21,
+          "end": 80.81
+        },
+        {
+          "text": "more",
+          "start": 80.81,
+          "end": 80.985
+        },
+        {
+          "text": "precise",
+          "start": 80.985,
+          "end": 82.01
+        },
+        {
+          "text": ".",
+          "start": 82.01,
+          "end": 82.21
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "Quote to Inspire: and quot;The only way to make sense out of change is to plunge into it, move with it, and join the dance. and quot; - Alan Watts",
+      "start": 82.53,
+      "end": 90.98,
+      "words": [
+        {
+          "text": "Quote",
+          "start": 82.78,
+          "end": 83.005
+        },
+        {
+          "text": "to",
+          "start": 83.005,
+          "end": 83.105
+        },
+        {
+          "text": "Inspire",
+          "start": 83.105,
+          "end": 83.68
+        },
+        {
+          "text": ":",
+          "start": 83.68,
+          "end": 83.755
+        },
+        {
+          "text": "and",
+          "start": 83.755,
+          "end": 83.88
+        },
+        {
+          "text": "quot;The",
+          "start": 83.88,
+          "end": 84.53
+        },
+        {
+          "text": "only",
+          "start": 84.53,
+          "end": 84.805
+        },
+        {
+          "text": "way",
+          "start": 84.805,
+          "end": 84.98
+        },
+        {
+          "text": "to",
+          "start": 84.98,
+          "end": 85.068
+        },
+        {
+          "text": "make",
+          "start": 85.068,
+          "end": 85.28
+        },
+        {
+          "text": "sense",
+          "start": 85.28,
+          "end": 85.568
+        },
+        {
+          "text": "out",
+          "start": 85.568,
+          "end": 85.717
+        },
+        {
+          "text": "of",
+          "start": 85.717,
+          "end": 85.805
+        },
+        {
+          "text": "change",
+          "start": 85.805,
+          "end": 86.193
+        },
+        {
+          "text": "is",
+          "start": 86.193,
+          "end": 86.305
+        },
+        {
+          "text": "to",
+          "start": 86.305,
+          "end": 86.405
+        },
+        {
+          "text": "plunge",
+          "start": 86.405,
+          "end": 86.718
+        },
+        {
+          "text": "into",
+          "start": 86.718,
+          "end": 86.98
+        },
+        {
+          "text": "it",
+          "start": 86.98,
+          "end": 87.105
+        },
+        {
+          "text": ",",
+          "start": 87.105,
+          "end": 87.155
+        },
+        {
+          "text": "move",
+          "start": 87.155,
+          "end": 87.368
+        },
+        {
+          "text": "with",
+          "start": 87.368,
+          "end": 87.505
+        },
+        {
+          "text": "it",
+          "start": 87.505,
+          "end": 87.605
+        },
+        {
+          "text": ",",
+          "start": 87.605,
+          "end": 87.643
+        },
+        {
+          "text": "and",
+          "start": 87.643,
+          "end": 87.755
+        },
+        {
+          "text": "join",
+          "start": 87.755,
+          "end": 87.993
+        },
+        {
+          "text": "the",
+          "start": 87.993,
+          "end": 88.08
+        },
+        {
+          "text": "dance",
+          "start": 88.08,
+          "end": 88.855
+        },
+        {
+          "text": ".",
+          "start": 88.855,
+          "end": 88.955
+        },
+        {
+          "text": "and",
+          "start": 88.955,
+          "end": 89.08
+        },
+        {
+          "text": "quot",
+          "start": 89.08,
+          "end": 89.605
+        },
+        {
+          "text": ";",
+          "start": 89.605,
+          "end": 89.705
+        },
+        {
+          "text": "-",
+          "start": 89.705,
+          "end": 89.78
+        },
+        {
+          "text": "Alan",
+          "start": 89.78,
+          "end": 90.08
+        },
+        {
+          "text": "Watts",
+          "start": 90.08,
+          "end": 90.98
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Why Modernize? To thrive in the modern tech world, we must think modern and do modern. Embracing new technologies like GraphQL not only enhances our capabilities but also opens up new opportunities for innovation and efficiency.",
+      "start": 91.475,
+      "end": 106.2,
+      "words": [
+        {
+          "text": "Why",
+          "start": 91.725,
+          "end": 91.925
+        },
+        {
+          "text": "Modernize",
+          "start": 91.925,
+          "end": 92.65
+        },
+        {
+          "text": "?",
+          "start": 92.65,
+          "end": 92.725
+        },
+        {
+          "text": "To",
+          "start": 92.725,
+          "end": 92.862
+        },
+        {
+          "text": "thrive",
+          "start": 92.862,
+          "end": 93.237
+        },
+        {
+          "text": "in",
+          "start": 93.237,
+          "end": 93.312
+        },
+        {
+          "text": "the",
+          "start": 93.312,
+          "end": 93.4
+        },
+        {
+          "text": "modern",
+          "start": 93.4,
+          "end": 93.725
+        },
+        {
+          "text": "tech",
+          "start": 93.725,
+          "end": 93.975
+        },
+        {
+          "text": "world",
+          "start": 93.975,
+          "end": 94.6
+        },
+        {
+          "text": ",",
+          "start": 94.6,
+          "end": 94.7
+        },
+        {
+          "text": "we",
+          "start": 94.7,
+          "end": 94.825
+        },
+        {
+          "text": "must",
+          "start": 94.825,
+          "end": 95.05
+        },
+        {
+          "text": "think",
+          "start": 95.05,
+          "end": 95.287
+        },
+        {
+          "text": "modern",
+          "start": 95.287,
+          "end": 95.65
+        },
+        {
+          "text": "and",
+          "start": 95.65,
+          "end": 95.8
+        },
+        {
+          "text": "do",
+          "start": 95.8,
+          "end": 96.0
+        },
+        {
+          "text": "modern",
+          "start": 96.0,
+          "end": 97.0
+        },
+        {
+          "text": ".",
+          "start": 97.0,
+          "end": 97.137
+        },
+        {
+          "text": "Embracing",
+          "start": 97.137,
+          "end": 97.725
+        },
+        {
+          "text": "new",
+          "start": 97.725,
+          "end": 97.9
+        },
+        {
+          "text": "technologies",
+          "start": 97.9,
+          "end": 98.625
+        },
+        {
+          "text": "like",
+          "start": 98.625,
+          "end": 98.85
+        },
+        {
+          "text": "GraphQL",
+          "start": 98.85,
+          "end": 99.612
+        },
+        {
+          "text": "not",
+          "start": 99.612,
+          "end": 99.825
+        },
+        {
+          "text": "only",
+          "start": 99.825,
+          "end": 100.125
+        },
+        {
+          "text": "enhances",
+          "start": 100.125,
+          "end": 100.725
+        },
+        {
+          "text": "our",
+          "start": 100.725,
+          "end": 100.875
+        },
+        {
+          "text": "capabilities",
+          "start": 100.875,
+          "end": 102.062
+        },
+        {
+          "text": "but",
+          "start": 102.062,
+          "end": 102.225
+        },
+        {
+          "text": "also",
+          "start": 102.225,
+          "end": 102.6
+        },
+        {
+          "text": "opens",
+          "start": 102.6,
+          "end": 102.937
+        },
+        {
+          "text": "up",
+          "start": 102.937,
+          "end": 103.125
+        },
+        {
+          "text": "new",
+          "start": 103.125,
+          "end": 103.287
+        },
+        {
+          "text": "opportunities",
+          "start": 103.287,
+          "end": 104.05
+        },
+        {
+          "text": "for",
+          "start": 104.05,
+          "end": 104.175
+        },
+        {
+          "text": "innovation",
+          "start": 104.175,
+          "end": 104.775
+        },
+        {
+          "text": "and",
+          "start": 104.775,
+          "end": 104.887
+        },
+        {
+          "text": "efficiency",
+          "start": 104.887,
+          "end": 106.025
+        },
+        {
+          "text": ".",
+          "start": 106.025,
+          "end": 106.2
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h3",
+      "text": "Why Should a Company Plan to Move to GraphQL?",
+      "start": 106.52,
+      "end": 109.77,
+      "words": [
+        {
+          "text": "Why",
+          "start": 106.77,
+          "end": 106.97
+        },
+        {
+          "text": "Should",
+          "start": 106.97,
+          "end": 107.108
+        },
+        {
+          "text": "a",
+          "start": 107.108,
+          "end": 107.17
+        },
+        {
+          "text": "Company",
+          "start": 107.17,
+          "end": 107.595
+        },
+        {
+          "text": "Plan",
+          "start": 107.595,
+          "end": 107.945
+        },
+        {
+          "text": "to",
+          "start": 107.945,
+          "end": 108.045
+        },
+        {
+          "text": "Move",
+          "start": 108.045,
+          "end": 108.32
+        },
+        {
+          "text": "to",
+          "start": 108.32,
+          "end": 108.42
+        },
+        {
+          "text": "GraphQL",
+          "start": 108.42,
+          "end": 109.595
+        },
+        {
+          "text": "?",
+          "start": 109.595,
+          "end": 109.77
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "li",
+      "text": "Efficient Data Fetching: GraphQL allows clients to request exactly the data they need, reducing over-fetching and under-fetching issues common with REST APIs. This leads to more efficient use of network resources and faster response times.",
+      "start": 110.09,
+      "end": 125.09,
+      "words": [
+        {
+          "text": "Efficient",
+          "start": 110.34,
+          "end": 110.79
+        },
+        {
+          "text": "Data",
+          "start": 110.79,
+          "end": 111.115
+        },
+        {
+          "text": "Fetching",
+          "start": 111.115,
+          "end": 111.99
+        },
+        {
+          "text": ":",
+          "start": 111.99,
+          "end": 112.103
+        },
+        {
+          "text": "GraphQL",
+          "start": 112.103,
+          "end": 112.765
+        },
+        {
+          "text": "allows",
+          "start": 112.765,
+          "end": 113.115
+        },
+        {
+          "text": "clients",
+          "start": 113.115,
+          "end": 113.515
+        },
+        {
+          "text": "to",
+          "start": 113.515,
+          "end": 113.603
+        },
+        {
+          "text": "request",
+          "start": 113.603,
+          "end": 114.015
+        },
+        {
+          "text": "exactly",
+          "start": 114.015,
+          "end": 114.528
+        },
+        {
+          "text": "the",
+          "start": 114.528,
+          "end": 114.615
+        },
+        {
+          "text": "data",
+          "start": 114.615,
+          "end": 114.965
+        },
+        {
+          "text": "they",
+          "start": 114.965,
+          "end": 115.14
+        },
+        {
+          "text": "need",
+          "start": 115.14,
+          "end": 115.74
+        },
+        {
+          "text": ",",
+          "start": 115.74,
+          "end": 115.84
+        },
+        {
+          "text": "reducing",
+          "start": 115.84,
+          "end": 116.365
+        },
+        {
+          "text": "over-fetching",
+          "start": 116.365,
+          "end": 116.99
+        },
+        {
+          "text": "and",
+          "start": 116.99,
+          "end": 117.115
+        },
+        {
+          "text": "under-fetching",
+          "start": 117.115,
+          "end": 117.715
+        },
+        {
+          "text": "issues",
+          "start": 117.715,
+          "end": 118.178
+        },
+        {
+          "text": "common",
+          "start": 118.178,
+          "end": 118.54
+        },
+        {
+          "text": "with",
+          "start": 118.54,
+          "end": 118.715
+        },
+        {
+          "text": "REST",
+          "start": 118.715,
+          "end": 118.99
+        },
+        {
+          "text": "APIs",
+          "start": 118.99,
+          "end": 120.265
+        },
+        {
+          "text": ".",
+          "start": 120.265,
+          "end": 120.377
+        },
+        {
+          "text": "This",
+          "start": 120.377,
+          "end": 120.615
+        },
+        {
+          "text": "leads",
+          "start": 120.615,
+          "end": 120.89
+        },
+        {
+          "text": "to",
+          "start": 120.89,
+          "end": 120.99
+        },
+        {
+          "text": "more",
+          "start": 120.99,
+          "end": 121.165
+        },
+        {
+          "text": "efficient",
+          "start": 121.165,
+          "end": 121.615
+        },
+        {
+          "text": "use",
+          "start": 121.615,
+          "end": 121.828
+        },
+        {
+          "text": "of",
+          "start": 121.828,
+          "end": 121.915
+        },
+        {
+          "text": "network",
+          "start": 121.915,
+          "end": 122.303
+        },
+        {
+          "text": "resources",
+          "start": 122.303,
+          "end": 122.94
+        },
+        {
+          "text": "and",
+          "start": 122.94,
+          "end": 123.078
+        },
+        {
+          "text": "faster",
+          "start": 123.078,
+          "end": 123.503
+        },
+        {
+          "text": "response",
+          "start": 123.503,
+          "end": 123.94
+        },
+        {
+          "text": "times",
+          "start": 123.94,
+          "end": 124.89
+        },
+        {
+          "text": ".",
+          "start": 124.89,
+          "end": 125.09
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Single Endpoint: Unlike REST APIs, which often require multiple endpoints for different resources, GraphQL uses a single endpoint to handle all queries. This simplifies API management and reduces the complexity of maintaining multiple endpoints.",
+      "start": 125.41,
+      "end": 141.71,
+      "words": [
+        {
+          "text": "Single",
+          "start": 125.71,
+          "end": 126.035
+        },
+        {
+          "text": "Endpoint",
+          "start": 126.035,
+          "end": 126.91
+        },
+        {
+          "text": ":",
+          "start": 126.91,
+          "end": 127.023
+        },
+        {
+          "text": "Unlike",
+          "start": 127.023,
+          "end": 127.41
+        },
+        {
+          "text": "REST",
+          "start": 127.41,
+          "end": 127.66
+        },
+        {
+          "text": "APIs",
+          "start": 127.66,
+          "end": 128.56
+        },
+        {
+          "text": ",",
+          "start": 128.56,
+          "end": 128.635
+        },
+        {
+          "text": "which",
+          "start": 128.635,
+          "end": 128.835
+        },
+        {
+          "text": "often",
+          "start": 128.835,
+          "end": 129.11
+        },
+        {
+          "text": "require",
+          "start": 129.11,
+          "end": 129.535
+        },
+        {
+          "text": "multiple",
+          "start": 129.535,
+          "end": 129.985
+        },
+        {
+          "text": "endpoints",
+          "start": 129.985,
+          "end": 130.51
+        },
+        {
+          "text": "for",
+          "start": 130.51,
+          "end": 130.635
+        },
+        {
+          "text": "different",
+          "start": 130.635,
+          "end": 130.922
+        },
+        {
+          "text": "resources",
+          "start": 130.922,
+          "end": 131.86
+        },
+        {
+          "text": ",",
+          "start": 131.86,
+          "end": 131.96
+        },
+        {
+          "text": "GraphQL",
+          "start": 131.96,
+          "end": 132.585
+        },
+        {
+          "text": "uses",
+          "start": 132.585,
+          "end": 132.885
+        },
+        {
+          "text": "a",
+          "start": 132.885,
+          "end": 132.997
+        },
+        {
+          "text": "single",
+          "start": 132.997,
+          "end": 133.335
+        },
+        {
+          "text": "endpoint",
+          "start": 133.335,
+          "end": 133.81
+        },
+        {
+          "text": "to",
+          "start": 133.81,
+          "end": 133.91
+        },
+        {
+          "text": "handle",
+          "start": 133.91,
+          "end": 134.285
+        },
+        {
+          "text": "all",
+          "start": 134.285,
+          "end": 134.51
+        },
+        {
+          "text": "queries",
+          "start": 134.51,
+          "end": 135.735
+        },
+        {
+          "text": ".",
+          "start": 135.735,
+          "end": 135.872
+        },
+        {
+          "text": "This",
+          "start": 135.872,
+          "end": 136.06
+        },
+        {
+          "text": "simplifies",
+          "start": 136.06,
+          "end": 136.648
+        },
+        {
+          "text": "API",
+          "start": 136.648,
+          "end": 137.185
+        },
+        {
+          "text": "management",
+          "start": 137.185,
+          "end": 137.922
+        },
+        {
+          "text": "and",
+          "start": 137.922,
+          "end": 138.06
+        },
+        {
+          "text": "reduces",
+          "start": 138.06,
+          "end": 138.548
+        },
+        {
+          "text": "the",
+          "start": 138.548,
+          "end": 138.635
+        },
+        {
+          "text": "complexity",
+          "start": 138.635,
+          "end": 139.247
+        },
+        {
+          "text": "of",
+          "start": 139.247,
+          "end": 139.335
+        },
+        {
+          "text": "maintaining",
+          "start": 139.335,
+          "end": 139.935
+        },
+        {
+          "text": "multiple",
+          "start": 139.935,
+          "end": 140.435
+        },
+        {
+          "text": "endpoints",
+          "start": 140.435,
+          "end": 141.535
+        },
+        {
+          "text": ".",
+          "start": 141.535,
+          "end": 141.71
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Real-Time Data: GraphQL supports subscriptions, enabling real-time updates. This is particularly beneficial for applications that require live data, such as chat applications, live sports updates, or financial tickers.",
+      "start": 142.03,
+      "end": 156.28,
+      "words": [
+        {
+          "text": "Real-Time",
+          "start": 142.305,
+          "end": 142.805
+        },
+        {
+          "text": "Data",
+          "start": 142.805,
+          "end": 143.58
+        },
+        {
+          "text": ":",
+          "start": 143.58,
+          "end": 143.705
+        },
+        {
+          "text": "GraphQL",
+          "start": 143.705,
+          "end": 144.33
+        },
+        {
+          "text": "supports",
+          "start": 144.33,
+          "end": 144.755
+        },
+        {
+          "text": "subscriptions",
+          "start": 144.755,
+          "end": 145.605
+        },
+        {
+          "text": ",",
+          "start": 145.605,
+          "end": 145.705
+        },
+        {
+          "text": "enabling",
+          "start": 145.705,
+          "end": 146.205
+        },
+        {
+          "text": "real-time",
+          "start": 146.205,
+          "end": 146.692
+        },
+        {
+          "text": "updates",
+          "start": 146.692,
+          "end": 147.88
+        },
+        {
+          "text": ".",
+          "start": 147.88,
+          "end": 147.992
+        },
+        {
+          "text": "This",
+          "start": 147.992,
+          "end": 148.23
+        },
+        {
+          "text": "is",
+          "start": 148.23,
+          "end": 148.38
+        },
+        {
+          "text": "particularly",
+          "start": 148.38,
+          "end": 149.005
+        },
+        {
+          "text": "beneficial",
+          "start": 149.005,
+          "end": 149.555
+        },
+        {
+          "text": "for",
+          "start": 149.555,
+          "end": 149.668
+        },
+        {
+          "text": "applications",
+          "start": 149.668,
+          "end": 150.442
+        },
+        {
+          "text": "that",
+          "start": 150.442,
+          "end": 150.542
+        },
+        {
+          "text": "require",
+          "start": 150.542,
+          "end": 150.955
+        },
+        {
+          "text": "live",
+          "start": 150.955,
+          "end": 151.23
+        },
+        {
+          "text": "data",
+          "start": 151.23,
+          "end": 151.88
+        },
+        {
+          "text": ",",
+          "start": 151.88,
+          "end": 152.005
+        },
+        {
+          "text": "such",
+          "start": 152.005,
+          "end": 152.217
+        },
+        {
+          "text": "as",
+          "start": 152.217,
+          "end": 152.367
+        },
+        {
+          "text": "chat",
+          "start": 152.367,
+          "end": 152.617
+        },
+        {
+          "text": "applications",
+          "start": 152.617,
+          "end": 153.405
+        },
+        {
+          "text": ",",
+          "start": 153.405,
+          "end": 153.455
+        },
+        {
+          "text": "live",
+          "start": 153.455,
+          "end": 153.68
+        },
+        {
+          "text": "sports",
+          "start": 153.68,
+          "end": 154.055
+        },
+        {
+          "text": "updates",
+          "start": 154.055,
+          "end": 154.555
+        },
+        {
+          "text": ",",
+          "start": 154.555,
+          "end": 154.592
+        },
+        {
+          "text": "or",
+          "start": 154.592,
+          "end": 154.705
+        },
+        {
+          "text": "financial",
+          "start": 154.705,
+          "end": 155.18
+        },
+        {
+          "text": "tickers",
+          "start": 155.18,
+          "end": 156.105
+        },
+        {
+          "text": ".",
+          "start": 156.105,
+          "end": 156.28
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Strong Typing: GraphQL uses a strongly typed schema to define the capabilities of the API. This ensures that clients can only request data that the server can provide, reducing errors and improving the developer experience.",
+      "start": 156.6,
+      "end": 170.875,
+      "words": [
+        {
+          "text": "Strong",
+          "start": 156.875,
+          "end": 157.175
+        },
+        {
+          "text": "Typing",
+          "start": 157.175,
+          "end": 157.95
+        },
+        {
+          "text": ":",
+          "start": 157.95,
+          "end": 158.05
+        },
+        {
+          "text": "GraphQL",
+          "start": 158.05,
+          "end": 158.7
+        },
+        {
+          "text": "uses",
+          "start": 158.7,
+          "end": 158.988
+        },
+        {
+          "text": "a",
+          "start": 158.988,
+          "end": 159.05
+        },
+        {
+          "text": "strongly",
+          "start": 159.05,
+          "end": 159.5
+        },
+        {
+          "text": "typed",
+          "start": 159.5,
+          "end": 159.85
+        },
+        {
+          "text": "schema",
+          "start": 159.85,
+          "end": 160.275
+        },
+        {
+          "text": "to",
+          "start": 160.275,
+          "end": 160.363
+        },
+        {
+          "text": "define",
+          "start": 160.363,
+          "end": 160.712
+        },
+        {
+          "text": "the",
+          "start": 160.712,
+          "end": 160.8
+        },
+        {
+          "text": "capabilities",
+          "start": 160.8,
+          "end": 161.488
+        },
+        {
+          "text": "of",
+          "start": 161.488,
+          "end": 161.563
+        },
+        {
+          "text": "the",
+          "start": 161.563,
+          "end": 161.7
+        },
+        {
+          "text": "API",
+          "start": 161.7,
+          "end": 162.95
+        },
+        {
+          "text": ".",
+          "start": 162.95,
+          "end": 163.137
+        },
+        {
+          "text": "This",
+          "start": 163.137,
+          "end": 163.375
+        },
+        {
+          "text": "ensures",
+          "start": 163.375,
+          "end": 163.9
+        },
+        {
+          "text": "that",
+          "start": 163.9,
+          "end": 164.025
+        },
+        {
+          "text": "clients",
+          "start": 164.025,
+          "end": 164.475
+        },
+        {
+          "text": "can",
+          "start": 164.475,
+          "end": 164.6
+        },
+        {
+          "text": "only",
+          "start": 164.6,
+          "end": 164.9
+        },
+        {
+          "text": "request",
+          "start": 164.9,
+          "end": 165.3
+        },
+        {
+          "text": "data",
+          "start": 165.3,
+          "end": 165.65
+        },
+        {
+          "text": "that",
+          "start": 165.65,
+          "end": 165.762
+        },
+        {
+          "text": "the",
+          "start": 165.762,
+          "end": 165.862
+        },
+        {
+          "text": "server",
+          "start": 165.862,
+          "end": 166.25
+        },
+        {
+          "text": "can",
+          "start": 166.25,
+          "end": 166.4
+        },
+        {
+          "text": "provide",
+          "start": 166.4,
+          "end": 167.175
+        },
+        {
+          "text": ",",
+          "start": 167.175,
+          "end": 167.275
+        },
+        {
+          "text": "reducing",
+          "start": 167.275,
+          "end": 167.8
+        },
+        {
+          "text": "errors",
+          "start": 167.8,
+          "end": 168.288
+        },
+        {
+          "text": "and",
+          "start": 168.288,
+          "end": 168.412
+        },
+        {
+          "text": "improving",
+          "start": 168.412,
+          "end": 168.912
+        },
+        {
+          "text": "the",
+          "start": 168.912,
+          "end": 169.0
+        },
+        {
+          "text": "developer",
+          "start": 169.0,
+          "end": 169.45
+        },
+        {
+          "text": "experience",
+          "start": 169.45,
+          "end": 170.675
+        },
+        {
+          "text": ".",
+          "start": 170.675,
+          "end": 170.875
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "Flexibility and Customization: GraphQL's flexible query structure allows clients to specify exactly what data they need and how they need it. This customization reduces the need for multiple versions of an API to support different client requirements.",
+      "start": 171.195,
+      "end": 187.545,
+      "words": [
+        {
+          "text": "Flexibility",
+          "start": 171.47,
+          "end": 172.245
+        },
+        {
+          "text": "and",
+          "start": 172.245,
+          "end": 172.37
+        },
+        {
+          "text": "Customization",
+          "start": 172.37,
+          "end": 173.645
+        },
+        {
+          "text": ":",
+          "start": 173.645,
+          "end": 173.745
+        },
+        {
+          "text": "GraphQL's",
+          "start": 173.745,
+          "end": 174.42
+        },
+        {
+          "text": "flexible",
+          "start": 174.42,
+          "end": 174.945
+        },
+        {
+          "text": "query",
+          "start": 174.945,
+          "end": 175.32
+        },
+        {
+          "text": "structure",
+          "start": 175.32,
+          "end": 176.095
+        },
+        {
+          "text": "allows",
+          "start": 176.095,
+          "end": 176.47
+        },
+        {
+          "text": "clients",
+          "start": 176.47,
+          "end": 176.845
+        },
+        {
+          "text": "to",
+          "start": 176.845,
+          "end": 176.945
+        },
+        {
+          "text": "specify",
+          "start": 176.945,
+          "end": 177.545
+        },
+        {
+          "text": "exactly",
+          "start": 177.545,
+          "end": 178.095
+        },
+        {
+          "text": "what",
+          "start": 178.095,
+          "end": 178.27
+        },
+        {
+          "text": "data",
+          "start": 178.27,
+          "end": 178.545
+        },
+        {
+          "text": "they",
+          "start": 178.545,
+          "end": 178.72
+        },
+        {
+          "text": "need",
+          "start": 178.72,
+          "end": 179.395
+        },
+        {
+          "text": "and",
+          "start": 179.395,
+          "end": 179.545
+        },
+        {
+          "text": "how",
+          "start": 179.545,
+          "end": 179.745
+        },
+        {
+          "text": "they",
+          "start": 179.745,
+          "end": 179.895
+        },
+        {
+          "text": "need",
+          "start": 179.895,
+          "end": 180.132
+        },
+        {
+          "text": "it",
+          "start": 180.132,
+          "end": 180.97
+        },
+        {
+          "text": ".",
+          "start": 180.97,
+          "end": 181.108
+        },
+        {
+          "text": "This",
+          "start": 181.108,
+          "end": 181.345
+        },
+        {
+          "text": "customization",
+          "start": 181.345,
+          "end": 182.195
+        },
+        {
+          "text": "reduces",
+          "start": 182.195,
+          "end": 182.695
+        },
+        {
+          "text": "the",
+          "start": 182.695,
+          "end": 182.795
+        },
+        {
+          "text": "need",
+          "start": 182.795,
+          "end": 183.07
+        },
+        {
+          "text": "for",
+          "start": 183.07,
+          "end": 183.195
+        },
+        {
+          "text": "multiple",
+          "start": 183.195,
+          "end": 183.67
+        },
+        {
+          "text": "versions",
+          "start": 183.67,
+          "end": 184.183
+        },
+        {
+          "text": "of",
+          "start": 184.183,
+          "end": 184.257
+        },
+        {
+          "text": "an",
+          "start": 184.257,
+          "end": 184.345
+        },
+        {
+          "text": "API",
+          "start": 184.345,
+          "end": 185.058
+        },
+        {
+          "text": "to",
+          "start": 185.058,
+          "end": 185.195
+        },
+        {
+          "text": "support",
+          "start": 185.195,
+          "end": 185.62
+        },
+        {
+          "text": "different",
+          "start": 185.62,
+          "end": 185.92
+        },
+        {
+          "text": "client",
+          "start": 185.92,
+          "end": 186.233
+        },
+        {
+          "text": "requirements",
+          "start": 186.233,
+          "end": 187.37
+        },
+        {
+          "text": ".",
+          "start": 187.37,
+          "end": 187.545
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Improved Developer Productivity: With GraphQL, developers can work more efficiently by leveraging tools like GraphQL Playground and GraphiQL for testing and debugging. The strong typing and introspection capabilities of GraphQL also make it easier to understand and use the API.",
+      "start": 187.865,
+      "end": 206.415,
+      "words": [
+        {
+          "text": "Improved",
+          "start": 188.14,
+          "end": 188.59
+        },
+        {
+          "text": "Developer",
+          "start": 188.59,
+          "end": 189.065
+        },
+        {
+          "text": "Productivity",
+          "start": 189.065,
+          "end": 190.29
+        },
+        {
+          "text": ":",
+          "start": 190.29,
+          "end": 190.39
+        },
+        {
+          "text": "With",
+          "start": 190.39,
+          "end": 190.59
+        },
+        {
+          "text": "GraphQL",
+          "start": 190.59,
+          "end": 191.465
+        },
+        {
+          "text": ",",
+          "start": 191.465,
+          "end": 191.565
+        },
+        {
+          "text": "developers",
+          "start": 191.565,
+          "end": 192.09
+        },
+        {
+          "text": "can",
+          "start": 192.09,
+          "end": 192.215
+        },
+        {
+          "text": "work",
+          "start": 192.215,
+          "end": 192.465
+        },
+        {
+          "text": "more",
+          "start": 192.465,
+          "end": 192.628
+        },
+        {
+          "text": "efficiently",
+          "start": 192.628,
+          "end": 193.19
+        },
+        {
+          "text": "by",
+          "start": 193.19,
+          "end": 193.365
+        },
+        {
+          "text": "leveraging",
+          "start": 193.365,
+          "end": 193.84
+        },
+        {
+          "text": "tools",
+          "start": 193.84,
+          "end": 194.265
+        },
+        {
+          "text": "like",
+          "start": 194.265,
+          "end": 194.49
+        },
+        {
+          "text": "GraphQL",
+          "start": 194.49,
+          "end": 195.09
+        },
+        {
+          "text": "Playground",
+          "start": 195.09,
+          "end": 195.99
+        },
+        {
+          "text": "and",
+          "start": 195.99,
+          "end": 196.14
+        },
+        {
+          "text": "GraphiQL",
+          "start": 196.14,
+          "end": 197.215
+        },
+        {
+          "text": "for",
+          "start": 197.215,
+          "end": 197.34
+        },
+        {
+          "text": "testing",
+          "start": 197.34,
+          "end": 197.79
+        },
+        {
+          "text": "and",
+          "start": 197.79,
+          "end": 197.915
+        },
+        {
+          "text": "debugging",
+          "start": 197.915,
+          "end": 199.14
+        },
+        {
+          "text": ".",
+          "start": 199.14,
+          "end": 199.29
+        },
+        {
+          "text": "The",
+          "start": 199.29,
+          "end": 199.415
+        },
+        {
+          "text": "strong",
+          "start": 199.415,
+          "end": 199.765
+        },
+        {
+          "text": "typing",
+          "start": 199.765,
+          "end": 200.19
+        },
+        {
+          "text": "and",
+          "start": 200.19,
+          "end": 200.303
+        },
+        {
+          "text": "introspection",
+          "start": 200.303,
+          "end": 201.065
+        },
+        {
+          "text": "capabilities",
+          "start": 201.065,
+          "end": 201.727
+        },
+        {
+          "text": "of",
+          "start": 201.727,
+          "end": 201.815
+        },
+        {
+          "text": "GraphQL",
+          "start": 201.815,
+          "end": 202.765
+        },
+        {
+          "text": "also",
+          "start": 202.765,
+          "end": 203.215
+        },
+        {
+          "text": "make",
+          "start": 203.215,
+          "end": 203.403
+        },
+        {
+          "text": "it",
+          "start": 203.403,
+          "end": 203.54
+        },
+        {
+          "text": "easier",
+          "start": 203.54,
+          "end": 203.915
+        },
+        {
+          "text": "to",
+          "start": 203.915,
+          "end": 204.015
+        },
+        {
+          "text": "understand",
+          "start": 204.015,
+          "end": 204.665
+        },
+        {
+          "text": "and",
+          "start": 204.665,
+          "end": 204.79
+        },
+        {
+          "text": "use",
+          "start": 204.79,
+          "end": 204.977
+        },
+        {
+          "text": "the",
+          "start": 204.977,
+          "end": 205.115
+        },
+        {
+          "text": "API",
+          "start": 205.115,
+          "end": 206.24
+        },
+        {
+          "text": ".",
+          "start": 206.24,
+          "end": 206.415
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "li",
+      "text": "Incremental Adoption: Companies can adopt GraphQL incrementally, integrating it with existing REST services. This allows for a smooth transition without the need for a complete overhaul of the existing system.",
+      "start": 206.735,
+      "end": 220.035,
+      "words": [
+        {
+          "text": "Incremental",
+          "start": 207.01,
+          "end": 207.635
+        },
+        {
+          "text": "Adoption",
+          "start": 207.635,
+          "end": 208.485
+        },
+        {
+          "text": ":",
+          "start": 208.485,
+          "end": 208.585
+        },
+        {
+          "text": "Companies",
+          "start": 208.585,
+          "end": 209.135
+        },
+        {
+          "text": "can",
+          "start": 209.135,
+          "end": 209.26
+        },
+        {
+          "text": "adopt",
+          "start": 209.26,
+          "end": 209.635
+        },
+        {
+          "text": "GraphQL",
+          "start": 209.635,
+          "end": 210.285
+        },
+        {
+          "text": "incrementally",
+          "start": 210.285,
+          "end": 211.235
+        },
+        {
+          "text": ",",
+          "start": 211.235,
+          "end": 211.36
+        },
+        {
+          "text": "integrating",
+          "start": 211.36,
+          "end": 211.985
+        },
+        {
+          "text": "it",
+          "start": 211.985,
+          "end": 212.135
+        },
+        {
+          "text": "with",
+          "start": 212.135,
+          "end": 212.272
+        },
+        {
+          "text": "existing",
+          "start": 212.272,
+          "end": 212.76
+        },
+        {
+          "text": "REST",
+          "start": 212.76,
+          "end": 213.01
+        },
+        {
+          "text": "services",
+          "start": 213.01,
+          "end": 214.335
+        },
+        {
+          "text": ".",
+          "start": 214.335,
+          "end": 214.472
+        },
+        {
+          "text": "This",
+          "start": 214.472,
+          "end": 214.685
+        },
+        {
+          "text": "allows",
+          "start": 214.685,
+          "end": 215.06
+        },
+        {
+          "text": "for",
+          "start": 215.06,
+          "end": 215.172
+        },
+        {
+          "text": "a",
+          "start": 215.172,
+          "end": 215.247
+        },
+        {
+          "text": "smooth",
+          "start": 215.247,
+          "end": 215.66
+        },
+        {
+          "text": "transition",
+          "start": 215.66,
+          "end": 216.41
+        },
+        {
+          "text": "without",
+          "start": 216.41,
+          "end": 216.723
+        },
+        {
+          "text": "the",
+          "start": 216.723,
+          "end": 216.81
+        },
+        {
+          "text": "need",
+          "start": 216.81,
+          "end": 217.085
+        },
+        {
+          "text": "for",
+          "start": 217.085,
+          "end": 217.197
+        },
+        {
+          "text": "a",
+          "start": 217.197,
+          "end": 217.26
+        },
+        {
+          "text": "complete",
+          "start": 217.26,
+          "end": 217.71
+        },
+        {
+          "text": "overhaul",
+          "start": 217.71,
+          "end": 218.21
+        },
+        {
+          "text": "of",
+          "start": 218.21,
+          "end": 218.297
+        },
+        {
+          "text": "the",
+          "start": 218.297,
+          "end": 218.435
+        },
+        {
+          "text": "existing",
+          "start": 218.435,
+          "end": 218.935
+        },
+        {
+          "text": "system",
+          "start": 218.935,
+          "end": 219.86
+        },
+        {
+          "text": ".",
+          "start": 219.86,
+          "end": 220.035
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Better Performance: By reducing the number of requests and the amount of data transferred, GraphQL can significantly improve the performance of applications, especially those with complex data requirements or operating in environments with limited bandwidth.",
+      "start": 220.355,
+      "end": 236.105,
+      "words": [
+        {
+          "text": "Better",
+          "start": 220.605,
+          "end": 220.88
+        },
+        {
+          "text": "Performance",
+          "start": 220.88,
+          "end": 221.88
+        },
+        {
+          "text": ":",
+          "start": 221.88,
+          "end": 221.98
+        },
+        {
+          "text": "By",
+          "start": 221.98,
+          "end": 222.155
+        },
+        {
+          "text": "reducing",
+          "start": 222.155,
+          "end": 222.618
+        },
+        {
+          "text": "the",
+          "start": 222.618,
+          "end": 222.705
+        },
+        {
+          "text": "number",
+          "start": 222.705,
+          "end": 222.967
+        },
+        {
+          "text": "of",
+          "start": 222.967,
+          "end": 223.043
+        },
+        {
+          "text": "requests",
+          "start": 223.043,
+          "end": 223.68
+        },
+        {
+          "text": "and",
+          "start": 223.68,
+          "end": 223.793
+        },
+        {
+          "text": "the",
+          "start": 223.793,
+          "end": 223.88
+        },
+        {
+          "text": "amount",
+          "start": 223.88,
+          "end": 224.217
+        },
+        {
+          "text": "of",
+          "start": 224.217,
+          "end": 224.305
+        },
+        {
+          "text": "data",
+          "start": 224.305,
+          "end": 224.68
+        },
+        {
+          "text": "transferred",
+          "start": 224.68,
+          "end": 225.68
+        },
+        {
+          "text": ",",
+          "start": 225.68,
+          "end": 225.805
+        },
+        {
+          "text": "GraphQL",
+          "start": 225.805,
+          "end": 226.455
+        },
+        {
+          "text": "can",
+          "start": 226.455,
+          "end": 226.63
+        },
+        {
+          "text": "significantly",
+          "start": 226.63,
+          "end": 227.33
+        },
+        {
+          "text": "improve",
+          "start": 227.33,
+          "end": 227.767
+        },
+        {
+          "text": "the",
+          "start": 227.767,
+          "end": 227.855
+        },
+        {
+          "text": "performance",
+          "start": 227.855,
+          "end": 228.417
+        },
+        {
+          "text": "of",
+          "start": 228.417,
+          "end": 228.492
+        },
+        {
+          "text": "applications",
+          "start": 228.492,
+          "end": 229.805
+        },
+        {
+          "text": ",",
+          "start": 229.805,
+          "end": 229.943
+        },
+        {
+          "text": "especially",
+          "start": 229.943,
+          "end": 230.53
+        },
+        {
+          "text": "those",
+          "start": 230.53,
+          "end": 230.843
+        },
+        {
+          "text": "with",
+          "start": 230.843,
+          "end": 231.005
+        },
+        {
+          "text": "complex",
+          "start": 231.005,
+          "end": 231.53
+        },
+        {
+          "text": "data",
+          "start": 231.53,
+          "end": 231.83
+        },
+        {
+          "text": "requirements",
+          "start": 231.83,
+          "end": 232.667
+        },
+        {
+          "text": "or",
+          "start": 232.667,
+          "end": 232.83
+        },
+        {
+          "text": "operating",
+          "start": 232.83,
+          "end": 233.455
+        },
+        {
+          "text": "in",
+          "start": 233.455,
+          "end": 233.58
+        },
+        {
+          "text": "environments",
+          "start": 233.58,
+          "end": 234.28
+        },
+        {
+          "text": "with",
+          "start": 234.28,
+          "end": 234.455
+        },
+        {
+          "text": "limited",
+          "start": 234.455,
+          "end": 234.855
+        },
+        {
+          "text": "bandwidth",
+          "start": 234.855,
+          "end": 235.905
+        },
+        {
+          "text": ".",
+          "start": 235.905,
+          "end": 236.105
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "Key Takeaways:",
+      "start": 236.425,
+      "end": 238.225,
+      "words": [
+        {
+          "text": "Key",
+          "start": 236.675,
+          "end": 236.9
+        },
+        {
+          "text": "Takeaways",
+          "start": 236.9,
+          "end": 238.025
+        },
+        {
+          "text": ":",
+          "start": 238.025,
+          "end": 238.225
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "li",
+      "text": "Client-Centric Design: GraphQL empowers clients to request exactly the data they need, reversing the data fetching responsibility and leading to more efficient data use.",
+      "start": 238.545,
+      "end": 249.495,
+      "words": [
+        {
+          "text": "Client-Centric",
+          "start": 238.795,
+          "end": 239.545
+        },
+        {
+          "text": "Design",
+          "start": 239.545,
+          "end": 240.495
+        },
+        {
+          "text": ":",
+          "start": 240.495,
+          "end": 240.632
+        },
+        {
+          "text": "GraphQL",
+          "start": 240.632,
+          "end": 241.295
+        },
+        {
+          "text": "empowers",
+          "start": 241.295,
+          "end": 241.795
+        },
+        {
+          "text": "clients",
+          "start": 241.795,
+          "end": 242.195
+        },
+        {
+          "text": "to",
+          "start": 242.195,
+          "end": 242.282
+        },
+        {
+          "text": "request",
+          "start": 242.282,
+          "end": 242.695
+        },
+        {
+          "text": "exactly",
+          "start": 242.695,
+          "end": 243.232
+        },
+        {
+          "text": "the",
+          "start": 243.232,
+          "end": 243.32
+        },
+        {
+          "text": "data",
+          "start": 243.32,
+          "end": 243.67
+        },
+        {
+          "text": "they",
+          "start": 243.67,
+          "end": 243.845
+        },
+        {
+          "text": "need",
+          "start": 243.845,
+          "end": 244.445
+        },
+        {
+          "text": ",",
+          "start": 244.445,
+          "end": 244.545
+        },
+        {
+          "text": "reversing",
+          "start": 244.545,
+          "end": 245.032
+        },
+        {
+          "text": "the",
+          "start": 245.032,
+          "end": 245.12
+        },
+        {
+          "text": "data",
+          "start": 245.12,
+          "end": 245.495
+        },
+        {
+          "text": "fetching",
+          "start": 245.495,
+          "end": 245.832
+        },
+        {
+          "text": "responsibility",
+          "start": 245.832,
+          "end": 246.92
+        },
+        {
+          "text": "and",
+          "start": 246.92,
+          "end": 247.07
+        },
+        {
+          "text": "leading",
+          "start": 247.07,
+          "end": 247.42
+        },
+        {
+          "text": "to",
+          "start": 247.42,
+          "end": 247.52
+        },
+        {
+          "text": "more",
+          "start": 247.52,
+          "end": 247.695
+        },
+        {
+          "text": "efficient",
+          "start": 247.695,
+          "end": 248.145
+        },
+        {
+          "text": "data",
+          "start": 248.145,
+          "end": 248.47
+        },
+        {
+          "text": "use",
+          "start": 248.47,
+          "end": 249.32
+        },
+        {
+          "text": ".",
+          "start": 249.32,
+          "end": 249.495
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "li",
+      "text": "Scalability and Performance: Developed to solve performance issues in mobile applications, GraphQL efficiently manages large datasets, delivering a seamless experience across devices.",
+      "start": 249.815,
+      "end": 261.89,
+      "words": [
+        {
+          "text": "Scalability",
+          "start": 250.09,
+          "end": 250.865
+        },
+        {
+          "text": "and",
+          "start": 250.865,
+          "end": 250.99
+        },
+        {
+          "text": "Performance",
+          "start": 250.99,
+          "end": 251.99
+        },
+        {
+          "text": ":",
+          "start": 251.99,
+          "end": 252.09
+        },
+        {
+          "text": "Developed",
+          "start": 252.09,
+          "end": 252.565
+        },
+        {
+          "text": "to",
+          "start": 252.565,
+          "end": 252.69
+        },
+        {
+          "text": "solve",
+          "start": 252.69,
+          "end": 252.99
+        },
+        {
+          "text": "performance",
+          "start": 252.99,
+          "end": 253.502
+        },
+        {
+          "text": "issues",
+          "start": 253.502,
+          "end": 253.915
+        },
+        {
+          "text": "in",
+          "start": 253.915,
+          "end": 254.04
+        },
+        {
+          "text": "mobile",
+          "start": 254.04,
+          "end": 254.302
+        },
+        {
+          "text": "applications",
+          "start": 254.302,
+          "end": 255.39
+        },
+        {
+          "text": ",",
+          "start": 255.39,
+          "end": 255.49
+        },
+        {
+          "text": "GraphQL",
+          "start": 255.49,
+          "end": 256.115
+        },
+        {
+          "text": "efficiently",
+          "start": 256.115,
+          "end": 256.665
+        },
+        {
+          "text": "manages",
+          "start": 256.665,
+          "end": 257.115
+        },
+        {
+          "text": "large",
+          "start": 257.115,
+          "end": 257.465
+        },
+        {
+          "text": "datasets",
+          "start": 257.465,
+          "end": 258.365
+        },
+        {
+          "text": ",",
+          "start": 258.365,
+          "end": 258.465
+        },
+        {
+          "text": "delivering",
+          "start": 258.465,
+          "end": 258.915
+        },
+        {
+          "text": "a",
+          "start": 258.915,
+          "end": 259.04
+        },
+        {
+          "text": "seamless",
+          "start": 259.04,
+          "end": 259.49
+        },
+        {
+          "text": "experience",
+          "start": 259.49,
+          "end": 260.215
+        },
+        {
+          "text": "across",
+          "start": 260.215,
+          "end": 260.54
+        },
+        {
+          "text": "devices",
+          "start": 260.54,
+          "end": 261.715
+        },
+        {
+          "text": ".",
+          "start": 261.715,
+          "end": 261.89
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Flexible API Structure: Unlike REST, GraphQL allows for a single endpoint to handle various queries, reducing complexity and improving maintainability.",
+      "start": 262.21,
+      "end": 272.86,
+      "words": [
+        {
+          "text": "Flexible",
+          "start": 262.485,
+          "end": 262.985
+        },
+        {
+          "text": "API",
+          "start": 262.985,
+          "end": 263.535
+        },
+        {
+          "text": "Structure",
+          "start": 263.535,
+          "end": 264.485
+        },
+        {
+          "text": ":",
+          "start": 264.485,
+          "end": 264.672
+        },
+        {
+          "text": "Unlike",
+          "start": 264.672,
+          "end": 265.06
+        },
+        {
+          "text": "REST",
+          "start": 265.06,
+          "end": 265.535
+        },
+        {
+          "text": ",",
+          "start": 265.535,
+          "end": 265.61
+        },
+        {
+          "text": "GraphQL",
+          "start": 265.61,
+          "end": 266.235
+        },
+        {
+          "text": "allows",
+          "start": 266.235,
+          "end": 266.61
+        },
+        {
+          "text": "for",
+          "start": 266.61,
+          "end": 266.723
+        },
+        {
+          "text": "a",
+          "start": 266.723,
+          "end": 266.798
+        },
+        {
+          "text": "single",
+          "start": 266.798,
+          "end": 267.135
+        },
+        {
+          "text": "endpoint",
+          "start": 267.135,
+          "end": 267.61
+        },
+        {
+          "text": "to",
+          "start": 267.61,
+          "end": 267.71
+        },
+        {
+          "text": "handle",
+          "start": 267.71,
+          "end": 268.085
+        },
+        {
+          "text": "various",
+          "start": 268.085,
+          "end": 268.535
+        },
+        {
+          "text": "queries",
+          "start": 268.535,
+          "end": 269.36
+        },
+        {
+          "text": ",",
+          "start": 269.36,
+          "end": 269.46
+        },
+        {
+          "text": "reducing",
+          "start": 269.46,
+          "end": 269.96
+        },
+        {
+          "text": "complexity",
+          "start": 269.96,
+          "end": 270.685
+        },
+        {
+          "text": "and",
+          "start": 270.685,
+          "end": 270.798
+        },
+        {
+          "text": "improving",
+          "start": 270.798,
+          "end": 271.31
+        },
+        {
+          "text": "maintainability",
+          "start": 271.31,
+          "end": 272.685
+        },
+        {
+          "text": ".",
+          "start": 272.685,
+          "end": 272.86
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Real-Time Features: Subscriptions in GraphQL enable real-time data updates, enhancing user engagement and experience.",
+      "start": 273.18,
+      "end": 281.655,
+      "words": [
+        {
+          "text": "Real-Time",
+          "start": 273.455,
+          "end": 273.98
+        },
+        {
+          "text": "Features",
+          "start": 273.98,
+          "end": 274.805
+        },
+        {
+          "text": ":",
+          "start": 274.805,
+          "end": 274.918
+        },
+        {
+          "text": "Subscriptions",
+          "start": 274.918,
+          "end": 275.655
+        },
+        {
+          "text": "in",
+          "start": 275.655,
+          "end": 275.78
+        },
+        {
+          "text": "GraphQL",
+          "start": 275.78,
+          "end": 276.43
+        },
+        {
+          "text": "enable",
+          "start": 276.43,
+          "end": 276.88
+        },
+        {
+          "text": "real-time",
+          "start": 276.88,
+          "end": 277.405
+        },
+        {
+          "text": "data",
+          "start": 277.405,
+          "end": 277.705
+        },
+        {
+          "text": "updates",
+          "start": 277.705,
+          "end": 278.53
+        },
+        {
+          "text": ",",
+          "start": 278.53,
+          "end": 278.63
+        },
+        {
+          "text": "enhancing",
+          "start": 278.63,
+          "end": 279.18
+        },
+        {
+          "text": "user",
+          "start": 279.18,
+          "end": 279.48
+        },
+        {
+          "text": "engagement",
+          "start": 279.48,
+          "end": 280.13
+        },
+        {
+          "text": "and",
+          "start": 280.13,
+          "end": 280.242
+        },
+        {
+          "text": "experience",
+          "start": 280.242,
+          "end": 281.455
+        },
+        {
+          "text": ".",
+          "start": 281.455,
+          "end": 281.655
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "Strong Typing: GraphQL’s strong type system ensures predictability and reliability in API interactions, minimizing errors and improving developer experience.",
+      "start": 281.975,
+      "end": 292.675,
+      "words": [
+        {
+          "text": "Strong",
+          "start": 282.25,
+          "end": 282.55
+        },
+        {
+          "text": "Typing",
+          "start": 282.55,
+          "end": 283.4
+        },
+        {
+          "text": ":",
+          "start": 283.4,
+          "end": 283.5
+        },
+        {
+          "text": "GraphQL’s",
+          "start": 283.5,
+          "end": 284.15
+        },
+        {
+          "text": "strong",
+          "start": 284.15,
+          "end": 284.45
+        },
+        {
+          "text": "type",
+          "start": 284.45,
+          "end": 284.725
+        },
+        {
+          "text": "system",
+          "start": 284.725,
+          "end": 285.138
+        },
+        {
+          "text": "ensures",
+          "start": 285.138,
+          "end": 285.6
+        },
+        {
+          "text": "predictability",
+          "start": 285.6,
+          "end": 286.425
+        },
+        {
+          "text": "and",
+          "start": 286.425,
+          "end": 286.538
+        },
+        {
+          "text": "reliability",
+          "start": 286.538,
+          "end": 287.325
+        },
+        {
+          "text": "in",
+          "start": 287.325,
+          "end": 287.475
+        },
+        {
+          "text": "API",
+          "start": 287.475,
+          "end": 287.987
+        },
+        {
+          "text": "interactions",
+          "start": 287.987,
+          "end": 289.075
+        },
+        {
+          "text": ",",
+          "start": 289.075,
+          "end": 289.175
+        },
+        {
+          "text": "minimizing",
+          "start": 289.175,
+          "end": 289.75
+        },
+        {
+          "text": "errors",
+          "start": 289.75,
+          "end": 290.15
+        },
+        {
+          "text": "and",
+          "start": 290.15,
+          "end": 290.263
+        },
+        {
+          "text": "improving",
+          "start": 290.263,
+          "end": 290.775
+        },
+        {
+          "text": "developer",
+          "start": 290.775,
+          "end": 291.25
+        },
+        {
+          "text": "experience",
+          "start": 291.25,
+          "end": 292.475
+        },
+        {
+          "text": ".",
+          "start": 292.475,
+          "end": 292.675
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "Middleware Efficiency: Pagination and filtering middleware enhance the performance of GraphQL APIs, allowing for efficient data handling and improved response times.",
+      "start": 292.995,
+      "end": 303.445,
+      "words": [
+        {
+          "text": "Middleware",
+          "start": 293.27,
+          "end": 293.582
+        },
+        {
+          "text": "Efficiency",
+          "start": 293.582,
+          "end": 294.57
+        },
+        {
+          "text": ":",
+          "start": 294.57,
+          "end": 294.695
+        },
+        {
+          "text": "Pagination",
+          "start": 294.695,
+          "end": 295.37
+        },
+        {
+          "text": "and",
+          "start": 295.37,
+          "end": 295.495
+        },
+        {
+          "text": "filtering",
+          "start": 295.495,
+          "end": 295.97
+        },
+        {
+          "text": "middleware",
+          "start": 295.97,
+          "end": 296.37
+        },
+        {
+          "text": "enhance",
+          "start": 296.37,
+          "end": 296.858
+        },
+        {
+          "text": "the",
+          "start": 296.858,
+          "end": 296.945
+        },
+        {
+          "text": "performance",
+          "start": 296.945,
+          "end": 297.532
+        },
+        {
+          "text": "of",
+          "start": 297.532,
+          "end": 297.62
+        },
+        {
+          "text": "GraphQL",
+          "start": 297.62,
+          "end": 298.245
+        },
+        {
+          "text": "APIs",
+          "start": 298.245,
+          "end": 299.32
+        },
+        {
+          "text": ",",
+          "start": 299.32,
+          "end": 299.458
+        },
+        {
+          "text": "allowing",
+          "start": 299.458,
+          "end": 299.895
+        },
+        {
+          "text": "for",
+          "start": 299.895,
+          "end": 300.02
+        },
+        {
+          "text": "efficient",
+          "start": 300.02,
+          "end": 300.47
+        },
+        {
+          "text": "data",
+          "start": 300.47,
+          "end": 300.795
+        },
+        {
+          "text": "handling",
+          "start": 300.795,
+          "end": 301.27
+        },
+        {
+          "text": "and",
+          "start": 301.27,
+          "end": 301.382
+        },
+        {
+          "text": "improved",
+          "start": 301.382,
+          "end": 301.833
+        },
+        {
+          "text": "response",
+          "start": 301.833,
+          "end": 302.295
+        },
+        {
+          "text": "times",
+          "start": 302.295,
+          "end": 303.245
+        },
+        {
+          "text": ".",
+          "start": 303.245,
+          "end": 303.445
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "li",
+      "text": "Integration with Existing Systems: GraphQL can easily integrate with existing REST services, allowing organizations to adopt it incrementally while enhancing their APIs’ capabilities.",
+      "start": 303.765,
+      "end": 316.215,
+      "words": [
+        {
+          "text": "Integration",
+          "start": 304.04,
+          "end": 304.715
+        },
+        {
+          "text": "with",
+          "start": 304.715,
+          "end": 304.852
+        },
+        {
+          "text": "Existing",
+          "start": 304.852,
+          "end": 305.315
+        },
+        {
+          "text": "Systems",
+          "start": 305.315,
+          "end": 306.34
+        },
+        {
+          "text": ":",
+          "start": 306.34,
+          "end": 306.453
+        },
+        {
+          "text": "GraphQL",
+          "start": 306.453,
+          "end": 307.115
+        },
+        {
+          "text": "can",
+          "start": 307.115,
+          "end": 307.327
+        },
+        {
+          "text": "easily",
+          "start": 307.327,
+          "end": 307.715
+        },
+        {
+          "text": "integrate",
+          "start": 307.715,
+          "end": 308.252
+        },
+        {
+          "text": "with",
+          "start": 308.252,
+          "end": 308.377
+        },
+        {
+          "text": "existing",
+          "start": 308.377,
+          "end": 308.815
+        },
+        {
+          "text": "REST",
+          "start": 308.815,
+          "end": 309.04
+        },
+        {
+          "text": "services",
+          "start": 309.04,
+          "end": 309.99
+        },
+        {
+          "text": ",",
+          "start": 309.99,
+          "end": 310.103
+        },
+        {
+          "text": "allowing",
+          "start": 310.103,
+          "end": 310.515
+        },
+        {
+          "text": "organizations",
+          "start": 310.515,
+          "end": 311.365
+        },
+        {
+          "text": "to",
+          "start": 311.365,
+          "end": 311.49
+        },
+        {
+          "text": "adopt",
+          "start": 311.49,
+          "end": 311.865
+        },
+        {
+          "text": "it",
+          "start": 311.865,
+          "end": 312.015
+        },
+        {
+          "text": "incrementally",
+          "start": 312.015,
+          "end": 312.953
+        },
+        {
+          "text": "while",
+          "start": 312.953,
+          "end": 313.152
+        },
+        {
+          "text": "enhancing",
+          "start": 313.152,
+          "end": 313.665
+        },
+        {
+          "text": "their",
+          "start": 313.665,
+          "end": 313.865
+        },
+        {
+          "text": "APIs",
+          "start": 313.865,
+          "end": 314.615
+        },
+        {
+          "text": "’",
+          "start": 314.615,
+          "end": 314.69
+        },
+        {
+          "text": "capabilities",
+          "start": 314.69,
+          "end": 316.04
+        },
+        {
+          "text": ".",
+          "start": 316.04,
+          "end": 316.215
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "Comparison Table: REST API vs. GraphQL",
+      "start": 316.535,
+      "end": 320.46,
+      "words": [
+        {
+          "text": "Comparison",
+          "start": 316.785,
+          "end": 317.385
+        },
+        {
+          "text": "Table",
+          "start": 317.385,
+          "end": 318.01
+        },
+        {
+          "text": ":",
+          "start": 318.01,
+          "end": 318.11
+        },
+        {
+          "text": "REST",
+          "start": 318.11,
+          "end": 318.41
+        },
+        {
+          "text": "API",
+          "start": 318.41,
+          "end": 318.96
+        },
+        {
+          "text": "vs.",
+          "start": 318.96,
+          "end": 319.385
+        },
+        {
+          "text": "GraphQL",
+          "start": 319.385,
+          "end": 320.46
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "p",
+      "text": "Why Move from REST API to GraphQL?",
+      "start": 320.905,
+      "end": 324.13,
+      "words": [
+        {
+          "text": "Why",
+          "start": 321.155,
+          "end": 321.355
+        },
+        {
+          "text": "Move",
+          "start": 321.355,
+          "end": 321.58
+        },
+        {
+          "text": "from",
+          "start": 321.58,
+          "end": 321.755
+        },
+        {
+          "text": "REST",
+          "start": 321.755,
+          "end": 322.03
+        },
+        {
+          "text": "API",
+          "start": 322.03,
+          "end": 322.705
+        },
+        {
+          "text": "to",
+          "start": 322.705,
+          "end": 322.805
+        },
+        {
+          "text": "GraphQL",
+          "start": 322.805,
+          "end": 323.955
+        },
+        {
+          "text": "?",
+          "start": 323.955,
+          "end": 324.13
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "Efficient Data Fetching: GraphQL allows clients to request only the data they need, reducing over-fetching and under-fetching issues common with REST.",
+      "start": 324.45,
+      "end": 333.825,
+      "words": [
+        {
+          "text": "Efficient",
+          "start": 324.7,
+          "end": 325.15
+        },
+        {
+          "text": "Data",
+          "start": 325.15,
+          "end": 325.475
+        },
+        {
+          "text": "Fetching",
+          "start": 325.475,
+          "end": 326.375
+        },
+        {
+          "text": ":",
+          "start": 326.375,
+          "end": 326.488
+        },
+        {
+          "text": "GraphQL",
+          "start": 326.488,
+          "end": 327.15
+        },
+        {
+          "text": "allows",
+          "start": 327.15,
+          "end": 327.5
+        },
+        {
+          "text": "clients",
+          "start": 327.5,
+          "end": 327.875
+        },
+        {
+          "text": "to",
+          "start": 327.875,
+          "end": 327.962
+        },
+        {
+          "text": "request",
+          "start": 327.962,
+          "end": 328.375
+        },
+        {
+          "text": "only",
+          "start": 328.375,
+          "end": 328.663
+        },
+        {
+          "text": "the",
+          "start": 328.663,
+          "end": 328.75
+        },
+        {
+          "text": "data",
+          "start": 328.75,
+          "end": 329.1
+        },
+        {
+          "text": "they",
+          "start": 329.1,
+          "end": 329.275
+        },
+        {
+          "text": "need",
+          "start": 329.275,
+          "end": 329.85
+        },
+        {
+          "text": ",",
+          "start": 329.85,
+          "end": 329.95
+        },
+        {
+          "text": "reducing",
+          "start": 329.95,
+          "end": 330.45
+        },
+        {
+          "text": "over-fetching",
+          "start": 330.45,
+          "end": 331.1
+        },
+        {
+          "text": "and",
+          "start": 331.1,
+          "end": 331.225
+        },
+        {
+          "text": "under-fetching",
+          "start": 331.225,
+          "end": 331.825
+        },
+        {
+          "text": "issues",
+          "start": 331.825,
+          "end": 332.25
+        },
+        {
+          "text": "common",
+          "start": 332.25,
+          "end": 332.562
+        },
+        {
+          "text": "with",
+          "start": 332.562,
+          "end": 332.725
+        },
+        {
+          "text": "REST",
+          "start": 332.725,
+          "end": 333.625
+        },
+        {
+          "text": ".",
+          "start": 333.625,
+          "end": 333.825
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "li",
+      "text": "Single Endpoint: Simplifies API management by consolidating multiple REST endpoints into a single GraphQL endpoint.",
+      "start": 334.145,
+      "end": 342.62,
+      "words": [
+        {
+          "text": "Single",
+          "start": 334.445,
+          "end": 334.795
+        },
+        {
+          "text": "Endpoint",
+          "start": 334.795,
+          "end": 335.745
+        },
+        {
+          "text": ":",
+          "start": 335.745,
+          "end": 335.857
+        },
+        {
+          "text": "Simplifies",
+          "start": 335.857,
+          "end": 336.482
+        },
+        {
+          "text": "API",
+          "start": 336.482,
+          "end": 337.045
+        },
+        {
+          "text": "management",
+          "start": 337.045,
+          "end": 337.67
+        },
+        {
+          "text": "by",
+          "start": 337.67,
+          "end": 337.845
+        },
+        {
+          "text": "consolidating",
+          "start": 337.845,
+          "end": 338.645
+        },
+        {
+          "text": "multiple",
+          "start": 338.645,
+          "end": 339.12
+        },
+        {
+          "text": "REST",
+          "start": 339.12,
+          "end": 339.557
+        },
+        {
+          "text": "endpoints",
+          "start": 339.557,
+          "end": 340.083
+        },
+        {
+          "text": "into",
+          "start": 340.083,
+          "end": 340.283
+        },
+        {
+          "text": "a",
+          "start": 340.283,
+          "end": 340.358
+        },
+        {
+          "text": "single",
+          "start": 340.358,
+          "end": 340.72
+        },
+        {
+          "text": "GraphQL",
+          "start": 340.72,
+          "end": 341.345
+        },
+        {
+          "text": "endpoint",
+          "start": 341.345,
+          "end": 342.42
+        },
+        {
+          "text": ".",
+          "start": 342.42,
+          "end": 342.62
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Real-Time Data: Supports subscriptions for real-time updates, which are harder to implement with REST.",
+      "start": 342.94,
+      "end": 349.615,
+      "words": [
+        {
+          "text": "Real-Time",
+          "start": 343.215,
+          "end": 343.74
+        },
+        {
+          "text": "Data",
+          "start": 343.74,
+          "end": 344.49
+        },
+        {
+          "text": ":",
+          "start": 344.49,
+          "end": 344.627
+        },
+        {
+          "text": "Supports",
+          "start": 344.627,
+          "end": 345.09
+        },
+        {
+          "text": "subscriptions",
+          "start": 345.09,
+          "end": 345.84
+        },
+        {
+          "text": "for",
+          "start": 345.84,
+          "end": 345.965
+        },
+        {
+          "text": "real-time",
+          "start": 345.965,
+          "end": 346.465
+        },
+        {
+          "text": "updates",
+          "start": 346.465,
+          "end": 347.09
+        },
+        {
+          "text": ",",
+          "start": 347.09,
+          "end": 347.153
+        },
+        {
+          "text": "which",
+          "start": 347.153,
+          "end": 347.34
+        },
+        {
+          "text": "are",
+          "start": 347.34,
+          "end": 347.44
+        },
+        {
+          "text": "harder",
+          "start": 347.44,
+          "end": 347.765
+        },
+        {
+          "text": "to",
+          "start": 347.765,
+          "end": 347.89
+        },
+        {
+          "text": "implement",
+          "start": 347.89,
+          "end": 348.352
+        },
+        {
+          "text": "with",
+          "start": 348.352,
+          "end": 348.515
+        },
+        {
+          "text": "REST",
+          "start": 348.515,
+          "end": 349.415
+        },
+        {
+          "text": ".",
+          "start": 349.415,
+          "end": 349.615
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Strong Typing: Uses a schema to define the capabilities of the API, making it easier to understand and use.",
+      "start": 349.935,
+      "end": 357.435,
+      "words": [
+        {
+          "text": "Strong",
+          "start": 350.21,
+          "end": 350.51
+        },
+        {
+          "text": "Typing",
+          "start": 350.51,
+          "end": 351.285
+        },
+        {
+          "text": ":",
+          "start": 351.285,
+          "end": 351.398
+        },
+        {
+          "text": "Uses",
+          "start": 351.398,
+          "end": 351.698
+        },
+        {
+          "text": "a",
+          "start": 351.698,
+          "end": 351.773
+        },
+        {
+          "text": "schema",
+          "start": 351.773,
+          "end": 352.185
+        },
+        {
+          "text": "to",
+          "start": 352.185,
+          "end": 352.273
+        },
+        {
+          "text": "define",
+          "start": 352.273,
+          "end": 352.622
+        },
+        {
+          "text": "the",
+          "start": 352.622,
+          "end": 352.71
+        },
+        {
+          "text": "capabilities",
+          "start": 352.71,
+          "end": 353.422
+        },
+        {
+          "text": "of",
+          "start": 353.422,
+          "end": 353.497
+        },
+        {
+          "text": "the",
+          "start": 353.497,
+          "end": 353.635
+        },
+        {
+          "text": "API",
+          "start": 353.635,
+          "end": 354.535
+        },
+        {
+          "text": ",",
+          "start": 354.535,
+          "end": 354.66
+        },
+        {
+          "text": "making",
+          "start": 354.66,
+          "end": 354.948
+        },
+        {
+          "text": "it",
+          "start": 354.948,
+          "end": 355.098
+        },
+        {
+          "text": "easier",
+          "start": 355.098,
+          "end": 355.51
+        },
+        {
+          "text": "to",
+          "start": 355.51,
+          "end": 355.61
+        },
+        {
+          "text": "understand",
+          "start": 355.61,
+          "end": 356.26
+        },
+        {
+          "text": "and",
+          "start": 356.26,
+          "end": 356.385
+        },
+        {
+          "text": "use",
+          "start": 356.385,
+          "end": 357.235
+        },
+        {
+          "text": ".",
+          "start": 357.235,
+          "end": 357.435
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "Explanation of Key Terms in GraphQL",
+      "start": 357.755,
+      "end": 360.78,
+      "words": [
+        {
+          "text": "Explanation",
+          "start": 357.98,
+          "end": 358.73
+        },
+        {
+          "text": "of",
+          "start": 358.73,
+          "end": 358.83
+        },
+        {
+          "text": "Key",
+          "start": 358.83,
+          "end": 359.08
+        },
+        {
+          "text": "Terms",
+          "start": 359.08,
+          "end": 359.505
+        },
+        {
+          "text": "in",
+          "start": 359.505,
+          "end": 359.63
+        },
+        {
+          "text": "GraphQL",
+          "start": 359.63,
+          "end": 360.78
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Schema: Defines the types and relationships in the API.",
+      "start": 361.25,
+      "end": 365.2,
+      "words": [
+        {
+          "text": "Schema",
+          "start": 361.5,
+          "end": 361.95
+        },
+        {
+          "text": ":",
+          "start": 361.95,
+          "end": 362.025
+        },
+        {
+          "text": "Defines",
+          "start": 362.025,
+          "end": 362.462
+        },
+        {
+          "text": "the",
+          "start": 362.462,
+          "end": 362.55
+        },
+        {
+          "text": "types",
+          "start": 362.55,
+          "end": 362.913
+        },
+        {
+          "text": "and",
+          "start": 362.913,
+          "end": 363.012
+        },
+        {
+          "text": "relationships",
+          "start": 363.012,
+          "end": 363.712
+        },
+        {
+          "text": "in",
+          "start": 363.712,
+          "end": 363.788
+        },
+        {
+          "text": "the",
+          "start": 363.788,
+          "end": 363.9
+        },
+        {
+          "text": "API",
+          "start": 363.9,
+          "end": 365.025
+        },
+        {
+          "text": ".",
+          "start": 365.025,
+          "end": 365.2
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "Query: Operation to fetch data.",
+      "start": 365.52,
+      "end": 368.395,
+      "words": [
+        {
+          "text": "Query",
+          "start": 365.745,
+          "end": 366.195
+        },
+        {
+          "text": ":",
+          "start": 366.195,
+          "end": 366.27
+        },
+        {
+          "text": "Operation",
+          "start": 366.27,
+          "end": 366.895
+        },
+        {
+          "text": "to",
+          "start": 366.895,
+          "end": 367.02
+        },
+        {
+          "text": "fetch",
+          "start": 367.02,
+          "end": 367.295
+        },
+        {
+          "text": "data",
+          "start": 367.295,
+          "end": 368.195
+        },
+        {
+          "text": ".",
+          "start": 368.195,
+          "end": 368.395
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "li",
+      "text": "Mutation: Operation to modify data.",
+      "start": 368.715,
+      "end": 372.09,
+      "words": [
+        {
+          "text": "Mutation",
+          "start": 368.965,
+          "end": 369.64
+        },
+        {
+          "text": ":",
+          "start": 369.64,
+          "end": 369.715
+        },
+        {
+          "text": "Operation",
+          "start": 369.715,
+          "end": 370.365
+        },
+        {
+          "text": "to",
+          "start": 370.365,
+          "end": 370.49
+        },
+        {
+          "text": "modify",
+          "start": 370.49,
+          "end": 370.965
+        },
+        {
+          "text": "data",
+          "start": 370.965,
+          "end": 371.915
+        },
+        {
+          "text": ".",
+          "start": 371.915,
+          "end": 372.09
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Subscription: Operation for real-time data updates.",
+      "start": 372.41,
+      "end": 376.41,
+      "words": [
+        {
+          "text": "Subscription",
+          "start": 372.685,
+          "end": 373.385
+        },
+        {
+          "text": ":",
+          "start": 373.385,
+          "end": 373.46
+        },
+        {
+          "text": "Operation",
+          "start": 373.46,
+          "end": 374.085
+        },
+        {
+          "text": "for",
+          "start": 374.085,
+          "end": 374.21
+        },
+        {
+          "text": "real-time",
+          "start": 374.21,
+          "end": 374.835
+        },
+        {
+          "text": "data",
+          "start": 374.835,
+          "end": 375.16
+        },
+        {
+          "text": "updates",
+          "start": 375.16,
+          "end": 376.235
+        },
+        {
+          "text": ".",
+          "start": 376.235,
+          "end": 376.41
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Resolver: Function that resolves a value for a type or field in the schema.",
+      "start": 376.73,
+      "end": 381.43,
+      "words": [
+        {
+          "text": "Resolver",
+          "start": 376.98,
+          "end": 377.53
+        },
+        {
+          "text": ":",
+          "start": 377.53,
+          "end": 377.642
+        },
+        {
+          "text": "Function",
+          "start": 377.642,
+          "end": 378.105
+        },
+        {
+          "text": "that",
+          "start": 378.105,
+          "end": 378.255
+        },
+        {
+          "text": "resolves",
+          "start": 378.255,
+          "end": 378.668
+        },
+        {
+          "text": "a",
+          "start": 378.668,
+          "end": 378.73
+        },
+        {
+          "text": "value",
+          "start": 378.73,
+          "end": 379.105
+        },
+        {
+          "text": "for",
+          "start": 379.105,
+          "end": 379.217
+        },
+        {
+          "text": "a",
+          "start": 379.217,
+          "end": 379.28
+        },
+        {
+          "text": "type",
+          "start": 379.28,
+          "end": 379.668
+        },
+        {
+          "text": "or",
+          "start": 379.668,
+          "end": 379.842
+        },
+        {
+          "text": "field",
+          "start": 379.842,
+          "end": 380.192
+        },
+        {
+          "text": "in",
+          "start": 380.192,
+          "end": 380.268
+        },
+        {
+          "text": "the",
+          "start": 380.268,
+          "end": 380.355
+        },
+        {
+          "text": "schema",
+          "start": 380.355,
+          "end": 381.23
+        },
+        {
+          "text": ".",
+          "start": 381.23,
+          "end": 381.43
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "p",
+      "text": "UML Sequence Diagram Using Mermaid",
+      "start": 381.75,
+      "end": 384.775,
+      "words": [
+        {
+          "text": "UML",
+          "start": 382.025,
+          "end": 382.525
+        },
+        {
+          "text": "Sequence",
+          "start": 382.525,
+          "end": 383.025
+        },
+        {
+          "text": "Diagram",
+          "start": 383.025,
+          "end": 383.55
+        },
+        {
+          "text": "Using",
+          "start": 383.55,
+          "end": 383.825
+        },
+        {
+          "text": "Mermaid",
+          "start": 383.825,
+          "end": 384.775
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "h4",
+      "text": "Glossary",
+      "start": 385.295,
+      "end": 386.17,
+      "words": [
+        {
+          "text": "Glossary",
+          "start": 385.545,
+          "end": 386.17
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "li",
+      "text": "Endpoint: A specific URL where an API can be accessed by a client.",
+      "start": 386.565,
+      "end": 391.465,
+      "words": [
+        {
+          "text": "Endpoint",
+          "start": 386.84,
+          "end": 387.415
+        },
+        {
+          "text": ":",
+          "start": 387.415,
+          "end": 387.49
+        },
+        {
+          "text": "A",
+          "start": 387.49,
+          "end": 387.565
+        },
+        {
+          "text": "specific",
+          "start": 387.565,
+          "end": 388.065
+        },
+        {
+          "text": "URL",
+          "start": 388.065,
+          "end": 388.565
+        },
+        {
+          "text": "where",
+          "start": 388.565,
+          "end": 388.728
+        },
+        {
+          "text": "an",
+          "start": 388.728,
+          "end": 388.815
+        },
+        {
+          "text": "API",
+          "start": 388.815,
+          "end": 389.365
+        },
+        {
+          "text": "can",
+          "start": 389.365,
+          "end": 389.478
+        },
+        {
+          "text": "be",
+          "start": 389.478,
+          "end": 389.59
+        },
+        {
+          "text": "accessed",
+          "start": 389.59,
+          "end": 390.065
+        },
+        {
+          "text": "by",
+          "start": 390.065,
+          "end": 390.228
+        },
+        {
+          "text": "a",
+          "start": 390.228,
+          "end": 390.29
+        },
+        {
+          "text": "client",
+          "start": 390.29,
+          "end": 391.265
+        },
+        {
+          "text": ".",
+          "start": 391.265,
+          "end": 391.465
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Over-fetching: Retrieving more data than necessary.",
+      "start": 391.785,
+      "end": 395.335,
+      "words": [
+        {
+          "text": "Over-fetching",
+          "start": 392.035,
+          "end": 392.785
+        },
+        {
+          "text": ":",
+          "start": 392.785,
+          "end": 392.86
+        },
+        {
+          "text": "Retrieving",
+          "start": 392.86,
+          "end": 393.385
+        },
+        {
+          "text": "more",
+          "start": 393.385,
+          "end": 393.56
+        },
+        {
+          "text": "data",
+          "start": 393.56,
+          "end": 393.935
+        },
+        {
+          "text": "than",
+          "start": 393.935,
+          "end": 394.085
+        },
+        {
+          "text": "necessary",
+          "start": 394.085,
+          "end": 395.16
+        },
+        {
+          "text": ".",
+          "start": 395.16,
+          "end": 395.335
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "Under-fetching: Retrieving insufficient data, requiring additional requests.",
+      "start": 395.655,
+      "end": 400.83,
+      "words": [
+        {
+          "text": "Under-fetching",
+          "start": 395.905,
+          "end": 396.68
+        },
+        {
+          "text": ":",
+          "start": 396.68,
+          "end": 396.755
+        },
+        {
+          "text": "Retrieving",
+          "start": 396.755,
+          "end": 397.28
+        },
+        {
+          "text": "insufficient",
+          "start": 397.28,
+          "end": 397.905
+        },
+        {
+          "text": "data",
+          "start": 397.905,
+          "end": 398.505
+        },
+        {
+          "text": ",",
+          "start": 398.505,
+          "end": 398.605
+        },
+        {
+          "text": "requiring",
+          "start": 398.605,
+          "end": 399.155
+        },
+        {
+          "text": "additional",
+          "start": 399.155,
+          "end": 399.543
+        },
+        {
+          "text": "requests",
+          "start": 399.543,
+          "end": 400.655
+        },
+        {
+          "text": ".",
+          "start": 400.655,
+          "end": 400.83
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "Schema: A formal definition of the structure and types of data that can be queried or mutated in GraphQL.",
+      "start": 401.15,
+      "end": 408.025,
+      "words": [
+        {
+          "text": "Schema",
+          "start": 401.425,
+          "end": 401.9
+        },
+        {
+          "text": ":",
+          "start": 401.9,
+          "end": 401.975
+        },
+        {
+          "text": "A",
+          "start": 401.975,
+          "end": 402.088
+        },
+        {
+          "text": "formal",
+          "start": 402.088,
+          "end": 402.45
+        },
+        {
+          "text": "definition",
+          "start": 402.45,
+          "end": 402.988
+        },
+        {
+          "text": "of",
+          "start": 402.988,
+          "end": 403.062
+        },
+        {
+          "text": "the",
+          "start": 403.062,
+          "end": 403.15
+        },
+        {
+          "text": "structure",
+          "start": 403.15,
+          "end": 403.625
+        },
+        {
+          "text": "and",
+          "start": 403.625,
+          "end": 403.75
+        },
+        {
+          "text": "types",
+          "start": 403.75,
+          "end": 404.088
+        },
+        {
+          "text": "of",
+          "start": 404.088,
+          "end": 404.175
+        },
+        {
+          "text": "data",
+          "start": 404.175,
+          "end": 404.85
+        },
+        {
+          "text": "that",
+          "start": 404.85,
+          "end": 405.0
+        },
+        {
+          "text": "can",
+          "start": 405.0,
+          "end": 405.113
+        },
+        {
+          "text": "be",
+          "start": 405.113,
+          "end": 405.225
+        },
+        {
+          "text": "queried",
+          "start": 405.225,
+          "end": 405.713
+        },
+        {
+          "text": "or",
+          "start": 405.713,
+          "end": 405.85
+        },
+        {
+          "text": "mutated",
+          "start": 405.85,
+          "end": 406.562
+        },
+        {
+          "text": "in",
+          "start": 406.562,
+          "end": 406.7
+        },
+        {
+          "text": "GraphQL",
+          "start": 406.7,
+          "end": 407.85
+        },
+        {
+          "text": ".",
+          "start": 407.85,
+          "end": 408.025
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "Query: A read-only operation in GraphQL to fetch data.",
+      "start": 408.345,
+      "end": 412.795,
+      "words": [
+        {
+          "text": "Query",
+          "start": 408.595,
+          "end": 409.07
+        },
+        {
+          "text": ":",
+          "start": 409.07,
+          "end": 409.145
+        },
+        {
+          "text": "A",
+          "start": 409.145,
+          "end": 409.245
+        },
+        {
+          "text": "read-only",
+          "start": 409.245,
+          "end": 409.77
+        },
+        {
+          "text": "operation",
+          "start": 409.77,
+          "end": 410.42
+        },
+        {
+          "text": "in",
+          "start": 410.42,
+          "end": 410.545
+        },
+        {
+          "text": "GraphQL",
+          "start": 410.545,
+          "end": 411.258
+        },
+        {
+          "text": "to",
+          "start": 411.258,
+          "end": 411.395
+        },
+        {
+          "text": "fetch",
+          "start": 411.395,
+          "end": 411.67
+        },
+        {
+          "text": "data",
+          "start": 411.67,
+          "end": 412.595
+        },
+        {
+          "text": ".",
+          "start": 412.595,
+          "end": 412.795
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "Mutation: An operation in GraphQL to modify data.",
+      "start": 413.115,
+      "end": 417.34,
+      "words": [
+        {
+          "text": "Mutation",
+          "start": 413.365,
+          "end": 414.015
+        },
+        {
+          "text": ":",
+          "start": 414.015,
+          "end": 414.09
+        },
+        {
+          "text": "An",
+          "start": 414.09,
+          "end": 414.19
+        },
+        {
+          "text": "operation",
+          "start": 414.19,
+          "end": 414.84
+        },
+        {
+          "text": "in",
+          "start": 414.84,
+          "end": 414.965
+        },
+        {
+          "text": "GraphQL",
+          "start": 414.965,
+          "end": 415.64
+        },
+        {
+          "text": "to",
+          "start": 415.64,
+          "end": 415.765
+        },
+        {
+          "text": "modify",
+          "start": 415.765,
+          "end": 416.24
+        },
+        {
+          "text": "data",
+          "start": 416.24,
+          "end": 417.165
+        },
+        {
+          "text": ".",
+          "start": 417.165,
+          "end": 417.34
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "Subscription: A real-time operation in GraphQL to receive updates when data changes.",
+      "start": 417.66,
+      "end": 423.935,
+      "words": [
+        {
+          "text": "Subscription",
+          "start": 417.935,
+          "end": 418.685
+        },
+        {
+          "text": ":",
+          "start": 418.685,
+          "end": 418.76
+        },
+        {
+          "text": "A",
+          "start": 418.76,
+          "end": 418.86
+        },
+        {
+          "text": "real-time",
+          "start": 418.86,
+          "end": 419.397
+        },
+        {
+          "text": "operation",
+          "start": 419.397,
+          "end": 420.01
+        },
+        {
+          "text": "in",
+          "start": 420.01,
+          "end": 420.135
+        },
+        {
+          "text": "GraphQL",
+          "start": 420.135,
+          "end": 421.135
+        },
+        {
+          "text": "to",
+          "start": 421.135,
+          "end": 421.248
+        },
+        {
+          "text": "receive",
+          "start": 421.248,
+          "end": 421.66
+        },
+        {
+          "text": "updates",
+          "start": 421.66,
+          "end": 422.147
+        },
+        {
+          "text": "when",
+          "start": 422.147,
+          "end": 422.31
+        },
+        {
+          "text": "data",
+          "start": 422.31,
+          "end": 422.66
+        },
+        {
+          "text": "changes",
+          "start": 422.66,
+          "end": 423.76
+        },
+        {
+          "text": ".",
+          "start": 423.76,
+          "end": 423.935
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "li",
+      "text": "Resolver: A function in GraphQL that resolves a value for a type or field.",
+      "start": 424.255,
+      "end": 429.305,
+      "words": [
+        {
+          "text": "Resolver",
+          "start": 424.505,
+          "end": 425.105
+        },
+        {
+          "text": ":",
+          "start": 425.105,
+          "end": 425.18
+        },
+        {
+          "text": "A",
+          "start": 425.18,
+          "end": 425.28
+        },
+        {
+          "text": "function",
+          "start": 425.28,
+          "end": 425.705
+        },
+        {
+          "text": "in",
+          "start": 425.705,
+          "end": 425.83
+        },
+        {
+          "text": "GraphQL",
+          "start": 425.83,
+          "end": 426.53
+        },
+        {
+          "text": "that",
+          "start": 426.53,
+          "end": 426.68
+        },
+        {
+          "text": "resolves",
+          "start": 426.68,
+          "end": 427.093
+        },
+        {
+          "text": "a",
+          "start": 427.093,
+          "end": 427.155
+        },
+        {
+          "text": "value",
+          "start": 427.155,
+          "end": 427.53
+        },
+        {
+          "text": "for",
+          "start": 427.53,
+          "end": 427.642
+        },
+        {
+          "text": "a",
+          "start": 427.642,
+          "end": 427.705
+        },
+        {
+          "text": "type",
+          "start": 427.705,
+          "end": 428.03
+        },
+        {
+          "text": "or",
+          "start": 428.03,
+          "end": 428.193
+        },
+        {
+          "text": "field",
+          "start": 428.193,
+          "end": 429.105
+        },
+        {
+          "text": ".",
+          "start": 429.105,
+          "end": 429.305
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "h3",
+      "text": "Architectural Diagram Using UML in Mermaid",
+      "start": 429.625,
+      "end": 433.025,
+      "words": [
+        {
+          "text": "Architectural",
+          "start": 429.875,
+          "end": 430.525
+        },
+        {
+          "text": "Diagram",
+          "start": 430.525,
+          "end": 431.112
+        },
+        {
+          "text": "Using",
+          "start": 431.112,
+          "end": 431.45
+        },
+        {
+          "text": "UML",
+          "start": 431.45,
+          "end": 431.975
+        },
+        {
+          "text": "in",
+          "start": 431.975,
+          "end": 432.1
+        },
+        {
+          "text": "Mermaid",
+          "start": 432.1,
+          "end": 433.025
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "h4",
+      "text": "Explanation",
+      "start": 433.52,
+      "end": 434.82,
+      "words": [
+        {
+          "text": "Explanation",
+          "start": 433.745,
+          "end": 434.82
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "li",
+      "text": "Client: The front-end application sends a GraphQL query to the GraphQL server.",
+      "start": 435.365,
+      "end": 440.89,
+      "words": [
+        {
+          "text": "Client",
+          "start": 435.615,
+          "end": 436.115
+        },
+        {
+          "text": ":",
+          "start": 436.115,
+          "end": 436.19
+        },
+        {
+          "text": "The",
+          "start": 436.19,
+          "end": 436.29
+        },
+        {
+          "text": "front-end",
+          "start": 436.29,
+          "end": 436.778
+        },
+        {
+          "text": "application",
+          "start": 436.778,
+          "end": 437.578
+        },
+        {
+          "text": "sends",
+          "start": 437.578,
+          "end": 437.877
+        },
+        {
+          "text": "a",
+          "start": 437.877,
+          "end": 437.94
+        },
+        {
+          "text": "GraphQL",
+          "start": 437.94,
+          "end": 438.54
+        },
+        {
+          "text": "query",
+          "start": 438.54,
+          "end": 439.04
+        },
+        {
+          "text": "to",
+          "start": 439.04,
+          "end": 439.127
+        },
+        {
+          "text": "the",
+          "start": 439.127,
+          "end": 439.215
+        },
+        {
+          "text": "GraphQL",
+          "start": 439.215,
+          "end": 439.828
+        },
+        {
+          "text": "server",
+          "start": 439.828,
+          "end": 440.69
+        },
+        {
+          "text": ".",
+          "start": 440.69,
+          "end": 440.89
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "li",
+      "text": "GraphQL Server: Receives the query and uses resolvers to fetch the required data.",
+      "start": 441.21,
+      "end": 447.085,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 441.46,
+          "end": 442.097
+        },
+        {
+          "text": "Server",
+          "start": 442.097,
+          "end": 442.785
+        },
+        {
+          "text": ":",
+          "start": 442.785,
+          "end": 442.91
+        },
+        {
+          "text": "Receives",
+          "start": 442.91,
+          "end": 443.372
+        },
+        {
+          "text": "the",
+          "start": 443.372,
+          "end": 443.46
+        },
+        {
+          "text": "query",
+          "start": 443.46,
+          "end": 443.935
+        },
+        {
+          "text": "and",
+          "start": 443.935,
+          "end": 444.06
+        },
+        {
+          "text": "uses",
+          "start": 444.06,
+          "end": 444.41
+        },
+        {
+          "text": "resolvers",
+          "start": 444.41,
+          "end": 444.935
+        },
+        {
+          "text": "to",
+          "start": 444.935,
+          "end": 445.06
+        },
+        {
+          "text": "fetch",
+          "start": 445.06,
+          "end": 445.36
+        },
+        {
+          "text": "the",
+          "start": 445.36,
+          "end": 445.46
+        },
+        {
+          "text": "required",
+          "start": 445.46,
+          "end": 445.96
+        },
+        {
+          "text": "data",
+          "start": 445.96,
+          "end": 446.885
+        },
+        {
+          "text": ".",
+          "start": 446.885,
+          "end": 447.085
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "li",
+      "text": "Anti-Corruption Layer: Acts as an intermediary to ensure that the data fetched from the microservices is in a format that the GraphQL server can use.",
+      "start": 447.405,
+      "end": 456.78,
+      "words": [
+        {
+          "text": "Anti-Corruption",
+          "start": 447.68,
+          "end": 448.43
+        },
+        {
+          "text": "Layer",
+          "start": 448.43,
+          "end": 449.205
+        },
+        {
+          "text": ":",
+          "start": 449.205,
+          "end": 449.342
+        },
+        {
+          "text": "Acts",
+          "start": 449.342,
+          "end": 449.68
+        },
+        {
+          "text": "as",
+          "start": 449.68,
+          "end": 449.793
+        },
+        {
+          "text": "an",
+          "start": 449.793,
+          "end": 449.88
+        },
+        {
+          "text": "intermediary",
+          "start": 449.88,
+          "end": 450.58
+        },
+        {
+          "text": "to",
+          "start": 450.58,
+          "end": 450.73
+        },
+        {
+          "text": "ensure",
+          "start": 450.73,
+          "end": 451.18
+        },
+        {
+          "text": "that",
+          "start": 451.18,
+          "end": 451.293
+        },
+        {
+          "text": "the",
+          "start": 451.293,
+          "end": 451.38
+        },
+        {
+          "text": "data",
+          "start": 451.38,
+          "end": 451.73
+        },
+        {
+          "text": "fetched",
+          "start": 451.73,
+          "end": 452.005
+        },
+        {
+          "text": "from",
+          "start": 452.005,
+          "end": 452.142
+        },
+        {
+          "text": "the",
+          "start": 452.142,
+          "end": 452.23
+        },
+        {
+          "text": "microservices",
+          "start": 452.23,
+          "end": 453.543
+        },
+        {
+          "text": "is",
+          "start": 453.543,
+          "end": 453.68
+        },
+        {
+          "text": "in",
+          "start": 453.68,
+          "end": 453.767
+        },
+        {
+          "text": "a",
+          "start": 453.767,
+          "end": 453.842
+        },
+        {
+          "text": "format",
+          "start": 453.842,
+          "end": 454.33
+        },
+        {
+          "text": "that",
+          "start": 454.33,
+          "end": 454.442
+        },
+        {
+          "text": "the",
+          "start": 454.442,
+          "end": 454.53
+        },
+        {
+          "text": "GraphQL",
+          "start": 454.53,
+          "end": 455.168
+        },
+        {
+          "text": "server",
+          "start": 455.168,
+          "end": 455.53
+        },
+        {
+          "text": "can",
+          "start": 455.53,
+          "end": 455.73
+        },
+        {
+          "text": "use",
+          "start": 455.73,
+          "end": 456.605
+        },
+        {
+          "text": ".",
+          "start": 456.605,
+          "end": 456.78
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "li",
+      "text": "Microservices: Individual services that handle specific business logic and data fetching.",
+      "start": 457.1,
+      "end": 463.375,
+      "words": [
+        {
+          "text": "Microservices",
+          "start": 457.375,
+          "end": 458.7
+        },
+        {
+          "text": ":",
+          "start": 458.7,
+          "end": 458.8
+        },
+        {
+          "text": "Individual",
+          "start": 458.8,
+          "end": 459.375
+        },
+        {
+          "text": "services",
+          "start": 459.375,
+          "end": 459.975
+        },
+        {
+          "text": "that",
+          "start": 459.975,
+          "end": 460.125
+        },
+        {
+          "text": "handle",
+          "start": 460.125,
+          "end": 460.5
+        },
+        {
+          "text": "specific",
+          "start": 460.5,
+          "end": 461.025
+        },
+        {
+          "text": "business",
+          "start": 461.025,
+          "end": 461.45
+        },
+        {
+          "text": "logic",
+          "start": 461.45,
+          "end": 461.825
+        },
+        {
+          "text": "and",
+          "start": 461.825,
+          "end": 461.95
+        },
+        {
+          "text": "data",
+          "start": 461.95,
+          "end": 462.3
+        },
+        {
+          "text": "fetching",
+          "start": 462.3,
+          "end": 463.2
+        },
+        {
+          "text": ".",
+          "start": 463.2,
+          "end": 463.375
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "li",
+      "text": "Database: The data storage layer where the actual data resides.",
+      "start": 463.695,
+      "end": 468.12,
+      "words": [
+        {
+          "text": "Database",
+          "start": 463.945,
+          "end": 464.595
+        },
+        {
+          "text": ":",
+          "start": 464.595,
+          "end": 464.658
+        },
+        {
+          "text": "The",
+          "start": 464.658,
+          "end": 464.745
+        },
+        {
+          "text": "data",
+          "start": 464.745,
+          "end": 465.095
+        },
+        {
+          "text": "storage",
+          "start": 465.095,
+          "end": 465.52
+        },
+        {
+          "text": "layer",
+          "start": 465.52,
+          "end": 465.832
+        },
+        {
+          "text": "where",
+          "start": 465.832,
+          "end": 465.957
+        },
+        {
+          "text": "the",
+          "start": 465.957,
+          "end": 466.07
+        },
+        {
+          "text": "actual",
+          "start": 466.07,
+          "end": 466.495
+        },
+        {
+          "text": "data",
+          "start": 466.495,
+          "end": 466.87
+        },
+        {
+          "text": "resides",
+          "start": 466.87,
+          "end": 467.92
+        },
+        {
+          "text": ".",
+          "start": 467.92,
+          "end": 468.12
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "h3",
+      "text": "How This Architecture Improves Response Time",
+      "start": 468.44,
+      "end": 471.515,
+      "words": [
+        {
+          "text": "How",
+          "start": 468.69,
+          "end": 468.828
+        },
+        {
+          "text": "This",
+          "start": 468.828,
+          "end": 469.015
+        },
+        {
+          "text": "Architecture",
+          "start": 469.015,
+          "end": 469.615
+        },
+        {
+          "text": "Improves",
+          "start": 469.615,
+          "end": 470.14
+        },
+        {
+          "text": "Response",
+          "start": 470.14,
+          "end": 470.665
+        },
+        {
+          "text": "Time",
+          "start": 470.665,
+          "end": 471.515
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "kind": "li",
+      "text": "Single Request: The client makes a single request to the GraphQL server, which reduces the number of network round trips compared to multiple REST API calls.",
+      "start": 471.96,
+      "end": 482.21,
+      "words": [
+        {
+          "text": "Single",
+          "start": 472.26,
+          "end": 472.585
+        },
+        {
+          "text": "Request",
+          "start": 472.585,
+          "end": 473.635
+        },
+        {
+          "text": ":",
+          "start": 473.635,
+          "end": 473.735
+        },
+        {
+          "text": "The",
+          "start": 473.735,
+          "end": 473.835
+        },
+        {
+          "text": "client",
+          "start": 473.835,
+          "end": 474.285
+        },
+        {
+          "text": "makes",
+          "start": 474.285,
+          "end": 474.548
+        },
+        {
+          "text": "a",
+          "start": 474.548,
+          "end": 474.647
+        },
+        {
+          "text": "single",
+          "start": 474.647,
+          "end": 474.985
+        },
+        {
+          "text": "request",
+          "start": 474.985,
+          "end": 475.485
+        },
+        {
+          "text": "to",
+          "start": 475.485,
+          "end": 475.573
+        },
+        {
+          "text": "the",
+          "start": 475.573,
+          "end": 475.66
+        },
+        {
+          "text": "GraphQL",
+          "start": 475.66,
+          "end": 476.298
+        },
+        {
+          "text": "server",
+          "start": 476.298,
+          "end": 476.935
+        },
+        {
+          "text": ",",
+          "start": 476.935,
+          "end": 477.035
+        },
+        {
+          "text": "which",
+          "start": 477.035,
+          "end": 477.235
+        },
+        {
+          "text": "reduces",
+          "start": 477.235,
+          "end": 477.76
+        },
+        {
+          "text": "the",
+          "start": 477.76,
+          "end": 477.86
+        },
+        {
+          "text": "number",
+          "start": 477.86,
+          "end": 478.098
+        },
+        {
+          "text": "of",
+          "start": 478.098,
+          "end": 478.185
+        },
+        {
+          "text": "network",
+          "start": 478.185,
+          "end": 478.61
+        },
+        {
+          "text": "round",
+          "start": 478.61,
+          "end": 478.885
+        },
+        {
+          "text": "trips",
+          "start": 478.885,
+          "end": 479.235
+        },
+        {
+          "text": "compared",
+          "start": 479.235,
+          "end": 479.635
+        },
+        {
+          "text": "to",
+          "start": 479.635,
+          "end": 479.76
+        },
+        {
+          "text": "multiple",
+          "start": 479.76,
+          "end": 480.235
+        },
+        {
+          "text": "REST",
+          "start": 480.235,
+          "end": 480.548
+        },
+        {
+          "text": "API",
+          "start": 480.548,
+          "end": 481.085
+        },
+        {
+          "text": "calls",
+          "start": 481.085,
+          "end": 482.035
+        },
+        {
+          "text": ".",
+          "start": 482.035,
+          "end": 482.21
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "kind": "li",
+      "text": "Efficient Data Fetching: GraphQL allows the client to request only the data it needs, reducing the amount of data transferred over the network.",
+      "start": 482.53,
+      "end": 491.655,
+      "words": [
+        {
+          "text": "Efficient",
+          "start": 482.78,
+          "end": 483.23
+        },
+        {
+          "text": "Data",
+          "start": 483.23,
+          "end": 483.555
+        },
+        {
+          "text": "Fetching",
+          "start": 483.555,
+          "end": 484.43
+        },
+        {
+          "text": ":",
+          "start": 484.43,
+          "end": 484.543
+        },
+        {
+          "text": "GraphQL",
+          "start": 484.543,
+          "end": 485.205
+        },
+        {
+          "text": "allows",
+          "start": 485.205,
+          "end": 485.568
+        },
+        {
+          "text": "the",
+          "start": 485.568,
+          "end": 485.655
+        },
+        {
+          "text": "client",
+          "start": 485.655,
+          "end": 485.98
+        },
+        {
+          "text": "to",
+          "start": 485.98,
+          "end": 486.068
+        },
+        {
+          "text": "request",
+          "start": 486.068,
+          "end": 486.48
+        },
+        {
+          "text": "only",
+          "start": 486.48,
+          "end": 486.767
+        },
+        {
+          "text": "the",
+          "start": 486.767,
+          "end": 486.855
+        },
+        {
+          "text": "data",
+          "start": 486.855,
+          "end": 487.205
+        },
+        {
+          "text": "it",
+          "start": 487.205,
+          "end": 487.33
+        },
+        {
+          "text": "needs",
+          "start": 487.33,
+          "end": 488.005
+        },
+        {
+          "text": ",",
+          "start": 488.005,
+          "end": 488.105
+        },
+        {
+          "text": "reducing",
+          "start": 488.105,
+          "end": 488.592
+        },
+        {
+          "text": "the",
+          "start": 488.592,
+          "end": 488.68
+        },
+        {
+          "text": "amount",
+          "start": 488.68,
+          "end": 489.017
+        },
+        {
+          "text": "of",
+          "start": 489.017,
+          "end": 489.105
+        },
+        {
+          "text": "data",
+          "start": 489.105,
+          "end": 489.48
+        },
+        {
+          "text": "transferred",
+          "start": 489.48,
+          "end": 490.18
+        },
+        {
+          "text": "over",
+          "start": 490.18,
+          "end": 490.368
+        },
+        {
+          "text": "the",
+          "start": 490.368,
+          "end": 490.455
+        },
+        {
+          "text": "network",
+          "start": 490.455,
+          "end": 491.455
+        },
+        {
+          "text": ".",
+          "start": 491.455,
+          "end": 491.655
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "kind": "li",
+      "text": "Parallel Data Fetching: The anti-corruption layer can fetch data from multiple microservices in parallel, further reducing the overall response time.",
+      "start": 491.975,
+      "end": 501.425,
+      "words": [
+        {
+          "text": "Parallel",
+          "start": 492.225,
+          "end": 492.65
+        },
+        {
+          "text": "Data",
+          "start": 492.65,
+          "end": 492.975
+        },
+        {
+          "text": "Fetching",
+          "start": 492.975,
+          "end": 493.825
+        },
+        {
+          "text": ":",
+          "start": 493.825,
+          "end": 493.925
+        },
+        {
+          "text": "The",
+          "start": 493.925,
+          "end": 494.075
+        },
+        {
+          "text": "anti-corruption",
+          "start": 494.075,
+          "end": 494.8
+        },
+        {
+          "text": "layer",
+          "start": 494.8,
+          "end": 495.1
+        },
+        {
+          "text": "can",
+          "start": 495.1,
+          "end": 495.275
+        },
+        {
+          "text": "fetch",
+          "start": 495.275,
+          "end": 495.525
+        },
+        {
+          "text": "data",
+          "start": 495.525,
+          "end": 495.9
+        },
+        {
+          "text": "from",
+          "start": 495.9,
+          "end": 496.1
+        },
+        {
+          "text": "multiple",
+          "start": 496.1,
+          "end": 496.575
+        },
+        {
+          "text": "microservices",
+          "start": 496.575,
+          "end": 497.5
+        },
+        {
+          "text": "in",
+          "start": 497.5,
+          "end": 497.65
+        },
+        {
+          "text": "parallel",
+          "start": 497.65,
+          "end": 498.4
+        },
+        {
+          "text": ",",
+          "start": 498.4,
+          "end": 498.512
+        },
+        {
+          "text": "further",
+          "start": 498.512,
+          "end": 498.825
+        },
+        {
+          "text": "reducing",
+          "start": 498.825,
+          "end": 499.312
+        },
+        {
+          "text": "the",
+          "start": 499.312,
+          "end": 499.45
+        },
+        {
+          "text": "overall",
+          "start": 499.45,
+          "end": 499.913
+        },
+        {
+          "text": "response",
+          "start": 499.913,
+          "end": 500.375
+        },
+        {
+          "text": "time",
+          "start": 500.375,
+          "end": 501.225
+        },
+        {
+          "text": ".",
+          "start": 501.225,
+          "end": 501.425
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "kind": "li",
+      "text": "Optimized Data Processing: The anti-corruption layer processes and combines the data before sending it back to the GraphQL server, ensuring that the client receives a single, optimized response.",
+      "start": 501.745,
+      "end": 514.245,
+      "words": [
+        {
+          "text": "Optimized",
+          "start": 501.995,
+          "end": 502.52
+        },
+        {
+          "text": "Data",
+          "start": 502.52,
+          "end": 502.845
+        },
+        {
+          "text": "Processing",
+          "start": 502.845,
+          "end": 503.945
+        },
+        {
+          "text": ":",
+          "start": 503.945,
+          "end": 504.045
+        },
+        {
+          "text": "The",
+          "start": 504.045,
+          "end": 504.195
+        },
+        {
+          "text": "anti-corruption",
+          "start": 504.195,
+          "end": 504.97
+        },
+        {
+          "text": "layer",
+          "start": 504.97,
+          "end": 505.22
+        },
+        {
+          "text": "processes",
+          "start": 505.22,
+          "end": 506.108
+        },
+        {
+          "text": "and",
+          "start": 506.108,
+          "end": 506.245
+        },
+        {
+          "text": "combines",
+          "start": 506.245,
+          "end": 506.733
+        },
+        {
+          "text": "the",
+          "start": 506.733,
+          "end": 506.82
+        },
+        {
+          "text": "data",
+          "start": 506.82,
+          "end": 507.27
+        },
+        {
+          "text": "before",
+          "start": 507.27,
+          "end": 507.62
+        },
+        {
+          "text": "sending",
+          "start": 507.62,
+          "end": 507.958
+        },
+        {
+          "text": "it",
+          "start": 507.958,
+          "end": 508.045
+        },
+        {
+          "text": "back",
+          "start": 508.045,
+          "end": 508.32
+        },
+        {
+          "text": "to",
+          "start": 508.32,
+          "end": 508.407
+        },
+        {
+          "text": "the",
+          "start": 508.407,
+          "end": 508.495
+        },
+        {
+          "text": "GraphQL",
+          "start": 508.495,
+          "end": 509.132
+        },
+        {
+          "text": "server",
+          "start": 509.132,
+          "end": 509.92
+        },
+        {
+          "text": ",",
+          "start": 509.92,
+          "end": 510.045
+        },
+        {
+          "text": "ensuring",
+          "start": 510.045,
+          "end": 510.557
+        },
+        {
+          "text": "that",
+          "start": 510.557,
+          "end": 510.657
+        },
+        {
+          "text": "the",
+          "start": 510.657,
+          "end": 510.745
+        },
+        {
+          "text": "client",
+          "start": 510.745,
+          "end": 511.195
+        },
+        {
+          "text": "receives",
+          "start": 511.195,
+          "end": 511.62
+        },
+        {
+          "text": "a",
+          "start": 511.62,
+          "end": 511.733
+        },
+        {
+          "text": "single",
+          "start": 511.733,
+          "end": 512.27
+        },
+        {
+          "text": ",",
+          "start": 512.27,
+          "end": 512.37
+        },
+        {
+          "text": "optimized",
+          "start": 512.37,
+          "end": 512.932
+        },
+        {
+          "text": "response",
+          "start": 512.932,
+          "end": 514.045
+        },
+        {
+          "text": ".",
+          "start": 514.045,
+          "end": 514.245
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "kind": "p",
+      "text": "By adopting this architecture, companies can achieve more efficient data management, faster response times, and a better overall user experience. This approach also allows for a smooth transition from existing REST APIs to GraphQL, leveraging the benefits of both technologies. Modernizing Legacy Services: To modernize legacy services, start by integrating GraphQL incrementally. Use it alongside existing REST services to enhance capabilities without a complete overhaul. This approach allows for a smooth transition and gradual adoption of modern practices.",
+      "start": 514.565,
+      "end": 550.165,
+      "words": [
+        {
+          "text": "By",
+          "start": 514.815,
+          "end": 514.965
+        },
+        {
+          "text": "adopting",
+          "start": 514.965,
+          "end": 515.377
+        },
+        {
+          "text": "this",
+          "start": 515.377,
+          "end": 515.54
+        },
+        {
+          "text": "architecture",
+          "start": 515.54,
+          "end": 516.415
+        },
+        {
+          "text": ",",
+          "start": 516.415,
+          "end": 516.54
+        },
+        {
+          "text": "companies",
+          "start": 516.54,
+          "end": 517.04
+        },
+        {
+          "text": "can",
+          "start": 517.04,
+          "end": 517.152
+        },
+        {
+          "text": "achieve",
+          "start": 517.152,
+          "end": 517.515
+        },
+        {
+          "text": "more",
+          "start": 517.515,
+          "end": 517.702
+        },
+        {
+          "text": "efficient",
+          "start": 517.702,
+          "end": 518.115
+        },
+        {
+          "text": "data",
+          "start": 518.115,
+          "end": 518.44
+        },
+        {
+          "text": "management",
+          "start": 518.44,
+          "end": 519.215
+        },
+        {
+          "text": ",",
+          "start": 519.215,
+          "end": 519.327
+        },
+        {
+          "text": "faster",
+          "start": 519.327,
+          "end": 519.752
+        },
+        {
+          "text": "response",
+          "start": 519.752,
+          "end": 520.19
+        },
+        {
+          "text": "times",
+          "start": 520.19,
+          "end": 520.74
+        },
+        {
+          "text": ",",
+          "start": 520.74,
+          "end": 520.815
+        },
+        {
+          "text": "and",
+          "start": 520.815,
+          "end": 520.927
+        },
+        {
+          "text": "a",
+          "start": 520.927,
+          "end": 520.99
+        },
+        {
+          "text": "better",
+          "start": 520.99,
+          "end": 521.265
+        },
+        {
+          "text": "overall",
+          "start": 521.265,
+          "end": 521.74
+        },
+        {
+          "text": "user",
+          "start": 521.74,
+          "end": 522.015
+        },
+        {
+          "text": "experience",
+          "start": 522.015,
+          "end": 523.315
+        },
+        {
+          "text": ".",
+          "start": 523.315,
+          "end": 523.452
+        },
+        {
+          "text": "This",
+          "start": 523.452,
+          "end": 523.652
+        },
+        {
+          "text": "approach",
+          "start": 523.652,
+          "end": 524.015
+        },
+        {
+          "text": "also",
+          "start": 524.015,
+          "end": 524.365
+        },
+        {
+          "text": "allows",
+          "start": 524.365,
+          "end": 524.74
+        },
+        {
+          "text": "for",
+          "start": 524.74,
+          "end": 524.852
+        },
+        {
+          "text": "a",
+          "start": 524.852,
+          "end": 524.927
+        },
+        {
+          "text": "smooth",
+          "start": 524.927,
+          "end": 525.265
+        },
+        {
+          "text": "transition",
+          "start": 525.265,
+          "end": 525.84
+        },
+        {
+          "text": "from",
+          "start": 525.84,
+          "end": 525.977
+        },
+        {
+          "text": "existing",
+          "start": 525.977,
+          "end": 526.39
+        },
+        {
+          "text": "REST",
+          "start": 526.39,
+          "end": 526.665
+        },
+        {
+          "text": "APIs",
+          "start": 526.665,
+          "end": 527.34
+        },
+        {
+          "text": "to",
+          "start": 527.34,
+          "end": 527.44
+        },
+        {
+          "text": "GraphQL",
+          "start": 527.44,
+          "end": 528.365
+        },
+        {
+          "text": ",",
+          "start": 528.365,
+          "end": 528.477
+        },
+        {
+          "text": "leveraging",
+          "start": 528.477,
+          "end": 528.952
+        },
+        {
+          "text": "the",
+          "start": 528.952,
+          "end": 529.04
+        },
+        {
+          "text": "benefits",
+          "start": 529.04,
+          "end": 529.552
+        },
+        {
+          "text": "of",
+          "start": 529.552,
+          "end": 529.64
+        },
+        {
+          "text": "both",
+          "start": 529.64,
+          "end": 529.915
+        },
+        {
+          "text": "technologies",
+          "start": 529.915,
+          "end": 531.29
+        },
+        {
+          "text": ".",
+          "start": 531.29,
+          "end": 531.427
+        },
+        {
+          "text": "Modernizing",
+          "start": 531.427,
+          "end": 532.04
+        },
+        {
+          "text": "Legacy",
+          "start": 532.04,
+          "end": 532.44
+        },
+        {
+          "text": "Services",
+          "start": 532.44,
+          "end": 533.34
+        },
+        {
+          "text": ":",
+          "start": 533.34,
+          "end": 533.44
+        },
+        {
+          "text": "To",
+          "start": 533.44,
+          "end": 533.565
+        },
+        {
+          "text": "modernize",
+          "start": 533.565,
+          "end": 534.04
+        },
+        {
+          "text": "legacy",
+          "start": 534.04,
+          "end": 534.44
+        },
+        {
+          "text": "services",
+          "start": 534.44,
+          "end": 535.215
+        },
+        {
+          "text": ",",
+          "start": 535.215,
+          "end": 535.327
+        },
+        {
+          "text": "start",
+          "start": 535.327,
+          "end": 535.69
+        },
+        {
+          "text": "by",
+          "start": 535.69,
+          "end": 535.865
+        },
+        {
+          "text": "integrating",
+          "start": 535.865,
+          "end": 536.49
+        },
+        {
+          "text": "GraphQL",
+          "start": 536.49,
+          "end": 537.14
+        },
+        {
+          "text": "incrementally",
+          "start": 537.14,
+          "end": 538.34
+        },
+        {
+          "text": ".",
+          "start": 538.34,
+          "end": 538.515
+        },
+        {
+          "text": "Use",
+          "start": 538.89,
+          "end": 539.102
+        },
+        {
+          "text": "it",
+          "start": 539.102,
+          "end": 539.215
+        },
+        {
+          "text": "alongside",
+          "start": 539.215,
+          "end": 539.815
+        },
+        {
+          "text": "existing",
+          "start": 539.815,
+          "end": 540.265
+        },
+        {
+          "text": "REST",
+          "start": 540.265,
+          "end": 540.49
+        },
+        {
+          "text": "services",
+          "start": 540.49,
+          "end": 541.19
+        },
+        {
+          "text": "to",
+          "start": 541.19,
+          "end": 541.315
+        },
+        {
+          "text": "enhance",
+          "start": 541.315,
+          "end": 541.79
+        },
+        {
+          "text": "capabilities",
+          "start": 541.79,
+          "end": 542.765
+        },
+        {
+          "text": "without",
+          "start": 542.765,
+          "end": 543.077
+        },
+        {
+          "text": "a",
+          "start": 543.077,
+          "end": 543.14
+        },
+        {
+          "text": "complete",
+          "start": 543.14,
+          "end": 543.59
+        },
+        {
+          "text": "overhaul",
+          "start": 543.59,
+          "end": 544.715
+        },
+        {
+          "text": ".",
+          "start": 544.715,
+          "end": 544.852
+        },
+        {
+          "text": "This",
+          "start": 544.852,
+          "end": 545.065
+        },
+        {
+          "text": "approach",
+          "start": 545.065,
+          "end": 545.44
+        },
+        {
+          "text": "allows",
+          "start": 545.44,
+          "end": 545.815
+        },
+        {
+          "text": "for",
+          "start": 545.815,
+          "end": 545.927
+        },
+        {
+          "text": "a",
+          "start": 545.927,
+          "end": 546.002
+        },
+        {
+          "text": "smooth",
+          "start": 546.002,
+          "end": 546.415
+        },
+        {
+          "text": "transition",
+          "start": 546.415,
+          "end": 547.327
+        },
+        {
+          "text": "and",
+          "start": 547.327,
+          "end": 547.465
+        },
+        {
+          "text": "gradual",
+          "start": 547.465,
+          "end": 547.89
+        },
+        {
+          "text": "adoption",
+          "start": 547.89,
+          "end": 548.39
+        },
+        {
+          "text": "of",
+          "start": 548.39,
+          "end": 548.49
+        },
+        {
+          "text": "modern",
+          "start": 548.49,
+          "end": 548.815
+        },
+        {
+          "text": "practices",
+          "start": 548.815,
+          "end": 549.99
+        },
+        {
+          "text": ".",
+          "start": 549.99,
+          "end": 550.165
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "kind": "h3",
+      "text": "Conclusion",
+      "start": 550.485,
+      "end": 551.685,
+      "words": [
+        {
+          "text": "Conclusion",
+          "start": 550.735,
+          "end": 551.685
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "kind": "p",
+      "text": "When deciding between GraphQL and REST, consider the following:",
+      "start": 552.255,
+      "end": 556.43,
+      "words": [
+        {
+          "text": "When",
+          "start": 552.505,
+          "end": 552.63
+        },
+        {
+          "text": "deciding",
+          "start": 552.63,
+          "end": 553.092
+        },
+        {
+          "text": "between",
+          "start": 553.092,
+          "end": 553.43
+        },
+        {
+          "text": "GraphQL",
+          "start": 553.43,
+          "end": 554.043
+        },
+        {
+          "text": "and",
+          "start": 554.043,
+          "end": 554.155
+        },
+        {
+          "text": "REST",
+          "start": 554.155,
+          "end": 554.63
+        },
+        {
+          "text": ",",
+          "start": 554.63,
+          "end": 554.73
+        },
+        {
+          "text": "consider",
+          "start": 554.73,
+          "end": 555.143
+        },
+        {
+          "text": "the",
+          "start": 555.143,
+          "end": 555.23
+        },
+        {
+          "text": "following",
+          "start": 555.23,
+          "end": 556.255
+        },
+        {
+          "text": ":",
+          "start": 556.255,
+          "end": 556.43
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "kind": "li",
+      "text": "GraphQL is ideal for applications requiring efficient data fetching, real-time updates, and a flexible API structure.",
+      "start": 556.75,
+      "end": 565.15,
+      "words": [
+        {
+          "text": "GraphQL",
+          "start": 557.0,
+          "end": 557.625
+        },
+        {
+          "text": "is",
+          "start": 557.625,
+          "end": 557.788
+        },
+        {
+          "text": "ideal",
+          "start": 557.788,
+          "end": 558.225
+        },
+        {
+          "text": "for",
+          "start": 558.225,
+          "end": 558.35
+        },
+        {
+          "text": "applications",
+          "start": 558.35,
+          "end": 559.125
+        },
+        {
+          "text": "requiring",
+          "start": 559.125,
+          "end": 559.65
+        },
+        {
+          "text": "efficient",
+          "start": 559.65,
+          "end": 560.1
+        },
+        {
+          "text": "data",
+          "start": 560.1,
+          "end": 560.425
+        },
+        {
+          "text": "fetching",
+          "start": 560.425,
+          "end": 561.15
+        },
+        {
+          "text": ",",
+          "start": 561.15,
+          "end": 561.25
+        },
+        {
+          "text": "real-time",
+          "start": 561.25,
+          "end": 561.737
+        },
+        {
+          "text": "updates",
+          "start": 561.737,
+          "end": 562.6
+        },
+        {
+          "text": ",",
+          "start": 562.6,
+          "end": 562.7
+        },
+        {
+          "text": "and",
+          "start": 562.7,
+          "end": 562.813
+        },
+        {
+          "text": "a",
+          "start": 562.813,
+          "end": 562.875
+        },
+        {
+          "text": "flexible",
+          "start": 562.875,
+          "end": 563.4
+        },
+        {
+          "text": "API",
+          "start": 563.4,
+          "end": 563.95
+        },
+        {
+          "text": "structure",
+          "start": 563.95,
+          "end": 564.925
+        },
+        {
+          "text": ".",
+          "start": 564.925,
+          "end": 565.15
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "kind": "li",
+      "text": "REST remains suitable for simpler, well-defined operations with less complexity.",
+      "start": 565.47,
+      "end": 570.895,
+      "words": [
+        {
+          "text": "REST",
+          "start": 565.745,
+          "end": 566.045
+        },
+        {
+          "text": "remains",
+          "start": 566.045,
+          "end": 566.458
+        },
+        {
+          "text": "suitable",
+          "start": 566.458,
+          "end": 566.945
+        },
+        {
+          "text": "for",
+          "start": 566.945,
+          "end": 567.083
+        },
+        {
+          "text": "simpler",
+          "start": 567.083,
+          "end": 567.595
+        },
+        {
+          "text": ",",
+          "start": 567.595,
+          "end": 567.67
+        },
+        {
+          "text": "well-defined",
+          "start": 567.67,
+          "end": 568.282
+        },
+        {
+          "text": "operations",
+          "start": 568.282,
+          "end": 569.145
+        },
+        {
+          "text": "with",
+          "start": 569.145,
+          "end": 569.32
+        },
+        {
+          "text": "less",
+          "start": 569.32,
+          "end": 569.545
+        },
+        {
+          "text": "complexity",
+          "start": 569.545,
+          "end": 570.72
+        },
+        {
+          "text": ".",
+          "start": 570.72,
+          "end": 570.895
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "kind": "p",
+      "text": "Pick the tool that matches the problem. GraphQL when you're tired of over-fetching; REST when the API is simple and everyone's happy. Either way , keep learning, but skip the buzzword treadmill.",
+      "start": 571.215,
+      "end": 582.44,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 571.465,
+          "end": 571.665
+        },
+        {
+          "text": "the",
+          "start": 571.665,
+          "end": 571.777
+        },
+        {
+          "text": "tool",
+          "start": 571.777,
+          "end": 572.102
+        },
+        {
+          "text": "that",
+          "start": 572.102,
+          "end": 572.215
+        },
+        {
+          "text": "matches",
+          "start": 572.215,
+          "end": 572.578
+        },
+        {
+          "text": "the",
+          "start": 572.578,
+          "end": 572.665
+        },
+        {
+          "text": "problem",
+          "start": 572.665,
+          "end": 573.49
+        },
+        {
+          "text": ".",
+          "start": 573.49,
+          "end": 573.603
+        },
+        {
+          "text": "GraphQL",
+          "start": 573.603,
+          "end": 574.253
+        },
+        {
+          "text": "when",
+          "start": 574.253,
+          "end": 574.39
+        },
+        {
+          "text": "you're",
+          "start": 574.39,
+          "end": 574.515
+        },
+        {
+          "text": "tired",
+          "start": 574.515,
+          "end": 574.853
+        },
+        {
+          "text": "of",
+          "start": 574.853,
+          "end": 574.927
+        },
+        {
+          "text": "over-fetching",
+          "start": 574.927,
+          "end": 575.84
+        },
+        {
+          "text": ";",
+          "start": 575.84,
+          "end": 575.94
+        },
+        {
+          "text": "REST",
+          "start": 575.94,
+          "end": 576.228
+        },
+        {
+          "text": "when",
+          "start": 576.228,
+          "end": 576.353
+        },
+        {
+          "text": "the",
+          "start": 576.353,
+          "end": 576.465
+        },
+        {
+          "text": "API",
+          "start": 576.465,
+          "end": 577.015
+        },
+        {
+          "text": "is",
+          "start": 577.015,
+          "end": 577.153
+        },
+        {
+          "text": "simple",
+          "start": 577.153,
+          "end": 577.565
+        },
+        {
+          "text": "and",
+          "start": 577.565,
+          "end": 577.69
+        },
+        {
+          "text": "everyone's",
+          "start": 577.69,
+          "end": 578.165
+        },
+        {
+          "text": "happy",
+          "start": 578.165,
+          "end": 578.99
+        },
+        {
+          "text": ".",
+          "start": 578.99,
+          "end": 579.153
+        },
+        {
+          "text": "Either",
+          "start": 579.153,
+          "end": 579.415
+        },
+        {
+          "text": "way",
+          "start": 579.415,
+          "end": 579.703
+        },
+        {
+          "text": ",",
+          "start": 579.703,
+          "end": 579.765
+        },
+        {
+          "text": "keep",
+          "start": 579.765,
+          "end": 579.99
+        },
+        {
+          "text": "learning",
+          "start": 579.99,
+          "end": 580.34
+        },
+        {
+          "text": ",",
+          "start": 580.34,
+          "end": 580.377
+        },
+        {
+          "text": "but",
+          "start": 580.377,
+          "end": 580.515
+        },
+        {
+          "text": "skip",
+          "start": 580.515,
+          "end": 580.79
+        },
+        {
+          "text": "the",
+          "start": 580.79,
+          "end": 580.89
+        },
+        {
+          "text": "buzzword",
+          "start": 580.89,
+          "end": 581.29
+        },
+        {
+          "text": "treadmill",
+          "start": 581.29,
+          "end": 582.24
+        },
+        {
+          "text": ".",
+          "start": 582.24,
+          "end": 582.44
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 582.76,
+      "end": 584.96,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 583.035,
+          "end": 583.585
+        },
+        {
+          "text": "and",
+          "start": 583.585,
+          "end": 583.723
+        },
+        {
+          "text": "Further",
+          "start": 583.723,
+          "end": 584.085
+        },
+        {
+          "text": "Reading",
+          "start": 584.085,
+          "end": 584.96
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "kind": "li",
+      "text": "Michael Staib , GraphQL in .NET with Hot Chocolate (YouTube)",
+      "start": 585.405,
+      "end": 589.43,
+      "words": [
+        {
+          "text": "Michael",
+          "start": 585.68,
+          "end": 586.03
+        },
+        {
+          "text": "Staib",
+          "start": 586.03,
+          "end": 586.467
+        },
+        {
+          "text": ",",
+          "start": 586.467,
+          "end": 586.53
+        },
+        {
+          "text": "GraphQL",
+          "start": 586.53,
+          "end": 587.092
+        },
+        {
+          "text": "in",
+          "start": 587.092,
+          "end": 587.205
+        },
+        {
+          "text": ".NET",
+          "start": 587.205,
+          "end": 587.442
+        },
+        {
+          "text": "with",
+          "start": 587.442,
+          "end": 587.58
+        },
+        {
+          "text": "Hot",
+          "start": 587.58,
+          "end": 587.817
+        },
+        {
+          "text": "Chocolate",
+          "start": 587.817,
+          "end": 588.28
+        },
+        {
+          "text": "(",
+          "start": 588.28,
+          "end": 588.355
+        },
+        {
+          "text": "YouTube",
+          "start": 588.355,
+          "end": 589.205
+        },
+        {
+          "text": ")",
+          "start": 589.205,
+          "end": 589.43
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "kind": "li",
+      "text": "Mastering GraphQL: Key Concepts and Best Practices (Sep 2024)",
+      "start": 589.75,
+      "end": 595.1,
+      "words": [
+        {
+          "text": "Mastering",
+          "start": 590.025,
+          "end": 590.475
+        },
+        {
+          "text": "GraphQL",
+          "start": 590.475,
+          "end": 591.325
+        },
+        {
+          "text": ":",
+          "start": 591.325,
+          "end": 591.425
+        },
+        {
+          "text": "Key",
+          "start": 591.425,
+          "end": 591.6
+        },
+        {
+          "text": "Concepts",
+          "start": 591.6,
+          "end": 592.212
+        },
+        {
+          "text": "and",
+          "start": 592.212,
+          "end": 592.325
+        },
+        {
+          "text": "Best",
+          "start": 592.325,
+          "end": 592.575
+        },
+        {
+          "text": "Practices",
+          "start": 592.575,
+          "end": 593.2
+        },
+        {
+          "text": "(",
+          "start": 593.2,
+          "end": 593.275
+        },
+        {
+          "text": "Sep",
+          "start": 593.275,
+          "end": 593.5
+        },
+        {
+          "text": "2024",
+          "start": 593.5,
+          "end": 594.875
+        },
+        {
+          "text": ")",
+          "start": 594.875,
+          "end": 595.1
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "kind": "li",
+      "text": "Why Choose Hasura Over Other Tools (Sep 2024)",
+      "start": 595.42,
+      "end": 599.67,
+      "words": [
+        {
+          "text": "Why",
+          "start": 595.67,
+          "end": 595.883
+        },
+        {
+          "text": "Choose",
+          "start": 595.883,
+          "end": 596.17
+        },
+        {
+          "text": "Hasura",
+          "start": 596.17,
+          "end": 596.67
+        },
+        {
+          "text": "Over",
+          "start": 596.67,
+          "end": 596.882
+        },
+        {
+          "text": "Other",
+          "start": 596.882,
+          "end": 597.095
+        },
+        {
+          "text": "Tools",
+          "start": 597.095,
+          "end": 597.708
+        },
+        {
+          "text": "(",
+          "start": 597.708,
+          "end": 597.82
+        },
+        {
+          "text": "Sep",
+          "start": 597.82,
+          "end": 598.045
+        },
+        {
+          "text": "2024",
+          "start": 598.045,
+          "end": 599.47
+        },
+        {
+          "text": ")",
+          "start": 599.47,
+          "end": 599.67
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "kind": "p",
+      "text": "See also: Graph API vs GraphQL (Sep 2024) , yes, those are different things, and yes, I confused them once too.",
+      "start": 599.99,
+      "end": 608.54,
+      "words": [
+        {
+          "text": "See",
+          "start": 600.265,
+          "end": 600.402
+        },
+        {
+          "text": "also",
+          "start": 600.402,
+          "end": 600.89
+        },
+        {
+          "text": ":",
+          "start": 600.89,
+          "end": 600.965
+        },
+        {
+          "text": "Graph",
+          "start": 600.965,
+          "end": 601.315
+        },
+        {
+          "text": "API",
+          "start": 601.315,
+          "end": 601.84
+        },
+        {
+          "text": "vs",
+          "start": 601.84,
+          "end": 602.215
+        },
+        {
+          "text": "GraphQL",
+          "start": 602.215,
+          "end": 602.865
+        },
+        {
+          "text": "(",
+          "start": 602.865,
+          "end": 602.94
+        },
+        {
+          "text": "Sep",
+          "start": 602.94,
+          "end": 603.165
+        },
+        {
+          "text": "2024",
+          "start": 603.165,
+          "end": 604.415
+        },
+        {
+          "text": ")",
+          "start": 604.415,
+          "end": 604.54
+        },
+        {
+          "text": ",",
+          "start": 604.54,
+          "end": 604.615
+        },
+        {
+          "text": "yes",
+          "start": 604.615,
+          "end": 604.915
+        },
+        {
+          "text": ",",
+          "start": 604.915,
+          "end": 604.965
+        },
+        {
+          "text": "those",
+          "start": 604.965,
+          "end": 605.202
+        },
+        {
+          "text": "are",
+          "start": 605.202,
+          "end": 605.29
+        },
+        {
+          "text": "different",
+          "start": 605.29,
+          "end": 605.59
+        },
+        {
+          "text": "things",
+          "start": 605.59,
+          "end": 606.065
+        },
+        {
+          "text": ",",
+          "start": 606.065,
+          "end": 606.14
+        },
+        {
+          "text": "and",
+          "start": 606.14,
+          "end": 606.265
+        },
+        {
+          "text": "yes",
+          "start": 606.265,
+          "end": 606.49
+        },
+        {
+          "text": ",",
+          "start": 606.49,
+          "end": 606.527
+        },
+        {
+          "text": "I",
+          "start": 606.527,
+          "end": 606.64
+        },
+        {
+          "text": "confused",
+          "start": 606.64,
+          "end": 607.127
+        },
+        {
+          "text": "them",
+          "start": 607.127,
+          "end": 607.265
+        },
+        {
+          "text": "once",
+          "start": 607.265,
+          "end": 607.577
+        },
+        {
+          "text": "too",
+          "start": 607.577,
+          "end": 608.365
+        },
+        {
+          "text": ".",
+          "start": 608.365,
+          "end": 608.54
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

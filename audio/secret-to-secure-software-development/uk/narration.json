@@ -1,0 +1,4146 @@
+{
+  "slug": "secret-to-secure-software-development",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 297.575,
+  "contentHash": "b3e8616879ade93a6f1e5dd77c22cc93b686dff591d60fe1f2ab20d41ee61dc0",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "The Secret to Secure Software Development: An SDET's Comprehensive Guide",
+      "start": 0.0,
+      "end": 5.125,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.25,
+          "end": 0.362
+        },
+        {
+          "text": "Secret",
+          "start": 0.362,
+          "end": 0.775
+        },
+        {
+          "text": "to",
+          "start": 0.775,
+          "end": 0.9
+        },
+        {
+          "text": "Secure",
+          "start": 0.9,
+          "end": 1.3
+        },
+        {
+          "text": "Software",
+          "start": 1.3,
+          "end": 1.712
+        },
+        {
+          "text": "Development",
+          "start": 1.712,
+          "end": 2.575
+        },
+        {
+          "text": ":",
+          "start": 2.575,
+          "end": 2.675
+        },
+        {
+          "text": "An",
+          "start": 2.675,
+          "end": 2.775
+        },
+        {
+          "text": "SDET's",
+          "start": 2.775,
+          "end": 3.625
+        },
+        {
+          "text": "Comprehensive",
+          "start": 3.625,
+          "end": 4.3
+        },
+        {
+          "text": "Guide",
+          "start": 4.3,
+          "end": 5.125
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h1",
+      "text": "The Secret to Secure Software Development: How I Learned the Hard Way",
+      "start": 5.645,
+      "end": 10.12,
+      "words": [
+        {
+          "text": "The",
+          "start": 5.895,
+          "end": 6.007
+        },
+        {
+          "text": "Secret",
+          "start": 6.007,
+          "end": 6.42
+        },
+        {
+          "text": "to",
+          "start": 6.42,
+          "end": 6.545
+        },
+        {
+          "text": "Secure",
+          "start": 6.545,
+          "end": 6.945
+        },
+        {
+          "text": "Software",
+          "start": 6.945,
+          "end": 7.382
+        },
+        {
+          "text": "Development",
+          "start": 7.382,
+          "end": 8.245
+        },
+        {
+          "text": ":",
+          "start": 8.245,
+          "end": 8.357
+        },
+        {
+          "text": "How",
+          "start": 8.357,
+          "end": 8.557
+        },
+        {
+          "text": "I",
+          "start": 8.557,
+          "end": 8.695
+        },
+        {
+          "text": "Learned",
+          "start": 8.695,
+          "end": 8.932
+        },
+        {
+          "text": "the",
+          "start": 8.932,
+          "end": 9.02
+        },
+        {
+          "text": "Hard",
+          "start": 9.02,
+          "end": 9.32
+        },
+        {
+          "text": "Way",
+          "start": 9.32,
+          "end": 10.12
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "Every SDET eventually commits a secret to Git. API keys, database passwords, auth tokens , one moment of \"I'll just hardcode this for testing\" becomes the most expensive Git commit of your life when AWS flags $50K of unauthorized usage.",
+      "start": 10.64,
+      "end": 27.29,
+      "words": [
+        {
+          "text": "Every",
+          "start": 10.915,
+          "end": 11.19
+        },
+        {
+          "text": "SDET",
+          "start": 11.19,
+          "end": 11.915
+        },
+        {
+          "text": "eventually",
+          "start": 11.915,
+          "end": 12.44
+        },
+        {
+          "text": "commits",
+          "start": 12.44,
+          "end": 12.728
+        },
+        {
+          "text": "a",
+          "start": 12.728,
+          "end": 12.79
+        },
+        {
+          "text": "secret",
+          "start": 12.79,
+          "end": 13.165
+        },
+        {
+          "text": "to",
+          "start": 13.165,
+          "end": 13.265
+        },
+        {
+          "text": "Git",
+          "start": 13.265,
+          "end": 14.14
+        },
+        {
+          "text": ".",
+          "start": 14.14,
+          "end": 14.277
+        },
+        {
+          "text": "API",
+          "start": 14.277,
+          "end": 14.828
+        },
+        {
+          "text": "keys",
+          "start": 14.828,
+          "end": 15.365
+        },
+        {
+          "text": ",",
+          "start": 15.365,
+          "end": 15.44
+        },
+        {
+          "text": "database",
+          "start": 15.44,
+          "end": 15.94
+        },
+        {
+          "text": "passwords",
+          "start": 15.94,
+          "end": 16.515
+        },
+        {
+          "text": ",",
+          "start": 16.515,
+          "end": 16.565
+        },
+        {
+          "text": "auth",
+          "start": 16.565,
+          "end": 16.79
+        },
+        {
+          "text": "tokens",
+          "start": 16.79,
+          "end": 17.703
+        },
+        {
+          "text": ",",
+          "start": 17.703,
+          "end": 17.815
+        },
+        {
+          "text": "one",
+          "start": 17.815,
+          "end": 18.015
+        },
+        {
+          "text": "moment",
+          "start": 18.015,
+          "end": 18.328
+        },
+        {
+          "text": "of",
+          "start": 18.328,
+          "end": 18.44
+        },
+        {
+          "text": "\"",
+          "start": 18.44,
+          "end": 18.49
+        },
+        {
+          "text": "I'll",
+          "start": 18.49,
+          "end": 18.64
+        },
+        {
+          "text": "just",
+          "start": 18.64,
+          "end": 18.84
+        },
+        {
+          "text": "hardcode",
+          "start": 18.84,
+          "end": 19.315
+        },
+        {
+          "text": "this",
+          "start": 19.315,
+          "end": 19.515
+        },
+        {
+          "text": "for",
+          "start": 19.515,
+          "end": 19.64
+        },
+        {
+          "text": "testing",
+          "start": 19.64,
+          "end": 20.465
+        },
+        {
+          "text": "\"",
+          "start": 20.465,
+          "end": 20.565
+        },
+        {
+          "text": "becomes",
+          "start": 20.565,
+          "end": 20.953
+        },
+        {
+          "text": "the",
+          "start": 20.953,
+          "end": 21.04
+        },
+        {
+          "text": "most",
+          "start": 21.04,
+          "end": 21.29
+        },
+        {
+          "text": "expensive",
+          "start": 21.29,
+          "end": 21.915
+        },
+        {
+          "text": "Git",
+          "start": 21.915,
+          "end": 22.165
+        },
+        {
+          "text": "commit",
+          "start": 22.165,
+          "end": 22.402
+        },
+        {
+          "text": "of",
+          "start": 22.402,
+          "end": 22.49
+        },
+        {
+          "text": "your",
+          "start": 22.49,
+          "end": 22.665
+        },
+        {
+          "text": "life",
+          "start": 22.665,
+          "end": 23.003
+        },
+        {
+          "text": "when",
+          "start": 23.003,
+          "end": 23.178
+        },
+        {
+          "text": "AWS",
+          "start": 23.178,
+          "end": 23.94
+        },
+        {
+          "text": "flags",
+          "start": 23.94,
+          "end": 24.428
+        },
+        {
+          "text": "50K",
+          "start": 24.428,
+          "end": 25.34
+        },
+        {
+          "text": "of",
+          "start": 25.34,
+          "end": 25.477
+        },
+        {
+          "text": "unauthorized",
+          "start": 25.477,
+          "end": 26.14
+        },
+        {
+          "text": "usage",
+          "start": 26.14,
+          "end": 27.09
+        },
+        {
+          "text": ".",
+          "start": 27.09,
+          "end": 27.29
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "This is the post I wish I'd written 10 years ago. It's not the only guide on secrets management, but it's the one born from 3am incident response calls. Here's what I've learned.",
+      "start": 27.61,
+      "end": 38.76,
+      "words": [
+        {
+          "text": "This",
+          "start": 27.86,
+          "end": 28.06
+        },
+        {
+          "text": "is",
+          "start": 28.06,
+          "end": 28.197
+        },
+        {
+          "text": "the",
+          "start": 28.197,
+          "end": 28.285
+        },
+        {
+          "text": "post",
+          "start": 28.285,
+          "end": 28.598
+        },
+        {
+          "text": "I",
+          "start": 28.598,
+          "end": 28.735
+        },
+        {
+          "text": "wish",
+          "start": 28.735,
+          "end": 28.922
+        },
+        {
+          "text": "I'd",
+          "start": 28.922,
+          "end": 29.11
+        },
+        {
+          "text": "written",
+          "start": 29.11,
+          "end": 29.41
+        },
+        {
+          "text": "10",
+          "start": 29.41,
+          "end": 29.66
+        },
+        {
+          "text": "years",
+          "start": 29.66,
+          "end": 29.898
+        },
+        {
+          "text": "ago",
+          "start": 29.898,
+          "end": 30.56
+        },
+        {
+          "text": ".",
+          "start": 30.56,
+          "end": 30.66
+        },
+        {
+          "text": "It's",
+          "start": 30.66,
+          "end": 30.885
+        },
+        {
+          "text": "not",
+          "start": 30.885,
+          "end": 31.072
+        },
+        {
+          "text": "the",
+          "start": 31.072,
+          "end": 31.185
+        },
+        {
+          "text": "only",
+          "start": 31.185,
+          "end": 31.485
+        },
+        {
+          "text": "guide",
+          "start": 31.485,
+          "end": 31.797
+        },
+        {
+          "text": "on",
+          "start": 31.797,
+          "end": 31.947
+        },
+        {
+          "text": "secrets",
+          "start": 31.947,
+          "end": 32.41
+        },
+        {
+          "text": "management",
+          "start": 32.41,
+          "end": 33.16
+        },
+        {
+          "text": ",",
+          "start": 33.16,
+          "end": 33.235
+        },
+        {
+          "text": "but",
+          "start": 33.235,
+          "end": 33.373
+        },
+        {
+          "text": "it's",
+          "start": 33.373,
+          "end": 33.472
+        },
+        {
+          "text": "the",
+          "start": 33.472,
+          "end": 33.56
+        },
+        {
+          "text": "one",
+          "start": 33.56,
+          "end": 33.785
+        },
+        {
+          "text": "born",
+          "start": 33.785,
+          "end": 34.06
+        },
+        {
+          "text": "from",
+          "start": 34.06,
+          "end": 34.273
+        },
+        {
+          "text": "3am",
+          "start": 34.273,
+          "end": 34.985
+        },
+        {
+          "text": "incident",
+          "start": 34.985,
+          "end": 35.447
+        },
+        {
+          "text": "response",
+          "start": 35.447,
+          "end": 35.885
+        },
+        {
+          "text": "calls",
+          "start": 35.885,
+          "end": 36.835
+        },
+        {
+          "text": ".",
+          "start": 36.835,
+          "end": 36.972
+        },
+        {
+          "text": "Here's",
+          "start": 36.972,
+          "end": 37.31
+        },
+        {
+          "text": "what",
+          "start": 37.31,
+          "end": 37.472
+        },
+        {
+          "text": "I've",
+          "start": 37.472,
+          "end": 37.66
+        },
+        {
+          "text": "learned",
+          "start": 37.66,
+          "end": 38.56
+        },
+        {
+          "text": ".",
+          "start": 38.56,
+          "end": 38.76
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "h2",
+      "text": "The Fundamentals (Born from Failure)",
+      "start": 39.08,
+      "end": 41.88,
+      "words": [
+        {
+          "text": "The",
+          "start": 39.305,
+          "end": 39.405
+        },
+        {
+          "text": "Fundamentals",
+          "start": 39.405,
+          "end": 40.205
+        },
+        {
+          "text": "(",
+          "start": 40.205,
+          "end": 40.28
+        },
+        {
+          "text": "Born",
+          "start": 40.28,
+          "end": 40.555
+        },
+        {
+          "text": "from",
+          "start": 40.555,
+          "end": 40.768
+        },
+        {
+          "text": "Failure",
+          "start": 40.768,
+          "end": 41.68
+        },
+        {
+          "text": ")",
+          "start": 41.68,
+          "end": 41.88
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "1. Hardcoded secrets are ticking time bombs.",
+      "start": 42.2,
+      "end": 45.625,
+      "words": [
+        {
+          "text": "1",
+          "start": 42.45,
+          "end": 42.725
+        },
+        {
+          "text": ".",
+          "start": 42.725,
+          "end": 42.775
+        },
+        {
+          "text": "Hardcoded",
+          "start": 42.775,
+          "end": 43.35
+        },
+        {
+          "text": "secrets",
+          "start": 43.35,
+          "end": 43.787
+        },
+        {
+          "text": "are",
+          "start": 43.787,
+          "end": 43.875
+        },
+        {
+          "text": "ticking",
+          "start": 43.875,
+          "end": 44.2
+        },
+        {
+          "text": "time",
+          "start": 44.2,
+          "end": 44.525
+        },
+        {
+          "text": "bombs",
+          "start": 44.525,
+          "end": 45.425
+        },
+        {
+          "text": ".",
+          "start": 45.425,
+          "end": 45.625
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "I once hardcoded a test API key in a feature branch. Accidentally merged to main. A bot scanning GitHub found it before I did. Cloud bill? $12K that month. That's when I learned: environment variables, always.",
+      "start": 45.945,
+      "end": 59.595,
+      "words": [
+        {
+          "text": "I",
+          "start": 46.195,
+          "end": 46.295
+        },
+        {
+          "text": "once",
+          "start": 46.295,
+          "end": 46.52
+        },
+        {
+          "text": "hardcoded",
+          "start": 46.52,
+          "end": 47.032
+        },
+        {
+          "text": "a",
+          "start": 47.032,
+          "end": 47.095
+        },
+        {
+          "text": "test",
+          "start": 47.095,
+          "end": 47.395
+        },
+        {
+          "text": "API",
+          "start": 47.395,
+          "end": 47.92
+        },
+        {
+          "text": "key",
+          "start": 47.92,
+          "end": 48.157
+        },
+        {
+          "text": "in",
+          "start": 48.157,
+          "end": 48.232
+        },
+        {
+          "text": "a",
+          "start": 48.232,
+          "end": 48.295
+        },
+        {
+          "text": "feature",
+          "start": 48.295,
+          "end": 48.62
+        },
+        {
+          "text": "branch",
+          "start": 48.62,
+          "end": 49.245
+        },
+        {
+          "text": ".",
+          "start": 49.245,
+          "end": 49.32
+        },
+        {
+          "text": "Accidentally",
+          "start": 49.32,
+          "end": 49.995
+        },
+        {
+          "text": "merged",
+          "start": 49.995,
+          "end": 50.295
+        },
+        {
+          "text": "to",
+          "start": 50.295,
+          "end": 50.395
+        },
+        {
+          "text": "main",
+          "start": 50.395,
+          "end": 51.195
+        },
+        {
+          "text": ".",
+          "start": 51.195,
+          "end": 51.295
+        },
+        {
+          "text": "A",
+          "start": 51.295,
+          "end": 51.37
+        },
+        {
+          "text": "bot",
+          "start": 51.37,
+          "end": 51.595
+        },
+        {
+          "text": "scanning",
+          "start": 51.595,
+          "end": 51.97
+        },
+        {
+          "text": "GitHub",
+          "start": 51.97,
+          "end": 52.345
+        },
+        {
+          "text": "found",
+          "start": 52.345,
+          "end": 52.607
+        },
+        {
+          "text": "it",
+          "start": 52.607,
+          "end": 52.682
+        },
+        {
+          "text": "before",
+          "start": 52.682,
+          "end": 52.957
+        },
+        {
+          "text": "I",
+          "start": 52.957,
+          "end": 53.095
+        },
+        {
+          "text": "did",
+          "start": 53.095,
+          "end": 53.595
+        },
+        {
+          "text": ".",
+          "start": 53.595,
+          "end": 53.732
+        },
+        {
+          "text": "Cloud",
+          "start": 53.732,
+          "end": 54.07
+        },
+        {
+          "text": "bill",
+          "start": 54.07,
+          "end": 54.445
+        },
+        {
+          "text": "?",
+          "start": 54.445,
+          "end": 54.545
+        },
+        {
+          "text": "12K",
+          "start": 54.545,
+          "end": 55.42
+        },
+        {
+          "text": "that",
+          "start": 55.42,
+          "end": 55.62
+        },
+        {
+          "text": "month",
+          "start": 55.62,
+          "end": 56.195
+        },
+        {
+          "text": ".",
+          "start": 56.195,
+          "end": 56.307
+        },
+        {
+          "text": "That's",
+          "start": 56.307,
+          "end": 56.582
+        },
+        {
+          "text": "when",
+          "start": 56.582,
+          "end": 56.707
+        },
+        {
+          "text": "I",
+          "start": 56.707,
+          "end": 56.82
+        },
+        {
+          "text": "learned",
+          "start": 56.82,
+          "end": 57.195
+        },
+        {
+          "text": ":",
+          "start": 57.195,
+          "end": 57.27
+        },
+        {
+          "text": "environment",
+          "start": 57.27,
+          "end": 57.82
+        },
+        {
+          "text": "variables",
+          "start": 57.82,
+          "end": 58.37
+        },
+        {
+          "text": ",",
+          "start": 58.37,
+          "end": 58.408
+        },
+        {
+          "text": "always",
+          "start": 58.408,
+          "end": 59.395
+        },
+        {
+          "text": ".",
+          "start": 59.395,
+          "end": 59.595
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "2. Security can't be an afterthought in tests.",
+      "start": 59.915,
+      "end": 63.34,
+      "words": [
+        {
+          "text": "2.",
+          "start": 60.165,
+          "end": 60.365
+        },
+        {
+          "text": "Security",
+          "start": 60.365,
+          "end": 61.002
+        },
+        {
+          "text": "can't",
+          "start": 61.002,
+          "end": 61.252
+        },
+        {
+          "text": "be",
+          "start": 61.252,
+          "end": 61.352
+        },
+        {
+          "text": "an",
+          "start": 61.352,
+          "end": 61.44
+        },
+        {
+          "text": "afterthought",
+          "start": 61.44,
+          "end": 62.04
+        },
+        {
+          "text": "in",
+          "start": 62.04,
+          "end": 62.19
+        },
+        {
+          "text": "tests",
+          "start": 62.19,
+          "end": 63.165
+        },
+        {
+          "text": ".",
+          "start": 63.165,
+          "end": 63.34
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "Tests interact with real credentials, real databases, real payments. If your test code is sloppy with secrets, production is at risk. I've seen a QA engineer's laptop get stolen once; the test credentials on that laptop could have been goldmines. Now we rotate credentials monthly.",
+      "start": 63.66,
+      "end": 80.985,
+      "words": [
+        {
+          "text": "Tests",
+          "start": 63.935,
+          "end": 64.273
+        },
+        {
+          "text": "interact",
+          "start": 64.273,
+          "end": 64.747
+        },
+        {
+          "text": "with",
+          "start": 64.747,
+          "end": 64.91
+        },
+        {
+          "text": "real",
+          "start": 64.91,
+          "end": 65.185
+        },
+        {
+          "text": "credentials",
+          "start": 65.185,
+          "end": 65.91
+        },
+        {
+          "text": ",",
+          "start": 65.91,
+          "end": 65.985
+        },
+        {
+          "text": "real",
+          "start": 65.985,
+          "end": 66.26
+        },
+        {
+          "text": "databases",
+          "start": 66.26,
+          "end": 67.01
+        },
+        {
+          "text": ",",
+          "start": 67.01,
+          "end": 67.06
+        },
+        {
+          "text": "real",
+          "start": 67.06,
+          "end": 67.335
+        },
+        {
+          "text": "payments",
+          "start": 67.335,
+          "end": 68.235
+        },
+        {
+          "text": ".",
+          "start": 68.235,
+          "end": 68.335
+        },
+        {
+          "text": "If",
+          "start": 68.335,
+          "end": 68.472
+        },
+        {
+          "text": "your",
+          "start": 68.472,
+          "end": 68.585
+        },
+        {
+          "text": "test",
+          "start": 68.585,
+          "end": 68.86
+        },
+        {
+          "text": "code",
+          "start": 68.86,
+          "end": 69.123
+        },
+        {
+          "text": "is",
+          "start": 69.123,
+          "end": 69.21
+        },
+        {
+          "text": "sloppy",
+          "start": 69.21,
+          "end": 69.548
+        },
+        {
+          "text": "with",
+          "start": 69.548,
+          "end": 69.71
+        },
+        {
+          "text": "secrets",
+          "start": 69.71,
+          "end": 70.11
+        },
+        {
+          "text": ",",
+          "start": 70.11,
+          "end": 70.16
+        },
+        {
+          "text": "production",
+          "start": 70.16,
+          "end": 70.635
+        },
+        {
+          "text": "is",
+          "start": 70.635,
+          "end": 70.76
+        },
+        {
+          "text": "at",
+          "start": 70.76,
+          "end": 70.885
+        },
+        {
+          "text": "risk",
+          "start": 70.885,
+          "end": 71.635
+        },
+        {
+          "text": ".",
+          "start": 71.635,
+          "end": 71.735
+        },
+        {
+          "text": "I've",
+          "start": 71.735,
+          "end": 71.947
+        },
+        {
+          "text": "seen",
+          "start": 71.947,
+          "end": 72.172
+        },
+        {
+          "text": "a",
+          "start": 72.172,
+          "end": 72.235
+        },
+        {
+          "text": "QA",
+          "start": 72.235,
+          "end": 72.61
+        },
+        {
+          "text": "engineer's",
+          "start": 72.61,
+          "end": 73.16
+        },
+        {
+          "text": "laptop",
+          "start": 73.16,
+          "end": 73.635
+        },
+        {
+          "text": "get",
+          "start": 73.635,
+          "end": 73.835
+        },
+        {
+          "text": "stolen",
+          "start": 73.835,
+          "end": 74.285
+        },
+        {
+          "text": "once",
+          "start": 74.285,
+          "end": 74.91
+        },
+        {
+          "text": ";",
+          "start": 74.91,
+          "end": 75.01
+        },
+        {
+          "text": "the",
+          "start": 75.01,
+          "end": 75.11
+        },
+        {
+          "text": "test",
+          "start": 75.11,
+          "end": 75.385
+        },
+        {
+          "text": "credentials",
+          "start": 75.385,
+          "end": 75.947
+        },
+        {
+          "text": "on",
+          "start": 75.947,
+          "end": 76.047
+        },
+        {
+          "text": "that",
+          "start": 76.047,
+          "end": 76.21
+        },
+        {
+          "text": "laptop",
+          "start": 76.21,
+          "end": 76.685
+        },
+        {
+          "text": "could",
+          "start": 76.685,
+          "end": 76.797
+        },
+        {
+          "text": "have",
+          "start": 76.797,
+          "end": 76.898
+        },
+        {
+          "text": "been",
+          "start": 76.898,
+          "end": 77.085
+        },
+        {
+          "text": "goldmines",
+          "start": 77.085,
+          "end": 78.26
+        },
+        {
+          "text": ".",
+          "start": 78.26,
+          "end": 78.398
+        },
+        {
+          "text": "Now",
+          "start": 78.398,
+          "end": 78.66
+        },
+        {
+          "text": "we",
+          "start": 78.66,
+          "end": 78.785
+        },
+        {
+          "text": "rotate",
+          "start": 78.785,
+          "end": 79.21
+        },
+        {
+          "text": "credentials",
+          "start": 79.21,
+          "end": 79.81
+        },
+        {
+          "text": "monthly",
+          "start": 79.81,
+          "end": 80.785
+        },
+        {
+          "text": ".",
+          "start": 80.785,
+          "end": 80.985
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "3. Centralize secrets, encrypt at rest, audit who accesses them.",
+      "start": 81.305,
+      "end": 85.905,
+      "words": [
+        {
+          "text": "3.",
+          "start": 81.58,
+          "end": 81.805
+        },
+        {
+          "text": "Centralize",
+          "start": 81.805,
+          "end": 82.343
+        },
+        {
+          "text": "secrets",
+          "start": 82.343,
+          "end": 82.905
+        },
+        {
+          "text": ",",
+          "start": 82.905,
+          "end": 82.98
+        },
+        {
+          "text": "encrypt",
+          "start": 82.98,
+          "end": 83.367
+        },
+        {
+          "text": "at",
+          "start": 83.367,
+          "end": 83.455
+        },
+        {
+          "text": "rest",
+          "start": 83.455,
+          "end": 83.905
+        },
+        {
+          "text": ",",
+          "start": 83.905,
+          "end": 84.005
+        },
+        {
+          "text": "audit",
+          "start": 84.005,
+          "end": 84.293
+        },
+        {
+          "text": "who",
+          "start": 84.293,
+          "end": 84.43
+        },
+        {
+          "text": "accesses",
+          "start": 84.43,
+          "end": 84.98
+        },
+        {
+          "text": "them",
+          "start": 84.98,
+          "end": 85.73
+        },
+        {
+          "text": ".",
+          "start": 85.73,
+          "end": 85.905
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "Use a centralized secret management system. Here's a simple Java example:",
+      "start": 86.225,
+      "end": 91.625,
+      "words": [
+        {
+          "text": "Use",
+          "start": 86.5,
+          "end": 86.712
+        },
+        {
+          "text": "a",
+          "start": 86.712,
+          "end": 86.812
+        },
+        {
+          "text": "centralized",
+          "start": 86.812,
+          "end": 87.462
+        },
+        {
+          "text": "secret",
+          "start": 87.462,
+          "end": 87.875
+        },
+        {
+          "text": "management",
+          "start": 87.875,
+          "end": 88.35
+        },
+        {
+          "text": "system",
+          "start": 88.35,
+          "end": 89.075
+        },
+        {
+          "text": ".",
+          "start": 89.075,
+          "end": 89.175
+        },
+        {
+          "text": "Here's",
+          "start": 89.175,
+          "end": 89.475
+        },
+        {
+          "text": "a",
+          "start": 89.475,
+          "end": 89.587
+        },
+        {
+          "text": "simple",
+          "start": 89.587,
+          "end": 90.0
+        },
+        {
+          "text": "Java",
+          "start": 90.0,
+          "end": 90.375
+        },
+        {
+          "text": "example",
+          "start": 90.375,
+          "end": 91.425
+        },
+        {
+          "text": ":",
+          "start": 91.425,
+          "end": 91.625
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "li",
+      "text": "Environment-Based Configuration",
+      "start": 91.945,
+      "end": 94.62,
+      "words": [
+        {
+          "text": "Environment-Based",
+          "start": 92.195,
+          "end": 93.17
+        },
+        {
+          "text": "Configuration",
+          "start": 93.17,
+          "end": 94.62
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "Manage different sets of secrets for various environments. C# example:",
+      "start": 95.065,
+      "end": 100.265,
+      "words": [
+        {
+          "text": "Manage",
+          "start": 95.34,
+          "end": 95.715
+        },
+        {
+          "text": "different",
+          "start": 95.715,
+          "end": 96.015
+        },
+        {
+          "text": "sets",
+          "start": 96.015,
+          "end": 96.277
+        },
+        {
+          "text": "of",
+          "start": 96.277,
+          "end": 96.365
+        },
+        {
+          "text": "secrets",
+          "start": 96.365,
+          "end": 96.865
+        },
+        {
+          "text": "for",
+          "start": 96.865,
+          "end": 96.99
+        },
+        {
+          "text": "various",
+          "start": 96.99,
+          "end": 97.465
+        },
+        {
+          "text": "environments",
+          "start": 97.465,
+          "end": 98.44
+        },
+        {
+          "text": ".",
+          "start": 98.44,
+          "end": 98.552
+        },
+        {
+          "text": "C#",
+          "start": 98.552,
+          "end": 99.027
+        },
+        {
+          "text": "example",
+          "start": 99.027,
+          "end": 100.065
+        },
+        {
+          "text": ":",
+          "start": 100.065,
+          "end": 100.265
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "Mocking Secrets for Tests",
+      "start": 100.585,
+      "end": 102.71,
+      "words": [
+        {
+          "text": "Mocking",
+          "start": 100.86,
+          "end": 101.222
+        },
+        {
+          "text": "Secrets",
+          "start": 101.222,
+          "end": 101.71
+        },
+        {
+          "text": "for",
+          "start": 101.71,
+          "end": 101.835
+        },
+        {
+          "text": "Tests",
+          "start": 101.835,
+          "end": 102.71
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "Use mocking frameworks to simulate secret-dependent services:",
+      "start": 103.18,
+      "end": 107.405,
+      "words": [
+        {
+          "text": "Use",
+          "start": 103.455,
+          "end": 103.705
+        },
+        {
+          "text": "mocking",
+          "start": 103.705,
+          "end": 104.055
+        },
+        {
+          "text": "frameworks",
+          "start": 104.055,
+          "end": 104.605
+        },
+        {
+          "text": "to",
+          "start": 104.605,
+          "end": 104.73
+        },
+        {
+          "text": "simulate",
+          "start": 104.73,
+          "end": 105.243
+        },
+        {
+          "text": "secret-dependent",
+          "start": 105.243,
+          "end": 106.08
+        },
+        {
+          "text": "services",
+          "start": 106.08,
+          "end": 107.23
+        },
+        {
+          "text": ":",
+          "start": 107.23,
+          "end": 107.405
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h2",
+      "text": "Advanced Strategies",
+      "start": 107.725,
+      "end": 109.725,
+      "words": [
+        {
+          "text": "Advanced",
+          "start": 107.975,
+          "end": 108.525
+        },
+        {
+          "text": "Strategies",
+          "start": 108.525,
+          "end": 109.725
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "li",
+      "text": "GitGuardian: Your First Line of Defense",
+      "start": 110.195,
+      "end": 112.97,
+      "words": [
+        {
+          "text": "GitGuardian",
+          "start": 110.445,
+          "end": 111.12
+        },
+        {
+          "text": ":",
+          "start": 111.12,
+          "end": 111.17
+        },
+        {
+          "text": "Your",
+          "start": 111.17,
+          "end": 111.32
+        },
+        {
+          "text": "First",
+          "start": 111.32,
+          "end": 111.645
+        },
+        {
+          "text": "Line",
+          "start": 111.645,
+          "end": 111.858
+        },
+        {
+          "text": "of",
+          "start": 111.858,
+          "end": 111.945
+        },
+        {
+          "text": "Defense",
+          "start": 111.945,
+          "end": 112.97
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "Integrate GitGuardian with your CI/CD pipeline to scan for accidentally committed secrets in real-time.",
+      "start": 113.465,
+      "end": 120.515,
+      "words": [
+        {
+          "text": "Integrate",
+          "start": 113.715,
+          "end": 114.165
+        },
+        {
+          "text": "GitGuardian",
+          "start": 114.165,
+          "end": 114.84
+        },
+        {
+          "text": "with",
+          "start": 114.84,
+          "end": 114.977
+        },
+        {
+          "text": "your",
+          "start": 114.977,
+          "end": 115.177
+        },
+        {
+          "text": "CI/CD",
+          "start": 115.177,
+          "end": 116.015
+        },
+        {
+          "text": "pipeline",
+          "start": 116.015,
+          "end": 116.865
+        },
+        {
+          "text": "to",
+          "start": 116.865,
+          "end": 117.015
+        },
+        {
+          "text": "scan",
+          "start": 117.015,
+          "end": 117.39
+        },
+        {
+          "text": "for",
+          "start": 117.39,
+          "end": 117.515
+        },
+        {
+          "text": "accidentally",
+          "start": 117.515,
+          "end": 118.19
+        },
+        {
+          "text": "committed",
+          "start": 118.19,
+          "end": 118.565
+        },
+        {
+          "text": "secrets",
+          "start": 118.565,
+          "end": 119.065
+        },
+        {
+          "text": "in",
+          "start": 119.065,
+          "end": 119.19
+        },
+        {
+          "text": "real-time",
+          "start": 119.19,
+          "end": 120.34
+        },
+        {
+          "text": ".",
+          "start": 120.34,
+          "end": 120.515
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Pipeline Variables: Secure and Dynamic",
+      "start": 120.835,
+      "end": 123.735,
+      "words": [
+        {
+          "text": "Pipeline",
+          "start": 121.06,
+          "end": 121.485
+        },
+        {
+          "text": "Variables",
+          "start": 121.485,
+          "end": 122.21
+        },
+        {
+          "text": ":",
+          "start": 122.21,
+          "end": 122.285
+        },
+        {
+          "text": "Secure",
+          "start": 122.285,
+          "end": 122.735
+        },
+        {
+          "text": "and",
+          "start": 122.735,
+          "end": 122.847
+        },
+        {
+          "text": "Dynamic",
+          "start": 122.847,
+          "end": 123.735
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "Store secrets as pipeline variables in your CI/CD tools. GitLab CI example:",
+      "start": 124.38,
+      "end": 130.53,
+      "words": [
+        {
+          "text": "Store",
+          "start": 124.63,
+          "end": 124.88
+        },
+        {
+          "text": "secrets",
+          "start": 124.88,
+          "end": 125.355
+        },
+        {
+          "text": "as",
+          "start": 125.355,
+          "end": 125.505
+        },
+        {
+          "text": "pipeline",
+          "start": 125.505,
+          "end": 125.955
+        },
+        {
+          "text": "variables",
+          "start": 125.955,
+          "end": 126.53
+        },
+        {
+          "text": "in",
+          "start": 126.53,
+          "end": 126.617
+        },
+        {
+          "text": "your",
+          "start": 126.617,
+          "end": 126.818
+        },
+        {
+          "text": "CI/CD",
+          "start": 126.818,
+          "end": 127.555
+        },
+        {
+          "text": "tools",
+          "start": 127.555,
+          "end": 128.355
+        },
+        {
+          "text": ".",
+          "start": 128.355,
+          "end": 128.468
+        },
+        {
+          "text": "GitLab",
+          "start": 128.468,
+          "end": 128.943
+        },
+        {
+          "text": "CI",
+          "start": 128.943,
+          "end": 129.33
+        },
+        {
+          "text": "example",
+          "start": 129.33,
+          "end": 130.33
+        },
+        {
+          "text": ":",
+          "start": 130.33,
+          "end": 130.53
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Property Files: Environment-Specific Configuration",
+      "start": 130.85,
+      "end": 134.525,
+      "words": [
+        {
+          "text": "Property",
+          "start": 131.075,
+          "end": 131.5
+        },
+        {
+          "text": "Files",
+          "start": 131.5,
+          "end": 132.0
+        },
+        {
+          "text": ":",
+          "start": 132.0,
+          "end": 132.088
+        },
+        {
+          "text": "Environment-Specific",
+          "start": 132.088,
+          "end": 133.2
+        },
+        {
+          "text": "Configuration",
+          "start": 133.2,
+          "end": 134.525
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "Use different property files for various environments, but never commit them:",
+      "start": 134.945,
+      "end": 139.82,
+      "words": [
+        {
+          "text": "Use",
+          "start": 135.22,
+          "end": 135.47
+        },
+        {
+          "text": "different",
+          "start": 135.47,
+          "end": 135.77
+        },
+        {
+          "text": "property",
+          "start": 135.77,
+          "end": 136.195
+        },
+        {
+          "text": "files",
+          "start": 136.195,
+          "end": 136.595
+        },
+        {
+          "text": "for",
+          "start": 136.595,
+          "end": 136.72
+        },
+        {
+          "text": "various",
+          "start": 136.72,
+          "end": 137.195
+        },
+        {
+          "text": "environments",
+          "start": 137.195,
+          "end": 138.07
+        },
+        {
+          "text": ",",
+          "start": 138.07,
+          "end": 138.145
+        },
+        {
+          "text": "but",
+          "start": 138.145,
+          "end": 138.295
+        },
+        {
+          "text": "never",
+          "start": 138.295,
+          "end": 138.57
+        },
+        {
+          "text": "commit",
+          "start": 138.57,
+          "end": 138.895
+        },
+        {
+          "text": "them",
+          "start": 138.895,
+          "end": 139.645
+        },
+        {
+          "text": ":",
+          "start": 139.645,
+          "end": 139.82
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "li",
+      "text": "Key Vaults: Cloud-Based Secret Management",
+      "start": 140.14,
+      "end": 143.015,
+      "words": [
+        {
+          "text": "Key",
+          "start": 140.39,
+          "end": 140.59
+        },
+        {
+          "text": "Vaults",
+          "start": 140.59,
+          "end": 140.965
+        },
+        {
+          "text": ":",
+          "start": 140.965,
+          "end": 141.015
+        },
+        {
+          "text": "Cloud-Based",
+          "start": 141.015,
+          "end": 141.59
+        },
+        {
+          "text": "Secret",
+          "start": 141.59,
+          "end": 141.94
+        },
+        {
+          "text": "Management",
+          "start": 141.94,
+          "end": 143.015
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "Leverage services like Azure Key Vault or AWS Secrets Manager. C# example with Azure Key Vault:",
+      "start": 143.485,
+      "end": 150.36,
+      "words": [
+        {
+          "text": "Leverage",
+          "start": 143.76,
+          "end": 144.135
+        },
+        {
+          "text": "services",
+          "start": 144.135,
+          "end": 144.685
+        },
+        {
+          "text": "like",
+          "start": 144.685,
+          "end": 144.91
+        },
+        {
+          "text": "Azure",
+          "start": 144.91,
+          "end": 145.185
+        },
+        {
+          "text": "Key",
+          "start": 145.185,
+          "end": 145.41
+        },
+        {
+          "text": "Vault",
+          "start": 145.41,
+          "end": 145.798
+        },
+        {
+          "text": "or",
+          "start": 145.798,
+          "end": 145.96
+        },
+        {
+          "text": "AWS",
+          "start": 145.96,
+          "end": 146.21
+        },
+        {
+          "text": "Secrets",
+          "start": 146.21,
+          "end": 146.66
+        },
+        {
+          "text": "Manager",
+          "start": 146.66,
+          "end": 147.51
+        },
+        {
+          "text": ".",
+          "start": 147.51,
+          "end": 147.66
+        },
+        {
+          "text": "C#",
+          "start": 147.66,
+          "end": 148.147
+        },
+        {
+          "text": "example",
+          "start": 148.147,
+          "end": 148.623
+        },
+        {
+          "text": "with",
+          "start": 148.623,
+          "end": 148.785
+        },
+        {
+          "text": "Azure",
+          "start": 148.785,
+          "end": 149.085
+        },
+        {
+          "text": "Key",
+          "start": 149.085,
+          "end": 149.31
+        },
+        {
+          "text": "Vault",
+          "start": 149.31,
+          "end": 150.16
+        },
+        {
+          "text": ":",
+          "start": 150.16,
+          "end": 150.36
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "Encryption: Adding an Extra Layer",
+      "start": 150.68,
+      "end": 153.155,
+      "words": [
+        {
+          "text": "Encryption",
+          "start": 150.93,
+          "end": 151.53
+        },
+        {
+          "text": ":",
+          "start": 151.53,
+          "end": 151.605
+        },
+        {
+          "text": "Adding",
+          "start": 151.605,
+          "end": 151.868
+        },
+        {
+          "text": "an",
+          "start": 151.868,
+          "end": 151.955
+        },
+        {
+          "text": "Extra",
+          "start": 151.955,
+          "end": 152.355
+        },
+        {
+          "text": "Layer",
+          "start": 152.355,
+          "end": 153.155
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "Encrypt sensitive data before storing, even in secure locations:",
+      "start": 153.675,
+      "end": 158.725,
+      "words": [
+        {
+          "text": "Encrypt",
+          "start": 153.925,
+          "end": 154.35
+        },
+        {
+          "text": "sensitive",
+          "start": 154.35,
+          "end": 154.9
+        },
+        {
+          "text": "data",
+          "start": 154.9,
+          "end": 155.275
+        },
+        {
+          "text": "before",
+          "start": 155.275,
+          "end": 155.6
+        },
+        {
+          "text": "storing",
+          "start": 155.6,
+          "end": 156.325
+        },
+        {
+          "text": ",",
+          "start": 156.325,
+          "end": 156.425
+        },
+        {
+          "text": "even",
+          "start": 156.425,
+          "end": 156.725
+        },
+        {
+          "text": "in",
+          "start": 156.725,
+          "end": 156.875
+        },
+        {
+          "text": "secure",
+          "start": 156.875,
+          "end": 157.275
+        },
+        {
+          "text": "locations",
+          "start": 157.275,
+          "end": 158.525
+        },
+        {
+          "text": ":",
+          "start": 158.525,
+          "end": 158.725
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "h2",
+      "text": "The Practices That Actually Stuck (What Saved My Sanity)",
+      "start": 159.045,
+      "end": 163.045,
+      "words": [
+        {
+          "text": "The",
+          "start": 159.27,
+          "end": 159.345
+        },
+        {
+          "text": "Practices",
+          "start": 159.345,
+          "end": 159.932
+        },
+        {
+          "text": "That",
+          "start": 159.932,
+          "end": 160.095
+        },
+        {
+          "text": "Actually",
+          "start": 160.095,
+          "end": 160.533
+        },
+        {
+          "text": "Stuck",
+          "start": 160.533,
+          "end": 161.095
+        },
+        {
+          "text": "(",
+          "start": 161.095,
+          "end": 161.17
+        },
+        {
+          "text": "What",
+          "start": 161.17,
+          "end": 161.37
+        },
+        {
+          "text": "Saved",
+          "start": 161.37,
+          "end": 161.683
+        },
+        {
+          "text": "My",
+          "start": 161.683,
+          "end": 161.845
+        },
+        {
+          "text": "Sanity",
+          "start": 161.845,
+          "end": 162.845
+        },
+        {
+          "text": ")",
+          "start": 162.845,
+          "end": 163.045
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "1. Environment variables, always. I never hardcode credentials. If I need an API key, it comes from System.getenv() or os.environ. CI sets them. Local dev loads from .env (never committed).",
+      "start": 163.365,
+      "end": 176.415,
+      "words": [
+        {
+          "text": "1.",
+          "start": 163.64,
+          "end": 163.865
+        },
+        {
+          "text": "Environment",
+          "start": 163.865,
+          "end": 164.39
+        },
+        {
+          "text": "variables",
+          "start": 164.39,
+          "end": 164.89
+        },
+        {
+          "text": ",",
+          "start": 164.89,
+          "end": 164.928
+        },
+        {
+          "text": "always",
+          "start": 164.928,
+          "end": 165.315
+        },
+        {
+          "text": ".",
+          "start": 165.315,
+          "end": 165.365
+        },
+        {
+          "text": "I",
+          "start": 165.365,
+          "end": 165.49
+        },
+        {
+          "text": "never",
+          "start": 165.49,
+          "end": 165.74
+        },
+        {
+          "text": "hardcode",
+          "start": 165.74,
+          "end": 166.215
+        },
+        {
+          "text": "credentials",
+          "start": 166.215,
+          "end": 167.34
+        },
+        {
+          "text": ".",
+          "start": 167.34,
+          "end": 167.44
+        },
+        {
+          "text": "If",
+          "start": 167.44,
+          "end": 167.578
+        },
+        {
+          "text": "I",
+          "start": 167.578,
+          "end": 167.715
+        },
+        {
+          "text": "need",
+          "start": 167.715,
+          "end": 167.903
+        },
+        {
+          "text": "an",
+          "start": 167.903,
+          "end": 167.99
+        },
+        {
+          "text": "API",
+          "start": 167.99,
+          "end": 168.553
+        },
+        {
+          "text": "key",
+          "start": 168.553,
+          "end": 168.765
+        },
+        {
+          "text": ",",
+          "start": 168.765,
+          "end": 168.803
+        },
+        {
+          "text": "it",
+          "start": 168.803,
+          "end": 168.89
+        },
+        {
+          "text": "comes",
+          "start": 168.89,
+          "end": 169.14
+        },
+        {
+          "text": "from",
+          "start": 169.14,
+          "end": 169.34
+        },
+        {
+          "text": "System.getenv",
+          "start": 169.34,
+          "end": 170.615
+        },
+        {
+          "text": "(",
+          "start": 170.615,
+          "end": 170.665
+        },
+        {
+          "text": ")",
+          "start": 170.665,
+          "end": 170.715
+        },
+        {
+          "text": "or",
+          "start": 170.715,
+          "end": 170.865
+        },
+        {
+          "text": "os.environ",
+          "start": 170.865,
+          "end": 171.69
+        },
+        {
+          "text": ".",
+          "start": 171.69,
+          "end": 171.815
+        },
+        {
+          "text": "CI",
+          "start": 171.815,
+          "end": 172.265
+        },
+        {
+          "text": "sets",
+          "start": 172.265,
+          "end": 172.565
+        },
+        {
+          "text": "them",
+          "start": 172.565,
+          "end": 173.265
+        },
+        {
+          "text": ".",
+          "start": 173.265,
+          "end": 173.377
+        },
+        {
+          "text": "Local",
+          "start": 173.377,
+          "end": 173.715
+        },
+        {
+          "text": "dev",
+          "start": 173.715,
+          "end": 173.965
+        },
+        {
+          "text": "loads",
+          "start": 173.965,
+          "end": 174.29
+        },
+        {
+          "text": "from",
+          "start": 174.29,
+          "end": 174.49
+        },
+        {
+          "text": ".",
+          "start": 174.49,
+          "end": 174.565
+        },
+        {
+          "text": "env",
+          "start": 174.565,
+          "end": 174.89
+        },
+        {
+          "text": "(",
+          "start": 174.89,
+          "end": 174.965
+        },
+        {
+          "text": "never",
+          "start": 174.965,
+          "end": 175.215
+        },
+        {
+          "text": "committed",
+          "start": 175.215,
+          "end": 176.09
+        },
+        {
+          "text": ")",
+          "start": 176.09,
+          "end": 176.34
+        },
+        {
+          "text": ".",
+          "start": 176.34,
+          "end": 176.415
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "2. Audit who accesses what. I learned this from a security audit: we couldn't prove which developers had accessed production credentials. Now we log access to Key Vault, AWS Secrets Manager, wherever secrets live. If something goes wrong, we know who and when.",
+      "start": 176.735,
+      "end": 192.66,
+      "words": [
+        {
+          "text": "2.",
+          "start": 177.01,
+          "end": 177.21
+        },
+        {
+          "text": "Audit",
+          "start": 177.21,
+          "end": 177.547
+        },
+        {
+          "text": "who",
+          "start": 177.547,
+          "end": 177.685
+        },
+        {
+          "text": "accesses",
+          "start": 177.685,
+          "end": 178.235
+        },
+        {
+          "text": "what",
+          "start": 178.235,
+          "end": 178.96
+        },
+        {
+          "text": ".",
+          "start": 178.96,
+          "end": 179.06
+        },
+        {
+          "text": "I",
+          "start": 179.06,
+          "end": 179.21
+        },
+        {
+          "text": "learned",
+          "start": 179.21,
+          "end": 179.472
+        },
+        {
+          "text": "this",
+          "start": 179.472,
+          "end": 179.635
+        },
+        {
+          "text": "from",
+          "start": 179.635,
+          "end": 179.773
+        },
+        {
+          "text": "a",
+          "start": 179.773,
+          "end": 179.835
+        },
+        {
+          "text": "security",
+          "start": 179.835,
+          "end": 180.385
+        },
+        {
+          "text": "audit",
+          "start": 180.385,
+          "end": 181.035
+        },
+        {
+          "text": ":",
+          "start": 181.035,
+          "end": 181.135
+        },
+        {
+          "text": "we",
+          "start": 181.135,
+          "end": 181.26
+        },
+        {
+          "text": "couldn't",
+          "start": 181.26,
+          "end": 181.485
+        },
+        {
+          "text": "prove",
+          "start": 181.485,
+          "end": 181.772
+        },
+        {
+          "text": "which",
+          "start": 181.772,
+          "end": 181.96
+        },
+        {
+          "text": "developers",
+          "start": 181.96,
+          "end": 182.498
+        },
+        {
+          "text": "had",
+          "start": 182.498,
+          "end": 182.61
+        },
+        {
+          "text": "accessed",
+          "start": 182.61,
+          "end": 183.035
+        },
+        {
+          "text": "production",
+          "start": 183.035,
+          "end": 183.485
+        },
+        {
+          "text": "credentials",
+          "start": 183.485,
+          "end": 184.785
+        },
+        {
+          "text": ".",
+          "start": 184.785,
+          "end": 184.923
+        },
+        {
+          "text": "Now",
+          "start": 184.923,
+          "end": 185.185
+        },
+        {
+          "text": "we",
+          "start": 185.185,
+          "end": 185.31
+        },
+        {
+          "text": "log",
+          "start": 185.31,
+          "end": 185.535
+        },
+        {
+          "text": "access",
+          "start": 185.535,
+          "end": 185.935
+        },
+        {
+          "text": "to",
+          "start": 185.935,
+          "end": 186.035
+        },
+        {
+          "text": "Key",
+          "start": 186.035,
+          "end": 186.26
+        },
+        {
+          "text": "Vault",
+          "start": 186.26,
+          "end": 186.785
+        },
+        {
+          "text": ",",
+          "start": 186.785,
+          "end": 186.885
+        },
+        {
+          "text": "AWS",
+          "start": 186.885,
+          "end": 187.61
+        },
+        {
+          "text": "Secrets",
+          "start": 187.61,
+          "end": 188.06
+        },
+        {
+          "text": "Manager",
+          "start": 188.06,
+          "end": 188.435
+        },
+        {
+          "text": ",",
+          "start": 188.435,
+          "end": 188.485
+        },
+        {
+          "text": "wherever",
+          "start": 188.485,
+          "end": 188.835
+        },
+        {
+          "text": "secrets",
+          "start": 188.835,
+          "end": 189.285
+        },
+        {
+          "text": "live",
+          "start": 189.285,
+          "end": 189.91
+        },
+        {
+          "text": ".",
+          "start": 189.91,
+          "end": 190.01
+        },
+        {
+          "text": "If",
+          "start": 190.01,
+          "end": 190.16
+        },
+        {
+          "text": "something",
+          "start": 190.16,
+          "end": 190.535
+        },
+        {
+          "text": "goes",
+          "start": 190.535,
+          "end": 190.785
+        },
+        {
+          "text": "wrong",
+          "start": 190.785,
+          "end": 191.085
+        },
+        {
+          "text": ",",
+          "start": 191.085,
+          "end": 191.135
+        },
+        {
+          "text": "we",
+          "start": 191.135,
+          "end": 191.26
+        },
+        {
+          "text": "know",
+          "start": 191.26,
+          "end": 191.46
+        },
+        {
+          "text": "who",
+          "start": 191.46,
+          "end": 191.622
+        },
+        {
+          "text": "and",
+          "start": 191.622,
+          "end": 191.735
+        },
+        {
+          "text": "when",
+          "start": 191.735,
+          "end": 192.485
+        },
+        {
+          "text": ".",
+          "start": 192.485,
+          "end": 192.66
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "3. Rotate regularly. Old passwords die. Every 90 days, credentials change. Yes, it's annoying to manage. But when someone leaves the team, we're not hunting down every place they had access.",
+      "start": 192.98,
+      "end": 205.205,
+      "words": [
+        {
+          "text": "3",
+          "start": 193.255,
+          "end": 193.505
+        },
+        {
+          "text": ".",
+          "start": 193.505,
+          "end": 193.555
+        },
+        {
+          "text": "Rotate",
+          "start": 193.555,
+          "end": 193.98
+        },
+        {
+          "text": "regularly",
+          "start": 193.98,
+          "end": 194.73
+        },
+        {
+          "text": ".",
+          "start": 194.73,
+          "end": 194.842
+        },
+        {
+          "text": "Old",
+          "start": 194.842,
+          "end": 195.08
+        },
+        {
+          "text": "passwords",
+          "start": 195.08,
+          "end": 195.68
+        },
+        {
+          "text": "die",
+          "start": 195.68,
+          "end": 196.28
+        },
+        {
+          "text": ".",
+          "start": 196.28,
+          "end": 196.417
+        },
+        {
+          "text": "Every",
+          "start": 196.417,
+          "end": 196.705
+        },
+        {
+          "text": "90",
+          "start": 196.705,
+          "end": 197.03
+        },
+        {
+          "text": "days",
+          "start": 197.03,
+          "end": 197.38
+        },
+        {
+          "text": ",",
+          "start": 197.38,
+          "end": 197.43
+        },
+        {
+          "text": "credentials",
+          "start": 197.43,
+          "end": 198.042
+        },
+        {
+          "text": "change",
+          "start": 198.042,
+          "end": 198.755
+        },
+        {
+          "text": ".",
+          "start": 198.755,
+          "end": 198.892
+        },
+        {
+          "text": "Yes",
+          "start": 198.892,
+          "end": 199.205
+        },
+        {
+          "text": ",",
+          "start": 199.205,
+          "end": 199.255
+        },
+        {
+          "text": "it's",
+          "start": 199.255,
+          "end": 199.43
+        },
+        {
+          "text": "annoying",
+          "start": 199.43,
+          "end": 199.805
+        },
+        {
+          "text": "to",
+          "start": 199.805,
+          "end": 199.905
+        },
+        {
+          "text": "manage",
+          "start": 199.905,
+          "end": 200.705
+        },
+        {
+          "text": ".",
+          "start": 200.705,
+          "end": 200.78
+        },
+        {
+          "text": "But",
+          "start": 200.78,
+          "end": 200.917
+        },
+        {
+          "text": "when",
+          "start": 200.917,
+          "end": 201.08
+        },
+        {
+          "text": "someone",
+          "start": 201.08,
+          "end": 201.405
+        },
+        {
+          "text": "leaves",
+          "start": 201.405,
+          "end": 201.667
+        },
+        {
+          "text": "the",
+          "start": 201.667,
+          "end": 201.755
+        },
+        {
+          "text": "team",
+          "start": 201.755,
+          "end": 202.105
+        },
+        {
+          "text": ",",
+          "start": 202.105,
+          "end": 202.142
+        },
+        {
+          "text": "we're",
+          "start": 202.142,
+          "end": 202.242
+        },
+        {
+          "text": "not",
+          "start": 202.242,
+          "end": 202.43
+        },
+        {
+          "text": "hunting",
+          "start": 202.43,
+          "end": 202.805
+        },
+        {
+          "text": "down",
+          "start": 202.805,
+          "end": 203.08
+        },
+        {
+          "text": "every",
+          "start": 203.08,
+          "end": 203.355
+        },
+        {
+          "text": "place",
+          "start": 203.355,
+          "end": 203.68
+        },
+        {
+          "text": "they",
+          "start": 203.68,
+          "end": 203.83
+        },
+        {
+          "text": "had",
+          "start": 203.83,
+          "end": 203.98
+        },
+        {
+          "text": "access",
+          "start": 203.98,
+          "end": 205.005
+        },
+        {
+          "text": ".",
+          "start": 205.005,
+          "end": 205.205
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "4. GitGuardian saved us once. A junior dev committed a database password. GitGuardian caught it before the merge completed. Cost to remediate? 2 hours, new password, life goes on. Cost if it hadn't been caught? Our whole production database exposed. $200/month for GitGuardian is the cheapest insurance I know.",
+      "start": 205.525,
+      "end": 225.3,
+      "words": [
+        {
+          "text": "4",
+          "start": 205.825,
+          "end": 206.1
+        },
+        {
+          "text": ".",
+          "start": 206.1,
+          "end": 206.15
+        },
+        {
+          "text": "GitGuardian",
+          "start": 206.15,
+          "end": 206.725
+        },
+        {
+          "text": "saved",
+          "start": 206.725,
+          "end": 207.012
+        },
+        {
+          "text": "us",
+          "start": 207.012,
+          "end": 207.175
+        },
+        {
+          "text": "once",
+          "start": 207.175,
+          "end": 207.825
+        },
+        {
+          "text": ".",
+          "start": 207.825,
+          "end": 207.937
+        },
+        {
+          "text": "A",
+          "start": 207.937,
+          "end": 208.062
+        },
+        {
+          "text": "junior",
+          "start": 208.062,
+          "end": 208.375
+        },
+        {
+          "text": "dev",
+          "start": 208.375,
+          "end": 208.65
+        },
+        {
+          "text": "committed",
+          "start": 208.65,
+          "end": 208.987
+        },
+        {
+          "text": "a",
+          "start": 208.987,
+          "end": 209.05
+        },
+        {
+          "text": "database",
+          "start": 209.05,
+          "end": 209.575
+        },
+        {
+          "text": "password",
+          "start": 209.575,
+          "end": 210.525
+        },
+        {
+          "text": ".",
+          "start": 210.525,
+          "end": 210.637
+        },
+        {
+          "text": "GitGuardian",
+          "start": 210.637,
+          "end": 211.225
+        },
+        {
+          "text": "caught",
+          "start": 211.225,
+          "end": 211.5
+        },
+        {
+          "text": "it",
+          "start": 211.5,
+          "end": 211.625
+        },
+        {
+          "text": "before",
+          "start": 211.625,
+          "end": 211.887
+        },
+        {
+          "text": "the",
+          "start": 211.887,
+          "end": 211.975
+        },
+        {
+          "text": "merge",
+          "start": 211.975,
+          "end": 212.25
+        },
+        {
+          "text": "completed",
+          "start": 212.25,
+          "end": 213.1
+        },
+        {
+          "text": ".",
+          "start": 213.1,
+          "end": 213.212
+        },
+        {
+          "text": "Cost",
+          "start": 213.212,
+          "end": 213.525
+        },
+        {
+          "text": "to",
+          "start": 213.525,
+          "end": 213.612
+        },
+        {
+          "text": "remediate",
+          "start": 213.612,
+          "end": 214.5
+        },
+        {
+          "text": "?",
+          "start": 214.5,
+          "end": 214.612
+        },
+        {
+          "text": "2",
+          "start": 214.612,
+          "end": 214.85
+        },
+        {
+          "text": "hours",
+          "start": 214.85,
+          "end": 215.225
+        },
+        {
+          "text": ",",
+          "start": 215.225,
+          "end": 215.275
+        },
+        {
+          "text": "new",
+          "start": 215.275,
+          "end": 215.45
+        },
+        {
+          "text": "password",
+          "start": 215.45,
+          "end": 216.0
+        },
+        {
+          "text": ",",
+          "start": 216.0,
+          "end": 216.05
+        },
+        {
+          "text": "life",
+          "start": 216.05,
+          "end": 216.325
+        },
+        {
+          "text": "goes",
+          "start": 216.325,
+          "end": 216.625
+        },
+        {
+          "text": "on",
+          "start": 216.625,
+          "end": 217.175
+        },
+        {
+          "text": ".",
+          "start": 217.175,
+          "end": 217.287
+        },
+        {
+          "text": "Cost",
+          "start": 217.287,
+          "end": 217.562
+        },
+        {
+          "text": "if",
+          "start": 217.562,
+          "end": 217.662
+        },
+        {
+          "text": "it",
+          "start": 217.662,
+          "end": 217.737
+        },
+        {
+          "text": "hadn't",
+          "start": 217.737,
+          "end": 217.962
+        },
+        {
+          "text": "been",
+          "start": 217.962,
+          "end": 218.15
+        },
+        {
+          "text": "caught",
+          "start": 218.15,
+          "end": 218.6
+        },
+        {
+          "text": "?",
+          "start": 218.6,
+          "end": 218.675
+        },
+        {
+          "text": "Our",
+          "start": 218.675,
+          "end": 218.825
+        },
+        {
+          "text": "whole",
+          "start": 218.825,
+          "end": 219.05
+        },
+        {
+          "text": "production",
+          "start": 219.05,
+          "end": 219.5
+        },
+        {
+          "text": "database",
+          "start": 219.5,
+          "end": 220.025
+        },
+        {
+          "text": "exposed",
+          "start": 220.025,
+          "end": 221.0
+        },
+        {
+          "text": ".",
+          "start": 221.0,
+          "end": 221.112
+        },
+        {
+          "text": "200/month",
+          "start": 221.112,
+          "end": 222.15
+        },
+        {
+          "text": "for",
+          "start": 222.15,
+          "end": 222.275
+        },
+        {
+          "text": "GitGuardian",
+          "start": 222.275,
+          "end": 222.925
+        },
+        {
+          "text": "is",
+          "start": 222.925,
+          "end": 223.063
+        },
+        {
+          "text": "the",
+          "start": 223.063,
+          "end": 223.162
+        },
+        {
+          "text": "cheapest",
+          "start": 223.162,
+          "end": 223.575
+        },
+        {
+          "text": "insurance",
+          "start": 223.575,
+          "end": 224.188
+        },
+        {
+          "text": "I",
+          "start": 224.188,
+          "end": 224.325
+        },
+        {
+          "text": "know",
+          "start": 224.325,
+          "end": 225.1
+        },
+        {
+          "text": ".",
+          "start": 225.1,
+          "end": 225.3
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "5. Test secrets separately from production secrets. All my tests use fake credentials that fire dummy responses. Real credentials live in secure vaults, accessed only by the CI pipeline. The test framework never sees production secrets.",
+      "start": 225.62,
+      "end": 240.82,
+      "words": [
+        {
+          "text": "5.",
+          "start": 225.895,
+          "end": 226.195
+        },
+        {
+          "text": "Test",
+          "start": 226.195,
+          "end": 226.445
+        },
+        {
+          "text": "secrets",
+          "start": 226.445,
+          "end": 226.87
+        },
+        {
+          "text": "separately",
+          "start": 226.87,
+          "end": 227.32
+        },
+        {
+          "text": "from",
+          "start": 227.32,
+          "end": 227.47
+        },
+        {
+          "text": "production",
+          "start": 227.47,
+          "end": 227.945
+        },
+        {
+          "text": "secrets",
+          "start": 227.945,
+          "end": 228.795
+        },
+        {
+          "text": ".",
+          "start": 228.795,
+          "end": 228.895
+        },
+        {
+          "text": "All",
+          "start": 228.895,
+          "end": 229.082
+        },
+        {
+          "text": "my",
+          "start": 229.082,
+          "end": 229.257
+        },
+        {
+          "text": "tests",
+          "start": 229.257,
+          "end": 229.67
+        },
+        {
+          "text": "use",
+          "start": 229.67,
+          "end": 229.895
+        },
+        {
+          "text": "fake",
+          "start": 229.895,
+          "end": 230.17
+        },
+        {
+          "text": "credentials",
+          "start": 230.17,
+          "end": 230.795
+        },
+        {
+          "text": "that",
+          "start": 230.795,
+          "end": 230.97
+        },
+        {
+          "text": "fire",
+          "start": 230.97,
+          "end": 231.295
+        },
+        {
+          "text": "dummy",
+          "start": 231.295,
+          "end": 231.595
+        },
+        {
+          "text": "responses",
+          "start": 231.595,
+          "end": 232.77
+        },
+        {
+          "text": ".",
+          "start": 232.77,
+          "end": 232.907
+        },
+        {
+          "text": "Real",
+          "start": 232.907,
+          "end": 233.195
+        },
+        {
+          "text": "credentials",
+          "start": 233.195,
+          "end": 233.82
+        },
+        {
+          "text": "live",
+          "start": 233.82,
+          "end": 234.032
+        },
+        {
+          "text": "in",
+          "start": 234.032,
+          "end": 234.17
+        },
+        {
+          "text": "secure",
+          "start": 234.17,
+          "end": 234.57
+        },
+        {
+          "text": "vaults",
+          "start": 234.57,
+          "end": 235.095
+        },
+        {
+          "text": ",",
+          "start": 235.095,
+          "end": 235.195
+        },
+        {
+          "text": "accessed",
+          "start": 235.195,
+          "end": 235.645
+        },
+        {
+          "text": "only",
+          "start": 235.645,
+          "end": 235.945
+        },
+        {
+          "text": "by",
+          "start": 235.945,
+          "end": 236.12
+        },
+        {
+          "text": "the",
+          "start": 236.12,
+          "end": 236.257
+        },
+        {
+          "text": "CI",
+          "start": 236.257,
+          "end": 236.645
+        },
+        {
+          "text": "pipeline",
+          "start": 236.645,
+          "end": 237.57
+        },
+        {
+          "text": ".",
+          "start": 237.57,
+          "end": 237.67
+        },
+        {
+          "text": "The",
+          "start": 237.67,
+          "end": 237.77
+        },
+        {
+          "text": "test",
+          "start": 237.77,
+          "end": 238.07
+        },
+        {
+          "text": "framework",
+          "start": 238.07,
+          "end": 238.57
+        },
+        {
+          "text": "never",
+          "start": 238.57,
+          "end": 238.845
+        },
+        {
+          "text": "sees",
+          "start": 238.845,
+          "end": 239.145
+        },
+        {
+          "text": "production",
+          "start": 239.145,
+          "end": 239.62
+        },
+        {
+          "text": "secrets",
+          "start": 239.62,
+          "end": 240.645
+        },
+        {
+          "text": ".",
+          "start": 240.645,
+          "end": 240.82
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "The hard part isn't the tools. It's the culture. Every developer , especially SDETs who work with sensitive data daily , needs to internalize: secrets in code isn't lazy, it's dangerous.",
+      "start": 241.14,
+      "end": 253.59,
+      "words": [
+        {
+          "text": "The",
+          "start": 241.39,
+          "end": 241.465
+        },
+        {
+          "text": "hard",
+          "start": 241.465,
+          "end": 241.765
+        },
+        {
+          "text": "part",
+          "start": 241.765,
+          "end": 242.09
+        },
+        {
+          "text": "isn't",
+          "start": 242.09,
+          "end": 242.378
+        },
+        {
+          "text": "the",
+          "start": 242.378,
+          "end": 242.465
+        },
+        {
+          "text": "tools",
+          "start": 242.465,
+          "end": 243.29
+        },
+        {
+          "text": ".",
+          "start": 243.29,
+          "end": 243.39
+        },
+        {
+          "text": "It's",
+          "start": 243.39,
+          "end": 243.627
+        },
+        {
+          "text": "the",
+          "start": 243.627,
+          "end": 243.715
+        },
+        {
+          "text": "culture",
+          "start": 243.715,
+          "end": 244.615
+        },
+        {
+          "text": ".",
+          "start": 244.615,
+          "end": 244.778
+        },
+        {
+          "text": "Every",
+          "start": 244.778,
+          "end": 245.115
+        },
+        {
+          "text": "developer",
+          "start": 245.115,
+          "end": 245.715
+        },
+        {
+          "text": ",",
+          "start": 245.715,
+          "end": 245.778
+        },
+        {
+          "text": "especially",
+          "start": 245.778,
+          "end": 246.34
+        },
+        {
+          "text": "SDETs",
+          "start": 246.34,
+          "end": 247.002
+        },
+        {
+          "text": "who",
+          "start": 247.002,
+          "end": 247.14
+        },
+        {
+          "text": "work",
+          "start": 247.14,
+          "end": 247.377
+        },
+        {
+          "text": "with",
+          "start": 247.377,
+          "end": 247.54
+        },
+        {
+          "text": "sensitive",
+          "start": 247.54,
+          "end": 248.04
+        },
+        {
+          "text": "data",
+          "start": 248.04,
+          "end": 248.34
+        },
+        {
+          "text": "daily",
+          "start": 248.34,
+          "end": 248.79
+        },
+        {
+          "text": ",",
+          "start": 248.79,
+          "end": 248.865
+        },
+        {
+          "text": "needs",
+          "start": 248.865,
+          "end": 249.115
+        },
+        {
+          "text": "to",
+          "start": 249.115,
+          "end": 249.24
+        },
+        {
+          "text": "internalize",
+          "start": 249.24,
+          "end": 250.365
+        },
+        {
+          "text": ":",
+          "start": 250.365,
+          "end": 250.503
+        },
+        {
+          "text": "secrets",
+          "start": 250.503,
+          "end": 250.99
+        },
+        {
+          "text": "in",
+          "start": 250.99,
+          "end": 251.14
+        },
+        {
+          "text": "code",
+          "start": 251.14,
+          "end": 251.452
+        },
+        {
+          "text": "isn't",
+          "start": 251.452,
+          "end": 251.69
+        },
+        {
+          "text": "lazy",
+          "start": 251.69,
+          "end": 252.04
+        },
+        {
+          "text": ",",
+          "start": 252.04,
+          "end": 252.078
+        },
+        {
+          "text": "it's",
+          "start": 252.078,
+          "end": 252.265
+        },
+        {
+          "text": "dangerous",
+          "start": 252.265,
+          "end": 253.39
+        },
+        {
+          "text": ".",
+          "start": 253.39,
+          "end": 253.59
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "Make it easy (environment variables, default configurations), make it automatic (GitGuardian in CI), make it auditable (log access), and make it the path of least resistance.",
+      "start": 253.91,
+      "end": 265.36,
+      "words": [
+        {
+          "text": "Make",
+          "start": 254.185,
+          "end": 254.348
+        },
+        {
+          "text": "it",
+          "start": 254.348,
+          "end": 254.498
+        },
+        {
+          "text": "easy",
+          "start": 254.498,
+          "end": 254.86
+        },
+        {
+          "text": "(",
+          "start": 254.86,
+          "end": 254.91
+        },
+        {
+          "text": "environment",
+          "start": 254.91,
+          "end": 255.46
+        },
+        {
+          "text": "variables",
+          "start": 255.46,
+          "end": 256.01
+        },
+        {
+          "text": ",",
+          "start": 256.01,
+          "end": 256.048
+        },
+        {
+          "text": "default",
+          "start": 256.048,
+          "end": 256.51
+        },
+        {
+          "text": "configurations",
+          "start": 256.51,
+          "end": 257.785
+        },
+        {
+          "text": ")",
+          "start": 257.785,
+          "end": 257.835
+        },
+        {
+          "text": ",",
+          "start": 257.835,
+          "end": 257.885
+        },
+        {
+          "text": "make",
+          "start": 257.885,
+          "end": 258.073
+        },
+        {
+          "text": "it",
+          "start": 258.073,
+          "end": 258.21
+        },
+        {
+          "text": "automatic",
+          "start": 258.21,
+          "end": 258.848
+        },
+        {
+          "text": "(",
+          "start": 258.848,
+          "end": 258.885
+        },
+        {
+          "text": "GitGuardian",
+          "start": 258.885,
+          "end": 259.535
+        },
+        {
+          "text": "in",
+          "start": 259.535,
+          "end": 259.698
+        },
+        {
+          "text": "CI",
+          "start": 259.698,
+          "end": 260.51
+        },
+        {
+          "text": ")",
+          "start": 260.51,
+          "end": 260.61
+        },
+        {
+          "text": ",",
+          "start": 260.61,
+          "end": 260.685
+        },
+        {
+          "text": "make",
+          "start": 260.685,
+          "end": 260.873
+        },
+        {
+          "text": "it",
+          "start": 260.873,
+          "end": 261.01
+        },
+        {
+          "text": "auditable",
+          "start": 261.01,
+          "end": 261.523
+        },
+        {
+          "text": "(",
+          "start": 261.523,
+          "end": 261.585
+        },
+        {
+          "text": "log",
+          "start": 261.585,
+          "end": 261.81
+        },
+        {
+          "text": "access",
+          "start": 261.81,
+          "end": 262.635
+        },
+        {
+          "text": ")",
+          "start": 262.635,
+          "end": 262.76
+        },
+        {
+          "text": ",",
+          "start": 262.76,
+          "end": 262.835
+        },
+        {
+          "text": "and",
+          "start": 262.835,
+          "end": 262.96
+        },
+        {
+          "text": "make",
+          "start": 262.96,
+          "end": 263.148
+        },
+        {
+          "text": "it",
+          "start": 263.148,
+          "end": 263.223
+        },
+        {
+          "text": "the",
+          "start": 263.223,
+          "end": 263.31
+        },
+        {
+          "text": "path",
+          "start": 263.31,
+          "end": 263.648
+        },
+        {
+          "text": "of",
+          "start": 263.648,
+          "end": 263.735
+        },
+        {
+          "text": "least",
+          "start": 263.735,
+          "end": 263.998
+        },
+        {
+          "text": "resistance",
+          "start": 263.998,
+          "end": 265.16
+        },
+        {
+          "text": ".",
+          "start": 265.16,
+          "end": 265.36
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 265.68,
+      "end": 267.88,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 265.955,
+          "end": 266.505
+        },
+        {
+          "text": "and",
+          "start": 266.505,
+          "end": 266.642
+        },
+        {
+          "text": "Further",
+          "start": 266.642,
+          "end": 267.005
+        },
+        {
+          "text": "Reading",
+          "start": 267.005,
+          "end": 267.88
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "OWASP Secrets Management Cheat Sheet",
+      "start": 268.325,
+      "end": 271.6,
+      "words": [
+        {
+          "text": "OWASP",
+          "start": 268.575,
+          "end": 269.5
+        },
+        {
+          "text": "Secrets",
+          "start": 269.5,
+          "end": 269.95
+        },
+        {
+          "text": "Management",
+          "start": 269.95,
+          "end": 270.488
+        },
+        {
+          "text": "Cheat",
+          "start": 270.488,
+          "end": 270.787
+        },
+        {
+          "text": "Sheet",
+          "start": 270.787,
+          "end": 271.6
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "li",
+      "text": "Azure Key Vault , secrets management",
+      "start": 272.095,
+      "end": 274.795,
+      "words": [
+        {
+          "text": "Azure",
+          "start": 272.345,
+          "end": 272.595
+        },
+        {
+          "text": "Key",
+          "start": 272.595,
+          "end": 272.82
+        },
+        {
+          "text": "Vault",
+          "start": 272.82,
+          "end": 273.22
+        },
+        {
+          "text": ",",
+          "start": 273.22,
+          "end": 273.295
+        },
+        {
+          "text": "secrets",
+          "start": 273.295,
+          "end": 273.745
+        },
+        {
+          "text": "management",
+          "start": 273.745,
+          "end": 274.795
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "HashiCorp Vault , what it is",
+      "start": 275.265,
+      "end": 277.64,
+      "words": [
+        {
+          "text": "HashiCorp",
+          "start": 275.515,
+          "end": 276.14
+        },
+        {
+          "text": "Vault",
+          "start": 276.14,
+          "end": 276.503
+        },
+        {
+          "text": ",",
+          "start": 276.503,
+          "end": 276.553
+        },
+        {
+          "text": "what",
+          "start": 276.553,
+          "end": 276.678
+        },
+        {
+          "text": "it",
+          "start": 276.678,
+          "end": 276.827
+        },
+        {
+          "text": "is",
+          "start": 276.827,
+          "end": 277.64
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "GitHub , secret scanning",
+      "start": 278.11,
+      "end": 280.21,
+      "words": [
+        {
+          "text": "GitHub",
+          "start": 278.36,
+          "end": 278.835
+        },
+        {
+          "text": ",",
+          "start": 278.835,
+          "end": 278.91
+        },
+        {
+          "text": "secret",
+          "start": 278.91,
+          "end": 279.285
+        },
+        {
+          "text": "scanning",
+          "start": 279.285,
+          "end": 280.21
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "See also: Functional Testers in the Secure SDLC (Mar 2025) · Security Testing for SDETs (Sep 2024)",
+      "start": 280.68,
+      "end": 290.105,
+      "words": [
+        {
+          "text": "See",
+          "start": 280.955,
+          "end": 281.105
+        },
+        {
+          "text": "also",
+          "start": 281.105,
+          "end": 281.605
+        },
+        {
+          "text": ":",
+          "start": 281.605,
+          "end": 281.68
+        },
+        {
+          "text": "Functional",
+          "start": 281.68,
+          "end": 282.155
+        },
+        {
+          "text": "Testers",
+          "start": 282.155,
+          "end": 282.63
+        },
+        {
+          "text": "in",
+          "start": 282.63,
+          "end": 282.718
+        },
+        {
+          "text": "the",
+          "start": 282.718,
+          "end": 282.805
+        },
+        {
+          "text": "Secure",
+          "start": 282.805,
+          "end": 283.205
+        },
+        {
+          "text": "SDLC",
+          "start": 283.205,
+          "end": 284.218
+        },
+        {
+          "text": "(",
+          "start": 284.218,
+          "end": 284.305
+        },
+        {
+          "text": "Mar",
+          "start": 284.305,
+          "end": 284.48
+        },
+        {
+          "text": "2025",
+          "start": 284.48,
+          "end": 285.68
+        },
+        {
+          "text": ")",
+          "start": 285.68,
+          "end": 285.88
+        },
+        {
+          "text": "Security",
+          "start": 285.93,
+          "end": 286.48
+        },
+        {
+          "text": "Testing",
+          "start": 286.48,
+          "end": 286.918
+        },
+        {
+          "text": "for",
+          "start": 286.918,
+          "end": 287.055
+        },
+        {
+          "text": "SDETs",
+          "start": 287.055,
+          "end": 288.168
+        },
+        {
+          "text": "(",
+          "start": 288.168,
+          "end": 288.255
+        },
+        {
+          "text": "Sep",
+          "start": 288.255,
+          "end": 288.505
+        },
+        {
+          "text": "2024",
+          "start": 288.505,
+          "end": 290.105
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "p",
+      "text": "#SecureSDLC #SDET #SecretManagement #SoftwareTesting #DevSecOps #Cybersecurity",
+      "start": 290.475,
+      "end": 297.375,
+      "words": [
+        {
+          "text": "SecureSDLC",
+          "start": 290.75,
+          "end": 291.65
+        },
+        {
+          "text": "SDET",
+          "start": 291.65,
+          "end": 292.4
+        },
+        {
+          "text": "SecretManagement",
+          "start": 292.4,
+          "end": 293.537
+        },
+        {
+          "text": "#SoftwareTesting",
+          "start": 293.537,
+          "end": 295.1
+        },
+        {
+          "text": "DevSecOps",
+          "start": 295.1,
+          "end": 295.938
+        },
+        {
+          "text": "Cybersecurity",
+          "start": 295.938,
+          "end": 297.375
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

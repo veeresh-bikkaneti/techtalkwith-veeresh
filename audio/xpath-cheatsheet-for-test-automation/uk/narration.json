@@ -1,0 +1,8342 @@
+{
+  "slug": "xpath-cheatsheet-for-test-automation",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 618.83,
+  "contentHash": "1215332ebe00d38b80cebed7030779cf7326d26391623fabe5eb285fe1b3edb0",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "XPath Cheatsheet for Test Automation Engineers",
+      "start": 0.0,
+      "end": 3.475,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 0.25,
+          "end": 0.738
+        },
+        {
+          "text": "Cheatsheet",
+          "start": 0.738,
+          "end": 1.3
+        },
+        {
+          "text": "for",
+          "start": 1.3,
+          "end": 1.425
+        },
+        {
+          "text": "Test",
+          "start": 1.425,
+          "end": 1.688
+        },
+        {
+          "text": "Automation",
+          "start": 1.688,
+          "end": 2.275
+        },
+        {
+          "text": "Engineers",
+          "start": 2.275,
+          "end": 3.475
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "Bookmark this. Seriously. When you have 2 hours before a release and need to find that one stubborn element that broke your test, you'll be back here.",
+      "start": 3.92,
+      "end": 12.17,
+      "words": [
+        {
+          "text": "Bookmark",
+          "start": 4.17,
+          "end": 4.595
+        },
+        {
+          "text": "this",
+          "start": 4.595,
+          "end": 4.97
+        },
+        {
+          "text": ".",
+          "start": 4.97,
+          "end": 5.058
+        },
+        {
+          "text": "Seriously",
+          "start": 5.058,
+          "end": 6.095
+        },
+        {
+          "text": ".",
+          "start": 6.095,
+          "end": 6.195
+        },
+        {
+          "text": "When",
+          "start": 6.195,
+          "end": 6.333
+        },
+        {
+          "text": "you",
+          "start": 6.333,
+          "end": 6.433
+        },
+        {
+          "text": "have",
+          "start": 6.433,
+          "end": 6.633
+        },
+        {
+          "text": "2",
+          "start": 6.633,
+          "end": 6.82
+        },
+        {
+          "text": "hours",
+          "start": 6.82,
+          "end": 7.145
+        },
+        {
+          "text": "before",
+          "start": 7.145,
+          "end": 7.458
+        },
+        {
+          "text": "a",
+          "start": 7.458,
+          "end": 7.52
+        },
+        {
+          "text": "release",
+          "start": 7.52,
+          "end": 7.945
+        },
+        {
+          "text": "and",
+          "start": 7.945,
+          "end": 8.058
+        },
+        {
+          "text": "need",
+          "start": 8.058,
+          "end": 8.207
+        },
+        {
+          "text": "to",
+          "start": 8.207,
+          "end": 8.295
+        },
+        {
+          "text": "find",
+          "start": 8.295,
+          "end": 8.558
+        },
+        {
+          "text": "that",
+          "start": 8.558,
+          "end": 8.67
+        },
+        {
+          "text": "one",
+          "start": 8.67,
+          "end": 8.895
+        },
+        {
+          "text": "stubborn",
+          "start": 8.895,
+          "end": 9.27
+        },
+        {
+          "text": "element",
+          "start": 9.27,
+          "end": 9.683
+        },
+        {
+          "text": "that",
+          "start": 9.683,
+          "end": 9.795
+        },
+        {
+          "text": "broke",
+          "start": 9.795,
+          "end": 10.045
+        },
+        {
+          "text": "your",
+          "start": 10.045,
+          "end": 10.17
+        },
+        {
+          "text": "test",
+          "start": 10.17,
+          "end": 10.62
+        },
+        {
+          "text": ",",
+          "start": 10.62,
+          "end": 10.695
+        },
+        {
+          "text": "you'll",
+          "start": 10.695,
+          "end": 10.832
+        },
+        {
+          "text": "be",
+          "start": 10.832,
+          "end": 10.945
+        },
+        {
+          "text": "back",
+          "start": 10.945,
+          "end": 11.22
+        },
+        {
+          "text": "here",
+          "start": 11.22,
+          "end": 11.97
+        },
+        {
+          "text": ".",
+          "start": 11.97,
+          "end": 12.17
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "This is the cheatsheet version of XPath for Test Automation: From \\\"I Hate This\\\" to \\\"I Write It in My Sleep\\\". No stories, no philosophy , just copy-paste patterns that work. Every expression here was born from \"why doesn't this #$ percent element select?\" moments at 11pm.",
+      "start": 12.49,
+      "end": 31.24,
+      "words": [
+        {
+          "text": "This",
+          "start": 12.74,
+          "end": 12.915
+        },
+        {
+          "text": "is",
+          "start": 12.915,
+          "end": 13.027
+        },
+        {
+          "text": "the",
+          "start": 13.027,
+          "end": 13.127
+        },
+        {
+          "text": "cheatsheet",
+          "start": 13.127,
+          "end": 13.59
+        },
+        {
+          "text": "version",
+          "start": 13.59,
+          "end": 13.928
+        },
+        {
+          "text": "of",
+          "start": 13.928,
+          "end": 14.015
+        },
+        {
+          "text": "XPath",
+          "start": 14.015,
+          "end": 14.565
+        },
+        {
+          "text": "for",
+          "start": 14.565,
+          "end": 14.69
+        },
+        {
+          "text": "Test",
+          "start": 14.69,
+          "end": 14.953
+        },
+        {
+          "text": "Automation",
+          "start": 14.953,
+          "end": 15.965
+        },
+        {
+          "text": ":",
+          "start": 15.965,
+          "end": 16.065
+        },
+        {
+          "text": "From",
+          "start": 16.065,
+          "end": 16.24
+        },
+        {
+          "text": "\\\"I",
+          "start": 16.24,
+          "end": 17.115
+        },
+        {
+          "text": "Hate",
+          "start": 17.115,
+          "end": 17.328
+        },
+        {
+          "text": "This\\",
+          "start": 17.328,
+          "end": 18.04
+        },
+        {
+          "text": "\"",
+          "start": 18.04,
+          "end": 18.09
+        },
+        {
+          "text": "to",
+          "start": 18.09,
+          "end": 18.19
+        },
+        {
+          "text": "\\\"I",
+          "start": 18.19,
+          "end": 18.94
+        },
+        {
+          "text": "Write",
+          "start": 18.94,
+          "end": 19.178
+        },
+        {
+          "text": "It",
+          "start": 19.178,
+          "end": 19.303
+        },
+        {
+          "text": "in",
+          "start": 19.303,
+          "end": 19.378
+        },
+        {
+          "text": "My",
+          "start": 19.378,
+          "end": 19.54
+        },
+        {
+          "text": "Sleep\\",
+          "start": 19.54,
+          "end": 20.59
+        },
+        {
+          "text": "\"",
+          "start": 20.59,
+          "end": 20.815
+        },
+        {
+          "text": ".",
+          "start": 20.815,
+          "end": 20.902
+        },
+        {
+          "text": "No",
+          "start": 20.902,
+          "end": 21.09
+        },
+        {
+          "text": "stories",
+          "start": 21.09,
+          "end": 21.565
+        },
+        {
+          "text": ",",
+          "start": 21.565,
+          "end": 21.615
+        },
+        {
+          "text": "no",
+          "start": 21.615,
+          "end": 21.79
+        },
+        {
+          "text": "philosophy",
+          "start": 21.79,
+          "end": 22.328
+        },
+        {
+          "text": ",",
+          "start": 22.328,
+          "end": 22.39
+        },
+        {
+          "text": "just",
+          "start": 22.39,
+          "end": 22.565
+        },
+        {
+          "text": "copy-paste",
+          "start": 22.565,
+          "end": 23.115
+        },
+        {
+          "text": "patterns",
+          "start": 23.115,
+          "end": 23.54
+        },
+        {
+          "text": "that",
+          "start": 23.54,
+          "end": 23.715
+        },
+        {
+          "text": "work",
+          "start": 23.715,
+          "end": 24.465
+        },
+        {
+          "text": ".",
+          "start": 24.465,
+          "end": 24.602
+        },
+        {
+          "text": "Every",
+          "start": 24.602,
+          "end": 24.89
+        },
+        {
+          "text": "expression",
+          "start": 24.89,
+          "end": 25.465
+        },
+        {
+          "text": "here",
+          "start": 25.465,
+          "end": 25.678
+        },
+        {
+          "text": "was",
+          "start": 25.678,
+          "end": 25.815
+        },
+        {
+          "text": "born",
+          "start": 25.815,
+          "end": 26.115
+        },
+        {
+          "text": "from",
+          "start": 26.115,
+          "end": 26.415
+        },
+        {
+          "text": "\"",
+          "start": 26.415,
+          "end": 26.49
+        },
+        {
+          "text": "why",
+          "start": 26.49,
+          "end": 26.665
+        },
+        {
+          "text": "doesn't",
+          "start": 26.665,
+          "end": 26.928
+        },
+        {
+          "text": "this",
+          "start": 26.928,
+          "end": 27.09
+        },
+        {
+          "text": "$",
+          "start": 27.09,
+          "end": 27.365
+        },
+        {
+          "text": "percent",
+          "start": 27.365,
+          "end": 27.715
+        },
+        {
+          "text": "element",
+          "start": 27.715,
+          "end": 28.115
+        },
+        {
+          "text": "select",
+          "start": 28.115,
+          "end": 28.89
+        },
+        {
+          "text": "?",
+          "start": 28.89,
+          "end": 28.965
+        },
+        {
+          "text": "\"",
+          "start": 28.965,
+          "end": 29.015
+        },
+        {
+          "text": "moments",
+          "start": 29.015,
+          "end": 29.528
+        },
+        {
+          "text": "at",
+          "start": 29.528,
+          "end": 29.665
+        },
+        {
+          "text": "11pm",
+          "start": 29.665,
+          "end": 31.04
+        },
+        {
+          "text": ".",
+          "start": 31.04,
+          "end": 31.24
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "Table of Contents",
+      "start": 31.56,
+      "end": 33.36,
+      "words": [
+        {
+          "text": "Table",
+          "start": 31.81,
+          "end": 32.172
+        },
+        {
+          "text": "of",
+          "start": 32.172,
+          "end": 32.285
+        },
+        {
+          "text": "Contents",
+          "start": 32.285,
+          "end": 33.36
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "li",
+      "text": "Locator priority pyramid",
+      "start": 33.855,
+      "end": 36.18,
+      "words": [
+        {
+          "text": "Locator",
+          "start": 34.105,
+          "end": 34.705
+        },
+        {
+          "text": "priority",
+          "start": 34.705,
+          "end": 35.33
+        },
+        {
+          "text": "pyramid",
+          "start": 35.33,
+          "end": 36.18
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "li",
+      "text": "Five syntax patterns you must memorize",
+      "start": 36.8,
+      "end": 39.775,
+      "words": [
+        {
+          "text": "Five",
+          "start": 37.05,
+          "end": 37.35
+        },
+        {
+          "text": "syntax",
+          "start": 37.35,
+          "end": 37.875
+        },
+        {
+          "text": "patterns",
+          "start": 37.875,
+          "end": 38.325
+        },
+        {
+          "text": "you",
+          "start": 38.325,
+          "end": 38.45
+        },
+        {
+          "text": "must",
+          "start": 38.45,
+          "end": 38.7
+        },
+        {
+          "text": "memorize",
+          "start": 38.7,
+          "end": 39.775
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "The 13 axes",
+      "start": 40.22,
+      "end": 42.195,
+      "words": [
+        {
+          "text": "The",
+          "start": 40.445,
+          "end": 40.583
+        },
+        {
+          "text": "13",
+          "start": 40.583,
+          "end": 41.145
+        },
+        {
+          "text": "axes",
+          "start": 41.145,
+          "end": 42.195
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "10 functions you'll actually use",
+      "start": 42.665,
+      "end": 45.015,
+      "words": [
+        {
+          "text": "10",
+          "start": 42.915,
+          "end": 43.14
+        },
+        {
+          "text": "functions",
+          "start": 43.14,
+          "end": 43.603
+        },
+        {
+          "text": "you'll",
+          "start": 43.603,
+          "end": 43.765
+        },
+        {
+          "text": "actually",
+          "start": 43.765,
+          "end": 44.165
+        },
+        {
+          "text": "use",
+          "start": 44.165,
+          "end": 45.015
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Predicate recipes",
+      "start": 45.485,
+      "end": 47.31,
+      "words": [
+        {
+          "text": "Predicate",
+          "start": 45.71,
+          "end": 46.185
+        },
+        {
+          "text": "recipes",
+          "start": 46.185,
+          "end": 47.31
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Common-target patterns",
+      "start": 47.78,
+      "end": 49.78,
+      "words": [
+        {
+          "text": "Common-target",
+          "start": 48.03,
+          "end": 48.755
+        },
+        {
+          "text": "patterns",
+          "start": 48.755,
+          "end": 49.78
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "li",
+      "text": "Multi-language code samples",
+      "start": 50.275,
+      "end": 52.7,
+      "words": [
+        {
+          "text": "Multi-language",
+          "start": 50.525,
+          "end": 51.275
+        },
+        {
+          "text": "code",
+          "start": 51.275,
+          "end": 51.637
+        },
+        {
+          "text": "samples",
+          "start": 51.637,
+          "end": 52.7
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "li",
+      "text": "Gotchas per framework",
+      "start": 53.17,
+      "end": 54.995,
+      "words": [
+        {
+          "text": "Gotchas",
+          "start": 53.42,
+          "end": 53.895
+        },
+        {
+          "text": "per",
+          "start": 53.895,
+          "end": 54.095
+        },
+        {
+          "text": "framework",
+          "start": 54.095,
+          "end": 54.995
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "li",
+      "text": "When NOT to use XPath",
+      "start": 55.59,
+      "end": 57.565,
+      "words": [
+        {
+          "text": "When",
+          "start": 55.84,
+          "end": 55.965
+        },
+        {
+          "text": "NOT",
+          "start": 55.965,
+          "end": 56.215
+        },
+        {
+          "text": "to",
+          "start": 56.215,
+          "end": 56.34
+        },
+        {
+          "text": "use",
+          "start": 56.34,
+          "end": 56.59
+        },
+        {
+          "text": "XPath",
+          "start": 56.59,
+          "end": 57.565
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "li",
+      "text": "SDET playbook , POM, waits, CI, observability",
+      "start": 58.135,
+      "end": 62.16,
+      "words": [
+        {
+          "text": "SDET",
+          "start": 58.385,
+          "end": 58.96
+        },
+        {
+          "text": "playbook",
+          "start": 58.96,
+          "end": 59.46
+        },
+        {
+          "text": ",",
+          "start": 59.46,
+          "end": 59.535
+        },
+        {
+          "text": "POM",
+          "start": 59.535,
+          "end": 59.81
+        },
+        {
+          "text": ",",
+          "start": 59.81,
+          "end": 59.86
+        },
+        {
+          "text": "waits",
+          "start": 59.86,
+          "end": 60.185
+        },
+        {
+          "text": ",",
+          "start": 60.185,
+          "end": 60.248
+        },
+        {
+          "text": "CI",
+          "start": 60.248,
+          "end": 60.685
+        },
+        {
+          "text": ",",
+          "start": 60.685,
+          "end": 60.735
+        },
+        {
+          "text": "observability",
+          "start": 60.735,
+          "end": 62.16
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "li",
+      "text": "Advanced and complex patterns , SVG, shadow DOM, modern CSS",
+      "start": 62.58,
+      "end": 67.505,
+      "words": [
+        {
+          "text": "Advanced",
+          "start": 62.83,
+          "end": 63.317
+        },
+        {
+          "text": "and",
+          "start": 63.317,
+          "end": 63.43
+        },
+        {
+          "text": "complex",
+          "start": 63.43,
+          "end": 63.905
+        },
+        {
+          "text": "patterns",
+          "start": 63.905,
+          "end": 64.555
+        },
+        {
+          "text": ",",
+          "start": 64.555,
+          "end": 64.63
+        },
+        {
+          "text": "SVG",
+          "start": 64.63,
+          "end": 65.355
+        },
+        {
+          "text": ",",
+          "start": 65.355,
+          "end": 65.43
+        },
+        {
+          "text": "shadow",
+          "start": 65.43,
+          "end": 65.755
+        },
+        {
+          "text": "DOM",
+          "start": 65.755,
+          "end": 66.03
+        },
+        {
+          "text": ",",
+          "start": 66.03,
+          "end": 66.08
+        },
+        {
+          "text": "modern",
+          "start": 66.08,
+          "end": 66.405
+        },
+        {
+          "text": "CSS",
+          "start": 66.405,
+          "end": 67.505
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "h2",
+      "text": "1. Locator priority pyramid",
+      "start": 68.025,
+      "end": 70.55,
+      "words": [
+        {
+          "text": "1.",
+          "start": 68.275,
+          "end": 68.5
+        },
+        {
+          "text": "Locator",
+          "start": 68.5,
+          "end": 69.1
+        },
+        {
+          "text": "priority",
+          "start": 69.1,
+          "end": 69.675
+        },
+        {
+          "text": "pyramid",
+          "start": 69.675,
+          "end": 70.55
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "Story: I once wrote a beautiful XPath based on CSS class selectors. Worked for 6 months. Then CSS classes changed in a refactor, and 80 tests exploded the same day. I learned: priority matters.",
+      "start": 71.095,
+      "end": 84.92,
+      "words": [
+        {
+          "text": "Story",
+          "start": 71.37,
+          "end": 71.77
+        },
+        {
+          "text": ":",
+          "start": 71.77,
+          "end": 71.82
+        },
+        {
+          "text": "I",
+          "start": 71.82,
+          "end": 71.945
+        },
+        {
+          "text": "once",
+          "start": 71.945,
+          "end": 72.195
+        },
+        {
+          "text": "wrote",
+          "start": 72.195,
+          "end": 72.383
+        },
+        {
+          "text": "a",
+          "start": 72.383,
+          "end": 72.445
+        },
+        {
+          "text": "beautiful",
+          "start": 72.445,
+          "end": 72.92
+        },
+        {
+          "text": "XPath",
+          "start": 72.92,
+          "end": 73.445
+        },
+        {
+          "text": "based",
+          "start": 73.445,
+          "end": 73.733
+        },
+        {
+          "text": "on",
+          "start": 73.733,
+          "end": 73.907
+        },
+        {
+          "text": "CSS",
+          "start": 73.907,
+          "end": 74.42
+        },
+        {
+          "text": "class",
+          "start": 74.42,
+          "end": 74.695
+        },
+        {
+          "text": "selectors",
+          "start": 74.695,
+          "end": 75.72
+        },
+        {
+          "text": ".",
+          "start": 75.72,
+          "end": 75.832
+        },
+        {
+          "text": "Worked",
+          "start": 75.832,
+          "end": 76.145
+        },
+        {
+          "text": "for",
+          "start": 76.145,
+          "end": 76.27
+        },
+        {
+          "text": "6",
+          "start": 76.27,
+          "end": 76.545
+        },
+        {
+          "text": "months",
+          "start": 76.545,
+          "end": 77.27
+        },
+        {
+          "text": ".",
+          "start": 77.27,
+          "end": 77.37
+        },
+        {
+          "text": "Then",
+          "start": 77.37,
+          "end": 77.608
+        },
+        {
+          "text": "CSS",
+          "start": 77.608,
+          "end": 78.12
+        },
+        {
+          "text": "classes",
+          "start": 78.12,
+          "end": 78.608
+        },
+        {
+          "text": "changed",
+          "start": 78.608,
+          "end": 79.007
+        },
+        {
+          "text": "in",
+          "start": 79.007,
+          "end": 79.082
+        },
+        {
+          "text": "a",
+          "start": 79.082,
+          "end": 79.145
+        },
+        {
+          "text": "refactor",
+          "start": 79.145,
+          "end": 79.795
+        },
+        {
+          "text": ",",
+          "start": 79.795,
+          "end": 79.87
+        },
+        {
+          "text": "and",
+          "start": 79.87,
+          "end": 79.995
+        },
+        {
+          "text": "80",
+          "start": 79.995,
+          "end": 80.32
+        },
+        {
+          "text": "tests",
+          "start": 80.32,
+          "end": 80.72
+        },
+        {
+          "text": "exploded",
+          "start": 80.72,
+          "end": 81.232
+        },
+        {
+          "text": "the",
+          "start": 81.232,
+          "end": 81.32
+        },
+        {
+          "text": "same",
+          "start": 81.32,
+          "end": 81.62
+        },
+        {
+          "text": "day",
+          "start": 81.62,
+          "end": 82.395
+        },
+        {
+          "text": ".",
+          "start": 82.395,
+          "end": 82.533
+        },
+        {
+          "text": "I",
+          "start": 82.533,
+          "end": 82.72
+        },
+        {
+          "text": "learned",
+          "start": 82.72,
+          "end": 83.12
+        },
+        {
+          "text": ":",
+          "start": 83.12,
+          "end": 83.195
+        },
+        {
+          "text": "priority",
+          "start": 83.195,
+          "end": 83.77
+        },
+        {
+          "text": "matters",
+          "start": 83.77,
+          "end": 84.745
+        },
+        {
+          "text": ".",
+          "start": 84.745,
+          "end": 84.92
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "Reach for the top first. Descend only when you must. This pyramid exists so your selectors survive refactors.",
+      "start": 85.24,
+      "end": 92.515,
+      "words": [
+        {
+          "text": "Reach",
+          "start": 85.515,
+          "end": 85.79
+        },
+        {
+          "text": "for",
+          "start": 85.79,
+          "end": 85.903
+        },
+        {
+          "text": "the",
+          "start": 85.903,
+          "end": 85.99
+        },
+        {
+          "text": "top",
+          "start": 85.99,
+          "end": 86.265
+        },
+        {
+          "text": "first",
+          "start": 86.265,
+          "end": 86.99
+        },
+        {
+          "text": ".",
+          "start": 86.99,
+          "end": 87.09
+        },
+        {
+          "text": "Descend",
+          "start": 87.09,
+          "end": 87.54
+        },
+        {
+          "text": "only",
+          "start": 87.54,
+          "end": 87.803
+        },
+        {
+          "text": "when",
+          "start": 87.803,
+          "end": 87.928
+        },
+        {
+          "text": "you",
+          "start": 87.928,
+          "end": 88.04
+        },
+        {
+          "text": "must",
+          "start": 88.04,
+          "end": 88.665
+        },
+        {
+          "text": ".",
+          "start": 88.665,
+          "end": 88.765
+        },
+        {
+          "text": "This",
+          "start": 88.765,
+          "end": 88.965
+        },
+        {
+          "text": "pyramid",
+          "start": 88.965,
+          "end": 89.378
+        },
+        {
+          "text": "exists",
+          "start": 89.378,
+          "end": 89.89
+        },
+        {
+          "text": "so",
+          "start": 89.89,
+          "end": 90.04
+        },
+        {
+          "text": "your",
+          "start": 90.04,
+          "end": 90.19
+        },
+        {
+          "text": "selectors",
+          "start": 90.19,
+          "end": 90.665
+        },
+        {
+          "text": "survive",
+          "start": 90.665,
+          "end": 91.115
+        },
+        {
+          "text": "refactors",
+          "start": 91.115,
+          "end": 92.315
+        },
+        {
+          "text": ".",
+          "start": 92.315,
+          "end": 92.515
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "h2",
+      "text": "2. Five syntax patterns you must memorize",
+      "start": 92.835,
+      "end": 96.01,
+      "words": [
+        {
+          "text": "2",
+          "start": 93.085,
+          "end": 93.36
+        },
+        {
+          "text": ".",
+          "start": 93.36,
+          "end": 93.423
+        },
+        {
+          "text": "Five",
+          "start": 93.423,
+          "end": 93.76
+        },
+        {
+          "text": "syntax",
+          "start": 93.76,
+          "end": 94.26
+        },
+        {
+          "text": "patterns",
+          "start": 94.26,
+          "end": 94.623
+        },
+        {
+          "text": "you",
+          "start": 94.623,
+          "end": 94.723
+        },
+        {
+          "text": "must",
+          "start": 94.723,
+          "end": 94.96
+        },
+        {
+          "text": "memorize",
+          "start": 94.96,
+          "end": 96.01
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "Everything else is composition.",
+      "start": 96.455,
+      "end": 99.03,
+      "words": [
+        {
+          "text": "Everything",
+          "start": 96.705,
+          "end": 97.18
+        },
+        {
+          "text": "else",
+          "start": 97.18,
+          "end": 97.505
+        },
+        {
+          "text": "is",
+          "start": 97.505,
+          "end": 97.655
+        },
+        {
+          "text": "composition",
+          "start": 97.655,
+          "end": 98.855
+        },
+        {
+          "text": ".",
+          "start": 98.855,
+          "end": 99.03
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h2",
+      "text": "3. The 13 axes",
+      "start": 99.35,
+      "end": 101.5,
+      "words": [
+        {
+          "text": "3.",
+          "start": 99.625,
+          "end": 99.887
+        },
+        {
+          "text": "The",
+          "start": 99.887,
+          "end": 100.0
+        },
+        {
+          "text": "13",
+          "start": 100.0,
+          "end": 100.45
+        },
+        {
+          "text": "axes",
+          "start": 100.45,
+          "end": 101.5
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "The full family. In practice you use 5; the others are there when you need them.",
+      "start": 101.97,
+      "end": 106.945,
+      "words": [
+        {
+          "text": "The",
+          "start": 102.22,
+          "end": 102.32
+        },
+        {
+          "text": "full",
+          "start": 102.32,
+          "end": 102.545
+        },
+        {
+          "text": "family",
+          "start": 102.545,
+          "end": 103.345
+        },
+        {
+          "text": ".",
+          "start": 103.345,
+          "end": 103.457
+        },
+        {
+          "text": "In",
+          "start": 103.457,
+          "end": 103.595
+        },
+        {
+          "text": "practice",
+          "start": 103.595,
+          "end": 104.07
+        },
+        {
+          "text": "you",
+          "start": 104.07,
+          "end": 104.195
+        },
+        {
+          "text": "use",
+          "start": 104.195,
+          "end": 104.42
+        },
+        {
+          "text": "5",
+          "start": 104.42,
+          "end": 104.795
+        },
+        {
+          "text": ";",
+          "start": 104.795,
+          "end": 104.832
+        },
+        {
+          "text": "the",
+          "start": 104.832,
+          "end": 104.945
+        },
+        {
+          "text": "others",
+          "start": 104.945,
+          "end": 105.245
+        },
+        {
+          "text": "are",
+          "start": 105.245,
+          "end": 105.345
+        },
+        {
+          "text": "there",
+          "start": 105.345,
+          "end": 105.533
+        },
+        {
+          "text": "when",
+          "start": 105.533,
+          "end": 105.67
+        },
+        {
+          "text": "you",
+          "start": 105.67,
+          "end": 105.795
+        },
+        {
+          "text": "need",
+          "start": 105.795,
+          "end": 106.045
+        },
+        {
+          "text": "them",
+          "start": 106.045,
+          "end": 106.77
+        },
+        {
+          "text": ".",
+          "start": 106.77,
+          "end": 106.945
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h3",
+      "text": "Visual axes map",
+      "start": 107.265,
+      "end": 109.015,
+      "words": [
+        {
+          "text": "Visual",
+          "start": 107.515,
+          "end": 107.915
+        },
+        {
+          "text": "axes",
+          "start": 107.915,
+          "end": 108.39
+        },
+        {
+          "text": "map",
+          "start": 108.39,
+          "end": 109.015
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h3",
+      "text": "Shortcut glossary",
+      "start": 109.585,
+      "end": 111.335,
+      "words": [
+        {
+          "text": "Shortcut",
+          "start": 109.86,
+          "end": 110.31
+        },
+        {
+          "text": "glossary",
+          "start": 110.31,
+          "end": 111.335
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h2",
+      "text": "4. 10 functions you'll actually use",
+      "start": 111.83,
+      "end": 114.505,
+      "words": [
+        {
+          "text": "4.",
+          "start": 112.08,
+          "end": 112.305
+        },
+        {
+          "text": "10",
+          "start": 112.305,
+          "end": 112.58
+        },
+        {
+          "text": "functions",
+          "start": 112.58,
+          "end": 113.042
+        },
+        {
+          "text": "you'll",
+          "start": 113.042,
+          "end": 113.205
+        },
+        {
+          "text": "actually",
+          "start": 113.205,
+          "end": 113.63
+        },
+        {
+          "text": "use",
+          "start": 113.63,
+          "end": 114.505
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "XPath ships with 120+ functions. You'll touch these 10 in most work:",
+      "start": 114.975,
+      "end": 120.625,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 115.225,
+          "end": 115.737
+        },
+        {
+          "text": "ships",
+          "start": 115.737,
+          "end": 116.037
+        },
+        {
+          "text": "with",
+          "start": 116.037,
+          "end": 116.175
+        },
+        {
+          "text": "120+",
+          "start": 116.175,
+          "end": 117.25
+        },
+        {
+          "text": "functions",
+          "start": 117.25,
+          "end": 118.175
+        },
+        {
+          "text": ".",
+          "start": 118.175,
+          "end": 118.275
+        },
+        {
+          "text": "You'll",
+          "start": 118.275,
+          "end": 118.45
+        },
+        {
+          "text": "touch",
+          "start": 118.45,
+          "end": 118.75
+        },
+        {
+          "text": "these",
+          "start": 118.75,
+          "end": 119.0
+        },
+        {
+          "text": "10",
+          "start": 119.0,
+          "end": 119.238
+        },
+        {
+          "text": "in",
+          "start": 119.238,
+          "end": 119.325
+        },
+        {
+          "text": "most",
+          "start": 119.325,
+          "end": 119.625
+        },
+        {
+          "text": "work",
+          "start": 119.625,
+          "end": 120.425
+        },
+        {
+          "text": ":",
+          "start": 120.425,
+          "end": 120.625
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "h3",
+      "text": "Combo expressions (copy-paste ready)",
+      "start": 120.945,
+      "end": 123.895,
+      "words": [
+        {
+          "text": "Combo",
+          "start": 121.195,
+          "end": 121.545
+        },
+        {
+          "text": "expressions",
+          "start": 121.545,
+          "end": 122.207
+        },
+        {
+          "text": "(",
+          "start": 122.207,
+          "end": 122.245
+        },
+        {
+          "text": "copy-paste",
+          "start": 122.245,
+          "end": 122.845
+        },
+        {
+          "text": "ready",
+          "start": 122.845,
+          "end": 123.695
+        },
+        {
+          "text": ")",
+          "start": 123.695,
+          "end": 123.895
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "quote",
+      "text": "War story: I debugged for 3 hours why my XPath to select case-insensitive elements wasn't working. I'd written: //a[lower-case(@href)='/help']. Looked right. Returned nothing. Silent failure , no error message, just empty results. Turns out, lower-case() is XPath 2.0, and browsers only support 1.0. I had to switch to translate() instead. Now I know: if you see 2.0 features in the docs, they're silently broken in the browser. Use only XPath 1.0 or go server-side. WebDriver, Playwright, and Cypress all evaluate 1.0 for By.xpath/xpath=. /cy.xpath().",
+      "start": 124.215,
+      "end": 161.04,
+      "words": [
+        {
+          "text": "War",
+          "start": 124.49,
+          "end": 124.64
+        },
+        {
+          "text": "story",
+          "start": 124.64,
+          "end": 125.015
+        },
+        {
+          "text": ":",
+          "start": 125.015,
+          "end": 125.053
+        },
+        {
+          "text": "I",
+          "start": 125.053,
+          "end": 125.19
+        },
+        {
+          "text": "debugged",
+          "start": 125.19,
+          "end": 125.615
+        },
+        {
+          "text": "for",
+          "start": 125.615,
+          "end": 125.752
+        },
+        {
+          "text": "3",
+          "start": 125.752,
+          "end": 125.99
+        },
+        {
+          "text": "hours",
+          "start": 125.99,
+          "end": 126.34
+        },
+        {
+          "text": "why",
+          "start": 126.34,
+          "end": 126.502
+        },
+        {
+          "text": "my",
+          "start": 126.502,
+          "end": 126.665
+        },
+        {
+          "text": "XPath",
+          "start": 126.665,
+          "end": 127.19
+        },
+        {
+          "text": "to",
+          "start": 127.19,
+          "end": 127.29
+        },
+        {
+          "text": "select",
+          "start": 127.29,
+          "end": 127.665
+        },
+        {
+          "text": "case-insensitive",
+          "start": 127.665,
+          "end": 128.54
+        },
+        {
+          "text": "elements",
+          "start": 128.54,
+          "end": 129.015
+        },
+        {
+          "text": "wasn't",
+          "start": 129.015,
+          "end": 129.315
+        },
+        {
+          "text": "working",
+          "start": 129.315,
+          "end": 130.29
+        },
+        {
+          "text": ".",
+          "start": 130.29,
+          "end": 130.39
+        },
+        {
+          "text": "I'd",
+          "start": 130.39,
+          "end": 130.59
+        },
+        {
+          "text": "written",
+          "start": 130.59,
+          "end": 130.99
+        },
+        {
+          "text": ":",
+          "start": 130.99,
+          "end": 131.065
+        },
+        {
+          "text": "//a[lower-case(@href)=/help",
+          "start": 131.065,
+          "end": 134.24
+        },
+        {
+          "text": "'",
+          "start": 134.24,
+          "end": 134.265
+        },
+        {
+          "text": "]",
+          "start": 134.265,
+          "end": 134.29
+        },
+        {
+          "text": ".",
+          "start": 134.29,
+          "end": 134.353
+        },
+        {
+          "text": "Looked",
+          "start": 134.353,
+          "end": 134.59
+        },
+        {
+          "text": "right",
+          "start": 134.59,
+          "end": 134.94
+        },
+        {
+          "text": ".",
+          "start": 134.94,
+          "end": 135.015
+        },
+        {
+          "text": "Returned",
+          "start": 135.015,
+          "end": 135.402
+        },
+        {
+          "text": "nothing",
+          "start": 135.402,
+          "end": 136.315
+        },
+        {
+          "text": ".",
+          "start": 136.315,
+          "end": 136.44
+        },
+        {
+          "text": "Silent",
+          "start": 136.44,
+          "end": 136.777
+        },
+        {
+          "text": "failure",
+          "start": 136.777,
+          "end": 137.127
+        },
+        {
+          "text": ",",
+          "start": 137.127,
+          "end": 137.178
+        },
+        {
+          "text": "no",
+          "start": 137.178,
+          "end": 137.365
+        },
+        {
+          "text": "error",
+          "start": 137.365,
+          "end": 137.603
+        },
+        {
+          "text": "message",
+          "start": 137.603,
+          "end": 138.015
+        },
+        {
+          "text": ",",
+          "start": 138.015,
+          "end": 138.078
+        },
+        {
+          "text": "just",
+          "start": 138.078,
+          "end": 138.328
+        },
+        {
+          "text": "empty",
+          "start": 138.328,
+          "end": 138.64
+        },
+        {
+          "text": "results",
+          "start": 138.64,
+          "end": 139.215
+        },
+        {
+          "text": ".",
+          "start": 139.215,
+          "end": 139.29
+        },
+        {
+          "text": "Turns",
+          "start": 139.29,
+          "end": 139.603
+        },
+        {
+          "text": "out",
+          "start": 139.603,
+          "end": 139.74
+        },
+        {
+          "text": ",",
+          "start": 139.74,
+          "end": 139.777
+        },
+        {
+          "text": "lower-case",
+          "start": 139.777,
+          "end": 140.515
+        },
+        {
+          "text": "(",
+          "start": 140.515,
+          "end": 140.54
+        },
+        {
+          "text": ")",
+          "start": 140.54,
+          "end": 140.615
+        },
+        {
+          "text": "is",
+          "start": 140.615,
+          "end": 140.74
+        },
+        {
+          "text": "XPath",
+          "start": 140.74,
+          "end": 141.265
+        },
+        {
+          "text": "2.0",
+          "start": 141.265,
+          "end": 141.465
+        },
+        {
+          "text": ",",
+          "start": 141.465,
+          "end": 141.502
+        },
+        {
+          "text": "and",
+          "start": 141.502,
+          "end": 141.64
+        },
+        {
+          "text": "browsers",
+          "start": 141.64,
+          "end": 142.065
+        },
+        {
+          "text": "only",
+          "start": 142.065,
+          "end": 142.365
+        },
+        {
+          "text": "support",
+          "start": 142.365,
+          "end": 142.777
+        },
+        {
+          "text": "1.0",
+          "start": 142.777,
+          "end": 143.49
+        },
+        {
+          "text": ".",
+          "start": 143.49,
+          "end": 143.565
+        },
+        {
+          "text": "I",
+          "start": 143.565,
+          "end": 143.69
+        },
+        {
+          "text": "had",
+          "start": 143.69,
+          "end": 143.853
+        },
+        {
+          "text": "to",
+          "start": 143.853,
+          "end": 143.99
+        },
+        {
+          "text": "switch",
+          "start": 143.99,
+          "end": 144.277
+        },
+        {
+          "text": "to",
+          "start": 144.277,
+          "end": 144.39
+        },
+        {
+          "text": "translate",
+          "start": 144.39,
+          "end": 145.09
+        },
+        {
+          "text": "(",
+          "start": 145.09,
+          "end": 145.115
+        },
+        {
+          "text": ")",
+          "start": 145.115,
+          "end": 145.19
+        },
+        {
+          "text": "instead",
+          "start": 145.19,
+          "end": 146.315
+        },
+        {
+          "text": "Now",
+          "start": 146.715,
+          "end": 146.902
+        },
+        {
+          "text": "I",
+          "start": 146.902,
+          "end": 147.04
+        },
+        {
+          "text": "know",
+          "start": 147.04,
+          "end": 147.265
+        },
+        {
+          "text": ":",
+          "start": 147.265,
+          "end": 147.315
+        },
+        {
+          "text": "if",
+          "start": 147.315,
+          "end": 147.428
+        },
+        {
+          "text": "you",
+          "start": 147.428,
+          "end": 147.54
+        },
+        {
+          "text": "see",
+          "start": 147.54,
+          "end": 147.69
+        },
+        {
+          "text": "2.0",
+          "start": 147.69,
+          "end": 147.915
+        },
+        {
+          "text": "features",
+          "start": 147.915,
+          "end": 148.277
+        },
+        {
+          "text": "in",
+          "start": 148.277,
+          "end": 148.353
+        },
+        {
+          "text": "the",
+          "start": 148.353,
+          "end": 148.44
+        },
+        {
+          "text": "docs",
+          "start": 148.44,
+          "end": 148.74
+        },
+        {
+          "text": ",",
+          "start": 148.74,
+          "end": 148.777
+        },
+        {
+          "text": "they're",
+          "start": 148.777,
+          "end": 148.902
+        },
+        {
+          "text": "silently",
+          "start": 148.902,
+          "end": 149.365
+        },
+        {
+          "text": "broken",
+          "start": 149.365,
+          "end": 149.703
+        },
+        {
+          "text": "in",
+          "start": 149.703,
+          "end": 149.777
+        },
+        {
+          "text": "the",
+          "start": 149.777,
+          "end": 149.865
+        },
+        {
+          "text": "browser",
+          "start": 149.865,
+          "end": 150.69
+        },
+        {
+          "text": ".",
+          "start": 150.69,
+          "end": 150.828
+        },
+        {
+          "text": "Use",
+          "start": 150.828,
+          "end": 151.04
+        },
+        {
+          "text": "only",
+          "start": 151.04,
+          "end": 151.34
+        },
+        {
+          "text": "XPath",
+          "start": 151.34,
+          "end": 151.89
+        },
+        {
+          "text": "1.0",
+          "start": 151.89,
+          "end": 152.115
+        },
+        {
+          "text": "or",
+          "start": 152.115,
+          "end": 152.215
+        },
+        {
+          "text": "go",
+          "start": 152.215,
+          "end": 152.39
+        },
+        {
+          "text": "server-side",
+          "start": 152.39,
+          "end": 153.44
+        },
+        {
+          "text": ".",
+          "start": 153.44,
+          "end": 153.578
+        },
+        {
+          "text": "WebDriver",
+          "start": 153.578,
+          "end": 154.165
+        },
+        {
+          "text": ",",
+          "start": 154.165,
+          "end": 154.215
+        },
+        {
+          "text": "Playwright",
+          "start": 154.215,
+          "end": 154.615
+        },
+        {
+          "text": ",",
+          "start": 154.615,
+          "end": 154.653
+        },
+        {
+          "text": "and",
+          "start": 154.653,
+          "end": 154.765
+        },
+        {
+          "text": "Cypress",
+          "start": 154.765,
+          "end": 155.215
+        },
+        {
+          "text": "all",
+          "start": 155.215,
+          "end": 155.403
+        },
+        {
+          "text": "evaluate",
+          "start": 155.403,
+          "end": 155.89
+        },
+        {
+          "text": "1.0",
+          "start": 155.89,
+          "end": 156.115
+        },
+        {
+          "text": "for",
+          "start": 156.115,
+          "end": 156.24
+        },
+        {
+          "text": "By.xpath/xpath=.",
+          "start": 156.24,
+          "end": 159.14
+        },
+        {
+          "text": "cy",
+          "start": 159.14,
+          "end": 159.64
+        },
+        {
+          "text": ".",
+          "start": 159.64,
+          "end": 159.74
+        },
+        {
+          "text": "xpath",
+          "start": 159.74,
+          "end": 160.765
+        },
+        {
+          "text": "(",
+          "start": 160.765,
+          "end": 160.965
+        },
+        {
+          "text": ")",
+          "start": 160.965,
+          "end": 161.015
+        },
+        {
+          "text": ".",
+          "start": 161.015,
+          "end": 161.04
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h2",
+      "text": "5. Predicate recipes",
+      "start": 161.36,
+      "end": 163.61,
+      "words": [
+        {
+          "text": "5",
+          "start": 161.61,
+          "end": 161.96
+        },
+        {
+          "text": ".",
+          "start": 161.96,
+          "end": 162.01
+        },
+        {
+          "text": "Predicate",
+          "start": 162.01,
+          "end": 162.46
+        },
+        {
+          "text": "recipes",
+          "start": 162.46,
+          "end": 163.61
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "h3",
+      "text": "Locate by visible text",
+      "start": 164.055,
+      "end": 166.205,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 164.33,
+          "end": 164.805
+        },
+        {
+          "text": "by",
+          "start": 164.805,
+          "end": 165.005
+        },
+        {
+          "text": "visible",
+          "start": 165.005,
+          "end": 165.405
+        },
+        {
+          "text": "text",
+          "start": 165.405,
+          "end": 166.205
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h3",
+      "text": "Locate by attribute (with and)",
+      "start": 166.75,
+      "end": 169.45,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 167.0,
+          "end": 167.45
+        },
+        {
+          "text": "by",
+          "start": 167.45,
+          "end": 167.625
+        },
+        {
+          "text": "attribute",
+          "start": 167.625,
+          "end": 168.275
+        },
+        {
+          "text": "(",
+          "start": 168.275,
+          "end": 168.325
+        },
+        {
+          "text": "with",
+          "start": 168.325,
+          "end": 168.538
+        },
+        {
+          "text": "and",
+          "start": 168.538,
+          "end": 169.25
+        },
+        {
+          "text": ")",
+          "start": 169.25,
+          "end": 169.45
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h3",
+      "text": "Locate by attribute (with or)",
+      "start": 169.77,
+      "end": 172.295,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 170.02,
+          "end": 170.47
+        },
+        {
+          "text": "by",
+          "start": 170.47,
+          "end": 170.67
+        },
+        {
+          "text": "attribute",
+          "start": 170.67,
+          "end": 171.208
+        },
+        {
+          "text": "(",
+          "start": 171.208,
+          "end": 171.245
+        },
+        {
+          "text": "with",
+          "start": 171.245,
+          "end": 171.432
+        },
+        {
+          "text": "or",
+          "start": 171.432,
+          "end": 172.12
+        },
+        {
+          "text": ")",
+          "start": 172.12,
+          "end": 172.295
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h3",
+      "text": "Locate by absence",
+      "start": 172.615,
+      "end": 174.565,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 172.865,
+          "end": 173.34
+        },
+        {
+          "text": "by",
+          "start": 173.34,
+          "end": 173.553
+        },
+        {
+          "text": "absence",
+          "start": 173.553,
+          "end": 174.565
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h3",
+      "text": "Locate by position",
+      "start": 175.11,
+      "end": 177.01,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 175.36,
+          "end": 175.835
+        },
+        {
+          "text": "by",
+          "start": 175.835,
+          "end": 176.01
+        },
+        {
+          "text": "position",
+          "start": 176.01,
+          "end": 177.01
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "h3",
+      "text": "Locate by count",
+      "start": 177.48,
+      "end": 179.13,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 177.73,
+          "end": 178.205
+        },
+        {
+          "text": "by",
+          "start": 178.205,
+          "end": 178.405
+        },
+        {
+          "text": "count",
+          "start": 178.405,
+          "end": 179.13
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "h3",
+      "text": "Locate by relationship",
+      "start": 179.725,
+      "end": 181.675,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 179.975,
+          "end": 180.45
+        },
+        {
+          "text": "by",
+          "start": 180.45,
+          "end": 180.625
+        },
+        {
+          "text": "relationship",
+          "start": 180.625,
+          "end": 181.675
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "Locate by structural pattern",
+      "start": 182.195,
+      "end": 184.62,
+      "words": [
+        {
+          "text": "Locate",
+          "start": 182.47,
+          "end": 182.945
+        },
+        {
+          "text": "by",
+          "start": 182.945,
+          "end": 183.145
+        },
+        {
+          "text": "structural",
+          "start": 183.145,
+          "end": 183.645
+        },
+        {
+          "text": "pattern",
+          "start": 183.645,
+          "end": 184.62
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h2",
+      "text": "6. Common-target patterns",
+      "start": 185.09,
+      "end": 187.44,
+      "words": [
+        {
+          "text": "6",
+          "start": 185.365,
+          "end": 185.64
+        },
+        {
+          "text": ".",
+          "start": 185.64,
+          "end": 185.69
+        },
+        {
+          "text": "Common-target",
+          "start": 185.69,
+          "end": 186.415
+        },
+        {
+          "text": "patterns",
+          "start": 186.415,
+          "end": 187.44
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h3",
+      "text": "Forms",
+      "start": 187.935,
+      "end": 188.635,
+      "words": [
+        {
+          "text": "Forms",
+          "start": 188.185,
+          "end": 188.635
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "h3",
+      "text": "Tables",
+      "start": 189.005,
+      "end": 189.805,
+      "words": [
+        {
+          "text": "Tables",
+          "start": 189.255,
+          "end": 189.805
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "h3",
+      "text": "Modals and dialogs",
+      "start": 190.2,
+      "end": 192.2,
+      "words": [
+        {
+          "text": "Modals",
+          "start": 190.475,
+          "end": 190.962
+        },
+        {
+          "text": "and",
+          "start": 190.962,
+          "end": 191.125
+        },
+        {
+          "text": "dialogs",
+          "start": 191.125,
+          "end": 192.2
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "h3",
+      "text": "Repeating rows (to-do lists, cart items)",
+      "start": 192.695,
+      "end": 196.02,
+      "words": [
+        {
+          "text": "Repeating",
+          "start": 192.945,
+          "end": 193.42
+        },
+        {
+          "text": "rows",
+          "start": 193.42,
+          "end": 193.783
+        },
+        {
+          "text": "(",
+          "start": 193.783,
+          "end": 193.82
+        },
+        {
+          "text": "to-do",
+          "start": 193.82,
+          "end": 194.07
+        },
+        {
+          "text": "lists",
+          "start": 194.07,
+          "end": 194.42
+        },
+        {
+          "text": ",",
+          "start": 194.42,
+          "end": 194.47
+        },
+        {
+          "text": "cart",
+          "start": 194.47,
+          "end": 194.795
+        },
+        {
+          "text": "items",
+          "start": 194.795,
+          "end": 195.82
+        },
+        {
+          "text": ")",
+          "start": 195.82,
+          "end": 196.02
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "quote",
+      "text": "Many \"filter by content\" patterns need XPath 2.0+ (Playwright's getByText, Cypress's .contains() are usually easier). Stick to XPath 1.0 expressions above unless you've explicitly opted in.",
+      "start": 196.34,
+      "end": 208.84,
+      "words": [
+        {
+          "text": "Many",
+          "start": 196.615,
+          "end": 196.877
+        },
+        {
+          "text": "\"",
+          "start": 196.877,
+          "end": 196.94
+        },
+        {
+          "text": "filter",
+          "start": 196.94,
+          "end": 197.215
+        },
+        {
+          "text": "by",
+          "start": 197.215,
+          "end": 197.39
+        },
+        {
+          "text": "content",
+          "start": 197.39,
+          "end": 198.14
+        },
+        {
+          "text": "\"",
+          "start": 198.14,
+          "end": 198.215
+        },
+        {
+          "text": "patterns",
+          "start": 198.215,
+          "end": 198.64
+        },
+        {
+          "text": "need",
+          "start": 198.64,
+          "end": 198.89
+        },
+        {
+          "text": "XPath",
+          "start": 198.89,
+          "end": 199.403
+        },
+        {
+          "text": "2.0+",
+          "start": 199.403,
+          "end": 199.852
+        },
+        {
+          "text": "(",
+          "start": 199.852,
+          "end": 199.89
+        },
+        {
+          "text": "Playwright's",
+          "start": 199.89,
+          "end": 200.315
+        },
+        {
+          "text": "getByText",
+          "start": 200.315,
+          "end": 201.315
+        },
+        {
+          "text": ",",
+          "start": 201.315,
+          "end": 201.427
+        },
+        {
+          "text": "Cypress's",
+          "start": 201.427,
+          "end": 201.965
+        },
+        {
+          "text": ".contains",
+          "start": 201.965,
+          "end": 202.865
+        },
+        {
+          "text": "(",
+          "start": 202.865,
+          "end": 202.94
+        },
+        {
+          "text": ")",
+          "start": 202.94,
+          "end": 202.99
+        },
+        {
+          "text": "are",
+          "start": 202.99,
+          "end": 203.09
+        },
+        {
+          "text": "usually",
+          "start": 203.09,
+          "end": 203.465
+        },
+        {
+          "text": "easier",
+          "start": 203.465,
+          "end": 204.115
+        },
+        {
+          "text": ")",
+          "start": 204.115,
+          "end": 204.315
+        },
+        {
+          "text": ".",
+          "start": 204.315,
+          "end": 204.403
+        },
+        {
+          "text": "Stick",
+          "start": 204.403,
+          "end": 204.69
+        },
+        {
+          "text": "to",
+          "start": 204.69,
+          "end": 204.815
+        },
+        {
+          "text": "XPath",
+          "start": 204.815,
+          "end": 205.365
+        },
+        {
+          "text": "1.0",
+          "start": 205.365,
+          "end": 205.528
+        },
+        {
+          "text": "expressions",
+          "start": 205.528,
+          "end": 206.115
+        },
+        {
+          "text": "above",
+          "start": 206.115,
+          "end": 206.49
+        },
+        {
+          "text": "unless",
+          "start": 206.49,
+          "end": 206.815
+        },
+        {
+          "text": "you've",
+          "start": 206.815,
+          "end": 206.965
+        },
+        {
+          "text": "explicitly",
+          "start": 206.965,
+          "end": 207.615
+        },
+        {
+          "text": "opted",
+          "start": 207.615,
+          "end": 207.953
+        },
+        {
+          "text": "in",
+          "start": 207.953,
+          "end": 208.64
+        },
+        {
+          "text": ".",
+          "start": 208.64,
+          "end": 208.84
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "h3",
+      "text": "Dynamic IDs (auto-generated)",
+      "start": 209.16,
+      "end": 212.16,
+      "words": [
+        {
+          "text": "Dynamic",
+          "start": 209.41,
+          "end": 209.885
+        },
+        {
+          "text": "IDs",
+          "start": 209.885,
+          "end": 210.46
+        },
+        {
+          "text": "(",
+          "start": 210.46,
+          "end": 210.51
+        },
+        {
+          "text": "auto-generated",
+          "start": 210.51,
+          "end": 211.96
+        },
+        {
+          "text": ")",
+          "start": 211.96,
+          "end": 212.16
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "h3",
+      "text": "Upload widgets",
+      "start": 212.48,
+      "end": 213.83,
+      "words": [
+        {
+          "text": "Upload",
+          "start": 212.73,
+          "end": 213.155
+        },
+        {
+          "text": "widgets",
+          "start": 213.155,
+          "end": 213.83
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "h3",
+      "text": "Drag-and-drop handles",
+      "start": 214.325,
+      "end": 216.3,
+      "words": [
+        {
+          "text": "Drag-and-drop",
+          "start": 214.575,
+          "end": 215.275
+        },
+        {
+          "text": "handles",
+          "start": 215.275,
+          "end": 216.3
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "h2",
+      "text": "7. Multi-language code samples",
+      "start": 216.77,
+      "end": 219.57,
+      "words": [
+        {
+          "text": "7",
+          "start": 217.045,
+          "end": 217.395
+        },
+        {
+          "text": ".",
+          "start": 217.395,
+          "end": 217.445
+        },
+        {
+          "text": "Multi-language",
+          "start": 217.445,
+          "end": 218.195
+        },
+        {
+          "text": "code",
+          "start": 218.195,
+          "end": 218.533
+        },
+        {
+          "text": "samples",
+          "start": 218.533,
+          "end": 219.57
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "p",
+      "text": "Same XPath. Five flavors of API.",
+      "start": 220.04,
+      "end": 223.315,
+      "words": [
+        {
+          "text": "Same",
+          "start": 220.315,
+          "end": 220.565
+        },
+        {
+          "text": "XPath",
+          "start": 220.565,
+          "end": 221.14
+        },
+        {
+          "text": ".",
+          "start": 221.14,
+          "end": 221.19
+        },
+        {
+          "text": "Five",
+          "start": 221.19,
+          "end": 221.515
+        },
+        {
+          "text": "flavors",
+          "start": 221.515,
+          "end": 221.927
+        },
+        {
+          "text": "of",
+          "start": 221.927,
+          "end": 222.015
+        },
+        {
+          "text": "API",
+          "start": 222.015,
+          "end": 223.115
+        },
+        {
+          "text": ".",
+          "start": 223.115,
+          "end": 223.315
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "h3",
+      "text": "Java , Selenium",
+      "start": 223.635,
+      "end": 225.335,
+      "words": [
+        {
+          "text": "Java",
+          "start": 223.885,
+          "end": 224.272
+        },
+        {
+          "text": ",",
+          "start": 224.272,
+          "end": 224.335
+        },
+        {
+          "text": "Selenium",
+          "start": 224.335,
+          "end": 225.335
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "h3",
+      "text": "Python , Selenium",
+      "start": 225.78,
+      "end": 227.505,
+      "words": [
+        {
+          "text": "Python",
+          "start": 226.005,
+          "end": 226.443
+        },
+        {
+          "text": ",",
+          "start": 226.443,
+          "end": 226.505
+        },
+        {
+          "text": "Selenium",
+          "start": 226.505,
+          "end": 227.505
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "h3",
+      "text": "TypeScript / JavaScript , Playwright",
+      "start": 227.95,
+      "end": 230.7,
+      "words": [
+        {
+          "text": "TypeScript",
+          "start": 228.2,
+          "end": 228.725
+        },
+        {
+          "text": "/",
+          "start": 228.725,
+          "end": 229.075
+        },
+        {
+          "text": "JavaScript",
+          "start": 229.075,
+          "end": 229.737
+        },
+        {
+          "text": ",",
+          "start": 229.737,
+          "end": 229.8
+        },
+        {
+          "text": "Playwright",
+          "start": 229.8,
+          "end": 230.7
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "h3",
+      "text": "Cypress",
+      "start": 231.22,
+      "end": 232.07,
+      "words": [
+        {
+          "text": "Cypress",
+          "start": 231.495,
+          "end": 232.07
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "h3",
+      "text": "C# , Selenium",
+      "start": 232.44,
+      "end": 234.315,
+      "words": [
+        {
+          "text": "C#",
+          "start": 232.715,
+          "end": 233.252
+        },
+        {
+          "text": ",",
+          "start": 233.252,
+          "end": 233.315
+        },
+        {
+          "text": "Selenium",
+          "start": 233.315,
+          "end": 234.315
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "h3",
+      "text": "Side-by-side comparison",
+      "start": 234.76,
+      "end": 236.96,
+      "words": [
+        {
+          "text": "Side-by-side",
+          "start": 235.035,
+          "end": 235.81
+        },
+        {
+          "text": "comparison",
+          "start": 235.81,
+          "end": 236.96
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "h2",
+      "text": "8. Gotchas per framework",
+      "start": 237.405,
+      "end": 239.455,
+      "words": [
+        {
+          "text": "8",
+          "start": 237.655,
+          "end": 237.905
+        },
+        {
+          "text": ".",
+          "start": 237.905,
+          "end": 237.955
+        },
+        {
+          "text": "Gotchas",
+          "start": 237.955,
+          "end": 238.355
+        },
+        {
+          "text": "per",
+          "start": 238.355,
+          "end": 238.53
+        },
+        {
+          "text": "framework",
+          "start": 238.53,
+          "end": 239.455
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "h3",
+      "text": "Selenium (Java / Python / C#)",
+      "start": 240.05,
+      "end": 243.525,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 240.325,
+          "end": 240.887
+        },
+        {
+          "text": "(",
+          "start": 240.887,
+          "end": 240.95
+        },
+        {
+          "text": "Java",
+          "start": 240.95,
+          "end": 241.25
+        },
+        {
+          "text": "/",
+          "start": 241.25,
+          "end": 241.6
+        },
+        {
+          "text": "Python",
+          "start": 241.6,
+          "end": 241.975
+        },
+        {
+          "text": "/",
+          "start": 241.975,
+          "end": 242.3
+        },
+        {
+          "text": "C#",
+          "start": 242.3,
+          "end": 243.325
+        },
+        {
+          "text": ")",
+          "start": 243.325,
+          "end": 243.525
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "li",
+      "text": "NoSuchElementException ≠ \"element missing forever.\" Could be iframe context wrong. Wrap with driver.switchTo().frame(...) or .defaultContent().",
+      "start": 243.845,
+      "end": 253.82,
+      "words": [
+        {
+          "text": "NoSuchElementException",
+          "start": 244.12,
+          "end": 245.37
+        },
+        {
+          "text": "≠",
+          "start": 245.37,
+          "end": 246.07
+        },
+        {
+          "text": "\"",
+          "start": 246.07,
+          "end": 246.145
+        },
+        {
+          "text": "element",
+          "start": 246.145,
+          "end": 246.52
+        },
+        {
+          "text": "missing",
+          "start": 246.52,
+          "end": 246.845
+        },
+        {
+          "text": "forever",
+          "start": 246.845,
+          "end": 247.57
+        },
+        {
+          "text": ".",
+          "start": 247.57,
+          "end": 247.645
+        },
+        {
+          "text": "\"",
+          "start": 247.645,
+          "end": 247.695
+        },
+        {
+          "text": "Could",
+          "start": 247.695,
+          "end": 247.832
+        },
+        {
+          "text": "be",
+          "start": 247.832,
+          "end": 247.933
+        },
+        {
+          "text": "iframe",
+          "start": 247.933,
+          "end": 248.27
+        },
+        {
+          "text": "context",
+          "start": 248.27,
+          "end": 248.795
+        },
+        {
+          "text": "wrong",
+          "start": 248.795,
+          "end": 249.32
+        },
+        {
+          "text": ".",
+          "start": 249.32,
+          "end": 249.433
+        },
+        {
+          "text": "Wrap",
+          "start": 249.433,
+          "end": 249.683
+        },
+        {
+          "text": "with",
+          "start": 249.683,
+          "end": 249.82
+        },
+        {
+          "text": "driver.switchTo().frame",
+          "start": 249.82,
+          "end": 251.745
+        },
+        {
+          "text": "(",
+          "start": 251.745,
+          "end": 251.795
+        },
+        {
+          "text": ".",
+          "start": 251.795,
+          "end": 251.82
+        },
+        {
+          "text": ".",
+          "start": 251.82,
+          "end": 251.845
+        },
+        {
+          "text": ".",
+          "start": 251.845,
+          "end": 251.87
+        },
+        {
+          "text": ")",
+          "start": 251.87,
+          "end": 251.933
+        },
+        {
+          "text": "or",
+          "start": 251.933,
+          "end": 252.17
+        },
+        {
+          "text": ".",
+          "start": 252.17,
+          "end": 252.22
+        },
+        {
+          "text": "defaultContent",
+          "start": 252.22,
+          "end": 253.62
+        },
+        {
+          "text": "(",
+          "start": 253.62,
+          "end": 253.77
+        },
+        {
+          "text": ")",
+          "start": 253.77,
+          "end": 253.795
+        },
+        {
+          "text": ".",
+          "start": 253.795,
+          "end": 253.82
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "li",
+      "text": "findElement vs findElements. Singular throws on empty; plural returns list. Use plural when 0/1/many is acceptable.",
+      "start": 254.14,
+      "end": 263.14,
+      "words": [
+        {
+          "text": "findElement",
+          "start": 254.415,
+          "end": 255.09
+        },
+        {
+          "text": "vs",
+          "start": 255.09,
+          "end": 255.515
+        },
+        {
+          "text": "findElements",
+          "start": 255.515,
+          "end": 256.64
+        },
+        {
+          "text": ".",
+          "start": 256.64,
+          "end": 256.765
+        },
+        {
+          "text": "Singular",
+          "start": 256.765,
+          "end": 257.252
+        },
+        {
+          "text": "throws",
+          "start": 257.252,
+          "end": 257.603
+        },
+        {
+          "text": "on",
+          "start": 257.603,
+          "end": 257.74
+        },
+        {
+          "text": "empty",
+          "start": 257.74,
+          "end": 258.29
+        },
+        {
+          "text": ";",
+          "start": 258.29,
+          "end": 258.39
+        },
+        {
+          "text": "plural",
+          "start": 258.39,
+          "end": 258.74
+        },
+        {
+          "text": "returns",
+          "start": 258.74,
+          "end": 259.215
+        },
+        {
+          "text": "list",
+          "start": 259.215,
+          "end": 259.89
+        },
+        {
+          "text": ".",
+          "start": 259.89,
+          "end": 260.002
+        },
+        {
+          "text": "Use",
+          "start": 260.002,
+          "end": 260.24
+        },
+        {
+          "text": "plural",
+          "start": 260.24,
+          "end": 260.627
+        },
+        {
+          "text": "when",
+          "start": 260.627,
+          "end": 260.815
+        },
+        {
+          "text": "0/1/many",
+          "start": 260.815,
+          "end": 261.69
+        },
+        {
+          "text": "is",
+          "start": 261.69,
+          "end": 261.815
+        },
+        {
+          "text": "acceptable",
+          "start": 261.815,
+          "end": 262.94
+        },
+        {
+          "text": ".",
+          "start": 262.94,
+          "end": 263.14
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "li",
+      "text": "Implicit waits stack across tests. Always reset in @BeforeEach or your setup hook.",
+      "start": 263.46,
+      "end": 269.26,
+      "words": [
+        {
+          "text": "Implicit",
+          "start": 263.71,
+          "end": 264.185
+        },
+        {
+          "text": "waits",
+          "start": 264.185,
+          "end": 264.485
+        },
+        {
+          "text": "stack",
+          "start": 264.485,
+          "end": 264.747
+        },
+        {
+          "text": "across",
+          "start": 264.747,
+          "end": 265.06
+        },
+        {
+          "text": "tests",
+          "start": 265.06,
+          "end": 265.86
+        },
+        {
+          "text": ".",
+          "start": 265.86,
+          "end": 265.96
+        },
+        {
+          "text": "Always",
+          "start": 265.96,
+          "end": 266.36
+        },
+        {
+          "text": "reset",
+          "start": 266.36,
+          "end": 266.81
+        },
+        {
+          "text": "in",
+          "start": 266.81,
+          "end": 266.922
+        },
+        {
+          "text": "@BeforeEach",
+          "start": 266.922,
+          "end": 267.66
+        },
+        {
+          "text": "or",
+          "start": 267.66,
+          "end": 267.785
+        },
+        {
+          "text": "your",
+          "start": 267.785,
+          "end": 267.935
+        },
+        {
+          "text": "setup",
+          "start": 267.935,
+          "end": 268.31
+        },
+        {
+          "text": "hook",
+          "start": 268.31,
+          "end": 269.06
+        },
+        {
+          "text": ".",
+          "start": 269.06,
+          "end": 269.26
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "li",
+      "text": "Stale element refs happen after DOM mutation. Re-find; don't cache element references across page transitions.",
+      "start": 269.58,
+      "end": 277.38,
+      "words": [
+        {
+          "text": "Stale",
+          "start": 269.855,
+          "end": 270.18
+        },
+        {
+          "text": "element",
+          "start": 270.18,
+          "end": 270.555
+        },
+        {
+          "text": "refs",
+          "start": 270.555,
+          "end": 270.83
+        },
+        {
+          "text": "happen",
+          "start": 270.83,
+          "end": 271.18
+        },
+        {
+          "text": "after",
+          "start": 271.18,
+          "end": 271.48
+        },
+        {
+          "text": "DOM",
+          "start": 271.48,
+          "end": 271.717
+        },
+        {
+          "text": "mutation",
+          "start": 271.717,
+          "end": 272.78
+        },
+        {
+          "text": ".",
+          "start": 272.78,
+          "end": 272.917
+        },
+        {
+          "text": "Re-find",
+          "start": 272.917,
+          "end": 273.705
+        },
+        {
+          "text": ";",
+          "start": 273.705,
+          "end": 273.805
+        },
+        {
+          "text": "don't",
+          "start": 273.805,
+          "end": 274.08
+        },
+        {
+          "text": "cache",
+          "start": 274.08,
+          "end": 274.38
+        },
+        {
+          "text": "element",
+          "start": 274.38,
+          "end": 274.755
+        },
+        {
+          "text": "references",
+          "start": 274.755,
+          "end": 275.33
+        },
+        {
+          "text": "across",
+          "start": 275.33,
+          "end": 275.655
+        },
+        {
+          "text": "page",
+          "start": 275.655,
+          "end": 275.98
+        },
+        {
+          "text": "transitions",
+          "start": 275.98,
+          "end": 277.18
+        },
+        {
+          "text": ".",
+          "start": 277.18,
+          "end": 277.38
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "li",
+      "text": "XPath 1.0 only. for $i in . , regex, lower-case with Unicode normalization , all 2.0+ and silently fail.",
+      "start": 277.7,
+      "end": 285.275,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 277.95,
+          "end": 278.45
+        },
+        {
+          "text": "1.0",
+          "start": 278.45,
+          "end": 278.65
+        },
+        {
+          "text": "only",
+          "start": 278.65,
+          "end": 279.425
+        },
+        {
+          "text": ".",
+          "start": 279.425,
+          "end": 279.525
+        },
+        {
+          "text": "for",
+          "start": 279.525,
+          "end": 279.65
+        },
+        {
+          "text": "i",
+          "start": 279.65,
+          "end": 279.825
+        },
+        {
+          "text": "in",
+          "start": 279.825,
+          "end": 280.187
+        },
+        {
+          "text": ".",
+          "start": 280.187,
+          "end": 280.3
+        },
+        {
+          "text": ",",
+          "start": 280.3,
+          "end": 280.375
+        },
+        {
+          "text": "regex",
+          "start": 280.375,
+          "end": 280.825
+        },
+        {
+          "text": ",",
+          "start": 280.825,
+          "end": 280.875
+        },
+        {
+          "text": "lower-case",
+          "start": 280.875,
+          "end": 281.412
+        },
+        {
+          "text": "with",
+          "start": 281.412,
+          "end": 281.55
+        },
+        {
+          "text": "Unicode",
+          "start": 281.55,
+          "end": 282.025
+        },
+        {
+          "text": "normalization",
+          "start": 282.025,
+          "end": 282.812
+        },
+        {
+          "text": ",",
+          "start": 282.812,
+          "end": 282.862
+        },
+        {
+          "text": "all",
+          "start": 282.862,
+          "end": 283.05
+        },
+        {
+          "text": "2.0+",
+          "start": 283.05,
+          "end": 283.6
+        },
+        {
+          "text": "and",
+          "start": 283.6,
+          "end": 283.737
+        },
+        {
+          "text": "silently",
+          "start": 283.737,
+          "end": 284.237
+        },
+        {
+          "text": "fail",
+          "start": 284.237,
+          "end": 285.1
+        },
+        {
+          "text": ".",
+          "start": 285.1,
+          "end": 285.275
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "h3",
+      "text": "Playwright",
+      "start": 285.595,
+      "end": 286.37,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 285.82,
+          "end": 286.37
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "li",
+      "text": "Strict mode is on by default , locator() returning >1 match throws. Use .first() / .nth(i) deliberately.",
+      "start": 286.715,
+      "end": 293.565,
+      "words": [
+        {
+          "text": "Strict",
+          "start": 286.99,
+          "end": 287.315
+        },
+        {
+          "text": "mode",
+          "start": 287.315,
+          "end": 287.578
+        },
+        {
+          "text": "is",
+          "start": 287.578,
+          "end": 287.678
+        },
+        {
+          "text": "on",
+          "start": 287.678,
+          "end": 287.84
+        },
+        {
+          "text": "by",
+          "start": 287.84,
+          "end": 288.015
+        },
+        {
+          "text": "default",
+          "start": 288.015,
+          "end": 288.403
+        },
+        {
+          "text": ",",
+          "start": 288.403,
+          "end": 288.453
+        },
+        {
+          "text": "locator",
+          "start": 288.453,
+          "end": 289.14
+        },
+        {
+          "text": "(",
+          "start": 289.14,
+          "end": 289.215
+        },
+        {
+          "text": ")",
+          "start": 289.215,
+          "end": 289.265
+        },
+        {
+          "text": "returning",
+          "start": 289.265,
+          "end": 289.715
+        },
+        {
+          "text": ">1",
+          "start": 289.715,
+          "end": 289.94
+        },
+        {
+          "text": "match",
+          "start": 289.94,
+          "end": 290.24
+        },
+        {
+          "text": "throws",
+          "start": 290.24,
+          "end": 290.665
+        },
+        {
+          "text": ".",
+          "start": 290.665,
+          "end": 290.715
+        },
+        {
+          "text": "Use",
+          "start": 290.715,
+          "end": 290.94
+        },
+        {
+          "text": ".first",
+          "start": 290.94,
+          "end": 291.59
+        },
+        {
+          "text": "(",
+          "start": 291.59,
+          "end": 291.665
+        },
+        {
+          "text": ")",
+          "start": 291.665,
+          "end": 291.703
+        },
+        {
+          "text": ".",
+          "start": 291.727,
+          "end": 291.79
+        },
+        {
+          "text": "nth",
+          "start": 291.79,
+          "end": 292.14
+        },
+        {
+          "text": "i",
+          "start": 292.14,
+          "end": 292.24
+        },
+        {
+          "text": ")",
+          "start": 292.24,
+          "end": 292.315
+        },
+        {
+          "text": "deliberately",
+          "start": 292.315,
+          "end": 293.565
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "kind": "li",
+      "text": "Locators are lazy. They re-resolve on every action. That's a feature, not a bug. Don't call .elementHandle() unless you need the snapshot.",
+      "start": 293.91,
+      "end": 302.46,
+      "words": [
+        {
+          "text": "Locators",
+          "start": 294.185,
+          "end": 294.76
+        },
+        {
+          "text": "are",
+          "start": 294.76,
+          "end": 294.86
+        },
+        {
+          "text": "lazy",
+          "start": 294.86,
+          "end": 295.435
+        },
+        {
+          "text": ".",
+          "start": 295.435,
+          "end": 295.51
+        },
+        {
+          "text": "They",
+          "start": 295.51,
+          "end": 295.685
+        },
+        {
+          "text": "re-resolve",
+          "start": 295.685,
+          "end": 296.198
+        },
+        {
+          "text": "on",
+          "start": 296.198,
+          "end": 296.335
+        },
+        {
+          "text": "every",
+          "start": 296.335,
+          "end": 296.66
+        },
+        {
+          "text": "action",
+          "start": 296.66,
+          "end": 297.485
+        },
+        {
+          "text": ".",
+          "start": 297.485,
+          "end": 297.585
+        },
+        {
+          "text": "That's",
+          "start": 297.585,
+          "end": 297.823
+        },
+        {
+          "text": "a",
+          "start": 297.823,
+          "end": 297.923
+        },
+        {
+          "text": "feature",
+          "start": 297.923,
+          "end": 298.26
+        },
+        {
+          "text": ",",
+          "start": 298.26,
+          "end": 298.298
+        },
+        {
+          "text": "not",
+          "start": 298.298,
+          "end": 298.473
+        },
+        {
+          "text": "a",
+          "start": 298.473,
+          "end": 298.535
+        },
+        {
+          "text": "bug",
+          "start": 298.535,
+          "end": 298.81
+        },
+        {
+          "text": ".",
+          "start": 298.81,
+          "end": 298.86
+        },
+        {
+          "text": "Don't",
+          "start": 298.86,
+          "end": 299.11
+        },
+        {
+          "text": "call",
+          "start": 299.11,
+          "end": 299.385
+        },
+        {
+          "text": ".",
+          "start": 299.385,
+          "end": 299.435
+        },
+        {
+          "text": "elementHandle",
+          "start": 299.435,
+          "end": 300.385
+        },
+        {
+          "text": "(",
+          "start": 300.385,
+          "end": 300.435
+        },
+        {
+          "text": ")",
+          "start": 300.435,
+          "end": 300.485
+        },
+        {
+          "text": "unless",
+          "start": 300.485,
+          "end": 300.81
+        },
+        {
+          "text": "you",
+          "start": 300.81,
+          "end": 300.935
+        },
+        {
+          "text": "need",
+          "start": 300.935,
+          "end": 301.122
+        },
+        {
+          "text": "the",
+          "start": 301.122,
+          "end": 301.21
+        },
+        {
+          "text": "snapshot",
+          "start": 301.21,
+          "end": 302.26
+        },
+        {
+          "text": ".",
+          "start": 302.26,
+          "end": 302.46
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "kind": "li",
+      "text": "Auto-retries are unlimited by default within expect(). Use expect(locator).toBeVisible() rather than .waitFor() + .isVisible().",
+      "start": 302.78,
+      "end": 311.155,
+      "words": [
+        {
+          "text": "Auto-retries",
+          "start": 303.055,
+          "end": 303.855
+        },
+        {
+          "text": "are",
+          "start": 303.855,
+          "end": 303.992
+        },
+        {
+          "text": "unlimited",
+          "start": 303.992,
+          "end": 304.53
+        },
+        {
+          "text": "by",
+          "start": 304.53,
+          "end": 304.705
+        },
+        {
+          "text": "default",
+          "start": 304.705,
+          "end": 305.168
+        },
+        {
+          "text": "within",
+          "start": 305.168,
+          "end": 305.38
+        },
+        {
+          "text": "expect",
+          "start": 305.38,
+          "end": 306.23
+        },
+        {
+          "text": "(",
+          "start": 306.23,
+          "end": 306.28
+        },
+        {
+          "text": ")",
+          "start": 306.28,
+          "end": 306.305
+        },
+        {
+          "text": ".",
+          "start": 306.305,
+          "end": 306.355
+        },
+        {
+          "text": "Use",
+          "start": 306.355,
+          "end": 306.58
+        },
+        {
+          "text": "expect(locator).toBeVisible",
+          "start": 306.58,
+          "end": 308.53
+        },
+        {
+          "text": "(",
+          "start": 308.53,
+          "end": 308.58
+        },
+        {
+          "text": ")",
+          "start": 308.58,
+          "end": 308.63
+        },
+        {
+          "text": "rather",
+          "start": 308.63,
+          "end": 308.98
+        },
+        {
+          "text": "than",
+          "start": 308.98,
+          "end": 309.155
+        },
+        {
+          "text": ".",
+          "start": 309.155,
+          "end": 309.23
+        },
+        {
+          "text": "waitFor",
+          "start": 309.23,
+          "end": 309.83
+        },
+        {
+          "text": "(",
+          "start": 309.83,
+          "end": 309.88
+        },
+        {
+          "text": ")",
+          "start": 309.88,
+          "end": 309.93
+        },
+        {
+          "text": ".isVisible",
+          "start": 309.98,
+          "end": 311.105
+        },
+        {
+          "text": "(",
+          "start": 311.105,
+          "end": 311.13
+        },
+        {
+          "text": ")",
+          "start": 311.13,
+          "end": 311.155
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "kind": "li",
+      "text": "XPath auto-pierces shadow DOM via >>> chains. Pure XPath alone does not , use page.locator('css=host-element >>> inner-shadow-html').",
+      "start": 311.525,
+      "end": 321.625,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 311.8,
+          "end": 312.238
+        },
+        {
+          "text": "auto-pierces",
+          "start": 312.238,
+          "end": 312.963
+        },
+        {
+          "text": "shadow",
+          "start": 312.963,
+          "end": 313.3
+        },
+        {
+          "text": "DOM",
+          "start": 313.3,
+          "end": 313.525
+        },
+        {
+          "text": "via",
+          "start": 313.525,
+          "end": 313.763
+        },
+        {
+          "text": "chains",
+          "start": 313.8,
+          "end": 314.7
+        },
+        {
+          "text": ".",
+          "start": 314.7,
+          "end": 314.775
+        },
+        {
+          "text": "Pure",
+          "start": 314.775,
+          "end": 315.05
+        },
+        {
+          "text": "XPath",
+          "start": 315.05,
+          "end": 315.525
+        },
+        {
+          "text": "alone",
+          "start": 315.525,
+          "end": 315.838
+        },
+        {
+          "text": "does",
+          "start": 315.838,
+          "end": 316.038
+        },
+        {
+          "text": "not",
+          "start": 316.038,
+          "end": 316.288
+        },
+        {
+          "text": ",",
+          "start": 316.288,
+          "end": 316.363
+        },
+        {
+          "text": "use",
+          "start": 316.363,
+          "end": 316.6
+        },
+        {
+          "text": "page.locator(css=host-element",
+          "start": 316.6,
+          "end": 319.775
+        },
+        {
+          "text": "inner-shadow-html",
+          "start": 319.812,
+          "end": 321.6
+        },
+        {
+          "text": "'",
+          "start": 321.6,
+          "end": 321.625
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "kind": "li",
+      "text": "Prefer semantic over xpath when the role is unambiguous: getByRole('button', { name: 'Pay' }) beats //button[normalize-space()='Pay'].",
+      "start": 322.02,
+      "end": 331.795,
+      "words": [
+        {
+          "text": "Prefer",
+          "start": 322.245,
+          "end": 322.57
+        },
+        {
+          "text": "semantic",
+          "start": 322.57,
+          "end": 323.095
+        },
+        {
+          "text": "over",
+          "start": 323.095,
+          "end": 323.345
+        },
+        {
+          "text": "xpath",
+          "start": 323.345,
+          "end": 323.833
+        },
+        {
+          "text": "when",
+          "start": 323.833,
+          "end": 323.958
+        },
+        {
+          "text": "the",
+          "start": 323.958,
+          "end": 324.045
+        },
+        {
+          "text": "role",
+          "start": 324.045,
+          "end": 324.333
+        },
+        {
+          "text": "is",
+          "start": 324.333,
+          "end": 324.445
+        },
+        {
+          "text": "unambiguous",
+          "start": 324.445,
+          "end": 325.62
+        },
+        {
+          "text": ":",
+          "start": 325.62,
+          "end": 325.72
+        },
+        {
+          "text": "getByRole(button",
+          "start": 325.72,
+          "end": 326.72
+        },
+        {
+          "text": "'",
+          "start": 326.72,
+          "end": 326.745
+        },
+        {
+          "text": ",",
+          "start": 326.745,
+          "end": 326.783
+        },
+        {
+          "text": "{",
+          "start": 326.783,
+          "end": 326.845
+        },
+        {
+          "text": "name",
+          "start": 326.845,
+          "end": 327.32
+        },
+        {
+          "text": ":",
+          "start": 327.32,
+          "end": 327.395
+        },
+        {
+          "text": "'",
+          "start": 327.395,
+          "end": 327.47
+        },
+        {
+          "text": "Pay",
+          "start": 327.47,
+          "end": 327.72
+        },
+        {
+          "text": "'",
+          "start": 327.72,
+          "end": 327.758
+        },
+        {
+          "text": "}",
+          "start": 327.758,
+          "end": 327.795
+        },
+        {
+          "text": ")",
+          "start": 327.795,
+          "end": 327.833
+        },
+        {
+          "text": "beats",
+          "start": 327.833,
+          "end": 328.095
+        },
+        {
+          "text": "//button[normalize",
+          "start": 328.095,
+          "end": 329.57
+        },
+        {
+          "text": "-",
+          "start": 329.57,
+          "end": 329.645
+        },
+        {
+          "text": "space()=Pay",
+          "start": 329.645,
+          "end": 331.745
+        },
+        {
+          "text": "'",
+          "start": 331.745,
+          "end": 331.77
+        },
+        {
+          "text": "]",
+          "start": 331.77,
+          "end": 331.795
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "kind": "h3",
+      "text": "Cypress",
+      "start": 332.115,
+      "end": 332.965,
+      "words": [
+        {
+          "text": "Cypress",
+          "start": 332.39,
+          "end": 332.965
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "kind": "li",
+      "text": "XPath needs the plugin (cypress-xpath). Out of the box, Cypress is CSS-first.",
+      "start": 333.335,
+      "end": 339.16,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 333.585,
+          "end": 334.11
+        },
+        {
+          "text": "needs",
+          "start": 334.11,
+          "end": 334.397
+        },
+        {
+          "text": "the",
+          "start": 334.397,
+          "end": 334.485
+        },
+        {
+          "text": "plugin",
+          "start": 334.485,
+          "end": 334.91
+        },
+        {
+          "text": "(",
+          "start": 334.91,
+          "end": 334.985
+        },
+        {
+          "text": "cypress-xpath",
+          "start": 334.985,
+          "end": 336.06
+        },
+        {
+          "text": ")",
+          "start": 336.06,
+          "end": 336.185
+        },
+        {
+          "text": ".",
+          "start": 336.185,
+          "end": 336.26
+        },
+        {
+          "text": "Out",
+          "start": 336.26,
+          "end": 336.422
+        },
+        {
+          "text": "of",
+          "start": 336.422,
+          "end": 336.498
+        },
+        {
+          "text": "the",
+          "start": 336.498,
+          "end": 336.585
+        },
+        {
+          "text": "box",
+          "start": 336.585,
+          "end": 336.96
+        },
+        {
+          "text": ",",
+          "start": 336.96,
+          "end": 337.023
+        },
+        {
+          "text": "Cypress",
+          "start": 337.023,
+          "end": 337.485
+        },
+        {
+          "text": "is",
+          "start": 337.485,
+          "end": 337.622
+        },
+        {
+          "text": "CSS-first",
+          "start": 337.622,
+          "end": 338.96
+        },
+        {
+          "text": ".",
+          "start": 338.96,
+          "end": 339.16
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "kind": "li",
+      "text": ".contains() is the Cypress-native way to do \"contains text\" , easier than XPath substring for visible-text filters.",
+      "start": 339.48,
+      "end": 347.055,
+      "words": [
+        {
+          "text": ".contains",
+          "start": 339.73,
+          "end": 340.43
+        },
+        {
+          "text": "(",
+          "start": 340.43,
+          "end": 340.455
+        },
+        {
+          "text": ")",
+          "start": 340.455,
+          "end": 340.505
+        },
+        {
+          "text": "is",
+          "start": 340.505,
+          "end": 340.617
+        },
+        {
+          "text": "the",
+          "start": 340.617,
+          "end": 340.705
+        },
+        {
+          "text": "Cypress-native",
+          "start": 340.705,
+          "end": 341.405
+        },
+        {
+          "text": "way",
+          "start": 341.405,
+          "end": 341.605
+        },
+        {
+          "text": "to",
+          "start": 341.605,
+          "end": 341.73
+        },
+        {
+          "text": "do",
+          "start": 341.73,
+          "end": 341.942
+        },
+        {
+          "text": "\"",
+          "start": 341.942,
+          "end": 341.98
+        },
+        {
+          "text": "contains",
+          "start": 341.98,
+          "end": 342.48
+        },
+        {
+          "text": "text",
+          "start": 342.48,
+          "end": 343.205
+        },
+        {
+          "text": "\"",
+          "start": 343.205,
+          "end": 343.355
+        },
+        {
+          "text": ",",
+          "start": 343.355,
+          "end": 343.43
+        },
+        {
+          "text": "easier",
+          "start": 343.43,
+          "end": 343.83
+        },
+        {
+          "text": "than",
+          "start": 343.83,
+          "end": 343.98
+        },
+        {
+          "text": "XPath",
+          "start": 343.98,
+          "end": 344.53
+        },
+        {
+          "text": "substring",
+          "start": 344.53,
+          "end": 345.03
+        },
+        {
+          "text": "for",
+          "start": 345.03,
+          "end": 345.155
+        },
+        {
+          "text": "visible-text",
+          "start": 345.155,
+          "end": 345.855
+        },
+        {
+          "text": "filters",
+          "start": 345.855,
+          "end": 346.88
+        },
+        {
+          "text": ".",
+          "start": 346.88,
+          "end": 347.055
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "kind": "li",
+      "text": "Auto-retry is built in. cy.get(locator).should('be.visible') polls for you.",
+      "start": 347.375,
+      "end": 352.925,
+      "words": [
+        {
+          "text": "Auto-retry",
+          "start": 347.625,
+          "end": 348.275
+        },
+        {
+          "text": "is",
+          "start": 348.275,
+          "end": 348.425
+        },
+        {
+          "text": "built",
+          "start": 348.425,
+          "end": 348.725
+        },
+        {
+          "text": "in",
+          "start": 348.725,
+          "end": 349.225
+        },
+        {
+          "text": ".",
+          "start": 349.225,
+          "end": 349.362
+        },
+        {
+          "text": "cy.get(locator).should(be.visible",
+          "start": 349.362,
+          "end": 351.525
+        },
+        {
+          "text": "'",
+          "start": 351.525,
+          "end": 351.55
+        },
+        {
+          "text": ")",
+          "start": 351.55,
+          "end": 351.6
+        },
+        {
+          "text": "polls",
+          "start": 351.6,
+          "end": 351.95
+        },
+        {
+          "text": "for",
+          "start": 351.95,
+          "end": 352.075
+        },
+        {
+          "text": "you",
+          "start": 352.075,
+          "end": 352.75
+        },
+        {
+          "text": ".",
+          "start": 352.75,
+          "end": 352.925
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "kind": "li",
+      "text": "Element isolation: tests run inside one giant iframe; explicit shadow-DOM traversal rarely needed but XPath-on-shadow still won't pierce.",
+      "start": 353.245,
+      "end": 362.87,
+      "words": [
+        {
+          "text": "Element",
+          "start": 353.52,
+          "end": 353.957
+        },
+        {
+          "text": "isolation",
+          "start": 353.957,
+          "end": 354.995
+        },
+        {
+          "text": ":",
+          "start": 354.995,
+          "end": 355.108
+        },
+        {
+          "text": "tests",
+          "start": 355.108,
+          "end": 355.52
+        },
+        {
+          "text": "run",
+          "start": 355.52,
+          "end": 355.733
+        },
+        {
+          "text": "inside",
+          "start": 355.733,
+          "end": 356.195
+        },
+        {
+          "text": "one",
+          "start": 356.195,
+          "end": 356.42
+        },
+        {
+          "text": "giant",
+          "start": 356.42,
+          "end": 356.77
+        },
+        {
+          "text": "iframe",
+          "start": 356.77,
+          "end": 357.57
+        },
+        {
+          "text": ";",
+          "start": 357.57,
+          "end": 357.683
+        },
+        {
+          "text": "explicit",
+          "start": 357.683,
+          "end": 358.257
+        },
+        {
+          "text": "shadow-DOM",
+          "start": 358.257,
+          "end": 358.795
+        },
+        {
+          "text": "traversal",
+          "start": 358.795,
+          "end": 359.345
+        },
+        {
+          "text": "rarely",
+          "start": 359.345,
+          "end": 359.695
+        },
+        {
+          "text": "needed",
+          "start": 359.695,
+          "end": 360.095
+        },
+        {
+          "text": "but",
+          "start": 360.095,
+          "end": 360.245
+        },
+        {
+          "text": "XPath-on-shadow",
+          "start": 360.245,
+          "end": 361.27
+        },
+        {
+          "text": "still",
+          "start": 361.27,
+          "end": 361.545
+        },
+        {
+          "text": "won't",
+          "start": 361.545,
+          "end": 361.77
+        },
+        {
+          "text": "pierce",
+          "start": 361.77,
+          "end": 362.695
+        },
+        {
+          "text": ".",
+          "start": 362.695,
+          "end": 362.87
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "kind": "li",
+      "text": "cy.xpath() returns a wrapper, not a DOM element. Chain .click() / .type() directly.",
+      "start": 363.19,
+      "end": 368.415,
+      "words": [
+        {
+          "text": "cy.xpath",
+          "start": 363.49,
+          "end": 364.215
+        },
+        {
+          "text": "(",
+          "start": 364.215,
+          "end": 364.24
+        },
+        {
+          "text": ")",
+          "start": 364.24,
+          "end": 364.277
+        },
+        {
+          "text": "returns",
+          "start": 364.277,
+          "end": 364.652
+        },
+        {
+          "text": "a",
+          "start": 364.652,
+          "end": 364.715
+        },
+        {
+          "text": "wrapper",
+          "start": 364.715,
+          "end": 365.015
+        },
+        {
+          "text": ",",
+          "start": 365.015,
+          "end": 365.053
+        },
+        {
+          "text": "not",
+          "start": 365.053,
+          "end": 365.203
+        },
+        {
+          "text": "a",
+          "start": 365.203,
+          "end": 365.265
+        },
+        {
+          "text": "DOM",
+          "start": 365.265,
+          "end": 365.49
+        },
+        {
+          "text": "element",
+          "start": 365.49,
+          "end": 366.015
+        },
+        {
+          "text": ".",
+          "start": 366.015,
+          "end": 366.103
+        },
+        {
+          "text": "Chain",
+          "start": 366.103,
+          "end": 366.39
+        },
+        {
+          "text": ".click",
+          "start": 366.39,
+          "end": 366.69
+        },
+        {
+          "text": "(",
+          "start": 366.69,
+          "end": 366.715
+        },
+        {
+          "text": ")",
+          "start": 366.715,
+          "end": 366.752
+        },
+        {
+          "text": ".type",
+          "start": 366.79,
+          "end": 367.14
+        },
+        {
+          "text": "(",
+          "start": 367.14,
+          "end": 367.165
+        },
+        {
+          "text": ")",
+          "start": 367.165,
+          "end": 367.24
+        },
+        {
+          "text": "directly",
+          "start": 367.24,
+          "end": 368.415
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "kind": "h3",
+      "text": "Cross-framework",
+      "start": 368.785,
+      "end": 369.96,
+      "words": [
+        {
+          "text": "Cross-framework",
+          "start": 369.035,
+          "end": 369.96
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "kind": "h2",
+      "text": "9. When NOT to use XPath",
+      "start": 370.58,
+      "end": 372.805,
+      "words": [
+        {
+          "text": "9",
+          "start": 370.855,
+          "end": 371.155
+        },
+        {
+          "text": ".",
+          "start": 371.155,
+          "end": 371.205
+        },
+        {
+          "text": "When",
+          "start": 371.205,
+          "end": 371.355
+        },
+        {
+          "text": "NOT",
+          "start": 371.355,
+          "end": 371.555
+        },
+        {
+          "text": "to",
+          "start": 371.555,
+          "end": 371.655
+        },
+        {
+          "text": "use",
+          "start": 371.655,
+          "end": 371.88
+        },
+        {
+          "text": "XPath",
+          "start": 371.88,
+          "end": 372.805
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "kind": "p",
+      "text": "Some signals that you should reach for a different tool:",
+      "start": 373.375,
+      "end": 376.625,
+      "words": [
+        {
+          "text": "Some",
+          "start": 373.65,
+          "end": 373.887
+        },
+        {
+          "text": "signals",
+          "start": 373.887,
+          "end": 374.425
+        },
+        {
+          "text": "that",
+          "start": 374.425,
+          "end": 374.55
+        },
+        {
+          "text": "you",
+          "start": 374.55,
+          "end": 374.675
+        },
+        {
+          "text": "should",
+          "start": 374.675,
+          "end": 374.875
+        },
+        {
+          "text": "reach",
+          "start": 374.875,
+          "end": 375.125
+        },
+        {
+          "text": "for",
+          "start": 375.125,
+          "end": 375.238
+        },
+        {
+          "text": "a",
+          "start": 375.238,
+          "end": 375.3
+        },
+        {
+          "text": "different",
+          "start": 375.3,
+          "end": 375.6
+        },
+        {
+          "text": "tool",
+          "start": 375.6,
+          "end": 376.45
+        },
+        {
+          "text": ":",
+          "start": 376.45,
+          "end": 376.625
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "kind": "li",
+      "text": "You're matching visible text only. Use Playwright's getByText('Sign in') or Cypress's cy.contains('Sign in') , both auto-retry.",
+      "start": 376.945,
+      "end": 385.545,
+      "words": [
+        {
+          "text": "You're",
+          "start": 377.22,
+          "end": 377.37
+        },
+        {
+          "text": "matching",
+          "start": 377.37,
+          "end": 377.72
+        },
+        {
+          "text": "visible",
+          "start": 377.72,
+          "end": 378.12
+        },
+        {
+          "text": "text",
+          "start": 378.12,
+          "end": 378.47
+        },
+        {
+          "text": "only",
+          "start": 378.47,
+          "end": 379.22
+        },
+        {
+          "text": ".",
+          "start": 379.22,
+          "end": 379.345
+        },
+        {
+          "text": "Use",
+          "start": 379.345,
+          "end": 379.57
+        },
+        {
+          "text": "Playwright's",
+          "start": 379.57,
+          "end": 380.02
+        },
+        {
+          "text": "getByText(Sign",
+          "start": 380.02,
+          "end": 381.195
+        },
+        {
+          "text": "in",
+          "start": 381.195,
+          "end": 381.32
+        },
+        {
+          "text": "'",
+          "start": 381.32,
+          "end": 381.345
+        },
+        {
+          "text": ")",
+          "start": 381.345,
+          "end": 381.395
+        },
+        {
+          "text": "or",
+          "start": 381.395,
+          "end": 381.545
+        },
+        {
+          "text": "Cypress's",
+          "start": 381.545,
+          "end": 382.033
+        },
+        {
+          "text": "cy.contains(Sign",
+          "start": 382.033,
+          "end": 383.533
+        },
+        {
+          "text": "in",
+          "start": 383.533,
+          "end": 383.72
+        },
+        {
+          "text": "'",
+          "start": 383.72,
+          "end": 383.745
+        },
+        {
+          "text": ")",
+          "start": 383.745,
+          "end": 383.783
+        },
+        {
+          "text": ",",
+          "start": 383.783,
+          "end": 383.833
+        },
+        {
+          "text": "both",
+          "start": 383.833,
+          "end": 384.095
+        },
+        {
+          "text": "auto-retry",
+          "start": 384.095,
+          "end": 385.345
+        },
+        {
+          "text": ".",
+          "start": 385.345,
+          "end": 385.545
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "kind": "li",
+      "text": "You need a screenshot/visual assertion. XPath finds nodes, not pixels. Reach for image-diff tools (Playwright's expect(page).toHaveScreenshot()).",
+      "start": 385.865,
+      "end": 395.265,
+      "words": [
+        {
+          "text": "You",
+          "start": 386.115,
+          "end": 386.228
+        },
+        {
+          "text": "need",
+          "start": 386.228,
+          "end": 386.377
+        },
+        {
+          "text": "a",
+          "start": 386.377,
+          "end": 386.44
+        },
+        {
+          "text": "screenshot/visual",
+          "start": 386.44,
+          "end": 387.377
+        },
+        {
+          "text": "assertion",
+          "start": 387.377,
+          "end": 388.365
+        },
+        {
+          "text": ".",
+          "start": 388.365,
+          "end": 388.503
+        },
+        {
+          "text": "XPath",
+          "start": 388.503,
+          "end": 389.015
+        },
+        {
+          "text": "finds",
+          "start": 389.015,
+          "end": 389.34
+        },
+        {
+          "text": "nodes",
+          "start": 389.34,
+          "end": 389.69
+        },
+        {
+          "text": ",",
+          "start": 389.69,
+          "end": 389.727
+        },
+        {
+          "text": "not",
+          "start": 389.727,
+          "end": 389.915
+        },
+        {
+          "text": "pixels",
+          "start": 389.915,
+          "end": 390.74
+        },
+        {
+          "text": ".",
+          "start": 390.74,
+          "end": 390.852
+        },
+        {
+          "text": "Reach",
+          "start": 390.852,
+          "end": 391.115
+        },
+        {
+          "text": "for",
+          "start": 391.115,
+          "end": 391.24
+        },
+        {
+          "text": "image-diff",
+          "start": 391.24,
+          "end": 391.69
+        },
+        {
+          "text": "tools",
+          "start": 391.69,
+          "end": 392.102
+        },
+        {
+          "text": "(",
+          "start": 392.102,
+          "end": 392.14
+        },
+        {
+          "text": "Playwright's",
+          "start": 392.14,
+          "end": 392.565
+        },
+        {
+          "text": "expect(page).toHaveScreenshot",
+          "start": 392.565,
+          "end": 395.015
+        },
+        {
+          "text": "(",
+          "start": 395.015,
+          "end": 395.19
+        },
+        {
+          "text": ")",
+          "start": 395.19,
+          "end": 395.215
+        },
+        {
+          "text": ")",
+          "start": 395.215,
+          "end": 395.24
+        },
+        {
+          "text": ".",
+          "start": 395.24,
+          "end": 395.265
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "kind": "li",
+      "text": "You're chaining into shadow DOM. Use Playwright's >>> selector syntax , it's purpose-built.",
+      "start": 395.585,
+      "end": 400.76,
+      "words": [
+        {
+          "text": "You're",
+          "start": 395.835,
+          "end": 395.998
+        },
+        {
+          "text": "chaining",
+          "start": 395.998,
+          "end": 396.347
+        },
+        {
+          "text": "into",
+          "start": 396.347,
+          "end": 396.573
+        },
+        {
+          "text": "shadow",
+          "start": 396.573,
+          "end": 396.91
+        },
+        {
+          "text": "DOM",
+          "start": 396.91,
+          "end": 397.51
+        },
+        {
+          "text": ".",
+          "start": 397.51,
+          "end": 397.61
+        },
+        {
+          "text": "Use",
+          "start": 397.61,
+          "end": 397.835
+        },
+        {
+          "text": "Playwright's",
+          "start": 397.835,
+          "end": 398.273
+        },
+        {
+          "text": "selector",
+          "start": 398.31,
+          "end": 398.722
+        },
+        {
+          "text": "syntax",
+          "start": 398.722,
+          "end": 399.222
+        },
+        {
+          "text": ",",
+          "start": 399.222,
+          "end": 399.273
+        },
+        {
+          "text": "it's",
+          "start": 399.273,
+          "end": 399.435
+        },
+        {
+          "text": "purpose-built",
+          "start": 399.435,
+          "end": 400.76
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "kind": "li",
+      "text": "You need cross-origin iframe traversal. XPath stops at iframe boundaries regardless of tool. Switch contexts, or use CDP/BiDi for snapshot diff.",
+      "start": 401.13,
+      "end": 411.58,
+      "words": [
+        {
+          "text": "You",
+          "start": 401.38,
+          "end": 401.492
+        },
+        {
+          "text": "need",
+          "start": 401.492,
+          "end": 401.655
+        },
+        {
+          "text": "cross-origin",
+          "start": 401.655,
+          "end": 402.355
+        },
+        {
+          "text": "iframe",
+          "start": 402.355,
+          "end": 402.78
+        },
+        {
+          "text": "traversal",
+          "start": 402.78,
+          "end": 403.805
+        },
+        {
+          "text": ".",
+          "start": 403.805,
+          "end": 403.942
+        },
+        {
+          "text": "XPath",
+          "start": 403.942,
+          "end": 404.505
+        },
+        {
+          "text": "stops",
+          "start": 404.505,
+          "end": 404.793
+        },
+        {
+          "text": "at",
+          "start": 404.793,
+          "end": 404.88
+        },
+        {
+          "text": "iframe",
+          "start": 404.88,
+          "end": 405.205
+        },
+        {
+          "text": "boundaries",
+          "start": 405.205,
+          "end": 405.705
+        },
+        {
+          "text": "regardless",
+          "start": 405.705,
+          "end": 406.292
+        },
+        {
+          "text": "of",
+          "start": 406.292,
+          "end": 406.392
+        },
+        {
+          "text": "tool",
+          "start": 406.392,
+          "end": 407.105
+        },
+        {
+          "text": ".",
+          "start": 407.105,
+          "end": 407.218
+        },
+        {
+          "text": "Switch",
+          "start": 407.218,
+          "end": 407.48
+        },
+        {
+          "text": "contexts",
+          "start": 407.48,
+          "end": 408.18
+        },
+        {
+          "text": ",",
+          "start": 408.18,
+          "end": 408.255
+        },
+        {
+          "text": "or",
+          "start": 408.255,
+          "end": 408.38
+        },
+        {
+          "text": "use",
+          "start": 408.38,
+          "end": 408.567
+        },
+        {
+          "text": "CDP/BiDi",
+          "start": 408.567,
+          "end": 410.005
+        },
+        {
+          "text": "for",
+          "start": 410.005,
+          "end": 410.13
+        },
+        {
+          "text": "snapshot",
+          "start": 410.13,
+          "end": 410.605
+        },
+        {
+          "text": "diff",
+          "start": 410.605,
+          "end": 411.38
+        },
+        {
+          "text": ".",
+          "start": 411.38,
+          "end": 411.58
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "kind": "li",
+      "text": "You're navigating the accessibility tree. That's ARIA's job , use semantic locators instead.",
+      "start": 411.9,
+      "end": 418.05,
+      "words": [
+        {
+          "text": "You're",
+          "start": 412.175,
+          "end": 412.325
+        },
+        {
+          "text": "navigating",
+          "start": 412.325,
+          "end": 412.938
+        },
+        {
+          "text": "the",
+          "start": 412.938,
+          "end": 413.075
+        },
+        {
+          "text": "accessibility",
+          "start": 413.075,
+          "end": 413.8
+        },
+        {
+          "text": "tree",
+          "start": 413.8,
+          "end": 414.475
+        },
+        {
+          "text": ".",
+          "start": 414.475,
+          "end": 414.575
+        },
+        {
+          "text": "That's",
+          "start": 414.575,
+          "end": 414.85
+        },
+        {
+          "text": "ARIA's",
+          "start": 414.85,
+          "end": 415.237
+        },
+        {
+          "text": "job",
+          "start": 415.237,
+          "end": 415.625
+        },
+        {
+          "text": ",",
+          "start": 415.625,
+          "end": 415.7
+        },
+        {
+          "text": "use",
+          "start": 415.7,
+          "end": 415.875
+        },
+        {
+          "text": "semantic",
+          "start": 415.875,
+          "end": 416.312
+        },
+        {
+          "text": "locators",
+          "start": 416.312,
+          "end": 416.875
+        },
+        {
+          "text": "instead",
+          "start": 416.875,
+          "end": 417.85
+        },
+        {
+          "text": ".",
+          "start": 417.85,
+          "end": 418.05
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "kind": "li",
+      "text": "The locator depends on element coordinates. XPath can't. Use Relative Locator (Selenium 4: above/below/near) or locator.boundingBox() (Playwright).",
+      "start": 418.37,
+      "end": 428.42,
+      "words": [
+        {
+          "text": "The",
+          "start": 418.62,
+          "end": 418.695
+        },
+        {
+          "text": "locator",
+          "start": 418.695,
+          "end": 419.22
+        },
+        {
+          "text": "depends",
+          "start": 419.22,
+          "end": 419.582
+        },
+        {
+          "text": "on",
+          "start": 419.582,
+          "end": 419.72
+        },
+        {
+          "text": "element",
+          "start": 419.72,
+          "end": 420.12
+        },
+        {
+          "text": "coordinates",
+          "start": 420.12,
+          "end": 421.195
+        },
+        {
+          "text": ".",
+          "start": 421.195,
+          "end": 421.307
+        },
+        {
+          "text": "XPath",
+          "start": 421.307,
+          "end": 421.82
+        },
+        {
+          "text": "can't",
+          "start": 421.82,
+          "end": 422.47
+        },
+        {
+          "text": ".",
+          "start": 422.47,
+          "end": 422.583
+        },
+        {
+          "text": "Use",
+          "start": 422.583,
+          "end": 422.845
+        },
+        {
+          "text": "Relative",
+          "start": 422.845,
+          "end": 423.245
+        },
+        {
+          "text": "Locator",
+          "start": 423.245,
+          "end": 423.82
+        },
+        {
+          "text": "(",
+          "start": 423.82,
+          "end": 423.895
+        },
+        {
+          "text": "Selenium",
+          "start": 423.895,
+          "end": 424.382
+        },
+        {
+          "text": "4",
+          "start": 424.382,
+          "end": 424.745
+        },
+        {
+          "text": ":",
+          "start": 424.745,
+          "end": 424.82
+        },
+        {
+          "text": "above/below/near",
+          "start": 424.82,
+          "end": 425.645
+        },
+        {
+          "text": ")",
+          "start": 425.645,
+          "end": 425.695
+        },
+        {
+          "text": "or",
+          "start": 425.695,
+          "end": 425.82
+        },
+        {
+          "text": "locator.boundingBox",
+          "start": 425.82,
+          "end": 427.12
+        },
+        {
+          "text": "(",
+          "start": 427.12,
+          "end": 427.17
+        },
+        {
+          "text": ")",
+          "start": 427.17,
+          "end": 427.208
+        },
+        {
+          "text": "(",
+          "start": 427.208,
+          "end": 427.27
+        },
+        {
+          "text": "Playwright",
+          "start": 427.27,
+          "end": 428.095
+        },
+        {
+          "text": ")",
+          "start": 428.095,
+          "end": 428.345
+        },
+        {
+          "text": ".",
+          "start": 428.345,
+          "end": 428.42
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "kind": "p",
+      "text": "This section is for SDETs shipping production test suites in Selenium, Playwright, or Cypress. The XPaths above are correct; this section makes them survive.",
+      "start": 428.74,
+      "end": 438.715,
+      "words": [
+        {
+          "text": "This",
+          "start": 428.99,
+          "end": 429.14
+        },
+        {
+          "text": "section",
+          "start": 429.14,
+          "end": 429.565
+        },
+        {
+          "text": "is",
+          "start": 429.565,
+          "end": 429.69
+        },
+        {
+          "text": "for",
+          "start": 429.69,
+          "end": 429.815
+        },
+        {
+          "text": "SDETs",
+          "start": 429.815,
+          "end": 430.54
+        },
+        {
+          "text": "shipping",
+          "start": 430.54,
+          "end": 430.815
+        },
+        {
+          "text": "production",
+          "start": 430.815,
+          "end": 431.315
+        },
+        {
+          "text": "test",
+          "start": 431.315,
+          "end": 431.653
+        },
+        {
+          "text": "suites",
+          "start": 431.653,
+          "end": 432.015
+        },
+        {
+          "text": "in",
+          "start": 432.015,
+          "end": 432.165
+        },
+        {
+          "text": "Selenium",
+          "start": 432.165,
+          "end": 432.74
+        },
+        {
+          "text": ",",
+          "start": 432.74,
+          "end": 432.79
+        },
+        {
+          "text": "Playwright",
+          "start": 432.79,
+          "end": 433.24
+        },
+        {
+          "text": ",",
+          "start": 433.24,
+          "end": 433.315
+        },
+        {
+          "text": "or",
+          "start": 433.315,
+          "end": 433.44
+        },
+        {
+          "text": "Cypress",
+          "start": 433.44,
+          "end": 434.565
+        },
+        {
+          "text": ".",
+          "start": 434.565,
+          "end": 434.665
+        },
+        {
+          "text": "The",
+          "start": 434.665,
+          "end": 434.815
+        },
+        {
+          "text": "XPaths",
+          "start": 434.815,
+          "end": 435.377
+        },
+        {
+          "text": "above",
+          "start": 435.377,
+          "end": 435.627
+        },
+        {
+          "text": "are",
+          "start": 435.627,
+          "end": 435.715
+        },
+        {
+          "text": "correct",
+          "start": 435.715,
+          "end": 436.44
+        },
+        {
+          "text": ";",
+          "start": 436.44,
+          "end": 436.54
+        },
+        {
+          "text": "this",
+          "start": 436.54,
+          "end": 436.715
+        },
+        {
+          "text": "section",
+          "start": 436.715,
+          "end": 437.115
+        },
+        {
+          "text": "makes",
+          "start": 437.115,
+          "end": 437.353
+        },
+        {
+          "text": "them",
+          "start": 437.353,
+          "end": 437.515
+        },
+        {
+          "text": "survive",
+          "start": 437.515,
+          "end": 438.515
+        },
+        {
+          "text": ".",
+          "start": 438.515,
+          "end": 438.715
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "kind": "h3",
+      "text": "10.1 Where XPath lives in your POM",
+      "start": 439.035,
+      "end": 442.01,
+      "words": [
+        {
+          "text": "10.1",
+          "start": 439.285,
+          "end": 440.11
+        },
+        {
+          "text": "Where",
+          "start": 440.11,
+          "end": 440.285
+        },
+        {
+          "text": "XPath",
+          "start": 440.285,
+          "end": 440.785
+        },
+        {
+          "text": "lives",
+          "start": 440.785,
+          "end": 441.022
+        },
+        {
+          "text": "in",
+          "start": 441.022,
+          "end": 441.097
+        },
+        {
+          "text": "your",
+          "start": 441.097,
+          "end": 441.235
+        },
+        {
+          "text": "POM",
+          "start": 441.235,
+          "end": 442.01
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "kind": "p",
+      "text": "The locator is a property, not a method. Locators as By/Locator constants on the page object , never inline strings in test specs.",
+      "start": 442.505,
+      "end": 451.18,
+      "words": [
+        {
+          "text": "The",
+          "start": 442.755,
+          "end": 442.83
+        },
+        {
+          "text": "locator",
+          "start": 442.83,
+          "end": 443.355
+        },
+        {
+          "text": "is",
+          "start": 443.355,
+          "end": 443.468
+        },
+        {
+          "text": "a",
+          "start": 443.468,
+          "end": 443.53
+        },
+        {
+          "text": "property",
+          "start": 443.53,
+          "end": 444.205
+        },
+        {
+          "text": ",",
+          "start": 444.205,
+          "end": 444.305
+        },
+        {
+          "text": "not",
+          "start": 444.305,
+          "end": 444.493
+        },
+        {
+          "text": "a",
+          "start": 444.493,
+          "end": 444.555
+        },
+        {
+          "text": "method",
+          "start": 444.555,
+          "end": 445.38
+        },
+        {
+          "text": ".",
+          "start": 445.38,
+          "end": 445.518
+        },
+        {
+          "text": "Locators",
+          "start": 445.518,
+          "end": 446.193
+        },
+        {
+          "text": "as",
+          "start": 446.193,
+          "end": 446.355
+        },
+        {
+          "text": "By/Locator",
+          "start": 446.355,
+          "end": 447.005
+        },
+        {
+          "text": "constants",
+          "start": 447.005,
+          "end": 447.542
+        },
+        {
+          "text": "on",
+          "start": 447.542,
+          "end": 447.643
+        },
+        {
+          "text": "the",
+          "start": 447.643,
+          "end": 447.73
+        },
+        {
+          "text": "page",
+          "start": 447.73,
+          "end": 448.03
+        },
+        {
+          "text": "object",
+          "start": 448.03,
+          "end": 448.58
+        },
+        {
+          "text": ",",
+          "start": 448.58,
+          "end": 448.655
+        },
+        {
+          "text": "never",
+          "start": 448.655,
+          "end": 448.93
+        },
+        {
+          "text": "inline",
+          "start": 448.93,
+          "end": 449.255
+        },
+        {
+          "text": "strings",
+          "start": 449.255,
+          "end": 449.667
+        },
+        {
+          "text": "in",
+          "start": 449.667,
+          "end": 449.805
+        },
+        {
+          "text": "test",
+          "start": 449.805,
+          "end": 450.08
+        },
+        {
+          "text": "specs",
+          "start": 450.08,
+          "end": 451.005
+        },
+        {
+          "text": ".",
+          "start": 451.005,
+          "end": 451.18
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "kind": "h3",
+      "text": "10.2 Wait strategies per framework",
+      "start": 451.5,
+      "end": 454.45,
+      "words": [
+        {
+          "text": "10.2",
+          "start": 451.75,
+          "end": 452.525
+        },
+        {
+          "text": "Wait",
+          "start": 452.525,
+          "end": 452.775
+        },
+        {
+          "text": "strategies",
+          "start": 452.775,
+          "end": 453.375
+        },
+        {
+          "text": "per",
+          "start": 453.375,
+          "end": 453.525
+        },
+        {
+          "text": "framework",
+          "start": 453.525,
+          "end": 454.45
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "kind": "p",
+      "text": "A correct XPath still times out if the framework's wait contract is wrong.",
+      "start": 454.97,
+      "end": 459.72,
+      "words": [
+        {
+          "text": "A",
+          "start": 455.22,
+          "end": 455.295
+        },
+        {
+          "text": "correct",
+          "start": 455.295,
+          "end": 455.695
+        },
+        {
+          "text": "XPath",
+          "start": 455.695,
+          "end": 456.245
+        },
+        {
+          "text": "still",
+          "start": 456.245,
+          "end": 456.52
+        },
+        {
+          "text": "times",
+          "start": 456.52,
+          "end": 456.845
+        },
+        {
+          "text": "out",
+          "start": 456.845,
+          "end": 457.095
+        },
+        {
+          "text": "if",
+          "start": 457.095,
+          "end": 457.208
+        },
+        {
+          "text": "the",
+          "start": 457.208,
+          "end": 457.295
+        },
+        {
+          "text": "framework's",
+          "start": 457.295,
+          "end": 457.795
+        },
+        {
+          "text": "wait",
+          "start": 457.795,
+          "end": 458.045
+        },
+        {
+          "text": "contract",
+          "start": 458.045,
+          "end": 458.57
+        },
+        {
+          "text": "is",
+          "start": 458.57,
+          "end": 458.72
+        },
+        {
+          "text": "wrong",
+          "start": 458.72,
+          "end": 459.545
+        },
+        {
+          "text": ".",
+          "start": 459.545,
+          "end": 459.72
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "kind": "h3",
+      "text": "10.3 Headless / CI failure modes",
+      "start": 460.04,
+      "end": 463.465,
+      "words": [
+        {
+          "text": "10.3",
+          "start": 460.29,
+          "end": 461.04
+        },
+        {
+          "text": "Headless",
+          "start": 461.04,
+          "end": 461.39
+        },
+        {
+          "text": "/",
+          "start": 461.39,
+          "end": 461.778
+        },
+        {
+          "text": "CI",
+          "start": 461.778,
+          "end": 462.19
+        },
+        {
+          "text": "failure",
+          "start": 462.19,
+          "end": 462.54
+        },
+        {
+          "text": "modes",
+          "start": 462.54,
+          "end": 463.465
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "kind": "p",
+      "text": "Three patterns that always bite in CI but pass on a laptop:",
+      "start": 463.935,
+      "end": 468.085,
+      "words": [
+        {
+          "text": "Three",
+          "start": 464.21,
+          "end": 464.41
+        },
+        {
+          "text": "patterns",
+          "start": 464.41,
+          "end": 464.935
+        },
+        {
+          "text": "that",
+          "start": 464.935,
+          "end": 465.06
+        },
+        {
+          "text": "always",
+          "start": 465.06,
+          "end": 465.385
+        },
+        {
+          "text": "bite",
+          "start": 465.385,
+          "end": 465.685
+        },
+        {
+          "text": "in",
+          "start": 465.685,
+          "end": 465.848
+        },
+        {
+          "text": "CI",
+          "start": 465.848,
+          "end": 466.31
+        },
+        {
+          "text": "but",
+          "start": 466.31,
+          "end": 466.46
+        },
+        {
+          "text": "pass",
+          "start": 466.46,
+          "end": 466.772
+        },
+        {
+          "text": "on",
+          "start": 466.772,
+          "end": 466.873
+        },
+        {
+          "text": "a",
+          "start": 466.873,
+          "end": 466.935
+        },
+        {
+          "text": "laptop",
+          "start": 466.935,
+          "end": 467.885
+        },
+        {
+          "text": ":",
+          "start": 467.885,
+          "end": 468.085
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "kind": "h3",
+      "text": "10.4 Observability hooks , capture on failure",
+      "start": 468.405,
+      "end": 472.155,
+      "words": [
+        {
+          "text": "10.4",
+          "start": 468.655,
+          "end": 469.38
+        },
+        {
+          "text": "Observability",
+          "start": 469.38,
+          "end": 470.155
+        },
+        {
+          "text": "hooks",
+          "start": 470.155,
+          "end": 470.605
+        },
+        {
+          "text": ",",
+          "start": 470.605,
+          "end": 470.68
+        },
+        {
+          "text": "capture",
+          "start": 470.68,
+          "end": 471.068
+        },
+        {
+          "text": "on",
+          "start": 471.068,
+          "end": 471.205
+        },
+        {
+          "text": "failure",
+          "start": 471.205,
+          "end": 472.155
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "kind": "p",
+      "text": "When a CI test fails, three artifacts tell you why. Wire them in from day one.",
+      "start": 472.675,
+      "end": 478.025,
+      "words": [
+        {
+          "text": "When",
+          "start": 472.925,
+          "end": 473.038
+        },
+        {
+          "text": "a",
+          "start": 473.038,
+          "end": 473.138
+        },
+        {
+          "text": "CI",
+          "start": 473.138,
+          "end": 473.525
+        },
+        {
+          "text": "test",
+          "start": 473.525,
+          "end": 473.825
+        },
+        {
+          "text": "fails",
+          "start": 473.825,
+          "end": 474.225
+        },
+        {
+          "text": ",",
+          "start": 474.225,
+          "end": 474.312
+        },
+        {
+          "text": "three",
+          "start": 474.312,
+          "end": 474.575
+        },
+        {
+          "text": "artifacts",
+          "start": 474.575,
+          "end": 475.075
+        },
+        {
+          "text": "tell",
+          "start": 475.075,
+          "end": 475.3
+        },
+        {
+          "text": "you",
+          "start": 475.3,
+          "end": 475.425
+        },
+        {
+          "text": "why",
+          "start": 475.425,
+          "end": 476.025
+        },
+        {
+          "text": ".",
+          "start": 476.025,
+          "end": 476.162
+        },
+        {
+          "text": "Wire",
+          "start": 476.162,
+          "end": 476.412
+        },
+        {
+          "text": "them",
+          "start": 476.412,
+          "end": 476.537
+        },
+        {
+          "text": "in",
+          "start": 476.537,
+          "end": 476.7
+        },
+        {
+          "text": "from",
+          "start": 476.7,
+          "end": 476.875
+        },
+        {
+          "text": "day",
+          "start": 476.875,
+          "end": 477.1
+        },
+        {
+          "text": "one",
+          "start": 477.1,
+          "end": 477.85
+        },
+        {
+          "text": ".",
+          "start": 477.85,
+          "end": 478.025
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "kind": "quote",
+      "text": "Why not Commands.overwrite('xpath', . )? Re-throwing inside a .then(null, errFn) swallows the rejection inside Cypress's chainer and the override never actually surfaces in the reporter. The Cypress.on('fail') global hook is the reliable place to rewrite the failing message.",
+      "start": 478.345,
+      "end": 494.695,
+      "words": [
+        {
+          "text": "Why",
+          "start": 478.595,
+          "end": 478.708
+        },
+        {
+          "text": "not",
+          "start": 478.708,
+          "end": 478.895
+        },
+        {
+          "text": "Commands.overwrite(xpath",
+          "start": 478.895,
+          "end": 480.695
+        },
+        {
+          "text": "'",
+          "start": 480.695,
+          "end": 480.77
+        },
+        {
+          "text": ",",
+          "start": 480.77,
+          "end": 480.808
+        },
+        {
+          "text": ".",
+          "start": 480.808,
+          "end": 480.858
+        },
+        {
+          "text": ")",
+          "start": 480.858,
+          "end": 480.895
+        },
+        {
+          "text": "?",
+          "start": 480.895,
+          "end": 480.945
+        },
+        {
+          "text": "Re-throwing",
+          "start": 480.945,
+          "end": 481.458
+        },
+        {
+          "text": "inside",
+          "start": 481.458,
+          "end": 481.833
+        },
+        {
+          "text": "a",
+          "start": 481.833,
+          "end": 481.883
+        },
+        {
+          "text": ".then(null",
+          "start": 481.883,
+          "end": 482.57
+        },
+        {
+          "text": ",",
+          "start": 482.57,
+          "end": 482.62
+        },
+        {
+          "text": "errFn",
+          "start": 482.62,
+          "end": 483.37
+        },
+        {
+          "text": ")",
+          "start": 483.37,
+          "end": 483.458
+        },
+        {
+          "text": "swallows",
+          "start": 483.458,
+          "end": 483.883
+        },
+        {
+          "text": "the",
+          "start": 483.883,
+          "end": 483.958
+        },
+        {
+          "text": "rejection",
+          "start": 483.958,
+          "end": 484.433
+        },
+        {
+          "text": "inside",
+          "start": 484.433,
+          "end": 484.92
+        },
+        {
+          "text": "Cypress's",
+          "start": 484.92,
+          "end": 485.408
+        },
+        {
+          "text": "chainer",
+          "start": 485.408,
+          "end": 485.983
+        },
+        {
+          "text": "and",
+          "start": 485.983,
+          "end": 486.108
+        },
+        {
+          "text": "the",
+          "start": 486.108,
+          "end": 486.195
+        },
+        {
+          "text": "override",
+          "start": 486.195,
+          "end": 486.67
+        },
+        {
+          "text": "never",
+          "start": 486.67,
+          "end": 486.945
+        },
+        {
+          "text": "actually",
+          "start": 486.945,
+          "end": 487.357
+        },
+        {
+          "text": "surfaces",
+          "start": 487.357,
+          "end": 487.92
+        },
+        {
+          "text": "in",
+          "start": 487.92,
+          "end": 488.008
+        },
+        {
+          "text": "the",
+          "start": 488.008,
+          "end": 488.083
+        },
+        {
+          "text": "reporter",
+          "start": 488.083,
+          "end": 489.195
+        },
+        {
+          "text": ".",
+          "start": 489.195,
+          "end": 489.32
+        },
+        {
+          "text": "The",
+          "start": 489.32,
+          "end": 489.445
+        },
+        {
+          "text": "Cypress.on(fail'",
+          "start": 489.445,
+          "end": 490.82
+        },
+        {
+          "text": ")",
+          "start": 490.82,
+          "end": 490.87
+        },
+        {
+          "text": "global",
+          "start": 490.87,
+          "end": 491.245
+        },
+        {
+          "text": "hook",
+          "start": 491.245,
+          "end": 491.495
+        },
+        {
+          "text": "is",
+          "start": 491.495,
+          "end": 491.607
+        },
+        {
+          "text": "the",
+          "start": 491.607,
+          "end": 491.695
+        },
+        {
+          "text": "reliable",
+          "start": 491.695,
+          "end": 492.245
+        },
+        {
+          "text": "place",
+          "start": 492.245,
+          "end": 492.57
+        },
+        {
+          "text": "to",
+          "start": 492.57,
+          "end": 492.695
+        },
+        {
+          "text": "rewrite",
+          "start": 492.695,
+          "end": 493.058
+        },
+        {
+          "text": "the",
+          "start": 493.058,
+          "end": 493.145
+        },
+        {
+          "text": "failing",
+          "start": 493.145,
+          "end": 493.52
+        },
+        {
+          "text": "message",
+          "start": 493.52,
+          "end": 494.495
+        },
+        {
+          "text": ".",
+          "start": 494.495,
+          "end": 494.695
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "kind": "h3",
+      "text": "10.5 The SDET ↔ Frontend data-testid contract",
+      "start": 495.015,
+      "end": 500.49,
+      "words": [
+        {
+          "text": "10.5",
+          "start": 495.265,
+          "end": 496.378
+        },
+        {
+          "text": "The",
+          "start": 496.378,
+          "end": 496.54
+        },
+        {
+          "text": "SDET",
+          "start": 496.54,
+          "end": 497.24
+        },
+        {
+          "text": "↔",
+          "start": 497.24,
+          "end": 498.153
+        },
+        {
+          "text": "Frontend",
+          "start": 498.153,
+          "end": 498.715
+        },
+        {
+          "text": "data-testid",
+          "start": 498.715,
+          "end": 499.415
+        },
+        {
+          "text": "contract",
+          "start": 499.415,
+          "end": 500.49
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "kind": "p",
+      "text": "You own the naming convention, not individual test IDs. Negotiate this with frontend in one paragraph:",
+      "start": 500.96,
+      "end": 507.935,
+      "words": [
+        {
+          "text": "You",
+          "start": 501.21,
+          "end": 501.335
+        },
+        {
+          "text": "own",
+          "start": 501.335,
+          "end": 501.497
+        },
+        {
+          "text": "the",
+          "start": 501.497,
+          "end": 501.585
+        },
+        {
+          "text": "naming",
+          "start": 501.585,
+          "end": 501.91
+        },
+        {
+          "text": "convention",
+          "start": 501.91,
+          "end": 502.585
+        },
+        {
+          "text": ",",
+          "start": 502.585,
+          "end": 502.66
+        },
+        {
+          "text": "not",
+          "start": 502.66,
+          "end": 502.91
+        },
+        {
+          "text": "individual",
+          "start": 502.91,
+          "end": 503.485
+        },
+        {
+          "text": "test",
+          "start": 503.485,
+          "end": 503.747
+        },
+        {
+          "text": "IDs",
+          "start": 503.747,
+          "end": 504.66
+        },
+        {
+          "text": ".",
+          "start": 504.66,
+          "end": 504.76
+        },
+        {
+          "text": "Negotiate",
+          "start": 504.76,
+          "end": 505.36
+        },
+        {
+          "text": "this",
+          "start": 505.36,
+          "end": 505.547
+        },
+        {
+          "text": "with",
+          "start": 505.547,
+          "end": 505.71
+        },
+        {
+          "text": "frontend",
+          "start": 505.71,
+          "end": 506.26
+        },
+        {
+          "text": "in",
+          "start": 506.26,
+          "end": 506.41
+        },
+        {
+          "text": "one",
+          "start": 506.41,
+          "end": 506.635
+        },
+        {
+          "text": "paragraph",
+          "start": 506.635,
+          "end": 507.735
+        },
+        {
+          "text": ":",
+          "start": 507.735,
+          "end": 507.935
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "kind": "p",
+      "text": "Then in your POM, replace 80 percent of the XPaths in this cheatsheet with getByTestId(...):",
+      "start": 508.255,
+      "end": 514.255,
+      "words": [
+        {
+          "text": "Then",
+          "start": 508.505,
+          "end": 508.705
+        },
+        {
+          "text": "in",
+          "start": 508.705,
+          "end": 508.818
+        },
+        {
+          "text": "your",
+          "start": 508.818,
+          "end": 508.98
+        },
+        {
+          "text": "POM",
+          "start": 508.98,
+          "end": 509.43
+        },
+        {
+          "text": ",",
+          "start": 509.43,
+          "end": 509.505
+        },
+        {
+          "text": "replace",
+          "start": 509.505,
+          "end": 509.917
+        },
+        {
+          "text": "80",
+          "start": 509.917,
+          "end": 510.255
+        },
+        {
+          "text": "percent",
+          "start": 510.255,
+          "end": 510.617
+        },
+        {
+          "text": "of",
+          "start": 510.617,
+          "end": 510.693
+        },
+        {
+          "text": "the",
+          "start": 510.693,
+          "end": 510.805
+        },
+        {
+          "text": "XPaths",
+          "start": 510.805,
+          "end": 511.405
+        },
+        {
+          "text": "in",
+          "start": 511.405,
+          "end": 511.492
+        },
+        {
+          "text": "this",
+          "start": 511.492,
+          "end": 511.667
+        },
+        {
+          "text": "cheatsheet",
+          "start": 511.667,
+          "end": 512.393
+        },
+        {
+          "text": "with",
+          "start": 512.393,
+          "end": 512.555
+        },
+        {
+          "text": "getByTestId",
+          "start": 512.555,
+          "end": 513.98
+        },
+        {
+          "text": "(",
+          "start": 513.98,
+          "end": 514.155
+        },
+        {
+          "text": ".",
+          "start": 514.155,
+          "end": 514.18
+        },
+        {
+          "text": ".",
+          "start": 514.18,
+          "end": 514.205
+        },
+        {
+          "text": ".",
+          "start": 514.205,
+          "end": 514.23
+        },
+        {
+          "text": ":",
+          "start": 514.23,
+          "end": 514.255
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "kind": "p",
+      "text": "XPath becomes the fallback for the remaining 20 percent , third-party widgets, embedded s, legacy modals, SVG nodes, Canvas (no DOM at all). Those escape hatches are precisely what §§3, 7 teach.",
+      "start": 514.575,
+      "end": 528.8,
+      "words": [
+        {
+          "text": "XPath",
+          "start": 514.85,
+          "end": 515.3
+        },
+        {
+          "text": "becomes",
+          "start": 515.3,
+          "end": 515.662
+        },
+        {
+          "text": "the",
+          "start": 515.662,
+          "end": 515.75
+        },
+        {
+          "text": "fallback",
+          "start": 515.75,
+          "end": 516.225
+        },
+        {
+          "text": "for",
+          "start": 516.225,
+          "end": 516.337
+        },
+        {
+          "text": "the",
+          "start": 516.337,
+          "end": 516.425
+        },
+        {
+          "text": "remaining",
+          "start": 516.425,
+          "end": 516.825
+        },
+        {
+          "text": "20",
+          "start": 516.825,
+          "end": 517.15
+        },
+        {
+          "text": "percent",
+          "start": 517.15,
+          "end": 517.863
+        },
+        {
+          "text": ",",
+          "start": 517.863,
+          "end": 517.95
+        },
+        {
+          "text": "third-party",
+          "start": 517.95,
+          "end": 518.525
+        },
+        {
+          "text": "widgets",
+          "start": 518.525,
+          "end": 519.2
+        },
+        {
+          "text": ",",
+          "start": 519.2,
+          "end": 519.3
+        },
+        {
+          "text": "embedded",
+          "start": 519.3,
+          "end": 519.775
+        },
+        {
+          "text": "s",
+          "start": 519.775,
+          "end": 520.15
+        },
+        {
+          "text": ",",
+          "start": 520.15,
+          "end": 520.225
+        },
+        {
+          "text": "legacy",
+          "start": 520.225,
+          "end": 520.625
+        },
+        {
+          "text": "modals",
+          "start": 520.625,
+          "end": 521.05
+        },
+        {
+          "text": ",",
+          "start": 521.05,
+          "end": 521.1
+        },
+        {
+          "text": "SVG",
+          "start": 521.1,
+          "end": 521.675
+        },
+        {
+          "text": "nodes",
+          "start": 521.675,
+          "end": 522.15
+        },
+        {
+          "text": ",",
+          "start": 522.15,
+          "end": 522.225
+        },
+        {
+          "text": "Canvas",
+          "start": 522.225,
+          "end": 522.825
+        },
+        {
+          "text": "(",
+          "start": 522.825,
+          "end": 522.9
+        },
+        {
+          "text": "no",
+          "start": 522.9,
+          "end": 523.05
+        },
+        {
+          "text": "DOM",
+          "start": 523.05,
+          "end": 523.237
+        },
+        {
+          "text": "at",
+          "start": 523.237,
+          "end": 523.35
+        },
+        {
+          "text": "all",
+          "start": 523.35,
+          "end": 524.2
+        },
+        {
+          "text": ")",
+          "start": 524.2,
+          "end": 524.3
+        },
+        {
+          "text": ".",
+          "start": 524.3,
+          "end": 524.375
+        },
+        {
+          "text": "Those",
+          "start": 524.375,
+          "end": 524.625
+        },
+        {
+          "text": "escape",
+          "start": 524.625,
+          "end": 525.0
+        },
+        {
+          "text": "hatches",
+          "start": 525.0,
+          "end": 525.4
+        },
+        {
+          "text": "are",
+          "start": 525.4,
+          "end": 525.5
+        },
+        {
+          "text": "precisely",
+          "start": 525.5,
+          "end": 526.038
+        },
+        {
+          "text": "what",
+          "start": 526.038,
+          "end": 526.175
+        },
+        {
+          "text": "§§3",
+          "start": 526.175,
+          "end": 527.3
+        },
+        {
+          "text": ",",
+          "start": 527.3,
+          "end": 527.35
+        },
+        {
+          "text": "7",
+          "start": 527.35,
+          "end": 527.7
+        },
+        {
+          "text": "teach",
+          "start": 527.7,
+          "end": 528.6
+        },
+        {
+          "text": ".",
+          "start": 528.6,
+          "end": 528.8
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "kind": "h3",
+      "text": "10.6 Browser matrix sanity",
+      "start": 529.12,
+      "end": 532.07,
+      "words": [
+        {
+          "text": "10.6",
+          "start": 529.37,
+          "end": 530.145
+        },
+        {
+          "text": "Browser",
+          "start": 530.145,
+          "end": 530.545
+        },
+        {
+          "text": "matrix",
+          "start": 530.545,
+          "end": 531.02
+        },
+        {
+          "text": "sanity",
+          "start": 531.02,
+          "end": 532.07
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "kind": "p",
+      "text": "When the same XPath runs across Chrome/Firefox/Safari/Edge, three things break first:",
+      "start": 532.49,
+      "end": 539.215,
+      "words": [
+        {
+          "text": "When",
+          "start": 532.74,
+          "end": 532.852
+        },
+        {
+          "text": "the",
+          "start": 532.852,
+          "end": 532.94
+        },
+        {
+          "text": "same",
+          "start": 532.94,
+          "end": 533.19
+        },
+        {
+          "text": "XPath",
+          "start": 533.19,
+          "end": 533.74
+        },
+        {
+          "text": "runs",
+          "start": 533.74,
+          "end": 533.977
+        },
+        {
+          "text": "across",
+          "start": 533.977,
+          "end": 534.29
+        },
+        {
+          "text": "Chrome/Firefox/Safari/Edge",
+          "start": 534.29,
+          "end": 537.09
+        },
+        {
+          "text": ",",
+          "start": 537.09,
+          "end": 537.253
+        },
+        {
+          "text": "three",
+          "start": 537.253,
+          "end": 537.515
+        },
+        {
+          "text": "things",
+          "start": 537.515,
+          "end": 537.84
+        },
+        {
+          "text": "break",
+          "start": 537.84,
+          "end": 538.09
+        },
+        {
+          "text": "first",
+          "start": 538.09,
+          "end": 539.015
+        },
+        {
+          "text": ":",
+          "start": 539.015,
+          "end": 539.215
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "kind": "h3",
+      "text": "10.7 SDET cleanup checklist before commit",
+      "start": 539.535,
+      "end": 543.635,
+      "words": [
+        {
+          "text": "10.7",
+          "start": 539.785,
+          "end": 540.86
+        },
+        {
+          "text": "SDET",
+          "start": 540.86,
+          "end": 541.535
+        },
+        {
+          "text": "cleanup",
+          "start": 541.535,
+          "end": 541.948
+        },
+        {
+          "text": "checklist",
+          "start": 541.948,
+          "end": 542.46
+        },
+        {
+          "text": "before",
+          "start": 542.46,
+          "end": 542.785
+        },
+        {
+          "text": "commit",
+          "start": 542.785,
+          "end": 543.635
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "kind": "p",
+      "text": "Use this section when the basic patterns from §§1, 10 don't reach the element. The four \"complex\" categories here are SVG namespace, computed indices without li[3], iframe + shadow DOM piercing, and modern CSS Level 4 selectors (:has(), :is(), :where(), :nth-child() formulas, sibling combinators, case-insensitive attribute flags).",
+      "start": 544.13,
+      "end": 565.23,
+      "words": [
+        {
+          "text": "Use",
+          "start": 544.405,
+          "end": 544.605
+        },
+        {
+          "text": "this",
+          "start": 544.605,
+          "end": 544.78
+        },
+        {
+          "text": "section",
+          "start": 544.78,
+          "end": 545.168
+        },
+        {
+          "text": "when",
+          "start": 545.168,
+          "end": 545.293
+        },
+        {
+          "text": "the",
+          "start": 545.293,
+          "end": 545.38
+        },
+        {
+          "text": "basic",
+          "start": 545.38,
+          "end": 545.78
+        },
+        {
+          "text": "patterns",
+          "start": 545.78,
+          "end": 546.155
+        },
+        {
+          "text": "from",
+          "start": 546.155,
+          "end": 546.33
+        },
+        {
+          "text": "§§1",
+          "start": 546.33,
+          "end": 547.505
+        },
+        {
+          "text": ",",
+          "start": 547.505,
+          "end": 547.58
+        },
+        {
+          "text": "10",
+          "start": 547.58,
+          "end": 547.83
+        },
+        {
+          "text": "don't",
+          "start": 547.83,
+          "end": 548.055
+        },
+        {
+          "text": "reach",
+          "start": 548.055,
+          "end": 548.292
+        },
+        {
+          "text": "the",
+          "start": 548.292,
+          "end": 548.38
+        },
+        {
+          "text": "element",
+          "start": 548.38,
+          "end": 549.305
+        },
+        {
+          "text": ".",
+          "start": 549.305,
+          "end": 549.405
+        },
+        {
+          "text": "The",
+          "start": 549.405,
+          "end": 549.518
+        },
+        {
+          "text": "four",
+          "start": 549.518,
+          "end": 549.718
+        },
+        {
+          "text": "\"",
+          "start": 549.718,
+          "end": 549.755
+        },
+        {
+          "text": "complex",
+          "start": 549.755,
+          "end": 550.205
+        },
+        {
+          "text": "\"",
+          "start": 550.205,
+          "end": 550.255
+        },
+        {
+          "text": "categories",
+          "start": 550.255,
+          "end": 550.755
+        },
+        {
+          "text": "here",
+          "start": 550.755,
+          "end": 550.98
+        },
+        {
+          "text": "are",
+          "start": 550.98,
+          "end": 551.08
+        },
+        {
+          "text": "SVG",
+          "start": 551.08,
+          "end": 551.655
+        },
+        {
+          "text": "namespace",
+          "start": 551.655,
+          "end": 552.255
+        },
+        {
+          "text": ",",
+          "start": 552.255,
+          "end": 552.33
+        },
+        {
+          "text": "computed",
+          "start": 552.33,
+          "end": 552.792
+        },
+        {
+          "text": "indices",
+          "start": 552.792,
+          "end": 553.268
+        },
+        {
+          "text": "without",
+          "start": 553.268,
+          "end": 553.58
+        },
+        {
+          "text": "li[3",
+          "start": 553.58,
+          "end": 554.28
+        },
+        {
+          "text": "]",
+          "start": 554.28,
+          "end": 554.305
+        },
+        {
+          "text": ",",
+          "start": 554.305,
+          "end": 554.368
+        },
+        {
+          "text": "iframe",
+          "start": 554.368,
+          "end": 554.78
+        },
+        {
+          "text": "+",
+          "start": 554.78,
+          "end": 555.005
+        },
+        {
+          "text": "shadow",
+          "start": 555.005,
+          "end": 555.318
+        },
+        {
+          "text": "DOM",
+          "start": 555.318,
+          "end": 555.555
+        },
+        {
+          "text": "piercing",
+          "start": 555.555,
+          "end": 555.93
+        },
+        {
+          "text": ",",
+          "start": 555.93,
+          "end": 555.968
+        },
+        {
+          "text": "and",
+          "start": 555.968,
+          "end": 556.093
+        },
+        {
+          "text": "modern",
+          "start": 556.093,
+          "end": 556.455
+        },
+        {
+          "text": "CSS",
+          "start": 556.455,
+          "end": 556.917
+        },
+        {
+          "text": "Level",
+          "start": 556.917,
+          "end": 557.268
+        },
+        {
+          "text": "4",
+          "start": 557.268,
+          "end": 557.48
+        },
+        {
+          "text": "selectors",
+          "start": 557.48,
+          "end": 558.343
+        },
+        {
+          "text": "(:has",
+          "start": 558.343,
+          "end": 558.855
+        },
+        {
+          "text": "(",
+          "start": 558.855,
+          "end": 558.88
+        },
+        {
+          "text": ")",
+          "start": 558.88,
+          "end": 558.905
+        },
+        {
+          "text": ",",
+          "start": 558.905,
+          "end": 558.98
+        },
+        {
+          "text": ":",
+          "start": 558.98,
+          "end": 559.13
+        },
+        {
+          "text": "is",
+          "start": 559.13,
+          "end": 559.405
+        },
+        {
+          "text": "(",
+          "start": 559.405,
+          "end": 559.455
+        },
+        {
+          "text": ")",
+          "start": 559.455,
+          "end": 559.48
+        },
+        {
+          "text": ",",
+          "start": 559.48,
+          "end": 559.555
+        },
+        {
+          "text": ":",
+          "start": 559.555,
+          "end": 559.605
+        },
+        {
+          "text": "where",
+          "start": 559.605,
+          "end": 559.98
+        },
+        {
+          "text": "(",
+          "start": 559.98,
+          "end": 560.005
+        },
+        {
+          "text": ")",
+          "start": 560.005,
+          "end": 560.03
+        },
+        {
+          "text": ",",
+          "start": 560.03,
+          "end": 560.068
+        },
+        {
+          "text": ":",
+          "start": 560.068,
+          "end": 560.13
+        },
+        {
+          "text": "nth-child",
+          "start": 560.13,
+          "end": 560.905
+        },
+        {
+          "text": "(",
+          "start": 560.905,
+          "end": 560.93
+        },
+        {
+          "text": ")",
+          "start": 560.93,
+          "end": 561.018
+        },
+        {
+          "text": "formulas",
+          "start": 561.018,
+          "end": 561.555
+        },
+        {
+          "text": ",",
+          "start": 561.555,
+          "end": 561.618
+        },
+        {
+          "text": "sibling",
+          "start": 561.618,
+          "end": 561.943
+        },
+        {
+          "text": "combinators",
+          "start": 561.943,
+          "end": 562.655
+        },
+        {
+          "text": ",",
+          "start": 562.655,
+          "end": 562.73
+        },
+        {
+          "text": "case-insensitive",
+          "start": 562.73,
+          "end": 563.63
+        },
+        {
+          "text": "attribute",
+          "start": 563.63,
+          "end": 564.08
+        },
+        {
+          "text": "flags",
+          "start": 564.08,
+          "end": 565.155
+        },
+        {
+          "text": ")",
+          "start": 565.155,
+          "end": 565.23
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "kind": "h3",
+      "text": "11.1 Complex XPath , quick reference table",
+      "start": 565.55,
+      "end": 569.55,
+      "words": [
+        {
+          "text": "11.1",
+          "start": 565.825,
+          "end": 566.7
+        },
+        {
+          "text": "Complex",
+          "start": 566.7,
+          "end": 567.2
+        },
+        {
+          "text": "XPath",
+          "start": 567.2,
+          "end": 567.9
+        },
+        {
+          "text": ",",
+          "start": 567.9,
+          "end": 567.975
+        },
+        {
+          "text": "quick",
+          "start": 567.975,
+          "end": 568.225
+        },
+        {
+          "text": "reference",
+          "start": 568.225,
+          "end": 568.625
+        },
+        {
+          "text": "table",
+          "start": 568.625,
+          "end": 569.55
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "kind": "h3",
+      "text": "11.2 SVG namespace , portably",
+      "start": 569.995,
+      "end": 573.37,
+      "words": [
+        {
+          "text": "11.2",
+          "start": 570.245,
+          "end": 571.17
+        },
+        {
+          "text": "SVG",
+          "start": 571.17,
+          "end": 571.695
+        },
+        {
+          "text": "namespace",
+          "start": 571.695,
+          "end": 572.282
+        },
+        {
+          "text": ",",
+          "start": 572.282,
+          "end": 572.345
+        },
+        {
+          "text": "portably",
+          "start": 572.345,
+          "end": 573.37
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "kind": "h3",
+      "text": "11.3 iframe + shadow DOM , what works where",
+      "start": 573.84,
+      "end": 577.64,
+      "words": [
+        {
+          "text": "11.3",
+          "start": 574.115,
+          "end": 574.965
+        },
+        {
+          "text": "iframe",
+          "start": 574.965,
+          "end": 575.365
+        },
+        {
+          "text": "+",
+          "start": 575.365,
+          "end": 575.615
+        },
+        {
+          "text": "shadow",
+          "start": 575.615,
+          "end": 575.94
+        },
+        {
+          "text": "DOM",
+          "start": 575.94,
+          "end": 576.34
+        },
+        {
+          "text": ",",
+          "start": 576.34,
+          "end": 576.415
+        },
+        {
+          "text": "what",
+          "start": 576.415,
+          "end": 576.565
+        },
+        {
+          "text": "works",
+          "start": 576.565,
+          "end": 576.865
+        },
+        {
+          "text": "where",
+          "start": 576.865,
+          "end": 577.64
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "kind": "h3",
+      "text": "11.4 Modern CSS , :has(), :is(), :where()",
+      "start": 578.06,
+      "end": 582.285,
+      "words": [
+        {
+          "text": "11.4",
+          "start": 578.335,
+          "end": 579.16
+        },
+        {
+          "text": "Modern",
+          "start": 579.16,
+          "end": 579.485
+        },
+        {
+          "text": "CSS",
+          "start": 579.485,
+          "end": 580.073
+        },
+        {
+          "text": ",",
+          "start": 580.073,
+          "end": 580.123
+        },
+        {
+          "text": ":",
+          "start": 580.123,
+          "end": 580.185
+        },
+        {
+          "text": "has",
+          "start": 580.185,
+          "end": 580.635
+        },
+        {
+          "text": "(",
+          "start": 580.635,
+          "end": 580.685
+        },
+        {
+          "text": ")",
+          "start": 580.685,
+          "end": 580.71
+        },
+        {
+          "text": ",",
+          "start": 580.71,
+          "end": 580.76
+        },
+        {
+          "text": ":",
+          "start": 580.76,
+          "end": 580.86
+        },
+        {
+          "text": "is",
+          "start": 580.86,
+          "end": 581.16
+        },
+        {
+          "text": "(",
+          "start": 581.16,
+          "end": 581.21
+        },
+        {
+          "text": ")",
+          "start": 581.21,
+          "end": 581.235
+        },
+        {
+          "text": ",",
+          "start": 581.235,
+          "end": 581.273
+        },
+        {
+          "text": ":",
+          "start": 581.273,
+          "end": 581.335
+        },
+        {
+          "text": "where",
+          "start": 581.335,
+          "end": 582.06
+        },
+        {
+          "text": "(",
+          "start": 582.06,
+          "end": 582.21
+        },
+        {
+          "text": ")",
+          "start": 582.21,
+          "end": 582.285
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "kind": "h3",
+      "text": "11.5 :nth-child() and :nth-of-type() formulas",
+      "start": 582.605,
+      "end": 586.555,
+      "words": [
+        {
+          "text": "11.5",
+          "start": 582.855,
+          "end": 583.768
+        },
+        {
+          "text": ":",
+          "start": 583.768,
+          "end": 583.805
+        },
+        {
+          "text": "nth-child",
+          "start": 583.805,
+          "end": 584.48
+        },
+        {
+          "text": "(",
+          "start": 584.48,
+          "end": 584.53
+        },
+        {
+          "text": ")",
+          "start": 584.53,
+          "end": 584.58
+        },
+        {
+          "text": "and",
+          "start": 584.58,
+          "end": 584.717
+        },
+        {
+          "text": ":",
+          "start": 584.717,
+          "end": 584.755
+        },
+        {
+          "text": "nth-of-type",
+          "start": 584.755,
+          "end": 585.405
+        },
+        {
+          "text": "(",
+          "start": 585.405,
+          "end": 585.455
+        },
+        {
+          "text": ")",
+          "start": 585.455,
+          "end": 585.505
+        },
+        {
+          "text": "formulas",
+          "start": 585.505,
+          "end": 586.555
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "kind": "h3",
+      "text": "11.6 Case-insensitive attribute flags + state pseudos",
+      "start": 587.0,
+      "end": 591.7,
+      "words": [
+        {
+          "text": "11.6",
+          "start": 587.275,
+          "end": 588.225
+        },
+        {
+          "text": "Case-insensitive",
+          "start": 588.225,
+          "end": 589.175
+        },
+        {
+          "text": "attribute",
+          "start": 589.175,
+          "end": 589.625
+        },
+        {
+          "text": "flags",
+          "start": 589.625,
+          "end": 590.05
+        },
+        {
+          "text": "+",
+          "start": 590.05,
+          "end": 590.3
+        },
+        {
+          "text": "state",
+          "start": 590.3,
+          "end": 590.625
+        },
+        {
+          "text": "pseudos",
+          "start": 590.625,
+          "end": 591.7
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "kind": "h3",
+      "text": "11.7 Sibling combinators (+, about )",
+      "start": 592.145,
+      "end": 596.12,
+      "words": [
+        {
+          "text": "11.7",
+          "start": 592.42,
+          "end": 593.483
+        },
+        {
+          "text": "Sibling",
+          "start": 593.483,
+          "end": 593.87
+        },
+        {
+          "text": "combinators",
+          "start": 593.87,
+          "end": 594.67
+        },
+        {
+          "text": "(",
+          "start": 594.67,
+          "end": 594.745
+        },
+        {
+          "text": "+",
+          "start": 594.745,
+          "end": 595.045
+        },
+        {
+          "text": ",",
+          "start": 595.045,
+          "end": 595.095
+        },
+        {
+          "text": "about",
+          "start": 595.095,
+          "end": 595.983
+        },
+        {
+          "text": ")",
+          "start": 595.983,
+          "end": 596.12
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "kind": "h3",
+      "text": "11.8 XPath vs CSS vs Playwright engine , when each wins",
+      "start": 596.44,
+      "end": 601.64,
+      "words": [
+        {
+          "text": "11.8",
+          "start": 596.69,
+          "end": 597.528
+        },
+        {
+          "text": "XPath",
+          "start": 597.528,
+          "end": 598.015
+        },
+        {
+          "text": "vs",
+          "start": 598.015,
+          "end": 598.378
+        },
+        {
+          "text": "CSS",
+          "start": 598.378,
+          "end": 599.065
+        },
+        {
+          "text": "vs",
+          "start": 599.065,
+          "end": 599.44
+        },
+        {
+          "text": "Playwright",
+          "start": 599.44,
+          "end": 599.84
+        },
+        {
+          "text": "engine",
+          "start": 599.84,
+          "end": 600.278
+        },
+        {
+          "text": ",",
+          "start": 600.278,
+          "end": 600.328
+        },
+        {
+          "text": "when",
+          "start": 600.328,
+          "end": 600.49
+        },
+        {
+          "text": "each",
+          "start": 600.49,
+          "end": 600.74
+        },
+        {
+          "text": "wins",
+          "start": 600.74,
+          "end": 601.64
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "kind": "quote",
+      "text": "Rule of thumb: CSS for speed and forward-only structural patterns; XPath for text matching and reverse/ancestor; Playwright engine selectors when ARIA role + accessible name expresses intent.",
+      "start": 602.11,
+      "end": 614.76,
+      "words": [
+        {
+          "text": "Rule",
+          "start": 602.41,
+          "end": 602.647
+        },
+        {
+          "text": "of",
+          "start": 602.647,
+          "end": 602.76
+        },
+        {
+          "text": "thumb",
+          "start": 602.76,
+          "end": 603.26
+        },
+        {
+          "text": ":",
+          "start": 603.26,
+          "end": 603.372
+        },
+        {
+          "text": "CSS",
+          "start": 603.372,
+          "end": 603.96
+        },
+        {
+          "text": "for",
+          "start": 603.96,
+          "end": 604.085
+        },
+        {
+          "text": "speed",
+          "start": 604.085,
+          "end": 604.51
+        },
+        {
+          "text": "and",
+          "start": 604.51,
+          "end": 604.648
+        },
+        {
+          "text": "forward-only",
+          "start": 604.648,
+          "end": 605.21
+        },
+        {
+          "text": "structural",
+          "start": 605.21,
+          "end": 605.685
+        },
+        {
+          "text": "patterns",
+          "start": 605.685,
+          "end": 606.635
+        },
+        {
+          "text": ";",
+          "start": 606.635,
+          "end": 606.735
+        },
+        {
+          "text": "XPath",
+          "start": 606.735,
+          "end": 607.235
+        },
+        {
+          "text": "for",
+          "start": 607.235,
+          "end": 607.36
+        },
+        {
+          "text": "text",
+          "start": 607.36,
+          "end": 607.71
+        },
+        {
+          "text": "matching",
+          "start": 607.71,
+          "end": 608.16
+        },
+        {
+          "text": "and",
+          "start": 608.16,
+          "end": 608.272
+        },
+        {
+          "text": "reverse/ancestor",
+          "start": 608.272,
+          "end": 609.66
+        },
+        {
+          "text": ";",
+          "start": 609.66,
+          "end": 609.785
+        },
+        {
+          "text": "Playwright",
+          "start": 609.785,
+          "end": 610.21
+        },
+        {
+          "text": "engine",
+          "start": 610.21,
+          "end": 610.585
+        },
+        {
+          "text": "selectors",
+          "start": 610.585,
+          "end": 611.147
+        },
+        {
+          "text": "when",
+          "start": 611.147,
+          "end": 611.285
+        },
+        {
+          "text": "ARIA",
+          "start": 611.285,
+          "end": 611.585
+        },
+        {
+          "text": "role",
+          "start": 611.585,
+          "end": 611.935
+        },
+        {
+          "text": "+",
+          "start": 611.935,
+          "end": 612.185
+        },
+        {
+          "text": "accessible",
+          "start": 612.185,
+          "end": 612.76
+        },
+        {
+          "text": "name",
+          "start": 612.76,
+          "end": 613.035
+        },
+        {
+          "text": "expresses",
+          "start": 613.035,
+          "end": 613.585
+        },
+        {
+          "text": "intent",
+          "start": 613.585,
+          "end": 614.56
+        },
+        {
+          "text": ".",
+          "start": 614.56,
+          "end": 614.76
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "kind": "h3",
+      "text": "11.9 Common complex-target patterns",
+      "start": 615.08,
+      "end": 618.58,
+      "words": [
+        {
+          "text": "11.9",
+          "start": 615.33,
+          "end": 616.368
+        },
+        {
+          "text": "Common",
+          "start": 616.368,
+          "end": 616.73
+        },
+        {
+          "text": "complex-target",
+          "start": 616.73,
+          "end": 617.53
+        },
+        {
+          "text": "patterns",
+          "start": 617.53,
+          "end": 618.58
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

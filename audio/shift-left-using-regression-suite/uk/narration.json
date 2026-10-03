@@ -1,0 +1,5322 @@
+{
+  "slug": "shift-left-using-regression-suite",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 394.63,
+  "contentHash": "b929461bd6046b5dbf50327b0b1e3aa9dcad5cccdffc13afc15f095eef0f5404",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Shift Left Using a Regression Suite: A Practical Approach",
+      "start": 0.0,
+      "end": 3.625,
+      "words": [
+        {
+          "text": "Shift",
+          "start": 0.3,
+          "end": 0.575
+        },
+        {
+          "text": "Left",
+          "start": 0.575,
+          "end": 0.812
+        },
+        {
+          "text": "Using",
+          "start": 0.812,
+          "end": 1.062
+        },
+        {
+          "text": "a",
+          "start": 1.062,
+          "end": 1.113
+        },
+        {
+          "text": "Regression",
+          "start": 1.113,
+          "end": 1.637
+        },
+        {
+          "text": "Suite",
+          "start": 1.637,
+          "end": 2.125
+        },
+        {
+          "text": ":",
+          "start": 2.125,
+          "end": 2.225
+        },
+        {
+          "text": "A",
+          "start": 2.225,
+          "end": 2.3
+        },
+        {
+          "text": "Practical",
+          "start": 2.3,
+          "end": 2.788
+        },
+        {
+          "text": "Approach",
+          "start": 2.788,
+          "end": 3.625
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "li",
+      "text": "Shift Left using Regression suite",
+      "start": 4.17,
+      "end": 6.72,
+      "words": [
+        {
+          "text": "Shift",
+          "start": 4.47,
+          "end": 4.745
+        },
+        {
+          "text": "Left",
+          "start": 4.745,
+          "end": 5.045
+        },
+        {
+          "text": "using",
+          "start": 5.045,
+          "end": 5.32
+        },
+        {
+          "text": "Regression",
+          "start": 5.32,
+          "end": 5.857
+        },
+        {
+          "text": "suite",
+          "start": 5.857,
+          "end": 6.72
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "li",
+      "text": "Introduction",
+      "start": 7.215,
+      "end": 8.44,
+      "words": [
+        {
+          "text": "Introduction",
+          "start": 7.465,
+          "end": 8.44
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "li",
+      "text": "Benefits of Shift Left with Early Regression Testing",
+      "start": 8.935,
+      "end": 12.485,
+      "words": [
+        {
+          "text": "Benefits",
+          "start": 9.185,
+          "end": 9.648
+        },
+        {
+          "text": "of",
+          "start": 9.648,
+          "end": 9.773
+        },
+        {
+          "text": "Shift",
+          "start": 9.773,
+          "end": 10.197
+        },
+        {
+          "text": "Left",
+          "start": 10.197,
+          "end": 10.523
+        },
+        {
+          "text": "with",
+          "start": 10.523,
+          "end": 10.697
+        },
+        {
+          "text": "Early",
+          "start": 10.697,
+          "end": 11.01
+        },
+        {
+          "text": "Regression",
+          "start": 11.01,
+          "end": 11.51
+        },
+        {
+          "text": "Testing",
+          "start": 11.51,
+          "end": 12.485
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "li",
+      "text": "Approach",
+      "start": 12.93,
+      "end": 13.73,
+      "words": [
+        {
+          "text": "Approach",
+          "start": 13.18,
+          "end": 13.73
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "li",
+      "text": "Step-by-Step Guide",
+      "start": 14.15,
+      "end": 15.875,
+      "words": [
+        {
+          "text": "Step-by-Step",
+          "start": 14.4,
+          "end": 15.125
+        },
+        {
+          "text": "Guide",
+          "start": 15.125,
+          "end": 15.875
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "li",
+      "text": "Explanation",
+      "start": 16.495,
+      "end": 17.795,
+      "words": [
+        {
+          "text": "Explanation",
+          "start": 16.72,
+          "end": 17.795
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "How to Run",
+      "start": 18.34,
+      "end": 19.49,
+      "words": [
+        {
+          "text": "How",
+          "start": 18.59,
+          "end": 18.79
+        },
+        {
+          "text": "to",
+          "start": 18.79,
+          "end": 18.915
+        },
+        {
+          "text": "Run",
+          "start": 18.915,
+          "end": 19.49
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Summary",
+      "start": 20.06,
+      "end": 20.835,
+      "words": [
+        {
+          "text": "Summary",
+          "start": 20.335,
+          "end": 20.835
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Step-by-Step Guide to Configure Express.js",
+      "start": 21.23,
+      "end": 24.68,
+      "words": [
+        {
+          "text": "Step-by-Step",
+          "start": 21.48,
+          "end": 22.13
+        },
+        {
+          "text": "Guide",
+          "start": 22.13,
+          "end": 22.455
+        },
+        {
+          "text": "to",
+          "start": 22.455,
+          "end": 22.555
+        },
+        {
+          "text": "Configure",
+          "start": 22.555,
+          "end": 22.98
+        },
+        {
+          "text": "Express.js",
+          "start": 22.98,
+          "end": 24.68
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "li",
+      "text": "Summary",
+      "start": 25.275,
+      "end": 26.05,
+      "words": [
+        {
+          "text": "Summary",
+          "start": 25.55,
+          "end": 26.05
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "h1",
+      "text": "Shift Left using Regression suite",
+      "start": 26.445,
+      "end": 28.995,
+      "words": [
+        {
+          "text": "Shift",
+          "start": 26.745,
+          "end": 27.02
+        },
+        {
+          "text": "Left",
+          "start": 27.02,
+          "end": 27.32
+        },
+        {
+          "text": "using",
+          "start": 27.32,
+          "end": 27.595
+        },
+        {
+          "text": "Regression",
+          "start": 27.595,
+          "end": 28.132
+        },
+        {
+          "text": "suite",
+          "start": 28.132,
+          "end": 28.995
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "Incorporate the regression suite developed for Quality Control (QC) to ensure Quality Assurance (QA) by embedding it early in the development cycle when creating or adding new features to an existing product.",
+      "start": 29.49,
+      "end": 42.69,
+      "words": [
+        {
+          "text": "Incorporate",
+          "start": 29.765,
+          "end": 30.328
+        },
+        {
+          "text": "the",
+          "start": 30.328,
+          "end": 30.415
+        },
+        {
+          "text": "regression",
+          "start": 30.415,
+          "end": 30.94
+        },
+        {
+          "text": "suite",
+          "start": 30.94,
+          "end": 31.24
+        },
+        {
+          "text": "developed",
+          "start": 31.24,
+          "end": 31.665
+        },
+        {
+          "text": "for",
+          "start": 31.665,
+          "end": 31.79
+        },
+        {
+          "text": "Quality",
+          "start": 31.79,
+          "end": 32.215
+        },
+        {
+          "text": "Control",
+          "start": 32.215,
+          "end": 33.077
+        },
+        {
+          "text": "(",
+          "start": 33.077,
+          "end": 33.165
+        },
+        {
+          "text": "QC",
+          "start": 33.165,
+          "end": 33.94
+        },
+        {
+          "text": ")",
+          "start": 33.94,
+          "end": 34.015
+        },
+        {
+          "text": "to",
+          "start": 34.015,
+          "end": 34.14
+        },
+        {
+          "text": "ensure",
+          "start": 34.14,
+          "end": 34.54
+        },
+        {
+          "text": "Quality",
+          "start": 34.54,
+          "end": 34.99
+        },
+        {
+          "text": "Assurance",
+          "start": 34.99,
+          "end": 35.703
+        },
+        {
+          "text": "(",
+          "start": 35.703,
+          "end": 35.79
+        },
+        {
+          "text": "QA",
+          "start": 35.79,
+          "end": 36.615
+        },
+        {
+          "text": ")",
+          "start": 36.615,
+          "end": 36.79
+        },
+        {
+          "text": "by",
+          "start": 36.79,
+          "end": 36.965
+        },
+        {
+          "text": "embedding",
+          "start": 36.965,
+          "end": 37.415
+        },
+        {
+          "text": "it",
+          "start": 37.415,
+          "end": 37.578
+        },
+        {
+          "text": "early",
+          "start": 37.578,
+          "end": 37.902
+        },
+        {
+          "text": "in",
+          "start": 37.902,
+          "end": 37.978
+        },
+        {
+          "text": "the",
+          "start": 37.978,
+          "end": 38.065
+        },
+        {
+          "text": "development",
+          "start": 38.065,
+          "end": 38.59
+        },
+        {
+          "text": "cycle",
+          "start": 38.59,
+          "end": 39.14
+        },
+        {
+          "text": "when",
+          "start": 39.14,
+          "end": 39.29
+        },
+        {
+          "text": "creating",
+          "start": 39.29,
+          "end": 39.865
+        },
+        {
+          "text": "or",
+          "start": 39.865,
+          "end": 40.015
+        },
+        {
+          "text": "adding",
+          "start": 40.015,
+          "end": 40.315
+        },
+        {
+          "text": "new",
+          "start": 40.315,
+          "end": 40.49
+        },
+        {
+          "text": "features",
+          "start": 40.49,
+          "end": 40.915
+        },
+        {
+          "text": "to",
+          "start": 40.915,
+          "end": 41.002
+        },
+        {
+          "text": "an",
+          "start": 41.002,
+          "end": 41.078
+        },
+        {
+          "text": "existing",
+          "start": 41.078,
+          "end": 41.49
+        },
+        {
+          "text": "product",
+          "start": 41.49,
+          "end": 42.49
+        },
+        {
+          "text": ".",
+          "start": 42.49,
+          "end": 42.69
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "h2",
+      "text": "Introduction",
+      "start": 43.01,
+      "end": 44.235,
+      "words": [
+        {
+          "text": "Introduction",
+          "start": 43.26,
+          "end": 44.235
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "quote",
+      "text": "”It works on my machine.” (It doesn't work in QA. QA found it Thursday. The fix ships Monday. That's four days of delay, plus you look bad.)",
+      "start": 44.73,
+      "end": 53.655,
+      "words": [
+        {
+          "text": "”",
+          "start": 44.93,
+          "end": 44.955
+        },
+        {
+          "text": "It",
+          "start": 44.955,
+          "end": 45.055
+        },
+        {
+          "text": "works",
+          "start": 45.055,
+          "end": 45.318
+        },
+        {
+          "text": "on",
+          "start": 45.318,
+          "end": 45.418
+        },
+        {
+          "text": "my",
+          "start": 45.418,
+          "end": 45.543
+        },
+        {
+          "text": "machine",
+          "start": 45.543,
+          "end": 46.48
+        },
+        {
+          "text": ".",
+          "start": 46.48,
+          "end": 46.555
+        },
+        {
+          "text": "”",
+          "start": 46.555,
+          "end": 46.593
+        },
+        {
+          "text": "(",
+          "start": 46.593,
+          "end": 46.63
+        },
+        {
+          "text": "It",
+          "start": 46.63,
+          "end": 46.73
+        },
+        {
+          "text": "doesn't",
+          "start": 46.73,
+          "end": 47.03
+        },
+        {
+          "text": "work",
+          "start": 47.03,
+          "end": 47.243
+        },
+        {
+          "text": "in",
+          "start": 47.243,
+          "end": 47.33
+        },
+        {
+          "text": "QA",
+          "start": 47.33,
+          "end": 47.88
+        },
+        {
+          "text": ".",
+          "start": 47.88,
+          "end": 47.993
+        },
+        {
+          "text": "QA",
+          "start": 47.993,
+          "end": 48.355
+        },
+        {
+          "text": "found",
+          "start": 48.355,
+          "end": 48.618
+        },
+        {
+          "text": "it",
+          "start": 48.618,
+          "end": 48.705
+        },
+        {
+          "text": "Thursday",
+          "start": 48.705,
+          "end": 49.355
+        },
+        {
+          "text": ".",
+          "start": 49.355,
+          "end": 49.455
+        },
+        {
+          "text": "The",
+          "start": 49.455,
+          "end": 49.555
+        },
+        {
+          "text": "fix",
+          "start": 49.555,
+          "end": 49.818
+        },
+        {
+          "text": "ships",
+          "start": 49.818,
+          "end": 50.105
+        },
+        {
+          "text": "Monday",
+          "start": 50.105,
+          "end": 50.68
+        },
+        {
+          "text": ".",
+          "start": 50.68,
+          "end": 50.755
+        },
+        {
+          "text": "That's",
+          "start": 50.755,
+          "end": 51.03
+        },
+        {
+          "text": "four",
+          "start": 51.03,
+          "end": 51.23
+        },
+        {
+          "text": "days",
+          "start": 51.23,
+          "end": 51.468
+        },
+        {
+          "text": "of",
+          "start": 51.468,
+          "end": 51.555
+        },
+        {
+          "text": "delay",
+          "start": 51.555,
+          "end": 51.955
+        },
+        {
+          "text": ",",
+          "start": 51.955,
+          "end": 52.005
+        },
+        {
+          "text": "plus",
+          "start": 52.005,
+          "end": 52.28
+        },
+        {
+          "text": "you",
+          "start": 52.28,
+          "end": 52.393
+        },
+        {
+          "text": "look",
+          "start": 52.393,
+          "end": 52.58
+        },
+        {
+          "text": "bad",
+          "start": 52.58,
+          "end": 53.405
+        },
+        {
+          "text": ".",
+          "start": 53.405,
+          "end": 53.58
+        },
+        {
+          "text": ")",
+          "start": 53.58,
+          "end": 53.655
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Shift Left is the idea of running tests earlier, when it's cheaper and faster to fix problems. Instead of waiting for QA to sign off, developers run the regression suite themselves , while developing. The moment you add a feature and break something, you see it in seconds. You fix it immediately. QA gets stable code instead of a pile of surprises.",
+      "start": 53.975,
+      "end": 74.025,
+      "words": [
+        {
+          "text": "Shift",
+          "start": 54.3,
+          "end": 54.525
+        },
+        {
+          "text": "Left",
+          "start": 54.525,
+          "end": 54.763
+        },
+        {
+          "text": "is",
+          "start": 54.763,
+          "end": 54.862
+        },
+        {
+          "text": "the",
+          "start": 54.862,
+          "end": 55.025
+        },
+        {
+          "text": "idea",
+          "start": 55.025,
+          "end": 55.425
+        },
+        {
+          "text": "of",
+          "start": 55.425,
+          "end": 55.525
+        },
+        {
+          "text": "running",
+          "start": 55.525,
+          "end": 55.85
+        },
+        {
+          "text": "tests",
+          "start": 55.85,
+          "end": 56.225
+        },
+        {
+          "text": "earlier",
+          "start": 56.225,
+          "end": 56.8
+        },
+        {
+          "text": ",",
+          "start": 56.8,
+          "end": 56.875
+        },
+        {
+          "text": "when",
+          "start": 56.875,
+          "end": 57.013
+        },
+        {
+          "text": "it's",
+          "start": 57.013,
+          "end": 57.187
+        },
+        {
+          "text": "cheaper",
+          "start": 57.187,
+          "end": 57.55
+        },
+        {
+          "text": "and",
+          "start": 57.55,
+          "end": 57.675
+        },
+        {
+          "text": "faster",
+          "start": 57.675,
+          "end": 58.1
+        },
+        {
+          "text": "to",
+          "start": 58.1,
+          "end": 58.225
+        },
+        {
+          "text": "fix",
+          "start": 58.225,
+          "end": 58.5
+        },
+        {
+          "text": "problems",
+          "start": 58.5,
+          "end": 59.525
+        },
+        {
+          "text": ".",
+          "start": 59.525,
+          "end": 59.638
+        },
+        {
+          "text": "Instead",
+          "start": 59.638,
+          "end": 60.013
+        },
+        {
+          "text": "of",
+          "start": 60.013,
+          "end": 60.1
+        },
+        {
+          "text": "waiting",
+          "start": 60.1,
+          "end": 60.45
+        },
+        {
+          "text": "for",
+          "start": 60.45,
+          "end": 60.575
+        },
+        {
+          "text": "QA",
+          "start": 60.575,
+          "end": 60.925
+        },
+        {
+          "text": "to",
+          "start": 60.925,
+          "end": 61.05
+        },
+        {
+          "text": "sign",
+          "start": 61.05,
+          "end": 61.3
+        },
+        {
+          "text": "off",
+          "start": 61.3,
+          "end": 61.6
+        },
+        {
+          "text": ",",
+          "start": 61.6,
+          "end": 61.675
+        },
+        {
+          "text": "developers",
+          "start": 61.675,
+          "end": 62.2
+        },
+        {
+          "text": "run",
+          "start": 62.2,
+          "end": 62.388
+        },
+        {
+          "text": "the",
+          "start": 62.388,
+          "end": 62.475
+        },
+        {
+          "text": "regression",
+          "start": 62.475,
+          "end": 63.013
+        },
+        {
+          "text": "suite",
+          "start": 63.013,
+          "end": 63.287
+        },
+        {
+          "text": "themselves",
+          "start": 63.287,
+          "end": 63.837
+        },
+        {
+          "text": ",",
+          "start": 63.837,
+          "end": 63.888
+        },
+        {
+          "text": "while",
+          "start": 63.888,
+          "end": 64.075
+        },
+        {
+          "text": "developing",
+          "start": 64.075,
+          "end": 65.125
+        },
+        {
+          "text": ".",
+          "start": 65.125,
+          "end": 65.225
+        },
+        {
+          "text": "The",
+          "start": 65.225,
+          "end": 65.325
+        },
+        {
+          "text": "moment",
+          "start": 65.325,
+          "end": 65.625
+        },
+        {
+          "text": "you",
+          "start": 65.625,
+          "end": 65.75
+        },
+        {
+          "text": "add",
+          "start": 65.75,
+          "end": 65.912
+        },
+        {
+          "text": "a",
+          "start": 65.912,
+          "end": 65.988
+        },
+        {
+          "text": "feature",
+          "start": 65.988,
+          "end": 66.35
+        },
+        {
+          "text": "and",
+          "start": 66.35,
+          "end": 66.475
+        },
+        {
+          "text": "break",
+          "start": 66.475,
+          "end": 66.75
+        },
+        {
+          "text": "something",
+          "start": 66.75,
+          "end": 67.125
+        },
+        {
+          "text": ",",
+          "start": 67.125,
+          "end": 67.175
+        },
+        {
+          "text": "you",
+          "start": 67.175,
+          "end": 67.312
+        },
+        {
+          "text": "see",
+          "start": 67.312,
+          "end": 67.513
+        },
+        {
+          "text": "it",
+          "start": 67.513,
+          "end": 67.625
+        },
+        {
+          "text": "in",
+          "start": 67.625,
+          "end": 67.775
+        },
+        {
+          "text": "seconds",
+          "start": 67.775,
+          "end": 68.6
+        },
+        {
+          "text": ".",
+          "start": 68.6,
+          "end": 68.7
+        },
+        {
+          "text": "You",
+          "start": 68.7,
+          "end": 68.85
+        },
+        {
+          "text": "fix",
+          "start": 68.85,
+          "end": 69.1
+        },
+        {
+          "text": "it",
+          "start": 69.1,
+          "end": 69.225
+        },
+        {
+          "text": "immediately",
+          "start": 69.225,
+          "end": 70.25
+        },
+        {
+          "text": ".",
+          "start": 70.25,
+          "end": 70.388
+        },
+        {
+          "text": "QA",
+          "start": 70.388,
+          "end": 70.75
+        },
+        {
+          "text": "gets",
+          "start": 70.75,
+          "end": 70.95
+        },
+        {
+          "text": "stable",
+          "start": 70.95,
+          "end": 71.4
+        },
+        {
+          "text": "code",
+          "start": 71.4,
+          "end": 71.75
+        },
+        {
+          "text": "instead",
+          "start": 71.75,
+          "end": 72.113
+        },
+        {
+          "text": "of",
+          "start": 72.113,
+          "end": 72.187
+        },
+        {
+          "text": "a",
+          "start": 72.187,
+          "end": 72.25
+        },
+        {
+          "text": "pile",
+          "start": 72.25,
+          "end": 72.562
+        },
+        {
+          "text": "of",
+          "start": 72.562,
+          "end": 72.65
+        },
+        {
+          "text": "surprises",
+          "start": 72.65,
+          "end": 73.825
+        },
+        {
+          "text": ".",
+          "start": 73.825,
+          "end": 74.025
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "p",
+      "text": "This isn't theory. Teams that shift left ship 10× faster because they spend less time in QA triage. Here's how to wire it up.",
+      "start": 74.345,
+      "end": 82.82,
+      "words": [
+        {
+          "text": "This",
+          "start": 74.595,
+          "end": 74.795
+        },
+        {
+          "text": "isn't",
+          "start": 74.795,
+          "end": 75.095
+        },
+        {
+          "text": "theory",
+          "start": 75.095,
+          "end": 75.795
+        },
+        {
+          "text": ".",
+          "start": 75.795,
+          "end": 75.907
+        },
+        {
+          "text": "Teams",
+          "start": 75.907,
+          "end": 76.258
+        },
+        {
+          "text": "that",
+          "start": 76.258,
+          "end": 76.457
+        },
+        {
+          "text": "shift",
+          "start": 76.457,
+          "end": 76.745
+        },
+        {
+          "text": "left",
+          "start": 76.745,
+          "end": 77.033
+        },
+        {
+          "text": "ship",
+          "start": 77.033,
+          "end": 77.27
+        },
+        {
+          "text": "10×",
+          "start": 77.27,
+          "end": 77.895
+        },
+        {
+          "text": "faster",
+          "start": 77.895,
+          "end": 78.345
+        },
+        {
+          "text": "because",
+          "start": 78.345,
+          "end": 78.608
+        },
+        {
+          "text": "they",
+          "start": 78.608,
+          "end": 78.745
+        },
+        {
+          "text": "spend",
+          "start": 78.745,
+          "end": 78.995
+        },
+        {
+          "text": "less",
+          "start": 78.995,
+          "end": 79.22
+        },
+        {
+          "text": "time",
+          "start": 79.22,
+          "end": 79.507
+        },
+        {
+          "text": "in",
+          "start": 79.507,
+          "end": 79.645
+        },
+        {
+          "text": "QA",
+          "start": 79.645,
+          "end": 79.97
+        },
+        {
+          "text": "triage",
+          "start": 79.97,
+          "end": 80.895
+        },
+        {
+          "text": ".",
+          "start": 80.895,
+          "end": 81.033
+        },
+        {
+          "text": "Here's",
+          "start": 81.033,
+          "end": 81.32
+        },
+        {
+          "text": "how",
+          "start": 81.32,
+          "end": 81.47
+        },
+        {
+          "text": "to",
+          "start": 81.47,
+          "end": 81.57
+        },
+        {
+          "text": "wire",
+          "start": 81.57,
+          "end": 81.808
+        },
+        {
+          "text": "it",
+          "start": 81.808,
+          "end": 81.92
+        },
+        {
+          "text": "up",
+          "start": 81.92,
+          "end": 82.62
+        },
+        {
+          "text": ".",
+          "start": 82.62,
+          "end": 82.82
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "h2",
+      "text": "Benefits of Shift Left with Early Regression Testing",
+      "start": 83.14,
+      "end": 86.69,
+      "words": [
+        {
+          "text": "Benefits",
+          "start": 83.39,
+          "end": 83.853
+        },
+        {
+          "text": "of",
+          "start": 83.853,
+          "end": 83.978
+        },
+        {
+          "text": "Shift",
+          "start": 83.978,
+          "end": 84.402
+        },
+        {
+          "text": "Left",
+          "start": 84.402,
+          "end": 84.728
+        },
+        {
+          "text": "with",
+          "start": 84.728,
+          "end": 84.902
+        },
+        {
+          "text": "Early",
+          "start": 84.902,
+          "end": 85.215
+        },
+        {
+          "text": "Regression",
+          "start": 85.215,
+          "end": 85.715
+        },
+        {
+          "text": "Testing",
+          "start": 85.715,
+          "end": 86.69
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "li",
+      "text": "Early Detection of Issues: By embedding regression tests early, we can identify and address defects as new features are developed, reducing the risk of issues in later stages.",
+      "start": 87.135,
+      "end": 98.135,
+      "words": [
+        {
+          "text": "Early",
+          "start": 87.41,
+          "end": 87.685
+        },
+        {
+          "text": "Detection",
+          "start": 87.685,
+          "end": 88.148
+        },
+        {
+          "text": "of",
+          "start": 88.148,
+          "end": 88.223
+        },
+        {
+          "text": "Issues",
+          "start": 88.223,
+          "end": 89.135
+        },
+        {
+          "text": ":",
+          "start": 89.135,
+          "end": 89.235
+        },
+        {
+          "text": "By",
+          "start": 89.235,
+          "end": 89.435
+        },
+        {
+          "text": "embedding",
+          "start": 89.435,
+          "end": 89.885
+        },
+        {
+          "text": "regression",
+          "start": 89.885,
+          "end": 90.385
+        },
+        {
+          "text": "tests",
+          "start": 90.385,
+          "end": 90.735
+        },
+        {
+          "text": "early",
+          "start": 90.735,
+          "end": 91.335
+        },
+        {
+          "text": ",",
+          "start": 91.335,
+          "end": 91.435
+        },
+        {
+          "text": "we",
+          "start": 91.435,
+          "end": 91.56
+        },
+        {
+          "text": "can",
+          "start": 91.56,
+          "end": 91.685
+        },
+        {
+          "text": "identify",
+          "start": 91.685,
+          "end": 92.335
+        },
+        {
+          "text": "and",
+          "start": 92.335,
+          "end": 92.447
+        },
+        {
+          "text": "address",
+          "start": 92.447,
+          "end": 92.76
+        },
+        {
+          "text": "defects",
+          "start": 92.76,
+          "end": 93.31
+        },
+        {
+          "text": "as",
+          "start": 93.31,
+          "end": 93.46
+        },
+        {
+          "text": "new",
+          "start": 93.46,
+          "end": 93.648
+        },
+        {
+          "text": "features",
+          "start": 93.648,
+          "end": 94.072
+        },
+        {
+          "text": "are",
+          "start": 94.072,
+          "end": 94.16
+        },
+        {
+          "text": "developed",
+          "start": 94.16,
+          "end": 95.01
+        },
+        {
+          "text": ",",
+          "start": 95.01,
+          "end": 95.11
+        },
+        {
+          "text": "reducing",
+          "start": 95.11,
+          "end": 95.572
+        },
+        {
+          "text": "the",
+          "start": 95.572,
+          "end": 95.66
+        },
+        {
+          "text": "risk",
+          "start": 95.66,
+          "end": 95.923
+        },
+        {
+          "text": "of",
+          "start": 95.923,
+          "end": 96.01
+        },
+        {
+          "text": "issues",
+          "start": 96.01,
+          "end": 96.435
+        },
+        {
+          "text": "in",
+          "start": 96.435,
+          "end": 96.56
+        },
+        {
+          "text": "later",
+          "start": 96.56,
+          "end": 96.86
+        },
+        {
+          "text": "stages",
+          "start": 96.86,
+          "end": 97.935
+        },
+        {
+          "text": ".",
+          "start": 97.935,
+          "end": 98.135
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "li",
+      "text": "Continuous Quality Assurance: Integrating the regression suite from the start ensures continuous QA, maintaining high standards throughout the development process.",
+      "start": 98.455,
+      "end": 108.58,
+      "words": [
+        {
+          "text": "Continuous",
+          "start": 98.705,
+          "end": 99.28
+        },
+        {
+          "text": "Quality",
+          "start": 99.28,
+          "end": 99.73
+        },
+        {
+          "text": "Assurance",
+          "start": 99.73,
+          "end": 100.68
+        },
+        {
+          "text": ":",
+          "start": 100.68,
+          "end": 100.805
+        },
+        {
+          "text": "Integrating",
+          "start": 100.805,
+          "end": 101.417
+        },
+        {
+          "text": "the",
+          "start": 101.417,
+          "end": 101.505
+        },
+        {
+          "text": "regression",
+          "start": 101.505,
+          "end": 102.055
+        },
+        {
+          "text": "suite",
+          "start": 102.055,
+          "end": 102.33
+        },
+        {
+          "text": "from",
+          "start": 102.33,
+          "end": 102.467
+        },
+        {
+          "text": "the",
+          "start": 102.467,
+          "end": 102.555
+        },
+        {
+          "text": "start",
+          "start": 102.555,
+          "end": 103.042
+        },
+        {
+          "text": "ensures",
+          "start": 103.042,
+          "end": 103.555
+        },
+        {
+          "text": "continuous",
+          "start": 103.555,
+          "end": 104.13
+        },
+        {
+          "text": "QA",
+          "start": 104.13,
+          "end": 104.905
+        },
+        {
+          "text": ",",
+          "start": 104.905,
+          "end": 105.03
+        },
+        {
+          "text": "maintaining",
+          "start": 105.03,
+          "end": 105.63
+        },
+        {
+          "text": "high",
+          "start": 105.63,
+          "end": 105.855
+        },
+        {
+          "text": "standards",
+          "start": 105.855,
+          "end": 106.392
+        },
+        {
+          "text": "throughout",
+          "start": 106.392,
+          "end": 106.692
+        },
+        {
+          "text": "the",
+          "start": 106.692,
+          "end": 106.78
+        },
+        {
+          "text": "development",
+          "start": 106.78,
+          "end": 107.305
+        },
+        {
+          "text": "process",
+          "start": 107.305,
+          "end": 108.38
+        },
+        {
+          "text": ".",
+          "start": 108.38,
+          "end": 108.58
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "li",
+      "text": "Improved Efficiency: Early testing helps catch and fix issues sooner, leading to more efficient development cycles and faster time-to-market.",
+      "start": 108.9,
+      "end": 117.85,
+      "words": [
+        {
+          "text": "Improved",
+          "start": 109.175,
+          "end": 109.613
+        },
+        {
+          "text": "Efficiency",
+          "start": 109.613,
+          "end": 110.7
+        },
+        {
+          "text": ":",
+          "start": 110.7,
+          "end": 110.862
+        },
+        {
+          "text": "Early",
+          "start": 110.862,
+          "end": 111.175
+        },
+        {
+          "text": "testing",
+          "start": 111.175,
+          "end": 111.625
+        },
+        {
+          "text": "helps",
+          "start": 111.625,
+          "end": 111.938
+        },
+        {
+          "text": "catch",
+          "start": 111.938,
+          "end": 112.262
+        },
+        {
+          "text": "and",
+          "start": 112.262,
+          "end": 112.387
+        },
+        {
+          "text": "fix",
+          "start": 112.387,
+          "end": 112.663
+        },
+        {
+          "text": "issues",
+          "start": 112.663,
+          "end": 113.038
+        },
+        {
+          "text": "sooner",
+          "start": 113.038,
+          "end": 113.625
+        },
+        {
+          "text": ",",
+          "start": 113.625,
+          "end": 113.75
+        },
+        {
+          "text": "leading",
+          "start": 113.75,
+          "end": 114.05
+        },
+        {
+          "text": "to",
+          "start": 114.05,
+          "end": 114.15
+        },
+        {
+          "text": "more",
+          "start": 114.15,
+          "end": 114.35
+        },
+        {
+          "text": "efficient",
+          "start": 114.35,
+          "end": 114.775
+        },
+        {
+          "text": "development",
+          "start": 114.775,
+          "end": 115.3
+        },
+        {
+          "text": "cycles",
+          "start": 115.3,
+          "end": 115.8
+        },
+        {
+          "text": "and",
+          "start": 115.8,
+          "end": 115.925
+        },
+        {
+          "text": "faster",
+          "start": 115.925,
+          "end": 116.325
+        },
+        {
+          "text": "time-to-market",
+          "start": 116.325,
+          "end": 117.65
+        },
+        {
+          "text": ".",
+          "start": 117.65,
+          "end": 117.85
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "li",
+      "text": "Reduced Technical Debt: Proactively addressing defects early minimizes technical debt, resulting in a more stable and maintainable codebase.",
+      "start": 118.17,
+      "end": 127.27,
+      "words": [
+        {
+          "text": "Reduced",
+          "start": 118.42,
+          "end": 118.845
+        },
+        {
+          "text": "Technical",
+          "start": 118.845,
+          "end": 119.32
+        },
+        {
+          "text": "Debt",
+          "start": 119.32,
+          "end": 119.995
+        },
+        {
+          "text": ":",
+          "start": 119.995,
+          "end": 120.095
+        },
+        {
+          "text": "Proactively",
+          "start": 120.095,
+          "end": 120.745
+        },
+        {
+          "text": "addressing",
+          "start": 120.745,
+          "end": 121.195
+        },
+        {
+          "text": "defects",
+          "start": 121.195,
+          "end": 121.708
+        },
+        {
+          "text": "early",
+          "start": 121.708,
+          "end": 122.02
+        },
+        {
+          "text": "minimizes",
+          "start": 122.02,
+          "end": 122.595
+        },
+        {
+          "text": "technical",
+          "start": 122.595,
+          "end": 123.095
+        },
+        {
+          "text": "debt",
+          "start": 123.095,
+          "end": 123.695
+        },
+        {
+          "text": ",",
+          "start": 123.695,
+          "end": 123.795
+        },
+        {
+          "text": "resulting",
+          "start": 123.795,
+          "end": 124.32
+        },
+        {
+          "text": "in",
+          "start": 124.32,
+          "end": 124.408
+        },
+        {
+          "text": "a",
+          "start": 124.408,
+          "end": 124.47
+        },
+        {
+          "text": "more",
+          "start": 124.47,
+          "end": 124.67
+        },
+        {
+          "text": "stable",
+          "start": 124.67,
+          "end": 125.12
+        },
+        {
+          "text": "and",
+          "start": 125.12,
+          "end": 125.245
+        },
+        {
+          "text": "maintainable",
+          "start": 125.245,
+          "end": 125.945
+        },
+        {
+          "text": "codebase",
+          "start": 125.945,
+          "end": 127.07
+        },
+        {
+          "text": ".",
+          "start": 127.07,
+          "end": 127.27
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "##Implementation To successfully implement this approach, we will: • Embed Regression Suite Early: Integrate the existing regression suite into the development process when creating or adding new features. • Automate Testing: Utilize automated testing tools to run regression tests continuously. • Promote Collaboration: Encourage collaboration between developers and testers to ensure alignment on quality standards and requirements.",
+      "start": 127.59,
+      "end": 152.89,
+      "words": [
+        {
+          "text": "Implementation",
+          "start": 127.84,
+          "end": 128.64
+        },
+        {
+          "text": "To",
+          "start": 128.64,
+          "end": 128.74
+        },
+        {
+          "text": "successfully",
+          "start": 128.74,
+          "end": 129.39
+        },
+        {
+          "text": "implement",
+          "start": 129.39,
+          "end": 129.84
+        },
+        {
+          "text": "this",
+          "start": 129.84,
+          "end": 130.015
+        },
+        {
+          "text": "approach",
+          "start": 130.015,
+          "end": 130.49
+        },
+        {
+          "text": ",",
+          "start": 130.49,
+          "end": 130.565
+        },
+        {
+          "text": "we",
+          "start": 130.565,
+          "end": 130.69
+        },
+        {
+          "text": "will",
+          "start": 130.69,
+          "end": 131.365
+        },
+        {
+          "text": ":",
+          "start": 131.365,
+          "end": 131.49
+        },
+        {
+          "text": "Embed",
+          "start": 131.54,
+          "end": 131.915
+        },
+        {
+          "text": "Regression",
+          "start": 131.915,
+          "end": 132.515
+        },
+        {
+          "text": "Suite",
+          "start": 132.515,
+          "end": 132.827
+        },
+        {
+          "text": "Early",
+          "start": 132.827,
+          "end": 133.515
+        },
+        {
+          "text": ":",
+          "start": 133.515,
+          "end": 133.577
+        },
+        {
+          "text": "Integrate",
+          "start": 133.577,
+          "end": 134.027
+        },
+        {
+          "text": "the",
+          "start": 134.027,
+          "end": 134.165
+        },
+        {
+          "text": "existing",
+          "start": 134.165,
+          "end": 134.59
+        },
+        {
+          "text": "regression",
+          "start": 134.59,
+          "end": 135.152
+        },
+        {
+          "text": "suite",
+          "start": 135.152,
+          "end": 135.402
+        },
+        {
+          "text": "into",
+          "start": 135.402,
+          "end": 135.602
+        },
+        {
+          "text": "the",
+          "start": 135.602,
+          "end": 135.702
+        },
+        {
+          "text": "development",
+          "start": 135.702,
+          "end": 136.24
+        },
+        {
+          "text": "process",
+          "start": 136.24,
+          "end": 136.752
+        },
+        {
+          "text": "when",
+          "start": 136.752,
+          "end": 136.915
+        },
+        {
+          "text": "creating",
+          "start": 136.915,
+          "end": 137.49
+        },
+        {
+          "text": "or",
+          "start": 137.49,
+          "end": 137.652
+        },
+        {
+          "text": "adding",
+          "start": 137.652,
+          "end": 137.952
+        },
+        {
+          "text": "new",
+          "start": 137.952,
+          "end": 138.127
+        },
+        {
+          "text": "features",
+          "start": 138.127,
+          "end": 139.365
+        },
+        {
+          "text": ".",
+          "start": 139.365,
+          "end": 139.44
+        },
+        {
+          "text": "Automate",
+          "start": 139.477,
+          "end": 139.965
+        },
+        {
+          "text": "Testing",
+          "start": 139.965,
+          "end": 140.79
+        },
+        {
+          "text": ":",
+          "start": 140.79,
+          "end": 140.827
+        },
+        {
+          "text": "Utilize",
+          "start": 140.827,
+          "end": 141.327
+        },
+        {
+          "text": "automated",
+          "start": 141.327,
+          "end": 141.89
+        },
+        {
+          "text": "testing",
+          "start": 141.89,
+          "end": 142.29
+        },
+        {
+          "text": "tools",
+          "start": 142.29,
+          "end": 142.665
+        },
+        {
+          "text": "to",
+          "start": 142.665,
+          "end": 142.79
+        },
+        {
+          "text": "run",
+          "start": 142.79,
+          "end": 143.015
+        },
+        {
+          "text": "regression",
+          "start": 143.015,
+          "end": 143.527
+        },
+        {
+          "text": "tests",
+          "start": 143.527,
+          "end": 143.865
+        },
+        {
+          "text": "Promote",
+          "start": 145.69,
+          "end": 146.165
+        },
+        {
+          "text": "Collaboration",
+          "start": 146.165,
+          "end": 147.515
+        },
+        {
+          "text": ":",
+          "start": 147.515,
+          "end": 147.603
+        },
+        {
+          "text": "Encourage",
+          "start": 147.603,
+          "end": 148.115
+        },
+        {
+          "text": "collaboration",
+          "start": 148.115,
+          "end": 148.815
+        },
+        {
+          "text": "between",
+          "start": 148.815,
+          "end": 149.14
+        },
+        {
+          "text": "developers",
+          "start": 149.14,
+          "end": 149.728
+        },
+        {
+          "text": "and",
+          "start": 149.728,
+          "end": 149.89
+        },
+        {
+          "text": "testers",
+          "start": 149.89,
+          "end": 150.64
+        },
+        {
+          "text": "to",
+          "start": 150.64,
+          "end": 150.815
+        },
+        {
+          "text": "ensure",
+          "start": 150.815,
+          "end": 151.19
+        },
+        {
+          "text": "alignment",
+          "start": 151.19,
+          "end": 151.627
+        },
+        {
+          "text": "on",
+          "start": 151.627,
+          "end": 151.802
+        },
+        {
+          "text": "quality",
+          "start": 151.802,
+          "end": 152.265
+        },
+        {
+          "text": "standards",
+          "start": 152.265,
+          "end": 152.777
+        },
+        {
+          "text": "and",
+          "start": 152.777,
+          "end": 152.89
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h2",
+      "text": "Approach",
+      "start": 154.51,
+      "end": 155.31,
+      "words": [
+        {
+          "text": "Approach",
+          "start": 154.76,
+          "end": 155.31
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "li",
+      "text": "You can integrate the QA regression suite as a dependent project (.csproj) within your solution file (.sln).",
+      "start": 155.73,
+      "end": 163.08,
+      "words": [
+        {
+          "text": "You",
+          "start": 155.98,
+          "end": 156.092
+        },
+        {
+          "text": "can",
+          "start": 156.092,
+          "end": 156.205
+        },
+        {
+          "text": "integrate",
+          "start": 156.205,
+          "end": 156.642
+        },
+        {
+          "text": "the",
+          "start": 156.642,
+          "end": 156.73
+        },
+        {
+          "text": "QA",
+          "start": 156.73,
+          "end": 157.105
+        },
+        {
+          "text": "regression",
+          "start": 157.105,
+          "end": 157.605
+        },
+        {
+          "text": "suite",
+          "start": 157.605,
+          "end": 157.93
+        },
+        {
+          "text": "as",
+          "start": 157.93,
+          "end": 158.042
+        },
+        {
+          "text": "a",
+          "start": 158.042,
+          "end": 158.105
+        },
+        {
+          "text": "dependent",
+          "start": 158.105,
+          "end": 158.63
+        },
+        {
+          "text": "project",
+          "start": 158.63,
+          "end": 159.493
+        },
+        {
+          "text": "(",
+          "start": 159.493,
+          "end": 159.555
+        },
+        {
+          "text": ".csproj",
+          "start": 159.555,
+          "end": 160.23
+        },
+        {
+          "text": ")",
+          "start": 160.23,
+          "end": 160.305
+        },
+        {
+          "text": "within",
+          "start": 160.305,
+          "end": 160.555
+        },
+        {
+          "text": "your",
+          "start": 160.555,
+          "end": 160.705
+        },
+        {
+          "text": "solution",
+          "start": 160.705,
+          "end": 161.142
+        },
+        {
+          "text": "file",
+          "start": 161.142,
+          "end": 161.68
+        },
+        {
+          "text": "(",
+          "start": 161.68,
+          "end": 161.73
+        },
+        {
+          "text": ".sln",
+          "start": 161.73,
+          "end": 162.755
+        },
+        {
+          "text": ")",
+          "start": 162.755,
+          "end": 163.005
+        },
+        {
+          "text": ".",
+          "start": 163.005,
+          "end": 163.08
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "li",
+      "text": "Modify the configuration .runsetting to point to localhost and add the following code:",
+      "start": 163.4,
+      "end": 169.025,
+      "words": [
+        {
+          "text": "Modify",
+          "start": 163.675,
+          "end": 164.125
+        },
+        {
+          "text": "the",
+          "start": 164.125,
+          "end": 164.225
+        },
+        {
+          "text": "configuration",
+          "start": 164.225,
+          "end": 165.363
+        },
+        {
+          "text": ".runsetting",
+          "start": 165.363,
+          "end": 165.95
+        },
+        {
+          "text": "to",
+          "start": 165.95,
+          "end": 166.05
+        },
+        {
+          "text": "point",
+          "start": 166.05,
+          "end": 166.325
+        },
+        {
+          "text": "to",
+          "start": 166.325,
+          "end": 166.425
+        },
+        {
+          "text": "localhost",
+          "start": 166.425,
+          "end": 167.15
+        },
+        {
+          "text": "and",
+          "start": 167.15,
+          "end": 167.275
+        },
+        {
+          "text": "add",
+          "start": 167.275,
+          "end": 167.462
+        },
+        {
+          "text": "the",
+          "start": 167.462,
+          "end": 167.55
+        },
+        {
+          "text": "following",
+          "start": 167.55,
+          "end": 167.975
+        },
+        {
+          "text": "code",
+          "start": 167.975,
+          "end": 168.825
+        },
+        {
+          "text": ":",
+          "start": 168.825,
+          "end": 169.025
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "To automatically start the Express.js server as a precondition in your C# Startup class, you can use the Process class in .NET to run the Node.js server. This way, the server will start when your application starts. Here's how you can do it:",
+      "start": 169.345,
+      "end": 184.62,
+      "words": [
+        {
+          "text": "To",
+          "start": 169.62,
+          "end": 169.745
+        },
+        {
+          "text": "automatically",
+          "start": 169.745,
+          "end": 170.42
+        },
+        {
+          "text": "start",
+          "start": 170.42,
+          "end": 170.757
+        },
+        {
+          "text": "the",
+          "start": 170.757,
+          "end": 170.845
+        },
+        {
+          "text": "Express.js",
+          "start": 170.845,
+          "end": 172.27
+        },
+        {
+          "text": "server",
+          "start": 172.27,
+          "end": 172.62
+        },
+        {
+          "text": "as",
+          "start": 172.62,
+          "end": 172.733
+        },
+        {
+          "text": "a",
+          "start": 172.733,
+          "end": 172.795
+        },
+        {
+          "text": "precondition",
+          "start": 172.795,
+          "end": 173.433
+        },
+        {
+          "text": "in",
+          "start": 173.433,
+          "end": 173.507
+        },
+        {
+          "text": "your",
+          "start": 173.507,
+          "end": 173.707
+        },
+        {
+          "text": "C#",
+          "start": 173.707,
+          "end": 174.17
+        },
+        {
+          "text": "Startup",
+          "start": 174.17,
+          "end": 174.57
+        },
+        {
+          "text": "class",
+          "start": 174.57,
+          "end": 175.22
+        },
+        {
+          "text": ",",
+          "start": 175.22,
+          "end": 175.32
+        },
+        {
+          "text": "you",
+          "start": 175.32,
+          "end": 175.433
+        },
+        {
+          "text": "can",
+          "start": 175.433,
+          "end": 175.545
+        },
+        {
+          "text": "use",
+          "start": 175.545,
+          "end": 175.757
+        },
+        {
+          "text": "the",
+          "start": 175.757,
+          "end": 175.845
+        },
+        {
+          "text": "Process",
+          "start": 175.845,
+          "end": 176.295
+        },
+        {
+          "text": "class",
+          "start": 176.295,
+          "end": 176.645
+        },
+        {
+          "text": "in",
+          "start": 176.645,
+          "end": 176.77
+        },
+        {
+          "text": ".NET",
+          "start": 176.77,
+          "end": 177.02
+        },
+        {
+          "text": "to",
+          "start": 177.02,
+          "end": 177.12
+        },
+        {
+          "text": "run",
+          "start": 177.12,
+          "end": 177.308
+        },
+        {
+          "text": "the",
+          "start": 177.308,
+          "end": 177.395
+        },
+        {
+          "text": "Node.js",
+          "start": 177.395,
+          "end": 178.457
+        },
+        {
+          "text": "server",
+          "start": 178.457,
+          "end": 179.245
+        },
+        {
+          "text": ".",
+          "start": 179.245,
+          "end": 179.382
+        },
+        {
+          "text": "This",
+          "start": 179.382,
+          "end": 179.62
+        },
+        {
+          "text": "way",
+          "start": 179.62,
+          "end": 179.845
+        },
+        {
+          "text": ",",
+          "start": 179.845,
+          "end": 179.882
+        },
+        {
+          "text": "the",
+          "start": 179.882,
+          "end": 179.982
+        },
+        {
+          "text": "server",
+          "start": 179.982,
+          "end": 180.332
+        },
+        {
+          "text": "will",
+          "start": 180.332,
+          "end": 180.47
+        },
+        {
+          "text": "start",
+          "start": 180.47,
+          "end": 180.808
+        },
+        {
+          "text": "when",
+          "start": 180.808,
+          "end": 180.945
+        },
+        {
+          "text": "your",
+          "start": 180.945,
+          "end": 181.12
+        },
+        {
+          "text": "application",
+          "start": 181.12,
+          "end": 181.77
+        },
+        {
+          "text": "starts",
+          "start": 181.77,
+          "end": 182.67
+        },
+        {
+          "text": ".",
+          "start": 182.67,
+          "end": 182.783
+        },
+        {
+          "text": "Here's",
+          "start": 182.783,
+          "end": 183.12
+        },
+        {
+          "text": "how",
+          "start": 183.12,
+          "end": 183.295
+        },
+        {
+          "text": "you",
+          "start": 183.295,
+          "end": 183.42
+        },
+        {
+          "text": "can",
+          "start": 183.42,
+          "end": 183.57
+        },
+        {
+          "text": "do",
+          "start": 183.57,
+          "end": 183.757
+        },
+        {
+          "text": "it",
+          "start": 183.757,
+          "end": 184.42
+        },
+        {
+          "text": ":",
+          "start": 184.42,
+          "end": 184.62
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h3",
+      "text": "Step-by-Step Guide",
+      "start": 184.94,
+      "end": 186.665,
+      "words": [
+        {
+          "text": "Step-by-Step",
+          "start": 185.19,
+          "end": 185.915
+        },
+        {
+          "text": "Guide",
+          "start": 185.915,
+          "end": 186.665
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "li",
+      "text": "Modify the Startup class: Update your Startup class to include a method that starts the Express.js server. This method will be called during the service configuration.",
+      "start": 187.285,
+      "end": 197.91,
+      "words": [
+        {
+          "text": "Modify",
+          "start": 187.56,
+          "end": 188.01
+        },
+        {
+          "text": "the",
+          "start": 188.01,
+          "end": 188.11
+        },
+        {
+          "text": "Startup",
+          "start": 188.11,
+          "end": 188.585
+        },
+        {
+          "text": "class",
+          "start": 188.585,
+          "end": 189.285
+        },
+        {
+          "text": ":",
+          "start": 189.285,
+          "end": 189.385
+        },
+        {
+          "text": "Update",
+          "start": 189.385,
+          "end": 189.798
+        },
+        {
+          "text": "your",
+          "start": 189.798,
+          "end": 189.91
+        },
+        {
+          "text": "Startup",
+          "start": 189.91,
+          "end": 190.36
+        },
+        {
+          "text": "class",
+          "start": 190.36,
+          "end": 190.71
+        },
+        {
+          "text": "to",
+          "start": 190.71,
+          "end": 190.798
+        },
+        {
+          "text": "include",
+          "start": 190.798,
+          "end": 191.173
+        },
+        {
+          "text": "a",
+          "start": 191.173,
+          "end": 191.235
+        },
+        {
+          "text": "method",
+          "start": 191.235,
+          "end": 191.61
+        },
+        {
+          "text": "that",
+          "start": 191.61,
+          "end": 191.735
+        },
+        {
+          "text": "starts",
+          "start": 191.735,
+          "end": 192.147
+        },
+        {
+          "text": "the",
+          "start": 192.147,
+          "end": 192.235
+        },
+        {
+          "text": "Express.js",
+          "start": 192.235,
+          "end": 193.673
+        },
+        {
+          "text": "server",
+          "start": 193.673,
+          "end": 194.46
+        },
+        {
+          "text": ".",
+          "start": 194.46,
+          "end": 194.597
+        },
+        {
+          "text": "This",
+          "start": 194.597,
+          "end": 194.835
+        },
+        {
+          "text": "method",
+          "start": 194.835,
+          "end": 195.147
+        },
+        {
+          "text": "will",
+          "start": 195.147,
+          "end": 195.248
+        },
+        {
+          "text": "be",
+          "start": 195.248,
+          "end": 195.36
+        },
+        {
+          "text": "called",
+          "start": 195.36,
+          "end": 195.685
+        },
+        {
+          "text": "during",
+          "start": 195.685,
+          "end": 195.922
+        },
+        {
+          "text": "the",
+          "start": 195.922,
+          "end": 196.023
+        },
+        {
+          "text": "service",
+          "start": 196.023,
+          "end": 196.435
+        },
+        {
+          "text": "configuration",
+          "start": 196.435,
+          "end": 197.735
+        },
+        {
+          "text": ".",
+          "start": 197.735,
+          "end": 197.91
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "h3",
+      "text": "Explanation",
+      "start": 198.23,
+      "end": 199.53,
+      "words": [
+        {
+          "text": "Explanation",
+          "start": 198.455,
+          "end": 199.53
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "StartExpressServer Method: This method uses the Process class to start the Node.js server. It sets up the process to run node server.js in the specified working directory.",
+      "start": 200.075,
+      "end": 211.875,
+      "words": [
+        {
+          "text": "StartExpressServer",
+          "start": 200.35,
+          "end": 201.325
+        },
+        {
+          "text": "Method",
+          "start": 201.325,
+          "end": 202.075
+        },
+        {
+          "text": ":",
+          "start": 202.075,
+          "end": 202.175
+        },
+        {
+          "text": "This",
+          "start": 202.175,
+          "end": 202.4
+        },
+        {
+          "text": "method",
+          "start": 202.4,
+          "end": 202.775
+        },
+        {
+          "text": "uses",
+          "start": 202.775,
+          "end": 203.113
+        },
+        {
+          "text": "the",
+          "start": 203.113,
+          "end": 203.2
+        },
+        {
+          "text": "Process",
+          "start": 203.2,
+          "end": 203.65
+        },
+        {
+          "text": "class",
+          "start": 203.65,
+          "end": 204.0
+        },
+        {
+          "text": "to",
+          "start": 204.0,
+          "end": 204.125
+        },
+        {
+          "text": "start",
+          "start": 204.125,
+          "end": 204.437
+        },
+        {
+          "text": "the",
+          "start": 204.437,
+          "end": 204.525
+        },
+        {
+          "text": "Node.js",
+          "start": 204.525,
+          "end": 205.738
+        },
+        {
+          "text": "server",
+          "start": 205.738,
+          "end": 206.425
+        },
+        {
+          "text": ".",
+          "start": 206.425,
+          "end": 206.55
+        },
+        {
+          "text": "It",
+          "start": 206.55,
+          "end": 206.7
+        },
+        {
+          "text": "sets",
+          "start": 206.7,
+          "end": 206.937
+        },
+        {
+          "text": "up",
+          "start": 206.937,
+          "end": 207.038
+        },
+        {
+          "text": "the",
+          "start": 207.038,
+          "end": 207.125
+        },
+        {
+          "text": "process",
+          "start": 207.125,
+          "end": 207.625
+        },
+        {
+          "text": "to",
+          "start": 207.625,
+          "end": 207.75
+        },
+        {
+          "text": "run",
+          "start": 207.75,
+          "end": 208.0
+        },
+        {
+          "text": "node",
+          "start": 208.0,
+          "end": 208.288
+        },
+        {
+          "text": "server.js",
+          "start": 208.288,
+          "end": 209.475
+        },
+        {
+          "text": "in",
+          "start": 209.475,
+          "end": 209.563
+        },
+        {
+          "text": "the",
+          "start": 209.563,
+          "end": 209.65
+        },
+        {
+          "text": "specified",
+          "start": 209.65,
+          "end": 210.275
+        },
+        {
+          "text": "working",
+          "start": 210.275,
+          "end": 210.625
+        },
+        {
+          "text": "directory",
+          "start": 210.625,
+          "end": 211.675
+        },
+        {
+          "text": ".",
+          "start": 211.675,
+          "end": 211.875
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "Environment Check: The CreateServices method checks if the environment is \"Development\" and starts the Express.js server if it is.",
+      "start": 212.195,
+      "end": 220.795,
+      "words": [
+        {
+          "text": "Environment",
+          "start": 212.47,
+          "end": 213.058
+        },
+        {
+          "text": "Check",
+          "start": 213.058,
+          "end": 213.645
+        },
+        {
+          "text": ":",
+          "start": 213.645,
+          "end": 213.745
+        },
+        {
+          "text": "The",
+          "start": 213.745,
+          "end": 213.845
+        },
+        {
+          "text": "CreateServices",
+          "start": 213.845,
+          "end": 214.67
+        },
+        {
+          "text": "method",
+          "start": 214.67,
+          "end": 215.032
+        },
+        {
+          "text": "checks",
+          "start": 215.032,
+          "end": 215.395
+        },
+        {
+          "text": "if",
+          "start": 215.395,
+          "end": 215.508
+        },
+        {
+          "text": "the",
+          "start": 215.508,
+          "end": 215.645
+        },
+        {
+          "text": "environment",
+          "start": 215.645,
+          "end": 216.27
+        },
+        {
+          "text": "is",
+          "start": 216.27,
+          "end": 216.408
+        },
+        {
+          "text": "\"",
+          "start": 216.408,
+          "end": 216.445
+        },
+        {
+          "text": "Development",
+          "start": 216.445,
+          "end": 217.045
+        },
+        {
+          "text": "\"",
+          "start": 217.045,
+          "end": 217.12
+        },
+        {
+          "text": "and",
+          "start": 217.12,
+          "end": 217.245
+        },
+        {
+          "text": "starts",
+          "start": 217.245,
+          "end": 217.658
+        },
+        {
+          "text": "the",
+          "start": 217.658,
+          "end": 217.745
+        },
+        {
+          "text": "Express.js",
+          "start": 217.745,
+          "end": 219.245
+        },
+        {
+          "text": "server",
+          "start": 219.245,
+          "end": 219.595
+        },
+        {
+          "text": "if",
+          "start": 219.595,
+          "end": 219.707
+        },
+        {
+          "text": "it",
+          "start": 219.707,
+          "end": 219.832
+        },
+        {
+          "text": "is",
+          "start": 219.832,
+          "end": 220.595
+        },
+        {
+          "text": ".",
+          "start": 220.595,
+          "end": 220.795
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h3",
+      "text": "How to Run",
+      "start": 221.115,
+      "end": 222.265,
+      "words": [
+        {
+          "text": "How",
+          "start": 221.365,
+          "end": 221.565
+        },
+        {
+          "text": "to",
+          "start": 221.565,
+          "end": 221.69
+        },
+        {
+          "text": "Run",
+          "start": 221.69,
+          "end": 222.265
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "li",
+      "text": "Ensure Node.js and Express.js are set up: Make sure your Express.js server is correctly set up and can be started with node server.js.",
+      "start": 222.835,
+      "end": 232.635,
+      "words": [
+        {
+          "text": "Ensure",
+          "start": 223.11,
+          "end": 223.485
+        },
+        {
+          "text": "Node.js",
+          "start": 223.485,
+          "end": 224.373
+        },
+        {
+          "text": "and",
+          "start": 224.373,
+          "end": 224.485
+        },
+        {
+          "text": "Express.js",
+          "start": 224.485,
+          "end": 225.722
+        },
+        {
+          "text": "are",
+          "start": 225.722,
+          "end": 225.81
+        },
+        {
+          "text": "set",
+          "start": 225.81,
+          "end": 226.022
+        },
+        {
+          "text": "up",
+          "start": 226.022,
+          "end": 226.235
+        },
+        {
+          "text": ":",
+          "start": 226.235,
+          "end": 226.31
+        },
+        {
+          "text": "Make",
+          "start": 226.31,
+          "end": 226.548
+        },
+        {
+          "text": "sure",
+          "start": 226.548,
+          "end": 226.748
+        },
+        {
+          "text": "your",
+          "start": 226.748,
+          "end": 226.86
+        },
+        {
+          "text": "Express.js",
+          "start": 226.86,
+          "end": 228.235
+        },
+        {
+          "text": "server",
+          "start": 228.235,
+          "end": 228.585
+        },
+        {
+          "text": "is",
+          "start": 228.585,
+          "end": 228.735
+        },
+        {
+          "text": "correctly",
+          "start": 228.735,
+          "end": 229.185
+        },
+        {
+          "text": "set",
+          "start": 229.185,
+          "end": 229.398
+        },
+        {
+          "text": "up",
+          "start": 229.398,
+          "end": 229.572
+        },
+        {
+          "text": "and",
+          "start": 229.572,
+          "end": 229.673
+        },
+        {
+          "text": "can",
+          "start": 229.673,
+          "end": 229.773
+        },
+        {
+          "text": "be",
+          "start": 229.773,
+          "end": 229.885
+        },
+        {
+          "text": "started",
+          "start": 229.885,
+          "end": 230.298
+        },
+        {
+          "text": "with",
+          "start": 230.298,
+          "end": 230.46
+        },
+        {
+          "text": "node",
+          "start": 230.46,
+          "end": 230.735
+        },
+        {
+          "text": "server.js",
+          "start": 230.735,
+          "end": 232.435
+        },
+        {
+          "text": ".",
+          "start": 232.435,
+          "end": 232.635
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "Run your C# application: When you run your C# application, it will automatically start the Express.js server if the environment is set to \"Development\".",
+      "start": 232.955,
+      "end": 243.38,
+      "words": [
+        {
+          "text": "Run",
+          "start": 233.255,
+          "end": 233.505
+        },
+        {
+          "text": "your",
+          "start": 233.505,
+          "end": 233.718
+        },
+        {
+          "text": "C#",
+          "start": 233.718,
+          "end": 234.218
+        },
+        {
+          "text": "application",
+          "start": 234.218,
+          "end": 235.305
+        },
+        {
+          "text": ":",
+          "start": 235.305,
+          "end": 235.405
+        },
+        {
+          "text": "When",
+          "start": 235.405,
+          "end": 235.555
+        },
+        {
+          "text": "you",
+          "start": 235.555,
+          "end": 235.68
+        },
+        {
+          "text": "run",
+          "start": 235.68,
+          "end": 235.93
+        },
+        {
+          "text": "your",
+          "start": 235.93,
+          "end": 236.13
+        },
+        {
+          "text": "C#",
+          "start": 236.13,
+          "end": 236.593
+        },
+        {
+          "text": "application",
+          "start": 236.593,
+          "end": 237.405
+        },
+        {
+          "text": ",",
+          "start": 237.405,
+          "end": 237.48
+        },
+        {
+          "text": "it",
+          "start": 237.48,
+          "end": 237.593
+        },
+        {
+          "text": "will",
+          "start": 237.593,
+          "end": 237.73
+        },
+        {
+          "text": "automatically",
+          "start": 237.73,
+          "end": 238.405
+        },
+        {
+          "text": "start",
+          "start": 238.405,
+          "end": 238.743
+        },
+        {
+          "text": "the",
+          "start": 238.743,
+          "end": 238.83
+        },
+        {
+          "text": "Express.js",
+          "start": 238.83,
+          "end": 240.368
+        },
+        {
+          "text": "server",
+          "start": 240.368,
+          "end": 240.73
+        },
+        {
+          "text": "if",
+          "start": 240.73,
+          "end": 240.843
+        },
+        {
+          "text": "the",
+          "start": 240.843,
+          "end": 240.98
+        },
+        {
+          "text": "environment",
+          "start": 240.98,
+          "end": 241.555
+        },
+        {
+          "text": "is",
+          "start": 241.555,
+          "end": 241.68
+        },
+        {
+          "text": "set",
+          "start": 241.68,
+          "end": 241.93
+        },
+        {
+          "text": "to",
+          "start": 241.93,
+          "end": 242.018
+        },
+        {
+          "text": "\"",
+          "start": 242.018,
+          "end": 242.055
+        },
+        {
+          "text": "Development",
+          "start": 242.055,
+          "end": 243.105
+        },
+        {
+          "text": "\"",
+          "start": 243.105,
+          "end": 243.305
+        },
+        {
+          "text": ".",
+          "start": 243.305,
+          "end": 243.38
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "h3",
+      "text": "Summary",
+      "start": 243.7,
+      "end": 244.475,
+      "words": [
+        {
+          "text": "Summary",
+          "start": 243.975,
+          "end": 244.475
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "This setup ensures that your Express.js server is automatically started as a precondition when running your C# application in the development environment. This allows you to seamlessly integrate your Node.js server with your C# services.",
+      "start": 244.87,
+      "end": 260.295,
+      "words": [
+        {
+          "text": "This",
+          "start": 245.12,
+          "end": 245.295
+        },
+        {
+          "text": "setup",
+          "start": 245.295,
+          "end": 245.72
+        },
+        {
+          "text": "ensures",
+          "start": 245.72,
+          "end": 246.27
+        },
+        {
+          "text": "that",
+          "start": 246.27,
+          "end": 246.395
+        },
+        {
+          "text": "your",
+          "start": 246.395,
+          "end": 246.595
+        },
+        {
+          "text": "Express.js",
+          "start": 246.595,
+          "end": 248.07
+        },
+        {
+          "text": "server",
+          "start": 248.07,
+          "end": 248.42
+        },
+        {
+          "text": "is",
+          "start": 248.42,
+          "end": 248.582
+        },
+        {
+          "text": "automatically",
+          "start": 248.582,
+          "end": 249.27
+        },
+        {
+          "text": "started",
+          "start": 249.27,
+          "end": 249.758
+        },
+        {
+          "text": "as",
+          "start": 249.758,
+          "end": 249.857
+        },
+        {
+          "text": "a",
+          "start": 249.857,
+          "end": 249.92
+        },
+        {
+          "text": "precondition",
+          "start": 249.92,
+          "end": 250.695
+        },
+        {
+          "text": "when",
+          "start": 250.695,
+          "end": 250.87
+        },
+        {
+          "text": "running",
+          "start": 250.87,
+          "end": 251.17
+        },
+        {
+          "text": "your",
+          "start": 251.17,
+          "end": 251.357
+        },
+        {
+          "text": "C#",
+          "start": 251.357,
+          "end": 251.883
+        },
+        {
+          "text": "application",
+          "start": 251.883,
+          "end": 252.545
+        },
+        {
+          "text": "in",
+          "start": 252.545,
+          "end": 252.633
+        },
+        {
+          "text": "the",
+          "start": 252.633,
+          "end": 252.72
+        },
+        {
+          "text": "development",
+          "start": 252.72,
+          "end": 253.27
+        },
+        {
+          "text": "environment",
+          "start": 253.27,
+          "end": 254.445
+        },
+        {
+          "text": ".",
+          "start": 254.445,
+          "end": 254.558
+        },
+        {
+          "text": "This",
+          "start": 254.558,
+          "end": 254.77
+        },
+        {
+          "text": "allows",
+          "start": 254.77,
+          "end": 255.12
+        },
+        {
+          "text": "you",
+          "start": 255.12,
+          "end": 255.245
+        },
+        {
+          "text": "to",
+          "start": 255.245,
+          "end": 255.382
+        },
+        {
+          "text": "seamlessly",
+          "start": 255.382,
+          "end": 255.945
+        },
+        {
+          "text": "integrate",
+          "start": 255.945,
+          "end": 256.495
+        },
+        {
+          "text": "your",
+          "start": 256.495,
+          "end": 256.67
+        },
+        {
+          "text": "Node.js",
+          "start": 256.67,
+          "end": 257.858
+        },
+        {
+          "text": "server",
+          "start": 257.858,
+          "end": 258.22
+        },
+        {
+          "text": "with",
+          "start": 258.22,
+          "end": 258.358
+        },
+        {
+          "text": "your",
+          "start": 258.358,
+          "end": 258.52
+        },
+        {
+          "text": "C#",
+          "start": 258.52,
+          "end": 258.945
+        },
+        {
+          "text": "services",
+          "start": 258.945,
+          "end": 260.095
+        },
+        {
+          "text": ".",
+          "start": 260.095,
+          "end": 260.295
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "h3",
+      "text": "Step-by-Step Guide to Configure Express.js",
+      "start": 260.615,
+      "end": 264.065,
+      "words": [
+        {
+          "text": "Step-by-Step",
+          "start": 260.865,
+          "end": 261.515
+        },
+        {
+          "text": "Guide",
+          "start": 261.515,
+          "end": 261.84
+        },
+        {
+          "text": "to",
+          "start": 261.84,
+          "end": 261.94
+        },
+        {
+          "text": "Configure",
+          "start": 261.94,
+          "end": 262.365
+        },
+        {
+          "text": "Express.js",
+          "start": 262.365,
+          "end": 264.065
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "Install Node.js and Express.js: First, ensure you have Node.js installed. Then, create a new directory for your Express.js server and navigate to it in your terminal. Run the following commands to initialize a new Node.js project and install Express.js:",
+      "start": 264.66,
+      "end": 281.81,
+      "words": [
+        {
+          "text": "Install",
+          "start": 264.935,
+          "end": 265.335
+        },
+        {
+          "text": "Node.js",
+          "start": 265.335,
+          "end": 266.198
+        },
+        {
+          "text": "and",
+          "start": 266.198,
+          "end": 266.297
+        },
+        {
+          "text": "Express.js",
+          "start": 266.297,
+          "end": 267.61
+        },
+        {
+          "text": ":",
+          "start": 267.61,
+          "end": 267.685
+        },
+        {
+          "text": "First",
+          "start": 267.685,
+          "end": 267.96
+        },
+        {
+          "text": ",",
+          "start": 267.96,
+          "end": 267.997
+        },
+        {
+          "text": "ensure",
+          "start": 267.997,
+          "end": 268.36
+        },
+        {
+          "text": "you",
+          "start": 268.36,
+          "end": 268.472
+        },
+        {
+          "text": "have",
+          "start": 268.472,
+          "end": 268.585
+        },
+        {
+          "text": "Node.js",
+          "start": 268.585,
+          "end": 269.335
+        },
+        {
+          "text": "installed",
+          "start": 269.335,
+          "end": 270.285
+        },
+        {
+          "text": ".",
+          "start": 270.285,
+          "end": 270.397
+        },
+        {
+          "text": "Then",
+          "start": 270.397,
+          "end": 270.635
+        },
+        {
+          "text": ",",
+          "start": 270.635,
+          "end": 270.685
+        },
+        {
+          "text": "create",
+          "start": 270.685,
+          "end": 271.022
+        },
+        {
+          "text": "a",
+          "start": 271.022,
+          "end": 271.085
+        },
+        {
+          "text": "new",
+          "start": 271.085,
+          "end": 271.247
+        },
+        {
+          "text": "directory",
+          "start": 271.247,
+          "end": 271.735
+        },
+        {
+          "text": "for",
+          "start": 271.735,
+          "end": 271.86
+        },
+        {
+          "text": "your",
+          "start": 271.86,
+          "end": 271.985
+        },
+        {
+          "text": "Express.js",
+          "start": 271.985,
+          "end": 273.147
+        },
+        {
+          "text": "server",
+          "start": 273.147,
+          "end": 273.51
+        },
+        {
+          "text": "and",
+          "start": 273.51,
+          "end": 273.635
+        },
+        {
+          "text": "navigate",
+          "start": 273.635,
+          "end": 274.06
+        },
+        {
+          "text": "to",
+          "start": 274.06,
+          "end": 274.21
+        },
+        {
+          "text": "it",
+          "start": 274.21,
+          "end": 274.323
+        },
+        {
+          "text": "in",
+          "start": 274.323,
+          "end": 274.397
+        },
+        {
+          "text": "your",
+          "start": 274.397,
+          "end": 274.51
+        },
+        {
+          "text": "terminal",
+          "start": 274.51,
+          "end": 275.51
+        },
+        {
+          "text": ".",
+          "start": 275.51,
+          "end": 275.647
+        },
+        {
+          "text": "Run",
+          "start": 275.647,
+          "end": 275.872
+        },
+        {
+          "text": "the",
+          "start": 275.872,
+          "end": 275.96
+        },
+        {
+          "text": "following",
+          "start": 275.96,
+          "end": 276.385
+        },
+        {
+          "text": "commands",
+          "start": 276.385,
+          "end": 276.86
+        },
+        {
+          "text": "to",
+          "start": 276.86,
+          "end": 276.948
+        },
+        {
+          "text": "initialize",
+          "start": 276.948,
+          "end": 277.472
+        },
+        {
+          "text": "a",
+          "start": 277.472,
+          "end": 277.535
+        },
+        {
+          "text": "new",
+          "start": 277.535,
+          "end": 277.71
+        },
+        {
+          "text": "Node.js",
+          "start": 277.71,
+          "end": 278.635
+        },
+        {
+          "text": "project",
+          "start": 278.635,
+          "end": 279.085
+        },
+        {
+          "text": "and",
+          "start": 279.085,
+          "end": 279.198
+        },
+        {
+          "text": "install",
+          "start": 279.198,
+          "end": 279.61
+        },
+        {
+          "text": "Express.js",
+          "start": 279.61,
+          "end": 281.61
+        },
+        {
+          "text": ":",
+          "start": 281.61,
+          "end": 281.81
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "Create the Express.js Server: Create a file named server.js in your project directory and add the following code to set up a basic Express.js server:",
+      "start": 282.13,
+      "end": 292.505,
+      "words": [
+        {
+          "text": "Create",
+          "start": 282.38,
+          "end": 282.692
+        },
+        {
+          "text": "the",
+          "start": 282.692,
+          "end": 282.78
+        },
+        {
+          "text": "Express.js",
+          "start": 282.78,
+          "end": 284.055
+        },
+        {
+          "text": "Server",
+          "start": 284.055,
+          "end": 284.58
+        },
+        {
+          "text": ":",
+          "start": 284.58,
+          "end": 284.68
+        },
+        {
+          "text": "Create",
+          "start": 284.68,
+          "end": 284.992
+        },
+        {
+          "text": "a",
+          "start": 284.992,
+          "end": 285.067
+        },
+        {
+          "text": "file",
+          "start": 285.067,
+          "end": 285.38
+        },
+        {
+          "text": "named",
+          "start": 285.38,
+          "end": 285.667
+        },
+        {
+          "text": "server.js",
+          "start": 285.667,
+          "end": 286.792
+        },
+        {
+          "text": "in",
+          "start": 286.792,
+          "end": 286.867
+        },
+        {
+          "text": "your",
+          "start": 286.867,
+          "end": 286.98
+        },
+        {
+          "text": "project",
+          "start": 286.98,
+          "end": 287.38
+        },
+        {
+          "text": "directory",
+          "start": 287.38,
+          "end": 287.955
+        },
+        {
+          "text": "and",
+          "start": 287.955,
+          "end": 288.08
+        },
+        {
+          "text": "add",
+          "start": 288.08,
+          "end": 288.268
+        },
+        {
+          "text": "the",
+          "start": 288.268,
+          "end": 288.355
+        },
+        {
+          "text": "following",
+          "start": 288.355,
+          "end": 288.78
+        },
+        {
+          "text": "code",
+          "start": 288.78,
+          "end": 289.105
+        },
+        {
+          "text": "to",
+          "start": 289.105,
+          "end": 289.23
+        },
+        {
+          "text": "set",
+          "start": 289.23,
+          "end": 289.417
+        },
+        {
+          "text": "up",
+          "start": 289.417,
+          "end": 289.542
+        },
+        {
+          "text": "a",
+          "start": 289.542,
+          "end": 289.605
+        },
+        {
+          "text": "basic",
+          "start": 289.605,
+          "end": 290.005
+        },
+        {
+          "text": "Express.js",
+          "start": 290.005,
+          "end": 291.455
+        },
+        {
+          "text": "server",
+          "start": 291.455,
+          "end": 292.305
+        },
+        {
+          "text": ":",
+          "start": 292.305,
+          "end": 292.505
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "li",
+      "text": "Configure the Working Directory: Ensure the WorkingDirectory in your C# Startup class points to the directory where your server.js file is located. For example:",
+      "start": 292.825,
+      "end": 303.5,
+      "words": [
+        {
+          "text": "Configure",
+          "start": 293.075,
+          "end": 293.55
+        },
+        {
+          "text": "the",
+          "start": 293.55,
+          "end": 293.65
+        },
+        {
+          "text": "Working",
+          "start": 293.65,
+          "end": 294.0
+        },
+        {
+          "text": "Directory",
+          "start": 294.0,
+          "end": 294.95
+        },
+        {
+          "text": ":",
+          "start": 294.95,
+          "end": 295.088
+        },
+        {
+          "text": "Ensure",
+          "start": 295.088,
+          "end": 295.488
+        },
+        {
+          "text": "the",
+          "start": 295.488,
+          "end": 295.575
+        },
+        {
+          "text": "WorkingDirectory",
+          "start": 295.575,
+          "end": 296.412
+        },
+        {
+          "text": "in",
+          "start": 296.412,
+          "end": 296.488
+        },
+        {
+          "text": "your",
+          "start": 296.488,
+          "end": 296.675
+        },
+        {
+          "text": "C#",
+          "start": 296.675,
+          "end": 297.1
+        },
+        {
+          "text": "Startup",
+          "start": 297.1,
+          "end": 297.6
+        },
+        {
+          "text": "class",
+          "start": 297.6,
+          "end": 297.987
+        },
+        {
+          "text": "points",
+          "start": 297.987,
+          "end": 298.35
+        },
+        {
+          "text": "to",
+          "start": 298.35,
+          "end": 298.437
+        },
+        {
+          "text": "the",
+          "start": 298.437,
+          "end": 298.525
+        },
+        {
+          "text": "directory",
+          "start": 298.525,
+          "end": 299.075
+        },
+        {
+          "text": "where",
+          "start": 299.075,
+          "end": 299.25
+        },
+        {
+          "text": "your",
+          "start": 299.25,
+          "end": 299.463
+        },
+        {
+          "text": "server.js",
+          "start": 299.463,
+          "end": 300.625
+        },
+        {
+          "text": "file",
+          "start": 300.625,
+          "end": 300.938
+        },
+        {
+          "text": "is",
+          "start": 300.938,
+          "end": 301.05
+        },
+        {
+          "text": "located",
+          "start": 301.05,
+          "end": 302.075
+        },
+        {
+          "text": ".",
+          "start": 302.075,
+          "end": 302.175
+        },
+        {
+          "text": "For",
+          "start": 302.175,
+          "end": 302.313
+        },
+        {
+          "text": "example",
+          "start": 302.313,
+          "end": 303.3
+        },
+        {
+          "text": ":",
+          "start": 303.3,
+          "end": 303.5
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "li",
+      "text": "Run the C# Application: When you run your C# application, it will automatically start the Express.js server if the environment is set to \"Development\".",
+      "start": 303.82,
+      "end": 314.195,
+      "words": [
+        {
+          "text": "Run",
+          "start": 304.12,
+          "end": 304.333
+        },
+        {
+          "text": "the",
+          "start": 304.333,
+          "end": 304.458
+        },
+        {
+          "text": "C#",
+          "start": 304.458,
+          "end": 304.983
+        },
+        {
+          "text": "Application",
+          "start": 304.983,
+          "end": 306.07
+        },
+        {
+          "text": ":",
+          "start": 306.07,
+          "end": 306.17
+        },
+        {
+          "text": "When",
+          "start": 306.17,
+          "end": 306.32
+        },
+        {
+          "text": "you",
+          "start": 306.32,
+          "end": 306.445
+        },
+        {
+          "text": "run",
+          "start": 306.445,
+          "end": 306.67
+        },
+        {
+          "text": "your",
+          "start": 306.67,
+          "end": 306.87
+        },
+        {
+          "text": "C#",
+          "start": 306.87,
+          "end": 307.333
+        },
+        {
+          "text": "application",
+          "start": 307.333,
+          "end": 308.17
+        },
+        {
+          "text": ",",
+          "start": 308.17,
+          "end": 308.245
+        },
+        {
+          "text": "it",
+          "start": 308.245,
+          "end": 308.358
+        },
+        {
+          "text": "will",
+          "start": 308.358,
+          "end": 308.495
+        },
+        {
+          "text": "automatically",
+          "start": 308.495,
+          "end": 309.17
+        },
+        {
+          "text": "start",
+          "start": 309.17,
+          "end": 309.508
+        },
+        {
+          "text": "the",
+          "start": 309.508,
+          "end": 309.595
+        },
+        {
+          "text": "Express.js",
+          "start": 309.595,
+          "end": 311.133
+        },
+        {
+          "text": "server",
+          "start": 311.133,
+          "end": 311.495
+        },
+        {
+          "text": "if",
+          "start": 311.495,
+          "end": 311.607
+        },
+        {
+          "text": "the",
+          "start": 311.607,
+          "end": 311.745
+        },
+        {
+          "text": "environment",
+          "start": 311.745,
+          "end": 312.32
+        },
+        {
+          "text": "is",
+          "start": 312.32,
+          "end": 312.458
+        },
+        {
+          "text": "set",
+          "start": 312.458,
+          "end": 312.72
+        },
+        {
+          "text": "to",
+          "start": 312.72,
+          "end": 312.833
+        },
+        {
+          "text": "\"",
+          "start": 312.833,
+          "end": 312.87
+        },
+        {
+          "text": "Development",
+          "start": 312.87,
+          "end": 313.92
+        },
+        {
+          "text": "\"",
+          "start": 313.92,
+          "end": 314.12
+        },
+        {
+          "text": ".",
+          "start": 314.12,
+          "end": 314.195
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "h2",
+      "text": "Summary",
+      "start": 314.515,
+      "end": 315.29,
+      "words": [
+        {
+          "text": "Summary",
+          "start": 314.79,
+          "end": 315.29
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Node.js and Express.js Installation: Ensure Node.js is installed and set up a new Express.js project.",
+      "start": 315.685,
+      "end": 324.135,
+      "words": [
+        {
+          "text": "Node.js",
+          "start": 315.985,
+          "end": 316.722
+        },
+        {
+          "text": "and",
+          "start": 316.722,
+          "end": 316.822
+        },
+        {
+          "text": "Express.js",
+          "start": 316.822,
+          "end": 318.135
+        },
+        {
+          "text": "Installation",
+          "start": 318.135,
+          "end": 318.86
+        },
+        {
+          "text": ":",
+          "start": 318.86,
+          "end": 318.935
+        },
+        {
+          "text": "Ensure",
+          "start": 318.935,
+          "end": 319.36
+        },
+        {
+          "text": "Node.js",
+          "start": 319.36,
+          "end": 320.36
+        },
+        {
+          "text": "is",
+          "start": 320.36,
+          "end": 320.485
+        },
+        {
+          "text": "installed",
+          "start": 320.485,
+          "end": 321.072
+        },
+        {
+          "text": "and",
+          "start": 321.072,
+          "end": 321.185
+        },
+        {
+          "text": "set",
+          "start": 321.185,
+          "end": 321.397
+        },
+        {
+          "text": "up",
+          "start": 321.397,
+          "end": 321.547
+        },
+        {
+          "text": "a",
+          "start": 321.547,
+          "end": 321.61
+        },
+        {
+          "text": "new",
+          "start": 321.61,
+          "end": 321.81
+        },
+        {
+          "text": "Express.js",
+          "start": 321.81,
+          "end": 322.935
+        },
+        {
+          "text": "project",
+          "start": 322.935,
+          "end": 323.935
+        },
+        {
+          "text": ".",
+          "start": 323.935,
+          "end": 324.135
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Express.js Server Setup: Create a basic Express.js server in server.js.",
+      "start": 324.455,
+      "end": 330.58,
+      "words": [
+        {
+          "text": "Express.js",
+          "start": 324.705,
+          "end": 325.58
+        },
+        {
+          "text": "Server",
+          "start": 325.58,
+          "end": 325.88
+        },
+        {
+          "text": "Setup",
+          "start": 325.88,
+          "end": 326.33
+        },
+        {
+          "text": ":",
+          "start": 326.33,
+          "end": 326.405
+        },
+        {
+          "text": "Create",
+          "start": 326.405,
+          "end": 326.718
+        },
+        {
+          "text": "a",
+          "start": 326.718,
+          "end": 326.78
+        },
+        {
+          "text": "basic",
+          "start": 326.78,
+          "end": 327.18
+        },
+        {
+          "text": "Express.js",
+          "start": 327.18,
+          "end": 328.43
+        },
+        {
+          "text": "server",
+          "start": 328.43,
+          "end": 328.742
+        },
+        {
+          "text": "in",
+          "start": 328.742,
+          "end": 328.918
+        },
+        {
+          "text": "server.js",
+          "start": 328.918,
+          "end": 330.38
+        },
+        {
+          "text": ".",
+          "start": 330.38,
+          "end": 330.58
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "li",
+      "text": "C# Configuration: Update the WorkingDirectory in your C# Startup class to point to your Express.js project directory.",
+      "start": 330.9,
+      "end": 339.575,
+      "words": [
+        {
+          "text": "C#",
+          "start": 331.2,
+          "end": 331.7
+        },
+        {
+          "text": "Configuration",
+          "start": 331.7,
+          "end": 332.85
+        },
+        {
+          "text": ":",
+          "start": 332.85,
+          "end": 332.95
+        },
+        {
+          "text": "Update",
+          "start": 332.95,
+          "end": 333.362
+        },
+        {
+          "text": "the",
+          "start": 333.362,
+          "end": 333.45
+        },
+        {
+          "text": "WorkingDirectory",
+          "start": 333.45,
+          "end": 334.3
+        },
+        {
+          "text": "in",
+          "start": 334.3,
+          "end": 334.387
+        },
+        {
+          "text": "your",
+          "start": 334.387,
+          "end": 334.588
+        },
+        {
+          "text": "C#",
+          "start": 334.588,
+          "end": 335.025
+        },
+        {
+          "text": "Startup",
+          "start": 335.025,
+          "end": 335.475
+        },
+        {
+          "text": "class",
+          "start": 335.475,
+          "end": 335.825
+        },
+        {
+          "text": "to",
+          "start": 335.825,
+          "end": 335.925
+        },
+        {
+          "text": "point",
+          "start": 335.925,
+          "end": 336.2
+        },
+        {
+          "text": "to",
+          "start": 336.2,
+          "end": 336.287
+        },
+        {
+          "text": "your",
+          "start": 336.287,
+          "end": 336.45
+        },
+        {
+          "text": "Express.js",
+          "start": 336.45,
+          "end": 337.9
+        },
+        {
+          "text": "project",
+          "start": 337.9,
+          "end": 338.3
+        },
+        {
+          "text": "directory",
+          "start": 338.3,
+          "end": 339.375
+        },
+        {
+          "text": ".",
+          "start": 339.375,
+          "end": 339.575
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "p",
+      "text": "This configuration allows your Express.js server to start automatically when your C# application runs, making it easy to integrate both environments.",
+      "start": 339.895,
+      "end": 349.795,
+      "words": [
+        {
+          "text": "This",
+          "start": 340.145,
+          "end": 340.345
+        },
+        {
+          "text": "configuration",
+          "start": 340.345,
+          "end": 341.145
+        },
+        {
+          "text": "allows",
+          "start": 341.145,
+          "end": 341.495
+        },
+        {
+          "text": "your",
+          "start": 341.495,
+          "end": 341.67
+        },
+        {
+          "text": "Express.js",
+          "start": 341.67,
+          "end": 343.195
+        },
+        {
+          "text": "server",
+          "start": 343.195,
+          "end": 343.545
+        },
+        {
+          "text": "to",
+          "start": 343.545,
+          "end": 343.67
+        },
+        {
+          "text": "start",
+          "start": 343.67,
+          "end": 344.02
+        },
+        {
+          "text": "automatically",
+          "start": 344.02,
+          "end": 344.707
+        },
+        {
+          "text": "when",
+          "start": 344.707,
+          "end": 344.845
+        },
+        {
+          "text": "your",
+          "start": 344.845,
+          "end": 344.97
+        },
+        {
+          "text": "C#",
+          "start": 344.97,
+          "end": 345.408
+        },
+        {
+          "text": "application",
+          "start": 345.408,
+          "end": 345.995
+        },
+        {
+          "text": "runs",
+          "start": 345.995,
+          "end": 346.67
+        },
+        {
+          "text": ",",
+          "start": 346.67,
+          "end": 346.77
+        },
+        {
+          "text": "making",
+          "start": 346.77,
+          "end": 347.07
+        },
+        {
+          "text": "it",
+          "start": 347.07,
+          "end": 347.232
+        },
+        {
+          "text": "easy",
+          "start": 347.232,
+          "end": 347.57
+        },
+        {
+          "text": "to",
+          "start": 347.57,
+          "end": 347.695
+        },
+        {
+          "text": "integrate",
+          "start": 347.695,
+          "end": 348.17
+        },
+        {
+          "text": "both",
+          "start": 348.17,
+          "end": 348.432
+        },
+        {
+          "text": "environments",
+          "start": 348.432,
+          "end": 349.62
+        },
+        {
+          "text": ".",
+          "start": 349.62,
+          "end": 349.795
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h2",
+      "text": "The Payoff: Faster Shipping, Fewer 2 AM Pages",
+      "start": 350.115,
+      "end": 353.765,
+      "words": [
+        {
+          "text": "The",
+          "start": 350.34,
+          "end": 350.415
+        },
+        {
+          "text": "Payoff",
+          "start": 350.415,
+          "end": 350.865
+        },
+        {
+          "text": ":",
+          "start": 350.865,
+          "end": 350.915
+        },
+        {
+          "text": "Faster",
+          "start": 350.915,
+          "end": 351.29
+        },
+        {
+          "text": "Shipping",
+          "start": 351.29,
+          "end": 351.69
+        },
+        {
+          "text": ",",
+          "start": 351.69,
+          "end": 351.777
+        },
+        {
+          "text": "Fewer",
+          "start": 351.777,
+          "end": 352.077
+        },
+        {
+          "text": "2",
+          "start": 352.077,
+          "end": 352.315
+        },
+        {
+          "text": "AM",
+          "start": 352.315,
+          "end": 352.665
+        },
+        {
+          "text": "Pages",
+          "start": 352.665,
+          "end": 353.765
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "p",
+      "text": "Running regression tests while you're developing is not a nice-to-have. It's table stakes for teams that ship fast. The moment you have tests, wire them into dev. Don't wait for QA infrastructure. Don't wait for \"the right time.\" Do it now. Your deploy frequency will thank you.",
+      "start": 354.21,
+      "end": 369.91,
+      "words": [
+        {
+          "text": "Running",
+          "start": 354.51,
+          "end": 354.81
+        },
+        {
+          "text": "regression",
+          "start": 354.81,
+          "end": 355.31
+        },
+        {
+          "text": "tests",
+          "start": 355.31,
+          "end": 355.71
+        },
+        {
+          "text": "while",
+          "start": 355.71,
+          "end": 355.885
+        },
+        {
+          "text": "you're",
+          "start": 355.885,
+          "end": 356.01
+        },
+        {
+          "text": "developing",
+          "start": 356.01,
+          "end": 356.522
+        },
+        {
+          "text": "is",
+          "start": 356.522,
+          "end": 356.635
+        },
+        {
+          "text": "not",
+          "start": 356.635,
+          "end": 356.822
+        },
+        {
+          "text": "a",
+          "start": 356.822,
+          "end": 356.885
+        },
+        {
+          "text": "nice-to-have",
+          "start": 356.885,
+          "end": 357.835
+        },
+        {
+          "text": ".",
+          "start": 357.835,
+          "end": 357.91
+        },
+        {
+          "text": "It's",
+          "start": 357.91,
+          "end": 358.06
+        },
+        {
+          "text": "table",
+          "start": 358.06,
+          "end": 358.46
+        },
+        {
+          "text": "stakes",
+          "start": 358.46,
+          "end": 358.835
+        },
+        {
+          "text": "for",
+          "start": 358.835,
+          "end": 358.96
+        },
+        {
+          "text": "teams",
+          "start": 358.96,
+          "end": 359.36
+        },
+        {
+          "text": "that",
+          "start": 359.36,
+          "end": 359.522
+        },
+        {
+          "text": "ship",
+          "start": 359.522,
+          "end": 359.76
+        },
+        {
+          "text": "fast",
+          "start": 359.76,
+          "end": 360.61
+        },
+        {
+          "text": ".",
+          "start": 360.61,
+          "end": 360.71
+        },
+        {
+          "text": "The",
+          "start": 360.71,
+          "end": 360.81
+        },
+        {
+          "text": "moment",
+          "start": 360.81,
+          "end": 361.098
+        },
+        {
+          "text": "you",
+          "start": 361.098,
+          "end": 361.197
+        },
+        {
+          "text": "have",
+          "start": 361.197,
+          "end": 361.385
+        },
+        {
+          "text": "tests",
+          "start": 361.385,
+          "end": 361.81
+        },
+        {
+          "text": ",",
+          "start": 361.81,
+          "end": 361.86
+        },
+        {
+          "text": "wire",
+          "start": 361.86,
+          "end": 362.098
+        },
+        {
+          "text": "them",
+          "start": 362.098,
+          "end": 362.222
+        },
+        {
+          "text": "into",
+          "start": 362.222,
+          "end": 362.46
+        },
+        {
+          "text": "dev",
+          "start": 362.46,
+          "end": 362.935
+        },
+        {
+          "text": ".",
+          "start": 362.935,
+          "end": 363.01
+        },
+        {
+          "text": "Don't",
+          "start": 363.01,
+          "end": 363.235
+        },
+        {
+          "text": "wait",
+          "start": 363.235,
+          "end": 363.46
+        },
+        {
+          "text": "for",
+          "start": 363.46,
+          "end": 363.585
+        },
+        {
+          "text": "QA",
+          "start": 363.585,
+          "end": 363.923
+        },
+        {
+          "text": "infrastructure",
+          "start": 363.923,
+          "end": 364.86
+        },
+        {
+          "text": ".",
+          "start": 364.86,
+          "end": 364.96
+        },
+        {
+          "text": "Don't",
+          "start": 364.96,
+          "end": 365.185
+        },
+        {
+          "text": "wait",
+          "start": 365.185,
+          "end": 365.435
+        },
+        {
+          "text": "for",
+          "start": 365.435,
+          "end": 365.548
+        },
+        {
+          "text": "\"",
+          "start": 365.548,
+          "end": 365.585
+        },
+        {
+          "text": "the",
+          "start": 365.585,
+          "end": 365.66
+        },
+        {
+          "text": "right",
+          "start": 365.66,
+          "end": 365.91
+        },
+        {
+          "text": "time",
+          "start": 365.91,
+          "end": 366.835
+        },
+        {
+          "text": ".",
+          "start": 366.835,
+          "end": 366.91
+        },
+        {
+          "text": "\"",
+          "start": 366.91,
+          "end": 366.96
+        },
+        {
+          "text": "Do",
+          "start": 366.96,
+          "end": 367.097
+        },
+        {
+          "text": "it",
+          "start": 367.097,
+          "end": 367.185
+        },
+        {
+          "text": "now",
+          "start": 367.185,
+          "end": 367.585
+        },
+        {
+          "text": ".",
+          "start": 367.585,
+          "end": 367.66
+        },
+        {
+          "text": "Your",
+          "start": 367.66,
+          "end": 367.798
+        },
+        {
+          "text": "deploy",
+          "start": 367.798,
+          "end": 368.135
+        },
+        {
+          "text": "frequency",
+          "start": 368.135,
+          "end": 368.648
+        },
+        {
+          "text": "will",
+          "start": 368.648,
+          "end": 368.785
+        },
+        {
+          "text": "thank",
+          "start": 368.785,
+          "end": 369.06
+        },
+        {
+          "text": "you",
+          "start": 369.06,
+          "end": 369.71
+        },
+        {
+          "text": ".",
+          "start": 369.71,
+          "end": 369.91
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 370.23,
+      "end": 372.43,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 370.505,
+          "end": 371.055
+        },
+        {
+          "text": "and",
+          "start": 371.055,
+          "end": 371.192
+        },
+        {
+          "text": "Further",
+          "start": 371.192,
+          "end": 371.555
+        },
+        {
+          "text": "Reading",
+          "start": 371.555,
+          "end": 372.43
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "Shift-left testing , Wikipedia",
+      "start": 372.875,
+      "end": 375.3,
+      "words": [
+        {
+          "text": "Shift-left",
+          "start": 373.15,
+          "end": 373.625
+        },
+        {
+          "text": "testing",
+          "start": 373.625,
+          "end": 374.112
+        },
+        {
+          "text": ",",
+          "start": 374.112,
+          "end": 374.163
+        },
+        {
+          "text": "Wikipedia",
+          "start": 374.163,
+          "end": 375.3
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "Microsoft , DevOps test strategy",
+      "start": 375.795,
+      "end": 378.57,
+      "words": [
+        {
+          "text": "Microsoft",
+          "start": 376.045,
+          "end": 376.607
+        },
+        {
+          "text": ",",
+          "start": 376.607,
+          "end": 376.67
+        },
+        {
+          "text": "DevOps",
+          "start": 376.67,
+          "end": 377.17
+        },
+        {
+          "text": "test",
+          "start": 377.17,
+          "end": 377.445
+        },
+        {
+          "text": "strategy",
+          "start": 377.445,
+          "end": 378.57
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "Test Agent Actor , roman-g/test-runner",
+      "start": 379.04,
+      "end": 382.165,
+      "words": [
+        {
+          "text": "Test",
+          "start": 379.29,
+          "end": 379.565
+        },
+        {
+          "text": "Agent",
+          "start": 379.565,
+          "end": 379.915
+        },
+        {
+          "text": "Actor",
+          "start": 379.915,
+          "end": 380.39
+        },
+        {
+          "text": ",",
+          "start": 380.39,
+          "end": 380.465
+        },
+        {
+          "text": "roman-g/test-runner",
+          "start": 380.465,
+          "end": 382.165
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "DORA , Four Key Metrics",
+      "start": 382.71,
+      "end": 384.76,
+      "words": [
+        {
+          "text": "DORA",
+          "start": 382.96,
+          "end": 383.323
+        },
+        {
+          "text": ",",
+          "start": 383.323,
+          "end": 383.385
+        },
+        {
+          "text": "Four",
+          "start": 383.385,
+          "end": 383.61
+        },
+        {
+          "text": "Key",
+          "start": 383.61,
+          "end": 383.798
+        },
+        {
+          "text": "Metrics",
+          "start": 383.798,
+          "end": 384.76
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "p",
+      "text": "See also: CI/CD Pipelines for Test Automation (Jun 2026) , where that early regression suite actually lives in the pipeline.",
+      "start": 385.255,
+      "end": 394.53,
+      "words": [
+        {
+          "text": "See",
+          "start": 385.53,
+          "end": 385.68
+        },
+        {
+          "text": "also",
+          "start": 385.68,
+          "end": 386.18
+        },
+        {
+          "text": ":",
+          "start": 386.18,
+          "end": 386.293
+        },
+        {
+          "text": "CI/CD",
+          "start": 386.293,
+          "end": 387.13
+        },
+        {
+          "text": "Pipelines",
+          "start": 387.13,
+          "end": 387.705
+        },
+        {
+          "text": "for",
+          "start": 387.705,
+          "end": 387.83
+        },
+        {
+          "text": "Test",
+          "start": 387.83,
+          "end": 388.093
+        },
+        {
+          "text": "Automation",
+          "start": 388.093,
+          "end": 389.018
+        },
+        {
+          "text": "(",
+          "start": 389.018,
+          "end": 389.105
+        },
+        {
+          "text": "Jun",
+          "start": 389.105,
+          "end": 389.33
+        },
+        {
+          "text": "2026",
+          "start": 389.33,
+          "end": 390.78
+        },
+        {
+          "text": ")",
+          "start": 390.78,
+          "end": 390.893
+        },
+        {
+          "text": ",",
+          "start": 390.893,
+          "end": 390.955
+        },
+        {
+          "text": "where",
+          "start": 390.955,
+          "end": 391.093
+        },
+        {
+          "text": "that",
+          "start": 391.093,
+          "end": 391.305
+        },
+        {
+          "text": "early",
+          "start": 391.305,
+          "end": 391.605
+        },
+        {
+          "text": "regression",
+          "start": 391.605,
+          "end": 392.143
+        },
+        {
+          "text": "suite",
+          "start": 392.143,
+          "end": 392.468
+        },
+        {
+          "text": "actually",
+          "start": 392.468,
+          "end": 392.905
+        },
+        {
+          "text": "lives",
+          "start": 392.905,
+          "end": 393.168
+        },
+        {
+          "text": "in",
+          "start": 393.168,
+          "end": 393.243
+        },
+        {
+          "text": "the",
+          "start": 393.243,
+          "end": 393.33
+        },
+        {
+          "text": "pipeline",
+          "start": 393.33,
+          "end": 394.33
+        },
+        {
+          "text": ".",
+          "start": 394.33,
+          "end": 394.53
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
