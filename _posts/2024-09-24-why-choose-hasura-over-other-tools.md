@@ -126,7 +126,6 @@ For most people, most of the time: **reach for Hasura first**. Write the basic s
 * [GraphQL Server with .NET — Hasura Tutorial](https://hasura.io/learn/graphql/backend-stack/languages/dotnet/)
 * [Hasura use cases overview](https://hasura.io/docs/latest/getting-started/use-case/overview/)
 * [Why You Should Use Hasura — Hasura Blog](https://hasura.io/blog/why-you-should-use-hasura/)
-* [Hasura explained — Restack](https://www.restack.io/docs/hasura-knowledge-hasura-explained)
 * [Hasura v3 Course Introduction](https://hasura.io/learn/graphql/hasura-v3/introduction/)
 * [Comparing GraphQL platforms — Hasura Blog](https://hasura.io/blog/hasura-vs-apollo-comparing-graphql-platforms)
 * [Guide to GraphQL — graphjin wiki](https://github.com/dosco/graphjin/wiki/Guide-to-GraphQL)
