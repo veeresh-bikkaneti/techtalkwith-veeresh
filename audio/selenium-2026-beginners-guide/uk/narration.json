@@ -1,0 +1,7410 @@
+{
+  "slug": "selenium-2026-beginners-guide",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 542.17,
+  "contentHash": "82936c9b21c1e1cc6fc3bbfc0fe14b5a89a85492e3dd14b89b15d7e89ae20d51",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Selenium in 2026: A Beginner's Guide to WebDriver BiDi, MCP Server and AI-Assisted Automation",
+      "start": 0.0,
+      "end": 7.95,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 0.275,
+          "end": 0.825
+        },
+        {
+          "text": "in",
+          "start": 0.825,
+          "end": 0.925
+        },
+        {
+          "text": "2026",
+          "start": 0.925,
+          "end": 2.4
+        },
+        {
+          "text": ":",
+          "start": 2.4,
+          "end": 2.5
+        },
+        {
+          "text": "A",
+          "start": 2.5,
+          "end": 2.575
+        },
+        {
+          "text": "Beginner's",
+          "start": 2.575,
+          "end": 3.0
+        },
+        {
+          "text": "Guide",
+          "start": 3.0,
+          "end": 3.325
+        },
+        {
+          "text": "to",
+          "start": 3.325,
+          "end": 3.45
+        },
+        {
+          "text": "WebDriver",
+          "start": 3.45,
+          "end": 4.05
+        },
+        {
+          "text": "BiDi",
+          "start": 4.05,
+          "end": 4.7
+        },
+        {
+          "text": ",",
+          "start": 4.7,
+          "end": 4.8
+        },
+        {
+          "text": "MCP",
+          "start": 4.8,
+          "end": 5.513
+        },
+        {
+          "text": "Server",
+          "start": 5.513,
+          "end": 5.975
+        },
+        {
+          "text": "and",
+          "start": 5.975,
+          "end": 6.1
+        },
+        {
+          "text": "AI-Assisted",
+          "start": 6.1,
+          "end": 6.725
+        },
+        {
+          "text": "Automation",
+          "start": 6.725,
+          "end": 7.95
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "If you're new to test automation, Selenium is still the best place to start. It runs everywhere, speaks every language, and , as of 2026 , it has a built-in AI superpower: the Model Context Protocol (MCP).",
+      "start": 8.395,
+      "end": 21.945,
+      "words": [
+        {
+          "text": "If",
+          "start": 8.645,
+          "end": 8.795
+        },
+        {
+          "text": "you're",
+          "start": 8.795,
+          "end": 8.92
+        },
+        {
+          "text": "new",
+          "start": 8.92,
+          "end": 9.095
+        },
+        {
+          "text": "to",
+          "start": 9.095,
+          "end": 9.195
+        },
+        {
+          "text": "test",
+          "start": 9.195,
+          "end": 9.458
+        },
+        {
+          "text": "automation",
+          "start": 9.458,
+          "end": 10.17
+        },
+        {
+          "text": ",",
+          "start": 10.17,
+          "end": 10.245
+        },
+        {
+          "text": "Selenium",
+          "start": 10.245,
+          "end": 10.758
+        },
+        {
+          "text": "is",
+          "start": 10.758,
+          "end": 10.845
+        },
+        {
+          "text": "still",
+          "start": 10.845,
+          "end": 11.083
+        },
+        {
+          "text": "the",
+          "start": 11.083,
+          "end": 11.17
+        },
+        {
+          "text": "best",
+          "start": 11.17,
+          "end": 11.42
+        },
+        {
+          "text": "place",
+          "start": 11.42,
+          "end": 11.745
+        },
+        {
+          "text": "to",
+          "start": 11.745,
+          "end": 11.87
+        },
+        {
+          "text": "start",
+          "start": 11.87,
+          "end": 12.795
+        },
+        {
+          "text": ".",
+          "start": 12.795,
+          "end": 12.895
+        },
+        {
+          "text": "It",
+          "start": 12.895,
+          "end": 13.07
+        },
+        {
+          "text": "runs",
+          "start": 13.07,
+          "end": 13.345
+        },
+        {
+          "text": "everywhere",
+          "start": 13.345,
+          "end": 13.895
+        },
+        {
+          "text": ",",
+          "start": 13.895,
+          "end": 13.945
+        },
+        {
+          "text": "speaks",
+          "start": 13.945,
+          "end": 14.295
+        },
+        {
+          "text": "every",
+          "start": 14.295,
+          "end": 14.52
+        },
+        {
+          "text": "language",
+          "start": 14.52,
+          "end": 15.145
+        },
+        {
+          "text": ",",
+          "start": 15.145,
+          "end": 15.245
+        },
+        {
+          "text": "and",
+          "start": 15.245,
+          "end": 15.383
+        },
+        {
+          "text": ",",
+          "start": 15.383,
+          "end": 15.433
+        },
+        {
+          "text": "as",
+          "start": 15.433,
+          "end": 15.533
+        },
+        {
+          "text": "of",
+          "start": 15.533,
+          "end": 15.62
+        },
+        {
+          "text": "2026",
+          "start": 15.62,
+          "end": 16.733
+        },
+        {
+          "text": ",",
+          "start": 16.733,
+          "end": 16.795
+        },
+        {
+          "text": "it",
+          "start": 16.795,
+          "end": 16.895
+        },
+        {
+          "text": "has",
+          "start": 16.895,
+          "end": 17.058
+        },
+        {
+          "text": "a",
+          "start": 17.058,
+          "end": 17.12
+        },
+        {
+          "text": "built-in",
+          "start": 17.12,
+          "end": 17.583
+        },
+        {
+          "text": "AI",
+          "start": 17.583,
+          "end": 18.008
+        },
+        {
+          "text": "superpower",
+          "start": 18.008,
+          "end": 18.97
+        },
+        {
+          "text": ":",
+          "start": 18.97,
+          "end": 19.07
+        },
+        {
+          "text": "the",
+          "start": 19.07,
+          "end": 19.17
+        },
+        {
+          "text": "Model",
+          "start": 19.17,
+          "end": 19.495
+        },
+        {
+          "text": "Context",
+          "start": 19.495,
+          "end": 19.995
+        },
+        {
+          "text": "Protocol",
+          "start": 19.995,
+          "end": 20.545
+        },
+        {
+          "text": "(",
+          "start": 20.545,
+          "end": 20.595
+        },
+        {
+          "text": "MCP",
+          "start": 20.595,
+          "end": 21.72
+        },
+        {
+          "text": ")",
+          "start": 21.72,
+          "end": 21.87
+        },
+        {
+          "text": ".",
+          "start": 21.87,
+          "end": 21.945
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "This guide walks you through what changed, how to set up your first test, and how to let an AI agent drive the browser for you. No prior Selenium knowledge needed.",
+      "start": 22.265,
+      "end": 32.115,
+      "words": [
+        {
+          "text": "This",
+          "start": 22.515,
+          "end": 22.69
+        },
+        {
+          "text": "guide",
+          "start": 22.69,
+          "end": 23.015
+        },
+        {
+          "text": "walks",
+          "start": 23.015,
+          "end": 23.277
+        },
+        {
+          "text": "you",
+          "start": 23.277,
+          "end": 23.39
+        },
+        {
+          "text": "through",
+          "start": 23.39,
+          "end": 23.615
+        },
+        {
+          "text": "what",
+          "start": 23.615,
+          "end": 23.828
+        },
+        {
+          "text": "changed",
+          "start": 23.828,
+          "end": 24.515
+        },
+        {
+          "text": ",",
+          "start": 24.515,
+          "end": 24.615
+        },
+        {
+          "text": "how",
+          "start": 24.615,
+          "end": 24.79
+        },
+        {
+          "text": "to",
+          "start": 24.79,
+          "end": 24.915
+        },
+        {
+          "text": "set",
+          "start": 24.915,
+          "end": 25.102
+        },
+        {
+          "text": "up",
+          "start": 25.102,
+          "end": 25.227
+        },
+        {
+          "text": "your",
+          "start": 25.227,
+          "end": 25.34
+        },
+        {
+          "text": "first",
+          "start": 25.34,
+          "end": 25.64
+        },
+        {
+          "text": "test",
+          "start": 25.64,
+          "end": 26.19
+        },
+        {
+          "text": ",",
+          "start": 26.19,
+          "end": 26.265
+        },
+        {
+          "text": "and",
+          "start": 26.265,
+          "end": 26.39
+        },
+        {
+          "text": "how",
+          "start": 26.39,
+          "end": 26.565
+        },
+        {
+          "text": "to",
+          "start": 26.565,
+          "end": 26.665
+        },
+        {
+          "text": "let",
+          "start": 26.665,
+          "end": 26.852
+        },
+        {
+          "text": "an",
+          "start": 26.852,
+          "end": 26.977
+        },
+        {
+          "text": "AI",
+          "start": 26.977,
+          "end": 27.402
+        },
+        {
+          "text": "agent",
+          "start": 27.402,
+          "end": 27.79
+        },
+        {
+          "text": "drive",
+          "start": 27.79,
+          "end": 28.152
+        },
+        {
+          "text": "the",
+          "start": 28.152,
+          "end": 28.24
+        },
+        {
+          "text": "browser",
+          "start": 28.24,
+          "end": 28.615
+        },
+        {
+          "text": "for",
+          "start": 28.615,
+          "end": 28.74
+        },
+        {
+          "text": "you",
+          "start": 28.74,
+          "end": 29.515
+        },
+        {
+          "text": ".",
+          "start": 29.515,
+          "end": 29.652
+        },
+        {
+          "text": "No",
+          "start": 29.652,
+          "end": 29.89
+        },
+        {
+          "text": "prior",
+          "start": 29.89,
+          "end": 30.215
+        },
+        {
+          "text": "Selenium",
+          "start": 30.215,
+          "end": 30.715
+        },
+        {
+          "text": "knowledge",
+          "start": 30.715,
+          "end": 31.065
+        },
+        {
+          "text": "needed",
+          "start": 31.065,
+          "end": 31.915
+        },
+        {
+          "text": ".",
+          "start": 31.915,
+          "end": 32.115
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "h2",
+      "text": "What Selenium Looks Like in 2026",
+      "start": 32.435,
+      "end": 35.66,
+      "words": [
+        {
+          "text": "What",
+          "start": 32.685,
+          "end": 32.885
+        },
+        {
+          "text": "Selenium",
+          "start": 32.885,
+          "end": 33.46
+        },
+        {
+          "text": "Looks",
+          "start": 33.46,
+          "end": 33.71
+        },
+        {
+          "text": "Like",
+          "start": 33.71,
+          "end": 34.01
+        },
+        {
+          "text": "in",
+          "start": 34.01,
+          "end": 34.135
+        },
+        {
+          "text": "2026",
+          "start": 34.135,
+          "end": 35.66
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "If the last time you heard about Selenium was version 3, here's what changed:",
+      "start": 36.13,
+      "end": 41.18,
+      "words": [
+        {
+          "text": "If",
+          "start": 36.38,
+          "end": 36.518
+        },
+        {
+          "text": "the",
+          "start": 36.518,
+          "end": 36.605
+        },
+        {
+          "text": "last",
+          "start": 36.605,
+          "end": 36.93
+        },
+        {
+          "text": "time",
+          "start": 36.93,
+          "end": 37.168
+        },
+        {
+          "text": "you",
+          "start": 37.168,
+          "end": 37.28
+        },
+        {
+          "text": "heard",
+          "start": 37.28,
+          "end": 37.517
+        },
+        {
+          "text": "about",
+          "start": 37.517,
+          "end": 37.78
+        },
+        {
+          "text": "Selenium",
+          "start": 37.78,
+          "end": 38.318
+        },
+        {
+          "text": "was",
+          "start": 38.318,
+          "end": 38.455
+        },
+        {
+          "text": "version",
+          "start": 38.455,
+          "end": 38.842
+        },
+        {
+          "text": "3",
+          "start": 38.842,
+          "end": 39.38
+        },
+        {
+          "text": ",",
+          "start": 39.38,
+          "end": 39.48
+        },
+        {
+          "text": "here's",
+          "start": 39.48,
+          "end": 39.755
+        },
+        {
+          "text": "what",
+          "start": 39.755,
+          "end": 39.967
+        },
+        {
+          "text": "changed",
+          "start": 39.967,
+          "end": 40.98
+        },
+        {
+          "text": ":",
+          "start": 40.98,
+          "end": 41.18
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "The biggest mind-shift: you no longer tell Selenium how to find a button. You describe what the button is near, and the engine resolves it. And with MCP, you don't even write code , you tell an AI what you want, and it drives the browser.",
+      "start": 41.5,
+      "end": 55.125,
+      "words": [
+        {
+          "text": "The",
+          "start": 41.75,
+          "end": 41.825
+        },
+        {
+          "text": "biggest",
+          "start": 41.825,
+          "end": 42.175
+        },
+        {
+          "text": "mind-shift",
+          "start": 42.175,
+          "end": 43.025
+        },
+        {
+          "text": ":",
+          "start": 43.025,
+          "end": 43.125
+        },
+        {
+          "text": "you",
+          "start": 43.125,
+          "end": 43.25
+        },
+        {
+          "text": "no",
+          "start": 43.25,
+          "end": 43.425
+        },
+        {
+          "text": "longer",
+          "start": 43.425,
+          "end": 43.725
+        },
+        {
+          "text": "tell",
+          "start": 43.725,
+          "end": 43.975
+        },
+        {
+          "text": "Selenium",
+          "start": 43.975,
+          "end": 44.45
+        },
+        {
+          "text": "how",
+          "start": 44.45,
+          "end": 44.625
+        },
+        {
+          "text": "to",
+          "start": 44.625,
+          "end": 44.725
+        },
+        {
+          "text": "find",
+          "start": 44.725,
+          "end": 44.962
+        },
+        {
+          "text": "a",
+          "start": 44.962,
+          "end": 45.025
+        },
+        {
+          "text": "button",
+          "start": 45.025,
+          "end": 45.85
+        },
+        {
+          "text": ".",
+          "start": 45.85,
+          "end": 45.95
+        },
+        {
+          "text": "You",
+          "start": 45.95,
+          "end": 46.087
+        },
+        {
+          "text": "describe",
+          "start": 46.087,
+          "end": 46.537
+        },
+        {
+          "text": "what",
+          "start": 46.537,
+          "end": 46.662
+        },
+        {
+          "text": "the",
+          "start": 46.662,
+          "end": 46.75
+        },
+        {
+          "text": "button",
+          "start": 46.75,
+          "end": 47.05
+        },
+        {
+          "text": "is",
+          "start": 47.05,
+          "end": 47.2
+        },
+        {
+          "text": "near",
+          "start": 47.2,
+          "end": 47.55
+        },
+        {
+          "text": ",",
+          "start": 47.55,
+          "end": 47.625
+        },
+        {
+          "text": "and",
+          "start": 47.625,
+          "end": 47.737
+        },
+        {
+          "text": "the",
+          "start": 47.737,
+          "end": 47.85
+        },
+        {
+          "text": "engine",
+          "start": 47.85,
+          "end": 48.225
+        },
+        {
+          "text": "resolves",
+          "start": 48.225,
+          "end": 48.688
+        },
+        {
+          "text": "it",
+          "start": 48.688,
+          "end": 49.375
+        },
+        {
+          "text": ".",
+          "start": 49.375,
+          "end": 49.475
+        },
+        {
+          "text": "And",
+          "start": 49.475,
+          "end": 49.613
+        },
+        {
+          "text": "with",
+          "start": 49.613,
+          "end": 49.75
+        },
+        {
+          "text": "MCP",
+          "start": 49.75,
+          "end": 50.475
+        },
+        {
+          "text": ",",
+          "start": 50.475,
+          "end": 50.513
+        },
+        {
+          "text": "you",
+          "start": 50.513,
+          "end": 50.613
+        },
+        {
+          "text": "don't",
+          "start": 50.613,
+          "end": 50.787
+        },
+        {
+          "text": "even",
+          "start": 50.787,
+          "end": 50.975
+        },
+        {
+          "text": "write",
+          "start": 50.975,
+          "end": 51.225
+        },
+        {
+          "text": "code",
+          "start": 51.225,
+          "end": 51.725
+        },
+        {
+          "text": ",",
+          "start": 51.725,
+          "end": 51.8
+        },
+        {
+          "text": "you",
+          "start": 51.8,
+          "end": 51.925
+        },
+        {
+          "text": "tell",
+          "start": 51.925,
+          "end": 52.138
+        },
+        {
+          "text": "an",
+          "start": 52.138,
+          "end": 52.238
+        },
+        {
+          "text": "AI",
+          "start": 52.238,
+          "end": 52.587
+        },
+        {
+          "text": "what",
+          "start": 52.587,
+          "end": 52.725
+        },
+        {
+          "text": "you",
+          "start": 52.725,
+          "end": 52.85
+        },
+        {
+          "text": "want",
+          "start": 52.85,
+          "end": 53.2
+        },
+        {
+          "text": ",",
+          "start": 53.2,
+          "end": 53.275
+        },
+        {
+          "text": "and",
+          "start": 53.275,
+          "end": 53.388
+        },
+        {
+          "text": "it",
+          "start": 53.388,
+          "end": 53.475
+        },
+        {
+          "text": "drives",
+          "start": 53.475,
+          "end": 53.888
+        },
+        {
+          "text": "the",
+          "start": 53.888,
+          "end": 53.975
+        },
+        {
+          "text": "browser",
+          "start": 53.975,
+          "end": 54.925
+        },
+        {
+          "text": ".",
+          "start": 54.925,
+          "end": 55.125
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "h2",
+      "text": "Architecture Overview",
+      "start": 55.445,
+      "end": 57.295,
+      "words": [
+        {
+          "text": "Architecture",
+          "start": 55.695,
+          "end": 56.357
+        },
+        {
+          "text": "Overview",
+          "start": 56.357,
+          "end": 57.295
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "p",
+      "text": "Here's how the pieces fit together in 2026:",
+      "start": 57.69,
+      "end": 61.415,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 57.94,
+          "end": 58.29
+        },
+        {
+          "text": "how",
+          "start": 58.29,
+          "end": 58.452
+        },
+        {
+          "text": "the",
+          "start": 58.452,
+          "end": 58.54
+        },
+        {
+          "text": "pieces",
+          "start": 58.54,
+          "end": 58.94
+        },
+        {
+          "text": "fit",
+          "start": 58.94,
+          "end": 59.14
+        },
+        {
+          "text": "together",
+          "start": 59.14,
+          "end": 59.565
+        },
+        {
+          "text": "in",
+          "start": 59.565,
+          "end": 59.69
+        },
+        {
+          "text": "2026",
+          "start": 59.69,
+          "end": 61.24
+        },
+        {
+          "text": ":",
+          "start": 61.24,
+          "end": 61.415
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "The MCP server sits between your AI agent and the browser. It translates \"check the dashboard\" into WebDriver commands, executes them, and sends the result back. Your job shifts from writing locators to writing intent.",
+      "start": 61.735,
+      "end": 75.61,
+      "words": [
+        {
+          "text": "The",
+          "start": 61.985,
+          "end": 62.11
+        },
+        {
+          "text": "MCP",
+          "start": 62.11,
+          "end": 62.71
+        },
+        {
+          "text": "server",
+          "start": 62.71,
+          "end": 63.098
+        },
+        {
+          "text": "sits",
+          "start": 63.098,
+          "end": 63.385
+        },
+        {
+          "text": "between",
+          "start": 63.385,
+          "end": 63.673
+        },
+        {
+          "text": "your",
+          "start": 63.673,
+          "end": 63.86
+        },
+        {
+          "text": "AI",
+          "start": 63.86,
+          "end": 64.21
+        },
+        {
+          "text": "agent",
+          "start": 64.21,
+          "end": 64.685
+        },
+        {
+          "text": "and",
+          "start": 64.685,
+          "end": 64.797
+        },
+        {
+          "text": "the",
+          "start": 64.797,
+          "end": 64.885
+        },
+        {
+          "text": "browser",
+          "start": 64.885,
+          "end": 65.785
+        },
+        {
+          "text": ".",
+          "start": 65.785,
+          "end": 65.91
+        },
+        {
+          "text": "It",
+          "start": 65.91,
+          "end": 66.06
+        },
+        {
+          "text": "translates",
+          "start": 66.06,
+          "end": 66.76
+        },
+        {
+          "text": "\"",
+          "start": 66.76,
+          "end": 66.835
+        },
+        {
+          "text": "check",
+          "start": 66.835,
+          "end": 67.06
+        },
+        {
+          "text": "the",
+          "start": 67.06,
+          "end": 67.16
+        },
+        {
+          "text": "dashboard",
+          "start": 67.16,
+          "end": 67.685
+        },
+        {
+          "text": "\"",
+          "start": 67.685,
+          "end": 67.722
+        },
+        {
+          "text": "into",
+          "start": 67.722,
+          "end": 67.935
+        },
+        {
+          "text": "WebDriver",
+          "start": 67.935,
+          "end": 68.435
+        },
+        {
+          "text": "commands",
+          "start": 68.435,
+          "end": 69.185
+        },
+        {
+          "text": ",",
+          "start": 69.185,
+          "end": 69.285
+        },
+        {
+          "text": "executes",
+          "start": 69.285,
+          "end": 69.81
+        },
+        {
+          "text": "them",
+          "start": 69.81,
+          "end": 70.11
+        },
+        {
+          "text": ",",
+          "start": 70.11,
+          "end": 70.185
+        },
+        {
+          "text": "and",
+          "start": 70.185,
+          "end": 70.31
+        },
+        {
+          "text": "sends",
+          "start": 70.31,
+          "end": 70.622
+        },
+        {
+          "text": "the",
+          "start": 70.622,
+          "end": 70.71
+        },
+        {
+          "text": "result",
+          "start": 70.71,
+          "end": 71.11
+        },
+        {
+          "text": "back",
+          "start": 71.11,
+          "end": 71.935
+        },
+        {
+          "text": ".",
+          "start": 71.935,
+          "end": 72.073
+        },
+        {
+          "text": "Your",
+          "start": 72.073,
+          "end": 72.235
+        },
+        {
+          "text": "job",
+          "start": 72.235,
+          "end": 72.497
+        },
+        {
+          "text": "shifts",
+          "start": 72.497,
+          "end": 72.81
+        },
+        {
+          "text": "from",
+          "start": 72.81,
+          "end": 72.96
+        },
+        {
+          "text": "writing",
+          "start": 72.96,
+          "end": 73.31
+        },
+        {
+          "text": "locators",
+          "start": 73.31,
+          "end": 73.935
+        },
+        {
+          "text": "to",
+          "start": 73.935,
+          "end": 74.06
+        },
+        {
+          "text": "writing",
+          "start": 74.06,
+          "end": 74.435
+        },
+        {
+          "text": "intent",
+          "start": 74.435,
+          "end": 75.41
+        },
+        {
+          "text": ".",
+          "start": 75.41,
+          "end": 75.61
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "h2",
+      "text": "Step 1: Install Selenium (60 Seconds)",
+      "start": 75.93,
+      "end": 79.455,
+      "words": [
+        {
+          "text": "Step",
+          "start": 76.18,
+          "end": 76.455
+        },
+        {
+          "text": "1",
+          "start": 76.455,
+          "end": 76.755
+        },
+        {
+          "text": ":",
+          "start": 76.755,
+          "end": 76.83
+        },
+        {
+          "text": "Install",
+          "start": 76.83,
+          "end": 77.28
+        },
+        {
+          "text": "Selenium",
+          "start": 77.28,
+          "end": 77.905
+        },
+        {
+          "text": "(",
+          "start": 77.905,
+          "end": 77.98
+        },
+        {
+          "text": "60",
+          "start": 77.98,
+          "end": 78.305
+        },
+        {
+          "text": "Seconds",
+          "start": 78.305,
+          "end": 79.28
+        },
+        {
+          "text": ")",
+          "start": 79.28,
+          "end": 79.455
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "In 2026 you don't need to hunt for chromedriver.exe. Selenium Manager ships with the library and resolves the correct binary automatically.",
+      "start": 79.775,
+      "end": 89.525,
+      "words": [
+        {
+          "text": "In",
+          "start": 80.05,
+          "end": 80.15
+        },
+        {
+          "text": "2026",
+          "start": 80.15,
+          "end": 81.2
+        },
+        {
+          "text": "you",
+          "start": 81.2,
+          "end": 81.325
+        },
+        {
+          "text": "don't",
+          "start": 81.325,
+          "end": 81.512
+        },
+        {
+          "text": "need",
+          "start": 81.512,
+          "end": 81.662
+        },
+        {
+          "text": "to",
+          "start": 81.662,
+          "end": 81.75
+        },
+        {
+          "text": "hunt",
+          "start": 81.75,
+          "end": 82.025
+        },
+        {
+          "text": "for",
+          "start": 82.025,
+          "end": 82.15
+        },
+        {
+          "text": "chromedriver.exe",
+          "start": 82.15,
+          "end": 84.35
+        },
+        {
+          "text": ".",
+          "start": 84.35,
+          "end": 84.5
+        },
+        {
+          "text": "Selenium",
+          "start": 84.5,
+          "end": 85.1
+        },
+        {
+          "text": "Manager",
+          "start": 85.1,
+          "end": 85.537
+        },
+        {
+          "text": "ships",
+          "start": 85.537,
+          "end": 85.837
+        },
+        {
+          "text": "with",
+          "start": 85.837,
+          "end": 85.938
+        },
+        {
+          "text": "the",
+          "start": 85.938,
+          "end": 86.025
+        },
+        {
+          "text": "library",
+          "start": 86.025,
+          "end": 86.612
+        },
+        {
+          "text": "and",
+          "start": 86.612,
+          "end": 86.737
+        },
+        {
+          "text": "resolves",
+          "start": 86.737,
+          "end": 87.188
+        },
+        {
+          "text": "the",
+          "start": 87.188,
+          "end": 87.275
+        },
+        {
+          "text": "correct",
+          "start": 87.275,
+          "end": 87.675
+        },
+        {
+          "text": "binary",
+          "start": 87.675,
+          "end": 88.1
+        },
+        {
+          "text": "automatically",
+          "start": 88.1,
+          "end": 89.325
+        },
+        {
+          "text": ".",
+          "start": 89.325,
+          "end": 89.525
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "C# / .NET (what this blog's code samples use):",
+      "start": 89.845,
+      "end": 93.395,
+      "words": [
+        {
+          "text": "C#",
+          "start": 90.12,
+          "end": 90.682
+        },
+        {
+          "text": ".",
+          "start": 90.72,
+          "end": 90.77
+        },
+        {
+          "text": "NET",
+          "start": 90.77,
+          "end": 90.958
+        },
+        {
+          "text": "(",
+          "start": 90.958,
+          "end": 90.995
+        },
+        {
+          "text": "what",
+          "start": 90.995,
+          "end": 91.145
+        },
+        {
+          "text": "this",
+          "start": 91.145,
+          "end": 91.345
+        },
+        {
+          "text": "blog's",
+          "start": 91.345,
+          "end": 91.67
+        },
+        {
+          "text": "code",
+          "start": 91.67,
+          "end": 91.995
+        },
+        {
+          "text": "samples",
+          "start": 91.995,
+          "end": 92.445
+        },
+        {
+          "text": "use",
+          "start": 92.445,
+          "end": 93.395
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": "Python:",
+      "start": 93.74,
+      "end": 94.69,
+      "words": [
+        {
+          "text": "Python",
+          "start": 93.965,
+          "end": 94.565
+        },
+        {
+          "text": ":",
+          "start": 94.565,
+          "end": 94.69
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "Java / Maven:",
+      "start": 95.06,
+      "end": 97.21,
+      "words": [
+        {
+          "text": "Java",
+          "start": 95.31,
+          "end": 95.698
+        },
+        {
+          "text": "/",
+          "start": 95.698,
+          "end": 96.11
+        },
+        {
+          "text": "Maven",
+          "start": 96.11,
+          "end": 97.01
+        },
+        {
+          "text": ":",
+          "start": 97.01,
+          "end": 97.21
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "JavaScript / Node.js:",
+      "start": 97.53,
+      "end": 100.48,
+      "words": [
+        {
+          "text": "JavaScript",
+          "start": 97.78,
+          "end": 98.405
+        },
+        {
+          "text": "/",
+          "start": 98.405,
+          "end": 98.755
+        },
+        {
+          "text": "Node.js",
+          "start": 98.755,
+          "end": 100.255
+        },
+        {
+          "text": ":",
+          "start": 100.255,
+          "end": 100.48
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "That's it. No PATH variables, no driver folders. Write code and run.",
+      "start": 100.8,
+      "end": 105.575,
+      "words": [
+        {
+          "text": "That's",
+          "start": 101.05,
+          "end": 101.325
+        },
+        {
+          "text": "it",
+          "start": 101.325,
+          "end": 101.45
+        },
+        {
+          "text": ".",
+          "start": 101.45,
+          "end": 101.5
+        },
+        {
+          "text": "No",
+          "start": 101.5,
+          "end": 101.675
+        },
+        {
+          "text": "PATH",
+          "start": 101.675,
+          "end": 102.0
+        },
+        {
+          "text": "variables",
+          "start": 102.0,
+          "end": 102.475
+        },
+        {
+          "text": ",",
+          "start": 102.475,
+          "end": 102.512
+        },
+        {
+          "text": "no",
+          "start": 102.512,
+          "end": 102.675
+        },
+        {
+          "text": "driver",
+          "start": 102.675,
+          "end": 102.975
+        },
+        {
+          "text": "folders",
+          "start": 102.975,
+          "end": 103.775
+        },
+        {
+          "text": ".",
+          "start": 103.775,
+          "end": 103.875
+        },
+        {
+          "text": "Write",
+          "start": 103.875,
+          "end": 104.125
+        },
+        {
+          "text": "code",
+          "start": 104.125,
+          "end": 104.437
+        },
+        {
+          "text": "and",
+          "start": 104.437,
+          "end": 104.55
+        },
+        {
+          "text": "run",
+          "start": 104.55,
+          "end": 105.375
+        },
+        {
+          "text": ".",
+          "start": 105.375,
+          "end": 105.575
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h2",
+      "text": "Step 2: Your First Test , \"Hello, Browser!\"",
+      "start": 105.895,
+      "end": 109.07,
+      "words": [
+        {
+          "text": "Step",
+          "start": 106.145,
+          "end": 106.395
+        },
+        {
+          "text": "2",
+          "start": 106.395,
+          "end": 106.62
+        },
+        {
+          "text": ":",
+          "start": 106.62,
+          "end": 106.657
+        },
+        {
+          "text": "Your",
+          "start": 106.657,
+          "end": 106.795
+        },
+        {
+          "text": "First",
+          "start": 106.795,
+          "end": 107.095
+        },
+        {
+          "text": "Test",
+          "start": 107.095,
+          "end": 107.457
+        },
+        {
+          "text": ",",
+          "start": 107.457,
+          "end": 107.508
+        },
+        {
+          "text": "\"",
+          "start": 107.508,
+          "end": 107.545
+        },
+        {
+          "text": "Hello",
+          "start": 107.545,
+          "end": 107.795
+        },
+        {
+          "text": ",",
+          "start": 107.795,
+          "end": 107.845
+        },
+        {
+          "text": "Browser",
+          "start": 107.845,
+          "end": 108.745
+        },
+        {
+          "text": "!",
+          "start": 108.745,
+          "end": 108.995
+        },
+        {
+          "text": "\"",
+          "start": 108.995,
+          "end": 109.07
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "Create a file called FirstTest.cs (C#), first_test.py (Python), or first.test.js (JS). The pattern is identical across languages:",
+      "start": 109.39,
+      "end": 119.14,
+      "words": [
+        {
+          "text": "Create",
+          "start": 109.64,
+          "end": 109.927
+        },
+        {
+          "text": "a",
+          "start": 109.927,
+          "end": 109.99
+        },
+        {
+          "text": "file",
+          "start": 109.99,
+          "end": 110.315
+        },
+        {
+          "text": "called",
+          "start": 110.315,
+          "end": 110.59
+        },
+        {
+          "text": "FirstTest.cs",
+          "start": 110.59,
+          "end": 111.928
+        },
+        {
+          "text": "(",
+          "start": 111.928,
+          "end": 111.99
+        },
+        {
+          "text": "C#",
+          "start": 111.99,
+          "end": 112.515
+        },
+        {
+          "text": ")",
+          "start": 112.515,
+          "end": 112.54
+        },
+        {
+          "text": ",",
+          "start": 112.54,
+          "end": 112.59
+        },
+        {
+          "text": "first_test.py",
+          "start": 112.59,
+          "end": 113.528
+        },
+        {
+          "text": "(",
+          "start": 113.528,
+          "end": 113.59
+        },
+        {
+          "text": "Python",
+          "start": 113.59,
+          "end": 113.94
+        },
+        {
+          "text": ")",
+          "start": 113.94,
+          "end": 113.965
+        },
+        {
+          "text": ",",
+          "start": 113.965,
+          "end": 114.002
+        },
+        {
+          "text": "or",
+          "start": 114.002,
+          "end": 114.14
+        },
+        {
+          "text": "first.test.js",
+          "start": 114.14,
+          "end": 115.477
+        },
+        {
+          "text": "(",
+          "start": 115.477,
+          "end": 115.54
+        },
+        {
+          "text": "JS",
+          "start": 115.54,
+          "end": 116.09
+        },
+        {
+          "text": ")",
+          "start": 116.09,
+          "end": 116.265
+        },
+        {
+          "text": ".",
+          "start": 116.265,
+          "end": 116.34
+        },
+        {
+          "text": "The",
+          "start": 116.34,
+          "end": 116.44
+        },
+        {
+          "text": "pattern",
+          "start": 116.44,
+          "end": 116.84
+        },
+        {
+          "text": "is",
+          "start": 116.84,
+          "end": 116.977
+        },
+        {
+          "text": "identical",
+          "start": 116.977,
+          "end": 117.515
+        },
+        {
+          "text": "across",
+          "start": 117.515,
+          "end": 117.84
+        },
+        {
+          "text": "languages",
+          "start": 117.84,
+          "end": 118.965
+        },
+        {
+          "text": ":",
+          "start": 118.965,
+          "end": 119.14
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Key takeaway: you wrote zero driver-management code. Selenium Manager handled the binary; using handled cleanup. This is the 2026 baseline , no setup ceremony, just write the test.",
+      "start": 119.46,
+      "end": 131.585,
+      "words": [
+        {
+          "text": "Key",
+          "start": 119.71,
+          "end": 119.885
+        },
+        {
+          "text": "takeaway",
+          "start": 119.885,
+          "end": 120.46
+        },
+        {
+          "text": ":",
+          "start": 120.46,
+          "end": 120.535
+        },
+        {
+          "text": "you",
+          "start": 120.535,
+          "end": 120.66
+        },
+        {
+          "text": "wrote",
+          "start": 120.66,
+          "end": 120.935
+        },
+        {
+          "text": "zero",
+          "start": 120.935,
+          "end": 121.285
+        },
+        {
+          "text": "driver-management",
+          "start": 121.285,
+          "end": 122.06
+        },
+        {
+          "text": "code",
+          "start": 122.06,
+          "end": 122.835
+        },
+        {
+          "text": ".",
+          "start": 122.835,
+          "end": 122.973
+        },
+        {
+          "text": "Selenium",
+          "start": 122.973,
+          "end": 123.46
+        },
+        {
+          "text": "Manager",
+          "start": 123.46,
+          "end": 123.885
+        },
+        {
+          "text": "handled",
+          "start": 123.885,
+          "end": 124.272
+        },
+        {
+          "text": "the",
+          "start": 124.272,
+          "end": 124.36
+        },
+        {
+          "text": "binary",
+          "start": 124.36,
+          "end": 124.985
+        },
+        {
+          "text": ";",
+          "start": 124.985,
+          "end": 125.085
+        },
+        {
+          "text": "using",
+          "start": 125.085,
+          "end": 125.41
+        },
+        {
+          "text": "handled",
+          "start": 125.41,
+          "end": 125.835
+        },
+        {
+          "text": "cleanup",
+          "start": 125.835,
+          "end": 126.735
+        },
+        {
+          "text": ".",
+          "start": 126.735,
+          "end": 126.848
+        },
+        {
+          "text": "This",
+          "start": 126.848,
+          "end": 127.135
+        },
+        {
+          "text": "is",
+          "start": 127.135,
+          "end": 127.272
+        },
+        {
+          "text": "the",
+          "start": 127.272,
+          "end": 127.36
+        },
+        {
+          "text": "2026",
+          "start": 127.36,
+          "end": 128.285
+        },
+        {
+          "text": "baseline",
+          "start": 128.285,
+          "end": 128.823
+        },
+        {
+          "text": ",",
+          "start": 128.823,
+          "end": 128.872
+        },
+        {
+          "text": "no",
+          "start": 128.872,
+          "end": 129.035
+        },
+        {
+          "text": "setup",
+          "start": 129.035,
+          "end": 129.41
+        },
+        {
+          "text": "ceremony",
+          "start": 129.41,
+          "end": 129.935
+        },
+        {
+          "text": ",",
+          "start": 129.935,
+          "end": 129.985
+        },
+        {
+          "text": "just",
+          "start": 129.985,
+          "end": 130.21
+        },
+        {
+          "text": "write",
+          "start": 130.21,
+          "end": 130.397
+        },
+        {
+          "text": "the",
+          "start": 130.397,
+          "end": 130.485
+        },
+        {
+          "text": "test",
+          "start": 130.485,
+          "end": 131.385
+        },
+        {
+          "text": ".",
+          "start": 131.385,
+          "end": 131.585
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h2",
+      "text": "Step 3: Relative Locators , Find Elements Like a Human",
+      "start": 131.905,
+      "end": 135.78,
+      "words": [
+        {
+          "text": "Step",
+          "start": 132.155,
+          "end": 132.405
+        },
+        {
+          "text": "3",
+          "start": 132.405,
+          "end": 132.755
+        },
+        {
+          "text": ":",
+          "start": 132.755,
+          "end": 132.805
+        },
+        {
+          "text": "Relative",
+          "start": 132.805,
+          "end": 133.205
+        },
+        {
+          "text": "Locators",
+          "start": 133.205,
+          "end": 134.005
+        },
+        {
+          "text": ",",
+          "start": 134.005,
+          "end": 134.08
+        },
+        {
+          "text": "Find",
+          "start": 134.08,
+          "end": 134.38
+        },
+        {
+          "text": "Elements",
+          "start": 134.38,
+          "end": 134.842
+        },
+        {
+          "text": "Like",
+          "start": 134.842,
+          "end": 134.992
+        },
+        {
+          "text": "a",
+          "start": 134.992,
+          "end": 135.055
+        },
+        {
+          "text": "Human",
+          "start": 135.055,
+          "end": 135.78
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "Before Selenium 4, you needed CSS or XPath to locate elements. Now you describe position:",
+      "start": 136.35,
+      "end": 143.275,
+      "words": [
+        {
+          "text": "Before",
+          "start": 136.575,
+          "end": 136.875
+        },
+        {
+          "text": "Selenium",
+          "start": 136.875,
+          "end": 137.388
+        },
+        {
+          "text": "4",
+          "start": 137.388,
+          "end": 137.75
+        },
+        {
+          "text": ",",
+          "start": 137.75,
+          "end": 137.825
+        },
+        {
+          "text": "you",
+          "start": 137.825,
+          "end": 137.95
+        },
+        {
+          "text": "needed",
+          "start": 137.95,
+          "end": 138.312
+        },
+        {
+          "text": "CSS",
+          "start": 138.312,
+          "end": 139.025
+        },
+        {
+          "text": "or",
+          "start": 139.025,
+          "end": 139.175
+        },
+        {
+          "text": "XPath",
+          "start": 139.175,
+          "end": 139.725
+        },
+        {
+          "text": "to",
+          "start": 139.725,
+          "end": 139.812
+        },
+        {
+          "text": "locate",
+          "start": 139.812,
+          "end": 140.225
+        },
+        {
+          "text": "elements",
+          "start": 140.225,
+          "end": 141.2
+        },
+        {
+          "text": ".",
+          "start": 141.2,
+          "end": 141.313
+        },
+        {
+          "text": "Now",
+          "start": 141.313,
+          "end": 141.55
+        },
+        {
+          "text": "you",
+          "start": 141.55,
+          "end": 141.662
+        },
+        {
+          "text": "describe",
+          "start": 141.662,
+          "end": 142.1
+        },
+        {
+          "text": "position",
+          "start": 142.1,
+          "end": 143.1
+        },
+        {
+          "text": ":",
+          "start": 143.1,
+          "end": 143.275
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "This mirrors how a human visually scans a page. No more brittle XPath chains.",
+      "start": 143.595,
+      "end": 148.945,
+      "words": [
+        {
+          "text": "This",
+          "start": 143.845,
+          "end": 144.045
+        },
+        {
+          "text": "mirrors",
+          "start": 144.045,
+          "end": 144.37
+        },
+        {
+          "text": "how",
+          "start": 144.37,
+          "end": 144.508
+        },
+        {
+          "text": "a",
+          "start": 144.508,
+          "end": 144.57
+        },
+        {
+          "text": "human",
+          "start": 144.57,
+          "end": 144.945
+        },
+        {
+          "text": "visually",
+          "start": 144.945,
+          "end": 145.37
+        },
+        {
+          "text": "scans",
+          "start": 145.37,
+          "end": 145.707
+        },
+        {
+          "text": "a",
+          "start": 145.707,
+          "end": 145.77
+        },
+        {
+          "text": "page",
+          "start": 145.77,
+          "end": 146.47
+        },
+        {
+          "text": ".",
+          "start": 146.47,
+          "end": 146.608
+        },
+        {
+          "text": "No",
+          "start": 146.608,
+          "end": 146.795
+        },
+        {
+          "text": "more",
+          "start": 146.795,
+          "end": 146.97
+        },
+        {
+          "text": "brittle",
+          "start": 146.97,
+          "end": 147.295
+        },
+        {
+          "text": "XPath",
+          "start": 147.295,
+          "end": 147.795
+        },
+        {
+          "text": "chains",
+          "start": 147.795,
+          "end": 148.745
+        },
+        {
+          "text": ".",
+          "start": 148.745,
+          "end": 148.945
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "h2",
+      "text": "Step 4: WebDriver BiDi , The Browser Talks Back",
+      "start": 149.265,
+      "end": 152.74,
+      "words": [
+        {
+          "text": "Step",
+          "start": 149.515,
+          "end": 149.79
+        },
+        {
+          "text": "4",
+          "start": 149.79,
+          "end": 150.065
+        },
+        {
+          "text": ":",
+          "start": 150.065,
+          "end": 150.115
+        },
+        {
+          "text": "WebDriver",
+          "start": 150.115,
+          "end": 150.665
+        },
+        {
+          "text": "BiDi",
+          "start": 150.665,
+          "end": 151.128
+        },
+        {
+          "text": ",",
+          "start": 151.128,
+          "end": 151.178
+        },
+        {
+          "text": "The",
+          "start": 151.178,
+          "end": 151.265
+        },
+        {
+          "text": "Browser",
+          "start": 151.265,
+          "end": 151.665
+        },
+        {
+          "text": "Talks",
+          "start": 151.665,
+          "end": 151.99
+        },
+        {
+          "text": "Back",
+          "start": 151.99,
+          "end": 152.74
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "Classic WebDriver is request-response: you ask, the browser answers. BiDi (bidirectional) opens a persistent WebSocket so the browser can push events to you in real time.",
+      "start": 153.26,
+      "end": 164.16,
+      "words": [
+        {
+          "text": "Classic",
+          "start": 153.51,
+          "end": 153.86
+        },
+        {
+          "text": "WebDriver",
+          "start": 153.86,
+          "end": 154.46
+        },
+        {
+          "text": "is",
+          "start": 154.46,
+          "end": 154.585
+        },
+        {
+          "text": "request-response",
+          "start": 154.585,
+          "end": 155.86
+        },
+        {
+          "text": ":",
+          "start": 155.86,
+          "end": 155.96
+        },
+        {
+          "text": "you",
+          "start": 155.96,
+          "end": 156.085
+        },
+        {
+          "text": "ask",
+          "start": 156.085,
+          "end": 156.435
+        },
+        {
+          "text": ",",
+          "start": 156.435,
+          "end": 156.485
+        },
+        {
+          "text": "the",
+          "start": 156.485,
+          "end": 156.585
+        },
+        {
+          "text": "browser",
+          "start": 156.585,
+          "end": 156.96
+        },
+        {
+          "text": "answers",
+          "start": 156.96,
+          "end": 157.91
+        },
+        {
+          "text": ".",
+          "start": 157.91,
+          "end": 158.022
+        },
+        {
+          "text": "BiDi",
+          "start": 158.022,
+          "end": 158.547
+        },
+        {
+          "text": "(",
+          "start": 158.547,
+          "end": 158.585
+        },
+        {
+          "text": "bidirectional",
+          "start": 158.585,
+          "end": 159.46
+        },
+        {
+          "text": ")",
+          "start": 159.46,
+          "end": 159.56
+        },
+        {
+          "text": "opens",
+          "start": 159.56,
+          "end": 159.897
+        },
+        {
+          "text": "a",
+          "start": 159.897,
+          "end": 159.96
+        },
+        {
+          "text": "persistent",
+          "start": 159.96,
+          "end": 160.46
+        },
+        {
+          "text": "WebSocket",
+          "start": 160.46,
+          "end": 161.06
+        },
+        {
+          "text": "so",
+          "start": 161.06,
+          "end": 161.172
+        },
+        {
+          "text": "the",
+          "start": 161.172,
+          "end": 161.26
+        },
+        {
+          "text": "browser",
+          "start": 161.26,
+          "end": 161.635
+        },
+        {
+          "text": "can",
+          "start": 161.635,
+          "end": 161.76
+        },
+        {
+          "text": "push",
+          "start": 161.76,
+          "end": 161.973
+        },
+        {
+          "text": "events",
+          "start": 161.973,
+          "end": 162.36
+        },
+        {
+          "text": "to",
+          "start": 162.36,
+          "end": 162.46
+        },
+        {
+          "text": "you",
+          "start": 162.46,
+          "end": 162.66
+        },
+        {
+          "text": "in",
+          "start": 162.66,
+          "end": 162.81
+        },
+        {
+          "text": "real",
+          "start": 162.81,
+          "end": 163.085
+        },
+        {
+          "text": "time",
+          "start": 163.085,
+          "end": 163.96
+        },
+        {
+          "text": ".",
+          "start": 163.96,
+          "end": 164.16
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h3",
+      "text": "Why It Matters for Beginners",
+      "start": 164.48,
+      "end": 166.68,
+      "words": [
+        {
+          "text": "Why",
+          "start": 164.73,
+          "end": 164.918
+        },
+        {
+          "text": "It",
+          "start": 164.918,
+          "end": 165.03
+        },
+        {
+          "text": "Matters",
+          "start": 165.03,
+          "end": 165.48
+        },
+        {
+          "text": "for",
+          "start": 165.48,
+          "end": 165.605
+        },
+        {
+          "text": "Beginners",
+          "start": 165.605,
+          "end": 166.68
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "Imagine a login form that shows a spinner for 3-5 seconds after clicking \"Sign In.\" With classic Selenium, you add an explicit wait:",
+      "start": 167.15,
+      "end": 175.55,
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 167.425,
+          "end": 167.875
+        },
+        {
+          "text": "a",
+          "start": 167.875,
+          "end": 167.975
+        },
+        {
+          "text": "login",
+          "start": 167.975,
+          "end": 168.313
+        },
+        {
+          "text": "form",
+          "start": 168.313,
+          "end": 168.625
+        },
+        {
+          "text": "that",
+          "start": 168.625,
+          "end": 168.75
+        },
+        {
+          "text": "shows",
+          "start": 168.75,
+          "end": 168.988
+        },
+        {
+          "text": "a",
+          "start": 168.988,
+          "end": 169.05
+        },
+        {
+          "text": "spinner",
+          "start": 169.05,
+          "end": 169.35
+        },
+        {
+          "text": "for",
+          "start": 169.35,
+          "end": 169.488
+        },
+        {
+          "text": "3-5",
+          "start": 169.488,
+          "end": 169.975
+        },
+        {
+          "text": "seconds",
+          "start": 169.975,
+          "end": 170.363
+        },
+        {
+          "text": "after",
+          "start": 170.363,
+          "end": 170.575
+        },
+        {
+          "text": "clicking",
+          "start": 170.575,
+          "end": 170.962
+        },
+        {
+          "text": "\"",
+          "start": 170.962,
+          "end": 171.025
+        },
+        {
+          "text": "Sign",
+          "start": 171.025,
+          "end": 171.263
+        },
+        {
+          "text": "In",
+          "start": 171.263,
+          "end": 172.0
+        },
+        {
+          "text": ".",
+          "start": 172.0,
+          "end": 172.1
+        },
+        {
+          "text": "\"",
+          "start": 172.1,
+          "end": 172.15
+        },
+        {
+          "text": "With",
+          "start": 172.15,
+          "end": 172.35
+        },
+        {
+          "text": "classic",
+          "start": 172.35,
+          "end": 172.725
+        },
+        {
+          "text": "Selenium",
+          "start": 172.725,
+          "end": 173.5
+        },
+        {
+          "text": ",",
+          "start": 173.5,
+          "end": 173.6
+        },
+        {
+          "text": "you",
+          "start": 173.6,
+          "end": 173.725
+        },
+        {
+          "text": "add",
+          "start": 173.725,
+          "end": 173.913
+        },
+        {
+          "text": "an",
+          "start": 173.913,
+          "end": 174.0
+        },
+        {
+          "text": "explicit",
+          "start": 174.0,
+          "end": 174.525
+        },
+        {
+          "text": "wait",
+          "start": 174.525,
+          "end": 175.35
+        },
+        {
+          "text": ":",
+          "start": 175.35,
+          "end": 175.55
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "That's fragile , you're guessing the wait time. With BiDi, the browser tells you when the network request finished:",
+      "start": 175.87,
+      "end": 182.27,
+      "words": [
+        {
+          "text": "That's",
+          "start": 176.12,
+          "end": 176.37
+        },
+        {
+          "text": "fragile",
+          "start": 176.37,
+          "end": 176.757
+        },
+        {
+          "text": ",",
+          "start": 176.757,
+          "end": 176.808
+        },
+        {
+          "text": "you're",
+          "start": 176.808,
+          "end": 176.92
+        },
+        {
+          "text": "guessing",
+          "start": 176.92,
+          "end": 177.257
+        },
+        {
+          "text": "the",
+          "start": 177.257,
+          "end": 177.345
+        },
+        {
+          "text": "wait",
+          "start": 177.345,
+          "end": 177.595
+        },
+        {
+          "text": "time",
+          "start": 177.595,
+          "end": 178.345
+        },
+        {
+          "text": ".",
+          "start": 178.345,
+          "end": 178.445
+        },
+        {
+          "text": "With",
+          "start": 178.445,
+          "end": 178.645
+        },
+        {
+          "text": "BiDi",
+          "start": 178.645,
+          "end": 179.195
+        },
+        {
+          "text": ",",
+          "start": 179.195,
+          "end": 179.233
+        },
+        {
+          "text": "the",
+          "start": 179.233,
+          "end": 179.32
+        },
+        {
+          "text": "browser",
+          "start": 179.32,
+          "end": 179.695
+        },
+        {
+          "text": "tells",
+          "start": 179.695,
+          "end": 179.995
+        },
+        {
+          "text": "you",
+          "start": 179.995,
+          "end": 180.108
+        },
+        {
+          "text": "when",
+          "start": 180.108,
+          "end": 180.233
+        },
+        {
+          "text": "the",
+          "start": 180.233,
+          "end": 180.32
+        },
+        {
+          "text": "network",
+          "start": 180.32,
+          "end": 180.733
+        },
+        {
+          "text": "request",
+          "start": 180.733,
+          "end": 181.17
+        },
+        {
+          "text": "finished",
+          "start": 181.17,
+          "end": 182.07
+        },
+        {
+          "text": ":",
+          "start": 182.07,
+          "end": 182.27
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "No flaky waits. No Thread.Sleep(). The browser tells you when it's ready.",
+      "start": 182.59,
+      "end": 187.24,
+      "words": [
+        {
+          "text": "No",
+          "start": 182.865,
+          "end": 183.065
+        },
+        {
+          "text": "flaky",
+          "start": 183.065,
+          "end": 183.44
+        },
+        {
+          "text": "waits",
+          "start": 183.44,
+          "end": 183.79
+        },
+        {
+          "text": ".",
+          "start": 183.79,
+          "end": 183.84
+        },
+        {
+          "text": "No",
+          "start": 183.84,
+          "end": 184.027
+        },
+        {
+          "text": "Thread",
+          "start": 184.027,
+          "end": 184.29
+        },
+        {
+          "text": ".",
+          "start": 184.29,
+          "end": 184.365
+        },
+        {
+          "text": "Sleep",
+          "start": 184.365,
+          "end": 184.84
+        },
+        {
+          "text": "(",
+          "start": 184.84,
+          "end": 184.915
+        },
+        {
+          "text": ")",
+          "start": 184.915,
+          "end": 184.94
+        },
+        {
+          "text": ".",
+          "start": 184.94,
+          "end": 184.99
+        },
+        {
+          "text": "The",
+          "start": 184.99,
+          "end": 185.09
+        },
+        {
+          "text": "browser",
+          "start": 185.09,
+          "end": 185.49
+        },
+        {
+          "text": "tells",
+          "start": 185.49,
+          "end": 185.79
+        },
+        {
+          "text": "you",
+          "start": 185.79,
+          "end": 185.902
+        },
+        {
+          "text": "when",
+          "start": 185.902,
+          "end": 186.027
+        },
+        {
+          "text": "it's",
+          "start": 186.027,
+          "end": 186.215
+        },
+        {
+          "text": "ready",
+          "start": 186.215,
+          "end": 187.04
+        },
+        {
+          "text": ".",
+          "start": 187.04,
+          "end": 187.24
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h2",
+      "text": "Step 5: Selenium MCP Server , Let AI Drive the Browser",
+      "start": 187.56,
+      "end": 192.085,
+      "words": [
+        {
+          "text": "Step",
+          "start": 187.81,
+          "end": 188.06
+        },
+        {
+          "text": "5",
+          "start": 188.06,
+          "end": 188.41
+        },
+        {
+          "text": ":",
+          "start": 188.41,
+          "end": 188.46
+        },
+        {
+          "text": "Selenium",
+          "start": 188.46,
+          "end": 188.96
+        },
+        {
+          "text": "MCP",
+          "start": 188.96,
+          "end": 189.535
+        },
+        {
+          "text": "Server",
+          "start": 189.535,
+          "end": 190.073
+        },
+        {
+          "text": ",",
+          "start": 190.073,
+          "end": 190.16
+        },
+        {
+          "text": "Let",
+          "start": 190.16,
+          "end": 190.385
+        },
+        {
+          "text": "AI",
+          "start": 190.385,
+          "end": 190.735
+        },
+        {
+          "text": "Drive",
+          "start": 190.735,
+          "end": 191.022
+        },
+        {
+          "text": "the",
+          "start": 191.022,
+          "end": 191.11
+        },
+        {
+          "text": "Browser",
+          "start": 191.11,
+          "end": 192.085
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "This is where Selenium in 2026 gets genuinely exciting. MCP (Model Context Protocol) lets an AI agent , Claude Desktop, GitHub Copilot, or a custom LLM , control your browser through natural language.",
+      "start": 192.605,
+      "end": 207.08,
+      "words": [
+        {
+          "text": "This",
+          "start": 192.855,
+          "end": 193.03
+        },
+        {
+          "text": "is",
+          "start": 193.03,
+          "end": 193.155
+        },
+        {
+          "text": "where",
+          "start": 193.155,
+          "end": 193.355
+        },
+        {
+          "text": "Selenium",
+          "start": 193.355,
+          "end": 193.842
+        },
+        {
+          "text": "in",
+          "start": 193.842,
+          "end": 193.93
+        },
+        {
+          "text": "2026",
+          "start": 193.93,
+          "end": 194.88
+        },
+        {
+          "text": "gets",
+          "start": 194.88,
+          "end": 195.13
+        },
+        {
+          "text": "genuinely",
+          "start": 195.13,
+          "end": 195.655
+        },
+        {
+          "text": "exciting",
+          "start": 195.655,
+          "end": 196.83
+        },
+        {
+          "text": ".",
+          "start": 196.83,
+          "end": 196.967
+        },
+        {
+          "text": "MCP",
+          "start": 196.967,
+          "end": 197.693
+        },
+        {
+          "text": "(",
+          "start": 197.693,
+          "end": 197.755
+        },
+        {
+          "text": "Model",
+          "start": 197.755,
+          "end": 198.03
+        },
+        {
+          "text": "Context",
+          "start": 198.03,
+          "end": 198.505
+        },
+        {
+          "text": "Protocol",
+          "start": 198.505,
+          "end": 199.43
+        },
+        {
+          "text": ")",
+          "start": 199.43,
+          "end": 199.53
+        },
+        {
+          "text": "lets",
+          "start": 199.53,
+          "end": 199.767
+        },
+        {
+          "text": "an",
+          "start": 199.767,
+          "end": 199.855
+        },
+        {
+          "text": "AI",
+          "start": 199.855,
+          "end": 200.205
+        },
+        {
+          "text": "agent",
+          "start": 200.205,
+          "end": 200.705
+        },
+        {
+          "text": ",",
+          "start": 200.705,
+          "end": 200.78
+        },
+        {
+          "text": "Claude",
+          "start": 200.78,
+          "end": 201.105
+        },
+        {
+          "text": "Desktop",
+          "start": 201.105,
+          "end": 201.73
+        },
+        {
+          "text": ",",
+          "start": 201.73,
+          "end": 201.805
+        },
+        {
+          "text": "GitHub",
+          "start": 201.805,
+          "end": 202.18
+        },
+        {
+          "text": "Copilot",
+          "start": 202.18,
+          "end": 202.705
+        },
+        {
+          "text": ",",
+          "start": 202.705,
+          "end": 202.755
+        },
+        {
+          "text": "or",
+          "start": 202.755,
+          "end": 202.867
+        },
+        {
+          "text": "a",
+          "start": 202.867,
+          "end": 202.93
+        },
+        {
+          "text": "custom",
+          "start": 202.93,
+          "end": 203.33
+        },
+        {
+          "text": "LLM",
+          "start": 203.33,
+          "end": 204.217
+        },
+        {
+          "text": ",",
+          "start": 204.217,
+          "end": 204.305
+        },
+        {
+          "text": "control",
+          "start": 204.305,
+          "end": 204.78
+        },
+        {
+          "text": "your",
+          "start": 204.78,
+          "end": 204.93
+        },
+        {
+          "text": "browser",
+          "start": 204.93,
+          "end": 205.33
+        },
+        {
+          "text": "through",
+          "start": 205.33,
+          "end": 205.505
+        },
+        {
+          "text": "natural",
+          "start": 205.505,
+          "end": 205.88
+        },
+        {
+          "text": "language",
+          "start": 205.88,
+          "end": 206.88
+        },
+        {
+          "text": ".",
+          "start": 206.88,
+          "end": 207.08
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "h3",
+      "text": "How MCP Works (The Short Version)",
+      "start": 207.4,
+      "end": 210.4,
+      "words": [
+        {
+          "text": "How",
+          "start": 207.65,
+          "end": 207.85
+        },
+        {
+          "text": "MCP",
+          "start": 207.85,
+          "end": 208.55
+        },
+        {
+          "text": "Works",
+          "start": 208.55,
+          "end": 208.862
+        },
+        {
+          "text": "(",
+          "start": 208.862,
+          "end": 208.9
+        },
+        {
+          "text": "The",
+          "start": 208.9,
+          "end": 208.987
+        },
+        {
+          "text": "Short",
+          "start": 208.987,
+          "end": 209.3
+        },
+        {
+          "text": "Version",
+          "start": 209.3,
+          "end": 210.225
+        },
+        {
+          "text": ")",
+          "start": 210.225,
+          "end": 210.4
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "h3",
+      "text": "The Original Selenium MCP Server",
+      "start": 210.72,
+      "end": 213.745,
+      "words": [
+        {
+          "text": "The",
+          "start": 210.97,
+          "end": 211.095
+        },
+        {
+          "text": "Original",
+          "start": 211.095,
+          "end": 211.545
+        },
+        {
+          "text": "Selenium",
+          "start": 211.545,
+          "end": 212.157
+        },
+        {
+          "text": "MCP",
+          "start": 212.157,
+          "end": 212.932
+        },
+        {
+          "text": "Server",
+          "start": 212.932,
+          "end": 213.745
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "p",
+      "text": "The first , and still most popular , Selenium MCP server was built by Angie Jones (@angiejones/mcp-selenium). Angie is a well-known figure in the test automation community (ex-Applittools, ex-Test Automation University), and her mcp-selenium project was the proof-of-concept that showed the world AI agents could drive real browsers through Selenium.",
+      "start": 214.315,
+      "end": 236.965,
+      "words": [
+        {
+          "text": "The",
+          "start": 214.565,
+          "end": 214.64
+        },
+        {
+          "text": "first",
+          "start": 214.64,
+          "end": 215.077
+        },
+        {
+          "text": ",",
+          "start": 215.077,
+          "end": 215.127
+        },
+        {
+          "text": "and",
+          "start": 215.127,
+          "end": 215.24
+        },
+        {
+          "text": "still",
+          "start": 215.24,
+          "end": 215.515
+        },
+        {
+          "text": "most",
+          "start": 215.515,
+          "end": 215.765
+        },
+        {
+          "text": "popular",
+          "start": 215.765,
+          "end": 216.152
+        },
+        {
+          "text": ",",
+          "start": 216.152,
+          "end": 216.215
+        },
+        {
+          "text": "Selenium",
+          "start": 216.215,
+          "end": 216.74
+        },
+        {
+          "text": "MCP",
+          "start": 216.74,
+          "end": 217.315
+        },
+        {
+          "text": "server",
+          "start": 217.315,
+          "end": 217.652
+        },
+        {
+          "text": "was",
+          "start": 217.652,
+          "end": 217.79
+        },
+        {
+          "text": "built",
+          "start": 217.79,
+          "end": 218.04
+        },
+        {
+          "text": "by",
+          "start": 218.04,
+          "end": 218.215
+        },
+        {
+          "text": "Angie",
+          "start": 218.215,
+          "end": 218.515
+        },
+        {
+          "text": "Jones",
+          "start": 218.515,
+          "end": 219.377
+        },
+        {
+          "text": "(",
+          "start": 219.377,
+          "end": 219.465
+        },
+        {
+          "text": "@angiejones/mcp-selenium",
+          "start": 219.465,
+          "end": 222.34
+        },
+        {
+          "text": ")",
+          "start": 222.34,
+          "end": 222.515
+        },
+        {
+          "text": ".",
+          "start": 222.515,
+          "end": 222.602
+        },
+        {
+          "text": "Angie",
+          "start": 222.602,
+          "end": 222.965
+        },
+        {
+          "text": "is",
+          "start": 222.965,
+          "end": 223.077
+        },
+        {
+          "text": "a",
+          "start": 223.077,
+          "end": 223.14
+        },
+        {
+          "text": "well-known",
+          "start": 223.14,
+          "end": 223.627
+        },
+        {
+          "text": "figure",
+          "start": 223.627,
+          "end": 223.94
+        },
+        {
+          "text": "in",
+          "start": 223.94,
+          "end": 224.028
+        },
+        {
+          "text": "the",
+          "start": 224.028,
+          "end": 224.115
+        },
+        {
+          "text": "test",
+          "start": 224.115,
+          "end": 224.44
+        },
+        {
+          "text": "automation",
+          "start": 224.44,
+          "end": 225.04
+        },
+        {
+          "text": "community",
+          "start": 225.04,
+          "end": 225.753
+        },
+        {
+          "text": "(",
+          "start": 225.753,
+          "end": 225.815
+        },
+        {
+          "text": "ex-Applittools",
+          "start": 225.815,
+          "end": 226.89
+        },
+        {
+          "text": ",",
+          "start": 226.89,
+          "end": 226.99
+        },
+        {
+          "text": "ex-Test",
+          "start": 226.99,
+          "end": 227.49
+        },
+        {
+          "text": "Automation",
+          "start": 227.49,
+          "end": 228.028
+        },
+        {
+          "text": "University",
+          "start": 228.028,
+          "end": 229.14
+        },
+        {
+          "text": ")",
+          "start": 229.14,
+          "end": 229.265
+        },
+        {
+          "text": ",",
+          "start": 229.265,
+          "end": 229.34
+        },
+        {
+          "text": "and",
+          "start": 229.34,
+          "end": 229.452
+        },
+        {
+          "text": "her",
+          "start": 229.452,
+          "end": 229.565
+        },
+        {
+          "text": "mcp-selenium",
+          "start": 229.565,
+          "end": 230.615
+        },
+        {
+          "text": "project",
+          "start": 230.615,
+          "end": 231.215
+        },
+        {
+          "text": "was",
+          "start": 231.215,
+          "end": 231.353
+        },
+        {
+          "text": "the",
+          "start": 231.353,
+          "end": 231.44
+        },
+        {
+          "text": "proof-of-concept",
+          "start": 231.44,
+          "end": 232.515
+        },
+        {
+          "text": "that",
+          "start": 232.515,
+          "end": 232.652
+        },
+        {
+          "text": "showed",
+          "start": 232.652,
+          "end": 232.902
+        },
+        {
+          "text": "the",
+          "start": 232.902,
+          "end": 232.99
+        },
+        {
+          "text": "world",
+          "start": 232.99,
+          "end": 233.327
+        },
+        {
+          "text": "AI",
+          "start": 233.327,
+          "end": 233.69
+        },
+        {
+          "text": "agents",
+          "start": 233.69,
+          "end": 234.165
+        },
+        {
+          "text": "could",
+          "start": 234.165,
+          "end": 234.315
+        },
+        {
+          "text": "drive",
+          "start": 234.315,
+          "end": 234.702
+        },
+        {
+          "text": "real",
+          "start": 234.702,
+          "end": 234.99
+        },
+        {
+          "text": "browsers",
+          "start": 234.99,
+          "end": 235.465
+        },
+        {
+          "text": "through",
+          "start": 235.465,
+          "end": 235.69
+        },
+        {
+          "text": "Selenium",
+          "start": 235.69,
+          "end": 236.79
+        },
+        {
+          "text": ".",
+          "start": 236.79,
+          "end": 236.965
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "Why it caught on:",
+      "start": 237.285,
+      "end": 239.01,
+      "words": [
+        {
+          "text": "Why",
+          "start": 237.535,
+          "end": 237.735
+        },
+        {
+          "text": "it",
+          "start": 237.735,
+          "end": 237.835
+        },
+        {
+          "text": "caught",
+          "start": 237.835,
+          "end": 238.135
+        },
+        {
+          "text": "on",
+          "start": 238.135,
+          "end": 238.835
+        },
+        {
+          "text": ":",
+          "start": 238.835,
+          "end": 239.01
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "li",
+      "text": "Zero config , runs via npx, no Python dependency, no virtual environment",
+      "start": 239.33,
+      "end": 245.08,
+      "words": [
+        {
+          "text": "Zero",
+          "start": 239.605,
+          "end": 239.93
+        },
+        {
+          "text": "config",
+          "start": 239.93,
+          "end": 240.642
+        },
+        {
+          "text": ",",
+          "start": 240.642,
+          "end": 240.73
+        },
+        {
+          "text": "runs",
+          "start": 240.73,
+          "end": 241.005
+        },
+        {
+          "text": "via",
+          "start": 241.005,
+          "end": 241.255
+        },
+        {
+          "text": "npx",
+          "start": 241.255,
+          "end": 242.055
+        },
+        {
+          "text": ",",
+          "start": 242.055,
+          "end": 242.13
+        },
+        {
+          "text": "no",
+          "start": 242.13,
+          "end": 242.305
+        },
+        {
+          "text": "Python",
+          "start": 242.305,
+          "end": 242.617
+        },
+        {
+          "text": "dependency",
+          "start": 242.617,
+          "end": 243.28
+        },
+        {
+          "text": ",",
+          "start": 243.28,
+          "end": 243.33
+        },
+        {
+          "text": "no",
+          "start": 243.33,
+          "end": 243.505
+        },
+        {
+          "text": "virtual",
+          "start": 243.505,
+          "end": 243.942
+        },
+        {
+          "text": "environment",
+          "start": 243.942,
+          "end": 245.08
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "li",
+      "text": "Comprehensive tools , goes beyond basic navigation to expose WebDriver BiDi diagnostics, accessibility tree snapshots, JavaScript execution, iframe management, alert handling, and cookie manipulation",
+      "start": 245.55,
+      "end": 258.725,
+      "words": [
+        {
+          "text": "Comprehensive",
+          "start": 245.8,
+          "end": 246.4
+        },
+        {
+          "text": "tools",
+          "start": 246.4,
+          "end": 246.925
+        },
+        {
+          "text": ",",
+          "start": 246.925,
+          "end": 247.0
+        },
+        {
+          "text": "goes",
+          "start": 247.0,
+          "end": 247.3
+        },
+        {
+          "text": "beyond",
+          "start": 247.3,
+          "end": 247.675
+        },
+        {
+          "text": "basic",
+          "start": 247.675,
+          "end": 248.075
+        },
+        {
+          "text": "navigation",
+          "start": 248.075,
+          "end": 248.7
+        },
+        {
+          "text": "to",
+          "start": 248.7,
+          "end": 248.8
+        },
+        {
+          "text": "expose",
+          "start": 248.8,
+          "end": 249.275
+        },
+        {
+          "text": "WebDriver",
+          "start": 249.275,
+          "end": 249.85
+        },
+        {
+          "text": "BiDi",
+          "start": 249.85,
+          "end": 250.275
+        },
+        {
+          "text": "diagnostics",
+          "start": 250.275,
+          "end": 251.475
+        },
+        {
+          "text": ",",
+          "start": 251.475,
+          "end": 251.575
+        },
+        {
+          "text": "accessibility",
+          "start": 251.575,
+          "end": 252.3
+        },
+        {
+          "text": "tree",
+          "start": 252.3,
+          "end": 252.525
+        },
+        {
+          "text": "snapshots",
+          "start": 252.525,
+          "end": 253.45
+        },
+        {
+          "text": ",",
+          "start": 253.45,
+          "end": 253.587
+        },
+        {
+          "text": "JavaScript",
+          "start": 253.587,
+          "end": 254.237
+        },
+        {
+          "text": "execution",
+          "start": 254.237,
+          "end": 255.025
+        },
+        {
+          "text": ",",
+          "start": 255.025,
+          "end": 255.125
+        },
+        {
+          "text": "iframe",
+          "start": 255.125,
+          "end": 255.5
+        },
+        {
+          "text": "management",
+          "start": 255.5,
+          "end": 256.1
+        },
+        {
+          "text": ",",
+          "start": 256.1,
+          "end": 256.175
+        },
+        {
+          "text": "alert",
+          "start": 256.175,
+          "end": 256.525
+        },
+        {
+          "text": "handling",
+          "start": 256.525,
+          "end": 256.975
+        },
+        {
+          "text": ",",
+          "start": 256.975,
+          "end": 257.012
+        },
+        {
+          "text": "and",
+          "start": 257.012,
+          "end": 257.137
+        },
+        {
+          "text": "cookie",
+          "start": 257.137,
+          "end": 257.437
+        },
+        {
+          "text": "manipulation",
+          "start": 257.437,
+          "end": 258.725
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "li",
+      "text": "Accessibility-first , the accessibility://current resource gives the AI a compact, structured JSON tree of interactive elements so it can \"see\" the page without parsing raw HTML",
+      "start": 259.145,
+      "end": 270.92,
+      "words": [
+        {
+          "text": "Accessibility-first",
+          "start": 259.395,
+          "end": 260.482
+        },
+        {
+          "text": ",",
+          "start": 260.482,
+          "end": 260.532
+        },
+        {
+          "text": "the",
+          "start": 260.532,
+          "end": 260.62
+        },
+        {
+          "text": "accessibility://current",
+          "start": 260.62,
+          "end": 262.783
+        },
+        {
+          "text": "resource",
+          "start": 262.783,
+          "end": 263.195
+        },
+        {
+          "text": "gives",
+          "start": 263.195,
+          "end": 263.382
+        },
+        {
+          "text": "the",
+          "start": 263.382,
+          "end": 263.507
+        },
+        {
+          "text": "AI",
+          "start": 263.507,
+          "end": 263.858
+        },
+        {
+          "text": "a",
+          "start": 263.858,
+          "end": 263.92
+        },
+        {
+          "text": "compact",
+          "start": 263.92,
+          "end": 264.42
+        },
+        {
+          "text": ",",
+          "start": 264.42,
+          "end": 264.47
+        },
+        {
+          "text": "structured",
+          "start": 264.47,
+          "end": 264.92
+        },
+        {
+          "text": "JSON",
+          "start": 264.92,
+          "end": 265.62
+        },
+        {
+          "text": "tree",
+          "start": 265.62,
+          "end": 265.858
+        },
+        {
+          "text": "of",
+          "start": 265.858,
+          "end": 265.932
+        },
+        {
+          "text": "interactive",
+          "start": 265.932,
+          "end": 266.47
+        },
+        {
+          "text": "elements",
+          "start": 266.47,
+          "end": 267.445
+        },
+        {
+          "text": "so",
+          "start": 267.445,
+          "end": 267.583
+        },
+        {
+          "text": "it",
+          "start": 267.583,
+          "end": 267.67
+        },
+        {
+          "text": "can",
+          "start": 267.67,
+          "end": 267.845
+        },
+        {
+          "text": "\"",
+          "start": 267.845,
+          "end": 267.945
+        },
+        {
+          "text": "see",
+          "start": 267.945,
+          "end": 268.145
+        },
+        {
+          "text": "\"",
+          "start": 268.145,
+          "end": 268.182
+        },
+        {
+          "text": "the",
+          "start": 268.182,
+          "end": 268.27
+        },
+        {
+          "text": "page",
+          "start": 268.27,
+          "end": 268.633
+        },
+        {
+          "text": "without",
+          "start": 268.633,
+          "end": 268.945
+        },
+        {
+          "text": "parsing",
+          "start": 268.945,
+          "end": 269.37
+        },
+        {
+          "text": "raw",
+          "start": 269.37,
+          "end": 269.645
+        },
+        {
+          "text": "HTML",
+          "start": 269.645,
+          "end": 270.92
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Actively maintained , regular releases through 2026, widely cited in guides from mcp.directory, Block's Goose, and Claude Code",
+      "start": 271.34,
+      "end": 280.19,
+      "words": [
+        {
+          "text": "Actively",
+          "start": 271.59,
+          "end": 272.015
+        },
+        {
+          "text": "maintained",
+          "start": 272.015,
+          "end": 272.69
+        },
+        {
+          "text": ",",
+          "start": 272.69,
+          "end": 272.765
+        },
+        {
+          "text": "regular",
+          "start": 272.765,
+          "end": 273.14
+        },
+        {
+          "text": "releases",
+          "start": 273.14,
+          "end": 273.64
+        },
+        {
+          "text": "through",
+          "start": 273.64,
+          "end": 273.79
+        },
+        {
+          "text": "2026",
+          "start": 273.79,
+          "end": 275.14
+        },
+        {
+          "text": ",",
+          "start": 275.14,
+          "end": 275.24
+        },
+        {
+          "text": "widely",
+          "start": 275.24,
+          "end": 275.615
+        },
+        {
+          "text": "cited",
+          "start": 275.615,
+          "end": 275.99
+        },
+        {
+          "text": "in",
+          "start": 275.99,
+          "end": 276.115
+        },
+        {
+          "text": "guides",
+          "start": 276.115,
+          "end": 276.465
+        },
+        {
+          "text": "from",
+          "start": 276.465,
+          "end": 276.64
+        },
+        {
+          "text": "mcp.directory",
+          "start": 276.64,
+          "end": 278.215
+        },
+        {
+          "text": ",",
+          "start": 278.215,
+          "end": 278.265
+        },
+        {
+          "text": "Block's",
+          "start": 278.265,
+          "end": 278.59
+        },
+        {
+          "text": "Goose",
+          "start": 278.59,
+          "end": 278.865
+        },
+        {
+          "text": ",",
+          "start": 278.865,
+          "end": 278.903
+        },
+        {
+          "text": "and",
+          "start": 278.903,
+          "end": 279.015
+        },
+        {
+          "text": "Claude",
+          "start": 279.015,
+          "end": 279.34
+        },
+        {
+          "text": "Code",
+          "start": 279.34,
+          "end": 280.19
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h3",
+      "text": "Setup (5 Minutes)",
+      "start": 280.735,
+      "end": 282.835,
+      "words": [
+        {
+          "text": "Setup",
+          "start": 281.01,
+          "end": 281.422
+        },
+        {
+          "text": "(",
+          "start": 281.422,
+          "end": 281.485
+        },
+        {
+          "text": "5",
+          "start": 281.485,
+          "end": 281.773
+        },
+        {
+          "text": "Minutes",
+          "start": 281.773,
+          "end": 282.66
+        },
+        {
+          "text": ")",
+          "start": 282.66,
+          "end": 282.835
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "Prerequisite: You have Selenium installed from Step 1.",
+      "start": 283.155,
+      "end": 287.08,
+      "words": [
+        {
+          "text": "Prerequisite",
+          "start": 283.38,
+          "end": 284.155
+        },
+        {
+          "text": ":",
+          "start": 284.155,
+          "end": 284.23
+        },
+        {
+          "text": "You",
+          "start": 284.23,
+          "end": 284.367
+        },
+        {
+          "text": "have",
+          "start": 284.367,
+          "end": 284.555
+        },
+        {
+          "text": "Selenium",
+          "start": 284.555,
+          "end": 285.105
+        },
+        {
+          "text": "installed",
+          "start": 285.105,
+          "end": 285.63
+        },
+        {
+          "text": "from",
+          "start": 285.63,
+          "end": 285.83
+        },
+        {
+          "text": "Step",
+          "start": 285.83,
+          "end": 286.13
+        },
+        {
+          "text": "1",
+          "start": 286.13,
+          "end": 286.905
+        },
+        {
+          "text": ".",
+          "start": 286.905,
+          "end": 287.08
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "p",
+      "text": "1. Register the MCP server with your AI agent , no install step needed.",
+      "start": 287.4,
+      "end": 293.125,
+      "words": [
+        {
+          "text": "1",
+          "start": 287.675,
+          "end": 288.0
+        },
+        {
+          "text": ".",
+          "start": 288.0,
+          "end": 288.075
+        },
+        {
+          "text": "Register",
+          "start": 288.075,
+          "end": 288.513
+        },
+        {
+          "text": "the",
+          "start": 288.513,
+          "end": 288.65
+        },
+        {
+          "text": "MCP",
+          "start": 288.65,
+          "end": 289.25
+        },
+        {
+          "text": "server",
+          "start": 289.25,
+          "end": 289.588
+        },
+        {
+          "text": "with",
+          "start": 289.588,
+          "end": 289.712
+        },
+        {
+          "text": "your",
+          "start": 289.712,
+          "end": 289.913
+        },
+        {
+          "text": "AI",
+          "start": 289.913,
+          "end": 290.275
+        },
+        {
+          "text": "agent",
+          "start": 290.275,
+          "end": 290.962
+        },
+        {
+          "text": ",",
+          "start": 290.962,
+          "end": 291.05
+        },
+        {
+          "text": "no",
+          "start": 291.05,
+          "end": 291.25
+        },
+        {
+          "text": "install",
+          "start": 291.25,
+          "end": 291.775
+        },
+        {
+          "text": "step",
+          "start": 291.775,
+          "end": 292.075
+        },
+        {
+          "text": "needed",
+          "start": 292.075,
+          "end": 292.925
+        },
+        {
+          "text": ".",
+          "start": 292.925,
+          "end": 293.125
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "Angie's mcp-selenium runs directly via npx (Node.js package runner). The AI agent downloads and launches it on demand:",
+      "start": 293.445,
+      "end": 302.645,
+      "words": [
+        {
+          "text": "Angie's",
+          "start": 293.72,
+          "end": 294.083
+        },
+        {
+          "text": "mcp-selenium",
+          "start": 294.083,
+          "end": 295.12
+        },
+        {
+          "text": "runs",
+          "start": 295.12,
+          "end": 295.395
+        },
+        {
+          "text": "directly",
+          "start": 295.395,
+          "end": 295.92
+        },
+        {
+          "text": "via",
+          "start": 295.92,
+          "end": 296.195
+        },
+        {
+          "text": "npx",
+          "start": 296.195,
+          "end": 296.833
+        },
+        {
+          "text": "(",
+          "start": 296.833,
+          "end": 296.895
+        },
+        {
+          "text": "Node.js",
+          "start": 296.895,
+          "end": 297.97
+        },
+        {
+          "text": "package",
+          "start": 297.97,
+          "end": 298.37
+        },
+        {
+          "text": "runner",
+          "start": 298.37,
+          "end": 298.82
+        },
+        {
+          "text": ")",
+          "start": 298.82,
+          "end": 299.07
+        },
+        {
+          "text": ".",
+          "start": 299.07,
+          "end": 299.145
+        },
+        {
+          "text": "The",
+          "start": 299.145,
+          "end": 299.307
+        },
+        {
+          "text": "AI",
+          "start": 299.307,
+          "end": 299.708
+        },
+        {
+          "text": "agent",
+          "start": 299.708,
+          "end": 300.07
+        },
+        {
+          "text": "downloads",
+          "start": 300.07,
+          "end": 300.67
+        },
+        {
+          "text": "and",
+          "start": 300.67,
+          "end": 300.795
+        },
+        {
+          "text": "launches",
+          "start": 300.795,
+          "end": 301.22
+        },
+        {
+          "text": "it",
+          "start": 301.22,
+          "end": 301.333
+        },
+        {
+          "text": "on",
+          "start": 301.333,
+          "end": 301.445
+        },
+        {
+          "text": "demand",
+          "start": 301.445,
+          "end": 302.445
+        },
+        {
+          "text": ":",
+          "start": 302.445,
+          "end": 302.645
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "For Claude Desktop, edit claude_desktop_config.json:",
+      "start": 302.965,
+      "end": 307.165,
+      "words": [
+        {
+          "text": "For",
+          "start": 303.215,
+          "end": 303.34
+        },
+        {
+          "text": "Claude",
+          "start": 303.34,
+          "end": 303.615
+        },
+        {
+          "text": "Desktop",
+          "start": 303.615,
+          "end": 304.19
+        },
+        {
+          "text": ",",
+          "start": 304.19,
+          "end": 304.265
+        },
+        {
+          "text": "edit",
+          "start": 304.265,
+          "end": 304.54
+        },
+        {
+          "text": "claude_desktop_config.json",
+          "start": 304.54,
+          "end": 306.965
+        },
+        {
+          "text": ":",
+          "start": 306.965,
+          "end": 307.165
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Windows: percentAPPDATA percent\\Claude\\claude_desktop_config.json",
+      "start": 307.485,
+      "end": 312.36,
+      "words": [
+        {
+          "text": "Windows",
+          "start": 307.735,
+          "end": 308.21
+        },
+        {
+          "text": ":",
+          "start": 308.21,
+          "end": 308.26
+        },
+        {
+          "text": "percentAPPDATA",
+          "start": 308.26,
+          "end": 309.46
+        },
+        {
+          "text": "percent",
+          "start": 309.46,
+          "end": 309.86
+        },
+        {
+          "text": "Claude",
+          "start": 309.86,
+          "end": 310.11
+        },
+        {
+          "text": "claude",
+          "start": 310.11,
+          "end": 310.385
+        },
+        {
+          "text": "desktop",
+          "start": 310.385,
+          "end": 310.785
+        },
+        {
+          "text": "config",
+          "start": 310.785,
+          "end": 311.26
+        },
+        {
+          "text": ".",
+          "start": 311.26,
+          "end": 311.36
+        },
+        {
+          "text": "json",
+          "start": 311.36,
+          "end": 312.36
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "macOS: about /Library/Application Support/Claude/claude_desktop_config.json",
+      "start": 312.83,
+      "end": 319.03,
+      "words": [
+        {
+          "text": "macOS",
+          "start": 313.08,
+          "end": 313.655
+        },
+        {
+          "text": ":",
+          "start": 313.655,
+          "end": 313.705
+        },
+        {
+          "text": "about",
+          "start": 313.705,
+          "end": 314.005
+        },
+        {
+          "text": "/Library/Application",
+          "start": 314.005,
+          "end": 314.98
+        },
+        {
+          "text": "Support/Claude/claude_desktop_config.json",
+          "start": 314.98,
+          "end": 319.03
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "quote",
+      "text": "Alternative (Python): If you prefer Python, the selenium-mcp package (pip install selenium-mcp) offers a similar experience. But @angiejones/mcp-selenium remains the canonical implementation , it was first, has the largest toolset, and is what most tutorials reference.",
+      "start": 319.525,
+      "end": 338.1,
+      "words": [
+        {
+          "text": "Alternative",
+          "start": 319.8,
+          "end": 320.412
+        },
+        {
+          "text": "(",
+          "start": 320.412,
+          "end": 320.45
+        },
+        {
+          "text": "Python",
+          "start": 320.45,
+          "end": 321.225
+        },
+        {
+          "text": ":",
+          "start": 321.225,
+          "end": 321.325
+        },
+        {
+          "text": "If",
+          "start": 321.325,
+          "end": 321.463
+        },
+        {
+          "text": "you",
+          "start": 321.463,
+          "end": 321.575
+        },
+        {
+          "text": "prefer",
+          "start": 321.575,
+          "end": 321.9
+        },
+        {
+          "text": "Python",
+          "start": 321.9,
+          "end": 322.3
+        },
+        {
+          "text": ",",
+          "start": 322.3,
+          "end": 322.35
+        },
+        {
+          "text": "the",
+          "start": 322.35,
+          "end": 322.45
+        },
+        {
+          "text": "selenium-mcp",
+          "start": 322.45,
+          "end": 323.525
+        },
+        {
+          "text": "package",
+          "start": 323.525,
+          "end": 324.137
+        },
+        {
+          "text": "(",
+          "start": 324.137,
+          "end": 324.2
+        },
+        {
+          "text": "pip",
+          "start": 324.2,
+          "end": 324.425
+        },
+        {
+          "text": "install",
+          "start": 324.425,
+          "end": 324.925
+        },
+        {
+          "text": "selenium-mcp",
+          "start": 324.925,
+          "end": 326.1
+        },
+        {
+          "text": ")",
+          "start": 326.1,
+          "end": 326.2
+        },
+        {
+          "text": "offers",
+          "start": 326.2,
+          "end": 326.55
+        },
+        {
+          "text": "a",
+          "start": 326.55,
+          "end": 326.662
+        },
+        {
+          "text": "similar",
+          "start": 326.662,
+          "end": 327.025
+        },
+        {
+          "text": "experience",
+          "start": 327.025,
+          "end": 328.4
+        },
+        {
+          "text": ".",
+          "start": 328.4,
+          "end": 328.5
+        },
+        {
+          "text": "But",
+          "start": 328.5,
+          "end": 328.65
+        },
+        {
+          "text": "@angiejones/mcp-selenium",
+          "start": 328.65,
+          "end": 330.85
+        },
+        {
+          "text": "remains",
+          "start": 330.85,
+          "end": 331.312
+        },
+        {
+          "text": "the",
+          "start": 331.312,
+          "end": 331.4
+        },
+        {
+          "text": "canonical",
+          "start": 331.4,
+          "end": 331.912
+        },
+        {
+          "text": "implementation",
+          "start": 331.912,
+          "end": 333.062
+        },
+        {
+          "text": ",",
+          "start": 333.062,
+          "end": 333.15
+        },
+        {
+          "text": "it",
+          "start": 333.15,
+          "end": 333.237
+        },
+        {
+          "text": "was",
+          "start": 333.237,
+          "end": 333.4
+        },
+        {
+          "text": "first",
+          "start": 333.4,
+          "end": 333.85
+        },
+        {
+          "text": ",",
+          "start": 333.85,
+          "end": 333.9
+        },
+        {
+          "text": "has",
+          "start": 333.9,
+          "end": 334.1
+        },
+        {
+          "text": "the",
+          "start": 334.1,
+          "end": 334.2
+        },
+        {
+          "text": "largest",
+          "start": 334.2,
+          "end": 334.65
+        },
+        {
+          "text": "toolset",
+          "start": 334.65,
+          "end": 335.5
+        },
+        {
+          "text": ",",
+          "start": 335.5,
+          "end": 335.6
+        },
+        {
+          "text": "and",
+          "start": 335.6,
+          "end": 335.713
+        },
+        {
+          "text": "is",
+          "start": 335.713,
+          "end": 335.825
+        },
+        {
+          "text": "what",
+          "start": 335.825,
+          "end": 336.025
+        },
+        {
+          "text": "most",
+          "start": 336.025,
+          "end": 336.325
+        },
+        {
+          "text": "tutorials",
+          "start": 336.325,
+          "end": 336.9
+        },
+        {
+          "text": "reference",
+          "start": 336.9,
+          "end": 337.9
+        },
+        {
+          "text": ".",
+          "start": 337.9,
+          "end": 338.1
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "p",
+      "text": "2. Restart Claude Desktop. You'll see a new icon , Selenium is connected.",
+      "start": 338.42,
+      "end": 343.645,
+      "words": [
+        {
+          "text": "2",
+          "start": 338.695,
+          "end": 338.945
+        },
+        {
+          "text": ".",
+          "start": 338.945,
+          "end": 338.995
+        },
+        {
+          "text": "Restart",
+          "start": 338.995,
+          "end": 339.445
+        },
+        {
+          "text": "Claude",
+          "start": 339.445,
+          "end": 339.745
+        },
+        {
+          "text": "Desktop",
+          "start": 339.745,
+          "end": 340.57
+        },
+        {
+          "text": ".",
+          "start": 340.57,
+          "end": 340.67
+        },
+        {
+          "text": "You'll",
+          "start": 340.67,
+          "end": 340.845
+        },
+        {
+          "text": "see",
+          "start": 340.845,
+          "end": 340.982
+        },
+        {
+          "text": "a",
+          "start": 340.982,
+          "end": 341.045
+        },
+        {
+          "text": "new",
+          "start": 341.045,
+          "end": 341.22
+        },
+        {
+          "text": "icon",
+          "start": 341.22,
+          "end": 341.682
+        },
+        {
+          "text": ",",
+          "start": 341.682,
+          "end": 341.745
+        },
+        {
+          "text": "Selenium",
+          "start": 341.745,
+          "end": 342.257
+        },
+        {
+          "text": "is",
+          "start": 342.257,
+          "end": 342.395
+        },
+        {
+          "text": "connected",
+          "start": 342.395,
+          "end": 343.445
+        },
+        {
+          "text": ".",
+          "start": 343.445,
+          "end": 343.645
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "p",
+      "text": "3. Start talking to your browser:",
+      "start": 343.965,
+      "end": 346.765,
+      "words": [
+        {
+          "text": "3",
+          "start": 344.24,
+          "end": 344.565
+        },
+        {
+          "text": ".",
+          "start": 344.565,
+          "end": 344.615
+        },
+        {
+          "text": "Start",
+          "start": 344.615,
+          "end": 344.965
+        },
+        {
+          "text": "talking",
+          "start": 344.965,
+          "end": 345.365
+        },
+        {
+          "text": "to",
+          "start": 345.365,
+          "end": 345.452
+        },
+        {
+          "text": "your",
+          "start": 345.452,
+          "end": 345.615
+        },
+        {
+          "text": "browser",
+          "start": 345.615,
+          "end": 346.54
+        },
+        {
+          "text": ":",
+          "start": 346.54,
+          "end": 346.765
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "h3",
+      "text": "What You Can Ask the AI Agent to Do",
+      "start": 347.085,
+      "end": 349.81,
+      "words": [
+        {
+          "text": "What",
+          "start": 347.31,
+          "end": 347.46
+        },
+        {
+          "text": "You",
+          "start": 347.46,
+          "end": 347.61
+        },
+        {
+          "text": "Can",
+          "start": 347.61,
+          "end": 347.76
+        },
+        {
+          "text": "Ask",
+          "start": 347.76,
+          "end": 347.997
+        },
+        {
+          "text": "the",
+          "start": 347.997,
+          "end": 348.147
+        },
+        {
+          "text": "AI",
+          "start": 348.147,
+          "end": 348.56
+        },
+        {
+          "text": "Agent",
+          "start": 348.56,
+          "end": 348.91
+        },
+        {
+          "text": "to",
+          "start": 348.91,
+          "end": 349.035
+        },
+        {
+          "text": "Do",
+          "start": 349.035,
+          "end": 349.81
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "p",
+      "text": "You're no longer writing driver.FindElement() line-by-line. You describe the outcome you want, and the AI + MCP server figure out the how.",
+      "start": 350.255,
+      "end": 359.18,
+      "words": [
+        {
+          "text": "You're",
+          "start": 350.53,
+          "end": 350.655
+        },
+        {
+          "text": "no",
+          "start": 350.655,
+          "end": 350.83
+        },
+        {
+          "text": "longer",
+          "start": 350.83,
+          "end": 351.105
+        },
+        {
+          "text": "writing",
+          "start": 351.105,
+          "end": 351.455
+        },
+        {
+          "text": "driver",
+          "start": 351.455,
+          "end": 351.955
+        },
+        {
+          "text": ".",
+          "start": 351.955,
+          "end": 352.055
+        },
+        {
+          "text": "FindElement",
+          "start": 352.055,
+          "end": 352.98
+        },
+        {
+          "text": "(",
+          "start": 352.98,
+          "end": 353.055
+        },
+        {
+          "text": ")",
+          "start": 353.055,
+          "end": 353.105
+        },
+        {
+          "text": "line-by-line",
+          "start": 353.105,
+          "end": 354.03
+        },
+        {
+          "text": ".",
+          "start": 354.03,
+          "end": 354.13
+        },
+        {
+          "text": "You",
+          "start": 354.13,
+          "end": 354.268
+        },
+        {
+          "text": "describe",
+          "start": 354.268,
+          "end": 354.643
+        },
+        {
+          "text": "the",
+          "start": 354.643,
+          "end": 354.755
+        },
+        {
+          "text": "outcome",
+          "start": 354.755,
+          "end": 355.155
+        },
+        {
+          "text": "you",
+          "start": 355.155,
+          "end": 355.28
+        },
+        {
+          "text": "want",
+          "start": 355.28,
+          "end": 355.68
+        },
+        {
+          "text": ",",
+          "start": 355.68,
+          "end": 355.718
+        },
+        {
+          "text": "and",
+          "start": 355.718,
+          "end": 355.817
+        },
+        {
+          "text": "the",
+          "start": 355.817,
+          "end": 355.942
+        },
+        {
+          "text": "AI",
+          "start": 355.942,
+          "end": 356.355
+        },
+        {
+          "text": "+",
+          "start": 356.355,
+          "end": 356.63
+        },
+        {
+          "text": "MCP",
+          "start": 356.63,
+          "end": 357.28
+        },
+        {
+          "text": "server",
+          "start": 357.28,
+          "end": 357.643
+        },
+        {
+          "text": "figure",
+          "start": 357.643,
+          "end": 357.93
+        },
+        {
+          "text": "out",
+          "start": 357.93,
+          "end": 358.093
+        },
+        {
+          "text": "the",
+          "start": 358.093,
+          "end": 358.18
+        },
+        {
+          "text": "how",
+          "start": 358.18,
+          "end": 358.98
+        },
+        {
+          "text": ".",
+          "start": 358.98,
+          "end": 359.18
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "h2",
+      "text": "Step 6: When to Use Each Approach",
+      "start": 359.5,
+      "end": 362.075,
+      "words": [
+        {
+          "text": "Step",
+          "start": 359.75,
+          "end": 360.025
+        },
+        {
+          "text": "6",
+          "start": 360.025,
+          "end": 360.35
+        },
+        {
+          "text": ":",
+          "start": 360.35,
+          "end": 360.388
+        },
+        {
+          "text": "When",
+          "start": 360.388,
+          "end": 360.525
+        },
+        {
+          "text": "to",
+          "start": 360.525,
+          "end": 360.65
+        },
+        {
+          "text": "Use",
+          "start": 360.65,
+          "end": 360.95
+        },
+        {
+          "text": "Each",
+          "start": 360.95,
+          "end": 361.188
+        },
+        {
+          "text": "Approach",
+          "start": 361.188,
+          "end": 362.075
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "p",
+      "text": "After setting up all three layers, here's how to think about which tool fits which job:",
+      "start": 362.62,
+      "end": 367.845,
+      "words": [
+        {
+          "text": "After",
+          "start": 362.87,
+          "end": 363.145
+        },
+        {
+          "text": "setting",
+          "start": 363.145,
+          "end": 363.433
+        },
+        {
+          "text": "up",
+          "start": 363.433,
+          "end": 363.62
+        },
+        {
+          "text": "all",
+          "start": 363.62,
+          "end": 363.858
+        },
+        {
+          "text": "three",
+          "start": 363.858,
+          "end": 364.095
+        },
+        {
+          "text": "layers",
+          "start": 364.095,
+          "end": 364.745
+        },
+        {
+          "text": ",",
+          "start": 364.745,
+          "end": 364.82
+        },
+        {
+          "text": "here's",
+          "start": 364.82,
+          "end": 365.058
+        },
+        {
+          "text": "how",
+          "start": 365.058,
+          "end": 365.195
+        },
+        {
+          "text": "to",
+          "start": 365.195,
+          "end": 365.32
+        },
+        {
+          "text": "think",
+          "start": 365.32,
+          "end": 365.508
+        },
+        {
+          "text": "about",
+          "start": 365.508,
+          "end": 365.783
+        },
+        {
+          "text": "which",
+          "start": 365.783,
+          "end": 365.983
+        },
+        {
+          "text": "tool",
+          "start": 365.983,
+          "end": 366.333
+        },
+        {
+          "text": "fits",
+          "start": 366.333,
+          "end": 366.608
+        },
+        {
+          "text": "which",
+          "start": 366.608,
+          "end": 366.808
+        },
+        {
+          "text": "job",
+          "start": 366.808,
+          "end": 367.62
+        },
+        {
+          "text": ":",
+          "start": 367.62,
+          "end": 367.845
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "li",
+      "text": "Raw Selenium code to best for repeatable test suites in CI/CD, where you need deterministic results and reporting.",
+      "start": 368.165,
+      "end": 375.99,
+      "words": [
+        {
+          "text": "Raw",
+          "start": 368.44,
+          "end": 368.64
+        },
+        {
+          "text": "Selenium",
+          "start": 368.64,
+          "end": 369.165
+        },
+        {
+          "text": "code",
+          "start": 369.165,
+          "end": 369.49
+        },
+        {
+          "text": "to",
+          "start": 369.49,
+          "end": 369.59
+        },
+        {
+          "text": "best",
+          "start": 369.59,
+          "end": 369.94
+        },
+        {
+          "text": "for",
+          "start": 369.94,
+          "end": 370.052
+        },
+        {
+          "text": "repeatable",
+          "start": 370.052,
+          "end": 370.64
+        },
+        {
+          "text": "test",
+          "start": 370.64,
+          "end": 370.915
+        },
+        {
+          "text": "suites",
+          "start": 370.915,
+          "end": 371.315
+        },
+        {
+          "text": "in",
+          "start": 371.315,
+          "end": 371.477
+        },
+        {
+          "text": "CI/CD",
+          "start": 371.477,
+          "end": 372.74
+        },
+        {
+          "text": ",",
+          "start": 372.74,
+          "end": 372.84
+        },
+        {
+          "text": "where",
+          "start": 372.84,
+          "end": 373.015
+        },
+        {
+          "text": "you",
+          "start": 373.015,
+          "end": 373.14
+        },
+        {
+          "text": "need",
+          "start": 373.14,
+          "end": 373.34
+        },
+        {
+          "text": "deterministic",
+          "start": 373.34,
+          "end": 374.115
+        },
+        {
+          "text": "results",
+          "start": 374.115,
+          "end": 374.615
+        },
+        {
+          "text": "and",
+          "start": 374.615,
+          "end": 374.727
+        },
+        {
+          "text": "reporting",
+          "start": 374.727,
+          "end": 375.815
+        },
+        {
+          "text": ".",
+          "start": 375.815,
+          "end": 375.99
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "li",
+      "text": "Selenium MCP + AI agent to best for exploratory testing, one-off validations, accessibility checks, and prototyping.",
+      "start": 376.31,
+      "end": 385.285,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 376.585,
+          "end": 377.085
+        },
+        {
+          "text": "MCP",
+          "start": 377.085,
+          "end": 377.76
+        },
+        {
+          "text": "+",
+          "start": 377.76,
+          "end": 378.072
+        },
+        {
+          "text": "AI",
+          "start": 378.072,
+          "end": 378.497
+        },
+        {
+          "text": "agent",
+          "start": 378.497,
+          "end": 378.86
+        },
+        {
+          "text": "to",
+          "start": 378.86,
+          "end": 378.96
+        },
+        {
+          "text": "best",
+          "start": 378.96,
+          "end": 379.285
+        },
+        {
+          "text": "for",
+          "start": 379.285,
+          "end": 379.41
+        },
+        {
+          "text": "exploratory",
+          "start": 379.41,
+          "end": 380.085
+        },
+        {
+          "text": "testing",
+          "start": 380.085,
+          "end": 380.935
+        },
+        {
+          "text": ",",
+          "start": 380.935,
+          "end": 381.035
+        },
+        {
+          "text": "one-off",
+          "start": 381.035,
+          "end": 381.41
+        },
+        {
+          "text": "validations",
+          "start": 381.41,
+          "end": 382.41
+        },
+        {
+          "text": ",",
+          "start": 382.41,
+          "end": 382.51
+        },
+        {
+          "text": "accessibility",
+          "start": 382.51,
+          "end": 383.247
+        },
+        {
+          "text": "checks",
+          "start": 383.247,
+          "end": 383.61
+        },
+        {
+          "text": ",",
+          "start": 383.61,
+          "end": 383.647
+        },
+        {
+          "text": "and",
+          "start": 383.647,
+          "end": 383.76
+        },
+        {
+          "text": "prototyping",
+          "start": 383.76,
+          "end": 385.11
+        },
+        {
+          "text": ".",
+          "start": 385.11,
+          "end": 385.285
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "h2",
+      "text": "Where Existing Posts on This Blog Fit",
+      "start": 385.605,
+      "end": 388.38,
+      "words": [
+        {
+          "text": "Where",
+          "start": 385.855,
+          "end": 386.03
+        },
+        {
+          "text": "Existing",
+          "start": 386.03,
+          "end": 386.505
+        },
+        {
+          "text": "Posts",
+          "start": 386.505,
+          "end": 386.917
+        },
+        {
+          "text": "on",
+          "start": 386.917,
+          "end": 387.017
+        },
+        {
+          "text": "This",
+          "start": 387.017,
+          "end": 387.205
+        },
+        {
+          "text": "Blog",
+          "start": 387.205,
+          "end": 387.567
+        },
+        {
+          "text": "Fit",
+          "start": 387.567,
+          "end": 388.38
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "p",
+      "text": "This post is the 2026 refresh that connects to four earlier Selenium articles on techtalkwith-veeresh:",
+      "start": 388.875,
+      "end": 396.1,
+      "words": [
+        {
+          "text": "This",
+          "start": 389.125,
+          "end": 389.325
+        },
+        {
+          "text": "post",
+          "start": 389.325,
+          "end": 389.725
+        },
+        {
+          "text": "is",
+          "start": 389.725,
+          "end": 389.837
+        },
+        {
+          "text": "the",
+          "start": 389.837,
+          "end": 389.925
+        },
+        {
+          "text": "2026",
+          "start": 389.925,
+          "end": 390.875
+        },
+        {
+          "text": "refresh",
+          "start": 390.875,
+          "end": 391.787
+        },
+        {
+          "text": "that",
+          "start": 391.787,
+          "end": 391.95
+        },
+        {
+          "text": "connects",
+          "start": 391.95,
+          "end": 392.375
+        },
+        {
+          "text": "to",
+          "start": 392.375,
+          "end": 392.512
+        },
+        {
+          "text": "four",
+          "start": 392.512,
+          "end": 392.787
+        },
+        {
+          "text": "earlier",
+          "start": 392.787,
+          "end": 393.175
+        },
+        {
+          "text": "Selenium",
+          "start": 393.175,
+          "end": 393.675
+        },
+        {
+          "text": "articles",
+          "start": 393.675,
+          "end": 394.212
+        },
+        {
+          "text": "on",
+          "start": 394.212,
+          "end": 394.375
+        },
+        {
+          "text": "techtalkwith-veeresh",
+          "start": 394.375,
+          "end": 395.925
+        },
+        {
+          "text": ":",
+          "start": 395.925,
+          "end": 396.1
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "h2",
+      "text": "Multi-Language Quick Reference",
+      "start": 396.42,
+      "end": 398.745,
+      "words": [
+        {
+          "text": "Multi-Language",
+          "start": 396.67,
+          "end": 397.495
+        },
+        {
+          "text": "Quick",
+          "start": 397.495,
+          "end": 397.745
+        },
+        {
+          "text": "Reference",
+          "start": 397.745,
+          "end": 398.745
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "p",
+      "text": "This guide used C# examples. Here's the equivalent syntax in Java, TypeScript, JavaScript, and Python for every operation covered:",
+      "start": 399.24,
+      "end": 407.965,
+      "words": [
+        {
+          "text": "This",
+          "start": 399.49,
+          "end": 399.665
+        },
+        {
+          "text": "guide",
+          "start": 399.665,
+          "end": 399.94
+        },
+        {
+          "text": "used",
+          "start": 399.94,
+          "end": 400.165
+        },
+        {
+          "text": "C#",
+          "start": 400.165,
+          "end": 400.578
+        },
+        {
+          "text": "examples",
+          "start": 400.578,
+          "end": 401.615
+        },
+        {
+          "text": ".",
+          "start": 401.615,
+          "end": 401.728
+        },
+        {
+          "text": "Here's",
+          "start": 401.728,
+          "end": 402.003
+        },
+        {
+          "text": "the",
+          "start": 402.003,
+          "end": 402.115
+        },
+        {
+          "text": "equivalent",
+          "start": 402.115,
+          "end": 402.59
+        },
+        {
+          "text": "syntax",
+          "start": 402.59,
+          "end": 403.09
+        },
+        {
+          "text": "in",
+          "start": 403.09,
+          "end": 403.24
+        },
+        {
+          "text": "Java",
+          "start": 403.24,
+          "end": 403.74
+        },
+        {
+          "text": ",",
+          "start": 403.74,
+          "end": 403.84
+        },
+        {
+          "text": "TypeScript",
+          "start": 403.84,
+          "end": 404.59
+        },
+        {
+          "text": ",",
+          "start": 404.59,
+          "end": 404.678
+        },
+        {
+          "text": "JavaScript",
+          "start": 404.678,
+          "end": 405.365
+        },
+        {
+          "text": ",",
+          "start": 405.365,
+          "end": 405.402
+        },
+        {
+          "text": "and",
+          "start": 405.402,
+          "end": 405.515
+        },
+        {
+          "text": "Python",
+          "start": 405.515,
+          "end": 405.94
+        },
+        {
+          "text": "for",
+          "start": 405.94,
+          "end": 406.065
+        },
+        {
+          "text": "every",
+          "start": 406.065,
+          "end": 406.353
+        },
+        {
+          "text": "operation",
+          "start": 406.353,
+          "end": 406.89
+        },
+        {
+          "text": "covered",
+          "start": 406.89,
+          "end": 407.765
+        },
+        {
+          "text": ":",
+          "start": 407.765,
+          "end": 407.965
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "h3",
+      "text": "Creating a Driver",
+      "start": 408.285,
+      "end": 409.985,
+      "words": [
+        {
+          "text": "Creating",
+          "start": 408.535,
+          "end": 409.085
+        },
+        {
+          "text": "a",
+          "start": 409.085,
+          "end": 409.185
+        },
+        {
+          "text": "Driver",
+          "start": 409.185,
+          "end": 409.985
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "h3",
+      "text": "Finding Elements",
+      "start": 410.63,
+      "end": 412.18,
+      "words": [
+        {
+          "text": "Finding",
+          "start": 410.88,
+          "end": 411.28
+        },
+        {
+          "text": "Elements",
+          "start": 411.28,
+          "end": 412.18
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "h3",
+      "text": "Relative Locators",
+      "start": 412.675,
+      "end": 414.7,
+      "words": [
+        {
+          "text": "Relative",
+          "start": 412.95,
+          "end": 413.425
+        },
+        {
+          "text": "Locators",
+          "start": 413.425,
+          "end": 414.7
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "h3",
+      "text": "WebDriver Wait",
+      "start": 415.17,
+      "end": 416.645,
+      "words": [
+        {
+          "text": "WebDriver",
+          "start": 415.42,
+          "end": 416.02
+        },
+        {
+          "text": "Wait",
+          "start": 416.02,
+          "end": 416.645
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "h3",
+      "text": "Navigation",
+      "start": 417.165,
+      "end": 418.39,
+      "words": [
+        {
+          "text": "Navigation",
+          "start": 417.44,
+          "end": 418.39
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "kind": "h3",
+      "text": "Test Framework + Assertion",
+      "start": 418.91,
+      "end": 421.285,
+      "words": [
+        {
+          "text": "Test",
+          "start": 419.16,
+          "end": 419.435
+        },
+        {
+          "text": "Framework",
+          "start": 419.435,
+          "end": 419.96
+        },
+        {
+          "text": "+",
+          "start": 419.96,
+          "end": 420.235
+        },
+        {
+          "text": "Assertion",
+          "start": 420.235,
+          "end": 421.285
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "kind": "quote",
+      "text": "BiDi and network interception APIs vary by language binding. The C# examples in Step 4 use driver.Manage().Network , Java bindings use devTools session, while Python/JS use CDP directly. See the official BiDi docs for your language.",
+      "start": 421.73,
+      "end": 438.055,
+      "words": [
+        {
+          "text": "BiDi",
+          "start": 421.98,
+          "end": 422.48
+        },
+        {
+          "text": "and",
+          "start": 422.48,
+          "end": 422.605
+        },
+        {
+          "text": "network",
+          "start": 422.605,
+          "end": 423.018
+        },
+        {
+          "text": "interception",
+          "start": 423.018,
+          "end": 423.63
+        },
+        {
+          "text": "APIs",
+          "start": 423.63,
+          "end": 424.23
+        },
+        {
+          "text": "vary",
+          "start": 424.23,
+          "end": 424.555
+        },
+        {
+          "text": "by",
+          "start": 424.555,
+          "end": 424.73
+        },
+        {
+          "text": "language",
+          "start": 424.73,
+          "end": 425.08
+        },
+        {
+          "text": "binding",
+          "start": 425.08,
+          "end": 425.955
+        },
+        {
+          "text": ".",
+          "start": 425.955,
+          "end": 426.055
+        },
+        {
+          "text": "The",
+          "start": 426.055,
+          "end": 426.193
+        },
+        {
+          "text": "C#",
+          "start": 426.193,
+          "end": 426.668
+        },
+        {
+          "text": "examples",
+          "start": 426.668,
+          "end": 427.205
+        },
+        {
+          "text": "in",
+          "start": 427.205,
+          "end": 427.355
+        },
+        {
+          "text": "Step",
+          "start": 427.355,
+          "end": 427.63
+        },
+        {
+          "text": "4",
+          "start": 427.63,
+          "end": 427.83
+        },
+        {
+          "text": "use",
+          "start": 427.83,
+          "end": 428.055
+        },
+        {
+          "text": "driver",
+          "start": 428.055,
+          "end": 428.43
+        },
+        {
+          "text": ".",
+          "start": 428.43,
+          "end": 428.505
+        },
+        {
+          "text": "Manage().Network",
+          "start": 428.505,
+          "end": 429.918
+        },
+        {
+          "text": ",",
+          "start": 429.918,
+          "end": 429.98
+        },
+        {
+          "text": "Java",
+          "start": 429.98,
+          "end": 430.305
+        },
+        {
+          "text": "bindings",
+          "start": 430.305,
+          "end": 430.755
+        },
+        {
+          "text": "use",
+          "start": 430.755,
+          "end": 430.98
+        },
+        {
+          "text": "devTools",
+          "start": 430.98,
+          "end": 431.48
+        },
+        {
+          "text": "session",
+          "start": 431.48,
+          "end": 432.13
+        },
+        {
+          "text": ",",
+          "start": 432.13,
+          "end": 432.205
+        },
+        {
+          "text": "while",
+          "start": 432.205,
+          "end": 432.355
+        },
+        {
+          "text": "Python/JS",
+          "start": 432.355,
+          "end": 433.155
+        },
+        {
+          "text": "use",
+          "start": 433.155,
+          "end": 433.343
+        },
+        {
+          "text": "CDP",
+          "start": 433.343,
+          "end": 433.905
+        },
+        {
+          "text": "directly",
+          "start": 433.905,
+          "end": 434.88
+        },
+        {
+          "text": ".",
+          "start": 434.88,
+          "end": 435.03
+        },
+        {
+          "text": "See",
+          "start": 435.03,
+          "end": 435.242
+        },
+        {
+          "text": "the",
+          "start": 435.242,
+          "end": 435.38
+        },
+        {
+          "text": "official",
+          "start": 435.38,
+          "end": 435.78
+        },
+        {
+          "text": "BiDi",
+          "start": 435.78,
+          "end": 436.255
+        },
+        {
+          "text": "docs",
+          "start": 436.255,
+          "end": 436.58
+        },
+        {
+          "text": "for",
+          "start": 436.58,
+          "end": 436.693
+        },
+        {
+          "text": "your",
+          "start": 436.693,
+          "end": 436.855
+        },
+        {
+          "text": "language",
+          "start": 436.855,
+          "end": 437.855
+        },
+        {
+          "text": ".",
+          "start": 437.855,
+          "end": 438.055
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 438.375,
+      "end": 440.575,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 438.65,
+          "end": 439.2
+        },
+        {
+          "text": "and",
+          "start": 439.2,
+          "end": 439.337
+        },
+        {
+          "text": "Further",
+          "start": 439.337,
+          "end": 439.7
+        },
+        {
+          "text": "Reading",
+          "start": 439.7,
+          "end": 440.575
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "kind": "li",
+      "text": "Selenium WebDriver Documentation , official guides for all language bindings",
+      "start": 441.02,
+      "end": 446.345,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 441.295,
+          "end": 441.845
+        },
+        {
+          "text": "WebDriver",
+          "start": 441.845,
+          "end": 442.445
+        },
+        {
+          "text": "Documentation",
+          "start": 442.445,
+          "end": 443.632
+        },
+        {
+          "text": ",",
+          "start": 443.632,
+          "end": 443.72
+        },
+        {
+          "text": "official",
+          "start": 443.72,
+          "end": 444.12
+        },
+        {
+          "text": "guides",
+          "start": 444.12,
+          "end": 444.495
+        },
+        {
+          "text": "for",
+          "start": 444.495,
+          "end": 444.62
+        },
+        {
+          "text": "all",
+          "start": 444.62,
+          "end": 444.82
+        },
+        {
+          "text": "language",
+          "start": 444.82,
+          "end": 445.22
+        },
+        {
+          "text": "bindings",
+          "start": 445.22,
+          "end": 446.345
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "kind": "li",
+      "text": "WebDriver BiDi Specification , bidirectional WebSocket protocol for real-time browser events",
+      "start": 446.815,
+      "end": 453.29,
+      "words": [
+        {
+          "text": "WebDriver",
+          "start": 447.09,
+          "end": 447.69
+        },
+        {
+          "text": "BiDi",
+          "start": 447.69,
+          "end": 448.215
+        },
+        {
+          "text": "Specification",
+          "start": 448.215,
+          "end": 449.402
+        },
+        {
+          "text": ",",
+          "start": 449.402,
+          "end": 449.49
+        },
+        {
+          "text": "bidirectional",
+          "start": 449.49,
+          "end": 450.215
+        },
+        {
+          "text": "WebSocket",
+          "start": 450.215,
+          "end": 450.765
+        },
+        {
+          "text": "protocol",
+          "start": 450.765,
+          "end": 451.315
+        },
+        {
+          "text": "for",
+          "start": 451.315,
+          "end": 451.44
+        },
+        {
+          "text": "real-time",
+          "start": 451.44,
+          "end": 451.94
+        },
+        {
+          "text": "browser",
+          "start": 451.94,
+          "end": 452.315
+        },
+        {
+          "text": "events",
+          "start": 452.315,
+          "end": 453.29
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "kind": "li",
+      "text": "Selenium Manager , automatic driver binary resolution (no more chromedriver.exe hunting)",
+      "start": 453.735,
+      "end": 460.16,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 454.01,
+          "end": 454.46
+        },
+        {
+          "text": "Manager",
+          "start": 454.46,
+          "end": 455.16
+        },
+        {
+          "text": ",",
+          "start": 455.16,
+          "end": 455.285
+        },
+        {
+          "text": "automatic",
+          "start": 455.285,
+          "end": 455.86
+        },
+        {
+          "text": "driver",
+          "start": 455.86,
+          "end": 456.235
+        },
+        {
+          "text": "binary",
+          "start": 456.235,
+          "end": 456.66
+        },
+        {
+          "text": "resolution",
+          "start": 456.66,
+          "end": 457.385
+        },
+        {
+          "text": "(",
+          "start": 457.385,
+          "end": 457.46
+        },
+        {
+          "text": "no",
+          "start": 457.46,
+          "end": 457.635
+        },
+        {
+          "text": "more",
+          "start": 457.635,
+          "end": 457.81
+        },
+        {
+          "text": "chromedriver.exe",
+          "start": 457.81,
+          "end": 459.01
+        },
+        {
+          "text": "hunting",
+          "start": 459.01,
+          "end": 459.985
+        },
+        {
+          "text": ")",
+          "start": 459.985,
+          "end": 460.16
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "kind": "li",
+      "text": "Angie Jones / mcp-selenium , the original Selenium MCP server, runs via npx, exposes 15+ browser automation tools",
+      "start": 460.48,
+      "end": 470.63,
+      "words": [
+        {
+          "text": "Angie",
+          "start": 460.755,
+          "end": 461.03
+        },
+        {
+          "text": "Jones",
+          "start": 461.03,
+          "end": 461.38
+        },
+        {
+          "text": "/",
+          "start": 461.38,
+          "end": 461.73
+        },
+        {
+          "text": "mcp-selenium",
+          "start": 461.73,
+          "end": 463.105
+        },
+        {
+          "text": ",",
+          "start": 463.105,
+          "end": 463.168
+        },
+        {
+          "text": "the",
+          "start": 463.168,
+          "end": 463.305
+        },
+        {
+          "text": "original",
+          "start": 463.305,
+          "end": 463.73
+        },
+        {
+          "text": "Selenium",
+          "start": 463.73,
+          "end": 464.255
+        },
+        {
+          "text": "MCP",
+          "start": 464.255,
+          "end": 464.88
+        },
+        {
+          "text": "server",
+          "start": 464.88,
+          "end": 465.48
+        },
+        {
+          "text": ",",
+          "start": 465.48,
+          "end": 465.605
+        },
+        {
+          "text": "runs",
+          "start": 465.605,
+          "end": 465.93
+        },
+        {
+          "text": "via",
+          "start": 465.93,
+          "end": 466.18
+        },
+        {
+          "text": "npx",
+          "start": 466.18,
+          "end": 467.205
+        },
+        {
+          "text": ",",
+          "start": 467.205,
+          "end": 467.305
+        },
+        {
+          "text": "exposes",
+          "start": 467.305,
+          "end": 467.905
+        },
+        {
+          "text": "15+",
+          "start": 467.905,
+          "end": 468.655
+        },
+        {
+          "text": "browser",
+          "start": 468.655,
+          "end": 469.03
+        },
+        {
+          "text": "automation",
+          "start": 469.03,
+          "end": 469.63
+        },
+        {
+          "text": "tools",
+          "start": 469.63,
+          "end": 470.63
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "kind": "h2",
+      "text": "What to Do Next",
+      "start": 471.075,
+      "end": 472.5,
+      "words": [
+        {
+          "text": "What",
+          "start": 471.325,
+          "end": 471.525
+        },
+        {
+          "text": "to",
+          "start": 471.525,
+          "end": 471.625
+        },
+        {
+          "text": "Do",
+          "start": 471.625,
+          "end": 471.8
+        },
+        {
+          "text": "Next",
+          "start": 471.8,
+          "end": 472.5
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "kind": "li",
+      "text": "Run Step 1, 2 right now. Install Selenium on your machine and run the Hello World test. It takes under 2 minutes.",
+      "start": 473.045,
+      "end": 480.72,
+      "words": [
+        {
+          "text": "Run",
+          "start": 473.32,
+          "end": 473.545
+        },
+        {
+          "text": "Step",
+          "start": 473.545,
+          "end": 473.82
+        },
+        {
+          "text": "1",
+          "start": 473.82,
+          "end": 474.095
+        },
+        {
+          "text": ",",
+          "start": 474.095,
+          "end": 474.145
+        },
+        {
+          "text": "2",
+          "start": 474.145,
+          "end": 474.32
+        },
+        {
+          "text": "right",
+          "start": 474.32,
+          "end": 474.57
+        },
+        {
+          "text": "now",
+          "start": 474.57,
+          "end": 475.17
+        },
+        {
+          "text": ".",
+          "start": 475.17,
+          "end": 475.307
+        },
+        {
+          "text": "Install",
+          "start": 475.307,
+          "end": 475.77
+        },
+        {
+          "text": "Selenium",
+          "start": 475.77,
+          "end": 476.257
+        },
+        {
+          "text": "on",
+          "start": 476.257,
+          "end": 476.357
+        },
+        {
+          "text": "your",
+          "start": 476.357,
+          "end": 476.458
+        },
+        {
+          "text": "machine",
+          "start": 476.458,
+          "end": 476.895
+        },
+        {
+          "text": "and",
+          "start": 476.895,
+          "end": 477.02
+        },
+        {
+          "text": "run",
+          "start": 477.02,
+          "end": 477.207
+        },
+        {
+          "text": "the",
+          "start": 477.207,
+          "end": 477.295
+        },
+        {
+          "text": "Hello",
+          "start": 477.295,
+          "end": 477.67
+        },
+        {
+          "text": "World",
+          "start": 477.67,
+          "end": 477.957
+        },
+        {
+          "text": "test",
+          "start": 477.957,
+          "end": 478.695
+        },
+        {
+          "text": ".",
+          "start": 478.695,
+          "end": 478.795
+        },
+        {
+          "text": "It",
+          "start": 478.795,
+          "end": 478.92
+        },
+        {
+          "text": "takes",
+          "start": 478.92,
+          "end": 479.157
+        },
+        {
+          "text": "under",
+          "start": 479.157,
+          "end": 479.383
+        },
+        {
+          "text": "2",
+          "start": 479.383,
+          "end": 479.595
+        },
+        {
+          "text": "minutes",
+          "start": 479.595,
+          "end": 480.52
+        },
+        {
+          "text": ".",
+          "start": 480.52,
+          "end": 480.72
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "kind": "li",
+      "text": "Read the BiDi docs. Selenium's official BiDi specification covers CDP integration, network interception, and log listeners.",
+      "start": 481.04,
+      "end": 489.94,
+      "words": [
+        {
+          "text": "Read",
+          "start": 481.315,
+          "end": 481.527
+        },
+        {
+          "text": "the",
+          "start": 481.527,
+          "end": 481.615
+        },
+        {
+          "text": "BiDi",
+          "start": 481.615,
+          "end": 482.09
+        },
+        {
+          "text": "docs",
+          "start": 482.09,
+          "end": 482.94
+        },
+        {
+          "text": ".",
+          "start": 482.94,
+          "end": 483.053
+        },
+        {
+          "text": "Selenium's",
+          "start": 483.053,
+          "end": 483.665
+        },
+        {
+          "text": "official",
+          "start": 483.665,
+          "end": 484.09
+        },
+        {
+          "text": "BiDi",
+          "start": 484.09,
+          "end": 484.565
+        },
+        {
+          "text": "specification",
+          "start": 484.565,
+          "end": 485.465
+        },
+        {
+          "text": "covers",
+          "start": 485.465,
+          "end": 485.753
+        },
+        {
+          "text": "CDP",
+          "start": 485.753,
+          "end": 486.303
+        },
+        {
+          "text": "integration",
+          "start": 486.303,
+          "end": 487.19
+        },
+        {
+          "text": ",",
+          "start": 487.19,
+          "end": 487.29
+        },
+        {
+          "text": "network",
+          "start": 487.29,
+          "end": 487.728
+        },
+        {
+          "text": "interception",
+          "start": 487.728,
+          "end": 488.34
+        },
+        {
+          "text": ",",
+          "start": 488.34,
+          "end": 488.39
+        },
+        {
+          "text": "and",
+          "start": 488.39,
+          "end": 488.515
+        },
+        {
+          "text": "log",
+          "start": 488.515,
+          "end": 488.79
+        },
+        {
+          "text": "listeners",
+          "start": 488.79,
+          "end": 489.765
+        },
+        {
+          "text": ".",
+          "start": 489.765,
+          "end": 489.94
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "kind": "li",
+      "text": "Try the MCP server. If you have Claude Desktop, add the Selenium MCP config and ask it to navigate to any public website. The first time an AI drives your browser feels like magic.",
+      "start": 490.26,
+      "end": 502.36,
+      "words": [
+        {
+          "text": "Try",
+          "start": 490.51,
+          "end": 490.723
+        },
+        {
+          "text": "the",
+          "start": 490.723,
+          "end": 490.835
+        },
+        {
+          "text": "MCP",
+          "start": 490.835,
+          "end": 491.435
+        },
+        {
+          "text": "server",
+          "start": 491.435,
+          "end": 492.135
+        },
+        {
+          "text": ".",
+          "start": 492.135,
+          "end": 492.235
+        },
+        {
+          "text": "If",
+          "start": 492.235,
+          "end": 492.372
+        },
+        {
+          "text": "you",
+          "start": 492.372,
+          "end": 492.473
+        },
+        {
+          "text": "have",
+          "start": 492.473,
+          "end": 492.61
+        },
+        {
+          "text": "Claude",
+          "start": 492.61,
+          "end": 492.91
+        },
+        {
+          "text": "Desktop",
+          "start": 492.91,
+          "end": 493.66
+        },
+        {
+          "text": ",",
+          "start": 493.66,
+          "end": 493.76
+        },
+        {
+          "text": "add",
+          "start": 493.76,
+          "end": 493.948
+        },
+        {
+          "text": "the",
+          "start": 493.948,
+          "end": 494.035
+        },
+        {
+          "text": "Selenium",
+          "start": 494.035,
+          "end": 494.61
+        },
+        {
+          "text": "MCP",
+          "start": 494.61,
+          "end": 495.16
+        },
+        {
+          "text": "config",
+          "start": 495.16,
+          "end": 495.685
+        },
+        {
+          "text": "and",
+          "start": 495.685,
+          "end": 495.81
+        },
+        {
+          "text": "ask",
+          "start": 495.81,
+          "end": 496.098
+        },
+        {
+          "text": "it",
+          "start": 496.098,
+          "end": 496.185
+        },
+        {
+          "text": "to",
+          "start": 496.185,
+          "end": 496.285
+        },
+        {
+          "text": "navigate",
+          "start": 496.285,
+          "end": 496.76
+        },
+        {
+          "text": "to",
+          "start": 496.76,
+          "end": 496.885
+        },
+        {
+          "text": "any",
+          "start": 496.885,
+          "end": 497.085
+        },
+        {
+          "text": "public",
+          "start": 497.085,
+          "end": 497.46
+        },
+        {
+          "text": "website",
+          "start": 497.46,
+          "end": 498.585
+        },
+        {
+          "text": ".",
+          "start": 498.585,
+          "end": 498.71
+        },
+        {
+          "text": "The",
+          "start": 498.71,
+          "end": 498.81
+        },
+        {
+          "text": "first",
+          "start": 498.81,
+          "end": 499.085
+        },
+        {
+          "text": "time",
+          "start": 499.085,
+          "end": 499.348
+        },
+        {
+          "text": "an",
+          "start": 499.348,
+          "end": 499.447
+        },
+        {
+          "text": "AI",
+          "start": 499.447,
+          "end": 499.86
+        },
+        {
+          "text": "drives",
+          "start": 499.86,
+          "end": 500.248
+        },
+        {
+          "text": "your",
+          "start": 500.248,
+          "end": 500.36
+        },
+        {
+          "text": "browser",
+          "start": 500.36,
+          "end": 500.76
+        },
+        {
+          "text": "feels",
+          "start": 500.76,
+          "end": 501.06
+        },
+        {
+          "text": "like",
+          "start": 501.06,
+          "end": 501.285
+        },
+        {
+          "text": "magic",
+          "start": 501.285,
+          "end": 502.16
+        },
+        {
+          "text": ".",
+          "start": 502.16,
+          "end": 502.36
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "kind": "li",
+      "text": "For CI/CD pipelines: stick with raw Selenium code (Step 2, 4). MCP is for exploratory work; deterministic test suites need explicit waits and assertions.",
+      "start": 502.68,
+      "end": 513.905,
+      "words": [
+        {
+          "text": "For",
+          "start": 502.93,
+          "end": 503.067
+        },
+        {
+          "text": "CI/CD",
+          "start": 503.067,
+          "end": 503.78
+        },
+        {
+          "text": "pipelines",
+          "start": 503.78,
+          "end": 504.68
+        },
+        {
+          "text": ":",
+          "start": 504.68,
+          "end": 504.793
+        },
+        {
+          "text": "stick",
+          "start": 504.793,
+          "end": 505.067
+        },
+        {
+          "text": "with",
+          "start": 505.067,
+          "end": 505.205
+        },
+        {
+          "text": "raw",
+          "start": 505.205,
+          "end": 505.405
+        },
+        {
+          "text": "Selenium",
+          "start": 505.405,
+          "end": 505.905
+        },
+        {
+          "text": "code",
+          "start": 505.905,
+          "end": 506.305
+        },
+        {
+          "text": "(",
+          "start": 506.305,
+          "end": 506.355
+        },
+        {
+          "text": "Step",
+          "start": 506.355,
+          "end": 506.618
+        },
+        {
+          "text": "2",
+          "start": 506.618,
+          "end": 506.855
+        },
+        {
+          "text": ",",
+          "start": 506.855,
+          "end": 506.905
+        },
+        {
+          "text": "4",
+          "start": 506.905,
+          "end": 507.28
+        },
+        {
+          "text": ")",
+          "start": 507.28,
+          "end": 507.58
+        },
+        {
+          "text": ".",
+          "start": 507.58,
+          "end": 507.692
+        },
+        {
+          "text": "MCP",
+          "start": 507.692,
+          "end": 508.43
+        },
+        {
+          "text": "is",
+          "start": 508.43,
+          "end": 508.58
+        },
+        {
+          "text": "for",
+          "start": 508.58,
+          "end": 508.705
+        },
+        {
+          "text": "exploratory",
+          "start": 508.705,
+          "end": 509.38
+        },
+        {
+          "text": "work",
+          "start": 509.38,
+          "end": 509.955
+        },
+        {
+          "text": ";",
+          "start": 509.955,
+          "end": 510.055
+        },
+        {
+          "text": "deterministic",
+          "start": 510.055,
+          "end": 510.755
+        },
+        {
+          "text": "test",
+          "start": 510.755,
+          "end": 511.03
+        },
+        {
+          "text": "suites",
+          "start": 511.03,
+          "end": 511.38
+        },
+        {
+          "text": "need",
+          "start": 511.38,
+          "end": 511.605
+        },
+        {
+          "text": "explicit",
+          "start": 511.605,
+          "end": 512.13
+        },
+        {
+          "text": "waits",
+          "start": 512.13,
+          "end": 512.442
+        },
+        {
+          "text": "and",
+          "start": 512.442,
+          "end": 512.543
+        },
+        {
+          "text": "assertions",
+          "start": 512.543,
+          "end": 513.705
+        },
+        {
+          "text": ".",
+          "start": 513.705,
+          "end": 513.905
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "kind": "li",
+      "text": "Subscribe to this blog's feed.xml , followup posts on Playwright MCP, BiDi-vs-CDP deep-dives, and AI-assisted test generation are coming next.",
+      "start": 514.225,
+      "end": 525.05,
+      "words": [
+        {
+          "text": "Subscribe",
+          "start": 514.5,
+          "end": 515.0
+        },
+        {
+          "text": "to",
+          "start": 515.0,
+          "end": 515.087
+        },
+        {
+          "text": "this",
+          "start": 515.087,
+          "end": 515.275
+        },
+        {
+          "text": "blog's",
+          "start": 515.275,
+          "end": 515.6
+        },
+        {
+          "text": "feed.xml",
+          "start": 515.6,
+          "end": 517.1
+        },
+        {
+          "text": ",",
+          "start": 517.1,
+          "end": 517.175
+        },
+        {
+          "text": "followup",
+          "start": 517.175,
+          "end": 517.6
+        },
+        {
+          "text": "posts",
+          "start": 517.6,
+          "end": 517.962
+        },
+        {
+          "text": "on",
+          "start": 517.962,
+          "end": 518.075
+        },
+        {
+          "text": "Playwright",
+          "start": 518.075,
+          "end": 518.5
+        },
+        {
+          "text": "MCP",
+          "start": 518.5,
+          "end": 519.425
+        },
+        {
+          "text": ",",
+          "start": 519.425,
+          "end": 519.5
+        },
+        {
+          "text": "BiDi-vs-CDP",
+          "start": 519.5,
+          "end": 520.825
+        },
+        {
+          "text": "deep-dives",
+          "start": 520.825,
+          "end": 521.85
+        },
+        {
+          "text": ",",
+          "start": 521.85,
+          "end": 521.95
+        },
+        {
+          "text": "and",
+          "start": 521.95,
+          "end": 522.075
+        },
+        {
+          "text": "AI-assisted",
+          "start": 522.075,
+          "end": 522.7
+        },
+        {
+          "text": "test",
+          "start": 522.7,
+          "end": 522.975
+        },
+        {
+          "text": "generation",
+          "start": 522.975,
+          "end": 523.575
+        },
+        {
+          "text": "are",
+          "start": 523.575,
+          "end": 523.675
+        },
+        {
+          "text": "coming",
+          "start": 523.675,
+          "end": 523.975
+        },
+        {
+          "text": "next",
+          "start": 523.975,
+          "end": 524.85
+        },
+        {
+          "text": ".",
+          "start": 524.85,
+          "end": 525.05
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "kind": "p",
+      "text": "See also: AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026) · Self-Healing Test Suites (Jul 2026) , AI-powered locator healing in CI/CD, building on the Relative Locators and BiDi from this guide.",
+      "start": 525.37,
+      "end": 541.995,
+      "words": [
+        {
+          "text": "See",
+          "start": 525.67,
+          "end": 525.82
+        },
+        {
+          "text": "also",
+          "start": 525.82,
+          "end": 526.245
+        },
+        {
+          "text": ":",
+          "start": 526.245,
+          "end": 526.32
+        },
+        {
+          "text": "AI-Driven",
+          "start": 526.32,
+          "end": 526.92
+        },
+        {
+          "text": "Test",
+          "start": 526.92,
+          "end": 527.132
+        },
+        {
+          "text": "Strategy",
+          "start": 527.132,
+          "end": 528.02
+        },
+        {
+          "text": ":",
+          "start": 528.02,
+          "end": 528.12
+        },
+        {
+          "text": "From",
+          "start": 528.12,
+          "end": 528.295
+        },
+        {
+          "text": "Copilot",
+          "start": 528.295,
+          "end": 528.77
+        },
+        {
+          "text": "to",
+          "start": 528.77,
+          "end": 528.87
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 528.87,
+          "end": 529.508
+        },
+        {
+          "text": "Orchestration",
+          "start": 529.508,
+          "end": 530.432
+        },
+        {
+          "text": "(",
+          "start": 530.432,
+          "end": 530.52
+        },
+        {
+          "text": "Jun",
+          "start": 530.52,
+          "end": 530.72
+        },
+        {
+          "text": "2026",
+          "start": 530.72,
+          "end": 532.12
+        },
+        {
+          "text": ")",
+          "start": 532.12,
+          "end": 532.295
+        },
+        {
+          "text": "Self-Healing",
+          "start": 532.345,
+          "end": 532.97
+        },
+        {
+          "text": "Test",
+          "start": 532.97,
+          "end": 533.345
+        },
+        {
+          "text": "Suites",
+          "start": 533.345,
+          "end": 533.895
+        },
+        {
+          "text": "(",
+          "start": 533.895,
+          "end": 533.97
+        },
+        {
+          "text": "Jul",
+          "start": 533.97,
+          "end": 534.22
+        },
+        {
+          "text": "2026",
+          "start": 534.22,
+          "end": 535.62
+        },
+        {
+          "text": ")",
+          "start": 535.62,
+          "end": 535.682
+        },
+        {
+          "text": ",",
+          "start": 535.682,
+          "end": 535.782
+        },
+        {
+          "text": "AI-powered",
+          "start": 535.782,
+          "end": 536.345
+        },
+        {
+          "text": "locator",
+          "start": 536.345,
+          "end": 536.833
+        },
+        {
+          "text": "healing",
+          "start": 536.833,
+          "end": 537.22
+        },
+        {
+          "text": "in",
+          "start": 537.22,
+          "end": 537.395
+        },
+        {
+          "text": "CI/CD",
+          "start": 537.395,
+          "end": 538.445
+        },
+        {
+          "text": ",",
+          "start": 538.445,
+          "end": 538.507
+        },
+        {
+          "text": "building",
+          "start": 538.507,
+          "end": 538.833
+        },
+        {
+          "text": "on",
+          "start": 538.833,
+          "end": 538.932
+        },
+        {
+          "text": "the",
+          "start": 538.932,
+          "end": 539.032
+        },
+        {
+          "text": "Relative",
+          "start": 539.032,
+          "end": 539.445
+        },
+        {
+          "text": "Locators",
+          "start": 539.445,
+          "end": 540.058
+        },
+        {
+          "text": "and",
+          "start": 540.058,
+          "end": 540.195
+        },
+        {
+          "text": "BiDi",
+          "start": 540.195,
+          "end": 540.657
+        },
+        {
+          "text": "from",
+          "start": 540.657,
+          "end": 540.808
+        },
+        {
+          "text": "this",
+          "start": 540.808,
+          "end": 540.995
+        },
+        {
+          "text": "guide",
+          "start": 540.995,
+          "end": 541.995
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

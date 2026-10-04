@@ -1,0 +1,5619 @@
+{
+  "slug": "drag-and-drop-csharp-selenium",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 379.19,
+  "contentHash": "569cd6872ef6ef3eb80012ff293a9d08ff63f7e88d4f3e96e9cd96bf427548e3",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Unlock Seamless Interactions: Mastering Drag-and-Drop in C# Selenium",
+      "start": 0.0,
+      "end": 5.125,
+      "words": [
+        {
+          "text": "Unlock",
+          "start": 0.275,
+          "end": 0.613
+        },
+        {
+          "text": "Seamless",
+          "start": 0.613,
+          "end": 1.038
+        },
+        {
+          "text": "Interactions",
+          "start": 1.038,
+          "end": 2.075
+        },
+        {
+          "text": ":",
+          "start": 2.075,
+          "end": 2.188
+        },
+        {
+          "text": "Mastering",
+          "start": 2.188,
+          "end": 2.675
+        },
+        {
+          "text": "Drag-and-Drop",
+          "start": 2.675,
+          "end": 3.35
+        },
+        {
+          "text": "in",
+          "start": 3.35,
+          "end": 3.513
+        },
+        {
+          "text": "C#",
+          "start": 3.513,
+          "end": 4.025
+        },
+        {
+          "text": "Selenium",
+          "start": 4.025,
+          "end": 5.125
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "h2",
+      "text": "The Challenge of Drag-and-Drop",
+      "start": 5.595,
+      "end": 7.745,
+      "words": [
+        {
+          "text": "The",
+          "start": 5.82,
+          "end": 5.957
+        },
+        {
+          "text": "Challenge",
+          "start": 5.957,
+          "end": 6.532
+        },
+        {
+          "text": "of",
+          "start": 6.532,
+          "end": 6.67
+        },
+        {
+          "text": "Drag-and-Drop",
+          "start": 6.67,
+          "end": 7.745
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "h3",
+      "text": "The Frustration Is Real",
+      "start": 8.29,
+      "end": 10.365,
+      "words": [
+        {
+          "text": "The",
+          "start": 8.515,
+          "end": 8.615
+        },
+        {
+          "text": "Frustration",
+          "start": 8.615,
+          "end": 9.365
+        },
+        {
+          "text": "Is",
+          "start": 9.365,
+          "end": 9.578
+        },
+        {
+          "text": "Real",
+          "start": 9.578,
+          "end": 10.365
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "Dragging and dropping elements should be simple. One line of code, element moves, test passes. Except it doesn't. If you've been using OpenQA.Selenium.Interactions without success, you're not alone , and you're about to learn why it keeps failing and what to do about it.",
+      "start": 10.835,
+      "end": 26.61,
+      "words": [
+        {
+          "text": "Dragging",
+          "start": 11.11,
+          "end": 11.56
+        },
+        {
+          "text": "and",
+          "start": 11.56,
+          "end": 11.685
+        },
+        {
+          "text": "dropping",
+          "start": 11.685,
+          "end": 12.085
+        },
+        {
+          "text": "elements",
+          "start": 12.085,
+          "end": 12.535
+        },
+        {
+          "text": "should",
+          "start": 12.535,
+          "end": 12.673
+        },
+        {
+          "text": "be",
+          "start": 12.673,
+          "end": 12.785
+        },
+        {
+          "text": "simple",
+          "start": 12.785,
+          "end": 13.635
+        },
+        {
+          "text": ".",
+          "start": 13.635,
+          "end": 13.773
+        },
+        {
+          "text": "One",
+          "start": 13.773,
+          "end": 14.01
+        },
+        {
+          "text": "line",
+          "start": 14.01,
+          "end": 14.223
+        },
+        {
+          "text": "of",
+          "start": 14.223,
+          "end": 14.31
+        },
+        {
+          "text": "code",
+          "start": 14.31,
+          "end": 14.66
+        },
+        {
+          "text": ",",
+          "start": 14.66,
+          "end": 14.71
+        },
+        {
+          "text": "element",
+          "start": 14.71,
+          "end": 15.11
+        },
+        {
+          "text": "moves",
+          "start": 15.11,
+          "end": 15.385
+        },
+        {
+          "text": ",",
+          "start": 15.385,
+          "end": 15.435
+        },
+        {
+          "text": "test",
+          "start": 15.435,
+          "end": 15.685
+        },
+        {
+          "text": "passes",
+          "start": 15.685,
+          "end": 16.46
+        },
+        {
+          "text": ".",
+          "start": 16.46,
+          "end": 16.573
+        },
+        {
+          "text": "Except",
+          "start": 16.573,
+          "end": 16.948
+        },
+        {
+          "text": "it",
+          "start": 16.948,
+          "end": 17.035
+        },
+        {
+          "text": "doesn't",
+          "start": 17.035,
+          "end": 17.935
+        },
+        {
+          "text": ".",
+          "start": 17.935,
+          "end": 18.035
+        },
+        {
+          "text": "If",
+          "start": 18.035,
+          "end": 18.21
+        },
+        {
+          "text": "you've",
+          "start": 18.21,
+          "end": 18.348
+        },
+        {
+          "text": "been",
+          "start": 18.348,
+          "end": 18.535
+        },
+        {
+          "text": "using",
+          "start": 18.535,
+          "end": 18.86
+        },
+        {
+          "text": "OpenQA.Selenium",
+          "start": 18.86,
+          "end": 20.435
+        },
+        {
+          "text": ".",
+          "start": 20.435,
+          "end": 20.535
+        },
+        {
+          "text": "Interactions",
+          "start": 20.535,
+          "end": 21.148
+        },
+        {
+          "text": "without",
+          "start": 21.148,
+          "end": 21.485
+        },
+        {
+          "text": "success",
+          "start": 21.485,
+          "end": 22.11
+        },
+        {
+          "text": ",",
+          "start": 22.11,
+          "end": 22.185
+        },
+        {
+          "text": "you're",
+          "start": 22.185,
+          "end": 22.298
+        },
+        {
+          "text": "not",
+          "start": 22.298,
+          "end": 22.485
+        },
+        {
+          "text": "alone",
+          "start": 22.485,
+          "end": 22.923
+        },
+        {
+          "text": ",",
+          "start": 22.923,
+          "end": 22.973
+        },
+        {
+          "text": "and",
+          "start": 22.973,
+          "end": 23.073
+        },
+        {
+          "text": "you're",
+          "start": 23.073,
+          "end": 23.173
+        },
+        {
+          "text": "about",
+          "start": 23.173,
+          "end": 23.46
+        },
+        {
+          "text": "to",
+          "start": 23.46,
+          "end": 23.585
+        },
+        {
+          "text": "learn",
+          "start": 23.585,
+          "end": 23.86
+        },
+        {
+          "text": "why",
+          "start": 23.86,
+          "end": 24.023
+        },
+        {
+          "text": "it",
+          "start": 24.023,
+          "end": 24.11
+        },
+        {
+          "text": "keeps",
+          "start": 24.11,
+          "end": 24.385
+        },
+        {
+          "text": "failing",
+          "start": 24.385,
+          "end": 24.81
+        },
+        {
+          "text": "and",
+          "start": 24.81,
+          "end": 24.935
+        },
+        {
+          "text": "what",
+          "start": 24.935,
+          "end": 25.135
+        },
+        {
+          "text": "to",
+          "start": 25.135,
+          "end": 25.235
+        },
+        {
+          "text": "do",
+          "start": 25.235,
+          "end": 25.373
+        },
+        {
+          "text": "about",
+          "start": 25.373,
+          "end": 25.723
+        },
+        {
+          "text": "it",
+          "start": 25.723,
+          "end": 26.41
+        },
+        {
+          "text": ".",
+          "start": 26.41,
+          "end": 26.61
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "p",
+      "text": "I've watched this one bug burn through sprints. A test passes on my machine, fails in CI, passes again, fails on a different day. The drag-and-drop is the canary in the coal mine , if it works, your browser automation is solid. If it doesn't, something deeper is wrong.",
+      "start": 26.93,
+      "end": 42.68,
+      "words": [
+        {
+          "text": "I've",
+          "start": 27.18,
+          "end": 27.33
+        },
+        {
+          "text": "watched",
+          "start": 27.33,
+          "end": 27.605
+        },
+        {
+          "text": "this",
+          "start": 27.605,
+          "end": 27.78
+        },
+        {
+          "text": "one",
+          "start": 27.78,
+          "end": 28.005
+        },
+        {
+          "text": "bug",
+          "start": 28.005,
+          "end": 28.23
+        },
+        {
+          "text": "burn",
+          "start": 28.23,
+          "end": 28.53
+        },
+        {
+          "text": "through",
+          "start": 28.53,
+          "end": 28.705
+        },
+        {
+          "text": "sprints",
+          "start": 28.705,
+          "end": 29.58
+        },
+        {
+          "text": ".",
+          "start": 29.58,
+          "end": 29.693
+        },
+        {
+          "text": "A",
+          "start": 29.693,
+          "end": 29.805
+        },
+        {
+          "text": "test",
+          "start": 29.805,
+          "end": 30.105
+        },
+        {
+          "text": "passes",
+          "start": 30.105,
+          "end": 30.468
+        },
+        {
+          "text": "on",
+          "start": 30.468,
+          "end": 30.568
+        },
+        {
+          "text": "my",
+          "start": 30.568,
+          "end": 30.693
+        },
+        {
+          "text": "machine",
+          "start": 30.693,
+          "end": 31.205
+        },
+        {
+          "text": ",",
+          "start": 31.205,
+          "end": 31.28
+        },
+        {
+          "text": "fails",
+          "start": 31.28,
+          "end": 31.655
+        },
+        {
+          "text": "in",
+          "start": 31.655,
+          "end": 31.818
+        },
+        {
+          "text": "CI",
+          "start": 31.818,
+          "end": 32.305
+        },
+        {
+          "text": ",",
+          "start": 32.305,
+          "end": 32.355
+        },
+        {
+          "text": "passes",
+          "start": 32.355,
+          "end": 32.742
+        },
+        {
+          "text": "again",
+          "start": 32.742,
+          "end": 33.155
+        },
+        {
+          "text": ",",
+          "start": 33.155,
+          "end": 33.268
+        },
+        {
+          "text": "fails",
+          "start": 33.268,
+          "end": 33.618
+        },
+        {
+          "text": "on",
+          "start": 33.618,
+          "end": 33.717
+        },
+        {
+          "text": "a",
+          "start": 33.717,
+          "end": 33.78
+        },
+        {
+          "text": "different",
+          "start": 33.78,
+          "end": 34.08
+        },
+        {
+          "text": "day",
+          "start": 34.08,
+          "end": 35.005
+        },
+        {
+          "text": ".",
+          "start": 35.005,
+          "end": 35.13
+        },
+        {
+          "text": "The",
+          "start": 35.13,
+          "end": 35.23
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 35.23,
+          "end": 35.893
+        },
+        {
+          "text": "is",
+          "start": 35.893,
+          "end": 36.018
+        },
+        {
+          "text": "the",
+          "start": 36.018,
+          "end": 36.105
+        },
+        {
+          "text": "canary",
+          "start": 36.105,
+          "end": 36.567
+        },
+        {
+          "text": "in",
+          "start": 36.567,
+          "end": 36.643
+        },
+        {
+          "text": "the",
+          "start": 36.643,
+          "end": 36.73
+        },
+        {
+          "text": "coal",
+          "start": 36.73,
+          "end": 37.005
+        },
+        {
+          "text": "mine",
+          "start": 37.005,
+          "end": 37.43
+        },
+        {
+          "text": ",",
+          "start": 37.43,
+          "end": 37.492
+        },
+        {
+          "text": "if",
+          "start": 37.492,
+          "end": 37.592
+        },
+        {
+          "text": "it",
+          "start": 37.592,
+          "end": 37.68
+        },
+        {
+          "text": "works",
+          "start": 37.68,
+          "end": 38.03
+        },
+        {
+          "text": ",",
+          "start": 38.03,
+          "end": 38.067
+        },
+        {
+          "text": "your",
+          "start": 38.067,
+          "end": 38.205
+        },
+        {
+          "text": "browser",
+          "start": 38.205,
+          "end": 38.58
+        },
+        {
+          "text": "automation",
+          "start": 38.58,
+          "end": 39.18
+        },
+        {
+          "text": "is",
+          "start": 39.18,
+          "end": 39.317
+        },
+        {
+          "text": "solid",
+          "start": 39.317,
+          "end": 40.08
+        },
+        {
+          "text": ".",
+          "start": 40.08,
+          "end": 40.18
+        },
+        {
+          "text": "If",
+          "start": 40.18,
+          "end": 40.317
+        },
+        {
+          "text": "it",
+          "start": 40.317,
+          "end": 40.405
+        },
+        {
+          "text": "doesn't",
+          "start": 40.405,
+          "end": 40.73
+        },
+        {
+          "text": ",",
+          "start": 40.73,
+          "end": 40.78
+        },
+        {
+          "text": "something",
+          "start": 40.78,
+          "end": 41.18
+        },
+        {
+          "text": "deeper",
+          "start": 41.18,
+          "end": 41.48
+        },
+        {
+          "text": "is",
+          "start": 41.48,
+          "end": 41.63
+        },
+        {
+          "text": "wrong",
+          "start": 41.63,
+          "end": 42.48
+        },
+        {
+          "text": ".",
+          "start": 42.48,
+          "end": 42.68
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "h3",
+      "text": "Why Does Selenium's DragAndDrop Keep Failing?",
+      "start": 43.0,
+      "end": 46.25,
+      "words": [
+        {
+          "text": "Why",
+          "start": 43.25,
+          "end": 43.45
+        },
+        {
+          "text": "Does",
+          "start": 43.45,
+          "end": 43.625
+        },
+        {
+          "text": "Selenium's",
+          "start": 43.625,
+          "end": 44.175
+        },
+        {
+          "text": "DragAndDrop",
+          "start": 44.175,
+          "end": 44.875
+        },
+        {
+          "text": "Keep",
+          "start": 44.875,
+          "end": 45.125
+        },
+        {
+          "text": "Failing",
+          "start": 45.125,
+          "end": 46.075
+        },
+        {
+          "text": "?",
+          "start": 46.075,
+          "end": 46.25
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "The OpenQA.Selenium.Interactions.Actions class looks like it should work. Here's why it often doesn't:",
+      "start": 46.57,
+      "end": 53.42,
+      "words": [
+        {
+          "text": "The",
+          "start": 46.82,
+          "end": 46.945
+        },
+        {
+          "text": "OpenQA.Selenium",
+          "start": 46.945,
+          "end": 48.27
+        },
+        {
+          "text": ".",
+          "start": 48.27,
+          "end": 48.345
+        },
+        {
+          "text": "Interactions",
+          "start": 48.345,
+          "end": 49.095
+        },
+        {
+          "text": ".",
+          "start": 49.095,
+          "end": 49.17
+        },
+        {
+          "text": "Actions",
+          "start": 49.17,
+          "end": 49.57
+        },
+        {
+          "text": "class",
+          "start": 49.57,
+          "end": 49.945
+        },
+        {
+          "text": "looks",
+          "start": 49.945,
+          "end": 50.157
+        },
+        {
+          "text": "like",
+          "start": 50.157,
+          "end": 50.332
+        },
+        {
+          "text": "it",
+          "start": 50.332,
+          "end": 50.42
+        },
+        {
+          "text": "should",
+          "start": 50.42,
+          "end": 50.595
+        },
+        {
+          "text": "work",
+          "start": 50.595,
+          "end": 51.295
+        },
+        {
+          "text": ".",
+          "start": 51.295,
+          "end": 51.395
+        },
+        {
+          "text": "Here's",
+          "start": 51.395,
+          "end": 51.72
+        },
+        {
+          "text": "why",
+          "start": 51.72,
+          "end": 51.907
+        },
+        {
+          "text": "it",
+          "start": 51.907,
+          "end": 51.983
+        },
+        {
+          "text": "often",
+          "start": 51.983,
+          "end": 52.295
+        },
+        {
+          "text": "doesn't",
+          "start": 52.295,
+          "end": 53.22
+        },
+        {
+          "text": ":",
+          "start": 53.22,
+          "end": 53.42
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "li",
+      "text": "Custom JavaScript on the Page , Modern frameworks (React, Vue, Angular) use custom drag-and-drop handlers. Selenium's synthetic mouse events bypass them entirely.",
+      "start": 53.74,
+      "end": 64.54,
+      "words": [
+        {
+          "text": "Custom",
+          "start": 53.99,
+          "end": 54.365
+        },
+        {
+          "text": "JavaScript",
+          "start": 54.365,
+          "end": 54.952
+        },
+        {
+          "text": "on",
+          "start": 54.952,
+          "end": 55.052
+        },
+        {
+          "text": "the",
+          "start": 55.052,
+          "end": 55.14
+        },
+        {
+          "text": "Page",
+          "start": 55.14,
+          "end": 55.552
+        },
+        {
+          "text": ",",
+          "start": 55.552,
+          "end": 55.615
+        },
+        {
+          "text": "Modern",
+          "start": 55.615,
+          "end": 55.94
+        },
+        {
+          "text": "frameworks",
+          "start": 55.94,
+          "end": 56.715
+        },
+        {
+          "text": "(",
+          "start": 56.715,
+          "end": 56.79
+        },
+        {
+          "text": "React",
+          "start": 56.79,
+          "end": 57.24
+        },
+        {
+          "text": ",",
+          "start": 57.24,
+          "end": 57.29
+        },
+        {
+          "text": "Vue",
+          "start": 57.29,
+          "end": 57.49
+        },
+        {
+          "text": ",",
+          "start": 57.49,
+          "end": 57.54
+        },
+        {
+          "text": "Angular",
+          "start": 57.54,
+          "end": 58.29
+        },
+        {
+          "text": ")",
+          "start": 58.29,
+          "end": 58.415
+        },
+        {
+          "text": "use",
+          "start": 58.415,
+          "end": 58.64
+        },
+        {
+          "text": "custom",
+          "start": 58.64,
+          "end": 59.015
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 59.015,
+          "end": 59.64
+        },
+        {
+          "text": "handlers",
+          "start": 59.64,
+          "end": 60.64
+        },
+        {
+          "text": ".",
+          "start": 60.64,
+          "end": 60.79
+        },
+        {
+          "text": "Selenium's",
+          "start": 60.79,
+          "end": 61.39
+        },
+        {
+          "text": "synthetic",
+          "start": 61.39,
+          "end": 61.965
+        },
+        {
+          "text": "mouse",
+          "start": 61.965,
+          "end": 62.215
+        },
+        {
+          "text": "events",
+          "start": 62.215,
+          "end": 62.615
+        },
+        {
+          "text": "bypass",
+          "start": 62.615,
+          "end": 63.078
+        },
+        {
+          "text": "them",
+          "start": 63.078,
+          "end": 63.265
+        },
+        {
+          "text": "entirely",
+          "start": 63.265,
+          "end": 64.365
+        },
+        {
+          "text": ".",
+          "start": 64.365,
+          "end": 64.54
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "li",
+      "text": "Browser Implementation Differences , Chrome handles drag-and-drop differently than Firefox or Safari. There's no standard.",
+      "start": 64.86,
+      "end": 72.76,
+      "words": [
+        {
+          "text": "Browser",
+          "start": 65.11,
+          "end": 65.485
+        },
+        {
+          "text": "Implementation",
+          "start": 65.485,
+          "end": 66.26
+        },
+        {
+          "text": "Differences",
+          "start": 66.26,
+          "end": 67.135
+        },
+        {
+          "text": ",",
+          "start": 67.135,
+          "end": 67.21
+        },
+        {
+          "text": "Chrome",
+          "start": 67.21,
+          "end": 67.535
+        },
+        {
+          "text": "handles",
+          "start": 67.535,
+          "end": 67.96
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 67.96,
+          "end": 68.635
+        },
+        {
+          "text": "differently",
+          "start": 68.635,
+          "end": 69.085
+        },
+        {
+          "text": "than",
+          "start": 69.085,
+          "end": 69.272
+        },
+        {
+          "text": "Firefox",
+          "start": 69.272,
+          "end": 69.86
+        },
+        {
+          "text": "or",
+          "start": 69.86,
+          "end": 69.985
+        },
+        {
+          "text": "Safari",
+          "start": 69.985,
+          "end": 70.985
+        },
+        {
+          "text": ".",
+          "start": 70.985,
+          "end": 71.11
+        },
+        {
+          "text": "There's",
+          "start": 71.11,
+          "end": 71.385
+        },
+        {
+          "text": "no",
+          "start": 71.385,
+          "end": 71.56
+        },
+        {
+          "text": "standard",
+          "start": 71.56,
+          "end": 72.56
+        },
+        {
+          "text": ".",
+          "start": 72.56,
+          "end": 72.76
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "li",
+      "text": "Element Visibility and Interactability , The element might be visible to your eyes but \"not ready\" to Selenium's context. Layout shifts, animations, hidden overlays , all trip you up.",
+      "start": 73.08,
+      "end": 84.505,
+      "words": [
+        {
+          "text": "Element",
+          "start": 73.355,
+          "end": 73.73
+        },
+        {
+          "text": "Visibility",
+          "start": 73.73,
+          "end": 74.405
+        },
+        {
+          "text": "and",
+          "start": 74.405,
+          "end": 74.518
+        },
+        {
+          "text": "Interactability",
+          "start": 74.518,
+          "end": 75.793
+        },
+        {
+          "text": ",",
+          "start": 75.793,
+          "end": 75.88
+        },
+        {
+          "text": "The",
+          "start": 75.88,
+          "end": 76.03
+        },
+        {
+          "text": "element",
+          "start": 76.03,
+          "end": 76.405
+        },
+        {
+          "text": "might",
+          "start": 76.405,
+          "end": 76.593
+        },
+        {
+          "text": "be",
+          "start": 76.593,
+          "end": 76.705
+        },
+        {
+          "text": "visible",
+          "start": 76.705,
+          "end": 77.105
+        },
+        {
+          "text": "to",
+          "start": 77.105,
+          "end": 77.192
+        },
+        {
+          "text": "your",
+          "start": 77.192,
+          "end": 77.38
+        },
+        {
+          "text": "eyes",
+          "start": 77.38,
+          "end": 77.73
+        },
+        {
+          "text": "but",
+          "start": 77.73,
+          "end": 77.868
+        },
+        {
+          "text": "\"",
+          "start": 77.868,
+          "end": 77.905
+        },
+        {
+          "text": "not",
+          "start": 77.905,
+          "end": 78.08
+        },
+        {
+          "text": "ready",
+          "start": 78.08,
+          "end": 78.355
+        },
+        {
+          "text": "\"",
+          "start": 78.355,
+          "end": 78.405
+        },
+        {
+          "text": "to",
+          "start": 78.405,
+          "end": 78.53
+        },
+        {
+          "text": "Selenium's",
+          "start": 78.53,
+          "end": 79.08
+        },
+        {
+          "text": "context",
+          "start": 79.08,
+          "end": 80.23
+        },
+        {
+          "text": ".",
+          "start": 80.23,
+          "end": 80.393
+        },
+        {
+          "text": "Layout",
+          "start": 80.393,
+          "end": 80.768
+        },
+        {
+          "text": "shifts",
+          "start": 80.768,
+          "end": 81.205
+        },
+        {
+          "text": ",",
+          "start": 81.205,
+          "end": 81.28
+        },
+        {
+          "text": "animations",
+          "start": 81.28,
+          "end": 82.105
+        },
+        {
+          "text": ",",
+          "start": 82.105,
+          "end": 82.18
+        },
+        {
+          "text": "hidden",
+          "start": 82.18,
+          "end": 82.48
+        },
+        {
+          "text": "overlays",
+          "start": 82.48,
+          "end": 83.043
+        },
+        {
+          "text": ",",
+          "start": 83.043,
+          "end": 83.093
+        },
+        {
+          "text": "all",
+          "start": 83.093,
+          "end": 83.305
+        },
+        {
+          "text": "trip",
+          "start": 83.305,
+          "end": 83.543
+        },
+        {
+          "text": "you",
+          "start": 83.543,
+          "end": 83.642
+        },
+        {
+          "text": "up",
+          "start": 83.642,
+          "end": 84.305
+        },
+        {
+          "text": ".",
+          "start": 84.305,
+          "end": 84.505
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "p",
+      "text": "The deeper issue? Selenium's drag-and-drop uses low-level WebDriver protocols that don't map cleanly to modern web APIs. Hence, the fallback strategies below.",
+      "start": 84.825,
+      "end": 95.35,
+      "words": [
+        {
+          "text": "The",
+          "start": 85.075,
+          "end": 85.15
+        },
+        {
+          "text": "deeper",
+          "start": 85.15,
+          "end": 85.45
+        },
+        {
+          "text": "issue",
+          "start": 85.45,
+          "end": 86.125
+        },
+        {
+          "text": "?",
+          "start": 86.125,
+          "end": 86.238
+        },
+        {
+          "text": "Selenium's",
+          "start": 86.238,
+          "end": 86.8
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 86.8,
+          "end": 87.5
+        },
+        {
+          "text": "uses",
+          "start": 87.5,
+          "end": 87.825
+        },
+        {
+          "text": "low-level",
+          "start": 87.825,
+          "end": 88.375
+        },
+        {
+          "text": "WebDriver",
+          "start": 88.375,
+          "end": 88.925
+        },
+        {
+          "text": "protocols",
+          "start": 88.925,
+          "end": 89.525
+        },
+        {
+          "text": "that",
+          "start": 89.525,
+          "end": 89.65
+        },
+        {
+          "text": "don't",
+          "start": 89.65,
+          "end": 89.875
+        },
+        {
+          "text": "map",
+          "start": 89.875,
+          "end": 90.1
+        },
+        {
+          "text": "cleanly",
+          "start": 90.1,
+          "end": 90.525
+        },
+        {
+          "text": "to",
+          "start": 90.525,
+          "end": 90.65
+        },
+        {
+          "text": "modern",
+          "start": 90.65,
+          "end": 90.975
+        },
+        {
+          "text": "web",
+          "start": 90.975,
+          "end": 91.2
+        },
+        {
+          "text": "APIs",
+          "start": 91.2,
+          "end": 92.475
+        },
+        {
+          "text": ".",
+          "start": 92.475,
+          "end": 92.612
+        },
+        {
+          "text": "Hence",
+          "start": 92.612,
+          "end": 93.05
+        },
+        {
+          "text": ",",
+          "start": 93.05,
+          "end": 93.125
+        },
+        {
+          "text": "the",
+          "start": 93.125,
+          "end": 93.225
+        },
+        {
+          "text": "fallback",
+          "start": 93.225,
+          "end": 93.7
+        },
+        {
+          "text": "strategies",
+          "start": 93.7,
+          "end": 94.275
+        },
+        {
+          "text": "below",
+          "start": 94.275,
+          "end": 95.15
+        },
+        {
+          "text": ".",
+          "start": 95.15,
+          "end": 95.35
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "h2",
+      "text": "8 Methods to Master Drag-and-Drop in Selenium",
+      "start": 95.67,
+      "end": 99.145,
+      "words": [
+        {
+          "text": "8",
+          "start": 95.92,
+          "end": 96.145
+        },
+        {
+          "text": "Methods",
+          "start": 96.145,
+          "end": 96.595
+        },
+        {
+          "text": "to",
+          "start": 96.595,
+          "end": 96.72
+        },
+        {
+          "text": "Master",
+          "start": 96.72,
+          "end": 97.17
+        },
+        {
+          "text": "Drag-and-Drop",
+          "start": 97.17,
+          "end": 97.895
+        },
+        {
+          "text": "in",
+          "start": 97.895,
+          "end": 98.045
+        },
+        {
+          "text": "Selenium",
+          "start": 98.045,
+          "end": 99.145
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "h3",
+      "text": "Method 1: Native Actions (Try This First)",
+      "start": 99.59,
+      "end": 102.84,
+      "words": [
+        {
+          "text": "Method",
+          "start": 99.84,
+          "end": 100.14
+        },
+        {
+          "text": "1",
+          "start": 100.14,
+          "end": 100.44
+        },
+        {
+          "text": ":",
+          "start": 100.44,
+          "end": 100.515
+        },
+        {
+          "text": "Native",
+          "start": 100.515,
+          "end": 100.865
+        },
+        {
+          "text": "Actions",
+          "start": 100.865,
+          "end": 101.352
+        },
+        {
+          "text": "(",
+          "start": 101.352,
+          "end": 101.39
+        },
+        {
+          "text": "Try",
+          "start": 101.39,
+          "end": 101.578
+        },
+        {
+          "text": "This",
+          "start": 101.578,
+          "end": 101.765
+        },
+        {
+          "text": "First",
+          "start": 101.765,
+          "end": 102.64
+        },
+        {
+          "text": ")",
+          "start": 102.64,
+          "end": 102.84
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "When to use: Vanilla HTML5 draggable elements with no custom JavaScript.",
+      "start": 103.16,
+      "end": 109.16,
+      "words": [
+        {
+          "text": "When",
+          "start": 103.41,
+          "end": 103.585
+        },
+        {
+          "text": "to",
+          "start": 103.585,
+          "end": 103.71
+        },
+        {
+          "text": "use",
+          "start": 103.71,
+          "end": 104.335
+        },
+        {
+          "text": ":",
+          "start": 104.335,
+          "end": 104.41
+        },
+        {
+          "text": "Vanilla",
+          "start": 104.41,
+          "end": 104.81
+        },
+        {
+          "text": "HTML5",
+          "start": 104.81,
+          "end": 106.035
+        },
+        {
+          "text": "draggable",
+          "start": 106.035,
+          "end": 106.51
+        },
+        {
+          "text": "elements",
+          "start": 106.51,
+          "end": 106.998
+        },
+        {
+          "text": "with",
+          "start": 106.998,
+          "end": 107.16
+        },
+        {
+          "text": "no",
+          "start": 107.16,
+          "end": 107.36
+        },
+        {
+          "text": "custom",
+          "start": 107.36,
+          "end": 107.785
+        },
+        {
+          "text": "JavaScript",
+          "start": 107.785,
+          "end": 108.985
+        },
+        {
+          "text": ".",
+          "start": 108.985,
+          "end": 109.16
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "This is the happy path. Standard HTML5 drag-and-drop sometimes just works. Worth trying first.",
+      "start": 109.48,
+      "end": 116.905,
+      "words": [
+        {
+          "text": "This",
+          "start": 109.73,
+          "end": 109.93
+        },
+        {
+          "text": "is",
+          "start": 109.93,
+          "end": 110.068
+        },
+        {
+          "text": "the",
+          "start": 110.068,
+          "end": 110.155
+        },
+        {
+          "text": "happy",
+          "start": 110.155,
+          "end": 110.455
+        },
+        {
+          "text": "path",
+          "start": 110.455,
+          "end": 111.105
+        },
+        {
+          "text": ".",
+          "start": 111.105,
+          "end": 111.218
+        },
+        {
+          "text": "Standard",
+          "start": 111.218,
+          "end": 111.68
+        },
+        {
+          "text": "HTML5",
+          "start": 111.68,
+          "end": 112.805
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 112.805,
+          "end": 113.48
+        },
+        {
+          "text": "sometimes",
+          "start": 113.48,
+          "end": 114.005
+        },
+        {
+          "text": "just",
+          "start": 114.005,
+          "end": 114.255
+        },
+        {
+          "text": "works",
+          "start": 114.255,
+          "end": 115.005
+        },
+        {
+          "text": ".",
+          "start": 115.005,
+          "end": 115.117
+        },
+        {
+          "text": "Worth",
+          "start": 115.117,
+          "end": 115.405
+        },
+        {
+          "text": "trying",
+          "start": 115.405,
+          "end": 115.78
+        },
+        {
+          "text": "first",
+          "start": 115.78,
+          "end": 116.705
+        },
+        {
+          "text": ".",
+          "start": 116.705,
+          "end": 116.905
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "Does it work? Great. No? Move to Method 2.",
+      "start": 117.225,
+      "end": 120.375,
+      "words": [
+        {
+          "text": "Does",
+          "start": 117.475,
+          "end": 117.587
+        },
+        {
+          "text": "it",
+          "start": 117.587,
+          "end": 117.675
+        },
+        {
+          "text": "work",
+          "start": 117.675,
+          "end": 117.975
+        },
+        {
+          "text": "?",
+          "start": 117.975,
+          "end": 118.025
+        },
+        {
+          "text": "Great",
+          "start": 118.025,
+          "end": 118.325
+        },
+        {
+          "text": ".",
+          "start": 118.325,
+          "end": 118.375
+        },
+        {
+          "text": "No",
+          "start": 118.375,
+          "end": 118.675
+        },
+        {
+          "text": "?",
+          "start": 118.675,
+          "end": 118.75
+        },
+        {
+          "text": "Move",
+          "start": 118.75,
+          "end": 119.0
+        },
+        {
+          "text": "to",
+          "start": 119.0,
+          "end": 119.1
+        },
+        {
+          "text": "Method",
+          "start": 119.1,
+          "end": 119.437
+        },
+        {
+          "text": "2",
+          "start": 119.437,
+          "end": 120.2
+        },
+        {
+          "text": ".",
+          "start": 120.2,
+          "end": 120.375
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h3",
+      "text": "Method 2: Decomposed Actions (Slower but More Reliable)",
+      "start": 120.695,
+      "end": 124.87,
+      "words": [
+        {
+          "text": "Method",
+          "start": 120.945,
+          "end": 121.257
+        },
+        {
+          "text": "2",
+          "start": 121.257,
+          "end": 121.545
+        },
+        {
+          "text": ":",
+          "start": 121.545,
+          "end": 121.595
+        },
+        {
+          "text": "Decomposed",
+          "start": 121.595,
+          "end": 122.22
+        },
+        {
+          "text": "Actions",
+          "start": 122.22,
+          "end": 122.833
+        },
+        {
+          "text": "(",
+          "start": 122.833,
+          "end": 122.92
+        },
+        {
+          "text": "Slower",
+          "start": 122.92,
+          "end": 123.295
+        },
+        {
+          "text": "but",
+          "start": 123.295,
+          "end": 123.445
+        },
+        {
+          "text": "More",
+          "start": 123.445,
+          "end": 123.62
+        },
+        {
+          "text": "Reliable",
+          "start": 123.62,
+          "end": 124.695
+        },
+        {
+          "text": ")",
+          "start": 124.695,
+          "end": 124.87
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "When to use: When Method 1 fails. This simulates the drag in slow-mo.",
+      "start": 125.19,
+      "end": 130.065,
+      "words": [
+        {
+          "text": "When",
+          "start": 125.44,
+          "end": 125.565
+        },
+        {
+          "text": "to",
+          "start": 125.565,
+          "end": 125.69
+        },
+        {
+          "text": "use",
+          "start": 125.69,
+          "end": 125.99
+        },
+        {
+          "text": ":",
+          "start": 125.99,
+          "end": 126.028
+        },
+        {
+          "text": "When",
+          "start": 126.028,
+          "end": 126.165
+        },
+        {
+          "text": "Method",
+          "start": 126.165,
+          "end": 126.465
+        },
+        {
+          "text": "1",
+          "start": 126.465,
+          "end": 126.703
+        },
+        {
+          "text": "fails",
+          "start": 126.703,
+          "end": 127.465
+        },
+        {
+          "text": ".",
+          "start": 127.465,
+          "end": 127.565
+        },
+        {
+          "text": "This",
+          "start": 127.565,
+          "end": 127.753
+        },
+        {
+          "text": "simulates",
+          "start": 127.753,
+          "end": 128.277
+        },
+        {
+          "text": "the",
+          "start": 128.277,
+          "end": 128.365
+        },
+        {
+          "text": "drag",
+          "start": 128.365,
+          "end": 128.74
+        },
+        {
+          "text": "in",
+          "start": 128.74,
+          "end": 128.89
+        },
+        {
+          "text": "slow-mo",
+          "start": 128.89,
+          "end": 129.865
+        },
+        {
+          "text": ".",
+          "start": 129.865,
+          "end": 130.065
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Breaking down the drag into steps (hold to move to release) is more likely to trigger custom JavaScript handlers. It's slower, but it works on frameworks like jQuery UI.",
+      "start": 130.385,
+      "end": 141.035,
+      "words": [
+        {
+          "text": "Breaking",
+          "start": 130.635,
+          "end": 131.01
+        },
+        {
+          "text": "down",
+          "start": 131.01,
+          "end": 131.248
+        },
+        {
+          "text": "the",
+          "start": 131.248,
+          "end": 131.335
+        },
+        {
+          "text": "drag",
+          "start": 131.335,
+          "end": 131.647
+        },
+        {
+          "text": "into",
+          "start": 131.647,
+          "end": 131.86
+        },
+        {
+          "text": "steps",
+          "start": 131.86,
+          "end": 132.41
+        },
+        {
+          "text": "(",
+          "start": 132.41,
+          "end": 132.485
+        },
+        {
+          "text": "hold",
+          "start": 132.485,
+          "end": 132.735
+        },
+        {
+          "text": "to",
+          "start": 132.735,
+          "end": 132.835
+        },
+        {
+          "text": "move",
+          "start": 132.835,
+          "end": 133.085
+        },
+        {
+          "text": "to",
+          "start": 133.085,
+          "end": 133.172
+        },
+        {
+          "text": "release",
+          "start": 133.172,
+          "end": 133.885
+        },
+        {
+          "text": ")",
+          "start": 133.885,
+          "end": 133.997
+        },
+        {
+          "text": "is",
+          "start": 133.997,
+          "end": 134.16
+        },
+        {
+          "text": "more",
+          "start": 134.16,
+          "end": 134.335
+        },
+        {
+          "text": "likely",
+          "start": 134.335,
+          "end": 134.735
+        },
+        {
+          "text": "to",
+          "start": 134.735,
+          "end": 134.835
+        },
+        {
+          "text": "trigger",
+          "start": 134.835,
+          "end": 135.135
+        },
+        {
+          "text": "custom",
+          "start": 135.135,
+          "end": 135.56
+        },
+        {
+          "text": "JavaScript",
+          "start": 135.56,
+          "end": 136.185
+        },
+        {
+          "text": "handlers",
+          "start": 136.185,
+          "end": 137.235
+        },
+        {
+          "text": ".",
+          "start": 137.235,
+          "end": 137.335
+        },
+        {
+          "text": "It's",
+          "start": 137.335,
+          "end": 137.56
+        },
+        {
+          "text": "slower",
+          "start": 137.56,
+          "end": 138.01
+        },
+        {
+          "text": ",",
+          "start": 138.01,
+          "end": 138.047
+        },
+        {
+          "text": "but",
+          "start": 138.047,
+          "end": 138.172
+        },
+        {
+          "text": "it",
+          "start": 138.172,
+          "end": 138.26
+        },
+        {
+          "text": "works",
+          "start": 138.26,
+          "end": 138.523
+        },
+        {
+          "text": "on",
+          "start": 138.523,
+          "end": 138.66
+        },
+        {
+          "text": "frameworks",
+          "start": 138.66,
+          "end": 139.21
+        },
+        {
+          "text": "like",
+          "start": 139.21,
+          "end": 139.435
+        },
+        {
+          "text": "jQuery",
+          "start": 139.435,
+          "end": 139.96
+        },
+        {
+          "text": "UI",
+          "start": 139.96,
+          "end": 140.835
+        },
+        {
+          "text": ".",
+          "start": 140.835,
+          "end": 141.035
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "p",
+      "text": "Why slower? Because each step is discrete. Why more reliable? Because custom drag handlers often hook into mousedown to mousemove to mouseup , and this sequence is explicit.",
+      "start": 141.355,
+      "end": 151.58,
+      "words": [
+        {
+          "text": "Why",
+          "start": 141.605,
+          "end": 141.767
+        },
+        {
+          "text": "slower",
+          "start": 141.767,
+          "end": 142.18
+        },
+        {
+          "text": "?",
+          "start": 142.18,
+          "end": 142.23
+        },
+        {
+          "text": "Because",
+          "start": 142.23,
+          "end": 142.48
+        },
+        {
+          "text": "each",
+          "start": 142.48,
+          "end": 142.68
+        },
+        {
+          "text": "step",
+          "start": 142.68,
+          "end": 142.942
+        },
+        {
+          "text": "is",
+          "start": 142.942,
+          "end": 143.08
+        },
+        {
+          "text": "discrete",
+          "start": 143.08,
+          "end": 143.955
+        },
+        {
+          "text": ".",
+          "start": 143.955,
+          "end": 144.055
+        },
+        {
+          "text": "Why",
+          "start": 144.055,
+          "end": 144.23
+        },
+        {
+          "text": "more",
+          "start": 144.23,
+          "end": 144.405
+        },
+        {
+          "text": "reliable",
+          "start": 144.405,
+          "end": 145.355
+        },
+        {
+          "text": "?",
+          "start": 145.355,
+          "end": 145.455
+        },
+        {
+          "text": "Because",
+          "start": 145.455,
+          "end": 145.73
+        },
+        {
+          "text": "custom",
+          "start": 145.73,
+          "end": 146.105
+        },
+        {
+          "text": "drag",
+          "start": 146.105,
+          "end": 146.43
+        },
+        {
+          "text": "handlers",
+          "start": 146.43,
+          "end": 146.855
+        },
+        {
+          "text": "often",
+          "start": 146.855,
+          "end": 147.205
+        },
+        {
+          "text": "hook",
+          "start": 147.205,
+          "end": 147.392
+        },
+        {
+          "text": "into",
+          "start": 147.392,
+          "end": 147.605
+        },
+        {
+          "text": "mousedown",
+          "start": 147.605,
+          "end": 148.08
+        },
+        {
+          "text": "to",
+          "start": 148.08,
+          "end": 148.18
+        },
+        {
+          "text": "mousemove",
+          "start": 148.18,
+          "end": 148.655
+        },
+        {
+          "text": "to",
+          "start": 148.655,
+          "end": 148.755
+        },
+        {
+          "text": "mouseup",
+          "start": 148.755,
+          "end": 149.355
+        },
+        {
+          "text": ",",
+          "start": 149.355,
+          "end": 149.43
+        },
+        {
+          "text": "and",
+          "start": 149.43,
+          "end": 149.542
+        },
+        {
+          "text": "this",
+          "start": 149.542,
+          "end": 149.68
+        },
+        {
+          "text": "sequence",
+          "start": 149.68,
+          "end": 150.155
+        },
+        {
+          "text": "is",
+          "start": 150.155,
+          "end": 150.28
+        },
+        {
+          "text": "explicit",
+          "start": 150.28,
+          "end": 151.38
+        },
+        {
+          "text": ".",
+          "start": 151.38,
+          "end": 151.58
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "h3",
+      "text": "Method 3: JavaScript Injection (When Selenium Can't, JavaScript Can)",
+      "start": 151.9,
+      "end": 157.05,
+      "words": [
+        {
+          "text": "Method",
+          "start": 152.15,
+          "end": 152.45
+        },
+        {
+          "text": "3",
+          "start": 152.45,
+          "end": 152.775
+        },
+        {
+          "text": ":",
+          "start": 152.775,
+          "end": 152.825
+        },
+        {
+          "text": "JavaScript",
+          "start": 152.825,
+          "end": 153.475
+        },
+        {
+          "text": "Injection",
+          "start": 153.475,
+          "end": 154.325
+        },
+        {
+          "text": "(",
+          "start": 154.325,
+          "end": 154.375
+        },
+        {
+          "text": "When",
+          "start": 154.375,
+          "end": 154.525
+        },
+        {
+          "text": "Selenium",
+          "start": 154.525,
+          "end": 155.025
+        },
+        {
+          "text": "Can't",
+          "start": 155.025,
+          "end": 155.4
+        },
+        {
+          "text": ",",
+          "start": 155.4,
+          "end": 155.45
+        },
+        {
+          "text": "JavaScript",
+          "start": 155.45,
+          "end": 156.075
+        },
+        {
+          "text": "Can",
+          "start": 156.075,
+          "end": 156.85
+        },
+        {
+          "text": ")",
+          "start": 156.85,
+          "end": 157.05
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "When to use: Modern React/Vue/Angular apps with custom drag handlers. This is the nuclear option.",
+      "start": 157.37,
+      "end": 164.595,
+      "words": [
+        {
+          "text": "When",
+          "start": 157.62,
+          "end": 157.77
+        },
+        {
+          "text": "to",
+          "start": 157.77,
+          "end": 157.895
+        },
+        {
+          "text": "use",
+          "start": 157.895,
+          "end": 158.37
+        },
+        {
+          "text": ":",
+          "start": 158.37,
+          "end": 158.445
+        },
+        {
+          "text": "Modern",
+          "start": 158.445,
+          "end": 158.745
+        },
+        {
+          "text": "React/Vue/Angular",
+          "start": 158.745,
+          "end": 160.495
+        },
+        {
+          "text": "apps",
+          "start": 160.495,
+          "end": 160.757
+        },
+        {
+          "text": "with",
+          "start": 160.757,
+          "end": 160.87
+        },
+        {
+          "text": "custom",
+          "start": 160.87,
+          "end": 161.245
+        },
+        {
+          "text": "drag",
+          "start": 161.245,
+          "end": 161.495
+        },
+        {
+          "text": "handlers",
+          "start": 161.495,
+          "end": 162.42
+        },
+        {
+          "text": ".",
+          "start": 162.42,
+          "end": 162.533
+        },
+        {
+          "text": "This",
+          "start": 162.533,
+          "end": 162.82
+        },
+        {
+          "text": "is",
+          "start": 162.82,
+          "end": 162.97
+        },
+        {
+          "text": "the",
+          "start": 162.97,
+          "end": 163.07
+        },
+        {
+          "text": "nuclear",
+          "start": 163.07,
+          "end": 163.495
+        },
+        {
+          "text": "option",
+          "start": 163.495,
+          "end": 164.395
+        },
+        {
+          "text": ".",
+          "start": 164.395,
+          "end": 164.595
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "If Selenium's synthetic events don't work, bypass them entirely. Inject JavaScript to dispatch the exact DOM events the framework is listening for.",
+      "start": 164.915,
+      "end": 174.54,
+      "words": [
+        {
+          "text": "If",
+          "start": 165.165,
+          "end": 165.34
+        },
+        {
+          "text": "Selenium's",
+          "start": 165.34,
+          "end": 165.89
+        },
+        {
+          "text": "synthetic",
+          "start": 165.89,
+          "end": 166.415
+        },
+        {
+          "text": "events",
+          "start": 166.415,
+          "end": 166.815
+        },
+        {
+          "text": "don't",
+          "start": 166.815,
+          "end": 167.09
+        },
+        {
+          "text": "work",
+          "start": 167.09,
+          "end": 167.54
+        },
+        {
+          "text": ",",
+          "start": 167.54,
+          "end": 167.64
+        },
+        {
+          "text": "bypass",
+          "start": 167.64,
+          "end": 168.052
+        },
+        {
+          "text": "them",
+          "start": 168.052,
+          "end": 168.19
+        },
+        {
+          "text": "entirely",
+          "start": 168.19,
+          "end": 169.39
+        },
+        {
+          "text": ".",
+          "start": 169.39,
+          "end": 169.528
+        },
+        {
+          "text": "Inject",
+          "start": 169.528,
+          "end": 169.94
+        },
+        {
+          "text": "JavaScript",
+          "start": 169.94,
+          "end": 170.615
+        },
+        {
+          "text": "to",
+          "start": 170.615,
+          "end": 170.703
+        },
+        {
+          "text": "dispatch",
+          "start": 170.703,
+          "end": 171.165
+        },
+        {
+          "text": "the",
+          "start": 171.165,
+          "end": 171.315
+        },
+        {
+          "text": "exact",
+          "start": 171.315,
+          "end": 171.715
+        },
+        {
+          "text": "DOM",
+          "start": 171.715,
+          "end": 171.94
+        },
+        {
+          "text": "events",
+          "start": 171.94,
+          "end": 172.502
+        },
+        {
+          "text": "the",
+          "start": 172.502,
+          "end": 172.615
+        },
+        {
+          "text": "framework",
+          "start": 172.615,
+          "end": 173.078
+        },
+        {
+          "text": "is",
+          "start": 173.078,
+          "end": 173.19
+        },
+        {
+          "text": "listening",
+          "start": 173.19,
+          "end": 173.59
+        },
+        {
+          "text": "for",
+          "start": 173.59,
+          "end": 174.365
+        },
+        {
+          "text": ".",
+          "start": 174.365,
+          "end": 174.54
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "p",
+      "text": "This works because you're firing the exact events the framework is hooked into. The downside? You're no longer testing user actions , you're testing framework assumptions.",
+      "start": 174.86,
+      "end": 184.81,
+      "words": [
+        {
+          "text": "This",
+          "start": 175.11,
+          "end": 175.285
+        },
+        {
+          "text": "works",
+          "start": 175.285,
+          "end": 175.61
+        },
+        {
+          "text": "because",
+          "start": 175.61,
+          "end": 175.86
+        },
+        {
+          "text": "you're",
+          "start": 175.86,
+          "end": 176.072
+        },
+        {
+          "text": "firing",
+          "start": 176.072,
+          "end": 176.498
+        },
+        {
+          "text": "the",
+          "start": 176.498,
+          "end": 176.61
+        },
+        {
+          "text": "exact",
+          "start": 176.61,
+          "end": 177.023
+        },
+        {
+          "text": "events",
+          "start": 177.023,
+          "end": 177.398
+        },
+        {
+          "text": "the",
+          "start": 177.398,
+          "end": 177.485
+        },
+        {
+          "text": "framework",
+          "start": 177.485,
+          "end": 177.947
+        },
+        {
+          "text": "is",
+          "start": 177.947,
+          "end": 178.035
+        },
+        {
+          "text": "hooked",
+          "start": 178.035,
+          "end": 178.273
+        },
+        {
+          "text": "into",
+          "start": 178.273,
+          "end": 179.16
+        },
+        {
+          "text": ".",
+          "start": 179.16,
+          "end": 179.26
+        },
+        {
+          "text": "The",
+          "start": 179.26,
+          "end": 179.36
+        },
+        {
+          "text": "downside",
+          "start": 179.36,
+          "end": 180.335
+        },
+        {
+          "text": "?",
+          "start": 180.335,
+          "end": 180.435
+        },
+        {
+          "text": "You're",
+          "start": 180.435,
+          "end": 180.572
+        },
+        {
+          "text": "no",
+          "start": 180.572,
+          "end": 180.735
+        },
+        {
+          "text": "longer",
+          "start": 180.735,
+          "end": 181.01
+        },
+        {
+          "text": "testing",
+          "start": 181.01,
+          "end": 181.41
+        },
+        {
+          "text": "user",
+          "start": 181.41,
+          "end": 181.685
+        },
+        {
+          "text": "actions",
+          "start": 181.685,
+          "end": 182.31
+        },
+        {
+          "text": ",",
+          "start": 182.31,
+          "end": 182.385
+        },
+        {
+          "text": "you're",
+          "start": 182.385,
+          "end": 182.56
+        },
+        {
+          "text": "testing",
+          "start": 182.56,
+          "end": 182.985
+        },
+        {
+          "text": "framework",
+          "start": 182.985,
+          "end": 183.423
+        },
+        {
+          "text": "assumptions",
+          "start": 183.423,
+          "end": 184.61
+        },
+        {
+          "text": ".",
+          "start": 184.61,
+          "end": 184.81
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "h3",
+      "text": "Method 4: Try Native, Fall Back to JavaScript (Smart Pattern)",
+      "start": 185.13,
+      "end": 189.655,
+      "words": [
+        {
+          "text": "Method",
+          "start": 185.38,
+          "end": 185.68
+        },
+        {
+          "text": "4",
+          "start": 185.68,
+          "end": 185.98
+        },
+        {
+          "text": ":",
+          "start": 185.98,
+          "end": 186.03
+        },
+        {
+          "text": "Try",
+          "start": 186.03,
+          "end": 186.28
+        },
+        {
+          "text": "Native",
+          "start": 186.28,
+          "end": 186.705
+        },
+        {
+          "text": ",",
+          "start": 186.705,
+          "end": 186.755
+        },
+        {
+          "text": "Fall",
+          "start": 186.755,
+          "end": 186.98
+        },
+        {
+          "text": "Back",
+          "start": 186.98,
+          "end": 187.205
+        },
+        {
+          "text": "to",
+          "start": 187.205,
+          "end": 187.305
+        },
+        {
+          "text": "JavaScript",
+          "start": 187.305,
+          "end": 188.092
+        },
+        {
+          "text": "(",
+          "start": 188.092,
+          "end": 188.18
+        },
+        {
+          "text": "Smart",
+          "start": 188.18,
+          "end": 188.555
+        },
+        {
+          "text": "Pattern",
+          "start": 188.555,
+          "end": 189.455
+        },
+        {
+          "text": ")",
+          "start": 189.455,
+          "end": 189.655
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "p",
+      "text": "When to use: You want to test real user behavior when possible, but need a safety net.",
+      "start": 189.975,
+      "end": 195.85,
+      "words": [
+        {
+          "text": "When",
+          "start": 190.225,
+          "end": 190.425
+        },
+        {
+          "text": "to",
+          "start": 190.425,
+          "end": 190.55
+        },
+        {
+          "text": "use",
+          "start": 190.55,
+          "end": 191.125
+        },
+        {
+          "text": ":",
+          "start": 191.125,
+          "end": 191.2
+        },
+        {
+          "text": "You",
+          "start": 191.2,
+          "end": 191.337
+        },
+        {
+          "text": "want",
+          "start": 191.337,
+          "end": 191.487
+        },
+        {
+          "text": "to",
+          "start": 191.487,
+          "end": 191.575
+        },
+        {
+          "text": "test",
+          "start": 191.575,
+          "end": 191.9
+        },
+        {
+          "text": "real",
+          "start": 191.9,
+          "end": 192.175
+        },
+        {
+          "text": "user",
+          "start": 192.175,
+          "end": 192.45
+        },
+        {
+          "text": "behavior",
+          "start": 192.45,
+          "end": 192.962
+        },
+        {
+          "text": "when",
+          "start": 192.962,
+          "end": 193.125
+        },
+        {
+          "text": "possible",
+          "start": 193.125,
+          "end": 193.875
+        },
+        {
+          "text": ",",
+          "start": 193.875,
+          "end": 193.95
+        },
+        {
+          "text": "but",
+          "start": 193.95,
+          "end": 194.1
+        },
+        {
+          "text": "need",
+          "start": 194.1,
+          "end": 194.313
+        },
+        {
+          "text": "a",
+          "start": 194.313,
+          "end": 194.4
+        },
+        {
+          "text": "safety",
+          "start": 194.4,
+          "end": 194.825
+        },
+        {
+          "text": "net",
+          "start": 194.825,
+          "end": 195.65
+        },
+        {
+          "text": ".",
+          "start": 195.65,
+          "end": 195.85
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "This is the pattern I use in production: try the realistic way first, fall back to the workaround if needed. It's defensive coding for flaky scenarios.",
+      "start": 196.17,
+      "end": 205.77,
+      "words": [
+        {
+          "text": "This",
+          "start": 196.42,
+          "end": 196.62
+        },
+        {
+          "text": "is",
+          "start": 196.62,
+          "end": 196.758
+        },
+        {
+          "text": "the",
+          "start": 196.758,
+          "end": 196.845
+        },
+        {
+          "text": "pattern",
+          "start": 196.845,
+          "end": 197.245
+        },
+        {
+          "text": "I",
+          "start": 197.245,
+          "end": 197.395
+        },
+        {
+          "text": "use",
+          "start": 197.395,
+          "end": 197.583
+        },
+        {
+          "text": "in",
+          "start": 197.583,
+          "end": 197.67
+        },
+        {
+          "text": "production",
+          "start": 197.67,
+          "end": 198.57
+        },
+        {
+          "text": ":",
+          "start": 198.57,
+          "end": 198.683
+        },
+        {
+          "text": "try",
+          "start": 198.683,
+          "end": 198.97
+        },
+        {
+          "text": "the",
+          "start": 198.97,
+          "end": 199.07
+        },
+        {
+          "text": "realistic",
+          "start": 199.07,
+          "end": 199.595
+        },
+        {
+          "text": "way",
+          "start": 199.595,
+          "end": 199.808
+        },
+        {
+          "text": "first",
+          "start": 199.808,
+          "end": 200.345
+        },
+        {
+          "text": ",",
+          "start": 200.345,
+          "end": 200.42
+        },
+        {
+          "text": "fall",
+          "start": 200.42,
+          "end": 200.645
+        },
+        {
+          "text": "back",
+          "start": 200.645,
+          "end": 200.895
+        },
+        {
+          "text": "to",
+          "start": 200.895,
+          "end": 200.983
+        },
+        {
+          "text": "the",
+          "start": 200.983,
+          "end": 201.07
+        },
+        {
+          "text": "workaround",
+          "start": 201.07,
+          "end": 201.57
+        },
+        {
+          "text": "if",
+          "start": 201.57,
+          "end": 201.72
+        },
+        {
+          "text": "needed",
+          "start": 201.72,
+          "end": 202.52
+        },
+        {
+          "text": ".",
+          "start": 202.52,
+          "end": 202.62
+        },
+        {
+          "text": "It's",
+          "start": 202.62,
+          "end": 202.87
+        },
+        {
+          "text": "defensive",
+          "start": 202.87,
+          "end": 203.42
+        },
+        {
+          "text": "coding",
+          "start": 203.42,
+          "end": 203.845
+        },
+        {
+          "text": "for",
+          "start": 203.845,
+          "end": 203.97
+        },
+        {
+          "text": "flaky",
+          "start": 203.97,
+          "end": 204.345
+        },
+        {
+          "text": "scenarios",
+          "start": 204.345,
+          "end": 205.57
+        },
+        {
+          "text": ".",
+          "start": 205.57,
+          "end": 205.77
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "p",
+      "text": "Why this matters? You get test reliability and visibility into whether the app actually supports real drag-and-drop or relies on JavaScript hacks.",
+      "start": 206.09,
+      "end": 215.465,
+      "words": [
+        {
+          "text": "Why",
+          "start": 206.34,
+          "end": 206.54
+        },
+        {
+          "text": "this",
+          "start": 206.54,
+          "end": 206.74
+        },
+        {
+          "text": "matters",
+          "start": 206.74,
+          "end": 207.64
+        },
+        {
+          "text": "?",
+          "start": 207.64,
+          "end": 207.74
+        },
+        {
+          "text": "You",
+          "start": 207.74,
+          "end": 207.878
+        },
+        {
+          "text": "get",
+          "start": 207.878,
+          "end": 208.04
+        },
+        {
+          "text": "test",
+          "start": 208.04,
+          "end": 208.302
+        },
+        {
+          "text": "reliability",
+          "start": 208.302,
+          "end": 209.09
+        },
+        {
+          "text": "and",
+          "start": 209.09,
+          "end": 209.203
+        },
+        {
+          "text": "visibility",
+          "start": 209.203,
+          "end": 209.915
+        },
+        {
+          "text": "into",
+          "start": 209.915,
+          "end": 210.165
+        },
+        {
+          "text": "whether",
+          "start": 210.165,
+          "end": 210.403
+        },
+        {
+          "text": "the",
+          "start": 210.403,
+          "end": 210.54
+        },
+        {
+          "text": "app",
+          "start": 210.54,
+          "end": 210.802
+        },
+        {
+          "text": "actually",
+          "start": 210.802,
+          "end": 211.215
+        },
+        {
+          "text": "supports",
+          "start": 211.215,
+          "end": 211.69
+        },
+        {
+          "text": "real",
+          "start": 211.69,
+          "end": 211.965
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 211.965,
+          "end": 212.94
+        },
+        {
+          "text": "or",
+          "start": 212.94,
+          "end": 213.09
+        },
+        {
+          "text": "relies",
+          "start": 213.09,
+          "end": 213.552
+        },
+        {
+          "text": "on",
+          "start": 213.552,
+          "end": 213.715
+        },
+        {
+          "text": "JavaScript",
+          "start": 213.715,
+          "end": 214.365
+        },
+        {
+          "text": "hacks",
+          "start": 214.365,
+          "end": 215.29
+        },
+        {
+          "text": ".",
+          "start": 215.29,
+          "end": 215.465
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "h3",
+      "text": "Method 5: Raw HTML5 Events (Minimal Event Model)",
+      "start": 215.785,
+      "end": 220.36,
+      "words": [
+        {
+          "text": "Method",
+          "start": 216.035,
+          "end": 216.335
+        },
+        {
+          "text": "5",
+          "start": 216.335,
+          "end": 216.76
+        },
+        {
+          "text": ":",
+          "start": 216.76,
+          "end": 216.835
+        },
+        {
+          "text": "Raw",
+          "start": 216.835,
+          "end": 217.035
+        },
+        {
+          "text": "HTML5",
+          "start": 217.035,
+          "end": 218.073
+        },
+        {
+          "text": "Events",
+          "start": 218.073,
+          "end": 218.622
+        },
+        {
+          "text": "(",
+          "start": 218.622,
+          "end": 218.71
+        },
+        {
+          "text": "Minimal",
+          "start": 218.71,
+          "end": 219.035
+        },
+        {
+          "text": "Event",
+          "start": 219.035,
+          "end": 219.36
+        },
+        {
+          "text": "Model",
+          "start": 219.36,
+          "end": 220.185
+        },
+        {
+          "text": ")",
+          "start": 220.185,
+          "end": 220.36
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "p",
+      "text": "When to use: Lightweight custom handlers that only care about event bubbling, not DataTransfer.",
+      "start": 220.68,
+      "end": 226.805,
+      "words": [
+        {
+          "text": "When",
+          "start": 220.93,
+          "end": 221.13
+        },
+        {
+          "text": "to",
+          "start": 221.13,
+          "end": 221.255
+        },
+        {
+          "text": "use",
+          "start": 221.255,
+          "end": 221.93
+        },
+        {
+          "text": ":",
+          "start": 221.93,
+          "end": 222.042
+        },
+        {
+          "text": "Lightweight",
+          "start": 222.042,
+          "end": 222.455
+        },
+        {
+          "text": "custom",
+          "start": 222.455,
+          "end": 222.805
+        },
+        {
+          "text": "handlers",
+          "start": 222.805,
+          "end": 223.217
+        },
+        {
+          "text": "that",
+          "start": 223.217,
+          "end": 223.33
+        },
+        {
+          "text": "only",
+          "start": 223.33,
+          "end": 223.63
+        },
+        {
+          "text": "care",
+          "start": 223.63,
+          "end": 223.867
+        },
+        {
+          "text": "about",
+          "start": 223.867,
+          "end": 224.155
+        },
+        {
+          "text": "event",
+          "start": 224.155,
+          "end": 224.48
+        },
+        {
+          "text": "bubbling",
+          "start": 224.48,
+          "end": 225.03
+        },
+        {
+          "text": ",",
+          "start": 225.03,
+          "end": 225.105
+        },
+        {
+          "text": "not",
+          "start": 225.105,
+          "end": 225.305
+        },
+        {
+          "text": "DataTransfer",
+          "start": 225.305,
+          "end": 226.63
+        },
+        {
+          "text": ".",
+          "start": 226.63,
+          "end": 226.805
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "p",
+      "text": "Some apps just need to know \"an element was dragged onto me.\" This fires the bare minimum events.",
+      "start": 227.125,
+      "end": 233.25,
+      "words": [
+        {
+          "text": "Some",
+          "start": 227.4,
+          "end": 227.625
+        },
+        {
+          "text": "apps",
+          "start": 227.625,
+          "end": 227.9
+        },
+        {
+          "text": "just",
+          "start": 227.9,
+          "end": 228.1
+        },
+        {
+          "text": "need",
+          "start": 228.1,
+          "end": 228.3
+        },
+        {
+          "text": "to",
+          "start": 228.3,
+          "end": 228.4
+        },
+        {
+          "text": "know",
+          "start": 228.4,
+          "end": 228.725
+        },
+        {
+          "text": "\"",
+          "start": 228.725,
+          "end": 228.775
+        },
+        {
+          "text": "an",
+          "start": 228.775,
+          "end": 228.875
+        },
+        {
+          "text": "element",
+          "start": 228.875,
+          "end": 229.287
+        },
+        {
+          "text": "was",
+          "start": 229.287,
+          "end": 229.425
+        },
+        {
+          "text": "dragged",
+          "start": 229.425,
+          "end": 229.762
+        },
+        {
+          "text": "onto",
+          "start": 229.762,
+          "end": 230.012
+        },
+        {
+          "text": "me",
+          "start": 230.012,
+          "end": 230.6
+        },
+        {
+          "text": ".",
+          "start": 230.6,
+          "end": 230.675
+        },
+        {
+          "text": "\"",
+          "start": 230.675,
+          "end": 230.725
+        },
+        {
+          "text": "This",
+          "start": 230.725,
+          "end": 230.975
+        },
+        {
+          "text": "fires",
+          "start": 230.975,
+          "end": 231.35
+        },
+        {
+          "text": "the",
+          "start": 231.35,
+          "end": 231.45
+        },
+        {
+          "text": "bare",
+          "start": 231.45,
+          "end": 231.725
+        },
+        {
+          "text": "minimum",
+          "start": 231.725,
+          "end": 232.075
+        },
+        {
+          "text": "events",
+          "start": 232.075,
+          "end": 233.05
+        },
+        {
+          "text": ".",
+          "start": 233.05,
+          "end": 233.25
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "p",
+      "text": "Use this only if Method 3 works but Method 5 is faster.",
+      "start": 233.57,
+      "end": 237.845,
+      "words": [
+        {
+          "text": "Use",
+          "start": 233.845,
+          "end": 234.095
+        },
+        {
+          "text": "this",
+          "start": 234.095,
+          "end": 234.295
+        },
+        {
+          "text": "only",
+          "start": 234.295,
+          "end": 234.595
+        },
+        {
+          "text": "if",
+          "start": 234.595,
+          "end": 234.745
+        },
+        {
+          "text": "Method",
+          "start": 234.745,
+          "end": 235.07
+        },
+        {
+          "text": "3",
+          "start": 235.07,
+          "end": 235.295
+        },
+        {
+          "text": "works",
+          "start": 235.295,
+          "end": 235.745
+        },
+        {
+          "text": "but",
+          "start": 235.745,
+          "end": 235.895
+        },
+        {
+          "text": "Method",
+          "start": 235.895,
+          "end": 236.22
+        },
+        {
+          "text": "5",
+          "start": 236.22,
+          "end": 236.532
+        },
+        {
+          "text": "is",
+          "start": 236.532,
+          "end": 236.67
+        },
+        {
+          "text": "faster",
+          "start": 236.67,
+          "end": 237.645
+        },
+        {
+          "text": ".",
+          "start": 237.645,
+          "end": 237.845
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "h3",
+      "text": "Method 6: Coordinate-Based Dragging (When Targets Are Hard to Find)",
+      "start": 238.165,
+      "end": 242.74,
+      "words": [
+        {
+          "text": "Method",
+          "start": 238.415,
+          "end": 238.727
+        },
+        {
+          "text": "6",
+          "start": 238.727,
+          "end": 239.115
+        },
+        {
+          "text": ":",
+          "start": 239.115,
+          "end": 239.165
+        },
+        {
+          "text": "Coordinate-Based",
+          "start": 239.165,
+          "end": 240.015
+        },
+        {
+          "text": "Dragging",
+          "start": 240.015,
+          "end": 240.615
+        },
+        {
+          "text": "(",
+          "start": 240.615,
+          "end": 240.665
+        },
+        {
+          "text": "When",
+          "start": 240.665,
+          "end": 240.815
+        },
+        {
+          "text": "Targets",
+          "start": 240.815,
+          "end": 241.252
+        },
+        {
+          "text": "Are",
+          "start": 241.252,
+          "end": 241.365
+        },
+        {
+          "text": "Hard",
+          "start": 241.365,
+          "end": 241.565
+        },
+        {
+          "text": "to",
+          "start": 241.565,
+          "end": 241.665
+        },
+        {
+          "text": "Find",
+          "start": 241.665,
+          "end": 242.54
+        },
+        {
+          "text": ")",
+          "start": 242.54,
+          "end": 242.74
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "p",
+      "text": "When to use: The drop zone is dynamic or hard to locate. Just move the mouse by X, Y pixels.",
+      "start": 243.06,
+      "end": 249.66,
+      "words": [
+        {
+          "text": "When",
+          "start": 243.31,
+          "end": 243.46
+        },
+        {
+          "text": "to",
+          "start": 243.46,
+          "end": 243.585
+        },
+        {
+          "text": "use",
+          "start": 243.585,
+          "end": 243.96
+        },
+        {
+          "text": ":",
+          "start": 243.96,
+          "end": 244.01
+        },
+        {
+          "text": "The",
+          "start": 244.01,
+          "end": 244.11
+        },
+        {
+          "text": "drop",
+          "start": 244.11,
+          "end": 244.385
+        },
+        {
+          "text": "zone",
+          "start": 244.385,
+          "end": 244.622
+        },
+        {
+          "text": "is",
+          "start": 244.622,
+          "end": 244.76
+        },
+        {
+          "text": "dynamic",
+          "start": 244.76,
+          "end": 245.31
+        },
+        {
+          "text": "or",
+          "start": 245.31,
+          "end": 245.435
+        },
+        {
+          "text": "hard",
+          "start": 245.435,
+          "end": 245.71
+        },
+        {
+          "text": "to",
+          "start": 245.71,
+          "end": 245.797
+        },
+        {
+          "text": "locate",
+          "start": 245.797,
+          "end": 246.685
+        },
+        {
+          "text": ".",
+          "start": 246.685,
+          "end": 246.798
+        },
+        {
+          "text": "Just",
+          "start": 246.798,
+          "end": 247.035
+        },
+        {
+          "text": "move",
+          "start": 247.035,
+          "end": 247.222
+        },
+        {
+          "text": "the",
+          "start": 247.222,
+          "end": 247.31
+        },
+        {
+          "text": "mouse",
+          "start": 247.31,
+          "end": 247.61
+        },
+        {
+          "text": "by",
+          "start": 247.61,
+          "end": 247.822
+        },
+        {
+          "text": "X",
+          "start": 247.822,
+          "end": 248.135
+        },
+        {
+          "text": ",",
+          "start": 248.135,
+          "end": 248.185
+        },
+        {
+          "text": "Y",
+          "start": 248.185,
+          "end": 248.385
+        },
+        {
+          "text": "pixels",
+          "start": 248.385,
+          "end": 249.46
+        },
+        {
+          "text": ".",
+          "start": 249.46,
+          "end": 249.66
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "p",
+      "text": "Sometimes you don't know where the target element is. This one just says \"hold the source and move 100 pixels right, 200 pixels down.\" Crude, but it works when targeting is the problem.",
+      "start": 249.98,
+      "end": 261.705,
+      "words": [
+        {
+          "text": "Sometimes",
+          "start": 250.255,
+          "end": 250.742
+        },
+        {
+          "text": "you",
+          "start": 250.742,
+          "end": 250.843
+        },
+        {
+          "text": "don't",
+          "start": 250.843,
+          "end": 251.055
+        },
+        {
+          "text": "know",
+          "start": 251.055,
+          "end": 251.255
+        },
+        {
+          "text": "where",
+          "start": 251.255,
+          "end": 251.392
+        },
+        {
+          "text": "the",
+          "start": 251.392,
+          "end": 251.48
+        },
+        {
+          "text": "target",
+          "start": 251.48,
+          "end": 251.88
+        },
+        {
+          "text": "element",
+          "start": 251.88,
+          "end": 252.317
+        },
+        {
+          "text": "is",
+          "start": 252.317,
+          "end": 253.005
+        },
+        {
+          "text": ".",
+          "start": 253.005,
+          "end": 253.08
+        },
+        {
+          "text": "This",
+          "start": 253.08,
+          "end": 253.28
+        },
+        {
+          "text": "one",
+          "start": 253.28,
+          "end": 253.505
+        },
+        {
+          "text": "just",
+          "start": 253.505,
+          "end": 253.705
+        },
+        {
+          "text": "says",
+          "start": 253.705,
+          "end": 254.155
+        },
+        {
+          "text": "\"",
+          "start": 254.155,
+          "end": 254.205
+        },
+        {
+          "text": "hold",
+          "start": 254.205,
+          "end": 254.417
+        },
+        {
+          "text": "the",
+          "start": 254.417,
+          "end": 254.517
+        },
+        {
+          "text": "source",
+          "start": 254.517,
+          "end": 254.905
+        },
+        {
+          "text": "and",
+          "start": 254.905,
+          "end": 255.03
+        },
+        {
+          "text": "move",
+          "start": 255.03,
+          "end": 255.255
+        },
+        {
+          "text": "100",
+          "start": 255.255,
+          "end": 255.73
+        },
+        {
+          "text": "pixels",
+          "start": 255.73,
+          "end": 256.155
+        },
+        {
+          "text": "right",
+          "start": 256.155,
+          "end": 256.555
+        },
+        {
+          "text": ",",
+          "start": 256.555,
+          "end": 256.63
+        },
+        {
+          "text": "200",
+          "start": 256.63,
+          "end": 257.055
+        },
+        {
+          "text": "pixels",
+          "start": 257.055,
+          "end": 257.48
+        },
+        {
+          "text": "down",
+          "start": 257.48,
+          "end": 258.43
+        },
+        {
+          "text": ".",
+          "start": 258.43,
+          "end": 258.555
+        },
+        {
+          "text": "\"",
+          "start": 258.555,
+          "end": 258.618
+        },
+        {
+          "text": "Crude",
+          "start": 258.618,
+          "end": 259.105
+        },
+        {
+          "text": ",",
+          "start": 259.105,
+          "end": 259.18
+        },
+        {
+          "text": "but",
+          "start": 259.18,
+          "end": 259.317
+        },
+        {
+          "text": "it",
+          "start": 259.317,
+          "end": 259.405
+        },
+        {
+          "text": "works",
+          "start": 259.405,
+          "end": 259.718
+        },
+        {
+          "text": "when",
+          "start": 259.718,
+          "end": 259.88
+        },
+        {
+          "text": "targeting",
+          "start": 259.88,
+          "end": 260.417
+        },
+        {
+          "text": "is",
+          "start": 260.417,
+          "end": 260.517
+        },
+        {
+          "text": "the",
+          "start": 260.517,
+          "end": 260.605
+        },
+        {
+          "text": "problem",
+          "start": 260.605,
+          "end": 261.53
+        },
+        {
+          "text": ".",
+          "start": 261.53,
+          "end": 261.705
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "Why use this? When the drop zone doesn't have a stable ID or class. The downside? It's fragile , if the layout changes, the coordinates are wrong.",
+      "start": 262.025,
+      "end": 270.825,
+      "words": [
+        {
+          "text": "Why",
+          "start": 262.275,
+          "end": 262.425
+        },
+        {
+          "text": "use",
+          "start": 262.425,
+          "end": 262.65
+        },
+        {
+          "text": "this",
+          "start": 262.65,
+          "end": 262.95
+        },
+        {
+          "text": "?",
+          "start": 262.95,
+          "end": 263.025
+        },
+        {
+          "text": "When",
+          "start": 263.025,
+          "end": 263.162
+        },
+        {
+          "text": "the",
+          "start": 263.162,
+          "end": 263.25
+        },
+        {
+          "text": "drop",
+          "start": 263.25,
+          "end": 263.525
+        },
+        {
+          "text": "zone",
+          "start": 263.525,
+          "end": 263.8
+        },
+        {
+          "text": "doesn't",
+          "start": 263.8,
+          "end": 264.075
+        },
+        {
+          "text": "have",
+          "start": 264.075,
+          "end": 264.237
+        },
+        {
+          "text": "a",
+          "start": 264.237,
+          "end": 264.3
+        },
+        {
+          "text": "stable",
+          "start": 264.3,
+          "end": 264.75
+        },
+        {
+          "text": "ID",
+          "start": 264.75,
+          "end": 265.15
+        },
+        {
+          "text": "or",
+          "start": 265.15,
+          "end": 265.275
+        },
+        {
+          "text": "class",
+          "start": 265.275,
+          "end": 266.125
+        },
+        {
+          "text": ".",
+          "start": 266.125,
+          "end": 266.225
+        },
+        {
+          "text": "The",
+          "start": 266.225,
+          "end": 266.325
+        },
+        {
+          "text": "downside",
+          "start": 266.325,
+          "end": 267.275
+        },
+        {
+          "text": "?",
+          "start": 267.275,
+          "end": 267.375
+        },
+        {
+          "text": "It's",
+          "start": 267.375,
+          "end": 267.575
+        },
+        {
+          "text": "fragile",
+          "start": 267.575,
+          "end": 267.938
+        },
+        {
+          "text": ",",
+          "start": 267.938,
+          "end": 267.987
+        },
+        {
+          "text": "if",
+          "start": 267.987,
+          "end": 268.087
+        },
+        {
+          "text": "the",
+          "start": 268.087,
+          "end": 268.175
+        },
+        {
+          "text": "layout",
+          "start": 268.175,
+          "end": 268.487
+        },
+        {
+          "text": "changes",
+          "start": 268.487,
+          "end": 269.025
+        },
+        {
+          "text": ",",
+          "start": 269.025,
+          "end": 269.063
+        },
+        {
+          "text": "the",
+          "start": 269.063,
+          "end": 269.15
+        },
+        {
+          "text": "coordinates",
+          "start": 269.15,
+          "end": 269.712
+        },
+        {
+          "text": "are",
+          "start": 269.712,
+          "end": 269.8
+        },
+        {
+          "text": "wrong",
+          "start": 269.8,
+          "end": 270.625
+        },
+        {
+          "text": ".",
+          "start": 270.625,
+          "end": 270.825
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "h3",
+      "text": "Method 7: Using Selenium WebDriver Extensions",
+      "start": 271.145,
+      "end": 275.07,
+      "words": [
+        {
+          "text": "Method",
+          "start": 271.395,
+          "end": 271.72
+        },
+        {
+          "text": "7",
+          "start": 271.72,
+          "end": 272.22
+        },
+        {
+          "text": ":",
+          "start": 272.22,
+          "end": 272.32
+        },
+        {
+          "text": "Using",
+          "start": 272.32,
+          "end": 272.645
+        },
+        {
+          "text": "Selenium",
+          "start": 272.645,
+          "end": 273.145
+        },
+        {
+          "text": "WebDriver",
+          "start": 273.145,
+          "end": 273.745
+        },
+        {
+          "text": "Extensions",
+          "start": 273.745,
+          "end": 275.07
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "p",
+      "text": "There are third-party libraries like Selenium Extensions that offer more advanced actions, including better support for drag-and-drop.",
+      "start": 275.54,
+      "end": 283.59,
+      "words": [
+        {
+          "text": "There",
+          "start": 275.79,
+          "end": 275.915
+        },
+        {
+          "text": "are",
+          "start": 275.915,
+          "end": 276.052
+        },
+        {
+          "text": "third-party",
+          "start": 276.052,
+          "end": 276.715
+        },
+        {
+          "text": "libraries",
+          "start": 276.715,
+          "end": 277.265
+        },
+        {
+          "text": "like",
+          "start": 277.265,
+          "end": 277.49
+        },
+        {
+          "text": "Selenium",
+          "start": 277.49,
+          "end": 278.015
+        },
+        {
+          "text": "Extensions",
+          "start": 278.015,
+          "end": 278.74
+        },
+        {
+          "text": "that",
+          "start": 278.74,
+          "end": 278.865
+        },
+        {
+          "text": "offer",
+          "start": 278.865,
+          "end": 279.165
+        },
+        {
+          "text": "more",
+          "start": 279.165,
+          "end": 279.34
+        },
+        {
+          "text": "advanced",
+          "start": 279.34,
+          "end": 279.815
+        },
+        {
+          "text": "actions",
+          "start": 279.815,
+          "end": 280.69
+        },
+        {
+          "text": ",",
+          "start": 280.69,
+          "end": 280.79
+        },
+        {
+          "text": "including",
+          "start": 280.79,
+          "end": 281.315
+        },
+        {
+          "text": "better",
+          "start": 281.315,
+          "end": 281.59
+        },
+        {
+          "text": "support",
+          "start": 281.59,
+          "end": 282.04
+        },
+        {
+          "text": "for",
+          "start": 282.04,
+          "end": 282.165
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 282.165,
+          "end": 283.39
+        },
+        {
+          "text": ".",
+          "start": 283.39,
+          "end": 283.59
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "h3",
+      "text": "Method 8: Handling Drag and Drop with Waits",
+      "start": 283.91,
+      "end": 287.035,
+      "words": [
+        {
+          "text": "Method",
+          "start": 284.16,
+          "end": 284.485
+        },
+        {
+          "text": "8",
+          "start": 284.485,
+          "end": 284.785
+        },
+        {
+          "text": ":",
+          "start": 284.785,
+          "end": 284.835
+        },
+        {
+          "text": "Handling",
+          "start": 284.835,
+          "end": 285.26
+        },
+        {
+          "text": "Drag",
+          "start": 285.26,
+          "end": 285.598
+        },
+        {
+          "text": "and",
+          "start": 285.598,
+          "end": 285.71
+        },
+        {
+          "text": "Drop",
+          "start": 285.71,
+          "end": 285.973
+        },
+        {
+          "text": "with",
+          "start": 285.973,
+          "end": 286.135
+        },
+        {
+          "text": "Waits",
+          "start": 286.135,
+          "end": 287.035
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "p",
+      "text": "If the action is failing due to timing issues, adding explicit waits can ensure that the elements are ready for interaction.",
+      "start": 287.505,
+      "end": 294.805,
+      "words": [
+        {
+          "text": "If",
+          "start": 287.755,
+          "end": 287.892
+        },
+        {
+          "text": "the",
+          "start": 287.892,
+          "end": 288.03
+        },
+        {
+          "text": "action",
+          "start": 288.03,
+          "end": 288.368
+        },
+        {
+          "text": "is",
+          "start": 288.368,
+          "end": 288.505
+        },
+        {
+          "text": "failing",
+          "start": 288.505,
+          "end": 288.93
+        },
+        {
+          "text": "due",
+          "start": 288.93,
+          "end": 289.105
+        },
+        {
+          "text": "to",
+          "start": 289.105,
+          "end": 289.205
+        },
+        {
+          "text": "timing",
+          "start": 289.205,
+          "end": 289.543
+        },
+        {
+          "text": "issues",
+          "start": 289.543,
+          "end": 290.355
+        },
+        {
+          "text": ",",
+          "start": 290.355,
+          "end": 290.48
+        },
+        {
+          "text": "adding",
+          "start": 290.48,
+          "end": 290.78
+        },
+        {
+          "text": "explicit",
+          "start": 290.78,
+          "end": 291.305
+        },
+        {
+          "text": "waits",
+          "start": 291.305,
+          "end": 291.655
+        },
+        {
+          "text": "can",
+          "start": 291.655,
+          "end": 291.767
+        },
+        {
+          "text": "ensure",
+          "start": 291.767,
+          "end": 292.205
+        },
+        {
+          "text": "that",
+          "start": 292.205,
+          "end": 292.317
+        },
+        {
+          "text": "the",
+          "start": 292.317,
+          "end": 292.455
+        },
+        {
+          "text": "elements",
+          "start": 292.455,
+          "end": 292.955
+        },
+        {
+          "text": "are",
+          "start": 292.955,
+          "end": 293.055
+        },
+        {
+          "text": "ready",
+          "start": 293.055,
+          "end": 293.355
+        },
+        {
+          "text": "for",
+          "start": 293.355,
+          "end": 293.467
+        },
+        {
+          "text": "interaction",
+          "start": 293.467,
+          "end": 294.63
+        },
+        {
+          "text": ".",
+          "start": 294.63,
+          "end": 294.805
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "h2",
+      "text": "Conclusion , Know Your Escape Hatches",
+      "start": 295.125,
+      "end": 297.825,
+      "words": [
+        {
+          "text": "Conclusion",
+          "start": 295.35,
+          "end": 295.988
+        },
+        {
+          "text": ",",
+          "start": 295.988,
+          "end": 296.037
+        },
+        {
+          "text": "Know",
+          "start": 296.037,
+          "end": 296.25
+        },
+        {
+          "text": "Your",
+          "start": 296.25,
+          "end": 296.4
+        },
+        {
+          "text": "Escape",
+          "start": 296.4,
+          "end": 296.8
+        },
+        {
+          "text": "Hatches",
+          "start": 296.8,
+          "end": 297.825
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "Drag-and-drop is the litmus test for a solid test framework. If you can't reliably automate a drag, your tests are fragile. Here's the pattern I use:",
+      "start": 298.27,
+      "end": 307.37,
+      "words": [
+        {
+          "text": "Drag-and-drop",
+          "start": 298.545,
+          "end": 299.245
+        },
+        {
+          "text": "is",
+          "start": 299.245,
+          "end": 299.395
+        },
+        {
+          "text": "the",
+          "start": 299.395,
+          "end": 299.52
+        },
+        {
+          "text": "litmus",
+          "start": 299.52,
+          "end": 299.92
+        },
+        {
+          "text": "test",
+          "start": 299.92,
+          "end": 300.27
+        },
+        {
+          "text": "for",
+          "start": 300.27,
+          "end": 300.383
+        },
+        {
+          "text": "a",
+          "start": 300.383,
+          "end": 300.482
+        },
+        {
+          "text": "solid",
+          "start": 300.482,
+          "end": 300.845
+        },
+        {
+          "text": "test",
+          "start": 300.845,
+          "end": 301.12
+        },
+        {
+          "text": "framework",
+          "start": 301.12,
+          "end": 302.045
+        },
+        {
+          "text": ".",
+          "start": 302.045,
+          "end": 302.145
+        },
+        {
+          "text": "If",
+          "start": 302.145,
+          "end": 302.283
+        },
+        {
+          "text": "you",
+          "start": 302.283,
+          "end": 302.395
+        },
+        {
+          "text": "can't",
+          "start": 302.395,
+          "end": 302.645
+        },
+        {
+          "text": "reliably",
+          "start": 302.645,
+          "end": 303.145
+        },
+        {
+          "text": "automate",
+          "start": 303.145,
+          "end": 303.557
+        },
+        {
+          "text": "a",
+          "start": 303.557,
+          "end": 303.62
+        },
+        {
+          "text": "drag",
+          "start": 303.62,
+          "end": 303.97
+        },
+        {
+          "text": ",",
+          "start": 303.97,
+          "end": 304.02
+        },
+        {
+          "text": "your",
+          "start": 304.02,
+          "end": 304.145
+        },
+        {
+          "text": "tests",
+          "start": 304.145,
+          "end": 304.482
+        },
+        {
+          "text": "are",
+          "start": 304.482,
+          "end": 304.57
+        },
+        {
+          "text": "fragile",
+          "start": 304.57,
+          "end": 305.32
+        },
+        {
+          "text": ".",
+          "start": 305.32,
+          "end": 305.432
+        },
+        {
+          "text": "Here's",
+          "start": 305.432,
+          "end": 305.745
+        },
+        {
+          "text": "the",
+          "start": 305.745,
+          "end": 305.845
+        },
+        {
+          "text": "pattern",
+          "start": 305.845,
+          "end": 306.17
+        },
+        {
+          "text": "I",
+          "start": 306.17,
+          "end": 306.32
+        },
+        {
+          "text": "use",
+          "start": 306.32,
+          "end": 307.17
+        },
+        {
+          "text": ":",
+          "start": 307.17,
+          "end": 307.37
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "li",
+      "text": "Try native first (Method 1) , proves the browser supports it.",
+      "start": 307.69,
+      "end": 312.015,
+      "words": [
+        {
+          "text": "Try",
+          "start": 307.94,
+          "end": 308.19
+        },
+        {
+          "text": "native",
+          "start": 308.19,
+          "end": 308.565
+        },
+        {
+          "text": "first",
+          "start": 308.565,
+          "end": 308.977
+        },
+        {
+          "text": "(",
+          "start": 308.977,
+          "end": 309.015
+        },
+        {
+          "text": "Method",
+          "start": 309.015,
+          "end": 309.315
+        },
+        {
+          "text": "1",
+          "start": 309.315,
+          "end": 309.69
+        },
+        {
+          "text": ")",
+          "start": 309.69,
+          "end": 309.777
+        },
+        {
+          "text": ",",
+          "start": 309.777,
+          "end": 309.84
+        },
+        {
+          "text": "proves",
+          "start": 309.84,
+          "end": 310.203
+        },
+        {
+          "text": "the",
+          "start": 310.203,
+          "end": 310.29
+        },
+        {
+          "text": "browser",
+          "start": 310.29,
+          "end": 310.715
+        },
+        {
+          "text": "supports",
+          "start": 310.715,
+          "end": 311.177
+        },
+        {
+          "text": "it",
+          "start": 311.177,
+          "end": 311.815
+        },
+        {
+          "text": ".",
+          "start": 311.815,
+          "end": 312.015
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "li",
+      "text": "Fall back to decomposed actions (Method 2) , handles most custom handlers.",
+      "start": 312.335,
+      "end": 317.535,
+      "words": [
+        {
+          "text": "Fall",
+          "start": 312.61,
+          "end": 312.81
+        },
+        {
+          "text": "back",
+          "start": 312.81,
+          "end": 313.06
+        },
+        {
+          "text": "to",
+          "start": 313.06,
+          "end": 313.16
+        },
+        {
+          "text": "decomposed",
+          "start": 313.16,
+          "end": 313.785
+        },
+        {
+          "text": "actions",
+          "start": 313.785,
+          "end": 314.272
+        },
+        {
+          "text": "(",
+          "start": 314.272,
+          "end": 314.335
+        },
+        {
+          "text": "Method",
+          "start": 314.335,
+          "end": 314.647
+        },
+        {
+          "text": "2",
+          "start": 314.647,
+          "end": 315.135
+        },
+        {
+          "text": ")",
+          "start": 315.135,
+          "end": 315.222
+        },
+        {
+          "text": ",",
+          "start": 315.222,
+          "end": 315.285
+        },
+        {
+          "text": "handles",
+          "start": 315.285,
+          "end": 315.71
+        },
+        {
+          "text": "most",
+          "start": 315.71,
+          "end": 315.96
+        },
+        {
+          "text": "custom",
+          "start": 315.96,
+          "end": 316.335
+        },
+        {
+          "text": "handlers",
+          "start": 316.335,
+          "end": 317.335
+        },
+        {
+          "text": ".",
+          "start": 317.335,
+          "end": 317.535
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "li",
+      "text": "Use JavaScript (Method 3 or 4) , final resort when the app doesn't cooperate.",
+      "start": 317.855,
+      "end": 323.43,
+      "words": [
+        {
+          "text": "Use",
+          "start": 318.13,
+          "end": 318.355
+        },
+        {
+          "text": "JavaScript",
+          "start": 318.355,
+          "end": 319.067
+        },
+        {
+          "text": "(",
+          "start": 319.067,
+          "end": 319.13
+        },
+        {
+          "text": "Method",
+          "start": 319.13,
+          "end": 319.468
+        },
+        {
+          "text": "3",
+          "start": 319.468,
+          "end": 319.705
+        },
+        {
+          "text": "or",
+          "start": 319.705,
+          "end": 319.868
+        },
+        {
+          "text": "4",
+          "start": 319.868,
+          "end": 320.43
+        },
+        {
+          "text": ")",
+          "start": 320.43,
+          "end": 320.53
+        },
+        {
+          "text": ",",
+          "start": 320.53,
+          "end": 320.605
+        },
+        {
+          "text": "final",
+          "start": 320.605,
+          "end": 320.98
+        },
+        {
+          "text": "resort",
+          "start": 320.98,
+          "end": 321.368
+        },
+        {
+          "text": "when",
+          "start": 321.368,
+          "end": 321.493
+        },
+        {
+          "text": "the",
+          "start": 321.493,
+          "end": 321.605
+        },
+        {
+          "text": "app",
+          "start": 321.605,
+          "end": 321.83
+        },
+        {
+          "text": "doesn't",
+          "start": 321.83,
+          "end": 322.105
+        },
+        {
+          "text": "cooperate",
+          "start": 322.105,
+          "end": 323.23
+        },
+        {
+          "text": ".",
+          "start": 323.23,
+          "end": 323.43
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "p",
+      "text": "The real lesson? There's no universal solution because there's no universal drag-and-drop implementation. Every framework has opinions. Your job is to find where that specific app's implementation lives and poke it the right way.",
+      "start": 323.75,
+      "end": 337.425,
+      "words": [
+        {
+          "text": "The",
+          "start": 324.0,
+          "end": 324.1
+        },
+        {
+          "text": "real",
+          "start": 324.1,
+          "end": 324.35
+        },
+        {
+          "text": "lesson",
+          "start": 324.35,
+          "end": 325.125
+        },
+        {
+          "text": "?",
+          "start": 325.125,
+          "end": 325.225
+        },
+        {
+          "text": "There's",
+          "start": 325.225,
+          "end": 325.475
+        },
+        {
+          "text": "no",
+          "start": 325.475,
+          "end": 325.675
+        },
+        {
+          "text": "universal",
+          "start": 325.675,
+          "end": 326.275
+        },
+        {
+          "text": "solution",
+          "start": 326.275,
+          "end": 326.75
+        },
+        {
+          "text": "because",
+          "start": 326.75,
+          "end": 327.075
+        },
+        {
+          "text": "there's",
+          "start": 327.075,
+          "end": 327.325
+        },
+        {
+          "text": "no",
+          "start": 327.325,
+          "end": 327.525
+        },
+        {
+          "text": "universal",
+          "start": 327.525,
+          "end": 328.15
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 328.15,
+          "end": 328.812
+        },
+        {
+          "text": "implementation",
+          "start": 328.812,
+          "end": 330.125
+        },
+        {
+          "text": ".",
+          "start": 330.125,
+          "end": 330.262
+        },
+        {
+          "text": "Every",
+          "start": 330.262,
+          "end": 330.587
+        },
+        {
+          "text": "framework",
+          "start": 330.587,
+          "end": 331.05
+        },
+        {
+          "text": "has",
+          "start": 331.05,
+          "end": 331.2
+        },
+        {
+          "text": "opinions",
+          "start": 331.2,
+          "end": 332.2
+        },
+        {
+          "text": ".",
+          "start": 332.2,
+          "end": 332.3
+        },
+        {
+          "text": "Your",
+          "start": 332.3,
+          "end": 332.45
+        },
+        {
+          "text": "job",
+          "start": 332.45,
+          "end": 332.712
+        },
+        {
+          "text": "is",
+          "start": 332.712,
+          "end": 332.85
+        },
+        {
+          "text": "to",
+          "start": 332.85,
+          "end": 332.95
+        },
+        {
+          "text": "find",
+          "start": 332.95,
+          "end": 333.262
+        },
+        {
+          "text": "where",
+          "start": 333.262,
+          "end": 333.412
+        },
+        {
+          "text": "that",
+          "start": 333.412,
+          "end": 333.575
+        },
+        {
+          "text": "specific",
+          "start": 333.575,
+          "end": 334.075
+        },
+        {
+          "text": "app's",
+          "start": 334.075,
+          "end": 334.338
+        },
+        {
+          "text": "implementation",
+          "start": 334.338,
+          "end": 335.15
+        },
+        {
+          "text": "lives",
+          "start": 335.15,
+          "end": 335.613
+        },
+        {
+          "text": "and",
+          "start": 335.613,
+          "end": 335.75
+        },
+        {
+          "text": "poke",
+          "start": 335.75,
+          "end": 335.963
+        },
+        {
+          "text": "it",
+          "start": 335.963,
+          "end": 336.037
+        },
+        {
+          "text": "the",
+          "start": 336.037,
+          "end": 336.125
+        },
+        {
+          "text": "right",
+          "start": 336.125,
+          "end": 336.4
+        },
+        {
+          "text": "way",
+          "start": 336.4,
+          "end": 337.225
+        },
+        {
+          "text": ".",
+          "start": 337.225,
+          "end": 337.425
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "p",
+      "text": "That's why mastering all eight methods matters. You'll be the person who says \"drag-and-drop is broken again?\" and knows exactly which fallback to try next.",
+      "start": 337.745,
+      "end": 346.795,
+      "words": [
+        {
+          "text": "That's",
+          "start": 337.995,
+          "end": 338.207
+        },
+        {
+          "text": "why",
+          "start": 338.207,
+          "end": 338.37
+        },
+        {
+          "text": "mastering",
+          "start": 338.37,
+          "end": 338.92
+        },
+        {
+          "text": "all",
+          "start": 338.92,
+          "end": 339.12
+        },
+        {
+          "text": "eight",
+          "start": 339.12,
+          "end": 339.345
+        },
+        {
+          "text": "methods",
+          "start": 339.345,
+          "end": 339.745
+        },
+        {
+          "text": "matters",
+          "start": 339.745,
+          "end": 340.57
+        },
+        {
+          "text": ".",
+          "start": 340.57,
+          "end": 340.67
+        },
+        {
+          "text": "You'll",
+          "start": 340.67,
+          "end": 340.832
+        },
+        {
+          "text": "be",
+          "start": 340.832,
+          "end": 340.933
+        },
+        {
+          "text": "the",
+          "start": 340.933,
+          "end": 341.02
+        },
+        {
+          "text": "person",
+          "start": 341.02,
+          "end": 341.433
+        },
+        {
+          "text": "who",
+          "start": 341.433,
+          "end": 341.57
+        },
+        {
+          "text": "says",
+          "start": 341.57,
+          "end": 341.858
+        },
+        {
+          "text": "\"",
+          "start": 341.858,
+          "end": 341.895
+        },
+        {
+          "text": "drag-and-drop",
+          "start": 341.895,
+          "end": 342.507
+        },
+        {
+          "text": "is",
+          "start": 342.507,
+          "end": 342.645
+        },
+        {
+          "text": "broken",
+          "start": 342.645,
+          "end": 342.97
+        },
+        {
+          "text": "again",
+          "start": 342.97,
+          "end": 343.645
+        },
+        {
+          "text": "?",
+          "start": 343.645,
+          "end": 343.72
+        },
+        {
+          "text": "\"",
+          "start": 343.72,
+          "end": 343.77
+        },
+        {
+          "text": "and",
+          "start": 343.77,
+          "end": 343.895
+        },
+        {
+          "text": "knows",
+          "start": 343.895,
+          "end": 344.22
+        },
+        {
+          "text": "exactly",
+          "start": 344.22,
+          "end": 344.757
+        },
+        {
+          "text": "which",
+          "start": 344.757,
+          "end": 344.945
+        },
+        {
+          "text": "fallback",
+          "start": 344.945,
+          "end": 345.37
+        },
+        {
+          "text": "to",
+          "start": 345.37,
+          "end": 345.47
+        },
+        {
+          "text": "try",
+          "start": 345.47,
+          "end": 345.72
+        },
+        {
+          "text": "next",
+          "start": 345.72,
+          "end": 346.595
+        },
+        {
+          "text": ".",
+          "start": 346.595,
+          "end": 346.795
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 347.115,
+      "end": 349.315,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 347.39,
+          "end": 347.94
+        },
+        {
+          "text": "and",
+          "start": 347.94,
+          "end": 348.077
+        },
+        {
+          "text": "Further",
+          "start": 348.077,
+          "end": 348.44
+        },
+        {
+          "text": "Reading",
+          "start": 348.44,
+          "end": 349.315
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "li",
+      "text": "Selenium Actions API , drag and drop",
+      "start": 349.76,
+      "end": 352.86,
+      "words": [
+        {
+          "text": "Selenium",
+          "start": 350.035,
+          "end": 350.51
+        },
+        {
+          "text": "Actions",
+          "start": 350.51,
+          "end": 350.972
+        },
+        {
+          "text": "API",
+          "start": 350.972,
+          "end": 351.597
+        },
+        {
+          "text": ",",
+          "start": 351.597,
+          "end": 351.66
+        },
+        {
+          "text": "drag",
+          "start": 351.66,
+          "end": 351.997
+        },
+        {
+          "text": "and",
+          "start": 351.997,
+          "end": 352.11
+        },
+        {
+          "text": "drop",
+          "start": 352.11,
+          "end": 352.86
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "li",
+      "text": "HTML5 Drag and Drop API , MDN",
+      "start": 353.38,
+      "end": 356.955,
+      "words": [
+        {
+          "text": "HTML5",
+          "start": 353.63,
+          "end": 354.605
+        },
+        {
+          "text": "Drag",
+          "start": 354.605,
+          "end": 354.893
+        },
+        {
+          "text": "and",
+          "start": 354.893,
+          "end": 354.992
+        },
+        {
+          "text": "Drop",
+          "start": 354.992,
+          "end": 355.23
+        },
+        {
+          "text": "API",
+          "start": 355.23,
+          "end": 355.88
+        },
+        {
+          "text": ",",
+          "start": 355.88,
+          "end": 355.955
+        },
+        {
+          "text": "MDN",
+          "start": 355.955,
+          "end": 356.955
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "li",
+      "text": "Executing JavaScript , Selenium docs",
+      "start": 357.475,
+      "end": 360.55,
+      "words": [
+        {
+          "text": "Executing",
+          "start": 357.725,
+          "end": 358.35
+        },
+        {
+          "text": "JavaScript",
+          "start": 358.35,
+          "end": 359.125
+        },
+        {
+          "text": ",",
+          "start": 359.125,
+          "end": 359.2
+        },
+        {
+          "text": "Selenium",
+          "start": 359.2,
+          "end": 359.7
+        },
+        {
+          "text": "docs",
+          "start": 359.7,
+          "end": 360.55
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "li",
+      "text": "WebDriver BiDi , input domain",
+      "start": 360.995,
+      "end": 363.77,
+      "words": [
+        {
+          "text": "WebDriver",
+          "start": 361.245,
+          "end": 361.795
+        },
+        {
+          "text": "BiDi",
+          "start": 361.795,
+          "end": 362.395
+        },
+        {
+          "text": ",",
+          "start": 362.395,
+          "end": 362.47
+        },
+        {
+          "text": "input",
+          "start": 362.47,
+          "end": 362.795
+        },
+        {
+          "text": "domain",
+          "start": 362.795,
+          "end": 363.77
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "p",
+      "text": "See also: Selenium in 2026: A Beginner's Guide (Jul 2026) , BiDi native pointer events replacing these JavaScript hacks. · Selenium BiDi vs Playwright CDP (Jul 2026)",
+      "start": 364.24,
+      "end": 379.015,
+      "words": [
+        {
+          "text": "See",
+          "start": 364.54,
+          "end": 364.69
+        },
+        {
+          "text": "also",
+          "start": 364.69,
+          "end": 365.165
+        },
+        {
+          "text": ":",
+          "start": 365.165,
+          "end": 365.252
+        },
+        {
+          "text": "Selenium",
+          "start": 365.252,
+          "end": 365.79
+        },
+        {
+          "text": "in",
+          "start": 365.79,
+          "end": 365.89
+        },
+        {
+          "text": "2026",
+          "start": 365.89,
+          "end": 367.24
+        },
+        {
+          "text": ":",
+          "start": 367.24,
+          "end": 367.34
+        },
+        {
+          "text": "A",
+          "start": 367.34,
+          "end": 367.403
+        },
+        {
+          "text": "Beginner's",
+          "start": 367.403,
+          "end": 367.79
+        },
+        {
+          "text": "Guide",
+          "start": 367.79,
+          "end": 368.328
+        },
+        {
+          "text": "(",
+          "start": 368.328,
+          "end": 368.415
+        },
+        {
+          "text": "Jul",
+          "start": 368.415,
+          "end": 368.615
+        },
+        {
+          "text": "2026",
+          "start": 368.615,
+          "end": 369.865
+        },
+        {
+          "text": ")",
+          "start": 369.865,
+          "end": 369.953
+        },
+        {
+          "text": ",",
+          "start": 369.953,
+          "end": 370.015
+        },
+        {
+          "text": "BiDi",
+          "start": 370.015,
+          "end": 370.465
+        },
+        {
+          "text": "native",
+          "start": 370.465,
+          "end": 370.815
+        },
+        {
+          "text": "pointer",
+          "start": 370.815,
+          "end": 371.19
+        },
+        {
+          "text": "events",
+          "start": 371.19,
+          "end": 371.59
+        },
+        {
+          "text": "replacing",
+          "start": 371.59,
+          "end": 372.115
+        },
+        {
+          "text": "these",
+          "start": 372.115,
+          "end": 372.365
+        },
+        {
+          "text": "JavaScript",
+          "start": 372.365,
+          "end": 373.015
+        },
+        {
+          "text": "hacks",
+          "start": 373.015,
+          "end": 374.065
+        },
+        {
+          "text": ".",
+          "start": 374.065,
+          "end": 374.215
+        },
+        {
+          "text": "Selenium",
+          "start": 374.265,
+          "end": 374.765
+        },
+        {
+          "text": "BiDi",
+          "start": 374.765,
+          "end": 375.277
+        },
+        {
+          "text": "vs",
+          "start": 375.277,
+          "end": 375.69
+        },
+        {
+          "text": "Playwright",
+          "start": 375.69,
+          "end": 376.14
+        },
+        {
+          "text": "CDP",
+          "start": 376.14,
+          "end": 376.99
+        },
+        {
+          "text": "(",
+          "start": 376.99,
+          "end": 377.065
+        },
+        {
+          "text": "Jul",
+          "start": 377.065,
+          "end": 377.315
+        },
+        {
+          "text": "2026",
+          "start": 377.315,
+          "end": 379.015
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}

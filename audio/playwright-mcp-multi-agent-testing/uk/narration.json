@@ -1,0 +1,7495 @@
+{
+  "slug": "playwright-mcp-multi-agent-testing",
+  "voice": "bf_emma",
+  "accent": "uk",
+  "sampleRate": 24000,
+  "duration": 557.095,
+  "contentHash": "7c6673969c7cc29005c8da021fa0e49ffa67f5934015269fce9315367a888a8d",
+  "blocks": [
+    {
+      "index": 0,
+      "kind": "h1",
+      "text": "Playwright MCP + Multi-Agent Testing in 2026: A Beginner's Guide",
+      "start": 0.0,
+      "end": 5.775,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 0.25,
+          "end": 0.65
+        },
+        {
+          "text": "MCP",
+          "start": 0.65,
+          "end": 1.4
+        },
+        {
+          "text": "+",
+          "start": 1.4,
+          "end": 1.675
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 1.675,
+          "end": 2.325
+        },
+        {
+          "text": "Testing",
+          "start": 2.325,
+          "end": 2.775
+        },
+        {
+          "text": "in",
+          "start": 2.775,
+          "end": 2.875
+        },
+        {
+          "text": "2026",
+          "start": 2.875,
+          "end": 4.25
+        },
+        {
+          "text": ":",
+          "start": 4.25,
+          "end": 4.35
+        },
+        {
+          "text": "A",
+          "start": 4.35,
+          "end": 4.425
+        },
+        {
+          "text": "Beginner's",
+          "start": 4.425,
+          "end": 4.9
+        },
+        {
+          "text": "Guide",
+          "start": 4.9,
+          "end": 5.775
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "p",
+      "text": "In the previous guide, you learned how to set up Selenium with MCP and let an AI agent drive your browser. Now we go a step further: Playwright , the browser automation engine that was built for the modern web , plus multi-agent orchestration, where two or more AI agents collaborate on the same test run.",
+      "start": 6.295,
+      "end": 24.82,
+      "words": [
+        {
+          "text": "In",
+          "start": 6.57,
+          "end": 6.657
+        },
+        {
+          "text": "the",
+          "start": 6.657,
+          "end": 6.745
+        },
+        {
+          "text": "previous",
+          "start": 6.745,
+          "end": 7.195
+        },
+        {
+          "text": "guide",
+          "start": 7.195,
+          "end": 7.695
+        },
+        {
+          "text": ",",
+          "start": 7.695,
+          "end": 7.77
+        },
+        {
+          "text": "you",
+          "start": 7.77,
+          "end": 7.895
+        },
+        {
+          "text": "learned",
+          "start": 7.895,
+          "end": 8.12
+        },
+        {
+          "text": "how",
+          "start": 8.12,
+          "end": 8.295
+        },
+        {
+          "text": "to",
+          "start": 8.295,
+          "end": 8.395
+        },
+        {
+          "text": "set",
+          "start": 8.395,
+          "end": 8.582
+        },
+        {
+          "text": "up",
+          "start": 8.582,
+          "end": 8.745
+        },
+        {
+          "text": "Selenium",
+          "start": 8.745,
+          "end": 9.258
+        },
+        {
+          "text": "with",
+          "start": 9.258,
+          "end": 9.383
+        },
+        {
+          "text": "MCP",
+          "start": 9.383,
+          "end": 10.433
+        },
+        {
+          "text": "and",
+          "start": 10.433,
+          "end": 10.57
+        },
+        {
+          "text": "let",
+          "start": 10.57,
+          "end": 10.732
+        },
+        {
+          "text": "an",
+          "start": 10.732,
+          "end": 10.857
+        },
+        {
+          "text": "AI",
+          "start": 10.857,
+          "end": 11.27
+        },
+        {
+          "text": "agent",
+          "start": 11.27,
+          "end": 11.62
+        },
+        {
+          "text": "drive",
+          "start": 11.62,
+          "end": 11.933
+        },
+        {
+          "text": "your",
+          "start": 11.933,
+          "end": 12.045
+        },
+        {
+          "text": "browser",
+          "start": 12.045,
+          "end": 13.17
+        },
+        {
+          "text": ".",
+          "start": 13.17,
+          "end": 13.383
+        },
+        {
+          "text": "Now",
+          "start": 13.383,
+          "end": 13.607
+        },
+        {
+          "text": "we",
+          "start": 13.607,
+          "end": 13.707
+        },
+        {
+          "text": "go",
+          "start": 13.707,
+          "end": 13.832
+        },
+        {
+          "text": "a",
+          "start": 13.832,
+          "end": 13.895
+        },
+        {
+          "text": "step",
+          "start": 13.895,
+          "end": 14.17
+        },
+        {
+          "text": "further",
+          "start": 14.17,
+          "end": 14.895
+        },
+        {
+          "text": ":",
+          "start": 14.895,
+          "end": 15.057
+        },
+        {
+          "text": "Playwright",
+          "start": 15.057,
+          "end": 15.645
+        },
+        {
+          "text": ",",
+          "start": 15.645,
+          "end": 15.707
+        },
+        {
+          "text": "the",
+          "start": 15.707,
+          "end": 15.795
+        },
+        {
+          "text": "browser",
+          "start": 15.795,
+          "end": 16.17
+        },
+        {
+          "text": "automation",
+          "start": 16.17,
+          "end": 16.77
+        },
+        {
+          "text": "engine",
+          "start": 16.77,
+          "end": 17.17
+        },
+        {
+          "text": "that",
+          "start": 17.17,
+          "end": 17.282
+        },
+        {
+          "text": "was",
+          "start": 17.282,
+          "end": 17.42
+        },
+        {
+          "text": "built",
+          "start": 17.42,
+          "end": 17.695
+        },
+        {
+          "text": "for",
+          "start": 17.695,
+          "end": 17.807
+        },
+        {
+          "text": "the",
+          "start": 17.807,
+          "end": 17.895
+        },
+        {
+          "text": "modern",
+          "start": 17.895,
+          "end": 18.22
+        },
+        {
+          "text": "web",
+          "start": 18.22,
+          "end": 18.645
+        },
+        {
+          "text": ",",
+          "start": 18.645,
+          "end": 18.72
+        },
+        {
+          "text": "plus",
+          "start": 18.72,
+          "end": 18.995
+        },
+        {
+          "text": "multi-agent",
+          "start": 18.995,
+          "end": 19.695
+        },
+        {
+          "text": "orchestration",
+          "start": 19.695,
+          "end": 20.82
+        },
+        {
+          "text": ",",
+          "start": 20.82,
+          "end": 20.92
+        },
+        {
+          "text": "where",
+          "start": 20.92,
+          "end": 21.133
+        },
+        {
+          "text": "two",
+          "start": 21.133,
+          "end": 21.395
+        },
+        {
+          "text": "or",
+          "start": 21.395,
+          "end": 21.495
+        },
+        {
+          "text": "more",
+          "start": 21.495,
+          "end": 21.72
+        },
+        {
+          "text": "AI",
+          "start": 21.72,
+          "end": 22.108
+        },
+        {
+          "text": "agents",
+          "start": 22.108,
+          "end": 22.495
+        },
+        {
+          "text": "collaborate",
+          "start": 22.495,
+          "end": 23.057
+        },
+        {
+          "text": "on",
+          "start": 23.057,
+          "end": 23.157
+        },
+        {
+          "text": "the",
+          "start": 23.157,
+          "end": 23.245
+        },
+        {
+          "text": "same",
+          "start": 23.245,
+          "end": 23.545
+        },
+        {
+          "text": "test",
+          "start": 23.545,
+          "end": 23.845
+        },
+        {
+          "text": "run",
+          "start": 23.845,
+          "end": 24.62
+        },
+        {
+          "text": ".",
+          "start": 24.62,
+          "end": 24.82
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "p",
+      "text": "If Selenium + MCP is like handing one expert a remote control, Playwright + multi-agent is like giving a team of experts simultaneous access to the same browser session, each watching a different layer of your app from network calls to visual snapshots to accessibility violations.",
+      "start": 25.14,
+      "end": 42.84,
+      "words": [
+        {
+          "text": "If",
+          "start": 25.39,
+          "end": 25.565
+        },
+        {
+          "text": "Selenium",
+          "start": 25.565,
+          "end": 26.065
+        },
+        {
+          "text": "+",
+          "start": 26.065,
+          "end": 26.428
+        },
+        {
+          "text": "MCP",
+          "start": 26.428,
+          "end": 27.165
+        },
+        {
+          "text": "is",
+          "start": 27.165,
+          "end": 27.277
+        },
+        {
+          "text": "like",
+          "start": 27.277,
+          "end": 27.465
+        },
+        {
+          "text": "handing",
+          "start": 27.465,
+          "end": 27.815
+        },
+        {
+          "text": "one",
+          "start": 27.815,
+          "end": 28.04
+        },
+        {
+          "text": "expert",
+          "start": 28.04,
+          "end": 28.503
+        },
+        {
+          "text": "a",
+          "start": 28.503,
+          "end": 28.565
+        },
+        {
+          "text": "remote",
+          "start": 28.565,
+          "end": 28.915
+        },
+        {
+          "text": "control",
+          "start": 28.915,
+          "end": 29.74
+        },
+        {
+          "text": ",",
+          "start": 29.74,
+          "end": 29.84
+        },
+        {
+          "text": "Playwright",
+          "start": 29.84,
+          "end": 30.215
+        },
+        {
+          "text": "+",
+          "start": 30.215,
+          "end": 30.49
+        },
+        {
+          "text": "multi-agent",
+          "start": 30.49,
+          "end": 31.565
+        },
+        {
+          "text": "is",
+          "start": 31.565,
+          "end": 31.703
+        },
+        {
+          "text": "like",
+          "start": 31.703,
+          "end": 31.89
+        },
+        {
+          "text": "giving",
+          "start": 31.89,
+          "end": 32.127
+        },
+        {
+          "text": "a",
+          "start": 32.127,
+          "end": 32.203
+        },
+        {
+          "text": "team",
+          "start": 32.203,
+          "end": 32.477
+        },
+        {
+          "text": "of",
+          "start": 32.477,
+          "end": 32.565
+        },
+        {
+          "text": "experts",
+          "start": 32.565,
+          "end": 33.065
+        },
+        {
+          "text": "simultaneous",
+          "start": 33.065,
+          "end": 33.715
+        },
+        {
+          "text": "access",
+          "start": 33.715,
+          "end": 34.165
+        },
+        {
+          "text": "to",
+          "start": 34.165,
+          "end": 34.252
+        },
+        {
+          "text": "the",
+          "start": 34.252,
+          "end": 34.34
+        },
+        {
+          "text": "same",
+          "start": 34.34,
+          "end": 34.64
+        },
+        {
+          "text": "browser",
+          "start": 34.64,
+          "end": 35.015
+        },
+        {
+          "text": "session",
+          "start": 35.015,
+          "end": 35.965
+        },
+        {
+          "text": ",",
+          "start": 35.965,
+          "end": 36.09
+        },
+        {
+          "text": "each",
+          "start": 36.09,
+          "end": 36.34
+        },
+        {
+          "text": "watching",
+          "start": 36.34,
+          "end": 36.678
+        },
+        {
+          "text": "a",
+          "start": 36.678,
+          "end": 36.74
+        },
+        {
+          "text": "different",
+          "start": 36.74,
+          "end": 37.04
+        },
+        {
+          "text": "layer",
+          "start": 37.04,
+          "end": 37.328
+        },
+        {
+          "text": "of",
+          "start": 37.328,
+          "end": 37.415
+        },
+        {
+          "text": "your",
+          "start": 37.415,
+          "end": 37.615
+        },
+        {
+          "text": "app",
+          "start": 37.615,
+          "end": 37.865
+        },
+        {
+          "text": "from",
+          "start": 37.865,
+          "end": 38.04
+        },
+        {
+          "text": "network",
+          "start": 38.04,
+          "end": 38.465
+        },
+        {
+          "text": "calls",
+          "start": 38.465,
+          "end": 38.953
+        },
+        {
+          "text": "to",
+          "start": 38.953,
+          "end": 39.09
+        },
+        {
+          "text": "visual",
+          "start": 39.09,
+          "end": 39.44
+        },
+        {
+          "text": "snapshots",
+          "start": 39.44,
+          "end": 40.415
+        },
+        {
+          "text": "to",
+          "start": 40.415,
+          "end": 40.59
+        },
+        {
+          "text": "accessibility",
+          "start": 40.59,
+          "end": 41.365
+        },
+        {
+          "text": "violations",
+          "start": 41.365,
+          "end": 42.665
+        },
+        {
+          "text": ".",
+          "start": 42.665,
+          "end": 42.84
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "p",
+      "text": "This guide picks up where the Selenium post left off. No prior Playwright experience needed.",
+      "start": 43.16,
+      "end": 49.16,
+      "words": [
+        {
+          "text": "This",
+          "start": 43.41,
+          "end": 43.61
+        },
+        {
+          "text": "guide",
+          "start": 43.61,
+          "end": 43.935
+        },
+        {
+          "text": "picks",
+          "start": 43.935,
+          "end": 44.172
+        },
+        {
+          "text": "up",
+          "start": 44.172,
+          "end": 44.372
+        },
+        {
+          "text": "where",
+          "start": 44.372,
+          "end": 44.497
+        },
+        {
+          "text": "the",
+          "start": 44.497,
+          "end": 44.585
+        },
+        {
+          "text": "Selenium",
+          "start": 44.585,
+          "end": 45.085
+        },
+        {
+          "text": "post",
+          "start": 45.085,
+          "end": 45.46
+        },
+        {
+          "text": "left",
+          "start": 45.46,
+          "end": 45.735
+        },
+        {
+          "text": "off",
+          "start": 45.735,
+          "end": 46.41
+        },
+        {
+          "text": ".",
+          "start": 46.41,
+          "end": 46.522
+        },
+        {
+          "text": "No",
+          "start": 46.522,
+          "end": 46.76
+        },
+        {
+          "text": "prior",
+          "start": 46.76,
+          "end": 47.085
+        },
+        {
+          "text": "Playwright",
+          "start": 47.085,
+          "end": 47.485
+        },
+        {
+          "text": "experience",
+          "start": 47.485,
+          "end": 48.135
+        },
+        {
+          "text": "needed",
+          "start": 48.135,
+          "end": 48.96
+        },
+        {
+          "text": ".",
+          "start": 48.96,
+          "end": 49.16
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "h2",
+      "text": "What Makes Playwright Different in 2026",
+      "start": 49.48,
+      "end": 52.63,
+      "words": [
+        {
+          "text": "What",
+          "start": 49.73,
+          "end": 49.868
+        },
+        {
+          "text": "Makes",
+          "start": 49.868,
+          "end": 50.13
+        },
+        {
+          "text": "Playwright",
+          "start": 50.13,
+          "end": 50.53
+        },
+        {
+          "text": "Different",
+          "start": 50.53,
+          "end": 50.955
+        },
+        {
+          "text": "in",
+          "start": 50.955,
+          "end": 51.08
+        },
+        {
+          "text": "2026",
+          "start": 51.08,
+          "end": 52.63
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "p",
+      "text": "Playwright was already faster than Selenium because it talks to the browser directly through the DevTools Protocol , no WebDriver middleman. In 2026, the gap is even wider:",
+      "start": 53.1,
+      "end": 64.45,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 53.35,
+          "end": 53.738
+        },
+        {
+          "text": "was",
+          "start": 53.738,
+          "end": 53.875
+        },
+        {
+          "text": "already",
+          "start": 53.875,
+          "end": 54.212
+        },
+        {
+          "text": "faster",
+          "start": 54.212,
+          "end": 54.65
+        },
+        {
+          "text": "than",
+          "start": 54.65,
+          "end": 54.825
+        },
+        {
+          "text": "Selenium",
+          "start": 54.825,
+          "end": 55.712
+        },
+        {
+          "text": "because",
+          "start": 55.712,
+          "end": 55.988
+        },
+        {
+          "text": "it",
+          "start": 55.988,
+          "end": 56.075
+        },
+        {
+          "text": "talks",
+          "start": 56.075,
+          "end": 56.4
+        },
+        {
+          "text": "to",
+          "start": 56.4,
+          "end": 56.488
+        },
+        {
+          "text": "the",
+          "start": 56.488,
+          "end": 56.575
+        },
+        {
+          "text": "browser",
+          "start": 56.575,
+          "end": 57.0
+        },
+        {
+          "text": "directly",
+          "start": 57.0,
+          "end": 57.525
+        },
+        {
+          "text": "through",
+          "start": 57.525,
+          "end": 57.712
+        },
+        {
+          "text": "the",
+          "start": 57.712,
+          "end": 57.8
+        },
+        {
+          "text": "DevTools",
+          "start": 57.8,
+          "end": 58.375
+        },
+        {
+          "text": "Protocol",
+          "start": 58.375,
+          "end": 59.163
+        },
+        {
+          "text": ",",
+          "start": 59.163,
+          "end": 59.25
+        },
+        {
+          "text": "no",
+          "start": 59.25,
+          "end": 59.45
+        },
+        {
+          "text": "WebDriver",
+          "start": 59.45,
+          "end": 60.0
+        },
+        {
+          "text": "middleman",
+          "start": 60.0,
+          "end": 61.1
+        },
+        {
+          "text": ".",
+          "start": 61.1,
+          "end": 61.262
+        },
+        {
+          "text": "In",
+          "start": 61.262,
+          "end": 61.4
+        },
+        {
+          "text": "2026",
+          "start": 61.4,
+          "end": 62.525
+        },
+        {
+          "text": ",",
+          "start": 62.525,
+          "end": 62.6
+        },
+        {
+          "text": "the",
+          "start": 62.6,
+          "end": 62.7
+        },
+        {
+          "text": "gap",
+          "start": 62.7,
+          "end": 62.988
+        },
+        {
+          "text": "is",
+          "start": 62.988,
+          "end": 63.1
+        },
+        {
+          "text": "even",
+          "start": 63.1,
+          "end": 63.4
+        },
+        {
+          "text": "wider",
+          "start": 63.4,
+          "end": 64.25
+        },
+        {
+          "text": ":",
+          "start": 64.25,
+          "end": 64.45
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "p",
+      "text": "The biggest beginner win: Playwright auto-waits. You never write Thread.Sleep(3000) or WebDriverWait. The engine pauses until the element is ready , clickable, visible, stable , and only then proceeds.",
+      "start": 64.77,
+      "end": 76.995,
+      "words": [
+        {
+          "text": "The",
+          "start": 65.02,
+          "end": 65.095
+        },
+        {
+          "text": "biggest",
+          "start": 65.095,
+          "end": 65.42
+        },
+        {
+          "text": "beginner",
+          "start": 65.42,
+          "end": 65.745
+        },
+        {
+          "text": "win",
+          "start": 65.745,
+          "end": 66.17
+        },
+        {
+          "text": ":",
+          "start": 66.17,
+          "end": 66.27
+        },
+        {
+          "text": "Playwright",
+          "start": 66.27,
+          "end": 66.695
+        },
+        {
+          "text": "auto-waits",
+          "start": 66.695,
+          "end": 67.495
+        },
+        {
+          "text": ".",
+          "start": 67.495,
+          "end": 67.57
+        },
+        {
+          "text": "You",
+          "start": 67.57,
+          "end": 67.707
+        },
+        {
+          "text": "never",
+          "start": 67.707,
+          "end": 67.92
+        },
+        {
+          "text": "write",
+          "start": 67.92,
+          "end": 68.145
+        },
+        {
+          "text": "Thread",
+          "start": 68.145,
+          "end": 68.395
+        },
+        {
+          "text": ".",
+          "start": 68.395,
+          "end": 68.495
+        },
+        {
+          "text": "Sleep(3000",
+          "start": 68.495,
+          "end": 69.795
+        },
+        {
+          "text": ")",
+          "start": 69.795,
+          "end": 69.845
+        },
+        {
+          "text": "or",
+          "start": 69.845,
+          "end": 69.97
+        },
+        {
+          "text": "WebDriverWait",
+          "start": 69.97,
+          "end": 71.22
+        },
+        {
+          "text": ".",
+          "start": 71.22,
+          "end": 71.32
+        },
+        {
+          "text": "The",
+          "start": 71.32,
+          "end": 71.47
+        },
+        {
+          "text": "engine",
+          "start": 71.47,
+          "end": 71.845
+        },
+        {
+          "text": "pauses",
+          "start": 71.845,
+          "end": 72.233
+        },
+        {
+          "text": "until",
+          "start": 72.233,
+          "end": 72.457
+        },
+        {
+          "text": "the",
+          "start": 72.457,
+          "end": 72.57
+        },
+        {
+          "text": "element",
+          "start": 72.57,
+          "end": 73.02
+        },
+        {
+          "text": "is",
+          "start": 73.02,
+          "end": 73.183
+        },
+        {
+          "text": "ready",
+          "start": 73.183,
+          "end": 73.533
+        },
+        {
+          "text": ",",
+          "start": 73.533,
+          "end": 73.595
+        },
+        {
+          "text": "clickable",
+          "start": 73.595,
+          "end": 74.045
+        },
+        {
+          "text": ",",
+          "start": 74.045,
+          "end": 74.095
+        },
+        {
+          "text": "visible",
+          "start": 74.095,
+          "end": 74.495
+        },
+        {
+          "text": ",",
+          "start": 74.495,
+          "end": 74.545
+        },
+        {
+          "text": "stable",
+          "start": 74.545,
+          "end": 75.033
+        },
+        {
+          "text": ",",
+          "start": 75.033,
+          "end": 75.082
+        },
+        {
+          "text": "and",
+          "start": 75.082,
+          "end": 75.195
+        },
+        {
+          "text": "only",
+          "start": 75.195,
+          "end": 75.495
+        },
+        {
+          "text": "then",
+          "start": 75.495,
+          "end": 75.72
+        },
+        {
+          "text": "proceeds",
+          "start": 75.72,
+          "end": 76.795
+        },
+        {
+          "text": ".",
+          "start": 76.795,
+          "end": 76.995
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "h2",
+      "text": "Architecture Overview",
+      "start": 77.315,
+      "end": 79.165,
+      "words": [
+        {
+          "text": "Architecture",
+          "start": 77.565,
+          "end": 78.228
+        },
+        {
+          "text": "Overview",
+          "start": 78.228,
+          "end": 79.165
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "p",
+      "text": "Here's how the pieces fit together when you add MCP and multi-agent orchestration on top of Playwright:",
+      "start": 79.56,
+      "end": 86.36,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 79.81,
+          "end": 80.11
+        },
+        {
+          "text": "how",
+          "start": 80.11,
+          "end": 80.273
+        },
+        {
+          "text": "the",
+          "start": 80.273,
+          "end": 80.36
+        },
+        {
+          "text": "pieces",
+          "start": 80.36,
+          "end": 80.76
+        },
+        {
+          "text": "fit",
+          "start": 80.76,
+          "end": 80.96
+        },
+        {
+          "text": "together",
+          "start": 80.96,
+          "end": 81.66
+        },
+        {
+          "text": "when",
+          "start": 81.66,
+          "end": 81.797
+        },
+        {
+          "text": "you",
+          "start": 81.797,
+          "end": 81.91
+        },
+        {
+          "text": "add",
+          "start": 81.91,
+          "end": 82.172
+        },
+        {
+          "text": "MCP",
+          "start": 82.172,
+          "end": 83.172
+        },
+        {
+          "text": "and",
+          "start": 83.172,
+          "end": 83.31
+        },
+        {
+          "text": "multi-agent",
+          "start": 83.31,
+          "end": 84.01
+        },
+        {
+          "text": "orchestration",
+          "start": 84.01,
+          "end": 84.785
+        },
+        {
+          "text": "on",
+          "start": 84.785,
+          "end": 84.935
+        },
+        {
+          "text": "top",
+          "start": 84.935,
+          "end": 85.122
+        },
+        {
+          "text": "of",
+          "start": 85.122,
+          "end": 85.21
+        },
+        {
+          "text": "Playwright",
+          "start": 85.21,
+          "end": 86.16
+        },
+        {
+          "text": ":",
+          "start": 86.16,
+          "end": 86.36
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "p",
+      "text": "The Supervisor agent delegates to two workers simultaneously: the Playwright MCP server drives the browser while the API Validator watches every network call. If the UI looks right but an API returns an error, you catch it immediately , no separate API test suite needed.",
+      "start": 86.68,
+      "end": 103.955,
+      "words": [
+        {
+          "text": "The",
+          "start": 86.93,
+          "end": 87.005
+        },
+        {
+          "text": "Supervisor",
+          "start": 87.005,
+          "end": 87.542
+        },
+        {
+          "text": "agent",
+          "start": 87.542,
+          "end": 87.905
+        },
+        {
+          "text": "delegates",
+          "start": 87.905,
+          "end": 88.405
+        },
+        {
+          "text": "to",
+          "start": 88.405,
+          "end": 88.53
+        },
+        {
+          "text": "two",
+          "start": 88.53,
+          "end": 88.73
+        },
+        {
+          "text": "workers",
+          "start": 88.73,
+          "end": 89.105
+        },
+        {
+          "text": "simultaneously",
+          "start": 89.105,
+          "end": 90.38
+        },
+        {
+          "text": ":",
+          "start": 90.38,
+          "end": 90.48
+        },
+        {
+          "text": "the",
+          "start": 90.48,
+          "end": 90.58
+        },
+        {
+          "text": "Playwright",
+          "start": 90.58,
+          "end": 91.005
+        },
+        {
+          "text": "MCP",
+          "start": 91.005,
+          "end": 91.605
+        },
+        {
+          "text": "server",
+          "start": 91.605,
+          "end": 91.955
+        },
+        {
+          "text": "drives",
+          "start": 91.955,
+          "end": 92.267
+        },
+        {
+          "text": "the",
+          "start": 92.267,
+          "end": 92.355
+        },
+        {
+          "text": "browser",
+          "start": 92.355,
+          "end": 92.78
+        },
+        {
+          "text": "while",
+          "start": 92.78,
+          "end": 92.943
+        },
+        {
+          "text": "the",
+          "start": 92.943,
+          "end": 93.055
+        },
+        {
+          "text": "API",
+          "start": 93.055,
+          "end": 93.58
+        },
+        {
+          "text": "Validator",
+          "start": 93.58,
+          "end": 94.155
+        },
+        {
+          "text": "watches",
+          "start": 94.155,
+          "end": 94.53
+        },
+        {
+          "text": "every",
+          "start": 94.53,
+          "end": 94.805
+        },
+        {
+          "text": "network",
+          "start": 94.805,
+          "end": 95.23
+        },
+        {
+          "text": "call",
+          "start": 95.23,
+          "end": 96.155
+        },
+        {
+          "text": ".",
+          "start": 96.155,
+          "end": 96.28
+        },
+        {
+          "text": "If",
+          "start": 96.28,
+          "end": 96.43
+        },
+        {
+          "text": "the",
+          "start": 96.43,
+          "end": 96.53
+        },
+        {
+          "text": "UI",
+          "start": 96.53,
+          "end": 96.88
+        },
+        {
+          "text": "looks",
+          "start": 96.88,
+          "end": 97.13
+        },
+        {
+          "text": "right",
+          "start": 97.13,
+          "end": 97.43
+        },
+        {
+          "text": "but",
+          "start": 97.43,
+          "end": 97.568
+        },
+        {
+          "text": "an",
+          "start": 97.568,
+          "end": 97.655
+        },
+        {
+          "text": "API",
+          "start": 97.655,
+          "end": 98.205
+        },
+        {
+          "text": "returns",
+          "start": 98.205,
+          "end": 98.642
+        },
+        {
+          "text": "an",
+          "start": 98.642,
+          "end": 98.73
+        },
+        {
+          "text": "error",
+          "start": 98.73,
+          "end": 99.305
+        },
+        {
+          "text": ",",
+          "start": 99.305,
+          "end": 99.43
+        },
+        {
+          "text": "you",
+          "start": 99.43,
+          "end": 99.555
+        },
+        {
+          "text": "catch",
+          "start": 99.555,
+          "end": 99.842
+        },
+        {
+          "text": "it",
+          "start": 99.842,
+          "end": 99.955
+        },
+        {
+          "text": "immediately",
+          "start": 99.955,
+          "end": 100.868
+        },
+        {
+          "text": ",",
+          "start": 100.868,
+          "end": 100.955
+        },
+        {
+          "text": "no",
+          "start": 100.955,
+          "end": 101.168
+        },
+        {
+          "text": "separate",
+          "start": 101.168,
+          "end": 101.58
+        },
+        {
+          "text": "API",
+          "start": 101.58,
+          "end": 102.118
+        },
+        {
+          "text": "test",
+          "start": 102.118,
+          "end": 102.58
+        },
+        {
+          "text": "suite",
+          "start": 102.58,
+          "end": 102.905
+        },
+        {
+          "text": "needed",
+          "start": 102.905,
+          "end": 103.755
+        },
+        {
+          "text": ".",
+          "start": 103.755,
+          "end": 103.955
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "h2",
+      "text": "Step 1: Install Playwright (60 Seconds)",
+      "start": 104.275,
+      "end": 107.55,
+      "words": [
+        {
+          "text": "Step",
+          "start": 104.525,
+          "end": 104.8
+        },
+        {
+          "text": "1",
+          "start": 104.8,
+          "end": 105.075
+        },
+        {
+          "text": ":",
+          "start": 105.075,
+          "end": 105.125
+        },
+        {
+          "text": "Install",
+          "start": 105.125,
+          "end": 105.575
+        },
+        {
+          "text": "Playwright",
+          "start": 105.575,
+          "end": 106.013
+        },
+        {
+          "text": "(",
+          "start": 106.013,
+          "end": 106.075
+        },
+        {
+          "text": "60",
+          "start": 106.075,
+          "end": 106.4
+        },
+        {
+          "text": "Seconds",
+          "start": 106.4,
+          "end": 107.375
+        },
+        {
+          "text": ")",
+          "start": 107.375,
+          "end": 107.55
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "p",
+      "text": "Playwright bundles its own browser binaries. One command installs everything.",
+      "start": 107.87,
+      "end": 113.22,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 108.12,
+          "end": 108.52
+        },
+        {
+          "text": "bundles",
+          "start": 108.52,
+          "end": 108.945
+        },
+        {
+          "text": "its",
+          "start": 108.945,
+          "end": 109.145
+        },
+        {
+          "text": "own",
+          "start": 109.145,
+          "end": 109.395
+        },
+        {
+          "text": "browser",
+          "start": 109.395,
+          "end": 109.77
+        },
+        {
+          "text": "binaries",
+          "start": 109.77,
+          "end": 110.645
+        },
+        {
+          "text": ".",
+          "start": 110.645,
+          "end": 110.757
+        },
+        {
+          "text": "One",
+          "start": 110.757,
+          "end": 110.995
+        },
+        {
+          "text": "command",
+          "start": 110.995,
+          "end": 111.47
+        },
+        {
+          "text": "installs",
+          "start": 111.47,
+          "end": 112.045
+        },
+        {
+          "text": "everything",
+          "start": 112.045,
+          "end": 113.045
+        },
+        {
+          "text": ".",
+          "start": 113.045,
+          "end": 113.22
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "p",
+      "text": ".NET / C#:",
+      "start": 113.54,
+      "end": 115.59,
+      "words": [
+        {
+          "text": ".NET",
+          "start": 113.815,
+          "end": 114.04
+        },
+        {
+          "text": "/",
+          "start": 114.04,
+          "end": 114.365
+        },
+        {
+          "text": "C#",
+          "start": 114.365,
+          "end": 115.39
+        },
+        {
+          "text": ":",
+          "start": 115.39,
+          "end": 115.59
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "p",
+      "text": "Python:",
+      "start": 115.91,
+      "end": 116.86,
+      "words": [
+        {
+          "text": "Python",
+          "start": 116.135,
+          "end": 116.735
+        },
+        {
+          "text": ":",
+          "start": 116.735,
+          "end": 116.86
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "p",
+      "text": "JavaScript / Node.js:",
+      "start": 117.23,
+      "end": 120.18,
+      "words": [
+        {
+          "text": "JavaScript",
+          "start": 117.48,
+          "end": 118.105
+        },
+        {
+          "text": "/",
+          "start": 118.105,
+          "end": 118.455
+        },
+        {
+          "text": "Node.js",
+          "start": 118.455,
+          "end": 119.955
+        },
+        {
+          "text": ":",
+          "start": 119.955,
+          "end": 120.18
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "p",
+      "text": "That's it. No WebDriver binaries, no PATH configuration, no chromedriver.exe version mismatch. Playwright downloads the exact browser versions it expects into a local cache.",
+      "start": 120.5,
+      "end": 131.6,
+      "words": [
+        {
+          "text": "That's",
+          "start": 120.75,
+          "end": 121.037
+        },
+        {
+          "text": "it",
+          "start": 121.037,
+          "end": 121.25
+        },
+        {
+          "text": ".",
+          "start": 121.25,
+          "end": 121.325
+        },
+        {
+          "text": "No",
+          "start": 121.325,
+          "end": 121.5
+        },
+        {
+          "text": "WebDriver",
+          "start": 121.5,
+          "end": 122.0
+        },
+        {
+          "text": "binaries",
+          "start": 122.0,
+          "end": 122.55
+        },
+        {
+          "text": ",",
+          "start": 122.55,
+          "end": 122.6
+        },
+        {
+          "text": "no",
+          "start": 122.6,
+          "end": 122.775
+        },
+        {
+          "text": "PATH",
+          "start": 122.775,
+          "end": 123.1
+        },
+        {
+          "text": "configuration",
+          "start": 123.1,
+          "end": 123.9
+        },
+        {
+          "text": ",",
+          "start": 123.9,
+          "end": 123.95
+        },
+        {
+          "text": "no",
+          "start": 123.95,
+          "end": 124.125
+        },
+        {
+          "text": "chromedriver.exe",
+          "start": 124.125,
+          "end": 125.65
+        },
+        {
+          "text": "version",
+          "start": 125.65,
+          "end": 126.075
+        },
+        {
+          "text": "mismatch",
+          "start": 126.075,
+          "end": 126.975
+        },
+        {
+          "text": ".",
+          "start": 126.975,
+          "end": 127.138
+        },
+        {
+          "text": "Playwright",
+          "start": 127.138,
+          "end": 127.525
+        },
+        {
+          "text": "downloads",
+          "start": 127.525,
+          "end": 127.987
+        },
+        {
+          "text": "the",
+          "start": 127.987,
+          "end": 128.1
+        },
+        {
+          "text": "exact",
+          "start": 128.1,
+          "end": 128.525
+        },
+        {
+          "text": "browser",
+          "start": 128.525,
+          "end": 128.9
+        },
+        {
+          "text": "versions",
+          "start": 128.9,
+          "end": 129.388
+        },
+        {
+          "text": "it",
+          "start": 129.388,
+          "end": 129.488
+        },
+        {
+          "text": "expects",
+          "start": 129.488,
+          "end": 129.912
+        },
+        {
+          "text": "into",
+          "start": 129.912,
+          "end": 130.113
+        },
+        {
+          "text": "a",
+          "start": 130.113,
+          "end": 130.175
+        },
+        {
+          "text": "local",
+          "start": 130.175,
+          "end": 130.525
+        },
+        {
+          "text": "cache",
+          "start": 130.525,
+          "end": 131.4
+        },
+        {
+          "text": ".",
+          "start": 131.4,
+          "end": 131.6
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "h2",
+      "text": "Step 2: Your First Test , Web-First Assertions",
+      "start": 131.92,
+      "end": 135.245,
+      "words": [
+        {
+          "text": "Step",
+          "start": 132.17,
+          "end": 132.432
+        },
+        {
+          "text": "2",
+          "start": 132.432,
+          "end": 132.695
+        },
+        {
+          "text": ":",
+          "start": 132.695,
+          "end": 132.745
+        },
+        {
+          "text": "Your",
+          "start": 132.745,
+          "end": 132.895
+        },
+        {
+          "text": "First",
+          "start": 132.895,
+          "end": 133.195
+        },
+        {
+          "text": "Test",
+          "start": 133.195,
+          "end": 133.533
+        },
+        {
+          "text": ",",
+          "start": 133.533,
+          "end": 133.595
+        },
+        {
+          "text": "Web-First",
+          "start": 133.595,
+          "end": 134.108
+        },
+        {
+          "text": "Assertions",
+          "start": 134.108,
+          "end": 135.245
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "p",
+      "text": "Create a test file. Here's the C# version (Python and JS versions follow the same pattern):",
+      "start": 135.715,
+      "end": 142.09,
+      "words": [
+        {
+          "text": "Create",
+          "start": 135.965,
+          "end": 136.277
+        },
+        {
+          "text": "a",
+          "start": 136.277,
+          "end": 136.34
+        },
+        {
+          "text": "test",
+          "start": 136.34,
+          "end": 136.64
+        },
+        {
+          "text": "file",
+          "start": 136.64,
+          "end": 137.365
+        },
+        {
+          "text": ".",
+          "start": 137.365,
+          "end": 137.465
+        },
+        {
+          "text": "Here's",
+          "start": 137.465,
+          "end": 137.728
+        },
+        {
+          "text": "the",
+          "start": 137.728,
+          "end": 137.853
+        },
+        {
+          "text": "C#",
+          "start": 137.853,
+          "end": 138.34
+        },
+        {
+          "text": "version",
+          "start": 138.34,
+          "end": 138.84
+        },
+        {
+          "text": "(",
+          "start": 138.84,
+          "end": 138.915
+        },
+        {
+          "text": "Python",
+          "start": 138.915,
+          "end": 139.277
+        },
+        {
+          "text": "and",
+          "start": 139.277,
+          "end": 139.39
+        },
+        {
+          "text": "JS",
+          "start": 139.39,
+          "end": 139.79
+        },
+        {
+          "text": "versions",
+          "start": 139.79,
+          "end": 140.315
+        },
+        {
+          "text": "follow",
+          "start": 140.315,
+          "end": 140.603
+        },
+        {
+          "text": "the",
+          "start": 140.603,
+          "end": 140.69
+        },
+        {
+          "text": "same",
+          "start": 140.69,
+          "end": 140.965
+        },
+        {
+          "text": "pattern",
+          "start": 140.965,
+          "end": 141.89
+        },
+        {
+          "text": ":",
+          "start": 141.89,
+          "end": 142.09
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "p",
+      "text": "Key takeaway: you wrote zero wait logic. FillAsync waited for the element to be visible. Expect auto-retried until the condition was true. This is the Playwright baseline , no flaky tests, no manual timeout tuning.",
+      "start": 142.41,
+      "end": 155.585,
+      "words": [
+        {
+          "text": "Key",
+          "start": 142.66,
+          "end": 142.835
+        },
+        {
+          "text": "takeaway",
+          "start": 142.835,
+          "end": 143.41
+        },
+        {
+          "text": ":",
+          "start": 143.41,
+          "end": 143.485
+        },
+        {
+          "text": "you",
+          "start": 143.485,
+          "end": 143.61
+        },
+        {
+          "text": "wrote",
+          "start": 143.61,
+          "end": 143.885
+        },
+        {
+          "text": "zero",
+          "start": 143.885,
+          "end": 144.235
+        },
+        {
+          "text": "wait",
+          "start": 144.235,
+          "end": 144.485
+        },
+        {
+          "text": "logic",
+          "start": 144.485,
+          "end": 145.285
+        },
+        {
+          "text": ".",
+          "start": 145.285,
+          "end": 145.397
+        },
+        {
+          "text": "FillAsync",
+          "start": 145.397,
+          "end": 145.935
+        },
+        {
+          "text": "waited",
+          "start": 145.935,
+          "end": 146.26
+        },
+        {
+          "text": "for",
+          "start": 146.26,
+          "end": 146.373
+        },
+        {
+          "text": "the",
+          "start": 146.373,
+          "end": 146.485
+        },
+        {
+          "text": "element",
+          "start": 146.485,
+          "end": 146.885
+        },
+        {
+          "text": "to",
+          "start": 146.885,
+          "end": 146.973
+        },
+        {
+          "text": "be",
+          "start": 146.973,
+          "end": 147.085
+        },
+        {
+          "text": "visible",
+          "start": 147.085,
+          "end": 147.835
+        },
+        {
+          "text": ".",
+          "start": 147.835,
+          "end": 147.947
+        },
+        {
+          "text": "Expect",
+          "start": 147.947,
+          "end": 148.435
+        },
+        {
+          "text": "auto-retried",
+          "start": 148.435,
+          "end": 149.173
+        },
+        {
+          "text": "until",
+          "start": 149.173,
+          "end": 149.373
+        },
+        {
+          "text": "the",
+          "start": 149.373,
+          "end": 149.46
+        },
+        {
+          "text": "condition",
+          "start": 149.46,
+          "end": 149.947
+        },
+        {
+          "text": "was",
+          "start": 149.947,
+          "end": 150.123
+        },
+        {
+          "text": "true",
+          "start": 150.123,
+          "end": 150.835
+        },
+        {
+          "text": ".",
+          "start": 150.835,
+          "end": 150.947
+        },
+        {
+          "text": "This",
+          "start": 150.947,
+          "end": 151.21
+        },
+        {
+          "text": "is",
+          "start": 151.21,
+          "end": 151.348
+        },
+        {
+          "text": "the",
+          "start": 151.348,
+          "end": 151.435
+        },
+        {
+          "text": "Playwright",
+          "start": 151.435,
+          "end": 151.835
+        },
+        {
+          "text": "baseline",
+          "start": 151.835,
+          "end": 152.397
+        },
+        {
+          "text": ",",
+          "start": 152.397,
+          "end": 152.447
+        },
+        {
+          "text": "no",
+          "start": 152.447,
+          "end": 152.61
+        },
+        {
+          "text": "flaky",
+          "start": 152.61,
+          "end": 152.985
+        },
+        {
+          "text": "tests",
+          "start": 152.985,
+          "end": 153.46
+        },
+        {
+          "text": ",",
+          "start": 153.46,
+          "end": 153.51
+        },
+        {
+          "text": "no",
+          "start": 153.51,
+          "end": 153.685
+        },
+        {
+          "text": "manual",
+          "start": 153.685,
+          "end": 154.085
+        },
+        {
+          "text": "timeout",
+          "start": 154.085,
+          "end": 154.485
+        },
+        {
+          "text": "tuning",
+          "start": 154.485,
+          "end": 155.385
+        },
+        {
+          "text": ".",
+          "start": 155.385,
+          "end": 155.585
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "h2",
+      "text": "Step 3: Web-First Assertions , Why You Never Write Thread.Sleep Again",
+      "start": 155.905,
+      "end": 160.13,
+      "words": [
+        {
+          "text": "Step",
+          "start": 156.155,
+          "end": 156.405
+        },
+        {
+          "text": "3",
+          "start": 156.405,
+          "end": 156.655
+        },
+        {
+          "text": ":",
+          "start": 156.655,
+          "end": 156.705
+        },
+        {
+          "text": "Web-First",
+          "start": 156.705,
+          "end": 157.217
+        },
+        {
+          "text": "Assertions",
+          "start": 157.217,
+          "end": 157.818
+        },
+        {
+          "text": ",",
+          "start": 157.818,
+          "end": 157.88
+        },
+        {
+          "text": "Why",
+          "start": 157.88,
+          "end": 158.018
+        },
+        {
+          "text": "You",
+          "start": 158.018,
+          "end": 158.143
+        },
+        {
+          "text": "Never",
+          "start": 158.143,
+          "end": 158.355
+        },
+        {
+          "text": "Write",
+          "start": 158.355,
+          "end": 158.58
+        },
+        {
+          "text": "Thread",
+          "start": 158.58,
+          "end": 159.08
+        },
+        {
+          "text": ".",
+          "start": 159.08,
+          "end": 159.205
+        },
+        {
+          "text": "Sleep",
+          "start": 159.205,
+          "end": 159.443
+        },
+        {
+          "text": "Again",
+          "start": 159.443,
+          "end": 160.13
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "p",
+      "text": "In traditional Selenium, you spend 30 percent of your test code on waits:",
+      "start": 160.65,
+      "end": 165.75,
+      "words": [
+        {
+          "text": "In",
+          "start": 160.925,
+          "end": 161.025
+        },
+        {
+          "text": "traditional",
+          "start": 161.025,
+          "end": 161.55
+        },
+        {
+          "text": "Selenium",
+          "start": 161.55,
+          "end": 162.375
+        },
+        {
+          "text": ",",
+          "start": 162.375,
+          "end": 162.475
+        },
+        {
+          "text": "you",
+          "start": 162.475,
+          "end": 162.6
+        },
+        {
+          "text": "spend",
+          "start": 162.6,
+          "end": 162.962
+        },
+        {
+          "text": "30",
+          "start": 162.962,
+          "end": 163.35
+        },
+        {
+          "text": "percent",
+          "start": 163.35,
+          "end": 163.688
+        },
+        {
+          "text": "of",
+          "start": 163.688,
+          "end": 163.762
+        },
+        {
+          "text": "your",
+          "start": 163.762,
+          "end": 163.925
+        },
+        {
+          "text": "test",
+          "start": 163.925,
+          "end": 164.25
+        },
+        {
+          "text": "code",
+          "start": 164.25,
+          "end": 164.512
+        },
+        {
+          "text": "on",
+          "start": 164.512,
+          "end": 164.65
+        },
+        {
+          "text": "waits",
+          "start": 164.65,
+          "end": 165.575
+        },
+        {
+          "text": ":",
+          "start": 165.575,
+          "end": 165.75
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "p",
+      "text": "Playwright's Web-First Assertions have built-in auto-retry. You describe the expected state, and Playwright polls the browser until that state is true (or a 5-second default timeout expires):",
+      "start": 166.07,
+      "end": 177.97,
+      "words": [
+        {
+          "text": "Playwright's",
+          "start": 166.32,
+          "end": 166.745
+        },
+        {
+          "text": "Web-First",
+          "start": 166.745,
+          "end": 167.307
+        },
+        {
+          "text": "Assertions",
+          "start": 167.307,
+          "end": 167.833
+        },
+        {
+          "text": "have",
+          "start": 167.833,
+          "end": 167.945
+        },
+        {
+          "text": "built-in",
+          "start": 167.945,
+          "end": 168.37
+        },
+        {
+          "text": "auto-retry",
+          "start": 168.37,
+          "end": 169.62
+        },
+        {
+          "text": ".",
+          "start": 169.62,
+          "end": 169.745
+        },
+        {
+          "text": "You",
+          "start": 169.745,
+          "end": 169.882
+        },
+        {
+          "text": "describe",
+          "start": 169.882,
+          "end": 170.307
+        },
+        {
+          "text": "the",
+          "start": 170.307,
+          "end": 170.42
+        },
+        {
+          "text": "expected",
+          "start": 170.42,
+          "end": 170.97
+        },
+        {
+          "text": "state",
+          "start": 170.97,
+          "end": 171.62
+        },
+        {
+          "text": ",",
+          "start": 171.62,
+          "end": 171.72
+        },
+        {
+          "text": "and",
+          "start": 171.72,
+          "end": 171.845
+        },
+        {
+          "text": "Playwright",
+          "start": 171.845,
+          "end": 172.245
+        },
+        {
+          "text": "polls",
+          "start": 172.245,
+          "end": 172.607
+        },
+        {
+          "text": "the",
+          "start": 172.607,
+          "end": 172.695
+        },
+        {
+          "text": "browser",
+          "start": 172.695,
+          "end": 173.12
+        },
+        {
+          "text": "until",
+          "start": 173.12,
+          "end": 173.395
+        },
+        {
+          "text": "that",
+          "start": 173.395,
+          "end": 173.62
+        },
+        {
+          "text": "state",
+          "start": 173.62,
+          "end": 173.958
+        },
+        {
+          "text": "is",
+          "start": 173.958,
+          "end": 174.107
+        },
+        {
+          "text": "true",
+          "start": 174.107,
+          "end": 174.783
+        },
+        {
+          "text": "(",
+          "start": 174.783,
+          "end": 174.87
+        },
+        {
+          "text": "or",
+          "start": 174.87,
+          "end": 174.97
+        },
+        {
+          "text": "a",
+          "start": 174.97,
+          "end": 175.082
+        },
+        {
+          "text": "5-second",
+          "start": 175.082,
+          "end": 175.783
+        },
+        {
+          "text": "default",
+          "start": 175.783,
+          "end": 176.17
+        },
+        {
+          "text": "timeout",
+          "start": 176.17,
+          "end": 176.62
+        },
+        {
+          "text": "expires",
+          "start": 176.62,
+          "end": 177.795
+        },
+        {
+          "text": ":",
+          "start": 177.795,
+          "end": 177.97
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "p",
+      "text": "Each assertion polls the browser every about 100ms for up to 5 seconds. If the condition becomes true at 300ms, it passes immediately , no wasted time.",
+      "start": 178.29,
+      "end": 189.29,
+      "words": [
+        {
+          "text": "Each",
+          "start": 178.565,
+          "end": 178.815
+        },
+        {
+          "text": "assertion",
+          "start": 178.815,
+          "end": 179.34
+        },
+        {
+          "text": "polls",
+          "start": 179.34,
+          "end": 179.677
+        },
+        {
+          "text": "the",
+          "start": 179.677,
+          "end": 179.765
+        },
+        {
+          "text": "browser",
+          "start": 179.765,
+          "end": 180.228
+        },
+        {
+          "text": "every",
+          "start": 180.228,
+          "end": 180.565
+        },
+        {
+          "text": "about",
+          "start": 180.565,
+          "end": 180.89
+        },
+        {
+          "text": "100ms",
+          "start": 180.89,
+          "end": 181.865
+        },
+        {
+          "text": "for",
+          "start": 181.865,
+          "end": 181.978
+        },
+        {
+          "text": "up",
+          "start": 181.978,
+          "end": 182.115
+        },
+        {
+          "text": "to",
+          "start": 182.115,
+          "end": 182.215
+        },
+        {
+          "text": "5",
+          "start": 182.215,
+          "end": 182.515
+        },
+        {
+          "text": "seconds",
+          "start": 182.515,
+          "end": 183.515
+        },
+        {
+          "text": ".",
+          "start": 183.515,
+          "end": 183.615
+        },
+        {
+          "text": "If",
+          "start": 183.615,
+          "end": 183.778
+        },
+        {
+          "text": "the",
+          "start": 183.778,
+          "end": 183.865
+        },
+        {
+          "text": "condition",
+          "start": 183.865,
+          "end": 184.34
+        },
+        {
+          "text": "becomes",
+          "start": 184.34,
+          "end": 184.715
+        },
+        {
+          "text": "true",
+          "start": 184.715,
+          "end": 184.94
+        },
+        {
+          "text": "at",
+          "start": 184.94,
+          "end": 185.04
+        },
+        {
+          "text": "300ms",
+          "start": 185.04,
+          "end": 186.365
+        },
+        {
+          "text": ",",
+          "start": 186.365,
+          "end": 186.465
+        },
+        {
+          "text": "it",
+          "start": 186.465,
+          "end": 186.59
+        },
+        {
+          "text": "passes",
+          "start": 186.59,
+          "end": 186.99
+        },
+        {
+          "text": "immediately",
+          "start": 186.99,
+          "end": 187.627
+        },
+        {
+          "text": ",",
+          "start": 187.627,
+          "end": 187.69
+        },
+        {
+          "text": "no",
+          "start": 187.69,
+          "end": 187.865
+        },
+        {
+          "text": "wasted",
+          "start": 187.865,
+          "end": 188.265
+        },
+        {
+          "text": "time",
+          "start": 188.265,
+          "end": 189.115
+        },
+        {
+          "text": ".",
+          "start": 189.115,
+          "end": 189.29
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "h3",
+      "text": "Multi-Language Assertion Patterns",
+      "start": 189.61,
+      "end": 192.26,
+      "words": [
+        {
+          "text": "Multi-Language",
+          "start": 189.86,
+          "end": 190.685
+        },
+        {
+          "text": "Assertion",
+          "start": 190.685,
+          "end": 191.235
+        },
+        {
+          "text": "Patterns",
+          "start": 191.235,
+          "end": 192.26
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "p",
+      "text": "All three follow the same pattern: expect(locator). (expectedValue). The auto-retry logic is identical across languages.",
+      "start": 192.755,
+      "end": 200.98,
+      "words": [
+        {
+          "text": "All",
+          "start": 193.03,
+          "end": 193.242
+        },
+        {
+          "text": "three",
+          "start": 193.242,
+          "end": 193.505
+        },
+        {
+          "text": "follow",
+          "start": 193.505,
+          "end": 193.793
+        },
+        {
+          "text": "the",
+          "start": 193.793,
+          "end": 193.88
+        },
+        {
+          "text": "same",
+          "start": 193.88,
+          "end": 194.155
+        },
+        {
+          "text": "pattern",
+          "start": 194.155,
+          "end": 194.655
+        },
+        {
+          "text": ":",
+          "start": 194.655,
+          "end": 194.768
+        },
+        {
+          "text": "expect(locator",
+          "start": 194.768,
+          "end": 196.155
+        },
+        {
+          "text": ")",
+          "start": 196.155,
+          "end": 196.305
+        },
+        {
+          "text": ".",
+          "start": 196.305,
+          "end": 196.38
+        },
+        {
+          "text": "(",
+          "start": 196.38,
+          "end": 196.455
+        },
+        {
+          "text": "expectedValue",
+          "start": 196.455,
+          "end": 197.405
+        },
+        {
+          "text": ")",
+          "start": 197.405,
+          "end": 197.48
+        },
+        {
+          "text": ".",
+          "start": 197.48,
+          "end": 197.53
+        },
+        {
+          "text": "The",
+          "start": 197.53,
+          "end": 197.68
+        },
+        {
+          "text": "auto-retry",
+          "start": 197.68,
+          "end": 198.33
+        },
+        {
+          "text": "logic",
+          "start": 198.33,
+          "end": 198.68
+        },
+        {
+          "text": "is",
+          "start": 198.68,
+          "end": 198.843
+        },
+        {
+          "text": "identical",
+          "start": 198.843,
+          "end": 199.405
+        },
+        {
+          "text": "across",
+          "start": 199.405,
+          "end": 199.73
+        },
+        {
+          "text": "languages",
+          "start": 199.73,
+          "end": 200.805
+        },
+        {
+          "text": ".",
+          "start": 200.805,
+          "end": 200.98
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "h2",
+      "text": "Step 4: Playwright MCP Server , Let AI Drive the Browser",
+      "start": 201.3,
+      "end": 205.6,
+      "words": [
+        {
+          "text": "Step",
+          "start": 201.55,
+          "end": 201.8
+        },
+        {
+          "text": "4",
+          "start": 201.8,
+          "end": 202.075
+        },
+        {
+          "text": ":",
+          "start": 202.075,
+          "end": 202.125
+        },
+        {
+          "text": "Playwright",
+          "start": 202.125,
+          "end": 202.525
+        },
+        {
+          "text": "MCP",
+          "start": 202.525,
+          "end": 203.125
+        },
+        {
+          "text": "Server",
+          "start": 203.125,
+          "end": 203.625
+        },
+        {
+          "text": ",",
+          "start": 203.625,
+          "end": 203.7
+        },
+        {
+          "text": "Let",
+          "start": 203.7,
+          "end": 203.925
+        },
+        {
+          "text": "AI",
+          "start": 203.925,
+          "end": 204.275
+        },
+        {
+          "text": "Drive",
+          "start": 204.275,
+          "end": 204.563
+        },
+        {
+          "text": "the",
+          "start": 204.563,
+          "end": 204.65
+        },
+        {
+          "text": "Browser",
+          "start": 204.65,
+          "end": 205.6
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "p",
+      "text": "This is the step that makes Playwright feel like the future. MCP (Model Context Protocol) turns your AI agent into a browser operator.",
+      "start": 206.12,
+      "end": 215.32,
+      "words": [
+        {
+          "text": "This",
+          "start": 206.37,
+          "end": 206.545
+        },
+        {
+          "text": "is",
+          "start": 206.545,
+          "end": 206.657
+        },
+        {
+          "text": "the",
+          "start": 206.657,
+          "end": 206.745
+        },
+        {
+          "text": "step",
+          "start": 206.745,
+          "end": 207.058
+        },
+        {
+          "text": "that",
+          "start": 207.058,
+          "end": 207.157
+        },
+        {
+          "text": "makes",
+          "start": 207.157,
+          "end": 207.42
+        },
+        {
+          "text": "Playwright",
+          "start": 207.42,
+          "end": 207.833
+        },
+        {
+          "text": "feel",
+          "start": 207.833,
+          "end": 208.133
+        },
+        {
+          "text": "like",
+          "start": 208.133,
+          "end": 208.308
+        },
+        {
+          "text": "the",
+          "start": 208.308,
+          "end": 208.395
+        },
+        {
+          "text": "future",
+          "start": 208.395,
+          "end": 209.295
+        },
+        {
+          "text": ".",
+          "start": 209.295,
+          "end": 209.458
+        },
+        {
+          "text": "MCP",
+          "start": 209.458,
+          "end": 210.27
+        },
+        {
+          "text": "(",
+          "start": 210.27,
+          "end": 210.345
+        },
+        {
+          "text": "Model",
+          "start": 210.345,
+          "end": 210.645
+        },
+        {
+          "text": "Context",
+          "start": 210.645,
+          "end": 211.17
+        },
+        {
+          "text": "Protocol",
+          "start": 211.17,
+          "end": 211.995
+        },
+        {
+          "text": ")",
+          "start": 211.995,
+          "end": 212.095
+        },
+        {
+          "text": "turns",
+          "start": 212.095,
+          "end": 212.407
+        },
+        {
+          "text": "your",
+          "start": 212.407,
+          "end": 212.607
+        },
+        {
+          "text": "AI",
+          "start": 212.607,
+          "end": 213.032
+        },
+        {
+          "text": "agent",
+          "start": 213.032,
+          "end": 213.407
+        },
+        {
+          "text": "into",
+          "start": 213.407,
+          "end": 213.607
+        },
+        {
+          "text": "a",
+          "start": 213.607,
+          "end": 213.67
+        },
+        {
+          "text": "browser",
+          "start": 213.67,
+          "end": 214.045
+        },
+        {
+          "text": "operator",
+          "start": 214.045,
+          "end": 215.12
+        },
+        {
+          "text": ".",
+          "start": 215.12,
+          "end": 215.32
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "h3",
+      "text": "How Playwright MCP Differs from Selenium MCP",
+      "start": 215.64,
+      "end": 219.415,
+      "words": [
+        {
+          "text": "How",
+          "start": 215.89,
+          "end": 216.04
+        },
+        {
+          "text": "Playwright",
+          "start": 216.04,
+          "end": 216.465
+        },
+        {
+          "text": "MCP",
+          "start": 216.465,
+          "end": 217.065
+        },
+        {
+          "text": "Differs",
+          "start": 217.065,
+          "end": 217.49
+        },
+        {
+          "text": "from",
+          "start": 217.49,
+          "end": 217.69
+        },
+        {
+          "text": "Selenium",
+          "start": 217.69,
+          "end": 218.265
+        },
+        {
+          "text": "MCP",
+          "start": 218.265,
+          "end": 219.415
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "p",
+      "text": "In the Selenium 2026 guide, you set up selenium-mcp , a Python package that translates AI commands into WebDriver calls. Playwright MCP is simpler and faster:",
+      "start": 219.785,
+      "end": 231.86,
+      "words": [
+        {
+          "text": "In",
+          "start": 220.06,
+          "end": 220.147
+        },
+        {
+          "text": "the",
+          "start": 220.147,
+          "end": 220.235
+        },
+        {
+          "text": "Selenium",
+          "start": 220.235,
+          "end": 220.71
+        },
+        {
+          "text": "2026",
+          "start": 220.71,
+          "end": 221.635
+        },
+        {
+          "text": "guide",
+          "start": 221.635,
+          "end": 222.26
+        },
+        {
+          "text": ",",
+          "start": 222.26,
+          "end": 222.36
+        },
+        {
+          "text": "you",
+          "start": 222.36,
+          "end": 222.485
+        },
+        {
+          "text": "set",
+          "start": 222.485,
+          "end": 222.673
+        },
+        {
+          "text": "up",
+          "start": 222.673,
+          "end": 222.835
+        },
+        {
+          "text": "selenium-mcp",
+          "start": 222.835,
+          "end": 224.298
+        },
+        {
+          "text": ",",
+          "start": 224.298,
+          "end": 224.385
+        },
+        {
+          "text": "a",
+          "start": 224.385,
+          "end": 224.46
+        },
+        {
+          "text": "Python",
+          "start": 224.46,
+          "end": 224.835
+        },
+        {
+          "text": "package",
+          "start": 224.835,
+          "end": 225.285
+        },
+        {
+          "text": "that",
+          "start": 225.285,
+          "end": 225.41
+        },
+        {
+          "text": "translates",
+          "start": 225.41,
+          "end": 225.998
+        },
+        {
+          "text": "AI",
+          "start": 225.998,
+          "end": 226.36
+        },
+        {
+          "text": "commands",
+          "start": 226.36,
+          "end": 226.847
+        },
+        {
+          "text": "into",
+          "start": 226.847,
+          "end": 227.06
+        },
+        {
+          "text": "WebDriver",
+          "start": 227.06,
+          "end": 227.56
+        },
+        {
+          "text": "calls",
+          "start": 227.56,
+          "end": 228.56
+        },
+        {
+          "text": ".",
+          "start": 228.56,
+          "end": 228.723
+        },
+        {
+          "text": "Playwright",
+          "start": 228.723,
+          "end": 229.172
+        },
+        {
+          "text": "MCP",
+          "start": 229.172,
+          "end": 229.935
+        },
+        {
+          "text": "is",
+          "start": 229.935,
+          "end": 230.072
+        },
+        {
+          "text": "simpler",
+          "start": 230.072,
+          "end": 230.51
+        },
+        {
+          "text": "and",
+          "start": 230.51,
+          "end": 230.635
+        },
+        {
+          "text": "faster",
+          "start": 230.635,
+          "end": 231.635
+        },
+        {
+          "text": ":",
+          "start": 231.635,
+          "end": 231.86
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "li",
+      "text": "Zero-config install , one npm package, no Python dependency",
+      "start": 232.18,
+      "end": 237.155,
+      "words": [
+        {
+          "text": "Zero-config",
+          "start": 232.455,
+          "end": 233.205
+        },
+        {
+          "text": "install",
+          "start": 233.205,
+          "end": 233.88
+        },
+        {
+          "text": ",",
+          "start": 233.88,
+          "end": 233.955
+        },
+        {
+          "text": "one",
+          "start": 233.955,
+          "end": 234.18
+        },
+        {
+          "text": "npm",
+          "start": 234.18,
+          "end": 234.73
+        },
+        {
+          "text": "package",
+          "start": 234.73,
+          "end": 235.23
+        },
+        {
+          "text": ",",
+          "start": 235.23,
+          "end": 235.305
+        },
+        {
+          "text": "no",
+          "start": 235.305,
+          "end": 235.505
+        },
+        {
+          "text": "Python",
+          "start": 235.505,
+          "end": 235.88
+        },
+        {
+          "text": "dependency",
+          "start": 235.88,
+          "end": 237.155
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "li",
+      "text": "Native CDP , no WebDriver protocol overhead",
+      "start": 237.6,
+      "end": 241.375,
+      "words": [
+        {
+          "text": "Native",
+          "start": 237.875,
+          "end": 238.275
+        },
+        {
+          "text": "CDP",
+          "start": 238.275,
+          "end": 239.15
+        },
+        {
+          "text": ",",
+          "start": 239.15,
+          "end": 239.225
+        },
+        {
+          "text": "no",
+          "start": 239.225,
+          "end": 239.425
+        },
+        {
+          "text": "WebDriver",
+          "start": 239.425,
+          "end": 239.95
+        },
+        {
+          "text": "protocol",
+          "start": 239.95,
+          "end": 240.4
+        },
+        {
+          "text": "overhead",
+          "start": 240.4,
+          "end": 241.375
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "li",
+      "text": "Full Playwright surface , network interception, HAR recording, mobile emulation, visual comparison, all exposed as MCP tools",
+      "start": 241.92,
+      "end": 250.595,
+      "words": [
+        {
+          "text": "Full",
+          "start": 242.195,
+          "end": 242.395
+        },
+        {
+          "text": "Playwright",
+          "start": 242.395,
+          "end": 242.795
+        },
+        {
+          "text": "surface",
+          "start": 242.795,
+          "end": 243.445
+        },
+        {
+          "text": ",",
+          "start": 243.445,
+          "end": 243.52
+        },
+        {
+          "text": "network",
+          "start": 243.52,
+          "end": 243.907
+        },
+        {
+          "text": "interception",
+          "start": 243.907,
+          "end": 244.745
+        },
+        {
+          "text": ",",
+          "start": 244.745,
+          "end": 244.845
+        },
+        {
+          "text": "HAR",
+          "start": 244.845,
+          "end": 245.382
+        },
+        {
+          "text": "recording",
+          "start": 245.382,
+          "end": 245.97
+        },
+        {
+          "text": ",",
+          "start": 245.97,
+          "end": 246.045
+        },
+        {
+          "text": "mobile",
+          "start": 246.045,
+          "end": 246.357
+        },
+        {
+          "text": "emulation",
+          "start": 246.357,
+          "end": 246.97
+        },
+        {
+          "text": ",",
+          "start": 246.97,
+          "end": 247.02
+        },
+        {
+          "text": "visual",
+          "start": 247.02,
+          "end": 247.32
+        },
+        {
+          "text": "comparison",
+          "start": 247.32,
+          "end": 248.045
+        },
+        {
+          "text": ",",
+          "start": 248.045,
+          "end": 248.145
+        },
+        {
+          "text": "all",
+          "start": 248.145,
+          "end": 248.332
+        },
+        {
+          "text": "exposed",
+          "start": 248.332,
+          "end": 248.832
+        },
+        {
+          "text": "as",
+          "start": 248.832,
+          "end": 248.97
+        },
+        {
+          "text": "MCP",
+          "start": 248.97,
+          "end": 249.595
+        },
+        {
+          "text": "tools",
+          "start": 249.595,
+          "end": 250.595
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "kind": "li",
+      "text": "Auto-wait baked in , the AI says \"click the login button\" and Playwright handles timing",
+      "start": 251.04,
+      "end": 256.34,
+      "words": [
+        {
+          "text": "Auto-wait",
+          "start": 251.29,
+          "end": 251.715
+        },
+        {
+          "text": "baked",
+          "start": 251.715,
+          "end": 252.003
+        },
+        {
+          "text": "in",
+          "start": 252.003,
+          "end": 252.153
+        },
+        {
+          "text": ",",
+          "start": 252.153,
+          "end": 252.203
+        },
+        {
+          "text": "the",
+          "start": 252.203,
+          "end": 252.315
+        },
+        {
+          "text": "AI",
+          "start": 252.315,
+          "end": 252.715
+        },
+        {
+          "text": "says",
+          "start": 252.715,
+          "end": 253.09
+        },
+        {
+          "text": "\"",
+          "start": 253.09,
+          "end": 253.14
+        },
+        {
+          "text": "click",
+          "start": 253.14,
+          "end": 253.365
+        },
+        {
+          "text": "the",
+          "start": 253.365,
+          "end": 253.465
+        },
+        {
+          "text": "login",
+          "start": 253.465,
+          "end": 253.79
+        },
+        {
+          "text": "button",
+          "start": 253.79,
+          "end": 254.34
+        },
+        {
+          "text": "\"",
+          "start": 254.34,
+          "end": 254.44
+        },
+        {
+          "text": "and",
+          "start": 254.44,
+          "end": 254.565
+        },
+        {
+          "text": "Playwright",
+          "start": 254.565,
+          "end": 254.94
+        },
+        {
+          "text": "handles",
+          "start": 254.94,
+          "end": 255.365
+        },
+        {
+          "text": "timing",
+          "start": 255.365,
+          "end": 256.34
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "h3",
+      "text": "Setup (3 Minutes)",
+      "start": 256.785,
+      "end": 258.785,
+      "words": [
+        {
+          "text": "Setup",
+          "start": 257.06,
+          "end": 257.473
+        },
+        {
+          "text": "(",
+          "start": 257.473,
+          "end": 257.535
+        },
+        {
+          "text": "3",
+          "start": 257.535,
+          "end": 257.723
+        },
+        {
+          "text": "Minutes",
+          "start": 257.723,
+          "end": 258.61
+        },
+        {
+          "text": ")",
+          "start": 258.61,
+          "end": 258.785
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "p",
+      "text": "1. Install the Playwright MCP server:",
+      "start": 259.105,
+      "end": 262.355,
+      "words": [
+        {
+          "text": "1",
+          "start": 259.355,
+          "end": 259.655
+        },
+        {
+          "text": ".",
+          "start": 259.655,
+          "end": 259.73
+        },
+        {
+          "text": "Install",
+          "start": 259.73,
+          "end": 260.143
+        },
+        {
+          "text": "the",
+          "start": 260.143,
+          "end": 260.23
+        },
+        {
+          "text": "Playwright",
+          "start": 260.23,
+          "end": 260.655
+        },
+        {
+          "text": "MCP",
+          "start": 260.655,
+          "end": 261.305
+        },
+        {
+          "text": "server",
+          "start": 261.305,
+          "end": 262.13
+        },
+        {
+          "text": ":",
+          "start": 262.13,
+          "end": 262.355
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "kind": "p",
+      "text": "2. Register it with Claude Desktop.",
+      "start": 262.675,
+      "end": 265.525,
+      "words": [
+        {
+          "text": "2",
+          "start": 262.925,
+          "end": 263.175
+        },
+        {
+          "text": ".",
+          "start": 263.175,
+          "end": 263.225
+        },
+        {
+          "text": "Register",
+          "start": 263.225,
+          "end": 263.675
+        },
+        {
+          "text": "it",
+          "start": 263.675,
+          "end": 263.788
+        },
+        {
+          "text": "with",
+          "start": 263.788,
+          "end": 263.95
+        },
+        {
+          "text": "Claude",
+          "start": 263.95,
+          "end": 264.25
+        },
+        {
+          "text": "Desktop",
+          "start": 264.25,
+          "end": 265.325
+        },
+        {
+          "text": ".",
+          "start": 265.325,
+          "end": 265.525
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "kind": "p",
+      "text": "Open your Claude Desktop config file:",
+      "start": 265.845,
+      "end": 268.945,
+      "words": [
+        {
+          "text": "Open",
+          "start": 266.095,
+          "end": 266.42
+        },
+        {
+          "text": "your",
+          "start": 266.42,
+          "end": 266.62
+        },
+        {
+          "text": "Claude",
+          "start": 266.62,
+          "end": 266.945
+        },
+        {
+          "text": "Desktop",
+          "start": 266.945,
+          "end": 267.495
+        },
+        {
+          "text": "config",
+          "start": 267.495,
+          "end": 267.92
+        },
+        {
+          "text": "file",
+          "start": 267.92,
+          "end": 268.77
+        },
+        {
+          "text": ":",
+          "start": 268.77,
+          "end": 268.945
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "kind": "li",
+      "text": "Windows: percentAPPDATA percent\\Claude\\claude_desktop_config.json",
+      "start": 269.265,
+      "end": 274.14,
+      "words": [
+        {
+          "text": "Windows",
+          "start": 269.515,
+          "end": 269.99
+        },
+        {
+          "text": ":",
+          "start": 269.99,
+          "end": 270.04
+        },
+        {
+          "text": "percentAPPDATA",
+          "start": 270.04,
+          "end": 271.24
+        },
+        {
+          "text": "percent",
+          "start": 271.24,
+          "end": 271.64
+        },
+        {
+          "text": "Claude",
+          "start": 271.64,
+          "end": 271.89
+        },
+        {
+          "text": "claude",
+          "start": 271.89,
+          "end": 272.165
+        },
+        {
+          "text": "desktop",
+          "start": 272.165,
+          "end": 272.565
+        },
+        {
+          "text": "config",
+          "start": 272.565,
+          "end": 273.04
+        },
+        {
+          "text": ".",
+          "start": 273.04,
+          "end": 273.14
+        },
+        {
+          "text": "json",
+          "start": 273.14,
+          "end": 274.14
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "kind": "li",
+      "text": "macOS: about /Library/Application Support/Claude/claude_desktop_config.json",
+      "start": 274.61,
+      "end": 280.81,
+      "words": [
+        {
+          "text": "macOS",
+          "start": 274.86,
+          "end": 275.435
+        },
+        {
+          "text": ":",
+          "start": 275.435,
+          "end": 275.485
+        },
+        {
+          "text": "about",
+          "start": 275.485,
+          "end": 275.785
+        },
+        {
+          "text": "/Library/Application",
+          "start": 275.785,
+          "end": 276.76
+        },
+        {
+          "text": "Support/Claude/claude_desktop_config.json",
+          "start": 276.76,
+          "end": 280.81
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "kind": "li",
+      "text": "Linux: about /.config/Claude/claude_desktop_config.json",
+      "start": 281.305,
+      "end": 286.055,
+      "words": [
+        {
+          "text": "Linux",
+          "start": 281.58,
+          "end": 281.93
+        },
+        {
+          "text": ":",
+          "start": 281.93,
+          "end": 281.968
+        },
+        {
+          "text": "about",
+          "start": 281.968,
+          "end": 282.243
+        },
+        {
+          "text": ".",
+          "start": 282.243,
+          "end": 282.28
+        },
+        {
+          "text": "config/Claude/claude_desktop_config.json",
+          "start": 282.28,
+          "end": 286.055
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "kind": "p",
+      "text": "Add the Playwright MCP entry:",
+      "start": 286.55,
+      "end": 289.3,
+      "words": [
+        {
+          "text": "Add",
+          "start": 286.8,
+          "end": 286.988
+        },
+        {
+          "text": "the",
+          "start": 286.988,
+          "end": 287.075
+        },
+        {
+          "text": "Playwright",
+          "start": 287.075,
+          "end": 287.538
+        },
+        {
+          "text": "MCP",
+          "start": 287.538,
+          "end": 288.2
+        },
+        {
+          "text": "entry",
+          "start": 288.2,
+          "end": 289.1
+        },
+        {
+          "text": ":",
+          "start": 289.1,
+          "end": 289.3
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "kind": "p",
+      "text": "3. Restart Claude Desktop. You'll see a new tool icon for Playwright.",
+      "start": 289.62,
+      "end": 294.42,
+      "words": [
+        {
+          "text": "3",
+          "start": 289.895,
+          "end": 290.17
+        },
+        {
+          "text": ".",
+          "start": 290.17,
+          "end": 290.22
+        },
+        {
+          "text": "Restart",
+          "start": 290.22,
+          "end": 290.67
+        },
+        {
+          "text": "Claude",
+          "start": 290.67,
+          "end": 290.97
+        },
+        {
+          "text": "Desktop",
+          "start": 290.97,
+          "end": 291.77
+        },
+        {
+          "text": ".",
+          "start": 291.77,
+          "end": 291.87
+        },
+        {
+          "text": "You'll",
+          "start": 291.87,
+          "end": 292.045
+        },
+        {
+          "text": "see",
+          "start": 292.045,
+          "end": 292.183
+        },
+        {
+          "text": "a",
+          "start": 292.183,
+          "end": 292.245
+        },
+        {
+          "text": "new",
+          "start": 292.245,
+          "end": 292.42
+        },
+        {
+          "text": "tool",
+          "start": 292.42,
+          "end": 292.695
+        },
+        {
+          "text": "icon",
+          "start": 292.695,
+          "end": 293.145
+        },
+        {
+          "text": "for",
+          "start": 293.145,
+          "end": 293.27
+        },
+        {
+          "text": "Playwright",
+          "start": 293.27,
+          "end": 294.22
+        },
+        {
+          "text": ".",
+          "start": 294.22,
+          "end": 294.42
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "kind": "p",
+      "text": "4. Start talking to your browser:",
+      "start": 294.74,
+      "end": 297.49,
+      "words": [
+        {
+          "text": "4",
+          "start": 295.015,
+          "end": 295.29
+        },
+        {
+          "text": ".",
+          "start": 295.29,
+          "end": 295.34
+        },
+        {
+          "text": "Start",
+          "start": 295.34,
+          "end": 295.69
+        },
+        {
+          "text": "talking",
+          "start": 295.69,
+          "end": 296.09
+        },
+        {
+          "text": "to",
+          "start": 296.09,
+          "end": 296.178
+        },
+        {
+          "text": "your",
+          "start": 296.178,
+          "end": 296.34
+        },
+        {
+          "text": "browser",
+          "start": 296.34,
+          "end": 297.265
+        },
+        {
+          "text": ":",
+          "start": 297.265,
+          "end": 297.49
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "kind": "h3",
+      "text": "What the Playwright MCP Server Exposes",
+      "start": 297.81,
+      "end": 300.96,
+      "words": [
+        {
+          "text": "What",
+          "start": 298.035,
+          "end": 298.198
+        },
+        {
+          "text": "the",
+          "start": 298.198,
+          "end": 298.285
+        },
+        {
+          "text": "Playwright",
+          "start": 298.285,
+          "end": 298.71
+        },
+        {
+          "text": "MCP",
+          "start": 298.71,
+          "end": 299.36
+        },
+        {
+          "text": "Server",
+          "start": 299.36,
+          "end": 299.71
+        },
+        {
+          "text": "Exposes",
+          "start": 299.71,
+          "end": 300.96
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "kind": "p",
+      "text": "The AI agent can call these tools directly , you don't write the code:",
+      "start": 301.43,
+      "end": 306.03,
+      "words": [
+        {
+          "text": "The",
+          "start": 301.68,
+          "end": 301.818
+        },
+        {
+          "text": "AI",
+          "start": 301.818,
+          "end": 302.205
+        },
+        {
+          "text": "agent",
+          "start": 302.205,
+          "end": 302.605
+        },
+        {
+          "text": "can",
+          "start": 302.605,
+          "end": 302.755
+        },
+        {
+          "text": "call",
+          "start": 302.755,
+          "end": 302.992
+        },
+        {
+          "text": "these",
+          "start": 302.992,
+          "end": 303.205
+        },
+        {
+          "text": "tools",
+          "start": 303.205,
+          "end": 303.53
+        },
+        {
+          "text": "directly",
+          "start": 303.53,
+          "end": 304.267
+        },
+        {
+          "text": ",",
+          "start": 304.267,
+          "end": 304.355
+        },
+        {
+          "text": "you",
+          "start": 304.355,
+          "end": 304.48
+        },
+        {
+          "text": "don't",
+          "start": 304.48,
+          "end": 304.705
+        },
+        {
+          "text": "write",
+          "start": 304.705,
+          "end": 304.892
+        },
+        {
+          "text": "the",
+          "start": 304.892,
+          "end": 304.98
+        },
+        {
+          "text": "code",
+          "start": 304.98,
+          "end": 305.83
+        },
+        {
+          "text": ":",
+          "start": 305.83,
+          "end": 306.03
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "kind": "h2",
+      "text": "Step 5: Multi-Agent Testing , Two Agents, One Test Run",
+      "start": 306.35,
+      "end": 310.425,
+      "words": [
+        {
+          "text": "Step",
+          "start": 306.6,
+          "end": 306.85
+        },
+        {
+          "text": "5",
+          "start": 306.85,
+          "end": 307.25
+        },
+        {
+          "text": ":",
+          "start": 307.25,
+          "end": 307.3
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 307.3,
+          "end": 307.9
+        },
+        {
+          "text": "Testing",
+          "start": 307.9,
+          "end": 308.337
+        },
+        {
+          "text": ",",
+          "start": 308.337,
+          "end": 308.4
+        },
+        {
+          "text": "Two",
+          "start": 308.4,
+          "end": 308.575
+        },
+        {
+          "text": "Agents",
+          "start": 308.575,
+          "end": 309.025
+        },
+        {
+          "text": ",",
+          "start": 309.025,
+          "end": 309.075
+        },
+        {
+          "text": "One",
+          "start": 309.075,
+          "end": 309.3
+        },
+        {
+          "text": "Test",
+          "start": 309.3,
+          "end": 309.625
+        },
+        {
+          "text": "Run",
+          "start": 309.625,
+          "end": 310.425
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "kind": "p",
+      "text": "This is where Playwright in 2026 surpasses everything else. Multi-agent testing means you run two or more AI agents in parallel, each watching a different layer of your application, coordinated by a single Supervisor.",
+      "start": 310.895,
+      "end": 324.77,
+      "words": [
+        {
+          "text": "This",
+          "start": 311.145,
+          "end": 311.345
+        },
+        {
+          "text": "is",
+          "start": 311.345,
+          "end": 311.47
+        },
+        {
+          "text": "where",
+          "start": 311.47,
+          "end": 311.645
+        },
+        {
+          "text": "Playwright",
+          "start": 311.645,
+          "end": 312.07
+        },
+        {
+          "text": "in",
+          "start": 312.07,
+          "end": 312.17
+        },
+        {
+          "text": "2026",
+          "start": 312.17,
+          "end": 313.12
+        },
+        {
+          "text": "surpasses",
+          "start": 313.12,
+          "end": 313.67
+        },
+        {
+          "text": "everything",
+          "start": 313.67,
+          "end": 314.095
+        },
+        {
+          "text": "else",
+          "start": 314.095,
+          "end": 315.02
+        },
+        {
+          "text": ".",
+          "start": 315.02,
+          "end": 315.158
+        },
+        {
+          "text": "Multi-agent",
+          "start": 315.158,
+          "end": 315.82
+        },
+        {
+          "text": "testing",
+          "start": 315.82,
+          "end": 316.27
+        },
+        {
+          "text": "means",
+          "start": 316.27,
+          "end": 316.545
+        },
+        {
+          "text": "you",
+          "start": 316.545,
+          "end": 316.67
+        },
+        {
+          "text": "run",
+          "start": 316.67,
+          "end": 316.908
+        },
+        {
+          "text": "two",
+          "start": 316.908,
+          "end": 317.195
+        },
+        {
+          "text": "or",
+          "start": 317.195,
+          "end": 317.32
+        },
+        {
+          "text": "more",
+          "start": 317.32,
+          "end": 317.558
+        },
+        {
+          "text": "AI",
+          "start": 317.558,
+          "end": 317.945
+        },
+        {
+          "text": "agents",
+          "start": 317.945,
+          "end": 318.42
+        },
+        {
+          "text": "in",
+          "start": 318.42,
+          "end": 318.545
+        },
+        {
+          "text": "parallel",
+          "start": 318.545,
+          "end": 319.345
+        },
+        {
+          "text": ",",
+          "start": 319.345,
+          "end": 319.47
+        },
+        {
+          "text": "each",
+          "start": 319.47,
+          "end": 319.745
+        },
+        {
+          "text": "watching",
+          "start": 319.745,
+          "end": 320.083
+        },
+        {
+          "text": "a",
+          "start": 320.083,
+          "end": 320.145
+        },
+        {
+          "text": "different",
+          "start": 320.145,
+          "end": 320.445
+        },
+        {
+          "text": "layer",
+          "start": 320.445,
+          "end": 320.758
+        },
+        {
+          "text": "of",
+          "start": 320.758,
+          "end": 320.833
+        },
+        {
+          "text": "your",
+          "start": 320.833,
+          "end": 320.945
+        },
+        {
+          "text": "application",
+          "start": 320.945,
+          "end": 321.97
+        },
+        {
+          "text": ",",
+          "start": 321.97,
+          "end": 322.083
+        },
+        {
+          "text": "coordinated",
+          "start": 322.083,
+          "end": 322.82
+        },
+        {
+          "text": "by",
+          "start": 322.82,
+          "end": 322.995
+        },
+        {
+          "text": "a",
+          "start": 322.995,
+          "end": 323.108
+        },
+        {
+          "text": "single",
+          "start": 323.108,
+          "end": 323.47
+        },
+        {
+          "text": "Supervisor",
+          "start": 323.47,
+          "end": 324.57
+        },
+        {
+          "text": ".",
+          "start": 324.57,
+          "end": 324.77
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "kind": "h3",
+      "text": "The Supervisor-Worker Pattern",
+      "start": 325.09,
+      "end": 327.39,
+      "words": [
+        {
+          "text": "The",
+          "start": 325.315,
+          "end": 325.453
+        },
+        {
+          "text": "Supervisor-Worker",
+          "start": 325.453,
+          "end": 326.39
+        },
+        {
+          "text": "Pattern",
+          "start": 326.39,
+          "end": 327.39
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "kind": "p",
+      "text": "Here's what happens step-by-step:",
+      "start": 327.835,
+      "end": 330.485,
+      "words": [
+        {
+          "text": "Here's",
+          "start": 328.085,
+          "end": 328.41
+        },
+        {
+          "text": "what",
+          "start": 328.41,
+          "end": 328.56
+        },
+        {
+          "text": "happens",
+          "start": 328.56,
+          "end": 328.96
+        },
+        {
+          "text": "step-by-step",
+          "start": 328.96,
+          "end": 330.285
+        },
+        {
+          "text": ":",
+          "start": 330.285,
+          "end": 330.485
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "kind": "h3",
+      "text": "Concrete Example: Running a Multi-Agent Test",
+      "start": 330.805,
+      "end": 334.105,
+      "words": [
+        {
+          "text": "Concrete",
+          "start": 331.055,
+          "end": 331.493
+        },
+        {
+          "text": "Example",
+          "start": 331.493,
+          "end": 332.155
+        },
+        {
+          "text": ":",
+          "start": 332.155,
+          "end": 332.255
+        },
+        {
+          "text": "Running",
+          "start": 332.255,
+          "end": 332.567
+        },
+        {
+          "text": "a",
+          "start": 332.567,
+          "end": 332.655
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 332.655,
+          "end": 333.33
+        },
+        {
+          "text": "Test",
+          "start": 333.33,
+          "end": 334.105
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "kind": "p",
+      "text": "You don't need a custom framework to start. Here's a practical three-step workflow using tools you already have:",
+      "start": 334.675,
+      "end": 341.55,
+      "words": [
+        {
+          "text": "You",
+          "start": 334.925,
+          "end": 335.037
+        },
+        {
+          "text": "don't",
+          "start": 335.037,
+          "end": 335.25
+        },
+        {
+          "text": "need",
+          "start": 335.25,
+          "end": 335.412
+        },
+        {
+          "text": "a",
+          "start": 335.412,
+          "end": 335.475
+        },
+        {
+          "text": "custom",
+          "start": 335.475,
+          "end": 335.875
+        },
+        {
+          "text": "framework",
+          "start": 335.875,
+          "end": 336.375
+        },
+        {
+          "text": "to",
+          "start": 336.375,
+          "end": 336.475
+        },
+        {
+          "text": "start",
+          "start": 336.475,
+          "end": 337.3
+        },
+        {
+          "text": ".",
+          "start": 337.3,
+          "end": 337.4
+        },
+        {
+          "text": "Here's",
+          "start": 337.4,
+          "end": 337.638
+        },
+        {
+          "text": "a",
+          "start": 337.638,
+          "end": 337.7
+        },
+        {
+          "text": "practical",
+          "start": 337.7,
+          "end": 338.237
+        },
+        {
+          "text": "three-step",
+          "start": 338.237,
+          "end": 338.725
+        },
+        {
+          "text": "workflow",
+          "start": 338.725,
+          "end": 339.337
+        },
+        {
+          "text": "using",
+          "start": 339.337,
+          "end": 339.675
+        },
+        {
+          "text": "tools",
+          "start": 339.675,
+          "end": 340.05
+        },
+        {
+          "text": "you",
+          "start": 340.05,
+          "end": 340.175
+        },
+        {
+          "text": "already",
+          "start": 340.175,
+          "end": 340.525
+        },
+        {
+          "text": "have",
+          "start": 340.525,
+          "end": 341.35
+        },
+        {
+          "text": ":",
+          "start": 341.35,
+          "end": 341.55
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "kind": "p",
+      "text": "Step 1 , Write a Playwright script that records everything:",
+      "start": 341.87,
+      "end": 345.595,
+      "words": [
+        {
+          "text": "Step",
+          "start": 342.12,
+          "end": 342.395
+        },
+        {
+          "text": "1",
+          "start": 342.395,
+          "end": 342.757
+        },
+        {
+          "text": ",",
+          "start": 342.757,
+          "end": 342.82
+        },
+        {
+          "text": "Write",
+          "start": 342.82,
+          "end": 343.032
+        },
+        {
+          "text": "a",
+          "start": 343.032,
+          "end": 343.095
+        },
+        {
+          "text": "Playwright",
+          "start": 343.095,
+          "end": 343.495
+        },
+        {
+          "text": "script",
+          "start": 343.495,
+          "end": 343.87
+        },
+        {
+          "text": "that",
+          "start": 343.87,
+          "end": 343.983
+        },
+        {
+          "text": "records",
+          "start": 343.983,
+          "end": 344.42
+        },
+        {
+          "text": "everything",
+          "start": 344.42,
+          "end": 345.42
+        },
+        {
+          "text": ":",
+          "start": 345.42,
+          "end": 345.595
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "kind": "p",
+      "text": "Step 2 , The Validator agent checks the collected data:",
+      "start": 345.915,
+      "end": 349.94,
+      "words": [
+        {
+          "text": "Step",
+          "start": 346.165,
+          "end": 346.452
+        },
+        {
+          "text": "2",
+          "start": 346.452,
+          "end": 346.778
+        },
+        {
+          "text": ",",
+          "start": 346.778,
+          "end": 346.827
+        },
+        {
+          "text": "The",
+          "start": 346.827,
+          "end": 346.915
+        },
+        {
+          "text": "Validator",
+          "start": 346.915,
+          "end": 347.528
+        },
+        {
+          "text": "agent",
+          "start": 347.528,
+          "end": 347.953
+        },
+        {
+          "text": "checks",
+          "start": 347.953,
+          "end": 348.252
+        },
+        {
+          "text": "the",
+          "start": 348.252,
+          "end": 348.34
+        },
+        {
+          "text": "collected",
+          "start": 348.34,
+          "end": 348.815
+        },
+        {
+          "text": "data",
+          "start": 348.815,
+          "end": 349.74
+        },
+        {
+          "text": ":",
+          "start": 349.74,
+          "end": 349.94
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "kind": "p",
+      "text": "Step 3 , The Supervisor agent (you, or an LLM) reviews both outputs:",
+      "start": 350.26,
+      "end": 355.185,
+      "words": [
+        {
+          "text": "Step",
+          "start": 350.51,
+          "end": 350.76
+        },
+        {
+          "text": "3",
+          "start": 350.76,
+          "end": 350.997
+        },
+        {
+          "text": ",",
+          "start": 350.997,
+          "end": 351.047
+        },
+        {
+          "text": "The",
+          "start": 351.047,
+          "end": 351.135
+        },
+        {
+          "text": "Supervisor",
+          "start": 351.135,
+          "end": 351.66
+        },
+        {
+          "text": "agent",
+          "start": 351.66,
+          "end": 352.085
+        },
+        {
+          "text": "(",
+          "start": 352.085,
+          "end": 352.16
+        },
+        {
+          "text": "you",
+          "start": 352.16,
+          "end": 352.41
+        },
+        {
+          "text": ",",
+          "start": 352.41,
+          "end": 352.485
+        },
+        {
+          "text": "or",
+          "start": 352.485,
+          "end": 352.597
+        },
+        {
+          "text": "an",
+          "start": 352.597,
+          "end": 352.685
+        },
+        {
+          "text": "LLM",
+          "start": 352.685,
+          "end": 353.26
+        },
+        {
+          "text": ")",
+          "start": 353.26,
+          "end": 353.335
+        },
+        {
+          "text": "reviews",
+          "start": 353.335,
+          "end": 353.685
+        },
+        {
+          "text": "both",
+          "start": 353.685,
+          "end": 353.96
+        },
+        {
+          "text": "outputs",
+          "start": 353.96,
+          "end": 355.01
+        },
+        {
+          "text": ":",
+          "start": 355.01,
+          "end": 355.185
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "kind": "li",
+      "text": "Explorer report: screenshot shows the order confirmation page , UI passed",
+      "start": 355.505,
+      "end": 360.53,
+      "words": [
+        {
+          "text": "Explorer",
+          "start": 355.755,
+          "end": 356.18
+        },
+        {
+          "text": "report",
+          "start": 356.18,
+          "end": 356.855
+        },
+        {
+          "text": ":",
+          "start": 356.855,
+          "end": 356.968
+        },
+        {
+          "text": "screenshot",
+          "start": 356.968,
+          "end": 357.605
+        },
+        {
+          "text": "shows",
+          "start": 357.605,
+          "end": 357.843
+        },
+        {
+          "text": "the",
+          "start": 357.843,
+          "end": 357.955
+        },
+        {
+          "text": "order",
+          "start": 357.955,
+          "end": 358.23
+        },
+        {
+          "text": "confirmation",
+          "start": 358.23,
+          "end": 358.905
+        },
+        {
+          "text": "page",
+          "start": 358.905,
+          "end": 359.268
+        },
+        {
+          "text": ",",
+          "start": 359.268,
+          "end": 359.33
+        },
+        {
+          "text": "UI",
+          "start": 359.33,
+          "end": 359.63
+        },
+        {
+          "text": "passed",
+          "start": 359.63,
+          "end": 360.53
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "kind": "li",
+      "text": "Validator report: /api/checkout returned 422 , API validation error",
+      "start": 361.05,
+      "end": 367.975,
+      "words": [
+        {
+          "text": "Validator",
+          "start": 361.3,
+          "end": 361.825
+        },
+        {
+          "text": "report",
+          "start": 361.825,
+          "end": 362.6
+        },
+        {
+          "text": ":",
+          "start": 362.6,
+          "end": 362.713
+        },
+        {
+          "text": "/api/checkout",
+          "start": 362.713,
+          "end": 364.375
+        },
+        {
+          "text": "returned",
+          "start": 364.375,
+          "end": 364.813
+        },
+        {
+          "text": "422",
+          "start": 364.813,
+          "end": 365.95
+        },
+        {
+          "text": ",",
+          "start": 365.95,
+          "end": 366.025
+        },
+        {
+          "text": "API",
+          "start": 366.025,
+          "end": 366.575
+        },
+        {
+          "text": "validation",
+          "start": 366.575,
+          "end": 367.2
+        },
+        {
+          "text": "error",
+          "start": 367.2,
+          "end": 367.975
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "kind": "li",
+      "text": "Verdict: the frontend rendered a success page, but the backend rejected the payment payload. This bug would be invisible in a UI-only test.",
+      "start": 368.52,
+      "end": 377.42,
+      "words": [
+        {
+          "text": "Verdict",
+          "start": 368.795,
+          "end": 369.32
+        },
+        {
+          "text": ":",
+          "start": 369.32,
+          "end": 369.358
+        },
+        {
+          "text": "the",
+          "start": 369.358,
+          "end": 369.445
+        },
+        {
+          "text": "frontend",
+          "start": 369.445,
+          "end": 369.995
+        },
+        {
+          "text": "rendered",
+          "start": 369.995,
+          "end": 370.308
+        },
+        {
+          "text": "a",
+          "start": 370.308,
+          "end": 370.37
+        },
+        {
+          "text": "success",
+          "start": 370.37,
+          "end": 370.795
+        },
+        {
+          "text": "page",
+          "start": 370.795,
+          "end": 371.42
+        },
+        {
+          "text": ",",
+          "start": 371.42,
+          "end": 371.495
+        },
+        {
+          "text": "but",
+          "start": 371.495,
+          "end": 371.632
+        },
+        {
+          "text": "the",
+          "start": 371.632,
+          "end": 371.72
+        },
+        {
+          "text": "backend",
+          "start": 371.72,
+          "end": 372.145
+        },
+        {
+          "text": "rejected",
+          "start": 372.145,
+          "end": 372.632
+        },
+        {
+          "text": "the",
+          "start": 372.632,
+          "end": 372.72
+        },
+        {
+          "text": "payment",
+          "start": 372.72,
+          "end": 373.07
+        },
+        {
+          "text": "payload",
+          "start": 373.07,
+          "end": 374.045
+        },
+        {
+          "text": ".",
+          "start": 374.045,
+          "end": 374.182
+        },
+        {
+          "text": "This",
+          "start": 374.182,
+          "end": 374.458
+        },
+        {
+          "text": "bug",
+          "start": 374.458,
+          "end": 374.757
+        },
+        {
+          "text": "would",
+          "start": 374.757,
+          "end": 374.87
+        },
+        {
+          "text": "be",
+          "start": 374.87,
+          "end": 374.995
+        },
+        {
+          "text": "invisible",
+          "start": 374.995,
+          "end": 375.545
+        },
+        {
+          "text": "in",
+          "start": 375.545,
+          "end": 375.632
+        },
+        {
+          "text": "a",
+          "start": 375.632,
+          "end": 375.733
+        },
+        {
+          "text": "UI-only",
+          "start": 375.733,
+          "end": 376.32
+        },
+        {
+          "text": "test",
+          "start": 376.32,
+          "end": 377.22
+        },
+        {
+          "text": ".",
+          "start": 377.22,
+          "end": 377.42
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "kind": "h3",
+      "text": "Why Multi-Agent Catches What Single-Agent Misses",
+      "start": 377.74,
+      "end": 381.215,
+      "words": [
+        {
+          "text": "Why",
+          "start": 377.99,
+          "end": 378.19
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 378.19,
+          "end": 378.84
+        },
+        {
+          "text": "Catches",
+          "start": 378.84,
+          "end": 379.365
+        },
+        {
+          "text": "What",
+          "start": 379.365,
+          "end": 379.578
+        },
+        {
+          "text": "Single-Agent",
+          "start": 379.578,
+          "end": 380.24
+        },
+        {
+          "text": "Misses",
+          "start": 380.24,
+          "end": 381.215
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "kind": "h2",
+      "text": "Step 6: When to Use Each Approach",
+      "start": 381.635,
+      "end": 384.21,
+      "words": [
+        {
+          "text": "Step",
+          "start": 381.885,
+          "end": 382.16
+        },
+        {
+          "text": "6",
+          "start": 382.16,
+          "end": 382.485
+        },
+        {
+          "text": ":",
+          "start": 382.485,
+          "end": 382.522
+        },
+        {
+          "text": "When",
+          "start": 382.522,
+          "end": 382.66
+        },
+        {
+          "text": "to",
+          "start": 382.66,
+          "end": 382.785
+        },
+        {
+          "text": "Use",
+          "start": 382.785,
+          "end": 383.085
+        },
+        {
+          "text": "Each",
+          "start": 383.085,
+          "end": 383.323
+        },
+        {
+          "text": "Approach",
+          "start": 383.323,
+          "end": 384.21
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "kind": "p",
+      "text": "After setting up all three layers (Raw Playwright, Playwright MCP, Multi-Agent), here's how to choose:",
+      "start": 384.755,
+      "end": 390.955,
+      "words": [
+        {
+          "text": "After",
+          "start": 385.005,
+          "end": 385.255
+        },
+        {
+          "text": "setting",
+          "start": 385.255,
+          "end": 385.543
+        },
+        {
+          "text": "up",
+          "start": 385.543,
+          "end": 385.705
+        },
+        {
+          "text": "all",
+          "start": 385.705,
+          "end": 385.93
+        },
+        {
+          "text": "three",
+          "start": 385.93,
+          "end": 386.155
+        },
+        {
+          "text": "layers",
+          "start": 386.155,
+          "end": 386.605
+        },
+        {
+          "text": "(",
+          "start": 386.605,
+          "end": 386.655
+        },
+        {
+          "text": "Raw",
+          "start": 386.655,
+          "end": 386.805
+        },
+        {
+          "text": "Playwright",
+          "start": 386.805,
+          "end": 387.355
+        },
+        {
+          "text": ",",
+          "start": 387.355,
+          "end": 387.43
+        },
+        {
+          "text": "Playwright",
+          "start": 387.43,
+          "end": 387.83
+        },
+        {
+          "text": "MCP",
+          "start": 387.83,
+          "end": 388.405
+        },
+        {
+          "text": ",",
+          "start": 388.405,
+          "end": 388.442
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 388.442,
+          "end": 389.23
+        },
+        {
+          "text": ")",
+          "start": 389.23,
+          "end": 389.28
+        },
+        {
+          "text": ",",
+          "start": 389.28,
+          "end": 389.33
+        },
+        {
+          "text": "here's",
+          "start": 389.33,
+          "end": 389.567
+        },
+        {
+          "text": "how",
+          "start": 389.567,
+          "end": 389.73
+        },
+        {
+          "text": "to",
+          "start": 389.73,
+          "end": 389.868
+        },
+        {
+          "text": "choose",
+          "start": 389.868,
+          "end": 390.78
+        },
+        {
+          "text": ":",
+          "start": 390.78,
+          "end": 390.955
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "kind": "li",
+      "text": "Raw Playwright + Web-First Assertions to best for CI/CD regression suites where you need fast, deterministic results with no AI variability.",
+      "start": 391.275,
+      "end": 401.05,
+      "words": [
+        {
+          "text": "Raw",
+          "start": 391.55,
+          "end": 391.725
+        },
+        {
+          "text": "Playwright",
+          "start": 391.725,
+          "end": 392.125
+        },
+        {
+          "text": "+",
+          "start": 392.125,
+          "end": 392.438
+        },
+        {
+          "text": "Web-First",
+          "start": 392.438,
+          "end": 392.987
+        },
+        {
+          "text": "Assertions",
+          "start": 392.987,
+          "end": 393.55
+        },
+        {
+          "text": "to",
+          "start": 393.55,
+          "end": 393.65
+        },
+        {
+          "text": "best",
+          "start": 393.65,
+          "end": 394.0
+        },
+        {
+          "text": "for",
+          "start": 394.0,
+          "end": 394.137
+        },
+        {
+          "text": "CI/CD",
+          "start": 394.137,
+          "end": 394.938
+        },
+        {
+          "text": "regression",
+          "start": 394.938,
+          "end": 395.425
+        },
+        {
+          "text": "suites",
+          "start": 395.425,
+          "end": 396.213
+        },
+        {
+          "text": "where",
+          "start": 396.213,
+          "end": 396.375
+        },
+        {
+          "text": "you",
+          "start": 396.375,
+          "end": 396.5
+        },
+        {
+          "text": "need",
+          "start": 396.5,
+          "end": 396.762
+        },
+        {
+          "text": "fast",
+          "start": 396.762,
+          "end": 397.45
+        },
+        {
+          "text": ",",
+          "start": 397.45,
+          "end": 397.55
+        },
+        {
+          "text": "deterministic",
+          "start": 397.55,
+          "end": 398.325
+        },
+        {
+          "text": "results",
+          "start": 398.325,
+          "end": 398.788
+        },
+        {
+          "text": "with",
+          "start": 398.788,
+          "end": 398.95
+        },
+        {
+          "text": "no",
+          "start": 398.95,
+          "end": 399.213
+        },
+        {
+          "text": "AI",
+          "start": 399.213,
+          "end": 399.6
+        },
+        {
+          "text": "variability",
+          "start": 399.6,
+          "end": 400.875
+        },
+        {
+          "text": ".",
+          "start": 400.875,
+          "end": 401.05
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "kind": "li",
+      "text": "Playwright MCP + AI agent to best for exploratory testing, accessibility audits, one-off validations, and prototyping.",
+      "start": 401.37,
+      "end": 410.12,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 401.62,
+          "end": 402.02
+        },
+        {
+          "text": "MCP",
+          "start": 402.02,
+          "end": 402.67
+        },
+        {
+          "text": "+",
+          "start": 402.67,
+          "end": 402.983
+        },
+        {
+          "text": "AI",
+          "start": 402.983,
+          "end": 403.42
+        },
+        {
+          "text": "agent",
+          "start": 403.42,
+          "end": 403.77
+        },
+        {
+          "text": "to",
+          "start": 403.77,
+          "end": 403.87
+        },
+        {
+          "text": "best",
+          "start": 403.87,
+          "end": 404.195
+        },
+        {
+          "text": "for",
+          "start": 404.195,
+          "end": 404.32
+        },
+        {
+          "text": "exploratory",
+          "start": 404.32,
+          "end": 404.995
+        },
+        {
+          "text": "testing",
+          "start": 404.995,
+          "end": 405.845
+        },
+        {
+          "text": ",",
+          "start": 405.845,
+          "end": 405.945
+        },
+        {
+          "text": "accessibility",
+          "start": 405.945,
+          "end": 406.695
+        },
+        {
+          "text": "audits",
+          "start": 406.695,
+          "end": 407.295
+        },
+        {
+          "text": ",",
+          "start": 407.295,
+          "end": 407.395
+        },
+        {
+          "text": "one-off",
+          "start": 407.395,
+          "end": 407.72
+        },
+        {
+          "text": "validations",
+          "start": 407.72,
+          "end": 408.47
+        },
+        {
+          "text": ",",
+          "start": 408.47,
+          "end": 408.508
+        },
+        {
+          "text": "and",
+          "start": 408.508,
+          "end": 408.62
+        },
+        {
+          "text": "prototyping",
+          "start": 408.62,
+          "end": 409.945
+        },
+        {
+          "text": ".",
+          "start": 409.945,
+          "end": 410.12
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "kind": "li",
+      "text": "Multi-Agent (Explorer + Validator) to best for end-to-end flows where you cannot afford to miss a single API error or frontend-backend mismatch.",
+      "start": 410.44,
+      "end": 420.44,
+      "words": [
+        {
+          "text": "Multi-Agent",
+          "start": 410.715,
+          "end": 411.49
+        },
+        {
+          "text": "(",
+          "start": 411.49,
+          "end": 411.565
+        },
+        {
+          "text": "Explorer",
+          "start": 411.565,
+          "end": 412.065
+        },
+        {
+          "text": "+",
+          "start": 412.065,
+          "end": 412.34
+        },
+        {
+          "text": "Validator",
+          "start": 412.34,
+          "end": 413.315
+        },
+        {
+          "text": ")",
+          "start": 413.315,
+          "end": 413.44
+        },
+        {
+          "text": "to",
+          "start": 413.44,
+          "end": 413.54
+        },
+        {
+          "text": "best",
+          "start": 413.54,
+          "end": 413.865
+        },
+        {
+          "text": "for",
+          "start": 413.865,
+          "end": 413.99
+        },
+        {
+          "text": "end-to-end",
+          "start": 413.99,
+          "end": 414.565
+        },
+        {
+          "text": "flows",
+          "start": 414.565,
+          "end": 415.09
+        },
+        {
+          "text": "where",
+          "start": 415.09,
+          "end": 415.228
+        },
+        {
+          "text": "you",
+          "start": 415.228,
+          "end": 415.34
+        },
+        {
+          "text": "cannot",
+          "start": 415.34,
+          "end": 415.652
+        },
+        {
+          "text": "afford",
+          "start": 415.652,
+          "end": 416.015
+        },
+        {
+          "text": "to",
+          "start": 416.015,
+          "end": 416.103
+        },
+        {
+          "text": "miss",
+          "start": 416.103,
+          "end": 416.29
+        },
+        {
+          "text": "a",
+          "start": 416.29,
+          "end": 416.402
+        },
+        {
+          "text": "single",
+          "start": 416.402,
+          "end": 416.777
+        },
+        {
+          "text": "API",
+          "start": 416.777,
+          "end": 417.377
+        },
+        {
+          "text": "error",
+          "start": 417.377,
+          "end": 418.103
+        },
+        {
+          "text": "or",
+          "start": 418.103,
+          "end": 418.29
+        },
+        {
+          "text": "frontend-backend",
+          "start": 418.29,
+          "end": 419.24
+        },
+        {
+          "text": "mismatch",
+          "start": 419.24,
+          "end": 420.24
+        },
+        {
+          "text": ".",
+          "start": 420.24,
+          "end": 420.44
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "kind": "h2",
+      "text": "Where Existing Posts on This Blog Fit",
+      "start": 420.76,
+      "end": 423.535,
+      "words": [
+        {
+          "text": "Where",
+          "start": 421.01,
+          "end": 421.185
+        },
+        {
+          "text": "Existing",
+          "start": 421.185,
+          "end": 421.66
+        },
+        {
+          "text": "Posts",
+          "start": 421.66,
+          "end": 422.072
+        },
+        {
+          "text": "on",
+          "start": 422.072,
+          "end": 422.173
+        },
+        {
+          "text": "This",
+          "start": 422.173,
+          "end": 422.36
+        },
+        {
+          "text": "Blog",
+          "start": 422.36,
+          "end": 422.722
+        },
+        {
+          "text": "Fit",
+          "start": 422.722,
+          "end": 423.535
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "kind": "p",
+      "text": "This post is the 2026 Playwright refresh that connects to four earlier articles on techtalkwith-veeresh:",
+      "start": 424.03,
+      "end": 431.23,
+      "words": [
+        {
+          "text": "This",
+          "start": 424.28,
+          "end": 424.48
+        },
+        {
+          "text": "post",
+          "start": 424.48,
+          "end": 424.905
+        },
+        {
+          "text": "is",
+          "start": 424.905,
+          "end": 425.018
+        },
+        {
+          "text": "the",
+          "start": 425.018,
+          "end": 425.105
+        },
+        {
+          "text": "2026",
+          "start": 425.105,
+          "end": 426.105
+        },
+        {
+          "text": "Playwright",
+          "start": 426.105,
+          "end": 426.505
+        },
+        {
+          "text": "refresh",
+          "start": 426.505,
+          "end": 427.443
+        },
+        {
+          "text": "that",
+          "start": 427.443,
+          "end": 427.605
+        },
+        {
+          "text": "connects",
+          "start": 427.605,
+          "end": 428.055
+        },
+        {
+          "text": "to",
+          "start": 428.055,
+          "end": 428.192
+        },
+        {
+          "text": "four",
+          "start": 428.192,
+          "end": 428.493
+        },
+        {
+          "text": "earlier",
+          "start": 428.493,
+          "end": 428.855
+        },
+        {
+          "text": "articles",
+          "start": 428.855,
+          "end": 429.342
+        },
+        {
+          "text": "on",
+          "start": 429.342,
+          "end": 429.505
+        },
+        {
+          "text": "techtalkwith-veeresh",
+          "start": 429.505,
+          "end": 431.055
+        },
+        {
+          "text": ":",
+          "start": 431.055,
+          "end": 431.23
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "kind": "h2",
+      "text": "Sources and Further Reading",
+      "start": 431.55,
+      "end": 433.75,
+      "words": [
+        {
+          "text": "Sources",
+          "start": 431.825,
+          "end": 432.375
+        },
+        {
+          "text": "and",
+          "start": 432.375,
+          "end": 432.512
+        },
+        {
+          "text": "Further",
+          "start": 432.512,
+          "end": 432.875
+        },
+        {
+          "text": "Reading",
+          "start": 432.875,
+          "end": 433.75
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "kind": "li",
+      "text": "Playwright Documentation , official guides, API references, and best practices for all languages",
+      "start": 434.195,
+      "end": 440.645,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 434.42,
+          "end": 434.77
+        },
+        {
+          "text": "Documentation",
+          "start": 434.77,
+          "end": 435.745
+        },
+        {
+          "text": ",",
+          "start": 435.745,
+          "end": 435.82
+        },
+        {
+          "text": "official",
+          "start": 435.82,
+          "end": 436.195
+        },
+        {
+          "text": "guides",
+          "start": 436.195,
+          "end": 436.695
+        },
+        {
+          "text": ",",
+          "start": 436.695,
+          "end": 436.77
+        },
+        {
+          "text": "API",
+          "start": 436.77,
+          "end": 437.295
+        },
+        {
+          "text": "references",
+          "start": 437.295,
+          "end": 438.12
+        },
+        {
+          "text": ",",
+          "start": 438.12,
+          "end": 438.195
+        },
+        {
+          "text": "and",
+          "start": 438.195,
+          "end": 438.32
+        },
+        {
+          "text": "best",
+          "start": 438.32,
+          "end": 438.57
+        },
+        {
+          "text": "practices",
+          "start": 438.57,
+          "end": 439.145
+        },
+        {
+          "text": "for",
+          "start": 439.145,
+          "end": 439.27
+        },
+        {
+          "text": "all",
+          "start": 439.27,
+          "end": 439.47
+        },
+        {
+          "text": "languages",
+          "start": 439.47,
+          "end": 440.645
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "kind": "li",
+      "text": "Playwright for .NET , C#-specific API reference used in this post's code examples",
+      "start": 441.09,
+      "end": 446.49,
+      "words": [
+        {
+          "text": "Playwright",
+          "start": 441.315,
+          "end": 441.665
+        },
+        {
+          "text": "for",
+          "start": 441.665,
+          "end": 441.79
+        },
+        {
+          "text": ".NET",
+          "start": 441.79,
+          "end": 442.24
+        },
+        {
+          "text": ",",
+          "start": 442.24,
+          "end": 442.315
+        },
+        {
+          "text": "C#-specific",
+          "start": 442.315,
+          "end": 443.165
+        },
+        {
+          "text": "API",
+          "start": 443.165,
+          "end": 443.69
+        },
+        {
+          "text": "reference",
+          "start": 443.69,
+          "end": 444.128
+        },
+        {
+          "text": "used",
+          "start": 444.128,
+          "end": 444.427
+        },
+        {
+          "text": "in",
+          "start": 444.427,
+          "end": 444.503
+        },
+        {
+          "text": "this",
+          "start": 444.503,
+          "end": 444.665
+        },
+        {
+          "text": "post's",
+          "start": 444.665,
+          "end": 445.065
+        },
+        {
+          "text": "code",
+          "start": 445.065,
+          "end": 445.352
+        },
+        {
+          "text": "examples",
+          "start": 445.352,
+          "end": 446.49
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "kind": "li",
+      "text": "microsoft/playwright-mcp on GitHub , the official Playwright MCP server, installable via npx @playwright/mcp",
+      "start": 446.935,
+      "end": 455.66,
+      "words": [
+        {
+          "text": "microsoft/playwright-mcp",
+          "start": 447.21,
+          "end": 448.923
+        },
+        {
+          "text": "on",
+          "start": 448.923,
+          "end": 449.06
+        },
+        {
+          "text": "GitHub",
+          "start": 449.06,
+          "end": 449.823
+        },
+        {
+          "text": ",",
+          "start": 449.823,
+          "end": 449.897
+        },
+        {
+          "text": "the",
+          "start": 449.897,
+          "end": 450.035
+        },
+        {
+          "text": "official",
+          "start": 450.035,
+          "end": 450.41
+        },
+        {
+          "text": "Playwright",
+          "start": 450.41,
+          "end": 450.81
+        },
+        {
+          "text": "MCP",
+          "start": 450.81,
+          "end": 451.36
+        },
+        {
+          "text": "server",
+          "start": 451.36,
+          "end": 452.035
+        },
+        {
+          "text": ",",
+          "start": 452.035,
+          "end": 452.16
+        },
+        {
+          "text": "installable",
+          "start": 452.16,
+          "end": 452.785
+        },
+        {
+          "text": "via",
+          "start": 452.785,
+          "end": 453.035
+        },
+        {
+          "text": "npx",
+          "start": 453.035,
+          "end": 453.685
+        },
+        {
+          "text": "@playwright/mcp",
+          "start": 453.685,
+          "end": 455.66
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "kind": "li",
+      "text": "Model Context Protocol Specification , the open protocol that enables AI agents to control browsers and other tools",
+      "start": 456.105,
+      "end": 464.055,
+      "words": [
+        {
+          "text": "Model",
+          "start": 456.38,
+          "end": 456.68
+        },
+        {
+          "text": "Context",
+          "start": 456.68,
+          "end": 457.23
+        },
+        {
+          "text": "Protocol",
+          "start": 457.23,
+          "end": 457.68
+        },
+        {
+          "text": "Specification",
+          "start": 457.68,
+          "end": 458.943
+        },
+        {
+          "text": ",",
+          "start": 458.943,
+          "end": 459.03
+        },
+        {
+          "text": "the",
+          "start": 459.03,
+          "end": 459.18
+        },
+        {
+          "text": "open",
+          "start": 459.18,
+          "end": 459.505
+        },
+        {
+          "text": "protocol",
+          "start": 459.505,
+          "end": 460.08
+        },
+        {
+          "text": "that",
+          "start": 460.08,
+          "end": 460.23
+        },
+        {
+          "text": "enables",
+          "start": 460.23,
+          "end": 460.743
+        },
+        {
+          "text": "AI",
+          "start": 460.743,
+          "end": 461.167
+        },
+        {
+          "text": "agents",
+          "start": 461.167,
+          "end": 461.63
+        },
+        {
+          "text": "to",
+          "start": 461.63,
+          "end": 461.73
+        },
+        {
+          "text": "control",
+          "start": 461.73,
+          "end": 462.205
+        },
+        {
+          "text": "browsers",
+          "start": 462.205,
+          "end": 462.73
+        },
+        {
+          "text": "and",
+          "start": 462.73,
+          "end": 462.842
+        },
+        {
+          "text": "other",
+          "start": 462.842,
+          "end": 463.055
+        },
+        {
+          "text": "tools",
+          "start": 463.055,
+          "end": 464.055
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "kind": "h2",
+      "text": "What to Do Next",
+      "start": 464.5,
+      "end": 465.925,
+      "words": [
+        {
+          "text": "What",
+          "start": 464.75,
+          "end": 464.95
+        },
+        {
+          "text": "to",
+          "start": 464.95,
+          "end": 465.05
+        },
+        {
+          "text": "Do",
+          "start": 465.05,
+          "end": 465.225
+        },
+        {
+          "text": "Next",
+          "start": 465.225,
+          "end": 465.925
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "kind": "li",
+      "text": "Run Step 1, 2 right now. Install Playwright and write the Hello World test. It takes under 3 minutes, and the auto-wait behavior will immediately click , you'll never want to write Thread.Sleep again.",
+      "start": 466.47,
+      "end": 478.195,
+      "words": [
+        {
+          "text": "Run",
+          "start": 466.745,
+          "end": 466.97
+        },
+        {
+          "text": "Step",
+          "start": 466.97,
+          "end": 467.245
+        },
+        {
+          "text": "1",
+          "start": 467.245,
+          "end": 467.495
+        },
+        {
+          "text": ",",
+          "start": 467.495,
+          "end": 467.545
+        },
+        {
+          "text": "2",
+          "start": 467.545,
+          "end": 467.695
+        },
+        {
+          "text": "right",
+          "start": 467.695,
+          "end": 467.92
+        },
+        {
+          "text": "now",
+          "start": 467.92,
+          "end": 468.645
+        },
+        {
+          "text": ".",
+          "start": 468.645,
+          "end": 468.782
+        },
+        {
+          "text": "Install",
+          "start": 468.782,
+          "end": 469.22
+        },
+        {
+          "text": "Playwright",
+          "start": 469.22,
+          "end": 469.67
+        },
+        {
+          "text": "and",
+          "start": 469.67,
+          "end": 469.795
+        },
+        {
+          "text": "write",
+          "start": 469.795,
+          "end": 469.982
+        },
+        {
+          "text": "the",
+          "start": 469.982,
+          "end": 470.07
+        },
+        {
+          "text": "Hello",
+          "start": 470.07,
+          "end": 470.42
+        },
+        {
+          "text": "World",
+          "start": 470.42,
+          "end": 470.707
+        },
+        {
+          "text": "test",
+          "start": 470.707,
+          "end": 471.545
+        },
+        {
+          "text": ".",
+          "start": 471.545,
+          "end": 471.645
+        },
+        {
+          "text": "It",
+          "start": 471.645,
+          "end": 471.77
+        },
+        {
+          "text": "takes",
+          "start": 471.77,
+          "end": 472.007
+        },
+        {
+          "text": "under",
+          "start": 472.007,
+          "end": 472.257
+        },
+        {
+          "text": "3",
+          "start": 472.257,
+          "end": 472.495
+        },
+        {
+          "text": "minutes",
+          "start": 472.495,
+          "end": 472.845
+        },
+        {
+          "text": ",",
+          "start": 472.845,
+          "end": 472.882
+        },
+        {
+          "text": "and",
+          "start": 472.882,
+          "end": 472.982
+        },
+        {
+          "text": "the",
+          "start": 472.982,
+          "end": 473.095
+        },
+        {
+          "text": "auto-wait",
+          "start": 473.095,
+          "end": 473.557
+        },
+        {
+          "text": "behavior",
+          "start": 473.557,
+          "end": 474.07
+        },
+        {
+          "text": "will",
+          "start": 474.07,
+          "end": 474.22
+        },
+        {
+          "text": "immediately",
+          "start": 474.22,
+          "end": 474.795
+        },
+        {
+          "text": "click",
+          "start": 474.795,
+          "end": 475.245
+        },
+        {
+          "text": ",",
+          "start": 475.245,
+          "end": 475.32
+        },
+        {
+          "text": "you'll",
+          "start": 475.32,
+          "end": 475.47
+        },
+        {
+          "text": "never",
+          "start": 475.47,
+          "end": 475.745
+        },
+        {
+          "text": "want",
+          "start": 475.745,
+          "end": 475.945
+        },
+        {
+          "text": "to",
+          "start": 475.945,
+          "end": 476.045
+        },
+        {
+          "text": "write",
+          "start": 476.045,
+          "end": 476.295
+        },
+        {
+          "text": "Thread",
+          "start": 476.295,
+          "end": 476.795
+        },
+        {
+          "text": ".",
+          "start": 476.795,
+          "end": 476.92
+        },
+        {
+          "text": "Sleep",
+          "start": 476.92,
+          "end": 477.182
+        },
+        {
+          "text": "again",
+          "start": 477.182,
+          "end": 477.995
+        },
+        {
+          "text": ".",
+          "start": 477.995,
+          "end": 478.195
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "kind": "li",
+      "text": "Try Playwright MCP. If you have Claude Desktop, add the @playwright/mcp config and ask it to navigate to any site. Compare the experience to the Selenium MCP setup , you'll notice the speed difference immediately.",
+      "start": 478.515,
+      "end": 493.04,
+      "words": [
+        {
+          "text": "Try",
+          "start": 478.765,
+          "end": 478.99
+        },
+        {
+          "text": "Playwright",
+          "start": 478.99,
+          "end": 479.415
+        },
+        {
+          "text": "MCP",
+          "start": 479.415,
+          "end": 480.59
+        },
+        {
+          "text": ".",
+          "start": 480.59,
+          "end": 480.69
+        },
+        {
+          "text": "If",
+          "start": 480.69,
+          "end": 480.852
+        },
+        {
+          "text": "you",
+          "start": 480.852,
+          "end": 480.953
+        },
+        {
+          "text": "have",
+          "start": 480.953,
+          "end": 481.115
+        },
+        {
+          "text": "Claude",
+          "start": 481.115,
+          "end": 481.415
+        },
+        {
+          "text": "Desktop",
+          "start": 481.415,
+          "end": 482.14
+        },
+        {
+          "text": ",",
+          "start": 482.14,
+          "end": 482.24
+        },
+        {
+          "text": "add",
+          "start": 482.24,
+          "end": 482.428
+        },
+        {
+          "text": "the",
+          "start": 482.428,
+          "end": 482.577
+        },
+        {
+          "text": "@playwright/mcp",
+          "start": 482.577,
+          "end": 484.04
+        },
+        {
+          "text": "config",
+          "start": 484.04,
+          "end": 484.728
+        },
+        {
+          "text": "and",
+          "start": 484.728,
+          "end": 484.865
+        },
+        {
+          "text": "ask",
+          "start": 484.865,
+          "end": 485.153
+        },
+        {
+          "text": "it",
+          "start": 485.153,
+          "end": 485.265
+        },
+        {
+          "text": "to",
+          "start": 485.265,
+          "end": 485.365
+        },
+        {
+          "text": "navigate",
+          "start": 485.365,
+          "end": 485.79
+        },
+        {
+          "text": "to",
+          "start": 485.79,
+          "end": 485.89
+        },
+        {
+          "text": "any",
+          "start": 485.89,
+          "end": 486.103
+        },
+        {
+          "text": "site",
+          "start": 486.103,
+          "end": 486.99
+        },
+        {
+          "text": ".",
+          "start": 486.99,
+          "end": 487.115
+        },
+        {
+          "text": "Compare",
+          "start": 487.115,
+          "end": 487.427
+        },
+        {
+          "text": "the",
+          "start": 487.427,
+          "end": 487.54
+        },
+        {
+          "text": "experience",
+          "start": 487.54,
+          "end": 488.19
+        },
+        {
+          "text": "to",
+          "start": 488.19,
+          "end": 488.277
+        },
+        {
+          "text": "the",
+          "start": 488.277,
+          "end": 488.365
+        },
+        {
+          "text": "Selenium",
+          "start": 488.365,
+          "end": 488.94
+        },
+        {
+          "text": "MCP",
+          "start": 488.94,
+          "end": 489.54
+        },
+        {
+          "text": "setup",
+          "start": 489.54,
+          "end": 490.203
+        },
+        {
+          "text": ",",
+          "start": 490.203,
+          "end": 490.29
+        },
+        {
+          "text": "you'll",
+          "start": 490.29,
+          "end": 490.44
+        },
+        {
+          "text": "notice",
+          "start": 490.44,
+          "end": 490.84
+        },
+        {
+          "text": "the",
+          "start": 490.84,
+          "end": 490.953
+        },
+        {
+          "text": "speed",
+          "start": 490.953,
+          "end": 491.315
+        },
+        {
+          "text": "difference",
+          "start": 491.315,
+          "end": 491.74
+        },
+        {
+          "text": "immediately",
+          "start": 491.74,
+          "end": 492.84
+        },
+        {
+          "text": ".",
+          "start": 492.84,
+          "end": 493.04
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "kind": "li",
+      "text": "Experiment with multi-agent. Take any existing Playwright test, add HAR recording, and write a 15-line Validator that checks for non-2xx responses. You'll probably find a bug your UI test was silently ignoring.",
+      "start": 493.36,
+      "end": 507.485,
+      "words": [
+        {
+          "text": "Experiment",
+          "start": 493.61,
+          "end": 494.223
+        },
+        {
+          "text": "with",
+          "start": 494.223,
+          "end": 494.385
+        },
+        {
+          "text": "multi-agent",
+          "start": 494.385,
+          "end": 495.535
+        },
+        {
+          "text": ".",
+          "start": 495.535,
+          "end": 495.635
+        },
+        {
+          "text": "Take",
+          "start": 495.635,
+          "end": 495.835
+        },
+        {
+          "text": "any",
+          "start": 495.835,
+          "end": 496.035
+        },
+        {
+          "text": "existing",
+          "start": 496.035,
+          "end": 496.46
+        },
+        {
+          "text": "Playwright",
+          "start": 496.46,
+          "end": 496.835
+        },
+        {
+          "text": "test",
+          "start": 496.835,
+          "end": 497.385
+        },
+        {
+          "text": ",",
+          "start": 497.385,
+          "end": 497.485
+        },
+        {
+          "text": "add",
+          "start": 497.485,
+          "end": 497.722
+        },
+        {
+          "text": "HAR",
+          "start": 497.722,
+          "end": 498.297
+        },
+        {
+          "text": "recording",
+          "start": 498.297,
+          "end": 499.035
+        },
+        {
+          "text": ",",
+          "start": 499.035,
+          "end": 499.11
+        },
+        {
+          "text": "and",
+          "start": 499.11,
+          "end": 499.235
+        },
+        {
+          "text": "write",
+          "start": 499.235,
+          "end": 499.422
+        },
+        {
+          "text": "a",
+          "start": 499.422,
+          "end": 499.485
+        },
+        {
+          "text": "15-line",
+          "start": 499.485,
+          "end": 500.135
+        },
+        {
+          "text": "Validator",
+          "start": 500.135,
+          "end": 500.76
+        },
+        {
+          "text": "that",
+          "start": 500.76,
+          "end": 500.948
+        },
+        {
+          "text": "checks",
+          "start": 500.948,
+          "end": 501.26
+        },
+        {
+          "text": "for",
+          "start": 501.26,
+          "end": 501.385
+        },
+        {
+          "text": "non-2xx",
+          "start": 501.385,
+          "end": 502.323
+        },
+        {
+          "text": "responses",
+          "start": 502.323,
+          "end": 503.585
+        },
+        {
+          "text": ".",
+          "start": 503.585,
+          "end": 503.723
+        },
+        {
+          "text": "You'll",
+          "start": 503.723,
+          "end": 503.91
+        },
+        {
+          "text": "probably",
+          "start": 503.91,
+          "end": 504.335
+        },
+        {
+          "text": "find",
+          "start": 504.335,
+          "end": 504.598
+        },
+        {
+          "text": "a",
+          "start": 504.598,
+          "end": 504.66
+        },
+        {
+          "text": "bug",
+          "start": 504.66,
+          "end": 504.873
+        },
+        {
+          "text": "your",
+          "start": 504.873,
+          "end": 504.985
+        },
+        {
+          "text": "UI",
+          "start": 504.985,
+          "end": 505.285
+        },
+        {
+          "text": "test",
+          "start": 505.285,
+          "end": 505.623
+        },
+        {
+          "text": "was",
+          "start": 505.623,
+          "end": 505.748
+        },
+        {
+          "text": "silently",
+          "start": 505.748,
+          "end": 506.26
+        },
+        {
+          "text": "ignoring",
+          "start": 506.26,
+          "end": 507.31
+        },
+        {
+          "text": ".",
+          "start": 507.31,
+          "end": 507.485
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "kind": "li",
+      "text": "For CI/CD pipelines: stick with raw Playwright + Web-First Assertions. MCP and multi-agent add AI variability , fine for exploration, not ideal for deterministic pass/fail gates.",
+      "start": 507.805,
+      "end": 521.38,
+      "words": [
+        {
+          "text": "For",
+          "start": 508.08,
+          "end": 508.218
+        },
+        {
+          "text": "CI/CD",
+          "start": 508.218,
+          "end": 509.055
+        },
+        {
+          "text": "pipelines",
+          "start": 509.055,
+          "end": 509.98
+        },
+        {
+          "text": ":",
+          "start": 509.98,
+          "end": 510.093
+        },
+        {
+          "text": "stick",
+          "start": 510.093,
+          "end": 510.367
+        },
+        {
+          "text": "with",
+          "start": 510.367,
+          "end": 510.53
+        },
+        {
+          "text": "raw",
+          "start": 510.53,
+          "end": 510.755
+        },
+        {
+          "text": "Playwright",
+          "start": 510.755,
+          "end": 511.13
+        },
+        {
+          "text": "+",
+          "start": 511.13,
+          "end": 511.405
+        },
+        {
+          "text": "Web-First",
+          "start": 511.405,
+          "end": 511.943
+        },
+        {
+          "text": "Assertions",
+          "start": 511.943,
+          "end": 513.205
+        },
+        {
+          "text": ".",
+          "start": 513.205,
+          "end": 513.343
+        },
+        {
+          "text": "MCP",
+          "start": 513.343,
+          "end": 514.105
+        },
+        {
+          "text": "and",
+          "start": 514.105,
+          "end": 514.23
+        },
+        {
+          "text": "multi-agent",
+          "start": 514.23,
+          "end": 514.968
+        },
+        {
+          "text": "add",
+          "start": 514.968,
+          "end": 515.218
+        },
+        {
+          "text": "AI",
+          "start": 515.218,
+          "end": 515.58
+        },
+        {
+          "text": "variability",
+          "start": 515.58,
+          "end": 516.63
+        },
+        {
+          "text": ",",
+          "start": 516.63,
+          "end": 516.767
+        },
+        {
+          "text": "fine",
+          "start": 516.767,
+          "end": 517.105
+        },
+        {
+          "text": "for",
+          "start": 517.105,
+          "end": 517.23
+        },
+        {
+          "text": "exploration",
+          "start": 517.23,
+          "end": 518.105
+        },
+        {
+          "text": ",",
+          "start": 518.105,
+          "end": 518.18
+        },
+        {
+          "text": "not",
+          "start": 518.18,
+          "end": 518.392
+        },
+        {
+          "text": "ideal",
+          "start": 518.392,
+          "end": 518.83
+        },
+        {
+          "text": "for",
+          "start": 518.83,
+          "end": 518.955
+        },
+        {
+          "text": "deterministic",
+          "start": 518.955,
+          "end": 519.68
+        },
+        {
+          "text": "pass/fail",
+          "start": 519.68,
+          "end": 520.28
+        },
+        {
+          "text": "gates",
+          "start": 520.28,
+          "end": 521.18
+        },
+        {
+          "text": ".",
+          "start": 521.18,
+          "end": 521.38
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "kind": "li",
+      "text": "Subscribe to this blog's feed.xml , next up: a deep-dive on Playwright's AI codegen (npx playwright codegen --ai) and how to generate an entire test suite from a requirements document.",
+      "start": 521.7,
+      "end": 534.1,
+      "words": [
+        {
+          "text": "Subscribe",
+          "start": 521.975,
+          "end": 522.475
+        },
+        {
+          "text": "to",
+          "start": 522.475,
+          "end": 522.562
+        },
+        {
+          "text": "this",
+          "start": 522.562,
+          "end": 522.75
+        },
+        {
+          "text": "blog's",
+          "start": 522.75,
+          "end": 523.075
+        },
+        {
+          "text": "feed.xml",
+          "start": 523.075,
+          "end": 524.413
+        },
+        {
+          "text": ",",
+          "start": 524.413,
+          "end": 524.475
+        },
+        {
+          "text": "next",
+          "start": 524.475,
+          "end": 524.763
+        },
+        {
+          "text": "up",
+          "start": 524.763,
+          "end": 525.475
+        },
+        {
+          "text": ":",
+          "start": 525.475,
+          "end": 525.613
+        },
+        {
+          "text": "a",
+          "start": 525.613,
+          "end": 525.725
+        },
+        {
+          "text": "deep-dive",
+          "start": 525.725,
+          "end": 526.238
+        },
+        {
+          "text": "on",
+          "start": 526.238,
+          "end": 526.35
+        },
+        {
+          "text": "Playwright's",
+          "start": 526.35,
+          "end": 526.838
+        },
+        {
+          "text": "AI",
+          "start": 526.838,
+          "end": 527.238
+        },
+        {
+          "text": "codegen",
+          "start": 527.238,
+          "end": 527.8
+        },
+        {
+          "text": "(",
+          "start": 527.8,
+          "end": 527.85
+        },
+        {
+          "text": "npx",
+          "start": 527.85,
+          "end": 528.45
+        },
+        {
+          "text": "playwright",
+          "start": 528.45,
+          "end": 528.85
+        },
+        {
+          "text": "codegen",
+          "start": 528.85,
+          "end": 529.3
+        },
+        {
+          "text": "--ai",
+          "start": 529.3,
+          "end": 529.95
+        },
+        {
+          "text": ")",
+          "start": 529.95,
+          "end": 530.05
+        },
+        {
+          "text": "and",
+          "start": 530.05,
+          "end": 530.175
+        },
+        {
+          "text": "how",
+          "start": 530.175,
+          "end": 530.35
+        },
+        {
+          "text": "to",
+          "start": 530.35,
+          "end": 530.45
+        },
+        {
+          "text": "generate",
+          "start": 530.45,
+          "end": 530.937
+        },
+        {
+          "text": "an",
+          "start": 530.937,
+          "end": 531.025
+        },
+        {
+          "text": "entire",
+          "start": 531.025,
+          "end": 531.475
+        },
+        {
+          "text": "test",
+          "start": 531.475,
+          "end": 531.838
+        },
+        {
+          "text": "suite",
+          "start": 531.838,
+          "end": 532.125
+        },
+        {
+          "text": "from",
+          "start": 532.125,
+          "end": 532.263
+        },
+        {
+          "text": "a",
+          "start": 532.263,
+          "end": 532.312
+        },
+        {
+          "text": "requirements",
+          "start": 532.312,
+          "end": 532.9
+        },
+        {
+          "text": "document",
+          "start": 532.9,
+          "end": 533.9
+        },
+        {
+          "text": ".",
+          "start": 533.9,
+          "end": 534.1
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "kind": "p",
+      "text": "See also: AI-Driven Test Strategy: From Copilot to Multi-Agent Orchestration (Jun 2026) , the overarching thesis on how multi-agent systems are reshaping QA, from test generation to self-healing suites. · Playwright AI Codegen in 2026 (Jul 2026) , the deep-dive teased above: generating test suites from natural language.",
+      "start": 534.42,
+      "end": 556.945,
+      "words": [
+        {
+          "text": "See",
+          "start": 534.72,
+          "end": 534.87
+        },
+        {
+          "text": "also",
+          "start": 534.87,
+          "end": 535.295
+        },
+        {
+          "text": ":",
+          "start": 535.295,
+          "end": 535.37
+        },
+        {
+          "text": "AI-Driven",
+          "start": 535.37,
+          "end": 535.97
+        },
+        {
+          "text": "Test",
+          "start": 535.97,
+          "end": 536.182
+        },
+        {
+          "text": "Strategy",
+          "start": 536.182,
+          "end": 537.045
+        },
+        {
+          "text": ":",
+          "start": 537.045,
+          "end": 537.145
+        },
+        {
+          "text": "From",
+          "start": 537.145,
+          "end": 537.32
+        },
+        {
+          "text": "Copilot",
+          "start": 537.32,
+          "end": 537.795
+        },
+        {
+          "text": "to",
+          "start": 537.795,
+          "end": 537.92
+        },
+        {
+          "text": "Multi-Agent",
+          "start": 537.92,
+          "end": 538.582
+        },
+        {
+          "text": "Orchestration",
+          "start": 538.582,
+          "end": 539.407
+        },
+        {
+          "text": "(",
+          "start": 539.407,
+          "end": 539.495
+        },
+        {
+          "text": "Jun",
+          "start": 539.495,
+          "end": 539.695
+        },
+        {
+          "text": "2026",
+          "start": 539.695,
+          "end": 540.97
+        },
+        {
+          "text": ")",
+          "start": 540.97,
+          "end": 541.058
+        },
+        {
+          "text": ",",
+          "start": 541.058,
+          "end": 541.108
+        },
+        {
+          "text": "the",
+          "start": 541.108,
+          "end": 541.22
+        },
+        {
+          "text": "overarching",
+          "start": 541.22,
+          "end": 541.845
+        },
+        {
+          "text": "thesis",
+          "start": 541.845,
+          "end": 542.232
+        },
+        {
+          "text": "on",
+          "start": 542.232,
+          "end": 542.345
+        },
+        {
+          "text": "how",
+          "start": 542.345,
+          "end": 542.52
+        },
+        {
+          "text": "multi-agent",
+          "start": 542.52,
+          "end": 543.17
+        },
+        {
+          "text": "systems",
+          "start": 543.17,
+          "end": 543.545
+        },
+        {
+          "text": "are",
+          "start": 543.545,
+          "end": 543.645
+        },
+        {
+          "text": "reshaping",
+          "start": 543.645,
+          "end": 544.17
+        },
+        {
+          "text": "QA",
+          "start": 544.17,
+          "end": 544.795
+        },
+        {
+          "text": ",",
+          "start": 544.795,
+          "end": 544.87
+        },
+        {
+          "text": "from",
+          "start": 544.87,
+          "end": 545.07
+        },
+        {
+          "text": "test",
+          "start": 545.07,
+          "end": 545.345
+        },
+        {
+          "text": "generation",
+          "start": 545.345,
+          "end": 545.97
+        },
+        {
+          "text": "to",
+          "start": 545.97,
+          "end": 546.095
+        },
+        {
+          "text": "self-healing",
+          "start": 546.095,
+          "end": 546.645
+        },
+        {
+          "text": "suites",
+          "start": 546.645,
+          "end": 547.72
+        },
+        {
+          "text": ".",
+          "start": 547.72,
+          "end": 547.87
+        },
+        {
+          "text": "Playwright",
+          "start": 547.92,
+          "end": 548.358
+        },
+        {
+          "text": "AI",
+          "start": 548.358,
+          "end": 548.695
+        },
+        {
+          "text": "Codegen",
+          "start": 548.695,
+          "end": 549.182
+        },
+        {
+          "text": "in",
+          "start": 549.182,
+          "end": 549.295
+        },
+        {
+          "text": "2026",
+          "start": 549.295,
+          "end": 550.545
+        },
+        {
+          "text": "(",
+          "start": 550.545,
+          "end": 550.62
+        },
+        {
+          "text": "Jul",
+          "start": 550.62,
+          "end": 550.87
+        },
+        {
+          "text": "2026",
+          "start": 550.87,
+          "end": 552.045
+        },
+        {
+          "text": ")",
+          "start": 552.045,
+          "end": 552.083
+        },
+        {
+          "text": ",",
+          "start": 552.083,
+          "end": 552.132
+        },
+        {
+          "text": "the",
+          "start": 552.132,
+          "end": 552.232
+        },
+        {
+          "text": "deep-dive",
+          "start": 552.232,
+          "end": 552.82
+        },
+        {
+          "text": "teased",
+          "start": 552.82,
+          "end": 553.095
+        },
+        {
+          "text": "above",
+          "start": 553.095,
+          "end": 553.845
+        },
+        {
+          "text": ":",
+          "start": 553.845,
+          "end": 553.945
+        },
+        {
+          "text": "generating",
+          "start": 553.945,
+          "end": 554.57
+        },
+        {
+          "text": "test",
+          "start": 554.57,
+          "end": 554.87
+        },
+        {
+          "text": "suites",
+          "start": 554.87,
+          "end": 555.232
+        },
+        {
+          "text": "from",
+          "start": 555.232,
+          "end": 555.408
+        },
+        {
+          "text": "natural",
+          "start": 555.408,
+          "end": 555.783
+        },
+        {
+          "text": "language",
+          "start": 555.783,
+          "end": 556.945
+        }
+      ]
+    }
+  ],
+  "audio": "narration.opus",
+  "generator": "kokoro-0.9.4"
+}
