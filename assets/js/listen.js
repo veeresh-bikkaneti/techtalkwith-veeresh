@@ -93,6 +93,7 @@
       block.el.classList.remove("is-current");
     });
     var current = null;
+    article.querySelectorAll(".listen-here").forEach(function (btn) { btn.remove(); });
     state.marks = [];
     state.blocks = [];
     article.querySelectorAll(".listen-w").forEach(function (span) {
@@ -133,6 +134,18 @@
     return Array.prototype.slice.call(el.querySelectorAll(".listen-w"));
   }
 
+  function addHereMarker(el, start) {
+    if (el.matches("h1") || typeof start !== "number") return;
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "listen-here";
+    btn.setAttribute("aria-label", "Listen from here");
+    btn.title = "Listen from here";
+    btn.addEventListener("click", function () { playFrom(start); });
+    el.classList.add("listen-has-here");
+    el.appendChild(btn);
+  }
+
   function align(manifest) {
     clearMarks();
     var dom = collectDomBlocks();
@@ -149,6 +162,7 @@
         }
       }
       if (!match) return;
+      addHereMarker(match.el, block.start);
       var spoken = [];
       (block.words || []).forEach(function (word) {
         var keys = expandToken(word.text);
@@ -341,7 +355,7 @@
     state.audio.playbackRate = state.rate;
   }
 
-  async function playNeural() {
+  async function playNeural(startAt) {
     var found = await probe();
     if (note) note.textContent = voiceNote(found);
     if (!found) {
@@ -354,6 +368,11 @@
     state.manifest = found.manifest;
     align(found.manifest);
     ensureAudio(found.audioUrl);
+    if (typeof startAt === "number") {
+      state.audio.currentTime = startAt;
+      state.followEl = null;
+      paint(startAt);
+    }
     if (seek) seek.disabled = false;
     setStatus("playing");
     try {
@@ -385,6 +404,29 @@
     playNeural();
   }
 
+  function playFrom(start) {
+    if (state.audio && state.manifest && state.status !== "stopped") {
+      state.audio.currentTime = start;
+      state.followEl = null;
+      paint(start);
+      if (state.status !== "playing") toggle();
+      return;
+    }
+    playNeural(start);
+  }
+
+  function prepare() {
+    return probe().then(function (found) {
+      if (note) note.textContent = voiceNote(found);
+      if (found && state.status === "stopped") {
+        state.manifest = found.manifest;
+        state.accent = found.accent;
+        align(found.manifest);
+      }
+      return found;
+    });
+  }
+
   function setAccent(pref) {
     var was = state.status === "playing";
     stopAll();
@@ -396,6 +438,7 @@
     state.manifest = null;
     state.audioUrl = "";
     if (was) playNeural();
+    else prepare();
   }
 
   function setRate(rate) {
@@ -442,8 +485,7 @@
     btn.setAttribute("aria-pressed", Number(btn.getAttribute("data-rate")) === state.rate ? "true" : "false");
   });
   setStatus("stopped");
-  probe().then(function (found) {
-    if (note) note.textContent = voiceNote(found);
+  prepare().then(function () {
     if (playBtn) playBtn.disabled = false;
   });
 })();
